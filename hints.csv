@@ -82,9 +82,9 @@ react-community/react-navigation,React
 react-native-community/react-native-elements,React
 reactide/reactide,React
 reactjs/redux,React
-realm/realm-cocoa,Salt
-realm/realm-dotnet,Salt
-realm/realm-java,Salt
-realm/realm-js,Salt
+realm/realm-cocoa,Realm
+realm/realm-dotnet,Realm
+realm/realm-java,Realm
+realm/realm-js,Realm
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
