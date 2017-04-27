@@ -1,0 +1,90 @@
+repo,project
+AngularClass/angular2-webpack-starter,Angular
+Automattic/jetpack,Automattic Jetpack
+Automattic/wp-calypso,WP Calypso
+Automattic/wp-e2e-tests,WP Calypso
+GoogleChrome/lighthouse,Google Chrome
+GoogleCloudPlatform/google-cloud-java,Google Cloud Platform
+GoogleCloudPlatform/google-cloud-node,Google Cloud Platform
+GoogleCloudPlatform/google-cloud-python,Google Cloud Platform
+JuliaLang/julia,Julia
+Microsoft/TypeScript,TypeScript
+Microsoft/vcpkg,VS Code
+Microsoft/visualfsharp,VS Code
+Microsoft/vscode,VS Code
+Microsoft/vscode-docs,VS Code
+Microsoft/vscode-go,VS Code
+angular-fullstack/generator-angular-fullstack,Angular
+angular-ui/ui-grid,Angular
+angular/angular,Angular
+angular/angular-cli,Angular
+angular/angular.io,Angular
+angular/angular.js,Angular
+angular/angularfire2,Angular
+angular/material,Angular
+angular/material2,Angular
+angular/protractor,Angular
+angular/tsickle,Angular
+docker/compose,Docker
+docker/containerd,Docker
+docker/distribution,Docker
+docker/docker,Docker
+docker/docker.github.io,Docker
+docker/labs,Docker
+docker/notary,Docker
+docker/swarm,Docker
+docker/swarmkit,Docker
+dotnet/cli,dotnet
+dotnet/eShopOnContainers,Microsoft
+dotnet/orleans,Microsoft Orleans
+dotnet/roslyn,VS Code
+dotnet/roslyn-project-system,VS Code
+facebook/react,React
+facebook/react-native,React
+facebookincubator/create-react-app,React
+google/ExoPlayer,Google ExoPlayer
+google/WebFundamentals,Google
+google/closure-compiler,Google
+google/flatbuffers,Google
+google/gapid,Google
+google/guetzli,Google
+google/material-design-lite,Google
+google/oss-fuzz,Google
+google/protobuf,Google
+google/python-fire,Google
+google/seq2seq,Google
+google/trillian,Google
+googleapis/toolkit,Google API
+googledatalab/pydatalab,Google
+googlei18n/libphonenumber,Google
+hashicorp/consul,HashiCorp Consul
+hashicorp/nomad,HashiCorp Nomad
+hashicorp/terraform,HashiCorp Terraform
+hashicorp/vault,HashiCorp Vault
+kubernetes-incubator/bootkube,Kubernetes
+kubernetes-incubator/kargo,Kubernetes
+kubernetes-incubator/kube-aws,Kubernetes
+kubernetes-incubator/service-catalog,Kubernetes
+kubernetes/charts,Kubernetes
+kubernetes/community,Kubernetes
+kubernetes/contrib,Kubernetes
+kubernetes/dashboard,Kubernetes
+kubernetes/heapster,Kubernetes
+kubernetes/helm,Kubernetes
+kubernetes/ingress,Kubernetes
+kubernetes/kops,Kubernetes
+kubernetes/kubernetes,Kubernetes
+kubernetes/kubernetes.github.io,Kubernetes
+kubernetes/minikube,Kubernetes
+kubernetes/test-infra,Kubernetes
+react-community/create-react-native-app,React
+react-community/react-navigation,React
+react-native-community/react-native-elements,React
+reactide/reactide,React
+reactjs/redux,React
+realm/realm-cocoa,Salt
+realm/realm-dotnet,Salt
+realm/realm-java,Salt
+realm/realm-js,Salt
+tensorflow/models,TensorFlow
+tensorflow/tensorflow,TensorFlow
