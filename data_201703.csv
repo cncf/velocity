@@ -24,7 +24,6 @@ ManageIQ,ManageIQ/manageiq,3168,2094,535,504,35,87
 home-assistant,home-assistant/home-assistant,3069,2363,285,188,233,71
 cockroachdb,cockroachdb/cockroach,2986,2098,268,325,295,24
 DefinitelyTyped,DefinitelyTyped/DefinitelyTyped,2795,1631,520,532,112,292
-githubschool,githubschool/open-enrollment-classes-introduction-to-github,2730,1016,399,793,522,296
 magento,magento/magento2,2586,2151,106,60,269,48
 ampproject,ampproject/amphtml,2438,1504,360,302,272,53
 brave,brave/browser-laptop,2428,1584,133,255,456,22
@@ -438,7 +437,6 @@ qTox,qTox/qTox,559,423,53,41,42,13
 OWASP,OWASP/owasp-mstg,559,93,51,225,190,16
 payara,payara/Payara,559,429,48,50,32,18
 kubernetes,kubernetes/minikube,559,392,65,53,49,18
-githubschool,githubschool/on-demand-github-pages,559,190,79,190,100,46
 elastic,elastic/beats,558,344,96,76,42,14
 auth0,auth0/docs,558,68,179,275,36,45
 GoogleChrome,GoogleChrome/lighthouse,558,303,56,144,55,15
