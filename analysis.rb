@@ -161,13 +161,18 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
   res = orgs_arr.sort_by { |item| -item[1] }
 
   no_url = false
+  miss = []
   res.each_with_index do |item, index|
     sum = item[2][:sum]
     project = sum['project']
-    if !urls.key?(project) and index <= 50
-      puts "Project ##{index} (#{sum['mode']}, #{sum['activity']}) #{project} (#{sum['org']}) (#{sum['repo']}) have no URL defined"
+    if !urls.key?(project)
+      s = "Project ##{index} (#{sum['mode']}, #{sum['activity']}) #{project} (#{sum['org']}) (#{sum['repo']}) have no URL defined"
+      if index <= 50
+        puts s
+        no_url = true
+      end
+      miss << s
       sum['url'] = ''
-      no_url = true
     else
       sum['url'] = urls[project]
     end
@@ -184,10 +189,10 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
   puts prjs
 
   puts "Top:"
-  tops = res[0..60].map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
-  all = res.map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
+  tops = res[0..60].map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]}, #{it[2][:sum]['authors']} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
+  all = res.map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]}, #{it[2][:sum]['authors']} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
   puts tops
-  puts "`all` to see all data"
+  puts "`all` to see all data, `miss` to see missing project's urls"
 
   binding.pry
 

@@ -43,20 +43,20 @@ facebook/react,React
 facebook/react-native,React
 facebookincubator/create-react-app,React
 google/ExoPlayer,Google ExoPlayer
-google/WebFundamentals,Google
-google/closure-compiler,Google
-google/flatbuffers,Google
-google/gapid,Google
-google/guetzli,Google
-google/material-design-lite,Google
-google/oss-fuzz,Google
-google/protobuf,Google
-google/python-fire,Google
-google/seq2seq,Google
-google/trillian,Google
+google/WebFundamentals,Google WebFundamentals
+google/closure-compiler,Google Closure Compiler
+google/flatbuffers,Google FlatBuffers
+google/gapid,Google other
+google/guetzli,Google other
+google/material-design-lite,Google other
+google/oss-fuzz,Google other
+google/protobuf,Google other
+google/python-fire,Google other
+google/seq2seq,Google other
+google/trillian,Google other
 googleapis/toolkit,Google API
-googledatalab/pydatalab,Google
-googlei18n/libphonenumber,Google
+googledatalab/pydatalab,Google other
+googlei18n/libphonenumber,Google i18n
 hashicorp/consul,HashiCorp Consul
 hashicorp/nomad,HashiCorp Nomad
 hashicorp/terraform,HashiCorp Terraform

@@ -10,6 +10,7 @@ Azure,azure.github.io
 Brave Software,brave.com
 CARTO,carto.com
 Cockroach DB,cockroachlabs.com
+Dart,dartlang.org
 DefinitelyTyped,definitelytyped.org
 Department of Veterans Affairs,va.gov
 Docker,mobyproject.org
@@ -21,8 +22,13 @@ GRPC,grpc.io
 Google,google.com
 Google API,developers.google.com/apis-explorer
 Google Chrome,google.com/chrome
+Google Closure Compiler,developers.google.com/closure/compiler
 Google Cloud Platform,cloud.google.com
 Google ExoPlayer,github.com/google/ExoPlayer
+Google FlatBuffers,http://google.github.io/flatbuffers
+Google WebFundamentals,developers.google.com/web/fundamentals
+Google i18n,developers.google.com/international
+Google other,google.com
 HashiCorp Consul,consul.io
 HashiCorp Nomad,nomadproject.io
 HashiCorp Terraform,terraform.io
