@@ -26,7 +26,7 @@ joomla,joomla-cms,2295,1874,136,94,191,26,Joomla,joomla.org
 tensorflow,tensorflow+models,2279,1778,179,78,244,40,TensorFlow,tensorflow.org
 influxdata,influxdb,2172,1388,128,463,193,25,InfluxData,influxdata.com
 saltstack,salt,2167,1520,358,24,265,15,SaltStack,repo.saltstack.com
-TEAMMATES,teammates,2138,1352,180,478,128,37,TEAMMATES,http://teammatesv4.appspot.com
+TEAMMATES,teammates,2138,1352,180,478,128,37,TEAMMATES,teammatesv4.appspot.com
 npm,npm,2065,1538,55,85,387,13,npm,npmjs.com
 JuliaLang,julia,2018,1475,127,240,176,38,Julia,julialang.org
 magento,magento2,1994,1506,57,80,351,55,Magento,magento.com/home
@@ -42,26 +42,26 @@ cfpb,cfgov-refresh,1826,824,251,731,20,11,Consumer Financial Protection Bureau,c
 yogstation13,yogstation,1786,1263,171,211,141,20,Yogstation13,yogstation.net
 CartoDB,cartodb,1774,719,152,765,138,23,CARTO,carto.com
 mapbox,mapbox-gl-native+mapbox-gl-js,1753,1005,117,384,247,32,Mapbox,mapbox.com
-mattermost,platform,1750,1112,227,301,110,21,mattermost,""
+mattermost,platform,1750,1112,227,301,110,21,Mattermost,mattermost.org
 openshift,openshift-docs+openshift-ansible,1721,1122,269,281,49,69,OpenShift,openshift.com
 mozilla,addons-server+thimble.mozilla.org,1707,875,128,489,215,89,Mozilla,mozilla.org
 nylas,N1,1676,1134,29,190,323,18,Nylas,nylas.com
-NativeScript,NativeScript+android-runtime+docs,1664,949,143,407,165,55,NativeScript,""
-fastlane,fastlane,1655,1209,156,69,221,18,fastlane,""
-voidlinux,void-packages,1648,674,158,748,68,42,voidlinux,""
+NativeScript,NativeScript+android-runtime+docs,1664,949,143,407,165,55,NativeScript,nativescript.org
+fastlane,fastlane,1655,1209,156,69,221,18,fastlane,fastlane.tools
+voidlinux,void-packages,1648,674,158,748,68,42,The Void distribution,voidlinux.eu
 realm,realm-java+realm-cocoa,1600,1130,51,230,189,22,Realm,realm.io
 DefinitelyTyped,DefinitelyTyped,1597,777,418,333,69,220,DefinitelyTyped,definitelytyped.org
 facebook,presto+osquery+rocksdb,1567,995,200,247,125,69,Facebook,facebook.com
 TrinityCore,TrinityCore,1565,1066,64,309,126,40,TrinityCore,trinitycore.org
 odoo,odoo,1547,678,303,441,125,80,Odoo,odoo.com
-ethcore,parity,1540,337,232,875,96,14,ethcore,""
+ethcore,parity,1540,337,232,875,96,14,Parity,github.com/paritytech/parity
 galaxyproject,galaxy+tools-iuc,1524,1056,186,171,111,31,galaxyproject,""
 Microsoft,CNTK,1501,661,15,704,121,38,Microsoft Cognitive Toolkit,cntk.ai
 CleverRaven,Cataclysm-DDA,1483,998,199,154,132,31,Cataclysm-DDA,en.cataclysmdda.com
-eslint,eslint,1463,1099,116,69,179,18,eslint,""
-RocketChat,Rocket.Chat,1458,915,93,218,232,13,RocketChat,""
+eslint,eslint,1463,1099,116,69,179,18,eslint,eslint.org
+RocketChat,Rocket.Chat,1458,915,93,218,232,13,RocketChat,rocket.chat
 emberjs,ember.js+data,1451,1007,169,164,111,47,emberjs,""
-Yoast,wordpress-seo+YoastSEO.js,1450,643,101,495,211,37,Yoast,""
+Yoast,wordpress-seo+YoastSEO.js,1450,643,101,495,211,37,Yoast SEO,yoast.com/wordpress/seo
 pymedusa,SickRage,1419,334,177,881,27,14,pymedusa,""
 Microsoft,ChakraCore,1394,1029,259,41,65,17,Microsoft Chakra,github.com/Microsoft/ChakraCore
 department-of-veterans-affairs,vets-website,1393,471,265,570,87,20,Department of Veterans Affairs,va.gov
@@ -69,16 +69,16 @@ JabRef,jabref,1378,949,116,235,78,17,JabRef,""
 facebook,react,1376,1085,96,72,123,35,React,facebook.github.io/react-native
 druid-io,druid,1365,913,237,157,58,25,druid-io,""
 sympy,sympy,1365,1058,140,73,94,37,sympy,""
-Particular,docs.particular.net+NServiceBus,1355,806,87,384,78,54,Particular,""
+Particular,docs.particular.net+NServiceBus,1355,806,87,384,78,54,NServiceBus,particular.net/nservicebus
 subutai-io,base,1325,152,203,788,182,28,subutai-io,""
 PX4,Firmware,1319,897,116,204,102,20,PX4,""
 akeneo,pim-community-dev,1313,345,175,773,20,24,akeneo,""
-HippieStationCode,HippieStation13,1307,1058,103,82,64,14,HippieStationCode,""
+HippieStationCode,HippieStation13,1307,1058,103,82,64,14,HippieStationCode,github.com/HippieStationCode/HippieStation13
 Project-OSRM,osrm-backend,1251,507,72,576,96,13,Project-OSRM,""
 hazelcast,hazelcast,1243,753,199,223,68,26,hazelcast,""
 callemall,material-ui,1223,918,104,54,147,23,callemall,""
-airbnb,airflow+enzyme,1218,747,147,219,105,60,airbnb,""
-mesosphere,marathon,1217,548,99,391,179,22,mesosphere,""
+airbnb,airflow+enzyme,1218,747,147,219,105,60,Airbnb,airbnb.io
+mesosphere,marathon,1217,548,99,391,179,22,Mesosphere,mesosphere.com
 OfficeDev,Office-UI-Fabric+office-js-docs+PnP-Sites-Core+microsoft-graph-docs+PnP,1212,393,227,477,115,82,OfficeDev,""
 RIOT-OS,RIOT,1205,1083,64,38,20,16,RIOT-OS,""
 ScottLogic,StockFlux,1198,597,151,315,135,12,ScottLogic,""
@@ -97,7 +97,7 @@ docker,docker-birthday-3+libnetwork+docker-py,1129,637,172,214,106,65,docker,""
 grafana,grafana,1113,675,96,120,222,17,grafana,""
 HabitRPG,habitrpg,1112,707,95,200,110,20,HabitRPG,""
 caskroom,homebrew-cask,1092,448,434,128,82,69,Homebrew Cask,caskroom.github.io
-coreos,rkt+coreos-kubernetes,1084,782,117,101,84,25,coreos,""
+coreos,rkt+coreos-kubernetes,1084,782,117,101,84,25,CoreOS,coreos.com
 scikit-learn,scikit-learn,1073,892,69,30,82,24,scikit-learn,""
 EFForg,https-everywhere,1071,608,219,149,95,38,EFForg,""
 acemod,ACE3,1069,736,86,163,84,16,acemod,""
@@ -108,7 +108,7 @@ playframework,playframework,1030,668,125,144,93,30,playframework,""
 HubTurbo,HubTurbo,1029,650,92,226,61,17,HubTurbo,""
 orientechnologies,orientdb,1026,678,11,212,125,11,orientechnologies,""
 citra-emu,citra,1013,755,86,63,109,18,citra-emu,""
-serverless,serverless,1007,602,86,176,143,23,serverless,""
+serverless,serverless,1007,602,86,176,143,23,Serverless Framework,serverless.com
 akka,akka,996,758,76,55,107,14,akka,""
 deeplearning4j,nd4j+deeplearning4j,995,289,141,416,149,32,deeplearning4j,""
 greenplum-db,gpdb,993,722,123,121,27,41,greenplum-db,""
@@ -122,7 +122,7 @@ RPCS3,rpcs3,965,763,71,75,56,14,RPCS3,""
 KhronosGroup,Vulkan-LoaderAndValidationLayers,960,504,104,258,94,23,KhronosGroup,""
 minetest,minetest,957,834,46,17,60,11,minetest,""
 sakaiproject,sakai,940,390,247,280,23,39,sakaiproject,""
-OpenRCT2,OpenRCT2,937,666,57,108,106,18,OpenRCT2,""
+OpenRCT2,OpenRCT2,937,666,57,108,106,18,OpenRCT2,openrct2.website
 hashicorp,nomad,932,408,103,361,60,20,HashiCorp Nomad,nomadproject.io
 elsys,po-homework,918,154,62,612,90,96,elsys,""
 ngageoint,hootenanny,909,492,45,289,83,12,ngageoint,""
@@ -139,7 +139,7 @@ Automattic,jetpack,859,314,99,394,52,35,Automattic Jetpack,jetpack.com
 torchbox,wagtail,853,604,70,106,73,26,torchbox,""
 osmandapp,Osmand,850,333,19,396,102,47,osmandapp,""
 BVLC,caffe,850,609,48,57,136,24,BVLC,""
-dmlc,mxnet,845,583,92,33,137,19,dmlc,""
+dmlc,mxnet,845,583,92,33,137,19,Distributed Machine Learning Community,dmlc.github.io
 solettaproject,soletta,832,451,140,89,152,15,solettaproject,""
 AnalyticalGraphicsInc,cesium,832,446,97,239,50,15,AnalyticalGraphicsInc,""
 systemd,systemd,828,583,92,75,78,39,systemd,""
@@ -168,7 +168,7 @@ OpenRA,OpenRA,772,578,53,65,76,17,OpenRA,""
 rathena,rathena,771,521,26,112,112,11,rathena,""
 ethereum,go-ethereum,763,573,61,53,76,12,Ethereum,ethereum.org
 c4cs,c4cs.github.io,754,389,108,149,108,83,c4cs,""
-chef,chef,753,453,70,193,37,25,chef,""
+chef,chef,753,453,70,193,37,25,Chef,chef.io/chef
 PCSX2,pcsx2,752,617,31,70,34,14,PCSX2,""
 spotify,docker-client+luigi,750,489,82,150,29,28,spotify,""
 Dolibarr,dolibarr,746,223,143,288,92,23,Dolibarr,""
@@ -179,7 +179,7 @@ pi-hole,pi-hole,737,642,22,34,39,11,pi-hole,""
 MovingBlocks,Terasology,731,608,45,45,33,27,MovingBlocks,""
 diydrones,ardupilot,729,551,62,74,42,20,diydrones,""
 algonquindesign-grads,2016,716,163,121,378,54,11,algonquindesign-grads,""
-Baystation12,Baystation12,714,378,133,121,82,24,Baystation12,""
+Baystation12,Baystation12,714,378,133,121,82,24,Baystation12,baystation12.net
 rapid7,metasploit-framework,713,478,87,113,35,39,rapid7,""
 IBM-Swift,Kitura,708,391,14,175,128,14,IBM-Swift,""
 LMFDB,lmfdb,704,249,142,203,110,15,LMFDB,""
@@ -202,7 +202,7 @@ JMRI,JMRI,662,240,204,201,17,14,JMRI,""
 pkp,pkp-lib,658,443,46,82,87,13,pkp,""
 curl,curl,657,455,24,139,39,18,curl,""
 DarkstarProject,darkstar,657,394,58,140,65,21,DarkstarProject,""
-pingcap,tidb,650,268,91,267,24,11,pingcap,""
+pingcap,tidb,650,268,91,267,24,11,PingCAP,github.com/pingcap
 freenode,web-7.0,649,98,53,455,43,15,freenode,""
 prometheus,prometheus,647,431,35,130,51,13,prometheus,""
 ArmaLife,Altis,641,400,77,119,45,20,ArmaLife,""
@@ -213,7 +213,7 @@ Yelp,paasta,623,184,77,333,29,15,Yelp,""
 bokeh,bokeh,623,414,44,96,69,12,bokeh,""
 PaperMC,Paper,621,341,34,164,82,16,PaperMC,""
 symengine,symengine,619,508,52,41,18,14,symengine,""
-libretro,RetroArch,616,154,31,395,36,14,libretro,""
+libretro,RetroArch,616,154,31,395,36,14,libretro,libretro.com
 CGAL,cgal,611,399,73,88,51,14,CGAL,""
 moment,moment,610,493,32,27,58,19,moment,""
 rcbops,rpc-openstack,609,462,49,66,32,12,rcbops,""

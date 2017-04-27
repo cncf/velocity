@@ -1,6 +1,6 @@
 org,repo,activity,comments,prs,commits,issues,authors,project,url
 kubernetes+kubernetes-incubator,kubernetes+kubernetes.github.io+charts+kops+test-infra+service-catalog+kargo+community+minikube+helm+bootkube+heapster,14803,11366,1732,877,828,322,Kubernetes,kubernetes.io
-Microsoft+dotnet,vscode+roslyn+vsts-tasks+vcpkg+msbuild+vsts-agent,10751,7136,534,1073,2008,125,VS Code,code.visualstudio.com
+Microsoft+dotnet,vscode+roslyn+vsts-tasks+vcpkg+vstest+msbuild+vsts-agent+vscode-mssql,11594,7612,632,1227,2123,149,VS Code,code.visualstudio.com
 dotnet,corefx+coreclr+cli+docs+docfx+core-setup+corert+corefxlab,9959,6964,1157,1134,704,215,dotnet,microsoft.com/net
 angular+AngularClass,angular-cli+angular+material2+angular.js+angular.io+angular2-webpack-starter,9597,6714,769,721,1393,154,Angular,angular.io
 docker,docker+docker.github.io+compose+swarmkit+containerd,8044,5654,800,755,835,223,Docker,mobyproject.org
@@ -36,7 +36,6 @@ palantir,atlasdb+blueprint+tslint,2226,889,241,922,174,70,Palantir Technologies,
 mantidproject,mantid,2166,715,209,1074,168,42,Mantid,mantidproject.org
 keybase,client,2141,993,227,713,208,20,Keybase,keybase.io
 eclipse,che+kapua+omr,2102,999,228,632,243,70,Eclipse,eclipse.org
-Microsoft,UWPCommunityToolkit+vstest+AirSim+vscode-mssql,2079,1333,164,342,240,64,Microsoft,""
 wordpress-mobile,WordPress-iOS+WordPress-Android,2073,837,225,761,250,35,WordPress-mobile,make.wordpress.org/mobile
 DefinitelyTyped,DefinitelyTyped,2002,1149,455,288,110,201,DefinitelyTyped,definitelytyped.org
 influxdata,telegraf+influxdb+chronograf,1959,1031,169,525,234,44,InfluxData,influxdata.com
@@ -44,7 +43,7 @@ rails,rails+webpacker,1958,1311,283,222,142,82,Ruby on Rails,rubyonrails.org
 facebook,AsyncDisplayKit+reason+osquery+draft-js+immutable-js,1945,1168,204,397,176,67,Facebook,facebook.com
 fastlane,fastlane,1937,1383,142,222,190,44,fastlane,fastlane.tools
 RobotLocomotion,drake,1918,1684,106,88,40,22,RobotLocomotion,drake.mit.edu
-Baystation12,Baystation12,1873,1216,290,235,132,32,Baystation12,""
+Baystation12,Baystation12,1873,1216,290,235,132,32,Baystation12,baystation12.net
 Automattic,jetpack,1855,966,195,590,104,66,Automattic Jetpack,jetpack.com
 cockroachdb,cockroach,1842,1316,184,214,128,25,Cockroach DB,cockroachlabs.com
 realm,realm-java+realm-cocoa,1809,1220,92,338,159,31,Realm,realm.io
@@ -65,29 +64,30 @@ HippieStation,HippieStation13,1494,1000,191,181,122,23,HippieStation,""
 NativeScript,NativeScript+nativescript-cli,1489,954,110,232,193,30,NativeScript,nativescript.org
 alibaba,weex+rax,1485,617,218,411,239,51,alibaba,""
 nextcloud,server,1475,987,113,205,170,24,Nextcloud,nextcloud.com
-mattermost,platform+docs,1449,549,287,491,122,46,mattermost,""
+mattermost,platform+docs,1449,549,287,491,122,46,Mattermost,mattermost.org
 odoo,odoo,1435,731,266,320,118,83,Odoo,odoo.com
 ARMmbed,mbed-os,1413,1096,112,137,68,41,ARMmbed,""
 gradle,gradle,1399,571,63,630,135,28,gradle,""
-RocketChat,Rocket.Chat,1375,821,111,211,232,24,RocketChat,""
+RocketChat,Rocket.Chat,1375,821,111,211,232,24,RocketChat,rocket.chat
 mitodl,micromasters,1307,432,104,669,102,15,MIT Office of Digital Learning,odl.mit.edu
 ElemeFE,element,1303,742,95,72,394,19,ElemeFE,""
 Microsoft,BotBuilder,1294,1022,11,47,214,13,Microsoft BotBuilder,botframework.com
 vaadin,framework,1280,670,155,304,151,23,vaadin,""
 Particular,docs.particular.net+NServiceBus,1262,553,108,552,49,46,NServiceBus,particular.net/nservicebus
 fabric8io,fabric8-planner+fabric8-ui+kubernetes-client+fabric8,1261,560,185,335,181,55,fabric8io,""
-PX4,Firmware,1258,787,138,258,75,32,PX4,""
 mesosphere,marathon,1258,619,45,420,174,20,Mesosphere,mesosphere.com
+PX4,Firmware,1258,787,138,258,75,32,PX4,""
+Microsoft,UWPCommunityToolkit+AirSim,1236,857,66,188,125,40,Microsoft,""
 atomist,rug+end-user-documentation,1235,252,114,809,60,30,atomist,""
 CleverRaven,Cataclysm-DDA,1231,880,141,104,106,32,Cataclysm-DDA,en.cataclysmdda.com
-betaflight,betaflight,1224,871,109,136,108,17,betaflight,""
+betaflight,betaflight,1224,871,109,136,108,17,Betaflight,github.com/betaflight/betaflight/releases
 greenplum-db,gpdb,1221,693,225,289,14,54,greenplum-db,""
 csu2017sp314,class,1206,273,304,547,82,112,csu2017sp314,""
 libretro,RetroArch,1197,609,87,404,97,33,libretro,libretro.com
 uber-go,fx+zap,1194,507,163,467,57,32,uber-go,""
-godotengine,godot,1190,835,100,129,126,36,godotengine,""
+godotengine,godot,1190,835,100,129,126,36,Godot Engine,godotengine.org
 deeplearning4j,deeplearning4j+nd4j,1189,503,120,463,103,44,deeplearning4j,""
-wireapp,wire-ios+wire-android,1173,415,166,514,78,25,wireapp,""
+wireapp,wire-ios+wire-android,1173,415,166,514,78,25,Wire Swiss GmbH,wire.com
 5calls,5calls+ios,1173,700,119,222,132,35,5calls,""
 systemd,systemd,1170,846,129,84,111,33,systemd,""
 owncloud,core,1163,788,81,219,75,21,ownCloud,owncloud.org
@@ -108,7 +108,7 @@ GoogleCloudPlatform,google-cloud-python+google-cloud-java,1082,764,98,115,105,23
 electron,electron,1079,818,50,51,160,14,electron,""
 jhipster,generator-jhipster,1078,743,150,49,136,24,jhipster,""
 ant-design,ant-design,1077,684,71,58,264,14,Ant Design,ant.design
-voidlinux,void-packages,1077,377,151,497,52,50,voidlinux,""
+voidlinux,void-packages,1077,377,151,497,52,50,The Void distribution,voidlinux.eu
 metabase,metabase,1074,702,63,183,126,12,metabase,""
 openwrt,packages+luci,1068,677,161,187,43,68,openwrt,""
 EFForg,https-everywhere,1068,339,521,165,43,14,EFForg,""
@@ -238,7 +238,7 @@ KhronosGroup,Vulkan-LoaderAndValidationLayers+glslang,644,225,86,299,34,35,Khron
 GeekyAnts,NativeBase,635,413,18,97,107,11,GeekyAnts,""
 zammad,zammad,635,397,15,116,107,11,zammad,""
 almighty,almighty-core,634,341,92,95,106,14,almighty,""
-OpenRCT2,OpenRCT2,634,440,54,75,65,16,OpenRCT2,""
+OpenRCT2,OpenRCT2,634,440,54,75,65,16,OpenRCT2,openrct2.website
 hazelcast,hazelcast,633,267,125,158,83,24,hazelcast,""
 hashicorp,nomad,630,267,70,246,47,21,HashiCorp Nomad,nomadproject.io
 sakaiproject,sakai,629,273,147,195,14,32,sakaiproject,""
@@ -625,7 +625,7 @@ RoboJackets,robocup-software,163,70,18,62,13,11,RoboJackets,""
 ,kvhnuke/etherwallet,156,30,13,102,11,11,kvhnuke/etherwallet,""
 facebookincubator,prophet,156,83,17,22,34,15,facebookincubator,""
 ,k4m4/movies-for-hackers,155,21,41,77,16,17,k4m4/movies-for-hackers,""
-vuejs,vuejs.org,152,86,22,22,22,13,vuejs,""
+vuejs,vuejs.org,152,86,22,22,22,13,vuejs,vuejs.org
 ,robmorgan/phinx,144,92,15,26,11,12,robmorgan/phinx,""
 ,mubaris/yes,140,36,28,57,19,14,mubaris/yes,""
 skbkontur,retail-ui,129,26,15,66,22,12,skbkontur,""

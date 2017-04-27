@@ -51,7 +51,7 @@ influxdata,influxdb+telegraf+docs.influxdata.com,1718,930,135,468,185,48,InfluxD
 RobotLocomotion,drake,1687,1444,100,79,64,23,RobotLocomotion,drake.mit.edu
 CartoDB,cartodb,1677,695,135,591,256,20,CARTO,carto.com
 webpack,webpack+webpack.js.org,1663,1145,159,188,171,43,webpack,""
-zeit,next.js+hyper,1660,1298,67,149,146,33,zeit,""
+zeit,next.js+hyper,1660,1298,67,149,146,33,ZEIT,zeit.co
 owncloud,core+client,1655,1237,76,211,131,26,ownCloud,owncloud.org
 keybase,client,1627,684,161,722,60,18,Keybase,keybase.io
 brave,browser-laptop,1600,1016,94,121,369,19,Brave Software,brave.com
@@ -69,24 +69,24 @@ bitcoin,bitcoin,1405,1178,131,35,61,21,bitcoin,""
 flutter,flutter,1390,900,149,126,215,21,flutter,""
 grpc,grpc,1387,907,201,143,136,26,GRPC,grpc.io
 koding,koding,1383,424,194,619,146,21,koding,""
-airbnb,superset+react-native-maps+knowledge-repo,1363,840,129,219,175,34,airbnb,""
+airbnb,superset+react-native-maps+knowledge-repo,1363,840,129,219,175,34,Airbnb,airbnb.io
 frappe,erpnext+frappe,1330,471,260,373,226,48,frappe,""
 odota,ui,1325,215,47,1007,56,12,odota,""
 Microsoft,BotBuilder,1306,965,16,117,208,21,Microsoft BotBuilder,botframework.com
 grafana,grafana,1305,856,61,136,252,20,grafana,""
-nextcloud,server,1294,844,78,220,152,23,nextcloud,""
+nextcloud,server,1294,844,78,220,152,23,Nextcloud,nextcloud.com
 Project-OSRM,osrm-backend,1288,502,91,612,83,17,Project-OSRM,""
-RocketChat,Rocket.Chat,1272,771,75,231,195,33,RocketChat,""
-betaflight,betaflight,1250,878,145,149,78,26,betaflight,""
+RocketChat,Rocket.Chat,1272,771,75,231,195,33,RocketChat,rocket.chat
+betaflight,betaflight,1250,878,145,149,78,26,Betaflight,github.com/betaflight/betaflight/releases
 openssl,openssl,1242,816,145,226,55,29,openssl,""
 ArduPilot,ardupilot,1231,861,136,165,69,45,ArduPilot,""
 woocommerce,woocommerce,1215,589,114,344,168,29,woocommerce,""
 cdnjs,cdnjs,1212,859,172,42,139,16,cdnjs,""
-libretro,RetroArch,1176,516,85,494,81,25,libretro,""
+libretro,RetroArch,1176,516,85,494,81,25,libretro,libretro.com
 OfficeDev,office-ui-fabric-react+office-ui-fabric-js+office-js-docs+PnP-Sites-Core,1174,504,156,352,162,63,OfficeDev,""
 systemd,systemd,1146,842,108,75,121,34,systemd,""
-godotengine,godot,1139,822,72,104,141,36,godotengine,""
-voidlinux,void-packages,1137,356,131,620,30,43,voidlinux,""
+godotengine,godot,1139,822,72,104,141,36,Godot Engine,godotengine.org
+voidlinux,void-packages,1137,356,131,620,30,43,The Void distribution,voidlinux.eu
 spring-projects,spring-boot,1131,712,66,179,174,15,spring-projects,""
 BSData,wh40k,1121,567,38,202,314,16,BSData,""
 01org,ciao+zephyr.js,1114,673,171,152,118,25,01org,""
@@ -108,7 +108,7 @@ openwrt,packages+openwrt,1017,599,209,156,53,75,openwrt,""
 matplotlib,matplotlib,1014,808,79,63,64,26,matplotlib,""
 crate,crate,1013,180,150,660,23,13,crate,""
 scikit-learn,scikit-learn,1005,865,73,16,51,12,scikit-learn,""
-mattermost,platform,1004,426,220,296,62,32,mattermost,""
+mattermost,platform,1004,426,220,296,62,32,Mattermost,mattermost.org
 mapsme,omim,999,575,199,201,24,22,MAPS.ME,maps.me
 minetest,minetest,988,858,42,28,60,16,minetest,""
 yogstation13,yogstation,986,727,113,89,57,17,Yogstation13,yogstation.net
@@ -144,7 +144,7 @@ opentx,opentx,823,454,66,250,53,15,opentx,""
 syncthing,syncthing,821,564,34,173,50,18,syncthing,""
 getsentry,sentry,818,290,102,365,61,17,getsentry,""
 thaliproject,Thali_CordovaPlugin,807,324,63,355,65,16,thaliproject,""
-Baystation12,Baystation12,798,477,149,122,50,28,Baystation12,""
+Baystation12,Baystation12,798,477,149,122,50,28,Baystation12,baystation12.net
 strongloop,loopback,788,589,40,100,59,13,strongloop,""
 greenplum-db,gpdb,784,483,108,172,21,39,greenplum-db,""
 dash-project,dash,774,334,73,298,69,15,dash-project,""
@@ -182,7 +182,7 @@ JabRef,jabref,670,400,52,158,60,26,JabRef,""
 certbot,certbot,669,478,49,73,69,19,certbot,""
 ethereum,go-ethereum,666,384,112,106,64,20,Ethereum,ethereum.org
 pixijs,pixi.js,665,423,55,90,97,19,pixijs,""
-OpenRCT2,OpenRCT2,661,461,63,94,43,18,OpenRCT2,""
+OpenRCT2,OpenRCT2,661,461,63,94,43,18,OpenRCT2,openrct2.website
 scalajp,2017.scalamatsuri.org,658,149,116,234,159,16,scalajp,""
 dotCMS,core,647,207,68,237,135,25,dotCMS,""
 citra-emu,citra,645,508,43,36,58,15,citra-emu,""
@@ -270,7 +270,7 @@ projecthydra,sufia,499,188,56,210,45,11,projecthydra,""
 openwhisk,openwhisk,497,331,67,50,49,14,openwhisk,""
 openaddresses,openaddresses,496,326,57,87,26,12,openaddresses,""
 ceph,ceph-ansible,495,287,57,132,19,14,ceph,""
-wireapp,wire-ios,493,162,59,239,33,15,wireapp,""
+wireapp,wire-ios,493,162,59,239,33,15,Wire Swiss GmbH,wire.com
 prebid,Prebid.js,487,305,51,100,31,18,prebid,""
 Automattic,mongoose,485,343,11,51,80,11,Automattic,""
 pantheon-systems,terminus+documentation,483,125,88,245,25,29,pantheon-systems,""
@@ -434,7 +434,7 @@ FAForever,fa,269,162,29,54,24,12,FAForever,""
 SparkDevNetwork,Rock,267,75,32,139,21,16,SparkDevNetwork,""
 torch,cutorch+nn,264,133,53,49,29,25,torch,""
 LSBUGPG,UnityLibrary,261,60,44,127,30,19,LSBUGPG,""
-vuejs,vuejs.org,261,157,35,50,19,16,vuejs,""
+vuejs,vuejs.org,261,157,35,50,19,16,vuejs,vuejs.org
 esl,MongooseIM,261,81,27,130,23,11,esl,""
 Kinto,kinto,257,108,38,80,31,11,Kinto,""
 OthloTech,OthloTech,255,110,30,99,16,11,OthloTech,""

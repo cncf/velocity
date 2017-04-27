@@ -56,13 +56,13 @@ vmware,vic+clarity,1793,1010,208,248,327,43,VMware,vmware.github.io
 flutter,flutter,1781,1025,276,254,226,23,flutter,""
 driftyco,ionic,1766,1188,43,173,362,27,Ionic,ionicframework.com
 RobotLocomotion,drake,1758,1517,112,95,34,26,RobotLocomotion,drake.mit.edu
-godotengine,godot,1739,1284,134,136,185,33,godotengine,""
+godotengine,godot,1739,1284,134,136,185,33,Godot Engine,godotengine.org
 vaadin,framework+vaadin-grid,1693,871,163,488,171,36,vaadin,""
 openSUSE,open-build-service+osem,1674,1151,230,216,77,40,openSUSE,""
 highfidelity,hifi,1664,1059,263,308,34,32,highfidelity,""
 zulip,zulip,1660,1217,258,26,159,11,zulip,""
-RocketChat,Rocket.Chat,1650,971,133,316,230,35,RocketChat,""
-vuejs,vue+vue-loader+vuejs.org,1629,1020,132,162,315,71,vuejs,""
+RocketChat,Rocket.Chat,1650,971,133,316,230,35,RocketChat,rocket.chat
+vuejs,vue+vue-loader+vuejs.org,1629,1020,132,162,315,71,vuejs,vuejs.org
 mantidproject,mantid,1617,468,130,889,130,38,Mantid,mantidproject.org
 wix,wix-style-react+react-native-navigation+yoshi,1604,390,111,951,152,64,wix,""
 PX4,Firmware,1541,1061,126,221,133,28,PX4,""
@@ -85,20 +85,20 @@ npm,npm,1413,998,28,103,284,12,npm,npmjs.com
 chapel-lang,chapel,1406,724,310,291,81,20,chapel-lang,""
 ARMmbed,mbed-os,1399,1073,141,87,98,36,ARMmbed,""
 coala,coala,1391,1180,108,30,73,13,coala,""
-Baystation12,Baystation12,1383,986,186,147,64,28,Baystation12,""
+Baystation12,Baystation12,1383,986,186,147,64,28,Baystation12,baystation12.net
 TEAMMATES,teammates,1378,909,130,164,175,46,TEAMMATES,teammatesv4.appspot.com
 openMF,community-app+self-service-app,1369,883,205,108,173,31,openMF,""
 mitodl,micromasters,1369,460,140,645,124,14,MIT Office of Digital Learning,odl.mit.edu
 fastlane,fastlane,1362,986,101,85,190,25,fastlane,fastlane.tools
 opentx,opentx,1360,873,91,278,118,16,opentx,""
-mattermost,platform,1331,547,299,438,47,31,mattermost,""
+mattermost,platform,1331,547,299,438,47,31,Mattermost,mattermost.org
 getsentry,sentry+raven-js,1331,569,156,538,68,42,getsentry,""
 chain,chain,1322,442,191,678,11,21,chain,""
 greenplum-db,gpdb,1317,768,217,302,30,50,greenplum-db,""
 mlr-org,mlr+mlr-tutorial,1314,534,90,585,105,45,mlr-org,""
 istio,manager+mixer+istio,1292,517,250,422,103,42,istio,""
 ,rg3/youtube-dl,1282,880,52,112,238,19,rg3/youtube-dl,""
-betaflight,betaflight,1274,905,120,125,124,25,betaflight,""
+betaflight,betaflight,1274,905,120,125,124,25,Betaflight,github.com/betaflight/betaflight/releases
 Particular,docs.particular.net+NServiceBus,1265,656,132,437,40,45,NServiceBus,particular.net/nservicebus
 corda,corda,1264,378,173,694,19,31,corda,""
 alibaba,weex+atlas+rax,1263,571,85,394,213,38,alibaba,""
@@ -129,7 +129,7 @@ akka,akka+akka-http,1154,812,134,81,127,29,akka,""
 KratosMultiphysics,Kratos,1149,585,92,428,44,31,KratosMultiphysics,""
 emberjs,ember.js+data+guides+website,1144,670,183,189,102,60,emberjs,""
 inverse-inc,packetfence,1143,364,38,654,87,14,inverse-inc,""
-voidlinux,void-packages,1141,373,154,566,48,44,voidlinux,""
+voidlinux,void-packages,1141,373,154,566,48,44,The Void distribution,voidlinux.eu
 python,mypy+typeshed,1140,688,188,149,115,50,python,""
 matplotlib,matplotlib,1135,837,119,75,104,27,matplotlib,""
 metabase,metabase,1128,709,62,217,140,13,metabase,""
@@ -431,7 +431,7 @@ acemod,ACE3,450,284,47,74,45,17,acemod,""
 HandBrake,HandBrake,449,319,15,67,48,11,HandBrake,""
 ppy,osu,448,137,149,144,18,17,ppy,""
 laradock,laradock,448,308,43,53,44,21,laradock,""
-OpenRCT2,OpenRCT2,447,323,42,53,29,17,OpenRCT2,""
+OpenRCT2,OpenRCT2,447,323,42,53,29,17,OpenRCT2,openrct2.website
 code-corps,code-corps-ember,447,139,51,220,37,14,code-corps,""
 red,red,446,214,11,162,59,11,red,""
 FStarLang,FStar,444,105,17,291,31,19,FStarLang,""

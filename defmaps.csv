@@ -1,5 +1,6 @@
 name,project
 Ar1i/PokemonGo-Bot,PokemonGoF
+AusDTO,Digital Transformation Office
 CartoDB,CARTO
 CleverRaven,Cataclysm-DDA
 ParsePlatform,Parse
@@ -12,6 +13,7 @@ ansible,Ansible
 ant-design,Ant Design
 aspnet,ASP.net
 atom,Atom
+betaflight,Betaflight
 brave,Brave Software
 broadinstitute,Broad Institute
 caskroom,Homebrew Cask
@@ -25,11 +27,13 @@ dart-lang,Dart
 department-of-veterans-affairs,Department of Veterans Affairs
 dmlc,Distributed Machine Learning Community
 driftyco,Ionic
+e-government-ua,Основной репозиторий
 eclipse,Eclipse
 elastic,Elasticsearch
 ethcore,Parity
 ethereum,Ethereum
 facebook,Facebook
+godotengine,Godot Engine
 grpc,GRPC
 guardian,The Guardian
 hyperledger,Hyperledger Project
@@ -43,6 +47,7 @@ magento,Magento
 mantidproject,Mantid
 mapbox,Mapbox
 mapsme,MAPS.ME
+mattermost,Mattermost
 mesosphere,Mesosphere
 meteor,Meteor
 mitodl,MIT Office of Digital Learning
@@ -63,6 +68,7 @@ servo,The Servo Browser Engine
 symfony,Symfony
 tgstation,SS13
 vmware,VMware
+voidlinux,The Void distribution
 wireapp,Wire Swiss GmbH
 wordpress-mobile,WordPress-mobile
 yarnpkg,yarn

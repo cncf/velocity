@@ -25,7 +25,9 @@ Microsoft/visualfsharp,Microsoft F#
 Microsoft/vscode,VS Code
 Microsoft/vscode-docs,VS Code
 Microsoft/vscode-go,VS Code
+Microsoft/vscode-mssql,VS Code
 Microsoft/vso-agent-tasks,VS Code
+Microsoft/vstest,VS Code
 Microsoft/vsts-agent,VS Code
 Microsoft/vsts-tasks,VS Code
 angular-fullstack/generator-angular-fullstack,Angular

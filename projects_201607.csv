@@ -42,26 +42,26 @@ eclipse,che,1861,793,144,709,215,29,Eclipse,eclipse.org
 rails,rails,1829,1275,256,156,142,60,Ruby on Rails,rubyonrails.org
 ampproject,amphtml+docs,1823,1209,210,224,180,43,AMP Project,ampproject.org
 laravel,framework+docs,1795,965,275,398,157,76,Laravel,laravel.com
-AusDTO,gov-au-beta+gov-au-ui-kit,1731,749,175,724,83,25,AusDTO,""
+AusDTO,gov-au-beta+gov-au-ui-kit,1731,749,175,724,83,25,Digital Transformation Office,dta.gov.au
 meteor,meteor,1691,1335,40,155,161,16,Meteor,meteor.com
 TrinityCore,TrinityCore,1666,1118,93,314,141,45,TrinityCore,trinitycore.org
-nextcloud,server,1656,1071,172,280,133,36,nextcloud,""
+nextcloud,server,1656,1071,172,280,133,36,Nextcloud,nextcloud.com
 influxdata,influxdb+telegraf,1651,996,134,358,163,43,InfluxData,influxdata.com
 broadinstitute,cromwell+gatk,1647,733,106,667,141,31,Broad Institute,broadinstitute.org
-OpenRCT2,OpenRCT2,1625,1253,101,129,142,26,OpenRCT2,""
+OpenRCT2,OpenRCT2,1625,1253,101,129,142,26,OpenRCT2,openrct2.website
 woothemes,woocommerce,1608,586,87,776,159,39,woothemes,""
 wordpress-mobile,WordPress-Android+WordPress-iOS,1574,620,148,658,148,26,WordPress-mobile,make.wordpress.org/mobile
 cockroachdb,cockroach,1569,1083,163,181,142,32,Cockroach DB,cockroachlabs.com
 OpenPoGo,OpenPoGoBot+OpenPoGoWeb,1555,959,179,304,113,42,OpenPoGo,""
 fastlane,fastlane,1534,1116,126,141,151,39,fastlane,fastlane.tools
-Baystation12,Baystation12,1505,991,216,184,114,32,Baystation12,""
+Baystation12,Baystation12,1505,991,216,184,114,32,Baystation12,baystation12.net
 openshift,openshift-ansible+openshift-docs,1502,1019,217,213,53,47,OpenShift,openshift.com
 Microsoft,BotBuilder,1500,1047,12,164,277,21,Microsoft BotBuilder,botframework.com
 NativeScript,NativeScript+nativescript-cli+docs,1483,883,124,324,152,42,NativeScript,nativescript.org
 odoo,odoo,1430,743,233,364,90,73,Odoo,odoo.com
-ethcore,parity,1422,441,228,680,73,16,ethcore,""
+ethcore,parity,1422,441,228,680,73,16,Parity,github.com/paritytech/parity
 hyperledger,fabric,1356,1038,100,77,141,38,Hyperledger Project,hyperledger.org
-pingcap,tidb+tikv,1351,550,167,598,36,26,pingcap,""
+pingcap,tidb+tikv,1351,550,167,598,36,26,PingCAP,github.com/pingcap
 caskroom,homebrew-cask,1349,376,556,369,48,143,Homebrew Cask,caskroom.github.io
 DefinitelyTyped,DefinitelyTyped,1341,739,380,132,90,97,DefinitelyTyped,definitelytyped.org
 eslint,eslint,1338,1039,75,94,130,34,eslint,eslint.org
@@ -71,26 +71,26 @@ duckduckgo,zeroclickinfo-goodies+zeroclickinfo-spice,1314,954,124,158,78,58,duck
 GoogleCloudPlatform,gcloud-eclipse-tools+gcloud-node,1293,715,118,348,112,23,GoogleCloudPlatform,""
 CleverRaven,Cataclysm-DDA,1293,920,159,66,148,17,Cataclysm-DDA,en.cataclysmdda.com
 yogstation13,yogstation,1289,990,106,78,115,20,Yogstation13,yogstation.net
-mattermost,platform,1276,708,207,321,40,17,mattermost,""
+mattermost,platform,1276,708,207,321,40,17,Mattermost,mattermost.org
 owncloud,core,1264,980,41,76,167,12,ownCloud,owncloud.org
-Particular,docs.particular.net+NServiceBus,1263,529,96,597,41,44,Particular,""
+Particular,docs.particular.net+NServiceBus,1263,529,96,597,41,44,NServiceBus,particular.net/nservicebus
 atom,atom,1259,824,41,235,159,18,Atom,atom.io
 mbedmicro,mbed,1244,950,137,85,72,23,mbedmicro,""
 electron,electron,1243,786,94,148,215,23,electron,""
 bitcoin,bitcoin,1226,996,104,88,38,24,bitcoin,""
-TEAMMATES,teammates,1213,644,88,421,60,14,TEAMMATES,http://teammatesv4.appspot.com
+TEAMMATES,teammates,1213,644,88,421,60,14,TEAMMATES,teammatesv4.appspot.com
 metabase,metabase,1198,622,104,352,120,13,metabase,""
 frappe,erpnext+frappe,1186,426,205,346,209,33,frappe,""
 deeplearning4j,deeplearning4j+nd4j,1163,406,134,507,116,32,deeplearning4j,""
 conda,conda,1159,746,105,161,147,12,conda,""
 palantir,atlasdb+tslint,1149,524,121,421,83,51,Palantir Technologies,palantir.com
 alibaba,weex,1134,443,118,434,139,32,alibaba,""
-HippieStationCode,HippieStation13,1122,946,72,49,55,12,HippieStationCode,""
+HippieStationCode,HippieStation13,1122,946,72,49,55,12,HippieStationCode,github.com/HippieStationCode/HippieStation13
 RIOT-OS,RIOT,1122,986,80,38,18,14,RIOT-OS,""
-betaflight,betaflight,1115,899,91,49,76,14,betaflight,""
+betaflight,betaflight,1115,899,91,49,76,14,Betaflight,github.com/betaflight/betaflight/releases
 realm,realm-java,1080,839,33,107,101,12,Realm,realm.io
 flutter,flutter,1073,628,89,124,232,18,flutter,""
-libretro,RetroArch,1068,315,49,622,82,20,libretro,""
+libretro,RetroArch,1068,315,49,622,82,20,libretro,libretro.com
 WycliffeAssociates,8woc,1067,221,125,586,135,13,WycliffeAssociates,""
 prestodb,presto,1064,732,153,111,68,26,prestodb,""
 RobotLocomotion,drake,1060,897,67,52,44,17,RobotLocomotion,drake.mit.edu
@@ -113,17 +113,17 @@ ArduPilot,ardupilot,931,614,122,143,52,30,ArduPilot,""
 SickRage,SickRage,916,741,17,41,117,12,SickRage,""
 perl6,doc,907,423,30,351,103,25,perl6,""
 sequelize,sequelize,907,681,53,64,109,19,sequelize,""
-RocketChat,Rocket.Chat,896,527,71,147,151,27,RocketChat,""
+RocketChat,Rocket.Chat,896,527,71,147,151,27,RocketChat,rocket.chat
 JabRef,jabref,884,584,88,181,31,15,JabRef,""
 getsentry,sentry,881,352,108,359,62,12,getsentry,""
 spring-projects,spring-boot,855,554,36,111,154,19,spring-projects,""
-mesosphere,marathon,853,447,57,295,54,27,mesosphere,""
+mesosphere,marathon,853,447,57,295,54,27,Mesosphere,mesosphere.com
 oppia,oppia,846,642,67,87,50,25,oppia,""
 emberjs,ember.js+guides,846,541,116,111,78,30,emberjs,""
 ouspg,trytls,839,190,62,533,54,11,ouspg,""
 minetest,minetest,829,673,53,25,78,15,minetest,""
 steptools,NC.js,819,84,114,541,80,11,steptools,""
-voidlinux,void-packages,819,257,108,427,27,44,voidlinux,""
+voidlinux,void-packages,819,257,108,427,27,44,The Void distribution,voidlinux.eu
 mamedev,mame,818,188,129,483,18,59,mamedev,""
 PolarisSS13,Polaris,818,418,191,163,46,28,PolarisSS13,""
 VSCodeVim,Vim,818,517,71,135,95,13,VSCodeVim,""
@@ -137,7 +137,7 @@ ocaml,opam-repository,778,384,204,176,14,71,ocaml,""
 openscholar,openscholar,777,448,48,233,48,11,openscholar,""
 xcat2,xcat-core,776,493,111,111,61,21,xcat2,""
 neo4j,neo4j,772,273,141,326,32,31,neo4j,""
-airbnb,caravel+enzyme,764,450,72,109,133,25,airbnb,""
+airbnb,caravel+enzyme,764,450,72,109,133,25,Airbnb,airbnb.io
 galaxyproject,galaxy,757,552,81,91,33,27,galaxyproject,""
 TerriaJS,terriajs,756,231,87,377,61,13,TerriaJS,""
 esp8266,Arduino,753,576,38,30,109,14,esp8266,""

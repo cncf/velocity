@@ -41,24 +41,24 @@ home-assistant,home-assistant,1971,1315,328,151,177,36,home-assistant,home-assis
 cockroachdb,cockroach,1918,1328,164,193,233,25,Cockroach DB,cockroachlabs.com
 influxdata,influxdb+telegraf+docs.influxdata.com,1885,1018,176,462,229,48,InfluxData,influxdata.com
 serverless,serverless,1801,1064,188,406,143,51,Serverless Framework,serverless.com
-voidlinux,void-packages,1748,559,172,957,60,51,voidlinux,""
+voidlinux,void-packages,1748,559,172,957,60,51,The Void distribution,voidlinux.eu
 mantidproject,mantid,1736,522,129,952,133,38,Mantid,mantidproject.org
 fastlane,fastlane,1692,1326,102,67,197,17,fastlane,fastlane.tools
 odoo,odoo,1681,887,253,359,182,79,Odoo,odoo.com
 npm,npm,1647,1173,28,153,293,14,npm,npmjs.com
-mitodl,micromasters,1646,644,146,761,95,15,mitodl,""
+mitodl,micromasters,1646,644,146,761,95,15,MIT Office of Digital Learning,odl.mit.edu
 scikit-learn,scikit-learn,1639,1385,129,30,95,24,scikit-learn,""
-nextcloud,server+nextcloud.com,1591,934,110,417,130,45,nextcloud,""
-vuejs,vue+vue-router+vue-loader,1589,1021,74,110,384,39,vuejs,""
+nextcloud,server+nextcloud.com,1591,934,110,417,130,45,Nextcloud,nextcloud.com
+vuejs,vue+vue-router+vue-loader,1589,1021,74,110,384,39,vuejs,vuejs.org
 dmlc,mxnet+xgboost,1570,1115,126,102,227,41,Distributed Machine Learning Community,dmlc.github.io
 rails,rails,1569,1079,178,215,97,69,Ruby on Rails,rubyonrails.org
 TrinityCore,TrinityCore,1534,977,35,392,130,33,TrinityCore,trinitycore.org
-airbnb,caravel+react-native-maps,1526,966,158,175,227,34,airbnb,""
+airbnb,caravel+react-native-maps,1526,966,158,175,227,34,Airbnb,airbnb.io
 coreos,etcd+rkt,1521,1117,169,129,106,30,CoreOS,coreos.com
 keybase,client,1506,577,179,674,76,17,Keybase,keybase.io
 WordPress,twentyseventeen,1496,1001,181,161,153,26,WordPress,""
-zeit,hyper+next.js,1488,1104,86,115,183,46,zeit,""
-libretro,RetroArch,1485,586,112,679,108,27,libretro,""
+zeit,hyper+next.js,1488,1104,86,115,183,46,ZEIT,zeit.co
+libretro,RetroArch,1485,586,112,679,108,27,libretro,libretro.com
 ARMmbed,mbed-os,1462,1090,158,104,110,38,ARMmbed,""
 CleverRaven,Cataclysm-DDA,1455,1082,144,75,154,19,Cataclysm-DDA,en.cataclysmdda.com
 Particular,docs.particular.net+NServiceBus,1431,670,135,556,70,45,NServiceBus,particular.net/nservicebus
@@ -69,12 +69,12 @@ systemd,systemd,1382,1027,146,98,111,35,systemd,""
 wordpress-mobile,WordPress-Android+WordPress-iOS,1367,577,112,538,140,30,WordPress-mobile,make.wordpress.org/mobile
 ArduPilot,ardupilot+ardupilot_wiki,1359,916,164,210,69,54,ArduPilot,""
 atom,atom,1354,829,80,253,192,29,Atom,atom.io
-betaflight,betaflight,1348,943,130,209,66,24,betaflight,""
-RocketChat,Rocket.Chat,1313,804,112,214,183,35,RocketChat,""
+betaflight,betaflight,1348,943,130,209,66,24,Betaflight,github.com/betaflight/betaflight/releases
+RocketChat,Rocket.Chat,1313,804,112,214,183,35,RocketChat,rocket.chat
 eslint,eslint,1286,936,50,183,117,29,eslint,eslint.org
 fossasia,susi_android,1279,840,156,180,103,26,fossasia,fossasia.org
 facebook,react,1278,882,191,121,84,35,React,facebook.github.io/react-native
-OpenRCT2,OpenRCT2,1262,857,116,165,124,23,OpenRCT2,""
+OpenRCT2,OpenRCT2,1262,857,116,165,124,23,OpenRCT2,openrct2.website
 electron,electron,1258,884,116,35,223,15,electron,""
 realm,realm-java,1252,835,67,217,133,12,Realm,realm.io
 Project-OSRM,osrm-backend,1250,481,93,539,137,17,Project-OSRM,""
@@ -126,7 +126,7 @@ rcbops,rpc-openstack,902,623,76,177,26,16,rcbops,""
 mesosphere,marathon,900,402,52,408,38,28,Mesosphere,mesosphere.com
 Microsoft,pxt,897,242,102,425,128,12,Microsoft MakeCode,makecode.com
 alibaba,weex,884,532,74,148,130,28,alibaba,""
-pingcap,tidb,879,379,89,380,31,14,pingcap,""
+pingcap,tidb,879,379,89,380,31,14,PingCAP,github.com/pingcap
 JabRef,jabref,878,568,69,193,48,25,JabRef,""
 mpv-player,mpv,877,655,40,72,110,18,mpv-player,""
 devtools-html,debugger.html,877,574,105,108,90,21,devtools-html,""
@@ -144,7 +144,7 @@ spring-projects,spring-boot,851,514,38,167,132,24,spring-projects,""
 akeneo,pim-community-dev,847,204,105,516,22,27,akeneo,""
 dotnet,orleans,845,607,100,103,35,23,Microsoft Orleans,dotnet.github.io/orleans
 bioconda,bioconda-recipes,844,335,234,261,14,48,bioconda,""
-mattermost,platform,840,415,166,192,67,27,mattermost,""
+mattermost,platform,840,415,166,192,67,27,Mattermost,mattermost.org
 ,travisgoodspeed/md380tools,840,473,123,190,54,14,travisgoodspeed/md380tools,""
 acemod,ACE3,835,531,73,172,59,15,acemod,""
 google,WebFundamentals,826,242,183,351,50,36,Google WebFundamentals,developers.google.com/web/fundamentals
@@ -181,7 +181,7 @@ coala,coala,728,568,73,45,42,14,coala,""
 WP-API,WP-API,715,437,80,121,77,18,WP-API,""
 xcat2,xcat-core,714,504,76,68,66,19,xcat2,""
 ,mitchellh/packer,713,492,68,88,65,23,mitchellh/packer,""
-Baystation12,Baystation12,712,435,131,113,33,30,Baystation12,""
+Baystation12,Baystation12,712,435,131,113,33,30,Baystation12,baystation12.net
 bokeh,bokeh,706,487,40,77,102,11,bokeh,""
 TeamPorcupine,ProjectPorcupine,703,574,50,39,40,14,TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
 google,ExoPlayer,702,505,20,56,121,13,Google ExoPlayer,github.com/google/ExoPlayer
@@ -347,7 +347,7 @@ H4PM,Elywing,407,193,31,139,44,14,H4PM,""
 ,edenhill/librdkafka,406,300,18,37,51,11,edenhill/librdkafka,""
 rathena,rathena,406,200,36,103,67,15,rathena,""
 ,Alexpux/MINGW-packages,406,214,74,81,37,31,Alexpux/MINGW-packages,""
-wireapp,wire-ios,405,86,64,228,27,11,wireapp,""
+wireapp,wire-ios,405,86,64,228,27,11,Wire Swiss GmbH,wire.com
 Leaflet,Leaflet,405,262,32,66,45,19,Leaflet,""
 ,davidkpiano/react-redux-form,404,223,18,98,65,13,davidkpiano/react-redux-form,""
 composer,composer,404,294,23,27,60,15,composer,""
