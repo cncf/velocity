@@ -41,7 +41,6 @@ libretro,libretro/RetroArch,1712,734,133,742,103,34
 HippieStationCode,HippieStationCode/HippieStation13,1696,1505,77,33,81,12
 eclipse,eclipse/che,1672,763,165,557,187,39
 rails,rails/rails,1650,1116,195,236,103,55
-githubschool,githubschool/open-enrollment-classes-introduction-to-github,1646,572,221,545,308,201
 dotnet,dotnet/coreclr,1632,1242,211,83,96,34
 dart-lang,dart-lang/sdk,1627,905,14,458,250,45
 RocketChat,RocketChat/Rocket.Chat,1622,884,114,426,198,25
@@ -54,7 +53,6 @@ dmlc,dmlc/mxnet,1512,1046,164,51,251,26
 ElemeFE,ElemeFE/element,1478,853,108,76,441,14
 fastlane,fastlane/fastlane,1475,1005,110,149,211,26
 ONSdigital,ONSdigital/eq-survey-runner,1469,289,118,971,91,17
-FreeCodeCamp,FreeCodeCamp/FreeCodeCamp,1467,1030,63,43,331,24
 yarnpkg,yarnpkg/yarn,1460,1137,63,63,197,36
 PaddlePaddle,PaddlePaddle/Paddle,1424,902,164,152,206,36
 pingcap,pingcap/tidb,1414,574,164,615,61,24

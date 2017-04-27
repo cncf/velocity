@@ -186,7 +186,6 @@ cleanflight,cleanflight/cleanflight,784,621,45,61,57,21
 fgpv-vpgf,fgpv-vpgf/fgpv-vpgf,782,569,64,61,88,16
 IIC2233-2016-1,IIC2233-2016-1/syllabus,775,511,12,83,169,22
 cockpit-project,cockpit-project/cockpit,773,433,157,129,54,19
-ProgrammingLife2016,ProgrammingLife2016/PL2-2016,770,279,77,351,63,17
 Graylog2,Graylog2/graylog2-server,770,459,45,150,116,20
 oppia,oppia/oppia,767,608,66,26,67,15
 mpv-player,mpv-player/mpv,762,579,32,84,67,17
@@ -222,7 +221,6 @@ openshift,openshift/openshift-ansible,702,533,60,73,36,24
 weaveworks,weaveworks/weave,688,289,45,310,44,13
 halide,halide/Halide,685,209,78,381,17,24
 numpy,numpy/numpy,683,528,60,51,44,26
-ProgrammingLife2016,ProgrammingLife2016/PL4-2016,681,86,67,484,44,18
 opentoonz,opentoonz/opentoonz,679,516,51,36,76,11
 HuaweiBigData,HuaweiBigData/carbondata,679,418,116,89,56,31
 deeplearning4j,deeplearning4j/deeplearning4j,677,294,51,222,110,21
@@ -367,14 +365,12 @@ docker,docker/distribution,490,387,35,31,37,19
 RestComm,RestComm/Restcomm-Connect,489,244,14,131,100,21
 FAForever,FAForever/fa,487,311,59,68,49,15
 kontena,kontena/kontena,484,176,83,177,48,18
-ProgrammingLife2016,ProgrammingLife2016/PL3-2016,483,131,39,256,57,15
 openlayers,openlayers/ol3,483,336,31,66,50,14
 hyperion-project,hyperion-project/hyperion,482,382,34,47,19,15
 mumble-voip,mumble-voip/mumble,481,343,38,57,43,13
 ReactiveCocoa,ReactiveCocoa/ReactiveCocoa,480,311,70,61,38,16
 dotnet,dotnet/wcf,480,330,55,53,42,14
 broadinstitute,broadinstitute/gatk,480,243,27,194,16,20
-ProgrammingLife2016,ProgrammingLife2016/PL5-2016,479,79,66,302,32,17
 deeplearning4j,deeplearning4j/nd4j,478,180,61,183,54,16
 mediachain,mediachain/mediachain,477,160,53,247,17,15
 leapmotion,leapmotion/UnityModules,475,54,62,319,40,14
@@ -783,7 +779,6 @@ grommet,grommet/grommet,184,71,29,50,34,12
 unias,unias/docklet,184,104,26,30,24,12
 CloudSlang,CloudSlang/cloud-slang,183,54,21,92,16,17
 codemirror,codemirror/CodeMirror,182,100,15,40,27,11
-freecodecamp-spb,freecodecamp-spb/web-dev-courses,181,40,26,102,13,13
 attendanceproject,attendanceproject/djattendance,179,45,14,96,24,18
 espressomd,espressomd/espresso,178,84,39,33,22,11
 google,google/flexbox-layout,178,58,33,74,13,11

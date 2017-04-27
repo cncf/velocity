@@ -1,31 +1,67 @@
 name,project
 Ar1i/PokemonGo-Bot,PokemonGoF
 CartoDB,CARTO
+CleverRaven,Cataclysm-DDA
+ParsePlatform,Parse
+Particular,NServiceBus
 Plailect/Guide,3DS Guide
+Yoast,Yoast SEO
 ampproject,AMP Project
 ansible,Ansible
 ant-design,Ant Design
 aspnet,ASP.net
+atom,Atom
 brave,Brave Software
+broadinstitute,Broad Institute
 caskroom,Homebrew Cask
+cfpb,Consumer Financial Protection Bureau
+chef,Chef
+cms-sw,CMS Offline Software
 cockroachdb,Cockroach DB
+coreos,CoreOS
 d3athrow/vgstation13,vgstation13
 dart-lang,Dart
 department-of-veterans-affairs,Department of Veterans Affairs
+dmlc,Distributed Machine Learning Community
 driftyco,Ionic
 eclipse,Eclipse
 elastic,Elasticsearch
+ethcore,Parity
 ethereum,Ethereum
 facebook,Facebook
 grpc,GRPC
+guardian,The Guardian
+hyperledger,Hyperledger Project
+influxdata,InfluxData
 joomla,Joomla
+keybase,Keybase
 kubernetes,Kubernetes
+laravel,Laravel
+letsencrypt,Let's Encrypt
 magento,Magento
+mantidproject,Mantid
+mapbox,Mapbox
+mapsme,MAPS.ME
+mesosphere,Mesosphere
+meteor,Meteor
+mitodl,MIT Office of Digital Learning
 mozilla,Mozilla
+neveragaindottech,neveragain.tech
+nextcloud,Nextcloud
 nodejs,Node.js
+nylas,Nylas
+odoo,Odoo
 openshift,OpenShift
 owncloud,ownCloud
 palantir,Palantir Technologies
+pingcap,PingCAP
+rails,Ruby on Rails
 saltstack,SaltStack
+serverless,Serverless Framework
+servo,The Servo Browser Engine
+symfony,Symfony
 tgstation,SS13
 vmware,VMware
+wordpress-mobile,WordPress-mobile
+yarnpkg,yarn
+yogstation13,Yogstation13

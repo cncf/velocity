@@ -5,14 +5,22 @@ ASP.net,asp.net
 Angular,angular.io
 Ansible,ansible.com
 Ant Design,ant.design
+Atom,atom.io
 Automattic Jetpack,jetpack.com
 Azure,azure.github.io
 Brave Software,brave.com
+Broad Institute,broadinstitute.org
 CARTO,carto.com
+CMS Offline Software,cms-sw.github.io
+Cataclysm-DDA,en.cataclysmdda.com
+Chef,chef.io/chef
 Cockroach DB,cockroachlabs.com
+Consumer Financial Protection Bureau,cfpb.github.io
+CoreOS,coreos.com
 Dart,dartlang.org
 DefinitelyTyped,definitelytyped.org
 Department of Veterans Affairs,va.gov
+Distributed Machine Learning Community,dmlc.github.io
 Docker,mobyproject.org
 Eclipse,eclipse.org
 Elasticsearch,elastic.co/products/elasticsearch
@@ -25,44 +33,97 @@ Google Chrome,google.com/chrome
 Google Closure Compiler,developers.google.com/closure/compiler
 Google Cloud Platform,cloud.google.com
 Google ExoPlayer,github.com/google/ExoPlayer
-Google FlatBuffers,http://google.github.io/flatbuffers
+Google FlatBuffers,google.github.io/flatbuffers
+Google Graphics API Debugger,github.com/google/gapid
+Google Material Design Components,getmdl.io
+Google OSS-Fuzz,github.com/google/oss-fuzz
+Google Perceptual JPEG encoder,github.com/google/guetzli
+Google Protocol Buffers,developers.google.com/protocol-buffers
+Google Python Fire,github.com/google/python-fire
 Google WebFundamentals,developers.google.com/web/fundamentals
 Google i18n,developers.google.com/international
-Google other,google.com
+Google seq2seq,google.github.io/seq2seq
 HashiCorp Consul,consul.io
 HashiCorp Nomad,nomadproject.io
 HashiCorp Terraform,terraform.io
 HashiCorp Vault,vaultproject.io
 Homebrew,brew.sh
 Homebrew Cask,caskroom.github.io
+Hyperledger Project,hyperledger.org
+InfluxData,influxdata.com
 Ionic,ionicframework.com
 Joomla,joomla.org
 Julia,julialang.org
+Keybase,keybase.io
 Kubernetes,kubernetes.io
+Laravel,laravel.com
+Let's Encrypt,letsencrypt.org
+MAPS.ME,maps.me
+MIT Office of Digital Learning,odl.mit.edu
 Magento,magento.com/home
 ManageIQ,manageiq.org
-Microsoft,microsoft.com
+Mantid,mantidproject.org
+Mapbox,mapbox.com
+Mesosphere,mesosphere.com
+Meteor,meteor.com
+Microsoft API,github.com/Microsoft/api-guidelines
+Microsoft BotBuilder,botframework.com
+Microsoft Chakra,github.com/Microsoft/ChakraCore
+Microsoft Cognitive Toolkit,cntk.ai
+Microsoft F#,github.com/Microsoft/visualfsharp
+Microsoft HoloToolkit,github.com/Microsoft/HoloToolkit
+Microsoft MakeCode,makecode.com
+Microsoft Objective-C for Windows,github.com/Microsoft/WinObjC
 Microsoft Orleans,dotnet.github.io/orleans
+Microsoft Virtualization,github.com/Microsoft/Virtualization-Documentation
+Microsoft eShopOnContainers,github.com/dotnet-architecture/eShopOnContainers
 Mozilla,mozilla.org
+NServiceBus,particular.net/nservicebus
+NativeScript,nativescript.org
+Nextcloud,nextcloud.com
 NixOS,nixos.org
 Node.js,nodejs.org
+Nylas,nylas.com
+Odoo,odoo.com
 OpenShift,openshift.com
 Palantir Technologies,palantir.com
 ParadiseSS13,nanotrasen.se/forum
+Parity,github.com/paritytech/parity
+Parse,parseplatform.github.io
+PingCAP,github.com/pingcap
 PokemonGoF,maps.pikabot.org
+PokemonGoMap,pokemongomap.info
+PowerShell,microsoft.com/powershell
 React,facebook.github.io/react-native
-RobotLocomotion,drake.mit.edu
-SS13,tgstation13.org
 Realm,realm.io
+RobotLocomotion,drake.mit.edu
+Ruby on Rails,rubyonrails.org
+SS13,tgstation13.org
 SaltStack,repo.saltstack.com
+Serverless Framework,serverless.com
+Symfony,symfony.com
+TEAMMATES,teammatesv4.appspot.com
+TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
 TensorFlow,tensorflow.org
+The Guardian,theguardian.com
+The Servo Browser Engine,servo.org
+TrinityCore,trinitycore.org
 TypeScript,typescriptlang.org
 VMware,vmware.github.io
 VS Code,code.visualstudio.com
 WP Calypso,developer.wordpress.com/calypso
+WordPress-mobile,make.wordpress.org/mobile
+XX-net,github.com/XX-net/XX-Net
+Yoast SEO,yoast.com/wordpress/seo
+Yogstation13,yogstation.net
 dotnet,microsoft.com/net
+eslint,eslint.org
+fastlane,fastlane.tools
 fossasia,fossasia.org
 home-assistant,home-assistant.io
-influxdata,influxdata.com
+libretro,libretro.com
+neveragain.tech,neveragain.tech
+npm,npmjs.com
 ownCloud,owncloud.org
 vgstation13,github.com/vgstation-coders/vgstation13
+yarn,yarnpkg.com

@@ -28,10 +28,8 @@ JuliaLang,JuliaLang/julia,2345,1573,179,418,175,39
 magento,magento/magento2,2298,1872,98,60,268,48
 elastic,elastic/elasticsearch,2244,1482,174,346,242,54
 Microsoft,Microsoft/TypeScript,2206,1508,75,208,415,24
-githubschool,githubschool/open-enrollment-classes-introduction-to-github,2204,504,399,779,522,291
 keybase,keybase/client,2188,872,274,943,99,22
 rails,rails/rails,2175,1417,243,349,166,84
-freeCodeCamp,freeCodeCamp/freeCodeCamp,2144,1576,91,75,402,43
 grpc,grpc/grpc,2123,1361,314,257,191,38
 dart-lang,dart-lang/sdk,2117,928,17,897,275,56
 Automattic,Automattic/jetpack,2116,1116,198,672,130,48
@@ -511,7 +509,6 @@ code-corps,code-corps/code-corps-ember,447,139,51,220,37,14
 OpenRCT2,OpenRCT2/OpenRCT2,447,323,42,53,29,17
 NuGet,NuGet/NuGetGallery,446,191,40,113,102,17
 red,red/red,446,214,11,162,59,11
-githubschool,githubschool/on-demand-github-pages,445,91,79,175,100,44
 FStarLang,FStarLang/FStar,444,105,17,291,31,19
 vmware,vmware/clarity,441,255,37,58,91,12
 kubernetes-incubator,kubernetes-incubator/bootkube,441,340,40,29,32,12

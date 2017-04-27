@@ -6,7 +6,6 @@ ansible,ansible/ansible,4419,2932,646,440,401,126
 Microsoft,Microsoft/vscode,4388,2972,63,265,1088,18
 docker,docker/docker,4282,3385,284,164,449,58
 NixOS,NixOS/nixpkgs,4041,2358,554,965,164,231
-githubschool,githubschool/open-enrollment-classes-introduction-to-github,3994,1141,753,1759,341,454
 tgstation,tgstation/tgstation,3975,3204,379,165,227,38
 JuliaLang,JuliaLang/julia,3418,2294,239,710,175,52
 dotnet,dotnet/roslyn,3221,2551,213,142,315,28
@@ -29,7 +28,6 @@ dotnet,dotnet/coreclr,2079,1563,253,135,128,41
 Baystation12,Baystation12/Baystation12,2077,1391,293,256,137,38
 saltstack,saltstack/salt,2054,1416,320,59,259,29
 HippieStationCode,HippieStationCode/HippieStation13,2042,1855,88,40,59,15
-freeCodeCamp,freeCodeCamp/freeCodeCamp,2039,1474,98,46,421,27
 DefinitelyTyped,DefinitelyTyped/DefinitelyTyped,1988,1174,530,172,112,138
 betaflight,betaflight/betaflight,1982,1451,185,210,136,22
 mantidproject,mantidproject/mantid,1963,719,144,925,175,37
@@ -102,7 +100,6 @@ PX4,PX4/Firmware,1145,764,102,197,82,25
 koding,koding/koding,1130,337,166,575,52,15
 ,Chringo/SSP,1126,25,139,948,14,13
 yogstation13,yogstation13/yogstation,1124,797,132,120,75,15
-githubschool,githubschool/on-demand-github-pages,1123,232,252,573,66,138
 idaholab,idaholab/moose,1122,784,103,164,71,27
 ArduPilot,ArduPilot/ardupilot,1099,773,131,141,54,22
 mozilla,mozilla/testpilot,1090,409,57,530,94,59
@@ -275,7 +272,6 @@ aframevr,aframevr/aframe,621,419,51,96,55,25
 yandex,yandex/ClickHouse,620,139,100,351,30,14
 mautic,mautic/mautic,617,411,50,42,114,19
 weaveworks,weaveworks/scope,617,335,33,218,31,12
-FreeCodeCamp,FreeCodeCamp/FreeCodeCamp,617,421,24,61,111,11
 trilinos,trilinos/Trilinos,614,396,20,137,61,35
 kubernetes,kubernetes/helm,613,447,50,52,64,20
 kivy,kivy/kivy,612,444,56,58,54,18

@@ -8,12 +8,26 @@ GoogleCloudPlatform/google-cloud-java,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-node,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-python,Google Cloud Platform
 JuliaLang/julia,Julia
+Microsoft/BotBuilder,Microsoft BotBuilder
+Microsoft/CNTK,Microsoft Cognitive Toolkit
+Microsoft/Chakra-Samples,Microsoft Chakra
+Microsoft/ChakraCore,Microsoft Chakra
+Microsoft/HoloToolkit-Unity,Microsoft HoloToolkit
+Microsoft/MIEngine,VS Code
 Microsoft/TypeScript,TypeScript
+Microsoft/Virtualization-Documentation,Microsoft Virtualization
+Microsoft/WinObjC,Microsoft Objective-C for Windows
+Microsoft/api-guidelines,Microsoft API
+Microsoft/msbuild,VS Code
+Microsoft/pxt,Microsoft MakeCode
 Microsoft/vcpkg,VS Code
-Microsoft/visualfsharp,VS Code
+Microsoft/visualfsharp,Microsoft F#
 Microsoft/vscode,VS Code
 Microsoft/vscode-docs,VS Code
 Microsoft/vscode-go,VS Code
+Microsoft/vso-agent-tasks,VS Code
+Microsoft/vsts-agent,VS Code
+Microsoft/vsts-tasks,VS Code
 angular-fullstack/generator-angular-fullstack,Angular
 angular-ui/ui-grid,Angular
 angular/angular,Angular
@@ -35,7 +49,7 @@ docker/notary,Docker
 docker/swarm,Docker
 docker/swarmkit,Docker
 dotnet/cli,dotnet
-dotnet/eShopOnContainers,Microsoft
+dotnet/eShopOnContainers,Microsoft eShopOnContainers
 dotnet/orleans,Microsoft Orleans
 dotnet/roslyn,VS Code
 dotnet/roslyn-project-system,VS Code
@@ -46,16 +60,14 @@ google/ExoPlayer,Google ExoPlayer
 google/WebFundamentals,Google WebFundamentals
 google/closure-compiler,Google Closure Compiler
 google/flatbuffers,Google FlatBuffers
-google/gapid,Google other
-google/guetzli,Google other
-google/material-design-lite,Google other
-google/oss-fuzz,Google other
-google/protobuf,Google other
-google/python-fire,Google other
-google/seq2seq,Google other
-google/trillian,Google other
+google/gapid,Google Graphics API Debugger
+google/guetzli,Google Perceptual JPEG encoder
+google/material-design-lite,Google Material Design Components
+google/oss-fuzz,Google OSS-Fuzz
+google/protobuf,Google Protocol Buffers
+google/python-fire,Google Python Fire
+google/seq2seq,Google seq2seq
 googleapis/toolkit,Google API
-googledatalab/pydatalab,Google other
 googlei18n/libphonenumber,Google i18n
 hashicorp/consul,HashiCorp Consul
 hashicorp/nomad,HashiCorp Nomad

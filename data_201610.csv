@@ -18,7 +18,6 @@ nodejs,nodejs/node,2651,2142,217,121,171,41
 saltstack,saltstack/salt,2600,1832,360,168,240,59
 magento,magento/magento2,2502,2004,68,51,379,39
 brave,brave/browser-laptop,2469,1536,125,150,658,17
-FreeCodeCamp,FreeCodeCamp/FreeCodeCamp,2391,1795,137,124,335,55
 driftyco,driftyco/ionic,2322,1665,79,93,485,27
 department-of-veterans-affairs,department-of-veterans-affairs/vets-website,2285,652,212,1252,169,34
 dotnet,dotnet/coreclr,2209,1642,238,178,151,64
@@ -34,7 +33,6 @@ DefinitelyTyped,DefinitelyTyped/DefinitelyTyped,1988,1106,627,148,107,80
 Homebrew,Homebrew/homebrew-core,1973,1202,469,204,98,74
 home-assistant,home-assistant/home-assistant,1971,1315,328,151,177,36
 cockroachdb,cockroachdb/cockroach,1918,1328,164,193,233,25
-githubschool,githubschool/open-enrollment-classes-introduction-to-github,1848,571,277,689,311,229
 ansible,ansible/ansible,1825,1157,231,254,183,65
 serverless,serverless/serverless,1801,1064,188,406,143,51
 voidlinux,voidlinux/void-packages,1748,559,172,957,60,51

@@ -26,8 +26,6 @@ dart-lang,dart-lang/sdk,2341,1144,17,844,336,51
 Microsoft,Microsoft/TypeScript,2296,1486,97,295,418,17
 joomla,joomla/joomla-cms,2289,1622,156,361,150,36
 ParadiseSS13,ParadiseSS13/Paradise,2261,1860,220,78,103,16
-githubschool,githubschool/open-enrollment-classes-introduction-to-github,2195,342,415,834,604,321
-freeCodeCamp,freeCodeCamp/freeCodeCamp,2171,1533,151,78,409,27
 ManageIQ,ManageIQ/manageiq,2168,1445,398,293,32,73
 mantidproject,mantidproject/mantid,2166,715,209,1074,168,42
 keybase,keybase/client,2141,993,227,713,208,20
@@ -292,7 +290,6 @@ Talend,Talend/ui,581,50,79,436,16,19
 fabric8io,fabric8io/fabric8-planner,580,303,79,105,93,22
 kubernetes-incubator,kubernetes-incubator/kargo,580,328,113,97,42,23
 geneontology,geneontology/go-ontology,579,387,41,91,60,13
-githubschool,githubschool/on-demand-github-pages,578,71,114,300,93,82
 google,google/protobuf,577,420,55,39,63,22
 infernojs,infernojs/inferno,575,355,33,131,56,20
 AnalyticalGraphicsInc,AnalyticalGraphicsInc/cesium,573,335,61,145,32,19

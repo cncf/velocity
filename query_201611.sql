@@ -32,7 +32,7 @@ WHERE
     WHERE type = 'ForkEvent'
   )
   AND LOWER(actor.login) not like '%bot%'
-  AND org.login not in ('NECROBOTIO', 'githubschool', 'freeCodeCamp')
+  AND LOWER(org.login) not in ('necrobotio', 'githubschool', 'freecodecamp')
   AND actor.login != 'tgstation-server'
   AND actor.login NOT IN (
     SELECT

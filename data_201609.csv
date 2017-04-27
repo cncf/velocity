@@ -24,7 +24,6 @@ hashicorp,hashicorp/terraform,2421,1581,216,298,326,63
 nodejs,nodejs/node,2403,1937,221,79,166,30
 ampproject,ampproject/amphtml,2308,1523,261,293,231,44
 JuliaLang,JuliaLang/julia,2256,1632,141,296,187,43
-FreeCodeCamp,FreeCodeCamp/FreeCodeCamp,2201,1579,119,70,433,29
 DefinitelyTyped,DefinitelyTyped/DefinitelyTyped,2200,1269,579,231,121,156
 home-assistant,home-assistant/home-assistant,2159,1366,371,276,146,37
 keybase,keybase/client,2149,1002,232,799,116,18
@@ -53,7 +52,6 @@ CleverRaven,CleverRaven/Cataclysm-DDA,1657,1266,181,68,142,28
 cockroachdb,cockroachdb/cockroach,1651,1109,176,204,162,26
 rails,rails/rails,1606,1090,214,177,125,55
 mapbox,mapbox/mapbox-gl-native,1602,779,119,536,168,30
-githubschool,githubschool/open-enrollment-classes-introduction-to-github,1592,354,316,668,254,233
 ARMmbed,ARMmbed/mbed-os,1524,1211,184,47,82,17
 godotengine,godotengine/godot,1502,1130,93,69,210,23
 grpc,grpc/grpc,1465,1007,188,143,127,35
