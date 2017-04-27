@@ -99,26 +99,3 @@ end
 
 analysis(ARGV[0], ARGV[1], ARGV[2])
 
-=begin
-
-res2 = []
-res3 = []
-res.each do |line|
-  org = line[2]
-  org[:items].each do |repo|
-    res2 << [repo['repo'], repo['activity'], repo]
-    res3 << [repo['repo'], repo['activity'], repo]
-  end
-  res3 << [org[:sum]['repo'], org[:sum]['activity'], org[:sum]]
-end
-
-res2 = res2.sort_by { |item| -item[1] }
-res3 = res3.sort_by { |item| -item[1] }
-
-CSV.open("combined.csv", "w", headers: res3[0][2].keys) do |csv|
-  csv << res3[0][2].keys
-  res3.each do |row|
-    csv << row[2].values
-  end
-end
-=end
