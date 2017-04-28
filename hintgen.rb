@@ -3,6 +3,7 @@ require 'pry'
 
 def make_hints(fin, fout)
   projects = {}
+  # Will add projects found in "fin" to hints list "fout"
   [fout, fin].each do |file|
     puts "Processing #{file}"
     begin
@@ -22,6 +23,8 @@ def make_hints(fin, fout)
     rescue Errno::ENOENT
     end
   end
+
+  # Output data that already was in hints (fout) and eventual new data (fin) sorted
   hdr = ['repo', 'project']
   CSV.open(fout, "w", headers: hdr) do |csv|
     csv << hdr
