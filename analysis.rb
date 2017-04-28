@@ -206,7 +206,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
   # This is pretty print of what was found, it is displayed and program stops in debugger
   # To see all projects use `all variable` if ok type "quit" to exit debugger and save results
   puts "Top:"
-  tops = res[0..60].map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]}, #{it[2][:sum]['authors']} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
+  tops = res[0..40].map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]}, #{it[2][:sum]['authors']} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
   all = res.map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]}, #{it[2][:sum]['authors']} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
   puts tops
   puts "`all` to see all data, `miss` to see missing project's urls"

@@ -159,7 +159,7 @@ uclouvain,osis,755,245,100,310,100,14,uclouvain,""
 northern-bites,nbites,754,49,77,600,28,15,northern-bites,""
 getsentry,sentry,749,265,104,320,60,12,getsentry,""
 scipy,scipy,747,555,75,52,65,22,scipy,""
-webpack,webpack,745,573,26,28,118,12,webpack,""
+webpack,webpack,745,573,26,28,118,12,webpack,github.com/webpack
 deeplearning4j,deeplearning4j,741,327,69,271,74,18,deeplearning4j,""
 halide,Halide,735,187,81,448,19,17,halide,""
 rapid7,metasploit-framework,733,529,85,78,41,30,rapid7,""

@@ -2,7 +2,7 @@ org,repo,activity,comments,prs,commits,issues,authors,project,url
 dotnet,corefx+coreclr+cli+wcf+corert+roslyn-analyzers,8190,5933,779,760,718,158,dotnet,microsoft.com/net
 dotnet+Microsoft,roslyn+vscode+vso-agent-tasks+msbuild+vscode-docs,7526,5278,381,804,1063,112,VS Code,code.visualstudio.com
 docker,docker+swarm+compose+distribution,6896,5545,553,243,555,89,Docker,mobyproject.org
-angular+angular-ui,angular+material+angular.io+ui-grid+protractor+angular-cli,6731,4669,401,654,1007,134,Angular,angular.io
+angular+angular-ui,angular+material+angular.io+ui-grid+angular-cli,6345,4382,385,636,942,123,Angular,angular.io
 kubernetes,kubernetes,6289,5211,548,199,331,73,Kubernetes,kubernetes.io
 elastic,elasticsearch+kibana+beats,6046,3949,651,937,509,92,Elasticsearch,elastic.co/products/elasticsearch
 Automattic,wp-calypso,5773,2725,526,2110,412,97,WP Calypso,developer.wordpress.com/calypso
@@ -132,7 +132,7 @@ Automattic,jetpack,817,402,94,263,58,30,Automattic Jetpack,jetpack.com
 frappe,erpnext+frappe,814,312,128,271,103,29,frappe,""
 ngageoint,hootenanny,814,480,46,221,67,14,ngageoint,""
 sequelize,sequelize,806,586,56,27,137,12,sequelize,""
-webpack,webpack,802,628,14,37,123,12,webpack,""
+webpack,webpack,802,628,14,37,123,12,webpack,github.com/webpack
 arduino,Arduino,800,619,23,28,130,12,arduino,""
 cakephp,cakephp,798,545,83,73,97,14,cakephp,""
 fastlane,fastlane,791,532,111,57,91,20,fastlane,fastlane.tools
@@ -286,6 +286,7 @@ powerbot,powerbot,398,239,60,60,39,13,powerbot,""
 projecthydra,sufia,394,238,35,101,20,12,projecthydra,""
 NuCivic,dkan,393,39,92,246,16,12,NuCivic,""
 google,flatbuffers,392,136,21,29,206,11,Google FlatBuffers,google.github.io/flatbuffers
+angular,protractor,386,287,16,18,65,11,Protractor,protractortest.org
 codecombat,codecombat,385,126,55,173,31,29,codecombat,""
 qorelanguage,qore,381,91,71,154,65,13,qorelanguage,""
 CausalityLtd,ponyc,381,226,30,101,24,11,CausalityLtd,""

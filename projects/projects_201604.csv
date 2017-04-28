@@ -181,7 +181,7 @@ librenms,librenms,712,504,72,65,71,27,librenms,""
 TextDB,textdb,703,305,44,328,26,30,TextDB,""
 vanilla,vanilla,698,151,111,362,74,17,vanilla,""
 DynamoDS,Dynamo,696,358,137,130,71,18,DynamoDS,""
-webpack,webpack,695,502,21,28,144,14,webpack,""
+webpack,webpack,695,502,21,28,144,14,webpack,github.com/webpack
 DarkstarProject,darkstar,692,414,114,121,43,16,DarkstarProject,""
 worldofbalance,unity-game-client+wob-server,692,248,64,349,31,53,worldofbalance,""
 halide,Halide,680,217,57,382,24,15,halide,""
