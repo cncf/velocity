@@ -95,6 +95,8 @@ VS Code,code.visualstudio.com,2016-02,9613,6360,605,1095,1553,133
 
 ## Results:
 
+NOTE: for viewing using those motion charts You'll need Adobe Flash enabled when clicking links. It works (tested) on Chrome and Safari with Adobe Flash installed and enabled.
+
 For data from files.csv (data/data_YYYYMM.csv), 201601 --> 201703 (15 months)
 Chart with cumulative data (each month is sum of this month and previous months) is here:
 https://docs.google.com/spreadsheets/d/11qfS97WRwFqNnArRmpQzCZG_omvZRj_y-MNo5oWeULs/edit?usp=sharing
