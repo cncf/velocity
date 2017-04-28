@@ -39,7 +39,7 @@ angular/angular.js,Angular
 angular/angularfire2,Angular
 angular/material,Angular
 angular/material2,Angular
-angular/protractor,Angular
+angular/protractor,Protractor
 angular/tsickle,Angular
 docker/compose,Docker
 docker/containerd,Docker
