@@ -65,6 +65,7 @@ def generate(flist, fout_motion, fout_motion_sums)
           p proj
         end
       end
+      # This is nasty
       items[[label]] = [cum_labels.dup, sum.dup]
     end
     items[:sum] = sum
