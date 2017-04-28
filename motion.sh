@@ -1,2 +1,2 @@
 #!/bin/sh
-ruby generate_motion.rb files.csv motion.csv motion_sums.csv
+ruby generate_motion.rb projects/files.csv motion/motion.csv motion/motion_sums.csv
