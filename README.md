@@ -92,3 +92,26 @@ VS Code,code.visualstudio.com,2016-01,7526,5278,381,804,1063,112
 VS Code,code.visualstudio.com,2016-02,9613,6360,605,1095,1553,133
 ...
 ```
+
+## Results:
+
+For data from files.csv (data/data_YYYYMM.csv), 201601 --> 201703 (15 months)
+Chart with cumulative data (each month is sum of this month and previous months) is here:
+https://docs.google.com/spreadsheets/d/11qfS97WRwFqNnArRmpQzCZG_omvZRj_y-MNo5oWeULs/edit?usp=sharing
+Chart with monthly data (that looks wrong IMHO due to google motion chart data interpolation between moths) is here: 
+https://docs.google.com/spreadsheets/d/1ZgdIuMxxcyt8fo7xI1rMeFNNx9wx0AxS-2a58NlHtGc/edit?usp=sharing
+
+I suggest play around with 1st chart (cumulative sum):
+It is not able to remember settings so once You click on "Chart1" scheet I suggest:
+- Change axis-x and axis-y from Lin (linerar) to Log (logarithmics)
+- You can choose what column should be used for color: I suggest activity (this is default and shows which project was most active) or choose unique color (You can select from commits, prs+issues, size) (size is square root of number of authors)
+- Change playback speed (control next to play) to slowest
+- Select inerested projects from Legend (like Kubernetes for example or Kubernetes vs dotnet etc) and check "trails"
+- You can also change what x and y axisis use as data, defaults are: x=commits, y=pr+issues, and change scale type lin/log
+- You can also change which column use for bubble size (default is "size" which means square root of number of authors), note that number of authors = max from all monts (distinct authors that contributed to activity), this is obviously differnt from set of distinct authors activity in entire 15 months range
+
+On the top/right just above the Color drop down You can see additional two chart types:
+- Bar chart - this can be very useful
+- Choose li or log y-axis scale, then select Kubernetes from Legend and then choose any of y-axis possible values (activity, commits, PRs+issues, Size) and click play to see how Kubernetes overtakes multiple projects during our period.
+Finally there is also a linear chart, take a look on it too.
+
