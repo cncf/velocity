@@ -96,7 +96,7 @@ VS Code,code.visualstudio.com,2016-02,9613,6360,605,1095,1553,133
 ...
 ```
 
-## Results:
+# Results:
 
 NOTE: for viewing using those motion charts You'll need Adobe Flash enabled when clicking links. It works (tested) on Chrome and Safari with Adobe Flash installed and enabled.
 
@@ -119,4 +119,7 @@ On the top/right just above the Color drop down You can see additional two chart
 - Bar chart - this can be very useful
 - Choose li or log y-axis scale, then select Kubernetes from Legend and then choose any of y-axis possible values (activity, commits, PRs+issues, Size) and click play to see how Kubernetes overtakes multiple projects during our period.
 Finally there is also a linear chart, take a look on it too.
+
+# Published:
+https://docs.google.com/spreadsheets/d/11qfS97WRwFqNnArRmpQzCZG_omvZRj_y-MNo5oWeULs/pubhtml
 
