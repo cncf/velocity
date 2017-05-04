@@ -130,3 +130,8 @@ Finally there is also a linear chart, take a look on it too.
 # Published:
 https://docs.google.com/spreadsheets/d/11qfS97WRwFqNnArRmpQzCZG_omvZRj_y-MNo5oWeULs/pubhtml
 
+# Shared:
+https://docs.google.com/spreadsheets/d/1S-YLoma7-j6koN86gCCy_WwdgQNghk1SFuHuzXcQcnc/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1MuulhPL_SHia7IQYWfgo4IWvkiLq5EJILtRJ_OvxHxc/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1bERALoPEavrBcyXuaArAXHg5b2m0v6CEm_RI0KBLddQ/edit?usp=sharing
+
