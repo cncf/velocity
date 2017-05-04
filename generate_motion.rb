@@ -90,10 +90,12 @@ def generate(flist, fout_motion, fout_motion_sums)
 
   # Motion chart data
   ks = %w(project url label activity comments prs commits issues authors)
+  ks += %w(sum_activity sum_comments sum_prs sum_commits sum_issues sum_authors)
   CSV.open(fout_motion, "w", headers: ks) do |csv|
     csv << ks
     top_projs.each do |item|
       proj = item[0]
+      sum = item[2][:sum]
       authors = 0
       labels.each do |label|
         row = item[2][label]
@@ -107,7 +109,13 @@ def generate(flist, fout_motion, fout_motion_sums)
           row['prs'],
           row['commits'],
           row['issues'],
-          authors
+          authors,
+          sum['activity'],
+          sum['comments'],
+          sum['prs'],
+          sum['commits'],
+          sum['issues'],
+          sum['authors']
         ]
         csv << csv_row
       end
@@ -119,6 +127,7 @@ def generate(flist, fout_motion, fout_motion_sums)
     csv << ks
     top_projs.each do |item|
       proj = item[0]
+      sum = item[2][:sum]
       authors = 0
       labels.each do |label|
         # sum_labels = item[2][[label]][0]
@@ -133,7 +142,13 @@ def generate(flist, fout_motion, fout_motion_sums)
           row['prs'],
           row['commits'],
           row['issues'],
-          row['authors']
+          row['authors'],
+          sum['activity'],
+          sum['comments'],
+          sum['prs'],
+          sum['commits'],
+          sum['issues'],
+          sum['authors']
         ]
         csv << csv_row
       end
