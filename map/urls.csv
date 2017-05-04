@@ -1,11 +1,12 @@
 project,url
 3DS Guide,3ds.guide
-AMP Project,ampproject.org
+AMP,ampproject.org
 ASP.net,asp.net
 Airbnb,airbnb.io
 Angular,angular.io
 Ansible,ansible.com
 Ant Design,ant.design
+AtlasDB,palantir.github.io/atlasdb
 Atom,atom.io
 Automattic Jetpack,jetpack.com
 Azure,azure.github.io
@@ -15,21 +16,22 @@ Brave Software,brave.com
 Broad Institute,broadinstitute.org
 CARTO,carto.com
 CMS Offline Software,cms-sw.github.io
+Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
 Chef,chef.io/chef
 Cockroach DB,cockroachlabs.com
+Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
 CoreOS,coreos.com
 Dart,dartlang.org
 DefinitelyTyped,definitelytyped.org
-Department of Veterans Affairs,va.gov
 Digital Transformation Office,dta.gov.au
 Distributed Machine Learning Community,dmlc.github.io
 Docker,mobyproject.org
 Eclipse,eclipse.org
 Elasticsearch,elastic.co/products/elasticsearch
 Ethereum,ethereum.org
-Facebook,facebook.com
+Flutter,flutter.io
 GRPC,grpc.io
 Godot Engine,godotengine.org
 Google,google.com
@@ -48,11 +50,8 @@ Google Python Fire,github.com/google/python-fire
 Google WebFundamentals,developers.google.com/web/fundamentals
 Google i18n,developers.google.com/international
 Google seq2seq,google.github.io/seq2seq
-HashiCorp Consul,consul.io
-HashiCorp Nomad,nomadproject.io
-HashiCorp Terraform,terraform.io
-HashiCorp Vault,vaultproject.io
 HippieStationCode,github.com/HippieStationCode/HippieStation13
+Home Assistant,home-assistant.io
 Homebrew,brew.sh
 Homebrew Cask,caskroom.github.io
 Hyperledger Project,hyperledger.org
@@ -70,6 +69,8 @@ Magento,magento.com/home
 ManageIQ,manageiq.org
 Mantid,mantidproject.org
 Mapbox,mapbox.com
+Marlin,marlinfw.org
+Mastodon,mastodon.social
 Mattermost,mattermost.org
 Mesosphere,mesosphere.com
 Meteor,meteor.com
@@ -90,11 +91,11 @@ NativeScript,nativescript.org
 Nextcloud,nextcloud.com
 NixOS,nixos.org
 Node.js,nodejs.org
+Nomad,nomadproject.io
 Nylas,nylas.com
 Odoo,odoo.com
 OpenRCT2,openrct2.website
 OpenShift,openshift.com
-Palantir Technologies,palantir.com
 ParadiseSS13,nanotrasen.se/forum
 Parity,github.com/paritytech/parity
 Parse,parseplatform.github.io
@@ -103,7 +104,7 @@ PokemonGoF,maps.pikabot.org
 PokemonGoMap,pokemongomap.info
 PowerShell,microsoft.com/powershell
 Protractor,protractortest.org
-React,facebook.github.io/react-native
+React,facebook.com
 Realm,realm.io
 RobotLocomotion,drake.mit.edu
 RocketChat,rocket.chat
@@ -113,8 +114,10 @@ SaltStack,repo.saltstack.com
 Serverless Framework,serverless.com
 Symfony,symfony.com
 TEAMMATES,teammatesv4.appspot.com
+TSLint,palantir.github.io/tslint
 TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
 TensorFlow,tensorflow.org
+Terraform,terraform.io
 The Guardian,theguardian.com
 The Servo Browser Engine,servo.org
 The Void distribution,voidlinux.eu
@@ -122,6 +125,7 @@ TrinityCore,trinitycore.org
 TypeScript,typescriptlang.org
 VMware,vmware.github.io
 VS Code,code.visualstudio.com
+Vault,vaultproject.io
 WP Calypso,developer.wordpress.com/calypso
 Wire Swiss GmbH,wire.com
 WordPress-mobile,make.wordpress.org/mobile
@@ -131,9 +135,9 @@ Yogstation13,yogstation.net
 ZEIT,zeit.co
 dotnet,microsoft.com/net
 eslint,eslint.org
+fabric8,fabric8.io
 fastlane,fastlane.tools
 fossasia,fossasia.org
-home-assistant,home-assistant.io
 libretro,libretro.com
 neveragain.tech,neveragain.tech
 npm,npmjs.com

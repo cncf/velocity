@@ -3,12 +3,13 @@ Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
 CartoDB,CARTO
 CleverRaven,Cataclysm-DDA
+MarlinFirmware,Marlin
 ParsePlatform,Parse
 Particular,NServiceBus
 Plailect/Guide,3DS Guide
 Yoast,Yoast SEO
 airbnb,Airbnb
-ampproject,AMP Project
+ampproject,AMP
 ansible,Ansible
 ant-design,Ant Design
 aspnet,ASP.net
@@ -24,7 +25,7 @@ cockroachdb,Cockroach DB
 coreos,CoreOS
 d3athrow/vgstation13,vgstation13
 dart-lang,Dart
-department-of-veterans-affairs,Department of Veterans Affairs
+department-of-veterans-affairs,Caseflow
 dmlc,Distributed Machine Learning Community
 driftyco,Ionic
 e-government-ua,Основной репозиторий
@@ -32,10 +33,13 @@ eclipse,Eclipse
 elastic,Elasticsearch
 ethcore,Parity
 ethereum,Ethereum
-facebook,Facebook
+fabric8io,fabric8
+facebook,React
+flutter,Flutter
 godotengine,Godot Engine
 grpc,GRPC
 guardian,The Guardian
+home-assistant,Home Assistant
 hyperledger,Hyperledger Project
 influxdata,InfluxData
 joomla,Joomla
@@ -59,7 +63,6 @@ nylas,Nylas
 odoo,Odoo
 openshift,OpenShift
 owncloud,ownCloud
-palantir,Palantir Technologies
 pingcap,PingCAP
 rails,Ruby on Rails
 saltstack,SaltStack
@@ -67,6 +70,7 @@ serverless,Serverless Framework
 servo,The Servo Browser Engine
 symfony,Symfony
 tgstation,SS13
+vgstation-coders,vgstation13
 vmware,VMware
 voidlinux,The Void distribution
 wireapp,Wire Swiss GmbH

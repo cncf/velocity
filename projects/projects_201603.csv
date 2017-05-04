@@ -15,11 +15,12 @@ aspnet,EntityFramework+Mvc+Docs+KestrelHttpServer+Templates+MusicStore,3693,2155
 atom,atom+electron,3425,2404,168,385,468,52,Atom,atom.io
 nodejs,node+nodejs.org,3172,2616,214,141,201,62,Node.js,nodejs.org
 Homebrew,homebrew+homebrew-php+homebrew-science,3008,1622,878,331,177,137,Homebrew,brew.sh
+facebook,react+presto+osquery+rocksdb,2943,2080,296,319,248,104,React,facebook.com
 Azure,azure-content+azure-powershell+azure-iot-sdks+azure-webjobs-sdk-templates+azure-sdk-for-net,2758,1343,538,679,198,218,Azure,azure.github.io
 grpc,grpc+grpc-java+grpc-go,2692,1890,314,197,291,45,GRPC,grpc.io
 eclipse,che+jetty.project,2604,1104,206,1095,199,49,Eclipse,eclipse.org
 cockroachdb,cockroach,2591,1607,310,362,312,25,Cockroach DB,cockroachlabs.com
-hashicorp,terraform,2574,1815,161,225,373,46,HashiCorp Terraform,terraform.io
+hashicorp,terraform,2574,1815,161,225,373,46,Terraform,terraform.io
 driftyco,ionic+ionic-site+ionic-native,2559,1351,110,722,376,76,Ionic,ionicframework.com
 Microsoft,TypeScript,2386,1722,88,245,331,18,TypeScript,typescriptlang.org
 joomla,joomla-cms,2295,1874,136,94,191,26,Joomla,joomla.org
@@ -37,7 +38,7 @@ rails,rails,1920,1322,287,162,149,64,Ruby on Rails,rubyonrails.org
 keybase,client,1868,860,220,702,86,17,Keybase,keybase.io
 wordpress-mobile,WordPress-iOS+WordPress-Android,1852,725,176,843,108,25,WordPress-mobile,make.wordpress.org/mobile
 mantidproject,mantid,1846,562,140,971,173,33,Mantid,mantidproject.org
-ampproject,amphtml,1827,1278,185,174,190,44,AMP Project,ampproject.org
+ampproject,amphtml,1827,1278,185,174,190,44,AMP,ampproject.org
 cfpb,cfgov-refresh,1826,824,251,731,20,11,Consumer Financial Protection Bureau,cfpb.github.io
 yogstation13,yogstation,1786,1263,171,211,141,20,Yogstation13,yogstation.net
 CartoDB,cartodb,1774,719,152,765,138,23,CARTO,carto.com
@@ -51,7 +52,6 @@ fastlane,fastlane,1655,1209,156,69,221,18,fastlane,fastlane.tools
 voidlinux,void-packages,1648,674,158,748,68,42,The Void distribution,voidlinux.eu
 realm,realm-java+realm-cocoa,1600,1130,51,230,189,22,Realm,realm.io
 DefinitelyTyped,DefinitelyTyped,1597,777,418,333,69,220,DefinitelyTyped,definitelytyped.org
-facebook,presto+osquery+rocksdb,1567,995,200,247,125,69,Facebook,facebook.com
 TrinityCore,TrinityCore,1565,1066,64,309,126,40,TrinityCore,trinitycore.org
 odoo,odoo,1547,678,303,441,125,80,Odoo,odoo.com
 ethcore,parity,1540,337,232,875,96,14,Parity,github.com/paritytech/parity
@@ -64,11 +64,10 @@ emberjs,ember.js+data,1451,1007,169,164,111,47,emberjs,""
 Yoast,wordpress-seo+YoastSEO.js,1450,643,101,495,211,37,Yoast SEO,yoast.com/wordpress/seo
 pymedusa,SickRage,1419,334,177,881,27,14,pymedusa,""
 Microsoft,ChakraCore,1394,1029,259,41,65,17,Microsoft Chakra,github.com/Microsoft/ChakraCore
-department-of-veterans-affairs,vets-website,1393,471,265,570,87,20,Department of Veterans Affairs,va.gov
+department-of-veterans-affairs,vets-website,1393,471,265,570,87,20,Caseflow,va.gov
 JabRef,jabref,1378,949,116,235,78,17,JabRef,""
-facebook,react,1376,1085,96,72,123,35,React,facebook.github.io/react-native
-druid-io,druid,1365,913,237,157,58,25,druid-io,""
 sympy,sympy,1365,1058,140,73,94,37,sympy,""
+druid-io,druid,1365,913,237,157,58,25,druid-io,""
 Particular,docs.particular.net+NServiceBus,1355,806,87,384,78,54,NServiceBus,particular.net/nservicebus
 subutai-io,base,1325,152,203,788,182,28,subutai-io,""
 PX4,Firmware,1319,897,116,204,102,20,PX4,""
@@ -84,7 +83,7 @@ RIOT-OS,RIOT,1205,1083,64,38,20,16,RIOT-OS,""
 ScottLogic,StockFlux,1198,597,151,315,135,12,ScottLogic,""
 openssl,openssl,1197,661,120,374,42,37,openssl,""
 NREL,EnergyPlus+OpenStudio,1197,664,85,375,73,27,NREL,""
-flutter,flutter,1186,701,124,120,241,23,flutter,""
+flutter,flutter,1186,701,124,120,241,23,Flutter,flutter.io
 openSUSE,osem+open-build-service,1184,803,150,164,67,28,openSUSE,""
 neo4j,neo4j,1171,518,245,363,45,36,neo4j,""
 iTXTech,Genisys,1164,804,33,163,164,16,iTXTech,""
@@ -115,15 +114,15 @@ greenplum-db,gpdb,993,722,123,121,27,41,greenplum-db,""
 NodeBB,NodeBB,990,483,39,299,169,18,NodeBB,""
 Sylius,Sylius,981,655,186,41,99,18,Sylius,""
 letsencrypt,letsencrypt,978,671,70,134,103,17,Let's Encrypt,letsencrypt.org
-frappe,erpnext+frappe,973,318,178,360,117,36,frappe,""
 bolt,bolt,973,652,98,136,87,16,bolt,""
+frappe,erpnext+frappe,973,318,178,360,117,36,frappe,""
 Fermat-ORG,fermat,969,118,100,141,610,32,Fermat-ORG,""
 RPCS3,rpcs3,965,763,71,75,56,14,RPCS3,""
 KhronosGroup,Vulkan-LoaderAndValidationLayers,960,504,104,258,94,23,KhronosGroup,""
 minetest,minetest,957,834,46,17,60,11,minetest,""
 sakaiproject,sakai,940,390,247,280,23,39,sakaiproject,""
 OpenRCT2,OpenRCT2,937,666,57,108,106,18,OpenRCT2,openrct2.website
-hashicorp,nomad,932,408,103,361,60,20,HashiCorp Nomad,nomadproject.io
+hashicorp,nomad,932,408,103,361,60,20,Nomad,nomadproject.io
 elsys,po-homework,918,154,62,612,90,96,elsys,""
 ngageoint,hootenanny,909,492,45,289,83,12,ngageoint,""
 esp8266,Arduino,908,690,37,76,105,22,esp8266,""
@@ -132,8 +131,8 @@ graalvm,truffle+graal-core,887,525,146,185,31,30,graalvm,""
 oppia,oppia,882,738,69,32,43,16,oppia,""
 numpy,numpy,876,710,61,40,65,18,numpy,""
 openblockchain,obc-peer+obc-docs,875,593,65,65,152,28,openblockchain,""
-Flexget,Flexget,870,288,27,487,68,19,Flexget,""
 piwik,piwik,870,550,43,182,95,12,piwik,""
+Flexget,Flexget,870,288,27,487,68,19,Flexget,""
 fish-shell,fish-shell,859,728,23,38,70,12,fish-shell,""
 Automattic,jetpack,859,314,99,394,52,35,Automattic Jetpack,jetpack.com
 torchbox,wagtail,853,604,70,106,73,26,torchbox,""
@@ -143,8 +142,8 @@ dmlc,mxnet,845,583,92,33,137,19,Distributed Machine Learning Community,dmlc.gith
 solettaproject,soletta,832,451,140,89,152,15,solettaproject,""
 AnalyticalGraphicsInc,cesium,832,446,97,239,50,15,AnalyticalGraphicsInc,""
 systemd,systemd,828,583,92,75,78,39,systemd,""
-idaholab,moose,825,522,103,124,76,22,idaholab,""
 fxbox,foxbox,825,434,140,197,54,18,fxbox,""
+idaholab,moose,825,522,103,124,76,22,idaholab,""
 Legion-Expansion,Legion-Expansion,823,305,16,399,103,13,Legion-Expansion,""
 cgeo,cgeo,815,529,63,137,86,11,cgeo,""
 aws,aws-cli+aws-sdk-ruby+aws-sdk-go,813,478,88,183,64,38,aws,""
@@ -152,14 +151,14 @@ PolarisSS13,Polaris,811,457,160,132,62,22,PolarisSS13,""
 openhab,openhab,809,630,52,64,63,23,openhab,""
 dotnet,orleans,806,584,87,94,41,20,Microsoft Orleans,dotnet.github.io/orleans
 MinecraftForge,MinecraftForge,805,509,69,145,82,20,MinecraftForge,""
-mpv-player,mpv,803,597,30,76,100,11,mpv-player,""
 weaveworks,scope,803,353,52,300,98,12,weaveworks,""
+mpv-player,mpv,803,597,30,76,100,11,mpv-player,""
 SeleniumHQ,selenium,800,488,27,126,159,26,SeleniumHQ,""
 urho3d,Urho3D,798,508,34,211,45,17,urho3d,""
 twosigma,beaker-notebook,797,285,114,259,139,11,twosigma,""
 ant-design,ant-design,795,420,55,163,157,11,Ant Design,ant.design
-bioconda,bioconda-recipes,784,300,216,253,15,27,bioconda,""
 MDAnalysis,mdanalysis,784,650,34,63,37,12,MDAnalysis,""
+bioconda,bioconda-recipes,784,300,216,253,15,27,bioconda,""
 keystonejs,keystone,783,472,48,197,66,24,keystonejs,""
 arduino,Arduino,782,564,30,39,149,13,arduino,""
 biolab,orange3,779,600,89,56,34,18,biolab,""
@@ -185,8 +184,8 @@ IBM-Swift,Kitura,708,391,14,175,128,14,IBM-Swift,""
 LMFDB,lmfdb,704,249,142,203,110,15,LMFDB,""
 micropython,micropython,704,414,43,194,53,11,micropython,""
 scipy,scipy,703,556,56,40,51,22,scipy,""
-crystal-lang,crystal,692,523,54,40,75,17,crystal-lang,""
 aframevr,aframe,692,424,102,93,73,16,aframevr,""
+crystal-lang,crystal,692,523,54,40,75,17,crystal-lang,""
 webpack,webpack,686,531,15,11,129,11,webpack,github.com/webpack
 plone,Products.CMFPlone+documentation,684,452,47,113,72,24,plone,""
 linkedin,gobblin,682,457,88,92,45,12,linkedin,""
@@ -195,8 +194,8 @@ sandstorm-io,sandstorm,677,424,84,122,47,15,sandstorm-io,""
 nengo,nengo,674,386,25,250,13,13,nengo,""
 qutheory,vapor,673,245,54,353,21,11,qutheory,""
 magefree,mage,672,249,96,233,94,19,magefree,""
-coala-analyzer,coala,665,477,85,47,56,11,coala-analyzer,""
 zestedesavoir,zds-site,665,552,40,47,26,15,zestedesavoir,""
+coala-analyzer,coala,665,477,85,47,56,11,coala-analyzer,""
 astropy,astropy,665,501,66,59,39,23,astropy,""
 JMRI,JMRI,662,240,204,201,17,14,JMRI,""
 pkp,pkp-lib,658,443,46,82,87,13,pkp,""
@@ -209,8 +208,8 @@ ArmaLife,Altis,641,400,77,119,45,20,ArmaLife,""
 woothemes,woocommerce,638,284,60,180,114,11,woothemes,""
 rethinkdb,rethinkdb,637,412,16,122,87,16,rethinkdb,""
 kaldi-asr,kaldi,636,420,81,113,22,21,kaldi-asr,""
-Yelp,paasta,623,184,77,333,29,15,Yelp,""
 bokeh,bokeh,623,414,44,96,69,12,bokeh,""
+Yelp,paasta,623,184,77,333,29,15,Yelp,""
 PaperMC,Paper,621,341,34,164,82,16,PaperMC,""
 symengine,symengine,619,508,52,41,18,14,symengine,""
 libretro,RetroArch,616,154,31,395,36,14,libretro,libretro.com
@@ -221,19 +220,19 @@ africanmathsinitiative,Instat,607,291,166,137,13,11,africanmathsinitiative,""
 ligaDATA,Kamanja,605,60,17,514,14,18,ligaDATA,""
 zooniverse,Panoptes-Front-End,603,389,49,79,86,11,zooniverse,""
 hydroshare,hydroshare,602,318,23,211,50,14,hydroshare,""
-aimacode,aima-python,599,311,129,132,27,22,aimacode,""
 OpenELEC,OpenELEC.tv,599,347,40,153,59,12,OpenELEC,""
+aimacode,aima-python,599,311,129,132,27,22,aimacode,""
 IQSS,dataverse,598,382,16,136,64,16,IQSS,""
 CiscoCloud,mantl,596,285,57,208,46,14,CiscoCloud,""
 opencontainers,runc,594,461,72,27,34,14,opencontainers,""
 jruby,jruby,590,277,12,252,49,11,jruby,""
-Automattic,mongoose,589,395,27,73,94,12,Automattic,""
 haskell,cabal,589,419,43,103,24,14,haskell,""
+Automattic,mongoose,589,395,27,73,94,12,Automattic,""
 open-mpi,ompi,582,413,60,90,19,16,open-mpi,""
 fossasia,2016.fossasia.org,582,210,66,278,28,39,fossasia,fossasia.org
 ClearSkyTeam,ClearSky,582,416,40,72,54,14,ClearSkyTeam,""
-sulu-io,sulu,579,280,76,183,40,11,sulu-io,""
 obspy,obspy,579,377,38,125,39,12,obspy,""
+sulu-io,sulu,579,280,76,183,40,11,sulu-io,""
 brave,browser-laptop,574,328,31,54,161,11,Brave Software,brave.com
 telerik,kendo-ui-core,573,29,37,453,54,26,telerik,""
 Windows-XAML,Template10,570,425,26,49,70,12,Windows-XAML,""
@@ -241,11 +240,11 @@ openwrt,packages,569,317,96,123,33,47,openwrt,""
 syncthing,syncthing,564,325,20,167,52,11,syncthing,""
 DynamoDS,Dynamo,556,245,134,146,31,20,DynamoDS,""
 SF-WDI-LABS,shared_modules,552,128,66,333,25,15,SF-WDI-LABS,""
-rackerlabs,rackspace-how-to,548,214,117,191,26,22,rackerlabs,""
 processone,ejabberd,548,342,20,123,63,17,processone,""
+rackerlabs,rackspace-how-to,548,214,117,191,26,22,rackerlabs,""
 pyinstaller,pyinstaller,547,425,17,52,53,14,pyinstaller,""
-codecombat,codecombat,541,141,60,312,28,26,codecombat,""
 opensim-org,opensim-core,541,242,48,227,24,15,opensim-org,""
+codecombat,codecombat,541,141,60,312,28,26,codecombat,""
 supercollider,supercollider,539,424,39,50,26,17,supercollider,""
 Z3Prover,z3,537,332,32,121,52,13,Z3Prover,""
 projecthydra,sufia,537,264,70,147,56,14,projecthydra,""
@@ -369,7 +368,7 @@ Jumpscale,jumpscale_core8,357,37,33,272,15,12,Jumpscale,""
 StackStorm,st2,354,171,43,117,23,17,StackStorm,""
 stan-dev,math,351,216,15,101,19,11,stan-dev,""
 uProxy,uproxy,349,159,32,118,40,11,uProxy,""
-fabric8io,fabric8,348,170,33,102,43,12,fabric8io,""
+fabric8io,fabric8,348,170,33,102,43,12,fabric8,fabric8.io
 openucx,ucx,345,231,52,51,11,11,openucx,""
 SparkDevNetwork,Rock,344,58,21,233,32,12,SparkDevNetwork,""
 celery,celery,342,194,15,86,47,12,celery,""
@@ -387,7 +386,7 @@ nodegit,nodegit,330,230,34,49,17,15,nodegit,""
 kamailio,kamailio,329,142,16,147,24,23,kamailio,""
 pixijs,pixi.js,328,199,32,62,35,12,pixijs,""
 marionettejs,backbone.marionette,320,226,30,32,32,12,marionettejs,""
-palantir,tslint,319,208,29,47,35,14,Palantir Technologies,palantir.com
+palantir,tslint,319,208,29,47,35,14,TSLint,palantir.github.io/tslint
 Gizra,Gizra,319,108,29,161,21,12,Gizra,""
 plexinc,plex-media-player,318,166,16,110,26,14,plexinc,""
 samtools,htsjdk,315,208,24,66,17,15,samtools,""

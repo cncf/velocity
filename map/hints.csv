@@ -71,10 +71,10 @@ google/python-fire,Google Python Fire
 google/seq2seq,Google seq2seq
 googleapis/toolkit,Google API
 googlei18n/libphonenumber,Google i18n
-hashicorp/consul,HashiCorp Consul
-hashicorp/nomad,HashiCorp Nomad
-hashicorp/terraform,HashiCorp Terraform
-hashicorp/vault,HashiCorp Vault
+hashicorp/consul,Consul
+hashicorp/nomad,Nomad
+hashicorp/terraform,Terraform
+hashicorp/vault,Vault
 kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes
@@ -91,6 +91,8 @@ kubernetes/kubernetes,Kubernetes
 kubernetes/kubernetes.github.io,Kubernetes
 kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
+palantir/atlasdb,AtlasDB
+palantir/tslint,TSLint
 react-community/create-react-native-app,React
 react-community/react-navigation,React
 react-native-community/react-native-elements,React
@@ -102,3 +104,4 @@ realm/realm-java,Realm
 realm/realm-js,Realm
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
+tootsuite/mastodon,Mastodon

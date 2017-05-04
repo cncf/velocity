@@ -14,3 +14,4 @@ ruby analysis.rb data/data_201612.csv projects/projects_201612.csv map/hints.csv
 ruby analysis.rb data/data_201701.csv projects/projects_201701.csv map/hints.csv map/urls.csv map/defmaps.csv
 ruby analysis.rb data/data_201702.csv projects/projects_201702.csv map/hints.csv map/urls.csv map/defmaps.csv
 ruby analysis.rb data/data_201703.csv projects/projects_201703.csv map/hints.csv map/urls.csv map/defmaps.csv
+ruby analysis.rb data/data_201704.csv projects/projects_201704.csv map/hints.csv map/urls.csv map/defmaps.csv
