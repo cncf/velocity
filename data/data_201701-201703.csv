@@ -151,7 +151,6 @@ xitu,xitu/gold-miner,2774,1851,137,539,247,62
 systemd,systemd/systemd,2771,1912,323,232,304,82
 ,radare/radare2,2766,1837,299,294,336,25
 the-control-group,the-control-group/voyager,2753,1859,277,312,305,50
-deeplearning4j,deeplearning4j/deeplearning4j,2746,1208,238,980,320,44
 dotCMS,dotCMS/core,2741,1025,337,871,508,27
 facebook,facebook/jest,2737,1979,336,91,331,25
 wordpress-mobile,wordpress-mobile/WordPress-iOS,2708,1155,332,947,274,25
@@ -339,7 +338,6 @@ akka,akka/akka,1593,1077,207,115,194,32
 curl,curl/curl,1588,1135,105,259,89,51
 Homebrew,Homebrew/brew,1588,827,336,237,188,23
 antlr,antlr/antlr4,1587,1195,146,153,93,23
-csu2017sp314,csu2017sp314/class,1585,320,423,746,96,117
 projecthydra-labs,projecthydra-labs/hyrax,1578,590,241,579,168,25
 GoogleCloudPlatform,GoogleCloudPlatform/google-cloud-java,1578,1042,179,185,172,27
 yandex,yandex/ClickHouse,1574,482,254,746,92,34
@@ -509,10 +507,8 @@ DarkstarProject,DarkstarProject/darkstar,1088,631,142,234,81,28
 Roll20,Roll20/roll20-character-sheets,1082,360,336,347,39,79
 kubernetes,kubernetes/heapster,1079,855,86,79,59,44
 iovisor,iovisor/bcc,1075,749,129,122,75,35
-,githubteacher/march-developers,1071,341,153,403,174,171
 cBioPortal,cBioPortal/cbioportal,1069,492,163,329,85,31
 clab,clab/dynet,1064,665,89,205,105,34
-deeplearning4j,deeplearning4j/nd4j,1062,415,80,467,100,22
 openaps,openaps/oref0,1059,549,93,379,38,25
 moment,moment/moment,1058,807,69,63,119,39
 ,netblue30/firejail,1057,633,49,244,131,21
@@ -603,7 +599,6 @@ qmk,qmk/qmk_firmware,835,522,109,156,48,65
 Shippable,Shippable/base,828,175,236,233,184,24
 Yelp,Yelp/paasta,825,195,147,450,33,25
 getredash,getredash/redash,824,463,107,155,99,29
-planetxamarin,planetxamarin/planetxamarin,821,273,193,319,36,77
 HerculesWS,HerculesWS/Hercules,813,544,73,144,52,24
 ckan,ckan/ckan,811,510,69,153,79,23
 ,Fyrd/caniuse,811,459,94,151,107,49
@@ -715,7 +710,6 @@ emberjs,emberjs/guides,503,298,94,62,49,31
 github,github/open-source-guide,499,282,77,107,33,40
 ,samselikoff/ember-cli-mirage,491,348,35,60,48,23
 ansible,ansible/ansibullbot,491,104,160,163,64,21
-,githubteacher/developers-feb-2017,477,120,62,219,76,65
 flowtype,flowtype/flow-typed,475,199,120,101,55,58
 watson-developer-cloud,watson-developer-cloud/java-sdk,474,175,63,171,65,21
 ballerinalang,ballerinalang/ballerina,473,161,124,116,72,29
@@ -725,13 +719,11 @@ department-of-veterans-affairs,department-of-veterans-affairs/caseflow-efolder,4
 Pitt-CSC,Pitt-CSC/club_project_2017,455,298,47,52,58,21
 mozilla-services,mozilla-services/screenshots,450,173,39,190,48,48
 ,HGustavs/LenaSYS,436,158,50,139,89,29
-,githubteacher/dev-mar-6,432,139,54,176,63,54
 ,pydanny/cookiecutter-django,429,201,32,152,44,22
 ,QingWei-Li/docsify,419,138,44,184,53,21
 ,spulec/moto,413,213,44,110,46,29
 ArduPilot,ArduPilot/ardupilot_wiki,411,178,59,121,53,34
 ,robmorgan/phinx,408,272,45,60,31,27
-deeplearning4j,deeplearning4j/dl4j-examples,405,159,44,145,57,21
 ,pennersr/django-allauth,405,222,61,71,51,32
 assimp,assimp/assimp,403,217,40,92,54,26
 firebase,firebase/functions-samples,391,240,35,62,54,23

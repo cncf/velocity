@@ -121,7 +121,6 @@ xcat2,xcat2/xcat-core,939,621,112,123,83,22
 Microsoft,Microsoft/vsts-tasks,936,411,113,337,75,37
 cerebral,cerebral/cerebral,934,420,128,363,23,18
 twbs,twbs/bootstrap,916,597,86,121,112,34
-deeplearning4j,deeplearning4j/deeplearning4j,909,406,62,344,97,22
 openshift,openshift/openshift-ansible,902,532,144,170,56,30
 hydroshare,hydroshare/hydroshare,897,497,38,260,102,13
 frappe,frappe/erpnext,896,369,141,197,189,23
@@ -300,7 +299,6 @@ weaveworks,weaveworks/scope,512,280,39,149,44,16
 informatics-isi-edu,informatics-isi-edu/chaise,509,229,41,163,76,12
 bitpay,bitpay/copay,506,265,80,80,81,11
 training-center,training-center/mentoria,506,325,60,88,33,39
-deeplearning4j,deeplearning4j/nd4j,506,184,65,218,39,13
 languagetool-org,languagetool-org/languagetool,505,160,22,300,23,15
 department-of-veterans-affairs,department-of-veterans-affairs/caseflow,505,187,33,248,37,12
 aframevr,aframevr/aframe,505,312,67,74,52,15
@@ -530,7 +528,6 @@ robolectric,robolectric/robolectric,255,119,29,91,16,15
 OfficeDev,OfficeDev/office-ui-fabric-js,255,137,22,50,46,11
 facebook,facebook/fbctf,254,156,33,41,24,18
 lagom,lagom/lagom,250,126,47,53,24,12
-open-guides,open-guides/og-aws,248,163,34,31,20,15
 Microsoft,Microsoft/HoloToolkit-Unity,246,175,29,27,15,12
 DarkstarProject,DarkstarProject/darkstar,246,146,30,47,23,15
 husky-team,husky-team/husky,246,163,35,33,15,11

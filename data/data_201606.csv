@@ -160,7 +160,6 @@ northern-bites,northern-bites/nbites,754,49,77,600,28,15
 getsentry,getsentry/sentry,749,265,104,320,60,12
 scipy,scipy/scipy,747,555,75,52,65,22
 webpack,webpack/webpack,745,573,26,28,118,12
-deeplearning4j,deeplearning4j/deeplearning4j,741,327,69,271,74,18
 KhronosGroup,KhronosGroup/Vulkan-LoaderAndValidationLayers,740,328,55,302,55,28
 halide,halide/Halide,735,187,81,448,19,17
 rapid7,rapid7/metasploit-framework,733,529,85,78,41,30

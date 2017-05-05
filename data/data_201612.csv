@@ -100,7 +100,6 @@ atom,atom/atom,977,682,40,134,121,22
 electron,electron/electron,950,582,68,169,131,32
 bazelbuild,bazelbuild/bazel,946,731,12,71,132,27
 codenvy,codenvy/codenvy,941,335,101,411,94,28
-deeplearning4j,deeplearning4j/deeplearning4j,938,371,97,370,100,29
 EFForg,EFForg/https-everywhere,931,520,305,77,29,25
 zeit,zeit/next.js,928,614,77,121,116,23
 GoogleChrome,GoogleChrome/lighthouse,925,538,54,159,174,14
@@ -363,7 +362,6 @@ jwplayer,jwplayer/jwplayer,416,117,68,216,15,14
 fpco,fpco/stackage,416,202,48,141,25,34
 4teamwork,4teamwork/opengever.core,414,61,50,254,49,11
 payara,payara/Payara,413,338,26,32,17,13
-deeplearning4j,deeplearning4j/nd4j,413,131,44,196,42,14
 docksal,docksal/docksal,413,72,36,289,16,12
 istio,istio/mixer,412,251,72,59,30,12
 Aurorastation,Aurorastation/Aurora.3,412,166,81,80,85,11
@@ -549,7 +547,6 @@ biolab,biolab/orange3,222,129,38,30,25,12
 blox,blox/blox,220,124,37,36,23,12
 GeoNode,GeoNode/geonode,217,138,27,37,15,18
 ofi-cray,ofi-cray/libfabric-cray,217,129,26,38,24,14
-,githubteacher/dev-dec-12,216,55,42,101,18,21
 neos,neos/flow-development-collection,213,100,36,53,24,13
 leancloud,leancloud/docs,213,92,45,60,16,14
 fabric8io,fabric8io/fabric8,212,109,17,60,26,13
@@ -569,7 +566,6 @@ uclouvain,uclouvain/osis,200,56,36,75,33,12
 cloudfoundry,cloudfoundry/cf-release,197,90,12,83,12,31
 aspnet,aspnet/EntityFramework6,196,112,19,39,26,11
 ucb-bar,ucb-bar/rocket-chip,195,74,16,92,13,12
-,githubteacher/dev-dec-19,194,79,23,59,33,25
 Nearsoft,Nearsoft/questions,194,31,17,128,18,19
 ,julien-truffaut/Monocle,194,91,32,53,18,14
 rails,rails/webpacker,191,102,33,40,16,13
@@ -614,7 +610,6 @@ beeva,beeva/beeva-best-practices,151,83,22,33,13,18
 STScI-JWST,STScI-JWST/jwst,148,36,45,45,22,12
 racket,racket/racket,143,73,15,44,11,11
 aspnet,aspnet/SignalR,143,50,17,65,11,13
-,githubteacher/developers-december-2016,140,44,16,61,19,18
 GoogleCloudPlatform,GoogleCloudPlatform/java-docs-samples,138,57,25,45,11,14
 circleci,circleci/circleci-docs,135,44,27,50,14,16
 raywenderlich,raywenderlich/swift-algorithm-club,135,76,22,26,11,20
@@ -625,7 +620,5 @@ opengapps,opengapps/opengapps-app-support,117,49,19,38,11,14
 NativeScript,NativeScript/docs,116,39,25,39,13,18
 ArduPilot,ArduPilot/ardupilot_wiki,112,43,16,42,11,12
 meetfranz,meetfranz/plugins,108,36,20,40,12,36
-,githubteacher/welwyn-dec-2016,108,22,24,51,11,15
-deeplearning4j,deeplearning4j/dl4j-examples,91,40,13,24,14,11
 vuejs,vuejs/cn.vuejs.org,91,27,21,32,11,19
 ,nothings/single_file_libs,88,29,13,27,19,13

@@ -4,6 +4,8 @@ require 'pry'
 # Generate merged motion data for files listed in "flist" file (an their motion labels)
 # Output to "fout_motion" (per label) and cumulative sums "fout_motion_sums"
 def generate(flist, fout_motion, fout_motion_sums)
+  sort_column = 'authors'
+
   files = []
   CSV.foreach(flist, headers: true) do |row|
     h = row.to_h
@@ -71,11 +73,11 @@ def generate(flist, fout_motion, fout_motion_sums)
     items[:sum] = sum
   end
 
-  # Sort by activity (sum of data from all data files)
+  # Sort by sort_column (sum of data from all data files)
   # It determines top projects
   projs_arr = []
   projects.each do |project, items|
-    projs_arr << [project, items[:sum]['activity'], items]
+    projs_arr << [project, items[:sum][sort_column], items]
   end
   projs_arr = projs_arr.sort_by { |item| -item[1] }
 

@@ -285,7 +285,6 @@ seqan,seqan/seqan,512,263,113,102,34,17
 riot,riot/riot,511,395,21,34,61,13
 grails,grails/grails-core,510,360,18,50,82,11
 plone,plone/Products.CMFPlone,509,362,22,69,56,12
-deeplearning4j,deeplearning4j/nd4j,505,126,84,225,70,12
 rsyslog,rsyslog/rsyslog,501,301,53,91,56,12
 angular,angular/protractor,500,375,28,25,72,13
 HerculesWS,HerculesWS/Hercules,499,293,34,139,33,11
@@ -298,7 +297,6 @@ cBioPortal,cBioPortal/cbioportal,494,309,60,59,66,17
 pfnet,pfnet/chainer,493,200,77,194,22,19
 capitalone,capitalone/Hygieia,492,329,54,56,53,11
 sonata-project,sonata-project/SonataAdminBundle,491,401,27,34,29,16
-deeplearning4j,deeplearning4j/deeplearning4j,490,163,57,191,79,20
 opencart,opencart/opencart,487,214,77,97,99,30
 DataDog,DataDog/dd-agent,487,175,81,202,29,23
 zurb,zurb/foundation-emails,486,293,15,90,88,12

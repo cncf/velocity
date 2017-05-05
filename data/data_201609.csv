@@ -195,7 +195,6 @@ xcat2,xcat2/xcat-core,717,474,74,96,73,19
 google,google/protobuf,717,434,84,109,90,30
 magefree,magefree/mage,713,256,109,265,83,23
 influxdata,influxdata/telegraf,709,419,55,148,87,26
-cs371p-fall-2016,cs371p-fall-2016/collatz-tests,709,240,247,209,13,154
 qTox,qTox/qTox,708,586,49,34,39,11
 google,google/WebFundamentals,706,300,137,184,85,24
 AnalyticalGraphicsInc,AnalyticalGraphicsInc/cesium,701,307,55,291,48,15
@@ -345,7 +344,6 @@ mesonbuild,mesonbuild/meson,444,288,50,64,42,17
 ,Zarel/Pokemon-Showdown,443,224,61,147,11,18
 silverstripe,silverstripe/silverstripe-framework,442,297,44,31,70,13
 meanjs,meanjs/mean,441,347,34,24,36,11
-deeplearning4j,deeplearning4j/deeplearning4j,440,100,51,245,44,17
 CGAL,CGAL/cgal,438,246,79,80,33,13
 Codeception,Codeception/Codeception,438,304,45,42,47,22
 ,austintoddj/canvas,435,196,33,187,19,14
@@ -409,7 +407,6 @@ ONSdigital,ONSdigital/eq-survey-runner,381,71,46,247,17,14
 fpco,fpco/stackage,378,159,79,114,26,42
 materialsproject,materialsproject/pymatgen,378,70,24,270,14,17
 grommet,grommet/grommet,377,145,53,134,45,14
-,githubteacher/sep-22-developers,377,155,45,132,45,48
 text-mask,text-mask/text-mask,377,244,33,70,30,11
 elixir-lang,elixir-lang/elixir,374,240,57,45,32,19
 fable-compiler,fable-compiler/Fable,373,199,42,102,30,12
@@ -429,7 +426,6 @@ google,google/closure-compiler,359,253,15,38,53,22
 videojs,videojs/video.js,359,267,22,27,43,14
 frappe,frappe/frappe,359,88,88,162,21,24
 Microsoft,Microsoft/vcpkg,358,183,32,77,66,18
-,githubteacher/sep-26-everyone,358,126,63,140,29,33
 idris-lang,idris-lang/Idris-dev,356,250,39,40,27,14
 ,rmosolgo/graphql-ruby,355,212,46,82,15,14
 nipy,nipy/nipype,355,248,38,36,33,13
@@ -503,7 +499,6 @@ MoonchildProductions,MoonchildProductions/Pale-Moon,293,132,26,105,30,11
 IBM-Swift,IBM-Swift/Kitura,291,138,29,83,41,12
 react-toolbox,react-toolbox/react-toolbox,290,173,23,43,51,17
 rathena,rathena/rathena,290,122,23,116,29,15
-,githubteacher/sep-27-developers,290,117,36,86,51,34
 ,benmosher/eslint-plugin-import,287,190,17,56,24,14
 IgniteUI,IgniteUI/ignite-ui,287,75,94,91,27,23
 pouchdb,pouchdb/pouchdb,286,193,16,48,29,12
@@ -559,7 +554,6 @@ cmu-db,cmu-db/peloton,234,130,32,37,35,12
 pantsbuild,pantsbuild/pants,234,82,64,59,29,14
 x-team,x-team/unleash,233,76,31,100,26,11
 uProxy,uProxy/uproxy,231,114,17,86,14,12
-,githubteacher/dev-27-sep,228,56,31,114,27,30
 code-corps,code-corps/code-corps-ember,228,100,29,76,23,11
 cyclejs,cyclejs/cyclejs,227,159,12,36,20,11
 Financial-Times,Financial-Times/polyfill-service,226,114,26,66,20,13
@@ -571,7 +565,6 @@ Financial-Times,Financial-Times/polyfill-service,226,114,26,66,20,13
 ehcache,ehcache/ehcache3,218,117,36,39,26,12
 training-center,training-center/mentoria,215,141,22,33,19,16
 ,Kickball/awesome-selfhosted,215,98,47,58,12,15
-,githubteacher/sep-19-developers,215,72,34,85,24,26
 ,youknowone/Say,213,99,38,43,33,14
 MN-Script-Team,MN-Script-Team/DHS-MAXIS-Scripts,210,80,42,55,33,11
 deis,deis/workflow,210,119,36,39,16,15

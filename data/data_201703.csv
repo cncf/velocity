@@ -123,7 +123,6 @@ dotCMS,dotCMS/core,1094,427,134,303,230,17
 bazelbuild,bazelbuild/bazel,1082,861,22,55,144,21
 ArduPilot,ArduPilot/ardupilot,1081,775,122,121,63,35
 mozilla,mozilla/addons-frontend,1079,442,74,441,122,60
-,githubteacher/march-developers,1071,341,153,403,174,171
 akeneo,akeneo/pim-community-dev,1070,151,198,703,18,32
 circleci,circleci/circleci-docs,1069,346,218,465,40,40
 WordPress,WordPress/gutenberg,1063,496,158,375,34,12
@@ -209,7 +208,6 @@ callemall,callemall/material-ui,812,589,79,34,110,19
 GoogleChrome,GoogleChrome/lighthouse,811,425,74,236,76,19
 oppia,oppia/oppia,811,648,80,44,39,18
 chef,chef/chef,810,339,108,335,28,20
-deeplearning4j,deeplearning4j/deeplearning4j,810,430,73,165,142,26
 pioneers,pioneers/PieCentral,806,112,112,568,14,28
 Azure,Azure/azure-rest-api-specs,806,611,91,74,30,42
 Cockatrice,Cockatrice/Cockatrice,805,579,64,93,69,11
@@ -520,7 +518,6 @@ bootstrap-vue,bootstrap-vue/bootstrap-vue,438,219,27,142,50,15
 jwplayer,jwplayer/jwplayer,435,154,64,196,21,12
 PaddlePaddle,PaddlePaddle/book,435,115,133,147,40,29
 Roll20,Roll20/roll20-character-sheets,434,153,127,143,11,52
-,githubteacher/dev-mar-6,432,139,54,176,63,54
 glpi-project,glpi-project/glpi,432,219,53,93,67,16
 angular-ui,angular-ui/ui-grid,431,252,36,81,62,14
 acquia,acquia/blt,431,177,84,129,41,18
@@ -593,7 +590,6 @@ jerryscript-project,jerryscript-project/jerryscript,381,244,59,56,22,12
 gitextensions,gitextensions/gitextensions,379,216,21,99,43,30
 fabric8io,fabric8io/fabric8-ui,377,151,76,118,32,17
 ,AliasIO/Wappalyzer,377,237,59,52,29,13
-csu2017sp314,csu2017sp314/class,375,46,119,199,11,81
 ,sebastianbergmann/phpunit,374,147,41,148,38,23
 facebook,facebook/reason,373,231,42,62,38,12
 ceph,ceph/ceph-ansible,373,197,41,107,28,14
@@ -763,7 +759,6 @@ hyperium,hyperium/hyper,243,109,14,106,14,11
 travis-ci,travis-ci/docs-travis-ci-com,243,104,58,65,16,27
 Microsoft,Microsoft/vscode-docs,243,63,29,138,13,24
 cloudfoundry,cloudfoundry/loggregator,242,62,12,147,21,13
-deeplearning4j,deeplearning4j/nd4j,242,128,23,55,36,14
 play-with-docker,play-with-docker/play-with-docker.github.io,242,74,59,91,18,18
 leancloud,leancloud/docs,240,106,41,66,27,13
 SoftEng-HEIGVD,SoftEng-HEIGVD/Teaching-HEIGVD-RES-2017-Labo-00,239,46,58,42,93,30
@@ -807,7 +802,6 @@ foundersandcoders,foundersandcoders/master-reference,211,115,20,63,13,21
 adaptlearning,adaptlearning/adapt_framework,209,106,16,46,41,11
 capitalone,capitalone/cloud-custodian,209,107,35,44,23,13
 material-components,material-components/material-components-ios,209,67,40,76,26,12
-deeplearning4j,deeplearning4j/dl4j-examples,206,72,28,83,23,15
 bigbluebutton,bigbluebutton/bigbluebutton,204,61,55,64,24,13
 openwrt,openwrt/luci,200,123,26,29,22,11
 SharePoint,SharePoint/sp-dev-fx-webparts,199,129,19,36,15,13
@@ -873,17 +867,13 @@ emberjs,emberjs/website,150,42,36,61,11,13
 remind101,remind101/stacker,149,66,14,57,12,11
 bigcommerce,bigcommerce/cornerstone,148,66,30,41,11,12
 ros-planning,ros-planning/moveit,142,76,16,38,12,11
-,githubteacher/bug-free-doodle,141,36,17,70,18,24
 ,Shougo/denite.nvim,136,82,12,25,17,11
 cmu-db,cmu-db/peloton,127,68,25,22,12,12
 assimp,assimp/assimp,127,71,11,30,15,13
 MicrosoftDocs,MicrosoftDocs/winrt-api,124,23,42,46,13,32
 ,tomdale/glimmer-website,121,51,21,26,23,15
 nodejs,nodejs/node-chakracore,120,70,13,25,12,12
-,githubteacher/palm-tree,114,31,23,42,18,13
 ArduPilot,ArduPilot/ardupilot_wiki,114,35,23,44,12,15
 donejs,donejs/donejs,104,41,14,35,14,11
 ,MichelleGlauser/techtonica,104,41,13,34,16,11
-,githubteacher/miniature-spork,101,26,13,44,18,15
-,githubteacher/turbo-fortnight,97,22,14,47,14,16
 docker,docker/labs,91,32,23,23,13,17

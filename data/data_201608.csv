@@ -281,7 +281,6 @@ OP-TEE,OP-TEE/optee_os,550,436,39,32,43,11
 greenplum-db,greenplum-db/gpdb,547,340,77,108,22,30
 perl6,perl6/doc,547,216,36,232,63,24
 languagetool-org,languagetool-org/languagetool,544,210,33,245,56,15
-deeplearning4j,deeplearning4j/deeplearning4j,543,224,54,181,84,17
 OpenMS,OpenMS/OpenMS,540,401,51,59,29,17
 DataDog,DataDog/dd-agent,539,261,62,197,19,27
 chef,chef/inspec,539,207,70,210,52,12

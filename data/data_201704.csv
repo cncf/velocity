@@ -157,7 +157,6 @@ OpenRA,OpenRA/OpenRA,1037,753,104,104,76,21
 Minecolonies,Minecolonies/minecolonies,1031,589,86,279,77,8
 vector-im,vector-im/riot-web,1031,699,45,97,190,10
 influxdata,influxdata/chronograf,1024,270,76,543,135,16
-deeplearning4j,deeplearning4j/deeplearning4j,1019,472,59,376,112,34
 elastic,elastic/beats,1016,558,206,192,60,20
 python,python/mypy,1015,733,77,90,115,14
 elysium-project,elysium-project/server,1014,501,143,164,206,19
@@ -606,7 +605,6 @@ activeadmin,activeadmin/activeadmin,397,288,34,49,26,16
 mozilla,mozilla/fxa-auth-server,395,147,48,161,39,9
 ReactiveX,ReactiveX/rxjs,395,295,34,26,40,21
 mozilla,mozilla/addons-frontend,393,136,30,182,45,52
-deeplearning4j,deeplearning4j/nd4j,393,140,26,193,34,16
 Drupal4Gov,Drupal4Gov/Drupal-GovCon-2017,393,243,41,34,75,7
 pisilinux,pisilinux/main,393,79,138,135,41,6
 VeloCloud,VeloCloud/website-ui,390,45,34,282,29,13

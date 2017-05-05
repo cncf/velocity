@@ -223,7 +223,6 @@ halide,halide/Halide,685,209,78,381,17,24
 numpy,numpy/numpy,683,528,60,51,44,26
 opentoonz,opentoonz/opentoonz,679,516,51,36,76,11
 HuaweiBigData,HuaweiBigData/carbondata,679,418,116,89,56,31
-deeplearning4j,deeplearning4j/deeplearning4j,677,294,51,222,110,21
 emberjs,emberjs/ember.js,676,427,106,106,37,18
 Semantic-Org,Semantic-Org/Semantic-UI,675,493,17,71,94,11
 inasafe,inasafe/inasafe,672,460,70,63,79,12
@@ -371,7 +370,6 @@ mumble-voip,mumble-voip/mumble,481,343,38,57,43,13
 ReactiveCocoa,ReactiveCocoa/ReactiveCocoa,480,311,70,61,38,16
 dotnet,dotnet/wcf,480,330,55,53,42,14
 broadinstitute,broadinstitute/gatk,480,243,27,194,16,20
-deeplearning4j,deeplearning4j/nd4j,478,180,61,183,54,16
 mediachain,mediachain/mediachain,477,160,53,247,17,15
 leapmotion,leapmotion/UnityModules,475,54,62,319,40,14
 rethinkdb,rethinkdb/horizon,474,321,40,29,84,16
@@ -547,7 +545,6 @@ statsmodels,statsmodels/statsmodels,343,263,27,16,37,12
 capitalone,capitalone/Hygieia,342,195,39,70,38,14
 plotly,plotly/documentation,342,22,12,293,15,18
 driftyco,driftyco/ionic-site,341,57,18,243,23,22
-deeplearning4j,deeplearning4j/libnd4j,341,99,38,179,25,15
 PrismLibrary,PrismLibrary/Prism,341,213,36,62,30,13
 owncloud,owncloud/ios,339,186,13,104,36,11
 getredash,getredash/redash,337,202,38,65,32,15

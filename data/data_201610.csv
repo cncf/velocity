@@ -142,7 +142,6 @@ open-mpi,open-mpi/ompi,862,587,133,117,25,16
 influxdata,influxdata/influxdb,860,471,71,224,94,15
 auth0,auth0/docs,859,323,180,273,83,40
 OpenRA,OpenRA/OpenRA,857,621,65,67,104,14
-open-guides,open-guides/og-aws,856,464,172,175,45,73
 docker,docker/docker.github.io,855,355,210,146,144,39
 ReactTraining,ReactTraining/react-router,852,667,56,41,88,19
 spring-projects,spring-projects/spring-boot,851,514,38,167,132,24
@@ -281,7 +280,6 @@ pimcore,pimcore/pimcore,528,207,25,208,88,22
 IBM-Bluemix,IBM-Bluemix/docs,525,40,99,375,11,50
 Dolibarr,Dolibarr/dolibarr,524,130,93,272,29,28
 Particular,Particular/NServiceBus,522,384,33,81,24,14
-deeplearning4j,deeplearning4j/deeplearning4j,521,225,44,186,66,22
 openwhisk,openwhisk/openwhisk,521,361,57,56,47,19
 ,MrTheSoulz/NerdPack,519,78,34,383,24,11
 servicecatalog,servicecatalog/development,518,149,30,297,42,17
@@ -478,7 +476,6 @@ mobxjs,mobxjs/mobx,326,252,15,28,31,13
 esl,esl/MongooseIM,322,166,29,104,23,13
 pyladies-brazil,pyladies-brazil/br-pyladies-pelican,322,166,58,59,39,28
 Azure,Azure/azure-sdk-for-java,322,139,70,71,42,16
-deeplearning4j,deeplearning4j/nd4j,321,133,29,128,31,12
 flowtype,flowtype/flow-typed,321,174,54,67,26,35
 ,bgruening/training-material,321,188,44,71,18,14
 department-of-veterans-affairs,department-of-veterans-affairs/caseflow-certification,320,44,22,216,38,11
@@ -515,7 +512,6 @@ google,google/material-design-lite,291,154,32,65,40,16
 ,colinxfleming/dcaf_case_management,290,194,30,36,30,15
 ,jenkoian/hacktoberfest-checker,288,183,53,36,16,24
 broadinstitute,broadinstitute/gatk,286,163,16,77,30,12
-,githubteacher/dev-oct-25-emea,286,124,31,84,47,33
 StackStorm,StackStorm/st2,286,112,35,118,21,13
 freedomotic,freedomotic/freedomotic,286,202,30,32,22,21
 nodejs,nodejs/nodejs.org,285,196,35,34,20,20
@@ -535,7 +531,6 @@ Bottr-js,Bottr-js/Bottr,274,145,29,72,28,16
 checkstyle,checkstyle/checkstyle,273,203,18,32,20,11
 ,blackus3r/post-worktime-logger,273,139,34,65,35,14
 ,yelouafi/redux-saga,270,197,20,26,27,13
-,githubteacher/dev-oct-13,269,95,34,99,41,31
 uber,uber/deck.gl,269,82,38,133,16,12
 Moya,Moya/Moya,268,171,21,46,30,13
 ,kartikeypant/Awesome-Algorithmic-Coding,268,56,91,95,26,20
@@ -566,7 +561,6 @@ plone,plone/Products.CMFPlone,243,98,16,108,21,20
 yargs,yargs/yargs,243,135,32,61,15,21
 pydio,pydio/pydio-core,241,87,14,109,31,12
 fullstackla,fullstackla/pairing-meetup,240,110,19,92,19,14
-,githubteacher/everyone-october-2016,240,42,53,117,28,34
 capitalone,capitalone/cloud-custodian,240,94,46,67,33,16
 keystonejs,keystonejs/keystone,240,102,19,88,31,11
 ofi-cray,ofi-cray/libfabric-cray,239,143,32,41,23,14
@@ -575,7 +569,6 @@ SpongePowered,SpongePowered/SpongeAPI,236,146,15,57,18,18
 facebook,facebook/mysql-5.6,235,136,26,46,27,13
 broadinstitute,broadinstitute/gatk-protected,234,82,13,121,18,12
 fabric8io,fabric8io/fabric8-maven-plugin,234,77,21,107,29,12
-,githubteacher/friendly-octo-pancake,233,34,49,126,24,25
 ,mvantellingen/python-zeep,231,127,20,60,24,11
 openaddresses,openaddresses/openaddresses,231,141,33,46,11,11
 ,malcommac/SwiftDate,230,104,20,70,36,11
@@ -623,15 +616,12 @@ DevProgress,DevProgress/swear-jar,193,59,31,64,39,11
 pantheon-systems,pantheon-systems/documentation,193,38,39,99,17,21
 CargoSense,CargoSense/ex_aws,192,116,25,33,18,13
 Comcast,Comcast/traffic_control,192,43,56,68,25,13
-,githubteacher/oct-25,191,50,28,90,23,24
 libgdx,libgdx/libgdx,191,114,23,22,32,11
 neos,neos/neos-development-collection,191,104,36,30,21,13
-,githubteacher/oct-04-dev,190,60,19,89,22,20
 OfficeDev,OfficeDev/PnP-Sites-Core,190,71,27,63,29,13
 leancloud,leancloud/docs,189,86,40,49,14,13
 ,serghey-rodin/vesta,188,93,22,54,19,11
 ,rafajaques/php-assistant,187,93,33,49,12,22
-,githubteacher/oct-19,186,44,36,85,21,26
 ,DeastinY/CoffeeRecommendationBot,186,105,33,35,13,22
 rcos,rcos/Observatory3,185,52,21,101,11,13
 18F,18F/tock,184,85,15,52,32,13
@@ -656,16 +646,12 @@ diffblue,diffblue/cbmc,159,56,25,63,15,11
 ,truonganhhoang/int3507-2016,153,30,25,61,37,23
 eRum2016,eRum2016/Book-of-abstracts,153,68,16,53,16,14
 99xt,99xt/scikit-api,151,36,37,56,22,12
-,githubteacher/devs-oct-17,148,32,24,68,24,23
 rabbitmq,rabbitmq/rabbitmq-server,147,59,12,55,21,12
 lagom,lagom/lagom,147,62,35,39,11,13
 ,leonardoscorza/stack_helper,147,48,29,49,21,12
 nipy,nipy/nipype,146,84,18,32,12,12
-,githubteacher/october-trainers,144,31,26,70,17,17
 jsonmc,jsonmc/jsonmc,143,40,33,46,24,19
-,githubteacher/githubfordevelopers-oct-24,142,45,18,52,27,20
 circleci,circleci/circleci-docs,139,48,31,47,13,16
-,githubteacher/improved-goggles,137,56,14,46,21,16
 ,Teodor92/MoreDotNet,137,38,19,59,21,11
 ArduPilot,ArduPilot/ardupilot_wiki,133,61,14,39,19,11
 ,cgag/loc,132,52,15,53,12,13
@@ -677,7 +663,5 @@ learning-unlimited,learning-unlimited/ESP-Website,121,21,11,78,11,15
 ,dimkosru/jedi-validate,116,48,19,30,19,14
 pioneers,pioneers/SmartSensors,111,21,13,62,15,11
 ,Ch3ck/AlGo,110,33,26,24,27,14
-,githubteacher/oct-20,110,28,18,46,18,23
 ,learnbasics/fizz-buzz,93,22,24,25,22,16
-deeplearning4j,deeplearning4j/dl4j-examples,87,32,19,24,12,12
 ,guyonroche/exceljs,84,36,12,23,13,11

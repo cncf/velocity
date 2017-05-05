@@ -190,7 +190,6 @@ greenplum-db,greenplum-db/gpdb,8905,5514,1375,1791,225,173
 ,Lunat1q/Catchem-PoGo,8814,6053,176,461,2124,45
 koding,koding/koding,8807,2223,1244,4703,637,38
 CocoaPods,CocoaPods/CocoaPods,8749,7006,193,240,1310,40
-deeplearning4j,deeplearning4j/deeplearning4j,8735,3565,778,3335,1057,111
 pixijs,pixijs/pixi.js,8689,6158,649,1032,850,98
 sequelize,sequelize/sequelize,8687,6339,468,686,1194,155
 facebookincubator,facebookincubator/create-react-app,8673,6925,647,160,941,69
@@ -562,7 +561,6 @@ NREL,NREL/EnergyPlus,4703,2544,275,1649,235,56
 ekylibre,ekylibre/ekylibre,4702,1072,116,2334,1180,24
 NVIDIA,NVIDIA/DIGITS,4702,3458,367,331,546,38
 rathena,rathena/rathena,4690,2584,242,1173,691,58
-deeplearning4j,deeplearning4j/nd4j,4689,1707,495,2038,449,60
 ethereum,ethereum/solidity,4688,2693,423,787,785,24
 woothemes,woothemes/woocommerce,4686,2178,408,1198,902,87
 steemit,steemit/steem,4685,2296,333,1339,717,40

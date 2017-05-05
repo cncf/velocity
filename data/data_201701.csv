@@ -141,7 +141,6 @@ aspnet,aspnet/Docs,946,454,153,301,38,32
 quicwg,quicwg/base-drafts,944,544,46,250,104,13
 rapid7,rapid7/metasploit-framework,942,725,81,93,43,26
 WhisperSystems,WhisperSystems/Signal-Android,925,736,34,50,105,11
-deeplearning4j,deeplearning4j/deeplearning4j,924,323,76,423,102,23
 w3c,w3c/web-platform-tests,916,438,218,241,19,66
 bioconda,bioconda/bioconda-recipes,912,431,290,174,17,51
 LLNL,LLNL/spack,905,648,118,85,54,24
@@ -243,7 +242,6 @@ citra-emu,citra-emu/citra,675,501,74,48,52,14
 status-im,status-im/status-react,674,369,55,121,129,19
 EFForg,EFForg/https-everywhere,671,359,218,55,39,23
 ,radare/radare2,670,447,82,60,81,13
-planetxamarin,planetxamarin/planetxamarin,670,208,159,276,27,63
 neomutt,neomutt/neomutt,667,442,34,147,44,16
 galaxyproject,galaxyproject/galaxy,667,444,95,88,40,21
 cocos2d,cocos2d/cocos2d-x,666,439,88,77,62,22
@@ -503,7 +501,6 @@ magefree,magefree/mage,351,88,44,180,39,19
 adazzle,adazzle/react-data-grid,351,107,32,192,20,15
 frappe,frappe/frappe,351,86,82,142,41,23
 python-pillow,python-pillow/Pillow,350,241,39,46,24,11
-deeplearning4j,deeplearning4j/nd4j,350,101,25,191,33,12
 octobercms,octobercms/october,349,252,18,43,36,19
 att-comdev,att-comdev/openstack-helm,349,208,71,50,20,17
 ceph,ceph/ceph-ansible,349,191,39,108,11,13
@@ -547,7 +544,6 @@ socraticorg,socraticorg/mathsteps,317,231,24,34,28,14
 ,mpociot/botman,317,157,41,75,44,13
 antlr,antlr/antlr4,316,216,36,35,29,12
 TechEmpower,TechEmpower/FrameworkBenchmarks,316,187,62,53,14,19
-,githubteacher/developers-jan-2017,315,89,33,132,61,37
 http4s,http4s/http4s,313,148,40,95,30,17
 AimTuxOfficial,AimTuxOfficial/AimTux,312,151,20,100,41,14
 duckduckgo,duckduckgo/zeroclickinfo-goodies,312,189,30,61,32,22
@@ -684,7 +680,6 @@ gitbucket,gitbucket/gitbucket,212,114,20,52,26,11
 obspy,obspy/obspy,210,126,22,48,14,14
 SAPDocuments,SAPDocuments/Tutorials,210,80,14,50,66,14
 ,meandavejustice/min-vid,209,71,21,90,27,34
-,githubteacher/developers-jan,208,48,30,108,22,28
 kokkos,kokkos/kokkos,205,146,15,25,19,11
 docker,docker/docker-py,205,114,32,38,21,13
 I2PC,I2PC/scipion,205,36,17,123,29,14
@@ -692,7 +687,6 @@ vuejs,vuejs/vuex,205,139,13,22,31,14
 OpenZWave,OpenZWave/open-zwave,204,111,26,54,13,19
 mybb,mybb/mybb,204,125,25,22,32,11
 oVirt,oVirt/ovirt-site,202,46,59,80,17,26
-,githubteacher/animated-spoon,198,43,37,101,17,16
 ,fccoelho/pypixplorer,197,56,39,69,33,15
 linuxmint,linuxmint/cinnamon-spices-applets,197,106,35,39,17,18
 mochajs,mochajs/mocha,196,128,22,30,16,11
@@ -725,9 +719,7 @@ plone,plone/Products.CMFPlone,144,83,15,31,15,13
 raspberrypi,raspberrypi/documentation,144,99,11,21,13,12
 Team612,Team612/612-2017,143,27,14,85,17,14
 derniercri,derniercri/snatch,141,61,19,44,17,17
-,githubteacher/developers-jan-12,141,32,19,58,32,19
 contino-training,contino-training/basic-training,140,47,24,40,29,23
-,githubteacher/supreme-adventure,140,33,21,67,19,25
 assimp,assimp/assimp,137,63,20,39,15,14
 thoughtbot,thoughtbot/administrate,134,85,12,26,11,11
 Shippable,Shippable/docsv2,134,24,44,42,24,12
@@ -736,6 +728,4 @@ Netflix,Netflix/security_monkey,122,66,20,22,14,11
 angr,angr/simuvex,121,56,16,37,12,13
 HerculesWS,HerculesWS/Hercules,116,51,14,38,13,13
 ,kwanghoon/MySmallBasic,113,24,22,48,19,13
-,githubteacher/stunning-spoon,110,21,13,63,13,16
-,githubteacher/fluffy-octo-fiesta,103,25,15,48,15,20
 tokio-rs,tokio-rs/website,98,34,26,23,15,16

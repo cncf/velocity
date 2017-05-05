@@ -135,3 +135,11 @@ https://docs.google.com/spreadsheets/d/1S-YLoma7-j6koN86gCCy_WwdgQNghk1SFuHuzXcQ
 https://docs.google.com/spreadsheets/d/1MuulhPL_SHia7IQYWfgo4IWvkiLq5EJILtRJ_OvxHxc/edit?usp=sharing
 https://docs.google.com/spreadsheets/d/1bERALoPEavrBcyXuaArAXHg5b2m0v6CEm_RI0KBLddQ/edit?usp=sharing
 
+
+# List of all charts:
+Top 30 projects March 2017 (bubble): https://docs.google.com/spreadsheets/d/1WO1NCzeso7_srYPMS3nspnAeqOImPDReAaOyZSIPJE4/edit?usp=sharing
+Top 30 projects April 2017 (bubble): https://docs.google.com/spreadsheets/d/1bERALoPEavrBcyXuaArAXHg5b2m0v6CEm_RI0KBLddQ/edit?usp=sharing
+Top 30 projects January - March 2017 (bubble): https://docs.google.com/spreadsheets/d/1EU6MCGld5EV2TAVTStbdvis9O2Vf6Xtust1Mpu_RkWo/edit?usp=sharing
+Top 30 projects January - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1MuulhPL_SHia7IQYWfgo4IWvkiLq5EJILtRJ_OvxHxc/edit?usp=sharing
+Top 30 projects January 2016 - April 2017 (motion): https://docs.google.com/spreadsheets/d/1S-YLoma7-j6koN86gCCy_WwdgQNghk1SFuHuzXcQcnc/edit?usp=sharing
+

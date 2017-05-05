@@ -3,23 +3,31 @@ Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
 CartoDB,CARTO
 CleverRaven,Cataclysm-DDA
+IBM-Bluemix,IBM Bluemix
 MarlinFirmware,Marlin
+OfficeDev,Office Developer
 ParsePlatform,Parse
 Particular,NServiceBus
 Plailect/Guide,3DS Guide
+TheOdinProject,The Odin Project
 Yoast,Yoast SEO
 airbnb,Airbnb
+alibaba,Alibaba
 ampproject,AMP
 ansible,Ansible
 ant-design,Ant Design
 aspnet,ASP.net
 atom,Atom
+auth0,Auth0
 betaflight,Betaflight
 brave,Brave Software
 broadinstitute,Broad Institute
+c4cs,Computing for Computer Scientists
+cakephp,CakePHP
 caskroom,Homebrew Cask
 cfpb,Consumer Financial Protection Bureau
 chef,Chef
+cloudfoundry,Cloud Foundry
 cms-sw,CMS Offline Software
 cockroachdb,Cockroach DB
 coreos,CoreOS
@@ -28,21 +36,27 @@ dart-lang,Dart
 department-of-veterans-affairs,Caseflow
 dmlc,Distributed Machine Learning Community
 driftyco,Ionic
+duckduckgo,DuckDuckGo
 e-government-ua,Основной репозиторий
 eclipse,Eclipse
 elastic,Elasticsearch
+elsys,ELSYS
+emberjs,Ember.js
 ethcore,Parity
 ethereum,Ethereum
 fabric8io,fabric8
 facebook,React
 flutter,Flutter
+github,GitHub
 godotengine,Godot Engine
 grpc,GRPC
 guardian,The Guardian
 home-assistant,Home Assistant
 hyperledger,Hyperledger Project
 influxdata,InfluxData
+iron-io,Iron.io
 joomla,Joomla
+jsdelivr,jsDelivr
 keybase,Keybase
 kubernetes,Kubernetes
 laravel,Laravel
@@ -52,28 +66,39 @@ mantidproject,Mantid
 mapbox,Mapbox
 mapsme,MAPS.ME
 mattermost,Mattermost
+melpa,MELPA
 mesosphere,Mesosphere
 meteor,Meteor
 mitodl,MIT Office of Digital Learning
 mozilla,Mozilla
+mozilla-services,Mozilla Services
 neveragaindottech,neveragain.tech
 nextcloud,Nextcloud
 nodejs,Node.js
 nylas,Nylas
 odoo,Odoo
 openshift,OpenShift
+openssl,OpenSSL
+openwrt,OpenWrt
+osmandapp,Osmand
 owncloud,ownCloud
 pingcap,PingCAP
 rails,Ruby on Rails
+rapid7,Rapid7
+sakaiproject,Sakai
 saltstack,SaltStack
 serverless,Serverless Framework
 servo,The Servo Browser Engine
+swagger-api,Swagger
 symfony,Symfony
+telerik,Telerik
 tgstation,SS13
 vgstation-coders,vgstation13
 vmware,VMware
 voidlinux,The Void distribution
+w3c,W3C
 wireapp,Wire Swiss GmbH
+wix,WiX
 wordpress-mobile,WordPress-mobile
 yarnpkg,yarn
 yogstation13,Yogstation13

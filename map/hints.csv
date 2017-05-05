@@ -3,11 +3,15 @@ AngularClass/angular2-webpack-starter,Angular
 Automattic/jetpack,Automattic Jetpack
 Automattic/wp-calypso,WP Calypso
 Automattic/wp-e2e-tests,WP Calypso
+EFForg/https-everywhere,HTTPS Everywhere
 GoogleChrome/lighthouse,Google Chrome
 GoogleCloudPlatform/google-cloud-java,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-node,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-python,Google Cloud Platform
+HaliteChallenge/Halite,Halite
 JuliaLang/julia,Julia
+KhronosGroup/Vulkan-LoaderAndValidationLayers,Kronos Vulkan
+KhronosGroup/glslang,Kronos GLSL
 Microsoft/BotBuilder,Microsoft BotBuilder
 Microsoft/CNTK,Microsoft Cognitive Toolkit
 Microsoft/Chakra-Samples,Microsoft Chakra
@@ -22,6 +26,7 @@ Microsoft/msbuild,VS Code
 Microsoft/pxt,Microsoft MakeCode
 Microsoft/vcpkg,VS Code
 Microsoft/visualfsharp,Microsoft F#
+Microsoft/visualfsharpdocs,Microsoft F#
 Microsoft/vscode,VS Code
 Microsoft/vscode-docs,VS Code
 Microsoft/vscode-go,VS Code
@@ -30,6 +35,7 @@ Microsoft/vso-agent-tasks,VS Code
 Microsoft/vstest,VS Code
 Microsoft/vsts-agent,VS Code
 Microsoft/vsts-tasks,VS Code
+SpartanRefactoring/Spartanizer,Spontanizer
 angular-fullstack/generator-angular-fullstack,Angular
 angular-ui/ui-grid,Angular
 angular/angular,Angular
@@ -45,8 +51,11 @@ docker/compose,Docker
 docker/containerd,Docker
 docker/distribution,Docker
 docker/docker,Docker
+docker/docker-birthday-3,Docker
+docker/docker-py,Docker
 docker/docker.github.io,Docker
 docker/labs,Docker
+docker/libnetwork,Docker
 docker/notary,Docker
 docker/swarm,Docker
 docker/swarmkit,Docker
@@ -55,12 +64,16 @@ dotnet/eShopOnContainers,Microsoft eShopOnContainers
 dotnet/orleans,Microsoft Orleans
 dotnet/roslyn,VS Code
 dotnet/roslyn-project-system,VS Code
+fa16scmorg/FA16SCM,Assignment Simulaton Repository
 facebook/react,React
 facebook/react-native,React
 facebookincubator/create-react-app,React
+fpco/stackage,Hackage
+gitlabhq/gitlabhq,GitLab
 google/ExoPlayer,Google ExoPlayer
 google/WebFundamentals,Google WebFundamentals
 google/closure-compiler,Google Closure Compiler
+google/earthenterprise,Google Earth Enterprise
 google/flatbuffers,Google FlatBuffers
 google/gapid,Google Graphics API Debugger
 google/guetzli,Google Perceptual JPEG encoder
@@ -69,12 +82,15 @@ google/oss-fuzz,Google OSS-Fuzz
 google/protobuf,Google Protocol Buffers
 google/python-fire,Google Python Fire
 google/seq2seq,Google seq2seq
+google/tie,Google TIE
+google/xi-editor,Google Xi Editor
 googleapis/toolkit,Google API
 googlei18n/libphonenumber,Google i18n
 hashicorp/consul,Consul
 hashicorp/nomad,Nomad
 hashicorp/terraform,Terraform
 hashicorp/vault,Vault
+infernojs/inferno,Inferno
 kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes
@@ -91,6 +107,8 @@ kubernetes/kubernetes,Kubernetes
 kubernetes/kubernetes.github.io,Kubernetes
 kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
+mamedev/mame,MAME
+ocaml/opam-repository,OPAM
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
 react-community/create-react-native-app,React

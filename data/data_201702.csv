@@ -73,7 +73,6 @@ zeit,zeit/next.js,1236,911,61,81,183,16
 CleverRaven,CleverRaven/Cataclysm-DDA,1231,880,141,104,106,32
 betaflight,betaflight/betaflight,1224,871,109,136,108,17
 greenplum-db,greenplum-db/gpdb,1221,693,225,289,14,54
-csu2017sp314,csu2017sp314/class,1206,273,304,547,82,112
 libretro,libretro/RetroArch,1197,609,87,404,97,33
 godotengine,godotengine/godot,1190,835,100,129,126,36
 systemd,systemd/systemd,1170,846,129,84,111,33
@@ -145,7 +144,6 @@ idaholab,idaholab/moose,884,583,104,116,81,24
 atomist,atomist/rug,881,231,95,514,41,18
 palantir,palantir/blueprint,873,390,88,318,77,24
 crystal-lang,crystal-lang/crystal,869,660,35,80,94,19
-deeplearning4j,deeplearning4j/deeplearning4j,868,359,89,346,74,30
 ONSdigital,ONSdigital/eq-survey-runner,857,136,69,622,30,13
 TEAMMATES,TEAMMATES/teammates,855,563,92,127,73,24
 mpv-player,mpv-player/mpv,854,656,31,89,78,16
@@ -382,7 +380,6 @@ commercialhaskell,commercialhaskell/stack,478,321,23,86,48,15
 datproject,datproject/dat-desktop,478,214,47,167,50,11
 MinecraftForge,MinecraftForge/MinecraftForge,478,365,36,43,34,22
 ,channelcat/sanic,478,287,81,77,33,23
-,githubteacher/developers-feb-2017,477,120,62,219,76,65
 notepad-plus-plus,notepad-plus-plus/notepad-plus-plus,476,300,37,59,80,24
 code-corps,code-corps/code-corps-ember,476,99,67,277,33,12
 claroline,claroline/Distribution,475,61,77,303,34,17
@@ -543,7 +540,6 @@ dotnet,dotnet/corefxlab,340,197,53,72,18,11
 ,rmosolgo/graphql-ruby,339,208,34,78,19,12
 facebook,facebook/osquery,339,215,49,47,28,13
 appirio-tech,appirio-tech/topcoder-app,339,200,35,48,56,13
-,githubteacher/cautious-lamp,339,84,40,181,34,43
 kamailio,kamailio/kamailio,338,155,27,133,23,23
 ,skyarkhangel/Hardcore-SK,337,99,86,114,38,11
 eclipse,eclipse/omr,335,216,58,48,13,21
@@ -562,7 +558,6 @@ MDAnalysis,MDAnalysis/mdanalysis,325,225,17,70,13,13
 Codeception,Codeception/Codeception,323,226,29,26,42,16
 ,ro31337/libretaxi,322,169,42,63,48,17
 Automattic,Automattic/vip-go-mu-plugins,322,81,38,191,12,11
-deeplearning4j,deeplearning4j/nd4j,321,144,31,117,29,14
 Team612,Team612/612-2017,321,45,43,216,17,11
 freifunk-gluon,freifunk-gluon/gluon,321,213,21,71,16,14
 ,lukesampson/scoop,321,105,49,154,13,14
@@ -667,7 +662,6 @@ ckan,ckan/ckan,242,155,25,45,17,14
 ACEmulator,ACEmulator/ACE,240,87,70,52,31,15
 ,DennisSnijder/MakeGithubGreatAgain,239,150,19,42,28,14
 django-oscar,django-oscar/django-oscar,239,83,26,117,13,23
-,githubteacher/dev-feb-2017,238,75,33,88,42,34
 Azure,Azure/azure-xplat-cli,238,137,50,31,20,18
 FAForever,FAForever/fa,238,85,34,101,18,12
 react-native-community,react-native-community/react-native-elements,237,155,16,40,26,13
@@ -738,9 +732,7 @@ QMCPACK,QMCPACK/qmcpack,179,122,24,22,11,11
 geoadmin,geoadmin/mf-chsdi3,178,83,29,54,12,11
 babel,babel/babylon,178,86,20,57,15,11
 ,rt2zz/redux-persist,176,127,11,25,13,11
-,githubteacher/devs-feb-2017,176,48,34,69,25,21
 phpro,phpro/grumphp,175,110,26,24,15,11
-,githubteacher/super-fiesta,175,47,23,83,22,25
 ,monero-project/monero-core,172,65,43,37,27,11
 ,chenxiaolong/DualBootPatcher,171,82,20,56,13,11
 OrchardCMS,OrchardCMS/Orchard,170,106,13,25,26,11
