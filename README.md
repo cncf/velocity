@@ -142,4 +142,4 @@ Top 30 projects April 2017 (bubble): https://docs.google.com/spreadsheets/d/1bER
 Top 30 projects January - March 2017 (bubble): https://docs.google.com/spreadsheets/d/1EU6MCGld5EV2TAVTStbdvis9O2Vf6Xtust1Mpu_RkWo/edit?usp=sharing
 Top 30 projects January - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1MuulhPL_SHia7IQYWfgo4IWvkiLq5EJILtRJ_OvxHxc/edit?usp=sharing
 Top 30 projects January 2016 - April 2017 (motion): https://docs.google.com/spreadsheets/d/1S-YLoma7-j6koN86gCCy_WwdgQNghk1SFuHuzXcQcnc/edit?usp=sharing
-
+Top 30 projects January 2016 - April 2017 (motion logaritmic): https://docs.google.com/spreadsheets/d/1y8uQ4wrMMd5Ghy8gHjrZ4N8ZpF0DY-ti8V7cQqxwUmE/edit?usp=sharing
