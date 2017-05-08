@@ -1,6 +1,7 @@
 project,url
 18F,18f.gsa.gov
 3DS Guide,3ds.guide
+ACE Mod,acemod.com
 AMP,ampproject.org
 ASP.net,asp.net
 Airbnb,airbnb.io
@@ -20,6 +21,7 @@ Betaflight,github.com/betaflight/betaflight/releases
 Brave Software,brave.com
 Broad Institute,broadinstitute.org
 CARTO,carto.com
+CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
 CakePHP,cakephp.org
 Caseflow,va.gov
@@ -27,6 +29,9 @@ Cataclysm-DDA,en.cataclysmdda.com
 Chef,chef.io/chef
 Cloud Foundry,cloudfoundry.org
 Cockroach DB,cockroachlabs.com
+Cocos2d-js,cocos2d-x.org
+Cocos2d-x,cocos2d-x.org
+CodeCombat,codecombat.com
 Computing for Computer Scientists,c4cs.github.io
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
@@ -76,6 +81,7 @@ Homebrew Cask,caskroom.github.io
 Hyperledger Project,hyperledger.org
 IBM Bluemix,bluemix.net
 Inferno,infernojs.org
+InfluxDB,influxdata.com
 InfluxData,influxdata.com
 Ionic,ionicframework.com
 Iron.io,iron.io
@@ -97,6 +103,7 @@ Mantid,mantidproject.org
 Mapbox,mapbox.com
 Marlin,marlinfw.org
 Mastodon,mastodon.social
+Material-UI,material-ui.com
 Mattermost,mattermost.org
 Mesosphere,mesosphere.com
 Meteor,meteor.com
@@ -132,12 +139,15 @@ ParadiseSS13,nanotrasen.se/forum
 Parity,github.com/paritytech/parity
 Parse,parseplatform.github.io
 PingCAP,github.com/pingcap
+Play Framework,playframework.com
 PokemonGoF,maps.pikabot.org
 PokemonGoMap,pokemongomap.info
+Polymer,polymer-project.org
 PowerShell,microsoft.com/powershell
 Protractor,protractortest.org
 Rapid7,rapid7.com
 React,facebook.com
+ReactiveX,reactivex.io
 Realm,realm.io
 RobotLocomotion,drake.mit.edu
 RocketChat,rocket.chat
@@ -145,8 +155,10 @@ Ruby on Rails,rubyonrails.org
 SS13,tgstation13.org
 Sakai,sakaiproject.org
 SaltStack,repo.saltstack.com
+Sequelize,docs-sequelizejs.com
 Serverless Framework,serverless.com
 Spontanizer,spartan.org.il
+Spree,guides.spreecommerce.org
 Swagger,swagger.io
 Symfony,symfony.com
 TEAMMATES,teammatesv4.appspot.com
@@ -164,7 +176,10 @@ TypeScript,typescriptlang.org
 VMware,vmware.github.io
 VS Code,code.visualstudio.com
 Vault,vaultproject.io
-W3C,w3.org
+W3C CSSWG,drafts.csswg.org
+W3C HTML,w3c.github.io/html
+W3C Web Platform Tests,irc.w3.org/?channels=testing
+W3C WebRTC,w3c.github.io/webrtc-pc
 WP Calypso,developer.wordpress.com/calypso
 WiX,wixtoolset.org
 Wire Swiss GmbH,wire.com
@@ -173,6 +188,7 @@ XX-net,github.com/XX-net/XX-Net
 Yoast SEO,yoast.com/wordpress/seo
 Yogstation13,yogstation.net
 ZEIT,zeit.co
+Zend Framework,framework.zend.com
 bioconda,bioconda.github.io
 cloudmesh,github.com/cloudmesh
 devopsdays,devopsdays.org
@@ -182,14 +198,18 @@ fabric8,fabric8.io
 fastlane,fastlane.tools
 fossasia,fossasia.org
 hzuapps,github.com/hzuapps
+iojs,io.js
 jsDelivr,jsdelivr.com
 libretro,libretro.com
 neveragain.tech,neveragain.tech
 npm,npmjs.com
+openHAB,openhab.org
 ownCloud,owncloud.org
+systemd,freedesktop.org/wiki/Software/systemd
 vgstation13,github.com/vgstation-coders/vgstation13
 vuejs,vuejs.org
 webpack,github.com/webpack
 worldofbalance,github.com/worldofbalance
 yarn,yarnpkg.com
+zurb,zurb.com
 Основной репозиторий,igov.org.ua

@@ -5,9 +5,11 @@ Automattic/wp-calypso,WP Calypso
 Automattic/wp-e2e-tests,WP Calypso
 EFForg/https-everywhere,HTTPS Everywhere
 GoogleChrome/lighthouse,Google Chrome
+GoogleCloudPlatform/gcloud-node,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-java,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-node,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-python,Google Cloud Platform
+GoogleCloudPlatform/kubernetes,Kubernetes
 HaliteChallenge/Halite,Halite
 JuliaLang/julia,Julia
 KhronosGroup/Vulkan-LoaderAndValidationLayers,Kronos Vulkan
@@ -37,7 +39,10 @@ Microsoft/vsts-agent,VS Code
 Microsoft/vsts-tasks,VS Code
 SpartanRefactoring/Spartanizer,Spontanizer
 angular-fullstack/generator-angular-fullstack,Angular
+angular-ui/bootstrap,Angular
+angular-ui/ng-grid,Angular
 angular-ui/ui-grid,Angular
+angular-ui/ui-select,Angular
 angular/angular,Angular
 angular/angular-cli,Angular
 angular/angular.io,Angular
@@ -47,6 +52,9 @@ angular/material,Angular
 angular/material2,Angular
 angular/protractor,Protractor
 angular/tsickle,Angular
+callemall/material-ui,Material-UI
+cocos2d/cocos2d-js,Cocos2d-js
+cocos2d/cocos2d-x,Cocos2d-x
 docker/compose,Docker
 docker/containerd,Docker
 docker/distribution,Docker
@@ -111,6 +119,7 @@ mamedev/mame,MAME
 ocaml/opam-repository,OPAM
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
+playframework/playframework,Play Framework
 react-community/create-react-native-app,React
 react-community/react-navigation,React
 react-native-community/react-native-elements,React
@@ -123,3 +132,7 @@ realm/realm-js,Realm
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 tootsuite/mastodon,Mastodon
+w3c/csswg-drafts,W3C CSSWG
+w3c/html,W3C HTML
+w3c/web-platform-tests,W3C Web Platform Tests
+w3c/webrtc-pc,W3C WebRTC
