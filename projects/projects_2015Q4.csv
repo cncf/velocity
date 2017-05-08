@@ -39,7 +39,6 @@ fpco,stackage,1162,617,160,322,63,77,Hackage,stackage.org
 numpy,numpy,3341,2544,320,260,217,76,numpy,""
 nodejs,node,8649,7410,450,198,591,74,Node.js,nodejs.org
 hechoendrupal,DrupalConsole,1857,697,534,486,140,73,hechoendrupal,""
-scikit-learn,scikit-learn,4658,3790,425,163,280,73,scikit-learn,""
 docker,machine,4240,3264,358,247,371,71,docker,""
 DefinitelyTyped,DefinitelyTyped,2056,1107,754,96,99,71,DefinitelyTyped,definitelytyped.org
 ManageIQ,manageiq,7535,4917,1313,1154,151,71,ManageIQ,manageiq.org
@@ -145,7 +144,7 @@ realm,realm-java+realm-cocoa,7027,4578,315,1499,635,35,Realm,realm.io
 phoenixframework,phoenix,1060,703,100,155,102,35,phoenixframework,""
 manastech,crystal,1944,1515,131,108,190,35,manastech,""
 hashicorp,consul,1398,802,108,287,201,34,Consul,consul.io
-akka,akka,3447,2613,252,295,287,34,akka,""
+akka,akka,3447,2613,252,295,287,34,Akka,akka.io
 open-mpi,ompi,2316,1689,228,299,100,34,open-mpi,""
 fish-shell,fish-shell,2118,1766,64,140,148,34,fish-shell,""
 google,protobuf,856,514,123,103,116,34,Google Protocol Buffers,developers.google.com/protocol-buffers

@@ -3,8 +3,16 @@ require 'pry'
 
 # Generate merged motion data for files listed in "flist" file (an their motion labels)
 # Output to "fout_motion" (per label) and cumulative sums "fout_motion_sums"
-def generate(flist, fout_motion, fout_motion_sums)
+def generate(flist, fout_motion, fout_motion_sums, fsummary)
   sort_column = 'authors'
+
+  summaries = {}
+  if fsummary
+    CSV.foreach(fsummary, headers: true) do |row|
+      h = row.to_h
+      summaries[h['project']] = h
+    end
+  end
 
   files = []
   CSV.foreach(flist, headers: true) do |row|
@@ -40,8 +48,13 @@ def generate(flist, fout_motion, fout_motion_sums)
   # 1/2017 < 2/2016
   labels = labels.keys
 
+  summary_map = {}
+  summary_map[true] = 0
+  summary_map[false] = 0
   # Compute sums
   projects.each do |project, items|
+    have_summary = summaries.key? project
+    summary_map[have_summary] += 1
     sum = {}
     cum_labels = []
     labels.each do |label|
@@ -57,8 +70,12 @@ def generate(flist, fout_motion, fout_motion_sums)
           sum[k] = v
         elsif k == 'authors'
           # Column authors is not summed but max'ed
-          sum[k] = v unless sum.key? k
-          sum[k] = [sum[k], v].max
+          if have_summary
+            sum[k] = summaries[project]['authors'].to_i
+          else
+            sum[k] = v unless sum.key? k
+            sum[k] = [sum[k], v].max
+          end
         elsif k == 'label'
           sum[k] = [] unless sum.key? k
           sum[k] << v
@@ -83,12 +100,22 @@ def generate(flist, fout_motion, fout_motion_sums)
 
   # Only put project in output if it have data in all labels
   top_projs = []
+  n = 0
+  indices = []
   projs_arr.each_with_index do |item, index|
     lbls = item[2][:sum]['label']
     if lbls.size == labels.size
+      n += 1
+      if n <= 30 && item[2][:sum]['url'] == ''
+        puts "Project ##{n} '#{item[0]}' is missing URL"
+      end
       top_projs << item
+      indices << index
     end
   end
+  # To check which projects got to final motion
+  # Uncomment this:
+  # p indices[0..29]
 
   # Motion chart data
   ks = %w(project url label activity comments prs commits issues authors)
@@ -159,9 +186,9 @@ def generate(flist, fout_motion, fout_motion_sums)
 end
 
 if ARGV.size < 3
-  puts "Missing arguments: files.csv motion.csv motion_sums.csv"
+  puts "Missing arguments: files.csv motion.csv motion_sums.csv [summary.csv]"
   exit(1)
 end
 
-generate(ARGV[0], ARGV[1], ARGV[2])
+generate(ARGV[0], ARGV[1], ARGV[2], ARGV[3])
 

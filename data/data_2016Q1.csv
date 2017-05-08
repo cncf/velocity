@@ -93,7 +93,6 @@ PX4,PX4/Firmware,3590,2445,342,509,294,30
 OpenRCT2,OpenRCT2/OpenRCT2,3588,2334,284,626,344,34
 bitcoin,bitcoin/bitcoin,3558,3033,327,41,157,13
 openhab,openhab/openhab,3552,2626,331,331,264,87
-scikit-learn,scikit-learn/scikit-learn,3540,2916,256,135,233,63
 sympy,sympy/sympy,3519,2763,362,173,221,63
 OpenRA,OpenRA/OpenRA,3504,2659,271,294,280,38
 esp8266,esp8266/Arduino,3498,2771,132,203,392,58

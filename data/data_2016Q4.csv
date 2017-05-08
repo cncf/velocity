@@ -69,7 +69,6 @@ atom,atom/atom,4095,2778,167,632,518,42
 ARMmbed,ARMmbed/mbed-os,4085,3232,375,243,235,60
 voidlinux,voidlinux/void-packages,4029,1226,441,2223,139,85
 grpc,grpc/grpc,3993,2566,569,449,409,53
-scikit-learn,scikit-learn/scikit-learn,3922,3332,299,86,205,51
 c2corg,c2corg/v6_ui,3878,2561,252,698,367,12
 aspnet,aspnet/EntityFramework,3873,2743,145,427,558,24
 pingcap,pingcap/tidb,3869,1568,430,1722,149,29

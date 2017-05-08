@@ -65,7 +65,7 @@ Already generated data:
 
 `generate_motion.rb` tool is used to merge data from multiple files into one for motion chart. Usage:
 
-`ruby generate_motion.rb projects/files.csv motion/motion.csv motion/motion_sums.csv`
+`ruby generate_motion.rb projects/files.csv motion/motion.csv motion/motion_sums.csv [projects/summaries.csv]`
 
 File `files.csv` contains list of data files to be merged, it looks like this:
 ```
@@ -101,6 +101,10 @@ VS Code,code.visualstudio.com,2017-04,155621,104386,9501,17650,24084,198,155621,
 ```
 Each row contains its label data (cumulative or separata) and columns with staring with `max_` conatin cumulative data for all labels.
 This is to make this data easy available for google sheet motion chart without complex cell indexing.
+
+Final optional file `summarier.csv` can be used to read number of authors from it. This is because number of authors is computed in a different way.
+Without summaries file (or if given project is not in summaries file) we have number of distinct authors in each period. To get summary value for all periods we're just getting max of all periods.
+This is obviously not a real count of all distinct authors in all periods. So if we give another file which contains summary data for one big period that is euual to sum of all periods - then we can get number of authors from there.
 
 
 # Results:

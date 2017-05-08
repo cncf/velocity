@@ -17,8 +17,8 @@ tensorflow,tensorflow+models,10851,8523,637,466,1225,218,TensorFlow,tensorflow.o
 hashicorp,terraform,8939,5692,804,1535,908,213,Terraform,terraform.io
 elastic,elasticsearch+kibana+beats+logstash+elasticsearch-net,19524,12803,2104,2868,1749,188,Elasticsearch,elastic.co/products/elasticsearch
 Automattic,wp-calypso,13566,6244,1291,5383,648,146,WP Calypso,developer.wordpress.com/calypso
-driftyco,ionic+ionic-native+ionic-site,7988,4734,373,1584,1297,143,Ionic,ionicframework.com
 influxdata,influxdb+telegraf+kapacitor+docs.influxdata.com,6720,3917,582,1435,786,143,InfluxData,influxdata.com
+driftyco,ionic+ionic-native+ionic-site,7988,4734,373,1584,1297,143,Ionic,ionicframework.com
 aspnet,EntityFramework+Mvc+Docs+KestrelHttpServer,9398,6133,624,1596,1045,143,ASP.net,asp.net
 rails,rails,5162,3567,688,510,397,136,Ruby on Rails,rubyonrails.org
 auth0,docs+lock,3432,1725,706,829,172,130,Auth0,auth0.com
@@ -30,38 +30,38 @@ TeamPorcupine,ProjectPorcupine,10864,8600,993,766,505,109,TeamPorcupine,github.c
 PokemonGoMap,PokemonGo-Map,10528,8719,571,365,873,106,PokemonGoMap,pokemongomap.info
 ampproject,amphtml+amp-by-example,7628,5157,874,911,686,105,AMP,ampproject.org
 eclipse,che+jetty.project+smarthome+kura+vert.x,13309,7878,942,3234,1255,103,Eclipse,eclipse.org
-dmlc,mxnet+xgboost,5151,3723,359,258,811,102,Distributed Machine Learning Community,dmlc.github.io
 ethereum,solidity+mist+go-ethereum+cpp-ethereum+ethereumj,7121,4950,617,657,897,102,Ethereum,ethereum.org
+dmlc,mxnet+xgboost,5151,3723,359,258,811,102,Distributed Machine Learning Community,dmlc.github.io
 w3c,web-platform-tests,1952,905,524,448,75,101,W3C Web Platform Tests,irc.w3.org/?channels=testing
 duckduckgo,zeroclickinfo-goodies+zeroclickinfo-fathead+zeroclickinfo-spice,3665,2705,344,386,230,100,DuckDuckGo,duckduckhack.com
 coreos,etcd+rkt+coreos-kubernetes,6489,4776,655,528,530,98,CoreOS,coreos.com
 18F,micropurchase+openFEC-web-app+web-design-standards+fec-cms+cg-dashboard+cg-docs,7254,3291,787,2481,695,97,18F,18f.gsa.gov
 EFForg,https-everywhere,6875,3732,1637,1294,212,96,HTTPS Everywhere,eff.org/https-everywhere
-openwrt,packages,1718,1051,303,305,59,94,OpenWrt,openwrt.org
 joomla,joomla-cms,9809,7944,550,909,406,94,Joomla,joomla.org
+openwrt,packages,1718,1051,303,305,59,94,OpenWrt,openwrt.org
 mapbox,mapbox-gl-native+mapbox-gl-js,8452,4444,611,2520,877,93,Mapbox,mapbox.com
 JuliaLang,julia,9052,6540,607,1278,627,92,Julia,julialang.org
-fpco,stackage,1159,527,214,362,56,91,Hackage,stackage.org
 ReactiveX,RxJava+rxjs+RxSwift,4014,2690,406,533,385,91,ReactiveX,reactivex.io
+fpco,stackage,1159,527,214,362,56,91,Hackage,stackage.org
 grpc,grpc+grpc-java+grpc-go,7363,5074,977,733,579,90,GRPC,grpc.io
 rapid7,metasploit-framework,2126,1520,219,264,123,79,Rapid7,rapid7.com
 magento,magento2,9627,7984,197,114,1332,78,Magento,magento.com/home
 nextcloud,server+android+appstore,6325,3628,468,1623,606,77,Nextcloud,nextcloud.com
 systemd,systemd,2386,1664,289,171,262,76,systemd,freedesktop.org/wiki/Software/systemd
 zeit,hyperterm,3759,2654,226,401,478,75,ZEIT,zeit.co
-voidlinux,void-packages,3259,1078,331,1722,128,74,The Void distribution,voidlinux.eu
 serverless,serverless,5125,3674,335,647,469,74,Serverless Framework,serverless.com
+voidlinux,void-packages,3259,1078,331,1722,128,74,The Void distribution,voidlinux.eu
 Microsoft,UWPCommunityToolkit+malmo+react-native-code-push,3856,2525,270,664,397,72,Microsoft,""
 OfficeDev,office-ui-fabric-react+PnP-Sites-Core,1786,703,380,575,128,71,Office Developer,dev.office.com
 ArduPilot,ardupilot,3099,2164,360,426,149,70,ArduPilot,ardupilot.org
 eslint,eslint,5020,3989,273,378,380,69,eslint,eslint.org
 bioconda,bioconda-recipes,1963,848,468,594,53,69,bioconda,bioconda.github.io
-frappe,erpnext+frappe,3633,1371,620,1051,591,69,frappe,""
 ARMmbed,mbed-os,4210,3357,374,307,172,69,ARMmbed,""
+frappe,erpnext+frappe,3633,1371,620,1051,591,69,frappe,""
 RocketChat,Rocket.Chat,4055,2383,287,824,561,68,RocketChat,rocket.chat
-PowerShell,PowerShell,2940,2210,222,175,333,67,PowerShell,microsoft.com/powershell
-TrinityCore,TrinityCore,4527,2895,214,1056,362,67,TrinityCore,trinitycore.org
 alibaba,weex,3191,1396,318,1101,376,67,Alibaba,alibaba.com
+TrinityCore,TrinityCore,4527,2895,214,1056,362,67,TrinityCore,trinitycore.org
+PowerShell,PowerShell,2940,2210,222,175,333,67,PowerShell,microsoft.com/powershell
 chef,inspec+chef,3875,1720,410,1497,248,67,Chef,chef.io/chef
 fastlane,fastlane,5162,3982,309,290,581,65,fastlane,fastlane.tools
 google,WebFundamentals,2531,894,313,1109,215,63,Google WebFundamentals,developers.google.com/web/fundamentals
@@ -72,122 +72,121 @@ LLNL,spack,4176,2950,474,477,275,58,LLNL,""
 Sylius,Sylius,3158,1831,549,482,296,58,Sylius,""
 ant-design,ant-design+ant-design-mobile,5171,2763,334,1100,974,57,Ant Design,ant.design
 department-of-veterans-affairs,vets-website+vets-api,4932,1729,490,2338,375,57,Caseflow,va.gov
-OpenPoGo,OpenPoGoBot+OpenPoGoWeb,3136,1994,306,579,257,56,OpenPoGo,""
-zurb,foundation-sites,1341,969,119,126,127,56,zurb,zurb.com
+spring-projects,spring-boot+spring-security,3327,2183,194,345,605,56,spring-projects,""
 Automattic,jetpack,5038,1983,631,2074,350,56,Automattic Jetpack,jetpack.com
 home-assistant,home-assistant,4674,2971,826,532,345,56,Home Assistant,home-assistant.io
-spring-projects,spring-boot+spring-security,3327,2183,194,345,605,56,spring-projects,""
+OpenPoGo,OpenPoGoBot+OpenPoGoWeb,3136,1994,306,579,257,56,OpenPoGo,""
+zurb,foundation-sites,1341,969,119,126,127,56,zurb,zurb.com
 greenplum-db,gpdb,1506,941,219,292,54,56,greenplum-db,""
-cloudfoundry,bosh,1148,357,61,649,81,54,Cloud Foundry,cloudfoundry.org
 CleverRaven,Cataclysm-DDA,6202,4733,618,414,437,54,Cataclysm-DDA,en.cataclysmdda.com
 tgstation,tgstation,10121,8316,1050,311,444,54,SS13,tgstation13.org
-prestodb,presto,3358,2264,473,404,217,54,prestodb,""
 mantidproject,mantid,6008,1991,466,3096,455,54,Mantid,mantidproject.org
+cloudfoundry,bosh,1148,357,61,649,81,54,Cloud Foundry,cloudfoundry.org
+prestodb,presto,3358,2264,473,404,217,54,prestodb,""
 cocos2d,cocos2d-x,3510,2598,330,343,239,53,Cocos2d-x,cocos2d-x.org
 google,protobuf,1968,1242,240,237,249,53,Google Protocol Buffers,developers.google.com/protocol-buffers
-scikit-learn,scikit-learn,3551,2942,292,122,195,53,scikit-learn,""
-KeepSafe,aiohttp,1793,918,131,585,159,52,KeepSafe,""
-phpmyadmin,phpmyadmin,1161,476,62,420,203,52,phpmyadmin,""
-pypa,pip+setuptools,1970,1378,187,226,179,52,pypa,""
-mattermost,platform+desktop,5669,3680,621,1164,204,52,Mattermost,mattermost.org
 cockroachdb,cockroach+docs,6817,4401,728,962,726,52,Cockroach DB,cockroachlabs.com
+mattermost,platform+desktop,5669,3680,621,1164,204,52,Mattermost,mattermost.org
 pydata,pandas+xarray,4380,3328,393,179,480,52,pydata,""
-flowtype,flow-typed,828,488,129,151,60,51,flowtype,""
-playframework,playframework,1669,1082,233,243,111,51,Play Framework,playframework.com
+phpmyadmin,phpmyadmin,1161,476,62,420,203,52,phpmyadmin,""
+KeepSafe,aiohttp,1793,918,131,585,159,52,KeepSafe,""
+pypa,pip+setuptools,1970,1378,187,226,179,52,pypa,""
 NativeScript,NativeScript+nativescript-cli,3581,2362,229,558,432,51,NativeScript,nativescript.org
 hashicorp,vault,2446,1189,200,871,186,51,Vault,vaultproject.io
-deeplearning4j,deeplearning4j+nd4j,2936,1037,321,1267,311,50,deeplearning4j,""
-scipy,scipy,1917,1502,147,111,157,50,scipy,""
+flowtype,flow-typed,828,488,129,151,60,51,flowtype,""
+playframework,playframework,1669,1082,233,243,111,51,Play Framework,playframework.com
 coala-analyzer,coala+coala-bears,2838,1977,262,337,262,50,coala-analyzer,""
+deeplearning4j,deeplearning4j+nd4j,2936,1037,321,1267,311,50,deeplearning4j,""
 woothemes,woocommerce,2644,1127,207,896,414,50,woothemes,""
-github,git-lfs+linguist+gh-ost,3533,2395,279,617,242,49,GitHub,github.com
-silverstripe,silverstripe-framework,1679,1195,138,200,146,49,silverstripe,""
+scipy,scipy,1917,1502,147,111,157,50,scipy,""
 ParsePlatform,parse-server,3810,2691,180,556,383,49,Parse,parseplatform.github.io
 hashicorp,consul,1181,678,120,277,106,49,Consul,consul.io
+silverstripe,silverstripe-framework,1679,1195,138,200,146,49,silverstripe,""
+github,git-lfs+linguist+gh-ost,3533,2395,279,617,242,49,GitHub,github.com
 vmware,vic+harbor,7776,5190,841,914,831,49,VMware,vmware.github.io
-fossasia,open-event-orga-server+open-event-webapp+open-event-android,5778,2593,1000,1285,900,48,fossasia,fossasia.org
-twitter,heron,2346,1588,280,307,171,48,twitter,""
 DataDog,dd-agent,1422,641,195,534,52,48,DataDog,""
+twitter,heron,2346,1588,280,307,171,48,twitter,""
 wireapp,wire-webapp+wire-ios+wire-android,3459,717,566,2019,157,48,Wire Swiss GmbH,wire.com
+pingcap,tidb+tikv+pd,6095,2787,689,2338,281,48,PingCAP,github.com/pingcap
+fossasia,open-event-orga-server+open-event-webapp+open-event-android,5778,2593,1000,1285,900,48,fossasia,fossasia.org
 sakaiproject,sakai,1770,748,393,546,83,48,Sakai,sakaiproject.org
 nim-lang,Nim,1469,757,185,294,233,48,nim-lang,""
-pingcap,tidb+tikv+pd,6095,2787,689,2338,281,48,PingCAP,github.com/pingcap
-code-corps,code-corps-ember+code-corps-phoenix+code-corps-api,2788,1049,314,1119,306,47,code-corps,""
 palantir,atlasdb,2538,909,296,1240,93,47,AtlasDB,palantir.github.io/atlasdb
+code-corps,code-corps-ember+code-corps-phoenix+code-corps-api,2788,1049,314,1119,306,47,code-corps,""
 dotnet,orleans,2270,1663,239,236,132,47,Microsoft Orleans,dotnet.github.io/orleans
 react-toolbox,react-toolbox,1057,688,83,137,149,46,react-toolbox,""
-openssl,openssl,2926,1903,267,637,119,45,OpenSSL,openssl.org
-typelevel,cats,1547,1176,146,136,89,45,typelevel,""
-Baystation12,Baystation12,3468,2164,551,478,275,45,Baystation12,baystation12.net
 libretro,RetroArch,3888,1321,305,2040,222,45,libretro,libretro.com
+Baystation12,Baystation12,3468,2164,551,478,275,45,Baystation12,baystation12.net
+typelevel,cats,1547,1176,146,136,89,45,typelevel,""
+openssl,openssl,2926,1903,267,637,119,45,OpenSSL,openssl.org
+devtools-html,debugger.html+gecko-dev,3090,2009,326,443,312,44,devtools-html,""
 mesosphere,marathon,3516,1649,279,1379,209,44,Mesosphere,mesosphere.com
 perl6,doc,1703,713,80,702,208,44,perl6,""
-devtools-html,debugger.html+gecko-dev,3090,2009,326,443,312,44,devtools-html,""
 openshift,openshift-ansible,2304,1567,313,311,113,43,OpenShift,openshift.com
 hashicorp,nomad,2313,1115,260,792,146,43,Nomad,nomadproject.io
 torchbox,wagtail,1109,677,117,199,116,43,torchbox,""
-domoticz,domoticz,1005,611,106,221,67,42,domoticz,""
-sequelize,sequelize,2899,2225,119,230,325,42,Sequelize,docs-sequelizejs.com
 RIOT-OS,RIOT,3624,3153,242,166,63,42,RIOT-OS,""
-jhipster,generator-jhipster,2267,1608,235,210,214,42,jhipster,""
+sequelize,sequelize,2899,2225,119,230,325,42,Sequelize,docs-sequelizejs.com
 habitat-sh,habitat,2178,1196,204,692,86,42,habitat-sh,""
+domoticz,domoticz,1005,611,106,221,67,42,domoticz,""
+jhipster,generator-jhipster,2267,1608,235,210,214,42,jhipster,""
 iTXTech,Genisys,4946,3472,217,758,499,41,iTXTech,""
-curl,curl,1223,893,54,181,95,41,curl,""
-neo4j,neo4j,2382,905,509,896,72,41,neo4j,""
-pfnet,chainer,2135,1040,280,694,121,41,pfnet,""
 codecombat,codecombat,1308,217,124,901,66,41,CodeCombat,codecombat.com
+pfnet,chainer,2135,1040,280,694,121,41,pfnet,""
+chartjs,Chart.js,2621,1974,109,127,411,41,chartjs,""
 KhronosGroup,Vulkan-LoaderAndValidationLayers,1762,853,175,620,114,41,Kronos Vulkan,kronos.org
 xitu,gold-miner,2475,1759,130,416,170,41,xitu,""
-chartjs,Chart.js,2621,1974,109,127,411,41,chartjs,""
-Microsoft,TypeScript,9989,7026,422,1148,1393,40,TypeScript,typescriptlang.org
-mlr-org,mlr,2557,1487,157,768,145,40,mlr-org,""
-openSUSE,open-build-service+osem,1819,1079,272,322,146,40,openSUSE,""
+curl,curl,1223,893,54,181,95,41,curl,""
+neo4j,neo4j,2382,905,509,896,72,41,neo4j,""
 conda,conda+conda-build,3873,2440,419,501,513,40,conda,""
+openSUSE,open-build-service+osem,1819,1079,272,322,146,40,openSUSE,""
+mlr-org,mlr,2557,1487,157,768,145,40,mlr-org,""
+Leaflet,Leaflet,1477,932,130,244,171,40,Leaflet,""
 CartoDB,cartodb,7097,3225,560,2438,874,40,CARTO,carto.com
+collectd,collectd,1492,1038,130,255,69,40,collectd,""
 atom,atom,4524,2915,189,854,566,40,Atom,atom.io
 commercialhaskell,stack,2289,1678,86,276,249,40,commercialhaskell,""
-Leaflet,Leaflet,1477,932,130,244,171,40,Leaflet,""
-mobxjs,mobx,1196,854,57,124,161,40,mobxjs,""
+Microsoft,TypeScript,9989,7026,422,1148,1393,40,TypeScript,typescriptlang.org
 octobercms,october,1120,732,92,141,155,40,octobercms,""
-collectd,collectd,1492,1038,130,255,69,40,collectd,""
-projecthydra,sufia+curation_concerns,2951,1310,330,1010,301,39,projecthydra,""
-kamailio,kamailio,743,349,69,273,52,39,kamailio,""
-PX4,Firmware,3458,2227,353,643,235,39,PX4,""
+mobxjs,mobx,1196,854,57,124,161,40,mobxjs,""
+yogstation13,yogstation,4380,3306,445,337,292,39,Yogstation13,yogstation.net
 almighty,almighty-core+almighty-ui,2239,1325,208,455,251,39,almighty,""
-elixir-lang,elixir,1432,917,229,177,109,39,elixir-lang,""
 Moya,Moya,1255,867,95,207,86,39,Moya,""
 brave,browser-laptop,8605,5136,428,1335,1706,39,Brave Software,brave.com
-yogstation13,yogstation,4380,3306,445,337,292,39,Yogstation13,yogstation.net
-galaxyproject,galaxy,2434,1739,280,283,132,38,galaxyproject,""
-Codeception,Codeception,1200,787,128,142,143,38,Codeception,""
+PX4,Firmware,3458,2227,353,643,235,39,PX4,""
+elixir-lang,elixir,1432,917,229,177,109,39,elixir-lang,""
+kamailio,kamailio,743,349,69,273,52,39,kamailio,""
+projecthydra,sufia+curation_concerns,2951,1310,330,1010,301,39,projecthydra,""
 PolarisSS13,Polaris,1979,1003,460,406,110,38,PolarisSS13,""
-godotengine,godot,5087,3768,339,203,777,38,Godot Engine,godotengine.org
 openwhisk,openwhisk,2867,2038,330,258,241,38,openwhisk,""
 kaldi-asr,kaldi,1317,954,148,151,64,38,kaldi-asr,""
-Dolibarr,dolibarr,1545,399,249,764,133,38,Dolibarr,""
-google,blockly+cadvisor,1495,991,177,200,127,38,google,""
-owncloud,core+calendar,4819,3531,237,552,499,38,ownCloud,owncloud.org
 magefree,mage,1573,656,153,548,216,38,magefree,""
-yiisoft,yii2,2861,1890,399,182,390,37,yiisoft,""
-meteor,meteor,4911,4030,112,360,409,37,Meteor,meteor.com
-cakephp,cakephp,2272,1685,171,172,244,37,CakePHP,cakephp.org
-idaholab,moose,2515,1708,297,262,248,37,idaholab,""
-numpy,numpy,1783,1364,154,106,159,37,numpy,""
+Dolibarr,dolibarr,1545,399,249,764,133,38,Dolibarr,""
+godotengine,godot,5087,3768,339,203,777,38,Godot Engine,godotengine.org
+galaxyproject,galaxy,2434,1739,280,283,132,38,galaxyproject,""
+Codeception,Codeception,1200,787,128,142,143,38,Codeception,""
+owncloud,core+calendar,4819,3531,237,552,499,38,ownCloud,owncloud.org
+google,blockly+cadvisor,1495,991,177,200,127,38,google,""
 composer,composer,1699,1360,64,83,192,37,composer,""
-OpenRCT2,OpenRCT2,3376,2302,294,520,260,37,OpenRCT2,openrct2.website
-emberjs,ember.js,2035,1326,240,242,227,37,Ember.js,emberjs.com
-bcit-ci,CodeIgniter4+CodeIgniter,1378,841,155,247,135,37,bcit-ci,""
-apollostack,apollo-client+react-apollo,2503,1528,171,549,255,37,apollostack,""
-pytest-dev,pytest,1504,1133,137,111,123,37,pytest-dev,""
 twbs,bootstrap,2389,1693,200,120,376,37,twbs,""
+cakephp,cakephp,2272,1685,171,172,244,37,CakePHP,cakephp.org
 hazelcast,hazelcast,2433,1432,346,421,234,37,hazelcast,""
+emberjs,ember.js,2035,1326,240,242,227,37,Ember.js,emberjs.com
+numpy,numpy,1783,1364,154,106,159,37,numpy,""
+meteor,meteor,4911,4030,112,360,409,37,Meteor,meteor.com
+apollostack,apollo-client+react-apollo,2503,1528,171,549,255,37,apollostack,""
+OpenRCT2,OpenRCT2,3376,2302,294,520,260,37,OpenRCT2,openrct2.website
+yiisoft,yii2,2861,1890,399,182,390,37,yiisoft,""
+pytest-dev,pytest,1504,1133,137,111,123,37,pytest-dev,""
+idaholab,moose,2515,1708,297,262,248,37,idaholab,""
+bcit-ci,CodeIgniter4+CodeIgniter,1378,841,155,247,135,37,bcit-ci,""
+prebid,Prebid.js,1227,778,141,210,98,36,prebid,""
+Microsoft,WinObjC,1967,1266,189,222,290,36,Microsoft Objective-C for Windows,github.com/Microsoft/WinObjC
+sympy,sympy,1768,1384,160,75,149,36,sympy,""
+HTBox,allReady,1099,662,152,142,143,36,HTBox,""
+opencart,opencart,1267,685,152,242,188,36,opencart,""
 minetest,minetest,2167,1794,122,68,183,36,minetest,""
 pantheon-systems,documentation,896,297,116,410,73,36,pantheon-systems,""
-prebid,Prebid.js,1227,778,141,210,98,36,prebid,""
-opencart,opencart,1267,685,152,242,188,36,opencart,""
-sympy,sympy,1768,1384,160,75,149,36,sympy,""
-Microsoft,WinObjC,1967,1266,189,222,290,36,Microsoft Objective-C for Windows,github.com/Microsoft/WinObjC
-HTBox,allReady,1099,662,152,142,143,36,HTBox,""
 videojs,video.js,1379,1006,109,136,128,35,videojs,""
 keystonejs,keystone,1926,961,94,728,143,35,keystonejs,""
 zfsonlinux,zfs,2725,2234,207,103,181,34,zfsonlinux,""
@@ -201,7 +200,7 @@ kivy,kivy,990,610,111,171,98,32,kivy,""
 druid-io,druid,1793,1269,235,161,128,32,druid-io,""
 pimcore,pimcore,1466,355,68,911,132,32,pimcore,""
 wordpress-mobile,WordPress-iOS+WordPress-Android,3507,1412,329,1447,319,32,WordPress-mobile,make.wordpress.org/mobile
-akka,akka,2407,1777,242,131,257,32,akka,""
+akka,akka,2407,1777,242,131,257,32,Akka,akka.io
 RaRe-Technologies,gensim,725,496,86,86,57,32,RaRe-Technologies,""
 HabitRPG,habitrpg,2576,1753,175,513,135,32,HabitRPG,""
 dropwizard,dropwizard,770,527,62,99,82,32,dropwizard,""
