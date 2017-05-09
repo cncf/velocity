@@ -42,6 +42,7 @@ DefinitelyTyped,definitelytyped.org
 Digital Transformation Office,dta.gov.au
 Docker,mobyproject.org
 DuckDuckGo,duckduckhack.com
+DuckDuckHack,duckduckhack.com
 ELSYS,elsys-bg.org
 Eclipse,eclipse.org
 Elasticsearch,elastic.co/products/elasticsearch
@@ -79,6 +80,7 @@ HippieStationCode,github.com/HippieStationCode/HippieStation13
 Home Assistant,home-assistant.io
 Homebrew,brew.sh
 Homebrew Cask,caskroom.github.io
+Hyper,hyper.is
 Hyperledger Project,hyperledger.org
 IBM Bluemix,bluemix.net
 Inferno,infernojs.org
@@ -124,6 +126,7 @@ Mozilla,mozilla.org
 Mozilla Services,mozilla-services.github.io
 NServiceBus,particular.net/nservicebus
 NativeScript,nativescript.org
+Next.js,zeit.co/blog/next2
 Nextcloud,nextcloud.com
 NixOS,nixos.org
 Node.js,nodejs.org
@@ -181,7 +184,7 @@ VS Code,code.visualstudio.com
 Vault,vaultproject.io
 W3C CSSWG,drafts.csswg.org
 W3C HTML,w3c.github.io/html
-W3C Web Platform Tests,irc.w3.org/?channels=testing
+W3C Platform Tests,irc.w3.org/?channels=testing
 W3C WebRTC,w3c.github.io/webrtc-pc
 WP Calypso,developer.wordpress.com/calypso
 WiX,wixtoolset.org

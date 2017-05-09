@@ -79,6 +79,8 @@ dotnet/eShopOnContainers,Microsoft eShopOnContainers
 dotnet/orleans,Microsoft Orleans
 dotnet/roslyn,VS Code
 dotnet/roslyn-project-system,VS Code
+duckduckgo/zeroclickinfo-fathead,DuckDuckHack
+duckduckgo/zeroclickinfo-goodies,DuckDuckHack
 fa16scmorg/FA16SCM,Assignment Simulaton Repository
 facebook/react,React
 facebook/react-native,React
@@ -141,5 +143,8 @@ tensorflow/tensorflow,TensorFlow
 tootsuite/mastodon,Mastodon
 w3c/csswg-drafts,W3C CSSWG
 w3c/html,W3C HTML
-w3c/web-platform-tests,W3C Web Platform Tests
+w3c/web-platform-tests,W3C Platform Tests
 w3c/webrtc-pc,W3C WebRTC
+zeit/hyper,Hyper
+zeit/hyperterm,Hyper
+zeit/next.js,Next.js
