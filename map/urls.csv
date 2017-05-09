@@ -1,10 +1,9 @@
 project,url
-18F,18f.gsa.gov
+18F Website,18f.gsa.gov
 3DS Guide,3ds.guide
 ACE Mod,acemod.com
 AMP,ampproject.org
 ASP.net,asp.net
-Airbnb,airbnb.io
 Akka,akka.io
 Alibaba,alibaba.com
 Angular,angular.io
@@ -37,16 +36,17 @@ Computing for Computer Scientists,c4cs.github.io
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
 CoreOS,coreos.com
+DMLC,dmlc.github.io
 Dart,dartlang.org
 DefinitelyTyped,definitelytyped.org
 Digital Transformation Office,dta.gov.au
-Distributed Machine Learning Community,dmlc.github.io
 Docker,mobyproject.org
 DuckDuckGo,duckduckhack.com
 ELSYS,elsys-bg.org
 Eclipse,eclipse.org
 Elasticsearch,elastic.co/products/elasticsearch
 Ember.js,emberjs.com
+Enzyme,airbnb.io/enzyme
 Ethereum,ethereum.org
 Flutter,flutter.io
 GRPC,grpc.io
@@ -108,6 +108,7 @@ Material-UI,material-ui.com
 Mattermost,mattermost.org
 Mesosphere,mesosphere.com
 Meteor,meteor.com
+Micro-purchase,micropurchase.18f.gov
 Microsoft API,github.com/Microsoft/api-guidelines
 Microsoft BotBuilder,botframework.com
 Microsoft Chakra,github.com/Microsoft/ChakraCore
@@ -160,6 +161,7 @@ Sequelize,docs-sequelizejs.com
 Serverless Framework,serverless.com
 Spontanizer,spartan.org.il
 Spree,guides.spreecommerce.org
+Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com
 TEAMMATES,teammatesv4.appspot.com

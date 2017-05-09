@@ -1,4 +1,7 @@
 repo,project
+18F/18f.gsa.gov,18F Website
+18F/micropurchase,Micro-purchase
+Airbnb/react-native,React
 AngularClass/angular2-webpack-starter,Angular
 Automattic/jetpack,Automattic Jetpack
 Automattic/wp-calypso,WP Calypso
@@ -38,6 +41,10 @@ Microsoft/vstest,VS Code
 Microsoft/vsts-agent,VS Code
 Microsoft/vsts-tasks,VS Code
 SpartanRefactoring/Spartanizer,Spontanizer
+airbnb/caravel,Superset
+airbnb/enzyme,Enzyme
+airbnb/react-native-maps,React
+airbnb/superset,Superset
 angular-fullstack/generator-angular-fullstack,Angular
 angular-ui/bootstrap,Angular
 angular-ui/ng-grid,Angular
