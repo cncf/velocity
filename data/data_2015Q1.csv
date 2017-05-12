@@ -1,5 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
-torvalds,linux,79169,64197,16049,14972,16049,1698
+torvalds,torvalds/linux,79169,64197,16049,14972,16049,1698
 tgstation,tgstation/-tg-station,15794,12979,1087,843,885,80
 docker,docker/docker,14094,11709,1000,548,837,175
 GoogleCloudPlatform,GoogleCloudPlatform/kubernetes,14086,10537,1508,1144,897,172

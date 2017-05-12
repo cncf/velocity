@@ -141,6 +141,7 @@ realm/realm-js,Realm
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 tootsuite/mastodon,Mastodon
+torvalds/linux,Linux kernel
 w3c/csswg-drafts,W3C CSSWG
 w3c/html,W3C HTML
 w3c/web-platform-tests,W3C Platform Tests

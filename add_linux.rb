@@ -35,7 +35,7 @@ def add_linux(fout, fdata, rfrom, rto)
       checked = true
     end
 
-    if h['org'] == 'torvalds' && h['repo'] == 'linux'
+    if h['org'] == 'torvalds' && h['repo'] == 'torvalds/linux'
       puts "CSV file already contains linux: #{h}"
       return
     end
@@ -45,7 +45,7 @@ def add_linux(fout, fdata, rfrom, rto)
 
   linux_row = {
     'org' => 'torvalds',
-    'repo' => 'linux',
+    'repo' => 'torvalds/linux',
     'activity' => linux['changesets'] + linux['emails'],
     'comments' => linux['emails'],
     'prs' => linux['emails'] / 4,

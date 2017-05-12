@@ -106,6 +106,9 @@ Final optional file `summarier.csv` can be used to read number of authors from i
 Without summaries file (or if given project is not in summaries file) we have number of distinct authors in each period. To get summary value for all periods we're just getting max of all periods.
 This is obviously not a real count of all distinct authors in all periods. So if we give another file which contains summary data for one big period that is euual to sum of all periods - then we can get number of authors from there.
 
+To manually add other projects (like Linux) use `add_linux.sh` or create similar tools for other projects. Data for was generated manually using custom `gitdm` tool (`github cncf/gitdm`) on `torvalds/linux` repo and via manually counting emails in different periods on LKML.
+Example usage (assuming Linux additional data in `data/data_linux.csv), could be: 
+`ruby add_linux.rb data/data_201603.csv data/data_linux.csv 2016-03-01 2016-04-01`
 
 # Results:
 

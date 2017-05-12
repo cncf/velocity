@@ -1,5 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
-torvalds,linux,77914,62079,15519,15835,15519,1766
+torvalds,torvalds/linux,77914,62079,15519,15835,15519,1766
 PokemonGoF,PokemonGoF/PokemonGo-Bot,33051,25430,1965,1857,3799,329
 kubernetes,kubernetes/kubernetes,26154,21896,2458,203,1597,73
 Microsoft,Microsoft/vscode,17994,12659,220,1169,3946,62

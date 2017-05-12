@@ -1,5 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
-torvalds,linux,18355,15823,3955,2532,3955,677
+torvalds,torvalds/linux,18355,15823,3955,2532,3955,677
 kubernetes,kubernetes/kubernetes,6954,5872,669,55,358,28
 neveragaindottech,neveragaindottech/neveragaindottech.github.io,6050,751,2564,2718,17,1272
 Microsoft,Microsoft/vscode,5144,3450,79,247,1368,30

@@ -1,5 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
-torvalds,linux,84185,68151,17037,16034,17037,1870
+torvalds,torvalds/linux,84185,68151,17037,16034,17037,1870
 kubernetes,kubernetes/kubernetes,30837,27111,2204,150,1372,69
 Microsoft,Microsoft/vscode,23752,16312,366,1985,5089,70
 tgstation,tgstation/tgstation,20659,16984,2113,650,912,74

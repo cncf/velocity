@@ -1,5 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
-torvalds,linux,20734,17625,4406,3109,4406,719
+torvalds,torvalds/linux,20734,17625,4406,3109,4406,719
 kubernetes,kubernetes/kubernetes,6289,5211,548,199,331,73
 Automattic,Automattic/wp-calypso,5773,2725,526,2110,412,97
 docker,docker/docker,4473,3723,350,73,327,37
