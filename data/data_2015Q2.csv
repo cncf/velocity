@@ -1,4 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
+torvalds,linux,78638,63869,15967,14769,15967,1643
 GoogleCloudPlatform,GoogleCloudPlatform/kubernetes,22491,17151,2223,1752,1365,207
 docker,docker/docker,15223,12663,1067,521,972,171
 JuliaLang,JuliaLang/julia,12063,9778,542,1183,560,97

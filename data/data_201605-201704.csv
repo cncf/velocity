@@ -1,4 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
+torvalds,linux,320191,252324,63081,67867,63081,3865
 kubernetes,kubernetes/kubernetes,77556,64990,7136,575,4855,204
 Automattic,Automattic/wp-calypso,54687,24826,5266,22058,2537,362
 Microsoft,Microsoft/vscode,50662,34614,748,1146,14154,50

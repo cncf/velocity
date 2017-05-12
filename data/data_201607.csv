@@ -1,4 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
+torvalds,linux,22557,18729,4682,3828,4682,693
 PokemonGoF,PokemonGoF/PokemonGo-Bot,8204,6220,623,100,1261,39
 kubernetes,kubernetes/kubernetes,6756,5557,639,63,497,30
 Automattic,Automattic/wp-calypso,5184,2427,482,2033,242,100

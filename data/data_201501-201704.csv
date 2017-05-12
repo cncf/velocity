@@ -1,4 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
+torvalds,linux,760273,597838,149459,162435,149459,6721
 kubernetes,kubernetes/kubernetes,166617,139039,15101,2541,9936,418
 docker,docker/docker,128122,104570,9288,3750,10514,729
 NixOS,NixOS/nixpkgs,113078,66542,14817,26476,5243,1704

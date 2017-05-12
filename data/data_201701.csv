@@ -1,4 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
+torvalds,linux,27773,23183,5795,4590,5795,942
 ,Plailect/Guide,17594,255,65,17204,70,11
 kubernetes,kubernetes/kubernetes,7043,6080,549,34,380,21
 Automattic,Automattic/wp-calypso,5063,2394,534,1927,208,109

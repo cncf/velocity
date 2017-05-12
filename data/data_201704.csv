@@ -1,4 +1,5 @@
 org,repo,activity,comments,prs,commits,issues,authors
+torvalds,linux,24046,19974,4993,4072,4993,836
 kubernetes,kubernetes/kubernetes,10189,8961,732,19,477,7
 Microsoft,Microsoft/vscode,9433,7009,102,515,1807,40
 tootsuite,tootsuite/mastodon,8375,5507,1028,918,922,275
