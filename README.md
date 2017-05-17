@@ -141,4 +141,7 @@ To generate data for CNCF projects:
 - Process BigQuery output with velocity's analysis tool: `ruby analysis.rb data/data_cncf_projects.csv projects/projects_cncf.csv map/hints.csv map/urls.csv map/defmaps.csv` or use `shells/run_cncf.sh` which does the same
 - Import output file `projects/projects_cncf.csv` as Google chart's data.
 
-There is also gist here: https://gist.github.com/lukaszgryglicki/093ced06455a3f14f0e4d25459525207
+There is also gist here (but above description is more up to date): https://gist.github.com/lukaszgryglicki/093ced06455a3f14f0e4d25459525207
+
+Links to various charts and videos generated using this project are here: `res/links.txt`
+
