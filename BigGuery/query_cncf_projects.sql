@@ -1,4 +1,16 @@
 select
+  org,
+  repo,
+  sum(activity) as activity,
+  sum(comments) as comments,
+  sum(prs) as prs,
+  sum(commits) as commits,
+  sum(issues) as issues,
+  EXACT_COUNT_DISTINCT(author_email) as authors_alt2,
+  GROUP_CONCAT(STRING(author_name)) AS authors_alt1,
+  GROUP_CONCAT(STRING(author_email)) AS authors
+from (
+select
   org.login as org,
   repo.name as repo,
   count(*) as activity,
@@ -6,7 +18,8 @@ select
   SUM(IF(type = 'PullRequestEvent', 1, 0)) as prs,
   SUM(IF(type = 'PushEvent', 1, 0)) as commits,
   SUM(IF(type = 'IssuesEvent', 1, 0)) as issues,
-  EXACT_COUNT_DISTINCT(JSON_EXTRACT(payload, '$.commits[0].author.email')) AS authors
+  IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.email'), '"', ''), '(null)') as author_email,
+  IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from 
   (select * from
     [githubarchive:month.201605],
@@ -58,7 +71,11 @@ where
       2 DESC
     )
   )
+group by org, repo, author_email, author_name
+)
 group by org, repo
 order by
   activity desc
-limit 10000;
+limit 10000
+;
+

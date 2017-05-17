@@ -138,24 +138,32 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
   orgs.each do |name, org|
     org[:sum] = {}
     org[:items].each do |repo|
-        repo.each do |k, v|
-          if v.is_a?(String)
-            if repo['org'] && k == 'repo' && v.include?('/')
-              v = v.split('/')[1]
-            end
-            if org[:sum].key? k
-              org[:sum][k] = '' if org[:sum][k].nil?
-              org[:sum][k] += '+' + v
-            else
-              org[:sum][k] = v 
-            end
-          elsif v.is_a?(Integer)
-            org[:sum][k] = 0 unless org[:sum].key? k
-            org[:sum][k] += v
+      repo.each do |k, v|
+        if ['authors', 'authors_alt1'].include? k
+          if org[:sum].key? k
+            org[:sum][k] += ',' + v.to_s
           else
-            org[:sum][k] = nil
+            org[:sum][k] = v.to_s
           end
+          next
         end
+        if v.is_a?(String)
+          if repo['org'] && k == 'repo' && v.include?('/')
+            v = v.split('/')[1]
+          end
+          if org[:sum].key? k
+            org[:sum][k] = '' if org[:sum][k].nil?
+            org[:sum][k] += '+' + v
+          else
+            org[:sum][k] = v 
+          end
+        elsif v.is_a?(Integer)
+          org[:sum][k] = 0 unless org[:sum].key? k
+          org[:sum][k] += v
+        else
+          org[:sum][k] = nil
+        end
+      end
     end
     new_org = org[:sum]['org']
     org[:sum]['org'] = new_org.split('+').uniq.join('+') if new_org
@@ -163,6 +171,19 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
     org[:sum]['project'] = new_prj.split('+').uniq.join('+') if new_prj
     new_mode = org[:sum]['mode']
     org[:sum]['mode'] = new_mode.split('+').uniq.join('+') if new_mode
+    org[:sum]['authors'] = org[:sum]['authors'].split(',').uniq.count
+    if org[:sum]['authors'] < 1
+      puts "WARNING: data from BigQuery truncated, no authors on current org: #{org[:sum]['project']}"
+      alt1 = org[:sum]['authors_alt1'].split(',').uniq.count
+      if alt1 > 1
+        puts "Alternate value used: #{alt1}"
+        org[:sum]['authors'] = alt1
+      else
+        puts "Very Alternate value used: #{org[:sum]['authors_alt2']}"
+        org[:sum]['authors'] = org[:sum]['authors_alt2']
+      end
+      binding.pry
+    end
   end
 
   # Sort by sort_col desc to get list of top projects
@@ -215,7 +236,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
 
   binding.pry
 
-  ks = res[0][2][:sum].keys - ['mode']
+  ks = res[0][2][:sum].keys - %w(mode authors_alt1 authors_alt2)
   CSV.open(fout, "w", headers: ks) do |csv|
     csv << ks
     res.each do |row|

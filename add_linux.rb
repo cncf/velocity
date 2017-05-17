@@ -21,9 +21,13 @@ def add_linux(fout, fdata, rfrom, rto)
   end
 
   linux = data[[rfrom, rto]]
+  # simulate N distinct authors as returned from BigQuery
+  linux['authors'] = linux['authors'].times.map { |i| i }.join(',')
+  linux['authors_alt1'] = linux['authors']
+  linux['authors_alt2'] = linux['authors'].split(',').uniq.count
 
   # fout
-  ks = %w(org repo activity comments prs commits issues authors)
+  ks = %w(org repo activity comments prs commits issues authors_alt2 authors_alt1 authors)
   checked = false
   rows = []
   CSV.foreach(fout, headers: true) do |row|
@@ -51,6 +55,8 @@ def add_linux(fout, fdata, rfrom, rto)
     'prs' => linux['emails'] / 4,
     'commits' => linux['changesets'],
     'issues' => linux['emails'] / 4,
+    'authors_alt2' => linux['authors_alt2'],
+    'authors_alt1' => linux['authors_alt1'],
     'authors' => linux['authors']
   }
 
