@@ -62,8 +62,17 @@ angular/tsickle,Angular
 callemall/material-ui,Material-UI
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x
+coredns/coredns-grpc,gRPC
+coredns/grpc,gRPC
+coreos/coreos-kubernetes,Kubernetes
+coreos/kube-prometheus,Prometheus
+coreos/kubernetes,Kubernetes
+coreos/prometheus,Prometheus
+coreos/prometheus-operator,Prometheus
+coreos/rkt,rkt
+deis/fluentd,Fluentd
 docker/compose,Docker
-docker/containerd,Docker
+docker/containerd,containerd
 docker/distribution,Docker
 docker/docker,Docker
 docker/docker-birthday-3,Docker
@@ -82,6 +91,8 @@ dotnet/roslyn-project-system,VS Code
 duckduckgo/zeroclickinfo-fathead,DuckDuckHack
 duckduckgo/zeroclickinfo-goodies,DuckDuckHack
 fa16scmorg/FA16SCM,Assignment Simulaton Repository
+fabric8io/docker-fluentd,Fluentd
+fabric8io/docker-fluentd-kubernetes,Fluentd
 facebook/react,React
 facebook/react-native,React
 facebookincubator/create-react-app,React
@@ -103,6 +114,7 @@ google/tie,Google TIE
 google/xi-editor,Google Xi Editor
 googleapis/toolkit,Google API
 googlei18n/libphonenumber,Google i18n
+grpc-ecosystem/grpc-opentracing,OpenTracing
 hashicorp/consul,Consul
 hashicorp/nomad,Nomad
 hashicorp/terraform,Terraform
@@ -142,6 +154,7 @@ tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 tootsuite/mastodon,Mastodon
 torvalds/linux,Linux kernel
+vmware/kubernetes,Kubernetes
 w3c/csswg-drafts,W3C CSSWG
 w3c/html,W3C HTML
 w3c/web-platform-tests,W3C Platform Tests

@@ -33,6 +33,7 @@ cloudfoundry,Cloud Foundry
 cms-sw,CMS Offline Software
 cockroachdb,Cockroach DB
 codecombat,CodeCombat
+coredns,CoreDNS
 coreos,CoreOS
 d3athrow/vgstation13,vgstation13
 dart-lang,Dart
@@ -49,10 +50,11 @@ ethcore,Parity
 ethereum,Ethereum
 fabric8io,fabric8
 facebook,React
+fluent,Fluentd
 flutter,Flutter
 github,GitHub
 godotengine,Godot Engine
-grpc,GRPC
+grpc,gRPC
 guardian,The Guardian
 home-assistant,Home Assistant
 hyperledger,Hyperledger Project
@@ -63,9 +65,14 @@ joomla,Joomla
 jsdelivr,jsDelivr
 keybase,Keybase
 kubernetes,Kubernetes
+kubernetes-client,Kubernetes
+kubernetes-cluster-automation,Kubernetes
+kubernetes-contrib,Kubernetes
 kubernetes-incubator,Kubernetes
+kubernetes-ui,Kubernetes
 laravel,Laravel
 letsencrypt,Let's Encrypt
+linkerd,Linkerd
 magento,Magento
 mantidproject,Mantid
 mapbox,Mapbox
@@ -85,10 +92,12 @@ odoo,Odoo
 openhab,openHAB
 openshift,OpenShift
 openssl,OpenSSL
+opentracing,OpenTracing
 openwrt,OpenWrt
 osmandapp,Osmand
 owncloud,ownCloud
 pingcap,PingCAP
+prometheus,Prometheus
 rackt,React
 rails,Ruby on Rails
 rapid7,Rapid7

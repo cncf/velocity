@@ -35,6 +35,7 @@ CodeCombat,codecombat.com
 Computing for Computer Scientists,c4cs.github.io
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
+CoreDNS,coredns.io
 CoreOS,coreos.com
 DMLC,dmlc.github.io
 Dart,dartlang.org
@@ -49,8 +50,8 @@ Elasticsearch,elastic.co/products/elasticsearch
 Ember.js,emberjs.com
 Enzyme,airbnb.io/enzyme
 Ethereum,ethereum.org
+Fluentd,fluentd.org
 Flutter,flutter.io
-GRPC,grpc.io
 GitHub,github.com
 GitLab,gitlab.com
 Godot Engine,godotengine.org
@@ -96,6 +97,7 @@ Kronos Vulkan,kronos.org
 Kubernetes,kubernetes.io
 Laravel,laravel.com
 Let's Encrypt,letsencrypt.org
+Linkerd,linkerd.io
 Linux kernel,kernel.org
 MAME,mamedev.org
 MAPS.ME,maps.me
@@ -139,6 +141,7 @@ Office Developer,dev.office.com
 OpenRCT2,openrct2.website
 OpenSSL,openssl.org
 OpenShift,openshift.com
+OpenTracing,opentracing.io
 OpenWrt,openwrt.org
 Osmand,osmand.net
 ParadiseSS13,nanotrasen.se/forum
@@ -150,6 +153,7 @@ PokemonGoF,maps.pikabot.org
 PokemonGoMap,pokemongomap.info
 Polymer,polymer-project.org
 PowerShell,microsoft.com/powershell
+Prometheus,prometheus.io
 Protractor,protractortest.org
 Rapid7,rapid7.com
 React,facebook.com
@@ -198,12 +202,14 @@ ZEIT,zeit.co
 Zend Framework,framework.zend.com
 bioconda,bioconda.github.io
 cloudmesh,github.com/cloudmesh
+containerd,containerd.io
 devopsdays,devopsdays.org
 dotnet,microsoft.com/net
 eslint,eslint.org
 fabric8,fabric8.io
 fastlane,fastlane.tools
 fossasia,fossasia.org
+gRPC,grpc.io
 hzuapps,github.com/hzuapps
 iojs,io.js
 jsDelivr,jsdelivr.com
@@ -212,6 +218,7 @@ neveragain.tech,neveragain.tech
 npm,npmjs.com
 openHAB,openhab.org
 ownCloud,owncloud.org
+rkt,github.com/rkt/rkt
 systemd,freedesktop.org/wiki/Software/systemd
 vgstation13,github.com/vgstation-coders/vgstation13
 vuejs,vuejs.org

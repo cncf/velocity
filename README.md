@@ -134,3 +134,11 @@ On the top/right just above the Color drop down You can see additional two chart
 - Choose li or log y-axis scale, then select Kubernetes from Legend and then choose any of y-axis possible values (activity, commits, PRs+issues, Size) and click play to see how Kubernetes overtakes multiple projects during our period.
 Finally there is also a linear chart, take a look on it too.
 
+# CNCF Projects
+To generate data for CNCF projects:
+- Run `BigGuery/query_cncf_projects.sql` on Google BigQuery Console. It takes about 800 GiB which is cost is about $4.
+- Save output to GoogleSheets and download is as CSV file and save in `data/data_cncf_projects.csv` (File -> Download As -> Comma separated values ...)
+- Process BigQuery output with velocity's analysis tool: `ruby analysis.rb data/data_cncf_projects.csv projects/projects_cncf.csv map/hints.csv map/urls.csv map/defmaps.csv` or use `shells/run_cncf.sh` which does the same
+- Import output file `projects/projects_cncf.csv` as Google chart's data.
+
+There is also gist here: https://gist.github.com/lukaszgryglicki/093ced06455a3f14f0e4d25459525207
