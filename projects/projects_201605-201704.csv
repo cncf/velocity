@@ -60,7 +60,7 @@ Microsoft,CNTK,17424,4241,156,11743,1284,192,Microsoft Cognitive Toolkit,cntk.ai
 department-of-veterans-affairs,vets-website+caseflow+vets-api,32836,10756,3296,16818,1966,191,Caseflow,va.gov
 tgstation,tgstation+-tg-station,50779,42164,4614,1700,2301,191,SS13,tgstation13.org
 mapbox,mapbox-gl-native+mapbox-gl-js,20152,9924,1593,6121,2514,191,Mapbox,mapbox.com
-grpc,grpc+grpc-java,24202,16314,3365,2402,2121,187,GRPC,grpc.io
+grpc,grpc+grpc-java,24202,16314,3365,2402,2121,187,gRPC,grpc.io
 zurb,foundation-sites,7915,5802,614,790,709,186,zurb,zurb.com
 vmware,vic+harbor+docker-volume-vsphere+clarity,32234,19145,3486,5417,4186,183,VMware,vmware.github.io
 hyperledger,fabric,8244,5205,608,1876,555,183,Hyperledger Project,hyperledger.org
@@ -158,11 +158,11 @@ ElemeFE,element,11472,6433,1047,843,3149,105,ElemeFE,""
 moment,moment,4051,3069,287,193,502,105,moment,""
 strongloop,loopback+loopback-datasource-juggler,9127,6392,439,1412,884,105,strongloop,""
 magefree,mage,5254,2024,679,1867,684,103,magefree,""
-coreos,rkt,6779,5217,625,508,429,103,CoreOS,coreos.com
+coreos,rkt,6779,5217,625,508,429,103,rkt,github.com/rkt/rkt
 kamailio,kamailio,3928,1841,308,1561,218,103,kamailio,""
 mesosphere,marathon,11409,5574,615,4268,952,102,Mesosphere,mesosphere.com
 MinecraftForge,MinecraftForge,5764,4372,449,470,473,101,MinecraftForge,""
-prometheus,prometheus,5858,4143,455,721,539,100,prometheus,""
+prometheus,prometheus,5858,4143,455,721,539,100,Prometheus,prometheus.io
 libgdx,libgdx,2863,1815,272,371,405,100,libgdx,""
 Flexget,Flexget,5287,2648,289,1913,437,99,Flexget,""
 ember-cli,ember-cli,4107,2674,361,732,340,99,ember-cli,""
@@ -676,7 +676,7 @@ attic-labs,noms,4683,2665,785,797,436,28,attic-labs,""
 magfest,ubersystem,2906,1428,355,830,293,28,magfest,""
 ScreepsOCS,screeps.behaviour-action-pattern,6091,2655,681,2365,390,28,ScreepsOCS,""
 jquery,jquery,2955,2261,157,126,411,28,jquery,""
-fluent,fluentd,2978,1611,306,805,256,28,fluent,""
+fluent,fluentd,2978,1611,306,805,256,28,Fluentd,fluentd.org
 ipfs,go-ipfs,3681,2653,243,388,397,28,ipfs,""
 leanprover,lean,2836,1394,347,928,167,28,leanprover,""
 4teamwork,opengever.core,5349,1287,598,2936,528,28,4teamwork,""

@@ -36,7 +36,7 @@ dmlc,mxnet+xgboost,1312,960,93,79,180,43,DMLC,dmlc.github.io
 guardian,frontend,2043,759,336,916,32,43,The Guardian,theguardian.com
 letsencrypt,letsencrypt+boulder,2031,1116,187,537,191,42,Let's Encrypt,letsencrypt.org
 cloudfoundry,bosh,415,106,11,274,24,42,Cloud Foundry,cloudfoundry.org
-grpc,grpc+grpc-java,2257,1382,364,301,210,41,GRPC,grpc.io
+grpc,grpc+grpc-java,2257,1382,364,301,210,41,gRPC,grpc.io
 e-government-ua,i,1314,183,12,1071,48,40,Основной репозиторий,igov.org.ua
 openwrt,packages,461,268,84,77,32,40,OpenWrt,openwrt.org
 mapbox,mapbox-gl-native+mapbox-gl-js,2319,1251,148,619,301,40,Mapbox,mapbox.com
@@ -111,7 +111,7 @@ PolarisSS13,Polaris,871,540,134,105,92,22,PolarisSS13,""
 department-of-veterans-affairs,vets-website+roadrunner,1142,495,125,433,89,22,Caseflow,va.gov
 geoadmin,mf-geoadmin3+mf-chsdi3,1139,598,118,378,45,22,geoadmin,""
 mapsme,omim,1405,755,309,318,23,22,MAPS.ME,maps.me
-coreos,rkt,837,601,88,69,79,22,CoreOS,coreos.com
+coreos,rkt,837,601,88,69,79,22,rkt,github.com/rkt/rkt
 Dolibarr,dolibarr,708,215,112,335,46,22,Dolibarr,""
 iTXTech,Genisys,1531,1031,77,225,198,22,iTXTech,""
 cerebris,jsonapi-resources,255,174,18,38,25,22,cerebris,""

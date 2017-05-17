@@ -124,7 +124,7 @@ TelescopeJS,Telescope,1160,752,86,185,137,35,TelescopeJS,""
 CenterForOpenScience,osf.io,4090,2001,646,1132,311,35,CenterForOpenScience,""
 open-mpi,ompi,1587,976,115,432,64,34,open-mpi,""
 yiisoft,yii2,5255,3873,441,145,796,34,yiisoft,""
-grpc,grpc,1231,683,241,201,106,34,GRPC,grpc.io
+grpc,grpc,1231,683,241,201,106,34,gRPC,grpc.io
 twbs,bootstrap,3484,2575,241,238,430,34,twbs,""
 octobercms,october,967,395,91,374,107,34,octobercms,""
 codemirror,CodeMirror,780,454,70,164,92,34,codemirror,""
@@ -238,7 +238,7 @@ open-keychain,open-keychain,1106,587,77,340,102,21,open-keychain,""
 shogun-toolbox,shogun,979,748,76,97,58,21,shogun-toolbox,""
 MinecraftForge,MinecraftForge,815,580,75,74,86,21,MinecraftForge,""
 octokit,octokit.net,724,439,76,151,58,21,octokit,""
-prometheus,prometheus,1035,568,118,278,71,20,prometheus,""
+prometheus,prometheus,1035,568,118,278,71,20,Prometheus,prometheus.io
 thelia,thelia,956,383,230,260,83,20,thelia,""
 stepmania,stepmania,635,345,61,170,59,20,stepmania,""
 libuv,libuv,1057,814,84,74,85,20,libuv,""

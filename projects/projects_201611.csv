@@ -106,7 +106,7 @@ eslint,eslint,1046,819,38,93,96,27,eslint,eslint.org
 capitalone,Hygieia+cloud-custodian,864,524,103,151,86,27,capitalone,""
 betaflight,betaflight,1250,878,145,149,78,26,Betaflight,github.com/betaflight/betaflight/releases
 magento,magento2,2235,1814,53,32,336,26,Magento,magento.com/home
-grpc,grpc,1387,907,201,143,136,26,GRPC,grpc.io
+grpc,grpc,1387,907,201,143,136,26,gRPC,grpc.io
 owncloud,core+client,1655,1237,76,211,131,26,ownCloud,owncloud.org
 matplotlib,matplotlib,1014,808,79,63,64,26,matplotlib,""
 JabRef,jabref,670,400,52,158,60,26,JabRef,""
@@ -241,7 +241,7 @@ ligo-cbc,pycbc,584,314,99,145,26,17,ligo-cbc,""
 cBioPortal,cbioportal,363,201,56,53,53,17,cBioPortal,""
 neos,neos-development-collection,370,188,49,108,25,17,neos,""
 mesonbuild,meson,627,374,77,120,56,17,mesonbuild,""
-prometheus,prometheus,629,462,43,70,54,17,prometheus,""
+prometheus,prometheus,629,462,43,70,54,17,Prometheus,prometheus.io
 DynamoDS,Dynamo,238,135,48,32,23,17,DynamoDS,""
 getsentry,sentry,818,290,102,365,61,17,getsentry,""
 KeepSafe,aiohttp,434,233,27,140,34,16,KeepSafe,""
@@ -259,7 +259,7 @@ scalajp,2017.scalamatsuri.org,658,149,116,234,159,16,scalajp,""
 DestinyItemManager,DIM,527,351,52,76,48,16,DestinyItemManager,""
 thaliproject,Thali_CordovaPlugin,807,324,63,355,65,16,thaliproject,""
 vuejs,vuejs.org,261,157,35,50,19,16,vuejs,vuejs.org
-coreos,rkt,546,393,55,55,43,16,CoreOS,coreos.com
+coreos,rkt,546,393,55,55,43,16,rkt,github.com/rkt/rkt
 zeit,hyper,670,497,23,96,54,16,Hyper,hyper.is
 GeoNode,geonode,188,84,42,43,19,16,GeoNode,""
 meteor,meteor,1038,836,18,87,97,16,Meteor,meteor.com

@@ -48,7 +48,7 @@ dmlc,mxnet+xgboost,1982,1392,197,80,313,46,DMLC,dmlc.github.io
 dart-lang,sdk,1627,905,14,458,250,45,Dart,dartlang.org
 vuejs,vuejs.org+cn.vuejs.org,363,176,61,95,31,45,vuejs,vuejs.org
 Particular,docs.particular.net+NServiceBus,895,395,91,377,32,45,NServiceBus,particular.net/nservicebus
-grpc,grpc+grpc-java,1571,995,214,182,180,44,GRPC,grpc.io
+grpc,grpc+grpc-java,1571,995,214,182,180,44,gRPC,grpc.io
 duckduckgo,zeroclickinfo-fathead+zeroclickinfo-goodies,990,759,86,85,60,43,DuckDuckHack,duckduckhack.com
 codenvy,codenvy+artik-ide,1165,454,120,472,119,42,codenvy,""
 vmware,vic+clarity+docker-volume-vsphere,1566,939,136,323,168,42,VMware,vmware.github.io
@@ -128,7 +128,7 @@ scipy,scipy,569,454,44,31,40,25,scipy,""
 cockroachdb,cockroach,2312,1292,212,270,538,25,Cockroach DB,cockroachlabs.com
 ember-cli,ember-cli,423,233,44,121,25,25,ember-cli,""
 domoticz,domoticz,453,245,57,130,21,25,domoticz,""
-prometheus,prometheus+node_exporter,707,519,45,75,68,25,prometheus,""
+prometheus,prometheus+node_exporter,707,519,45,75,68,25,Prometheus,prometheus.io
 python,typeshed,280,126,57,79,18,24,python,""
 ,bbatsov/rubocop,370,228,52,56,34,24,bbatsov/rubocop,""
 OpenRCT2,OpenRCT2,662,438,59,104,61,24,OpenRCT2,openrct2.website

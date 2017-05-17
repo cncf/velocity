@@ -57,7 +57,7 @@ TrinityCore,TrinityCore,2048,1516,76,219,237,35,TrinityCore,trinitycore.org
 MDLTechUniversity,vyapi+panpage,982,71,149,719,43,35,MDLTechUniversity,""
 bitDubai,fermat,903,135,215,305,248,34,bitDubai,""
 owncloud,core+documentation,2554,1759,140,354,301,34,ownCloud,owncloud.org
-grpc,grpc,1387,757,259,213,158,33,GRPC,grpc.io
+grpc,grpc,1387,757,259,213,158,33,gRPC,grpc.io
 on-site,grantzilla+StockAid,1003,112,167,570,154,33,on-site,""
 haskell,cabal+haskell-mode,1149,786,100,187,76,33,haskell,""
 letsencrypt,letsencrypt+boulder,2106,1403,157,310,236,33,Let's Encrypt,letsencrypt.org
@@ -162,7 +162,7 @@ novus,nvd3,320,231,25,28,36,19,novus,""
 Leaflet,Leaflet,379,275,26,39,39,19,Leaflet,""
 HippieStationCode,HippieStation13,931,616,135,104,76,19,HippieStationCode,github.com/HippieStationCode/HippieStation13
 concrete5,concrete5,648,356,105,120,67,18,concrete5,""
-coreos,rkt,789,597,83,66,43,18,CoreOS,coreos.com
+coreos,rkt,789,597,83,66,43,18,rkt,github.com/rkt/rkt
 idris-lang,Idris-dev,273,155,43,55,20,18,idris-lang,""
 keystonejs,keystone,605,374,50,129,52,18,keystonejs,""
 Theano,Theano,552,393,61,33,65,18,Theano,""
