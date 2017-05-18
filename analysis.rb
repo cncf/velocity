@@ -21,14 +21,25 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     end
   end
 
-  # Min/Max ranges for integer columns
+  # Min/Max ranges for integer columns (with exceptions)
   ranges = {}
   CSV.foreach(franges, headers: true) do |row|
     h = row.to_h
     key = h['key'].strip
     min = h['min'].strip
     max = h['max'].strip
-    ranges[key] = [min.to_i, max.to_i]
+    exc = h['exceptions'].strip
+    rps = {}
+    ors = {}
+    excs = exc.split(',')
+    excs.each do |ex|
+      if ex.include?('/')
+        rps[ex] = true
+      else
+        ors[ex] = true
+      end
+    end
+    ranges[key] = [min.to_i, max.to_i, ors, rps]
   end
 
   # Repo --> Project mapping
@@ -143,7 +154,10 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     # skip by values ranges
     skip = false
     ranges.each do |key, value|
-      min_v, max_v = value[0], value[1]
+      min_v, max_v, ors, rps = *value
+      next if ors.key? org
+      next if rps.key? repo
+
       unless key == 'authors'
         v = h[key].to_i
       else

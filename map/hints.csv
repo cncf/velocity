@@ -64,8 +64,8 @@ angular/tsickle,Angular
 callemall/material-ui,Material-UI
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x
-coredns/coredns-grpc,gRPC
-coredns/grpc,gRPC
+coredns/coredns-grpc,CoreDNS
+coredns/grpc,CoreDNS
 coreos/coreos-kubernetes,CoreOS
 coreos/kube-prometheus,CoreOS
 coreos/kubernetes,CoreOS
@@ -113,7 +113,7 @@ google/tie,Google TIE
 google/xi-editor,Google Xi Editor
 googleapis/toolkit,Google API
 googlei18n/libphonenumber,Google i18n
-grpc-ecosystem/grpc-opentracing,OpenTracing
+grpc-ecosystem/grpc-opentracing,gRPC
 hashicorp/consul,Consul
 hashicorp/nomad,Nomad
 hashicorp/terraform,Terraform

@@ -33,10 +33,16 @@ def merger(fmerge, fdata)
   #updated.each do |item|
   #  puts "Updated repo: #{item[0]}, #{item[1]} changed from '#{item[2]}' to '#{item[3]}'"
   #end
-  puts "Updated #{updated.count} values"
 
   # Add values that are not present 
-  repos.each { |repo, data| repos2[repo] = data unless repos2.key?(repo) }
+  added = 0
+  repos.each do |repo, data|
+    unless repos2.key?(repo)
+      repos2[repo] = data
+      added += 1
+    end
+  end
+  puts "Updated #{updated.count} values, added #{added} values"
 
   # Write changes back to file to update
   hdr = repos2.values.first.keys

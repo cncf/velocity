@@ -1,7 +1,7 @@
-key,min,max
-activity,10,-1
-comments,10,-1
-prs,10,-1
-commits,10,-1
-issues,10,-1
-authors,1,-1
+key,min,max,exceptions
+activity,50,-1,"kubernetes,kubernetes-incubator,kubernetes-ui,kubernetes-client,kubernetes-contrib,kubernetes-cluster-automation,prometheus,opentracing,fluent,linkerd,grpc,grpc-ecosystem,coredns,containerd,rkt,mesos,mesosphere,docker/containerd,coreos/rkt,WebKit/webkit"
+comments,20,-1,"kubernetes,kubernetes-incubator,kubernetes-ui,kubernetes-client,kubernetes-contrib,kubernetes-cluster-automation,prometheus,opentracing,fluent,linkerd,grpc,grpc-ecosystem,coredns,containerd,rkt,mesos,mesosphere,docker/containerd,coreos/rkt,WebKit/webkit"
+prs,10,-1,"kubernetes,kubernetes-incubator,kubernetes-ui,kubernetes-client,kubernetes-contrib,kubernetes-cluster-automation,prometheus,opentracing,fluent,linkerd,grpc,grpc-ecosystem,coredns,containerd,rkt,mesos,mesosphere,docker/containerd,coreos/rkt,WebKit/webkit"
+commits,10,-1,"kubernetes,kubernetes-incubator,kubernetes-ui,kubernetes-client,kubernetes-contrib,kubernetes-cluster-automation,prometheus,opentracing,fluent,linkerd,grpc,grpc-ecosystem,coredns,containerd,rkt,mesos,mesosphere,docker/containerd,coreos/rkt,WebKit/webkit"
+issues,10,-1,"kubernetes,kubernetes-incubator,kubernetes-ui,kubernetes-client,kubernetes-contrib,kubernetes-cluster-automation,prometheus,opentracing,fluent,linkerd,grpc,grpc-ecosystem,coredns,containerd,rkt,mesos,mesosphere,docker/containerd,coreos/rkt,WebKit/webkit"
+authors,3,-1,"kubernetes,kubernetes-incubator,kubernetes-ui,kubernetes-client,kubernetes-contrib,kubernetes-cluster-automation,prometheus,opentracing,fluent,linkerd,grpc,grpc-ecosystem,coredns,containerd,rkt,mesos,mesosphere,docker/containerd,coreos/rkt,WebKit/webkit"
