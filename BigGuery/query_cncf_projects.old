@@ -38,11 +38,16 @@ from
 where
   (
     org.login in (
-      'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'containerd',
+      'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'coredns', 'containerd',
       'rkt', 'kubernetes-client', 'kubernetes-contrib', 'kubernetes-cluster-automation',
-      'kubernetes-incubator', 'kubernetes-ui', 'coredns', 'grpc-ecosystem'
+      'kubernetes-incubator', 'kubernetes-ui'
     )
-    or repo.name in ('docker/containerd', 'coreos/rkt')
+    or repo.name in (
+      'docker/containerd', 'coreos/rkt', 'fabric8io/docker-fluentd', 'fabric8io/docker-fluentd-kubernetes',
+      'deis/fluentd', 'grpc-ecosystem/grpc-opentracing', 'coreos/kube-prometheus', 'coreos/prometheus',
+      'coreos/prometheus-operator', 'coreos/coreos-kubernetes', 'coreos/kubernetes', 'abric8io/kubernetes-client',
+      'abric8io/kubernetes-model', 'vmware/kubernetes'
+    )
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
   and actor.login not like '%bot%'
