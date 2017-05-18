@@ -91,13 +91,12 @@ GROUP BY
 )
 GROUP BY org, repo
 HAVING 
-  authors_alt2 > 20
-  and comments > 100
-  and prs > 100
-  and commits > 100
-  and issues > 100
+  authors_alt2 > 0
+  and comments > 0
+  and prs > 0
+  and commits > 0
+  and issues > 0
 ORDER BY 
   activity desc
-LIMIT 10000
+LIMIT 2000
 ;
-
