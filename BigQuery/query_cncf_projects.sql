@@ -40,7 +40,7 @@ where
     org.login in (
       'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'containerd',
       'rkt', 'kubernetes-client', 'kubernetes-contrib', 'kubernetes-cluster-automation',
-      'kubernetes-incubator', 'kubernetes-ui', 'coredns', 'grpc-ecosystem'
+      'kubernetes-incubator', 'kubernetes-ui', 'coredns', 'grpc-ecosystem', 'containernetworking'
     )
     or repo.name in ('docker/containerd', 'coreos/rkt')
   )

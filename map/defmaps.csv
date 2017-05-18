@@ -34,6 +34,7 @@ cloudfoundry,Cloud Foundry
 cms-sw,CMS Offline Software
 cockroachdb,Cockroach DB
 codecombat,CodeCombat
+containernetworking,CNI
 coredns,CoreDNS
 coreos,CoreOS
 d3athrow/vgstation13,vgstation13
