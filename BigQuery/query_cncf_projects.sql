@@ -42,7 +42,7 @@ where
       'rkt', 'kubernetes-client', 'kubernetes-contrib', 'kubernetes-cluster-automation',
       'kubernetes-incubator', 'kubernetes-ui', 'coredns', 'grpc-ecosystem', 'containernetworking'
     )
-    or repo.name in ('docker/containerd', 'coreos/rkt')
+    or repo.name in ('docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes')
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
   and actor.login not like '%bot%'

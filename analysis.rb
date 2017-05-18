@@ -9,8 +9,8 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   skip_orgs = {}
   CSV.foreach(fskip, headers: true) do |row|
     h = row.to_h
-    org = h['org'].strip
-    repo = h['repo'].strip
+    org = (h['org'] || '').strip
+    repo = (h['repo'] || '').strip
     if org.length > 0
       orgs = org.split(',')
       orgs.each { |o| skip_orgs[o] = true }

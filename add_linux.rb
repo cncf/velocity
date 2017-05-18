@@ -40,7 +40,12 @@ def add_linux(fout, fdata, rfrom, rto)
     end
 
     if h['org'] == 'torvalds' && h['repo'] == 'torvalds/linux'
-      puts "CSV file already contains linux: #{h}"
+      nh = {}
+      h.each do |k, v|
+        v = '...' if ['authors', 'authors_alt1'].include?(k)
+        nh[k] = v
+      end
+      puts "CSV file already contains linux: #{nh}"
       return
     end
 

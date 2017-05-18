@@ -41,6 +41,7 @@ d3athrow/vgstation13,vgstation13
 dart-lang,Dart
 department-of-veterans-affairs,Caseflow
 dmlc,DMLC
+docker,Docker
 driftyco,Ionic
 e-government-ua,Основной репозиторий
 eclipse,Eclipse
@@ -56,6 +57,7 @@ fluent,Fluentd
 flutter,Flutter
 github,GitHub
 godotengine,Godot Engine
+google,Google
 grpc,gRPC
 grpc-ecosystem,gRPC
 guardian,The Guardian
@@ -107,6 +109,7 @@ rails,Ruby on Rails
 rapid7,Rapid7
 sakaiproject,Sakai
 saltstack,SaltStack
+sensu,Sensu
 sequelize,Sequelize
 serverless,Serverless Framework
 servo,The Servo Browser Engine
@@ -121,6 +124,7 @@ voidlinux,The Void distribution
 wireapp,Wire Swiss GmbH
 wix,WiX
 wordpress-mobile,WordPress-mobile
+xbmc,Team Kodi
 yarnpkg,yarn
 yogstation13,Yogstation13
 zendframework,Zend Framework
