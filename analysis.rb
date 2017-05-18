@@ -1,8 +1,35 @@
 require 'csv'
 require 'pry'
 
-def analysis(fin, fout, fhint, furls, fdefmaps)
+def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   sort_col = 'authors'
+
+  # Repos and Orgs to skip
+  skip_repos = {}
+  skip_orgs = {}
+  CSV.foreach(fskip, headers: true) do |row|
+    h = row.to_h
+    org = h['org'].strip
+    repo = h['repo'].strip
+    if org.length > 0
+      orgs = org.split(',')
+      orgs.each { |o| skip_orgs[o] = true }
+    end
+    if repo.length > 0
+      reps = repo.split(',')
+      reps.each { |r| skip_repos[r] = true }
+    end
+  end
+
+  # Min/Max ranges for integer columns
+  ranges = {}
+  CSV.foreach(franges, headers: true) do |row|
+    h = row.to_h
+    key = h['key'].strip
+    min = h['min'].strip
+    max = h['max'].strip
+    ranges[key] = [min.to_i, max.to_i]
+  end
 
   # Repo --> Project mapping
   projects = {}
@@ -106,7 +133,33 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
   project_counts = {}
   CSV.foreach(fin, headers: true) do |row|
     h = row.to_h
+
+    # skip repos & orgs
     repo = h['repo']
+    next if skip_repos.key? repo
+    org = h['org']
+    next if skip_orgs.key? org
+
+    # skip by values ranges
+    skip = false
+    ranges.each do |key, value|
+      min_v, max_v = value[0], value[1]
+      unless key == 'authors'
+        v = h[key].to_i
+      else
+        v = h[key].split(',').uniq.count
+      end
+      if min_v > 0 && v < min_v
+        skip = true
+        break
+      end
+      if max_v > 0 && v > max_v
+        skip = true
+        break
+      end
+    end
+    next if skip
+
     k = h['project'] = projects[repo]
     mode = nil
     if k
@@ -115,7 +168,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
       project_counts[k][1] << repo
       mode = 'project'
     end
-    k = h['org'] unless k
+    k = org unless k
     mode = 'org' if k &&!mode
     k = h['repo'] unless k
     next unless k
@@ -165,9 +218,9 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
         end
       end
     end
-    new_org = org[:sum]['org']
+    new_org = org[:sum]['org'].to_s
     org[:sum]['org'] = new_org.split('+').uniq.join('+') if new_org
-    new_prj = org[:sum]['project']
+    new_prj = org[:sum]['project'].to_s
     org[:sum]['project'] = new_prj.split('+').uniq.join('+') if new_prj
     new_mode = org[:sum]['mode']
     org[:sum]['mode'] = new_mode.split('+').uniq.join('+') if new_mode
@@ -249,10 +302,10 @@ def analysis(fin, fout, fhint, furls, fdefmaps)
   end
 end
 
-if ARGV.size < 5
-  puts "Missing arguments: input_data.csv output_projects.csv hints.csv urls.csv defmaps.csv"
+if ARGV.size < 7
+  puts "Missing arguments: input_data.csv output_projects.csv hints.csv urls.csv defmaps.csv skip.csv ranges.csv"
   exit(1)
 end
 
-analysis(ARGV[0], ARGV[1], ARGV[2], ARGV[3], ARGV[4])
+analysis(ARGV[0], ARGV[1], ARGV[2], ARGV[3], ARGV[4], ARGV[5], ARGV[6])
 

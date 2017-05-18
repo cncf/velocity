@@ -110,6 +110,10 @@ To manually add other projects (like Linux) use `add_linux.sh` or create similar
 Example usage (assuming Linux additional data in `data/data_linux.csv), could be: 
 `ruby add_linux.rb data/data_201603.csv data/data_linux.csv 2016-03-01 2016-04-01`
 
+To get some repos data from some file and put it in some other file use:
+`ruby merger.rb file_to_merge.rb file_to_get_data_from.rb`
+See for example `./shells/top30_201605_201704.sh`
+
 # Results:
 
 NOTE: for viewing using those motion charts You'll need Adobe Flash enabled when clicking links. It works (tested) on Chrome and Safari with Adobe Flash installed and enabled.

@@ -22,6 +22,7 @@ aspnet,ASP.net
 atom,Atom
 auth0,Auth0
 betaflight,Betaflight
+boostorg,Boost
 brave,Brave Software
 broadinstitute,Broad Institute
 c4cs,Computing for Computer Scientists
@@ -80,7 +81,8 @@ mapbox,Mapbox
 mapsme,MAPS.ME
 mattermost,Mattermost
 melpa,MELPA
-mesosphere,Mesosphere
+mesos,Mesos
+mesosphere,Mesos
 meteor,Meteor
 mitodl,MIT Office of Digital Learning
 mozilla,Mozilla
