@@ -10,6 +10,7 @@ https://docs.google.com/spreadsheets/d/1bERALoPEavrBcyXuaArAXHg5b2m0v6CEm_RI0KBL
 # List of all charts:
 CNCF Projects (bubble): https://docs.google.com/spreadsheets/d/1Mr-ov9J6itlYdn7epzbi3ZZmAJq_unORyJeJxbERPLM/edit?usp=sharing
 Top 30 projects May 2016 - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1NOvHPEXwYo6oc4YrKRgphC_oy1BqKLSv91kdxkensMg/edit?usp=sharing
+Top 30 projects May 2016 - April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1mneiSCshJFVb0UK08TnEYng-iGFP8hyHzMO6HE6q-qI/edit?usp=sharing
 
 Top 30 projects March 2017 (bubble): https://docs.google.com/spreadsheets/d/1WO1NCzeso7_srYPMS3nspnAeqOImPDReAaOyZSIPJE4/edit?usp=sharing
 Top 30 projects April 2017 (bubble): https://docs.google.com/spreadsheets/d/1bERALoPEavrBcyXuaArAXHg5b2m0v6CEm_RI0KBLddQ/edit?usp=sharing
@@ -22,7 +23,6 @@ Top 30 projects January 2016 - March 2017 (linux motion non-cumulative): https:/
 Top 30 projects January 2015 - march 2017 (linux motion quarters non-cumulative): https://docs.google.com/spreadsheets/d/1yrX3T6oZ_Of-MAwKcjxR5bmPtJYlVfhNxKIjxmPZMus/edit?usp=sharing
 Top 30 projects January 2015 - march 2017 (linux motion quarters cumulative): https://docs.google.com/spreadsheets/d/1hoL0qcvQ9VaVT9Ek6hQkrlLkHNIR6C2VhiKHaHTnzTw/edit?usp=sharing
 Top 30 projects January 2015 - April 2017 (bubble with linux): https://docs.google.com/spreadsheets/d/11pUbzVmfsn8CeP2tajQUJWATknO_kdOGthjI7wb47PE/edit?usp=sharing
-Top 30 projects May 2016 - April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1mneiSCshJFVb0UK08TnEYng-iGFP8hyHzMO6HE6q-qI/edit?usp=sharing
 Top 30 projects January - March 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1duCOHpTOZZanos9EScg4UcC7jkGOhKR64qd5G0Ywy0c/edit?usp=sharing
 Top 30 projects January - April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1Wq1YTkc6lCzCODKfNEHbw9JMySetNk-T5twPEk622lU/edit?usp=sharing
 Top 30 projects April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1hiaZ1vfwNSuOPu51ZMC8OM17vFZZzmmFpnrCOMKlDPQ/edit?usp=sharing
