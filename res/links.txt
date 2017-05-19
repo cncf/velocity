@@ -8,7 +8,8 @@ https://docs.google.com/spreadsheets/d/1bERALoPEavrBcyXuaArAXHg5b2m0v6CEm_RI0KBL
 
 
 # List of all charts:
-CNCF Projects (bubble): https://docs.google.com/spreadsheets/d/1Mr-ov9J6itlYdn7epzbi3ZZmAJq_unORyJeJxbERPLM/edit?usp=sharing
+CNCF Projects 201605-201704 (bubble): https://docs.google.com/spreadsheets/d/1Mr-ov9J6itlYdn7epzbi3ZZmAJq_unORyJeJxbERPLM/edit?usp=sharing
+CNCF Projects 201704 (bubble): https://docs.google.com/spreadsheets/d/16bz0fGWw3OmDqQPIYKP8hF-sGYtH40LfdDPvhxjtHTA/edit?usp=sharing
 Top 30 projects May 2016 - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1NOvHPEXwYo6oc4YrKRgphC_oy1BqKLSv91kdxkensMg/edit?usp=sharing
 Top 30 projects May 2016 - April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1mneiSCshJFVb0UK08TnEYng-iGFP8hyHzMO6HE6q-qI/edit?usp=sharing
 Top 30 projects January 2015 - March 2017 (no linux motion quarters non-cumulative): https://docs.google.com/spreadsheets/d/1VtrcvEfK5MVVK0LDTwDJMDibqqAYWRSL0vFmY5FWMxE/edit?usp=sharing
