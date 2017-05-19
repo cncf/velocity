@@ -121,7 +121,7 @@ NOTE: for viewing using those motion charts You'll need Adobe Flash enabled when
 For data from files.csv (data/data_YYYYMM.csv), 201601 --> 201703 (15 months)
 Chart with cumulative data (each month is sum of this month and previous months) is here:
 https://docs.google.com/spreadsheets/d/11qfS97WRwFqNnArRmpQzCZG_omvZRj_y-MNo5oWeULs/edit?usp=sharing
-Chart with monthly data (that looks wrong IMHO due to google motion chart data interpolation between moths) is here: 
+Chart with monthly data (that looks wrong IMHO due to google motion chart data interpolation between months) is here: 
 https://docs.google.com/spreadsheets/d/1ZgdIuMxxcyt8fo7xI1rMeFNNx9wx0AxS-2a58NlHtGc/edit?usp=sharing
 
 I suggest play around with 1st chart (cumulative sum):
