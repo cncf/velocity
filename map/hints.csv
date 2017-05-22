@@ -1,45 +1,209 @@
 repo,project
 18F/18f.gsa.gov,18F Website
+18F/calc,18F CALC
+18F/crime-data-explorer,FBI Crime Data Explorer
+18F/doi-extractives-data,US Extractive Industries Data
+18F/fec-cms,18F Federal Election Commision
+18F/identity-idp,18F Identity Provider
 18F/micropurchase,Micro-purchase
+18F/openFEC,18F Federal Election Commision
+18F/web-design-standards,US Web Design Standards
 Airbnb/react-native,React
 AngularClass/angular2-webpack-starter,Angular
+Automattic/WP-Job-Manager,WP Calypso
+Automattic/facebook-instant-articles-wp,WP Calypso
 Automattic/jetpack,Automattic Jetpack
+Automattic/sensei,WP Calypso
+Automattic/vip-go-mu-plugins,VIP Go
+Automattic/woocommerce-connect-client,Automattic WooCommerce
 Automattic/wp-calypso,WP Calypso
 Automattic/wp-e2e-tests,WP Calypso
 EFForg/https-everywhere,HTTPS Everywhere
 GoogleChrome/lighthouse,Google Chrome
+GoogleCloudPlatform/dotnet-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/gcloud-node,Google Cloud Platform
+GoogleCloudPlatform/golang-samples,Google Cloud Docs
 GoogleCloudPlatform/google-cloud-java,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-node,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-python,Google Cloud Platform
 GoogleCloudPlatform/kubernetes,Kubernetes
+GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
+GoogleCloudPlatform/php-docs-samples,Google Cloud Docs
+GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
 HaliteChallenge/Halite,Halite
 JuliaLang/julia,Julia
 KhronosGroup/Vulkan-LoaderAndValidationLayers,Kronos Vulkan
 KhronosGroup/glslang,Kronos GLSL
+Microsoft/AL,Dynamics NAV
+Microsoft/AirSim,AirSim
+Microsoft/ApplicationInsights-Home,Microsoft Application Insights
+Microsoft/ApplicationInsights-JS,Microsoft Application Insights
+Microsoft/ApplicationInsights-Java,Microsoft Application Insights
+Microsoft/ApplicationInsights-SDK-Labs,Microsoft Application Insights
+Microsoft/ApplicationInsights-aspnetcore,Microsoft Application Insights
+Microsoft/ApplicationInsights-dotnet,dotnet
+Microsoft/ApplicationInsights-dotnet-logging,Microsoft Application Insights
+Microsoft/ApplicationInsights-dotnet-server,Microsoft Application Insights
+Microsoft/ApplicationInsights-node.js,Microsoft Application Insights
+Microsoft/AzureBot,Azure
+Microsoft/AzureUsageAndBillingPortal,Azure
+Microsoft/BashOnWindows,BashOnWindows
 Microsoft/BotBuilder,Microsoft BotBuilder
+Microsoft/BotBuilder-Location,Microsoft BotBuilder
+Microsoft/BotBuilder-Samples,Microsoft BotBuilder
+Microsoft/BotFramework-Emulator,Microsoft BotBuilder
+Microsoft/BotFramework-WebChat,Microsoft BotBuilder
 Microsoft/CNTK,Microsoft Cognitive Toolkit
 Microsoft/Chakra-Samples,Microsoft Chakra
 Microsoft/ChakraCore,Microsoft Chakra
+Microsoft/ChakraCore-wiki,Microsoft Chakra
+Microsoft/CodeContracts,dotnet
+Microsoft/Cognitive-Documentation,Microsoft docs
+Microsoft/Cognitive-Face-Windows,Microsoft API
+Microsoft/DSCEA,PowerShell
+Microsoft/DesktopBridgeToUWP-Samples,Microsoft docs
+Microsoft/DirectX-Graphics-Samples,DirectX
+Microsoft/DirectXShaderCompiler,DirectX
+Microsoft/Docker-PowerShell,PowerShell
+Microsoft/Docker.DotNet,dotnet
+Microsoft/Dynamics-AX-Integration,Microsoft
+Microsoft/FFmpegInterop,Microsoft
+Microsoft/GSL,Microsoft GSL
+Microsoft/GalaxyExplorer,Microsoft HoloToolkit
+Microsoft/Git-Credential-Manager-for-Mac-and-Linux,Microsoft
+Microsoft/Git-Credential-Manager-for-Windows,Microsoft
+Microsoft/GraphEngine,Microsoft Graph Engine
+Microsoft/HoloJS,Microsoft HoloToolkit
+Microsoft/HoloLensCompanionKit,Microsoft HoloToolkit
+Microsoft/HoloToolkit,Microsoft HoloToolkit
 Microsoft/HoloToolkit-Unity,Microsoft HoloToolkit
+Microsoft/IIS.Administration,Microsoft IIS
+Microsoft/LightGBM,Microsoft DMTK
 Microsoft/MIEngine,VS Code
+Microsoft/Microsoft.IO.RecyclableMemoryStream,dotnet
+Microsoft/Mobius,Microsoft
+Microsoft/ODBC-Specification,Microsoft ODBC
+Microsoft/OMS-Agent-for-Linux,Microsoft OMS
+Microsoft/Office-Online-Test-Tools-and-Documentation,Microsoft docs
+Microsoft/PTVS,VS Code
+Microsoft/PartsUnlimited,Microsoft docs
+Microsoft/PartsUnlimitedMRP,Microsoft
+Microsoft/PowerBI-CSharp,Power BI
+Microsoft/PowerBI-Cli,Power BI
+Microsoft/PowerBI-JavaScript,Power BI
+Microsoft/PowerBI-visuals,Power BI
+Microsoft/PowerBI-visuals-docs,Power BI
+Microsoft/PowerBI-visuals-tools,Power BI
+Microsoft/PowerShell-DSC-for-Linux,DSC
+Microsoft/Pyjion,Pyjion
+Microsoft/RTVS,VS Code
+Microsoft/ReportingServicesTools,SQL Server
+Microsoft/SDN,SDN
+Microsoft/TSJS-lib-generator,Microsoft
 Microsoft/TypeScript,TypeScript
+Microsoft/TypeScript-Handbook,TypeScript
+Microsoft/TypeScript-Sublime-Plugin,TypeScript
+Microsoft/TypeScript-TmLanguage,TypeScript
+Microsoft/UWPCommunityToolkit,Microsoft UWP
+Microsoft/VSProjectSystem,VS Code
+Microsoft/VSSDK-Extensibility-Samples,VS Code
 Microsoft/Virtualization-Documentation,Microsoft Virtualization
+Microsoft/WinAppDriver,VS Code
 Microsoft/WinObjC,Microsoft Objective-C for Windows
+Microsoft/Windows-driver-samples,Microsoft docs
+Microsoft/Windows-universal-samples,Microsoft docs
+Microsoft/WindowsDevicePortalWrapper,Microsoft UWP
+Microsoft/WindowsProtocolTestSuites,Microsoft
+Microsoft/XamlBehaviors,Microsoft UWP
+Microsoft/Yams,YAMS
+Microsoft/ace,ACE
 Microsoft/api-guidelines,Microsoft API
+Microsoft/app-store-vsts-extension,VS Code
+Microsoft/aspnet-api-versioning,dotnet
+Microsoft/bond,Bond
+Microsoft/caffe,Caffe
+Microsoft/checkedc,Checked C
+Microsoft/checkedc-clang,Checked C
+Microsoft/checkedc-llvm-test-suite,Checked C
+Microsoft/clrmd,VS Code
+Microsoft/code-push,CodePush
+Microsoft/cordova-plugin-code-push,CodePush
+Microsoft/cordova-simulate,Microsoft
+Microsoft/cpprestsdk,VS Code
+Microsoft/cppwinrt,VS Code
+Microsoft/dotnet,dotnet
+Microsoft/dotnet-apiport,dotnet
+Microsoft/edge-diagnostics-adapter,Microsoft Edge
+Microsoft/generator-docker,VS Code
+Microsoft/ghcrawler,Microsoft
+Microsoft/go-winio,Microsoft
+Microsoft/google-play-vsts-extension,VS Code
+Microsoft/hcsshim,Microsoft
+Microsoft/maker.js,Maker.js
+Microsoft/malmo,Malmö
+Microsoft/mattercenter,Microsoft Office
+Microsoft/mobile-center-sdk-react-native,React
 Microsoft/msbuild,VS Code
+Microsoft/msphpsql,SQL Server
+Microsoft/mssql-docker,SQL Server
+Microsoft/mssql-jdbc,SQL Server
+Microsoft/mwt-ds,Microsoft Decision Service
+Microsoft/nodejstools,VS Code
+Microsoft/o365-moodle,Microsoft Office
+Microsoft/omi,Open Management Infrastructure
+Microsoft/peek,Azure
+Microsoft/perfview,PerfView
 Microsoft/pxt,Microsoft MakeCode
+Microsoft/pxt-microbit,micro-bit
+Microsoft/pxt-microbit-electron,micro-bit
+Microsoft/react-native-code-push,CodePush
+Microsoft/react-native-windows,Microsoft
+Microsoft/reactxp,ReactXP
+Microsoft/sarif-sdk,dotnet
+Microsoft/satcheljs,Satchel
+Microsoft/sql-server-samples,SQL Server
+Microsoft/team-explorer-everywhere,Microsoft
+Microsoft/testfx,VS Code
+Microsoft/tfs-cli,VS Code
+Microsoft/thrifty,Thrifty
+Microsoft/tigertoolbox,SQL Server
+Microsoft/tolerant-php-parser,Microsoft
+Microsoft/tslib,TypeScript
+Microsoft/tslint-microsoft-contrib,Microsoft
+Microsoft/types-publisher,Microsoft
 Microsoft/vcpkg,VS Code
 Microsoft/visualfsharp,Microsoft F#
 Microsoft/visualfsharpdocs,Microsoft F#
+Microsoft/visualstudio-docs,VS Code
+Microsoft/vs-threading,VS Code
 Microsoft/vscode,VS Code
+Microsoft/vscode-chrome-debug-core,VS Code
+Microsoft/vscode-cordova,VS Code
+Microsoft/vscode-docker,VS Code
 Microsoft/vscode-docs,VS Code
 Microsoft/vscode-go,VS Code
 Microsoft/vscode-mssql,VS Code
+Microsoft/vscode-react-native,VS Code
+Microsoft/vscode-sublime-keybindings,VS Code
+Microsoft/vscode-tips-and-tricks,VS Code
 Microsoft/vso-agent-tasks,VS Code
+Microsoft/vss-web-extension-sdk,VS Code
 Microsoft/vstest,VS Code
 Microsoft/vsts-agent,VS Code
+Microsoft/vsts-extension-build-release-tasks,VS Code
+Microsoft/vsts-node-api,VS Code
+Microsoft/vsts-rm-extensions,Microsoft
+Microsoft/vsts-task-lib,Microsoft
 Microsoft/vsts-tasks,VS Code
+Microsoft/vsts-team-calendar,VS Code
+Microsoft/vsts-vscode,VS Code
+Microsoft/vswhere,VS Code
+Microsoft/web-build-tools,VS Code
+Microsoft/windows-dev-center-vsts-extension,VS Code
+Microsoft/windows-driver-docs,Microsoft docs
+Microsoft/windows-itpro-docs,Microsoft docs
+Microsoft/winsdkfb,VS Code
+Microsoft/xunit-performance,dotnet
 SpartanRefactoring/Spartanizer,Spontanizer
 airbnb/caravel,Superset
 airbnb/enzyme,Enzyme
@@ -97,19 +261,29 @@ facebook/react-native,React
 facebookincubator/create-react-app,React
 fpco/stackage,Hackage
 gitlabhq/gitlabhq,GitLab
+google/EarlGrey,EarlGrey
 google/ExoPlayer,Google ExoPlayer
 google/WebFundamentals,Google WebFundamentals
+google/blockly,Blockly
+google/cadvisor,cAdvisor
 google/closure-compiler,Google Closure Compiler
+google/dagger,Dagger 2
 google/earthenterprise,Google Earth Enterprise
 google/flatbuffers,Google FlatBuffers
+google/fonts,Google Font Files
 google/gapid,Google Graphics API Debugger
+google/guava,Guava
 google/guetzli,Google Perceptual JPEG encoder
 google/material-design-lite,Google Material Design Components
+google/openhtf,OpenHTF
 google/oss-fuzz,Google OSS-Fuzz
+google/physical-web,The Physical Web
 google/protobuf,Google Protocol Buffers
 google/python-fire,Google Python Fire
 google/seq2seq,Google seq2seq
+google/shaka-player,Shaka Player
 google/tie,Google TIE
+google/trillian,Trillian
 google/xi-editor,Google Xi Editor
 googleapis/toolkit,Google API
 googlei18n/libphonenumber,Google i18n
@@ -136,6 +310,198 @@ kubernetes/kubernetes.github.io,Kubernetes
 kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
 mamedev/mame,MAME
+mozilla/123done,Firefox
+mozilla/ADBFuzz,Firefox
+mozilla/Fira,Firefox
+mozilla/Firefox-Shield,Firefox
+mozilla/Firefox-UI-Heatmap,Firefox
+mozilla/FirefoxAcademicCenter,Firefox
+mozilla/Marketplace.PHP,Firefox
+mozilla/PyFxA,Firefox
+mozilla/Twitter-Collage,Firefox
+mozilla/about-home-piano-snippet,Firefox
+mozilla/adbhelper,Firefox
+mozilla/addon-builder-helper,Firefox
+mozilla/addons-linter,Firefox
+mozilla/all-aboard,Firefox
+mozilla/all-aboard-remote,Firefox
+mozilla/areweslimyet-benchtester,Firefox
+mozilla/authorized,Firefox
+mozilla/blok,Firefox
+mozilla/blushproof,Firefox
+mozilla/browserid-local-verify,Firefox
+mozilla/browserid-verifier,Firefox
+mozilla/browserid_addon,Firefox
+mozilla/commbadge,Firefox
+mozilla/commonplace,Firefox
+mozilla/css-grid-inspector,Firefox
+mozilla/devtools-perf-game,Firefox
+mozilla/devtools-reqs,Firefox
+mozilla/discoplace,Firefox
+mozilla/e10s_analyses,Firefox
+mozilla/ember-cli-fxos,Firefox
+mozilla/example-addon-repo,Firefox
+mozilla/feedthefox,Firefox
+mozilla/fennec-distribution-sample,Firefox
+mozilla/fennec-search,Firefox
+mozilla/ff-tool,Firefox
+mozilla/firefox-app-validator-central,Firefox
+mozilla/firefox-app-validator-icons,Firefox
+mozilla/firefox-app-validator-manifest,Firefox
+mozilla/firefox-code-quality,Firefox
+mozilla/firefox-data-docs,Firefox
+mozilla/firefox-flicks,Firefox
+mozilla/firefox-for-android-addons,Firefox
+mozilla/firefox-hardware-report,Firefox
+mozilla/firefox-roku,Firefox
+mozilla/firefox-sync-appengine,Firefox
+mozilla/firefox-test-engineering,Firefox
+mozilla/firefox-themes,Firefox
+mozilla/firefox-ui-tests,Firefox
+mozilla/firefox10.org,Firefox
+mozilla/firefoxmarket,Firefox
+mozilla/firefoxos-quick-start,Firefox
+mozilla/fireplace,Firefox
+mozilla/fx36start,Firefox
+mozilla/fxa,Firefox
+mozilla/fxa-activity-metrics,Firefox
+mozilla/fxa-auth-db-server,Firefox
+mozilla/fxa-auth-server,Firefox
+mozilla/fxa-content-server,Firefox
+mozilla/fxa-customs-server,Firefox
+mozilla/fxa-features,Firefox
+mozilla/fxa-geodb,Firefox
+mozilla/fxa-js-client,Firefox
+mozilla/fxa-jwtool,Firefox
+mozilla/fxa-local-dev,Firefox
+mozilla/fxa-notification-server,Firefox
+mozilla/fxa-oauth-client,Firefox
+mozilla/fxa-oauth-console,Firefox
+mozilla/fxa-oauth-server,Firefox
+mozilla/fxa-profile-server,Firefox
+mozilla/fxa-python-client,Firefox
+mozilla/fxa-relier-client,Firefox
+mozilla/fxa-webrtc-idp,Firefox
+mozilla/fxemoji,Firefox
+mozilla/fxpay,Firefox
+mozilla/fxtest-dashboard,Firefox
+mozilla/gaia-custom-elements,Firefox
+mozilla/gcli,Firefox
+mozilla/geckodriver,Rust
+mozilla/get-synced,Firefox
+mozilla/hapi-fxa-oauth,Firefox
+mozilla/hungry-js,Firefox
+mozilla/inneractive,Firefox
+mozilla/input-lib,Firefox
+mozilla/input.mozilla.org,Firefox
+mozilla/interest-dashboard,Firefox
+mozilla/itisatrap,Firefox
+mozilla/kanbugger,Firefox
+mozilla/libwebmidi,Rust
+mozilla/loci,Firefox
+mozilla/loop,Firefox
+mozilla/loop-client-l10n,Firefox
+mozilla/luciddream,Firefox
+mozilla/marketplace-api-mock,Firefox
+mozilla/marketplace-constants,Firefox
+mozilla/marketplace-content-tools,Firefox
+mozilla/marketplace-core-css,Firefox
+mozilla/marketplace-core-modules,Firefox
+mozilla/marketplace-docs,Firefox
+mozilla/marketplace-elements,Firefox
+mozilla/marketplace-frontend-docs,Firefox
+mozilla/marketplace-gulp,Firefox
+mozilla/marketplace-jquery,Firefox
+mozilla/marketplace-operator-dashboard,Firefox
+mozilla/marketplace-stats,Firefox
+mozilla/marketplace-template,Firefox
+mozilla/marketplace-tests-gaia,Firefox
+mozilla/marketpulse,Firefox
+mozilla/master-firefoxos-l10n,Firefox
+mozilla/masterfirefoxos,Firefox
+mozilla/memchaser,Firefox
+mozilla/micro-email-validator,Firefox
+mozilla/missioncontrol,Firefox
+mozilla/mortar-devtools,Firefox
+mozilla/moz-cheddar,Rust
+mozilla/moz-dev-contrib,Firefox
+mozilla/moz-skia,Firefox
+mozilla/mozcommitbuilder,Firefox
+mozilla/mozdownload,Firefox
+mozilla/mozmill-automation,Firefox
+mozilla/mozmill-environment,Firefox
+mozilla/mp4parse-rust,Rust
+mozilla/mrburns,Firefox
+mozilla/nocturnal,Firefox
+mozilla/node-firefox,Firefox
+mozilla/node-firefox-build-tools,Firefox
+mozilla/node-firefox-cli,Firefox
+mozilla/node-firefox-connect,Firefox
+mozilla/node-firefox-console,Firefox
+mozilla/node-firefox-examples-gulp,Firefox
+mozilla/node-firefox-examples-install-packaged,Firefox
+mozilla/node-firefox-find-app,Firefox
+mozilla/node-firefox-find-devices,Firefox
+mozilla/node-firefox-find-ports,Firefox
+mozilla/node-firefox-find-simulators,Firefox
+mozilla/node-firefox-find-wifi-devices,Firefox
+mozilla/node-firefox-forward-ports,Firefox
+mozilla/node-firefox-install-app,Firefox
+mozilla/node-firefox-launch-app,Firefox
+mozilla/node-firefox-marketplace,Firefox
+mozilla/node-firefox-reload-css,Firefox
+mozilla/node-firefox-start-simulator,Firefox
+mozilla/node-firefox-uninstall-app,Firefox
+mozilla/normandy,Firefox
+mozilla/normandy-addon,Firefox
+mozilla/onboard,Firefox
+mozilla/onyx,Firefox
+mozilla/originOnly,Firefox
+mozilla/people,Firefox
+mozilla/peptest,Firefox
+mozilla/personas,Firefox
+mozilla/personas-plus,Firefox
+mozilla/pow-wow,Firefox
+mozilla/pretty-fast,Firefox
+mozilla/privacy-prefs,Firefox
+mozilla/probe-scraper,Firefox
+mozilla/prospector,Firefox
+mozilla/pulse,Firefox
+mozilla/qac,Firefox
+mozilla/r2d2b2g,Firefox
+mozilla/releasehealth,Firefox
+mozilla/releasehealth-bot,Firefox
+mozilla/relman-auto-nag,Firefox
+mozilla/relnotes,Firefox
+mozilla/reviewbot,Firefox
+mozilla/rocketfuel,Firefox
+mozilla/rust-tooltool,Rust
+mozilla/server-share,Firefox
+mozilla/shield-study-privacy,Firefox
+mozilla/sign-addon,Firefox
+mozilla/snowl,Firefox
+mozilla/socialapi-dev,Firefox
+mozilla/spark,Firefox
+mozilla/splice,Firefox
+mozilla/telemetry-js-node,Firefox
+mozilla/testpilot,Firefox
+mozilla/testpilot-analysis,Firefox
+mozilla/testpilot-containers,Firefox
+mozilla/testpilotweb,Firefox
+mozilla/tls-canary,Firefox
+mozilla/transonic,Firefox
+mozilla/triage-report,Firefox
+mozilla/valence,Firefox
+mozilla/video_codec_module,Firefox
+mozilla/webapi-examples,Firefox
+mozilla/webcompat-addon,Firefox
+mozilla/webdriver-rust,Rust
+mozilla/webifyme,Firefox
+mozilla/webmaker-app-cordova,Firefox
+mozilla/webmaker-ffos,Firefox
+mozilla/yogafire,Firefox
+mozilla/zamboni,Firefox
+mozilla/zippy,Firefox
 ocaml/opam-repository,OPAM
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
@@ -153,10 +519,29 @@ tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 tootsuite/mastodon,Mastodon
 torvalds/linux,Linux kernel
+w3c/ServiceWorker,W3C Service Worker
+w3c/aria,Accessible Rich Internet Applications
+w3c/browser-payment-api,W3C Web Payments Browser API
+w3c/css-houdini-drafts,CSS-TAG Houdini Editor Drafts
 w3c/csswg-drafts,W3C CSSWG
+w3c/encrypted-media,Encrypted Media Extensions
 w3c/html,W3C HTML
+w3c/pointerevents,W3C Pointer Events Spec
+w3c/sdw,W3C Spatial Data
+w3c/specberus,Specberus
+w3c/svgwg,SVG Working Group
+w3c/ttml2,Timed Text Markup Language
+w3c/wcag21,W3C WCAG
+w3c/web-annotation,W3C Web Annotation
 w3c/web-platform-tests,W3C Platform Tests
+w3c/webauthn,Web Authentication WG
+w3c/webcomponents,W3C Web Components
+w3c/webdriver,W3C WebDriver Specification
 w3c/webrtc-pc,W3C WebRTC
+w3c/webvr,W3C WebVR
+w3c/wot,Web of Things
+zalando/nakadi,Nakadi
+zalando/patroni,Patroni
 zeit/hyper,Hyper
 zeit/hyperterm,Hyper
 zeit/next.js,Next.js

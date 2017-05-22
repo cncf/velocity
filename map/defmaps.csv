@@ -3,6 +3,8 @@ Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
 CartoDB,CARTO
 CleverRaven,Cataclysm-DDA
+DataDog,Datadog
+GoogleCloudPlatform,Google Cloud
 IBM-Bluemix,IBM Bluemix
 KSP-CKAN,CKAN
 MarlinFirmware,Marlin
@@ -21,6 +23,7 @@ ant-design,Ant Design
 aspnet,ASP.net
 atom,Atom
 auth0,Auth0
+aws,Amazon Web Services
 betaflight,Betaflight
 boostorg,Boost
 brave,Brave Software
@@ -31,8 +34,12 @@ caskroom,Homebrew Cask
 cfpb,Consumer Financial Protection Bureau
 chef,Chef
 cloudfoundry,Cloud Foundry
+cloudfoundry-attic,Cloud Foundry
+cloudfoundry-community,Cloud Foundry
+cloudfoundry-incubator,Cloud Foundry
+cloudfoundry-samples,Cloud Foundry
 cms-sw,CMS Offline Software
-cockroachdb,Cockroach DB
+cockroachdb,Cockroach Labs
 codecombat,CodeCombat
 containernetworking,CNI
 coredns,CoreDNS
@@ -77,6 +84,7 @@ kubernetes-incubator,Kubernetes
 kubernetes-ui,Kubernetes
 laravel,Laravel
 letsencrypt,Let's Encrypt
+linkedin,LinkedIn
 linkerd,Linkerd
 magento,Magento
 mantidproject,Mantid
@@ -107,6 +115,7 @@ prometheus,Prometheus
 rackt,React
 rails,Ruby on Rails
 rapid7,Rapid7
+rust-lang,Rust
 sakaiproject,Sakai
 saltstack,SaltStack
 sensu,Sensu
@@ -124,7 +133,9 @@ voidlinux,The Void distribution
 wireapp,Wire Swiss GmbH
 wix,WiX
 wordpress-mobile,WordPress-mobile
+wso2,WSO2
 xbmc,Team Kodi
 yarnpkg,yarn
 yogstation13,Yogstation13
+zalando,Zalando
 zendframework,Zend Framework

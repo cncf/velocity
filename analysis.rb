@@ -28,11 +28,12 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     key = h['key'].strip
     min = h['min'].strip
     max = h['max'].strip
-    exc = h['exceptions'].strip
+    exc = (h['exceptions'] || '').strip
     rps = {}
     ors = {}
     excs = exc.split(',')
     excs.each do |ex|
+      next if ex == ''
       if ex.include?('/')
         rps[ex] = true
       else
@@ -267,12 +268,18 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   # for projects >50th will still be in `miss` variable
   no_url = false
   miss = []
+  unmapped = {}
+  ract = {}
+  rcomm = {}
   res.each_with_index do |item, index|
     sum = item[2][:sum]
     project = sum['project']
+    ract[project] = item[2][:items].map { |i| [i['activity'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| ("%-8d" % i[0]) + " #{i[1]}" }
+    rcomm[project] = item[2][:items].map { |i| [i['commits'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     if !urls.key?(project)
       s = "Project ##{index} (#{sum['mode']}, #{sum[sort_col]}) #{project} (#{sum['org']}) (#{sum['repo']}) have no URL defined"
       if index <= 50
+        unmapped[project] = item[2][:items].map { |i| [i['activity'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| ("%-8d" % i[0]) + " #{i[1]}" }
         puts s
         no_url = true
       end
@@ -282,6 +289,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       sum['url'] = urls[project]
     end
   end
+  puts "Use `unmapped` to see what needs to be defined" if no_url
   binding.pry if no_url
 
   puts 'res[0..30].map { |it| it[0] }'
@@ -299,7 +307,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   tops = res[0..40].map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
   all = res.map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
   puts tops
-  puts "`all` to see all data, `miss` to see missing project's urls"
+  puts "`all` to see all data, `miss` to see missing project's urls, `ract['key'] to see `key`'s repos sorted by activity desc"
 
   binding.pry
 
