@@ -157,6 +157,19 @@ Say Top 100 porjects have 100th project with 290 authors.
 All tiny google repos (distinct small projects) will sum up and make Google overall 15th (for example).
 This command generates output list of google repos with < 14 authors. You can put results in map/skip.csv" and then You'll avoid false positive top 15 for Google overall (which means nothing)
 
+There is also tool to add data for external projects (not hosted on GitHub): `add_external.rb`.
+It is used by `shells/unlimited.csv` and `shells/unlimited_both.sh`
+Example call:
+`ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2016-05-01 2017-05-01 gitlab gitlab/GitLab`
+It requires CSV file with external repo data.
+It must be defined per date range.
+It has format (for example `data/data_gitlab.csv`:
+```
+org,repo,from,to,activity,comments,prs,commits,issues,authors
+gitlab,gitlab/GitLab,2016-05-01,2017-05-01,40000,40000,11595,9479,22821,1500
+
+```
+
 # Results:
 
 NOTE: for viewing using those motion charts You'll need Adobe Flash enabled when clicking links. It works (tested) on Chrome and Safari with Adobe Flash installed and enabled.
