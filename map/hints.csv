@@ -62,13 +62,16 @@ Microsoft/BotBuilder-Location,Microsoft BotBuilder
 Microsoft/BotBuilder-Samples,Microsoft BotBuilder
 Microsoft/BotFramework-Emulator,Microsoft BotBuilder
 Microsoft/BotFramework-WebChat,Microsoft BotBuilder
+Microsoft/BusinessPlatformApps,Microsoft BusinessPlatformApps
 Microsoft/CNTK,Microsoft Cognitive Toolkit
 Microsoft/Chakra-Samples,Microsoft Chakra
 Microsoft/ChakraCore,Microsoft Chakra
 Microsoft/ChakraCore-wiki,Microsoft Chakra
 Microsoft/CodeContracts,dotnet
-Microsoft/Cognitive-Documentation,Microsoft docs
-Microsoft/Cognitive-Face-Windows,Microsoft API
+Microsoft/Cognitive-Documentation,Microsoft Cognitive Toolkit
+Microsoft/Cognitive-Face-Windows,Microsoft Cognitive Toolkit
+Microsoft/CognitiveServices-Documentation,Microsoft Cognitive Toolkit
+Microsoft/CommandLine-Documentation,Microsoft docs
 Microsoft/DSCEA,PowerShell
 Microsoft/DesktopBridgeToUWP-Samples,Microsoft docs
 Microsoft/DirectX-Graphics-Samples,DirectX
@@ -76,6 +79,7 @@ Microsoft/DirectXShaderCompiler,DirectX
 Microsoft/Docker-PowerShell,PowerShell
 Microsoft/Docker.DotNet,dotnet
 Microsoft/Dynamics-AX-Integration,Microsoft
+Microsoft/EMDocs,Microsoft docs
 Microsoft/FFmpegInterop,Microsoft
 Microsoft/GSL,Microsoft GSL
 Microsoft/GalaxyExplorer,Microsoft HoloToolkit
@@ -87,10 +91,11 @@ Microsoft/HoloLensCompanionKit,Microsoft HoloToolkit
 Microsoft/HoloToolkit,Microsoft HoloToolkit
 Microsoft/HoloToolkit-Unity,Microsoft HoloToolkit
 Microsoft/IIS.Administration,Microsoft IIS
+Microsoft/IntuneDocs,Microsoft Intune
 Microsoft/LightGBM,Microsoft DMTK
 Microsoft/MIEngine,VS Code
 Microsoft/Microsoft.IO.RecyclableMemoryStream,dotnet
-Microsoft/Mobius,Microsoft
+Microsoft/Mobius,Microsoft Mobius
 Microsoft/ODBC-Specification,Microsoft ODBC
 Microsoft/OMS-Agent-for-Linux,Microsoft OMS
 Microsoft/Office-Online-Test-Tools-and-Documentation,Microsoft docs
@@ -107,6 +112,7 @@ Microsoft/PowerShell-DSC-for-Linux,DSC
 Microsoft/Pyjion,Pyjion
 Microsoft/RTVS,VS Code
 Microsoft/ReportingServicesTools,SQL Server
+Microsoft/SCCMdocs,Microsoft docs
 Microsoft/SDN,SDN
 Microsoft/TSJS-lib-generator,Microsoft
 Microsoft/TypeScript,TypeScript
@@ -148,6 +154,7 @@ Microsoft/ghcrawler,Microsoft
 Microsoft/go-winio,Microsoft
 Microsoft/google-play-vsts-extension,VS Code
 Microsoft/hcsshim,Microsoft
+Microsoft/llvm,LLVM
 Microsoft/maker.js,Maker.js
 Microsoft/malmo,Malmö
 Microsoft/mattercenter,Microsoft Office
@@ -178,7 +185,7 @@ Microsoft/thrifty,Thrifty
 Microsoft/tigertoolbox,SQL Server
 Microsoft/tolerant-php-parser,Microsoft
 Microsoft/tslib,TypeScript
-Microsoft/tslint-microsoft-contrib,Microsoft
+Microsoft/tslint-microsoft-contrib,TSLint
 Microsoft/types-publisher,Microsoft
 Microsoft/vcpkg,VS Code
 Microsoft/visualfsharp,Microsoft F#
@@ -201,7 +208,7 @@ Microsoft/vstest,VS Code
 Microsoft/vsts-agent,VS Code
 Microsoft/vsts-extension-build-release-tasks,VS Code
 Microsoft/vsts-node-api,VS Code
-Microsoft/vsts-rm-extensions,Microsoft
+Microsoft/vsts-rm-extensions,VS Code
 Microsoft/vsts-task-lib,Microsoft
 Microsoft/vsts-tasks,VS Code
 Microsoft/vsts-team-calendar,VS Code
@@ -267,35 +274,60 @@ dotnet/roslyn-project-system,VS Code
 duckduckgo/zeroclickinfo-fathead,DuckDuckHack
 duckduckgo/zeroclickinfo-goodies,DuckDuckHack
 fa16scmorg/FA16SCM,Assignment Simulaton Repository
+facebook/AsyncDisplayKit,Texture
+facebook/osquery,osquery
 facebook/react,React
 facebook/react-native,React
+facebook/reason,REASON
+facebook/rocksdb,RocksDB
 facebookincubator/create-react-app,React
 fpco/stackage,Hackage
 gitlabhq/gitlabhq,GitLab
+golang/go,Go
 google/EarlGrey,EarlGrey
 google/ExoPlayer,Google ExoPlayer
 google/WebFundamentals,Google WebFundamentals
+google/benchmark,benchmark
 google/blockly,Blockly
 google/cadvisor,cAdvisor
+google/capirca,Capirca
+google/certificate-transparency,certificate-transparency
 google/closure-compiler,Google Closure Compiler
+google/closure-library,Closure Library
 google/dagger,Dagger 2
 google/earthenterprise,Google Earth Enterprise
+google/eddystone,Eddystone
+google/error-prone,Error Prone
 google/flatbuffers,Google FlatBuffers
+google/flexbox-layout,FlexboxLayout
 google/fonts,Google Font Files
 google/gapid,Google Graphics API Debugger
+google/ggrc-core,GGRC
+google/go-github,Go
+google/google-api-ruby-client,Google API
+google/gopacket,Go
+google/grumpy,Grumpy
+google/gson,google-gson
 google/guava,Guava
 google/guetzli,Google Perceptual JPEG encoder
+google/martian,Martian Proxy
 google/material-design-lite,Google Material Design Components
 google/openhtf,OpenHTF
+google/or-tools,Operations Research Tools
 google/oss-fuzz,Google OSS-Fuzz
+google/paco,PACO
+google/personfinder,Person Finder
 google/physical-web,The Physical Web
 google/protobuf,Google Protocol Buffers
 google/python-fire,Google Python Fire
+google/sagetv,SageTV
 google/seq2seq,Google seq2seq
 google/shaka-player,Shaka Player
+google/styleguide,Google Style Guides
 google/tie,Google TIE
 google/trillian,Trillian
 google/xi-editor,Google Xi Editor
+google/yapf,YAPF
 googleapis/toolkit,Google API
 googlei18n/libphonenumber,Google i18n
 grpc-ecosystem/grpc-opentracing,gRPC
@@ -333,18 +365,24 @@ mozilla/Twitter-Collage,Firefox
 mozilla/about-home-piano-snippet,Firefox
 mozilla/adbhelper,Firefox
 mozilla/addon-builder-helper,Firefox
+mozilla/addons-frontend,Addons-Server
 mozilla/addons-linter,Firefox
+mozilla/addons-server,Addons-Server
+mozilla/advocacy.mozilla.org,advocacy.mozilla.org
 mozilla/all-aboard,Firefox
 mozilla/all-aboard-remote,Firefox
 mozilla/areweslimyet-benchtester,Firefox
 mozilla/authorized,Firefox
+mozilla/bedrock,bedrock
 mozilla/blok,Firefox
 mozilla/blushproof,Firefox
+mozilla/brackets,Brackets
 mozilla/browserid-local-verify,Firefox
 mozilla/browserid-verifier,Firefox
 mozilla/browserid_addon,Firefox
 mozilla/commbadge,Firefox
 mozilla/commonplace,Firefox
+mozilla/copyright,Mozilla Copyright
 mozilla/css-grid-inspector,Firefox
 mozilla/devtools-perf-game,Firefox
 mozilla/devtools-reqs,Firefox
@@ -364,6 +402,7 @@ mozilla/firefox-data-docs,Firefox
 mozilla/firefox-flicks,Firefox
 mozilla/firefox-for-android-addons,Firefox
 mozilla/firefox-hardware-report,Firefox
+mozilla/firefox-ios,Firefox
 mozilla/firefox-roku,Firefox
 mozilla/firefox-sync-appengine,Firefox
 mozilla/firefox-test-engineering,Firefox
@@ -379,6 +418,7 @@ mozilla/fxa-activity-metrics,Firefox
 mozilla/fxa-auth-db-server,Firefox
 mozilla/fxa-auth-server,Firefox
 mozilla/fxa-content-server,Firefox
+mozilla/fxa-content-server-l10n,Firefox
 mozilla/fxa-customs-server,Firefox
 mozilla/fxa-features,Firefox
 mozilla/fxa-geodb,Firefox
@@ -408,6 +448,7 @@ mozilla/input.mozilla.org,Firefox
 mozilla/interest-dashboard,Firefox
 mozilla/itisatrap,Firefox
 mozilla/kanbugger,Firefox
+mozilla/kuma,Kuma
 mozilla/libwebmidi,Rust
 mozilla/loci,Firefox
 mozilla/loop,Firefox
@@ -468,6 +509,7 @@ mozilla/normandy-addon,Firefox
 mozilla/onboard,Firefox
 mozilla/onyx,Firefox
 mozilla/originOnly,Firefox
+mozilla/pdf.js,PDF.js
 mozilla/people,Firefox
 mozilla/peptest,Firefox
 mozilla/personas,Firefox
@@ -499,6 +541,7 @@ mozilla/testpilot,Firefox
 mozilla/testpilot-analysis,Firefox
 mozilla/testpilot-containers,Firefox
 mozilla/testpilotweb,Firefox
+mozilla/thimble.mozilla.org,Thimble
 mozilla/tls-canary,Firefox
 mozilla/transonic,Firefox
 mozilla/triage-report,Firefox
@@ -528,6 +571,7 @@ realm/realm-java,Realm
 realm/realm-js,Realm
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
+texturegroup/texture,Texture
 tootsuite/mastodon,Mastodon
 torvalds/linux,Linux kernel
 w3c/ServiceWorker,W3C Service Worker

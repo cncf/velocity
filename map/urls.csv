@@ -11,6 +11,7 @@ ACE Mod,acemod.com
 AMP,ampproject.org
 ASP.net,asp.net
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
+Addons-Server,addons.mozilla.org
 AirSim,github.com/Microsoft/AirSim
 Airflow,airflow.incubator.apache.org
 Akka,akka.io
@@ -35,6 +36,7 @@ Betaflight,github.com/betaflight/betaflight/releases
 Blockly,developers.google.com/blockly
 Bond,github.com/Microsoft/bond
 Boost,boost.org
+Brackets,brackets.io
 Brave Software,brave.com
 Broad Institute,broadinstitute.org
 CARTO,carto.com
@@ -45,10 +47,12 @@ CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
 Caffe,github.com/Microsoft/caffe
 CakePHP,cakephp.org
 Campaign finance for everyone,beta.fec.gov/data
+Capirca,github.com/google/capirca
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
 Checked C,microsoft.com/en-us/research/project/checked-c
 Chef,chef.io/chef
+Closure Library,code.google.com/closure/library
 Cloud Foundry,cloudfoundry.org
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud.gov,github.com/18F/cg-product
@@ -78,18 +82,23 @@ Dynamics NAV,microsoft.com/en-us/dynamics365/nav-overview
 ELSYS,elsys-bg.org
 EarlGrey,google.github.io/EarlGrey
 Eclipse,eclipse.org
+Eddystone,github.com/google/eddystone
 Elasticsearch,elastic.co/products/elasticsearch
 Ember.js,emberjs.com
 Encrypted Media Extensions,w3c.github.io/encrypted-media
 Enzyme,airbnb.io/enzyme
+Error Prone,errorprone.info
 Ethereum,ethereum.org
 FBI Crime Data Explorer,github.com/18F/crime-data-explorer
 Federalist,federalist.18f.gov
 Firefox,mozilla.org/en-US/firefox
+FlexboxLayout,github.com/google/flexbox-layout
 Fluentd,fluentd.org
 Flutter,flutter.io
+GGRC,code.google.com/archive/p/ggrc-core
 GitHub,github.com
 GitLab,gitlab.com
+Go,golang.org
 Godot Engine,godotengine.org
 Google,google.com
 Google API,developers.google.com/apis-explorer
@@ -108,12 +117,14 @@ Google OSS-Fuzz,github.com/google/oss-fuzz
 Google Perceptual JPEG encoder,github.com/google/guetzli
 Google Protocol Buffers,developers.google.com/protocol-buffers
 Google Python Fire,github.com/google/python-fire
+Google Style Guides,github.com/google/styleguide
 Google TIE,github.com/google/tie
 Google WebFundamentals,developers.google.com/web/fundamentals
 Google Xi Editor,github.com/google/xi-editor
 Google i18n,developers.google.com/international
 Google seq2seq,google.github.io/seq2seq
 Government Digital Service,gds.blog.gov.uk
+Grumpy,github.com/google/grumpy
 Guava,github.com/google/guava
 HTTPS Everywhere,eff.org/https-everywhere
 Hackage,stackage.org
@@ -136,6 +147,8 @@ Keybase,keybase.io
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 Kubernetes,kubernetes.io
+Kuma,developer.mozilla.org
+LLVM,llvm.org
 Laravel,laravel.com
 Let's Encrypt,letsencrypt.org
 LinkedIn,linkedin.com
@@ -154,6 +167,7 @@ ManageIQ,manageiq.org
 Mantid,mantidproject.org
 Mapbox,mapbox.com
 Marlin,marlinfw.org
+Martian Proxy,github.com/google/martian
 Mastodon,mastodon.social
 Material-UI,material-ui.com
 Mattermost,mattermost.org
@@ -165,6 +179,7 @@ Microsoft,microsoft.com
 Microsoft API,github.com/Microsoft/api-guidelines
 Microsoft Application Insights,azure.microsoft.com/en-us/services/application-insights
 Microsoft BotBuilder,botframework.com
+Microsoft BusinessPlatformApps,github.com/Microsoft/BusinessPlatformApps
 Microsoft Chakra,github.com/Microsoft/ChakraCore
 Microsoft Cognitive Toolkit,cntk.ai
 Microsoft DMTK,github.com/microsoft/dmtk
@@ -175,7 +190,9 @@ Microsoft GSL,github.com/Microsoft/GSL
 Microsoft Graph Engine,graphengine.io
 Microsoft HoloToolkit,github.com/Microsoft/HoloToolkit
 Microsoft IIS,iis.net
+Microsoft Intune,microsoft.com/en-us/cloud-platform/microsoft-intune
 Microsoft MakeCode,makecode.com
+Microsoft Mobius,github.com/Microsoft/Mobius
 Microsoft ODBC,docs.microsoft.com/en-us/sql/odbc/microsoft-open-database-connectivity-odbc
 Microsoft OMS,microsoft.com/en-us/cloud-platform/operations-management-suite
 Microsoft Objective-C for Windows,github.com/Microsoft/WinObjC
@@ -186,6 +203,7 @@ Microsoft Virtualization,github.com/Microsoft/Virtualization-Documentation
 Microsoft docs,docs.microsoft.com
 Microsoft eShopOnContainers,github.com/dotnet-architecture/eShopOnContainers
 Mozilla,mozilla.org
+Mozilla Copyright,changecopyright.org
 Mozilla Services,mozilla-services.github.io
 NServiceBus,particular.net/nservicebus
 Nakadi,github.com/zalando/nakadi
@@ -206,12 +224,16 @@ OpenSSL,openssl.org
 OpenShift,openshift.com
 OpenTracing,opentracing.io
 OpenWrt,openwrt.org
+Operations Research Tools,developers.google.com/optimization
 Osmand,osmand.net
+PACO,pacoapp.com
+PDF.js,github.com/mozilla/pdf.js
 ParadiseSS13,nanotrasen.se/forum
 Parity,github.com/paritytech/parity
 Parse,parseplatform.github.io
 Patroni,github.com/zalando/patroni
 PerfView,channel9.msdn.com/Series/PerfView-Tutorial
+Person Finder,google.org/personfinder
 PingCAP,github.com/pingcap
 Play Framework,playframework.com
 PokemonGoF,maps.pikabot.org
@@ -222,6 +244,7 @@ PowerShell,microsoft.com/powershell
 Prometheus,prometheus.io
 Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
+REASON,facebook.github.io/reason
 Rapid7,rapid7.com
 React,facebook.com
 ReactXP,microsoft.github.io/reactxp
@@ -230,12 +253,14 @@ Realm,realm.io
 Resurrection Remix,plus.google.com/communities/109352646351468373340
 RobotLocomotion,drake.mit.edu
 RocketChat,rocket.chat
+RocksDB,rocksdb.org
 Ruby on Rails,rubyonrails.org
 Rust,rust-lang.org
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
 SS13,tgstation13.org
 SVG Working Group,github.com/w3c/svgwg
+SageTV,forums.sagetv.com
 Sakai,sakaiproject.org
 SaltStack,repo.saltstack.com
 Satchel,microsoft.github.io/satcheljs
@@ -257,11 +282,13 @@ TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
 Telerik,telerik.com
 TensorFlow,tensorflow.org
 Terraform,terraform.io
+Texture,texturegroup.org
 The Guardian,theguardian.com
 The Odin Project,theodinproject.com
 The Physical Web,physical-web.org
 The Servo Browser Engine,servo.org
 The Void distribution,voidlinux.eu
+Thimble,thimble.mozilla.org
 Thrifty,github.com/Microsoft/thrifty
 Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
 Trillian,github.com/google/trillian
@@ -296,13 +323,18 @@ Wire Swiss GmbH,wire.com
 WordPress-mobile,make.wordpress.org/mobile
 XX-net,github.com/XX-net/XX-Net
 YAMS,github.com/Microsoft/Yams
+YAPF,github.com/google/yapf
 Yoast SEO,yoast.com/wordpress/seo
 Yogstation13,yogstation.net
 ZEIT,zeit.co
 Zalando,tech.zalando.com
 Zend Framework,framework.zend.com
+advocacy.mozilla.org,advocacy.mozilla.org
+bedrock,mozilla.org
+benchmark,github.com/google/benchmark
 bioconda,bioconda.github.io
 cAdvisor,github.com/google/cadvisor
+certificate-transparency,certificate-transparency.org
 cloudmesh,github.com/cloudmesh
 containerd,containerd.io
 devopsdays,devopsdays.org
@@ -312,6 +344,7 @@ fabric8,fabric8.io
 fastlane,fastlane.tools
 fossasia,fossasia.org
 gRPC,grpc.io
+google-gson,github.com/google/gson
 hzuapps,github.com/hzuapps
 iojs,io.js
 jsDelivr,jsdelivr.com
@@ -321,6 +354,7 @@ neveragain.tech,neveragain.tech
 npm,npmjs.com
 openHAB,openhab.org
 openSUSE,opensuse.org
+osquery,osquery.io
 ownCloud,owncloud.org
 rkt,github.com/rkt/rkt
 systemd,freedesktop.org/wiki/Software/systemd

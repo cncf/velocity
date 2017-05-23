@@ -312,6 +312,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   puts tops
   puts "`all` to see all data, `miss` to see missing project's urls, `ract['key'] to see `key`'s repos sorted by activity desc (also rcomm, rauth for commits and authors)"
   puts "Use `rauth[res[N][0]]` to examine what creates N-th top project, actually to have a good Top N data, You should define all data correctly for 0-N"
+  puts "Or by project name `rauth[res[res.map { |i| i[0] }.index('project_name')][0]]`"
 
   binding.pry
 
