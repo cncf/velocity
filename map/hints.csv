@@ -440,11 +440,17 @@ mozilla/fireplace,Firefox
 mozilla/fx36start,Firefox
 mozilla/fxa,Firefox
 mozilla/fxa-activity-metrics,Firefox
+mozilla/fxa-auth-db-mysql,Firefox
 mozilla/fxa-auth-db-server,Firefox
+mozilla/fxa-auth-mailer,Firefox
 mozilla/fxa-auth-server,Firefox
+mozilla/fxa-basket-proxy,Firefox
+mozilla/fxa-checkbox,Firefox
+mozilla/fxa-content-experiments,Firefox
 mozilla/fxa-content-server,Firefox
 mozilla/fxa-content-server-l10n,Firefox
 mozilla/fxa-customs-server,Firefox
+mozilla/fxa-dev,Firefox
 mozilla/fxa-features,Firefox
 mozilla/fxa-geodb,Firefox
 mozilla/fxa-js-client,Firefox
@@ -629,6 +635,20 @@ w3c/webdriver,W3C WebDriver Specification
 w3c/webrtc-pc,W3C WebRTC
 w3c/webvr,W3C WebVR
 w3c/wot,Web of Things
+wso2/carbon-apimgt,WSO2 Carbon
+wso2/carbon-appmgt,WSO2 Carbon
+wso2/carbon-commons,WSO2 Carbon
+wso2/carbon-dashboards,WSO2 Carbon
+wso2/carbon-device-mgt,WSO2 Carbon
+wso2/carbon-device-mgt-plugins,WSO2 Carbon
+wso2/carbon-feature-repository,WSO2 Carbon
+wso2/carbon-governance,WSO2 Carbon
+wso2/carbon-identity-mgt,WSO2 Carbon
+wso2/carbon-kernel,WSO2 Carbon
+wso2/carbon-mediation,WSO2 Carbon
+wso2/carbon-messaging,WSO2 Carbon
+wso2/carbon-transports,WSO2 Carbon
+wso2/carbon-uuf,WSO2 Carbon
 zalando/nakadi,Nakadi
 zalando/patroni,Patroni
 zeit/hyper,Hyper

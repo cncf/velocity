@@ -150,6 +150,12 @@ authors,-1,-1,
 ```
 It means that mapping must have extermally long list of projects from repos/orgs to get real non obfuscated data.
 
+You can skip ton of organization's small repos (if they not sum up to just few projects, but all all distinct), with:
+`rauth[res[res.map { |i| i[0] }.index('Google')][0]].select { |i| i.split(',')[1].to_i < 14 }.map { |i| i.split(',')[0] }.join(',')`
+This is an example on Google.
+Say Top 100 porjects have 100th project with 290 authors.
+All tiny google repos (distinct small projects) will sum up and make Google overall 15th (for example).
+This command generates output list of google repos with < 14 authors. You can put results in map/skip.csv" and then You'll avoid false positive top 15 for Google overall (which means nothing)
 
 # Results:
 

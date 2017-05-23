@@ -100,6 +100,7 @@ Ember.js,emberjs.com
 Encrypted Media Extensions,w3c.github.io/encrypted-media
 Enzyme,airbnb.io/enzyme
 Error Prone,errorprone.info
+Esri,esri.com
 Ethereum,ethereum.org
 FBI Crime Data Explorer,github.com/18F/crime-data-explorer
 Federalist,federalist.18f.gov
@@ -151,6 +152,7 @@ IBM Bluemix,bluemix.net
 Inferno,infernojs.org
 InfluxDB,influxdata.com
 InfluxData,influxdata.com
+Intel Open Source Technology Center,01.org
 Ionic,ionicframework.com
 Iron.io,iron.io
 Joomla,joomla.org
@@ -222,6 +224,7 @@ Mozilla donation forms,donate.mozilla.org
 NServiceBus,particular.net/nservicebus
 Nakadi,github.com/zalando/nakadi
 NativeScript,nativescript.org
+Netflix,netflix.github.io
 Next.js,zeit.co/blog/next2
 Nextcloud,nextcloud.com
 NixOS,nixos.org
@@ -291,6 +294,7 @@ Shopify,shopify.com
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spontanizer,spartan.org.il
+Spotify,spotify.github.io
 Spree,guides.spreecommerce.org
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
@@ -313,14 +317,18 @@ Thrifty,github.com/Microsoft/thrifty
 Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
 Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
+Twitter,twitter.com
 TypeScript,typescriptlang.org
 US Extractive Industries Data,useiti.doi.gov
 US Web Design Standards,standards.usa.gov
+Uber Open Source,uber.github.io
 VIP Go,vip.wordpress.com/documentation/vip-go
 VMware,vmware.github.io
 VS Code,code.visualstudio.com
 Vault,vaultproject.io
 Vorto Project,github.com/eclipse/vorto
+Vox Populi,voxpopuli.org
+W3C,w3.org
 W3C CSSWG,drafts.csswg.org
 W3C HTML,w3c.github.io/html
 W3C Platform Tests,irc.w3.org/?channels=testing
@@ -337,6 +345,7 @@ W3C WebVR,w3c.github.io/webvr
 WAI-ARIA Authoring Practices,w3.org/WAI/ARIA
 WP Calypso,developer.wordpress.com/calypso
 WSO2,wso2.github.io
+WSO2 Carbon,wso2.com/products/carbon
 Web Authentication WG,w3.org/Webauthn
 Web of Things,w3.org/WoT/IG
 WiX,wixtoolset.org

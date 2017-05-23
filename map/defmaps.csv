@@ -1,4 +1,5 @@
 name,project
+01org,Intel Open Source Technology Center
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
 CartoDB,CARTO
@@ -125,14 +126,19 @@ sensu,Sensu
 sequelize,Sequelize
 serverless,Serverless Framework
 servo,The Servo Browser Engine
+spotify,Spotify
 spree,Spree
 swagger-api,Swagger
 symfony,Symfony
 telerik,Telerik
 tgstation,SS13
+twitter,Twitter
+uber,Uber Open Source
 vgstation-coders,vgstation13
 vmware,VMware
 voidlinux,The Void distribution
+voxpupuli,Vox Populi
+w3c,W3C
 wireapp,Wire Swiss GmbH
 wix,WiX
 wordpress-mobile,WordPress-mobile
