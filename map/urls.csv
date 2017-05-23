@@ -1,6 +1,8 @@
 project,url
+18F C2,cap.18f.gov
 18F CALC,calc.gsa.gov
 18F Federal Election Commision,api.open.fec.gov/developers
+18F Handbook,handbook.18f.gov
 18F Identity Provider,secure.login.gov
 18F Website,18f.gsa.gov
 3DS Guide,3ds.guide
@@ -10,6 +12,7 @@ AMP,ampproject.org
 ASP.net,asp.net
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
 AirSim,github.com/Microsoft/AirSim
+Airflow,airflow.incubator.apache.org
 Akka,akka.io
 Alibaba,alibaba.com
 Alluxio,github.com/Alluxio
@@ -17,6 +20,7 @@ Amazon Web Services,aws.amazon.com
 Angular,angular.io
 Ansible,ansible.com
 Ant Design,ant.design
+Apache Traffic Server,trafficserver.apache.org
 ArduPilot,ardupilot.org
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
 AtlasDB,palantir.github.io/atlasdb
@@ -40,11 +44,14 @@ CNI,github.com/containernetworking
 CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
 Caffe,github.com/Microsoft/caffe
 CakePHP,cakephp.org
+Campaign finance for everyone,beta.fec.gov/data
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
 Checked C,microsoft.com/en-us/research/project/checked-c
 Chef,chef.io/chef
 Cloud Foundry,cloudfoundry.org
+Cloud Foundry Dashboard,dashboard.fr.cloud.gov
+Cloud.gov,github.com/18F/cg-product
 Cockroach Labs,cockroachlabs.com
 Cocos2d-js,cocos2d-x.org
 Cocos2d-x,cocos2d-x.org
@@ -55,6 +62,7 @@ Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
 CoreDNS,coredns.io
 CoreOS,coreos.com
+CyanogenMod,cyanogenmod.com
 DMLC,dmlc.github.io
 DSC,msdn.microsoft.com/en-us/powershell/dsc/overview
 Dagger 2,google.github.io/dagger
@@ -76,6 +84,7 @@ Encrypted Media Extensions,w3c.github.io/encrypted-media
 Enzyme,airbnb.io/enzyme
 Ethereum,ethereum.org
 FBI Crime Data Explorer,github.com/18F/crime-data-explorer
+Federalist,federalist.18f.gov
 Firefox,mozilla.org/en-US/firefox
 Fluentd,fluentd.org
 Flutter,flutter.io
@@ -104,6 +113,7 @@ Google WebFundamentals,developers.google.com/web/fundamentals
 Google Xi Editor,github.com/google/xi-editor
 Google i18n,developers.google.com/international
 Google seq2seq,google.github.io/seq2seq
+Government Digital Service,gds.blog.gov.uk
 Guava,github.com/google/guava
 HTTPS Everywhere,eff.org/https-everywhere
 Hackage,stackage.org
@@ -131,6 +141,7 @@ Let's Encrypt,letsencrypt.org
 LinkedIn,linkedin.com
 Linkerd,linkerd.io
 Linux kernel,kernel.org
+Linux sunxi,linux-sunxi.org
 Lottie,airbnb.design/lottie
 MAME,mamedev.org
 MAPS.ME,maps.me
@@ -216,6 +227,7 @@ React,facebook.com
 ReactXP,microsoft.github.io/reactxp
 ReactiveX,reactivex.io
 Realm,realm.io
+Resurrection Remix,plus.google.com/communities/109352646351468373340
 RobotLocomotion,drake.mit.edu
 RocketChat,rocket.chat
 Ruby on Rails,rubyonrails.org
@@ -308,9 +320,11 @@ micro-bit,microbit.co.uk/blocks/editor
 neveragain.tech,neveragain.tech
 npm,npmjs.com
 openHAB,openhab.org
+openSUSE,opensuse.org
 ownCloud,owncloud.org
 rkt,github.com/rkt/rkt
 systemd,freedesktop.org/wiki/Software/systemd
+tock,18f.gsa.gov/2015/05/21/TockingTime
 vgstation13,github.com/vgstation-coders/vgstation13
 vuejs,vuejs.org
 webpack,github.com/webpack

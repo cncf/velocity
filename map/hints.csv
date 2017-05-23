@@ -1,12 +1,21 @@
 repo,project
 18F/18f.gsa.gov,18F Website
+18F/C2,18F C2
 18F/calc,18F CALC
+18F/cg-dashboard,Cloud Foundry Dashboard
+18F/cg-docs,Cloud.gov
+18F/cg-product,Cloud.gov
+18F/cg-site,Cloud.gov
 18F/crime-data-explorer,FBI Crime Data Explorer
 18F/doi-extractives-data,US Extractive Industries Data
 18F/fec-cms,18F Federal Election Commision
+18F/federalist,Federalist
+18F/handbook,18F Handbook
 18F/identity-idp,18F Identity Provider
 18F/micropurchase,Micro-purchase
 18F/openFEC,18F Federal Election Commision
+18F/openFEC-web-app,Campaign finance for everyone
+18F/tock,tock
 18F/web-design-standards,US Web Design Standards
 Airbnb/react-native,React
 AngularClass/angular2-webpack-starter,Angular
@@ -225,6 +234,8 @@ angular/material,Angular
 angular/material2,Angular
 angular/protractor,Protractor
 angular/tsickle,Angular
+apache/incubator-airflow,Airflow
+apache/trafficserver,Apache Traffic Server
 callemall/material-ui,Material-UI
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x

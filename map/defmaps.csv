@@ -12,11 +12,13 @@ OfficeDev,Office Developer
 ParsePlatform,Parse
 Particular,NServiceBus
 Plailect/Guide,3DS Guide
+ResurrectionRemix,Resurrection Remix
 TheOdinProject,The Odin Project
 Yoast,Yoast SEO
 acemod,ACE Mod
 akka,Akka
 alibaba,Alibaba
+alphagov,Government Digital Service
 ampproject,AMP
 ansible,Ansible
 ant-design,Ant Design
@@ -86,6 +88,7 @@ laravel,Laravel
 letsencrypt,Let's Encrypt
 linkedin,LinkedIn
 linkerd,Linkerd
+linux-sunxi,Linux sunxi
 magento,Magento
 mantidproject,Mantid
 mapbox,Mapbox
