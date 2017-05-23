@@ -273,6 +273,26 @@ dotnet/roslyn,VS Code
 dotnet/roslyn-project-system,VS Code
 duckduckgo/zeroclickinfo-fathead,DuckDuckHack
 duckduckgo/zeroclickinfo-goodies,DuckDuckHack
+eclipse/che,Eclipse Che
+eclipse/che-dockerfiles,Eclipse Che
+eclipse/che-docs,Eclipse Che
+eclipse/eclipse-collections,Eclipse Collections Project
+eclipse/hawkbit,Eclipse hawkBit
+eclipse/jetty.project,Eclipse Jetty
+eclipse/kura,Eclipse Kura
+eclipse/mosquitto,Eclipse Mosquitto
+eclipse/omr,Eclipse OMR
+eclipse/paho.mqtt.c,Eclipse Paho
+eclipse/paho.mqtt.java,Eclipse Paho
+eclipse/paho.mqtt.python,Eclipse Paho
+eclipse/rdf4j,RDF4J
+eclipse/vorto,Vorto Project
+eclipse/xtext,Eclipse Xtext
+eclipse/xtext-core,Eclipse Xtext
+eclipse/xtext-eclipse,Eclipse Xtext
+eclipse/xtext-extras,Eclipse Xtext
+eclipse/xtext-lib,Eclipse Xtext
+eclipse/xtext-xtend,Eclipse Xtext
 fa16scmorg/FA16SCM,Assignment Simulaton Repository
 facebook/AsyncDisplayKit,Texture
 facebook/osquery,osquery
@@ -363,6 +383,8 @@ mozilla/Marketplace.PHP,Firefox
 mozilla/PyFxA,Firefox
 mozilla/Twitter-Collage,Firefox
 mozilla/about-home-piano-snippet,Firefox
+mozilla/activate.mozilla.community,Activity Campaign site
+mozilla/activity-stream,Firefox
 mozilla/adbhelper,Firefox
 mozilla/addon-builder-helper,Firefox
 mozilla/addons-frontend,Addons-Server
@@ -387,6 +409,8 @@ mozilla/css-grid-inspector,Firefox
 mozilla/devtools-perf-game,Firefox
 mozilla/devtools-reqs,Firefox
 mozilla/discoplace,Firefox
+mozilla/donate.mozilla.org,Mozilla donation forms
+mozilla/dxr,DXR
 mozilla/e10s_analyses,Firefox
 mozilla/ember-cli-fxos,Firefox
 mozilla/example-addon-repo,Firefox
@@ -449,6 +473,7 @@ mozilla/interest-dashboard,Firefox
 mozilla/itisatrap,Firefox
 mozilla/kanbugger,Firefox
 mozilla/kuma,Kuma
+mozilla/kumascript,Kuma
 mozilla/libwebmidi,Rust
 mozilla/loci,Firefox
 mozilla/loop,Firefox
@@ -473,9 +498,11 @@ mozilla/master-firefoxos-l10n,Firefox
 mozilla/masterfirefoxos,Firefox
 mozilla/memchaser,Firefox
 mozilla/micro-email-validator,Firefox
+mozilla/mig,Mozilla InvestiGator
 mozilla/missioncontrol,Firefox
 mozilla/mortar-devtools,Firefox
 mozilla/moz-cheddar,Rust
+mozilla/moz-corsica,Corsica
 mozilla/moz-dev-contrib,Firefox
 mozilla/moz-skia,Firefox
 mozilla/mozcommitbuilder,Firefox
@@ -506,6 +533,7 @@ mozilla/node-firefox-start-simulator,Firefox
 mozilla/node-firefox-uninstall-app,Firefox
 mozilla/normandy,Firefox
 mozilla/normandy-addon,Firefox
+mozilla/nunjucks,Nunjucks
 mozilla/onboard,Firefox
 mozilla/onyx,Firefox
 mozilla/originOnly,Firefox
@@ -514,6 +542,7 @@ mozilla/people,Firefox
 mozilla/peptest,Firefox
 mozilla/personas,Firefox
 mozilla/personas-plus,Firefox
+mozilla/positron,Positron
 mozilla/pow-wow,Firefox
 mozilla/pretty-fast,Firefox
 mozilla/privacy-prefs,Firefox
@@ -528,13 +557,16 @@ mozilla/relman-auto-nag,Firefox
 mozilla/relnotes,Firefox
 mozilla/reviewbot,Firefox
 mozilla/rocketfuel,Firefox
+mozilla/rr,Record and Replay Framework
 mozilla/rust-tooltool,Rust
+mozilla/science.mozilla.org,science.mozilla.org
 mozilla/server-share,Firefox
 mozilla/shield-study-privacy,Firefox
 mozilla/sign-addon,Firefox
 mozilla/snowl,Firefox
 mozilla/socialapi-dev,Firefox
 mozilla/spark,Firefox
+mozilla/spidernode,SpiderNode
 mozilla/splice,Firefox
 mozilla/telemetry-js-node,Firefox
 mozilla/testpilot,Firefox
@@ -543,6 +575,7 @@ mozilla/testpilot-containers,Firefox
 mozilla/testpilotweb,Firefox
 mozilla/thimble.mozilla.org,Thimble
 mozilla/tls-canary,Firefox
+mozilla/tofino,Project Tofino
 mozilla/transonic,Firefox
 mozilla/triage-report,Firefox
 mozilla/valence,Firefox

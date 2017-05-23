@@ -11,6 +11,7 @@ ACE Mod,acemod.com
 AMP,ampproject.org
 ASP.net,asp.net
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
+Activity Campaign site,activate.mozilla.community
 Addons-Server,addons.mozilla.org
 AirSim,github.com/Microsoft/AirSim
 Airflow,airflow.incubator.apache.org
@@ -66,9 +67,11 @@ Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
 CoreDNS,coredns.io
 CoreOS,coreos.com
+Corsica,corsica.mozilla.io
 CyanogenMod,cyanogenmod.com
 DMLC,dmlc.github.io
 DSC,msdn.microsoft.com/en-us/powershell/dsc/overview
+DXR,dxr.readthedocs.org
 Dagger 2,google.github.io/dagger
 Dart,dartlang.org
 Datadog,datadog.com
@@ -82,6 +85,15 @@ Dynamics NAV,microsoft.com/en-us/dynamics365/nav-overview
 ELSYS,elsys-bg.org
 EarlGrey,google.github.io/EarlGrey
 Eclipse,eclipse.org
+Eclipse Che,eclipse.org/che
+Eclipse Collections Project,eclipse.org/collections
+Eclipse Jetty,eclipse.org/jetty
+Eclipse Kura,eclipse.org/kura
+Eclipse Mosquitto,mqtt.org
+Eclipse OMR,eclipse.org/omr
+Eclipse Paho,eclipse.org/paho
+Eclipse Xtext,eclipse.org/Xtext
+Eclipse hawkBit,projects.eclipse.org/projects/iot.hawkbit
 Eddystone,github.com/google/eddystone
 Elasticsearch,elastic.co/products/elasticsearch
 Ember.js,emberjs.com
@@ -204,7 +216,9 @@ Microsoft docs,docs.microsoft.com
 Microsoft eShopOnContainers,github.com/dotnet-architecture/eShopOnContainers
 Mozilla,mozilla.org
 Mozilla Copyright,changecopyright.org
+Mozilla InvestiGator,mig.mozilla.org
 Mozilla Services,mozilla-services.github.io
+Mozilla donation forms,donate.mozilla.org
 NServiceBus,particular.net/nservicebus
 Nakadi,github.com/zalando/nakadi
 NativeScript,nativescript.org
@@ -213,6 +227,7 @@ Nextcloud,nextcloud.com
 NixOS,nixos.org
 Node.js,nodejs.org
 Nomad,nomadproject.io
+Nunjucks,mozilla.github.io/nunjucks
 Nylas,nylas.com
 OPAM,opam.ocaml.org
 Odoo,odoo.com
@@ -239,17 +254,21 @@ Play Framework,playframework.com
 PokemonGoF,maps.pikabot.org
 PokemonGoMap,pokemongomap.info
 Polymer,polymer-project.org
+Positron,github.com/mozilla/positron
 Power BI,powerbi.microsoft.com
 PowerShell,microsoft.com/powershell
+Project Tofino,mozilla.github.io/tofino
 Prometheus,prometheus.io
 Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
+RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
 Rapid7,rapid7.com
 React,facebook.com
 ReactXP,microsoft.github.io/reactxp
 ReactiveX,reactivex.io
 Realm,realm.io
+Record and Replay Framework,rr-project.org
 Resurrection Remix,plus.google.com/communities/109352646351468373340
 RobotLocomotion,drake.mit.edu
 RocketChat,rocket.chat
@@ -270,6 +289,7 @@ Serverless Framework,serverless.com
 Shaka Player,github.com/google/shaka-player
 Shopify,shopify.com
 Specberus,w3.org/pubrules
+SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spontanizer,spartan.org.il
 Spree,guides.spreecommerce.org
 Superset,github.com/airbnb/superset
@@ -300,6 +320,7 @@ VIP Go,vip.wordpress.com/documentation/vip-go
 VMware,vmware.github.io
 VS Code,code.visualstudio.com
 Vault,vaultproject.io
+Vorto Project,github.com/eclipse/vorto
 W3C CSSWG,drafts.csswg.org
 W3C HTML,w3c.github.io/html
 W3C Platform Tests,irc.w3.org/?channels=testing
@@ -357,6 +378,7 @@ openSUSE,opensuse.org
 osquery,osquery.io
 ownCloud,owncloud.org
 rkt,github.com/rkt/rkt
+science.mozilla.org,science.mozilla.org
 systemd,freedesktop.org/wiki/Software/systemd
 tock,18f.gsa.gov/2015/05/21/TockingTime
 vgstation13,github.com/vgstation-coders/vgstation13

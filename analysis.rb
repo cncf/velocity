@@ -47,8 +47,12 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   projects = {}
   CSV.foreach(fhint, headers: true) do |row|
     h = row.to_h
-    proj = h['project'].strip
-    repo = h['repo'].strip
+    proj = (h['project'] || '').strip
+    repo = (h['repo'] || '').strip
+    if proj == '' || repo == ''
+      puts "Invalid hint: project='#{proj}' repo='#{repo}'"
+      return
+    end
     if projects.key?(repo) && projects[repo] != proj
       puts "Non unique entry: projects: projects['#{repo}'] = '#{projects[repo]}', new value: #{proj}"
       return
@@ -69,8 +73,12 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   urls = {}
   CSV.foreach(furls, headers: true) do |row|
     h = row.to_h
-    proj = h['project'].strip
-    url = h['url'].strip
+    proj = (h['project'] || '').strip
+    url = (h['url'] || '').strip
+    if proj == '' || url == ''
+      puts "Invalid URL: project='#{proj}' url='#{url}'"
+      return
+    end
     if urls.key?(proj) && urls[proj] != url
       puts "Non unique entry: urls: urls['#{proj}'] = '#{urls[proj]}', new value: #{url}"
       return
@@ -97,8 +105,12 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   defmaps = {}
   CSV.foreach(fdefmaps, headers: true) do |row|
     h = row.to_h
-    name = h['name'].strip
-    project = h['project'].strip
+    name = (h['name'] || '').strip
+    project = (h['project'] || '').strip
+    if project == '' || name == ''
+      puts "Invalid defmap: project='#{project}' name='#{name}'"
+      return
+    end
     if defmaps.key?(name) && defmaps[name] != project
       puts "Non unique entry: defmaps: defmaps['#{name}'] = '#{defmaps[name]}', new value: #{project}"
       return
@@ -313,6 +325,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   puts "`all` to see all data, `miss` to see missing project's urls, `ract['key'] to see `key`'s repos sorted by activity desc (also rcomm, rauth for commits and authors)"
   puts "Use `rauth[res[N][0]]` to examine what creates N-th top project, actually to have a good Top N data, You should define all data correctly for 0-N"
   puts "Or by project name `rauth[res[res.map { |i| i[0] }.index('project_name')][0]]`"
+  puts "Project's index is: `res.map { |i| i[0] }.index('project_name')`"
 
   binding.pry
 
