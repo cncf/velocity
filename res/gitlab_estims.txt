@@ -1,0 +1,9 @@
+org,repo,from,to,activity,comments,prs,commits,issues,authors
+gitlab,gitlab/GitLab,2016-05-01,2017-05-01,blind=50000,blind40000,est=7336,gitdm=16291,est=14430,gitdm=1531
+
+Used gitdm on gitlab repo to get summary num of authors and commits in 2016-05 - 2017-04
+Used report from gitlab for last 2 months and also just counted merge requests
+and issues for last year manually (on their site)
+
+This is an estimate, maybe we can get better data when using GitLab API?
+
