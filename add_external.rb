@@ -1,9 +1,8 @@
 require 'csv'
 require 'pry'
 
-def add_linux(fout, fdata, rfrom, rto)
-
-  # org,repo,from,to,changesets,additions,removals,authors,emails
+def add_external(fout, fdata, rfrom, rto, eorg, erepo)
+  # org,repo,from,to,activity,comments,prs,commits,issues,authors
   data = {}
   CSV.foreach(fdata, headers: true) do |row|
     h = row.to_h
@@ -20,11 +19,11 @@ def add_linux(fout, fdata, rfrom, rto)
     return
   end
 
-  linux = data[[rfrom, rto]]
+  external = data[[rfrom, rto]]
   # simulate N distinct authors as returned from BigQuery
-  linux['authors'] = linux['authors'].times.map { |i| i }.join(',')
-  linux['authors_alt1'] = linux['authors']
-  linux['authors_alt2'] = linux['authors'].split(',').uniq.count
+  external['authors'] = external['authors'].times.map { |i| i }.join(',')
+  external['authors_alt1'] = external['authors']
+  external['authors_alt2'] = external['authors'].split(',').uniq.count
 
   # fout
   ks = %w(org repo activity comments prs commits issues authors_alt2 authors_alt1 authors)
@@ -39,52 +38,53 @@ def add_linux(fout, fdata, rfrom, rto)
       checked = true
     end
 
-    if h['org'] == 'torvalds' && h['repo'] == 'torvalds/linux'
+    if h['org'] == eorg && h['repo'] == erepo
       nh = {}
       h.each do |k, v|
         v = '...' if ['authors', 'authors_alt1'].include?(k)
         nh[k] = v
       end
-      puts "CSV file already contains linux: #{nh}"
+      puts "CSV file already contains #{eorg} #{erepo}: #{nh}"
       return
     end
 
     rows << h
   end
 
-  linux_row = {
-    'org' => 'torvalds',
-    'repo' => 'torvalds/linux',
-    'activity' => linux['changesets'] + linux['emails'],
-    'comments' => linux['emails'],
-    'prs' => linux['emails'] / 4,
-    'commits' => linux['changesets'],
-    'issues' => linux['emails'] / 4,
-    'authors_alt2' => linux['authors_alt2'],
-    'authors_alt1' => linux['authors_alt1'],
-    'authors' => linux['authors']
+  # org,repo,from,to,activity,comments,prs,commits,issues,authors
+  external_row = {
+    'org' => eorg,
+    'repo' => erepo,
+    'activity' => external['activity'],
+    'comments' => external['comments'],
+    'prs' => external['prs'],
+    'commits' => external['commits'],
+    'issues' => external['issues'],
+    'authors_alt2' => external['authors_alt2'],
+    'authors_alt1' => external['authors_alt1'],
+    'authors' => external['authors']
   }
 
   CSV.open(fout, "w", headers: ks) do |csv|
     csv << ks
-    csv << linux_row
+    csv << external_row
     rows.each do |row|
       csv << row
     end
   end
 
   nh = {}
-  linux_row.each do |k, v|
+  external_row.each do |k, v|
     v = '...' if ['authors', 'authors_alt1'].include?(k)
     nh[k] = v
   end
-  puts "Added Linux: #{nh}"
+  puts "Added row for #{eorg} #{erepo}: #{nh}"
 
 end
 
-if ARGV.size < 4
-  puts "Missing arguments: datafile.csv linuxdata.csv period_from period_to"
+if ARGV.size < 6
+  puts "Missing arguments: datafile.csv external_data.csv period_from period_to org_name repo_name"
   exit(1)
 end
 
-add_linux(ARGV[0], ARGV[1], ARGV[2], ARGV[3])
+add_external(ARGV[0], ARGV[1], ARGV[2], ARGV[3], ARGV[4], ARGV[5])
