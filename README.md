@@ -10,7 +10,7 @@ It uses:
 - default map file which defines non standard names for projects generated automatically via groupping by org (like aspnet --> ASP.net) or to group multiple orgs and/or repos into single project. It is a last step of project name mapping
 
 # Example use:
-`ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv`
+`ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv skip.csv ranges.csv`
 
 `input.csv` data/data_yyyymm.csv from BigQuery, like this:
 ```
@@ -48,6 +48,26 @@ name,project
 aspnet,ASP.net
 nixpkgs,NixOS
 ...
+```
+
+`skip.csv` CSV file that contain lists of repos and/or orgs to be skipped in analysis:
+```
+org,repo
+"enkidevs,csu2017sp314,thoughtbot,illacceptanything,RubySteps,RainbowEngineer",Microsoft/techcasestudies
+"2015firstcmsc100,swcarpentry,exercism,neveragaindottech,ituring","mozilla/learning.mozilla.org,Microsoft/HolographicAcademy,w3c/aria-practices,w3c/csswg-test"
+```
+
+`ranges.csv` CSV file containing ranges of repos properties that makes repo included in calculations.
+It can constrain any of "commits, prs, comments, issues, authors" to be within range n1 .. n2 (if n1 or n2 < 0 then this value is skipped, so -1..-1 means unlimited
+There can be also exception repos/orgs that do not use those ranges:
+```
+key,min,max,exceptions
+activity,50,-1,"kubernetes,docker/containerd,coreos/rkt"
+comments,20,100000,"kubernetes,docker/containerd,coreos/rkt"
+prs,10,-1,"kubernetes,docker/containerd,coreos/rkt"
+commits,10,-1,"kubernetes,kubernetes-incubator"
+issues,10,-1,"kubernetes,docker/containerd,coreos/rkt"
+authors,3,-1,"kubernetes,docker/containerd,google/go-github"
 ```
 
 Generated output file contains all data from input (so it can be 600 rows for 1000 input rows for example).
@@ -113,6 +133,23 @@ Example usage (assuming Linux additional data in `data/data_linux.csv), could be
 To get some repos data from some file and put it in some other file use:
 `ruby merger.rb file_to_merge.rb file_to_get_data_from.rb`
 See for example `./shells/top30_201605_201704.sh`
+
+To process "unlimited" data from BigQuery output (file `data/unlimited.csv`) please use `shells/unlimited.sh` or `shells/unlimited_both.sh`).
+Unlimited means that BigQuery is not constraining repositories by having commits, comments, issues, PRs, authors > N (this N is 5-50 depending on which metric: authors for example is 5 while comments is 50).
+Unlimited only requires that authors, comments, commits, prs, issues are all > 0.
+And then only CSV `map/ranges_unlimited.csv` is used to further constrain data. This basically moves filtering out of BigQuery (so it can be called once) to Ruby tool.
+And `shells/unlimited_both.sh` uses `map/ranges_unlimited.csv` that is not setting ANY limit:
+```
+key,min,max,exceptions
+activity,-1,-1,
+comments,-1,-1,
+prs,-1,-1,
+commits,-1,-1,
+issues,-1,-1,
+authors,-1,-1,
+```
+It means that mapping must have extermally long list of projects from repos/orgs to get real non obfuscated data.
+
 
 # Results:
 
