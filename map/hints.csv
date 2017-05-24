@@ -865,7 +865,7 @@ openstack/nova-powervm,OpenStack Nova
 openstack/nova-specs,OpenStack Nova
 openstack/nova-zvm-virt-driver,OpenStack Nova
 openstack/novajoin,OpenStack Nova
-openstack/openstack,OpenStack Tracking Repo
+openstack/openstack,OpenStack Other Repos
 openstack/openstack-ansible-os_cinder,OpenStack Cinder
 openstack/openstack-ansible-os_glance,OpenStack Glance
 openstack/openstack-ansible-os_heat,OpenStack Heat
