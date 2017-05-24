@@ -1,0 +1,1 @@
+project not in (FLINK, MESOS, SPARK, KAFKA, CAMEL, FLINK, CLOUDSTACK, BEAM, ZEPPELIN, CASSANDRA, HIVE, HBASE, HADOOP, IGNITE, NIFI, AMBARI, STORM, "Traffic Server", "Lucene - Core", Solr, CarbonData, GEODE, "Apache Trafodion", Thrift, Kylin) AND created >= 2016-05-01 AND created <= 2017-05-01

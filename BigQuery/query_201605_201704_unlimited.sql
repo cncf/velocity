@@ -63,6 +63,7 @@ WHERE
   AND LOWER(actor.login) not like '%bot%'
   AND LOWER(org.login) not in ('necrobotio', 'githubschool', 'freecodecamp')
   AND actor.login != 'tgstation-server'
+  /*AND actor.login != 'openstack-gerrit'*/
   AND actor.login NOT IN (
     SELECT
       actor.login

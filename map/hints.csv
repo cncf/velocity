@@ -254,14 +254,28 @@ apache-spark-on-k8s/kubernetes-HDFS,Apache Spark
 apache-spark-on-k8s/spark,Apache Spark
 apache-spark/spark,Apache Spark
 apache/ambari,Apache Ambari
+apache/bahir-flink,Apache Flink
 apache/beam,Apache Beam
+apache/beam-site,Apache Beam
 apache/camel,Apache Camel
 apache/carbondata,Apache CarbonData
+apache/carbondata-site,Apache CarbonData
 apache/cassandra,Apache Cassandra
+apache/cassandra-builds,Apache Cassandra
 apache/cloudstack,Apache CloudStack
+apache/cloudstack-cloudmonkey,Apache CloudStack
+apache/cloudstack-docs,Apache CloudStack
+apache/cloudstack-docs-admin,Apache CloudStack
+apache/cloudstack-docs-install,Apache CloudStack
+apache/cloudstack-docs-rn,Apache CloudStack
+apache/cloudstack-www,Apache CloudStack
 apache/couchdb-chttpd,Apache HTTP Server
 apache/flink,Apache Flink
+apache/flink-web,Apache Flink
 apache/geode,Apache Geode
+apache/geode-examples,Apache Geode
+apache/geode-native,Apache Geode
+apache/geode-site,Apache Geode
 apache/hadoop,Apache Hadoop
 apache/hbase,Apache HBase
 apache/hive,Apache Hive
@@ -270,20 +284,32 @@ apache/httpd-docs-build,Apache HTTP Server
 apache/ignite,Apache Ignite
 apache/incubator-airflow,Airflow
 apache/incubator-beam,Apache Beam
+apache/incubator-beam-site,Apache Beam
 apache/incubator-carbondata,Apache CarbonData
 apache/incubator-geode,Apache Geode
+apache/incubator-hivemall,Apache Hive
+apache/incubator-hivemall-site,Apache Hive
 apache/incubator-trafodion,Apache Trafodion
+apache/incubator-zeppelin,Apache Zeppelin
+apache/jclouds,Apache CloudStack
 apache/kafka,Apache Kafka
+apache/kafka-site,Apache Kafka
 apache/kylin,Apache Kylin
 apache/libcloud,Apache CloudStack
 apache/lucene-solr,Apache Lucene/Solr
+apache/lucenenet,Apache Lucene/Solr
 apache/mesos,Apache Mesos
 apache/nifi,Apache NiFi
+apache/nifi-maven,Apache NiFi
+apache/nifi-minifi,Apache NiFi
+apache/nifi-minifi-cpp,Apache NiFi
+apache/nifi-site,Apache NiFi
 apache/spark,Apache Spark
 apache/spark-website,Apache Spark
 apache/storm,Apache Storm
 apache/thrift,Apache Thrift
 apache/trafficserver,Apache Traffic Server
+apache/trafficserver-qa,Apache Traffic Server
 apache/trafodion,Apache Trafodion
 apache/zeppelin,Apache Zeppelin
 apacheignite/documentation,Apache Ignite

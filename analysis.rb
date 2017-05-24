@@ -4,13 +4,15 @@ require 'pry'
 def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   sort_col = 'authors'
 
-  # Repos and Orgs to skip
+  # Repos, Orgs and Projects to skip
   skip_repos = {}
   skip_orgs = {}
+  skip_projs = {}
   CSV.foreach(fskip, headers: true) do |row|
     h = row.to_h
     org = (h['org'] || '').strip
     repo = (h['repo'] || '').strip
+    proj = (h['project'] || '').strip
     if org.length > 0
       orgs = org.split(',')
       orgs.each do |o|
@@ -29,6 +31,16 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
           return
         end
         skip_repos[r] = true
+      end
+    end
+    if proj.length > 0
+      projs = proj.split(',')
+      projs.each do |p|
+        if skip_projs.key?(p)
+          puts "Duplicate skip project entry: #{p}"
+          return
+        end
+        skip_projs[p] = true
       end
     end
   end
@@ -244,6 +256,8 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     end
     h['project'] = k
     h['mode'] = mode
+    next if skip_projs.key?(k)
+
     orgs[k] = { items: [] } unless orgs.key? k
     h.each do |p, v|
       vi = v.to_i

@@ -33,8 +33,8 @@ Top 30 projects January 2016 - April 2017 (no linux motion logaritmic): https://
 Top 30 projects January 2016 - March 2017 (no linux motion non-cumulative): https://docs.google.com/spreadsheets/d/1MQ1fwg73EhV-zXrNCJUgHZxY7b_VoO1RF8efNBO88ss/edit?usp=sharing
 Top 30 projects January 2015 - March 2017 (no linux motion quarters cumulative): https://docs.google.com/spreadsheets/d/1IS0D_phB7JtpdUlw9e8kbYMXyIyPQMrDLb_gdvb0Q5g/edit?usp=sharing
 
-WIP Top 40 on unlimited data returned from BigQ: https://docs.google.com/spreadsheets/d/1miWyW_OvH2AjAaeI8M6ORlSoeILnXfKYVs2acafR0i0/edit?usp=sharing
-
+WIP Top 50 on unlimited data returned from BigQ: https://docs.google.com/spreadsheets/d/1miWyW_OvH2AjAaeI8M6ORlSoeILnXfKYVs2acafR0i0/edit?usp=sharing
+WIP Top 50 on unlimited data with OpenStack & Apache: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
 Channel with motion videos:
 https://www.youtube.com/channel/UCrPtToB7GZdY0vHW_2dh65g
 

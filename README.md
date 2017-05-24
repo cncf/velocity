@@ -50,11 +50,12 @@ nixpkgs,NixOS
 ...
 ```
 
-`skip.csv` CSV file that contain lists of repos and/or orgs to be skipped in analysis:
+`skip.csv` CSV file that contain lists of repos and/or orgs and/or projects to be skipped in analysis:
 ```
-org,repo
-"enkidevs,csu2017sp314,thoughtbot,illacceptanything,RubySteps,RainbowEngineer",Microsoft/techcasestudies
-"2015firstcmsc100,swcarpentry,exercism,neveragaindottech,ituring","mozilla/learning.mozilla.org,Microsoft/HolographicAcademy,w3c/aria-practices,w3c/csswg-test"
+org,repo,project
+"enkidevs,csu2017sp314,thoughtbot,illacceptanything,RubySteps,RainbowEngineer",Microsoft/techcasestudies,"Apache (other),OpenStack (other)"
+"2015firstcmsc100,swcarpentry,exercism,neveragaindottech,ituring","mozilla/learning.mozilla.org,Microsoft/HolographicAcademy,w3c/aria-practices,w3c/csswg-test",
+"orgX,orgY","org1/repo1,org2/repo2","project1,project2"
 ```
 
 `ranges.csv` CSV file containing ranges of repos properties that makes repo included in calculations.
@@ -169,6 +170,23 @@ org,repo,from,to,activity,comments,prs,commits,issues,authors
 gitlab,gitlab/GitLab,2016-05-01,2017-05-01,40000,40000,11595,9479,22821,1500
 
 ```
+
+There is also a tool to update generated projects file (that is used to import data for chart).
+`update_projects.rb`
+Used in `shells/unlimited_both.sh`
+It is used to update cerain values in given projects
+It uses input file with format:
+```
+project,key,value
+Apache Mesos,issues,7581
+Apache Spark,issues,5465
+Apache Kafka,issues,1496
+Apache Camel,issues,1284
+Apache Flink,issues,2566
+Apache (other),issues,52578
+```
+This allows to update specific keys in specific projects with data taken from other source than GitHub.
+It is used now to update github data with issues statistics from jira (for apache projects).
 
 # Results:
 
