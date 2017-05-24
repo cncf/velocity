@@ -381,6 +381,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   puts "List of 'Google' repos that have > 10 authors: `rauth[res[res.map { |i| i[0] }.index('Google')][0]].select { |i| i.split(',')[1].to_i > 10 }.map { |i| i.split(',')[0] }.join(',')`"
   puts "See indices of projects contain something in name: `res.map.with_index { |e, i| [e, i] }.select { |e| e[0][0].include?('OpenStack') }.map { |e| \"\#{e[1]} \#{e[0][0]}\" }`"
   puts "Nice view Top 50: ``es.map.with_index { |e,i| \"\#{i+1} \#{e[0]}\" }[0..49]"
+  puts "Dan loves it: `res[res.map { |i| i[0] }.index('Google Cloud')][2][:items].map { |i| [i['repo'], i['commits'], i['issues'], i['prs'], i['authors'].split(',').count] }.sort_by { |i| -i[1] }.map { |i| \"\#{i[0]}, commits: \#{i[1]}, issues: \#{i[2]}, PRs: \#{i[3]}, authors: \#{i[4]}\" }`"
 
   binding.pry
 
