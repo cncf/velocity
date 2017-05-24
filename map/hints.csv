@@ -249,8 +249,22 @@ angular/material,Angular
 angular/material2,Angular
 angular/protractor,Protractor
 angular/tsickle,Angular
+apache-spark-on-k8s/ansible,Apache Spark
+apache-spark-on-k8s/kubernetes-HDFS,Apache Spark
+apache-spark-on-k8s/spark,Apache Spark
+apache-spark/spark,Apache Spark
+apache/couchdb-chttpd,Apache HTTP Server
+apache/httpd,Apache HTTP Server
+apache/httpd-docs-build,Apache HTTP Server
+apache/ignite,Apache Ignite
 apache/incubator-airflow,Airflow
+apache/spark,Apache Spark
+apache/spark-website,Apache Spark
 apache/trafficserver,Apache Traffic Server
+apacheignite/documentation,Apache Ignite
+apacheignite/drools-ignite,Apache Ignite
+apacheignite/yardstick-ignite,Apache Ignite
+apacheignite/zeppelin-demo,Apache Ignite
 callemall/material-ui,Material-UI
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x

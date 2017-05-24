@@ -1,5 +1,6 @@
 name,project
 01org,Intel Open Source Technology Center
+ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
 CartoDB,CARTO
@@ -26,6 +27,11 @@ alphagov,Government Digital Service
 ampproject,AMP
 ansible,Ansible
 ant-design,Ant Design
+apache,Apache (other)
+apache-spark,Apache Spark
+apache-spark-on-k8s,Apache Spark
+apachecloudstack,Apache CloudStack
+apacheignite,Apache Ignite
 aspnet,ASP.net
 atom,Atom
 auth0,Auth0

@@ -22,6 +22,11 @@ Amazon Web Services,aws.amazon.com
 Angular,angular.io
 Ansible,ansible.com
 Ant Design,ant.design
+Apache (other),apache.org
+Apache CloudStack,cloudstack.apache.org
+Apache HTTP Server,httpd.apache.org
+Apache Ignite,ignite.apache.org
+Apache Spark,spark.apache.org
 Apache Traffic Server,trafficserver.apache.org
 ArduPilot,ardupilot.org
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
@@ -386,6 +391,7 @@ Web of Things,w3.org/WoT/IG
 WiX,wixtoolset.org
 Wire Swiss GmbH,wire.com
 WordPress-mobile,make.wordpress.org/mobile
+XAMPP,apachefriends.org
 XX-net,github.com/XX-net/XX-Net
 YAMS,github.com/Microsoft/Yams
 YAPF,github.com/google/yapf
