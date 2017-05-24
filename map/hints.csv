@@ -253,14 +253,39 @@ apache-spark-on-k8s/ansible,Apache Spark
 apache-spark-on-k8s/kubernetes-HDFS,Apache Spark
 apache-spark-on-k8s/spark,Apache Spark
 apache-spark/spark,Apache Spark
+apache/ambari,Apache Ambari
+apache/beam,Apache Beam
+apache/camel,Apache Camel
+apache/carbondata,Apache CarbonData
+apache/cassandra,Apache Cassandra
+apache/cloudstack,Apache CloudStack
 apache/couchdb-chttpd,Apache HTTP Server
+apache/flink,Apache Flink
+apache/geode,Apache Geode
+apache/hadoop,Apache Hadoop
+apache/hbase,Apache HBase
+apache/hive,Apache Hive
 apache/httpd,Apache HTTP Server
 apache/httpd-docs-build,Apache HTTP Server
 apache/ignite,Apache Ignite
 apache/incubator-airflow,Airflow
+apache/incubator-beam,Apache Beam
+apache/incubator-carbondata,Apache CarbonData
+apache/incubator-geode,Apache Geode
+apache/incubator-trafodion,Apache Trafodion
+apache/kafka,Apache Kafka
+apache/kylin,Apache Kylin
+apache/libcloud,Apache CloudStack
+apache/lucene-solr,Apache Lucene/Solr
+apache/mesos,Apache Mesos
+apache/nifi,Apache NiFi
 apache/spark,Apache Spark
 apache/spark-website,Apache Spark
+apache/storm,Apache Storm
+apache/thrift,Apache Thrift
 apache/trafficserver,Apache Traffic Server
+apache/trafodion,Apache Trafodion
+apache/zeppelin,Apache Zeppelin
 apacheignite/documentation,Apache Ignite
 apacheignite/drools-ignite,Apache Ignite
 apacheignite/yardstick-ignite,Apache Ignite

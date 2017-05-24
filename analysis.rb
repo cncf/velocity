@@ -13,11 +13,23 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     repo = (h['repo'] || '').strip
     if org.length > 0
       orgs = org.split(',')
-      orgs.each { |o| skip_orgs[o] = true }
+      orgs.each do |o|
+        if skip_orgs.key?(o)
+          puts "Duplicate skip org entry: #{o}"
+          return
+        end
+        skip_orgs[o] = true
+      end
     end
     if repo.length > 0
       reps = repo.split(',')
-      reps.each { |r| skip_repos[r] = true }
+      reps.each do |r|
+        if skip_repos.key?(r)
+          puts "Duplicate skip repo entry: #{r}"
+          return
+        end
+        skip_repos[r] = true
+      end
     end
   end
 
@@ -35,10 +47,22 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     excs.each do |ex|
       next if ex == ''
       if ex.include?('/')
+        if rps.key?(ex)
+          puts "Duplicate exception repo entry: #{ex}"
+          return
+        end
         rps[ex] = true
       else
+        if ors.key?(ex)
+          puts "Duplicate exception org entry: #{ex}"
+          return
+        end
         ors[ex] = true
       end
+    end
+    if ranges.key?(key)
+      puts "Duplicate ranges key: #{key}"
+      return
     end
     ranges[key] = [min.to_i, max.to_i, ors, rps]
   end
@@ -53,8 +77,12 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       puts "Invalid hint: project='#{proj}' repo='#{repo}'"
       return
     end
-    if projects.key?(repo) && projects[repo] != proj
-      puts "Non unique entry: projects: projects['#{repo}'] = '#{projects[repo]}', new value: #{proj}"
+    if projects.key?(repo)
+      if projects[repo] != proj
+        puts "Non unique entry: projects: projects['#{repo}'] = '#{projects[repo]}', new value: #{proj}"
+      else
+        puts "Duplicate entry: projects: projects['#{repo}'] = '#{projects[repo]}'"
+      end
       return
     end
     projects[repo] = proj
@@ -79,8 +107,12 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       puts "Invalid URL: project='#{proj}' url='#{url}'"
       return
     end
-    if urls.key?(proj) && urls[proj] != url
-      puts "Non unique entry: urls: urls['#{proj}'] = '#{urls[proj]}', new value: #{url}"
+    if urls.key?(proj)
+      if urls[proj] != url
+        puts "Non unique entry: urls: urls['#{proj}'] = '#{urls[proj]}', new value: #{url}"
+      else
+        puts "Duplicate entry: urls: urls['#{proj}'] = '#{urls[proj]}'"
+      end
       return
     end
     urls[proj] = url
@@ -111,8 +143,12 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       puts "Invalid defmap: project='#{project}' name='#{name}'"
       return
     end
-    if defmaps.key?(name) && defmaps[name] != project
-      puts "Non unique entry: defmaps: defmaps['#{name}'] = '#{defmaps[name]}', new value: #{project}"
+    if defmaps.key?(name)
+      if defmaps[name] != project
+        puts "Non unique entry: defmaps: defmaps['#{name}'] = '#{defmaps[name]}', new value: #{project}"
+      else
+        puts "Duplicate entry: defmaps: defmaps['#{name}'] = '#{defmaps[name]}'"
+      end
       return
     end
     defmaps[name] = project
