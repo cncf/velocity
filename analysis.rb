@@ -380,6 +380,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   puts "Project's index is: `res.map { |i| i[0] }.index('project_name')`, top N: `res.map { |i| i[0] }[0..N]`"
   puts "List of 'Google' repos that have > 10 authors: `rauth[res[res.map { |i| i[0] }.index('Google')][0]].select { |i| i.split(',')[1].to_i > 10 }.map { |i| i.split(',')[0] }.join(',')`"
   puts "See indices of projects contain something in name: `res.map.with_index { |e, i| [e, i] }.select { |e| e[0][0].include?('OpenStack') }.map { |e| \"\#{e[1]} \#{e[0][0]}\" }`"
+  puts "Nice view Top 50: ``es.map.with_index { |e,i| \"\#{i+1} \#{e[0]}\" }[0..49]"
 
   binding.pry
 
