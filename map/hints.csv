@@ -615,6 +615,10 @@ tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture
 tootsuite/mastodon,Mastodon
 torvalds/linux,Linux kernel
+twitter/finagle,Finagle
+twitter/finatra,Finatra
+twitter/heron,Heron
+twitter/scrooge,Scrooge
 w3c/ServiceWorker,W3C Service Worker
 w3c/aria,Accessible Rich Internet Applications
 w3c/browser-payment-api,W3C Web Payments Browser API
