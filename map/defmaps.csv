@@ -10,6 +10,9 @@ IBM-Bluemix,IBM Bluemix
 KSP-CKAN,CKAN
 MarlinFirmware,Marlin
 OfficeDev,Office Developer
+OpenStack-mobile,OpenStack Mobile
+OpenStackCookbook,OpenStack Cookbook
+OpenStackweb,OpenStack Web
 ParsePlatform,Parse
 Particular,NServiceBus
 Plailect/Guide,3DS Guide
@@ -112,6 +115,16 @@ odoo,Odoo
 openhab,openHAB
 openshift,OpenShift
 openssl,OpenSSL
+openstack,OpenStack (other)
+openstack-ansible,OpenStack Ansible
+openstack-charmers,OpenStack Charmers
+openstack-dev,OpenStack Dev
+openstack-hyper-v,OpenStack Hyper-v
+openstack-infra,OpenStack Infra
+openstack-kr,OpenStack Korean
+openstack-packages,OpenStack Packages
+openstack-snaps,OpenStack Snaps
+openstacknetsdk,OpenStack Net SDK
 opentracing,OpenTracing
 openwrt,OpenWrt
 osmandapp,Osmand

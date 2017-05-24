@@ -243,8 +243,38 @@ OpenHTF,github.com/google/openhtf
 OpenRCT2,openrct2.website
 OpenSSL,openssl.org
 OpenShift,openshift.com
+OpenStack (other),openstack.org
+OpenStack API,openstack.org
+OpenStack Ansible,openstack.org
+OpenStack Charmers,openstack.org
+OpenStack Cinder,openstack.org
+OpenStack Community,openstack.org
+OpenStack Cookbook,openstack.org
+OpenStack Dashboard,openstack.org
+OpenStack Dev,openstack.org
+OpenStack Glance,openstack.org
+OpenStack Heat,openstack.org
+OpenStack Hyper-v,openstack.org
+OpenStack Infra,openstack.org
+OpenStack Keystone,openstack.org
+OpenStack Korean,openstack.org
+OpenStack Manila,openstack.org
+OpenStack Manual,openstack.org
+OpenStack Mistral,openstack.org
+OpenStack Mobile,openstack.org
+OpenStack Murano,openstack.org
+OpenStack Net SDK,openstack.org
+OpenStack Neutron,openstack.org
+OpenStack Nova,openstack.org
+OpenStack Packages,openstack.org
+OpenStack Snaps,openstack.org
+OpenStack Swift,openstack.org
+OpenStack Tools,openstack.org
+OpenStack Tracking Repo,openstack.org
+OpenStack Web,openstack.org
 OpenTracing,opentracing.io
 OpenWrt,openwrt.org
+Openstack Tools,openstack.org
 Operations Research Tools,developers.google.com/optimization
 Osmand,osmand.net
 PACO,pacoapp.com
@@ -300,6 +330,7 @@ SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spontanizer,spartan.org.il
 Spotify,spotify.github.io
 Spree,guides.spreecommerce.org
+Stackalytics,openstack.org
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com

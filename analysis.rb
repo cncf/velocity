@@ -155,11 +155,13 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   # group multiple orgs and orgs with repos into single project
   orgs = {}
   project_counts = {}
+  all_repos = {}
   CSV.foreach(fin, headers: true) do |row|
     h = row.to_h
 
     # skip repos & orgs
     repo = h['repo']
+    all_repos[repo] = true
     next if skip_repos.key? repo
     org = h['org']
     next if skip_orgs.key? org
@@ -327,6 +329,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   puts "Or by project name `rauth[res[res.map { |i| i[0] }.index('project_name')][0]]`"
   puts "Project's index is: `res.map { |i| i[0] }.index('project_name')`, top N: `res.map { |i| i[0] }[0..N]`"
   puts "List of 'Google' repos that have > 10 authors: `rauth[res[res.map { |i| i[0] }.index('Google')][0]].select { |i| i.split(',')[1].to_i > 10 }.map { |i| i.split(',')[0] }.join(',')`"
+  puts "See indices of projects contain something in name: `res.map.with_index { |e, i| [e, i] }.select { |e| e[0][0].include?('OpenStack') }.map { |e| \"\#{e[1]} \#{e[0][0]}\" }`"
 
   binding.pry
 
@@ -339,6 +342,13 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
         csv_row << row[2][:sum][key]
       end
       csv << csv_row
+    end
+  end
+
+  CSV.open('all_repos.csv', "w", headers: ['repo']) do |csv|
+    csv << ['repo']
+    all_repos.keys.sort.each do |repo|
+      csv << [repo]
     end
   end
 end

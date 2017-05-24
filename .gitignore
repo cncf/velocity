@@ -13,6 +13,7 @@
 /data/unlimited.csv
 /data/unlimited_output_201605_201704.csv
 /data/data_top30_full.csv
+/all_repos.csv
 
 # Used by dotenv library to load environment variables.
 # .env
