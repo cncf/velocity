@@ -7,4 +7,5 @@ ruby merger.rb data/unlimited.csv data/webkit_201605_201704.csv
 ruby merger.rb data/unlimited.csv data/data_openstack_201605_201704.csv
 ruby merger.rb data/unlimited.csv data/data_apache_201605_201704.csv
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
-ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira.csv 500
+ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs.csv 500

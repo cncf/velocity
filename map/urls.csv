@@ -139,7 +139,7 @@ GitHub,github.com
 GitLab,gitlab.com
 Go,golang.org
 Godot Engine,godotengine.org
-Google,google.com
+Google (other),google.com
 Google API,developers.google.com/apis-explorer
 Google Chrome,google.com/chrome
 Google Closure Compiler,developers.google.com/closure/compiler
@@ -215,7 +215,7 @@ Mattermost,mattermost.org
 Mesosphere,mesosphere.com
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
-Microsoft,microsoft.com
+Microsoft (other),microsoft.com
 Microsoft API,github.com/Microsoft/api-guidelines
 Microsoft Application Insights,azure.microsoft.com/en-us/services/application-insights
 Microsoft BotBuilder,botframework.com
@@ -273,10 +273,10 @@ OpenStack Charmers,openstack.org
 OpenStack Cinder,openstack.org
 OpenStack Community,openstack.org
 OpenStack Cookbook,openstack.org
-OpenStack Dashboard,openstack.org
 OpenStack Dev,openstack.org
 OpenStack Glance,openstack.org
 OpenStack Heat,openstack.org
+OpenStack Horizon,openstack.org
 OpenStack Hyper-v,openstack.org
 OpenStack Infra,openstack.org
 OpenStack Keystone,openstack.org
@@ -291,6 +291,7 @@ OpenStack Neutron,openstack.org
 OpenStack Nova,openstack.org
 OpenStack Packages,openstack.org
 OpenStack Snaps,openstack.org
+OpenStack Stackalytics,openstack.org
 OpenStack Swift,openstack.org
 OpenStack Tools,openstack.org
 OpenStack Tracking Repo,openstack.org
@@ -353,7 +354,6 @@ SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spontanizer,spartan.org.il
 Spotify,spotify.github.io
 Spree,guides.spreecommerce.org
-Stackalytics,openstack.org
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com

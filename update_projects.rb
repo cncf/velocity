@@ -49,7 +49,7 @@ def update(fmerge, fdata, n)
     sorted.each do |proj|
       lines += 1
       csv << projects[proj]
-      break if lines >= n
+      break if lines >= n && n > 0
     end
   end
 end

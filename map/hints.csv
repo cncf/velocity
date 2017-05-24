@@ -79,13 +79,13 @@ Microsoft/DirectX-Graphics-Samples,DirectX
 Microsoft/DirectXShaderCompiler,DirectX
 Microsoft/Docker-PowerShell,PowerShell
 Microsoft/Docker.DotNet,dotnet
-Microsoft/Dynamics-AX-Integration,Microsoft
+Microsoft/Dynamics-AX-Integration,Microsoft (other)
 Microsoft/EMDocs,Microsoft docs
-Microsoft/FFmpegInterop,Microsoft
+Microsoft/FFmpegInterop,Microsoft (other)
 Microsoft/GSL,Microsoft GSL
 Microsoft/GalaxyExplorer,Microsoft HoloToolkit
-Microsoft/Git-Credential-Manager-for-Mac-and-Linux,Microsoft
-Microsoft/Git-Credential-Manager-for-Windows,Microsoft
+Microsoft/Git-Credential-Manager-for-Mac-and-Linux,Microsoft (other)
+Microsoft/Git-Credential-Manager-for-Windows,Microsoft (other)
 Microsoft/GraphEngine,Microsoft Graph Engine
 Microsoft/HoloJS,Microsoft HoloToolkit
 Microsoft/HoloLensCompanionKit,Microsoft HoloToolkit
@@ -102,7 +102,7 @@ Microsoft/OMS-Agent-for-Linux,Microsoft OMS
 Microsoft/Office-Online-Test-Tools-and-Documentation,Microsoft docs
 Microsoft/PTVS,VS Code
 Microsoft/PartsUnlimited,Microsoft docs
-Microsoft/PartsUnlimitedMRP,Microsoft
+Microsoft/PartsUnlimitedMRP,Microsoft (other)
 Microsoft/PowerBI-CSharp,Power BI
 Microsoft/PowerBI-Cli,Power BI
 Microsoft/PowerBI-JavaScript,Power BI
@@ -115,7 +115,7 @@ Microsoft/RTVS,VS Code
 Microsoft/ReportingServicesTools,SQL Server
 Microsoft/SCCMdocs,Microsoft docs
 Microsoft/SDN,SDN
-Microsoft/TSJS-lib-generator,Microsoft
+Microsoft/TSJS-lib-generator,Microsoft (other)
 Microsoft/TypeScript,TypeScript
 Microsoft/TypeScript-Handbook,TypeScript
 Microsoft/TypeScript-Sublime-Plugin,TypeScript
@@ -129,7 +129,7 @@ Microsoft/WinObjC,Microsoft Objective-C for Windows
 Microsoft/Windows-driver-samples,Microsoft docs
 Microsoft/Windows-universal-samples,Microsoft docs
 Microsoft/WindowsDevicePortalWrapper,Microsoft UWP
-Microsoft/WindowsProtocolTestSuites,Microsoft
+Microsoft/WindowsProtocolTestSuites,Microsoft (other)
 Microsoft/XamlBehaviors,Microsoft UWP
 Microsoft/Yams,YAMS
 Microsoft/ace,ACE
@@ -144,17 +144,17 @@ Microsoft/checkedc-llvm-test-suite,Checked C
 Microsoft/clrmd,VS Code
 Microsoft/code-push,CodePush
 Microsoft/cordova-plugin-code-push,CodePush
-Microsoft/cordova-simulate,Microsoft
+Microsoft/cordova-simulate,Microsoft (other)
 Microsoft/cpprestsdk,VS Code
 Microsoft/cppwinrt,VS Code
 Microsoft/dotnet,dotnet
 Microsoft/dotnet-apiport,dotnet
 Microsoft/edge-diagnostics-adapter,Microsoft Edge
 Microsoft/generator-docker,VS Code
-Microsoft/ghcrawler,Microsoft
-Microsoft/go-winio,Microsoft
+Microsoft/ghcrawler,Microsoft (other)
+Microsoft/go-winio,Microsoft (other)
 Microsoft/google-play-vsts-extension,VS Code
-Microsoft/hcsshim,Microsoft
+Microsoft/hcsshim,Microsoft (other)
 Microsoft/llvm,LLVM
 Microsoft/maker.js,Maker.js
 Microsoft/malmo,Malmö
@@ -174,20 +174,20 @@ Microsoft/pxt,Microsoft MakeCode
 Microsoft/pxt-microbit,micro-bit
 Microsoft/pxt-microbit-electron,micro-bit
 Microsoft/react-native-code-push,CodePush
-Microsoft/react-native-windows,Microsoft
+Microsoft/react-native-windows,Microsoft (other)
 Microsoft/reactxp,ReactXP
 Microsoft/sarif-sdk,dotnet
 Microsoft/satcheljs,Satchel
 Microsoft/sql-server-samples,SQL Server
-Microsoft/team-explorer-everywhere,Microsoft
+Microsoft/team-explorer-everywhere,Microsoft (other)
 Microsoft/testfx,VS Code
 Microsoft/tfs-cli,VS Code
 Microsoft/thrifty,Thrifty
 Microsoft/tigertoolbox,SQL Server
-Microsoft/tolerant-php-parser,Microsoft
+Microsoft/tolerant-php-parser,Microsoft (other)
 Microsoft/tslib,TypeScript
 Microsoft/tslint-microsoft-contrib,TSLint
-Microsoft/types-publisher,Microsoft
+Microsoft/types-publisher,Microsoft (other)
 Microsoft/vcpkg,VS Code
 Microsoft/visualfsharp,Microsoft F#
 Microsoft/visualfsharpdocs,Microsoft F#
@@ -210,7 +210,7 @@ Microsoft/vsts-agent,VS Code
 Microsoft/vsts-extension-build-release-tasks,VS Code
 Microsoft/vsts-node-api,VS Code
 Microsoft/vsts-rm-extensions,VS Code
-Microsoft/vsts-task-lib,Microsoft
+Microsoft/vsts-task-lib,Microsoft (other)
 Microsoft/vsts-tasks,VS Code
 Microsoft/vsts-team-calendar,VS Code
 Microsoft/vsts-vscode,VS Code
@@ -221,7 +221,7 @@ Microsoft/windows-driver-docs,Microsoft docs
 Microsoft/windows-itpro-docs,Microsoft docs
 Microsoft/winsdkfb,VS Code
 Microsoft/xunit-performance,dotnet
-OpenStack-mobile/AFHorizontalDayPicker,OpenStack Dashboard
+OpenStack-mobile/AFHorizontalDayPicker,OpenStack Horizon
 OpenStack-mobile/HanekeSwift,OpenStack Swift
 OpenStack-mobile/KFSwiftImageLoader,OpenStack Swift
 OpenStack-mobile/OAuth2-Swift,OpenStack Swift
@@ -695,7 +695,7 @@ openstack-snaps/snap-nova,OpenStack Nova
 openstack-snaps/snap-nova-hypervisor,OpenStack Nova
 openstack/api-site,OpenStack API
 openstack/api-wg,OpenStack API
-openstack/astara-horizon,OpenStack Dashboard
+openstack/astara-horizon,OpenStack Horizon
 openstack/astara-neutron,OpenStack Neutron
 openstack/blazar-nova,OpenStack Nova
 openstack/charm-cinder,OpenStack Cinder
@@ -732,7 +732,7 @@ openstack/deb-cinder,OpenStack Cinder
 openstack/deb-glance,OpenStack Glance
 openstack/deb-heat,OpenStack Heat
 openstack/deb-heat-cfntools,OpenStack Heat
-openstack/deb-horizon,OpenStack Dashboard
+openstack/deb-horizon,OpenStack Horizon
 openstack/deb-keystone,OpenStack Keystone
 openstack/deb-manila,OpenStack Manila
 openstack/deb-manila-ui,OpenStack Manila
@@ -777,7 +777,7 @@ openstack/freezer-api,OpenStack API
 openstack/fuel-ccp-cinder,OpenStack Cinder
 openstack/fuel-ccp-glance,OpenStack Glance
 openstack/fuel-ccp-heat,OpenStack Heat
-openstack/fuel-ccp-horizon,OpenStack Dashboard
+openstack/fuel-ccp-horizon,OpenStack Horizon
 openstack/fuel-ccp-keystone,OpenStack Keystone
 openstack/fuel-ccp-murano,OpenStack Murano
 openstack/fuel-ccp-neutron,OpenStack Neutron
@@ -809,9 +809,9 @@ openstack/heat-cfntools,OpenStack Heat
 openstack/heat-specs,OpenStack Heat
 openstack/heat-templates,OpenStack Heat
 openstack/heat-translator,OpenStack Heat
-openstack/horizon,OpenStack Dashboard
-openstack/horizon-cisco-ui,OpenStack Dashboard
-openstack/horizon-mellanox,OpenStack Dashboard
+openstack/horizon,OpenStack Horizon
+openstack/horizon-cisco-ui,OpenStack Horizon
+openstack/horizon-mellanox,OpenStack Horizon
 openstack/jenkins-plugins-for-murano,OpenStack Murano
 openstack/k8s-docker-suite-app-murano,OpenStack Murano
 openstack/keystone,OpenStack Keystone
@@ -869,7 +869,7 @@ openstack/openstack,OpenStack Tracking Repo
 openstack/openstack-ansible-os_cinder,OpenStack Cinder
 openstack/openstack-ansible-os_glance,OpenStack Glance
 openstack/openstack-ansible-os_heat,OpenStack Heat
-openstack/openstack-ansible-os_horizon,OpenStack Dashboard
+openstack/openstack-ansible-os_horizon,OpenStack Horizon
 openstack/openstack-ansible-os_keystone,OpenStack Keystone
 openstack/openstack-ansible-os_neutron,OpenStack Neutron
 openstack/openstack-ansible-os_nova,OpenStack Nova
@@ -889,7 +889,7 @@ openstack/puppet-cinder,OpenStack Cinder
 openstack/puppet-ec2api,OpenStack API
 openstack/puppet-glance,OpenStack Glance
 openstack/puppet-heat,OpenStack Heat
-openstack/puppet-horizon,OpenStack Dashboard
+openstack/puppet-horizon,OpenStack Horizon
 openstack/puppet-keystone,OpenStack Keystone
 openstack/puppet-manila,OpenStack Manila
 openstack/puppet-mistral,OpenStack Mistral
@@ -915,7 +915,7 @@ openstack/rpm-packaging-tools,OpenStack Tools
 openstack/salt-formula-cinder,OpenStack Cinder
 openstack/salt-formula-glance,OpenStack Glance
 openstack/salt-formula-heat,OpenStack Heat
-openstack/salt-formula-horizon,OpenStack Dashboard
+openstack/salt-formula-horizon,OpenStack Horizon
 openstack/salt-formula-keystone,OpenStack Keystone
 openstack/salt-formula-neutron,OpenStack Neutron
 openstack/salt-formula-nova,OpenStack Nova
@@ -925,7 +925,7 @@ openstack/snap-keystone,OpenStack Keystone
 openstack/snap-neutron,OpenStack Neutron
 openstack/snap-nova,OpenStack Nova
 openstack/snap-nova-hypervisor,OpenStack Nova
-openstack/stackalytics,Stackalytics
+openstack/stackalytics,OpenStack Stackalytics
 openstack/sushy-tools,OpenStack Tools
 openstack/swift,OpenStack Swift
 openstack/swift-bench,OpenStack Swift
@@ -933,8 +933,8 @@ openstack/swift-specs,OpenStack Swift
 openstack/swift3,OpenStack Swift
 openstack/swiftonfile,OpenStack Swift
 openstack/swiftonhpss,OpenStack Swift
-openstack/tacker-horizon,OpenStack Dashboard
-openstack/tempest-horizon,OpenStack Dashboard
+openstack/tacker-horizon,OpenStack Horizon
+openstack/tempest-horizon,OpenStack Horizon
 openstack/third-party-ci-tools,OpenStack Tools
 openstack/tripleo-docs,OpenStack Manual
 openstack/tripleo-heat-templates,OpenStack Heat
