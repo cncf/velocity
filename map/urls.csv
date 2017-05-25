@@ -10,6 +10,7 @@ ACE,microsoft.github.io/ace
 ACE Mod,acemod.com
 AMP,ampproject.org
 ASP.net,asp.net
+AWS SDKs,aws.amazon.com
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
 Activity Campaign site,activate.mozilla.community
 Addons-Server,addons.mozilla.org
@@ -55,6 +56,8 @@ Auth0,auth0.com
 Automattic Jetpack,jetpack.com
 Automattic WooCommerce,github.com/Automattic/woocommerce-services
 Azure,azure.github.io
+Azure SDKs,azure.microsoft.com
+BOSH,bosh.io
 BashOnWindows,microsoft.com/en-us/commandline/wsl
 Baystation12,baystation12.net
 Betaflight,github.com/betaflight/betaflight/releases
@@ -65,6 +68,7 @@ Brackets,brackets.io
 Brave Software,brave.com
 Broad Institute,broadinstitute.org
 CARTO,carto.com
+CF Buildpacks,docs.cloudfoundry.org/buildpacks
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
 CNI,github.com/containernetworking
@@ -146,6 +150,7 @@ Google Closure Compiler,developers.google.com/closure/compiler
 Google Cloud,cloud.google.com
 Google Cloud Docs,cloud.google.com/docs
 Google Cloud Platform,cloud.google.com
+Google Cloud SDKs,cloud.google.com/sdk
 Google Earth Enterprise,github.com/google/earthenterprise
 Google ExoPlayer,github.com/google/ExoPlayer
 Google FlatBuffers,google.github.io/flatbuffers

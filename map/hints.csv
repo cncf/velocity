@@ -27,14 +27,60 @@ Automattic/vip-go-mu-plugins,VIP Go
 Automattic/woocommerce-connect-client,Automattic WooCommerce
 Automattic/wp-calypso,WP Calypso
 Automattic/wp-e2e-tests,WP Calypso
+Azure/azure-batch-sdk-for-java,Azure SDKs
+Azure/azure-iot-gateway-sdk,Azure SDKs
+Azure/azure-iot-sdk-c,Azure SDKs
+Azure/azure-iot-sdk-csharp,Azure SDKs
+Azure/azure-iot-sdk-java,Azure SDKs
+Azure/azure-iot-sdk-node,Azure SDKs
+Azure/azure-iot-sdk-python,Azure SDKs
+Azure/azure-iot-sdks,Azure SDKs
+Azure/azure-iot-sdks-preview,Azure SDKs
+Azure/azure-sdk-for-go,Azure SDKs
+Azure/azure-sdk-for-java,Azure SDKs
+Azure/azure-sdk-for-media-services,Azure SDKs
+Azure/azure-sdk-for-media-services-extensions,Azure SDKs
+Azure/azure-sdk-for-net,Azure SDKs
+Azure/azure-sdk-for-node,Azure SDKs
+Azure/azure-sdk-for-php,Azure SDKs
+Azure/azure-sdk-for-python,Azure SDKs
+Azure/azure-sdk-for-ruby,Azure SDKs
+Azure/azure-sdk-ruby,Azure SDKs
+Azure/azure-webjobs-sdk,Azure SDKs
+Azure/azure-webjobs-sdk-extensions,Azure SDKs
+Azure/azure-webjobs-sdk-script,Azure SDKs
+Azure/azure-webjobs-sdk-templates,Azure SDKs
+Azure/sonic-py-swsssdk,Azure SDKs
 EFForg/https-everywhere,HTTPS Everywhere
 GoogleChrome/lighthouse,Google Chrome
+GoogleCloudPlatform/DataflowJavaSDK,Google Cloud SDKs
+GoogleCloudPlatform/DataflowPythonSDK,Google Cloud SDKs
 GoogleCloudPlatform/dotnet-docs-samples,Google Cloud Docs
+GoogleCloudPlatform/gcloud-common,Google Cloud SDKs
+GoogleCloudPlatform/gcloud-dotnet,Google Cloud SDKs
+GoogleCloudPlatform/gcloud-eclipse-tools,Google Cloud SDKs
+GoogleCloudPlatform/gcloud-golang,Google Cloud SDKs
+GoogleCloudPlatform/gcloud-intellij,Google Cloud SDKs
+GoogleCloudPlatform/gcloud-java,Google Cloud SDKs
+GoogleCloudPlatform/gcloud-maven-plugin,Google Cloud SDKs
 GoogleCloudPlatform/gcloud-node,Google Cloud Platform
+GoogleCloudPlatform/gcloud-node-todos,Google Cloud SDKs
+GoogleCloudPlatform/gcloud-php,Google Cloud SDKs
+GoogleCloudPlatform/gcloud-python,Google Cloud SDKs
+GoogleCloudPlatform/gcloud-ruby,Google Cloud SDKs
 GoogleCloudPlatform/golang-samples,Google Cloud Docs
+GoogleCloudPlatform/google-cloud-datastore,Google Cloud SDKs
+GoogleCloudPlatform/google-cloud-dotnet,Google Cloud SDKs
+GoogleCloudPlatform/google-cloud-eclipse,Google Cloud SDKs
+GoogleCloudPlatform/google-cloud-go,Google Cloud SDKs
+GoogleCloudPlatform/google-cloud-intellij,Google Cloud SDKs
 GoogleCloudPlatform/google-cloud-java,Google Cloud Platform
 GoogleCloudPlatform/google-cloud-node,Google Cloud Platform
+GoogleCloudPlatform/google-cloud-php,Google Cloud SDKs
+GoogleCloudPlatform/google-cloud-powershell,Google Cloud SDKs
 GoogleCloudPlatform/google-cloud-python,Google Cloud Platform
+GoogleCloudPlatform/google-cloud-ruby,Google Cloud SDKs
+GoogleCloudPlatform/google-cloud-visualstudio,Google Cloud SDKs
 GoogleCloudPlatform/kubernetes,Kubernetes
 GoogleCloudPlatform/kubernetes-workshops,Kubernetes
 GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
@@ -316,7 +362,110 @@ apacheignite/documentation,Apache Ignite
 apacheignite/drools-ignite,Apache Ignite
 apacheignite/yardstick-ignite,Apache Ignite
 apacheignite/zeppelin-demo,Apache Ignite
+aws/aws-iot-device-sdk-arduino-yun,AWS SDKs
+aws/aws-iot-device-sdk-embedded-C,AWS SDKs
+aws/aws-iot-device-sdk-java,AWS SDKs
+aws/aws-iot-device-sdk-js,AWS SDKs
+aws/aws-iot-device-sdk-python,AWS SDKs
+aws/aws-sdk-android,AWS SDKs
+aws/aws-sdk-cpp,AWS SDKs
+aws/aws-sdk-go,AWS SDKs
+aws/aws-sdk-ios,AWS SDKs
+aws/aws-sdk-java,AWS SDKs
+aws/aws-sdk-js,AWS SDKs
+aws/aws-sdk-mobile-analytics-js,AWS SDKs
+aws/aws-sdk-net,AWS SDKs
+aws/aws-sdk-php,AWS SDKs
+aws/aws-sdk-php-laravel,AWS SDKs
+aws/aws-sdk-php-silex,AWS SDKs
+aws/aws-sdk-php-symfony,AWS SDKs
+aws/aws-sdk-php-zf2,AWS SDKs
+aws/aws-sdk-ruby,AWS SDKs
+aws/aws-sdk-ruby-record,AWS SDKs
 callemall/material-ui,Material-UI
+cloudfoundry-community/admin-ui-boshrelease,BOSH
+cloudfoundry-community/asp.net5-buildpack,CF Buildpacks
+cloudfoundry-community/aws-nat-bastion-bosh-cf,BOSH
+cloudfoundry-community/blacksmith-boshrelease,BOSH
+cloudfoundry-community/bolo-boshrelease,BOSH
+cloudfoundry-community/bosh-bootstrap,BOSH
+cloudfoundry-community/bosh-cloudstack-cpi-release,BOSH
+cloudfoundry-community/bosh-gen,BOSH
+cloudfoundry-community/bosh-softlayer-baremetal-server,BOSH
+cloudfoundry-community/bosh-softlayer-pool-server-release,BOSH
+cloudfoundry-community/bosh-softlayer-tools,BOSH
+cloudfoundry-community/broker-registrar-boshrelease,BOSH
+cloudfoundry-community/cf-haproxy-boshrelease,BOSH
+cloudfoundry-community/cf-meteor-buildpack,CF Buildpacks
+cloudfoundry-community/collectd-boshrelease,BOSH
+cloudfoundry-community/consul-boshrelease,BOSH
+cloudfoundry-community/cron-boshrelease,BOSH
+cloudfoundry-community/docker-boshrelease,BOSH
+cloudfoundry-community/docker-registry-boshrelease,BOSH
+cloudfoundry-community/dotnet-core-buildpack,CF Buildpacks
+cloudfoundry-community/gogs-boshrelease,BOSH
+cloudfoundry-community/haproxy-boshrelease,BOSH
+cloudfoundry-community/jumpbox-boshrelease,BOSH
+cloudfoundry-community/logsearch-boshrelease,BOSH
+cloudfoundry-community/mongodb-bosh-release,BOSH
+cloudfoundry-community/newrelic-boshrelease,BOSH
+cloudfoundry-community/node-exporter-boshrelease,BOSH
+cloudfoundry-community/port-forwarding-boshrelease,BOSH
+cloudfoundry-community/postgres-boshrelease,BOSH
+cloudfoundry-community/postgresbackup-boshrelease,BOSH
+cloudfoundry-community/postgresql-docker-boshrelease,BOSH
+cloudfoundry-community/prometheus-boshrelease,BOSH
+cloudfoundry-community/redis-boshrelease,BOSH
+cloudfoundry-community/rethinkdb-boshrelease,BOSH
+cloudfoundry-community/sawmill-boshrelease,BOSH
+cloudfoundry-community/swift-buildpack,CF Buildpacks
+cloudfoundry-community/tomee-buildpack,CF Buildpacks
+cloudfoundry-community/toolbelt-boshrelease,BOSH
+cloudfoundry-community/vault-boshrelease,BOSH
+cloudfoundry-incubator/bosh-aws-cpi-release,BOSH
+cloudfoundry-incubator/bosh-azure-cpi-release,BOSH
+cloudfoundry-incubator/bosh-google-cpi-release,BOSH
+cloudfoundry-incubator/bosh-openstack-cpi-release,BOSH
+cloudfoundry-incubator/bosh-photon-cpi-release,BOSH
+cloudfoundry-incubator/bosh-rackhd-cpi-release,BOSH
+cloudfoundry-incubator/bosh-softlayer-cpi-release,BOSH
+cloudfoundry-incubator/bosh-vcloud-cpi-release,BOSH
+cloudfoundry-incubator/bosh-vsphere-cpi-release,BOSH
+cloudfoundry-incubator/bosh-windows-stemcell-builder,BOSH
+cloudfoundry-incubator/bosh-workspace,BOSH
+cloudfoundry-incubator/dotnet-core-buildpack,CF Buildpacks
+cloudfoundry-incubator/haproxy-boshrelease,BOSH
+cloudfoundry/binary-buildpack,CF Buildpacks
+cloudfoundry/bosh,BOSH
+cloudfoundry/bosh-acceptance-tests,BOSH
+cloudfoundry/bosh-agent,BOSH
+cloudfoundry/bosh-bootloader,BOSH
+cloudfoundry/bosh-cli,BOSH
+cloudfoundry/bosh-cpi-ruby,BOSH
+cloudfoundry/bosh-deployment,BOSH
+cloudfoundry/bosh-init,BOSH
+cloudfoundry/bosh-linux-stemcell-builder,BOSH
+cloudfoundry/bosh-lite,BOSH
+cloudfoundry/bosh-notes,BOSH
+cloudfoundry/bosh-softlayer-cpi,BOSH
+cloudfoundry/bosh-softlayer-cpi-release,BOSH
+cloudfoundry/bosh-utils,BOSH
+cloudfoundry/buildpack-packager,CF Buildpacks
+cloudfoundry/buildpackapplifecycle,CF Buildpacks
+cloudfoundry/buildpacks-ci,CF Buildpacks
+cloudfoundry/docs-bosh,BOSH
+cloudfoundry/docs-buildpacks,CF Buildpacks
+cloudfoundry/dotnet-core-buildpack,CF Buildpacks
+cloudfoundry/go-buildpack,CF Buildpacks
+cloudfoundry/ibm-websphere-liberty-buildpack,CF Buildpacks
+cloudfoundry/java-buildpack,CF Buildpacks
+cloudfoundry/java-buildpack-auto-reconfiguration,CF Buildpacks
+cloudfoundry/java-buildpack-memory-calculator,CF Buildpacks
+cloudfoundry/nodejs-buildpack,CF Buildpacks
+cloudfoundry/php-buildpack,CF Buildpacks
+cloudfoundry/python-buildpack,CF Buildpacks
+cloudfoundry/ruby-buildpack,CF Buildpacks
+cloudfoundry/staticfile-buildpack,CF Buildpacks
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x
 coredns/coredns-grpc,CoreDNS
