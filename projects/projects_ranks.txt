@@ -1,24 +1,67 @@
+Azure SDKs:
+	#54 by activity (30799)
+	#34 by authors (511)
+	#58 by comments (15613)
+	#87 by commits (8113)
+	#54 by issues (3079)
+	#45 by prs (3994)
+
 CNI:
-	#3305 by activity (1777)
-	#1654 by authors (58)
-	#2051 by comments (1213)
-	#15328 by commits (126)
-	#4152 by issues (139)
-	#2037 by prs (299)
+	#3304 by activity (1777)
+	#1676 by authors (58)
+	#2050 by comments (1213)
+	#15340 by commits (126)
+	#4155 by issues (139)
+	#2039 by prs (299)
+
+Chromium:
+	#60 by activity (28695)
+	#59 by authors (414)
+	#104 by comments (11399)
+	#85 by commits (8119)
+	#27 by issues (4491)
+	#33 by prs (4686)
+
 CoreDNS:
-	#7381 by activity (740)
-	#10816 by authors (13)
-	#5674 by comments (335)
-	#13908 by commits (146)
-	#5589 by issues (101)
-	#3707 by prs (158)
+	#7389 by activity (740)
+	#10804 by authors (13)
+	#5672 by comments (335)
+	#13928 by commits (146)
+	#5593 by issues (101)
+	#3717 by prs (158)
+
+DefinitelyTyped:
+	#82 by activity (25324)
+	#2 by authors (1976)
+	#72 by comments (14008)
+	#278 by commits (4241)
+	#278 by issues (1210)
+	#25 by prs (5865)
+
+Firefox:
+	#33 by activity (38619)
+	#36 by authors (495)
+	#43 by comments (17882)
+	#34 by commits (12362)
+	#30 by issues (4181)
+	#41 by prs (4194)
+
 Fluentd:
-	#403 by activity (9366)
-	#374 by authors (149)
-	#480 by comments (4224)
-	#614 by commits (2546)
-	#375 by issues (1031)
+	#402 by activity (9366)
+	#372 by authors (149)
+	#479 by comments (4224)
+	#613 by commits (2546)
+	#374 by issues (1031)
 	#243 by prs (1565)
+
+GitLab:
+	#22 by activity (50000)
+	#5 by authors (1531)
+	#11 by comments (40000)
+	#22 by commits (16291)
+	#7 by issues (14430)
+	#21 by prs (7336)
+
 Kubernetes:
 	#2 by activity (301446)
 	#3 by authors (1759)
@@ -26,45 +69,68 @@ Kubernetes:
 	#27 by commits (15179)
 	#2 by issues (27403)
 	#2 by prs (44205)
+
 Linkerd:
-	#3135 by activity (1885)
-	#4618 by authors (28)
-	#3584 by comments (624)
+	#3134 by activity (1885)
+	#4615 by authors (28)
+	#3582 by comments (624)
 	#4362 by commits (568)
-	#1772 by issues (319)
-	#1637 by prs (374)
+	#1773 by issues (319)
+	#1628 by prs (374)
+
+Linux kernel:
+	#1 by activity (320191)
+	#1 by authors (3865)
+	#1 by comments (252324)
+	#2 by commits (67867)
+	#1 by issues (63081)
+	#1 by prs (63081)
+
 OpenTracing:
-	#1222 by activity (4512)
-	#887 by authors (89)
-	#920 by comments (2614)
-	#2558 by commits (907)
+	#1221 by activity (4512)
+	#883 by authors (89)
+	#919 by comments (2614)
+	#2557 by commits (907)
 	#1536 by issues (364)
-	#917 by prs (627)
+	#915 by prs (627)
+
 Prometheus:
 	#96 by activity (22491)
 	#72 by authors (378)
 	#81 by comments (13062)
-	#420 by commits (3177)
+	#419 by commits (3177)
 	#66 by issues (2835)
 	#63 by prs (3417)
+
+WebKit:
+	#5002 by activity (1151)
+	#26 by authors (594)
+	#43961 by comments (1)
+	#1896 by commits (1143)
+	#45529 by issues (0)
+	#45650 by prs (0)
+
 containerd:
-	#1741 by activity (3306)
-	#967 by authors (84)
-	#1318 by comments (1860)
-	#6447 by commits (379)
-	#2996 by issues (195)
-	#589 by prs (872)
+	#1740 by activity (3306)
+	#964 by authors (84)
+	#1317 by comments (1860)
+	#6443 by commits (379)
+	#2992 by issues (195)
+	#588 by prs (872)
+
 gRPC:
 	#30 by activity (42541)
-	#87 by authors (348)
+	#86 by authors (348)
 	#25 by comments (25424)
-	#326 by commits (3767)
+	#325 by commits (3767)
 	#23 by issues (4946)
 	#15 by prs (8404)
+
 rkt:
-	#454 by activity (8820)
-	#491 by authors (125)
-	#280 by comments (6039)
-	#4221 by commits (584)
-	#515 by issues (832)
-	#309 by prs (1365)
+	#453 by activity (8820)
+	#490 by authors (125)
+	#279 by comments (6039)
+	#4220 by commits (584)
+	#514 by issues (832)
+	#308 by prs (1365)
+

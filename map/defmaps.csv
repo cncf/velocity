@@ -11,6 +11,7 @@ cloudfoundry-incubator,=SKIP
 cloudfoundry-samples,=SKIP
 google,=SKIP
 openstack,=SKIP
+w3c,=SKIP
 01org,Intel Open Source Technology Center
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
