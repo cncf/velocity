@@ -4,12 +4,17 @@ ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
 CartoDB,CARTO
+ChromeDevTools,Chrome/Chromium
+ChromeExtensionStore,Chrome/Chromium
+ChromiumWebApps,Chrome/Chromium
 CleverRaven,Cataclysm-DDA
 DataDog,Datadog
+GoogleChrome,Chrome/Chromium
 GoogleCloudPlatform,Google Cloud
 IBM-Bluemix,IBM Bluemix
 KSP-CKAN,CKAN
 MarlinFirmware,Marlin
+MobileChromeApps,Chrome/Chromium
 OfficeDev,Office Developer
 OpenStack-mobile,OpenStack Mobile
 OpenStackCookbook,OpenStack Cookbook
@@ -45,6 +50,9 @@ cakephp,CakePHP
 caskroom,Homebrew Cask
 cfpb,Consumer Financial Protection Bureau
 chef,Chef
+chrome-enhanced-history,Chrome/Chromium
+chromium,Chrome/Chromium
+chromiumify,Chrome/Chromium
 cloudfoundry,Cloud Foundry
 cloudfoundry-attic,Cloud Foundry
 cloudfoundry-community,Cloud Foundry

@@ -1,5 +1,6 @@
 require 'csv'
 require 'pry'
+require './comment'
 
 def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   sort_col = 'authors'
@@ -9,6 +10,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   skip_orgs = {}
   skip_projs = {}
   CSV.foreach(fskip, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     org = (h['org'] || '').strip
     repo = (h['repo'] || '').strip
@@ -48,6 +50,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   # Min/Max ranges for integer columns (with exceptions)
   ranges = {}
   CSV.foreach(franges, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     key = h['key'].strip
     min = h['min'].strip
@@ -82,6 +85,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   # Repo --> Project mapping
   projects = {}
   CSV.foreach(fhint, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     proj = (h['project'] || '').strip
     repo = (h['repo'] || '').strip
@@ -112,6 +116,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   # Project --> URL mapping (it uses final project name after all mappings, including defmaps.csv)
   urls = {}
   CSV.foreach(furls, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     proj = (h['project'] || '').strip
     url = (h['url'] || '').strip
@@ -148,6 +153,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   # dotnet,XYZ
   defmaps = {}
   CSV.foreach(fdefmaps, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     name = (h['name'] || '').strip
     project = (h['project'] || '').strip
@@ -205,6 +211,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   project_counts = {}
   all_repos = {}
   CSV.foreach(fin, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
 
     # skip repos & orgs
@@ -213,6 +220,17 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     next if skip_repos.key? repo
     org = h['org']
     next if skip_orgs.key? org
+
+    a = h['authors']
+    if a[0] == '=' && a[1..-1].to_i > 0
+      n = a[1..-1].to_i
+      h['authors'] = (1..n).to_a.join(',')
+    end
+    a = h['authors_alt1']
+    if a[0] == '=' && a[1..-1].to_i > 0
+      n = a[1..-1].to_i
+      h['authors_alt1'] = (1..n).to_a.join(',')
+    end
 
     # skip by values ranges
     skip = false

@@ -1,10 +1,12 @@
 require 'csv'
 require 'pry'
+require './comment'
 
 def merger(fmerge, fdata)
   # Repo --> data mapping (from file to get data from)
   repos = {}
   CSV.foreach(fdata, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     repo = h['repo'].strip
     repos[repo] = h
@@ -14,6 +16,7 @@ def merger(fmerge, fdata)
   updated = []
   repos2 = {}
   CSV.foreach(fmerge, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     repo = h['repo'].strip
     if repos.key? repo

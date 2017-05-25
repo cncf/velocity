@@ -1,10 +1,12 @@
 require 'csv'
 require 'pry'
+require './comment'
 
 def add_external(fout, fdata, rfrom, rto, eorg, erepo)
   # org,repo,from,to,activity,comments,prs,commits,issues,authors
   data = {}
   CSV.foreach(fdata, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     from = h['from'].strip
     to = h['to'].strip
@@ -30,6 +32,7 @@ def add_external(fout, fdata, rfrom, rto, eorg, erepo)
   checked = false
   rows = []
   CSV.foreach(fout, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     if !checked && h.keys != ks
       puts "CSV file to update #{fout} have different header: #{h.keys} than required #{ks}"
@@ -41,7 +44,7 @@ def add_external(fout, fdata, rfrom, rto, eorg, erepo)
     if h['org'] == eorg && h['repo'] == erepo
       nh = {}
       h.each do |k, v|
-        v = '...' if ['authors', 'authors_alt1'].include?(k)
+        v = v.split(',').count if ['authors', 'authors_alt1'].include?(k)
         nh[k] = v
       end
       puts "CSV file already contains #{eorg} #{erepo}: #{nh}"
@@ -75,7 +78,7 @@ def add_external(fout, fdata, rfrom, rto, eorg, erepo)
 
   nh = {}
   external_row.each do |k, v|
-    v = '...' if ['authors', 'authors_alt1'].include?(k)
+    v = v.split(',').count if ['authors', 'authors_alt1'].include?(k)
     nh[k] = v
   end
   puts "Added row for #{eorg} #{erepo}: #{nh}"

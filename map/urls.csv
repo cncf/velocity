@@ -81,6 +81,7 @@ Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
 Checked C,microsoft.com/en-us/research/project/checked-c
 Chef,chef.io/chef
+Chrome/Chromium,google.com/chrome
 Closure Library,code.google.com/closure/library
 Cloud Foundry,cloudfoundry.org
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
@@ -145,7 +146,6 @@ Go,golang.org
 Godot Engine,godotengine.org
 Google (other),google.com
 Google API,developers.google.com/apis-explorer
-Google Chrome,google.com/chrome
 Google Closure Compiler,developers.google.com/closure/compiler
 Google Cloud,cloud.google.com
 Google Cloud Docs,cloud.google.com/docs
@@ -411,6 +411,7 @@ WSO2,wso2.github.io
 WSO2 Carbon,wso2.com/products/carbon
 Web Authentication WG,w3.org/Webauthn
 Web of Things,w3.org/WoT/IG
+WebKit,webkit.org
 WiX,wixtoolset.org
 Wire Swiss GmbH,wire.com
 WordPress-mobile,make.wordpress.org/mobile

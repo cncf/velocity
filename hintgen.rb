@@ -1,5 +1,6 @@
 require 'csv'
 require 'pry'
+require './comment'
 
 def make_hints(fin, fout)
   projects = {}
@@ -8,6 +9,7 @@ def make_hints(fin, fout)
     puts "Processing #{file}"
     begin
       CSV.foreach(file, headers: true) do |row|
+        next if is_comment row
         h = row.to_h
         proj = h['project']
         if proj

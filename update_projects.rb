@@ -1,20 +1,23 @@
 require 'csv'
 require 'pry'
+require './comment'
 
 def update(fmerge, fdata, n)
+  sort_col = 'authors'
+
   # org,repo,activity,comments,prs,commits,issues,authors,project,url
   projects = {}
-  sorted = []
   CSV.foreach(fmerge, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     proj = h['project'].strip
     projects[proj] = h
-    sorted << proj
   end
 
   # project,key,value
   updates = {}
   CSV.foreach(fdata, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     proj = h['project'].strip
     key = h['key'].strip
@@ -41,14 +44,22 @@ def update(fmerge, fdata, n)
   end
   puts "Updated #{updated} values"
 
+  # Sort by sort_col desc to get list of top projects
+  arr = []
+  projects.values.each do |row|
+    arr << [row[sort_col].to_i, row]
+  end
+
+  sorted = arr.sort_by { |item| -item[0] }
+
   # Write changes back to file to update
   hdr = projects.values.first.keys
   CSV.open(fmerge, "w", headers: hdr) do |csv|
     csv << hdr
     lines = 0
-    sorted.each do |proj|
+    sorted.each do |item|
       lines += 1
-      csv << projects[proj]
+      csv << item[1]
       break if lines >= n && n > 0
     end
   end

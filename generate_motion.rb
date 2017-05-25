@@ -1,5 +1,6 @@
 require 'csv'
 require 'pry'
+require './comment'
 
 # Generate merged motion data for files listed in "flist" file (an their motion labels)
 # Output to "fout_motion" (per label) and cumulative sums "fout_motion_sums"
@@ -9,6 +10,7 @@ def generate(flist, fout_motion, fout_motion_sums, fsummary)
   summaries = {}
   if fsummary
     CSV.foreach(fsummary, headers: true) do |row|
+      next if is_comment row
       h = row.to_h
       summaries[h['project']] = h
     end
@@ -16,6 +18,7 @@ def generate(flist, fout_motion, fout_motion_sums, fsummary)
 
   files = []
   CSV.foreach(flist, headers: true) do |row|
+    next if is_comment row
     h = row.to_h
     name = h['name'].strip
     label = h['label'].strip
@@ -28,6 +31,7 @@ def generate(flist, fout_motion, fout_motion_sums, fsummary)
   files.each do |file_data|
     file, label = file_data
     CSV.foreach(file, headers: true) do |row|
+      next if is_comment row
       h = row.to_h
       h.each do |p, v|
         vi = v.to_i

@@ -1,0 +1,8 @@
+https://bugs.chromium.org/p/chromium/issues/list?can=1&q=opened%3E2016%2F7%2F25&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids
+issues last year=66800 (10 month exact data * 1,1) (chromium)
+issues 1799 (chromedriver)
+Sum = 68599
+
+Authors: 834?
+https://chromium.googlesource.com/chromium/src.git/+/master/AUTHORS
+

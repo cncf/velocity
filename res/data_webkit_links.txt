@@ -1,0 +1,16 @@
+https://webkit.org/reporting-bugs/
+Search all bugs in webkit, order by modified desc - will be truncated to
+10,000. See how many days makes 10k, and estimate for 365 days (1 year): gives 22k bugs/issues
+git clone git://git.webkit.org/WebKit.git WebKit
+Our gitdm: 
+./repo_in_range.sh ~/dev/WebKit/ WebKit 2016-05-01 2017-05-01
+From this:
+commits=13046
+authors=121 (inacurate)
+
+WebKit,issues,22392 (counted on bug tracker)
+WebKit,commits,13046 (from gitdm)
+WebKit,authors,594 (counted from https://webkit.org/team/#contributors): reviewers
+WebKit,prs,6520 (commits/2 estimate)
+WebKit,comments,35000 (issues+commits)
+WebKit.activity,77000 (sum of all above)
