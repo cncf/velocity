@@ -20,5 +20,5 @@ ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira.csv -1
 echo "Updating OpenStack projects using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs.csv -1
 echo "Truncating results to Top 500"
-cat ./projects/unlimited_both.csv | head -n 501 | > tmp && mv tmp ./projects/unlimited_both.csv
+cat ./projects/unlimited_both.csv | head -n 501 > tmp && mv tmp ./projects/unlimited_both.csv
 echo "All done"
