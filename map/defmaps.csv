@@ -1,20 +1,31 @@
 name,project
+Azure,=SKIP
+GoogleCloudPlatform,=SKIP
+Microsoft,=SKIP
+apache,=SKIP
+aws,=SKIP
+cloudfoundry,=SKIP
+cloudfoundry-attic,=SKIP
+cloudfoundry-community,=SKIP
+cloudfoundry-incubator,=SKIP
+cloudfoundry-samples,=SKIP
+google,=SKIP
+openstack,=SKIP
 01org,Intel Open Source Technology Center
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
 CartoDB,CARTO
-ChromeDevTools,Chrome/Chromium
-ChromeExtensionStore,Chrome/Chromium
-ChromiumWebApps,Chrome/Chromium
+ChromeDevTools,Chromium
+ChromeExtensionStore,Chromium
+ChromiumWebApps,Chromium
 CleverRaven,Cataclysm-DDA
 DataDog,Datadog
-GoogleChrome,Chrome/Chromium
-GoogleCloudPlatform,Google Cloud
+GoogleChrome,Chromium
 IBM-Bluemix,IBM Bluemix
 KSP-CKAN,CKAN
 MarlinFirmware,Marlin
-MobileChromeApps,Chrome/Chromium
+MobileChromeApps,Chromium
 OfficeDev,Office Developer
 OpenStack-mobile,OpenStack Mobile
 OpenStackCookbook,OpenStack Cookbook
@@ -32,7 +43,6 @@ alphagov,Government Digital Service
 ampproject,AMP
 ansible,Ansible
 ant-design,Ant Design
-apache,Apache (other)
 apache-spark,Apache Spark
 apache-spark-on-k8s,Apache Spark
 apachecloudstack,Apache CloudStack
@@ -40,7 +50,6 @@ apacheignite,Apache Ignite
 aspnet,ASP.net
 atom,Atom
 auth0,Auth0
-aws,Amazon Web Services
 betaflight,Betaflight
 boostorg,Boost
 brave,Brave Software
@@ -50,14 +59,9 @@ cakephp,CakePHP
 caskroom,Homebrew Cask
 cfpb,Consumer Financial Protection Bureau
 chef,Chef
-chrome-enhanced-history,Chrome/Chromium
-chromium,Chrome/Chromium
-chromiumify,Chrome/Chromium
-cloudfoundry,Cloud Foundry
-cloudfoundry-attic,Cloud Foundry
-cloudfoundry-community,Cloud Foundry
-cloudfoundry-incubator,Cloud Foundry
-cloudfoundry-samples,Cloud Foundry
+chrome-enhanced-history,Chromium
+chromium,Chromium
+chromiumify,Chromium
 cms-sw,CMS Offline Software
 cockroachdb,Cockroach Labs
 codecombat,CodeCombat
@@ -86,7 +90,6 @@ github,GitHub
 gitlab,GitLab
 gitlabhq,GitLab
 godotengine,Godot Engine
-google,Google (other)
 grpc,gRPC
 grpc-ecosystem,gRPC
 guardian,The Guardian
@@ -129,7 +132,6 @@ odoo,Odoo
 openhab,openHAB
 openshift,OpenShift
 openssl,OpenSSL
-openstack,OpenStack (other)
 openstack-ansible,OpenStack Ansible
 openstack-charmers,OpenStack Charmers
 openstack-dev,OpenStack Dev

@@ -9,6 +9,17 @@ It uses:
 - urls file which defines URLs for defined projects (separate file because in hints file we would have to duplicate data for each project ) (1 Project --> 1 URL)
 - default map file which defines non standard names for projects generated automatically via groupping by org (like aspnet --> ASP.net) or to group multiple orgs and/or repos into single project. It is a last step of project name mapping
 
+It also uses `map/projects_statistics.csv` file to get a list of projects that needs to be included in rank statistics.
+File format is:
+```
+project
+project1
+project2
+...
+projectN
+```
+Output rank statistics file is `projects/projects_ranks.txt`
+
 # Example use:
 `ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv skip.csv ranges.csv`
 
@@ -47,8 +58,10 @@ Angular,angular.io
 name,project
 aspnet,ASP.net
 nixpkgs,NixOS
+Azure,=SKIP
 ...
 ```
+Special flag =SKIP  for project mean that this org should NOT be groupped
 
 `skip.csv` CSV file that contain lists of repos and/or orgs and/or projects to be skipped in analysis:
 ```

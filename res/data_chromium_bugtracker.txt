@@ -6,3 +6,6 @@ Sum = 68599
 Authors: 834?
 https://chromium.googlesource.com/chromium/src.git/+/master/AUTHORS
 
+From: https://www.openhub.net/p/chrome
+contributors: 1751
+commits: 77562
