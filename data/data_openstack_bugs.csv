@@ -41,9 +41,9 @@ OpenStack Murano,comments,820
 OpenStack Mistral,comments,720
 OpenStack API,comments,130
 OpenStack Community,comments,60
-OpenStack Tracking Repo,issues,10125
-OpenStack Tracking Repo,prs,15200
-OpenStack Tracking Repo,comments,30500
+OpenStack Other Repos,issues,10125
+OpenStack Other Repos,prs,15200
+OpenStack Other Repos,comments,30500
 OpenStack Stackalytics,issues,50
 OpenStack Stackalytics,prs,75
 OpenStack Stackalytics,comments,150
