@@ -239,7 +239,8 @@ Dates: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 3 -d "|"
 
 - GitLab estimation and details here: `res/gitlab_estims.txt`
 
-# Most Up to date process to generate all data for Top 40 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
+# Most Up to date process
+To generate all data for Top 40 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
 
 - Fetch all data needed using BigQuery (once - or use data already fetched present in this repo).
 - If fetched new BigQuery data then rerun special projects BigQuery analysis scripts: ./shells/: run_apache.sh, run_chrome_chromium.sh, run_cncf.sh, run_openstack.sh
