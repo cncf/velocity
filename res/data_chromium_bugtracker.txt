@@ -6,6 +6,29 @@ Sum = 68599
 Authors: 834?
 https://chromium.googlesource.com/chromium/src.git/+/master/AUTHORS
 
+Should be skipped! Do not use OpenHub (unreliable)
 From: https://www.openhub.net/p/chrome
 contributors: 1751
 commits: 77562
+
+Git one liner on Google Chromium repo cloned by `git clone https://chromium.googlesource.com/chromium/chromium`
+121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
+121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
+13051: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
+
+chromium/chromium from Google Source have last commit on 2014-07-23, we can
+extrapolate authors (%aE) and commits (%H) using data from few years before
+
+git log --since "2013-07-23" --until "2014-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 1380 (+279)
+git log --since "2012-07-23" --until "2013-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 1101 (+240)
+git log --since "2011-07-23" --until "2012-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 861 (+232)
+git log --since "2010-07-23" --until "2011-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 629 (+239)
+git log --since "2009-07-23" --until "2010-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 390 (+155)
+git log --since "2008-07-23" --until "2009-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 235 (+235)
+git log --since "2007-07-23" --until "2008-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 0
+
+Project start: git log --since "2008-07-23" --until "2009-07-23" --pretty=format:"%ai" | sort | head
+2008-07-26 18:05:13 +0000
+
+We can also clone chromium/src repo: git clone https://chromium.googlesource.com/chromium/src
+

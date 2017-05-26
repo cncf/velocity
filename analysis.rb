@@ -435,6 +435,8 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges, fpstats, frep)
   puts "See indices of projects contain something in name: `res.map.with_index { |e, i| [e, i] }.select { |e| e[0][0].include?('OpenStack') }.map { |e| \"\#{e[1]} \#{e[0][0]}\" }`"
   puts "Nice view Top 50: `res.map.with_index { |e,i| \"\#{i+1} \#{e[0]}\" }[0..49]`"
   puts "Dan loves it: `res[res.map { |i| i[0] }.index('Google Cloud')][2][:items].map { |i| [i['repo'], i['commits'], i['issues'], i['prs'], i['authors'].split(',').count] }.sort_by { |i| -i[1] }.map { |i| \"\#{i[0]}, commits: \#{i[1]}, issues: \#{i[2]}, PRs: \#{i[3]}, authors: \#{i[4]}\" }`"
+  puts "See Project's specific repo: `res[res.map { |i| i[0] }.index('openSUSE')][2][:items].select { |i| i['repo'] == 'openSUSE/kernel' }`"
+  puts "Project's Repo's real authors count: `res[res.map { |i| i[0] }.index('openSUSE')][2][:items].select { |i| i['repo'] == 'openSUSE/kernel' }.first['authors'].split(',').count`"
 
   binding.pry
 

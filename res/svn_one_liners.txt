@@ -1,0 +1,8 @@
+Number of commits: svn log -q -r {2016-05-01}:{2017-05-01} | sed '/^-/ d' | cut -f 1 -d "|" | sort | uniq | wc -l
+Number of authors: svn log -q -r {2016-05-01}:{2017-05-01} | sed '/^-/ d' | cut -f 2 -d "|" | sort | uniq | wc -l
+
+See:
+Revisions: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 1 -d "|"
+Authors: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 2 -d "|"
+Dates: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 3 -d "|"
+

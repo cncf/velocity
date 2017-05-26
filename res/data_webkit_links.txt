@@ -14,3 +14,25 @@ WebKit,authors,594 (counted from https://webkit.org/team/#contributors): reviewe
 WebKit,prs,6520 (commits/2 estimate)
 WebKit,comments,35000 (issues+commits)
 WebKit.activity,77000 (sum of all above)
+
+
+Gitdm (2016-05-01 - 2017-05-01):
+Processed 13046 csets from 121 developers
+6 employers found
+A total of 10394999 lines added, 2808437 removed (delta 7586562)
+
+Git one liner (For last year 2016-05-01 - 2017-05-01):
+121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
+121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
+13051: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
+
+Git one liner for all time:
+Authors: 648: `git log --pretty=format:"%cE" | sort | uniq | wc -l`
+Commits: 189534: `git log --pretty=format:"%H" | sort | uniq | wc -l`
+
+
+So usually:
+From git: commits, authors
+From bugtracking: issues
+Estimate PRs somehow, Comments can be: commits + issues (+ PRs for instance)
+Activity = issues + PRs + commits + comments + authors

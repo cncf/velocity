@@ -1,4 +1,5 @@
 name,project
+01org,=SKIP
 Azure,=SKIP
 GoogleCloudPlatform,=SKIP
 Microsoft,=SKIP
@@ -10,9 +11,9 @@ cloudfoundry-community,=SKIP
 cloudfoundry-incubator,=SKIP
 cloudfoundry-samples,=SKIP
 google,=SKIP
+openSUSE,=SKIP
 openstack,=SKIP
 w3c,=SKIP
-01org,Intel Open Source Technology Center
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office

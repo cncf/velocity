@@ -266,6 +266,7 @@ Nylas,nylas.com
 OPAM,opam.ocaml.org
 Odoo,odoo.com
 Office Developer,dev.office.com
+Open Build Service,openbuildservice.org
 Open Management Infrastructure,github.com/Microsoft/omi
 OpenHTF,github.com/google/openhtf
 OpenRCT2,openrct2.website
@@ -287,7 +288,7 @@ OpenStack Infra,openstack.org
 OpenStack Keystone,openstack.org
 OpenStack Korean,openstack.org
 OpenStack Manila,openstack.org
-OpenStack Manual,openstack.org
+OpenStack Manuals,openstack.org
 OpenStack Mistral,openstack.org
 OpenStack Mobile,openstack.org
 OpenStack Murano,openstack.org
@@ -424,6 +425,7 @@ Yogstation13,yogstation.net
 ZEIT,zeit.co
 Zalando,tech.zalando.com
 Zend Framework,framework.zend.com
+Zypper,en.opensuse.org/Portal:Zypper
 advocacy.mozilla.org,advocacy.mozilla.org
 bedrock,mozilla.org
 benchmark,github.com/google/benchmark
@@ -449,8 +451,11 @@ neveragain.tech,neveragain.tech
 npm,npmjs.com
 openHAB,openhab.org
 openSUSE,opensuse.org
-osquery,osquery.io
-ownCloud,owncloud.org
+openSUSE Kernel,kernel.opensuse.org
+openSUSE Kernel source,kernel.opensuse.org
+openSUSE SaltStack,github.com/openSUSE/salts
+oosquery,osquery.io
+ownCloub,oowncloud.org
 rkt,github.com/rkt/rkt
 science.mozilla.org,science.mozilla.org
 systemd,freedesktop.org/wiki/Software/systemd

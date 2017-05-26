@@ -819,6 +819,11 @@ mozilla/yogafire,Firefox
 mozilla/zamboni,Firefox
 mozilla/zippy,Firefox
 ocaml/opam-repository,OPAM
+openSUSE/kernel,openSUSE Kernel
+openSUSE/kernel-source,openSUSE Kernel source
+openSUSE/open-build-service,Open Build Service
+openSUSE/salt,openSUSE SaltStack
+openSUSE/zypper,Zypper
 openstack-charmers/charm-glance-simplestreams-sync,OpenStack Glance
 openstack-charmers/charm-interface-keystone,OpenStack Keystone
 openstack-charmers/charm-interface-keystone-domain-backend,OpenStack Keystone
@@ -834,7 +839,7 @@ openstack-charmers/release-tools,OpenStack Tools
 openstack-dev/heat-cfnclient,OpenStack Heat
 openstack-hyper-v/ewsapi,OpenStack API
 openstack-hyper-v/puppet-petools,OpenStack Tools
-openstack-infra/infra-manual,OpenStack Manual
+openstack-infra/infra-manual,OpenStack Manuals
 openstack-infra/release-tools,OpenStack Tools
 openstack-kr/ubuntu-script-community-ver,OpenStack Community
 openstack-snaps/snap-glance,OpenStack Glance
@@ -876,7 +881,7 @@ openstack/ci-cd-pipeline-app-murano,OpenStack Murano
 openstack/cinder,OpenStack Cinder
 openstack/cinder-fusioncompute,OpenStack Cinder
 openstack/cinder-specs,OpenStack Cinder
-openstack/clouddocs-maven-plugin,OpenStack Manual
+openstack/clouddocs-maven-plugin,OpenStack Manuals
 openstack/deb-cinder,OpenStack Cinder
 openstack/deb-glance,OpenStack Glance
 openstack/deb-heat,OpenStack Heat
@@ -912,7 +917,7 @@ openstack/deb-python-muranoclient,OpenStack Murano
 openstack/deb-python-neutron-lib,OpenStack Neutron
 openstack/deb-python-neutronclient,OpenStack Neutron
 openstack/deb-python-novaclient,OpenStack Nova
-openstack/deb-python-openstackdocstheme,OpenStack Manual
+openstack/deb-python-openstackdocstheme,OpenStack Manuals
 openstack/deb-python-os-api-ref,OpenStack API
 openstack/deb-python-swiftclient,OpenStack Swift
 openstack/deb-python-testtools,OpenStack Tools
@@ -920,7 +925,7 @@ openstack/deb-swift,OpenStack Swift
 openstack/deb-swift-bench,OpenStack Swift
 openstack/deb-swift-plugin-s3,OpenStack Swift
 openstack/devstack-tools,OpenStack Tools
-openstack/docs-specs,OpenStack Manual
+openstack/docs-specs,OpenStack Manuals
 openstack/ec2-api,OpenStack API
 openstack/freezer-api,OpenStack API
 openstack/fuel-ccp-cinder,OpenStack Cinder
@@ -931,7 +936,7 @@ openstack/fuel-ccp-keystone,OpenStack Keystone
 openstack/fuel-ccp-murano,OpenStack Murano
 openstack/fuel-ccp-neutron,OpenStack Neutron
 openstack/fuel-ccp-nova,OpenStack Nova
-openstack/fuel-docs,OpenStack Manual
+openstack/fuel-docs,OpenStack Manuals
 openstack/fuel-plugin-cinder-gcs,OpenStack Cinder
 openstack/fuel-plugin-cinder-kaminario,OpenStack Cinder
 openstack/fuel-plugin-cinder-netapp,OpenStack Cinder
@@ -1024,8 +1029,8 @@ openstack/openstack-ansible-os_neutron,OpenStack Neutron
 openstack/openstack-ansible-os_nova,OpenStack Nova
 openstack/openstack-ansible-os_swift,OpenStack Swift
 openstack/openstack-doc-tools,OpenStack Tools
-openstack/openstack-manuals,OpenStack Manual
-openstack/openstackdocstheme,OpenStack Manual
+openstack/openstack-manuals,OpenStack Manuals
+openstack/openstackdocstheme,OpenStack Manuals
 openstack/os-api-ref,OpenStack API
 openstack/os-performance-tools,OpenStack Tools
 openstack/os-xenapi,OpenStack API
@@ -1033,7 +1038,7 @@ openstack/oslo.tools,OpenStack Tools
 openstack/osops-tools-contrib,OpenStack Tools
 openstack/osops-tools-generic,OpenStack Tools
 openstack/osops-tools-monitoring,OpenStack Tools
-openstack/performance-docs,OpenStack Manual
+openstack/performance-docs,OpenStack Manuals
 openstack/puppet-cinder,OpenStack Cinder
 openstack/puppet-ec2api,OpenStack API
 openstack/puppet-glance,OpenStack Glance
@@ -1085,7 +1090,7 @@ openstack/swiftonhpss,OpenStack Swift
 openstack/tacker-horizon,OpenStack Horizon
 openstack/tempest-horizon,OpenStack Horizon
 openstack/third-party-ci-tools,OpenStack Tools
-openstack/tripleo-docs,OpenStack Manual
+openstack/tripleo-docs,OpenStack Manuals
 openstack/tripleo-heat-templates,OpenStack Heat
 openstack/xenapi-os-testing,OpenStack API
 palantir/atlasdb,AtlasDB
