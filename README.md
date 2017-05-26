@@ -219,6 +219,7 @@ For authors and commits tried 3 different tools: our cncf/gitdm on their webkit/
 Authors: 121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
 Authors: 121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
 Commits: 13051: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
+Our cncf/gitdm output files are also stored here: `res/webkit/`: WebKit_2016-05-01_2017-05-01.csv  WebKit_2016-05-01_2017-05-01.txt
 
 And also tried SVN one liner on their original SVN repo (Github is only a mirror): 
 To fetch SVN repo:
@@ -238,6 +239,13 @@ Dates: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 3 -d "|"
 
 - GitLab estimation and details here: `res/gitlab_estims.txt`
 
+# Most Up to date process to generate all data for Top 40 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
+
+- Fetch all data needed using BigQuery (once - or use data already fetched present in this repo).
+- If fetched new BigQuery data then rerun special projects BigQuery analysis scripts: ./shells/: run_apache.sh, run_chrome_chromium.sh, run_cncf.sh, run_openstack.sh
+- To just regenerate all other data: run `./shells/unlimited_both.sh`
+- See per project ranks statistics: `projects/projects_ranks.txt
+- Get final output file `projects/unlimited_both.csv` and import it on A50 cell in `https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing` chart
 
 # Results:
 
