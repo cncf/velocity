@@ -3,7 +3,7 @@ issues last year=66800 (10 month exact data * 1,1) (chromium)
 issues 1799 (chromedriver)
 Sum = 68599
 
-Authors: 834?
+Authors: 834 (inaccurate from master/AUTHORS):
 https://chromium.googlesource.com/chromium/src.git/+/master/AUTHORS
 
 Should be skipped! Do not use OpenHub (unreliable)

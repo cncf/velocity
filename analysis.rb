@@ -4,7 +4,7 @@ require './comment'
 
 # It also uses `map/projects_statistics.csv` file to get a list of projects that needs to be included in rank statistics.
 # Output rank statistics file is `projects/project_ranks.txt`
-def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges, fpstats, frep)
+def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   sort_col = 'authors'
 
   # Repos, Orgs and Projects to skip
@@ -215,19 +215,6 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges, fpstats, frep)
     end
   end
   return unless urls_found
-
-  # Read list of projects to generate statistics for
-  pstats = {}
-  CSV.foreach(fpstats, headers: true) do |row|
-    next if is_comment row
-    h = row.to_h
-    proj = h['project']
-    if pstats.key? proj
-      puts "Project #{proj} already present in projects statistics file"
-      return
-    end
-    pstats[proj] = true
-  end
 
   # Analysis:
   # Get repo name from CSV row
@@ -458,34 +445,6 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges, fpstats, frep)
       csv << [repo]
     end
   end
-
-  # Generate project rank statistics
-  props = nil
-  stats = {}
-  pstats.keys.each do |proj|
-    idx = res.map { |i| i[0] }.index(proj)
-    unless idx
-      puts "Project #{proj} not found, aborting stats"
-      return
-    end
-    obj = res[idx][2][:sum]
-    props = obj.keys.select { |key| obj[key].to_i.to_s == obj[key].to_s } - %w(authors_alt1 authors_alt2) unless props
-    props.each do |prop|
-      stats[proj] = {} unless stats.key? proj
-      stats[proj][prop] = res.map { |r| [r[2][:sum][prop], r] }.sort_by { |r| -r[0] }.map.with_index { |r, i| [i + 1, r[1][0], r[1][2][:sum][prop]] }.select { |r| r[1] == proj }.first
-    end
-  end
-
-  File.open(frep, 'w') do |rep|
-    stats.keys.sort.each do |proj|
-      rep.write("#{proj}:\n")
-      stats[proj].keys.sort.each do |prop|
-        v = stats[proj][prop]
-        rep.write("\t\##{v[0]} by #{prop} (#{v[2]})\n")
-      end
-      rep.write("\n")
-    end
-  end
 end
 
 if ARGV.size < 7
@@ -493,4 +452,4 @@ if ARGV.size < 7
   exit(1)
 end
 
-analysis(ARGV[0], ARGV[1], ARGV[2], ARGV[3], ARGV[4], ARGV[5], ARGV[6], 'map/projects_statistics.csv', 'projects/projects_ranks.txt')
+analysis(ARGV[0], ARGV[1], ARGV[2], ARGV[3], ARGV[4], ARGV[5], ARGV[6])

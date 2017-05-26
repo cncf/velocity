@@ -9,17 +9,6 @@ It uses:
 - urls file which defines URLs for defined projects (separate file because in hints file we would have to duplicate data for each project ) (1 Project --> 1 URL)
 - default map file which defines non standard names for projects generated automatically via groupping by org (like aspnet --> ASP.net) or to group multiple orgs and/or repos into single project. It is a last step of project name mapping
 
-It also uses `map/projects_statistics.csv` file to get a list of projects that needs to be included in rank statistics.
-File format is:
-```
-project
-project1
-project2
-...
-projectN
-```
-Output rank statistics file is `projects/projects_ranks.txt`
-
 # Example use:
 `ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv skip.csv ranges.csv`
 
@@ -200,6 +189,55 @@ Apache (other),issues,52578
 ```
 This allows to update specific keys in specific projects with data taken from other source than GitHub.
 It is used now to update github data with issues statistics from jira (for apache projects).
+
+
+Tool to create per project ranks (for all project's numeric properties) `report_projects_ranks.rb` & `shells/report_project_ranks.sh`
+Shell script projects from `projects/unlimited_both.csv` and uses: `map/projects_statistics.csv` file to get a list of projects that needs to be included in rank statistics.
+File format is:
+```
+project
+project1
+project2
+...
+projectN
+```
+Output rank statistics file is `projects/projects_ranks.txt`
+
+There are also special cases (see `./shells/unlimited_both.sh` that call all cases in correct order)
+Some details about external data used to add non GitHub projects:
+- How to find Apache issues in Jira: `res/data_apache_jira.query`
+
+- Chromium case: (details here: `res/data_chromium_bugtracker.txt`), issues from their bugtracker, number of authors and commits in date range via `git log` oneliner:
+Must be called in Git repo cloned from GoogleSource (not from github), here: `git clone https://chromium.googlesource.com/chromium/src`
+Commits: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 77437
+Authors: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1663
+
+- OpenStack case here: `res/data_openstack_lanuchpad.query` data from their launchpad
+
+- WebKit case here: `res/data_webkit_links.txt` issues from their bugtracker: `https://webkit.org/reporting-bugs/`
+For authors and commits tried 3 different tools: our cncf/gitdm on their webkit/WebKit github repo, git one liner on the same repo (`git clone git://git.webkit.org/WebKit.git WebKit`):
+Authors: 121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
+Authors: 121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
+Commits: 13051: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
+
+And also tried SVN one liner on their original SVN repo (Github is only a mirror): 
+To fetch SVN repo:
+`svn checkout https://svn.webkit.org/repository/webkit/trunk WebKit`
+or:
+`tar jxvf WebKit-SVN-source.tar.bz2`
+`cd webkit`
+`svn switch --relocate http://svn.webkit.org/repository/webkit/trunk https://svn.webkit.org/repository/webkit/trunk`
+And then run their script: `update-webkit`
+
+Number of commits: svn log -q -r {2016-05-01}:{2017-05-01} | sed '/^-/ d' | cut -f 1 -d "|" | sort | uniq | wc -l
+Number of authors: svn log -q -r {2016-05-01}:{2017-05-01} | sed '/^-/ d' | cut -f 2 -d "|" | sort | uniq | wc -l
+To See data from SVN:
+Revisions: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 1 -d "|"
+Authors: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 2 -d "|"
+Dates: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 3 -d "|"
+
+- GitLab estimation and details here: `res/gitlab_estims.txt`
+
 
 # Results:
 
