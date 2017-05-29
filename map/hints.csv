@@ -1106,6 +1106,19 @@ twitter/finagle,Finagle
 twitter/finatra,Finatra
 twitter/heron,Heron
 twitter/scrooge,Scrooge
+vmware/docker-volume-vsphere,VMware vSphere
+vmware/govmomi,VMware SDKs
+vmware/harbor,VMware Harbor
+vmware/lightwave,VMware Lightwave
+vmware/photon,VMware Photon
+vmware/photon-controller,VMware Photon
+vmware/photon-controller-go-sdk,VMware SDKs
+vmware/powernsx,VMware PowerNSX
+vmware/pyvmomi,VMware SDKs
+vmware/pyvmomi-community-samples,VMware SDKs
+vmware/rbvmomi,VMware SDKs
+vmware/vic,VMware vSphere
+vmware/xenon,VMware Xenon
 w3c/ServiceWorker,W3C Service Worker
 w3c/aria,Accessible Rich Internet Applications
 w3c/browser-payment-api,W3C Web Payments Browser API

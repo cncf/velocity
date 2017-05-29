@@ -1,5 +1,6 @@
 require 'csv'
 require 'pry'
+require 'to_regexp'
 require './comment'
 
 def report_ranks(fin, fpstats, frep)
@@ -30,10 +31,28 @@ def report_ranks(fin, fpstats, frep)
     res[proj] = h
   end
 
+  # Generate list of projects
+  pstats = pstats.keys.sort
+  out = []
+  all_projs = res.keys.sort
+  pstats.each do |proj|
+    if proj[0] == '/'
+      projs = all_projs.select {|p| p.match(proj.to_regexp) }
+      projs.each { |p| out << p }
+      next
+    end
+    unless res[proj]
+      puts "Project #{proj} not found, aborting stats"
+      return
+    end
+    out << proj
+  end
+  pstats = out.sort
+ 
   # Generate project rank statistics
   props = nil
   stats = {}
-  pstats.keys.each do |proj|
+  pstats.each do |proj|
     obj = res[proj]
     unless obj
       puts "Project #{proj} not found, aborting stats"
