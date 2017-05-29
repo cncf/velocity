@@ -5,11 +5,6 @@ GoogleCloudPlatform,=SKIP
 Microsoft,=SKIP
 apache,=SKIP
 aws,=SKIP
-cloudfoundry,=SKIP
-cloudfoundry-attic,=SKIP
-cloudfoundry-community,=SKIP
-cloudfoundry-incubator,=SKIP
-cloudfoundry-samples,=SKIP
 google,=SKIP
 openSUSE,=SKIP
 openstack,=SKIP
@@ -64,6 +59,11 @@ chef,Chef
 chrome-enhanced-history,Chromium
 chromium,Chromium
 chromiumify,Chromium
+cloudfoundry,Cloud Foundry
+cloudfoundry-attic,Cloud Foundry Attic
+cloudfoundry-community,Cloud Foundry Community
+cloudfoundry-incubator,Cloud Foundry Incubator
+cloudfoundry-samples,Cloud Foundry Samples
 cms-sw,CMS Offline Software
 cockroachdb,Cockroach Labs
 codecombat,CodeCombat

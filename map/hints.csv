@@ -448,6 +448,8 @@ cloudfoundry-incubator/bosh-windows-stemcell-builder,BOSH
 cloudfoundry-incubator/bosh-workspace,BOSH
 cloudfoundry-incubator/dotnet-core-buildpack,CF Buildpacks
 cloudfoundry-incubator/haproxy-boshrelease,BOSH
+cloudfoundry/bbs,Cloud Foundry Diego
+cloudfoundry/binary-builder,Cloud Foundry
 cloudfoundry/binary-buildpack,CF Buildpacks
 cloudfoundry/bosh,BOSH
 cloudfoundry/bosh-acceptance-tests,BOSH
@@ -466,19 +468,51 @@ cloudfoundry/bosh-utils,BOSH
 cloudfoundry/buildpack-packager,CF Buildpacks
 cloudfoundry/buildpackapplifecycle,CF Buildpacks
 cloudfoundry/buildpacks-ci,CF Buildpacks
+cloudfoundry/capi-release,CF Cloud Controller
+cloudfoundry/cf-acceptance-tests,CF Acceptance tests
+cloudfoundry/cf-deployment,Cloud Foundry
+cloudfoundry/cf-java-client,Cloud Foundry API
+cloudfoundry/cf-mysql-release,Cloud Foundry MySQL Service
+cloudfoundry/cf-release,BOSH
+cloudfoundry/cli,Cloud Foundry CLI
+cloudfoundry/cloud_controller_ng,CF Cloud Controller
+cloudfoundry/diego-release,Cloud Foundry Diego
+cloudfoundry/docs-book-cloudfoundry,Cloud Foundry Docs
 cloudfoundry/docs-bosh,BOSH
 cloudfoundry/docs-buildpacks,CF Buildpacks
+cloudfoundry/docs-cf-admin,Cloud Foundry Docs
+cloudfoundry/docs-cloudfoundry-concepts,Cloud Foundry Docs
+cloudfoundry/docs-deploying-cf,Cloud Foundry Docs
+cloudfoundry/docs-dev-guide,Cloud Foundry Docs
+cloudfoundry/docs-loggregator,Cloud Foundry Docs
+cloudfoundry/docs-running-cf,Cloud Foundry Docs
+cloudfoundry/docs-services,Cloud Foundry Docs
 cloudfoundry/dotnet-core-buildpack,CF Buildpacks
+cloudfoundry/dropsonde,CF Dropsonde
+cloudfoundry/executor,CF Executor
+cloudfoundry/garden-runc-release,CF Guardian
 cloudfoundry/go-buildpack,CF Buildpacks
+cloudfoundry/gorouter,CF GoRouter
+cloudfoundry/grootfs,CF Guardian
+cloudfoundry/guardian,CF Guardian
+cloudfoundry/homebrew-tap,CF Homebrew Tap
 cloudfoundry/ibm-websphere-liberty-buildpack,CF Buildpacks
 cloudfoundry/java-buildpack,CF Buildpacks
 cloudfoundry/java-buildpack-auto-reconfiguration,CF Buildpacks
 cloudfoundry/java-buildpack-memory-calculator,CF Buildpacks
+cloudfoundry/loggregator,Cloud Native Logging
+cloudfoundry/mega-ci,CF CI Infrastructure
+cloudfoundry/noaa,CF NOAA
 cloudfoundry/nodejs-buildpack,CF Buildpacks
 cloudfoundry/php-buildpack,CF Buildpacks
+cloudfoundry/pmc-notes,CF PMC Notes
 cloudfoundry/python-buildpack,CF Buildpacks
+cloudfoundry/rep,Cloud Foundry Diego
 cloudfoundry/ruby-buildpack,CF Buildpacks
+cloudfoundry/sprout-capi,CF sprout-wrap
 cloudfoundry/staticfile-buildpack,CF Buildpacks
+cloudfoundry/uaa,CF UAA Server
+cloudfoundry/uaa-release,CF UAA Server
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x
 coredns/coredns-grpc,CoreDNS
