@@ -1,2 +1,2 @@
 #!/bin/sh
-ruby report_projects_ranks.rb projects/unlimited_both.csv map/cncf_projects_statistics.csv projects/projects_ranks.txt
+ruby report_projects_ranks.rb projects/unlimited_both.csv reports/cncf_projects_statistics.csv reports/projects_ranks.txt

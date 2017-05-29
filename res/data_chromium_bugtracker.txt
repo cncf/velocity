@@ -6,6 +6,12 @@ Sum = 68599
 Authors: 834 (inaccurate from master/AUTHORS):
 https://chromium.googlesource.com/chromium/src.git/+/master/AUTHORS
 
+Issues: 5/29/2017 (7074 for opened>2017/5/1)
+24568: 2017-01-01 - 2017-05-01
+53056: 206-08-01 - 207-05-01 (9 months)
+68972 = 1.3 * 53056.
+Quite exact.
+
 Should be skipped! Do not use OpenHub (unreliable)
 From: https://www.openhub.net/p/chrome
 contributors: 1751

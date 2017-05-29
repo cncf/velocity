@@ -1,0 +1,80 @@
+CNI:
+	#3305 by activity (1777)
+	#1658 by authors (58)
+	#2060 by comments (1213)
+	#15376 by commits (126)
+	#4183 by issues (139)
+	#2053 by prs (299)
+
+CoreDNS:
+	#7386 by activity (740)
+	#11440 by authors (13)
+	#5694 by comments (335)
+	#13903 by commits (146)
+	#5624 by issues (101)
+	#3732 by prs (158)
+
+Fluentd:
+	#400 by activity (9366)
+	#367 by authors (149)
+	#479 by comments (4224)
+	#613 by commits (2546)
+	#380 by issues (1031)
+	#246 by prs (1565)
+
+Kubernetes:
+	#2 by activity (301446)
+	#3 by authors (1759)
+	#2 by comments (214659)
+	#28 by commits (15179)
+	#3 by issues (27403)
+	#2 by prs (44205)
+
+Linkerd:
+	#3136 by activity (1885)
+	#4687 by authors (28)
+	#3599 by comments (624)
+	#4353 by commits (568)
+	#1790 by issues (319)
+	#1647 by prs (374)
+
+OpenTracing:
+	#1223 by activity (4512)
+	#880 by authors (89)
+	#925 by comments (2614)
+	#2550 by commits (907)
+	#1548 by issues (364)
+	#922 by prs (627)
+
+Prometheus:
+	#96 by activity (22491)
+	#69 by authors (378)
+	#81 by comments (13062)
+	#418 by commits (3177)
+	#69 by issues (2835)
+	#64 by prs (3417)
+
+containerd:
+	#1743 by activity (3306)
+	#959 by authors (84)
+	#1326 by comments (1860)
+	#6444 by commits (379)
+	#3012 by issues (195)
+	#593 by prs (872)
+
+gRPC:
+	#32 by activity (42541)
+	#83 by authors (348)
+	#26 by comments (25424)
+	#323 by commits (3767)
+	#27 by issues (4946)
+	#15 by prs (8404)
+
+rkt:
+	#451 by activity (8820)
+	#486 by authors (125)
+	#278 by comments (6039)
+	#4206 by commits (584)
+	#521 by issues (832)
+	#312 by prs (1365)
+
