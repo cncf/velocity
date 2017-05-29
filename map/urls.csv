@@ -12,6 +12,7 @@ AMP,ampproject.org
 ASP.net,asp.net
 AWS SDKs,aws.amazon.com
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
+ActiveShipping,shopify.github.io/active_shipping
 Activity Campaign site,activate.mozilla.community
 Addons-Server,addons.mozilla.org
 AirSim,github.com/Microsoft/AirSim
@@ -201,6 +202,7 @@ LinkedIn,linkedin.com
 Linkerd,linkerd.io
 Linux kernel,kernel.org
 Linux sunxi,linux-sunxi.org
+Liquid,liquidmarkup.org
 Lottie,airbnb.design/lottie
 MAME,mamedev.org
 MAPS.ME,maps.me
@@ -355,6 +357,11 @@ Sequelize,docs-sequelizejs.com
 Serverless Framework,serverless.com
 Shaka Player,github.com/google/shaka-player
 Shopify,shopify.com
+Shopify API,shopify.github.io/shopify_api
+Shopify App,shopify.github.io/shopify_app
+Shopify Docs,help.shopify.com
+Shopify SDKs,developers.shopify.com
+Shopify Timber,shopify.com/timber
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spontanizer,spartan.org.il
@@ -376,9 +383,11 @@ The Odin Project,theodinproject.com
 The Physical Web,physical-web.org
 The Servo Browser Engine,servo.org
 The Void distribution,voidlinux.eu
+Theme Kit,shopify.github.io/themekit
 Thimble,thimble.mozilla.org
 Thrifty,github.com/Microsoft/thrifty
 Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
+Toxiproxy,toxiproxy.io
 Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
 Twitter,twitter.com
