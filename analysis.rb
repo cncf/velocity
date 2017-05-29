@@ -379,10 +379,11 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   res.each_with_index do |item, index|
     sum = item[2][:sum]
     project = sum['project']
-    # ract[project] = item[2][:items].map { |i| [i['activity'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| ("%-8d" % i[0]) + " #{i[1]}" }
     ract[project] = item[2][:items].map { |i| [i['activity'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rcomm[project] = item[2][:items].map { |i| [i['commits'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rauth[project] = item[2][:items].map { |i| [i['authors'].split(',').count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
+    rprs[project] = item[2][:items].map { |i| [i['prs'].split(',').count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
+    riss[project] = item[2][:items].map { |i| [i['issues'].split(',').count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     if !urls.key?(project)
       s = "Project ##{index} (#{sum['mode']}, #{sum[sort_col]}) #{project} (#{sum['org']}) (#{sum['repo']}) have no URL defined"
       if index <= 50

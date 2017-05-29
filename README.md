@@ -192,7 +192,7 @@ It is used now to update github data with issues statistics from jira (for apach
 
 
 Tool to create per project ranks (for all project's numeric properties) `report_projects_ranks.rb` & `shells/report_project_ranks.sh`
-Shell script projects from `projects/unlimited_both.csv` and uses: `map/projects_statistics.csv` file to get a list of projects that needs to be included in rank statistics.
+Shell script projects from `projects/unlimited_both.csv` and uses: `map/cncf_projects_statistics.csv` file to get a list of projects that needs to be included in rank statistics.
 File format is:
 ```
 project
@@ -246,7 +246,7 @@ To generate all data for Top 40 chart: https://docs.google.com/spreadsheets/d/1h
 - If fetched new BigQuery data then rerun special projects BigQuery analysis scripts: ./shells/: run_apache.sh, run_chrome_chromium.sh, run_cncf.sh, run_openstack.sh
 - To just regenerate all other data: run `./shells/unlimited_both.sh`
 - See per project ranks statistics: `projects/projects_ranks.txt
-- Get final output file `projects/unlimited_both.csv` and import it on A50 cell in `https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing` chart
+- Get final output file `projects/unlimited.csv` and import it on A50 cell in `https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing` chart
 
 # Results:
 
