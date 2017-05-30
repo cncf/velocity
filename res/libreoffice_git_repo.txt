@@ -1,0 +1,13 @@
+git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l 
+Commits: 15891
+
+git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l 
+Authors: 279
+
+git log --pretty=format:"%ai" | sort | uniq | tail
+Last commit: 2017-05-30 13:40:53 +0200 (mean current)
+
+All those values are less than values from standard analysis, so will be skipped.
+
+Now issues for LibreOffice: ?
+https://bugs.documentfoundation.org//query.cgi?format=advanced
