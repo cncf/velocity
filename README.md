@@ -239,6 +239,24 @@ Dates: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 3 -d "|"
 
 - GitLab estimation and details here: `res/gitlab_estims.txt`
 
+To add new non-standard project (but from github mirros which can have 0s on comments, commits, issues, prs, activity, authors) follow this route:
+- Copy `BigQuery/org_finder.sql` to clipboard and run this on BigQuery replacing condition for org (for example lower(org.login) like '%your%org%)
+- Examine output org/repos combination (manually on GitHub) and decide about final condition for run final BigQuery
+- Copy `BigQuery/query_apache_projects.sql` into some `BigQuery/query_your_project.sql` then update conditions to those found in the previous step
+- Run the query
+- Save results to table, then export table to GStorage, then download this table as CSV from GStorage into `data/data_your_project_datefrom_date_to.csv`
+- Add this to `shells/unlimited_both.csv`:
+```
+echo "Adding/Updating YourProject case"
+ruby merger.rb data/unlimited.csv data/data_your_project_datefrom_date_to.csv
+```
+- Update `map/range*.csv` - add exception for YourProject (because it can have 0s now - this is output from BigQuery without numeric conditions)
+- Run `shells/unlimited_both.sh` and examine Your Project (few iterations to add correct mapping in `./map/`: hints, defmaps, urls etc.)
+- You can run manually: `ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
+- For example see YourProject rank: `res.map { |i| i[0] }.index('LibreOffice')` or `res[res.map { |i| i[0] }.index('LibreOffice')][2][:sum]`
+- SOme of the values will be missing (like for example PRs for mirror repos)
+- Now comes non standard path, please see `shells/unlimited_both.sh` for non standar data update that comes after final `ruby analysis.rb` call - this is usually different for each non-standard project
+
 # Most Up to date process
 To generate all data for Top 40 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
 

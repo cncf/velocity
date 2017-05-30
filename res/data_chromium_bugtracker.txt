@@ -40,3 +40,20 @@ We can also clone chromium/src repo: git clone https://chromium.googlesource.com
 Finally exact
 Commits: git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l --> 77437
 Authors: git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l --> 1663
+
+Splitting blink:
+Chromium, component Blink, opened > 2016/05/01: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=component%3ABlink&colspec=ID%20Pri%20M%20Stars%20ReleaseBlock%20Component%20Status%20Owner%20Summary%20OS%20Modified&sort=-modified&num=100&start=100
+3385 after 2017-05-01
+35500 after 2016-05-01
+So Blink issues = 32115
+All: 86381
+
+Chromium = 68599 - 32115 = 36484
+Blink issues are 46.82% of all Chromium issues.
+
+Analysis of src/ repo from GoogleSource using cncf/gitdm:chromium_blink.sh
+Non Blink:
+Processed 77329 csets from 1607 developers
+A total of 15496420 lines added, 12420123 removed (delta 3076297)
+Blink:
+

@@ -375,6 +375,7 @@ apacheignite/documentation,Apache Ignite
 apacheignite/drools-ignite,Apache Ignite
 apacheignite/yardstick-ignite,Apache Ignite
 apacheignite/zeppelin-demo,Apache Ignite
+aspnet/Docs,ASP.net Docs
 aws/aws-iot-device-sdk-arduino-yun,AWS SDKs
 aws/aws-iot-device-sdk-embedded-C,AWS SDKs
 aws/aws-iot-device-sdk-java,AWS SDKs
@@ -516,6 +517,18 @@ facebook/reason,REASON
 facebook/rocksdb,RocksDB
 facebookincubator/create-react-app,React
 fpco/stackage,Hackage
+github/VisualStudio,GitHub Extension for Visual Studio
+github/backup-utils,GitHub Enterprise Backup Utilities
+github/choosealicense.com,Choosealicense.com
+github/git-lfs,Git Large File Storage
+github/government.github.com,GitHub and Government
+github/hub,GitHub
+github/hubot,Hubot
+github/linguist,Linguist
+github/markup,GitHub Markup
+github/open-source-guide,Open Source Guides
+github/open-source-survey,Open Source Survey
+github/training-kit,GitHub Training Kit
 gitlab/GitLab,GitLab
 gitlabhq/gitlabhq,GitLab
 golang/go,Go

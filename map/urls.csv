@@ -10,6 +10,7 @@ ACE,microsoft.github.io/ace
 ACE Mod,acemod.com
 AMP,ampproject.org
 ASP.net,asp.net
+ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
 AWS SDKs,aws.amazon.com
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
 ActiveShipping,shopify.github.io/active_shipping
@@ -81,6 +82,7 @@ Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
 Checked C,microsoft.com/en-us/research/project/checked-c
 Chef,chef.io/chef
+Choosealicense.com,choosealicense.com
 Chromium,google.com/chrome
 Closure Library,code.google.com/closure/library
 Cloud Foundry,cloudfoundry.org
@@ -140,7 +142,13 @@ FlexboxLayout,github.com/google/flexbox-layout
 Fluentd,fluentd.org
 Flutter,flutter.io
 GGRC,code.google.com/archive/p/ggrc-core
+Git Large File Storage,git-lfs.github.com
 GitHub,github.com
+GitHub Enterprise Backup Utilities,enterprise.github.com
+GitHub Extension for Visual Studio,visualstudio.github.com
+GitHub Markup,github.com/github/markup
+GitHub Training Kit,services.github.com/on-demand
+GitHub and Government,government.github.com
 GitLab,gitlab.com
 Go,golang.org
 Godot Engine,godotengine.org
@@ -178,6 +186,7 @@ HippieStationCode,github.com/HippieStationCode/HippieStation13
 Home Assistant,home-assistant.io
 Homebrew,brew.sh
 Homebrew Cask,caskroom.github.io
+Hubot,hubot.github.com
 Hyper,hyper.is
 Hyperledger Project,hyperledger.org
 IBM Bluemix,bluemix.net
@@ -197,6 +206,7 @@ Kuma,developer.mozilla.org
 LLVM,llvm.org
 Laravel,laravel.com
 Let's Encrypt,letsencrypt.org
+Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
 Linkerd,linkerd.io
 Linux kernel,kernel.org
@@ -269,6 +279,8 @@ Odoo,odoo.com
 Office Developer,dev.office.com
 Open Build Service,openbuildservice.org
 Open Management Infrastructure,github.com/Microsoft/omi
+Open Source Guides,opensource.guide
+Open Source Survey,opensourcesurvey.org
 OpenHTF,github.com/google/openhtf
 OpenRCT2,openrct2.website
 OpenSSL,openssl.org

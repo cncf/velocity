@@ -1,26 +1,26 @@
 CNI:
-	#3308 by activity (1777)
-	#1675 by authors (58)
-	#2062 by comments (1213)
-	#15375 by commits (126)
-	#4166 by issues (139)
-	#2056 by prs (299)
+	#3314 by activity (1777)
+	#1657 by authors (58)
+	#2068 by comments (1213)
+	#15326 by commits (126)
+	#4183 by issues (139)
+	#2061 by prs (299)
 
 CoreDNS:
-	#7396 by activity (740)
-	#11271 by authors (13)
-	#5696 by comments (335)
-	#13949 by commits (146)
-	#5612 by issues (101)
-	#3727 by prs (158)
+	#7404 by activity (740)
+	#11438 by authors (13)
+	#5711 by comments (335)
+	#13920 by commits (146)
+	#5627 by issues (101)
+	#3743 by prs (158)
 
 Fluentd:
 	#400 by activity (9366)
-	#367 by authors (149)
+	#371 by authors (149)
 	#479 by comments (4224)
 	#614 by commits (2546)
-	#381 by issues (1031)
-	#246 by prs (1565)
+	#380 by issues (1031)
+	#245 by prs (1565)
 
 Kubernetes:
 	#2 by activity (301446)
@@ -31,35 +31,35 @@ Kubernetes:
 	#2 by prs (44205)
 
 Linkerd:
-	#3141 by activity (1885)
-	#4538 by authors (28)
-	#3601 by comments (624)
-	#4362 by commits (568)
-	#1790 by issues (319)
-	#1650 by prs (374)
+	#3146 by activity (1885)
+	#4592 by authors (28)
+	#3610 by comments (624)
+	#4368 by commits (568)
+	#1792 by issues (319)
+	#1654 by prs (374)
 
 OpenTracing:
-	#1225 by activity (4512)
-	#889 by authors (89)
+	#1227 by activity (4512)
+	#890 by authors (89)
 	#927 by comments (2614)
-	#2554 by commits (907)
-	#1548 by issues (364)
-	#924 by prs (627)
+	#2557 by commits (907)
+	#1554 by issues (364)
+	#926 by prs (627)
 
 Prometheus:
 	#96 by activity (22491)
-	#67 by authors (378)
+	#66 by authors (378)
 	#81 by comments (13062)
 	#418 by commits (3177)
 	#68 by issues (2835)
 	#63 by prs (3417)
 
 containerd:
-	#1746 by activity (3306)
-	#970 by authors (84)
-	#1328 by comments (1860)
-	#6430 by commits (379)
-	#3017 by issues (195)
+	#1749 by activity (3306)
+	#973 by authors (84)
+	#1330 by comments (1860)
+	#6443 by commits (379)
+	#3022 by issues (195)
 	#594 by prs (872)
 
 gRPC:
@@ -72,9 +72,9 @@ gRPC:
 
 rkt:
 	#451 by activity (8820)
-	#488 by authors (125)
-	#278 by comments (6039)
-	#4221 by commits (584)
-	#522 by issues (832)
-	#312 by prs (1365)
+	#489 by authors (125)
+	#277 by comments (6039)
+	#4227 by commits (584)
+	#521 by issues (832)
+	#311 by prs (1365)
 
