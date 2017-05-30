@@ -15,6 +15,7 @@ def merger(fmerge, fdata)
   # File to update
   updated = []
   repos2 = {}
+  higher = 0
   CSV.foreach(fmerge, headers: true) do |row|
     next if is_comment row
     h = row.to_h
@@ -23,6 +24,12 @@ def merger(fmerge, fdata)
       old = h
       new = repos[repo]
       old.each do |k, v|
+        # binding.pry if v.to_i.to_s == v.to_s
+        if v.to_i.to_s == v.to_s && v.to_i > new[k].to_i
+          puts "Not updating #{k}, current value #{v} higher than new value #{new[k]}"
+          higher += 1
+          next
+        end
         if v != new[k]
           h[k] = new[k]
           updated << [repo, k, v, new[k]]
@@ -45,7 +52,9 @@ def merger(fmerge, fdata)
       added += 1
     end
   end
-  puts "Updated #{updated.count} values, added #{added} values"
+  puts "Updated #{updated.count} values" if updated.count > 0
+  puts "Added #{added} values" if added > 0
+  puts "Skipped #{higher} values because current values were higher than new" if higher > 0
 
   # Write changes back to file to update
   hdr = repos2.values.first.keys

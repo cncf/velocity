@@ -28,6 +28,8 @@ echo "Updating OpenStack projects using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs.csv -1
 echo "Updating Chromium project using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker.csv -1
+echo "Updating LibreOffice project using their git repo"
+ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git.csv -1
 echo "Updating WebKit project using gitdm and other"
 ruby update_projects.rb projects/unlimited_both.csv data/data_webkit_gitdm_and_others.csv -1
 echo "Generating Projects Ranks statistics"

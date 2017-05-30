@@ -17,6 +17,7 @@ repo,project
 18F/openFEC-web-app,Campaign finance for everyone
 18F/tock,tock
 18F/web-design-standards,US Web Design Standards
+=External/Blink,Chromium Blink
 Airbnb/react-native,React
 AngularClass/angular2-webpack-starter,Angular
 Automattic/WP-Job-Manager,WP Calypso

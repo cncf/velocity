@@ -1,5 +1,6 @@
 name,project
 01org,=SKIP
+=External,=SKIP
 Azure,=SKIP
 GoogleCloudPlatform,=SKIP
 Microsoft,=SKIP

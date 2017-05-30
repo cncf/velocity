@@ -24,7 +24,7 @@ def update(fmerge, fdata, n)
     updates[[proj,key]] = h['value']
   end
 
-  updated = 0
+  updated = the_same = higher = 0
   updates.each do |what, value|
     proj, key = what
     unless projects.key? proj
@@ -37,12 +37,20 @@ def update(fmerge, fdata, n)
     end
     if projects[proj][key].to_s == value.to_s
       puts "Project #{proj} already have #{key} = #{value}"
+      the_same += 1
+      next
+    end
+    if projects[proj][key].to_i > value.to_i
+      puts "Project #{proj} have #{key} = #{projects[proj][key]} which is more than #{value}"
+      higher += 1
       next
     end
     projects[proj][key] = value
     updated += 1
   end
-  puts "Updated #{updated} values"
+  puts "Updated #{updated} values" if updated > 0
+  puts "The same #{the_same} values" if the_same > 0
+  puts "Skipped #{higher} values (they already had higher value)" if higher > 0
 
   # Sort by sort_col desc to get list of top projects
   arr = []

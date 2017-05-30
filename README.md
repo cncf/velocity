@@ -238,6 +238,7 @@ Authors: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 2 -d "|
 Dates: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 3 -d "|"
 
 - GitLab estimation and details here: `res/gitlab_estims.txt`
+- LibreOffice case: see `res/libreoffice_git_repo.txt`
 
 To add new non-standard project (but from github mirros which can have 0s on comments, commits, issues, prs, activity, authors) follow this route:
 - Copy `BigQuery/org_finder.sql` to clipboard and run this on BigQuery replacing condition for org (for example lower(org.login) like '%your%org%)

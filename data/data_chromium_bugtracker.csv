@@ -1,10 +1,10 @@
 project,key,value
-Chromium,issues,68599
+Chromium,issues,36484
 # This is from OpenHub (unreliable)
 # Chromium,authors,1751
 # Chromium,commits,77562
-Chromium,authors,1663
-Chromium,commits,77437
+Chromium,authors,1605
+Chromium,commits,77163
 # Chromium,prs,70000
 # Chromium,comments,130000
 # Chromium,activity,200000

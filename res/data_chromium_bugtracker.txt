@@ -52,8 +52,13 @@ Chromium = 68599 - 32115 = 36484
 Blink issues are 46.82% of all Chromium issues.
 
 Analysis of src/ repo from GoogleSource using cncf/gitdm:chromium_blink.sh
-Non Blink:
-Processed 77329 csets from 1607 developers
-A total of 15496420 lines added, 12420123 removed (delta 3076297)
-Blink:
+Blink (files *blink*)
+Processed 1115 csets from 294 developers
+A total of 95560 lines added, 42349 removed (delta 53211)
 
+Non-Blink:
+Processed 77163 csets from 1605 developers
+A total of 15400871 lines added, 12377776 removed (delta 3023095)
+
+This is an all time output fro  processing src/blink subdirectory:
+Processed 164804 csets from 1266 developers
