@@ -64,5 +64,5 @@ This is an all time output fro  processing src/blink subdirectory:
 Processed 164804 csets from 1266 developers
 
 Now to analyse merge/robot commits, generate data file:
-git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE,%H,%s" | sort | uniq > chromium_commits.csv
+git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits.csv
 

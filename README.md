@@ -211,6 +211,13 @@ Some details about external data used to add non GitHub projects:
 Must be called in Git repo cloned from GoogleSource (not from github), here: `git clone https://chromium.googlesource.com/chromium/src`
 Commits: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 77437
 Authors: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1663
+To analyse those commits (and exclude merge and robot commits):
+data/data_chromium_commits.csv, run while in chromium/src repository:
+`git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits.csv`
+Then remove special CSV characters with VI commands: `:%s/"//g`, `:%s/,//g`
+Then add CSV header manually "email,name,hash,subject" and move it to: `data/data_chromium_commits.csv`
+Finally replace '~~~~' with ',' to create correct CSV: `:%s/\~\~\~\~/,/g`
+Then run `ruby commits_analysis.rb data/data_chromium_commits.csv map/skip_commits.csv` or `./shells/chromium_commits_analysis.sh`
 
 - OpenStack case here: `res/data_openstack_lanuchpad.query` data from their launchpad
 

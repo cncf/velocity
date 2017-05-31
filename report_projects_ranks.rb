@@ -63,6 +63,7 @@ def report_ranks(fin, fpstats, frep)
     props.each do |prop|
       stats[proj] = {} unless stats.key? proj
       stats[proj][prop] = res.map { |k, v| [v[prop].to_i, v] }.sort_by { |r| -r[0] }.map.with_index { |r, i| [i + 1, r[1]['project'], r[1][prop]] }.select { |r| r[1] == proj }.first
+      # binding.pry if proj == 'Chromium' && prop == 'commits'
     end
   end
 

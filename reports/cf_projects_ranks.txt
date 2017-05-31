@@ -30,3 +30,11 @@ LibreOffice:
 	#7050 by issues (77)
 	#15071 by prs (24)
 
+SchweizerischeBundesbahnen:
+	#10 by activity (82698)
+	#5465 by authors (24)
+	#19741 by comments (33)
+	#1 by commits (82563)
+	#11864 by issues (38)
+	#7948 by prs (64)
+
