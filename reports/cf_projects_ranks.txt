@@ -1,40 +1,32 @@
-BOSH:
-	#124 by activity (18859)
-	#33 by authors (512)
-	#281 by comments (6006)
-	#50 by commits (10328)
-	#258 by issues (1268)
-	#349 by prs (1257)
+Chromium:
+	#61 by activity (28695)
+	#5 by authors (1663)
+	#104 by comments (11399)
+	#2 by commits (77437)
+	#2 by issues (36484)
+	#33 by prs (4686)
 
 Cloud Foundry:
-	#12 by activity (64037)
-	#12 by authors (1032)
-	#107 by comments (11080)
-	#4 by commits (48055)
-	#96 by issues (2314)
-	#107 by prs (2588)
+	#9 by activity (82896)
+	#8 by authors (1267)
+	#47 by comments (17086)
+	#4 by commits (58383)
+	#48 by issues (3582)
+	#48 by prs (3845)
 
 Cloud Foundry Dashboard:
-	#2140 by activity (2783)
-	#6672 by authors (20)
-	#2095 by comments (1192)
-	#2219 by commits (1009)
-	#1942 by issues (296)
-	#2148 by prs (286)
+	#2143 by activity (2783)
+	#6643 by authors (20)
+	#2098 by comments (1192)
+	#2222 by commits (1009)
+	#1944 by issues (296)
+	#2151 by prs (286)
 
-Microsoft/vsts-cloudfoundry:
-	#40246 by activity (22)
-	#41100 by authors (3)
-	#28714 by comments (11)
-	#41151 by commits (6)
-	#34366 by issues (3)
-	#37616 by prs (2)
-
-orange-cloudfoundry:
-	#12989 by activity (354)
-	#11497 by authors (12)
-	#16699 by comments (49)
-	#10749 by commits (211)
-	#8258 by issues (62)
-	#12757 by prs (32)
+LibreOffice:
+	#100 by activity (21545)
+	#51 by authors (419)
+	#16146 by comments (53)
+	#13 by commits (21391)
+	#7050 by issues (77)
+	#15071 by prs (24)
 

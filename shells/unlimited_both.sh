@@ -34,6 +34,7 @@ echo "Updating WebKit project using gitdm and other"
 ruby update_projects.rb projects/unlimited_both.csv data/data_webkit_gitdm_and_others.csv -1
 echo "Generating Projects Ranks statistics"
 ./shells/report_project_ranks.sh
+./shells/report_cf_project_ranks.sh
 echo "Truncating results to Top 500"
 cat ./projects/unlimited_both.csv | head -n 501 > tmp && mv tmp ./projects/unlimited.csv
 echo "All done"

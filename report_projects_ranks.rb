@@ -42,12 +42,13 @@ def report_ranks(fin, fpstats, frep)
       next
     end
     unless res[proj]
-      puts "Project #{proj} not found, aborting stats"
-      return
+      puts "Project #{proj} not found, skipping stats"
+      next
     end
     out << proj
   end
   pstats = out.sort
+  puts "Generating statistics for projects: #{pstats.join(', ')}"
  
   # Generate project rank statistics
   props = nil
