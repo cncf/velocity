@@ -2,7 +2,7 @@ require 'csv'
 require 'pry'
 require './comment'
 
-def merger(fmerge, fdata)
+def merger(fmerge, fdata, force)
   # Repo --> data mapping (from file to get data from)
   repos = {}
   CSV.foreach(fdata, headers: true) do |row|
@@ -26,9 +26,14 @@ def merger(fmerge, fdata)
       old.each do |k, v|
         # binding.pry if v.to_i.to_s == v.to_s
         if v.to_i.to_s == v.to_s && v.to_i > new[k].to_i
-          puts "Not updating #{k}, current value #{v} higher than new value #{new[k]}"
-          higher += 1
-          next
+          if force
+            # puts "Force update #{repo}:#{k}: #{v} -> #{new[k]}"
+            higher += 1
+          else
+            puts "Not updating #{repo}:#{k}, current value #{v} higher than new value #{new[k]}"
+            higher += 1
+            next
+          end
         end
         if v != new[k]
           h[k] = new[k]
@@ -54,7 +59,11 @@ def merger(fmerge, fdata)
   end
   puts "Updated #{updated.count} values" if updated.count > 0
   puts "Added #{added} values" if added > 0
-  puts "Skipped #{higher} values because current values were higher than new" if higher > 0
+  if force
+    puts "Force updated #{higher} values to lower value" if higher > 0
+  else
+    puts "Skipped #{higher} values because current values were higher than new" if higher > 0
+  end
 
   # Write changes back to file to update
   hdr = repos2.values.first.keys
@@ -69,4 +78,4 @@ if ARGV.size < 2
   exit(1)
 end
 
-merger(ARGV[0], ARGV[1])
+merger(ARGV[0], ARGV[1], ARGV[2] == 'force')

@@ -7,12 +7,12 @@ Chromium:
 	#33 by prs (4686)
 
 Cloud Foundry:
-	#9 by activity (82896)
-	#8 by authors (1267)
-	#47 by comments (17086)
-	#3 by commits (58383)
+	#10 by activity (71343)
+	#8 by authors (1256)
+	#47 by comments (17070)
+	#3 by commits (46850)
 	#48 by issues (3582)
-	#48 by prs (3845)
+	#49 by prs (3841)
 
 Cloud Foundry Dashboard:
 	#2142 by activity (2783)
