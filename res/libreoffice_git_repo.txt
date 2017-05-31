@@ -1,3 +1,5 @@
+Sources: https://www.libreoffice.org/about-us/source-code/
+
 git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l 
 Commits: 15891
 
