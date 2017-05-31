@@ -2,7 +2,7 @@ Chromium:
 	#60 by activity (28695)
 	#5 by authors (1605)
 	#104 by comments (11399)
-	#1 by commits (70443)
+	#2 by commits (67172)
 	#1 by issues (68599)
 	#33 by prs (4686)
 

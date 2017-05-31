@@ -28,41 +28,65 @@ end
 
 
 def max_substring_analysis(commits)
-  # commits = commits[0..10000]
-  subs = {}
-  min_n = 20
-  max_n = 40
-  every_nth = 4
-  n_commits = commits.length
+  # Try to be smart
+  every_nth_commit = 8
+  new_commits = []
   commits.each_with_index do |commit, idx|
-    puts "#{idx}/#{n_commits}" if idx % 100 == 0
+    next if idx % every_nth_commit > 0
+    new_commits << commit
+  end
+  commits = new_commits
+
+  # Try to be smart here too
+  subs = {}
+  min_n = 10
+  max_n = 60
+  every_nth = 2
+  max_in_bucket = 300000
+  n_commits = commits.length
+  skipped_lens = {}
+  commits.each_with_index do |commit, idx|
+    puts "#{idx}/#{n_commits}" if idx % 1000 == 0
     len = commit.length
     len = max_n if len > max_n
     (min_n..len).each do |clen|
-      next if clen % every_nth > 0
+      if clen % every_nth > 0
+        skipped_lens[clen] = true
+        next
+      end
+      subs[clen] = {} unless subs.key?(clen)
       iters = len - clen
       (0..iters).each do |i|
         ss = commit[i..i+clen]
-        subs[ss] = true
+        subs[clen][ss] = true
       end
     end
   end
 
-  subs = subs.keys.sort
-  n_subs = subs.length
+  lengths = subs.keys.map { |n| [n, subs[n].keys.length] }
+  key_lengths = subs.keys.map { |n| [n, subs[n].keys.length] }
+  keys = subs.keys.select { |n| subs[n].keys.length < max_in_bucket }.sort
+  puts "Will process keys: #{keys}"
+  p key_lengths
+
   occ = {}
-  subs.each_with_index do |sub, idx|
-    hit = 0
-    commits.each do |commit|
-      hit += 1 if commit.include?(sub)
+  keys.each do |key|
+    puts "Processing key length: #{key}"
+    isubs = subs[key].keys.sort
+    n_subs = isubs.length
+    isubs.each_with_index do |sub, idx|
+      #hit = 0
+      #commits.each do |commit|
+      #  hit += 1 if commit.include?(sub)
+      #end
+      hit = commits.count { |commit| commit.include?(sub) }
+      puts "#{idx}/#{n_subs}" if idx % 1000 == 0
+      occ[sub] = hit
     end
-    puts "#{idx}/#{n_subs}" if idx % 1000 == 0
-    occ[sub] = hit
   end
   arr = []
   occ.each { |k,v| arr << [k, v] }
   arr = arr.sort_by { |row| -row[1] }
-  binding.pry
 end
 
 def commits_analysis(fin, fcfg)
@@ -168,8 +192,12 @@ def commits_analysis(fin, fcfg)
   n_hashes = filtered_commits.map { |commit| commit['hash'] }.uniq.count
   puts "After filtering: authors: #{n_authors}, commits: #{n_hashes}"
   puts 'arr[0..20].map.with_index { |a,i| [i,a[0], a[1], a[2][0..20]] }'
+  puts 'all_commits.select { |c| c["subject"].downcase.strip.gsub(/[^a-z0-9 ]/, "").include?(occ_arr[0][0]) }.map { |c| c["subject"] }.uniq.sort'
+  # all_commits.select { |c| c['subject'].downcase.strip.gsub(/[^a-z0-9 ]/, '').include?('update v8 to version') }.map { |c| "#{c['email']}: #{c['subject'][0..50]}" }.uniq.sort
+  puts skip_regexps
 
-  max_substring_analysis all_commits.map { |commit| commit['subject'].downcase.strip }.sort.uniq
+  #binding.pry
+  #occ_arr = max_substring_analysis all_commits.map { |commit| commit['subject'].downcase.strip.gsub(/[^a-z0-9 ]/, '') }.sort.uniq
 
   binding.pry
 end
