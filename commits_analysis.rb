@@ -26,6 +26,45 @@ def analyse_commits(commits)
   [max_len, max_len > 0 ? commits[0][0..max_len] : '']
 end
 
+
+def max_substring_analysis(commits)
+  # commits = commits[0..10000]
+  subs = {}
+  min_n = 20
+  max_n = 40
+  every_nth = 4
+  n_commits = commits.length
+  commits.each_with_index do |commit, idx|
+    puts "#{idx}/#{n_commits}" if idx % 100 == 0
+    len = commit.length
+    len = max_n if len > max_n
+    (min_n..len).each do |clen|
+      next if clen % every_nth > 0
+      iters = len - clen
+      (0..iters).each do |i|
+        ss = commit[i..i+clen]
+        subs[ss] = true
+      end
+    end
+  end
+
+  subs = subs.keys.sort
+  n_subs = subs.length
+  occ = {}
+  subs.each_with_index do |sub, idx|
+    hit = 0
+    commits.each do |commit|
+      hit += 1 if commit.include?(sub)
+    end
+    puts "#{idx}/#{n_subs}" if idx % 1000 == 0
+    occ[sub] = hit
+  end
+  arr = []
+  occ.each { |k,v| arr << [k, v] }
+  arr = arr.sort_by { |row| -row[1] }
+  binding.pry
+end
+
 def commits_analysis(fin, fcfg)
   # arr[i][2].map { |row| row['name'] }.uniq
   # arr[i][2].map { |row| row['email'] }.uniq
@@ -124,7 +163,14 @@ def commits_analysis(fin, fcfg)
     filtered_commits << commit
   end
 
+  # Output
+  n_authors = filtered_commits.map { |commit| commit['email'] }.uniq.count
+  n_hashes = filtered_commits.map { |commit| commit['hash'] }.uniq.count
+  puts "After filtering: authors: #{n_authors}, commits: #{n_hashes}"
   puts 'arr[0..20].map.with_index { |a,i| [i,a[0], a[1], a[2][0..20]] }'
+
+  max_substring_analysis all_commits.map { |commit| commit['subject'].downcase.strip }.sort.uniq
+
   binding.pry
 end
 

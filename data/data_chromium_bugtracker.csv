@@ -1,14 +1,15 @@
 project,key,value
 # Chromium without Blink
-# Chromium,issues,68599
-# Chromium,authors,1605
+# After filtering: commits: 70443
+Chromium,issues,68599
+Chromium,authors,1605
 # Chromium,commits,77163
+Chromium,commits,70443
 # Chromium without Blink ends
-# Chromium,issues,68599
 # Chromium with Blink
-Chromium,issues,36484
-Chromium,authors,1663
-Chromium,commits,77437
+# Chromium,issues,36484
+# Chromium,authors,1663
+# Chromium,commits,77437
 # Chromium with Blink ends
 # This is from OpenHub (unreliable)
 # Chromium,authors,1751

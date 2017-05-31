@@ -1,40 +1,32 @@
 Chromium:
-	#61 by activity (28695)
-	#5 by authors (1663)
+	#60 by activity (28695)
+	#5 by authors (1605)
 	#104 by comments (11399)
-	#2 by commits (77437)
-	#2 by issues (36484)
+	#1 by commits (70443)
+	#1 by issues (68599)
 	#33 by prs (4686)
 
 Cloud Foundry:
 	#9 by activity (82896)
 	#8 by authors (1267)
 	#47 by comments (17086)
-	#4 by commits (58383)
+	#3 by commits (58383)
 	#48 by issues (3582)
 	#48 by prs (3845)
 
 Cloud Foundry Dashboard:
-	#2143 by activity (2783)
-	#6643 by authors (20)
-	#2098 by comments (1192)
-	#2222 by commits (1009)
-	#1944 by issues (296)
+	#2142 by activity (2783)
+	#6763 by authors (20)
+	#2097 by comments (1192)
+	#2220 by commits (1009)
+	#1940 by issues (296)
 	#2151 by prs (286)
 
 LibreOffice:
-	#100 by activity (21545)
+	#99 by activity (21545)
 	#51 by authors (419)
 	#16146 by comments (53)
-	#13 by commits (21391)
-	#7050 by issues (77)
-	#15071 by prs (24)
-
-SchweizerischeBundesbahnen:
-	#10 by activity (82698)
-	#5465 by authors (24)
-	#19741 by comments (33)
-	#1 by commits (82563)
-	#11864 by issues (38)
-	#7948 by prs (64)
+	#12 by commits (21391)
+	#7055 by issues (77)
+	#15122 by prs (24)
 

@@ -66,3 +66,5 @@ Processed 164804 csets from 1266 developers
 Now to analyse merge/robot commits, generate data file:
 git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits.csv
 
+After excluding bots/automattic merges with `./shells/chromium_commits_analysis.sh`
+After filtering: authors: 1649, commits: 70443
