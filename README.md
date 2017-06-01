@@ -274,6 +274,30 @@ To generate all data for Top 40 chart: https://docs.google.com/spreadsheets/d/1h
 - See per project ranks statistics: `reports/cncf_projects_ranks.txt
 - Get final output file `projects/unlimited.csv` and import it on A50 cell in `https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing` chart
 
+
+# Example - generate chart for new data range
+We aleary have `shells/unlimited_both.sh` that generates our chart for 2016-05-01 to 2017-05-01. We want to generate next chart for new date range: 2016-06-01 to 2017-06-01.
+This is a step by step tutorial how to do it.
+- Copy `shells/unlimited_both.sh` to `shells/unlimited_20160601-20170601.sh`
+- Have `shells/unlimited_20160601-20170601.sh` opened in some other terminal window `vi shells/unlimited_20160601-20170601.sh` and we need to update all steps
+- First we need unlimited BigQuery output for a new date range:
+```
+echo "Restoring BigQuery output"
+cp data/unlimited_output_201605_201704.csv data/unlimited.csv
+```
+- We need `data/unlimited_output_201606_201705.csv` file. To generate this one we need to run BigQuery for new date range.
+- Open file that generated current range: `vi BigQuery/query_201605_201704_unlimited.sql`
+- Save it as: `BigQuery/query_201606_201705_unlimited.sql` while changing date ranges in SQL.
+- Copy it to clipboard `pbcopy < BigQuery/query_201606_201705_unlimited.sql` and run in Google BigQuery: `https://bigquery.cloud.google.com/queries/<<your_google_project_name>>`
+- Save result to table `<<your_google_user_name>>:unlimited_201606_201705`, it takes about 1TB and costs about $5 "Save as table"
+- Open this table `<<your_google_user_name>>:unlimited_201606_201705` and click "Export Table" and export it to google storage as: `gs://<<your_google_user_name>>/unlimited_201606_201705.csv` (You can clisk "View files" to see files in Your gstorage)
+- Go to google storage and download `<<your_google_user_name>>/unlimited_201606_201705.csv` and put it where `shells/unlimited_20160601-20170601.sh` expects it (update file name to `data/unlimited_output_201606_201705.csv`): 
+```
+echo "Restoring BigQuery output"
+cp data/unlimited_output_201606_201705.csv data/unlimited.csv
+```
+- Now we have main data (step 1) finished for new chart, now we need to get data for all non-standard projects.
+
 # Results:
 
 NOTE: for viewing using those motion charts You'll need Adobe Flash enabled when clicking links. It works (tested) on Chrome and Safari with Adobe Flash installed and enabled.
