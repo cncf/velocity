@@ -17,15 +17,16 @@ echo "Adding/Updating OpenStack case"
 ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv
 echo "Adding/Updating Apache case"
 ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv
-
 echo "Adding/Updating Chromium case"
-ruby merger.rb data/unlimited.csv data/data_chrome_chromium_201605_201704.csv
+ruby merger.rb data/unlimited.csv data/data_chromium_201606_201705.csv
 echo "Adding/Updating openSUSE case"
-ruby merger.rb data/unlimited.csv data/data_opensuse_201605_201704.csv
+ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv
 echo "Adding/Updating LibreOffice case"
-ruby merger.rb data/unlimited.csv data/data_libreoffice_201605_201704.csv
+ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+
+exit 1
 echo "Updating Apache Projects using Jira data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira.csv -1
 echo "Updating OpenStack projects using their bug tracking data"

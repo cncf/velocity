@@ -403,6 +403,7 @@ ruby> Date.parse('2017-06-01') - Date.parse('2016-12-13') => (170/1), (9988.0 * 
 See how many days makes 10k, and estimate for 365 days (1 year): gives 22k bugs/issues
 - Commits, Authors:
 `cd ~dev/ && git clone git://git.webkit.org/WebKit.git WebKit`
+xxx
 
 - OpenStack case:
 - Change line `ruby merger.rb data/unlimited.csv data/data_openstack_201605_201704.csv` to `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv`
@@ -416,6 +417,23 @@ See how many days makes 10k, and estimate for 365 days (1 year): gives 22k bugs/
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_apache_projects_201606_201705.sql`, update conditions, run BigQ, download results to `data/data_apache_201606_201705.csv`
 - Run `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
 
+- Chromium case
+- Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word chromium): `ruby merger.rb data/unlimited.csv data/data_chromium_201606_201705.csv`
+
+- openSUSE case
+- Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
+
+- LibreOffice case
+- Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
+
+(...)
+
+- Finally `./projects/unlimited.csv` is generated. You need to import it in final Google chart by doing:
+- Select A50 cell. Use File --> Import, then "Upload" tab, "Select a file from your computer", choose `./projects/unlimited.csv`
+- Then "Import action" --> "replace data starting at selected call", click Import.
+- Voila!
+Final version will live here: https://docs.google.com/spreadsheets/d/1a2VdKfAI1g9ZyWL09TnJ-snOpi4BC9kaEVmB7IufY7g/edit?usp=sharing
+But now it is WIP!
 
 # Results:
 
