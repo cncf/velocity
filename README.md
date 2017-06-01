@@ -336,7 +336,8 @@ Do the same for other projects/repos. Re-run analysis tool untill all is fine.
 - Go to: `https://lkml.org/lkml/2017` and copy May 2017 into linked google spreadsheet: (22110).
 - Add row for May 2017 to `data/data_linux.csv`: `torvalds,torvalds/linux,2017-05-01,2017-06-01,0,0,0,0,22110` - You can see that we only have "emails" column now. Other columns must be fetech from linux kernel repo using `cncf/gitdm` analysis:
 - You can also sum issues from the sheet to get 2016-06-01 - 2017-06-01: (254893): `torvalds,torvalds/linux,2016-06-01,2017-06-01,0,0,0,0,254893`
-- Now `cncf/gitdm` on linux kernel repo: `cd ~/dev/linux && git checkout master && git reset --hard && git pull`. Go to `cncf/gitdm`: `cd ~/dev/cncf/gitdm`, run: `./linux_range.sh 2017-05-01 2017-06-01`
+- Now `cncf/gitdm` on linux kernel repo: `cd ~/dev/linux && git checkout master && git reset --hard && git pull`. ALternative is (if You don't have linux repo cloned): `cd ~/dev/`, `git clone https://github.com/torvalds/linux.git`.
+- Go to `cncf/gitdm`: `cd ~/dev/cncf/gitdm`, run: `./linux_range.sh 2017-05-01 2017-06-01`
 - While on `cncf/gitdm`, see: `vim linux_stats/range_2017-05-01_2017-06-01.txt`:
 ```
 Processed 1219 csets from 424 developers
@@ -344,7 +345,21 @@ Processed 1219 csets from 424 developers
 A total of 24970 lines added, 14469 removed (delta 10501)
 ```
 - You have values for `changesets,additions,removals,authors` here, update `cncf/velocity/data/data_linux.csv` accordingly.
-- Do the same for `./linux_range.sh 2016-06-01 2017-06-01` and `linux_stats/range_2016-06-01_2017-06-01.txt`
+- Do the same for `./linux_range.sh 2016-06-01 2017-06-01` and `linux_stats/range_2016-06-01_2017-06-01.txt`, Results:
+```
+Processed 64482 csets from 3803 developers
+91 employers found
+A total of 3790914 lines added, 1522111 removed (delta 2268803)
+```
+- Final linux rows (one for May 2017, and another for last year including May 2017) are:
+```
+torvalds,torvalds/linux,2017-05-01,2017-06-01,1219,24970,14469,424,22110
+torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,254893
+```
+- NOTE that those numbers are lower than usual (generated June 1st), maybe torvalds/linux mirror wasn't fully updated yet? Issues from LKMA are little higher than in April, so wtf? TODO: check this again after 5th June!
+- GitLab case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
+- Their bug tracker is `https://gitlab.com/gitlab-org/gitlab-ce/issues`, just count issues in given date range. Sort by "Last created" and count issues in given range:
+There are 732 pages of issues (20 on page) = 14640 issues
 
 
 

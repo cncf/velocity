@@ -24,7 +24,8 @@ def add_linux(fout, fdata, rfrom, rto)
 
   linux = data[[rfrom, rto]]
   # simulate N distinct authors as returned from BigQuery
-  linux['authors'] = linux['authors'].times.map { |i| i }.join(',')
+  # linux['authors'] = linux['authors'].times.map { |i| i }.join(',')
+  linux['authors'] = "=#{linux['authors']}"
   linux['authors_alt1'] = linux['authors']
   linux['authors_alt2'] = linux['authors'].split(',').uniq.count
 
