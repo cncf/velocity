@@ -1,5 +1,5 @@
 org,repo,from,to,activity,comments,prs,commits,issues,authors
-gitlab,gitlab/GitLab,2016-05-01,2017-05-01,blind=50000,blind=40000,est=7336,gitdm=16291,est=14430,gitdm=1531
+gitlab,gitlab/GitLab,2016-05-01,2017-05-01,blind=50000,blind=40000,est=7336,gitdm=16291,est=14430,gitdm=531
 
 Used gitdm on gitlab repo to get summary num of authors and commits in 2016-05 - 2017-04
 Used report from gitlab for last 2 months and also just counted merge requests
@@ -10,5 +10,12 @@ This is an estimate, maybe we can get better data when using GitLab API?
 New round 2016-06-01 - 2017-06-01:
 
 Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
+Their repo hosted by GitHub is: `https://github.com/gitlabhq/gitlabhq`
 Their bug tracker is `https://gitlab.com/gitlab-org/gitlab-ce/issues`, just count issues in given date range
 Issues: There are 732 pages of issues (20 on page) = 14640 issues
+To count PRs: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?scope=all&state=all
+Merge Requests: 371,5 page = 7430
+
+To count authors run in gitlab-ce directory:
+git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l --> 575
+git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l --> 589

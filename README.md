@@ -358,9 +358,20 @@ torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,254893
 ```
 - NOTE that those numbers are lower than usual (generated June 1st), maybe torvalds/linux mirror wasn't fully updated yet? Issues from LKMA are little higher than in April, so wtf? TODO: check this again after 5th June!
 - GitLab case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
+- Their repo hosted by GitHub is: `https://github.com/gitlabhq/gitlabhq`, clone it via `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
+- Go to `cncf/gitdm` and run GitLab repo analysis: `./repo_in_range.sh ~/dev/gitlab-ce/ gitlab 2016-06-01 2017-06-01`
+- Results `vim other_repos/gitlab_2016-06-01_2017-06-01.txt`:
+```
+Processed 16574 csets from 513 developers
+15 employers found
+A total of 926818 lines added, 548205 removed (delta 378613)
+```
 - Their bug tracker is `https://gitlab.com/gitlab-org/gitlab-ce/issues`, just count issues in given date range. Sort by "Last created" and count issues in given range:
-There are 732 pages of issues (20 on page) = 14640 issues
-
+There are 732 pages of issues (20 on page) = 14640 issues (`https://gitlab.com/gitlab-org/gitlab-ce/issues?page=732&scope=all&sort=created_desc&state=all`)
+- To count Merge Requests (PRs): `https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?scope=all&state=all`
+Merge Requests: 371,5 page * 20 = 7430
+- To count authors run in gitlab-ce directory: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 575
+- To count authors run in gitlab-ce directory: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 589
 
 
 # Results:

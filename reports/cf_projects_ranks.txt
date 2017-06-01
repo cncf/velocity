@@ -8,19 +8,19 @@ Chromium:
 
 Cloud Foundry:
 	#11 by activity (71343)
-	#8 by authors (1256)
+	#7 by authors (1256)
 	#47 by comments (17070)
 	#3 by commits (46850)
-	#49 by issues (3582)
+	#50 by issues (3582)
 	#48 by prs (3841)
 
 Cloud Foundry Dashboard:
-	#2141 by activity (2783)
-	#6695 by authors (20)
-	#2096 by comments (1192)
+	#2140 by activity (2783)
+	#6758 by authors (20)
+	#2095 by comments (1192)
 	#2219 by commits (1009)
-	#1944 by issues (296)
-	#2148 by prs (286)
+	#1938 by issues (296)
+	#2149 by prs (286)
 
 Homebrew:
 	#10 by activity (71607)
@@ -33,8 +33,16 @@ Homebrew:
 LibreOffice:
 	#98 by activity (21545)
 	#50 by authors (419)
-	#16208 by comments (53)
+	#16124 by comments (53)
 	#12 by commits (21391)
-	#7076 by issues (77)
-	#15029 by prs (24)
+	#7029 by issues (77)
+	#15123 by prs (24)
+
+Pivotal Cloud Foundry:
+	#301 by activity (11053)
+	#70 by authors (370)
+	#1207 by comments (2042)
+	#87 by commits (7991)
+	#1038 by issues (507)
+	#1179 by prs (513)
 
