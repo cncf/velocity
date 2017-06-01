@@ -1,6 +1,12 @@
 project
-BOSH
-/^cloudfoundry|cloud foundry/i
-LibreOffice
+/^bosh$/i
+/^cloudfoundry$|cloud foundr$y/i
+/^libreoffice$/i
 /^chromium$|^chromium blink/i
-Homebrew
+/^homebrew$/i
+/^webkit$/i
+/^linux kernel$/i
+/^gitlab$/i
+/^openstack$|^open stack$/i
+/^apache$/i
+/^opensuse$/i

@@ -446,7 +446,10 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 - LibreOffice case
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
 
-(...) xxx need to update non standard data for few of projects above TODO: continue, TODO: save overall projects stats `sumall` in a CSV file `reports/sumall.csv` (`analysis.rb`)
+(...) xxx need to update non standard data for few of projects above
+TODO: continue
+TODO: save overall projects stats `sumall` in a CSV file `reports/sumall.csv` (`analysis.rb`)
+TODO: `reports/cf_projects_statistics.csv` rename file and corresponding script (this is no more about only CF projects), correct regesps to generate reports for all special case projects and other interesting non CNCF projects
 
 - Finally `./projects/unlimited.csv` is generated. You need to import it in final Google chart by doing:
 - Select A50 cell. Use File --> Import, then "Upload" tab, "Select a file from your computer", choose `./projects/unlimited.csv`

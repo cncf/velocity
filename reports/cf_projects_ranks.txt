@@ -6,21 +6,13 @@ Chromium:
 	#27 by issues (4574)
 	#30 by prs (5096)
 
-Cloud Foundry:
-	#11 by activity (69218)
-	#7 by authors (1047)
-	#49 by comments (17212)
-	#2 by commits (44424)
-	#46 by issues (3657)
-	#49 by prs (3925)
-
-Cloud Foundry Dashboard:
-	#1957 by activity (3036)
-	#5575 by authors (21)
-	#2023 by comments (1220)
-	#1787 by commits (1206)
-	#1959 by issues (297)
-	#1981 by prs (313)
+GitLab:
+	#21 by activity (50000)
+	#20 by authors (575)
+	#11 by comments (40000)
+	#20 by commits (16574)
+	#8 by issues (14640)
+	#21 by prs (7430)
 
 Homebrew:
 	#10 by activity (74141)
@@ -38,11 +30,19 @@ LibreOffice:
 	#8630 by issues (60)
 	#14576 by prs (26)
 
-Pivotal Cloud Foundry:
-	#236 by activity (12776)
-	#55 by authors (366)
-	#1024 by comments (2363)
-	#60 by commits (9169)
-	#880 by issues (578)
-	#868 by prs (666)
+Linux kernel:
+	#1 by activity (319375)
+	#1 by authors (3803)
+	#1 by comments (254893)
+	#1 by commits (64482)
+	#1 by issues (63723)
+	#1 by prs (63723)
+
+WebKit:
+	#9 by activity (84000)
+	#423 by authors (125)
+	#27 by comments (26000)
+	#31 by commits (13348)
+	#4 by issues (21444)
+	#3 by prs (23600)
 
