@@ -386,6 +386,36 @@ Merge Requests: 371,5 page * 20 = 7430
 - Run on BigQuery and do the same as for CF case, final saved file will be: `data/data_cncf_projects_201606_201705.csv`
 - Final line should be (try it): `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
 
+- WebKit case
+- Change merger line to `ruby merger.rb data/unlimited.csv data/webkit_201606_201705.csv`
+- WebKit have no usable data on GitHub, so running BigQuery is not needed, we no longer need those lines for WebKit (we will just update `data/webkit_201606_201705.csv` file), remove them from current shell `shells/unlimited_20160601-20170601.sh`:
+```
+echo "Updating WebKit project using gitdm and other"
+ruby update_projects.rb projects/unlimited_both.csv data/data_webkit_gitdm_and_others.csv -1
+```
+- Now we need to generate values for `data/webkit_201606_201705.csv` file:
+- Issues:
+Go to: https://webkit.org/reporting-bugs/
+Search all bugs in webkit, order by modified desc - will be truncated to 10,000.
+https://bugs.webkit.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&limit=0&order=changeddate%20DESC%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&product=WebKit&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=LATER&resolution=REMIND&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&resolution=CONFIGURATION%20CHANGED
+2016-12-13 --> 2017-06-01 = 9988 issues:
+ruby> Date.parse('2017-06-01') - Date.parse('2016-12-13') => (170/1), (9988.0 * 365.0/170.0) --> 21444 issues
+See how many days makes 10k, and estimate for 365 days (1 year): gives 22k bugs/issues
+- Commits, Authors:
+`cd ~dev/ && git clone git://git.webkit.org/WebKit.git WebKit`
+
+- OpenStack case:
+- Change line `ruby merger.rb data/unlimited.csv data/data_openstack_201605_201704.csv` to `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv`
+- To get `data/data_openstack_201606_201705.csv` file from BigQuery do:
+- Copy `cp BigQuery/query_openstack_projects.sql BigQuery/query_openstack_projects_201606_201705.sql` and update date range condition in `BigQuery/query_openstack_projects_201606_201705.sql`
+- Copy to clipboard `pbcopy < BigQuery/query_openstack_projects_201606_201705.sql` and run BigQuery, Save as Table, export to gstorage, and save result as `data/data_openstack_201606_201705.csv`
+- Run `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv` to try it
+
+- Apache case:
+- Exactly the same BigQuery steps as OpenStack for example, final line should be `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
+- `cp BigQuery/query_apache_projects.sql BigQuery/query_apache_projects_201606_201705.sql`, update conditions, run BigQ, download results to `data/data_apache_201606_201705.csv`
+- Run `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
+
 
 # Results:
 

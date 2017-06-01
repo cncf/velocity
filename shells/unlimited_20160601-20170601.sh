@@ -11,13 +11,13 @@ ruby merger.rb data/unlimited.csv data/data_cloudfoundry_201606_201705.csv force
 # Don't forget to add exception to map/ranges.csv when adding projects pulled with different BigQuery (specially with 0s for issues, PRs etc)
 echo "Adding/Updating CNCF Projects"
 ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv
-
 echo "Adding/Updating WebKit case"
-ruby merger.rb data/unlimited.csv data/webkit_201605_201704.csv
+ruby merger.rb data/unlimited.csv data/webkit_201606_201705.csv
 echo "Adding/Updating OpenStack case"
-ruby merger.rb data/unlimited.csv data/data_openstack_201605_201704.csv
+ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv
 echo "Adding/Updating Apache case"
-ruby merger.rb data/unlimited.csv data/data_apache_201605_201704.csv
+ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv
+
 echo "Adding/Updating Chromium case"
 ruby merger.rb data/unlimited.csv data/data_chrome_chromium_201605_201704.csv
 echo "Adding/Updating openSUSE case"
@@ -34,8 +34,6 @@ echo "Updating Chromium project using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker.csv -1
 echo "Updating LibreOffice project using their git repo"
 ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git.csv -1
-echo "Updating WebKit project using gitdm and other"
-ruby update_projects.rb projects/unlimited_both.csv data/data_webkit_gitdm_and_others.csv -1
 echo "Generating Projects Ranks statistics"
 ./shells/report_project_ranks.sh
 ./shells/report_cf_project_ranks.sh
