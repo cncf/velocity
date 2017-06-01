@@ -296,7 +296,57 @@ cp data/unlimited_output_201605_201704.csv data/unlimited.csv
 echo "Restoring BigQuery output"
 cp data/unlimited_output_201606_201705.csv data/unlimited.csv
 ```
-- Now we have main data (step 1) finished for new chart, now we need to get data for all non-standard projects.
+- Now we have main data (step 1) finished for new chart, now we need to get data for all non-standard projects. You can try our analysis tool without any special projects by running:
+`ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
+- There can be some new projects that are unknown, ranks can chage, so there can be manual changes needed to mappings in `map/` directory: `hints.csv`, `defmaps.csv` and `urls.csv`. Maybe also `skip.csv` (if there are new projects that should be skipped)
+- This is what I've got on 1st run:
+```
+Project #23 (org, 457) skillcrush (skillcrush) (skillcrush-104) have no URL defined
+Project #45 (org, 366) pivotal-cf (pivotal-cf) (...) have no URL defined
+Project #50 (org, 353) Automattic (Automattic) (...) have no URL defined
+```
+- Let's what are top authors projects for those non-found projects: `rauth[res[res.map { |i| i[0] }.index('Automattic')][0]]`
+- Then we must add entriues for few top ones in `map/hints.csv` say with >= 20 authors:
+```
+Automattic/amp-wp,31
+Automattic/wp-super-cache,29
+Automattic/simplenote-electron,22
+Automattic/happychat-service,21
+Automattic/kue,20
+```
+We need to examine each on `github.com`, like for 1st: `github.com/Automattic/amp-wp`. We see that this is a WordPress plugin, so belnog to wWrdpress/WP Calypso project:
+`grep -HIn "wordpress" map/*.csv`
+`grep -HIn "WP Calypso" map/*.csv`
+We see that we have WP Calypso defined in hints file:
+```
+map/hints.csv:23:Automattic/WP-Job-Manager,WP Calypso
+map/hints.csv:24:Automattic/facebook-instant-articles-wp,WP Calypso
+map/hints.csv:26:Automattic/sensei,WP Calypso
+map/hints.csv:29:Automattic/wp-calypso,WP Calypso
+map/hints.csv:30:Automattic/wp-e2e-tests,WP Calypso
+map/urls.csv:438:WP Calypso,developer.wordpress.com/calypso
+```
+Just add new repo for this project (`map/hints.csv`), row: `Automattic/amp-wp,WP Calypso`
+Do the same for other projects/repos. Re-run analysis tool untill all is fine.
+- For example after definiing some new projects we see "EPFL-SV-cpp-projects" as one of top 50. This is an educational org that should be skipped. Add it to `map/skip.csv` for skipping row: `EPFL-SV-cpp-projects,,`
+- Once You have all URL's defined, added new mapping You can see preview of Top projects on while stopped in `binding.pry`, by typing `all`. Now we need to go back to `shells/unlimited_20160601-20170601.sh` and regenerate all non standard data (for projects not on github or requiring special queries on github - for example because of having 0 activity, comments, commits, issues, prs or authors)
+- Now Linux case: we need to change line `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-05-01 2017-05-01` into `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-06-01 2017-06-01` and run it
+- You will see: `Data range not found in data/data_linux.csv: 2016-06-01 - 2017-06-01` that meens we need to add new data range for Linux in file: `data/data_linux.csv`
+- Data for linux is here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing` but it doesn have May 2017 (finished yesterday), so we need last month's data.
+- Go to: `https://lkml.org/lkml/2017` and copy May 2017 into linked google spreadsheet: (22110).
+- Add row for May 2017 to `data/data_linux.csv`: `torvalds,torvalds/linux,2017-05-01,2017-06-01,0,0,0,0,22110` - You can see that we only have "emails" column now. Other columns must be fetech from linux kernel repo using `cncf/gitdm` analysis:
+- You can also sum issues from the sheet to get 2016-06-01 - 2017-06-01: (254893): `torvalds,torvalds/linux,2016-06-01,2017-06-01,0,0,0,0,254893`
+- Now `cncf/gitdm` on linux kernel repo: `cd ~/dev/linux && git checkout master && git reset --hard && git pull`. Go to `cncf/gitdm`: `cd ~/dev/cncf/gitdm`, run: `./linux_range.sh 2017-05-01 2017-06-01`
+- While on `cncf/gitdm`, see: `vim linux_stats/range_2017-05-01_2017-06-01.txt`:
+```
+Processed 1219 csets from 424 developers
+34 employers found
+A total of 24970 lines added, 14469 removed (delta 10501)
+```
+- You have values for `changesets,additions,removals,authors` here, update `cncf/velocity/data/data_linux.csv` accordingly.
+- Do the same for `./linux_range.sh 2016-06-01 2017-06-01` and `linux_stats/range_2016-06-01_2017-06-01.txt`
+
+
 
 # Results:
 

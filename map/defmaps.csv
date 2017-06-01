@@ -149,6 +149,7 @@ openwrt,OpenWrt
 osmandapp,Osmand
 owncloud,ownCloud
 pingcap,PingCAP
+pivotal-cf,Pivotal Cloud Foundry
 prometheus,Prometheus
 rackt,React
 rails,Ruby on Rails
@@ -160,12 +161,14 @@ sensu,Sensu
 sequelize,Sequelize
 serverless,Serverless Framework
 servo,The Servo Browser Engine
+skillcrush,Skillcrush
 spotify,Spotify
 spree,Spree
 swagger-api,Swagger
 symfony,Symfony
 telerik,Telerik
 tgstation,SS13
+thephpleague,League of Extraordinary Packages
 twitter,Twitter
 uber,Uber Open Source
 vgstation-coders,vgstation13

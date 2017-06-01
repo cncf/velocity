@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Restoring BigQuery output"
-cp data/unlimited_output_201605_201704.csv data/unlimited.csv
+cp data/unlimited_output_201606_201705.csv data/unlimited.csv
 echo "Adding Linux kernel data"
 ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-05-01 2017-05-01
 echo "Adding GitLab data"

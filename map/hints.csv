@@ -21,6 +21,7 @@ repo,project
 Airbnb/react-native,React
 AngularClass/angular2-webpack-starter,Angular
 Automattic/WP-Job-Manager,WP Calypso
+Automattic/amp-wp,WP Calypso
 Automattic/facebook-instant-articles-wp,WP Calypso
 Automattic/jetpack,Automattic Jetpack
 Automattic/sensei,WP Calypso
@@ -28,6 +29,7 @@ Automattic/vip-go-mu-plugins,VIP Go
 Automattic/woocommerce-connect-client,Automattic WooCommerce
 Automattic/wp-calypso,WP Calypso
 Automattic/wp-e2e-tests,WP Calypso
+Automattic/wp-super-cache,WP Calypso
 Azure/azure-batch-sdk-for-java,Azure SDKs
 Azure/azure-iot-gateway-sdk,Azure SDKs
 Azure/azure-iot-sdk-c,Azure SDKs
