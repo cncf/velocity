@@ -17,18 +17,18 @@ Cloud Foundry:
 Cloud Foundry Dashboard:
 	#1957 by activity (3036)
 	#5575 by authors (21)
-	#2022 by comments (1220)
+	#2023 by comments (1220)
 	#1787 by commits (1206)
-	#1958 by issues (297)
-	#1978 by prs (313)
+	#1959 by issues (297)
+	#1981 by prs (313)
 
 Homebrew:
 	#10 by activity (74141)
 	#2 by authors (2157)
-	#21 by comments (31764)
+	#20 by comments (31764)
 	#26 by commits (15803)
 	#36 by issues (3936)
-	#3 by prs (22638)
+	#4 by prs (22638)
 
 LibreOffice:
 	#110 by activity (20035)
@@ -41,7 +41,7 @@ LibreOffice:
 Pivotal Cloud Foundry:
 	#236 by activity (12776)
 	#55 by authors (366)
-	#1025 by comments (2363)
+	#1024 by comments (2363)
 	#60 by commits (9169)
 	#880 by issues (578)
 	#868 by prs (666)

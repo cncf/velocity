@@ -26,15 +26,14 @@ ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 
-exit 1
-echo "Updating Apache Projects using Jira data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira.csv -1
-echo "Updating OpenStack projects using their bug tracking data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs.csv -1
-echo "Updating Chromium project using their bug tracking data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker.csv -1
-echo "Updating LibreOffice project using their git repo"
-ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git.csv -1
+#echo "Updating Apache Projects using Jira data"
+#ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira.csv -1
+#echo "Updating OpenStack projects using their bug tracking data"
+#ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs.csv -1
+#echo "Updating Chromium project using their bug tracking data"
+#ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker.csv -1
+#echo "Updating LibreOffice project using their git repo"
+#ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git.csv -1
 echo "Generating Projects Ranks statistics"
 ./shells/report_project_ranks.sh
 ./shells/report_cf_project_ranks.sh

@@ -448,6 +448,24 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       csv << [repo]
     end
   end
+
+  # All projects summed
+  return if res.count < 1
+  numeric_keys = []
+  res[0][2][:sum].keys.each do |key|
+    obj = res[0][2][:sum]
+    numeric_keys << key if obj[key].to_i.to_s == obj[key].to_s
+  end
+  numeric_keys -= %w(authors authors_alt1 authors_alt2)
+
+  sumall = {}
+  res.each do |proj|
+    numeric_keys.each do |key|
+      sumall[key] = 0 unless sumall.key?(key)
+      sumall[key] += proj[2][:sum][key].to_i
+    end
+  end
+  p sumall
 end
 
 if ARGV.size < 7

@@ -403,7 +403,27 @@ ruby> Date.parse('2017-06-01') - Date.parse('2016-12-13') => (170/1), (9988.0 * 
 See how many days makes 10k, and estimate for 365 days (1 year): gives 22k bugs/issues
 - Commits, Authors:
 `cd ~dev/ && git clone git://git.webkit.org/WebKit.git WebKit`
-xxx
+- Some git one liner stats:
+All authors & commits
+`git log --pretty=format:"%aE" | sort | uniq | wc -l` --> 648
+`git log --pretty=format:"%H" | sort | uniq | wc -l` --> 189693
+And for our date period:
+`git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 125
+`git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%H" | sort | uniq | wc -l` --> 13348
+- Now use cncf/gitdm to analyse commits, authors: from `cncf/gitdm` directory run: `./repo_in_range.sh ~/dev/WebKit/ WebKit 2016-06-01 2017-06-01`
+- See output: `vim other_repos/WebKit_2016-06-01_2017-06-01.txt`:
+```
+Processed 13337 csets from 125 developers
+6 employers found
+A total of 11838610 lines added, 3105609 removed (delta 8733001)
+```
+- So we have authors=125, commits=13348
+- Now need to estimate remaining: activity, comments, prs:
+- Good idea is to get it from ALL projects summaries (we have value for ALL keys summed in all projects from analysis.rb)
+- This value from last `analysis.rb` run is: `{"activity"=>30714776, "comments"=>12766215, "prs"=>3311370, "commits"=>11687914, "issues"=>3104377}`
+- So now average PRs/issues: sumall['prs'].to_f / sumall['issues'].to_f = 1.07 which gives PRs = 1.1 * 21444 = 23600
+- Comments would be 2 * commits = 26000
+- ACtivity = sum of all others (comments, commits, issues, prs)
 
 - OpenStack case:
 - Change line `ruby merger.rb data/unlimited.csv data/data_openstack_201605_201704.csv` to `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv`
@@ -426,7 +446,7 @@ xxx
 - LibreOffice case
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
 
-(...)
+(...) xxx need to update non standard data for few of projects above TODO: continue, TODO: save overall projects stats `sumall` in a CSV file `reports/sumall.csv` (`analysis.rb`)
 
 - Finally `./projects/unlimited.csv` is generated. You need to import it in final Google chart by doing:
 - Select A50 cell. Use File --> Import, then "Upload" tab, "Select a file from your computer", choose `./projects/unlimited.csv`
