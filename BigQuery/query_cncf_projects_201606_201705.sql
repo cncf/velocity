@@ -22,7 +22,6 @@ select
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from 
   (select * from
-    [githubarchive:month.201605],
     [githubarchive:month.201606],
     [githubarchive:month.201607],
     [githubarchive:month.201608],
@@ -33,7 +32,8 @@ from
     [githubarchive:month.201701],
     [githubarchive:month.201702],
     [githubarchive:month.201703],
-    [githubarchive:month.201704]
+    [githubarchive:month.201704],
+    [githubarchive:month.201705]
   )
 where
   (
@@ -55,13 +55,14 @@ where
         COUNT(*) c
       FROM
       [githubarchive:month.201703],
-      [githubarchive:month.201704]
+      [githubarchive:month.201704],
+      [githubarchive:month.201705]
       WHERE
         type = 'IssueCommentEvent'
       GROUP BY
         1
       HAVING
-        c > 2000
+        c > 2500
       ORDER BY
       2 DESC
     )

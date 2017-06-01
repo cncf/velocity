@@ -330,6 +330,7 @@ Just add new repo for this project (`map/hints.csv`), row: `Automattic/amp-wp,WP
 Do the same for other projects/repos. Re-run analysis tool untill all is fine.
 - For example after definiing some new projects we see "EPFL-SV-cpp-projects" as one of top 50. This is an educational org that should be skipped. Add it to `map/skip.csv` for skipping row: `EPFL-SV-cpp-projects,,`
 - Once You have all URL's defined, added new mapping You can see preview of Top projects on while stopped in `binding.pry`, by typing `all`. Now we need to go back to `shells/unlimited_20160601-20170601.sh` and regenerate all non standard data (for projects not on github or requiring special queries on github - for example because of having 0 activity, comments, commits, issues, prs or authors)
+
 - Now Linux case: we need to change line `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-05-01 2017-05-01` into `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-06-01 2017-06-01` and run it
 - You will see: `Data range not found in data/data_linux.csv: 2016-06-01 - 2017-06-01` that meens we need to add new data range for Linux in file: `data/data_linux.csv`
 - Data for linux is here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing` but it doesn have May 2017 (finished yesterday), so we need last month's data.
@@ -357,6 +358,7 @@ torvalds,torvalds/linux,2017-05-01,2017-06-01,1219,24970,14469,424,22110
 torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,254893
 ```
 - NOTE that those numbers are lower than usual (generated June 1st), maybe torvalds/linux mirror wasn't fully updated yet? Issues from LKMA are little higher than in April, so wtf? TODO: check this again after 5th June!
+
 - GitLab case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
 - Their repo hosted by GitHub is: `https://github.com/gitlabhq/gitlabhq`, clone it via `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
 - Go to `cncf/gitdm` and run GitLab repo analysis: `./repo_in_range.sh ~/dev/gitlab-ce/ gitlab 2016-06-01 2017-06-01`
@@ -372,6 +374,17 @@ There are 732 pages of issues (20 on page) = 14640 issues (`https://gitlab.com/g
 Merge Requests: 371,5 page * 20 = 7430
 - To count authors run in gitlab-ce directory: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 575
 - To count authors run in gitlab-ce directory: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 589
+
+- Cloud Foundry case:
+- Copy: `BigQuery/query_cloudfoundry_201605_201704.sql` to `BigQuery/query_cloudfoundry_201606_201705.sql` and update conditions. Then run query on BigQuery console (see details at the beginning of example)
+- Finally You will have `data/data_cloudfoundry_201606_201705.csv` (run query, save results to table, export table to gstorage, download csv from gstorage).
+- Update (and eventually manually run) CF case (in `shells/unlimited_20160601-20170701.sh`): `ruby merger.rb data/unlimited.csv data/data_cloudfoundry_201606_201705.csv force`
+
+- CNCF Projects case
+- We have a line `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` need to change to `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
+- Copy: `cp BigQuery/query_cncf_projects.sql BigQuery/query_cncf_projects_201606_201705.sql`, update conditions: `BigQuery/query_cncf_projects_201606_201705.sql`
+- Run on BigQuery and do the same as for CF case, final saved file will be: `data/data_cncf_projects_201606_201705.csv`
+- Final line should be (try it): `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
 
 
 # Results:
