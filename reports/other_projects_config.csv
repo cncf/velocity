@@ -1,12 +1,12 @@
 project
-/^bosh$/i
-/^cloudfoundry$|cloud foundr$y/i
+/BOSH$/
+/^cloudfoundry$|^cloud foundry$/i
 /^libreoffice$/i
 /^chromium$|^chromium blink/i
 /^homebrew$/i
 /^webkit$/i
 /^linux kernel$/i
 /^gitlab$/i
-/^openstack$|^open stack$/i
-/^apache$/i
-/^opensuse$/i
+/^openstack |^open stack /i
+/^Apache /
+/^openSUSE /

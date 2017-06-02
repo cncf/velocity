@@ -1,5 +1,6 @@
 require 'csv'
 require 'pry'
+require 'to_regexp'
 require './comment'
 
 # It also uses `map/projects_statistics.csv` file to get a list of projects that needs to be included in rank statistics.
@@ -427,6 +428,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   puts "Dan loves it: `res[res.map { |i| i[0] }.index('Google Cloud')][2][:items].map { |i| [i['repo'], i['commits'], i['issues'], i['prs'], i['authors'].split(',').count] }.sort_by { |i| -i[1] }.map { |i| \"\#{i[0]}, commits: \#{i[1]}, issues: \#{i[2]}, PRs: \#{i[3]}, authors: \#{i[4]}\" }`"
   puts "See Project's specific repo: `res[res.map { |i| i[0] }.index('openSUSE')][2][:items].select { |i| i['repo'] == 'openSUSE/kernel' }`"
   puts "Project's Repo's real authors count: `res[res.map { |i| i[0] }.index('openSUSE')][2][:items].select { |i| i['repo'] == 'openSUSE/kernel' }.first['authors'].split(',').count`"
+  puts 'Projects matching regexp: `res.map.with_index { |e, i| [e, i] }.select { |e| e[0][0].match("/cloud/i".to_regexp) }.map { |e| "#{e[1]} #{e[0][0]}" }`'
 
   binding.pry
 
@@ -456,16 +458,31 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     obj = res[0][2][:sum]
     numeric_keys << key if obj[key].to_i.to_s == obj[key].to_s
   end
-  numeric_keys -= %w(authors authors_alt1 authors_alt2)
+  numeric_keys -= %w(authors_alt1 authors_alt2)
 
-  sumall = {}
+  sum_proj = {}
   res.each do |proj|
     numeric_keys.each do |key|
-      sumall[key] = 0 unless sumall.key?(key)
-      sumall[key] += proj[2][:sum][key].to_i
+      sum_proj[key] = 0 unless sum_proj.key?(key)
+      sum_proj[key] += proj[2][:sum][key].to_i
     end
   end
-  p sumall
+  numeric_keys.each do |key1|
+    numeric_keys.each do |key2|
+      next if key1 == key2
+      key = "#{key1}/#{key2}"
+      sum_proj[key] = sum_proj[key2] == 0 ? Float::NAN : (sum_proj[key1].to_f / sum_proj[key2].to_f).round(4)
+    end
+  end
+
+  # Save all projects summed numeric values and their ratios
+  hdr = %w(key value)
+  CSV.open('reports/sumall.csv', "w", headers: hdr) do |csv|
+    csv << hdr
+    sum_proj.each do |key, value|
+      csv << [key, value]
+    end
+  end
 end
 
 if ARGV.size < 7

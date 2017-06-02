@@ -1,22 +1,22 @@
 CNI:
-	#3521 by activity (1679)
-	#1540 by authors (54)
-	#2121 by comments (1150)
-	#15919 by commits (121)
-	#4562 by issues (127)
-	#2215 by prs (281)
+	#3523 by activity (1679)
+	#1544 by authors (54)
+	#2117 by comments (1150)
+	#15955 by commits (121)
+	#4585 by issues (127)
+	#2222 by prs (281)
 
 CoreDNS:
-	#5669 by activity (1014)
-	#6766 by authors (18)
-	#4312 by comments (499)
-	#12373 by commits (175)
-	#4115 by issues (142)
+	#5666 by activity (1014)
+	#6928 by authors (18)
+	#4309 by comments (499)
+	#12402 by commits (175)
+	#4131 by issues (142)
 	#3088 by prs (198)
 
 Fluentd:
 	#401 by activity (9242)
-	#342 by authors (143)
+	#338 by authors (143)
 	#475 by comments (4182)
 	#653 by commits (2465)
 	#361 by issues (1048)
@@ -32,23 +32,23 @@ Kubernetes:
 
 Linkerd:
 	#2245 by activity (2684)
-	#2849 by authors (35)
-	#2596 by comments (922)
-	#3132 by commits (767)
-	#1187 by issues (454)
-	#1117 by prs (541)
+	#2952 by authors (35)
+	#2594 by comments (922)
+	#3128 by commits (767)
+	#1184 by issues (454)
+	#1116 by prs (541)
 
 OpenTracing:
 	#1164 by activity (4681)
-	#862 by authors (81)
+	#855 by authors (81)
 	#855 by comments (2732)
-	#2563 by commits (912)
+	#2562 by commits (912)
 	#1471 by issues (381)
-	#883 by prs (656)
+	#882 by prs (656)
 
 Prometheus:
 	#90 by activity (23678)
-	#57 by authors (363)
+	#56 by authors (363)
 	#74 by comments (13802)
 	#396 by commits (3295)
 	#60 by issues (3007)
@@ -56,15 +56,15 @@ Prometheus:
 
 containerd:
 	#1335 by activity (4258)
-	#906 by authors (79)
+	#914 by authors (79)
 	#1005 by comments (2401)
-	#5176 by commits (481)
-	#2214 by issues (269)
-	#413 by prs (1107)
+	#5183 by commits (481)
+	#2211 by issues (269)
+	#414 by prs (1107)
 
 gRPC:
 	#32 by activity (43530)
-	#71 by authors (335)
+	#69 by authors (335)
 	#26 by comments (26110)
 	#324 by commits (3806)
 	#22 by issues (5093)
@@ -72,9 +72,9 @@ gRPC:
 
 rkt:
 	#594 by activity (7411)
-	#651 by authors (96)
+	#655 by authors (96)
 	#354 by comments (5051)
-	#4977 by commits (500)
+	#4979 by commits (500)
 	#660 by issues (715)
 	#395 by prs (1145)
 

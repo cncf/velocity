@@ -191,8 +191,8 @@ This allows to update specific keys in specific projects with data taken from ot
 It is used now to update github data with issues statistics from jira (for apache projects).
 
 
-Tool to create per project ranks (for all project's numeric properties) `report_projects_ranks.rb` & `shells/report_project_ranks.sh`
-Shell script projects from `projects/unlimited_both.csv` and uses: `reports/cncf_projects_statistics.csv` file to get a list of projects that needs to be included in rank statistics.
+Tool to create per project ranks (for all project's numeric properties) `report_projects_ranks.rb` & `shells/report_cncf_project_ranks.sh`
+Shell script projects from `projects/unlimited_both.csv` and uses: `reports/cncf_projects_config.csv` file to get a list of projects that needs to be included in rank statistics.
 File format is:
 ```
 project
@@ -419,7 +419,7 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 ```
 - So we have authors=125, commits=13348
 - Now need to estimate remaining: activity, comments, prs:
-- Good idea is to get it from ALL projects summaries (we have value for ALL keys summed in all projects from analysis.rb)
+- Good idea is to get it from ALL projects summaries (we have value for ALL keys summed in all projects from analysis.rb), this is automatically saved by `analysis.rb` to `reports/sumall.csv` file.
 - This value from last `analysis.rb` run is: `{"activity"=>30714776, "comments"=>12766215, "prs"=>3311370, "commits"=>11687914, "issues"=>3104377}`
 - So now average PRs/issues: sumall['prs'].to_f / sumall['issues'].to_f = 1.07 which gives PRs = 1.1 * 21444 = 23600
 - Comments would be 2 * commits = 26000
@@ -445,11 +445,6 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 
 - LibreOffice case
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
-
-(...) xxx need to update non standard data for few of projects above
-TODO: continue
-TODO: save overall projects stats `sumall` in a CSV file `reports/sumall.csv` (`analysis.rb`)
-TODO: `reports/cf_projects_statistics.csv` rename file and corresponding script (this is no more about only CF projects), correct regesps to generate reports for all special case projects and other interesting non CNCF projects
 
 - Finally `./projects/unlimited.csv` is generated. You need to import it in final Google chart by doing:
 - Select A50 cell. Use File --> Import, then "Upload" tab, "Select a file from your computer", choose `./projects/unlimited.csv`

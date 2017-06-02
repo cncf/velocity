@@ -37,7 +37,8 @@ def report_ranks(fin, fpstats, frep)
   all_projs = res.keys.sort
   pstats.each do |proj|
     if proj[0] == '/'
-      projs = all_projs.select {|p| p.match(proj.to_regexp) }
+      puts "Matching reexp: #{proj.to_regexp}"
+      projs = all_projs.select { |p| p.match(proj.to_regexp) }
       projs.each { |p| out << p }
       next
     end
