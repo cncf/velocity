@@ -431,13 +431,29 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 - Copy `cp BigQuery/query_openstack_projects.sql BigQuery/query_openstack_projects_201606_201705.sql` and update date range condition in `BigQuery/query_openstack_projects_201606_201705.sql`
 - Copy to clipboard `pbcopy < BigQuery/query_openstack_projects_201606_201705.sql` and run BigQuery, Save as Table, export to gstorage, and save result as `data/data_openstack_201606_201705.csv`
 - Run `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv` to try it
+- Now need to update data to get file `data/data_openstack_bugs_201606_201705.csv` (copy file from `data/data_openstack_bugs.csv`)
+- Use thier launchpad to get issues info:
+https://wiki.openstack.org/wiki/Bugs
+Specially go to: `When you find a bug, you should file it against the proper OpenStack project using the corresponding link`
+Click for example "Report a bug in Nova"
+https://bugs.launchpad.net/nova/, go to Advanced, select all possible issues, click "Age" sort desc, an dthen manually count issues in given date range
+Once You havo one correct URL, like:
+https://bugs.launchpad.net/keystone/+bugs?field.searchtext=&search=Search&field.status%3Alist=NEW&field.status%3Alist=OPINION&field.status%3Alist=INVALID&field.status%3Alist=WONTFIX&field.status%3Alist=EXPIRED&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=FIXRELEASED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&orderby=-datecreated&memo=350&start=75
+You will replace "keystone" with projects names like: nova, glance, swift, horizon etc.
+After each replace click "Age" to sort created desc. Not how many issues discard from first page (as too new) or next pages.
+Then minipulate "memo" parameter (end of URL) to get starting value. And choose such value when start date is withing. Count issues using memo + #isse which is out - numbe rof issues from 1st (or more) pages which are after.
+Estimate for all 12 OpenStack projects.
+
+Example for Murano:
+https://bugs.launchpad.net/murano/+bugs?field.searchtext=&search=Search&field.status%3Alist=NEW&field.status%3Alist=OPINION&field.status%3Alist=INVALID&field.status%3Alist=WONTFIX&field.status%3Alist=EXPIRED&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=FIXRELEASED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&orderby=-datecreated&memo=425&start=350&direction=backwards
+- Final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201606_201705.csv -1`
 
 - Apache case:
 - Exactly the same BigQuery steps as OpenStack for example, final line should be `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_apache_projects_201606_201705.sql`, update conditions, run BigQ, download results to `data/data_apache_201606_201705.csv`
 - Run `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
 - Now we need more data for Apache from their jira, first copy file from previous data ranhe `cp data/data_apache_jira.csv data/data_apache_jira_201606_201705.csv`
-- Now go to their jirs: issues.apache.org/jira/browse, You can set conditions to find issues, like this:
+- Now go to their jira: issues.apache.org/jira/browse, You can set conditions to find issues, like this:
 ```
 project not in (FLINK, MESOS, SPARK, KAFKA, CAMEL, FLINK, CLOUDSTACK, BEAM, ZEPPELIN, CASSANDRA, HIVE, HBASE, HADOOP, IGNITE, NIFI, AMBARI, STORM, "Traffic Server", "Lucene - Core", Solr, CarbonData, GEODE, "Apache Trafodion", Thrift, Kylin) AND created >= 2016-05-01 AND created <= 2017-05-01
 ```
@@ -445,15 +461,62 @@ Example URL: `https://issues.apache.org/jira/browse/ZOOKEEPER-2769?jql=project%2
 We need: Mesos, Spark, Kafka, Camel, Flink (above query is for other projects without those)
 Query for Mesos in our data range: `project in (Mesos) AND created >= 2016-06-01 AND created <= 2017-06-01` --> 2055
 Do this for all projects.
+- Final line for Apache should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_201606_201705.csv -1`
 
 - Chromium case
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word chromium): `ruby merger.rb data/unlimited.csv data/data_chromium_201606_201705.csv`
+- Now manual part - copy `data/data_chromium_bugtracker.csv` to `data/data_chromium_bugtracker_201606_201705.csv` (we need to generate this file)
+- Get Issues from their bug tracker: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=opened%3E2016%2F7%2F25&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids
+All issues + opened>2016/7/19 gives: 63565 (for 2016/7/18 gives 63822+ which means non exact number) we will extrapolate from here.
+All issues + opened>2017/6/1 gives 325, so we have: 63565 - 325 = 63240 issues in 2016-07-19 - 2017-06-01
+irb> require 'date'; Date.parse('2017-06-01') - Date.parse('2016-07-19') --> 317
+irb> Date.parse('2017-06-01') - Date.parse('2016-06-01') --> 365
+irb> 63240.0 * (365.0 / 317.0) --> 72815 
+Now add chromedriver too:
+All issues, opened>2017/6/1 --> 1
+All issues, opened>2016/6/1 --> 430
+So there are 429 chromedriver issues: 429 + 72815 = 73244
+- Now chromium commits analysis, this is complex
+- Their sources (all projects) are here: https://chromium.googlesource.com
+- Clone `chromium/src` in `~/dev/src/`: `git clone https://chromium.googlesource.com/chromium/src`
+- Commits: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 79144 (but this is only FYI, this is too much, there are bot commits here)
+- Authors: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1697
+To analyse those commits (and exclude merge and robot commits):
+Run while in chromium/src repository:
+`git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits_201606_201705.csv`
+Then remove special CSV characters with VI commands: `:%s/"//g`, `:%s/,//g`
+Then add CSV header manually "email,name,hash,subject" and move it to: `cncf/velocity`:`data/data_chromium_commits_201606_201705.csv`: `mv chromium_commits_201606_201705.csv ~/dev/cncf/velocity/data/data_chromium_commits_201606_201705.csv`
+Finally replace '~~~~' with ',' to create correct CSV: `:%s/\~\~\~\~/,/g`
+Then run `ruby commits_analysis.rb data/data_chromium_commits_201606_201705.csv map/skip_commits.csv`
+Eventually/optionally add new rules to skip commits to `map/skip_commits.csv`
+Tool will say somethiong like this: "After filtering: authors: 1637, commits: 67180", update `data/data_chromium_bugtracker_201606_201705.csv` accordingly.
+- Final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_201606_201705.csv -1`
 
 - openSUSE case
-- Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
+- BigQuery part exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
 
 - LibreOffice case
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
+- Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_201606_201705.csv` and we will update `data/data_libreoffice_git_201606_201705.csv` file
+- Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`
+- Analyse this repo as described in: `res/libreoffice_git_repo.txt`, to see that it generates lower number than those from BigQuery output (so we can skip this step)
+- Commits: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
+- Authors: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
+- Put results in: `data/data_libreoffice_git_201606_201705.csv` (authors, commits), values will probably be skipped by updater tool (the're lower that current values gathered so far)
+- Issues:
+Issue listing is here: https://bugs.freedesktop.org/buglist.cgi?product=LibreOffice&query_format=specific&order=bug_id&limit=0
+Create account, change columns to "Opened" and "ID" generaly no more needed. (ID is a link). Sprt by Opened desc and try to see all results. (You can hit nginx gateway timeout).
+This URL succeeded for me: https://bugs.documentfoundation.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&bug_status=NEEDINFO&columnlist=opendate&component=Android%20Viewer&component=Base&component=BASIC&component=Calc&component=Chart&component=ci-infra&component=contrib&component=deletionrequest&component=Documentation&component=Draw&component=Extensions&component=filters%20and%20storage&component=Formula%20Editor&component=framework&component=graphics%20stack&component=Impress&component=Installation&component=LibreOffice&component=Linguistic&component=Localization&component=Printing%20and%20PDF%20export&component=sdk&component=UI&component=ux-advise&component=Writer&component=Writer%20Web&component=WWW&limit=0&list_id=703831&order=opendate%20DESC%2Cchangeddate%2Cbug_id%20DESC&product=LibreOffice&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&resolution=NOTABUG&resolution=NOTOURBUG&resolution=INSUFFICIENTDATA
+Download as CSV to `data/data_libreoffice_bugs.csv`, an then count issues with given date range "2016-06-01" --> "2017-06-01" with `ruby count_issues.rb data/data_libreoffice_bugs.csv Opened '2016-06-01 00:00:00' '2017-06-01 00:00:00'`
+```
+ruby count_issues.rb data/data_libreoffice_bugs.csv Opened 2016-06-01 2017-06-01
+Counting issues in 'data/data_libreoffice_bugs.csv', issue date column is 'Opened', range: 2016-06-01T00:00:00+00:00 - 2017-06-01T00:00:00+00:00
+Found 7223 matching issues.
+```
+Update `data/data_libreoffice_git_201606_201705.csv` accordingly.
+- Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201606_201705.csv -1`
+
+- Run final updated script: `shells/unlimited_20160601-20170601.sh` to get final results.
 
 - Finally `./projects/unlimited.csv` is generated. You need to import it in final Google chart by doing:
 - Select A50 cell. Use File --> Import, then "Upload" tab, "Select a file from your computer", choose `./projects/unlimited.csv`

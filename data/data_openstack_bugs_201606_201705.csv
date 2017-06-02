@@ -1,0 +1,46 @@
+project,key,value
+# issues
+OpenStack Nova,issues,1355
+OpenStack Neutron,issues,1490
+OpenStack Cinder,issues,1155
+OpenStack Manuals,issues,975
+OpenStack Glance,issues,185
+OpenStack Swift,issues,257
+OpenStack Horizon,issues,774
+OpenStack Keystone,issues,369
+OpenStack Heat,issues,482
+OpenStack Manila,issues,368
+OpenStack Murano,issues,330
+OpenStack Mistral,issues,228
+OpenStack API,issues,43
+OpenStack Community,issues,19
+# PRs ~= issues * 1.1
+OpenStack Nova,prs,1540
+OpenStack Neutron,prs,1650
+OpenStack Cinder,prs,1270
+OpenStack Manuals,prs,1080
+OpenStack Glance,prs,203
+OpenStack Swift,prs,285
+OpenStack Horizon,prs,855
+OpenStack Keystone,prs,407
+OpenStack Heat,prs,530
+OpenStack Manila,prs,406
+OpenStack Murano,prs,363
+OpenStack Mistral,prs,253
+OpenStack API,prs,50
+OpenStack Community,prs,23
+# Comments ~= 4 * issues
+OpenStack Nova,comments,5400
+OpenStack Neutron,comments,5960
+OpenStack Cinder,comments,4600
+OpenStack Manuals,comments,3900
+OpenStack Glance,comments,730
+OpenStack Swift,comments,1000
+OpenStack Horizon,comments,3150
+OpenStack Keystone,comments,1480
+OpenStack Heat,comments,1920
+OpenStack Manila,comments,1400
+OpenStack Murano,comments,1320
+OpenStack Mistral,comments,910
+OpenStack API,comments,170
+OpenStack Community,comments,75
