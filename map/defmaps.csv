@@ -106,10 +106,7 @@ jsdelivr,jsDelivr
 keybase,Keybase
 kubernetes,Kubernetes
 kubernetes-client,Kubernetes
-kubernetes-cluster-automation,Kubernetes
-kubernetes-contrib,Kubernetes
 kubernetes-incubator,Kubernetes
-kubernetes-ui,Kubernetes
 laravel,Laravel
 letsencrypt,Let's Encrypt
 linkedin,LinkedIn
@@ -190,3 +187,6 @@ zendframework,Zend Framework
 # cloudfoundry-community,Cloud Foundry Community
 # cloudfoundry-incubator,Cloud Foundry Incubator
 # cloudfoundry-samples,Cloud Foundry Samples
+# kubernetes-cluster-automation,Kubernetes
+# kubernetes-contrib,Kubernetes
+# kubernetes-ui,Kubernetes

@@ -1,0 +1,16 @@
+project,key,value
+Apache Mesos,issues,2055
+Apache Spark,issues,5232
+Apache Kafka,issues,1580
+Apache Camel,issues,1364
+Apache Flink,issues,2787
+Apache Ambari,issues,4167
+Apache Beam,issues,2077
+Apache Cassandra,issues,1631
+Apache CloudStack,issues,3
+Apache Hive,issues,2888
+Apache Ignite,issues,2116
+Apache Kylin,issues,899
+Apache NiFi,issues,2038
+Apache Storm,issues,666
+Apache Zeppelin,issues,1669

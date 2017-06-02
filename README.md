@@ -436,6 +436,15 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 - Exactly the same BigQuery steps as OpenStack for example, final line should be `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_apache_projects_201606_201705.sql`, update conditions, run BigQ, download results to `data/data_apache_201606_201705.csv`
 - Run `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
+- Now we need more data for Apache from their jira, first copy file from previous data ranhe `cp data/data_apache_jira.csv data/data_apache_jira_201606_201705.csv`
+- Now go to their jirs: issues.apache.org/jira/browse, You can set conditions to find issues, like this:
+```
+project not in (FLINK, MESOS, SPARK, KAFKA, CAMEL, FLINK, CLOUDSTACK, BEAM, ZEPPELIN, CASSANDRA, HIVE, HBASE, HADOOP, IGNITE, NIFI, AMBARI, STORM, "Traffic Server", "Lucene - Core", Solr, CarbonData, GEODE, "Apache Trafodion", Thrift, Kylin) AND created >= 2016-05-01 AND created <= 2017-05-01
+```
+Example URL: `https://issues.apache.org/jira/browse/ZOOKEEPER-2769?jql=project%20not%20in%20(FLINK%2C%20MESOS%2C%20SPARK%2C%20KAFKA%2C%20CAMEL%2C%20FLINK%2C%20CLOUDSTACK%2C%20BEAM%2C%20ZEPPELIN%2C%20CASSANDRA%2C%20HIVE%2C%20HBASE%2C%20HADOOP%2C%20IGNITE%2C%20NIFI%2C%20AMBARI%2C%20STORM%2C%20%22Traffic%20Server%22%2C%20%22Lucene%20-%20Core%22%2C%20Solr%2C%20CarbonData%2C%20GEODE%2C%20%22Apache%20Trafodion%22%2C%20Thrift%2C%20Kylin)%20AND%20created%20%3E%3D%202016-05-01%20AND%20created%20%3C%3D%202017-05-01`
+We need: Mesos, Spark, Kafka, Camel, Flink (above query is for other projects without those)
+Query for Mesos in our data range: `project in (Mesos) AND created >= 2016-06-01 AND created <= 2017-06-01` --> 2055
+Do this for all projects.
 
 - Chromium case
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word chromium): `ruby merger.rb data/unlimited.csv data/data_chromium_201606_201705.csv`
