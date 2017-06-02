@@ -498,3 +498,31 @@ worldofbalance,github.com/worldofbalance
 yarn,yarnpkg.com
 zurb,zurb.com
 Основной репозиторий,igov.org.ua
+# CF Acceptance tests,cloudfoundry.org
+# CF Buildpacks,docs.cloudfoundry.org/buildpacks
+# CF CI Infrastructure,mega.ci.cf-app.com
+# CF Cloud Controller,cloudfoundry.org
+# CF Dropsonde,cloudfoundry.org
+# CF Executor,cloudfoundry.org
+# CF GoRouter,cloudfoundry.org
+# CF Guardian,cloudfoundry.org
+# CF Homebrew Tap,cloudfoundry.org
+# CF NOAA,cloudfoundry.org
+# CF PMC Notes,github.com/cloudfoundry/pmc-notes
+# CF Top,xxx.org
+# CF UAA Server,cloudfoundry.org
+# CF sprout-wrap,cloudfoundry.org
+# Cloud Foundry (other),cloudfoundry.org
+# Cloud Foundry API,apidocs.cloudfoundry.org
+# Cloud Foundry Attic,github.com/cloudfoundry-attic
+# Cloud Foundry CLI,docs.cloudfoundry.org/cf-cli
+# Cloud Foundry Community,github.com/cloudfoundry-community
+# Cloud Foundry Dashboard,dashboard.fr.cloud.gov
+# Cloud Foundry Diego,cloudfoundry.org
+# Cloud Foundry Docs,cloudfoundry.org
+# Cloud Foundry Incubator,github.com/cloudfoundry-incubator
+# Cloud Foundry MySQL Service,cloudfoundry.org
+# Cloud Foundry Release,cloudfoundry.org
+# Cloud Foundry Samples,github.com/cloudfoundry-samples
+# Cloud Foundry,github.com/cloudfoundry
+# Cloud Native Logging,cloudfoundry.org

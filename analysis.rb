@@ -86,6 +86,11 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   end
 
   # Repo --> Project mapping
+  hints_comments = []
+  File.readlines(fhint).each do |line|
+    hints_comments << line if line[0] == '#'
+  end
+
   projects = {}
   CSV.foreach(fhint, headers: true) do |row|
     next if is_comment row
@@ -116,7 +121,16 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     end
   end
 
+  File.open(fhint, 'a') do |file|
+    hints_comments.sort.each { |comment| file.write(comment) }
+  end
+
   # Project --> URL mapping (it uses final project name after all mappings, including defmaps.csv)
+  urls_comments = []
+  File.readlines(furls).each do |line|
+    urls_comments << line if line[0] == '#'
+  end
+
   urls = {}
   CSV.foreach(furls, headers: true) do |row|
     next if is_comment row
@@ -147,6 +161,10 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     end
   end
 
+  File.open(furls, 'a') do |file|
+    urls_comments.sort.each { |comment| file.write(comment) }
+  end
+
   # Final name --> new name mapping (defmaps)
   # Used to create better names for projects auto generated just from org or repo name
   # And/Or to group multiple orgs, repos, projects or combinations of all into single project
@@ -154,6 +172,11 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   # name,project
   # Kubernetes,XYZ
   # dotnet,XYZ
+  defmaps_comments = []
+  File.readlines(fdefmaps).each do |line|
+    defmaps_comments << line if line[0] == '#'
+  end
+
   defmaps = {}
   skip_group = {}
   CSV.foreach(fdefmaps, headers: true) do |row|
@@ -198,6 +221,10 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     defmaps.keys.sort.each do |name|
       csv << [name, defmaps[name]]
     end
+  end
+
+  File.open(fdefmaps, 'a') do |file|
+    defmaps_comments.sort.each { |comment| file.write(comment) }
   end
 
   # Missing URLs: will abort program: if somebody care to define some project (via hints, defmaps or whatever) then let's force him/her to define project URL as well
@@ -444,7 +471,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     end
   end
 
-  CSV.open('all_repos.csv', "w", headers: ['repo']) do |csv|
+  CSV.open('reports/all_repos.csv', "w", headers: ['repo']) do |csv|
     csv << ['repo']
     all_repos.keys.sort.each do |repo|
       csv << [repo]
