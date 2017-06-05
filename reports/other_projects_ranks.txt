@@ -231,10 +231,10 @@ LibreOffice:
 	#14676 by prs (26)
 
 Linux kernel:
-	#1 by activity (319375)
-	#1 by authors (3803)
+	#1 by activity (319480)
+	#1 by authors (3814)
 	#1 by comments (254893)
-	#2 by commits (64482)
+	#2 by commits (64587)
 	#2 by issues (63723)
 	#1 by prs (63723)
 

@@ -266,7 +266,7 @@ ruby merger.rb data/unlimited.csv data/data_your_project_datefrom_date_to.csv
 - Now comes non standard path, please see `shells/unlimited_both.sh` for non standar data update that comes after final `ruby analysis.rb` call - this is usually different for each non-standard project
 
 # Most Up to date process
-To generate all data for Top 40 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
+To generate all data for Top 30 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
 
 - Fetch all data needed using BigQuery (once - or use data already fetched present in this repo).
 - If fetched new BigQuery data then rerun special projects BigQuery analysis scripts: ./shells/: run_apache.sh, run_chrome_chromium.sh, run_cncf.sh, run_openstack.sh
@@ -357,7 +357,6 @@ A total of 3790914 lines added, 1522111 removed (delta 2268803)
 torvalds,torvalds/linux,2017-05-01,2017-06-01,1219,24970,14469,424,22110
 torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,254893
 ```
-- NOTE that those numbers are lower than usual (generated June 1st), maybe torvalds/linux mirror wasn't fully updated yet? Issues from LKMA are little higher than in April, so wtf? TODO: check this again after 5th June!
 
 - GitLab case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
 - Their repo hosted by GitHub is: `https://github.com/gitlabhq/gitlabhq`, clone it via `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
@@ -523,7 +522,6 @@ Update `data/data_libreoffice_git_201606_201705.csv` accordingly.
 - Then "Import action" --> "replace data starting at selected call", click Import.
 - Voila!
 Final version will live here: https://docs.google.com/spreadsheets/d/1a2VdKfAI1g9ZyWL09TnJ-snOpi4BC9kaEVmB7IufY7g/edit?usp=sharing
-But now it is WIP!
 
 # Results:
 
