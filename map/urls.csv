@@ -287,13 +287,15 @@ OpenHTF,github.com/google/openhtf
 OpenRCT2,openrct2.website
 OpenSSL,openssl.org
 OpenShift,openshift.com
-OpenStack (other),openstack.org
-OpenStack Charmers,openstack.org
+OpenStack,openstack.org
+OpenStack (retired),openstack.org
+OpenStack Charms,openstack.org
 OpenStack Community,openstack.org
-OpenStack Hyper-v,openstack.org
+OpenStack Hyper-V,openstack.org
 OpenStack Infra,openstack.org
 OpenStack Korean,openstack.org
 OpenStack Mobile,openstack.org
+OpenStack NET SDK,openstack.org
 OpenStack Snaps,openstack.org
 OpenTracing,opentracing.io
 OpenWrt,openwrt.org
@@ -321,6 +323,7 @@ Prometheus,prometheus.io
 Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
 RDF4J,rdf4j.org
+RDO,rdoproject.org
 REASON,facebook.github.io/reason
 Rapid7,rapid7.com
 React,facebook.com
