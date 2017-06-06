@@ -10,3 +10,4 @@ project
 /^openstack |^open stack /i
 /^Apache /
 /^openSUSE /
+FreeBSD

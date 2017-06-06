@@ -19,6 +19,8 @@ ChromeExtensionStore,Chromium
 ChromiumWebApps,Chromium
 CleverRaven,Cataclysm-DDA
 DataDog,Datadog
+FreeBSDDesktop,FreeBSD
+FreeBSDFoundation,FreeBSD
 GoogleChrome,Chromium
 IBM-Bluemix,IBM Bluemix
 KSP-CKAN,CKAN
@@ -89,9 +91,14 @@ fabric8io,fabric8
 facebook,React
 fluent,Fluentd
 flutter,Flutter
+freebsd,FreeBSD
+freebsd-build-toolkit,FreeBSD
+freebsd-net,FreeBSD
+freebsd-riscv,FreeBSD
 github,GitHub
 gitlab,GitLab
 gitlabhq,GitLab
+go-freebsd,FreeBSD
 godotengine,Godot Engine
 grpc,gRPC
 grpc-ecosystem,gRPC

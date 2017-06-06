@@ -515,6 +515,28 @@ Found 7223 matching issues.
 Update `data/data_libreoffice_git_201606_201705.csv` accordingly.
 - Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201606_201705.csv -1`
 
+- Now let's examine some new case: FreeBSD:
+- Use BigQuery/org_finder.sql (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
+- `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_201606_201705.csv` (save as table, export to gstorage, download csv)
+- Now define FreeBSD project the same way as BigQuery: put orgs in `map/defmaps.csv`, put URL in `map/urls.csv`, put orgs as exceptions in `map/ranges.csv` and `map/ranges_sane.csv` (because some values can be 0s due to custom BigQuery)
+- Add FreeBSD processing to shells/unlimited:
+```
+echo "Adding/Updating FreeBSD Projects"
+ruby merger.rb data/unlimited.csv data/data_freebsd_201606_201705.csv
+```
+- Go to `~/dev/freebsd` and clone 3 SVN repos:
+```
+svn checkout https://svn.freebsd.org/base/head base
+svn checkout https://svn.freebsd.org/doc/head doc
+svn checkout https://svn.freebsd.org/ports/head ports
+```
+- Use `cncf/gitdm`:freebsd_svn.sh` script to analyse FreeBSD SVN repos:
+```
+Revisions:    35927
+Authors:      335
+```
+- Now rerun `shells/unlimited_201606_201705.sh` and see FreeBSD's rank
+
 - Run final updated script: `shells/unlimited_20160601-20170601.sh` to get final results.
 
 - Finally `./projects/unlimited.csv` is generated. You need to import it in final Google chart by doing:

@@ -23,6 +23,8 @@ echo "Adding/Updating openSUSE case"
 ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv
 echo "Adding/Updating LibreOffice case"
 ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv
+echo "Adding/Updating FreeBSD Projects"
+ruby merger.rb data/unlimited.csv data/data_freebsd_201606_201705.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating Apache Projects using Jira data"
@@ -33,6 +35,8 @@ echo "Updating Chromium project using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_201606_201705.csv -1
 echo "Updating LibreOffice project using their git repo"
 ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201606_201705.csv -1
+echo "Updating FreeBSD project using their repos SVN data"
+ruby update_projects.rb projects/unlimited_both.csv data/data_freebsd_svn_201606_201705.csv -1
 echo "Generating Projects Ranks statistics"
 ./shells/report_cncf_project_ranks.sh
 ./shells/report_other_project_ranks.sh
