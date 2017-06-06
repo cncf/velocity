@@ -287,39 +287,18 @@ OpenHTF,github.com/google/openhtf
 OpenRCT2,openrct2.website
 OpenSSL,openssl.org
 OpenShift,openshift.com
-OpenStack (other),openstack.org
-OpenStack API,openstack.org
-OpenStack Ansible,openstack.org
-OpenStack Charmers,openstack.org
-OpenStack Cinder,openstack.org
+OpenStack,openstack.org
+OpenStack (retired),openstack.org
+OpenStack Charms,openstack.org
 OpenStack Community,openstack.org
-OpenStack Cookbook,openstack.org
-OpenStack Dev,openstack.org
-OpenStack Glance,openstack.org
-OpenStack Heat,openstack.org
-OpenStack Horizon,openstack.org
-OpenStack Hyper-v,openstack.org
+OpenStack Hyper-V,openstack.org
 OpenStack Infra,openstack.org
-OpenStack Keystone,openstack.org
 OpenStack Korean,openstack.org
-OpenStack Manila,openstack.org
-OpenStack Manuals,openstack.org
-OpenStack Mistral,openstack.org
 OpenStack Mobile,openstack.org
-OpenStack Murano,openstack.org
-OpenStack Net SDK,openstack.org
-OpenStack Neutron,openstack.org
-OpenStack Nova,openstack.org
-OpenStack Other Repos,openstack.org
-OpenStack Packages,openstack.org
+OpenStack NET SDK,openstack.org
 OpenStack Snaps,openstack.org
-OpenStack Stackalytics,openstack.org
-OpenStack Swift,openstack.org
-OpenStack Tools,openstack.org
-OpenStack Web,openstack.org
 OpenTracing,opentracing.io
 OpenWrt,openwrt.org
-Openstack Tools,openstack.org
 Operations Research Tools,developers.google.com/optimization
 Osmand,osmand.net
 PACO,pacoapp.com
@@ -344,6 +323,7 @@ Prometheus,prometheus.io
 Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
 RDF4J,rdf4j.org
+RDO,rdoproject.org
 REASON,facebook.github.io/reason
 Rapid7,rapid7.com
 React,facebook.com

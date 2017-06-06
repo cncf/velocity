@@ -270,13 +270,13 @@ Microsoft/windows-driver-docs,Microsoft docs
 Microsoft/windows-itpro-docs,Microsoft docs
 Microsoft/winsdkfb,VS Code
 Microsoft/xunit-performance,dotnet
-OpenStack-mobile/AFHorizontalDayPicker,OpenStack Horizon
-OpenStack-mobile/HanekeSwift,OpenStack Swift
-OpenStack-mobile/KFSwiftImageLoader,OpenStack Swift
-OpenStack-mobile/OAuth2-Swift,OpenStack Swift
-OpenStack-mobile/OpenStackID-Swift,OpenStack Swift
-OpenStack-mobile/SwiftFoundation,OpenStack Swift
-OpenStack-mobile/SwiftSpinner,OpenStack Swift
+OpenStack-mobile/AFHorizontalDayPicker,OpenStack Mobile
+OpenStack-mobile/HanekeSwift,OpenStack Mobile
+OpenStack-mobile/KFSwiftImageLoader,OpenStack Mobile
+OpenStack-mobile/OAuth2-Swift,OpenStack Mobile
+OpenStack-mobile/OpenStackID-Swift,OpenStack Mobile
+OpenStack-mobile/SwiftFoundation,OpenStack Mobile
+OpenStack-mobile/SwiftSpinner,OpenStack Mobile
 Shopify/Timber,Shopify Timber
 Shopify/active_shipping,ActiveShipping
 Shopify/js-buy-sdk,Shopify SDKs
@@ -770,275 +770,1696 @@ openSUSE/kernel-source,openSUSE Kernel source
 openSUSE/open-build-service,Open Build Service
 openSUSE/salt,openSUSE SaltStack
 openSUSE/zypper,Zypper
-openstack-charmers/charm-glance-simplestreams-sync,OpenStack Glance
-openstack-charmers/charm-interface-keystone,OpenStack Keystone
-openstack-charmers/charm-interface-keystone-domain-backend,OpenStack Keystone
-openstack-charmers/charm-keystone-ldap,OpenStack Keystone
-openstack-charmers/charm-layer-openstack-api,OpenStack API
-openstack-charmers/charm-nova-compute-proxy,OpenStack Nova
-openstack-charmers/charm-template-api,OpenStack API
-openstack-charmers/charm-template-neutron-plugin,OpenStack Neutron
-openstack-charmers/migration-tools,OpenStack Tools
-openstack-charmers/openstack-charms-tools,OpenStack Tools
-openstack-charmers/openstack-community,OpenStack Community
-openstack-charmers/release-tools,OpenStack Tools
-openstack-dev/heat-cfnclient,OpenStack Heat
-openstack-hyper-v/ewsapi,OpenStack API
-openstack-hyper-v/puppet-petools,OpenStack Tools
-openstack-infra/infra-manual,OpenStack Manuals
-openstack-infra/release-tools,OpenStack Tools
-openstack-kr/ubuntu-script-community-ver,OpenStack Community
-openstack-snaps/snap-glance,OpenStack Glance
-openstack-snaps/snap-keystone,OpenStack Keystone
-openstack-snaps/snap-neutron,OpenStack Neutron
-openstack-snaps/snap-nova,OpenStack Nova
-openstack-snaps/snap-nova-hypervisor,OpenStack Nova
-openstack/api-site,OpenStack API
-openstack/api-wg,OpenStack API
-openstack/astara-horizon,OpenStack Horizon
-openstack/astara-neutron,OpenStack Neutron
-openstack/blazar-nova,OpenStack Nova
-openstack/charm-cinder,OpenStack Cinder
-openstack/charm-cinder-backup,OpenStack Cinder
-openstack/charm-cinder-ceph,OpenStack Cinder
-openstack/charm-glance,OpenStack Glance
-openstack/charm-heat,OpenStack Heat
-openstack/charm-interface-keystone,OpenStack Keystone
-openstack/charm-interface-keystone-credentials,OpenStack Keystone
-openstack/charm-interface-manila-plugin,OpenStack Manila
-openstack/charm-interface-neutron-plugin,OpenStack Neutron
-openstack/charm-interface-odl-controller-api,OpenStack API
-openstack/charm-keystone,OpenStack Keystone
-openstack/charm-keystone-ldap,OpenStack Keystone
-openstack/charm-layer-openstack-api,OpenStack API
-openstack/charm-manila,OpenStack Manila
-openstack/charm-manila-generic,OpenStack Manila
-openstack/charm-neutron-api,OpenStack Neutron
-openstack/charm-neutron-api-odl,OpenStack Neutron
-openstack/charm-neutron-api-plumgrid,OpenStack Neutron
-openstack/charm-neutron-gateway,OpenStack Neutron
-openstack/charm-neutron-openvswitch,OpenStack Neutron
-openstack/charm-nova-cloud-controller,OpenStack Nova
-openstack/charm-nova-compute,OpenStack Nova
-openstack/charm-nova-compute-proxy,OpenStack Nova
-openstack/charm-swift-proxy,OpenStack Swift
-openstack/charm-swift-storage,OpenStack Swift
-openstack/ci-cd-pipeline-app-murano,OpenStack Murano
-openstack/cinder,OpenStack Cinder
-openstack/cinder-fusioncompute,OpenStack Cinder
-openstack/cinder-specs,OpenStack Cinder
-openstack/clouddocs-maven-plugin,OpenStack Manuals
-openstack/deb-cinder,OpenStack Cinder
-openstack/deb-glance,OpenStack Glance
-openstack/deb-heat,OpenStack Heat
-openstack/deb-heat-cfntools,OpenStack Heat
-openstack/deb-horizon,OpenStack Horizon
-openstack/deb-keystone,OpenStack Keystone
-openstack/deb-manila,OpenStack Manila
-openstack/deb-manila-ui,OpenStack Manila
-openstack/deb-mistral,OpenStack Mistral
-openstack/deb-murano,OpenStack Murano
-openstack/deb-murano-agent,OpenStack Murano
-openstack/deb-murano-dashboard,OpenStack Murano
-openstack/deb-neutron,OpenStack Neutron
-openstack/deb-neutron-fwaas,OpenStack Neutron
-openstack/deb-neutron-lbaas,OpenStack Neutron
-openstack/deb-neutron-taas,OpenStack Neutron
-openstack/deb-neutron-vpnaas,OpenStack Neutron
-openstack/deb-nova,OpenStack Nova
-openstack/deb-openstack-doc-tools,OpenStack Tools
-openstack/deb-openstack-pkg-tools,OpenStack Tools
-openstack/deb-python-cinderclient,OpenStack Cinder
-openstack/deb-python-django-formtools,OpenStack Tools
-openstack/deb-python-functools32,OpenStack Tools
-openstack/deb-python-glance-store,OpenStack Glance
-openstack/deb-python-glanceclient,OpenStack Glance
-openstack/deb-python-heatclient,OpenStack Heat
-openstack/deb-python-keystoneauth1,OpenStack Keystone
-openstack/deb-python-keystoneclient,OpenStack Keystone
-openstack/deb-python-keystonemiddleware,OpenStack Keystone
-openstack/deb-python-manilaclient,OpenStack Manila
-openstack/deb-python-mistralclient,OpenStack Mistral
-openstack/deb-python-muranoclient,OpenStack Murano
-openstack/deb-python-neutron-lib,OpenStack Neutron
-openstack/deb-python-neutronclient,OpenStack Neutron
-openstack/deb-python-novaclient,OpenStack Nova
-openstack/deb-python-openstackdocstheme,OpenStack Manuals
-openstack/deb-python-os-api-ref,OpenStack API
-openstack/deb-python-swiftclient,OpenStack Swift
-openstack/deb-python-testtools,OpenStack Tools
-openstack/deb-swift,OpenStack Swift
-openstack/deb-swift-bench,OpenStack Swift
-openstack/deb-swift-plugin-s3,OpenStack Swift
-openstack/devstack-tools,OpenStack Tools
-openstack/docs-specs,OpenStack Manuals
-openstack/ec2-api,OpenStack API
-openstack/freezer-api,OpenStack API
-openstack/fuel-ccp-cinder,OpenStack Cinder
-openstack/fuel-ccp-glance,OpenStack Glance
-openstack/fuel-ccp-heat,OpenStack Heat
-openstack/fuel-ccp-horizon,OpenStack Horizon
-openstack/fuel-ccp-keystone,OpenStack Keystone
-openstack/fuel-ccp-murano,OpenStack Murano
-openstack/fuel-ccp-neutron,OpenStack Neutron
-openstack/fuel-ccp-nova,OpenStack Nova
-openstack/fuel-docs,OpenStack Manuals
-openstack/fuel-plugin-cinder-gcs,OpenStack Cinder
-openstack/fuel-plugin-cinder-kaminario,OpenStack Cinder
-openstack/fuel-plugin-cinder-netapp,OpenStack Cinder
-openstack/fuel-plugin-detach-keystone,OpenStack Keystone
-openstack/fuel-plugin-manila,OpenStack Manila
-openstack/fuel-plugin-mistral,OpenStack Mistral
-openstack/fuel-plugin-murano,OpenStack Murano
-openstack/fuel-plugin-murano-networking-sfc,OpenStack Murano
-openstack/fuel-plugin-murano-tests,OpenStack Murano
-openstack/fuel-plugin-neutron-fwaas,OpenStack Neutron
-openstack/fuel-plugin-neutron-lbaas,OpenStack Neutron
-openstack/fuel-plugin-neutron-vpnaas,OpenStack Neutron
-openstack/fuel-plugin-nova-nfs,OpenStack Nova
-openstack/fuel-plugin-purestorage-cinder,OpenStack Cinder
-openstack/fuel-plugin-solidfire-cinder,OpenStack Cinder
-openstack/fuel-plugin-swiftstack,OpenStack Swift
-openstack/gce-api,OpenStack API
-openstack/glance,OpenStack Glance
-openstack/glance-specs,OpenStack Glance
-openstack/glance_store,OpenStack Glance
-openstack/heat,OpenStack Heat
-openstack/heat-agents,OpenStack Heat
-openstack/heat-cfntools,OpenStack Heat
-openstack/heat-specs,OpenStack Heat
-openstack/heat-templates,OpenStack Heat
-openstack/heat-translator,OpenStack Heat
-openstack/horizon,OpenStack Horizon
-openstack/horizon-cisco-ui,OpenStack Horizon
-openstack/horizon-mellanox,OpenStack Horizon
-openstack/jenkins-plugins-for-murano,OpenStack Murano
-openstack/k8s-docker-suite-app-murano,OpenStack Murano
-openstack/keystone,OpenStack Keystone
-openstack/keystone-specs,OpenStack Keystone
-openstack/keystoneauth,OpenStack Keystone
-openstack/keystoneauth-saml2,OpenStack Keystone
-openstack/keystonemiddleware,OpenStack Keystone
-openstack/kwapi,OpenStack API
-openstack/loci-cinder,OpenStack Cinder
-openstack/loci-glance,OpenStack Glance
-openstack/loci-heat,OpenStack Heat
-openstack/loci-keystone,OpenStack Keystone
-openstack/loci-neutron,OpenStack Neutron
-openstack/loci-nova,OpenStack Nova
-openstack/manila,OpenStack Manila
-openstack/manila-image-elements,OpenStack Manila
-openstack/manila-specs,OpenStack Manila
-openstack/manila-test-image,OpenStack Manila
-openstack/manila-ui,OpenStack Manila
-openstack/mistral,OpenStack Mistral
-openstack/mistral-dashboard,OpenStack Mistral
-openstack/mistral-extra,OpenStack Mistral
-openstack/mistral-lib,OpenStack Mistral
-openstack/mistral-specs,OpenStack Mistral
-openstack/monasca-api,OpenStack API
-openstack/monasca-log-api,OpenStack API
-openstack/murano,OpenStack Murano
-openstack/murano-agent,OpenStack Murano
-openstack/murano-apps,OpenStack Murano
-openstack/murano-dashboard,OpenStack Murano
-openstack/murano-deployment,OpenStack Murano
-openstack/murano-pkg-check,OpenStack Murano
-openstack/murano-plugin-networking-sfc,OpenStack Murano
-openstack/murano-specs,OpenStack Murano
-openstack/neutron,OpenStack Neutron
-openstack/neutron-classifier,OpenStack Neutron
-openstack/neutron-dynamic-routing,OpenStack Neutron
-openstack/neutron-fwaas,OpenStack Neutron
-openstack/neutron-lbaas,OpenStack Neutron
-openstack/neutron-lbaas-dashboard,OpenStack Neutron
-openstack/neutron-lib,OpenStack Neutron
-openstack/neutron-specs,OpenStack Neutron
-openstack/neutron-vpnaas,OpenStack Neutron
-openstack/nova,OpenStack Nova
-openstack/nova-docker,OpenStack Nova
-openstack/nova-dpm,OpenStack Nova
-openstack/nova-fusioncompute,OpenStack Nova
-openstack/nova-lxd,OpenStack Nova
-openstack/nova-mksproxy,OpenStack Nova
-openstack/nova-powervm,OpenStack Nova
-openstack/nova-specs,OpenStack Nova
-openstack/nova-zvm-virt-driver,OpenStack Nova
-openstack/novajoin,OpenStack Nova
-openstack/openstack,OpenStack Other Repos
-openstack/openstack-ansible-os_cinder,OpenStack Cinder
-openstack/openstack-ansible-os_glance,OpenStack Glance
-openstack/openstack-ansible-os_heat,OpenStack Heat
-openstack/openstack-ansible-os_horizon,OpenStack Horizon
-openstack/openstack-ansible-os_keystone,OpenStack Keystone
-openstack/openstack-ansible-os_neutron,OpenStack Neutron
-openstack/openstack-ansible-os_nova,OpenStack Nova
-openstack/openstack-ansible-os_swift,OpenStack Swift
-openstack/openstack-doc-tools,OpenStack Tools
-openstack/openstack-manuals,OpenStack Manuals
-openstack/openstackdocstheme,OpenStack Manuals
-openstack/os-api-ref,OpenStack API
-openstack/os-performance-tools,OpenStack Tools
-openstack/os-xenapi,OpenStack API
-openstack/oslo.tools,OpenStack Tools
-openstack/osops-tools-contrib,OpenStack Tools
-openstack/osops-tools-generic,OpenStack Tools
-openstack/osops-tools-monitoring,OpenStack Tools
-openstack/performance-docs,OpenStack Manuals
-openstack/puppet-cinder,OpenStack Cinder
-openstack/puppet-ec2api,OpenStack API
-openstack/puppet-glance,OpenStack Glance
-openstack/puppet-heat,OpenStack Heat
-openstack/puppet-horizon,OpenStack Horizon
-openstack/puppet-keystone,OpenStack Keystone
-openstack/puppet-manila,OpenStack Manila
-openstack/puppet-mistral,OpenStack Mistral
-openstack/puppet-murano,OpenStack Murano
-openstack/puppet-neutron,OpenStack Neutron
-openstack/puppet-nova,OpenStack Nova
-openstack/puppet-openstack-release-tools,OpenStack Tools
-openstack/puppet-swift,OpenStack Swift
-openstack/python-brick-cinderclient-ext,OpenStack Cinder
-openstack/python-cinderclient,OpenStack Cinder
-openstack/python-glanceclient,OpenStack Glance
-openstack/python-heatclient,OpenStack Heat
-openstack/python-keystoneclient,OpenStack Keystone
-openstack/python-keystoneclient-kerberos,OpenStack Keystone
-openstack/python-manilaclient,OpenStack Manila
-openstack/python-mistralclient,OpenStack Mistral
-openstack/python-muranoclient,OpenStack Murano
-openstack/python-neutron-pd-driver,OpenStack Neutron
-openstack/python-neutronclient,OpenStack Neutron
-openstack/python-novaclient,OpenStack Nova
-openstack/python-swiftclient,OpenStack Swift
-openstack/rpm-packaging-tools,OpenStack Tools
-openstack/salt-formula-cinder,OpenStack Cinder
-openstack/salt-formula-glance,OpenStack Glance
-openstack/salt-formula-heat,OpenStack Heat
-openstack/salt-formula-horizon,OpenStack Horizon
-openstack/salt-formula-keystone,OpenStack Keystone
-openstack/salt-formula-neutron,OpenStack Neutron
-openstack/salt-formula-nova,OpenStack Nova
-openstack/salt-formula-swift,OpenStack Swift
-openstack/snap-glance,OpenStack Glance
-openstack/snap-keystone,OpenStack Keystone
-openstack/snap-neutron,OpenStack Neutron
-openstack/snap-nova,OpenStack Nova
-openstack/snap-nova-hypervisor,OpenStack Nova
-openstack/stackalytics,OpenStack Stackalytics
-openstack/sushy-tools,OpenStack Tools
-openstack/swift,OpenStack Swift
-openstack/swift-bench,OpenStack Swift
-openstack/swift-specs,OpenStack Swift
-openstack/swift3,OpenStack Swift
-openstack/swiftonfile,OpenStack Swift
-openstack/swiftonhpss,OpenStack Swift
-openstack/tacker-horizon,OpenStack Horizon
-openstack/tempest-horizon,OpenStack Horizon
-openstack/third-party-ci-tools,OpenStack Tools
-openstack/tripleo-docs,OpenStack Manuals
-openstack/tripleo-heat-templates,OpenStack Heat
-openstack/xenapi-os-testing,OpenStack API
+openstack-charmers/charm-glance-simplestreams-sync,OpenStack Charms
+openstack-charmers/charm-interface-keystone,OpenStack Charms
+openstack-charmers/charm-interface-keystone-domain-backend,OpenStack Charms
+openstack-charmers/charm-keystone-ldap,OpenStack Charms
+openstack-charmers/charm-layer-openstack-api,OpenStack Charms
+openstack-charmers/charm-nova-compute-proxy,OpenStack Charms
+openstack-charmers/charm-template-api,OpenStack Charms
+openstack-charmers/charm-template-neutron-plugin,OpenStack Charms
+openstack-charmers/migration-tools,OpenStack Charms
+openstack-charmers/openstack-charms-tools,OpenStack Charms
+openstack-charmers/openstack-community,OpenStack Charms
+openstack-charmers/release-tools,OpenStack Charms
+openstack-dev/bashate,OpenStack
+openstack-dev/ci-sandbox,OpenStack Community
+openstack-dev/cookiecutter,OpenStack
+openstack-dev/devstack,OpenStack
+openstack-dev/devstack-plugin-cookiecutter,OpenStack
+openstack-dev/devstack-vagrant,OpenStack
+openstack-dev/grenade,OpenStack
+openstack-dev/hacking,OpenStack
+openstack-dev/heat-cfnclient,OpenStack
+openstack-dev/openstack-nose,OpenStack Infra
+openstack-dev/os-http,OpenStack Community
+openstack-dev/oslo-cookiecutter,OpenStack
+openstack-dev/pbr,OpenStack
+openstack-dev/sandbox,OpenStack Community
+openstack-dev/specs-cookiecutter,OpenStack
+openstack-infra/activity-board,OpenStack Infra
+openstack-infra/ansible-puppet,OpenStack (retired)
+openstack-infra/ansible-role-puppet,OpenStack Infra
+openstack-infra/askbot-theme,OpenStack Infra
+openstack-infra/beaker-localhost,OpenStack Community
+openstack-infra/beaker-nodepool,OpenStack Community
+openstack-infra/bindep,OpenStack Infra
+openstack-infra/bugdaystats,OpenStack Infra
+openstack-infra/ciwatch,OpenStack Infra
+openstack-infra/devstack-gate,OpenStack Infra
+openstack-infra/elastic-recheck,OpenStack Infra
+openstack-infra/err2d2,OpenStack Infra
+openstack-infra/featuretracker,OpenStack Infra
+openstack-infra/gear,OpenStack Infra
+openstack-infra/gearman-plugin,OpenStack Infra
+openstack-infra/germqtt,OpenStack Infra
+openstack-infra/gerrit,OpenStack Infra
+openstack-infra/gerritbot,OpenStack Infra
+openstack-infra/gerritlib,OpenStack Infra
+openstack-infra/git-restack,OpenStack Infra
+openstack-infra/git-review,OpenStack Infra
+openstack-infra/gitdm,OpenStack Infra
+openstack-infra/glean,OpenStack Infra
+openstack-infra/grafyaml,OpenStack Infra
+openstack-infra/groups,OpenStack Infra
+openstack-infra/groups-static-pages,OpenStack Infra
+openstack-infra/infra-ansible,OpenStack Infra
+openstack-infra/infra-manual,OpenStack Infra
+openstack-infra/infra-specs,OpenStack Infra
+openstack-infra/irc-meetings,OpenStack Infra
+openstack-infra/jeepyb,OpenStack Infra
+openstack-infra/jenkins-job-builder,OpenStack Infra
+openstack-infra/js-afs-blob-store,OpenStack Infra
+openstack-infra/js-generator-openstack,OpenStack Infra
+openstack-infra/js-openstack-registry-hooks,OpenStack Infra
+openstack-infra/lodgeit,OpenStack Infra
+openstack-infra/log_processor,OpenStack Infra
+openstack-infra/logstash-filters,OpenStack Community
+openstack-infra/lpmqtt,OpenStack Infra
+openstack-infra/meetbot,OpenStack Infra
+openstack-infra/mqtt_statsd,OpenStack Infra
+openstack-infra/nodepool,OpenStack Infra
+openstack-infra/nose-html-output,OpenStack Infra
+openstack-infra/odsreg,OpenStack Infra
+openstack-infra/openstack-zuul-jobs,OpenStack Infra
+openstack-infra/openstack-zuul-roles,OpenStack Infra
+openstack-infra/openstackid,OpenStack Infra
+openstack-infra/openstackid-resources,OpenStack Infra
+openstack-infra/openstackweb,OpenStack Infra
+openstack-infra/os-loganalyze,OpenStack Infra
+openstack-infra/project-config,OpenStack Infra
+openstack-infra/project-config-example,OpenStack Infra
+openstack-infra/publications,OpenStack Infra
+openstack-infra/puppet-accessbot,OpenStack Infra
+openstack-infra/puppet-ansible,OpenStack Infra
+openstack-infra/puppet-apparmor,OpenStack Infra
+openstack-infra/puppet-apps_site,OpenStack Infra
+openstack-infra/puppet-askbot,OpenStack Infra
+openstack-infra/puppet-asterisk,OpenStack Infra
+openstack-infra/puppet-bandersnatch,OpenStack Infra
+openstack-infra/puppet-bugdaystats,OpenStack Infra
+openstack-infra/puppet-bup,OpenStack Infra
+openstack-infra/puppet-cgit,OpenStack Infra
+openstack-infra/puppet-ciwatch,OpenStack Infra
+openstack-infra/puppet-dashboard,OpenStack Infra
+openstack-infra/puppet-diskimage_builder,OpenStack Infra
+openstack-infra/puppet-docker_registry,OpenStack Community
+openstack-infra/puppet-drupal,OpenStack Infra
+openstack-infra/puppet-elastic_recheck,OpenStack Infra
+openstack-infra/puppet-elasticsearch,OpenStack Infra
+openstack-infra/puppet-ethercalc,OpenStack Infra
+openstack-infra/puppet-etherpad_lite,OpenStack Infra
+openstack-infra/puppet-exim,OpenStack Infra
+openstack-infra/puppet-featuretracker,OpenStack Infra
+openstack-infra/puppet-germqtt,OpenStack Infra
+openstack-infra/puppet-gerrit,OpenStack Infra
+openstack-infra/puppet-gerritbot,OpenStack Infra
+openstack-infra/puppet-github,OpenStack Infra
+openstack-infra/puppet-grafyaml,OpenStack Infra
+openstack-infra/puppet-graphite,OpenStack Infra
+openstack-infra/puppet-haveged,OpenStack Infra
+openstack-infra/puppet-hound,OpenStack Infra
+openstack-infra/puppet-httpd,OpenStack Infra
+openstack-infra/puppet-infra-cookiecutter,OpenStack Infra
+openstack-infra/puppet-infracloud,OpenStack Infra
+openstack-infra/puppet-ipsilon,OpenStack Infra
+openstack-infra/puppet-iptables,OpenStack Infra
+openstack-infra/puppet-jeepyb,OpenStack Infra
+openstack-infra/puppet-jenkins,OpenStack Infra
+openstack-infra/puppet-kerberos,OpenStack Infra
+openstack-infra/puppet-kibana,OpenStack Infra
+openstack-infra/puppet-lodgeit,OpenStack Infra
+openstack-infra/puppet-log_processor,OpenStack Infra
+openstack-infra/puppet-logrotate,OpenStack Infra
+openstack-infra/puppet-logstash,OpenStack Infra
+openstack-infra/puppet-lpmqtt,OpenStack Infra
+openstack-infra/puppet-mailman,OpenStack Infra
+openstack-infra/puppet-mediawiki,OpenStack Infra
+openstack-infra/puppet-meetbot,OpenStack Infra
+openstack-infra/puppet-mosquitto,OpenStack Infra
+openstack-infra/puppet-mqtt_statsd,OpenStack Infra
+openstack-infra/puppet-mysql_backup,OpenStack Infra
+openstack-infra/puppet-nodepool,OpenStack Infra
+openstack-infra/puppet-odsreg,OpenStack Community
+openstack-infra/puppet-openafs,OpenStack Infra
+openstack-infra/puppet-openstack_health,OpenStack Infra
+openstack-infra/puppet-openstack_infra_spec_helper,OpenStack Infra
+openstack-infra/puppet-openstackci,OpenStack Infra
+openstack-infra/puppet-openstackid,OpenStack Infra
+openstack-infra/puppet-os_client_config,OpenStack Infra
+openstack-infra/puppet-packagekit,OpenStack Infra
+openstack-infra/puppet-pgsql_backup,OpenStack Infra
+openstack-infra/puppet-phabricator,OpenStack Infra
+openstack-infra/puppet-pip,OpenStack Infra
+openstack-infra/puppet-planet,OpenStack Infra
+openstack-infra/puppet-project_config,OpenStack Infra
+openstack-infra/puppet-puppet,OpenStack Infra
+openstack-infra/puppet-redis,OpenStack Infra
+openstack-infra/puppet-refstack,OpenStack Infra
+openstack-infra/puppet-releasestatus,OpenStack Infra
+openstack-infra/puppet-reviewday,OpenStack Infra
+openstack-infra/puppet-simpleproxy,OpenStack Infra
+openstack-infra/puppet-snmpd,OpenStack Infra
+openstack-infra/puppet-ssh,OpenStack Infra
+openstack-infra/puppet-ssl_cert_check,OpenStack Infra
+openstack-infra/puppet-stackalytics,OpenStack Infra
+openstack-infra/puppet-statusbot,OpenStack Infra
+openstack-infra/puppet-storyboard,OpenStack Infra
+openstack-infra/puppet-subunit2sql,OpenStack Infra
+openstack-infra/puppet-sudoers,OpenStack Infra
+openstack-infra/puppet-tmpreaper,OpenStack Infra
+openstack-infra/puppet-translation_checksite,OpenStack Infra
+openstack-infra/puppet-ulimit,OpenStack Infra
+openstack-infra/puppet-unattended_upgrades,OpenStack Infra
+openstack-infra/puppet-unbound,OpenStack Infra
+openstack-infra/puppet-user,OpenStack Infra
+openstack-infra/puppet-userstory_dashboard,OpenStack (retired)
+openstack-infra/puppet-vcsrepo,OpenStack Infra
+openstack-infra/puppet-vinz,OpenStack Infra
+openstack-infra/puppet-yum,OpenStack Infra
+openstack-infra/puppet-zanata,OpenStack Infra
+openstack-infra/puppet-zuul,OpenStack Infra
+openstack-infra/pynotedb,OpenStack Infra
+openstack-infra/pypi-mirror,OpenStack Infra
+openstack-infra/python-storyboardclient,OpenStack Infra
+openstack-infra/release-tools,OpenStack
+openstack-infra/releasestatus,OpenStack Infra
+openstack-infra/requestsexceptions,OpenStack
+openstack-infra/reviewday,OpenStack Infra
+openstack-infra/reviewstats,OpenStack Infra
+openstack-infra/shade,OpenStack
+openstack-infra/statusbot,OpenStack Infra
+openstack-infra/storyboard,OpenStack Infra
+openstack-infra/storyboard-webclient,OpenStack Infra
+openstack-infra/subunit2sql,OpenStack Infra
+openstack-infra/system-config,OpenStack Infra
+openstack-infra/tripleo-ci,OpenStack Infra
+openstack-infra/trystack-site,OpenStack Infra
+openstack-infra/userstory-dashboard,OpenStack (retired)
+openstack-infra/vinz,OpenStack Infra
+openstack-infra/vinz-webclient,OpenStack Community
+openstack-infra/yaml2ical,OpenStack Infra
+openstack-infra/zmq-event-publisher,OpenStack Infra
+openstack-infra/zuul,OpenStack Infra
+openstack-infra/zuul-base-jobs,OpenStack Infra
+openstack-infra/zuul-jobs,OpenStack Infra
+openstack-infra/zuul-packaging,OpenStack Infra
+openstack/aeromancer,OpenStack Community
+openstack/ailuropoda,OpenStack Community
+openstack/alexandria,OpenStack Community
+openstack/almanach,OpenStack Community
+openstack/anchor,OpenStack
+openstack/ansible-hardening,OpenStack
+openstack/ansible-role-ara,OpenStack Community
+openstack/ansible-role-bindep,OpenStack Community
+openstack/ansible-role-cloud-launcher,OpenStack Community
+openstack/ansible-role-diskimage-builder,OpenStack Community
+openstack/ansible-role-fedmsg,OpenStack Community
+openstack/ansible-role-jenkins,OpenStack Community
+openstack/ansible-role-jenkins-job-builder,OpenStack Community
+openstack/ansible-role-jenkins-plugins,OpenStack Community
+openstack/ansible-role-logrotate,OpenStack Community
+openstack/ansible-role-nginx,OpenStack Community
+openstack/ansible-role-nodepool,OpenStack Community
+openstack/ansible-role-shade,OpenStack Community
+openstack/ansible-role-ssh,OpenStack Community
+openstack/ansible-role-sudoers,OpenStack Community
+openstack/ansible-role-virtualenv,OpenStack Community
+openstack/ansible-role-zookeeper,OpenStack Community
+openstack/ansible-role-zuul,OpenStack Community
+openstack/anvil,OpenStack Community
+openstack/aodh,OpenStack
+openstack/api-site,OpenStack
+openstack/api-wg,OpenStack Community
+openstack/app-catalog,OpenStack Community
+openstack/app-catalog-common,OpenStack Community
+openstack/app-catalog-ui,OpenStack Community
+openstack/ara,OpenStack Community
+openstack/arch-wg,OpenStack Community
+openstack/astara,OpenStack Community
+openstack/astara-appliance,OpenStack Community
+openstack/astara-horizon,OpenStack Community
+openstack/astara-neutron,OpenStack Community
+openstack/automaton,OpenStack
+openstack/bandit,OpenStack
+openstack/bansho,OpenStack Community
+openstack/barbican,OpenStack
+openstack/barbican-specs,OpenStack
+openstack/barbican-tempest-plugin,OpenStack
+openstack/bareon,OpenStack Community
+openstack/bareon-allocator,OpenStack Community
+openstack/bareon-api,OpenStack Community
+openstack/bareon-image-elements,OpenStack Community
+openstack/bareon-ironic,OpenStack Community
+openstack/bareon-specs,OpenStack Community
+openstack/bifrost,OpenStack
+openstack/bilean,OpenStack Community
+openstack/blazar,OpenStack Community
+openstack/blazar-nova,OpenStack Community
+openstack/boartty,OpenStack Community
+openstack/broadview-collector,OpenStack Community
+openstack/broadview-lib,OpenStack Community
+openstack/broadview-ui,OpenStack Community
+openstack/browbeat,OpenStack Community
+openstack/castellan,OpenStack
+openstack/cathead,OpenStack Community
+openstack/ceilometer,OpenStack
+openstack/ceilometer-powervm,OpenStack
+openstack/ceilometer-zvm,OpenStack Community
+openstack/ceilometermiddleware,OpenStack
+openstack/cerberus,OpenStack Community
+openstack/cerberus-dashboard,OpenStack Community
+openstack/charm-6wind-virtual-accelerator,OpenStack Community
+openstack/charm-aodh,OpenStack
+openstack/charm-barbican,OpenStack
+openstack/charm-barbican-softhsm,OpenStack
+openstack/charm-ceilometer,OpenStack
+openstack/charm-ceilometer-agent,OpenStack
+openstack/charm-ceph,OpenStack
+openstack/charm-ceph-fs,OpenStack
+openstack/charm-ceph-mon,OpenStack
+openstack/charm-ceph-osd,OpenStack
+openstack/charm-ceph-proxy,OpenStack
+openstack/charm-ceph-radosgw,OpenStack
+openstack/charm-cinder,OpenStack
+openstack/charm-cinder-backup,OpenStack
+openstack/charm-cinder-ceph,OpenStack
+openstack/charm-cloudkitty,OpenStack
+openstack/charm-designate,OpenStack
+openstack/charm-designate-bind,OpenStack
+openstack/charm-glance,OpenStack
+openstack/charm-glusterfs,OpenStack
+openstack/charm-guide,OpenStack
+openstack/charm-hacluster,OpenStack
+openstack/charm-heat,OpenStack
+openstack/charm-interface-barbican-hsm,OpenStack Community
+openstack/charm-interface-bind-rndc,OpenStack
+openstack/charm-interface-ceph-mds,OpenStack
+openstack/charm-interface-hacluster,OpenStack
+openstack/charm-interface-keystone,OpenStack
+openstack/charm-interface-keystone-admin,OpenStack
+openstack/charm-interface-keystone-credentials,OpenStack
+openstack/charm-interface-keystone-domain-backend,OpenStack
+openstack/charm-interface-manila-plugin,OpenStack
+openstack/charm-interface-mysql-shared,OpenStack
+openstack/charm-interface-neutron-plugin,OpenStack
+openstack/charm-interface-neutron-plugin-api-subordinate,OpenStack
+openstack/charm-interface-odl-controller-api,OpenStack
+openstack/charm-interface-openstack-ha,OpenStack
+openstack/charm-interface-ovsdb-manager,OpenStack
+openstack/charm-interface-rabbitmq,OpenStack
+openstack/charm-interface-service-control,OpenStack
+openstack/charm-keystone,OpenStack
+openstack/charm-keystone-ldap,OpenStack
+openstack/charm-layer-ceph-base,OpenStack
+openstack/charm-layer-openstack,OpenStack
+openstack/charm-layer-openstack-api,OpenStack
+openstack/charm-layer-openstack-principle,OpenStack
+openstack/charm-lxd,OpenStack
+openstack/charm-manila,OpenStack
+openstack/charm-manila-generic,OpenStack
+openstack/charm-manila-glusterfs,OpenStack
+openstack/charm-mistral,OpenStack
+openstack/charm-murano,OpenStack
+openstack/charm-neutron-api,OpenStack
+openstack/charm-neutron-api-odl,OpenStack
+openstack/charm-neutron-api-plumgrid,OpenStack Community
+openstack/charm-neutron-gateway,OpenStack
+openstack/charm-neutron-openvswitch,OpenStack
+openstack/charm-nova-cloud-controller,OpenStack
+openstack/charm-nova-compute,OpenStack
+openstack/charm-nova-compute-proxy,OpenStack
+openstack/charm-odl-controller,OpenStack
+openstack/charm-openstack-dashboard,OpenStack
+openstack/charm-openvswitch-odl,OpenStack
+openstack/charm-percona-cluster,OpenStack
+openstack/charm-plumgrid-director,OpenStack Community
+openstack/charm-plumgrid-edge,OpenStack Community
+openstack/charm-plumgrid-gateway,OpenStack Community
+openstack/charm-rabbitmq-server,OpenStack
+openstack/charm-specs,OpenStack
+openstack/charm-swift-proxy,OpenStack
+openstack/charm-swift-storage,OpenStack
+openstack/charm-tempest,OpenStack
+openstack/charm-trove,OpenStack
+openstack/charms.ceph,OpenStack
+openstack/charms.openstack,OpenStack
+openstack/ci-cd-pipeline-app-murano,OpenStack Community
+openstack/cinder,OpenStack
+openstack/cinder-fusioncompute,OpenStack Community
+openstack/cinder-specs,OpenStack
+openstack/cisco-ironic-contrib,OpenStack Community
+openstack/cl-openstack-client,OpenStack Community
+openstack/cliff,OpenStack
+openstack/cloud-init,OpenStack Community
+openstack/cloudbase-init,OpenStack Community
+openstack/cloudcafe,OpenStack Community
+openstack/clouddocs-maven-plugin,OpenStack Community
+openstack/cloudkitty,OpenStack
+openstack/cloudkitty-dashboard,OpenStack
+openstack/cloudkitty-specs,OpenStack
+openstack/cloudpulse,OpenStack Community
+openstack/cloudroast,OpenStack Community
+openstack/cloudv-ostf-adapter,OpenStack Community
+openstack/cognitive,OpenStack Community
+openstack/collectd-ceilometer-plugin,OpenStack Community
+openstack/compass-adapters,OpenStack Community
+openstack/compass-core,OpenStack Community
+openstack/compass-install,OpenStack Community
+openstack/compass-specs,OpenStack Community
+openstack/compass-web,OpenStack Community
+openstack/compute-hyperv,OpenStack Community
+openstack/congress,OpenStack
+openstack/congress-dashboard,OpenStack
+openstack/congress-specs,OpenStack
+openstack/conveyor,OpenStack Community
+openstack/cookbook-openstack-application-catalog,OpenStack
+openstack/cookbook-openstack-bare-metal,OpenStack Community
+openstack/cookbook-openstack-block-storage,OpenStack
+openstack/cookbook-openstack-client,OpenStack
+openstack/cookbook-openstack-common,OpenStack
+openstack/cookbook-openstack-compute,OpenStack
+openstack/cookbook-openstack-dashboard,OpenStack
+openstack/cookbook-openstack-data-processing,OpenStack Community
+openstack/cookbook-openstack-database,OpenStack Community
+openstack/cookbook-openstack-identity,OpenStack
+openstack/cookbook-openstack-image,OpenStack
+openstack/cookbook-openstack-integration-test,OpenStack
+openstack/cookbook-openstack-network,OpenStack
+openstack/cookbook-openstack-object-storage,OpenStack Community
+openstack/cookbook-openstack-ops-database,OpenStack
+openstack/cookbook-openstack-ops-messaging,OpenStack
+openstack/cookbook-openstack-orchestration,OpenStack
+openstack/cookbook-openstack-telemetry,OpenStack
+openstack/coreos-image-builder,OpenStack Community
+openstack/coupler,OpenStack Community
+openstack/coverage2sql,OpenStack
+openstack/craton,OpenStack Community
+openstack/craton-dashboard,OpenStack Community
+openstack/cue,OpenStack Community
+openstack/cue-dashboard,OpenStack Community
+openstack/cursive,OpenStack Community
+openstack/cyborg,OpenStack Community
+openstack/daisycloud-core,OpenStack Community
+openstack/dash-stack,OpenStack Community
+openstack/deb-alembic,OpenStack
+openstack/deb-aodh,OpenStack
+openstack/deb-auto-backports,OpenStack
+openstack/deb-bandit,OpenStack
+openstack/deb-barbican,OpenStack
+openstack/deb-ceilometer,OpenStack
+openstack/deb-ceilometermiddleware,OpenStack
+openstack/deb-cinder,OpenStack
+openstack/deb-congress,OpenStack
+openstack/deb-designate,OpenStack
+openstack/deb-designate-dashboard,OpenStack
+openstack/deb-fonts-materialdesignicons-webfont,OpenStack
+openstack/deb-fonts-roboto-fontface,OpenStack
+openstack/deb-git-review,OpenStack
+openstack/deb-glance,OpenStack
+openstack/deb-glare,OpenStack
+openstack/deb-gnocchi,OpenStack
+openstack/deb-heat,OpenStack
+openstack/deb-heat-cfntools,OpenStack
+openstack/deb-horizon,OpenStack
+openstack/deb-ironic,OpenStack
+openstack/deb-ironic-inspector,OpenStack
+openstack/deb-ironic-ui,OpenStack
+openstack/deb-kazoo,OpenStack
+openstack/deb-keystone,OpenStack
+openstack/deb-liberasurecode,OpenStack
+openstack/deb-libisal,OpenStack
+openstack/deb-magnum,OpenStack
+openstack/deb-manila,OpenStack
+openstack/deb-manila-ui,OpenStack
+openstack/deb-migrate,OpenStack
+openstack/deb-mistral,OpenStack
+openstack/deb-mistral-dashboard,OpenStack
+openstack/deb-msgpack-python,OpenStack
+openstack/deb-murano,OpenStack
+openstack/deb-murano-agent,OpenStack
+openstack/deb-murano-dashboard,OpenStack
+openstack/deb-networking-arista,OpenStack
+openstack/deb-networking-cisco,OpenStack
+openstack/deb-networking-hyperv,OpenStack
+openstack/deb-networking-l2gw,OpenStack
+openstack/deb-networking-midonet,OpenStack
+openstack/deb-networking-mlnx,OpenStack
+openstack/deb-networking-nec,OpenStack
+openstack/deb-networking-odl,OpenStack
+openstack/deb-networking-ovn,OpenStack
+openstack/deb-neutron,OpenStack
+openstack/deb-neutron-fwaas,OpenStack
+openstack/deb-neutron-lbaas,OpenStack
+openstack/deb-neutron-taas,OpenStack
+openstack/deb-neutron-vpnaas,OpenStack
+openstack/deb-nodepool,OpenStack
+openstack/deb-nova,OpenStack
+openstack/deb-novnc,OpenStack
+openstack/deb-openstack-doc-tools,OpenStack
+openstack/deb-openstack-meta-packages,OpenStack
+openstack/deb-openstack-nose,OpenStack
+openstack/deb-openstack-pkg-tools,OpenStack
+openstack/deb-openstack-trove,OpenStack
+openstack/deb-os-apply-config,OpenStack Community
+openstack/deb-os-brick,OpenStack Community
+openstack/deb-os-client-config,OpenStack Community
+openstack/deb-os-cloud-config,OpenStack Community
+openstack/deb-os-collect-config,OpenStack Community
+openstack/deb-os-net-config,OpenStack Community
+openstack/deb-os-refresh-config,OpenStack Community
+openstack/deb-os-testr,OpenStack Community
+openstack/deb-os-vif,OpenStack Community
+openstack/deb-os-win,OpenStack Community
+openstack/deb-oslo.cache,OpenStack Community
+openstack/deb-oslo.concurrency,OpenStack Community
+openstack/deb-oslo.config,OpenStack Community
+openstack/deb-oslo.context,OpenStack Community
+openstack/deb-oslo.db,OpenStack Community
+openstack/deb-oslo.i18n,OpenStack Community
+openstack/deb-oslo.log,OpenStack Community
+openstack/deb-oslo.messaging,OpenStack Community
+openstack/deb-oslo.middleware,OpenStack Community
+openstack/deb-oslo.policy,OpenStack Community
+openstack/deb-oslo.privsep,OpenStack Community
+openstack/deb-oslo.reports,OpenStack Community
+openstack/deb-oslo.rootwrap,OpenStack Community
+openstack/deb-oslo.serialization,OpenStack Community
+openstack/deb-oslo.service,OpenStack Community
+openstack/deb-oslo.utils,OpenStack Community
+openstack/deb-oslo.versionedobjects,OpenStack Community
+openstack/deb-oslo.vmware,OpenStack Community
+openstack/deb-oslosphinx,OpenStack
+openstack/deb-oslotest,OpenStack Community
+openstack/deb-python-aioeventlet,OpenStack
+openstack/deb-python-aodhclient,OpenStack
+openstack/deb-python-autobahn,OpenStack
+openstack/deb-python-automaton,OpenStack
+openstack/deb-python-barbicanclient,OpenStack
+openstack/deb-python-bashate,OpenStack
+openstack/deb-python-cassandra-driver,OpenStack
+openstack/deb-python-castellan,OpenStack
+openstack/deb-python-ceilometerclient,OpenStack
+openstack/deb-python-ceilometermiddleware,OpenStack
+openstack/deb-python-cinderclient,OpenStack
+openstack/deb-python-cliff,OpenStack
+openstack/deb-python-coffin,OpenStack
+openstack/deb-python-colander,OpenStack
+openstack/deb-python-concurrent.futures,OpenStack
+openstack/deb-python-congressclient,OpenStack
+openstack/deb-python-cotyledon,OpenStack
+openstack/deb-python-couleur,OpenStack
+openstack/deb-python-crank,OpenStack
+openstack/deb-python-croniter,OpenStack
+openstack/deb-python-csscompressor,OpenStack
+openstack/deb-python-cursive,OpenStack
+openstack/deb-python-daemonize,OpenStack
+openstack/deb-python-dcos,OpenStack
+openstack/deb-python-ddt,OpenStack
+openstack/deb-python-debtcollector,OpenStack
+openstack/deb-python-designateclient,OpenStack
+openstack/deb-python-dib-utils,OpenStack
+openstack/deb-python-diskimage-builder,OpenStack
+openstack/deb-python-django-appconf,OpenStack
+openstack/deb-python-django-babel,OpenStack
+openstack/deb-python-django-bootstrap-form,OpenStack
+openstack/deb-python-django-compressor,OpenStack
+openstack/deb-python-django-discover-runner,OpenStack
+openstack/deb-python-django-formtools,OpenStack
+openstack/deb-python-django-openstack-auth,OpenStack
+openstack/deb-python-django-overextends,OpenStack
+openstack/deb-python-django-pyscss,OpenStack
+openstack/deb-python-doc8,OpenStack
+openstack/deb-python-dogpile.cache,OpenStack
+openstack/deb-python-dogpile.core,OpenStack
+openstack/deb-python-editor,OpenStack
+openstack/deb-python-eventlet,OpenStack
+openstack/deb-python-extras,OpenStack
+openstack/deb-python-falcon,OpenStack
+openstack/deb-python-fasteners,OpenStack
+openstack/deb-python-fixtures,OpenStack
+openstack/deb-python-frozendict,OpenStack
+openstack/deb-python-fuelclient,OpenStack
+openstack/deb-python-funcsigs,OpenStack
+openstack/deb-python-functools32,OpenStack
+openstack/deb-python-futurist,OpenStack
+openstack/deb-python-gabbi,OpenStack
+openstack/deb-python-glance-store,OpenStack
+openstack/deb-python-glanceclient,OpenStack
+openstack/deb-python-gnocchiclient,OpenStack
+openstack/deb-python-greenio,OpenStack
+openstack/deb-python-hacking,OpenStack
+openstack/deb-python-happybase,OpenStack
+openstack/deb-python-heatclient,OpenStack
+openstack/deb-python-hplefthandclient,OpenStack
+openstack/deb-python-httpretty,OpenStack
+openstack/deb-python-ironic-inspector-client,OpenStack
+openstack/deb-python-ironic-lib,OpenStack
+openstack/deb-python-ironicclient,OpenStack
+openstack/deb-python-jingo,OpenStack
+openstack/deb-python-json-patch,OpenStack
+openstack/deb-python-json-pointer,OpenStack
+openstack/deb-python-jsonpath-rw,OpenStack
+openstack/deb-python-jsonpath-rw-ext,OpenStack
+openstack/deb-python-jsonrpclib,OpenStack
+openstack/deb-python-jsonschema,OpenStack
+openstack/deb-python-k8sclient,OpenStack
+openstack/deb-python-kafka,OpenStack
+openstack/deb-python-keystoneauth1,OpenStack
+openstack/deb-python-keystoneclient,OpenStack
+openstack/deb-python-keystonemiddleware,OpenStack
+openstack/deb-python-kmip,OpenStack
+openstack/deb-python-ldappool,OpenStack
+openstack/deb-python-lesscpy,OpenStack
+openstack/deb-python-linecache2,OpenStack
+openstack/deb-python-magnumclient,OpenStack
+openstack/deb-python-manilaclient,OpenStack
+openstack/deb-python-memcache,OpenStack
+openstack/deb-python-microversion-parse,OpenStack
+openstack/deb-python-misaka,OpenStack
+openstack/deb-python-mistralclient,OpenStack
+openstack/deb-python-monascaclient,OpenStack
+openstack/deb-python-monotonic,OpenStack
+openstack/deb-python-mox3,OpenStack
+openstack/deb-python-multi-key-dict,OpenStack
+openstack/deb-python-muranoclient,OpenStack
+openstack/deb-python-neutron-lib,OpenStack
+openstack/deb-python-neutronclient,OpenStack
+openstack/deb-python-nose-exclude,OpenStack
+openstack/deb-python-nose-parameterized,OpenStack
+openstack/deb-python-nose-timer,OpenStack
+openstack/deb-python-nosehtmloutput,OpenStack
+openstack/deb-python-novaclient,OpenStack
+openstack/deb-python-oauth2client,OpenStack
+openstack/deb-python-openstackclient,OpenStack
+openstack/deb-python-openstackdocstheme,OpenStack
+openstack/deb-python-openstacksdk,OpenStack
+openstack/deb-python-os-api-ref,OpenStack
+openstack/deb-python-os-apply-config,OpenStack
+openstack/deb-python-os-brick,OpenStack
+openstack/deb-python-os-client-config,OpenStack
+openstack/deb-python-os-cloud-config,OpenStack
+openstack/deb-python-os-collect-config,OpenStack
+openstack/deb-python-os-net-config,OpenStack
+openstack/deb-python-os-refresh-config,OpenStack
+openstack/deb-python-os-testr,OpenStack
+openstack/deb-python-os-vif,OpenStack
+openstack/deb-python-os-win,OpenStack
+openstack/deb-python-osc-lib,OpenStack
+openstack/deb-python-oslo.cache,OpenStack
+openstack/deb-python-oslo.concurrency,OpenStack
+openstack/deb-python-oslo.config,OpenStack
+openstack/deb-python-oslo.context,OpenStack
+openstack/deb-python-oslo.db,OpenStack
+openstack/deb-python-oslo.i18n,OpenStack
+openstack/deb-python-oslo.log,OpenStack
+openstack/deb-python-oslo.messaging,OpenStack
+openstack/deb-python-oslo.middleware,OpenStack
+openstack/deb-python-oslo.policy,OpenStack
+openstack/deb-python-oslo.privsep,OpenStack
+openstack/deb-python-oslo.reports,OpenStack
+openstack/deb-python-oslo.rootwrap,OpenStack
+openstack/deb-python-oslo.serialization,OpenStack
+openstack/deb-python-oslo.service,OpenStack
+openstack/deb-python-oslo.utils,OpenStack
+openstack/deb-python-oslo.versionedobjects,OpenStack
+openstack/deb-python-oslo.vmware,OpenStack
+openstack/deb-python-oslotest,OpenStack
+openstack/deb-python-osprofiler,OpenStack
+openstack/deb-python-pager,OpenStack
+openstack/deb-python-pbr,OpenStack
+openstack/deb-python-pecan,OpenStack
+openstack/deb-python-pika-pool,OpenStack
+openstack/deb-python-pint,OpenStack
+openstack/deb-python-positional,OpenStack
+openstack/deb-python-proliantutils,OpenStack
+openstack/deb-python-pulp,OpenStack
+openstack/deb-python-pycadf,OpenStack
+openstack/deb-python-pydot-ng,OpenStack
+openstack/deb-python-pydotplus,OpenStack
+openstack/deb-python-pyeclib,OpenStack
+openstack/deb-python-pyghmi,OpenStack
+openstack/deb-python-pygit2,OpenStack
+openstack/deb-python-pykmip,OpenStack
+openstack/deb-python-pyldap,OpenStack
+openstack/deb-python-pymemcache,OpenStack
+openstack/deb-python-pymysql,OpenStack
+openstack/deb-python-pyngus,OpenStack
+openstack/deb-python-pysaml2,OpenStack
+openstack/deb-python-pytimeparse,OpenStack
+openstack/deb-python-pyvmomi,OpenStack
+openstack/deb-python-quantumclient,OpenStack
+openstack/deb-python-rcssmin,OpenStack
+openstack/deb-python-rednose,OpenStack
+openstack/deb-python-reno,OpenStack
+openstack/deb-python-requestbuilder,OpenStack
+openstack/deb-python-requests-kerberos,OpenStack
+openstack/deb-python-requests-mock,OpenStack
+openstack/deb-python-requests-unixsocket,OpenStack
+openstack/deb-python-requestsexceptions,OpenStack
+openstack/deb-python-retrying,OpenStack
+openstack/deb-python-rfc3986,OpenStack
+openstack/deb-python-rjsmin,OpenStack
+openstack/deb-python-rtslib-fb,OpenStack
+openstack/deb-python-saharaclient,OpenStack
+openstack/deb-python-savannaclient,OpenStack Community
+openstack/deb-python-scciclient,OpenStack
+openstack/deb-python-seamicroclient,OpenStack
+openstack/deb-python-semantic-version,OpenStack
+openstack/deb-python-semver,OpenStack
+openstack/deb-python-senlinclient,OpenStack
+openstack/deb-python-shotgun,OpenStack
+openstack/deb-python-sqlalchemy-utils,OpenStack
+openstack/deb-python-steadymark,OpenStack
+openstack/deb-python-swiftclient,OpenStack
+openstack/deb-python-tackerclient,OpenStack
+openstack/deb-python-taskflow,OpenStack
+openstack/deb-python-tempest-lib,OpenStack Community
+openstack/deb-python-testtools,OpenStack
+openstack/deb-python-toml,OpenStack
+openstack/deb-python-tooz,OpenStack
+openstack/deb-python-tosca-parser,OpenStack
+openstack/deb-python-traceback2,OpenStack
+openstack/deb-python-trollius,OpenStack
+openstack/deb-python-troveclient,OpenStack
+openstack/deb-python-tuskarclient,OpenStack
+openstack/deb-python-txaio,OpenStack
+openstack/deb-python-warlock,OpenStack
+openstack/deb-python-watcherclient,OpenStack
+openstack/deb-python-weakrefmethod,OpenStack
+openstack/deb-python-websocket-client,OpenStack
+openstack/deb-python-wrapt,OpenStack
+openstack/deb-python-wsgi-intercept,OpenStack
+openstack/deb-python-wsme,OpenStack
+openstack/deb-python-xstatic,OpenStack
+openstack/deb-python-xstatic-angular,OpenStack
+openstack/deb-python-xstatic-angular-bootstrap,OpenStack
+openstack/deb-python-xstatic-angular-cookies,OpenStack
+openstack/deb-python-xstatic-angular-fileupload,OpenStack
+openstack/deb-python-xstatic-angular-gettext,OpenStack
+openstack/deb-python-xstatic-angular-lrdragndrop,OpenStack
+openstack/deb-python-xstatic-angular-mock,OpenStack
+openstack/deb-python-xstatic-angular-schema-form,OpenStack
+openstack/deb-python-xstatic-bootstrap-datepicker,OpenStack
+openstack/deb-python-xstatic-bootstrap-scss,OpenStack
+openstack/deb-python-xstatic-bootswatch,OpenStack
+openstack/deb-python-xstatic-d3,OpenStack
+openstack/deb-python-xstatic-font-awesome,OpenStack
+openstack/deb-python-xstatic-hogan,OpenStack
+openstack/deb-python-xstatic-jasmine,OpenStack
+openstack/deb-python-xstatic-jquery,OpenStack
+openstack/deb-python-xstatic-jquery-migrate,OpenStack
+openstack/deb-python-xstatic-jquery-ui,OpenStack
+openstack/deb-python-xstatic-jquery.bootstrap.wizard,OpenStack
+openstack/deb-python-xstatic-jquery.quicksearch,OpenStack
+openstack/deb-python-xstatic-jquery.tablesorter,OpenStack
+openstack/deb-python-xstatic-jsencrypt,OpenStack
+openstack/deb-python-xstatic-magic-search,OpenStack
+openstack/deb-python-xstatic-mdi,OpenStack
+openstack/deb-python-xstatic-objectpath,OpenStack
+openstack/deb-python-xstatic-qunit,OpenStack
+openstack/deb-python-xstatic-rickshaw,OpenStack
+openstack/deb-python-xstatic-roboto-fontface,OpenStack
+openstack/deb-python-xstatic-smart-table,OpenStack
+openstack/deb-python-xstatic-spin,OpenStack
+openstack/deb-python-xstatic-term.js,OpenStack
+openstack/deb-python-xstatic-tv4,OpenStack
+openstack/deb-python-xvfbwrapper,OpenStack
+openstack/deb-python-yaql,OpenStack
+openstack/deb-python-zaqarclient,OpenStack
+openstack/deb-rally,OpenStack
+openstack/deb-ryu,OpenStack
+openstack/deb-sahara,OpenStack
+openstack/deb-sahara-dashboard,OpenStack
+openstack/deb-senlin,OpenStack
+openstack/deb-senlin-dashboard,OpenStack
+openstack/deb-spice-html5,OpenStack
+openstack/deb-stevedore,OpenStack
+openstack/deb-subunit,OpenStack
+openstack/deb-swauth,OpenStack
+openstack/deb-swift,OpenStack
+openstack/deb-swift-bench,OpenStack
+openstack/deb-swift-plugin-s3,OpenStack
+openstack/deb-tempest,OpenStack
+openstack/deb-testresources,OpenStack
+openstack/deb-trove,OpenStack
+openstack/deb-trove-dashboard,OpenStack
+openstack/deb-watcher,OpenStack
+openstack/deb-websockify,OpenStack
+openstack/deb-zaqar,OpenStack
+openstack/deb-zaqar-ui,OpenStack
+openstack/debtcollector,OpenStack
+openstack/defcore,OpenStack (retired)
+openstack/delimiter,OpenStack Community
+openstack/designate,OpenStack
+openstack/designate-dashboard,OpenStack
+openstack/designate-msdnsagent,OpenStack Community
+openstack/designate-specs,OpenStack
+openstack/designate-tempest-plugin,OpenStack
+openstack/development-proposals,OpenStack Community
+openstack/devstack-plugin-additional-pkg-repos,OpenStack Community
+openstack/devstack-plugin-amqp1,OpenStack
+openstack/devstack-plugin-bdd,OpenStack Community
+openstack/devstack-plugin-ceph,OpenStack
+openstack/devstack-plugin-container,OpenStack Community
+openstack/devstack-plugin-glusterfs,OpenStack Community
+openstack/devstack-plugin-hdfs,OpenStack Community
+openstack/devstack-plugin-kafka,OpenStack
+openstack/devstack-plugin-libvirt-qemu,OpenStack Community
+openstack/devstack-plugin-mariadb,OpenStack Community
+openstack/devstack-plugin-nfs,OpenStack Community
+openstack/devstack-plugin-pika,OpenStack
+openstack/devstack-plugin-sheepdog,OpenStack Community
+openstack/devstack-plugin-tar-installer,OpenStack Community
+openstack/devstack-plugin-zmq,OpenStack
+openstack/devstack-tools,OpenStack
+openstack/dib-utils,OpenStack
+openstack/diskimage-builder,OpenStack Infra
+openstack/distil,OpenStack Community
+openstack/distil-ui,OpenStack Community
+openstack/django-openstack-auth-kerberos,OpenStack Community
+openstack/django_openstack_auth,OpenStack
+openstack/doc8,OpenStack Community
+openstack/docker-machine-openstack,OpenStack Community
+openstack/docs-specs,OpenStack
+openstack/downpour,OpenStack Community
+openstack/dox,OpenStack Community
+openstack/dragonflow,OpenStack
+openstack/drbd-devstack,OpenStack Community
+openstack/driverlog,OpenStack Community
+openstack/ec2-api,OpenStack
+openstack/ec2-driver,OpenStack Community
+openstack/ekko,OpenStack Community
+openstack/election,OpenStack Community
+openstack/enterprise-wg,OpenStack Community
+openstack/entropy,OpenStack Community
+openstack/eslint-config-openstack,OpenStack
+openstack/evoque,OpenStack Community
+openstack/evoque-dashboard,OpenStack Community
+openstack/faafo,OpenStack
+openstack/fairy-slipper,OpenStack Community
+openstack/flame,OpenStack Community
+openstack/foxnut,OpenStack Community
+openstack/freezer,OpenStack
+openstack/freezer-api,OpenStack
+openstack/freezer-dr,OpenStack
+openstack/freezer-specs,OpenStack
+openstack/freezer-web-ui,OpenStack
+openstack/fuel-agent,OpenStack
+openstack/fuel-astute,OpenStack
+openstack/fuel-ccp,OpenStack Community
+openstack/fuel-ccp-ceph,OpenStack Community
+openstack/fuel-ccp-ci-config,OpenStack Community
+openstack/fuel-ccp-cinder,OpenStack Community
+openstack/fuel-ccp-debian-base,OpenStack Community
+openstack/fuel-ccp-designate,OpenStack Community
+openstack/fuel-ccp-elasticsearch,OpenStack Community
+openstack/fuel-ccp-entrypoint,OpenStack Community
+openstack/fuel-ccp-etcd,OpenStack Community
+openstack/fuel-ccp-galera,OpenStack Community
+openstack/fuel-ccp-glance,OpenStack Community
+openstack/fuel-ccp-grafana,OpenStack Community
+openstack/fuel-ccp-heat,OpenStack Community
+openstack/fuel-ccp-horizon,OpenStack Community
+openstack/fuel-ccp-installer,OpenStack Community
+openstack/fuel-ccp-ironic,OpenStack Community
+openstack/fuel-ccp-keystone,OpenStack Community
+openstack/fuel-ccp-mariadb,OpenStack Community
+openstack/fuel-ccp-memcached,OpenStack Community
+openstack/fuel-ccp-murano,OpenStack Community
+openstack/fuel-ccp-neutron,OpenStack Community
+openstack/fuel-ccp-nginx,OpenStack Community
+openstack/fuel-ccp-nova,OpenStack Community
+openstack/fuel-ccp-openstack-base,OpenStack Community
+openstack/fuel-ccp-rabbitmq,OpenStack Community
+openstack/fuel-ccp-rally,OpenStack Community
+openstack/fuel-ccp-sahara,OpenStack Community
+openstack/fuel-ccp-searchlight,OpenStack Community
+openstack/fuel-ccp-specs,OpenStack Community
+openstack/fuel-ccp-stacklight,OpenStack Community
+openstack/fuel-ccp-tests,OpenStack Community
+openstack/fuel-ccp-zmq,OpenStack Community
+openstack/fuel-dev-tools,OpenStack
+openstack/fuel-devops,OpenStack
+openstack/fuel-docs,OpenStack
+openstack/fuel-library,OpenStack
+openstack/fuel-main,OpenStack
+openstack/fuel-menu,OpenStack
+openstack/fuel-mirror,OpenStack Community
+openstack/fuel-nailgun-agent,OpenStack
+openstack/fuel-nailgun-extension-cluster-upgrade,OpenStack
+openstack/fuel-nailgun-extension-converted-serializers,OpenStack
+openstack/fuel-nailgun-extension-iac,OpenStack
+openstack/fuel-noop-fixtures,OpenStack Community
+openstack/fuel-octane,OpenStack
+openstack/fuel-ostf,OpenStack
+openstack/fuel-plugin-6wind-virtual-accelerator,OpenStack Community
+openstack/fuel-plugin-astara,OpenStack Community
+openstack/fuel-plugin-availability-zones,OpenStack Community
+openstack/fuel-plugin-bgpvpn,OpenStack Community
+openstack/fuel-plugin-bigswitch,OpenStack Community
+openstack/fuel-plugin-block-device,OpenStack Community
+openstack/fuel-plugin-calamari,OpenStack Community
+openstack/fuel-plugin-calico,OpenStack Community
+openstack/fuel-plugin-ceilometer-redis,OpenStack Community
+openstack/fuel-plugin-ci,OpenStack Community
+openstack/fuel-plugin-cinder-gcs,OpenStack Community
+openstack/fuel-plugin-cinder-kaminario,OpenStack Community
+openstack/fuel-plugin-cinder-netapp,OpenStack Community
+openstack/fuel-plugin-cisco-aci,OpenStack Community
+openstack/fuel-plugin-congress,OpenStack Community
+openstack/fuel-plugin-contrail,OpenStack Community
+openstack/fuel-plugin-datera-cinder,OpenStack Community
+openstack/fuel-plugin-dbaas-trove,OpenStack Community
+openstack/fuel-plugin-debug,OpenStack Community
+openstack/fuel-plugin-designate,OpenStack Community
+openstack/fuel-plugin-detach-database,OpenStack Community
+openstack/fuel-plugin-detach-haproxy,OpenStack Community
+openstack/fuel-plugin-detach-keystone,OpenStack Community
+openstack/fuel-plugin-detach-rabbitmq,OpenStack Community
+openstack/fuel-plugin-detach-swift,OpenStack Community
+openstack/fuel-plugin-dynatrace,OpenStack Community
+openstack/fuel-plugin-elasticsearch-kibana,OpenStack Community
+openstack/fuel-plugin-external-emc,OpenStack Community
+openstack/fuel-plugin-external-glusterfs,OpenStack Community
+openstack/fuel-plugin-external-lb,OpenStack Community
+openstack/fuel-plugin-external-zabbix,OpenStack Community
+openstack/fuel-plugin-fortinet,OpenStack Community
+openstack/fuel-plugin-glance-nfs,OpenStack Community
+openstack/fuel-plugin-gluon,OpenStack Community
+openstack/fuel-plugin-ha-fencing,OpenStack Community
+openstack/fuel-plugin-hedvig-cinder,OpenStack Community
+openstack/fuel-plugin-influxdb-grafana,OpenStack Community
+openstack/fuel-plugin-inkscope,OpenStack Community
+openstack/fuel-plugin-ironic,OpenStack Community
+openstack/fuel-plugin-kafka,OpenStack Community
+openstack/fuel-plugin-ldap,OpenStack Community
+openstack/fuel-plugin-ldap-slaves,OpenStack Community
+openstack/fuel-plugin-lma-collector,OpenStack Community
+openstack/fuel-plugin-lma-infrastructure-alerting,OpenStack Community
+openstack/fuel-plugin-manila,OpenStack Community
+openstack/fuel-plugin-mellanox,OpenStack Community
+openstack/fuel-plugin-midonet,OpenStack Community
+openstack/fuel-plugin-mistral,OpenStack Community
+openstack/fuel-plugin-murano,OpenStack
+openstack/fuel-plugin-murano-networking-sfc,OpenStack Community
+openstack/fuel-plugin-murano-tests,OpenStack
+openstack/fuel-plugin-network-node,OpenStack Community
+openstack/fuel-plugin-networking-sfc,OpenStack Community
+openstack/fuel-plugin-neutron-fwaas,OpenStack Community
+openstack/fuel-plugin-neutron-lbaas,OpenStack Community
+openstack/fuel-plugin-neutron-vpnaas,OpenStack Community
+openstack/fuel-plugin-nimblestorage-cinder,OpenStack Community
+openstack/fuel-plugin-nitrous,OpenStack Community
+openstack/fuel-plugin-nova-nfs,OpenStack Community
+openstack/fuel-plugin-nsx-t,OpenStack Community
+openstack/fuel-plugin-nsxv,OpenStack Community
+openstack/fuel-plugin-nuage,OpenStack Community
+openstack/fuel-plugin-onos,OpenStack Community
+openstack/fuel-plugin-openbook,OpenStack Community
+openstack/fuel-plugin-opendaylight,OpenStack Community
+openstack/fuel-plugin-openstack-telemetry,OpenStack Community
+openstack/fuel-plugin-ovs,OpenStack Community
+openstack/fuel-plugin-plumgrid,OpenStack Community
+openstack/fuel-plugin-purestorage-cinder,OpenStack Community
+openstack/fuel-plugin-qemu,OpenStack Community
+openstack/fuel-plugin-qlogic-sriov-vxlan,OpenStack Community
+openstack/fuel-plugin-rally,OpenStack Community
+openstack/fuel-plugin-saltstack,OpenStack Community
+openstack/fuel-plugin-scaleio,OpenStack Community
+openstack/fuel-plugin-scaleio-cinder,OpenStack Community
+openstack/fuel-plugin-solidfire-cinder,OpenStack Community
+openstack/fuel-plugin-swiftstack,OpenStack Community
+openstack/fuel-plugin-tacker,OpenStack Community
+openstack/fuel-plugin-tintri-cinder,OpenStack Community
+openstack/fuel-plugin-tls,OpenStack Community
+openstack/fuel-plugin-unity,OpenStack Community
+openstack/fuel-plugin-vmware-dvs,OpenStack Community
+openstack/fuel-plugin-vxlan,OpenStack Community
+openstack/fuel-plugin-wstunnel,OpenStack Community
+openstack/fuel-plugin-xenserver,OpenStack Community
+openstack/fuel-plugin-zabbix-agents,OpenStack Community
+openstack/fuel-plugin-zabbix-monitoring-emc,OpenStack Community
+openstack/fuel-plugin-zabbix-monitoring-extreme-networks,OpenStack Community
+openstack/fuel-plugin-zabbix-snmptrapd,OpenStack Community
+openstack/fuel-plugins,OpenStack
+openstack/fuel-qa,OpenStack
+openstack/fuel-specs,OpenStack
+openstack/fuel-stats,OpenStack
+openstack/fuel-ui,OpenStack
+openstack/fuel-upgrade,OpenStack Community
+openstack/fuel-virtualbox,OpenStack
+openstack/fuel-web,OpenStack
+openstack/futurist,OpenStack
+openstack/fuxi,OpenStack
+openstack/fuxi-golang,OpenStack Community
+openstack/fuxi-kubernetes,OpenStack
+openstack/gantt,OpenStack Community
+openstack/gce-api,OpenStack Community
+openstack/gerrit-dash-creator,OpenStack Community
+openstack/gertty,OpenStack Community
+openstack/giftwrap,OpenStack Community
+openstack/git-repo-manifests,OpenStack Community
+openstack/git-upstream,OpenStack Community
+openstack/glance,OpenStack
+openstack/glance-specs,OpenStack
+openstack/glance_store,OpenStack
+openstack/glare,OpenStack Community
+openstack/glare-specs,OpenStack Community
+openstack/gluon,OpenStack Community
+openstack/gnocchi,OpenStack Community
+openstack/golang-client,OpenStack Community
+openstack/golang-commons,OpenStack Community
+openstack/gos-brick,OpenStack Community
+openstack/governance,OpenStack Community
+openstack/governance-uc,OpenStack Community
+openstack/governance-website,OpenStack Community
+openstack/group-based-policy,OpenStack Community
+openstack/group-based-policy-automation,OpenStack Community
+openstack/group-based-policy-specs,OpenStack Community
+openstack/group-based-policy-ui,OpenStack Community
+openstack/ha-guide,OpenStack Community
+openstack/heat,OpenStack
+openstack/heat-agents,OpenStack
+openstack/heat-cfntools,OpenStack
+openstack/heat-specs,OpenStack
+openstack/heat-templates,OpenStack
+openstack/heat-translator,OpenStack
+openstack/higgins,OpenStack (retired)
+openstack/horizon,OpenStack
+openstack/horizon-cisco-ui,OpenStack
+openstack/horizon-mellanox,OpenStack Community
+openstack/hurricane,OpenStack Community
+openstack/i18n,OpenStack
+openstack/i18n-specs,OpenStack
+openstack/inception,OpenStack Community
+openstack/instack,OpenStack
+openstack/instack-undercloud,OpenStack
+openstack/installguide-cookiecutter,OpenStack
+openstack/intel-nfv-ci-tests,OpenStack Community
+openstack/interop,OpenStack Community
+openstack/interop-workloads,OpenStack Community
+openstack/iotronic,OpenStack Community
+openstack/iotronic-lightning-rod,OpenStack Community
+openstack/iotronic-ui,OpenStack Community
+openstack/ipa-example-hardware-managers,OpenStack Community
+openstack/ironic,OpenStack
+openstack/ironic-inspector,OpenStack
+openstack/ironic-inspector-specs,OpenStack
+openstack/ironic-inspector-tempest-plugin,OpenStack
+openstack/ironic-lib,OpenStack
+openstack/ironic-python-agent,OpenStack
+openstack/ironic-specs,OpenStack
+openstack/ironic-staging-drivers,OpenStack Community
+openstack/ironic-tempest-plugin,OpenStack
+openstack/ironic-ui,OpenStack
+openstack/ironic-webclient,OpenStack Community
+openstack/jacket,OpenStack Community
+openstack/jenkins-plugins-for-murano,OpenStack Community
+openstack/js-openstack-lib,OpenStack Infra
+openstack/k8s-cloud-provider,OpenStack Community
+openstack/k8s-docker-suite-app-murano,OpenStack Community
+openstack/karbor,OpenStack
+openstack/karbor-dashboard,OpenStack
+openstack/karma-subunit-reporter,OpenStack
+openstack/keystone,OpenStack
+openstack/keystone-specs,OpenStack
+openstack/keystone-tempest-plugin,OpenStack Community
+openstack/keystoneauth,OpenStack
+openstack/keystoneauth-saml2,OpenStack Community
+openstack/keystonemiddleware,OpenStack
+openstack/kiloeyes,OpenStack Community
+openstack/kingbird,OpenStack Community
+openstack/kite,OpenStack Community
+openstack/kloudbuster,OpenStack Community
+openstack/kolla,OpenStack
+openstack/kolla-ansible,OpenStack
+openstack/kolla-kubernetes,OpenStack
+openstack/kolla-mesos,OpenStack Community
+openstack/kosmos,OpenStack Community
+openstack/kosmos-specs,OpenStack Community
+openstack/kuryr,OpenStack
+openstack/kuryr-kubernetes,OpenStack
+openstack/kuryr-libnetwork,OpenStack
+openstack/kwapi,OpenStack Community
+openstack/ldappool,OpenStack
+openstack/liberasurecode,OpenStack Community
+openstack/loci,OpenStack Community
+openstack/loci-cinder,OpenStack Community
+openstack/loci-glance,OpenStack Community
+openstack/loci-heat,OpenStack Community
+openstack/loci-keystone,OpenStack Community
+openstack/loci-neutron,OpenStack Community
+openstack/loci-nova,OpenStack Community
+openstack/loci-requirements,OpenStack Community
+openstack/magnetodb,OpenStack Community
+openstack/magnetodb-specs,OpenStack Community
+openstack/magnum,OpenStack
+openstack/magnum-specs,OpenStack
+openstack/magnum-ui,OpenStack
+openstack/manila,OpenStack
+openstack/manila-image-elements,OpenStack
+openstack/manila-specs,OpenStack
+openstack/manila-test-image,OpenStack
+openstack/manila-ui,OpenStack
+openstack/marshal,OpenStack Community
+openstack/masakari,OpenStack Community
+openstack/masakari-monitors,OpenStack Community
+openstack/masakari-specs,OpenStack Community
+openstack/meghdwar,OpenStack Community
+openstack/merlin,OpenStack Community
+openstack/meteos,OpenStack Community
+openstack/meteos-ui,OpenStack Community
+openstack/microversion-parse,OpenStack Community
+openstack/mistral,OpenStack
+openstack/mistral-dashboard,OpenStack
+openstack/mistral-extra,OpenStack
+openstack/mistral-lib,OpenStack
+openstack/mistral-specs,OpenStack
+openstack/mitmstack,OpenStack Community
+openstack/mixmatch,OpenStack Community
+openstack/mogan,OpenStack Community
+openstack/mogan-specs,OpenStack Community
+openstack/mogan-ui,OpenStack Community
+openstack/molteniron,OpenStack
+openstack/monasca-agent,OpenStack
+openstack/monasca-analytics,OpenStack
+openstack/monasca-api,OpenStack
+openstack/monasca-ceilometer,OpenStack
+openstack/monasca-common,OpenStack
+openstack/monasca-events-api,OpenStack Community
+openstack/monasca-grafana-datasource,OpenStack
+openstack/monasca-kibana-plugin,OpenStack
+openstack/monasca-log-api,OpenStack
+openstack/monasca-notification,OpenStack
+openstack/monasca-persister,OpenStack
+openstack/monasca-statsd,OpenStack
+openstack/monasca-thresh,OpenStack
+openstack/monasca-transform,OpenStack
+openstack/monasca-ui,OpenStack
+openstack/monasca-vagrant,OpenStack Community
+openstack/monitoring-for-openstack,OpenStack Community
+openstack/monitorstack,OpenStack Community
+openstack/mors,OpenStack Community
+openstack/mox3,OpenStack
+openstack/murano,OpenStack
+openstack/murano-agent,OpenStack
+openstack/murano-apps,OpenStack
+openstack/murano-dashboard,OpenStack
+openstack/murano-deployment,OpenStack
+openstack/murano-pkg-check,OpenStack
+openstack/murano-plugin-networking-sfc,OpenStack Community
+openstack/murano-specs,OpenStack
+openstack/namos,OpenStack Community
+openstack/nemesis,OpenStack Community
+openstack/nerd-reviewer,OpenStack Community
+openstack/network-checker,OpenStack Community
+openstack/networking-6wind,OpenStack Community
+openstack/networking-ale-omniswitch,OpenStack Community
+openstack/networking-arista,OpenStack Community
+openstack/networking-avaya,OpenStack Community
+openstack/networking-bagpipe,OpenStack
+openstack/networking-baremetal,OpenStack
+openstack/networking-bgpvpn,OpenStack
+openstack/networking-bigswitch,OpenStack Community
+openstack/networking-brocade,OpenStack Community
+openstack/networking-calico,OpenStack Community
+openstack/networking-cisco,OpenStack Community
+openstack/networking-cumulus,OpenStack Community
+openstack/networking-dpm,OpenStack Community
+openstack/networking-edge-vpn,OpenStack Community
+openstack/networking-extreme,OpenStack Community
+openstack/networking-fortinet,OpenStack Community
+openstack/networking-fujitsu,OpenStack Community
+openstack/networking-generic-switch,OpenStack Community
+openstack/networking-h3c,OpenStack Community
+openstack/networking-hpe,OpenStack Community
+openstack/networking-huawei,OpenStack Community
+openstack/networking-hyperv,OpenStack
+openstack/networking-icc,OpenStack Community
+openstack/networking-infoblox,OpenStack Community
+openstack/networking-l2gw,OpenStack Community
+openstack/networking-lenovo,OpenStack Community
+openstack/networking-midonet,OpenStack
+openstack/networking-mlnx,OpenStack Community
+openstack/networking-nec,OpenStack Community
+openstack/networking-odl,OpenStack
+openstack/networking-ofagent,OpenStack Community
+openstack/networking-onos,OpenStack Community
+openstack/networking-opencontrail,OpenStack Community
+openstack/networking-ovn,OpenStack
+openstack/networking-ovs-dpdk,OpenStack Community
+openstack/networking-peregrine,OpenStack Community
+openstack/networking-plumgrid,OpenStack Community
+openstack/networking-powervm,OpenStack Community
+openstack/networking-sfc,OpenStack
+openstack/networking-vpp,OpenStack Community
+openstack/networking-vsphere,OpenStack Community
+openstack/networking-zte,OpenStack Community
+openstack/networking-zvm,OpenStack Community
+openstack/neutron,OpenStack
+openstack/neutron-classifier,OpenStack Community
+openstack/neutron-dynamic-routing,OpenStack
+openstack/neutron-fwaas,OpenStack
+openstack/neutron-lbaas,OpenStack
+openstack/neutron-lbaas-dashboard,OpenStack
+openstack/neutron-lib,OpenStack
+openstack/neutron-specs,OpenStack
+openstack/neutron-vpnaas,OpenStack Community
+openstack/nfv-filters,OpenStack Community
+openstack/nimble,OpenStack (retired)
+openstack/nomad,OpenStack (retired)
+openstack/nova,OpenStack
+openstack/nova-docker,OpenStack Community
+openstack/nova-dpm,OpenStack Community
+openstack/nova-fusioncompute,OpenStack Community
+openstack/nova-lxd,OpenStack Community
+openstack/nova-mksproxy,OpenStack Community
+openstack/nova-powervm,OpenStack Community
+openstack/nova-solver-scheduler,OpenStack Community
+openstack/nova-specs,OpenStack
+openstack/nova-zvm-virt-driver,OpenStack Community
+openstack/novajoin,OpenStack Community
+openstack/oaktree,OpenStack Community
+openstack/oaktreemodel,OpenStack Community
+openstack/octavia,OpenStack
+openstack/octavia-dashboard,OpenStack
+openstack/octavia-tempest-plugin,OpenStack
+openstack/omni,OpenStack Community
+openstack/ooi,OpenStack Community
+openstack/opencafe,OpenStack Community
+openstack/openstack,OpenStack Community
+openstack/openstack-ansible,OpenStack
+openstack/openstack-ansible-apt_package_pinning,OpenStack
+openstack/openstack-ansible-ceph_client,OpenStack
+openstack/openstack-ansible-galera_client,OpenStack
+openstack/openstack-ansible-galera_server,OpenStack
+openstack/openstack-ansible-haproxy_server,OpenStack
+openstack/openstack-ansible-ironic,OpenStack (retired)
+openstack/openstack-ansible-lxc_container_create,OpenStack
+openstack/openstack-ansible-lxc_hosts,OpenStack
+openstack/openstack-ansible-memcached_server,OpenStack
+openstack/openstack-ansible-openstack_hosts,OpenStack
+openstack/openstack-ansible-openstack_openrc,OpenStack
+openstack/openstack-ansible-ops,OpenStack
+openstack/openstack-ansible-os_almanach,OpenStack
+openstack/openstack-ansible-os_aodh,OpenStack
+openstack/openstack-ansible-os_barbican,OpenStack
+openstack/openstack-ansible-os_ceilometer,OpenStack
+openstack/openstack-ansible-os_cinder,OpenStack
+openstack/openstack-ansible-os_cloudkitty,OpenStack
+openstack/openstack-ansible-os_designate,OpenStack
+openstack/openstack-ansible-os_glance,OpenStack
+openstack/openstack-ansible-os_gnocchi,OpenStack
+openstack/openstack-ansible-os_heat,OpenStack
+openstack/openstack-ansible-os_horizon,OpenStack
+openstack/openstack-ansible-os_ironic,OpenStack
+openstack/openstack-ansible-os_karbor,OpenStack
+openstack/openstack-ansible-os_keystone,OpenStack
+openstack/openstack-ansible-os_magnum,OpenStack
+openstack/openstack-ansible-os_molteniron,OpenStack
+openstack/openstack-ansible-os_monasca,OpenStack
+openstack/openstack-ansible-os_monasca-agent,OpenStack
+openstack/openstack-ansible-os_monasca-ui,OpenStack
+openstack/openstack-ansible-os_neutron,OpenStack
+openstack/openstack-ansible-os_nova,OpenStack
+openstack/openstack-ansible-os_octavia,OpenStack
+openstack/openstack-ansible-os_rally,OpenStack
+openstack/openstack-ansible-os_sahara,OpenStack
+openstack/openstack-ansible-os_searchlight,OpenStack
+openstack/openstack-ansible-os_swift,OpenStack
+openstack/openstack-ansible-os_swift_sync,OpenStack Community
+openstack/openstack-ansible-os_tempest,OpenStack
+openstack/openstack-ansible-os_trove,OpenStack
+openstack/openstack-ansible-os_watcher,OpenStack
+openstack/openstack-ansible-os_zaqar,OpenStack
+openstack/openstack-ansible-pip_install,OpenStack
+openstack/openstack-ansible-pip_lock_down,OpenStack
+openstack/openstack-ansible-plugins,OpenStack
+openstack/openstack-ansible-py_from_git,OpenStack Community
+openstack/openstack-ansible-rabbitmq_server,OpenStack
+openstack/openstack-ansible-repo_build,OpenStack
+openstack/openstack-ansible-repo_server,OpenStack
+openstack/openstack-ansible-rsyslog_client,OpenStack
+openstack/openstack-ansible-rsyslog_server,OpenStack
+openstack/openstack-ansible-security,OpenStack
+openstack/openstack-ansible-specs,OpenStack
+openstack/openstack-ansible-tests,OpenStack
+openstack/openstack-chef-repo,OpenStack
+openstack/openstack-chef-specs,OpenStack
+openstack/openstack-doc-tools,OpenStack
+openstack/openstack-health,OpenStack
+openstack/openstack-helm,OpenStack Community
+openstack/openstack-helm-addons,OpenStack Community
+openstack/openstack-manuals,OpenStack
+openstack/openstack-mentoring-scripts,OpenStack Community
+openstack/openstack-planet,OpenStack Infra
+openstack/openstack-resource-agents,OpenStack Community
+openstack/openstack-resource-agents-specs,OpenStack Community
+openstack/openstack-salt,OpenStack Community
+openstack/openstack-salt-specs,OpenStack Community
+openstack/openstack-specs,OpenStack Community
+openstack/openstack-user-stories,OpenStack (retired)
+openstack/openstack-ux,OpenStack Community
+openstack/openstackclient,OpenStack
+openstack/openstackdocstheme,OpenStack
+openstack/operations-guide,OpenStack Community
+openstack/ops-tags-team,OpenStack Community
+openstack/ops-telecom-nfv,OpenStack Community
+openstack/os-api-ref,OpenStack
+openstack/os-apply-config,OpenStack
+openstack/os-brick,OpenStack
+openstack/os-client-config,OpenStack
+openstack/os-cloud-config,OpenStack Community
+openstack/os-collect-config,OpenStack
+openstack/os-dpm,OpenStack Community
+openstack/os-failures,OpenStack (retired)
+openstack/os-faults,OpenStack Community
+openstack/os-log-merger,OpenStack Community
+openstack/os-namos,OpenStack Community
+openstack/os-net-config,OpenStack
+openstack/os-performance-tools,OpenStack
+openstack/os-refresh-config,OpenStack
+openstack/os-testr,OpenStack
+openstack/os-traits,OpenStack
+openstack/os-vif,OpenStack
+openstack/os-win,OpenStack
+openstack/os-xenapi,OpenStack Community
+openstack/osc-lib,OpenStack
+openstack/osc-placement,OpenStack
+openstack/oslo-incubator,OpenStack
+openstack/oslo-specs,OpenStack
+openstack/oslo.cache,OpenStack
+openstack/oslo.concurrency,OpenStack
+openstack/oslo.config,OpenStack
+openstack/oslo.context,OpenStack
+openstack/oslo.db,OpenStack
+openstack/oslo.i18n,OpenStack
+openstack/oslo.log,OpenStack
+openstack/oslo.messaging,OpenStack
+openstack/oslo.middleware,OpenStack
+openstack/oslo.policy,OpenStack
+openstack/oslo.privsep,OpenStack
+openstack/oslo.reports,OpenStack
+openstack/oslo.rootwrap,OpenStack
+openstack/oslo.serialization,OpenStack
+openstack/oslo.service,OpenStack
+openstack/oslo.tools,OpenStack
+openstack/oslo.utils,OpenStack
+openstack/oslo.versionedobjects,OpenStack
+openstack/oslo.vmware,OpenStack
+openstack/oslosphinx,OpenStack
+openstack/oslotest,OpenStack
+openstack/osops-coda,OpenStack Community
+openstack/osops-example-configs,OpenStack Community
+openstack/osops-tools-contrib,OpenStack Community
+openstack/osops-tools-generic,OpenStack Community
+openstack/osops-tools-logging,OpenStack Community
+openstack/osops-tools-monitoring,OpenStack Community
+openstack/osprofiler,OpenStack
+openstack/ospurge,OpenStack Community
+openstack/ossa,OpenStack
+openstack/ovsdbapp,OpenStack
+openstack/packetary,OpenStack Community
+openstack/packetary-specs,OpenStack Community
+openstack/packstack,OpenStack Community
+openstack/pandaman,OpenStack Community
+openstack/panko,OpenStack
+openstack/patrole,OpenStack
+openstack/paunch,OpenStack
+openstack/performa,OpenStack Community
+openstack/performance-docs,OpenStack
+openstack/picasso,OpenStack Community
+openstack/poppy,OpenStack Community
+openstack/poppy-ui,OpenStack Community
+openstack/powervc-driver,OpenStack Community
+openstack/project-navigator-data,OpenStack Community
+openstack/project-team-guide,OpenStack Community
+openstack/proliantutils,OpenStack Community
+openstack/ptgbot,OpenStack Community
+openstack/puppet-aodh,OpenStack
+openstack/puppet-autossh,OpenStack Community
+openstack/puppet-barbican,OpenStack
+openstack/puppet-ceilometer,OpenStack
+openstack/puppet-ceph,OpenStack
+openstack/puppet-cinder,OpenStack
+openstack/puppet-cloudkitty,OpenStack
+openstack/puppet-congress,OpenStack
+openstack/puppet-designate,OpenStack
+openstack/puppet-ec2api,OpenStack
+openstack/puppet-freezer,OpenStack
+openstack/puppet-glance,OpenStack
+openstack/puppet-glare,OpenStack
+openstack/puppet-gnocchi,OpenStack
+openstack/puppet-heat,OpenStack
+openstack/puppet-horizon,OpenStack
+openstack/puppet-ironic,OpenStack
+openstack/puppet-keystone,OpenStack
+openstack/puppet-magnum,OpenStack
+openstack/puppet-manila,OpenStack
+openstack/puppet-midonet,OpenStack Community
+openstack/puppet-mistral,OpenStack
+openstack/puppet-modulesync-configs,OpenStack Community
+openstack/puppet-monasca,OpenStack Community
+openstack/puppet-murano,OpenStack
+openstack/puppet-n1k-vsm,OpenStack Community
+openstack/puppet-neutron,OpenStack
+openstack/puppet-nova,OpenStack
+openstack/puppet-octavia,OpenStack
+openstack/puppet-openstack-cookiecutter,OpenStack
+openstack/puppet-openstack-guide,OpenStack
+openstack/puppet-openstack-integration,OpenStack
+openstack/puppet-openstack-release-tools,OpenStack Community
+openstack/puppet-openstack-specs,OpenStack
+openstack/puppet-openstack_extras,OpenStack
+openstack/puppet-openstack_spec_helper,OpenStack
+openstack/puppet-openstacklib,OpenStack
+openstack/puppet-oslo,OpenStack
+openstack/puppet-ovn,OpenStack
+openstack/puppet-pacemaker,OpenStack Community
+openstack/puppet-panko,OpenStack
+openstack/puppet-qdr,OpenStack
+openstack/puppet-rally,OpenStack
+openstack/puppet-sahara,OpenStack
+openstack/puppet-setproxy,OpenStack Community
+openstack/puppet-surveil,OpenStack Community
+openstack/puppet-swift,OpenStack
+openstack/puppet-tacker,OpenStack
+openstack/puppet-tempest,OpenStack
+openstack/puppet-tripleo,OpenStack
+openstack/puppet-trove,OpenStack
+openstack/puppet-tuskar,OpenStack Community
+openstack/puppet-vitrage,OpenStack
+openstack/puppet-vswitch,OpenStack
+openstack/puppet-watcher,OpenStack
+openstack/puppet-zaqar,OpenStack
+openstack/pycadf,OpenStack
+openstack/pyeclib,OpenStack Community
+openstack/pyghmi,OpenStack Community
+openstack/pylockfile,OpenStack
+openstack/pymod2pkg,OpenStack
+openstack/python-almanachclient,OpenStack Community
+openstack/python-aodhclient,OpenStack
+openstack/python-appcatalogclient,OpenStack Community
+openstack/python-barbicanclient,OpenStack
+openstack/python-bileanclient,OpenStack Community
+openstack/python-blazarclient,OpenStack Community
+openstack/python-brick-cinderclient-ext,OpenStack
+openstack/python-ceilometerclient,OpenStack
+openstack/python-cerberusclient,OpenStack Community
+openstack/python-cinderclient,OpenStack
+openstack/python-cloudkittyclient,OpenStack
+openstack/python-cloudpulseclient,OpenStack Community
+openstack/python-cognitiveclient,OpenStack Community
+openstack/python-congressclient,OpenStack
+openstack/python-cratonclient,OpenStack Community
+openstack/python-cueclient,OpenStack Community
+openstack/python-designateclient,OpenStack
+openstack/python-distilclient,OpenStack Community
+openstack/python-don,OpenStack Community
+openstack/python-dracclient,OpenStack Community
+openstack/python-evoqueclient,OpenStack Community
+openstack/python-freezerclient,OpenStack
+openstack/python-fuelclient,OpenStack
+openstack/python-ganttclient,OpenStack Community
+openstack/python-glanceclient,OpenStack
+openstack/python-glareclient,OpenStack Community
+openstack/python-gnocchiclient,OpenStack Community
+openstack/python-group-based-policy-client,OpenStack Community
+openstack/python-heatclient,OpenStack
+openstack/python-hnvclient,OpenStack Community
+openstack/python-iotronicclient,OpenStack Community
+openstack/python-ironic-inspector-client,OpenStack
+openstack/python-ironicclient,OpenStack
+openstack/python-jenkins,OpenStack Community
+openstack/python-k8sclient,OpenStack Community
+openstack/python-karborclient,OpenStack
+openstack/python-keystoneclient,OpenStack
+openstack/python-keystoneclient-kerberos,OpenStack Community
+openstack/python-kingbirdclient,OpenStack Community
+openstack/python-kiteclient,OpenStack Community
+openstack/python-magnetodbclient,OpenStack Community
+openstack/python-magnumclient,OpenStack
+openstack/python-manilaclient,OpenStack
+openstack/python-masakariclient,OpenStack Community
+openstack/python-meteosclient,OpenStack Community
+openstack/python-mistralclient,OpenStack
+openstack/python-moganclient,OpenStack Community
+openstack/python-monascaclient,OpenStack
+openstack/python-muranoclient,OpenStack
+openstack/python-namosclient,OpenStack Community
+openstack/python-neutron-pd-driver,OpenStack Community
+openstack/python-neutronclient,OpenStack
+openstack/python-nimbleclient,OpenStack (retired)
+openstack/python-novaclient,OpenStack
+openstack/python-octaviaclient,OpenStack
+openstack/python-oneviewclient,OpenStack Community
+openstack/python-openstackclient,OpenStack
+openstack/python-openstacksdk,OpenStack Community
+openstack/python-opentsdbclient,OpenStack Community
+openstack/python-pankoclient,OpenStack
+openstack/python-picassoclient,OpenStack Community
+openstack/python-qinlingclient,OpenStack Community
+openstack/python-rackclient,OpenStack Community
+openstack/python-redfish,OpenStack Community
+openstack/python-saharaclient,OpenStack
+openstack/python-scciclient,OpenStack Community
+openstack/python-searchlightclient,OpenStack
+openstack/python-senlinclient,OpenStack
+openstack/python-smaugclient,OpenStack (retired)
+openstack/python-solumclient,OpenStack
+openstack/python-sticksclient,OpenStack Community
+openstack/python-surveilclient,OpenStack Community
+openstack/python-swiftclient,OpenStack
+openstack/python-tackerclient,OpenStack
+openstack/python-tricircleclient,OpenStack
+openstack/python-tripleoclient,OpenStack
+openstack/python-troveclient,OpenStack
+openstack/python-tuskarclient,OpenStack Community
+openstack/python-valenceclient,OpenStack Community
+openstack/python-vitrageclient,OpenStack
+openstack/python-watcherclient,OpenStack
+openstack/python-wsmanclient,OpenStack Community
+openstack/python-zaqarclient,OpenStack
+openstack/python-zunclient,OpenStack
+openstack/qa-specs,OpenStack
+openstack/qinling,OpenStack Community
+openstack/quark,OpenStack Community
+openstack/rack,OpenStack Community
+openstack/radar,OpenStack Community
+openstack/rally,OpenStack
+openstack/ramdisk-func-test,OpenStack Community
+openstack/ranger,OpenStack Community
+openstack/ranger-agent,OpenStack Community
+openstack/refstack,OpenStack
+openstack/refstack-client,OpenStack
+openstack/release-schedule-generator,OpenStack
+openstack/release-test,OpenStack
+openstack/releases,OpenStack
+openstack/renderspec,OpenStack
+openstack/reno,OpenStack
+openstack/requests-mock,OpenStack Community
+openstack/requirements,OpenStack
+openstack/rpm-packaging,OpenStack
+openstack/rpm-packaging-tools,OpenStack
+openstack/rsc,OpenStack (retired)
+openstack/rst2bash,OpenStack
+openstack/sahara,OpenStack
+openstack/sahara-ci-config,OpenStack Community
+openstack/sahara-dashboard,OpenStack
+openstack/sahara-extra,OpenStack
+openstack/sahara-image-elements,OpenStack
+openstack/sahara-specs,OpenStack
+openstack/sahara-tests,OpenStack
+openstack/salt-formula-ceilometer,OpenStack Community
+openstack/salt-formula-cinder,OpenStack Community
+openstack/salt-formula-glance,OpenStack Community
+openstack/salt-formula-heat,OpenStack Community
+openstack/salt-formula-horizon,OpenStack Community
+openstack/salt-formula-keystone,OpenStack Community
+openstack/salt-formula-kubernetes,OpenStack Community
+openstack/salt-formula-midonet,OpenStack Community
+openstack/salt-formula-neutron,OpenStack Community
+openstack/salt-formula-nova,OpenStack Community
+openstack/salt-formula-opencontrail,OpenStack Community
+openstack/salt-formula-swift,OpenStack Community
+openstack/scalpels,OpenStack Community
+openstack/scientific-wg,OpenStack Community
+openstack/searchlight,OpenStack
+openstack/searchlight-specs,OpenStack
+openstack/searchlight-ui,OpenStack
+openstack/security-analysis,OpenStack
+openstack/security-doc,OpenStack
+openstack/security-specs,OpenStack
+openstack/senlin,OpenStack
+openstack/senlin-dashboard,OpenStack
+openstack/service-types-authority,OpenStack Community
+openstack/shaker,OpenStack Community
+openstack/shotgun,OpenStack Community
+openstack/shovel,OpenStack Community
+openstack/shovel-horizon,OpenStack Community
+openstack/smaug,OpenStack (retired)
+openstack/smaug-dashboard,OpenStack (retired)
+openstack/snap-ceilometer,OpenStack Community
+openstack/snap-glance,OpenStack Community
+openstack/snap-keystone,OpenStack Community
+openstack/snap-neutron,OpenStack Community
+openstack/snap-nova,OpenStack Community
+openstack/snap-nova-hypervisor,OpenStack Community
+openstack/snap-openstackclients,OpenStack Community
+openstack/snap-rally,OpenStack Community
+openstack/snap-tempest,OpenStack Community
+openstack/snap.openstack,OpenStack Community
+openstack/solar,OpenStack Community
+openstack/solar-resources,OpenStack Community
+openstack/solum,OpenStack
+openstack/solum-dashboard,OpenStack
+openstack/solum-infra-guestagent,OpenStack Community
+openstack/solum-specs,OpenStack
+openstack/spanner,OpenStack Community
+openstack/sphinx-feature-classification,OpenStack
+openstack/sqlalchemy-migrate,OpenStack Community
+openstack/stackalytics,OpenStack Community
+openstack/stacklight-integration-tests,OpenStack Community
+openstack/stacktach,OpenStack Community
+openstack/stacktach-klugman,OpenStack Community
+openstack/stacktach-notification-utils,OpenStack Community
+openstack/stacktach-notigen,OpenStack Community
+openstack/stacktach-quince,OpenStack Community
+openstack/stacktach-quincy,OpenStack Community
+openstack/stacktach-sandbox,OpenStack Community
+openstack/stacktach-shoebox,OpenStack Community
+openstack/stacktach-simport,OpenStack Community
+openstack/stacktach-stackdistiller,OpenStack Community
+openstack/stacktach-timex,OpenStack Community
+openstack/stacktach-winchester,OpenStack Community
+openstack/stackube,OpenStack Community
+openstack/stackviz,OpenStack
+openstack/steth,OpenStack Community
+openstack/stevedore,OpenStack
+openstack/sticks,OpenStack Community
+openstack/sticks-dashboard,OpenStack Community
+openstack/storlets,OpenStack
+openstack/surveil,OpenStack Community
+openstack/surveil-specs,OpenStack Community
+openstack/sushy,OpenStack
+openstack/sushy-tools,OpenStack
+openstack/swauth,OpenStack Community
+openstack/swift,OpenStack
+openstack/swift-bench,OpenStack
+openstack/swift-ceph-backend,OpenStack Community
+openstack/swift-specs,OpenStack
+openstack/swift3,OpenStack Community
+openstack/swiftonfile,OpenStack Community
+openstack/swiftonhpss,OpenStack Community
+openstack/synergy-scheduler-manager,OpenStack Community
+openstack/synergy-service,OpenStack Community
+openstack/syntribos,OpenStack
+openstack/syntribos-openstack-templates,OpenStack
+openstack/syntribos-payloads,OpenStack
+openstack/tacker,OpenStack
+openstack/tacker-horizon,OpenStack
+openstack/tacker-specs,OpenStack
+openstack/tap-as-a-service,OpenStack Community
+openstack/taskflow,OpenStack
+openstack/tc-as-a-service,OpenStack Community
+openstack/telcowg-usecases,OpenStack Community
+openstack/telemetry-specs,OpenStack
+openstack/tempest,OpenStack
+openstack/tempest-horizon,OpenStack
+openstack/tempest-lib,OpenStack
+openstack/tempest-plugin-cookiecutter,OpenStack
+openstack/terracotta,OpenStack Community
+openstack/third-party-ci-tools,OpenStack Community
+openstack/timmy,OpenStack Community
+openstack/tooz,OpenStack
+openstack/tosca-parser,OpenStack
+openstack/training-guides,OpenStack
+openstack/training-labs,OpenStack
+openstack/transparency-policy,OpenStack Community
+openstack/tricircle,OpenStack
+openstack/trio2o,OpenStack Community
+openstack/tripleo-common,OpenStack
+openstack/tripleo-docs,OpenStack
+openstack/tripleo-heat-templates,OpenStack
+openstack/tripleo-image-elements,OpenStack
+openstack/tripleo-incubator,OpenStack
+openstack/tripleo-puppet-elements,OpenStack
+openstack/tripleo-quickstart,OpenStack
+openstack/tripleo-quickstart-extras,OpenStack
+openstack/tripleo-repos,OpenStack
+openstack/tripleo-specs,OpenStack
+openstack/tripleo-ui,OpenStack
+openstack/tripleo-validations,OpenStack
+openstack/trove,OpenStack
+openstack/trove-dashboard,OpenStack
+openstack/trove-image-builder,OpenStack Community
+openstack/trove-integration,OpenStack
+openstack/trove-specs,OpenStack
+openstack/tuning-box,OpenStack
+openstack/turbo-hipster,OpenStack Community
+openstack/tuskar,OpenStack Community
+openstack/tuskar-ui,OpenStack Community
+openstack/uc-recognition,OpenStack Community
+openstack/ui-cookiecutter,OpenStack
+openstack/vahana,OpenStack Community
+openstack/valence,OpenStack Community
+openstack/valence-specs,OpenStack Community
+openstack/valet,OpenStack Community
+openstack/virtualbmc,OpenStack
+openstack/virtualpdu,OpenStack Community
+openstack/vitrage,OpenStack
+openstack/vitrage-dashboard,OpenStack
+openstack/vitrage-specs,OpenStack
+openstack/vm-bm-wg,OpenStack Community
+openstack/vmtp,OpenStack Community
+openstack/vmware-nsx,OpenStack Community
+openstack/vmware-nsxlib,OpenStack Community
+openstack/vmware-vspc,OpenStack Community
+openstack/watcher,OpenStack
+openstack/watcher-dashboard,OpenStack
+openstack/watcher-specs,OpenStack
+openstack/windmill,OpenStack Community
+openstack/workload-ref-archs,OpenStack Community
+openstack/wsme,OpenStack Community
+openstack/xenapi-os-testing,OpenStack Community
+openstack/xstatic-angular,OpenStack
+openstack/xstatic-angular-bootstrap,OpenStack
+openstack/xstatic-angular-cookies,OpenStack Community
+openstack/xstatic-angular-fileupload,OpenStack Community
+openstack/xstatic-angular-gettext,OpenStack
+openstack/xstatic-angular-lrdragndrop,OpenStack
+openstack/xstatic-angular-mock,OpenStack Community
+openstack/xstatic-angular-sanitize,OpenStack Community
+openstack/xstatic-angular-smart-table,OpenStack
+openstack/xstatic-angular-ui-router,OpenStack
+openstack/xstatic-bootstrap-datepicker,OpenStack
+openstack/xstatic-bootstrap-scss,OpenStack
+openstack/xstatic-bootswatch,OpenStack
+openstack/xstatic-d3,OpenStack
+openstack/xstatic-font-awesome,OpenStack
+openstack/xstatic-hogan,OpenStack
+openstack/xstatic-jasmine,OpenStack
+openstack/xstatic-jquery-migrate,OpenStack
+openstack/xstatic-jquery.bootstrap.wizard,OpenStack Community
+openstack/xstatic-jquery.quicksearch,OpenStack
+openstack/xstatic-jquery.tablesorter,OpenStack
+openstack/xstatic-jsencrypt,OpenStack
+openstack/xstatic-magic-search,OpenStack
+openstack/xstatic-mdi,OpenStack
+openstack/xstatic-qunit,OpenStack Community
+openstack/xstatic-rickshaw,OpenStack
+openstack/xstatic-roboto-fontface,OpenStack
+openstack/xstatic-spin,OpenStack
+openstack/yaql,OpenStack
+openstack/zaqar,OpenStack
+openstack/zaqar-specs,OpenStack
+openstack/zaqar-ui,OpenStack
+openstack/zun,OpenStack
+openstack/zun-ui,OpenStack
+openstacknetsdk/SimpleRestServices,OpenStack NET SDK
+openstacknetsdk/openstack.net,OpenStack NET SDK
+openstacknetsdk/openstacknetsdk.github.io,OpenStack NET SDK
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
 playframework/playframework,Play Framework

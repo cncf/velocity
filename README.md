@@ -55,7 +55,7 @@ Special flag =SKIP  for project mean that this org should NOT be groupped
 `skip.csv` CSV file that contain lists of repos and/or orgs and/or projects to be skipped in analysis:
 ```
 org,repo,project
-"enkidevs,csu2017sp314,thoughtbot,illacceptanything,RubySteps,RainbowEngineer",Microsoft/techcasestudies,"Apache (other),OpenStack (other)"
+"enkidevs,csu2017sp314,thoughtbot,illacceptanything,RubySteps,RainbowEngineer",Microsoft/techcasestudies,"Apache (other),OpenStack"
 "2015firstcmsc100,swcarpentry,exercism,neveragaindottech,ituring","mozilla/learning.mozilla.org,Microsoft/HolographicAcademy,w3c/aria-practices,w3c/csswg-test",
 "orgX,orgY","org1/repo1,org2/repo2","project1,project2"
 ```
