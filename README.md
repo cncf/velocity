@@ -557,4 +557,4 @@ To generate data for CNCF projects:
 There is also gist here (but above description is more up to date): https://gist.github.com/lukaszgryglicki/093ced06455a3f14f0e4d25459525207
 
 Links to various charts and videos generated using this project are here: `res/links.txt`
-
+https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/

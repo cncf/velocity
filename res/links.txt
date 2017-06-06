@@ -1,5 +1,5 @@
 # Published
-https://docs.google.com/spreadsheets/d/11qfS97WRwFqNnArRmpQzCZG_omvZRj_y-MNo5oWeULs/pubhtml
+https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/
 
 # Shared:
 https://docs.google.com/spreadsheets/d/1S-YLoma7-j6koN86gCCy_WwdgQNghk1SFuHuzXcQcnc/edit?usp=sharing
