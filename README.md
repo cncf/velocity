@@ -1,6 +1,6 @@
 # velocity
 Track development velocity
-asdf
+
 Files in `BigQuery/*.sql` are Google BigQuery SQLs that generated data in `data/` directory
 
 `analysis.rb` is a tool that process input file (which is an output from BigQuery) and generates final data for Bubble/Motion Google Sheet Chart.
