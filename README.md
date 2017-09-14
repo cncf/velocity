@@ -1,23 +1,24 @@
-# velocity
+﻿# velocity
 Track development velocity
 
-Files in `BigQuery/*.sql` are Google BigQuery SQLs that generated data in `data/` directory
+'*.sql' files in `BigQuery` folder are Google BigQuery queries that produce csv data files to be put in the in `data/` directory for processing
 
-`analysis.rb` is a tool that process input file (which is an output from BigQuery) and generates final data for Bubble/Motion Google Sheet Chart.
-It uses:
-- hints file with additional repo name -> project mapping. (N repos --> 1 Project), so project name will be in many lines
-- urls file which defines URLs for defined projects (separate file because in hints file we would have to duplicate data for each project ) (1 Project --> 1 URL)
-- default map file which defines non standard names for projects generated automatically via groupping by org (like aspnet --> ASP.net) or to group multiple orgs and/or repos into single project. It is a last step of project name mapping
+`analysis.rb` is a tool that processes input files (csv files from BigQuery results) and generates final data for Bubble/Motion Google Sheet Chart.
+This tool also uses:
+- a "hints" file with additional mapping: repo name -> project. (N repos --> 1 Project), so a given project name may be listed be in many lines
+- a "urls" file which defines URLs for the listed projects (a separate file is used because otherwise, in hints file we would have to duplicate data for each project ) (1 Project --> 1 URL)
+- a "default" map file which defines non standard names for projects generated automatically via grouping by org (like aspnet --> ASP.net) or to group multiple orgs and/or repos into a single project. It is the last step of project name mapping
+This tool outputs a data file into the 'projects/' directory
 
 # Example use:
 `ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv skip.csv ranges.csv`
 
-To follow most up-to-date process for Top 30 open source projects, please go to section "Most Up to date process".
+The Top 30 open source projects process is described in the "Most Up to date process" section.
 
-To follow most up-to-date process for CNCF projects, please go to section "CNCF Projects".
+The CNCF projects process, is described in the "CNCF Projects" section.
 
 # File formats
-`input.csv` data/data_yyyymm.csv from BigQuery, like this:
+`input.csv` data/data_yyyymm.csv from BigQuery, like the following:
 ```
 org,repo,activity,comments,prs,commits,issues,authors
 kubernetes,kubernetes/kubernetes,11243,9878,720,70,575,40
@@ -33,21 +34,21 @@ kubernetes+kubernetes-incubator,kubernetes+kubernetes.github.io+test-infra+ingre
 ...
 ```
 
-`hints.csv` CSV file with hints for repo --> project, it looks like this:
+`hints.csv` a csv file with hints for repo --> project mapping, it has this format:
 ```
 repo,project
 Microsoft/TypeScript,Microsoft TypeScript
 ...
 ```
 
-`urls.csv` CSV file with project --> url mapping
+`urls.csv` a csv file with project --> url mapping wiht the following format:
 ```
 project,url
 Angular,angular.io
 ...
 ```
 
-`defmaps.csv` CSV file with better names for projects generated as default groupping within org:
+`defmaps.csv` a csv file with proper names for projects generated as default groupping within org:
 ```
 name,project
 aspnet,ASP.net
@@ -55,9 +56,9 @@ nixpkgs,NixOS
 Azure,=SKIP
 ...
 ```
-Special flag =SKIP  for project mean that this org should NOT be groupped
+The special flag '=SKIP' for a project means that this org should NOT be groupped
 
-`skip.csv` CSV file that contain lists of repos and/or orgs and/or projects to be skipped in analysis:
+`skip.csv` a csv file that contains lists of repos and/or orgs and/or projects to be skipped in the analysis:
 ```
 org,repo,project
 "enkidevs,csu2017sp314,thoughtbot,illacceptanything,RubySteps,RainbowEngineer",Microsoft/techcasestudies,"Apache (other),OpenStack (other)"
@@ -65,9 +66,9 @@ org,repo,project
 "orgX,orgY","org1/repo1,org2/repo2","project1,project2"
 ```
 
-`ranges.csv` CSV file containing ranges of repos properties that makes repo included in calculations.
+`ranges.csv` a csv file that contains ranges of repos properties which makes repo included in calculations.
 It can constrain any of "commits, prs, comments, issues, authors" to be within range n1 .. n2 (if n1 or n2 < 0 then this value is skipped, so -1..-1 means unlimited
-There can be also exception repos/orgs that do not use those ranges:
+There can be also be exception repos/orgs that do not use those ranges:
 ```
 key,min,max,exceptions
 activity,50,-1,"kubernetes,docker/containerd,coreos/rkt"
@@ -78,27 +79,27 @@ issues,10,-1,"kubernetes,docker/containerd,coreos/rkt"
 authors,3,-1,"kubernetes,docker/containerd,google/go-github"
 ```
 
-Generated output file contains all data from input (so it can be 600 rows for 1000 input rows for example).
-You should manually review generated output and choose how much rows do You need.
+The generated output file contains all the input data (so it can be 600 rows for 1000 input rows for example).
+You should manually review generated output and choose how many rocords you need.
 
 `hintgen.rb` is a tool that takes data already processed for various created charts and creates distinct projects hint file from it:
 
 `hintgen.rb data.csv map/hints.csv`
-Use multiple times putting different files as 1st parameter (`data.csv`) and generate final `hints.csv`.
+Use multiple times putting a different file (1st parameter: `data.csv`) and generate final `hints.csv`.
 
 
 # Results
-Already generated data:
+Data files existing in the repository:
 - data/data_YYYYMM.csv --> data for given YYYYMM from BigQuery.
-- projects/projects_YYYYMM.csv --> data generated by `analysis.rb` from data_YYYYMM.csv using: `map/`: `hints.csv`, `urls.csv`, `defmaps.csv`
+- projects/projects_YYYYMM.csv --> data generated by `analysis.rb` based on data_YYYYMM.csv using: `map/`: `hints.csv`, `urls.csv`, `defmaps.csv`
 
 
 # Motion charts
-`generate_motion.rb` tool is used to merge data from multiple files into one for motion chart. Usage:
+`generate_motion.rb` a tool used to merge data from multiple files into one for motion chart. Usage:
 
 `ruby generate_motion.rb projects/files.csv motion/motion.csv motion/motion_sums.csv [projects/summaries.csv]`
 
-File `files.csv` contains list of data files to be merged, it looks like this:
+File `files.csv` contains a list of data files to be merged, it has the following format:
 ```
 name,label
 projects/projects_201601.csv,01/2016
@@ -106,14 +107,14 @@ projects/projects_201602.csv,02/2016
 ...
 ```
 
-Generates 2 output files:
-- 1st is a motion data from each file with given label
-- 2nd is cumulative sum of data, so 1st label contains data from 1st label, 2nd contains 1st+2nd, 3rd=1st+2nd+3rd ... last = sum of all data. Labels are summed in alphabetical order so if using months please use "YYYYMM" or "YYYY-MM" that will give correct results, and not "MM/YYYY" that will for example swap "2/2016" and "1/2017"
+This tool generates 2 output files:
+- 1st is a motion data from each file with a given label
+- 2nd is cumulative sum of data, so 1st label contains data from 1st label, 2nd contains 1st+2nd, 3rd=1st+2nd+3rd ... last = sum of all data. Labels are summed in alphabetical order. When your data is divided by months, please use "YYYYMM" or "YYYY-MM" format to receive correct results, and not "MM/YYYY" which will, for example, swap "2/2016" and "1/2017"
 
 Output formats of 1st and 2nd files are identical.
 
-First column is data file generated by `analysis.rb` another column is label that will be used as "time" for google sheets motion chart
-Output is in format:
+The first column is a data file generated by `analysis.rb`. The following column is a label that will be used as "time" for google sheets motion chart
+Output has this format:
 ```
 project,url,label,activity,comments,prs,commits,issues,authors,sum_activity,sum_comments,sum_prs,sum_commits,sum_issues,sum_authors
 Kubernetes,kubernetes.io,2016-01,6289,5211,548,199,331,73,174254,136104,18264,8388,11498,373
@@ -130,11 +131,11 @@ VS Code,code.visualstudio.com,2016-02,17139,11638,986,1899,2616,133,155621,10438
 VS Code,code.visualstudio.com,2017-04,155621,104386,9501,17650,24084,198,155621,104386,9501,17650,24084,198
 ...
 ```
-Each row contains its label data (cumulative or separata) and columns with staring with `max_` conatin cumulative data for all labels.
-This is to make this data easy available for google sheet motion chart without complex cell indexing.
+Each row contains its label data (separate or cumulative) whereas columns with starting with `max_` conatin cumulative data for all labels.
+This is to make this data easily available for google sheet motion chart without complex cell indexing.
 
-Final optional file `summaries.csv` can be used to read number of authors from it. This is because number of authors is computed in a different way.
-Without summaries file (or if given project is not in summaries file) we have number of distinct authors in each period. To get summary value for all periods we're just getting max of all periods.
+The final (optional) file `summaries.csv` is used to read the number of authors. This is because the number of authors is computed differently.
+Without summaries file (or if a given project is not in the summaries file) we have a number of distinct authors in each period. To get summary value for all periods we're just getting max of all periods.
 This is obviously not a real count of all distinct authors in all periods. So if we give another file which contains summary data for one big period that is euual to sum of all periods - then we can get number of authors from there.
 
 # Adding non-GitHub projects
