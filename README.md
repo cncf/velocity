@@ -514,6 +514,25 @@ Tool will say somethiong like this: "After filtering: authors: 1637, commits: 67
 - openSUSE case
 - BigQuery part exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
 
+- AGL (automotive Grade Linux) case:
+- Go to: https://wiki.automotivelinux.org/agl-distro/source-code and get source code somewhere:
+- `mkdir agl; cd agl`
+- `curl https://storage.googleapis.com/git-repo-downloads/repo > repo; chmod +x ./repo`
+- `./repo init -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo; ./repo init`
+- Now You need to use script `agl/run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub statistics.
+- There will be `agl.txt` file generated, something like this:
+```
+Processed 67124 csets from 1155 developers
+52 employers found
+A total of 13431516 lines added, 12197416 removed, 24809064 changed (delta 1234100)
+```
+- You can get number of authors: 1155 and commits 67124 (this is for all time)
+- To get data for some specific data range: `cd agl; DTFROM="2016-10-01" DTTO="2017-10-01" ./run_multirepo_range.sh` ==> `agl.txt`.
+```
+Processed 7152 csets from 365 developers
+```
+- 7152 commits and 365 authors.
+
 - LibreOffice case
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
 - Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_201606_201705.csv` and we will update `data/data_libreoffice_git_201606_201705.csv` file
