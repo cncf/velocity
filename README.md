@@ -534,6 +534,8 @@ A total of 13431516 lines added, 12197416 removed, 24809064 changed (delta 12341
 Processed 7152 csets from 365 developers
 ```
 - 7152 commits and 365 authors.
+- To get number of Issues, search Jira: `https://jira.automotivelinux.org/browse/SPEC-923?jql=created%20%3E%3D%202016-10-01%20AND%20created%20%3C%3D%202017-10-01`
+- It says 665 issues in a given date range
 
 - LibreOffice case
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
