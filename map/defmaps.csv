@@ -28,8 +28,8 @@ MarlinFirmware,Marlin
 MobileChromeApps,Chromium
 OfficeDev,Office Developer
 OpenStack-mobile,OpenStack Mobile
-OpenStackCookbook,OpenStack Cookbook
-OpenStackweb,OpenStack Web
+OpenStackCookbook,OpenStack Community
+OpenStackweb,OpenStack Community
 ParsePlatform,Parse
 Particular,NServiceBus
 Plailect/Guide,3DS Guide
@@ -139,15 +139,12 @@ odoo,Odoo
 openhab,openHAB
 openshift,OpenShift
 openssl,OpenSSL
-openstack-ansible,OpenStack Ansible
-openstack-charmers,OpenStack Charmers
-openstack-dev,OpenStack Dev
-openstack-hyper-v,OpenStack Hyper-v
-openstack-infra,OpenStack Infra
+openstack-charmers,OpenStack Charms
+openstack-hyper-v,OpenStack Hyper-V
 openstack-kr,OpenStack Korean
-openstack-packages,OpenStack Packages
+openstack-packages,RDO
 openstack-snaps,OpenStack Snaps
-openstacknetsdk,OpenStack Net SDK
+openstacknetsdk,OpenStack NET SDK
 opentracing,OpenTracing
 openwrt,OpenWrt
 osmandapp,Osmand
