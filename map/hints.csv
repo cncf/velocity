@@ -17,7 +17,6 @@ repo,project
 18F/openFEC-web-app,Campaign finance for everyone
 18F/tock,tock
 18F/web-design-standards,US Web Design Standards
-=External/Blink,Chromium Blink
 Airbnb/react-native,React
 AngularClass/angular2-webpack-starter,Angular
 Automattic/WP-Job-Manager,WP Calypso
@@ -54,6 +53,12 @@ Azure/azure-webjobs-sdk-extensions,Azure SDKs
 Azure/azure-webjobs-sdk-script,Azure SDKs
 Azure/azure-webjobs-sdk-templates,Azure SDKs
 Azure/sonic-py-swsssdk,Azure SDKs
+Dronecode/Dronecode-Website-Issues,Dronecode
+Dronecode/Technical-Steering-Committee,Dronecode
+Dronecode/UX-Design,Dronecode
+Dronecode/Vagrant,Dronecode
+Dronecode/_Repository-List,Dronecode
+Dronecode/sitl_gazeb,Dronecode
 EFForg/https-everywhere,HTTPS Everywhere
 GoogleChrome/lighthouse,Chromium
 GoogleCloudPlatform/DataflowJavaSDK,Google Cloud SDKs
@@ -90,9 +95,23 @@ GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/php-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
 HaliteChallenge/Halite,Halite
+JSFoundation/TAC,JS Foundation
+JSFoundation/cla-assistant,JS Foundation
+JSFoundation/js.foundation,JS Foundation
+JSFoundation/standards,JS Foundation
+JanusGraph/janusgraph,JanusGraph
 JuliaLang/julia,Julia
 KhronosGroup/Vulkan-LoaderAndValidationLayers,Kronos Vulkan
 KhronosGroup/glslang,Kronos GLSL
+Kinetic/kinetic-c,Kinetic Open Storage
+Kinetic/kinetic-cpp-client,Kinetic Open Storage
+Kinetic/kinetic-go,Kinetic Open Storage
+Kinetic/kinetic-java,Kinetic Open Storage
+Kinetic/kinetic-js,Kinetic Open Storage
+Kinetic/kinetic-protocol,Kinetic Open Storage
+LinuxStandardBase/download-app,Linux Standard Base
+LinuxStandardBase/lanana,Linux Standard Base
+LinuxStandardBase/lsb,Linux Standard Base
 Microsoft/AL,Dynamics NAV
 Microsoft/AirSim,AirSim
 Microsoft/ApplicationInsights-Home,Microsoft Application Insights
@@ -270,6 +289,11 @@ Microsoft/windows-driver-docs,Microsoft docs
 Microsoft/windows-itpro-docs,Microsoft docs
 Microsoft/winsdkfb,VS Code
 Microsoft/xunit-performance,dotnet
+OAI/Gluecon-Workshop,Open API
+OAI/OpenAPI-Specification,Open API
+OAI/OpenAPI-Style-Guide,Open API
+OpenMAMA/OpenMAMA,OpenMAMA
+OpenMAMA/openmama.github.io,OpenMAMA
 OpenStack-mobile/AFHorizontalDayPicker,OpenStack Horizon
 OpenStack-mobile/HanekeSwift,OpenStack Swift
 OpenStack-mobile/KFSwiftImageLoader,OpenStack Swift
@@ -277,6 +301,8 @@ OpenStack-mobile/OAuth2-Swift,OpenStack Swift
 OpenStack-mobile/OpenStackID-Swift,OpenStack Swift
 OpenStack-mobile/SwiftFoundation,OpenStack Swift
 OpenStack-mobile/SwiftSpinner,OpenStack Swift
+SNAS/website,SNAS.io
+Samsung/TizenRT,Tizen
 Shopify/Timber,Shopify Timber
 Shopify/active_shipping,ActiveShipping
 Shopify/js-buy-sdk,Shopify SDKs
@@ -379,6 +405,7 @@ apacheignite/drools-ignite,Apache Ignite
 apacheignite/yardstick-ignite,Apache Ignite
 apacheignite/zeppelin-demo,Apache Ignite
 aspnet/Docs,ASP.net Docs
+automotive-grade-linux/docs-agl,AGL
 aws/aws-iot-device-sdk-arduino-yun,AWS SDKs
 aws/aws-iot-device-sdk-embedded-C,AWS SDKs
 aws/aws-iot-device-sdk-java,AWS SDKs
@@ -399,17 +426,154 @@ aws/aws-sdk-php-symfony,AWS SDKs
 aws/aws-sdk-php-zf2,AWS SDKs
 aws/aws-sdk-ruby,AWS SDKs
 aws/aws-sdk-ruby-record,AWS SDKs
+brunopulis/awesome-a11y,A11y
 callemall/material-ui,Material-UI
+cip-project/board-at-desk-single-dev,Civil Infrastructure Platform
+cip-project/cip-kernel-sec,Civil Infrastructure Platform
+cip-project/cip-kernelci,Civil Infrastructure Platform
+cip-project/kernelci-backend,Civil Infrastructure Platform
+cip-project/kernelci-frontend,Civil Infrastructure Platform
+cip-project/linux-cip,Civil Infrastructure Platform
+cncf/ambassadors,Cloud Native Computing Foundation
+cncf/artwork,Cloud Native Computing Foundation
+cncf/cla,Cloud Native Computing Foundation
+cncf/cluster,Cloud Native Computing Foundation
+cncf/cross-cloud,Cloud Native Computing Foundation
+cncf/curriculum,Cloud Native Computing Foundation
+cncf/demo,Cloud Native Computing Foundation
+cncf/draft-wg-serverless,Cloud Native Computing Foundation
+cncf/foundation,Cloud Native Computing Foundation
+cncf/gha2db,Cloud Native Computing Foundation
+cncf/gha2pg,Cloud Native Computing Foundation
+cncf/gitdm,Cloud Native Computing Foundation
+cncf/k8s-conformance,Cloud Native Computing Foundation
+cncf/landscape,Cloud Native Computing Foundation
+cncf/presentations,Cloud Native Computing Foundation
+cncf/soc,Cloud Native Computing Foundation
+cncf/toc,Cloud Native Computing Foundation
+cncf/velocity,Cloud Native Computing Foundation
+cncf/wg-ci,Cloud Native Computing Foundation
+cncf/wg-networking,Cloud Native Computing Foundation
+cncf/wg-serverless,Cloud Native Computing Foundation
+cncf/wg-storage,Cloud Native Computing Foundation
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x
+codeaurora-unofficial/device-qcom-sepolicy,Code Aurora
+codeaurora-unofficial/kernel-msm,Code Aurora
+codeaurora-unofficial/kernel-msm-3.10,Code Aurora
+codeaurora-unofficial/linux-msm,Code Aurora
+codeaurora-unofficial/packages-providers-ContactsProvider,Code Aurora
+codeaurora-unofficial/packages-providers-TelephonyProvider,Code Aurora
+codeaurora-unofficial/packages-services-Mms,Code Aurora
+codeaurora-unofficial/packages-services-Telecomm,Code Aurora
+codeaurora-unofficial/packages-services-Telephony,Code Aurora
+codeaurora-unofficial/platform-art,Code Aurora
+codeaurora-unofficial/platform-bionic,Code Aurora
+codeaurora-unofficial/platform-build,Code Aurora
+codeaurora-unofficial/platform-development,Code Aurora
+codeaurora-unofficial/platform-external-bluetooth-bluedroid,Code Aurora
+codeaurora-unofficial/platform-external-dhcpcd,Code Aurora
+codeaurora-unofficial/platform-external-e2fsprogs,Code Aurora
+codeaurora-unofficial/platform-external-f2fs-tools,Code Aurora
+codeaurora-unofficial/platform-external-flac,Code Aurora
+codeaurora-unofficial/platform-external-icu,Code Aurora
+codeaurora-unofficial/platform-external-libnfc-nci,Code Aurora
+codeaurora-unofficial/platform-external-libpng,Code Aurora
+codeaurora-unofficial/platform-external-libselinux,Code Aurora
+codeaurora-unofficial/platform-external-libxml2,Code Aurora
+codeaurora-unofficial/platform-external-openssl,Code Aurora
+codeaurora-unofficial/platform-external-sepolicy,Code Aurora
+codeaurora-unofficial/platform-external-skia,Code Aurora
+codeaurora-unofficial/platform-external-tinyalsa,Code Aurora
+codeaurora-unofficial/platform-external-tinycompress,Code Aurora
+codeaurora-unofficial/platform-external-wpa_supplicant_8,Code Aurora
+codeaurora-unofficial/platform-frameworks-av,Code Aurora
+codeaurora-unofficial/platform-frameworks-base,Code Aurora
+codeaurora-unofficial/platform-frameworks-ex,Code Aurora
+codeaurora-unofficial/platform-frameworks-native,Code Aurora
+codeaurora-unofficial/platform-frameworks-opt-bluetooth,Code Aurora
+codeaurora-unofficial/platform-frameworks-opt-chips,Code Aurora
+codeaurora-unofficial/platform-frameworks-opt-net-ims,Code Aurora
+codeaurora-unofficial/platform-frameworks-opt-net-wifi,Code Aurora
+codeaurora-unofficial/platform-frameworks-opt-telephony,Code Aurora
+codeaurora-unofficial/platform-frameworks-wilhelm,Code Aurora
+codeaurora-unofficial/platform-hardware-broadcom-libbt,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-audio_media,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-common-libmix,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-common-libstagefrighthw,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-common-libva,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-common-libwsbm,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-common-omx-components,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-common-utils,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-common-wrs_omxil_core,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-img-hwcomposer,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-img-psb_headers,Code Aurora
+codeaurora-unofficial/platform-hardware-intel-img-psb_video,Code Aurora
+codeaurora-unofficial/platform-hardware-libhardware,Code Aurora
+codeaurora-unofficial/platform-hardware-libhardware_legacy,Code Aurora
+codeaurora-unofficial/platform-hardware-qcom-audio,Code Aurora
+codeaurora-unofficial/platform-hardware-qcom-bt,Code Aurora
+codeaurora-unofficial/platform-hardware-qcom-display,Code Aurora
+codeaurora-unofficial/platform-hardware-qcom-gps,Code Aurora
+codeaurora-unofficial/platform-hardware-qcom-keymaster,Code Aurora
+codeaurora-unofficial/platform-hardware-qcom-media,Code Aurora
+codeaurora-unofficial/platform-hardware-qcom-wlan,Code Aurora
+codeaurora-unofficial/platform-hardware-ril,Code Aurora
+codeaurora-unofficial/platform-libcore,Code Aurora
+codeaurora-unofficial/platform-libnativehelper,Code Aurora
+codeaurora-unofficial/platform-packages-apps-BasicSmsReceiver,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Bluetooth,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Browser,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Calculator,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Calendar,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Camera2,Code Aurora
+codeaurora-unofficial/platform-packages-apps-CellBroadcastReceiver,Code Aurora
+codeaurora-unofficial/platform-packages-apps-CertInstaller,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Contacts,Code Aurora
+codeaurora-unofficial/platform-packages-apps-ContactsCommon,Code Aurora
+codeaurora-unofficial/platform-packages-apps-DeskClock,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Dialer,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Email,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Gallery2,Code Aurora
+codeaurora-unofficial/platform-packages-apps-HTMLViewer,Code Aurora
+codeaurora-unofficial/platform-packages-apps-InCallUI,Code Aurora
+codeaurora-unofficial/platform-packages-apps-KeyChain,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Launcher3,Code Aurora
+codeaurora-unofficial/platform-packages-apps-ManagedProvisioning,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Mms,Code Aurora
+codeaurora-unofficial/platform-packages-apps-MusicFX,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Nfc,Code Aurora
+codeaurora-unofficial/platform-packages-apps-OneTimeInitializer,Code Aurora
+codeaurora-unofficial/platform-packages-apps-PackageInstaller,Code Aurora
+codeaurora-unofficial/platform-packages-apps-PhoneCommon,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Provision,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Settings,Code Aurora
+codeaurora-unofficial/platform-packages-apps-SoundRecorder,Code Aurora
+codeaurora-unofficial/platform-packages-apps-SpareParts,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Stk,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Tag,Code Aurora
+codeaurora-unofficial/platform-packages-apps-Terminal,Code Aurora
+codeaurora-unofficial/platform-packages-apps-TvSettings,Code Aurora
+codeaurora-unofficial/platform-packages-apps-UnifiedEmail,Code Aurora
+codeaurora-unofficial/platform-packages-inputmethods-LatinIME,Code Aurora
+codeaurora-unofficial/platform-system-core,Code Aurora
+codeaurora-unofficial/platform-system-extras,Code Aurora
+codeaurora-unofficial/platform-system-media,Code Aurora
+codeaurora-unofficial/platform-system-netd,Code Aurora
+codeaurora-unofficial/platform-system-vold,Code Aurora
+codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-fw-api,Code Aurora
+codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qca-wifi-host-cmn,Code Aurora
+codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qcacld-3.0,Code Aurora
 coredns/coredns-grpc,CoreDNS
 coredns/grpc,CoreDNS
+coreinfrastructure/best-practices-badge,Core Infrastructure Initiative
+coreinfrastructure/cii-best-practices-badge,Core Infrastructure Initiative
 coreos/coreos-kubernetes,CoreOS
 coreos/kube-prometheus,CoreOS
 coreos/kubernetes,CoreOS
 coreos/prometheus,CoreOS
 coreos/prometheus-operator,CoreOS
-coreos/rkt,rkt
+coreos/rkt,RKT
 docker/compose,Docker
 docker/containerd,containerd
 docker/distribution,Docker
@@ -449,6 +613,11 @@ eclipse/xtext-eclipse,Eclipse Xtext
 eclipse/xtext-extras,Eclipse Xtext
 eclipse/xtext-lib,Eclipse Xtext
 eclipse/xtext-xtend,Eclipse Xtext
+envoyproxy/artwork,Envoy
+envoyproxy/data-plane-api,Envoy
+envoyproxy/envoy,Envoy
+envoyproxy/envoy-filter-example,Envoy
+envoyproxy/envoyproxy.github.io,Envoy
 fa16scmorg/FA16SCM,Assignment Simulaton Repository
 facebook/AsyncDisplayKit,Texture
 facebook/osquery,osquery
@@ -457,6 +626,9 @@ facebook/react-native,React
 facebook/reason,REASON
 facebook/rocksdb,RocksDB
 facebookincubator/create-react-app,React
+fdio-stack/felix,FD.io
+fdio-stack/netplugin,FD.io
+fossology/fossology,FOSSology
 fpco/stackage,Hackage
 github/VisualStudio,GitHub Extension for Visual Studio
 github/backup-utils,GitHub Enterprise Backup Utilities
@@ -525,6 +697,27 @@ hashicorp/nomad,Nomad
 hashicorp/terraform,Terraform
 hashicorp/vault,Vault
 infernojs/inferno,Inferno
+iotivity/ci-management,IoTivity
+iotivity/iotivity,IoTivity
+iotivity/iotivity-alljoyn-bridge,IoTivity
+iotivity/iotivity-constrained,IoTivity
+iotivity/iotivity-node,IoTivity
+iotivity/iotivity-upnp-bridge,IoTivity
+iotivity/otivity-xmpp,IoTivity
+iovisor/bcc,IO Visor
+iovisor/bpf-docs,IO Visor
+iovisor/gobpf,IO Visor
+iovisor/hoverui,IO Visor
+iovisor/iomodules,IO Visor
+iovisor/iovisor-ovn,IO Visor
+iovisor/libiov,IO Visor
+iovisor/ply,IO Visor
+iovisor/ubpf,IO Visor
+iovisor/xdp-vagrant,IO Visor
+jaegertracing/jaeger-kubernetes,Jaeger
+jaegertracing/jaeger-openshift,Jaeger
+jaegertracing/test-repo-move,Jaeger
+joeythesaint/cgl-specification,Carrier Grade Linux
 kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes
@@ -764,12 +957,238 @@ mozilla/webmaker-ffos,Firefox
 mozilla/yogafire,Firefox
 mozilla/zamboni,Firefox
 mozilla/zippy,Firefox
+obrienlabs/onap-root,Open Network Automation Platform
 ocaml/opam-repository,OPAM
+odpi/ambari,ODPi
+odpi/bigtop,ODPi
+odpi/security-guide,ODPi
+odpi/self-certification-reports,ODPi
+odpi/sig-reports,ODPi
+odpi/specs,ODPi
+open-switch/,OpenSwitch
+open-switch/SAI,OpenSwitch
+open-switch/flx-docs,OpenSwitch
+open-switch/infra_commit-validation,OpenSwitch
+open-switch/infra_jeepyb,OpenSwitch
+open-switch/infra_project-config,OpenSwitch
+open-switch/infra_system-config,OpenSwitch
+open-switch/infra_website,OpenSwitch
+open-switch/ops,OpenSwitch
+open-switch/ops-aaa-utils,OpenSwitch
+open-switch/ops-ansible,OpenSwitch
+open-switch/ops-arpmgrd,OpenSwitch
+open-switch/ops-build,OpenSwitch
+open-switch/ops-cfgd,OpenSwitch
+open-switch/ops-checkmk-agent,OpenSwitch
+open-switch/ops-classifierd,OpenSwitch
+open-switch/ops-cli,OpenSwitch
+open-switch/ops-docs,OpenSwitch
+open-switch/ops-fand,OpenSwitch
+open-switch/ops-hw-config,OpenSwitch
+open-switch/ops-intfd,OpenSwitch
+open-switch/ops-ipapps,OpenSwitch
+open-switch/ops-l2macd,OpenSwitch
+open-switch/ops-lacpd,OpenSwitch
+open-switch/ops-mgmt-intf,OpenSwitch
+open-switch/ops-ntpd,OpenSwitch
+open-switch/ops-openbfdd,OpenSwitch
+open-switch/ops-openvswitch,OpenSwitch
+open-switch/ops-portd,OpenSwitch
+open-switch/ops-powerd,OpenSwitch
+open-switch/ops-quagga,OpenSwitch
+open-switch/ops-rbac,OpenSwitch
+open-switch/ops-restd,OpenSwitch
+open-switch/ops-snmpd,OpenSwitch
+open-switch/ops-stpd,OpenSwitch
+open-switch/ops-supportability,OpenSwitch
+open-switch/ops-switchd,OpenSwitch
+open-switch/ops-switchd-container-plugin,OpenSwitch
+open-switch/ops-switchd-fpa-plugin,OpenSwitch
+open-switch/ops-switchd-opennsl-plugin,OpenSwitch
+open-switch/ops-switchd-p4switch-plugin,OpenSwitch
+open-switch/ops-switchd-sai-plugin,OpenSwitch
+open-switch/ops-switchd-xpliant-plugin,OpenSwitch
+open-switch/ops-sysd,OpenSwitch
+open-switch/ops-utils,OpenSwitch
+open-switch/ops-vsi,OpenSwitch
+open-switch/ops-webui,OpenSwitch
+open-switch/opx-base-model,OpenSwitch
+open-switch/opx-build,OpenSwitch
+open-switch/opx-common-utils,OpenSwitch
+open-switch/opx-core,OpenSwitch
+open-switch/opx-cps,OpenSwitch
+open-switch/opx-db-sql,OpenSwitch
+open-switch/opx-docs,OpenSwitch
+open-switch/opx-flxSdk,OpenSwitch
+open-switch/opx-flxasicdstub,OpenSwitch
+open-switch/opx-flxconfig,OpenSwitch
+open-switch/opx-flxcps,OpenSwitch
+open-switch/opx-flxinfra,OpenSwitch
+open-switch/opx-flxl2,OpenSwitch
+open-switch/opx-flxl3,OpenSwitch
+open-switch/opx-flxmodels,OpenSwitch
+open-switch/opx-flxreltools,OpenSwitch
+open-switch/opx-flxutils,OpenSwitch
+open-switch/opx-logging,OpenSwitch
+open-switch/opx-manifest,OpenSwitch
+open-switch/opx-mlnx-sdi-sys,OpenSwitch
+open-switch/opx-nas-acl,OpenSwitch
+open-switch/opx-nas-common,OpenSwitch
+open-switch/opx-nas-daemon,OpenSwitch
+open-switch/opx-nas-interface,OpenSwitch
+open-switch/opx-nas-l2,OpenSwitch
+open-switch/opx-nas-l3,OpenSwitch
+open-switch/opx-nas-linux,OpenSwitch
+open-switch/opx-nas-ndi,OpenSwitch
+open-switch/opx-nas-ndi-api,OpenSwitch
+open-switch/opx-nas-ndi-sai-1.0,OpenSwitch
+open-switch/opx-nas-platform-s6000,OpenSwitch
+open-switch/opx-nas-platform-vm,OpenSwitch
+open-switch/opx-nas-qos,OpenSwitch
+open-switch/opx-onie-installer,OpenSwitch
+open-switch/opx-pas,OpenSwitch
+open-switch/opx-platform-config,OpenSwitch
+open-switch/opx-quagga,OpenSwitch
+open-switch/opx-sai-api,OpenSwitch
+open-switch/opx-sai-common,OpenSwitch
+open-switch/opx-sai-common-utils,OpenSwitch
+open-switch/opx-sai-vm,OpenSwitch
+open-switch/opx-sdi-api,OpenSwitch
+open-switch/opx-sdi-device-drivers,OpenSwitch
+open-switch/opx-sdi-framework,OpenSwitch
+open-switch/opx-sdi-sys,OpenSwitch
+open-switch/opx-sdi-sys-vm,OpenSwitch
+open-switch/opx-test,OpenSwitch
+open-switch/opx-tmpctl,OpenSwitch
+open-switch/ovs,OpenSwitch
 openSUSE/kernel,openSUSE Kernel
 openSUSE/kernel-source,openSUSE Kernel source
 openSUSE/open-build-service,Open Build Service
 openSUSE/salt,openSUSE SaltStack
 openSUSE/zypper,Zypper
+opencontainer/go-selinux+runc.io,Open Container
+opencontainers/certification,Open Container
+opencontainers/g-selinux,Open Container
+opencontainers/go-digest,Open Container
+opencontainers/go-selinux,Open Container
+opencontainers/image-spec,Open Container
+opencontainers/image-tools,Open Container
+opencontainers/ocitools,Open Container
+opencontainers/project-template,Open Container
+opencontainers/runc,Open Container
+opencontainers/runc.io,Open Container
+opencontainers/runtime-spec,Open Container
+opencontainers/runtime-tools,Open Container
+opencontainers/selinux,Open Container
+opencontainers/tob,Open Container
+opencontainers/unc.io,Open Container
+opencontainers/web,Open Container
+opencord/cord,CORD
+opendaylight/aaa,OpenDaylight
+opendaylight/alto,OpenDaylight
+opendaylight/atrium,OpenDaylight
+opendaylight/bgpcep,OpenDaylight
+opendaylight/bier,OpenDaylight
+opendaylight/capwap,OpenDaylight
+opendaylight/cardinal,OpenDaylight
+opendaylight/centinel,OpenDaylight
+opendaylight/coe,OpenDaylight
+opendaylight/controller,OpenDaylight
+opendaylight/coretutorials,OpenDaylight
+opendaylight/daexim,OpenDaylight
+opendaylight/didm,OpenDaylight
+opendaylight/dlux,OpenDaylight
+opendaylight/dluxapps,OpenDaylight
+opendaylight/docs,OpenDaylight
+opendaylight/eman,OpenDaylight
+opendaylight/faas,OpenDaylight
+opendaylight/federation,OpenDaylight
+opendaylight/fpc,OpenDaylight
+opendaylight/genius,OpenDaylight
+opendaylight/groupbasedpolicy,OpenDaylight
+opendaylight/honeycomb-vbd,OpenDaylight
+opendaylight/infrautils,OpenDaylight
+opendaylight/integration-distribution,OpenDaylight
+opendaylight/integration-packaging,OpenDaylight
+opendaylight/integration-packaging-ansible-opendaylight,OpenDaylight
+opendaylight/integration-packaging-puppet-opendaylight,OpenDaylight
+opendaylight/integration-test,OpenDaylight
+opendaylight/iotdm,OpenDaylight
+opendaylight/jsonrpc,OpenDaylight
+opendaylight/l2switch,OpenDaylight
+opendaylight/lacp,OpenDaylight
+opendaylight/lispflowmapping,OpenDaylight
+opendaylight/mdsal,OpenDaylight
+opendaylight/messaging4transport,OpenDaylight
+opendaylight/natapp,OpenDaylight
+opendaylight/nemo,OpenDaylight
+opendaylight/netconf,OpenDaylight
+opendaylight/netide,OpenDaylight
+opendaylight/netvirt,OpenDaylight
+opendaylight/neutron,OpenDaylight
+opendaylight/next,OpenDaylight
+opendaylight/nic,OpenDaylight
+opendaylight/ocpplugin,OpenDaylight
+opendaylight/odlparent,OpenDaylight
+opendaylight/of-config,OpenDaylight
+opendaylight/openflowjava,OpenDaylight
+opendaylight/openflowplugin,OpenDaylight
+opendaylight/opflex,OpenDaylight
+opendaylight/ovsdb,OpenDaylight
+opendaylight/p4plugin,OpenDaylight
+opendaylight/packetcable,OpenDaylight
+opendaylight/releng-autorelease,OpenDaylight
+opendaylight/releng-builder,OpenDaylight
+opendaylight/sdninterfaceapp,OpenDaylight
+opendaylight/sfc,OpenDaylight
+opendaylight/snbi,OpenDaylight
+opendaylight/snmp,OpenDaylight
+opendaylight/snmp4sdn,OpenDaylight
+opendaylight/spectrometer,OpenDaylight
+opendaylight/sxp,OpenDaylight
+opendaylight/systemmetrics,OpenDaylight
+opendaylight/tcpmd5,OpenDaylight
+opendaylight/topoprocessing,OpenDaylight
+opendaylight/transportpce,OpenDaylight
+opendaylight/tsdr,OpenDaylight
+opendaylight/ttp,OpenDaylight
+opendaylight/unimgr,OpenDaylight
+opendaylight/usc,OpenDaylight
+opendaylight/usecplugin,OpenDaylight
+opendaylight/vpnservice,OpenDaylight
+opendaylight/vtn,OpenDaylight
+opendaylight/yang-push,OpenDaylight
+opendaylight/yangide,OpenDaylight
+opendaylight/yangtools,OpenDaylight
+openhpc/ohpc,OpenHPC
+openhpc/submissions,OpenHPC
+openmainframeproject/ade,Open Mainframe
+openmainframeproject/atompkg-language-zvm-gml,Open Mainframe
+openmainframeproject/atompkg-language-zvm-names,Open Mainframe
+openmainframeproject/atompkg-language-zvm-rexx,Open Mainframe
+openmainframeproject/immunichain,Open Mainframe
+opennetworkinglab/onos,ONOS
+opensds/arch-wg,OpenSDS
+opensds/community,OpenSDS
+opensds/k8s_nvmeof_poc,OpenSDS
+opensds/nbp,OpenSDS
+opensds/opensds,OpenSDS
+opensds/opensds-api-specs,OpenSDS
+opensds/proposals,OpenSDS
+opensds/sdscontroller_proto,OpenSDS
+opensds/storage-sdk,OpenSDS
+opensds/tsc,OpenSDS
+opensecuritycontroller/community,Open Security Controller
+opensecuritycontroller/opensecuritycontroller.org,Open Security Controller
+opensecuritycontroller/osc-ci-config,Open Security Controller
+opensecuritycontroller/osc-core,Open Security Controller
+opensecuritycontroller/osc-nuage-plugin,Open Security Controller
+opensecuritycontroller/osc-pan-plugin,Open Security Controller
+opensecuritycontroller/sdn-controller-api,Open Security Controller
+opensecuritycontroller/sdn-controller-nsc-plugin,Open Security Controller
+opensecuritycontroller/sdn-controller-nsfc-plugin,Open Security Controller
+opensecuritycontroller/security-mgr-api,Open Security Controller
+opensecuritycontroller/security-mgr-sample-plugin,Open Security Controller
 openstack-charmers/charm-glance-simplestreams-sync,OpenStack Glance
 openstack-charmers/charm-interface-keystone,OpenStack Keystone
 openstack-charmers/charm-interface-keystone-domain-backend,OpenStack Keystone
@@ -1039,9 +1458,87 @@ openstack/third-party-ci-tools,OpenStack Tools
 openstack/tripleo-docs,OpenStack Manuals
 openstack/tripleo-heat-templates,OpenStack Heat
 openstack/xenapi-os-testing,OpenStack API
+openvswitch/of-config,Open vSwitch
+openvswitch/openvswitch.github.io,Open vSwitch
+openvswitch/ovn-kubernetes,Open vSwitch
+openvswitch/ovn-scale-test,Open vSwitch
+openvswitch/ovs,Open vSwitch
+openvswitch/ovs-issues,Open vSwitch
+opnfv/apex,OPNFV
+opnfv/apex-os-net-config,OPNFV
+opnfv/apex-puppet-tripleo,OPNFV
+opnfv/apex-tripleo-heat-templates,OPNFV
+opnfv/armband,OPNFV
+opnfv/availability,OPNFV
+opnfv/barometer,OPNFV
+opnfv/bottlenecks,OPNFV
+opnfv/compass4nfv,OPNFV
+opnfv/copper,OPNFV
+opnfv/cperf,OPNFV
+opnfv/daisy,OPNFV
+opnfv/doctor,OPNFV
+opnfv/domino,OPNFV
+opnfv/dovetail,OPNFV
+opnfv/escalator,OPNFV
+opnfv/fastpathmetrics,OPNFV
+opnfv/fds,OPNFV
+opnfv/fuel,OPNFV
+opnfv/functest,OPNFV
+opnfv/ipv6,OPNFV
+opnfv/joid,OPNFV
+opnfv/kvmfornfv,OPNFV
+opnfv/models,OPNFV
+opnfv/moon,OPNFV
+opnfv/multisite,OPNFV
+opnfv/netready,OPNFV
+opnfv/nfvbench,OPNFV
+opnfv/octopus,OPNFV
+opnfv/onosfw,OPNFV
+opnfv/openretriever,OPNFV
+opnfv/opera,OPNFV
+opnfv/opnfv-ravello-demo,OPNFV
+opnfv/opnfvdocs,OPNFV
+opnfv/orchestra,OPNFV
+opnfv/ovno,OPNFV
+opnfv/ovsnfv,OPNFV
+opnfv/parser,OPNFV
+opnfv/pharos,OPNFV
+opnfv/promise,OPNFV
+opnfv/qtip,OPNFV
+opnfv/releng,OPNFV
+opnfv/releng-anteater,OPNFV
+opnfv/releng-xci,OPNFV
+opnfv/samplevnf,OPNFV
+opnfv/sdnvpn,OPNFV
+opnfv/securityscanning,OPNFV
+opnfv/sfc,OPNFV
+opnfv/storperf,OPNFV
+opnfv/ves,OPNFV
+opnfv/vnf_forwarding_graph,OPNFV
+opnfv/vswitchperf,OPNFV
+opnfv/yardstick,OPNFV
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
 playframework/playframework,Play Framework
+pndaproject/example-applications,PNDA
+pndaproject/gobblin,PNDA
+pndaproject/logstash-codec-pnda-avro,PNDA
+pndaproject/magent,PNDA
+pndaproject/platform-console-backend,PNDA
+pndaproject/platform-console-frontend,PNDA
+pndaproject/platform-data-mgmnt,PNDA
+pndaproject/platform-deployment-manager,PNDA
+pndaproject/platform-libraries,PNDA
+pndaproject/platform-package-repository,PNDA
+pndaproject/platform-salt,PNDA
+pndaproject/platform-testing,PNDA
+pndaproject/platform-tools,PNDA
+pndaproject/pnda,PNDA
+pndaproject/pnda-aws-templates,PNDA
+pndaproject/pnda-dib-elements,PNDA
+pndaproject/pnda-guide,PNDA
+pndaproject/pnda-heat-templates,PNDA
+pndaproject/red-pnda,PNDA
 react-community/create-react-native-app,React
 react-community/react-navigation,React
 react-native-community/react-native-elements,React
@@ -1051,15 +1548,55 @@ realm/realm-cocoa,Realm
 realm/realm-dotnet,Realm
 realm/realm-java,Realm
 realm/realm-js,Realm
+rethinkdb/aspnet-signalr-chat,RethinkDB
+rethinkdb/docs,RethinkDB
+rethinkdb/elasticsearch-river-rethinkdb,RethinkDB
+rethinkdb/example-pubsub,RethinkDB
+rethinkdb/freight,RethinkDB
+rethinkdb/horizon,RethinkDB
+rethinkdb/horizon-docs,RethinkDB
+rethinkdb/logstash-input-rethinkdb,RethinkDB
+rethinkdb/rails-nobrainer-blog,RethinkDB
+rethinkdb/rethinkdb,RethinkDB
+rethinkdb/rethinkdb-dockerfiles,RethinkDB
+rethinkdb/rethinkdb-example-nodejs,RethinkDB
+rethinkdb/rethinkdb-example-nodejs-chat,RethinkDB
+rethinkdb/rethinkdb-nix,RethinkDB
+spdx/license-coverage-grader,SPDX
+spdx/license-list,SPDX
+spdx/license-list-XML,SPDX
+spdx/license-list-data,SPDX
+spdx/license-test-files,SPDX
+spdx/license-test-generator,SPDX
+spdx/license-test-scans,SPDX
+spdx/licensegenplugin,SPDX
+spdx/spdx-github,SPDX
+spdx/spdx-online-tools,SPDX
+spdx/spdx-spec,SPDX
+spdx/tools,SPDX
+spdx/tools-go,SPDX
+spdx/tools-python,SPDX
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture
+todogroup/awesome-oss-mgmt,TODO group
+todogroup/charter,TODO group
+todogroup/gh-issues,TODO group
+todogroup/guidance,TODO group
+todogroup/guides,TODO group
+todogroup/job-descriptions,TODO group
+todogroup/opencodeofconduct,TODO group
+todogroup/policies,TODO group
+todogroup/project-metadata,TODO group
+todogroup/repolinter,TODO group
+todogroup/todogroup.github.io,TODO group
 tootsuite/mastodon,Mastodon
-torvalds/linux,Linux kernel
+torvalds/linux,Linux
 twitter/finagle,Finagle
 twitter/finatra,Finatra
 twitter/heron,Heron
 twitter/scrooge,Scrooge
+uber/jaeger,Jaeger
 vmware/docker-volume-vsphere,VMware vSphere
 vmware/govmomi,VMware SDKs
 vmware/harbor,VMware Harbor
@@ -1113,6 +1650,23 @@ zalando/patroni,Patroni
 zeit/hyper,Hyper
 zeit/hyperterm,Hyper
 zeit/next.js,Next.js
+zephyrproject-rtos/ci-ansible-deployment,Zephyr
+zephyrproject-rtos/ci-dockerfiles,Zephyr
+zephyrproject-rtos/ci-job-configs,Zephyr
+zephyrproject-rtos/ci-management,Zephyr
+zephyrproject-rtos/ci-pipelines,Zephyr
+zephyrproject-rtos/ci-test,Zephyr
+zephyrproject-rtos/docs-theme,Zephyr
+zephyrproject-rtos/heartrate-monitor,Zephyr
+zephyrproject-rtos/infrastructure,Zephyr
+zephyrproject-rtos/meta-zephyr-sdk,Zephyr
+zephyrproject-rtos/net-tools,Zephyr
+zephyrproject-rtos/openocd,Zephyr
+zephyrproject-rtos/project-docs,Zephyr
+zephyrproject-rtos/sdk-ng,Zephyr
+zephyrproject-rtos/zephyr,Zephyr
+zephyrproject-rtos/zephyr-arm,Zephyr
+zephyrproject-rtos/zephyr-testing,Zephyr
 # cloudfoundry-community/admin-ui-boshrelease,BOSH
 # cloudfoundry-community/asp.net5-buildpack,CF Buildpacks
 # cloudfoundry-community/aws-nat-bastion-bosh-cf,BOSH
@@ -1230,3 +1784,4 @@ zeit/next.js,Next.js
 # cloudfoundry/staticfile-buildpack,CF Buildpacks
 # cloudfoundry/uaa,CF UAA Server
 # cloudfoundry/uaa-release,CF UAA Server
+#NAME?,Chromium Blink

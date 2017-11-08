@@ -13,6 +13,7 @@ w3c,=SKIP
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
+Automotive Grade Linux,AGL
 CartoDB,CARTO
 ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
@@ -23,10 +24,16 @@ FreeBSDDesktop,FreeBSD
 FreeBSDFoundation,FreeBSD
 GoogleChrome,Chromium
 IBM-Bluemix,IBM Bluemix
+IO Visor Project,IO Visor
 KSP-CKAN,CKAN
+Linux kernel,Linux
 MarlinFirmware,Marlin
 MobileChromeApps,Chromium
 OfficeDev,Office Developer
+Open API Initiative,Open API
+Open Accessibility (A11y) Group,A11y
+Open Container Initiative,Open Container
+Open Mainframe Project,Open Mainframe
 OpenStack-mobile,OpenStack Mobile
 OpenStackCookbook,OpenStack Cookbook
 OpenStackweb,OpenStack Web
@@ -34,8 +41,10 @@ ParsePlatform,Parse
 Particular,NServiceBus
 Plailect/Guide,3DS Guide
 ResurrectionRemix,Resurrection Remix
+Software Package Data Exchange,SPDX
 TheOdinProject,The Odin Project
 Yoast,Yoast SEO
+Zephyr Project,Zephyr
 acemod,ACE Mod
 akka,Akka
 alibaba,Alibaba
@@ -69,10 +78,12 @@ cloudfoundry-incubator,Cloud Foundry
 cloudfoundry-samples,Cloud Foundry
 cms-sw,CMS Offline Software
 cockroachdb,Cockroach Labs
+codeaurora-unofficial,Code Aurora
 codecombat,CodeCombat
 containernetworking,CNI
 coredns,CoreDNS
 coreos,CoreOS
+cregit/cregit,cregit
 d3athrow/vgstation13,vgstation13
 dart-lang,Dart
 department-of-veterans-affairs,Caseflow
@@ -104,10 +115,11 @@ grpc,gRPC
 grpc-ecosystem,gRPC
 guardian,The Guardian
 home-assistant,Home Assistant
-hyperledger,Hyperledger Project
+hyperledger,Hyperledger
 influxdata,InfluxData
 influxdb,InfluxDB
 iron-io,Iron.io
+jaegertracing,Jaeger
 joomla,Joomla
 jsdelivr,jsDelivr
 keybase,Keybase
@@ -119,6 +131,7 @@ letsencrypt,Let's Encrypt
 linkedin,LinkedIn
 linkerd,Linkerd
 linux-sunxi,Linux sunxi
+lyft,Envoy
 magento,Magento
 mantidproject,Mantid
 mapbox,Mapbox
@@ -137,6 +150,7 @@ nodejs,Node.js
 nylas,Nylas
 odoo,Odoo
 openhab,openHAB
+openmainframeproject,Open Mainframe
 openshift,OpenShift
 openssl,OpenSSL
 openstack-ansible,OpenStack Ansible
@@ -158,6 +172,7 @@ prometheus,Prometheus
 rackt,React
 rails,Ruby on Rails
 rapid7,Rapid7
+rkt,RKT
 rust-lang,Rust
 sakaiproject,Sakai
 saltstack,SaltStack
@@ -175,6 +190,7 @@ tgstation,SS13
 thephpleague,League of Extraordinary Packages
 twitter,Twitter
 uber,Uber Open Source
+uber+jaegertracing,Jaeger
 vgstation-coders,vgstation13
 vmware,VMware
 voidlinux,The Void distribution
@@ -185,6 +201,7 @@ wix,WiX
 wordpress-mobile,WordPress-mobile
 wso2,WSO2
 xbmc,Team Kodi
+xen-project,xen
 yarnpkg,yarn
 yogstation13,Yogstation13
 zalando,Zalando
