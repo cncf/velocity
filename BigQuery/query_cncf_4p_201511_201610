@@ -1,4 +1,4 @@
-s is a query for data that goes into The CNCF chart - last year's worth
+#this is a query for data that goes into The CNCF chart - last year's worth
 select
   org,
   repo,
@@ -23,19 +23,15 @@ select
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from
   (select * from
-    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
+    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2015-11-01'),TIMESTAMP('2016-11-01'))
   )
 where
   (
     org.login in (
-      'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'containerd',
-      'rkt', 'kubernetes-client'/*, 'kubernetes-contrib', 'kubernetes-cluster-automation'*/,
-      'kubernetes-incubator'/*, 'kubernetes-ui'*/, 'coredns', 'grpc-ecosystem', 'containernetworking',
-      'envoyproxy', 'jaegertracing', 'theupdateframework'
+      'kubernetes', 'prometheus', 'opentracing', 'fluent',
+      'kubernetes-incubator'
     )
-    or repo.name in ('docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
-    'GoogleCloudPlatform/kubernetes-workshops', 'envoyproxy/envoy','lyft/envoy', 'uber/jaeger',
-    'docker/notary')
+    or repo.name in ('GoogleCloudPlatform/kubernetes', 'GoogleCloudPlatform/kubernetes-workshops')
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
   and actor.login not like '%bot%'
@@ -50,7 +46,7 @@ where
         actor.login,
         COUNT(*) c
       FROM
-        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-08-01'),TIMESTAMP('2017-11-01'))
+        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-08-01'),TIMESTAMP('2016-11-01'))
       WHERE
         type = 'IssueCommentEvent'
       GROUP BY

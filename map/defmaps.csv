@@ -19,6 +19,8 @@ ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
 ChromiumWebApps,Chromium
 CleverRaven,Cataclysm-DDA
+Cloud Native Computing Foundation,CNCF
+Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
 FreeBSDDesktop,FreeBSD
 FreeBSDFoundation,FreeBSD
@@ -96,6 +98,7 @@ elastic,Elasticsearch
 elasticsearch,Elasticsearch
 elsys,ELSYS
 emberjs,Ember.js
+envoyproxy,Envoy
 ethcore,Parity
 ethereum,Ethereum
 fabric8io,fabric8
@@ -129,7 +132,6 @@ kubernetes-incubator,Kubernetes
 laravel,Laravel
 letsencrypt,Let's Encrypt
 linkedin,LinkedIn
-linkerd,Linkerd
 linux-sunxi,Linux sunxi
 lyft,Envoy
 magento,Magento
@@ -172,7 +174,6 @@ prometheus,Prometheus
 rackt,React
 rails,Ruby on Rails
 rapid7,Rapid7
-rkt,RKT
 rust-lang,Rust
 sakaiproject,Sakai
 saltstack,SaltStack
@@ -214,3 +215,4 @@ zendframework,Zend Framework
 # kubernetes-cluster-automation,Kubernetes
 # kubernetes-contrib,Kubernetes
 # kubernetes-ui,Kubernetes
+#theupdateframework,TUF

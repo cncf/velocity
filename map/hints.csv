@@ -434,28 +434,28 @@ cip-project/cip-kernelci,Civil Infrastructure Platform
 cip-project/kernelci-backend,Civil Infrastructure Platform
 cip-project/kernelci-frontend,Civil Infrastructure Platform
 cip-project/linux-cip,Civil Infrastructure Platform
-cncf/ambassadors,Cloud Native Computing Foundation
-cncf/artwork,Cloud Native Computing Foundation
-cncf/cla,Cloud Native Computing Foundation
-cncf/cluster,Cloud Native Computing Foundation
-cncf/cross-cloud,Cloud Native Computing Foundation
-cncf/curriculum,Cloud Native Computing Foundation
-cncf/demo,Cloud Native Computing Foundation
-cncf/draft-wg-serverless,Cloud Native Computing Foundation
-cncf/foundation,Cloud Native Computing Foundation
-cncf/gha2db,Cloud Native Computing Foundation
-cncf/gha2pg,Cloud Native Computing Foundation
-cncf/gitdm,Cloud Native Computing Foundation
-cncf/k8s-conformance,Cloud Native Computing Foundation
-cncf/landscape,Cloud Native Computing Foundation
-cncf/presentations,Cloud Native Computing Foundation
-cncf/soc,Cloud Native Computing Foundation
-cncf/toc,Cloud Native Computing Foundation
-cncf/velocity,Cloud Native Computing Foundation
-cncf/wg-ci,Cloud Native Computing Foundation
-cncf/wg-networking,Cloud Native Computing Foundation
-cncf/wg-serverless,Cloud Native Computing Foundation
-cncf/wg-storage,Cloud Native Computing Foundation
+cncf/ambassadors,CNCF
+cncf/artwork,CNCF
+cncf/cla,CNCF
+cncf/cluster,CNCF
+cncf/cross-cloud,CNCF
+cncf/curriculum,CNCF
+cncf/demo,CNCF
+cncf/draft-wg-serverless,CNCF
+cncf/foundation,CNCF
+cncf/gha2db,CNCF
+cncf/gha2pg,CNCF
+cncf/gitdm,CNCF
+cncf/k8s-conformance,CNCF
+cncf/landscape,CNCF
+cncf/presentations,CNCF
+cncf/soc,CNCF
+cncf/toc,CNCF
+cncf/velocity,CNCF
+cncf/wg-ci,CNCF
+cncf/wg-networking,CNCF
+cncf/wg-serverless,CNCF
+cncf/wg-storage,CNCF
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x
 codeaurora-unofficial/device-qcom-sepolicy,Code Aurora
@@ -566,14 +566,14 @@ codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qca-wifi-host-cmn,Cod
 codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qcacld-3.0,Code Aurora
 coredns/coredns-grpc,CoreDNS
 coredns/grpc,CoreDNS
-coreinfrastructure/best-practices-badge,Core Infrastructure Initiative
-coreinfrastructure/cii-best-practices-badge,Core Infrastructure Initiative
+coreinfrastructure/best-practices-badge,Core Infrastructure
+coreinfrastructure/cii-best-practices-badge,Core Infrastructure
 coreos/coreos-kubernetes,CoreOS
 coreos/kube-prometheus,CoreOS
 coreos/kubernetes,CoreOS
 coreos/prometheus,CoreOS
 coreos/prometheus-operator,CoreOS
-coreos/rkt,RKT
+coreos/rkt,rkt
 docker/compose,Docker
 docker/containerd,containerd
 docker/distribution,Docker
@@ -583,7 +583,7 @@ docker/docker-py,Docker
 docker/docker.github.io,Docker
 docker/labs,Docker
 docker/libnetwork,Docker
-docker/notary,Docker
+docker/notary,Notary
 docker/swarm,Docker
 docker/swarmkit,Docker
 dotnet/cli,dotnet
@@ -1579,6 +1579,16 @@ spdx/tools-python,SPDX
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture
+theupdateframework/artwork,TUF
+theupdateframework/notary,Notary
+theupdateframework/pep-maximum-security-model,TUF
+theupdateframework/pep-on-pypi-with-tuf,TUF
+theupdateframework/pip,TUF
+theupdateframework/pypi.updateframework.com,TUF
+theupdateframework/specification,TUF
+theupdateframework/taps,TUF
+theupdateframework/theupdateframework.github.io,TUF
+theupdateframework/tuf,TUF
 todogroup/awesome-oss-mgmt,TODO group
 todogroup/charter,TODO group
 todogroup/gh-issues,TODO group

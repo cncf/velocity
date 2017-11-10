@@ -18,7 +18,7 @@ opentracing,opentracing-java+specification+opentracing.io,2760,1844,366,331,219,
 JanusGraph,janusgraph,3401,1968,564,261,608,38,JanusGraph,janusgraph.org
 rkt,rkt,1298,832,212,86,168,35,RKT,github.com/rkt/rkt
 rethinkdb,rethinkdb,2604,1783,198,141,482,32,RethinkDB,www.rethinkdb.com
-cncf,cross-cloud+demo+toc,1769,391,219,991,168,30,Cloud Native Computing Foundation,Cloud Native Computing Foundation
+cncf,cross-cloud+demo+toc,1769,391,219,991,168,30,CNCF,www.cncf.io
 letsencrypt,boulder,4272,1272,1080,1199,721,26,Let's Encrypt,letsencrypt.org
 fossology,fossology,1614,867,280,203,264,19,FOSSology,www.fossology.org
 openhpc,ohpc,3065,436,152,2046,431,18,OpenHPC,openhpc.community
@@ -26,5 +26,5 @@ openvswitch,ovn-kubernetes,649,339,171,83,56,18,Open vSwitch,openvswitch.org
 OpenMAMA,OpenMAMA,459,183,120,89,67,16,OpenMAMA,www.openmama.org
 spdx,license-list-XML+tools,1105,396,313,301,95,15,SPDX,spdx.org
 opensecuritycontroller,osc-core,894,278,292,149,175,10,Open Security Controller,opensecuritycontroller
-coreinfrastructure,best-practices-badge,1127,431,177,379,140,9,Core Infrastructure Initiative,www.coreinfrastructure.org
+coreinfrastructure,best-practices-badge,1127,431,177,379,140,9,Core Infrastructure,www.coreinfrastructure.org
 opensds,opensds,473,113,195,133,32,7,OpenSDS,www.opensds.io

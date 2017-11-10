@@ -74,6 +74,7 @@ Broad Institute,broadinstitute.org
 CARTO,carto.com
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
+CNCF,www.cncf.io
 CNI,github.com/containernetworking
 CORD,opencord.org
 CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
@@ -93,7 +94,6 @@ Civil Infrastructure Platform,www.cip-project.org
 Closure Library,code.google.com/closure/library
 Cloud Foundry,cloudfoundry.org
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
-Cloud Native Computing Foundation,Cloud Native Computing Foundation
 Cloud.gov,github.com/18F/cg-product
 Cockroach Labs,cockroachlabs.com
 Cocos2d-js,cocos2d-x.org
@@ -104,7 +104,7 @@ CodePush,codepush.tools
 Computing for Computer Scientists,c4cs.github.io
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
-Core Infrastructure Initiative,www.coreinfrastructure.org
+Core Infrastructure,www.coreinfrastructure.org
 CoreDNS,coredns.io
 CoreOS,coreos.com
 Corsica,corsica.mozilla.io
@@ -229,7 +229,6 @@ League of Extraordinary Packages,thephpleague.com
 Let's Encrypt,letsencrypt.org
 Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
-Linkerd,linkerd.io
 Linux,kernel.org
 Linux Standard Base,LinuxStandardBase
 Linux sunxi,linux-sunxi.org
@@ -294,6 +293,7 @@ Nextcloud,nextcloud.com
 NixOS,nixos.org
 Node.js,nodejs.org
 Nomad,nomadproject.io
+Notary,theupdateframework/notary
 Nunjucks,mozilla.github.io/nunjucks
 Nylas,nylas.com
 ODPi,www.odpi.org
@@ -380,7 +380,6 @@ Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
 RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
-RKT,github.com/rkt/rkt
 Rapid7,rapid7.com
 React,facebook.com
 ReactXP,microsoft.github.io/reactxp
@@ -427,6 +426,7 @@ Symfony,symfony.com
 TEAMMATES,teammatesv4.appspot.com
 TODO group,todogroup.org
 TSLint,palantir.github.io/tslint
+TUF,theupdateframework.com
 Team Kodi,kodi.tv
 TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
 Telerik,telerik.com
@@ -521,6 +521,7 @@ hzuapps,github.com/hzuapps
 iojs,io.js
 jsDelivr,jsdelivr.com
 libretro,libretro.com
+linkerd,linkerd.io
 lyft,github.com/lyft/envoy
 micro-bit,microbit.co.uk/blocks/editor
 neveragain.tech,neveragain.tech
@@ -532,6 +533,7 @@ openSUSE Kernel source,kernel.opensuse.org
 openSUSE SaltStack,github.com/openSUSE/salts
 osquery,osquery.io
 ownCloud,oowncloud.org
+rkt,github.com/rkt/rkt
 science.mozilla.org,science.mozilla.org
 systemd,freedesktop.org/wiki/Software/systemd
 tock,18f.gsa.gov/2015/05/21/TockingTime
