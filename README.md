@@ -626,12 +626,12 @@ https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/
 
 # CNCF Projects split by Kubernetes VS rest
 For this case, a new set of map files was created:
-- 'k8s_vs_rest_defmaps.csv' - list of orgs found in query
-- 'k8s_vs_rest_urls.csv' - definition of k8s vs rest
-- 'k8s_vs_rest_hints.csv' - list of repos found in query
+- `k8s_vs_rest_defmaps.csv` - list of orgs found in query
+- `k8s_vs_rest_urls.csv` - definition of k8s vs rest
+- `k8s_vs_rest_hints.csv` - list of repos found in query
 Lists of orgs/repos in the map files should contain all values used in any period query.
 
-It should be noted that historically, as CNCF grows, new projects are added. To get data for 2016, a query similar to that in 'BigQuery/query_cncf_4p_201511_201610.sql' should be run and the next year would be span by 'BigQuery/query_cncf_projects_201611_201710.sql'
+It should be noted that historically, as CNCF grows, new projects are added. To get data for 2016, a query similar to that in `BigQuery/query_cncf_4p_201511_201610.sql` should be run and the next year would be span by `BigQuery/query_cncf_projects_201611_201710.sql`
 To prepare an analysis, a command similar to this should be run:
-'ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cncf_k8s_vs_rest_201611_201710.csv map/k8s_vs_rest_hints.csv map/k8s_vs_rest_urls.csv map/k8s_vs_rest_defmaps.csv map/skip.csv map/ranges_unlimited.csv'
+`ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cncf_k8s_vs_rest_201611_201710.csv map/k8s_vs_rest_hints.csv map/k8s_vs_rest_urls.csv map/k8s_vs_rest_defmaps.csv map/skip.csv map/ranges_unlimited.csv`
 
