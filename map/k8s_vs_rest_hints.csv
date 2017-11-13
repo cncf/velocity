@@ -1,0 +1,9 @@
+repo,project
+GoogleCloudPlatform/kubernetes,k8s
+GoogleCloudPlatform/kubernetes-workshops,k8s
+coreos/rkt,rest
+docker/containerd,rest
+docker/notary,rest
+envoyproxy/envoy,rest
+lyft/envoy,rest
+uber/jaeger,rest
