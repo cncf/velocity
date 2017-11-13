@@ -634,7 +634,7 @@ Lists of orgs/repos in the map files should contain all values used in any perio
 
 It should be noted that historically, as CNCF grows, new projects are added. To get data for 2016, a query similar to that in `BigQuery/query_cncf_4p_201511_201610.sql` should be run and the next year would be span by `BigQuery/query_cncf_projects_201611_201710.sql`.
 To prepare an analysis, a command similar to this should be run:
-```<pre>
+<pre>```
 ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cncf_k8s_vs_rest_201611_201710.csv map/k8s_vs_rest_hints.csv map/k8s_vs_rest_urls.csv map/k8s_vs_rest_defmaps.csv map/skip.csv map/ranges_unlimited.csv
-</pre>```
+```</pre>
 
