@@ -17,8 +17,8 @@
 
       var options = {
         title: 'CNCF last vs previous 12 months ending 2017-10; K8s vs rest of projects',
-        hAxis: {title: 'Commits', baseline: 5000, logScale: true, maxValue: 25000, minorGridlines:{count: 2}},
-        vAxis: {title: 'PRs + Issues', baseline: 5000, logScale: true, maxValue: 125000, minorGridlines:{count: 5}},
+        hAxis: {title: 'Commits', baseline: 5000, logScale: true, minValue: 5000, maxValue: 25000, minorGridlines:{count: 5}},
+        vAxis: {title: 'PRs + Issues', baseline: 5000, logScale: true, minValue:5000, maxValue: 125000, minorGridlines:{count: 5}},
         bubble: {textStyle: {fontSize: 11}},
       };
 
