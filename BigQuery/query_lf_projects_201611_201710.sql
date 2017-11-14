@@ -23,7 +23,7 @@ SELECT
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') AS author_name
 FROM 
   (SELECT * from
-    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-10-31'))
+    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
   )
 WHERE
   (
@@ -54,7 +54,7 @@ WHERE
         actor.login,
         COUNT(*) c
       FROM
-        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-10-31'))
+        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
       WHERE
         type = 'IssueCommentEvent'
       GROUP BY
@@ -76,4 +76,3 @@ HAVING
 AND issues > 20
 ORDER BY activity DESC
 ;
-
