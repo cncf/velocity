@@ -1,0 +1,101 @@
+org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors
+apache,apache/incubator-mxnet,89,53,15,4,17,5,"mseeger,Yizhi Liu,(null),Sheng Zha,Przemyslaw Tredak","5f8c07e580881400cf29da843187367aedccd5bb@gmail.com,ef2b22ff76df32a9c875c3d478f093fdff1d38d5@gmail.com,(null),d423c68db5e6382d15a14f69024ccab0278994c8@users.noreply.github.com,17b283681cb24dade98354e1fb644c92de814498@gmail.com"
+apache,apache/trafficserver,74,37,16,10,11,7,"(null),Alan M. Carroll,Leif Hedstrom,Oknet Xu,Miles Libbey,Fei Deng,Syeda Persia Aziz","(null),a23cf355a187739b0ec1d911a8f80bcbffb553b0@apache.org,f8c37b11ae7d70ef094c6ebd72c0dd45d0a9bd99@apache.org,94215f474a3839f2da403e69a06f0103a3713c31@skyguard.com.cn,36386ce5407596660300e685d59d319b288e04a6@apache.org,8270bc0334a79804778b45ec288ba56701deb4f5@gmail.com,c5febd2e5e0f8e7febb2f37996e0b1e95ca09a3e@yahoo.com"
+apache,apache/spark,73,59,14,0,0,1,(null),(null)
+apache,apache/flink,58,51,7,0,0,1,(null),(null)
+apache,apache/royale-asjs,36,11,4,12,9,4,"(null),Harbs,Carlos Rovira,Piotr Zarzycki","(null),80dd5b4b519fe7e48301cdebed32ee0e5ff7e65f@in-tools.com,e4b53958122eb990627cafa548decf784735159f@apache.org,7bd299d40e8e5e042444eed36d7ddfe53d09f99e@gmail.com"
+apache,apache/incubator-superset,32,19,3,1,9,2,"(null),Maxime Beauchemin","(null),4e2dea07932371174fe9c8d4708c2b9ae2e38b53@gmail.com"
+apache,apache/beam,30,26,4,0,0,1,(null),(null)
+apache,apache/carbondata,30,29,1,0,0,1,(null),(null)
+apache,apache/incubator-airflow,26,19,7,0,0,1,(null),(null)
+apache,apache/couchdb,26,7,9,9,1,7,"AlmightyJu,Tony Sun,Jan Lehnardt,garren smith,(null),Joan Touzet,Robert Kowalski","211c4539f31b65e0fb4a04ee3eaff804a437ca7e@arandomworld.co.uk,68f16908f916b86a99aecbac89eecfd115d9b945@gmail.com,3370e0d56f5a398eb474f52ee40b77e0e07f34f2@apache.org,ba883da98b61f69be819a9a7b0330f81d4a340aa@gmail.com,(null),c36de2af7a547caf4fe585b7cb420fd6fc182167@atypical.net,f7aceec4094bef537ad828066f194de24aa679b3@kowalski.gd"
+apache,apache/zeppelin,24,16,8,0,0,1,(null),(null)
+apache,apache/incubator-netbeans,23,12,7,4,0,4,"Jan Lahoda,Borxa Varela Bouzas,Reema Taneja,(null)","102d64515a4c8b2c9ea51ebb13a3f36f29a486cc@netbeans.org,278d464735bde8e39aaa7426a8a4c8826193eb44@varelabouzas.net,7018d9a835992909a87a90b8b4d86fd9d9e59dd4@oracle.com,(null)"
+apache,apache/camel,23,2,2,19,0,3,"Claus Ibsen,(null),Andrea Cosentino","5937ad95c611abd1e31b6849b7962735efe6d269@gmail.com,(null),0746ddbb61bbb73412b416ddaa8020436776f3af@gmail.com"
+apache,apache/incubator-openwhisk,22,14,4,1,3,2,"Vincent,(null)","20493a01438903e5dd565be12b006a22f5b8821b@us.ibm.com,(null)"
+apache,apache/kafka,21,17,4,0,0,1,(null),(null)
+apache,apache/arrow,20,15,2,1,2,2,"(null),Heimir Sverrisson","(null),2e4082bc55864ac15291b1b0f04cbbd241d72d54@gmail.com"
+apache,apache/geode,19,2,6,11,0,4,"Dave Barnes,Darrel Schneider,(null),jinmeiliao","29e7fce3f1f242b0caf4e9505a0dbcbf2ef449f4@pivotal.io,7bcfc1ab5f2daf82fc02702aeb0bd9130d9ebb78@pivotal.io,(null),9a57fca7aa5cc5e1cc5edf8f08318d473f0bbb24@pivotal.io"
+apache,apache/ignite,19,1,18,0,0,1,(null),(null)
+apache,apache/couchdb-fauxton,19,10,8,1,0,2,"(null),garren smith","(null),ba883da98b61f69be819a9a7b0330f81d4a340aa@gmail.com"
+apache,apache/cloudstack,18,17,1,0,0,1,(null),(null)
+apache,apache/bookkeeper,14,7,2,2,3,3,"Ivan Kelly,(null),Jia Zhai","a28a20f281c8780c2e8734549b9a1af30a13d954@apache.org,(null),f9b3ee6d811907feda533a85ea698e15dfe82f6d@apache.org"
+apache,apache/activemq-artemis,13,6,7,0,0,1,(null),(null)
+apache,apache/fluo,12,3,4,3,2,4,"Kenneth McFarland,Keith Turner,(null),Keith Turner","cbc897ab2d8f2aa7b307b4b73fa91116ca843716@gmail.com,95ed57770c3419579a573b8cddf5cb8949f9e4e6@deenlo.com,(null),c121ca0e9c9344d43d5ac344f83f57729d7f4d0c@apache.org"
+apache,apache/couchdb-documentation,12,3,4,5,0,4,"Joan Touzet,(null),Daniel Roberts,Joan Touzet","c36de2af7a547caf4fe585b7cb420fd6fc182167@atypical.net,(null),aabfc4383566809471b1d24a9d729f52ad5f7d68@dimagi.com,dfaa2b5739e7ef6317029cd787c7f93e650e7c67@users.noreply.github.com"
+apache,apache/incubator-pulsar,11,5,4,2,0,3,"Yuki Shiga,(null),jenkins","f71e0092344158dd414ed79ae921f8a15adb97c2@gmail.com,(null),f6f28acba79da8c42f1b422530170817414f92c4@apache.org"
+apache,apache/incubator-trafficcontrol,11,1,6,2,2,2,"(null),Dylan Volz","(null),8dbfd242f36616d469d91308ed3562e1dc82079d@comcast.com"
+apache,apache/drill,11,8,3,0,0,1,(null),(null)
+apache,apache/beam-site,10,3,6,1,0,2,"Henning Rohde,(null)","6f77501b24e1bca0eff62f420af699ec754c2f0d@google.com,(null)"
+apache,apache/cordova-plugin-media,9,4,3,2,0,2,"Julio César,(null)","c6b6a799081d5680d9b45610b053beaf3ee32aae@gmail.com,(null)"
+apache,apache/storm,9,7,2,0,0,1,(null),(null)
+apache-spark-on-k8s,apache-spark-on-k8s/spark,9,3,0,1,5,2,"mcheah,(null)","1108d7d7bc23e9ff182e8f79528ae981388a66bd@palantir.com,(null)"
+apache,apache/apex-malhar,8,6,1,1,0,2,"(null),Thomas Weise","(null),48b340b4b8d3e294ea24a1c3499071d1a075bd3c@apache.org"
+apache,apache/incubator-daffodil,8,5,3,0,0,1,(null),(null)
+apache,apache/libcloud,7,7,0,0,0,1,(null),(null)
+apache,apache/cordova-plugin-media-capture,5,0,4,1,0,2,"(null),Julio César","(null),c6b6a799081d5680d9b45610b053beaf3ee32aae@gmail.com"
+apache,apache/maven-release,5,2,3,0,0,1,(null),(null)
+apache,apache/metamodel,5,5,0,0,0,1,(null),(null)
+apache,apache/tinkerpop,5,3,2,0,0,1,(null),(null)
+apache,apache/incubator-openwhisk-wskdeploy,4,0,1,1,2,2,"Priti Desai,(null)","bebab6d5331b23aaf0d6498503570a44a27a63bc@us.ibm.com,(null)"
+apache,apache/cordova-plugin-camera,4,0,4,0,0,1,(null),(null)
+apache,apache/mahout,4,4,0,0,0,1,(null),(null)
+apache,apache/samza,4,2,2,0,0,1,(null),(null)
+apache,apache/reef,4,2,2,0,0,1,(null),(null)
+apache,apache/airavata-django-portal,4,0,2,2,0,3,"eldhomathulla,Marcus Christie,(null)","7c4e88ddf784066e9138dc9e3df3e6f0cf1c2859@gmail.com,5a7e5477899b55afa5e8aa943e7fff705d9972c7@iu.edu,(null)"
+apache,apache/cordova-plugin-contacts,4,0,3,1,0,2,"(null),Julio César","(null),c6b6a799081d5680d9b45610b053beaf3ee32aae@gmail.com"
+apache,apache/nifi,4,1,3,0,0,1,(null),(null)
+apache,apache/accumulo,4,1,2,1,0,2,"Mike Walch,(null)","03dcdc3612ed2c36d61321d396ec89a83e4d8d7e@apache.org,(null)"
+apache,apache/distributedlog,4,0,2,1,1,2,"(null),Sijie Guo","(null),b145f0fd70c46ca4e90736efcc8fe3a047c41511@apache.org"
+apache,apache/kafka-site,3,2,1,0,0,1,(null),(null)
+apache,apache/struts,3,3,0,0,0,1,(null),(null)
+apache,apache/incubator-weex,3,0,3,0,0,1,(null),(null)
+apache,apache/nifi-minifi-cpp,3,1,2,0,0,1,(null),(null)
+apache,apache/metron,3,1,2,0,0,1,(null),(null)
+apache,apache/sling-org-apache-sling-commons-metrics-rrd4j,3,1,1,1,0,2,"Marcel Reutegger,(null)","d7bdca97e494b9f8fe0a0e4e2fd5628dddfebf6b@adobe.com,(null)"
+apache,apache/mesos,2,1,1,0,0,1,(null),(null)
+apache,apache/nifi-registry,2,1,1,0,0,1,(null),(null)
+apache,apache/incubator-openwhisk-package-alarms,2,0,1,1,0,2,"(null),Adnan Baruni","(null),3a653a01cc79410b20141d2fa6efee9cc0c94945@users.noreply.github.com"
+apache,apache/accumulo-website,2,0,1,1,0,2,"Mark Owens,(null)","6aede5aa407c4ab00d22c1369a21e9ab936294f4@gmail.com,(null)"
+apache,apache/brooklyn-server,2,1,1,0,0,1,(null),(null)
+apache,apache/brooklyn-docs,2,0,2,0,0,1,(null),(null)
+apache,apache/incubator-trafodion,2,2,0,0,0,1,(null),(null)
+apache,apache/incubator-gobblin,2,1,1,0,0,1,(null),(null)
+apache,apache/cordova-coho,2,1,0,1,0,2,"(null),Steve Gill","(null),eeed2460b46d3aa4bba767cbfef15b5661a3567b@gmail.com"
+apache,apache/airavata-sandbox,2,0,1,1,0,2,"(null),dimuthu.upeksha2@gmail.com","(null),1eaa8de3427ccb1f2fc8bdb41f0b4a77c4f0d109@1234"
+apache,apache/incubator-livy,2,0,2,0,0,1,(null),(null)
+apache,apache/thrift,2,2,0,0,0,1,(null),(null)
+apache,apache/cordova-lib,2,1,1,0,0,1,(null),(null)
+apache,apache/orc,2,1,1,0,0,1,(null),(null)
+apache,apache/airavata,2,0,0,2,0,1,Marcus Christie,5584bff83bd19426543396203688b2eb35beb9fb@apache.org
+apache,apache/isis,2,0,0,2,0,1,Dan Haywood,8ba258345e8c7589d20364528ac4964f896605aa@haywood-associates.co.uk
+apache,apache/incubator-openwhisk-package-cloudant,2,0,1,1,0,2,"(null),Jason Peterson","(null),8849f2ba6db7ad40d85097af9f78d9a682a6d662@us.ibm.com"
+apache,apache/cordova-android,2,0,1,1,0,2,"(null),Joe Bowser","(null),e41f68ceb0c983634cace329338d3b17e2f7b47e@apache.org"
+apache,apache/poi,2,1,1,0,0,1,(null),(null)
+apache,apache/madlib,1,0,1,0,0,1,(null),(null)
+apache,apache/brooklyn-library,1,0,1,0,0,1,(null),(null)
+apache,apache/cordova-plugin-file,1,0,1,0,0,1,(null),(null)
+apache,apache/cordova-plugin-wkwebview-engine,1,0,1,0,0,1,(null),(null)
+apache,apache/cordova-node-xcode,1,0,1,0,0,1,(null),(null)
+apache,apache/trafficserver-qa,1,0,1,0,0,1,(null),(null)
+apache,apache/incubator-guacamole-server,1,1,0,0,0,1,(null),(null)
+apache,apache/giraph,1,0,1,0,0,1,(null),(null)
+apache,apache/apex-core,1,1,0,0,0,1,(null),(null)
+apache,apache/mynewt-newtmgr,1,0,1,0,0,1,(null),(null)
+apache,apache/bigtop,1,1,0,0,0,1,(null),(null)
+apache,apache/hadoop,1,0,1,0,0,1,(null),(null)
+apache,apache/incubator-griffin,1,0,1,0,0,1,(null),(null)
+apache,apache/incubator-mxnet-site,1,0,0,1,0,1,Sandeep Krishnamurthy,cecd31524c6c0ab78b325f9483151811ebdfdaf8@gmail.com
+apache,apache/cordova-plugin-geolocation,1,0,1,0,0,1,(null),(null)
+apache,apache/incubator-weex-site,1,0,1,0,0,1,(null),(null)
+apache,apache/royale-website,1,0,0,1,0,1,Carlos Rovira,e4b53958122eb990627cafa548decf784735159f@apache.org
+apache,apache/rocketmq,1,0,1,0,0,1,(null),(null)
+apache,apache/incubator-ariatosca-website,1,0,1,0,0,1,(null),(null)
+apache,apache/accumulo-docker,1,1,0,0,0,1,(null),(null)
+apache,apache/groovy,1,1,0,0,0,1,(null),(null)
+apache,apache/tomcat,1,0,1,0,0,1,(null),(null)
+apache,apache/zookeeper,1,1,0,0,0,1,(null),(null)
+apache,apache/incubator-predictionio,1,0,1,0,0,1,(null),(null)
+apache,apache/royale-compiler,1,0,0,1,0,1,Alex Harui,2f0be09e4ba113ba3bc955696aa9bba822b357d0@apache.org
+apache,apache/nifi-minifi,1,0,1,0,0,1,(null),(null)
+apache,apache/wicket,1,0,1,0,0,1,(null),(null)

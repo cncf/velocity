@@ -1,0 +1,47 @@
+project,key,value
+OpenStack Nova,issues,1200
+OpenStack Glance,issues,100
+OpenStack Ironic,issues,425
+OpenStack Magnum,issues,250
+OpenStack Storlets,issues,6
+OpenStack Zun,issues,280
+OpenStack Swift,issues,200
+OpenStack Cinder,issues,1000
+OpenStack Manila,issues,275
+OpenStack Karbor,issues,120
+OpenStack Freezer,issues,110
+OpenStack Neutron,issues,1050
+OpenStack Designate,issues,60
+OpenStack Dragonflow,issues,180
+OpenStack Kuryr,issues,17
+OpenStack Octavia,issues,0
+OpenStack Tacker,issues,0
+OpenStack Tricircle,issues,45
+OpenStack Trove,issues,170
+OpenStack Sahara,issues,100
+OpenStack Searchlight,issues,10
+OpenStack Keystone,issues,240
+OpenStack Barbican,issues,110
+OpenStack Congress,issues,110
+OpenStack Mistral,issues,240
+OpenStack Horizon,issues,500
+OpenStack Openstack Client (CLI),issues,2
+OpenStack Rally,issues,60
+OpenStack Senlin,issues,140
+OpenStack Vitrage,issues,24
+OpenStack Watcher,issues,125
+OpenStack Cher Openstack,issues,0
+OpenStack Kolla,issues,415
+OpenStack Openstack Charms,issues,285
+OpenStack Openstack-Ansible,issues,0
+OpenStack Puppet Openstack,issues,0
+OpenStack Tripleo,issues,2000
+OpenStack Heat,issues,400
+OpenStack Zaqar,issues,90
+OpenStack Murano,issues,100
+OpenStack Solum,issues,9
+OpenStack Ceilometer,issues,180
+OpenStack Cloudkitty,issues,55
+OpenStack Monasca,issues,0
+OpenStack Aodh,issues,40
+OpenStack Panko,issues,10
