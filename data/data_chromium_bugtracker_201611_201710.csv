@@ -1,0 +1,9 @@
+project,key,value
+#Chromium,issues,73244
+Chromium,issues,60556
+# Without commits_analysis.rb
+# Chromium,authors,1697
+Chromium,authors,1784
+# Without commits_analysis.rb
+# Chromium,commits,79144
+Chromium,commits,75467

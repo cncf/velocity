@@ -22,14 +22,10 @@ select
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from
   (select * from
-    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2018-11-01'),TIMESTAMP('2017-11-01'))
+    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
   )
 where
-  (
-    org.login in (
-      'apache', 'ApacheFriends', 'apache-spark', 'apache-spark-on-k8s', 'apachecloudstack', 'apacheignite'
-    )
-  )
+  org.login = 'openSUSE'
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
   and actor.login not like '%bot%'
   AND actor.login NOT IN (
@@ -40,13 +36,13 @@ where
         actor.login,
         COUNT(*) c
       FROM
-        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-08-01'),TIMESTAMP('2017-11-01'))
+        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-08-01'),TIMESTAMP('2017-11-01'))
       WHERE
         type = 'IssueCommentEvent'
       GROUP BY
         1
       HAVING
-c > 2500
+        c > 2500
       ORDER BY
       2 DESC
     )

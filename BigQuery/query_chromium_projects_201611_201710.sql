@@ -22,15 +22,17 @@ select
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from
   (select * from
-    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2018-11-01'),TIMESTAMP('2017-11-01'))
+    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
   )
 where
   (
     org.login in (
-      'apache', 'ApacheFriends', 'apache-spark', 'apache-spark-on-k8s', 'apachecloudstack', 'apacheignite'
+      'ChromeDevTools', 'ChromeExtensionStore', 'GoogleChrome', 'MobileChromeApps', 'chrome-enhanced-history',
+      'ChromiumWebApps', 'chromium', 'chromiumify'
     )
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
+  /*and actor.login != 'openstack-gerrit'*/
   and actor.login not like '%bot%'
   AND actor.login NOT IN (
     SELECT
@@ -46,7 +48,7 @@ where
       GROUP BY
         1
       HAVING
-c > 2500
+        c > 2500
       ORDER BY
       2 DESC
     )

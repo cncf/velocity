@@ -22,12 +22,14 @@ select
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from
   (select * from
-    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2018-11-01'),TIMESTAMP('2017-11-01'))
+    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
   )
 where
   (
     org.login in (
-      'apache', 'ApacheFriends', 'apache-spark', 'apache-spark-on-k8s', 'apachecloudstack', 'apacheignite'
+      'FreeBSD-UPB', 'FreeBSDDesktop', 'FreeBSDFoundation','FreeBSDRust','FreeBSDWorkingBranch',
+      'FreeBSDonHyper-V','docker-freebsd','freebsd','freebsd-build-toolkit','freebsd-docker',
+      'freebsd-net','freebsd-riscv','go-freebsd'
     )
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
@@ -40,13 +42,13 @@ where
         actor.login,
         COUNT(*) c
       FROM
-        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-08-01'),TIMESTAMP('2017-11-01'))
+        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
       WHERE
         type = 'IssueCommentEvent'
       GROUP BY
         1
       HAVING
-c > 2500
+        c > 2500
       ORDER BY
       2 DESC
     )

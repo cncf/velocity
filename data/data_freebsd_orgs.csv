@@ -1,0 +1,14 @@
+org
+FreeBSD-UPB
+FreeBSDDesktop
+FreeBSDFoundation
+FreeBSDRust
+FreeBSDWorkingBranch
+FreeBSDonHyper-V
+docker-freebsd
+freebsd
+freebsd-build-toolkit
+freebsd-docker
+freebsd-net
+freebsd-riscv
+go-freebsd
