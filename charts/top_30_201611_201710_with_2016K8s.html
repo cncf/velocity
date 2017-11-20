@@ -12,7 +12,7 @@
 ['Linux',61784,131998,'Linux (kernel.org) 3843 authors',62],
 ['Homebrew',18048,27093,'Homebrew (brew.sh) 2375 authors',48.7],
 ['DefinitelyTyped',3730,8038,'DefinitelyTyped (definitelytyped.org) 2154 authors',46.4],
-['Kubernetes',15351,42915,'Kubernetes (kubernetes.io) 2022 authors',45],
+['',0,0,'',23.1],
 ['Chromium',75467,63503,'Chromium (google.com/chrome) 1784 authors',42.2],
 ['React',8313,32929,'React (facebook.com) 1543 authors',39.3],
 ['Docker',8180,19159,'Docker (mobyproject.org) 1346 authors',36.7],
@@ -20,6 +20,7 @@
 ['vuejs',4123,9102,'vuejs (vuejs.org) 1207 authors',34.7],
 ['Cloud Foundry',82488,8320,'Cloud Foundry (cloudfoundry.org) 1144 authors',33.8],
 ['VS Code',20749,40591,'VS Code (code.visualstudio.com) 1131 authors',33.6],
+['K8s in 2016',8872,48522,'Kubernetes (kubernetes.io) 1052 authors',32.4],
 ['NixOS',13795,12258,'NixOS (nixos.org) 1007 authors',31.7],
 ['MicrosoftDocs',8923,2771,'MicrosoftDocs (docs.microsoft.com) 999 authors',31.6],
 ['Elasticsearch',25506,21631,'Elasticsearch (elastic.co/products/elasticsearch) 953 authors',30.9],
@@ -38,17 +39,16 @@
 ['Mapbox',27575,14073,'Mapbox (mapbox.com) 572 authors',23.9],
 ['WiX',19359,6151,'WiX (wixtoolset.org) 559 authors',23.6],
 ['Office Developer',8794,6236,'Office Developer (dev.office.com) 532 authors',23.1],
-['webpack',2224,5047,'webpack (github.com/webpack) 529 authors',23],
-['K8s in 2016',8872,48522,'Kubernetes (kubernetes.io) 1052 authors',32.4] 
     ]);
+
 
       var options = {
         title: 'Top 30 projects velocity and K8s in 2016',
-        hAxis: {title: 'Commits', baseline: 1000, logScale: true, minValue: 1000, maxValue: 125000, minorGridlines:{count: 5}},
+        hAxis: {title: 'Commits', baseline: 2000, logScale: true, minValue: 2000, maxValue: 125000, minorGridlines:{count: 5}},
         vAxis: {title: 'PRs + Issues', baseline: 100, logScale: true, minValue:200, maxValue: 225000, minorGridlines:{count: 5}},
         bubble: {textStyle: {fontSize: 10}},
         legend: {position: 'right',textStyle: {color: 'grey', fontSize: 10}},
-      };
+        };
 
       var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
       chart.draw(data, options);
@@ -59,3 +59,4 @@
     <div id="series_chart_div" style="width: 100%; height: 100%;"></div>
   </body>
 </html>
+

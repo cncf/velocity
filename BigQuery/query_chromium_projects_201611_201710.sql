@@ -34,6 +34,7 @@ where
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
   /*and actor.login != 'openstack-gerrit'*/
   and actor.login not like '%bot%'
+  AND actor.login NOT IN ('codecov-io', 'coveralls')
   AND actor.login NOT IN (
     SELECT
       actor.login

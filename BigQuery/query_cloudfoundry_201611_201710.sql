@@ -21,22 +21,23 @@ SELECT
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.email'), '"', ''), '(null)') as author_email,
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from (
-  select * from 
-	TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01')) 
-)
+  select * from
+    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
+  )
 WHERE
   type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
   AND (type = 'PushEvent' OR (type != 'PushEvent' AND JSON_EXTRACT_SCALAR(payload, '$.action') in ('created', 'opened', 'reopened')))
   AND repo.id not in (
     SELECT INTEGER(JSON_EXTRACT(payload, '$.forkee.id'))
     FROM
-    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
-	WHERE type = 'ForkEvent'
-  )
+      TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
+    WHERE type = 'ForkEvent'
+ )
   AND org.login in ('cloudfoundry', 'cloudfoundry-attic', 'cloudfoundry-community', 'cloudfoundry-incubator', 'cloudfoundry-samples')
   AND LOWER(actor.login) not like '%bot%'
   AND LOWER(actor.login) not like '%cf-%'
-  AND LOWER(actor.login) not in ('pubtools-doc-helper', 'routing-ci', 'runtime-ci', 'cf-buildpacks-eng')
+  AND LOWER(actor.login) not in ('pubtools-doc-helper', 'routing-ci', 'runtime-ci', 'cf-buildpacks-eng', 'coveralls', 'garden-gnome
+', 'flintstonecf')
   AND actor.login NOT IN (
     SELECT
       actor.login
@@ -45,28 +46,29 @@ WHERE
         actor.login,
         COUNT(*) c
       FROM
-      	TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
-	WHERE
+      TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-08-01'),TIMESTAMP('2017-11-01'))
+      WHERE
         type = 'IssueCommentEvent'
       GROUP BY
         1
       HAVING
-        c > 2000
+        c > 2400
       ORDER BY
       2 DESC
     )
   )
-GROUP BY 
+GROUP BY
   org, repo, author_email, author_name
 )
 GROUP BY org, repo
-HAVING 
+HAVING
   authors_alt2 > 0
   and comments > 0
   and prs > 0
   and commits > 0
   and issues > 0
-ORDER BY 
+ORDER BY
   authors_alt2 desc
 LIMIT 1000000
 ;
+

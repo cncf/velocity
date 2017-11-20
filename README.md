@@ -638,3 +638,15 @@ To prepare an analysis, a command similar to this should be run:
 ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cncf_k8s_vs_rest_201611_201710.csv map/k8s_vs_rest_hints.csv map/k8s_vs_rest_urls.csv map/k8s_vs_rest_defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
+# How to find bots to be excluded in queries for project data
+Two queries were created to be run in GoogleBigQuery. One for CloudFoundry, one for Chromium. Take a look at
+`query_cloudfoundry_authors_from_to.sql` 
+The result is in 
+`data_cloudfoundry_authors_201611_201710.csv`
+A bot can be spotted visually in the row where author (github login) is 'coveralls'
+`activity,comments,prs,commits,issues,author
+1246,330,104,700,112,frodenas
+1210,1210,0,0,0,coveralls
+1164,88,58,979,39,genevievelesperance`
+The other authors can be validated to be human by going to address such as https://github.com/frodenas
+
