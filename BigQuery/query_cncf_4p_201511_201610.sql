@@ -29,7 +29,7 @@ where
   (
     org.login in (
       'kubernetes', 'prometheus', 'opentracing', 'fluent',
-      'kubernetes-incubator'
+      'kubernetes-incubator', 'kubernetes-client'
     )
     or repo.name in ('GoogleCloudPlatform/kubernetes', 'GoogleCloudPlatform/kubernetes-workshops')
   )
