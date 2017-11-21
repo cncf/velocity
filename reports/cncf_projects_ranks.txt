@@ -1,25 +1,25 @@
 CNI:
-	#3525 by activity (1878)
-	#1937 by authors (51)
+	#3524 by activity (1878)
+	#1934 by authors (51)
 	#2308 by comments (1162)
-	#14451 by commits (157)
-	#4026 by issues (160)
-	#1786 by prs (399)
+	#14499 by commits (157)
+	#4023 by issues (160)
+	#1787 by prs (399)
 
 CoreDNS:
 	#1265 by activity (4769)
-	#2428 by authors (44)
+	#2425 by authors (44)
 	#1233 by comments (2208)
-	#2392 by commits (1080)
+	#2393 by commits (1080)
 	#998 by issues (591)
-	#678 by prs (890)
+	#679 by prs (890)
 
 Fluentd:
 	#575 by activity (8618)
-	#364 by authors (157)
-	#624 by comments (3862)
-	#838 by commits (2309)
-	#405 by issues (1113)
+	#360 by authors (157)
+	#623 by comments (3862)
+	#837 by commits (2309)
+	#404 by issues (1113)
 	#368 by prs (1334)
 
 Kubernetes:
@@ -31,42 +31,42 @@ Kubernetes:
 	#2 by prs (58975)
 
 OpenTracing:
-	#1622 by activity (3919)
-	#1125 by authors (75)
+	#1621 by activity (3919)
+	#1116 by authors (75)
 	#1063 by comments (2510)
-	#5688 by commits (480)
-	#1895 by issues (346)
-	#1183 by prs (583)
+	#5691 by commits (480)
+	#1893 by issues (346)
+	#1180 by prs (583)
 
 Prometheus:
 	#88 by activity (26660)
-	#52 by authors (423)
+	#51 by authors (423)
 	#77 by comments (15490)
-	#455 by commits (3403)
+	#454 by commits (3403)
 	#47 by issues (3788)
 	#60 by prs (3979)
 
 containerd:
 	#552 by activity (8880)
-	#757 by authors (96)
+	#749 by authors (96)
 	#441 by comments (4993)
-	#2557 by commits (1012)
+	#2556 by commits (1012)
 	#913 by issues (636)
 	#166 by prs (2239)
 
 gRPC:
 	#40 by activity (38526)
-	#75 by authors (369)
+	#74 by authors (369)
 	#44 by comments (20302)
-	#365 by commits (3972)
+	#364 by commits (3972)
 	#27 by issues (5367)
 	#14 by prs (8885)
 
 rkt:
-	#1981 by activity (3374)
-	#1457 by authors (63)
+	#1980 by activity (3374)
+	#1434 by authors (63)
 	#1251 by comments (2168)
-	#10228 by commits (249)
-	#1678 by issues (385)
+	#10248 by commits (249)
+	#1681 by issues (385)
 	#1216 by prs (572)
 

@@ -9,7 +9,7 @@
 
       var data = google.visualization.arrayToDataTable([
         ['ID', 'Commits', 'PRs + Issues', 'Label','Authors'],
-    ['Linux',61784,131998,'Linux (kernel.org) 3843 authors',62],
+	['Linux',61784,131998,'Linux (kernel.org) 3843 authors',62],
 ['Kubernetes',20782,91963,'Kubernetes (kubernetes.io) 2380 authors',48.8],
 ['Homebrew',18048,27093,'Homebrew (brew.sh) 2375 authors',48.7],
 ['DefinitelyTyped',3730,8038,'DefinitelyTyped (definitelytyped.org) 2154 authors',46.4],
@@ -35,17 +35,17 @@
 ['Mozilla',14980,10861,'Mozilla (mozilla.org) 694 authors',26.3],
 ['The Odin Project',3286,2959,'The Odin Project (theodinproject.com) 650 authors',25.5],
 ['gocd',3685,2080,'gocd (www.gocd.org) 637 authors',25.2],
-['hnginterns',8144,225,'hnginterns (hng-intern.herokuapp.com) 612 authors',24.7],
 ['Eclipse',12803,10124,'Eclipse (eclipse.org) 597 authors',24.4],
 ['GitLab',16874,23200,'GitLab (gitlab.com) 580 authors',24.1],
 ['Mapbox',27575,14073,'Mapbox (mapbox.com) 572 authors',23.9],
+['WiX',19359,6151,'WiX (wixtoolset.org) 559 authors',23.6],
 	]);
 
 
       var options = {
         title: 'Top 30 projects velocity and K8s in 2016',
         hAxis: {title: 'Commits', baseline: 2000, logScale: true, minValue: 2000, maxValue: 100000, minorGridlines:{count: 5}},
-        vAxis: {title: 'PRs + Issues', baseline: 100, logScale: true, minValue:200, maxValue: 225000, minorGridlines:{count: 5}},
+        vAxis: {title: 'PRs + Issues', baseline: 500, logScale: true, minValue:500, maxValue: 225000, minorGridlines:{count: 5}},
         bubble: {textStyle: {fontSize: 10}},
         legend: {position: 'right',textStyle: {color: 'grey', fontSize: 10}},
         sizeAxis: {minSize: 12},

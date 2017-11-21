@@ -34,6 +34,7 @@ WHERE
     WHERE type = 'ForkEvent'
   )
   AND LOWER(repo.name) not like '%github%school%'
+  AND LOWER(repo.name) not like '%hnginterns%',
   AND LOWER(actor.login) not like '%bot%'
   AND LOWER(org.login) not in ('necrobotio', 'githubschool', 'freecodecamp')
   AND actor.login != 'tgstation-server'
