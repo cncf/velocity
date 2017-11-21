@@ -644,9 +644,23 @@ Two queries were created to be run in GoogleBigQuery. One for CloudFoundry, one 
 The result is in 
 `data_cloudfoundry_authors_201611_201710.csv`
 A bot can be spotted visually in the row where author (github login) is 'coveralls'
-`activity,comments,prs,commits,issues,author
+```
+activity,comments,prs,commits,issues,author
 1246,330,104,700,112,frodenas
 1210,1210,0,0,0,coveralls
-1164,88,58,979,39,genevievelesperance`
+1164,88,58,979,39,genevievelesperance
+```
 The other authors can be validated to be human by going to address such as https://github.com/frodenas
+
+Another way to identify bots would be by means af a query such as `query_chromium_authors_v2_from_to.sql` which lists names and counts of their commits. A results file such as `data_chromium_authors_v2_201611_2017_10.csv` brings data as follows:
+```
+activity,comments,prs,commits,issues,author_name
+30583,17349,5997,25,7212,(null)
+1549,0,0,1549,0,Matt Gaunt
+857,0,0,857,0,Paul Irish
+... ... ...
+125,0,0,125,0,DevTools Bot
+```
+
+Bots should be excluded from the data queries and future bot hunting queries as to not duplicate efforts.
 

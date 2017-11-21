@@ -6,24 +6,6 @@
       google.charts.setOnLoadCallback(drawSeriesChart);
 
     function drawSeriesChart() {
-//NOTE !!!!!  NOTE !!! value of the authors column is a round (square root of the actual value)
-/* original values were:
-1052
-2380
-423
-369
-157
-102
-96
-75
-63
-61
-51
-44
-39
-34
-24
-*/
       var data = google.visualization.arrayToDataTable([
         ['Label', 'Commits', 'PRs + Issues', 'Project','Authors'],
 	['2016 K8s (1052)',8872,48522,'2016 K8s',32], 
@@ -47,8 +29,9 @@
         title: 'CNCF projects velocity plus 2016 K8s',
         hAxis: {title: 'Commits', baseline: 80, logScale: true, minValue: 5000, maxValue: 26000, minorGridlines:{count: 5}},
         vAxis: {title: 'PRs + Issues', baseline: 300, logScale: true, minValue:5000, maxValue: 135000, minorGridlines:{count: 5}},
-        bubble: {textStyle: {fontSize: 11}},
 	legend: {textStyle: {fontSize: 12, color: 'gray'}},
+	bubble: {textStyle: {fontSize: 12}},
+        sizeAxis: {minSize: 12, maxSize: 40},
       };
 
       var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
