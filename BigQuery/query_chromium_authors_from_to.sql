@@ -15,11 +15,10 @@ select
   actor.login as author
 from  (select * from TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))  )
 where
-  (    org.login in ('cloudfoundry', 'cloudfoundry-attic', 'cloudfoundry-community', 'cloudfoundry-incubator', 'cloudfoundry-samples'))
+  (org.login in ('ChromeDevTools','ChromeExtensionStore','GoogleChrome','MobileChromeApps','chrome-enhanced-history','ChromiumWebApps','chromium','chromiumify'))
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
   and actor.login not like '%bot%'  
-  AND LOWER(actor.login) not like '%cf-%'
-  AND LOWER(actor.login) not in ('pubtools-doc-helper', 'routing-ci', 'runtime-ci', 'cf-buildpacks-eng')
+  AND actor.login NOT IN ('codecov-io', 'coveralls', 'Travis CI')
 group by author
 )
 group by author
