@@ -38,6 +38,7 @@ Azure/azure-iot-sdk-node,Azure SDKs
 Azure/azure-iot-sdk-python,Azure SDKs
 Azure/azure-iot-sdks,Azure SDKs
 Azure/azure-iot-sdks-preview,Azure SDKs
+Azure/azure-quickstart-templates,Azure SDKs
 Azure/azure-sdk-for-go,Azure SDKs
 Azure/azure-sdk-for-java,Azure SDKs
 Azure/azure-sdk-for-media-services,Azure SDKs
@@ -289,6 +290,10 @@ Microsoft/windows-driver-docs,Microsoft docs
 Microsoft/windows-itpro-docs,Microsoft docs
 Microsoft/winsdkfb,VS Code
 Microsoft/xunit-performance,dotnet
+MicrosoftDocs/visualstudio-docs,MicrosoftDocs
+MicrosoftDocs/windows-uwp,MicrosoftDocs
+MicrosoftDocs/windowsserverdocs,MicrosoftDocs
+MicrosoftDocs/winrt-api,MicrosoftDocs
 OAI/Gluecon-Workshop,Open API
 OAI/OpenAPI-Specification,Open API
 OAI/OpenAPI-Style-Guide,Open API
@@ -692,6 +697,7 @@ google/yapf,YAPF
 googleapis/toolkit,Google API
 googlei18n/libphonenumber,Google i18n
 grpc-ecosystem/grpc-opentracing,gRPC
+hacktoberfest17/programming,hacktoberfest17
 hashicorp/consul,Consul
 hashicorp/nomad,Nomad
 hashicorp/terraform,Terraform
@@ -1539,6 +1545,16 @@ pndaproject/pnda-dib-elements,PNDA
 pndaproject/pnda-guide,PNDA
 pndaproject/pnda-heat-templates,PNDA
 pndaproject/red-pnda,PNDA
+python/bedevere,python
+python/core-workflow,python
+python/devguide,python
+python/mypy,python
+python/peps,python
+python/planet,python
+python/pythondotorg,python
+python/the-knights-who-say-ni,python
+python/typeshed,python
+python/typing,python
 react-community/create-react-native-app,React
 react-community/react-navigation,React
 react-native-community/react-native-elements,React

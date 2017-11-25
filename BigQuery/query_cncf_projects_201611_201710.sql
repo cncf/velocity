@@ -1,4 +1,4 @@
-s is a query for data that goes into The CNCF chart - last year's worth
+#this is a query for data that goes into The CNCF chart - last year's worth
 select
   org,
   repo,

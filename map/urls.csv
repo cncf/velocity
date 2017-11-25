@@ -279,6 +279,7 @@ Microsoft UWP,github.com/Microsoft/Windows-universal-samples
 Microsoft Virtualization,github.com/Microsoft/Virtualization-Documentation
 Microsoft docs,docs.microsoft.com
 Microsoft eShopOnContainers,github.com/dotnet-architecture/eShopOnContainers
+MicrosoftDocs,docs.microsoft.com
 Mozilla,mozilla.org
 Mozilla Copyright,changecopyright.org
 Mozilla InvestiGator,mig.mozilla.org
@@ -516,7 +517,10 @@ fabric8,fabric8.io
 fastlane,fastlane.tools
 fossasia,fossasia.org
 gRPC,grpc.io
+gocd,www.gocd.org
 google-gson,github.com/google/gson
+hacktoberfest17,hacktoberfest.digitalocean.com/eventkit
+hnginterns,hng-intern.herokuapp.com
 hzuapps,github.com/hzuapps
 iojs,io.js
 jsDelivr,jsdelivr.com
@@ -533,10 +537,12 @@ openSUSE Kernel source,kernel.opensuse.org
 openSUSE SaltStack,github.com/openSUSE/salts
 osquery,osquery.io
 ownCloud,oowncloud.org
+python,www.python.org
 rkt,github.com/rkt/rkt
 science.mozilla.org,science.mozilla.org
 systemd,freedesktop.org/wiki/Software/systemd
 tock,18f.gsa.gov/2015/05/21/TockingTime
+udacity,udacity.com
 vgstation13,github.com/vgstation-coders/vgstation13
 vuejs,vuejs.org
 webpack,github.com/webpack

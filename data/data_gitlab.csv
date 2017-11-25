@@ -1,3 +1,4 @@
 org,repo,from,to,activity,comments,prs,commits,issues,authors
 gitlab,gitlab/GitLab,2016-05-01,2017-05-01,50000,40000,7336,16291,14430,589
 gitlab,gitlab/GitLab,2016-06-01,2017-06-01,50000,40000,7430,16574,14640,575
+gitlab,gitlab/GitLab,2016-11-01,2017-11-01,50000,40000,7600,16874,15600,580

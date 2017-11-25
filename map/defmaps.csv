@@ -22,8 +22,12 @@ CleverRaven,Cataclysm-DDA
 Cloud Native Computing Foundation,CNCF
 Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
+FreeBSD-UPB,FreeBSD
 FreeBSDDesktop,FreeBSD
 FreeBSDFoundation,FreeBSD
+FreeBSDRust,FreeBSD
+FreeBSDWorkingBranch,FreeBSD
+FreeBSDonHyper-V,FreeBSD
 GoogleChrome,Chromium
 IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
@@ -91,6 +95,7 @@ dart-lang,Dart
 department-of-veterans-affairs,Caseflow
 dmlc,DMLC
 docker,Docker
+docker-freebsd,FreeBSD
 driftyco,Ionic
 e-government-ua,Основной репозиторий
 eclipse,Eclipse
@@ -107,6 +112,7 @@ fluent,Fluentd
 flutter,Flutter
 freebsd,FreeBSD
 freebsd-build-toolkit,FreeBSD
+freebsd-docker,FreeBSD
 freebsd-net,FreeBSD
 freebsd-riscv,FreeBSD
 github,GitHub

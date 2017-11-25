@@ -9,15 +9,16 @@
 
       var data = google.visualization.arrayToDataTable([
         ['ID', 'Commits', 'PRs + Issues', 'Label','Authors'],
-	['2016 K8s (1052)',8872,48522,'2016 K8s',1052], 
-	['2016 rest (527)',6253,8439,'2016 rest',527]
+	['2016 K8s (1052)',8872,48522,'2016 K8s',32.4], 
+	['2016 rest (527)',6253,8439,'2016 rest',23.0]
      ]);
 
       var options = {
         title: 'CNCF last vs previous 12 months ending 2017-10; K8s vs rest of projects',
         hAxis: {title: 'Commits', baseline: 5000, logScale: true, minValue: 5000, maxValue: 25000, minorGridlines:{count: 5}},
         vAxis: {title: 'PRs + Issues', baseline: 5000, logScale: true, minValue:5000, maxValue: 125000, minorGridlines:{count: 5}},
-        bubble: {textStyle: {fontSize: 11}},
+	bubble: {textStyle: {fontSize: 12}},
+        sizeAxis: {minSize: 12, maxSize: 40}
       };
 
       var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
