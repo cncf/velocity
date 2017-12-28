@@ -1,8 +1,6 @@
 ﻿# velocity
 Track development velocity
 
-'*.sql' files in `BigQuery` folder are Google BigQuery queries that produce csv data files to be put in the in `data/` directory for processing
-
 `analysis.rb` is a tool that processes input files (csv files from BigQuery results) and generates final data for Bubble/Motion Google Sheet Chart.
 This tool also uses:
 - a "hints" file with additional mapping: repo name -> project. (N repos --> 1 Project), so a given project name may be listed be in many lines
@@ -10,10 +8,16 @@ This tool also uses:
 - a "default" map file which defines non standard names for projects generated automatically via grouping by org (like aspnet --> ASP.net) or to group multiple orgs and/or repos into a single project. It is the last step of project name mapping
 This tool outputs a data file into the 'projects/' directory
 
+[Guide to the CNCF projects chart creation](docs/cncf_chart_creation.md)
+[Guide to the LinuxFoundation projects chart creation](docs/linuxfoundation_chart_creation.md)
+[Guide to the Top-30 projects chart creation](docs/top30_chart_creation.md)
+
 # Example use:
 `ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv skip.csv ranges.csv`
 
-The Top 30 open source projects process is described in the "Most Up to date process" section.
+The first argument - data file, points to the reqults of running a query designed for Google BigQuery. The query generates a standardized (in terms of velocity) header. The `.sql` files are stored in `BigQuery/` folder
+
+The Top 30 open source projects process is described in the "Most up-to-date process" section.
 
 The CNCF projects process, is described in the "CNCF Projects" section.
 
@@ -140,7 +144,7 @@ This is obviously not a real count of all distinct authors in all periods. Numbe
 
 # Adding non-GitHub projects
 To manually add other projects (like Linux) use `add_linux.sh` or create similar tools for other projects. Data for this tool was generated manually using a custom `gitdm` tool (`github cncf/gitdm`) on `torvalds/linux` repo and via manually counting email addresses in different periods on LKML.
-Example usage (assuming Linux additional data in `data/data_linux.csv), could be: 
+Example usage (assuming Linux additional data in `data/data_linux.csv)`, could be: 
 `ruby add_linux.rb data/data_201603.csv data/data_linux.csv 2016-03-01 2016-04-01`
 
 A larger scope (e.g. GitHub data) file can be injected with such custom script results data (from Gitlab or Linux or External) by the merger script:
@@ -293,7 +297,7 @@ To generate all data for the Top 30 chart: https://docs.google.com/spreadsheets/
 - Fetch all necessary data using BigQuery or use data already fetched present in this repo.
 - If fetched new BigQuery data then re-run the special projects BigQuery analysis scripts: ./shells/: run_apache.sh, run_chrome_chromium.sh, run_cncf.sh, run_openstack.sh
 - To just regenerate all other data: run `./shells/unlimited_both.sh`
-- See per project ranks statistics: `reports/cncf_projects_ranks.txt
+- See per project ranks statistics: `reports/cncf_projects_ranks.txt`
 - Get final output file `projects/unlimited.csv` and import it on the A50 cell in `https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing` chart
 
 
@@ -573,7 +577,7 @@ svn checkout https://svn.freebsd.org/base/head base
 svn checkout https://svn.freebsd.org/doc/head doc
 svn checkout https://svn.freebsd.org/ports/head ports
 ```
-- Use `cncf/gitdm`:freebsd_svn.sh` script to analyse FreeBSD SVN repos:
+- Use `cncf/gitdm/freebsd_svn.sh` script to analyse FreeBSD SVN repos:
 ```
 Revisions:    35927
 Authors:      335
