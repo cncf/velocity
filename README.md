@@ -9,7 +9,9 @@ This tool also uses:
 This tool outputs a data file into the 'projects/' directory
 
 [Guide to the CNCF projects chart creation](docs/cncf_chart_creation.md)
+
 [Guide to the LinuxFoundation projects chart creation](docs/linuxfoundation_chart_creation.md)
+
 [Guide to the Top-30 projects chart creation](docs/top30_chart_creation.md)
 
 # Example use:
