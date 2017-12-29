@@ -19,7 +19,7 @@ This tool outputs a data file into the 'projects/' directory
 
 The first argument - data file, points to the reqults of running a query designed for Google BigQuery. The query generates a standardized (in terms of velocity) header. The `.sql` files are stored in `BigQuery/` folder
 
-The Top 30 open source projects process is described in the "Most up-to-date process" section.
+The Top 30 open source projects process is described in the ["Most up-to-date process"](#latest_process) section.
 
 The CNCF projects process, is described in the "CNCF Projects" section.
 
@@ -293,7 +293,7 @@ ruby merger.rb data/unlimited.csv data/data_your_project_datefrom_date_to.csv
 - Some of the values will be missing (like for example PRs for mirror repos)
 - Now it is time for a non standard path, please see `shells/unlimited_both.sh` for non standar data update that comes after final `ruby analysis.rb` call - this is usually different for each non-standard project
 
-# Most up-to-date process
+# <a id="latest_process"></a>Most up-to-date process
 To generate all data for the Top 30 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
 
 - Fetch all necessary data using BigQuery or use data already fetched present in this repo.
