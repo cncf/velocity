@@ -1,7 +1,7 @@
 ﻿# velocity
 ## Track development velocity
 
-`analysis.rb` is a tool that processes input files (csv files from BigQuery results) and generates final data for Bubble/Motion Google Sheet Chart.
+This tool set processes input files (csv files from BigQuery results) to generate data for Bubble/Motion Google Sheet Chart. The main script is `analysis.rb`
 This tool also uses:
 - a "hints" file with additional mapping: repo name -> project. (N repos --> 1 Project), so a given project name may be listed be in many lines
 - a "urls" file which defines URLs for the listed projects (a separate file is used because otherwise, in hints file we would have to duplicate data for each project ) (1 Project --> 1 URL)
