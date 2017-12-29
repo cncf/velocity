@@ -6,10 +6,10 @@
 ![sample chart](./top30_chart_example.png?raw=true "CNCF projects")
 
 The chart itself can be generated in a google sheet as in https://docs.google.com/spreadsheets/d/14P8bML_jqutv1zzYy588rLSX-GjLy0Cc5aSCBY05CGE/
-or as a stand-alone html page such as [this one: ](../charts/top_30_201611_201710.html)
+or as a [stand-alone html page](../charts/top_30_201611_201710.html)
 
 https://developers.google.com/chart/interactive/docs/gallery/bubblechart has details on google chart api used for it.
-The first option is a copy/paste of resulting data where the second presents more options to the look of the chart.
+The first option is a copy/paste of resulting data where the second presents more options to the look of the chart but data insertion is a little difficult.
 
 
 
