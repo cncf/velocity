@@ -10,9 +10,17 @@ or as a stand-alone [html page](../charts/top_30_201611_201710.html). Details on
 
 #### Chart data
 
+For every project find a github repo and add it to a query such as [this one](../BigQuery/query_lf_projects_201611_201710.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-https://bigquery.cloud.google.com/queries/
+Run the query on https://bigquery.cloud.google.com/queries/
 
+Copy the results to a file.
 
+Run `analysis.rb`
 
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/14P8bML_jqutv1zzYy588rLSX-GjLy0Cc5aSCBY05CGE/)
 
+Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1. <br />
+File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
+
+Select the Chart tab, it will be updated automatically
