@@ -10,9 +10,9 @@ The chart itself can be generated in a [google sheet](https://docs.google.com/sp
 ### Chart data
 Go to this [CNCF page](https://www.cncf.io/projects/) to find a list of current projects.
 
-For every project find a github repo and add it to a query such as [this one](../BigQuery/query_cncf_projects_201611_201710.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
+For every project, find a github repo and add it to a query such as [this one](../BigQuery/query_cncf_projects_201611_201710.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
 
-Run the query on https://bigquery.cloud.google.com/queries/
+Run the query on https://bigquery.cloud.google.com/queries/ in the website's console. It takes about 800 GiB and costs about $4.
 
 Copy the results to a file like 'data/data_cncf_projects_201611_201710.csv'
 
@@ -20,6 +20,7 @@ Run `analysis.rb` with
 ```
 ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cncf_201611_201710.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
+or use `shells/run_cncf.sh` which does the same.
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1JzefTCtG0HsLYdvZ5j49wZ5B6Yt2S2l_t76H1Xpod2I)
 
@@ -28,16 +29,7 @@ File -> Import -> Upload -> in the Import location section, select the radio but
 
 Select the Chart tab, it will be updated automatically
 
-To generate data for CNCF projects:
-- Run `BigGuery/query_cncf_projects.sql` in the Google BigQuery Console. It takes about 800 GiB which costs is about $4.
-- Save output to GoogleSheets and download it as a csv file and save it in `data/data_cncf_projects.csv` (File -> Download As -> Comma separated values ...)
-- Process BigQuery output with velocity's analysis tool: `ruby analysis.rb data/data_cncf_projects.csv projects/projects_cncf.csv map/hints.csv map/urls.csv map/defmaps.csv` or use `shells/run_cncf.sh` which does the same
-- Import output file `projects/projects_cncf.csv` as Google chart's data.
-
-There is also a gist here (but above description is more up to date): https://gist.github.com/lukaszgryglicki/093ced06455a3f14f0e4d25459525207
-
-Links to various charts and videos generated using this project are here: `res/links.txt`
-https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/
+A gist describing this process is at https://gist.github.com/lukaszgryglicki/093ced06455a3f14f0e4d25459525207
 
 ### CNCF Projects split by Kubernetes VS rest
 For this case, a new set of map files was created:
@@ -47,7 +39,7 @@ For this case, a new set of map files was created:
 
 Lists of orgs/repos in the map files should contain all values used in any period query.
 
-It should be noted that historically, as CNCF grows, new projects are added. To get data for 2016, a query similar to that in `BigQuery/query_cncf_4p_201511_201610.sql` should be run and the next year would be span by `BigQuery/query_cncf_projects_201611_201710.sql`.
+It should be noted that historically, as CNCF grows, new projects are added. To get data for 2016, a query similar to that in `BigQuery/query_cncf_4p_201511_201610.sql` should be run and the following year would be span by `BigQuery/query_cncf_projects_201611_201710.sql`.
 To prepare an analysis, a command similar to this should be run:
 ```
 ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cncf_k8s_vs_rest_201611_201710.csv map/k8s_vs_rest_hints.csv map/k8s_vs_rest_urls.csv map/k8s_vs_rest_defmaps.csv map/skip.csv map/ranges_unlimited.csv
