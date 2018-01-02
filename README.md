@@ -23,9 +23,6 @@ This tool outputs a data file into the 'projects/' directory
 - a "skip" file that lists repos and/or orgs and/or projects to be skipped
 - a "ranges" file that contains ranges of repos properties which makes repo included in calculations
 
-The Top 30 open source projects process is described in the ["Most up-to-date process"](#latest_process) section.
-### <a id="latest_process"></a>Most up-to-date process
-
 ### File formats
 `input.csv` data/data_yyyymm.csv from BigQuery, like the following:
 ```
