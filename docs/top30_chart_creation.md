@@ -4,7 +4,7 @@
 
 [Other useful notes](docs/other_notes.md)
 
-## Guide to the CNCF projects chart creation
+## Guide to the Top 30 projects chart creation
 
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./top30_chart_example.png?raw=true "CNCF projects")

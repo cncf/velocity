@@ -143,6 +143,21 @@ Without the summaries file (or if a given project is not in the summaries file),
 This is obviously not a real count of all distinct authors in all periods. Number of authors would be computed if another file is supplied, one which contains summary data for a longer period that is equal to sum of all periods.
 
 
+### Project ranks
+
+Tool to create ranks per project (for all project's numeric properties) `report_projects_ranks.rb` & `shells/report_cncf_project_ranks.sh`
+Shell script projects from `projects/unlimited_both.csv` and uses: `reports/cncf_projects_config.csv` file to get a list of projects that needs to be included in the rank statistics.
+File format is:
+```
+project
+project1
+project2
+...
+projectN
+```
+It outputs a rank statistics file `reports/cncf_projects_ranks.txt`
+
+
 ### More info
 
 [Guide to non-github project processing](docs/non_github_repositories.md)
