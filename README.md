@@ -8,8 +8,8 @@ This tool is being used for periodical chars update as described in the followin
 [Guide to the LinuxFoundation projects chart creation](docs/linuxfoundation_chart_creation.md)<br/>
 [Guide to the Top-30 projects chart creation](docs/top30_chart_creation.md)
 
-[Various charts and videos generated using this project](`res/links.txt`)
-https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/
+https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/ <br/>
+[Links to various charts and videos generated using this project](res/links.txt)
 
 ### Example use:
 `ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv skip.csv ranges.csv`
