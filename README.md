@@ -1,7 +1,7 @@
 ﻿# velocity
 ## Track development velocity
 
-This tool set generates data for Bubble/Motion Google Sheet Chart.<br/>The main script is `analysis.rb`. The input is a csv file created manually from BigQuery results. 
+This tool set generates data for a Bubble/Motion Google Sheet Chart.<br/>The main script is `analysis.rb`. The input is a csv file created from BigQuery results. 
 
 This tool is being used for periodical chars update as described in the following documents:<br/>
 [Guide to the CNCF projects chart creation](docs/cncf_chart_creation.md)<br/>
@@ -15,7 +15,7 @@ https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/ <b
 `ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv skip.csv ranges.csv`
 
 Arguments list:
-- data file, points to the results of running a sql statement designed for Google BigQuery. The query generates a standardized (in terms of velocity) header. The `.sql` files are stored in `BigQuery/` folder
+- data file, points to the results of running an sql statement designed for Google BigQuery. The query generates a standardized (in terms of velocity) header. The `.sql` files are stored in `BigQuery/` folder
 - output file, typically a new file in the `projects/` folder
 - a "hints" file with additional mapping: repo name -> project. (N repos --> 1 Project), so a given project name may be listed be in many lines
 - a "urls" file which defines URLs for the listed projects (a separate file is used because otherwise, in hints file we would have to duplicate data for each project ) (1 Project --> 1 URL)

@@ -1,5 +1,9 @@
 [<- Back to the cncf/velocity README.md file](../README.md)
 
+[Guide to non-github project processing](docs/non_github_repositories.md)
+
+[Other useful notes](docs/other_notes.md)
+
 ## Guide to the CNCF projects chart creation
 
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one

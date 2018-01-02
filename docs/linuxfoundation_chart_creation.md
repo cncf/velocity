@@ -1,5 +1,9 @@
 [<- Back to the cncf/velocity README.md file](../README.md)
 
+[Guide to non-github project processing](docs/non_github_repositories.md)
+
+[Other useful notes](docs/other_notes.md)
+
 ## Guide to the CNCF projects chart creation
 
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
@@ -13,7 +17,7 @@ Go to this [CNCF page](https://www.linuxfoundation.org/projects/) to find a list
 
 For every project find a github repo and add it to a query such as [this one](../BigQuery/query_lf_projects_201611_201710.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
 
-Run the query on https://bigquery.cloud.google.com/queries/
+Run the query on https://bigquery.cloud.google.com/queries/ in the website's console. It takes about 800 GiB and costs about $4.
 
 Copy the results to a file like 'data/data_lf_projects_201611_201710.csv'
 
