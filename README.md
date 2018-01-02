@@ -147,7 +147,7 @@ This is obviously not a real count of all distinct authors in all periods. Numbe
 
 ### More info
 
-[Guide to non-github project processing](docs/non_github_repo.md)
+[Guide to non-github project processing](docs/non_github_repositories.md)
 
 [Other useful notes](docs/other_notes.md)
 
