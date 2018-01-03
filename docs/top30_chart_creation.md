@@ -99,7 +99,7 @@ Do the same for other projects/repos. Re-run the analysis tool untill all is fin
 - Once You have all URL's defined, added new mapping, you may see a preview of the Top projects on while stopped in `binding.pry`, by typing `all`. Now we need to go back to `shells/unlimited_20160601-20170601.sh` and regenerate all non standard data (for projects not on github or requiring special queries on github - for example because of having 0 activity, comments, commits, issues, prs or authors)
 
 - Now Linux case: we need to change this line `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-05-01 2017-05-01` into `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-06-01 2017-06-01` and run it
-- You will see: `Data range not found in data/data_linux.csv: 2016-06-01 - 2017-06-01` that meens you need to add a new data range for Linux in file: `data/data_linux.csv`
+- A message will be shown: `Data range not found in data/data_linux.csv: 2016-06-01 - 2017-06-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
 - Data for linux is here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing` but it doesn have May 2017 (finished yesterday), so we need last month's data.
 - Go to: `https://lkml.org/lkml/2017` and copy May 2017 into linked google spreadsheet: (22110).
 - Add a row for May 2017 to `data/data_linux.csv`: `torvalds,torvalds/linux,2017-05-01,2017-06-01,0,0,0,0,22110` - You will see that now we only have the "emails" column. Other columns must be feteched from the linux kernel repo using the `cncf/gitdm` analysis:

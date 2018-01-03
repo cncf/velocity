@@ -14,7 +14,11 @@ https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/ <b
 ### Example use:
 `ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv skip.csv ranges.csv`
 
-Depending on data, the script will stop execution and present a command line. To continue, type 'quit' and hit enter/return.
+Depending on data, the script will stop execution and present a command line. 
+```
+[1] pry(main)>
+```
+To continue, type 'quit' and hit enter/return.
 
 Arguments list:
 - data file, points to the results of running an sql statement designed for Google BigQuery. The query generates a standardized (in terms of velocity) header. The `.sql` files are stored in `BigQuery/` folder

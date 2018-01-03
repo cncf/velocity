@@ -36,7 +36,7 @@ Top 30 projects January - March 2017 (bubble): https://docs.google.com/spreadshe
 Top 30 projects January - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1MuulhPL_SHia7IQYWfgo4IWvkiLq5EJILtRJ_OvxHxc/edit?usp=sharing
 Top 30 projects January 2015 - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1iYnmNfQYgy5yNE-Lx_uZwR8OcrBIBiZpzOcPnD8Hnek/edit?usp=sharing
 Top 30 projects January 2016 - April 2017 (linux motion): https://docs.google.com/spreadsheets/d/1S-YLoma7-j6koN86gCCy_WwdgQNghk1SFuHuzXcQcnc/edit?usp=sharing
-Top 30 projects January 2016 - April 2017 (linux motion logaritmic): https://docs.google.com/spreadsheets/d/1y8uQ4wrMMd5Ghy8gHjrZ4N8ZpF0DY-ti8V7cQqxwUmE/edit?usp=sharing
+Top 30 projects January 2016 - April 2017 (linux motion logarithmic): https://docs.google.com/spreadsheets/d/1y8uQ4wrMMd5Ghy8gHjrZ4N8ZpF0DY-ti8V7cQqxwUmE/edit?usp=sharing
 Top 30 projects January 2016 - March 2017 (linux motion non-cumulative): https://docs.google.com/spreadsheets/d/1ZgdIuMxxcyt8fo7xI1rMeFNNx9wx0AxS-2a58NlHtGc/edit?usp=sharing
 Top 30 projects January 2015 - March 2017 (linux motion quarters cumulative): https://docs.google.com/spreadsheets/d/1hoL0qcvQ9VaVT9Ek6hQkrlLkHNIR6C2VhiKHaHTnzTw/edit?usp=sharing
 Top 30 projects January 2015 - April 2017 (bubble with linux): https://docs.google.com/spreadsheets/d/11pUbzVmfsn8CeP2tajQUJWATknO_kdOGthjI7wb47PE/edit?usp=sharing
@@ -44,7 +44,7 @@ Top 30 projects January - March 2017 (bubble with Linux): https://docs.google.co
 Top 30 projects January - April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1Wq1YTkc6lCzCODKfNEHbw9JMySetNk-T5twPEk622lU/edit?usp=sharing
 Top 30 projects April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1hiaZ1vfwNSuOPu51ZMC8OM17vFZZzmmFpnrCOMKlDPQ/edit?usp=sharing
 Top 30 projects January 2016 - April 2017 (no linux motion): https://docs.google.com/spreadsheets/d/1LvWbhCKyTwaQFMnLmZsn39lDs_hDRv8XODDqftapvxM/edit?usp=sharing
-Top 30 projects January 2016 - April 2017 (no linux motion logaritmic): https://docs.google.com/spreadsheets/d/1qWxOF8RgQqZ1BnrEoCPbizyHTwavsHDNy-PtUXuDf1E/edit?usp=sharing
+Top 30 projects January 2016 - April 2017 (no linux motion logarithmic): https://docs.google.com/spreadsheets/d/1qWxOF8RgQqZ1BnrEoCPbizyHTwavsHDNy-PtUXuDf1E/edit?usp=sharing
 Top 30 projects January 2016 - March 2017 (no linux motion non-cumulative): https://docs.google.com/spreadsheets/d/1MQ1fwg73EhV-zXrNCJUgHZxY7b_VoO1RF8efNBO88ss/edit?usp=sharing
 Top 30 projects January 2015 - March 2017 (no linux motion quarters cumulative): https://docs.google.com/spreadsheets/d/1IS0D_phB7JtpdUlw9e8kbYMXyIyPQMrDLb_gdvb0Q5g/edit?usp=sharing
 Top 40 on unlimited data returned from BigQ: https://docs.google.com/spreadsheets/d/1miWyW_OvH2AjAaeI8M6ORlSoeILnXfKYVs2acafR0i0/edit?usp=sharing
