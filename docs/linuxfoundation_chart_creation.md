@@ -17,7 +17,7 @@ Go to this [CNCF page](https://www.linuxfoundation.org/projects/) to find a list
 
 For every project, find a github repo and add it to a query such as [this one](../BigQuery/query_lf_projects_201611_201710.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
 
-Run the query on https://bigquery.cloud.google.com/queries/ in the website's console. It takes about 800 GiB and costs about $4.
+Run the query on https://bigquery.cloud.google.com/queries/ in the website's console. It takes about 900GB and costs about $4.50
 
 Copy the results to a file like 'data/data_lf_projects_201611_201710.csv'
 

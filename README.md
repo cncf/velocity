@@ -14,6 +14,8 @@ https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/ <b
 ### Example use:
 `ruby analysis.rb data/data_yyyymm.csv projects/projects_yyyymm.csv map/hints.csv map/urls.csv map/defmaps.csv skip.csv ranges.csv`
 
+Depending on data, the script will stop execution and present a command line. To continue, type 'quit' and hit enter/return.
+
 Arguments list:
 - data file, points to the results of running an sql statement designed for Google BigQuery. The query generates a standardized (in terms of velocity) header. The `.sql` files are stored in `BigQuery/` folder
 - output file, typically a new file in the `projects/` folder
@@ -135,7 +137,7 @@ VS Code,code.visualstudio.com,2016-02,17139,11638,986,1899,2616,133,155621,10438
 VS Code,code.visualstudio.com,2017-04,155621,104386,9501,17650,24084,198,155621,104386,9501,17650,24084,198
 ...
 ```
-Each row contains its label data (separate or cumulative) whereas columns with starting with `max_` conatin cumulative data for all labels.
+Each row contains its label data (separate or cumulative) whereas columns with starting with `max_` contain cumulative data for all labels.
 This is to make the data ready for google sheet motion chart without complex cell indexing.
 
 The final (optional) file `summaries.csv` is used to read the number of authors. This is because the number of authors is computed differently.

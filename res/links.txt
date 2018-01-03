@@ -8,6 +8,7 @@ https://docs.google.com/spreadsheets/d/1bERALoPEavrBcyXuaArAXHg5b2m0v6CEm_RI0KBL
 
 
 # List of all charts:
+CNCF Projects 2017/01 - 2017/12 (bubble): https://docs.google.com/spreadsheets/d/1ywTpzDM6iwC9SnL3PYTMLS43m5BaQoNnqVgzh-9SDXo/edit#gid=0
 CNCF Projects 201609-201708 (bubble): https://docs.google.com/spreadsheets/d/1WcaoUW1qnfE3uutEmCBWoUzItaCwyFhzYQj_r7LaxVU/edit
 CNCF Projects 201610-201709 (bubble): https://docs.google.com/spreadsheets/d/1ZvM0IWYXDjZOVPGOipurmFsQ7celNaac1_scoqa4QxY/edit#gid=0
 CNCF Projects 201611-201710 (bubble): https://docs.google.com/spreadsheets/d/1JzefTCtG0HsLYdvZ5j49wZ5B6Yt2S2l_t76H1Xpod2I/edit#gid=976519966
@@ -17,10 +18,12 @@ CNCF Projects 201704 (bubble): https://docs.google.com/spreadsheets/d/16bz0fGWw3
 
 K8s vs rest of projects https://docs.google.com/spreadsheets/d/1QELfjz0fm_uTPsMYF6e4cPGBDG1ZPRh9cwQLdMtoZa4/edit#gid=1904971627
 
+Linux Foundation Projects 01/2017 - 12/2017 https://docs.google.com/spreadsheets/d/1fZC1bevEtO1NPAyOP2l0p-21zSXk-tAVVZHadXHrNr8/edit#gid=1169691230
 Linux Foundation Projects 11/2016 - 10/2017 https://docs.google.com/spreadsheets/d/1XxsClGbPkzz5aeGZjWh6KvspktzAq9OshL-m-dNRCRY/edit#gid=1169691230
 Linux Foundation Projects 10/2016 - 09/2017 https://docs.google.com/spreadsheets/d/1_DIvQpaPRecRONWeTh5pp3WOgbGcsY4JOPMBisizJqg/edit#gid=1169691230
 Linux Foundation Projects 09/2016 - 08/2017 https://docs.google.com/spreadsheets/d/1_yNtuxK6ydprp9FaWdrJ_ZtJuYWVHz1xhKMjyfmVLEM/edit#gid=1169691230
 
+Top 30 projects 01/2017 - 12/2017 https://docs.google.com/spreadsheets/d/1NarSBqOcpBG-VSIkxSKvzU6_U99R_WZGLkqiR5WlzAc/edit#gid=1169691230
 Top 30 projects 11/2016 - 10/2017 https://docs.google.com/spreadsheets/d/14P8bML_jqutv1zzYy588rLSX-GjLy0Cc5aSCBY05CGE/edit#gid=134798507
 Top 30 projects 10/2016 - 09/2017 https://docs.google.com/spreadsheets/d/13QwuovUaeO1BzS5b8Qy5g9LLF8nmQ3SANqNlsGG_Lwk/edit
 Top 30 projects May 2016 - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1NOvHPEXwYo6oc4YrKRgphC_oy1BqKLSv91kdxkensMg/edit?usp=sharing

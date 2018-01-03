@@ -16,7 +16,7 @@ Go to this [CNCF page](https://www.cncf.io/projects/) to find a list of current 
 
 For every project, find a github repo and add it to a query such as [this one](../BigQuery/query_cncf_projects_201611_201710.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
 
-Run the query on https://bigquery.cloud.google.com/queries/ in the website's console. It takes about 800 GiB and costs about $4.
+Run the query on https://bigquery.cloud.google.com/queries/ in the website's console. It takes about 900GB and costs about $4.50
 
 Copy the results to a file like 'data/data_cncf_projects_201611_201710.csv'
 
@@ -24,7 +24,7 @@ Run `analysis.rb` with
 ```
 ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cncf_201611_201710.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
-or use `shells/run_cncf.sh` which does the same.
+or use `shells/run_cncf.sh` which does the same, just make sure the file names are ok in the script.
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1JzefTCtG0HsLYdvZ5j49wZ5B6Yt2S2l_t76H1Xpod2I)
 
