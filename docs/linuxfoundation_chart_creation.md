@@ -10,7 +10,7 @@
 ![sample chart](./linuxfoundation_chart_example.png?raw=true "CNCF projects")
 
 The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1_DIvQpaPRecRONWeTh5pp3WOgbGcsY4JOPMBisizJqg/)
-or as a stand-alone [html page](../charts/LF_bubble_chart.html). Details on usage of google chart api are [here](https://developers.google.com/chart/interactive/docs/gallery/bubblechart). <br />The first option is a copy/paste of resulting data where the second presents more control to the look of the chart. Refer [here](docs/other_notes.md#auto_bubble) to cteate the html automatically.
+or as a stand-alone [html page](../charts/LF_bubble_chart.html). Details on usage of google chart api are [here](https://developers.google.com/chart/interactive/docs/gallery/bubblechart). <br />The first option is a copy/paste of resulting data where the second presents more control to the look of the chart. Refer [here](other_notes.md#auto_bubble) to cteate the html automatically.
 
 ### Chart data
 Go to this [CNCF page](https://www.linuxfoundation.org/projects/) to find a list of current projects.
