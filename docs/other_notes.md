@@ -111,8 +111,7 @@ activity,comments,prs,commits,issues,author_name
 
 Bots should be excluded from the data queries and future bot hunting queries as to not duplicate efforts.
 
-
-<a id="#auto_bubble"> ### Bubble Chart generator</a>
+### [Bubble Chart generator](#auto_bubble)
 
 Run `ruby chart_creator.rb projects/projects_lf_201701_201712.csv charts/lf_bubble_chart_2017.html 'Linux Foundation in 2017'`
 to generate a bubble chart using google api.
