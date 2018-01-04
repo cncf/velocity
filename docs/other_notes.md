@@ -110,3 +110,16 @@ activity,comments,prs,commits,issues,author_name
 ```
 
 Bots should be excluded from the data queries and future bot hunting queries as to not duplicate efforts.
+
+
+###<a id="#auto_bubble"> Bubble Chart generator</a>
+
+Run `ruby chart_creator.rb projects/projects_lf_201701_201712.csv charts/lf_bubble_chart_2017.html 'Linux Foundation in 2017'`
+to generate a bubble chart using google api.
+
+parameters list:
+first: location of file that is output of 'analysys.rb'
+second: location of bubble chart file to be generated
+third: bubble chart title
+
+The generated file is a stand-alone html page that can be edited to suit needs such as change axis labels, adding a baseline, etc.
