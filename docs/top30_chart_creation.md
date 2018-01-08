@@ -203,6 +203,7 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 - Create and open file `data/webkit_201606_201705.csv` from previous range file; edit and save
 
 
+
 - <b>OpenStack case:</b>
 - Change line `ruby merger.rb data/unlimited.csv data/data_openstack_201605_201704.csv` to `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv`
 - To get `data/data_openstack_201606_201705.csv` file from BigQuery do:
