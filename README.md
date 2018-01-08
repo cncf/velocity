@@ -166,7 +166,7 @@ It outputs a rank statistics file `reports/cncf_projects_ranks.txt`
 
 ### More info
 
-[Guide to non-github project processing](docs/non_github_repositories.md)
+[Guide to non-GitHub project processing](docs/non_github_repositories.md)
 
 [Other useful notes](docs/other_notes.md)
 

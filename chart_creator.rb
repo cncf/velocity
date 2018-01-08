@@ -1,5 +1,6 @@
 require 'csv'
-
+require 'pry'
+binding.pry
 content_top = "<!-- For more on the api used here, see https://developers.google.com/chart/interactive/docs/gallery/bubblechart -->
 <html>
   <head>

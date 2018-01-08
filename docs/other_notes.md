@@ -4,7 +4,7 @@
 
 ### Processing unlimited BigQuery data
 
-This means removing some filtering out of BigQuery and letting Ruby tools perform the task instead.
+This means removing some filtering from BigQuery selects and letting Ruby tools perform the task instead.
 
 To process "unlimited" data from BigQuery output (file `data/unlimited.csv`) , use `shells/unlimited.sh` or `shells/unlimited_both.sh`).
 Unlimited means that BigQuery is not constraining repositories by having commits, comments, issues, PRs, authors > N (this N is 5-50 depending on which metric: authors for example is 5 while comments is 50).
@@ -20,7 +20,7 @@ commits,-1,-1,
 issues,-1,-1,
 authors,-1,-1,
 ```
-It means that mapping must have extremely long list of projects from repos/orgs to get valid non-obfuscated data.
+It means that mapping must have an extremely long list of projects from repos/orgs to get valid non-obfuscated data.
 
 You can skip a ton of organization's small repos (if they do not sum up to just few projects, while they are distinct), with:
 `rauth[res[res.map { |i| i[0] }.index('Google')][0]].select { |i| i.split(',')[1].to_i < 14 }.map { |i| i.split(',')[0] }.join(',')`
@@ -30,42 +30,9 @@ All tiny google repos (distinct small projects) will sum up and make Google over
 The above command generates output list of google repos with 13 authors or less . You can put the results in map/skip.csv" and avoid false positives top 15 for Google overall (which would not be true)
 
 
-### Adding external projects' data
-
-There is also a tool to add data for external projects (not hosted on GitHub): `add_external.rb`.
-It is used by `shells/unlimited.csv` and `shells/unlimited_both.sh`
-Example call:
-`ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2016-05-01 2017-05-01 gitlab gitlab/GitLab`
-It requires a csv file with external repo data.
-It must be defined per date range.
-It has this format (see `data/data_gitlab.csv` for example):
-```
-org,repo,from,to,activity,comments,prs,commits,issues,authors
-gitlab,gitlab/GitLab,2016-05-01,2017-05-01,40000,40000,11595,9479,22821,1500
-
-```
-
-There is also a tool to update generated projects file which in turn is used to import data for charts.
-`update_projects.rb`
-Listed in `shells/unlimited_both.sh`
-It is used to update certain values in given projects
-It processes an input file with the following format:
-```
-project,key,value
-Apache Mesos,issues,7581
-Apache Spark,issues,5465
-Apache Kafka,issues,1496
-Apache Camel,issues,1284
-Apache Flink,issues,2566
-Apache (other),issues,52578
-```
-This allows updating specific keys in specific projects with data taken from sources other than GitHub.
-It is currently being used to update github data with issues statistics from jira (for apache projects).
-
-
 ### Special GitHub projects (like mirrors, backups etc.)
 
-Follow these steps to add a new non-standard project (but from github mirros, allowed are 0s on comments, commits, issues, prs, activity, authors):
+Follow these steps to add a new non-standard project (but from GitHub mirros, allowed are 0s on comments, commits, issues, prs, activity, authors):
 - Copy `BigQuery/org_finder.sql` to clipboard and run this on BigQuery replacing condition for org (for example lower(org.login) like '%your%org%)
 - Examine output org/repos combination (manually on GitHub) and decide about final condition for the final BigQuery run
 - Copy `BigQuery/query_apache_projects.sql` into some `BigQuery/query_your_project.sql` then update conditions to those found in the previous step

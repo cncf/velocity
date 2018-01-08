@@ -59,3 +59,36 @@ Dates: svn log -q -r {2017-05-25}:{2017-05-26} | sed '/^-/ d' | cut -f 3 -d "|"
 
 - GitLab estimation and details here: `res/gitlab_estims.txt`
 - LibreOffice case: see `res/libreoffice_git_repo.txt`
+
+
+### Adding external projects' data
+
+There is also a tool to add data for external projects (not hosted on GitHub): `add_external.rb`.
+It is used by `shells/unlimited.csv` and `shells/unlimited_both.sh`
+Example call:
+`ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2016-05-01 2017-05-01 gitlab gitlab/GitLab`
+It requires a csv file with external repo data.
+It must be defined per date range.
+It has this format (see `data/data_gitlab.csv` for example):
+```
+org,repo,from,to,activity,comments,prs,commits,issues,authors
+gitlab,gitlab/GitLab,2016-05-01,2017-05-01,40000,40000,11595,9479,22821,1500
+
+```
+
+There is also a tool to update generated projects file which in turn is used to import data for charts.
+`update_projects.rb`
+Listed in `shells/unlimited_both.sh`
+It is used to update certain values in given projects
+It processes an input file with the following format:
+```
+project,key,value
+Apache Mesos,issues,7581
+Apache Spark,issues,5465
+Apache Kafka,issues,1496
+Apache Camel,issues,1284
+Apache Flink,issues,2566
+Apache (other),issues,52578
+```
+This allows updating specific keys in specific projects with data taken from sources other than GitHub.
+It is currently being used to update github data with issues statistics from jira (for apache projects).
