@@ -14,7 +14,7 @@ The chart itself can be generated in a [google sheet](https://docs.google.com/sp
 ### Chart data
 Go to this [CNCF page](https://www.cncf.io/projects/) to find a list of current projects.
 
-For every project, find a github repo and add it to a query such as [this one](../BigQuery/query_cncf_projects_201611_201710.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
+For every project, find a github repo and add it to a query such as [this one](BigQuery/query_cncf_projects_201611_201710.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
 
 Run the query on https://bigquery.cloud.google.com/queries/ in the website's console. It takes about 900GB and costs about $4.50
 

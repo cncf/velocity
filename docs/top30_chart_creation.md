@@ -14,7 +14,7 @@ or as a stand-alone [html page](../charts/top_30_201611_201710.html). Details on
 
 ### Chart data
 
-Verify [this query](../BigQuery/query_201611_201710_unlimited.sql) for proper date range. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
+Verify [this query](BigQuery/query_201611_201710_unlimited.sql) for proper date range. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
 Run the query on https://bigquery.cloud.google.com/queries/
 
