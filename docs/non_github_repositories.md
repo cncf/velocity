@@ -1,6 +1,6 @@
 [<- Back to the cncf/velocity README.md file](../README.md)
 
-[Other useful notes](docs/other_notes.md)
+[Other useful notes](other_notes.md)
 
 ### Adding non-GitHub projects
 

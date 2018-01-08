@@ -1,6 +1,6 @@
 [<- Back to the cncf/velocity README.md file](../README.md)
 
-[Guide to non-github project processing](docs/non_github_repositories.md)
+[Guide to non-github project processing](non_github_repositories.md)
 
 ### Processing unlimited BigQuery data
 

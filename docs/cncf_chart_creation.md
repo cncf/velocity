@@ -1,8 +1,8 @@
 [<- Back to the cncf/velocity README.md file](../README.md)
 
-[Guide to non-github project processing](docs/non_github_repositories.md)
+[Guide to non-github project processing](non_github_repositories.md)
 
-[Other useful notes](docs/other_notes.md)
+[Other useful notes](other_notes.md)
 
 ## Guide to the CNCF projects chart creation
 
