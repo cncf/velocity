@@ -207,7 +207,7 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 - Copy to clipboard `pbcopy < BigQuery/query_openstack_projects_201606_201705.sql` and run BigQuery, Save as Table, export to gstorage, and save the results as `data/data_openstack_201606_201705.csv`
 - Run `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv` for a test
 - Now need to update data to get file `data/data_openstack_bugs_201606_201705.csv` (copy file from `data/data_openstack_bugs.csv`)
-- Use thier launchpad to get issues info:
+- Use their launch-pad to get issues count:
 https://wiki.openstack.org/wiki/Bugs
 Specifically go to: `When you find a bug, you should file it against the proper OpenStack project using the corresponding link`
 Click for example "Report a bug in Nova"
@@ -217,8 +217,9 @@ https://bugs.launchpad.net/keystone/+bugs?field.searchtext=&search=Search&field.
 You will replace "keystone" with projects names like: nova, glance, swift, horizon etc.
 After each replace, click "Age" to sort the created desc. Note how many issues discard from first page (as too new) or next pages.
 Then manipulate the "memo" parameter (end of URL) to get a starting value. And choose such value when start date is within. Count issues using memo + #isse which is out - numbe rof issues from 1st (or more) pages which come after.
-Estimate for all 12 OpenStack projects.<br/><br/>Example for Murano:
-https://bugs.launchpad.net/murano/+bugs?field.searchtext=&search=Search&field.status%3Alist=NEW&field.status%3Alist=OPINION&field.status%3Alist=INVALID&field.status%3Alist=WONTFIX&field.status%3Alist=EXPIRED&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=FIXRELEASED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&orderby=-datecreated&memo=425&start=350&direction=backwards
+The url may not e exact as to what you need, Click the gear image just above the first listed bug, select only id and age, hit search. Now you can sort by Age. If page says not found, chances are your start is out of range so start from 0
+Estimate for all OpenStack projects (currently 46). Url for Searchlight:
+https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&field.status%3Alist=NEW&field.status%3Alist=OPINION&field.status%3Alist=INVALID&field.status%3Alist=WONTFIX&field.status%3Alist=EXPIRED&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=FIXRELEASED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&orderby=-datecreated&start=0
 - The final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201606_201705.csv -1`
 
 - <b>Apache case:</b>
