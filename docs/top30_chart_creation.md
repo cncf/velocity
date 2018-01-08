@@ -106,6 +106,7 @@ Do the same for other projects/repos. Re-run the analysis tool untill all is fin
 - For example, after defining some new projects we see "EPFL-SV-cpp-projects" in the top 50. This is an educational org that should be skipped. Add it to `map/skip.csv` for skipping row: `EPFL-SV-cpp-projects,,`
 - Once You have all URL's defined, added new mapping, you may see a preview of the Top projects on while stopped in `binding.pry`, by typing `all`. Now we need to go back to `shells/unlimited_20160601-20170601.sh` and regenerate all non standard data (for projects not on github or requiring special queries on github - for example because of having 0 activity, comments, commits, issues, prs or authors)
 
+
 - <b>Linux case:</b> we need to change this line `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-05-01 2017-05-01` into `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-06-01 2017-06-01` and run it
 - A message will be shown: `Data range not found in data/data_linux.csv: 2016-06-01 - 2017-06-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
 - Data for linux is here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing` but it doesn have May 2017, so we need last month's data.
@@ -149,6 +150,7 @@ Merge Requests: 371,5 pages * 20 = 7430
 - To count authors run in gitlab-ce directory: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 575
 - To count authors run in gitlab-ce directory: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 589
 - Now, that we have the data, it needs to be added to `data/data_gitlab.csv` with a matching date range
+
 
 - <b>Cloud Foundry case:</b>
 - Copy: `BigQuery/query_cloudfoundry_201605_201704.sql` to `BigQuery/query_cloudfoundry_201606_201705.sql` and update conditions. Then run query in the BigQuery console (see details at the beginning of example)
@@ -200,6 +202,7 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 - Activity = sum of all others (comments, commits, issues, prs)
 - Create and open file `data/webkit_201606_201705.csv` from previous range file; edit and save
 
+
 - <b>OpenStack case:</b>
 - Change line `ruby merger.rb data/unlimited.csv data/data_openstack_201605_201704.csv` to `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv`
 - To get `data/data_openstack_201606_201705.csv` file from BigQuery do:
@@ -220,6 +223,7 @@ Then manipulate the "memo" parameter (end of URL) to get a starting value. And c
 Estimate for all 12 OpenStack projects.<br/><br/>Example for Murano:
 https://bugs.launchpad.net/murano/+bugs?field.searchtext=&search=Search&field.status%3Alist=NEW&field.status%3Alist=OPINION&field.status%3Alist=INVALID&field.status%3Alist=WONTFIX&field.status%3Alist=EXPIRED&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=FIXRELEASED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&orderby=-datecreated&memo=425&start=350&direction=backwards
 - The final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201606_201705.csv -1`
+
 
 - <b>Apache case:</b>
 - Exactly the same BigQuery steps as in the OpenStack example,. The final line should be `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
@@ -268,6 +272,7 @@ Tool will say something like this: "After filtering: authors: 1637, commits: 671
 - openSUSE case
 - BigQuery part exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
 
+
 - <b>AGL (automotive Grade Linux) case:</b>
 - Go to: https://wiki.automotivelinux.org/agl-distro/source-code and get source code somewhere:
 - `mkdir agl; cd agl`
@@ -309,6 +314,7 @@ Found 7223 matching issues.
 ```
 Update `data/data_libreoffice_git_201606_201705.csv` accordingly.
 - Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201606_201705.csv -1`
+
 
 - <b>FreeBSD case:</b>
 - Use BigQuery/org_finder.sql (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
