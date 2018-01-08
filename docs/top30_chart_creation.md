@@ -14,25 +14,7 @@ or as a stand-alone [html page](../charts/top_30_201611_201710.html). Details on
 
 ### Chart data
 
-Verify [this query](BigQuery/query_201611_201710_unlimited.sql) for proper date range. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
-
-Run the query on https://bigquery.cloud.google.com/queries/
-
-Copy the results to a file like 'data/unlimited_output_201611_201710.csv'
-
-Run `analysis.rb` with
-```
-ruby analysis.rb data/unlimited_output_201611_201710.csv projects/projects_cncf_201611_201710.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
-```
-
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/14P8bML_jqutv1zzYy588rLSX-GjLy0Cc5aSCBY05CGE/)
-
-Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1. <br />
-File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
-
-Select the Chart tab, it will be updated automatically
-
-
+#### In short
 To generate all data for the Top 30 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
 
 - Fetch all necessary data using BigQuery or use data already fetched present in this repo.
@@ -42,8 +24,30 @@ To generate all data for the Top 30 chart: https://docs.google.com/spreadsheets/
 - Get final output file `projects/unlimited.csv` and import it on the A50 cell in `https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing` chart
 
 
-### Example - generate chart for a new date range
-We already have `shells/unlimited_both.sh` that generates our chart for 2016-05-01 to 2017-05-01. We want to generate the chart for a new date range: 2016-06-01 to 2017-06-01.
+#### In detail
+Verify [this query](BigQuery/query_201611_201710_unlimited.sql) for proper date range. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
+
+Run the query on https://bigquery.cloud.google.com/queries/
+
+Copy the results to a file like 'data/unlimited_output_201611_201710.csv'. To do this, first Save as Table, then select the table in your google dataset. Next, export it as csv to gs://[BUCKET_NAME]/[FILENAME.CSV], where [BUCKET_NAME] is your Cloud Storage bucket name, and [FILENAME.CSV] is the name of your destination file. Then find the file in https://console.cloud.google.com/storage/browser/ and download it (file size is about 70MB). 
+
+Run `analysis.rb` with
+```
+ruby analysis.rb data/unlimited_output_201611_201710.csv projects/top30_201611_201710.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
+```
+
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/14P8bML_jqutv1zzYy588rLSX-GjLy0Cc5aSCBY05CGE/)
+
+Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1. <br />
+File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
+
+Select the Chart tab, it will be updated automatically
+
+The chart now only contains GitHub-hosted projects and for Linux Foundation purposes, is not complete. To do that, follow the next section to the end.
+
+
+### Example - new date range chart data preparation
+Existing script `shells/unlimited_both.sh` generates our chart data for 2016-05-01 to 2017-05-01. We want to generate the chart for a new date range: 2016-06-01 to 2017-06-01.
 This is a step by step tutorial on how to do it.
 - Copy `shells/unlimited_both.sh` to `shells/unlimited_20160601-20170601.sh`
 - Keep `shells/unlimited_20160601-20170601.sh` opened in some other terminal window `vi shells/unlimited_20160601-20170601.sh` and we need to update all steps
