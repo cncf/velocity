@@ -43,15 +43,14 @@ File -> Import -> Upload -> in the Import location section, select the radio but
 
 Select the Chart tab, it will be updated automatically
 
-The chart now only contains GitHub-hosted projects and for Linux Foundation purposes, is not complete. To do that, follow the next section to the end.
+The chart now only contains GitHub-hosted projects and for Linux Foundation purposes, is not complete. For one, it misses the Linux Kernerl project. To complete the chart data, follow the next section to the end.
 
 
-### Example - new date range chart data preparation
-Existing script `shells/unlimited_both.sh` generates our chart data for 2016-05-01 to 2017-05-01. We want to generate the chart for a new date range: 2016-06-01 to 2017-06-01.
-This is a step by step tutorial on how to do it.
+### Example - Top 30 chart data preparation for a new date range
+Existing script `shells/unlimited_both.sh` generates our chart data for 2016-05-01 to 2017-05-01. Let's assume we want to generate the chart for a new date range: 2016-06-01 to 2017-06-01. <br/>This is a step-by-step tutorial on how to accomplish that.
 - Copy `shells/unlimited_both.sh` to `shells/unlimited_20160601-20170601.sh`
-- Keep `shells/unlimited_20160601-20170601.sh` opened in some other terminal window `vi shells/unlimited_20160601-20170601.sh` and we need to update all steps
-- First we need unlimited BigQuery output for a new date range:
+- Keep `shells/unlimited_20160601-20170601.sh` opened in some other terminal window `vi shells/unlimited_20160601-20170601.sh` as we need to update all steps
+- First, we need unlimited BigQuery output for a new date range:
 ```
 echo "Restoring BigQuery output"
 cp data/unlimited_output_201605_201704.csv data/unlimited.csv
@@ -59,23 +58,28 @@ cp data/unlimited_output_201605_201704.csv data/unlimited.csv
 - We need the `data/unlimited_output_201606_201705.csv` file. To generate this one, we need to run BigQuery for the new date range.
 - Open the sql file that generated the current range's data: `vi BigQuery/query_201605_201704_unlimited.sql`
 - Save as `BigQuery/query_201606_201705_unlimited.sql` after changing the date ranges in SQL.
-- Copy to clipboard `pbcopy < BigQuery/query_201606_201705_unlimited.sql` and run in Google BigQuery: `https://bigquery.cloud.google.com/queries/<<your_google_project_name>>`
-- Save result to a table `<<your_google_user_name>>:unlimited_201606_201705`, it takes about 1TB and costs about $5 "Save as table"
+- Copy to clipboard `pbcopy < BigQuery/query_201606_201705_unlimited.sql` and run in Google BigQuery: `https://bigquery.cloud.google.com/queries/<<your_google_project_name>>`, it takes about 1TB and costs about $5
+- Save result to a table `<<your_google_user_name>>:unlimited_201606_201705` "Save as table"
 - Open this table `<<your_google_user_name>>:unlimited_201606_201705` and click "Export Table" to export it to google storage as: `gs://<<your_google_user_name>>/unlimited_201606_201705.csv` (You may click "View files" to see files in your gstorage)
 - Go to google storage and download `<<your_google_user_name>>/unlimited_201606_201705.csv` and put it where `shells/unlimited_20160601-20170601.sh` expects it (update the file name to `data/unlimited_output_201606_201705.csv`): 
 ```
 echo "Restoring BigQuery output"
 cp data/unlimited_output_201606_201705.csv data/unlimited.csv
 ```
-- So we have main data (step 1) ready for the new chart Now we need to get data for all non-standard projects. You can try our analysis tool without any special projects by running:
+- So we have main data (step 1) ready for the new chart. Now we need to get data for all non-standard projects. You can try our analysis tool without any special projects by running:
 `ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
-- There can be some new projects that are unknown, ranks can chage during this step, so there can be manual changes needed to mappings in `map/` directory: `hints.csv`, `defmaps.csv` and `urls.csv`. Possibly also in `skip.csv` (if there are new projects that should be skipped)
+- It is possible that there will be some new projects that are unknown. Ranks can change during this step, so there can be manual changes needed to mappings in `map/` directory: `hints.csv`, `defmaps.csv` and `urls.csv`. Possibly also in `skip.csv` (if there are new projects that should be skipped)
 - This is what came out on the 1st run:
 ```
 Project #23 (org, 457) skillcrush (skillcrush) (skillcrush-104) have no URL defined
 Project #45 (org, 366) pivotal-cf (pivotal-cf) (...) have no URL defined
 Project #50 (org, 353) Automattic (Automattic) (...) have no URL defined
 ```
+
+In case you got lost, run these in the velocity root folder:
+`cp data/unlimited_output_201606_201705.csv data/unlimited.csv`
+`ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
+
 - Let's see which top authors projects for those non-found projects are: `rauth[res[res.map { |i| i[0] }.index('Automattic')][0]]`
 - Then we must add entries for few top ones in `map/hints.csv` say with >= 20 authors:
 ```
@@ -97,20 +101,20 @@ map/hints.csv:29:Automattic/wp-calypso,WP Calypso
 map/hints.csv:30:Automattic/wp-e2e-tests,WP Calypso
 map/urls.csv:438:WP Calypso,developer.wordpress.com/calypso
 ```
-Just add a new repo mapping row for this project (`map/hints.csv`): `Automattic/amp-wp,WP Calypso`
+Just add a new repo mapping row for this project in `map/hints.csv`: `Automattic/amp-wp,WP Calypso`
 Do the same for other projects/repos. Re-run the analysis tool untill all is fine.
 - For example, after defining some new projects we see "EPFL-SV-cpp-projects" in the top 50. This is an educational org that should be skipped. Add it to `map/skip.csv` for skipping row: `EPFL-SV-cpp-projects,,`
 - Once You have all URL's defined, added new mapping, you may see a preview of the Top projects on while stopped in `binding.pry`, by typing `all`. Now we need to go back to `shells/unlimited_20160601-20170601.sh` and regenerate all non standard data (for projects not on github or requiring special queries on github - for example because of having 0 activity, comments, commits, issues, prs or authors)
 
-- Now Linux case: we need to change this line `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-05-01 2017-05-01` into `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-06-01 2017-06-01` and run it
+- <b>Linux</b> case: we need to change this line `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-05-01 2017-05-01` into `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-06-01 2017-06-01` and run it
 - A message will be shown: `Data range not found in data/data_linux.csv: 2016-06-01 - 2017-06-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
-- Data for linux is here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing` but it doesn have May 2017 (finished yesterday), so we need last month's data.
+- Data for linux is here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing` but it doesn have May 2017, so we need last month's data.
 - Go to: `https://lkml.org/lkml/2017` and copy May 2017 into linked google spreadsheet: (22110).
 - Add a row for May 2017 to `data/data_linux.csv`: `torvalds,torvalds/linux,2017-05-01,2017-06-01,0,0,0,0,22110` - You will see that now we only have the "emails" column. Other columns must be feteched from the linux kernel repo using the `cncf/gitdm` analysis:
 - You can also sum up the issues from the sheet to get 2016-06-01 - 2017-06-01: (254893): `torvalds,torvalds/linux,2016-06-01,2017-06-01,0,0,0,0,254893`
 - Now `cncf/gitdm` on linux kernel repo: `cd ~/dev/linux && git checkout master && git reset --hard && git pull`. An alternative to it (if you don't have the linux repo cloned) is: `cd ~/dev/`, `git clone https://github.com/torvalds/linux.git`.
 - Go to `cncf/gitdm`: `cd ~/dev/cncf/gitdm`, run: `./linux_range.sh 2017-05-01 2017-06-01`
-- While on `cncf/gitdm`, see: `vim linux_stats/range_2017-05-01_2017-06-01.txt`:
+- While on `cncf/gitdm`, do: `vim linux_stats/range_2017-05-01_2017-06-01.txt`:
 ```
 Processed 1219 csets from 424 developers
 34 employers found
@@ -129,8 +133,8 @@ torvalds,torvalds/linux,2017-05-01,2017-06-01,1219,24970,14469,424,22110
 torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,254893
 ```
 
-- GitLab case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
-- Their repo hosted by GitHub is: `https://github.com/gitlabhq/gitlabhq`, clone it via `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory.
+- <b>GitLab</b> case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory. If already exists, update with `cd gitlab-ce`, `git pull`
+- Their repo hosted by GitHub is: `https://github.com/gitlabhq/gitlabhq`, clone it via `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory. If already exists, update with `cd gitlab-ce`, `git pull`. This repo seems not to be used much so we will skip it.
 - Go to `cncf/gitdm` and run GitLab repo analysis: `./repo_in_range.sh ~/dev/gitlab-ce/ gitlab 2016-06-01 2017-06-01`
 - Results are output to `other_repos/gitlab_2016-06-01_2017-06-01.txt`:
 ```
@@ -140,14 +144,15 @@ A total of 926818 lines added, 548205 removed (delta 378613)
 ```
 - Their bug tracker is `https://gitlab.com/gitlab-org/gitlab-ce/issues`, just count issues in the given date range. Sort by "Last created" and count issues in given range:
 There are 732 pages of issues (20 per page) = 14640 issues (`https://gitlab.com/gitlab-org/gitlab-ce/issues?page=732&scope=all&sort=created_desc&state=all`)
-- To count Merge Requests (PRs): `https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?scope=all&state=all`
+- To count Merge Requests (PRs): `https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?page=14&scope=all&sort=created_date&state=all`
 Merge Requests: 371,5 pages * 20 = 7430
 - To count authors run in gitlab-ce directory: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 575
 - To count authors run in gitlab-ce directory: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 589
+- Now, that we have the data, it needs to be added to `data/data_gitlab.csv` with a matching date range
 
-- Cloud Foundry case:
+- <b>Cloud Foundry</b> case:
 - Copy: `BigQuery/query_cloudfoundry_201605_201704.sql` to `BigQuery/query_cloudfoundry_201606_201705.sql` and update conditions. Then run query in the BigQuery console (see details at the beginning of example)
-- Finally, you will have `data/data_cloudfoundry_201606_201705.csv` (run query, save results to table, export table to gstorage, download csv from gstorage).
+- Finally, you will have `data/data_cloudfoundry_201606_201705.csv` (run query, download as csv or save results to table, export table to google storage, download as csv).
 - Update (and eventually manually run) the CF case (in `shells/unlimited_20160601-20170701.sh`): `ruby merger.rb data/unlimited.csv data/data_cloudfoundry_201606_201705.csv force`
 
 - CNCF Projects case
@@ -157,7 +162,7 @@ Merge Requests: 371,5 pages * 20 = 7430
 - Final line should be (try it): `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
 
 - WebKit case
-- Change merger line to `ruby merger.rb data/unlimited.csv data/webkit_201606_201705.csv`
+- Change the sh merger line to `ruby merger.rb data/unlimited.csv data/webkit_201606_201705.csv`
 - WebKit has no usable data on GitHub, so running BigQuery is not needed, we no longer need those lines for WebKit (we will just update `data/webkit_201606_201705.csv` file), remove them from current shell `shells/unlimited_20160601-20170601.sh`:
 ```
 echo "Updating WebKit project using gitdm and other"
@@ -168,18 +173,19 @@ ruby update_projects.rb projects/unlimited_both.csv data/data_webkit_gitdm_and_o
 Go to: https://webkit.org/reporting-bugs/
 Search all bugs in webkit, order by modified desc - will be truncated to 10,000.
 https://bugs.webkit.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&limit=0&order=changeddate%20DESC%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&product=WebKit&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=LATER&resolution=REMIND&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&resolution=CONFIGURATION%20CHANGED
+Click the ID column. Open the first issue in a new tab and the last issue in the current tab. Bugs have a Reported date
 2016-12-13 --> 2017-06-01 = 9988 issues:
 ruby> Date.parse('2017-06-01') - Date.parse('2016-12-13') => (170/1), (9988.0 * 365.0/170.0) --> 21444 issues
 See how many days makes 10k, and estimate for 365 days (1 year): gives 22k bugs/issues
 - Commits, Authors:
-`cd ~dev/ && git clone git://git.webkit.org/WebKit.git WebKit`
+`cd ~dev/ && git clone git://git.webkit.org/WebKit.git WebKit`. If already exists, do `git pull`
 - Some git one liner stats:
-All authors & commits
+All authors & commits:
 `git log --pretty=format:"%aE" | sort | uniq | wc -l` --> 648
 `git log --pretty=format:"%H" | sort | uniq | wc -l` --> 189693
 And for our date period:
-`git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 125
-`git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%H" | sort | uniq | wc -l` --> 13348
+`git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 125 authors
+`git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%H" | sort | uniq | wc -l` --> 13348 commits
 - Now use cncf/gitdm to analyse commits, authors: from `cncf/gitdm` directory run: `./repo_in_range.sh ~/dev/WebKit/ WebKit 2016-06-01 2017-06-01`
 - See output: `vim other_repos/WebKit_2016-06-01_2017-06-01.txt`:
 ```
@@ -188,14 +194,14 @@ Processed 13337 csets from 125 developers
 A total of 11838610 lines added, 3105609 removed (delta 8733001)
 ```
 - So we have authors=125, commits=13348
-- Now we need to estimate the remaining: activity, comments, prs:
-- A good idea is to get it from ALL projects summaries (we have value for ALL keys summed-up in all projects from analysis.rb), this is automatically saved by `analysis.rb` to `reports/sumall.csv` file.
-- The record from last `analysis.rb` run is: `{"activity"=>30714776, "comments"=>12766215, "prs"=>3311370, "commits"=>11687914, "issues"=>3104377}`
-- Now average PRs/issues: sumall['prs'].to_f / sumall['issues'].to_f = 1.07 which gives PRs = 1.1 * 21444 = 23600
+- Now we need to estimate the remaining: prs, comments, activity:
+- A good idea is to get it from ALL projects summaries (we have value for ALL keys summed-up in all projects from analysis.rb), this is automatically saved by `analysis.rb` to `reports/sumall.csv` file. The record from last `analysis.rb` run is: `{"activity"=>30714776, "comments"=>12766215, "prs"=>3311370, "commits"=>11687914, "issues"=>3104377}`
+- Now average PRs/issues: sumall['prs'].to_f / sumall['issues'].to_f = 1.07 which gives PRs = 1.1 * 21444 = 23500
 - Comments would be 2 * commits = 26000
 - Activity = sum of all others (comments, commits, issues, prs)
+- Create and open file `data/webkit_201606_201705.csv` from previous range file; edit and save
 
-- OpenStack case:
+- <b>OpenStack</b> case:
 - Change line `ruby merger.rb data/unlimited.csv data/data_openstack_201605_201704.csv` to `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv`
 - To get `data/data_openstack_201606_201705.csv` file from BigQuery do:
 - Copy `cp BigQuery/query_openstack_projects.sql BigQuery/query_openstack_projects_201606_201705.sql` and update date range condition in `BigQuery/query_openstack_projects_201606_201705.sql`
@@ -218,7 +224,7 @@ Example for Murano:
 https://bugs.launchpad.net/murano/+bugs?field.searchtext=&search=Search&field.status%3Alist=NEW&field.status%3Alist=OPINION&field.status%3Alist=INVALID&field.status%3Alist=WONTFIX&field.status%3Alist=EXPIRED&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=FIXRELEASED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&orderby=-datecreated&memo=425&start=350&direction=backwards
 - The final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201606_201705.csv -1`
 
-- Apache case:
+- <b>Apache</b> case:
 - Exactly the same BigQuery steps as in the OpenStack example,. The final line should be `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_apache_projects_201606_201705.sql`, update conditions, run BigQ, download results to `data/data_apache_201606_201705.csv`
 - Run `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
@@ -265,7 +271,7 @@ Tool will say something like this: "After filtering: authors: 1637, commits: 671
 - openSUSE case
 - BigQuery part exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
 
-- AGL (automotive Grade Linux) case:
+- <b>AGL (automotive Grade Linux)</b> case:
 - Go to: https://wiki.automotivelinux.org/agl-distro/source-code and get source code somewhere:
 - `mkdir agl; cd agl`
 - `curl https://storage.googleapis.com/git-repo-downloads/repo > repo; chmod +x ./repo`
@@ -307,7 +313,7 @@ Found 7223 matching issues.
 Update `data/data_libreoffice_git_201606_201705.csv` accordingly.
 - Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201606_201705.csv -1`
 
-- Now let's examine a new case: FreeBSD:
+- <b>FreeBSD</b> case:
 - Use BigQuery/org_finder.sql (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_201606_201705.csv` (save as table, export to gstorage, download csv)
 - Now define FreeBSD project the same way as in BigQuery: put orgs in `map/defmaps.csv`, put URL in `map/urls.csv`, put orgs as exceptions in `map/ranges.csv` and `map/ranges_sane.csv` (because some values can be 0s due to custom BigQuery)

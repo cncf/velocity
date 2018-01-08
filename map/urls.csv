@@ -501,6 +501,7 @@ Zend Framework,framework.zend.com
 Zephyr,www.zephyrproject.org
 Zypper,en.opensuse.org/Portal:Zypper
 advocacy.mozilla.org,advocacy.mozilla.org
+apollographql,apollographql.com
 bedrock,mozilla.org
 benchmark,github.com/google/benchmark
 bioconda,bioconda.github.io
@@ -511,6 +512,7 @@ containerd,containerd.io
 cregit,cregit.linuxsources.org
 devopsdays,devopsdays.org
 dotnet,microsoft.com/net
+electron,electronjs.org
 envoyproxy,github.com/envoyproxy
 eslint,eslint.org
 fabric8,fabric8.io
