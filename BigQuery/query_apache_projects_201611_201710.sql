@@ -22,7 +22,7 @@ select
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from
   (select * from
-    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2018-11-01'),TIMESTAMP('2017-11-01'))
+    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2016-11-01'),TIMESTAMP('2017-11-01'))
   )
 where
   (
@@ -58,4 +58,3 @@ order by
   activity desc
 limit 10000
 ;
-

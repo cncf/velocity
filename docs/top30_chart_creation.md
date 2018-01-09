@@ -13,6 +13,7 @@ The chart itself can be generated in a [google sheet](https://docs.google.com/sp
 or as a stand-alone [html page](../charts/top_30_201611_201710.html). Details on usage of google chart api are [here](https://developers.google.com/chart/interactive/docs/gallery/bubblechart). The first option is a copy/paste of resulting data whereas the second presents more control to the look of the chart. Refer to the [Bubble Chart Generator](other_notes.md#bubble-chart-generator) for automatic html creation.
 
 ### Chart data
+Before you begin, clone the cncf/gitdm repo as you will use it in addition to velocity.
 
 #### In short
 To generate all data for the Top 30 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
@@ -49,7 +50,7 @@ The chart now only contains GitHub-hosted projects and for Linux Foundation purp
 ### Example - Top 30 chart data preparation for a new date range
 Existing script `shells/unlimited_both.sh` generates our chart data for 2016-05-01 to 2017-05-01. Let's assume we want to generate the chart for a new date range: 2016-06-01 to 2017-06-01. <br/>This is a step-by-step tutorial on how to accomplish that.
 - Copy `shells/unlimited_both.sh` to `shells/unlimited_20160601-20170601.sh`
-- Keep `shells/unlimited_20160601-20170601.sh` opened in some other terminal window `vi shells/unlimited_20160601-20170601.sh` as we need to update all steps
+- Keep `shells/unlimited_20160601-20170601.sh` opened in some other terminal window `vi shells/unlimited_20160601-20170601.sh` as we need to update all steps. Change all the dates to a new range now so you do not forget and run mixed data.
 - First, we need unlimited BigQuery output for a new date range:
 ```
 echo "Restoring BigQuery output"
@@ -223,50 +224,56 @@ https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&fie
 - The final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201606_201705.csv -1`
 
 - <b>Apache case:</b>
-- Exactly the same BigQuery steps as in the OpenStack example,. The final line should be `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
+- Follow the BigQuery steps as in the OpenStack example. The base query is 'BigQuery/query_apache_projects.sql'. The final line should be `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_apache_projects_201606_201705.sql`, update conditions, run BigQ, download results to `data/data_apache_201606_201705.csv`
 - Run `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
 - Now we need more data for Apache from their jira, first copy file from previous data range `cp data/data_apache_jira.csv data/data_apache_jira_201606_201705.csv`
 - Now go to their jira: issues.apache.org/jira/browse, you may set conditions to find issues, like this:
 ```
-project not in (FLINK, MESOS, SPARK, KAFKA, CAMEL, FLINK, CLOUDSTACK, BEAM, ZEPPELIN, CASSANDRA, HIVE, HBASE, HADOOP, IGNITE, NIFI, AMBARI, STORM, "Traffic Server", "Lucene - Core", Solr, CarbonData, GEODE, "Apache Trafodion", Thrift, Kylin) AND created >= 2016-05-01 AND created <= 2017-05-01
+project = "Kylin" AND created >= 2016-05-01 AND created <= 2017-05-01
 ```
-Example URL: `https://issues.apache.org/jira/browse/ZOOKEEPER-2769?jql=project%20not%20in%20(FLINK%2C%20MESOS%2C%20SPARK%2C%20KAFKA%2C%20CAMEL%2C%20FLINK%2C%20CLOUDSTACK%2C%20BEAM%2C%20ZEPPELIN%2C%20CASSANDRA%2C%20HIVE%2C%20HBASE%2C%20HADOOP%2C%20IGNITE%2C%20NIFI%2C%20AMBARI%2C%20STORM%2C%20%22Traffic%20Server%22%2C%20%22Lucene%20-%20Core%22%2C%20Solr%2C%20CarbonData%2C%20GEODE%2C%20%22Apache%20Trafodion%22%2C%20Thrift%2C%20Kylin)%20AND%20created%20%3E%3D%202016-05-01%20AND%20created%20%3C%3D%202017-05-01`
-We need: Mesos, Spark, Kafka, Camel, Flink (above query is for other projects, these will not be included)
-Query for Mesos in our data range: `project in (Mesos) AND created >= 2016-06-01 AND created <= 2017-06-01` --> 2055
-Do this for all projects.
+Example URL: `https://issues.apache.org/jira/browse/KYLIN-2578?jql=project%20%3D%20%27Kylin%27%20and%20created%20%3E%3D%202016-05-01%20AND%20created%20%3C%3D%202017-05-01`
+We need issue counts for all projects separately: Flink, Mesos, Spark, Kafka, Camel, CloudStack, Beam, Zeppelin, Cassandra, Hive, HBase, Hadoop, Ignite, NiFi, Ambari, Storm, Traffic Server, Lucene - Core, Solr, CarbonData, Geode, Trafodion, Thrift, Kylin.
 - Final line for Apache should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_201606_201705.csv -1`
 
 - Chromium case
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word chromium): `ruby merger.rb data/unlimited.csv data/data_chromium_201606_201705.csv`
-- Now the manual part - copy `data/data_chromium_bugtracker.csv` to `data/data_chromium_bugtracker_201606_201705.csv` (we need to generate this file)
+- Now the manual part - copy `data/data_chromium_bugtracker.csv` to `data/data_chromium_bugtracker_201606_201705.csv` (we need to update this file)
 - Get Issues from their bug tracker: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=opened%3E2016%2F7%2F25&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids
-All issues + opened>2016/7/19 gives: 63565 (for 2016/7/18 gives 63822+ which means a non exact number) we will extrapolate from here.
+Search: All issues + opened>2016/7/19 gives: 63565 (for 2016/7/18 gives 63822+ which means a non exact number) we will extrapolate from here.
 All issues + opened>2017/6/1 gives 325, so we have: 63565 - 325 = 63240 issues in 2016-07-19 - 2017-06-01
 irb> require 'date'; Date.parse('2017-06-01') - Date.parse('2016-07-19') --> 317
 irb> Date.parse('2017-06-01') - Date.parse('2016-06-01') --> 365
 irb> 63240.0 * (365.0 / 317.0) --> 72815 
-Now add chromedriver too:
+Now add chromedriver to that count:
+https://bugs.chromium.org/p/chromedriver/issues/list?can=1&q=opened%3E2016%2F7%2F25&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids
 All issues, opened>2017/6/1 --> 1
 All issues, opened>2016/6/1 --> 430
 So there are 429 chromedriver issues and the total is: 429 + 72815 = 73244
 - Now chromium commits analysis which is quite complex
 - Their sources (all projects) are here: https://chromium.googlesource.com
-- Clone `chromium/src` in `~/dev/src/`: `git clone https://chromium.googlesource.com/chromium/src`
-- Commits: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 79144 (but this is only FYI, this is way too many, there are bot commits here)
+- Clone `chromium/src` in `~/dev/src/`: `git clone https://chromium.googlesource.com/chromium/src`. If repo previously cloned, do `cd src/`, `git pull`
 - Authors: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1697
+- Commits: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 79144 (but this is only FYI, this is way too many, there are bot commits here)
 To analyze those commits (also exclude merge and robot commits):
 Run while in chromium/src repository:
 `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits_201606_201705.csv`
-Then remove special CSV characters with VI commands: `:%s/"//g`, `:%s/,//g`
-Then add CSV header manually "email,name,hash,subject" and move it to: `cncf/velocity`:`data/data_chromium_commits_201606_201705.csv`: `mv chromium_commits_201606_201705.csv ~/dev/cncf/velocity/data/data_chromium_commits_201606_201705.csv`
-Finally replace '~~~~' with ',' to create correct CSV: `:%s/\~\~\~\~/,/g`
+Open the file in vi
+Remove special CSV characters with VI commands: `:%s/"//g`, `:%s/,//g`
+Replace '~~~~' with ',' to create correct CSV: `:%s/\~\~\~\~/,/g`
+Finally add CSV header manually "email,name,hash,subject" 
+Save and quit vi.
+Then move the file to: `cncf/velocity`:`data/data_chromium_commits_201606_201705.csv`: `mv chromium_commits_201606_201705.csv ~/dev/cncf/velocity/data/data_chromium_commits_201606_201705.csv`
 Then run `ruby commits_analysis.rb data/data_chromium_commits_201606_201705.csv map/skip_commits.csv`
+Script execution will stop so type `quit` and press return/enter
 Eventually/optionally add new rules to skip commits to `map/skip_commits.csv`
-Tool will say something like this: "After filtering: authors: 1637, commits: 67180", update `data/data_chromium_bugtracker_201606_201705.csv` accordingly.
+Tool will output something like this: "After filtering: authors: 1637, commits: 67180" (following regular expressions it had used).
+Update `data/data_chromium_bugtracker_201606_201705.csv` accordingly.
 - Final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_201606_201705.csv -1`
 
-- openSUSE case
+chromium_commits_201701_201712.csv
+
+- <b>openSUSE case:</b>
 - BigQuery part exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
 
 - <b>AGL (automotive Grade Linux) case:</b>
@@ -274,7 +281,8 @@ Tool will say something like this: "After filtering: authors: 1637, commits: 671
 - `mkdir agl; cd agl`
 - `curl https://storage.googleapis.com/git-repo-downloads/repo > repo; chmod +x ./repo`
 - `./repo init -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo; ./repo init`
-- Now You need to use script `agl/run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub statistics.
+- `./repo sync`
+- Now You need to use script `agl/run_multirepo.sh` with: `./run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub statistics.
 - There will be `agl.txt` file generated, something like this:
 ```
 Processed 67124 csets from 1155 developers
@@ -289,8 +297,11 @@ Processed 7152 csets from 365 developers
 - 7152 commits and 365 authors.
 - To get number of Issues, search Jira: `https://jira.automotivelinux.org/browse/SPEC-923?jql=created%20%3E%3D%202016-10-01%20AND%20created%20%3C%3D%202017-10-01`
 - It says 665 issues in a given date range
+- PRs = 1.07 * 665 = 711
+- Comments would be 2 * commits = 14304
+- Activity = sum of all others (comments, commits, issues, prs)
 
-- LibreOffice case
+- <b>LibreOffice case:</b>
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
 - Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_201606_201705.csv` and we will update the `data/data_libreoffice_git_201606_201705.csv` file
 - Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`

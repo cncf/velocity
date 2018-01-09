@@ -21,6 +21,7 @@ Run the query on https://bigquery.cloud.google.com/queries/ in the website's con
 
 Copy the results to a file with proper name `data/data_lf_projects_201611_201710.csv`
 
+
 <b>Add Linux data</b>
 Try running this from the velocity project's root folder:
 `ruby add_linux.rb data/data_lf_projects_201611_201710.csv data/data_linux.csv 2016-11-01 2017-11-01`
