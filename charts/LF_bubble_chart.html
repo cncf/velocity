@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['ID', 'Commits', 'PRs + Issues', 'Label','Authors'],
+        ['Linux',66186,129654,'Linux (kernel.org) 3957 authors',62.9],
+        ['Kubernetes',14645,69736,'Kubernetes (kubernetes.io) 1902 authors',43.6],
+        ['Node.js',7147,20188,'Node.js (nodejs.org) 876 authors',29.6],
+        ['Cloud Foundry',68001,8051,'Cloud Foundry (cloudfoundry.org) 822 authors',28.7],
+        ['Prometheus',2669,6837,'Prometheus (prometheus.io) 373 authors',19.3],
+        ['AGL',7152,665,'AGL (www.automotivelinux.org) 365 authors',19.1],
+        ['gRPC',3521,12812,'gRPC (grpc.io) 300 authors',17.3],
+        ['Zephyr',4691,3239,'Zephyr (www.zephyrproject.org) 184 authors',13.6],
+        ['OCI',1012,3325,'OCI (www.opencontainers.org) 117 authors',10.8],
+        ['IO Visor',528,1386,'IO Visor (www.iovisor.org) 109 authors',10.4],
+        ['Fluentd',1771,1972,'Fluentd (fluentd.org) 108 authors',10.4],
+        ['Hyperledger',3606,4303,'Hyperledger (hyperledger.org) 96 authors',9.8],
+        ['containerd',578,1756,'containerd (containerd.io) 64 authors',8],
+        ['Lets Encrypt',1443,2079,'Lets Encrypt (letsencrypt.org) 64 authors',8],
+        ['Tizen',762,1462,'Tizen (www.tizen.org) 58 authors',7.6],
+        ['linkerd',1519,1624,'linkerd (linkerd.io) 54 authors',7.3],
+        ['CNI',107,430,'CNI (github.com/containernetworking) 45 authors',6.7],
+        ['Open API',407,1121,'Open API (www.openapis.org) 44 authors',6.6],
+        ['OpenTracing',337,570,'OpenTracing (opentracing.io) 43 authors',6.6],
+        ['JanusGraph',236,998,'JanusGraph (janusgraph.org) 38 authors',6.2],
+        ['RethinkDB',139,695,'RethinkDB (www.rethinkdb.com) 32 authors',5.7],
+        ['rkt',75,335,'rkt (github.com/rkt/rkt) 30 authors',5.5],
+        ['FOSSology',173,524,'FOSSology (www.fossology.org) 19 authors',4.4],
+        ['OpenHPC',2035,536,'OpenHPC (openhpc.community) 18 authors',4.2],
+        ['Open vSwitch',84,226,'Open vSwitch (openvswitch.org) 18 authors',4.2],
+        ['OpenMAMA',96,218,'OpenMAMA (www.openmama.org) 17 authors',4.1],
+        ['SPDX',281,365,'SPDX (spdx.org) 15 authors',3.9],
+        ['Open Security Controller',78,269,'Open Security Controller (opensecuritycontroller) 10 authors',3.2],
+        ['CII',272,233,'CII (www.coreinfrastructure.org) 9 authors',3],
+        ['OpenSDS',103,171,'OpenSDS (www.opensds.io) 7 authors',2.6]
+      ]);
+
+      var options = {
+        title: 'Linux Foundation last 12 months ending 2017-10',
+        hAxis: {title: 'Commits', logScale: true, minValue: 50, maxValue: 120000, minorGridlines:{count: 5}},
+        vAxis: {title: 'PRs + Issues', logScale: true, minValue:100, maxValue: 175000, minorGridlines:{count: 5}},
+        bubble: {textStyle: {fontSize: 12}},
+        sizeAxis: {minSize: 12, maxSize: 40},
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+  </head>
+  <body>
+    <div id="series_chart_div" style="width: 100%; height: 100%;"></div>
+  </body>
+</html>

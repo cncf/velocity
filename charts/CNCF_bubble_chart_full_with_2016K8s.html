@@ -8,22 +8,22 @@
     function drawSeriesChart() {
       var data = google.visualization.arrayToDataTable([
         ['Label', 'Commits', 'PRs + Issues', 'Project','Authors'],
-	['2016 K8s (1052)',8872,48522,'2016 K8s',32], 
-	['Kubernetes (2380)',20782,91963,'Kubernetes (kubernetes.io)',49],
-	['Prometheus (423)',3403,7767,'Prometheus (prometheus.io)',21],
-	['gRPC (369)',3972,14252,'gRPC (grpc.io)',19],
-	['Fluentd (157)',2309,2447,'Fluentd (fluentd.org)',13],
-	['Envoy (102)',3687,3779,'Envoy (github.com/envoyproxy)',10],
-	['containerd (96)',1012,2875,'containerd (containerd.io)',10],
-	['OpenTracing (75)',480,929,'OpenTracing (opentracing.io)',9],
-	['rkt (63)',249,957,'rkt (github.com/rkt/rkt)',8],
-	['linkerd (61)',1698,1846,'linkerd (linkerd.io)',8],
-	['CNI (51)',157,559,'CNI (github.com/containernetworking)',7],
-	['CoreDNS (44)',1080,1481,'CoreDNS (coredns.io)',7],
-	['Jaeger (39)',1070,1267,'Jaeger (jaeger.readthedocs.io/en/latest/)',6],
-	['Notary (34)',122,432,'Notary (theupdateframework/notary)',6],
-	['TUF (24)',437,419,'TUF (theupdateframework.com)',5]
-	]);
+		['2016 K8s (1052)',8872,48522,'2016 K8s',32], 
+		['Kubernetes (2380)',20782,91963,'Kubernetes (kubernetes.io)',49],
+		['Prometheus (423)',3403,7767,'Prometheus (prometheus.io)',21],
+		['gRPC (369)',3972,14252,'gRPC (grpc.io)',19],
+		['Fluentd (157)',2309,2447,'Fluentd (fluentd.org)',13],
+		['Envoy (102)',3687,3779,'Envoy (github.com/envoyproxy)',10],
+		['containerd (96)',1012,2875,'containerd (containerd.io)',10],
+		['OpenTracing (75)',480,929,'OpenTracing (opentracing.io)',9],
+		['rkt (63)',249,957,'rkt (github.com/rkt/rkt)',8],
+		['linkerd (61)',1698,1846,'linkerd (linkerd.io)',8],
+		['CNI (51)',157,559,'CNI (github.com/containernetworking)',7],
+		['CoreDNS (44)',1080,1481,'CoreDNS (coredns.io)',7],
+		['Jaeger (39)',1070,1267,'Jaeger (jaeger.readthedocs.io/en/latest/)',6],
+		['Notary (34)',122,432,'Notary (theupdateframework/notary)',6],
+		['TUF (24)',437,419,'TUF (theupdateframework.com)',5]
+	  ]);
 
       var options = {
         title: 'CNCF projects velocity plus 2016 K8s',

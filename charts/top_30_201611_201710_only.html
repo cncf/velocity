@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['ID', 'Commits', 'PRs + Issues', 'Label','Authors'],
+        ['Linux',61784,131998,'Linux (kernel.org) 3843 authors',62],
+		['Kubernetes',20782,91963,'Kubernetes (kubernetes.io) 2380 authors',48.8],
+		['Homebrew',18048,27093,'Homebrew (brew.sh) 2375 authors',48.7],
+		['DefinitelyTyped',3730,8038,'DefinitelyTyped (definitelytyped.org) 2154 authors',46.4],
+		['Chromium',75467,66575,'Chromium (google.com/chrome) 1784 authors',42.2],
+		['React',8313,32929,'React (facebook.com) 1543 authors',39.3],
+		['Docker',8180,19159,'Docker (mobyproject.org) 1346 authors',36.7],
+		['dotnet',28400,34826,'dotnet (microsoft.com/net) 1322 authors',36.4],
+		['vuejs',4123,9102,'vuejs (vuejs.org) 1207 authors',34.7],
+		['Cloud Foundry',78389,8300,'Cloud Foundry (cloudfoundry.org) 1137 authors',33.7],
+		['VS Code',20749,40591,'VS Code (code.visualstudio.com) 1131 authors',33.6],
+		['FreeBSD',37309,1130,'FreeBSD (freebsd.org) 1021 authors',32],
+		['NixOS',13795,12258,'NixOS (nixos.org) 1007 authors',31.7],
+		['MicrosoftDocs',8923,2771,'MicrosoftDocs (docs.microsoft.com) 999 authors',31.6],
+		['Elasticsearch',25506,21631,'Elasticsearch (elastic.co/products/elasticsearch) 953 authors',30.9],
+		['Home Assistant',6400,9440,'Home Assistant (home-assistant.io) 925 authors',30.4],
+		['TensorFlow',2814,11054,'TensorFlow (tensorflow.org) 901 authors',30],
+		['Ansible',6069,15392,'Ansible (ansible.com) 893 authors',29.9],
+		['Angular',8062,24184,'Angular (angular.io) 858 authors',29.3],
+		['Azure SDKs',9509,8414,'Azure SDKs (azure.microsoft.com) 813 authors',28.5],
+		['Node.js',4368,9295,'Node.js (nodejs.org) 754 authors',27.5],
+		['Ruby on Rails',4793,5919,'Ruby on Rails (rubyonrails.org) 721 authors',26.9],
+		['Mozilla',14980,10861,'Mozilla (mozilla.org) 694 authors',26.3],
+		['The Odin Project',3286,2959,'The Odin Project (theodinproject.com) 650 authors',25.5],
+		['gocd',3685,2080,'gocd (www.gocd.org) 637 authors',25.2],
+		['Eclipse',12803,10124,'Eclipse (eclipse.org) 597 authors',24.4],
+		['GitLab',16874,23200,'GitLab (gitlab.com) 580 authors',24.1],
+		['Mapbox',27575,14073,'Mapbox (mapbox.com) 572 authors',23.9],
+		['WiX',19359,6151,'WiX (wixtoolset.org) 559 authors',23.6],
+		['Office Developer',8794,6236,'Office Developer (dev.office.com) 532 authors',23.1],
+        ]);
+
+
+      var options = {
+        title: 'Top 30 projects 2016-11 - 2017-10',
+        hAxis: {title: 'Commits', logScale: true, minValue: 2000, maxValue: 100000, minorGridlines:{count: 5}},
+        vAxis: {title: 'PRs + Issues', logScale: true, minValue:500, maxValue: 225000, minorGridlines:{count: 5}},
+        bubble: {textStyle: {fontSize: 10}},
+        legend: {position: 'right',textStyle: {color: 'grey', fontSize: 10}},
+        sizeAxis: {minSize: 12},
+        };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+  </head>
+  <body>
+    <div id="series_chart_div" style="width: 100%; height: 100%;"></div>
+  </body>
+</html>
+

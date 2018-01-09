@@ -8,23 +8,35 @@ https://docs.google.com/spreadsheets/d/1bERALoPEavrBcyXuaArAXHg5b2m0v6CEm_RI0KBL
 
 
 # List of all charts:
+CNCF Projects 2017/01 - 2017/12 (bubble): https://docs.google.com/spreadsheets/d/1ywTpzDM6iwC9SnL3PYTMLS43m5BaQoNnqVgzh-9SDXo/edit#gid=0
+CNCF Projects 201609-201708 (bubble): https://docs.google.com/spreadsheets/d/1WcaoUW1qnfE3uutEmCBWoUzItaCwyFhzYQj_r7LaxVU/edit
+CNCF Projects 201610-201709 (bubble): https://docs.google.com/spreadsheets/d/1ZvM0IWYXDjZOVPGOipurmFsQ7celNaac1_scoqa4QxY/edit#gid=0
+CNCF Projects 201611-201710 (bubble): https://docs.google.com/spreadsheets/d/1JzefTCtG0HsLYdvZ5j49wZ5B6Yt2S2l_t76H1Xpod2I/edit#gid=976519966
 CNCF Projects 201606-201705 (bubble): https://docs.google.com/spreadsheets/d/1a2VdKfAI1g9ZyWL09TnJ-snOpi4BC9kaEVmB7IufY7g/edit?usp=sharing
 CNCF Projects 201605-201704 (bubble): https://docs.google.com/spreadsheets/d/1Mr-ov9J6itlYdn7epzbi3ZZmAJq_unORyJeJxbERPLM/edit?usp=sharing
 CNCF Projects 201704 (bubble): https://docs.google.com/spreadsheets/d/16bz0fGWw3OmDqQPIYKP8hF-sGYtH40LfdDPvhxjtHTA/edit?usp=sharing
-Top 40 on unlimited data returned from BigQ: https://docs.google.com/spreadsheets/d/1miWyW_OvH2AjAaeI8M6ORlSoeILnXfKYVs2acafR0i0/edit?usp=sharing
-Top 40 on unlimited data with OpenStack & Apache: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
+
+K8s vs rest of projects https://docs.google.com/spreadsheets/d/1QELfjz0fm_uTPsMYF6e4cPGBDG1ZPRh9cwQLdMtoZa4/edit#gid=1904971627
+
+Linux Foundation Projects 01/2017 - 12/2017 https://docs.google.com/spreadsheets/d/1fZC1bevEtO1NPAyOP2l0p-21zSXk-tAVVZHadXHrNr8/edit#gid=1169691230
+Linux Foundation Projects 11/2016 - 10/2017 https://docs.google.com/spreadsheets/d/1XxsClGbPkzz5aeGZjWh6KvspktzAq9OshL-m-dNRCRY/edit#gid=1169691230
+Linux Foundation Projects 10/2016 - 09/2017 https://docs.google.com/spreadsheets/d/1_DIvQpaPRecRONWeTh5pp3WOgbGcsY4JOPMBisizJqg/edit#gid=1169691230
+Linux Foundation Projects 09/2016 - 08/2017 https://docs.google.com/spreadsheets/d/1_yNtuxK6ydprp9FaWdrJ_ZtJuYWVHz1xhKMjyfmVLEM/edit#gid=1169691230
+
+Top 30 projects 01/2017 - 12/2017 https://docs.google.com/spreadsheets/d/1NarSBqOcpBG-VSIkxSKvzU6_U99R_WZGLkqiR5WlzAc/edit#gid=1169691230
+Top 30 projects 11/2016 - 10/2017 https://docs.google.com/spreadsheets/d/14P8bML_jqutv1zzYy588rLSX-GjLy0Cc5aSCBY05CGE/edit#gid=134798507
+Top 30 projects 10/2016 - 09/2017 https://docs.google.com/spreadsheets/d/13QwuovUaeO1BzS5b8Qy5g9LLF8nmQ3SANqNlsGG_Lwk/edit
 Top 30 projects May 2016 - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1NOvHPEXwYo6oc4YrKRgphC_oy1BqKLSv91kdxkensMg/edit?usp=sharing
 Top 30 projects May 2016 - April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1mneiSCshJFVb0UK08TnEYng-iGFP8hyHzMO6HE6q-qI/edit?usp=sharing
 Top 30 projects January 2015 - March 2017 (no linux motion quarters non-cumulative): https://docs.google.com/spreadsheets/d/1VtrcvEfK5MVVK0LDTwDJMDibqqAYWRSL0vFmY5FWMxE/edit?usp=sharing
 Top 30 projects January 2015 - March 2017 (linux motion quarters non-cumulative): https://docs.google.com/spreadsheets/d/1yrX3T6oZ_Of-MAwKcjxR5bmPtJYlVfhNxKIjxmPZMus/edit?usp=sharing
-
 Top 30 projects March 2017 (bubble): https://docs.google.com/spreadsheets/d/1WO1NCzeso7_srYPMS3nspnAeqOImPDReAaOyZSIPJE4/edit?usp=sharing
 Top 30 projects April 2017 (bubble): https://docs.google.com/spreadsheets/d/1bERALoPEavrBcyXuaArAXHg5b2m0v6CEm_RI0KBLddQ/edit?usp=sharing
 Top 30 projects January - March 2017 (bubble): https://docs.google.com/spreadsheets/d/1EU6MCGld5EV2TAVTStbdvis9O2Vf6Xtust1Mpu_RkWo/edit?usp=sharing
 Top 30 projects January - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1MuulhPL_SHia7IQYWfgo4IWvkiLq5EJILtRJ_OvxHxc/edit?usp=sharing
 Top 30 projects January 2015 - April 2017 (bubble): https://docs.google.com/spreadsheets/d/1iYnmNfQYgy5yNE-Lx_uZwR8OcrBIBiZpzOcPnD8Hnek/edit?usp=sharing
 Top 30 projects January 2016 - April 2017 (linux motion): https://docs.google.com/spreadsheets/d/1S-YLoma7-j6koN86gCCy_WwdgQNghk1SFuHuzXcQcnc/edit?usp=sharing
-Top 30 projects January 2016 - April 2017 (linux motion logaritmic): https://docs.google.com/spreadsheets/d/1y8uQ4wrMMd5Ghy8gHjrZ4N8ZpF0DY-ti8V7cQqxwUmE/edit?usp=sharing
+Top 30 projects January 2016 - April 2017 (linux motion logarithmic): https://docs.google.com/spreadsheets/d/1y8uQ4wrMMd5Ghy8gHjrZ4N8ZpF0DY-ti8V7cQqxwUmE/edit?usp=sharing
 Top 30 projects January 2016 - March 2017 (linux motion non-cumulative): https://docs.google.com/spreadsheets/d/1ZgdIuMxxcyt8fo7xI1rMeFNNx9wx0AxS-2a58NlHtGc/edit?usp=sharing
 Top 30 projects January 2015 - March 2017 (linux motion quarters cumulative): https://docs.google.com/spreadsheets/d/1hoL0qcvQ9VaVT9Ek6hQkrlLkHNIR6C2VhiKHaHTnzTw/edit?usp=sharing
 Top 30 projects January 2015 - April 2017 (bubble with linux): https://docs.google.com/spreadsheets/d/11pUbzVmfsn8CeP2tajQUJWATknO_kdOGthjI7wb47PE/edit?usp=sharing
@@ -32,9 +44,11 @@ Top 30 projects January - March 2017 (bubble with Linux): https://docs.google.co
 Top 30 projects January - April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1Wq1YTkc6lCzCODKfNEHbw9JMySetNk-T5twPEk622lU/edit?usp=sharing
 Top 30 projects April 2017 (bubble with Linux): https://docs.google.com/spreadsheets/d/1hiaZ1vfwNSuOPu51ZMC8OM17vFZZzmmFpnrCOMKlDPQ/edit?usp=sharing
 Top 30 projects January 2016 - April 2017 (no linux motion): https://docs.google.com/spreadsheets/d/1LvWbhCKyTwaQFMnLmZsn39lDs_hDRv8XODDqftapvxM/edit?usp=sharing
-Top 30 projects January 2016 - April 2017 (no linux motion logaritmic): https://docs.google.com/spreadsheets/d/1qWxOF8RgQqZ1BnrEoCPbizyHTwavsHDNy-PtUXuDf1E/edit?usp=sharing
+Top 30 projects January 2016 - April 2017 (no linux motion logarithmic): https://docs.google.com/spreadsheets/d/1qWxOF8RgQqZ1BnrEoCPbizyHTwavsHDNy-PtUXuDf1E/edit?usp=sharing
 Top 30 projects January 2016 - March 2017 (no linux motion non-cumulative): https://docs.google.com/spreadsheets/d/1MQ1fwg73EhV-zXrNCJUgHZxY7b_VoO1RF8efNBO88ss/edit?usp=sharing
 Top 30 projects January 2015 - March 2017 (no linux motion quarters cumulative): https://docs.google.com/spreadsheets/d/1IS0D_phB7JtpdUlw9e8kbYMXyIyPQMrDLb_gdvb0Q5g/edit?usp=sharing
+Top 40 on unlimited data returned from BigQ: https://docs.google.com/spreadsheets/d/1miWyW_OvH2AjAaeI8M6ORlSoeILnXfKYVs2acafR0i0/edit?usp=sharing
+Top 40 on unlimited data with OpenStack & Apache: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
 
 Channel with motion videos:
 https://www.youtube.com/channel/UCrPtToB7GZdY0vHW_2dh65g

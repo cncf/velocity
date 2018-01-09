@@ -1,0 +1,32 @@
+org,repo,activity,comments,prs,commits,issues,authors,project,url
+torvalds,linux,340145,274814,68703,65331,68703,3937,Linux,kernel.org
+kubernetes,kubernetes+test-infra+kubernetes.github.io+kops+charts+helm+ingress+community+minikube+dashboard+website+kubeadm+heapster+features+contrib+autoscaler+ingress-nginx+kube-state-metrics+client-go+release+kompose+kubernetes-anywhere+frakti+dns+kubectl+kube-deploy+examples+cluster-registry+ingress-gce+node-problem-detector+perf-tests+git-sync,315516,227312,46606,14940,26658,2103,Kubernetes,kubernetes.io
+nodejs,node+build+nodejs.org+docker-node+TSC+node-gyp+community-committee+node-chakracore+citgm+abi-stable-node+node-addon-api+benchmarking+readable-stream+llnode+LTS+nodejs-ko+security-wg+nan+node-report+http2+github-bot+board+node-inspect,88234,61800,11214,7178,8042,1048,Node.js,nodejs.org
+cloudfoundry,cf-deployment+bosh+cli+uaa+cloud_controller_ng+diego-release+loggregator+cf-release+cf-java-client+bosh-cli+bosh-bootloader+java-buildpack+cf-mysql-release+garden-runc-release+bosh-deployment+docs-cf-admin+docs-bosh+nodejs-buildpack+php-buildpack+guardian+bosh-agent+cf-acceptance-tests+docs-dev-guide+uaa-release+staticfile-buildpack+bosh-softlayer-cpi-release+docs-buildpacks+cf-deployment-concourse-tasks+bosh-deployment-resource+docs-deploying-cf+capi-release+syslog-release,38782,10284,3586,20713,4199,670,Cloud Foundry,cloudfoundry.org
+prometheus,prometheus+alertmanager+node_exporter+docs+snmp_exporter+blackbox_exporter+tsdb+client_java+jmx_exporter+client_python+client_golang+mysqld_exporter+statsd_exporter+pushgateway+common+procfs+client_ruby+consul_exporter,26300,15477,4065,2980,3778,441,Prometheus,prometheus.io
+grpc,grpc+grpc-java+grpc-go+grpc.github.io+grpc-swift+grpc-node,37942,19855,8798,3891,5398,323,gRPC,grpc.io
+zephyrproject-rtos,zephyr,16420,6409,5065,4053,893,202,Zephyr,www.zephyrproject.org
+hyperledger,composer+iroha+indy-sdk+burrow,16757,4052,4493,5598,2614,139,Hyperledger,hyperledger.org
+fluent,fluentd+fluent-bit+fluentd-docs+fluent-plugin-kafka+fluentd-kubernetes-daemonset+fluentd-docker-image+fluent-logger-python+fluent-logger-node+fluent-plugin-s3+fluent-plugin-rewrite-tag-filter,7490,3616,1223,1588,1063,135,Fluentd,fluentd.org
+opencontainers,runc+image-spec+runtime-spec+runtime-tools+image-tools,11202,7624,2225,848,505,114,Open Container,www.opencontainers.org
+iovisor,bcc+gobpf,4211,2300,950,548,413,107,IO Visor,www.iovisor.org
+cncf,cross-cloud+k8s-conformance+toc+demo,2649,818,429,1212,190,94,CNCF,www.cncf.io
+containerd,containerd,7877,4556,1861,816,644,79,containerd,containerd.io
+Samsung,TizenRT,5544,2170,2211,1068,95,77,Tizen,www.tizen.org
+linkerd,linkerd+linkerd-examples+linkerd-tcp,5785,2148,1056,1760,821,64,linkerd,linkerd.io
+OAI,OpenAPI-Specification,3623,2042,635,406,540,50,Open API,www.openapis.org
+opentracing,opentracing-java+specification+opentracing-cpp+opentracing.io+opentracing-php,3025,2010,447,341,227,49,OpenTracing,opentracing.io
+JanusGraph,janusgraph,4167,2370,725,324,748,44,JanusGraph,janusgraph.org
+containernetworking,cni,1286,804,271,99,112,41,CNI,github.com/containernetworking
+rkt,rkt,1515,931,265,108,211,41,rkt,github.com/rkt/rkt
+rethinkdb,rethinkdb,2723,1800,228,177,518,32,RethinkDB,www.rethinkdb.com
+letsencrypt,boulder+pebble,4269,1265,1123,1179,702,28,Let's Encrypt,letsencrypt.org
+openhpc,ohpc,2811,393,152,1853,413,20,OpenHPC,openhpc.community
+spdx,license-list-XML+tools,1912,752,473,491,196,18,SPDX,spdx.org
+fossology,fossology,1689,884,300,224,281,18,FOSSology,www.fossology.org
+openvswitch,ovn-kubernetes,663,345,176,84,58,16,Open vSwitch,openvswitch.org
+OpenMAMA,OpenMAMA,464,186,124,89,65,16,OpenMAMA,www.openmama.org
+todogroup,repolinter,290,90,78,85,37,13,TODO group,todogroup.org
+opensecuritycontroller,osc-core,1047,343,343,172,189,10,Open Security Controller,opensecuritycontroller
+opensds,opensds,883,163,412,272,36,10,OpenSDS,www.opensds.io
+coreinfrastructure,best-practices-badge,1330,506,200,455,169,9,Core Infrastructure,www.coreinfrastructure.org
