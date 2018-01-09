@@ -267,7 +267,7 @@ Then move the file to: `cncf/velocity`:`data/data_chromium_commits_201606_201705
 Then run `ruby commits_analysis.rb data/data_chromium_commits_201606_201705.csv map/skip_commits.csv`
 Script execution will stop so type `quit` and press return/enter
 Eventually/optionally add new rules to skip commits to `map/skip_commits.csv`
-Tool will output something like this: "After filtering: authors: 1637, commits: 67180" (following regular expressions it had used).
+Tool will output something like this: "After filtering: authors: 1637, commits: 67180" (following regular expressions matched/it had used).
 Update `data/data_chromium_bugtracker_201606_201705.csv` accordingly.
 - Final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_201606_201705.csv -1`
 
@@ -304,16 +304,16 @@ Processed 7152 csets from 365 developers
 - <b>LibreOffice case:</b>
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
 - Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_201606_201705.csv` and we will update the `data/data_libreoffice_git_201606_201705.csv` file
-- Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`
+- Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`. If repo already cloned, do `cd core`, `git pull`
 - Analyse this repo as described in: `res/libreoffice_git_repo.txt`, to see that it generates lower number than those from BigQuery output (so we can skip this step)
 - Commits: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
 - Authors: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
 - Put results in: `data/data_libreoffice_git_201606_201705.csv` (authors, commits), values will probably be skipped by the updater tool (they are lower than current values gathered so far)
 - Issues:
 Issue listing is here: https://bugs.freedesktop.org/buglist.cgi?product=LibreOffice&query_format=specific&order=bug_id&limit=0
-Create account, change columns to "Opened" and "ID" generaly no more needed. (ID is a link). Sprt by Opened desc and try to see all results. (You can hit nginx gateway timeout).
+Create account, change columns to "Opened" and "ID" as generaly no more is needed. (ID is a link). Sprt by Opened desc and try to see all results. (You can hit nginx gateway timeout).
 This URL succeeded for me: https://bugs.documentfoundation.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&bug_status=NEEDINFO&columnlist=opendate&component=Android%20Viewer&component=Base&component=BASIC&component=Calc&component=Chart&component=ci-infra&component=contrib&component=deletionrequest&component=Documentation&component=Draw&component=Extensions&component=filters%20and%20storage&component=Formula%20Editor&component=framework&component=graphics%20stack&component=Impress&component=Installation&component=LibreOffice&component=Linguistic&component=Localization&component=Printing%20and%20PDF%20export&component=sdk&component=UI&component=ux-advise&component=Writer&component=Writer%20Web&component=WWW&limit=0&list_id=703831&order=opendate%20DESC%2Cchangeddate%2Cbug_id%20DESC&product=LibreOffice&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&resolution=NOTABUG&resolution=NOTOURBUG&resolution=INSUFFICIENTDATA
-Download as csv to `data/data_libreoffice_bugs.csv`, and then count issues with given date range "2016-06-01" --> "2017-06-01" with `ruby count_issues.rb data/data_libreoffice_bugs.csv Opened '2016-06-01 00:00:00' '2017-06-01 00:00:00'`
+In the browser window, select rows in range, copy, paste into a text file and see row count. --- OR --- Download as csv to `data/data_libreoffice_bugs.csv`, and then count issues with given date range "2016-06-01" --> "2017-06-01" with `ruby count_issues.rb data/data_libreoffice_bugs.csv Opened '2016-06-01 00:00:00' '2017-06-01 00:00:00'`
 ```
 ruby count_issues.rb data/data_libreoffice_bugs.csv Opened 2016-06-01 2017-06-01
 Counting issues in 'data/data_libreoffice_bugs.csv', issue date column is 'Opened', range: 2016-06-01T00:00:00+00:00 - 2017-06-01T00:00:00+00:00
@@ -324,7 +324,7 @@ Update `data/data_libreoffice_git_201606_201705.csv` accordingly.
 
 - <b>FreeBSD case:</b>
 - Use BigQuery/org_finder.sql (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
-- `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_201606_201705.csv` (save as table, export to gstorage, download csv)
+- `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_201606_201705.csv` (if there aren't many rows, just Download as CSV, othervise: save as table, export to gstorage, download csv)
 - Now define FreeBSD project the same way as in BigQuery: put orgs in `map/defmaps.csv`, put URL in `map/urls.csv`, put orgs as exceptions in `map/ranges.csv` and `map/ranges_sane.csv` (because some values can be 0s due to custom BigQuery)
 - Add FreeBSD processing to shells/unlimited:
 ```
@@ -337,20 +337,19 @@ svn checkout https://svn.freebsd.org/base/head base
 svn checkout https://svn.freebsd.org/doc/head doc
 svn checkout https://svn.freebsd.org/ports/head ports
 ```
-- Use `cncf/gitdm/freebsd_svn.sh` script to analyse FreeBSD SVN repos:
+- Use `cncf/gitdm/freebsd_svn.sh` script to analyse FreeBSD SVN repos with `./freebsd_svn.sh`:
 ```
 Revisions:    35927
 Authors:      335
 ```
-- Now rerun `shells/unlimited_201606_201705.sh` and see FreeBSD's rank
+- Use the above two values in a copy of this file: `data_freebsd_svn_201606_201705.csv`
+- Now rerun `shells/unlimited_201606_201705.sh` and see FreeBSD's rank along with the remaining final results.
 
-- Run final updated script: `shells/unlimited_20160601-20170601.sh` to get final results.
-
-- Finally, `./projects/unlimited.csv` is generated. You need to import it in final Google chart by doing:
+- When script is done running, a file `./projects/unlimited.csv` is (re)/generated. You need to import it in Google chart by doing:
 - Select the cell A50. Use File --> Import, then "Upload" tab, "Select a file from your computer", choose `./projects/unlimited.csv`
 - Then "Import action" --> "replace data starting at selected call", click Import.
-- Switch to the Chart tab
-Final version will live here: https://docs.google.com/spreadsheets/d/1a2VdKfAI1g9ZyWL09TnJ-snOpi4BC9kaEVmB7IufY7g/edit?usp=sharing
+- Switch to the Chart tab and see the data.
+Final version could live here: https://docs.google.com/spreadsheets/d/1a2VdKfAI1g9ZyWL09TnJ-snOpi4BC9kaEVmB7IufY7g/edit?usp=sharing
 
 ### Results:
 
@@ -362,10 +361,10 @@ https://docs.google.com/spreadsheets/d/11qfS97WRwFqNnArRmpQzCZG_omvZRj_y-MNo5oWe
 Chart with monthly data (that looks wrong IMHO due to google motion chart data interpolation between months) is here: 
 https://docs.google.com/spreadsheets/d/1ZgdIuMxxcyt8fo7xI1rMeFNNx9wx0AxS-2a58NlHtGc/edit?usp=sharing
 
-I suggest playing around with the 1st chart (cumulative sum):
-It is not able to remember settings so once you click on "Chart1" scheet I suggest:
+Playing around with the 1st chart (cumulative sum):
+It is not able to remember settings so once you click on "Chart1" scheet suggest action is to:
 - Change axis-x and axis-y from Lin (linerar) to Log (logarithmics)
-- You can choose what column should be used for color: I suggest activity (this is default and shows which project was most active) or choose unique color (You can select from commits, prs+issues, size) (size is square root of number of authors)
+- You can choose what column should be used for color: like activity (this is default and shows which project was most active) or choose unique color (You can select from commits, prs+issues, size) (size is square root of number of authors)
 - Change playback speed (control next to play) to slowest
 - Select inerested projects from Legend (like Kubernetes for example or Kubernetes vs dotnet etc) and check "trails"
 - You can also change what x and y axisis use as data, defaults are: x=commits, y=pr+issues, and change scale type lin/log
