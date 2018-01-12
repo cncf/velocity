@@ -5,6 +5,7 @@ nodejs,node+build+nodejs.org+docker-node+TSC+node-gyp+community-committee+node-c
 cloudfoundry,cf-deployment+bosh+cli+uaa+cloud_controller_ng+diego-release+loggregator+cf-release+cf-java-client+bosh-cli+bosh-bootloader+java-buildpack+cf-mysql-release+garden-runc-release+bosh-deployment+docs-cf-admin+docs-bosh+nodejs-buildpack+php-buildpack+guardian+bosh-agent+cf-acceptance-tests+docs-dev-guide+uaa-release+staticfile-buildpack+bosh-softlayer-cpi-release+docs-buildpacks+cf-deployment-concourse-tasks+bosh-deployment-resource+docs-deploying-cf+capi-release+syslog-release,38782,10284,3586,20713,4199,670,Cloud Foundry,cloudfoundry.org
 prometheus,prometheus+alertmanager+node_exporter+docs+snmp_exporter+blackbox_exporter+tsdb+client_java+jmx_exporter+client_python+client_golang+mysqld_exporter+statsd_exporter+pushgateway+common+procfs+client_ruby+consul_exporter,26300,15477,4065,2980,3778,441,Prometheus,prometheus.io
 grpc,grpc+grpc-java+grpc-go+grpc.github.io+grpc-swift+grpc-node,37942,19855,8798,3891,5398,323,gRPC,grpc.io
+docs-agl,docs-agl,16154,9734,711,4867,842,320,AGL,www.automotivelinux.org
 zephyrproject-rtos,zephyr,16420,6409,5065,4053,893,202,Zephyr,www.zephyrproject.org
 hyperledger,composer+iroha+indy-sdk+burrow,16757,4052,4493,5598,2614,139,Hyperledger,hyperledger.org
 fluent,fluentd+fluent-bit+fluentd-docs+fluent-plugin-kafka+fluentd-kubernetes-daemonset+fluentd-docker-image+fluent-logger-python+fluent-logger-node+fluent-plugin-s3+fluent-plugin-rewrite-tag-filter,7490,3616,1223,1588,1063,135,Fluentd,fluentd.org
@@ -17,8 +18,8 @@ linkerd,linkerd+linkerd-examples+linkerd-tcp,5785,2148,1056,1760,821,64,linkerd,
 OAI,OpenAPI-Specification,3623,2042,635,406,540,50,Open API,www.openapis.org
 opentracing,opentracing-java+specification+opentracing-cpp+opentracing.io+opentracing-php,3025,2010,447,341,227,49,OpenTracing,opentracing.io
 JanusGraph,janusgraph,4167,2370,725,324,748,44,JanusGraph,janusgraph.org
-containernetworking,cni,1286,804,271,99,112,41,CNI,github.com/containernetworking
 rkt,rkt,1515,931,265,108,211,41,rkt,github.com/rkt/rkt
+containernetworking,cni,1286,804,271,99,112,41,CNI,github.com/containernetworking
 rethinkdb,rethinkdb,2723,1800,228,177,518,32,RethinkDB,www.rethinkdb.com
 letsencrypt,boulder+pebble,4269,1265,1123,1179,702,28,Let's Encrypt,letsencrypt.org
 openhpc,ohpc,2811,393,152,1853,413,20,OpenHPC,openhpc.community

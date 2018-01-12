@@ -46,6 +46,34 @@ Try running this from the velocity project's root folder:
 Run this from the velocity project's root folder again:
 `ruby add_linux.rb data/data_lf_projects_201611_201710.csv data/data_linux.csv 2016-11-01 2017-11-01`
 
+
+<b>Add AGL (Automotive Grade Linux) data</b>
+- Go to: https://wiki.automotivelinux.org/agl-distro/source-code and get source code somewhere:
+- `mkdir agl; cd agl`
+- `curl https://storage.googleapis.com/git-repo-downloads/repo > repo; chmod +x ./repo`
+- `./repo init -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo; ./repo init`
+- `./repo sync`
+- Now You need to use script `agl/run_multirepo.sh` with: `./run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub-like statistics.
+- There will be `agl.txt` file generated, something like this:
+```
+Processed 67124 csets from 1155 developers
+52 employers found
+A total of 13431516 lines added, 12197416 removed, 24809064 changed (delta 1234100)
+```
+- You can get number of authors: 1155 and commits 67124 (this is for all time)
+- To get data for some specific data range: `cd agl; DTFROM="2016-10-01" DTTO="2017-10-01" ./run_multirepo_range.sh` ==> `agl.txt`.
+```
+Processed 7152 csets from 365 developers
+```
+- 7152 commits and 365 authors.
+- To get number of Issues, search Jira: `https://jira.automotivelinux.org/browse/SPEC-923?jql=created%20%3E%3D%202016-10-01%20AND%20created%20%3C%3D%202017-10-01`
+- It says 665 issues in a given date range
+- PRs = 1.07 * 665 = 711
+- Comments would be 2 * commits = 14304
+- Activity = sum of all others (comments, commits, issues, prs)
+- Create a file based on `data/data_agl_201611_201710.csv` and apply proper data values
+- Run `ruby merger.rb data_lf_projects_201611_201710.csv data/data_agl_201611_201710.csv`
+
 Run `analysis.rb` with
 ```
 ruby analysis.rb data/data_lf_projects_201611_201710.csv projects/projects_lf_201611_201710.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
