@@ -276,13 +276,13 @@ chromium_commits_201701_201712.csv
 - <b>openSUSE case:</b>
 - BigQuery part exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
 
-- <b>AGL (automotive Grade Linux) case:</b>
+- <b>AGL (Automotive Grade Linux) case:</b>
 - Go to: https://wiki.automotivelinux.org/agl-distro/source-code and get source code somewhere:
 - `mkdir agl; cd agl`
 - `curl https://storage.googleapis.com/git-repo-downloads/repo > repo; chmod +x ./repo`
 - `./repo init -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo; ./repo init`
 - `./repo sync`
-- Now You need to use script `agl/run_multirepo.sh` with: `./run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub statistics.
+- Now You need to use script `agl/run_multirepo.sh` with: `./run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub-like statistics.
 - There will be `agl.txt` file generated, something like this:
 ```
 Processed 67124 csets from 1155 developers
