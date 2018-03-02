@@ -22,7 +22,7 @@ select
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from
   (select * from
-    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-01-01'),TIMESTAMP('2017-12-31'))
+    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-03-01'),TIMESTAMP('2018-02-28'))
   )
 where
   (
@@ -30,16 +30,23 @@ where
       'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'containerd',
       'rkt', 'kubernetes-client'/*, 'kubernetes-contrib', 'kubernetes-cluster-automation'*/,
       'kubernetes-incubator'/*, 'kubernetes-ui'*/, 'coredns', 'grpc-ecosystem', 'containernetworking',
-      'envoyproxy', 'jaegertracing', 'theupdateframework'
+      'envoyproxy', 'jaegertracing', 'theupdateframework', 'rook', 'vitess', 'cncf', 'crosscloudci'
     )
     or repo.name in ('docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
     'GoogleCloudPlatform/kubernetes-workshops', 'envoyproxy/envoy','lyft/envoy', 'uber/jaeger',
-    'docker/notary')
+    'docker/notary', 'youtube/vitess')
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
-  and actor.login not like '%bot%'
+  and not like all(array['googlebot', 'coveralls', 'rktbot', 'coreosbot', 'web-flow', 'k8s-%', '%-bot', '%-robot', 'bot-%', 'robot-%', '%[bot]%', '%-jenkins', '%-ci%bot', '%-testing', 'codecov-%'])
   AND actor.login NOT IN (
-  'CF MEGA BOT','CAPI CI','CF Buildpacks Team CI Server','CI Pool Resource','I am Groot CI','CI (automated)','Loggregator CI','CI (Automated)','CI Bot','cf-infra-bot','CI','cf-loggregator','bot','CF INFRASTRUCTURE BOT','CF Garden','Container Networking Bot','Routing CI (Automated)','CF-Identity','BOSH CI','CF Loggregator CI Pipeline','CF Infrastructure','CI Submodule AutoUpdate','routing-ci','Concourse Bot','CF Toronto CI Bot','Concourse CI','Pivotal Concourse Bot','RUNTIME OG CI','CF CredHub CI Pipeline','CF CI Pipeline','CF Identity','PCF Security Enablement CI','CI BOT','Cloudops CI','hcf-bot','Cloud Foundry Buildpacks Team Robot','CF CORE SERVICES BOT','PCF Security Enablement','fizzy bot','Appdog CI Bot','CF Tribe','Greenhouse CI','fabric-composer-app','iotivity-replication','SecurityTest456','odl-github','opnfv-github' 
+  'CF MEGA BOT', 'CAPI CI', 'CF Buildpacks Team CI Server', 'CI Pool Resource', 'I am Groot CI', 'CI (automated)',
+  'Loggregator CI','CI (Automated)','CI Bot','cf-infra-bot','CI','cf-loggregator','bot','CF INFRASTRUCTURE BOT',
+  'CF Garden','Container Networking Bot','Routing CI (Automated)','CF-Identity','BOSH CI','CF Loggregator CI Pipeline',
+  'CF Infrastructure','CI Submodule AutoUpdate','routing-ci','Concourse Bot','CF Toronto CI Bot','Concourse CI',
+  'Pivotal Concourse Bot','RUNTIME OG CI','CF CredHub CI Pipeline','CF CI Pipeline','CF Identity','PCF Security Enablement CI',
+  'CI BOT','Cloudops CI','hcf-bot','Cloud Foundry Buildpacks Team Robot','CF CORE SERVICES BOT','PCF Security Enablement',
+  'fizzy bot','Appdog CI Bot','CF Tribe','Greenhouse CI','fabric-composer-app','iotivity-replication','SecurityTest456',
+  'odl-github','opnfv-github' 
   )
   AND actor.login NOT IN (
     SELECT
@@ -49,13 +56,13 @@ where
         actor.login,
         COUNT(*) c
       FROM
-        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-08-01'),TIMESTAMP('2017-11-01'))
+        TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-03-01'),TIMESTAMP('2018-02-28'))
       WHERE
         type = 'IssueCommentEvent'
       GROUP BY
         1
       HAVING
-        c > 2000
+        c > 5000
       ORDER BY
       2 DESC
     )
@@ -65,6 +72,6 @@ group by org, repo, author_email, author_name
 group by org, repo
 order by
   activity desc
-limit 10000
+limit 100000
 ;
 
