@@ -8,11 +8,19 @@ CNI:
 
 CoreDNS:
 	#679 by activity (8010)
-	#1224 by authors (74)
+	#1225 by authors (74)
 	#680 by comments (3809)
-	#1440 by commits (1686)
+	#1441 by commits (1686)
 	#586 by issues (903)
 	#322 by prs (1612)
+
+Envoy:
+	#165 by activity (19382)
+	#188 by authors (237)
+	#207 by comments (8631)
+	#298 by commits (4919)
+	#298 by issues (1432)
+	#63 by prs (4400)
 
 Fluentd:
 	#589 by activity (8789)
@@ -22,6 +30,14 @@ Fluentd:
 	#359 by issues (1272)
 	#353 by prs (1503)
 
+Jaeger:
+	#723 by activity (7657)
+	#1188 by authors (75)
+	#770 by comments (3412)
+	#1331 by commits (1787)
+	#546 by issues (947)
+	#350 by prs (1511)
+
 Kubernetes:
 	#1 by activity (381739)
 	#3 by authors (2574)
@@ -30,10 +46,26 @@ Kubernetes:
 	#3 by issues (32580)
 	#2 by prs (58566)
 
+Notary:
+	#5777 by activity (1158)
+	#3657 by authors (33)
+	#3510 by comments (731)
+	#20702 by commits (95)
+	#4102 by issues (166)
+	#3762 by prs (193)
+
+OCI:
+	#847 by activity (6762)
+	#1105 by authors (78)
+	#464 by comments (5162)
+	#6090 by commits (468)
+	#2920 by issues (237)
+	#726 by prs (895)
+
 OpenTracing:
 	#1601 by activity (4148)
 	#1083 by authors (79)
-	#1055 by comments (2591)
+	#1054 by comments (2591)
 	#5591 by commits (511)
 	#1856 by issues (367)
 	#1046 by prs (679)
@@ -45,6 +77,30 @@ Prometheus:
 	#454 by commits (3554)
 	#49 by issues (4126)
 	#58 by prs (4529)
+
+Rook:
+	#966 by activity (6039)
+	#1222 by authors (74)
+	#849 by comments (3095)
+	#4420 by commits (644)
+	#425 by issues (1140)
+	#513 by prs (1160)
+
+TUF:
+	#4685 by activity (1467)
+	#5290 by authors (24)
+	#4466 by comments (546)
+	#7547 by commits (372)
+	#5449 by issues (120)
+	#1782 by prs (429)
+
+Vitess:
+	#1142 by activity (5349)
+	#1511 by authors (64)
+	#1075 by comments (2549)
+	#3925 by commits (728)
+	#1330 by issues (480)
+	#325 by prs (1592)
 
 containerd:
 	#405 by activity (11320)

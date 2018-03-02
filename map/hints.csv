@@ -54,6 +54,7 @@ Azure/azure-webjobs-sdk-extensions,Azure SDKs
 Azure/azure-webjobs-sdk-script,Azure SDKs
 Azure/azure-webjobs-sdk-templates,Azure SDKs
 Azure/sonic-py-swsssdk,Azure SDKs
+BuoyantIO/linkerd,Linkerd
 Dronecode/Dronecode-Website-Issues,Dronecode
 Dronecode/Technical-Steering-Committee,Dronecode
 Dronecode/UX-Design,Dronecode
@@ -743,6 +744,7 @@ kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
 lyft/envoy,Envoy
 mamedev/mame,MAME
+miekg/coredns,CoreDNS
 mozilla/123done,Firefox
 mozilla/ADBFuzz,Firefox
 mozilla/Fira,Firefox
