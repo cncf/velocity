@@ -10,23 +10,23 @@ echo "Adding/Updating Cloud Foundry Projects"
 ruby merger.rb data/unlimited.csv data/data_cloudfoundry_201703_201802.csv force
 # Don't forget to add exception to map/ranges.csv when adding projects pulled with different BigQuery (specially with 0s for issues, PRs etc)
 echo "Adding/Updating CNCF Projects"
-ruby merger.rb data/unlimited.csv data/data_cncf_projects_201703_201802.csv
+ruby merger.rb data/unlimited.csv data/data_cncf_projects_201703_201712.csv
 echo "Adding/Updating WebKit case"
-ruby merger.rb data/unlimited.csv data/webkit_201703_201802.csv
+ruby merger.rb data/unlimited.csv data/webkit_201701_201712.csv
 echo "Adding/Updating OpenStack case"
-ruby merger.rb data/unlimited.csv data/data_openstack_201703_201802.csv
+ruby merger.rb data/unlimited.csv data/data_openstack_201701_201712.csv
 echo "Adding/Updating Apache case"
-ruby merger.rb data/unlimited.csv data/data_apache_201703_201802.csv
+ruby merger.rb data/unlimited.csv data/data_apache_201701_201712.csv
 echo "Adding/Updating Chromium case"
-ruby merger.rb data/unlimited.csv data/data_chromium_201703_201802.csv
+ruby merger.rb data/unlimited.csv data/data_chromium_201701_201712.csv
 echo "Adding/Updating openSUSE case"
-ruby merger.rb data/unlimited.csv data/data_opensuse_201703_201802.csv
+ruby merger.rb data/unlimited.csv data/data_opensuse_201701_201712.csv
 echo "Adding/Updating AutomotiveGradeLinux (AGL) case"
-ruby merger.rb data/unlimited.csv data/data_agl_201703_201802.csv
+ruby merger.rb data/unlimited.csv data/data_agl_201701_201712.csv
 echo "Adding/Updating LibreOffice case"
-ruby merger.rb data/unlimited.csv data/data_libreoffice_201703_201802.csv
+ruby merger.rb data/unlimited.csv data/data_libreoffice_201701_201712.csv
 echo "Adding/Updating FreeBSD Projects"
-ruby merger.rb data/unlimited.csv data/data_freebsd_201703_201802.csv
+ruby merger.rb data/unlimited.csv data/data_freebsd_201701_201712.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating OpenStack projects using their bug tracking data"
