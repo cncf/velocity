@@ -37,7 +37,16 @@ where
     'docker/notary', 'youtube/vitess')
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
-  and not like all(array['googlebot', 'coveralls', 'rktbot', 'coreosbot', 'web-flow', 'k8s-%', '%-bot', '%-robot', 'bot-%', 'robot-%', '%[bot]%', '%-jenkins', '%-ci%bot', '%-testing', 'codecov-%'])
+  and actor.login not like 'k8s-%'
+  and actor.login not like '%-bot'
+  and actor.login not like '%-robot'
+  and actor.login not like 'bot-%'
+  and actor.login not like 'robot-%'
+  and actor.login not like '%[bot]%'
+  and actor.login not like '%-jenkins'
+  and actor.login not like '%-ci%bot'
+  and actor.login not like '%-testing'
+  and actor.login not like 'codecov-%'
   AND actor.login NOT IN (
   'CF MEGA BOT', 'CAPI CI', 'CF Buildpacks Team CI Server', 'CI Pool Resource', 'I am Groot CI', 'CI (automated)',
   'Loggregator CI','CI (Automated)','CI Bot','cf-infra-bot','CI','cf-loggregator','bot','CF INFRASTRUCTURE BOT',
@@ -46,7 +55,7 @@ where
   'Pivotal Concourse Bot','RUNTIME OG CI','CF CredHub CI Pipeline','CF CI Pipeline','CF Identity','PCF Security Enablement CI',
   'CI BOT','Cloudops CI','hcf-bot','Cloud Foundry Buildpacks Team Robot','CF CORE SERVICES BOT','PCF Security Enablement',
   'fizzy bot','Appdog CI Bot','CF Tribe','Greenhouse CI','fabric-composer-app','iotivity-replication','SecurityTest456',
-  'odl-github','opnfv-github' 
+  'odl-github','opnfv-github','googlebot', 'coveralls', 'rktbot', 'coreosbot', 'web-flow',  
   )
   AND actor.login NOT IN (
     SELECT
