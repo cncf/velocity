@@ -46,6 +46,14 @@ Kubernetes:
 	#3 by issues (32580)
 	#2 by prs (58566)
 
+Linkerd:
+	#983 by activity (5953)
+	#1140 by authors (77)
+	#1192 by comments (2323)
+	#1403 by commits (1716)
+	#679 by issues (810)
+	#547 by prs (1104)
+
 Notary:
 	#5777 by activity (1158)
 	#3657 by authors (33)
