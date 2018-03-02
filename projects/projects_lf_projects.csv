@@ -1,0 +1,30 @@
+org,repo,activity,comments,prs,commits,issues,authors,project,url
+kubernetes,kubernetes+test-infra+kubernetes.github.io+kops+charts+helm+ingress+minikube+community+dashboard+contrib+heapster+features+autoscaler+kube-state-metrics+client-go+release+frakti+kubernetes-anywhere+dns+kompose+node-problem-detector+examples+git-sync,297248,212867,44754,14645,24982,1902,Kubernetes,kubernetes.io
+nodejs+prometheus,node+build+nodejs.org+node-gyp+docker-node+citgm+CTC+TSC+node-chakracore+abi-stable-node+community-committee+LTS+readable-stream+benchmarking+llnode+nodejs-ko+node-addon-api+http2+github-bot+nan+node-report+nodereport+board+consul_exporter+node-inspect,96334,68999,11595,7147,8593,876,Node.js,nodejs.org
+cloudfoundry,bosh+cli+cf-deployment+uaa+cloud_controller_ng+diego-release+cf-release+loggregator+cf-java-client+bosh-cli+java-buildpack+bosh-bootloader+cf-mysql-release+docs-cf-admin+php-buildpack+bosh-deployment+dotnet-core-buildpack+garden-runc-release+cf-acceptance-tests+bosh-agent+docs-bosh+guardian+docs-dev-guide+uaa-release+bosh-softlayer-cpi-release+staticfile-buildpack+bosh-softlayer-cpi+cf-deployment-concourse-tasks+capi-release+docs-deploying-cf+ibm-websphere-liberty-buildpack,39207,10729,3534,20673,4271,652,Cloud Foundry,cloudfoundry.org
+prometheus,prometheus+alertmanager+node_exporter+docs+snmp_exporter+client_java+blackbox_exporter+client_golang+jmx_exporter+tsdb+client_python+mysqld_exporter+pushgateway+common+client_ruby+statsd_exporter,23697,14191,3468,2669,3369,373,Prometheus,prometheus.io
+grpc,grpc+grpc-java+grpc-go+grpc.github.io+grpc-swift,35747,19414,8032,3521,4780,300,gRPC,grpc.io
+zephyrproject-rtos,zephyr,10888,2958,3063,4691,176,184,Zephyr Project,www.zephyrproject.org
+opencontainers,runc+image-spec+runtime-spec+runtime-tools+image-tools,13920,9583,2714,1012,611,117,Open Container Initiative,www.opencontainers.org
+iovisor,bcc+gobpf,4298,2384,963,528,423,109,IO Visor Project,www.iovisor.org
+fluent,fluentd+fluent-bit+fluent-plugin-kafka+fluentd-docker-image+fluentd-docs+fluentd-kubernetes-daemonset+fluent-plugin-s3+fluent-logger-node,7062,3319,1001,1771,971,108,Fluentd,fluentd.org
+hyperledger,composer+iroha+burrow,10652,2743,2589,3606,1714,96,Hyperledger Project,hyperledger.org
+containerd,containerd,5433,3099,1314,578,442,64,containerd,containerd.io
+letsencrypt,boulder+website,4957,1435,1305,1443,774,64,Let's Encrypt,letsencrypt.org
+Samsung,TizenRT,2967,743,1393,762,69,58,Tizen,www.tizen.org
+linkerd,linkerd+linkerd-examples+linkerd-tcp,4917,1774,900,1519,724,54,Linkerd,linkerd.io
+containernetworking,cni,1466,929,299,107,131,45,CNI,github.com/containernetworking
+OAI,OpenAPI-Specification,3529,2001,615,407,506,44,Open API Initiative,www.openapis.org
+opentracing,opentracing-java+specification+opentracing.io,2699,1792,355,337,215,43,OpenTracing,opentracing.io
+JanusGraph,janusgraph,2904,1670,503,236,495,38,JanusGraph,janusgraph.org
+rethinkdb,rethinkdb,2751,1917,201,139,494,32,RethinkDB,www.rethinkdb.com
+rkt,rkt,1178,768,181,75,154,30,rkt,github.com/rkt/rkt
+fossology,fossology,1550,853,265,173,259,19,FOSSology,www.fossology.org
+openhpc,ohpc,2976,405,138,2035,398,18,OpenHPC,openhpc.community
+openvswitch,ovn-kubernetes,643,333,170,84,56,18,Open vSwitch,openvswitch.org
+cncf,demo+cross-cloud,1259,193,196,725,145,17,Cloud Native Computing Foundation,Cloud Native Computing Foundation
+OpenMAMA,OpenMAMA,519,205,137,96,81,17,OpenMAMA,www.openmama.org
+spdx,license-list-XML+tools,969,323,292,281,73,15,Software Package Data Exchange,spdx.org
+opensecuritycontroller,osc-core,520,173,172,78,97,10,Open Security Controller,opensecuritycontroller
+coreinfrastructure,best-practices-badge,838,333,137,272,96,9,Core Infrastructure Initiative,www.coreinfrastructure.org
+opensds,opensds,369,95,146,103,25,7,OpenSDS,www.opensds.io
