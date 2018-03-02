@@ -38,7 +38,7 @@ MobileChromeApps,Chromium
 OfficeDev,Office Developer
 Open API Initiative,Open API
 Open Accessibility (A11y) Group,A11y
-Open Container Initiative,Open Container
+Open Container Initiative,OCI
 Open Mainframe Project,Open Mainframe
 OpenStack-mobile,OpenStack Mobile
 OpenStackCookbook,OpenStack Cookbook
@@ -90,6 +90,7 @@ containernetworking,CNI
 coredns,CoreDNS
 coreos,CoreOS
 cregit/cregit,cregit
+crosscloudci,CNCF
 d3athrow/vgstation13,vgstation13
 dart-lang,Dart
 department-of-veterans-affairs,Caseflow
@@ -157,6 +158,7 @@ nextcloud,Nextcloud
 nodejs,Node.js
 nylas,Nylas
 odoo,Odoo
+opencontainers,OCI
 openhab,openHAB
 openmainframeproject,Open Mainframe
 openshift,OpenShift
@@ -180,6 +182,7 @@ prometheus,Prometheus
 rackt,React
 rails,Ruby on Rails
 rapid7,Rapid7
+rook,Rook
 rust-lang,Rust
 sakaiproject,Sakai
 saltstack,SaltStack
@@ -196,10 +199,12 @@ telerik,Telerik
 terraform-providers,Terraform
 tgstation,SS13
 thephpleague,League of Extraordinary Packages
+theupdateframework,TUF
 twitter,Twitter
 uber,Uber Open Source
 uber+jaegertracing,Jaeger
 vgstation-coders,vgstation13
+vitess,Vitess
 vmware,VMware
 voidlinux,The Void distribution
 voxpupuli,Vox Populi
@@ -222,4 +227,3 @@ zendframework,Zend Framework
 # kubernetes-cluster-automation,Kubernetes
 # kubernetes-contrib,Kubernetes
 # kubernetes-ui,Kubernetes
-#theupdateframework,TUF

@@ -30,15 +30,15 @@ ruby merger.rb data/unlimited.csv data/data_freebsd_201701_201712.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating OpenStack projects using their bug tracking data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201703_201802.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201701_201712.csv -1
 echo "Updating Apache Projects using Jira data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_201703_201802.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_201701_201712.csv -1
 echo "Updating Chromium project using their bug tracking data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_201703_201802.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_201701_201712.csv -1
 echo "Updating LibreOffice project using their git repo"
-ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201703_201802.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201701_201712.csv -1
 echo "Updating FreeBSD project using their repos SVN data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_freebsd_svn_201703_201802.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_freebsd_svn_201701_201712.csv -1
 echo "Generating Projects Ranks statistics"
 ./shells/report_cncf_project_ranks.sh
 ./shells/report_other_project_ranks.sh

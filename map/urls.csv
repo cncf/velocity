@@ -213,7 +213,7 @@ IoTivity,www.iotivity.org
 Ionic,ionicframework.com
 Iron.io,iron.io
 JS Foundation,js.foundation
-Jaeger,jaeger.readthedocs.io/en/latest/
+Jaeger,jaeger.readthedocs.io/en/latest
 JanusGraph,janusgraph.org
 Joomla,joomla.org
 Julia,julialang.org
@@ -229,6 +229,7 @@ League of Extraordinary Packages,thephpleague.com
 Let's Encrypt,letsencrypt.org
 Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
+Linkerd,linkerd.io
 Linux,kernel.org
 Linux Standard Base,LinuxStandardBase
 Linux sunxi,linux-sunxi.org
@@ -294,9 +295,10 @@ Nextcloud,nextcloud.com
 NixOS,nixos.org
 Node.js,nodejs.org
 Nomad,nomadproject.io
-Notary,theupdateframework/notary
+Notary,github.com/theupdateframework/notary
 Nunjucks,mozilla.github.io/nunjucks
 Nylas,nylas.com
+OCI,www.opencontainers.org
 ODPi,www.odpi.org
 ONOS,onosproject.org
 OPAM,opam.ocaml.org
@@ -305,7 +307,6 @@ Odoo,odoo.com
 Office Developer,dev.office.com
 Open API,www.openapis.org
 Open Build Service,openbuildservice.org
-Open Container,www.opencontainers.org
 Open Mainframe,www.openmainframeproject.org
 Open Management Infrastructure,github.com/Microsoft/omi
 Open Network Automation Platform,www.onap.org
@@ -392,6 +393,7 @@ RethinkDB,www.rethinkdb.com
 RobotLocomotion,drake.mit.edu
 RocketChat,rocket.chat
 RocksDB,rocksdb.org
+Rook,rook.io
 Ruby on Rails,rubyonrails.org
 Rust,rust-lang.org
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
@@ -427,7 +429,7 @@ Symfony,symfony.com
 TEAMMATES,teammatesv4.appspot.com
 TODO group,todogroup.org
 TSLint,palantir.github.io/tslint
-TUF,theupdateframework.com
+TUF,github.com/theupdateframework.com
 Team Kodi,kodi.tv
 TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
 Telerik,telerik.com
@@ -463,6 +465,7 @@ VMware Xenon,github.com/vmware/xenon
 VMware vSphere,vmware.github.io/vic
 VS Code,code.visualstudio.com
 Vault,vaultproject.io
+Vitess,vitess.io
 Vorto Project,github.com/eclipse/vorto
 Vox Populi,voxpopuli.org
 W3C,w3.org
@@ -527,7 +530,6 @@ hzuapps,github.com/hzuapps
 iojs,io.js
 jsDelivr,jsdelivr.com
 libretro,libretro.com
-Linkerd,linkerd.io
 lyft,github.com/lyft/envoy
 micro-bit,microbit.co.uk/blocks/editor
 neveragain.tech,neveragain.tech
@@ -541,8 +543,6 @@ osquery,osquery.io
 ownCloud,oowncloud.org
 python,www.python.org
 rkt,github.com/rkt/rkt
-Rook,rook.io
-Vitess,vitess.io
 science.mozilla.org,science.mozilla.org
 systemd,freedesktop.org/wiki/Software/systemd
 tock,18f.gsa.gov/2015/05/21/TockingTime

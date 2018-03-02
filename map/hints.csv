@@ -579,6 +579,7 @@ coreos/kubernetes,CoreOS
 coreos/prometheus,CoreOS
 coreos/prometheus-operator,CoreOS
 coreos/rkt,rkt
+coreos/rocket,rkt
 docker/compose,Docker
 docker/containerd,containerd
 docker/distribution,Docker
@@ -740,6 +741,7 @@ kubernetes/kubernetes,Kubernetes
 kubernetes/kubernetes.github.io,Kubernetes
 kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
+lyft/envoy,Envoy
 mamedev/mame,MAME
 mozilla/123done,Firefox
 mozilla/ADBFuzz,Firefox
@@ -1072,23 +1074,23 @@ openSUSE/kernel-source,openSUSE Kernel source
 openSUSE/open-build-service,Open Build Service
 openSUSE/salt,openSUSE SaltStack
 openSUSE/zypper,Zypper
-opencontainer/go-selinux+runc.io,Open Container
-opencontainers/certification,Open Container
-opencontainers/g-selinux,Open Container
-opencontainers/go-digest,Open Container
-opencontainers/go-selinux,Open Container
-opencontainers/image-spec,Open Container
-opencontainers/image-tools,Open Container
-opencontainers/ocitools,Open Container
-opencontainers/project-template,Open Container
-opencontainers/runc,Open Container
-opencontainers/runc.io,Open Container
-opencontainers/runtime-spec,Open Container
-opencontainers/runtime-tools,Open Container
-opencontainers/selinux,Open Container
-opencontainers/tob,Open Container
-opencontainers/unc.io,Open Container
-opencontainers/web,Open Container
+opencontainer/go-selinux+runc.io,OCI
+opencontainers/certification,OCI
+opencontainers/g-selinux,OCI
+opencontainers/go-digest,OCI
+opencontainers/go-selinux,OCI
+opencontainers/image-spec,OCI
+opencontainers/image-tools,OCI
+opencontainers/ocitools,OCI
+opencontainers/project-template,OCI
+opencontainers/runc,OCI
+opencontainers/runc.io,OCI
+opencontainers/runtime-spec,OCI
+opencontainers/runtime-tools,OCI
+opencontainers/selinux,OCI
+opencontainers/tob,OCI
+opencontainers/unc.io,OCI
+opencontainers/web,OCI
 opencord/cord,CORD
 opendaylight/aaa,OpenDaylight
 opendaylight/alto,OpenDaylight
@@ -1578,6 +1580,7 @@ rethinkdb/rethinkdb-dockerfiles,RethinkDB
 rethinkdb/rethinkdb-example-nodejs,RethinkDB
 rethinkdb/rethinkdb-example-nodejs-chat,RethinkDB
 rethinkdb/rethinkdb-nix,RethinkDB
+rktproject/rkt,rkt
 spdx/license-coverage-grader,SPDX
 spdx/license-list,SPDX
 spdx/license-list-XML,SPDX
@@ -1671,6 +1674,7 @@ wso2/carbon-mediation,WSO2 Carbon
 wso2/carbon-messaging,WSO2 Carbon
 wso2/carbon-transports,WSO2 Carbon
 wso2/carbon-uuf,WSO2 Carbon
+youtube/vitess,Vitess
 zalando/nakadi,Nakadi
 zalando/patroni,Patroni
 zeit/hyper,Hyper

@@ -9,3 +9,10 @@ containerd
 CNI
 Linkerd
 CoreDNS
+Envoy
+Jaeger
+Notary
+TUF
+Rook
+Vitess
+OCI
