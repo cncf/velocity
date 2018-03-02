@@ -3,9 +3,9 @@ echo "Restoring BigQuery output"
 cp data/top30_20170301_20180228.csv data/unlimited.csv
 echo "Adding Linux kernel data"
 ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2017-03-01 2018-03-01
-exit
 echo "Adding GitLab data"
 ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2017-03-01 2018-03-01 gitlab gitlab/GitLab
+exit
 echo "Adding/Updating Cloud Foundry Projects"
 # This uses "force" mode to update Cloud Foundry values to lower ones (this is because we have special query output for CF projects which skips more bots, so lower values are expected)
 ruby merger.rb data/unlimited.csv data/data_cloudfoundry_201703_201802.csv force
