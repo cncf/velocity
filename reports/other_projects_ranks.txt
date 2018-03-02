@@ -238,6 +238,14 @@ LibreOffice:
 	#16 by issues (7482)
 	#18764 by prs (21)
 
+Linux:
+	#2 by activity (347346)
+	#1 by authors (3917)
+	#1 by comments (281035)
+	#5 by commits (66311)
+	#2 by issues (70258)
+	#1 by prs (70258)
+
 OpenStack API:
 	#6691 by activity (977)
 	#431 by authors (150)

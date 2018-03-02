@@ -42,6 +42,7 @@ ruby update_projects.rb projects/unlimited_both.csv data/data_freebsd_svn_201701
 echo "Generating Projects Ranks statistics"
 ./shells/report_cncf_project_ranks.sh
 ./shells/report_other_project_ranks.sh
+./shells/report_top_projects.sh
 echo "Truncating results to Top 500"
 cat ./projects/unlimited_both.csv | head -n 501 > tmp && mv tmp ./projects/unlimited.csv
 echo "All done"
