@@ -527,7 +527,7 @@ hzuapps,github.com/hzuapps
 iojs,io.js
 jsDelivr,jsdelivr.com
 libretro,libretro.com
-linkerd,linkerd.io
+Linkerd,linkerd.io
 lyft,github.com/lyft/envoy
 micro-bit,microbit.co.uk/blocks/editor
 neveragain.tech,neveragain.tech
@@ -541,6 +541,8 @@ osquery,osquery.io
 ownCloud,oowncloud.org
 python,www.python.org
 rkt,github.com/rkt/rkt
+Rook,rook.io
+Vitess,vitess.io
 science.mozilla.org,science.mozilla.org
 systemd,freedesktop.org/wiki/Software/systemd
 tock,18f.gsa.gov/2015/05/21/TockingTime
