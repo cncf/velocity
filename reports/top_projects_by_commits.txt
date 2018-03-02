@@ -1,0 +1,101 @@
+Top projects by commits:
+1) dotclear commits: 284101
+2) everypolitician-scrapers commits: 245375
+3) sudouc commits: 157401
+4) Chromium (google.com/chrome) commits: 76989
+5) Linux (kernel.org) commits: 66311
+6) Government Digital Service (gds.blog.gov.uk) commits: 54009
+7) Cloud Foundry (cloudfoundry.org) commits: 40919
+8) phalcon commits: 40140
+9) FreeBSD (freebsd.org) commits: 37309
+10) dotnet (microsoft.com/net) commits: 33511
+11) WP Calypso (developer.wordpress.com/calypso) commits: 32712
+12) Caseflow (va.gov) commits: 30753
+13) Mapbox (mapbox.com) commits: 29097
+14) MicrosoftDocs (docs.microsoft.com) commits: 27692
+15) ASP.net (asp.net) commits: 25779
+16) openfoodfacts commits: 25005
+17) WiX (wixtoolset.org) commits: 24006
+18) Elasticsearch (elastic.co/products/elasticsearch) commits: 23959
+19) kodinerds commits: 22628
+20) ancap-ch commits: 20592
+21) VS Code (code.visualstudio.com) commits: 20557
+22) tencentyun commits: 20446
+23) Kubernetes (kubernetes.io) commits: 19595
+24) Wire Swiss GmbH (wire.com) commits: 18986
+25) Pivotal Cloud Foundry (pivotal.io) commits: 18865
+26) Mozilla (mozilla.org) commits: 18757
+27) LibreOffice commits: 18439
+28) code-dot-org commits: 18360
+29) Dart (dartlang.org) commits: 17884
+30) ONSdigital commits: 17748
+31) egovernments commits: 17138
+32) The Guardian (theguardian.com) commits: 17120
+33) Datadog (datadog.com) commits: 17033
+34) input-output-hk commits: 16987
+35) edx commits: 16792
+36) easylist commits: 16757
+37) PingCAP (github.com/pingcap) commits: 16522
+38) CARTO (carto.com) commits: 15766
+39) camptocamp commits: 15730
+40) dimagi commits: 15698
+41) GitLab (gitlab.com) commits: 15651
+42) Nextcloud (nextcloud.com) commits: 15640
+43) Eclipse (eclipse.org) commits: 15456
+44) vaadin commits: 15300
+45) NixOS (nixos.org) commits: 15156
+46) OpenClassrooms-Student-Center commits: 15149
+47) Broad Institute (broadinstitute.org) commits: 15121
+48) Keybase (keybase.io) commits: 14175
+49) 18F commits: 14026
+50) Apache Mesos (mesos.apache.org) commits: 13679
+51) corda commits: 13535
+52) Mantid (mantidproject.org) commits: 13287
+53) WebKit (webkit.org) commits: 13260
+54) getsentry commits: 13221
+55) Charcoal-SE commits: 12873
+56) gradle commits: 12665
+57) spring-cloud commits: 12661
+58) OpusCapita commits: 12464
+59) WordPress-mobile (make.wordpress.org/mobile) commits: 12241
+60) mathblogging commits: 12145
+61) sgmap commits: 12131
+62) blackducksoftware commits: 12096
+63) libretro (libretro.com) commits: 11954
+64) commercialhaskell commits: 11923
+65) cityofsandiego commits: 11920
+66) mono commits: 11712
+67) cerner commits: 11698
+68) ManageIQ (manageiq.org) commits: 11696
+69) Talend commits: 11692
+70) ownCloud (oowncloud.org) commits: 11582
+71) HardenedBSD commits: 11330
+72) kaltura commits: 11003
+73) mozilla-l10n commits: 10989
+74) Ethereum (ethereum.org) commits: 10983
+75) arangodb commits: 10859
+76) GSA commits: 10843
+77) fga-gpp-mds commits: 10775
+78) Terraform (terraform.io) commits: 10523
+79) Chef (chef.io/chef) commits: 10515
+80) uktrade commits: 10505
+81) metasfresh commits: 10443
+82) greenelab commits: 10388
+83) sul-dlss commits: 10272
+84) Hyperledger (hyperledger.org) commits: 10264
+85) datacarpentry commits: 10205
+86) crate commits: 10041
+87) akeneo commits: 9922
+88) unicef commits: 9921
+89) InfluxData (influxdata.com) commits: 9886
+90) ec-europa commits: 9886
+91) mulesoft commits: 9836
+92) Financial-Times commits: 9831
+93) DjangoGirls commits: 9761
+94) heroku commits: 9603
+95) LiskHQ commits: 9572
+96) algolia commits: 9489
+97) Addons-Server (addons.mozilla.org) commits: 9461
+98) Homebrew (brew.sh) commits: 9346
+99) Firefox (mozilla.org/en-US/firefox) commits: 9223
+100) perl11 commits: 9186

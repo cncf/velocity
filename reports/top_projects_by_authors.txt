@@ -1,0 +1,101 @@
+Top projects by authors:
+1) Linux (kernel.org) authors: 3917
+2) MicrosoftDocs (docs.microsoft.com) authors: 2828
+3) Kubernetes (kubernetes.io) authors: 2574
+4) DefinitelyTyped (definitelytyped.org) authors: 2227
+5) Chromium (google.com/chrome) authors: 1806
+6) dotnet (microsoft.com/net) authors: 1509
+7) vuejs (vuejs.org) authors: 1381
+8) React (facebook.com) authors: 1378
+9) Homebrew (brew.sh) authors: 1303
+10) VS Code (code.visualstudio.com) authors: 1234
+11) Cloud Foundry (cloudfoundry.org) authors: 1162
+12) Docker (mobyproject.org) authors: 1051
+13) NixOS (nixos.org) authors: 1046
+14) Ansible (ansible.com) authors: 1042
+15) Home Assistant (home-assistant.io) authors: 1035
+16) Terraform (terraform.io) authors: 1009
+17) FreeBSD (freebsd.org) authors: 1003
+18) TensorFlow (tensorflow.org) authors: 994
+19) Mozilla (mozilla.org) authors: 882
+20) Elasticsearch (elastic.co/products/elasticsearch) authors: 875
+21) Azure SDKs (azure.microsoft.com) authors: 818
+22) apollographql (apollographql.com) authors: 768
+23) Ethereum (ethereum.org) authors: 739
+24) Angular (angular.io) authors: 739
+25) The Odin Project (theodinproject.com) authors: 710
+26) Eclipse (eclipse.org) authors: 697
+27) WiX (wixtoolset.org) authors: 666
+28) gocd (www.gocd.org) authors: 637
+29) Mapbox (mapbox.com) authors: 623
+30) Ruby on Rails (rubyonrails.org) authors: 613
+31) hnginterns (hng-intern.herokuapp.com) authors: 612
+32) Node.js (nodejs.org) authors: 601
+33) electron (electronjs.org) authors: 569
+34) Alibaba (alibaba.com) authors: 549
+35) Pivotal Cloud Foundry (pivotal.io) authors: 547
+36) CoreOS (coreos.com) authors: 537
+37) Office Developer (dev.office.com) authors: 535
+38) GitLab (gitlab.com) authors: 513
+39) Datadog (datadog.com) authors: 511
+40) Auth0 (auth0.com) authors: 510
+41) Prometheus (prometheus.io) authors: 495
+42) Magento (magento.com/home) authors: 484
+43) Netflix (netflix.github.io) authors: 483
+44) webpack (github.com/webpack) authors: 473
+45) PowerShell (microsoft.com/powershell) authors: 470
+46) fossasia (fossasia.org) authors: 461
+47) VMware (vmware.github.io) authors: 461
+48) OpenStack Nova (openstack.org) authors: 459
+49) conda-forge authors: 457
+50) Mastodon (mastodon.social) authors: 454
+51) hashicorp authors: 451
+52) Chef (chef.io/chef) authors: 445
+53) Government Digital Service (gds.blog.gov.uk) authors: 445
+54) Uber Open Source (uber.github.io) authors: 443
+55) SaltStack (repo.saltstack.com) authors: 442
+56) Automattic authors: 434
+57) OpenStack Neutron (openstack.org) authors: 432
+58) sendgrid authors: 426
+59) Mozilla Services (mozilla-services.github.io) authors: 419
+60) WP Calypso (developer.wordpress.com/calypso) authors: 418
+61) Vox Populi (voxpopuli.org) authors: 416
+62) Spotify (spotify.github.io) authors: 416
+63) ASP.net (asp.net) authors: 416
+64) js-org authors: 416
+65) getsentry authors: 412
+66) jenkinsci authors: 410
+67) OpenShift (openshift.com) authors: 410
+68) bazelbuild authors: 409
+69) Serverless Framework (serverless.com) authors: 408
+70) gRPC (grpc.io) authors: 404
+71) tencentyun authors: 403
+72) OpenStack Cinder (openstack.org) authors: 401
+73) qmk authors: 398
+74) Nextcloud (nextcloud.com) authors: 396
+75) DMLC (dmlc.github.io) authors: 396
+76) hacktoberfest17 (hacktoberfest.digitalocean.com/eventkit) authors: 389
+77) OWASP authors: 387
+78) python (www.python.org) authors: 385
+79) WSO2 (wso2.github.io) authors: 384
+80) Odoo (odoo.com) authors: 384
+81) turingschool authors: 381
+82) firebase authors: 377
+83) Shopify (shopify.com) authors: 376
+84) tensorflow authors: 375
+85) Ember.js (emberjs.com) authors: 373
+86) flowtype authors: 372
+87) LinkedIn (linkedin.com) authors: 366
+88) ASP.net Docs (docs.microsoft.com/en-us/aspnet/core) authors: 366
+89) ManageIQ (manageiq.org) authors: 363
+90) JetBrains authors: 362
+91) IBM authors: 361
+92) mono authors: 361
+93) Esri (esri.com) authors: 360
+94) RocketChat (rocket.chat) authors: 354
+95) mozilla-l10n authors: 352
+96) Apache Mesos (mesos.apache.org) authors: 350
+97) Akka (akka.io) authors: 349
+98) AMP (ampproject.org) authors: 349
+99) palantir authors: 348
+100) storybooks authors: 345
