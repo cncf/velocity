@@ -155,11 +155,13 @@ meteor,Meteor
 mitodl,MIT Office of Digital Learning
 mozilla,Mozilla
 mozilla-services,Mozilla Services
+nats-io,NATS
 neveragaindottech,neveragain.tech
 nextcloud,Nextcloud
 nodejs,Node.js
 nylas,Nylas
 odoo,Odoo
+open-policy-agent,OPA
 opencontainers,OCI
 openhab,openHAB
 openmainframeproject,Open Mainframe
@@ -206,7 +208,7 @@ twitter,Twitter
 uber,Uber Open Source
 uber+jaegertracing,Jaeger
 vgstation-coders,vgstation13
-vitess,Vitess
+vitessio,Vitess
 vmware,VMware
 voidlinux,The Void distribution
 voxpupuli,Vox Populi
