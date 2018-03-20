@@ -28,13 +28,14 @@ where
   (
     org.login in (
       'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'containerd',
-      'rkt', 'kubernetes-client'/*, 'kubernetes-contrib', 'kubernetes-cluster-automation'*/,
-      'kubernetes-incubator'/*, 'kubernetes-ui'*/, 'coredns', 'grpc-ecosystem', 'containernetworking',
-      'envoyproxy', 'jaegertracing', 'theupdateframework', 'rook', 'vitess', 'cncf', 'crosscloudci'
+      'rkt', 'kubernetes-client', 'kubernetes-helm', 'nats-io', 'open-policy-agent',
+      'kubernetes-incubator', 'coredns', 'grpc-ecosystem', 'containernetworking', 'cncf',
+      'envoyproxy', 'jaegertracing', 'theupdateframework', 'rook', 'vitessio', 'crosscloudci'
     )
     or repo.name in ('docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
-    'GoogleCloudPlatform/kubernetes-workshops', 'envoyproxy/envoy','lyft/envoy', 'uber/jaeger',
-    'docker/notary', 'youtube/vitess')
+    'lyft/envoy', 'uber/jaeger', 'BuoyantIO/linkerd', 'apcera/nats', 'apcera/gnatsd',
+    'docker/notary', 'youtube/vitess', 'appc/cni', 'miekg/coredns', 'coreos/rocket',
+    'rktproject/rkt')
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
   and actor.login not like 'k8s-%'
