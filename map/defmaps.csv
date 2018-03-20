@@ -136,6 +136,7 @@ jsdelivr,jsDelivr
 keybase,Keybase
 kubernetes,Kubernetes
 kubernetes-client,Kubernetes
+kubernetes-helm,Kubernetes
 kubernetes-incubator,Kubernetes
 laravel,Laravel
 letsencrypt,Let's Encrypt
