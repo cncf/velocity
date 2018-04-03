@@ -3,6 +3,7 @@ echo "Restoring BigQuery output"
 cp data/unlimited_output_20170401_20180401.csv data/unlimited.csv
 echo "Adding Linux kernel data"
 ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2017-04-01 2018-04-01
+exit 1
 echo "Adding GitLab data"
 ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2017-04-01 2018-04-01 gitlab gitlab/GitLab
 echo "Adding/Updating Cloud Foundry Projects"
