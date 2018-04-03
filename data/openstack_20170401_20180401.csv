@@ -1,0 +1,181 @@
+org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors
+openstack,openstack/stackalytics,20,0,20,0,0,1,(null),(null)
+openstack,openstack/kolla,16,2,14,0,0,1,(null),(null)
+openstack,openstack/cinder,16,1,15,0,0,1,(null),(null)
+openstack,openstack/puppet-ceph,12,2,10,0,0,1,(null),(null)
+openstack,openstack/requests-mock,10,3,7,0,0,1,(null),(null)
+openstack,openstack/ara,9,1,8,0,0,1,(null),(null)
+openstack,openstack/nova,8,1,7,0,0,1,(null),(null)
+openstack,openstack/python-jenkins,8,0,8,0,0,1,(null),(null)
+openstack,openstack/kolla-ansible,8,0,8,0,0,1,(null),(null)
+openstack,openstack/bandit,7,0,7,0,0,1,(null),(null)
+openstack,openstack/pyghmi,7,4,3,0,0,1,(null),(null)
+openstack,openstack/taskflow,7,0,7,0,0,1,(null),(null)
+openstack,openstack/openstack-ansible-openstack_hosts,6,2,4,0,0,1,(null),(null)
+openstack,openstack/opencafe,6,1,5,0,0,1,(null),(null)
+openstack,openstack/openstack-ansible-ops,6,1,5,0,0,1,(null),(null)
+openstack,openstack/puppet-neutron,5,0,5,0,0,1,(null),(null)
+openstack,openstack/openstack-ansible-os_neutron,5,0,5,0,0,1,(null),(null)
+openstack,openstack/charm-keystone,5,1,4,0,0,1,(null),(null)
+openstack,openstack/openstack,4,0,4,0,0,1,(null),(null)
+openstack,openstack/tosca-parser,4,0,4,0,0,1,(null),(null)
+openstack,openstack/ansible-hardening,4,2,2,0,0,1,(null),(null)
+openstack,openstack/rally,4,1,3,0,0,1,(null),(null)
+openstack,openstack/charm-cinder,4,1,3,0,0,1,(null),(null)
+openstack,openstack/diskimage-builder,4,0,4,0,0,1,(null),(null)
+openstack,openstack/salt-formula-nova,4,0,4,0,0,1,(null),(null)
+openstack,openstack/networking-generic-switch,4,0,4,0,0,1,(null),(null)
+openstack,openstack/cloudbase-init,4,3,1,0,0,1,(null),(null)
+openstack,openstack/sqlalchemy-migrate,3,0,3,0,0,1,(null),(null)
+openstack,openstack/networking-ovn,3,1,2,0,0,1,(null),(null)
+openstack,openstack/puppet-nova,3,0,3,0,0,1,(null),(null)
+openstack,openstack/openstack-planet,3,0,3,0,0,1,(null),(null)
+openstack,openstack/charm-ceph-radosgw,3,1,2,0,0,1,(null),(null)
+openstack,openstack/nova-lxd,3,0,3,0,0,1,(null),(null)
+openstack,openstack/networking-hyperv,3,0,3,0,0,1,(null),(null)
+openstack,openstack/openstack-ansible,3,0,3,0,0,1,(null),(null)
+openstack,openstack/omni,3,0,3,0,0,1,(null),(null)
+openstack,openstack/rpm-packaging,3,1,2,0,0,1,(null),(null)
+openstack,openstack/neutron,3,0,3,0,0,1,(null),(null)
+openstack,openstack/requirements,3,1,2,0,0,1,(null),(null)
+openstack,openstack/kolla-kubernetes,3,0,3,0,0,1,(null),(null)
+openstack,openstack/monasca-grafana-datasource,2,1,1,0,0,1,(null),(null)
+openstack,openstack/pymod2pkg,2,0,2,0,0,1,(null),(null)
+openstack,openstack/blazar,2,1,1,0,0,1,(null),(null)
+openstack,openstack/monasca-api,2,0,2,0,0,1,(null),(null)
+openstack,openstack/tempest,2,0,2,0,0,1,(null),(null)
+openstack,openstack/browbeat,2,1,1,0,0,1,(null),(null)
+openstack,openstack/openstack-helm,2,0,2,0,0,1,(null),(null)
+openstack,openstack/synergy-scheduler-manager,2,0,2,0,0,1,(null),(null)
+openstack,openstack/upstream-institute-virtual-environment,2,0,2,0,0,1,(null),(null)
+openstack,openstack/tacker,2,0,2,0,0,1,(null),(null)
+openstack,openstack/loci,2,0,2,0,0,1,(null),(null)
+openstack,openstack/puppet-pacemaker,2,1,1,0,0,1,(null),(null)
+openstack,openstack/blazar-dashboard,2,1,1,0,0,1,(null),(null)
+openstack,openstack/salt-formula-opencontrail,2,0,2,0,0,1,(null),(null)
+openstack,openstack/osprofiler,2,0,2,0,0,1,(null),(null)
+openstack,openstack/charm-ceph-osd,2,0,2,0,0,1,(null),(null)
+openstack,openstack/sushy-tools,2,0,2,0,0,1,(null),(null)
+openstack,openstack/swift,2,0,2,0,0,1,(null),(null)
+openstack,openstack/oslo-specs,2,0,2,0,0,1,(null),(null)
+openstack,openstack/magnum,2,0,2,0,0,1,(null),(null)
+openstack,openstack/charm-swift-proxy,2,0,2,0,0,1,(null),(null)
+openstack,openstack/python-openstacksdk,2,0,2,0,0,1,(null),(null)
+openstack,openstack/monasca-agent,2,0,2,0,0,1,(null),(null)
+openstack,openstack/salt-formula-swift,2,0,2,0,0,1,(null),(null)
+openstack,openstack/ansible-role-ara,2,0,2,0,0,1,(null),(null)
+openstack,openstack/kuryr-kubernetes,2,0,2,0,0,1,(null),(null)
+openstack,openstack/openstack-ansible-security,2,0,2,0,0,1,(null),(null)
+openstack,openstack/gnocchi,2,0,2,0,0,1,(null),(null)
+openstack,openstack/horizon,2,0,2,0,0,1,(null),(null)
+openstack,openstack/charm-nova-compute,2,0,2,0,0,1,(null),(null)
+openstack,openstack/ironic-python-agent,2,1,1,0,0,1,(null),(null)
+openstack,openstack/charm-swift-storage,2,0,2,0,0,1,(null),(null)
+openstack,openstack/osops-tools-contrib,2,0,2,0,0,1,(null),(null)
+openstack,openstack/python-swiftclient,1,0,1,0,0,1,(null),(null)
+openstack,openstack/quark,1,0,1,0,0,1,(null),(null)
+openstack,openstack/shaker,1,0,1,0,0,1,(null),(null)
+openstack,openstack/charm-ceph,1,0,1,0,0,1,(null),(null)
+openstack,openstack/group-based-policy,1,0,1,0,0,1,(null),(null)
+openstack,openstack/heat-translator,1,0,1,0,0,1,(null),(null)
+openstack,openstack/collectd-ceilometer-plugin,1,0,1,0,0,1,(null),(null)
+openstack,openstack/zun,1,0,1,0,0,1,(null),(null)
+openstack,openstack/security-specs,1,0,1,0,0,1,(null),(null)
+openstack,openstack/openstack-doc-tools,1,0,1,0,0,1,(null),(null)
+openstack,openstack/neutron-lbaas,1,0,1,0,0,1,(null),(null)
+openstack,openstack/heat-templates,1,0,1,0,0,1,(null),(null)
+openstack,openstack/osops-tools-generic,1,0,1,0,0,1,(null),(null)
+openstack,openstack/puppet-midonet,1,0,1,0,0,1,(null),(null)
+openstack,openstack/gluon,1,0,1,0,0,1,(null),(null)
+openstack,openstack/python-dracclient,1,0,1,0,0,1,(null),(null)
+openstack,openstack/monasca-thresh,1,0,1,0,0,1,(null),(null)
+openstack,openstack/os-testr,1,0,1,0,0,1,(null),(null)
+openstack,openstack/cloudkitty,1,0,1,0,0,1,(null),(null)
+openstack,openstack/fuxi,1,0,1,0,0,1,(null),(null)
+openstack,openstack/cookbook-openstack-dashboard,1,0,1,0,0,1,(null),(null)
+openstack,openstack/stacktach,1,0,1,0,0,1,(null),(null)
+openstack,openstack/tooz,1,0,1,0,0,1,(null),(null)
+openstack,openstack/charm-interface-bind-rndc,1,0,1,0,0,1,(null),(null)
+openstack,openstack/neutron-lbaas-dashboard,1,0,1,0,0,1,(null),(null)
+openstack,openstack/freezer-web-ui,1,0,1,0,0,1,(null),(null)
+openstack,openstack/monasca-statsd,1,0,1,0,0,1,(null),(null)
+openstack,openstack/openstack-ansible-lxc_hosts,1,0,1,0,0,1,(null),(null)
+openstack,openstack/neutron-vpnaas,1,0,1,0,0,1,(null),(null)
+openstack,openstack/mogan,1,0,1,0,0,1,(null),(null)
+openstack,openstack/masakari,1,0,1,0,0,1,(null),(null)
+openstack,openstack/k8s-docker-suite-app-murano,1,0,1,0,0,1,(null),(null)
+openstack,openstack/pyeclib,1,0,1,0,0,1,(null),(null)
+openstack,openstack/keystone,1,0,1,0,0,1,(null),(null)
+openstack,openstack/deb-networking-ovn,1,0,1,0,0,1,(null),(null)
+openstack,openstack/fuel-plugin-ovs,1,0,1,0,0,1,(null),(null)
+openstack,openstack/charm-rabbitmq-server,1,0,1,0,0,1,(null),(null)
+openstack,openstack/ec2-api,1,0,1,0,0,1,(null),(null)
+openstack,openstack/python-manilaclient,1,0,1,0,0,1,(null),(null)
+openstack,openstack/murano-dashboard,1,0,1,0,0,1,(null),(null)
+openstack,openstack/barbican,1,0,1,0,0,1,(null),(null)
+openstack,openstack/freezer-api,1,0,1,0,0,1,(null),(null)
+openstack,openstack/python-troveclient,1,0,1,0,0,1,(null),(null)
+openstack,openstack/poppy,1,0,1,0,0,1,(null),(null)
+openstack,openstack/syntribos-payloads,1,0,1,0,0,1,(null),(null)
+openstack,openstack/performance-docs,1,0,1,0,0,1,(null),(null)
+openstack-dev,openstack-dev/pbr,6,0,6,0,0,1,(null),(null)
+openstack-dev,openstack-dev/sandbox,2,0,2,0,0,1,(null),(null)
+openstack-dev,openstack-dev/bashate,2,0,2,0,0,1,(null),(null)
+openstack-dev,openstack-dev/devstack,2,0,2,0,0,1,(null),(null)
+openstack-dev,openstack-dev/devstack-vagrant,2,0,2,0,0,1,(null),(null)
+openstack-infra,openstack-infra/jenkins-job-builder,28,11,17,0,0,1,(null),(null)
+openstack-infra,openstack-infra/git-review,5,1,4,0,0,1,(null),(null)
+openstack-infra,openstack-infra/storyboard,2,0,2,0,0,1,(null),(null)
+openstack-infra,openstack-infra/storyboard-webclient,2,0,2,0,0,1,(null),(null)
+openstack-infra,openstack-infra/puppet-pip,1,0,1,0,0,1,(null),(null)
+openstack-infra,openstack-infra/grafyaml,1,0,1,0,0,1,(null),(null)
+openstack-infra,openstack-infra/bindep,1,0,1,0,0,1,(null),(null)
+openstack-infra,openstack-infra/gear,1,0,1,0,0,1,(null),(null)
+openstack-infra,openstack-infra/shade,1,0,1,0,0,1,(null),(null)
+openstacknetsdk,openstacknetsdk/OpenStackNetAnalyzers,1,1,0,0,0,1,(null),(null)
+openstack-hyper-v,openstack-hyper-v/puppet-sqlserverpowershell,1,0,0,0,1,1,(null),(null)
+openstack-hyper-v,openstack-hyper-v/ewsapi,1,0,0,0,1,1,(null),(null)
+openstack-charmers,openstack-charmers/vaultlocker,18,0,0,18,0,1,James Page,a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com
+openstack-charmers,openstack-charmers/devstack-utils-nova-lxd,6,0,0,6,0,1,Alex Kavanagh,af52d3065b8b78750f844012b8e34dbc454a5a0a@ajkavanagh.co.uk
+openstack-charmers,openstack-charmers/ensure-py3-work,4,0,0,4,0,1,Alex Kavanagh,af52d3065b8b78750f844012b8e34dbc454a5a0a@ajkavanagh.co.uk
+openstack-charmers,openstack-charmers/charm-panko,4,0,0,4,0,1,Dmitrii Shcherbakov,15aa0738ecae738fdec57e2c1a8fdafe7b946f07@canonical.com
+openstack-charmers,openstack-charmers/charm-interface-gnocchi,3,0,0,3,0,1,James Page,a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com
+openstack-charmers,openstack-charmers/charm-interface-panko,1,0,0,1,0,1,Dmitrii Shcherbakov,15aa0738ecae738fdec57e2c1a8fdafe7b946f07@canonical.com
+openstack-charmers,openstack-charmers/charm-neutron-dynamic-routing,1,0,0,1,0,1,David Ames,aa0e30b9b8cd456848f1cd0dc43e13c8ecc56ace@canonical.com
+openstack-charmers,openstack-charmers/charm-interface-ceph-client,1,0,0,1,0,1,James Page,a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com
+OpenStack-mobile,OpenStack-mobile/HanekeSwift,2,0,0,2,0,2,"Jason Noah Choi,Alsey Coleman Miller","b29c7623480c13c0f37df1a8c36358876147be24@gmail.com,00f17611f3131b2ce34c2a3273864a2e39dba7c3@gmail.com"
+openstack-ansible,openstack-ansible/openstack-ansible-modules,13,6,1,1,5,2,"(null),Max Khon","(null),3b3bac3adf6a1d9b6e0ee93deaa17b9a58ffa1e5@samodelkin.net"
+openstack-charmers,openstack-charmers/charm-gnocchi,31,0,1,30,0,2,"James Page,(null)","a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com,(null)"
+openstack-charmers,openstack-charmers/charm-deployment-guide,22,5,0,7,10,2,"(null),James Page","(null),a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com"
+openstack-charmers,openstack-charmers/openstack-mojo-specs,11,0,7,4,0,2,"(null),Ryan Beisner","(null),006334aeab16ea05f30e16f9119a9773840c1c10@canonical.com"
+openstack-charmers,openstack-charmers/charm-interface-designate,5,0,4,1,0,2,"Tytus Kurek,(null)","8c713df714c4f4d2f9de43afb96b320113934cf8@itsteer.com,(null)"
+openstack-charmers,openstack-charmers/charm-template-api,4,1,2,1,0,2,"(null),Mathieu Mitchell","(null),96e55c8a8d099eb63d6f3bbbe8f09feb55e4761b@gmail.com"
+openstack-charmers,openstack-charmers/openstack-charms-demos,4,1,2,1,0,2,"David Ames,(null)","aa0e30b9b8cd456848f1cd0dc43e13c8ecc56ace@canonical.com,(null)"
+openstack-packages,openstack-packages/DLRN,6,0,0,6,0,2,"Martin Mágr,Javier Pena","ffa06aa21297bcbc1b2e24d3da458fb6d71f6cf3@redhat.com,dff4e664ba4718e4da14ca2d44fd75131701227e@redhat.com"
+openstack-packages,openstack-packages/openstack-example-spec,2,0,0,1,1,2,"Javier Pena,(null)","dff4e664ba4718e4da14ca2d44fd75131701227e@redhat.com,(null)"
+openstack-snaps,openstack-snaps/snap-test,38,12,0,24,2,3,"Ubuntu,Corey Bryant,(null)","386b7572df6ba63c297c3bcaab852aa9e108d444@x2.openstacklocal,c7d4f2546db41b5400e8674bc8eb2e1efd848df9@canonical.com,(null)"
+openstacknetsdk,openstacknetsdk/openstack.net,38,24,2,4,8,3,"(null),Daryl Walleck,John Rutherford","(null),c99a5b07d3dc3dc9472e9e1f86aea813e0891ecc@rackspace.com,febb44f0a3536761749f6c82b901d79bfa74cce8@loopfx.com"
+OpenStack-mobile,OpenStack-mobile/summit-app-ios,293,7,54,229,3,3,"Alsey Coleman Miller,(null),gcutrini,Gabriel Cutrini","00f17611f3131b2ce34c2a3273864a2e39dba7c3@gmail.com,(null),98c02c78612c9b7d86fac7981ea8afaa2e3f2859@gmail.com,98c02c78612c9b7d86fac7981ea8afaa2e3f2859@gmail.com"
+OpenStack-mobile,OpenStack-mobile/summit-app-android,76,0,2,74,0,3,"Santi,spalenque,Sebastian Marcet,(null)","939f1270bf7b5648a30ae27f25a11ea2140f923c@gmail.com,939f1270bf7b5648a30ae27f25a11ea2140f923c@gmail.com,76ad8d0250091ba9e2e12203d65b857b666d3023@gmail.com,(null)"
+openstack-hyper-v,openstack-hyper-v/dockerfile-sentinel-all,9,0,0,9,0,3,"Peter J. Pouliot,hypervci,Sean Spratt","6214814a67b9688a08e8c6dc7fa5dee076dddc8d@pouliot.net,e9608afd53fde3812d7d804ab37275757a8c1f70@microsoft.com,f9af04fe278f3df12644c48abd73661868c74b03@microsoft.com"
+openstack-charmers,openstack-charmers/charm-quagga,46,3,18,17,8,3,"David Ames,Frode Nordahl,(null)","aa0e30b9b8cd456848f1cd0dc43e13c8ecc56ace@canonical.com,56a4270d8ee98a0cd65595d35ef1d376e0e3fba8@gmail.com,(null)"
+openstack-charmers,openstack-charmers/zaza,31,5,14,12,0,3,"Ryan Beisner,(null),Liam Young","006334aeab16ea05f30e16f9119a9773840c1c10@canonical.com,(null),f9267380e838222385ddcea8e94f59ae8d8f7b71@canonical.com"
+openstack-charmers,openstack-charmers/openstack-charms-tools,19,4,8,7,0,3,"(null),David Ames,Ryan Beisner","(null),aa0e30b9b8cd456848f1cd0dc43e13c8ecc56ace@canonical.com,006334aeab16ea05f30e16f9119a9773840c1c10@canonical.com"
+openstack-charmers,openstack-charmers/charm-interface-bgp,12,2,4,4,2,3,"David Ames,Frode Nordahl,(null)","aa0e30b9b8cd456848f1cd0dc43e13c8ecc56ace@canonical.com,56a4270d8ee98a0cd65595d35ef1d376e0e3fba8@gmail.com,(null)"
+openstack-charmers,openstack-charmers/charm-ldap-test-fixture,5,0,2,3,0,3,"David Ames,(null),David Ames","aa0e30b9b8cd456848f1cd0dc43e13c8ecc56ace@canonical.com,(null),d8099b0f90e53c29d29eb12a7a3caa5af4f12681@davam.net"
+openstack-kr,openstack-kr/event.openstack.or.kr,62,0,6,56,0,4,"Ian Y. Choi,(null),SeongSoo Cho,SeongSoo Cho","486cafb46164daa2617a9f05b6e933d84aebab25@gmail.com,(null),6e458b6cb30ba685d381e1d5b4c29294be6e1bcb@gmail.com,7ccd5f8eb32f2b5047b3e05271b0ffceb3138f24@printf.kr"
+openstack-snaps,openstack-snaps/snapstack,130,18,54,55,3,4,"(null),Pete Vander Giessen,Pete Vander Giessen,coreycb,Corey Bryant","(null),9471dafc173ba0dfa1de2d636fdd306f95c765b4@canonical.com,e9a8b7f6449e4405e6a986e4efbce67bece89200@gmail.com,c7d4f2546db41b5400e8674bc8eb2e1efd848df9@canonical.com,c7d4f2546db41b5400e8674bc8eb2e1efd848df9@canonical.com"
+openstack-snaps,openstack-snaps/snap-cookiecutter,119,1,6,112,0,4,"(null),Pete Vander Giessen,Corey Bryant,James Page","(null),9471dafc173ba0dfa1de2d636fdd306f95c765b4@canonical.com,c7d4f2546db41b5400e8674bc8eb2e1efd848df9@canonical.com,a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com"
+openstack-snaps,openstack-snaps/snap-gnocchi,50,1,30,19,0,4,"James Page,(null),Corey Bryant,Pete Vander Giessen","a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com,(null),c7d4f2546db41b5400e8674bc8eb2e1efd848df9@canonical.com,9471dafc173ba0dfa1de2d636fdd306f95c765b4@canonical.com"
+OpenStack-mobile,OpenStack-mobile/aerogear-ios-http,7,0,2,5,0,4,"(null),Alsey Coleman Miller,corinne krych,Gabriel Cutrini","(null),00f17611f3131b2ce34c2a3273864a2e39dba7c3@gmail.com,7fcd08fe0dd109eff32d85e546564fc9e392d96b@gmail.com,98c02c78612c9b7d86fac7981ea8afaa2e3f2859@gmail.com"
+openstack-charmers,openstack-charmers/test-share,22,1,12,9,0,4,"Andrew McLeod,Ryan Beisner,sfeole,(null)","d7c2a3d82f42738cf12e24d836decf6bdbe137b7@canonical.com,006334aeab16ea05f30e16f9119a9773840c1c10@canonical.com,4c572d390b557f9e02960b98333176a5f4aaf4b4@canonical.com,(null)"
+openstack-charmers,openstack-charmers/openstack-charm-testing,13,1,5,7,0,4,"Andrew McLeod,Corey Bryant,sfeole,(null)","d7c2a3d82f42738cf12e24d836decf6bdbe137b7@canonical.com,c7d4f2546db41b5400e8674bc8eb2e1efd848df9@canonical.com,4c572d390b557f9e02960b98333176a5f4aaf4b4@canonical.com,(null)"
+openstack-charmers,openstack-charmers/charm-glance-simplestreams-sync,8,3,2,3,0,4,"Alex Kavanagh,James Page,David Ames,(null)","af52d3065b8b78750f844012b8e34dbc454a5a0a@ajkavanagh.co.uk,a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com,aa0e30b9b8cd456848f1cd0dc43e13c8ecc56ace@canonical.com,(null)"
+OpenStack-mobile,OpenStack-mobile/aerogear-ios-oauth2,13,0,2,11,0,5,"Alsey Coleman Miller,corinne krych,Claudio Redi,(null),Gabriel Cutrini","00f17611f3131b2ce34c2a3273864a2e39dba7c3@gmail.com,7fcd08fe0dd109eff32d85e546564fc9e392d96b@gmail.com,63ec1c868310117824d8a1020e5f097d033a50a1@tipit.net,(null),98c02c78612c9b7d86fac7981ea8afaa2e3f2859@gmail.com"
+openstack-charmers,openstack-charmers/charm-test-infra,57,6,15,36,0,5,"Ryan Beisner,Chris MacNaughton,Liam Young,(null),Andrew McLeod","006334aeab16ea05f30e16f9119a9773840c1c10@canonical.com,4181b934c2715a2bba60cdb3cc1b35b2777d1c23@centaurisolutions.nl,f9267380e838222385ddcea8e94f59ae8d8f7b71@canonical.com,(null),d7c2a3d82f42738cf12e24d836decf6bdbe137b7@canonical.com"
+openstack-charmers,openstack-charmers/release-tools,53,9,20,24,0,6,"James Page,Ryan Beisner,Andrew McLeod,(null),David Ames,Ryan Beisner","a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com,006334aeab16ea05f30e16f9119a9773840c1c10@canonical.com,85c788ebe5620cd4c720f90d16e46ec9532577d4@gmail.com,(null),d8099b0f90e53c29d29eb12a7a3caa5af4f12681@davam.net,7e08ab02333dbe3dedd5972ecdead36248619f33@users.noreply.github.com"
+openstack-packages,openstack-packages/rdopkg,45,13,0,22,10,7,"Lars Kellogg-Stedman,Jakub Ruzicka,Sorin Sbarnea,(null),Ken Dreyer,Alfredo Moralejo,Javier Pena","7f698333860e9f21dcc513102ebee3bcaf8d683e@redhat.com,ce84f47760dff4b3561e1b38d1bea0e40423bdba@redhat.com,5c3b5bb01e0871ff1a4dee0e58366fdc1e44f50a@redhat.com,(null),35d74f5904a87f813a922124682bdcf35b1cfd83@redhat.com,9f6858225365255f0c8599c1210408b9cf88cf1c@redhat.com,dff4e664ba4718e4da14ca2d44fd75131701227e@redhat.com"
+openstack-kr,openstack-kr/openstack-study,138,23,44,71,0,10,"고정준,NHNEnt,(null),SeongSoo Cho,euimokna,shingoon,SeongSoo Cho,Taehee Jang,Ian Y. Choi,유장선[PaaS]","cadf26c58ff6b827d4831a178aa3effa83282792@atto-research.com,6374d29676e8f3c6879a88075db74952dee0c2de@AD01531218.local,(null),6e458b6cb30ba685d381e1d5b4c29294be6e1bcb@nxz-3.local,33a966becf4b507901eaf6247e07d6b3fd4c0554@users.noreply.github.com,be43ab8acb3be81d3bbce8f2790c137c4e2a6cd7@gmail.com,6e458b6cb30ba685d381e1d5b4c29294be6e1bcb@gmail.com,386f6d118c742f71f74f14fa7eaa21662cc05d65@gmail.com,486cafb46164daa2617a9f05b6e933d84aebab25@gmail.com,dd66edb83a67594b63a2a89177dc21918fa25c39@navercorp.com"
+openstack-charmers,openstack-charmers/openstack-on-lxd,117,26,39,40,12,10,"Gabriel,(null),Marian Gasparovic,Goran Miskovic,Ryan Beisner,Nobuto Murata,Andrew McLeod,Ryan Beisner,Andrew McLeod,Goran Miskovic","09c0f8bc67d93ca87b44bb00acd022fcaa6fba1c@gmail.com,(null),7c88251e8628a5da061ae39916c22441a3163d77@canonical.com,1a2250168124037c21f70fa5833e37f6017ec4e9@gmail.com,7e08ab02333dbe3dedd5972ecdead36248619f33@users.noreply.github.com,00f7bf68aad5ec6de974dd28020e51a28454a143@ubuntu.com,85c788ebe5620cd4c720f90d16e46ec9532577d4@gmail.com,006334aeab16ea05f30e16f9119a9773840c1c10@canonical.com,d7c2a3d82f42738cf12e24d836decf6bdbe137b7@canonical.com,1a2250168124037c21f70fa5833e37f6017ec4e9@users.noreply.github.com"
+openstack-charmers,openstack-charmers/bot-control,411,30,101,278,2,13,"Chris MacNaughton,James Page,Ryan Beisner,Chris MacNaughton,Pete Vander Giessen,David Ames,Dmitrii Shcherbakov,Ryan Beisner,Andrew McLeod,Andrew McLeod,(null),Liam Young,Chris MacNaughton","4181b934c2715a2bba60cdb3cc1b35b2777d1c23@centaurisolutions.nl,a3d400895f784887ce7aa89e62c4aedfe1ddc2a7@ubuntu.com,7e08ab02333dbe3dedd5972ecdead36248619f33@users.noreply.github.com,91f35f36357cfce9ca9fa6fe5800924abf733133@canonical.com,e9a8b7f6449e4405e6a986e4efbce67bece89200@gmail.com,aa0e30b9b8cd456848f1cd0dc43e13c8ecc56ace@canonical.com,15aa0738ecae738fdec57e2c1a8fdafe7b946f07@canonical.com,006334aeab16ea05f30e16f9119a9773840c1c10@canonical.com,d7c2a3d82f42738cf12e24d836decf6bdbe137b7@canonical.com,85c788ebe5620cd4c720f90d16e46ec9532577d4@gmail.com,(null),f9267380e838222385ddcea8e94f59ae8d8f7b71@canonical.com,58b8217bdc52d522a5344fa316a90edde937c15b@gmail.com"
+openstack-charmers,openstack-charmers/openstack-bundles,248,69,66,84,29,14,"Liam Young,Chris MacNaughton,dann frazier,(null),Andrew McLeod,Frode Nordahl,Andrew McLeod,dannf,Alex Kavanagh,Chris MacNaughton,Ryan Beisner,sfeole,Nobuto Murata,Ryan Beisner","f9267380e838222385ddcea8e94f59ae8d8f7b71@canonical.com,58b8217bdc52d522a5344fa316a90edde937c15b@gmail.com,7ddec0b0fd62a65b4dfd18690e372ee3c016ab5c@canonical.com,(null),85c788ebe5620cd4c720f90d16e46ec9532577d4@gmail.com,56a4270d8ee98a0cd65595d35ef1d376e0e3fba8@gmail.com,d7c2a3d82f42738cf12e24d836decf6bdbe137b7@canonical.com,f27a17fc90c00d8c248d8510a1084221738b492b@dannf.org,af52d3065b8b78750f844012b8e34dbc454a5a0a@ajkavanagh.co.uk,91f35f36357cfce9ca9fa6fe5800924abf733133@canonical.com,7e08ab02333dbe3dedd5972ecdead36248619f33@users.noreply.github.com,4c572d390b557f9e02960b98333176a5f4aaf4b4@canonical.com,00f7bf68aad5ec6de974dd28020e51a28454a143@ubuntu.com,006334aeab16ea05f30e16f9119a9773840c1c10@canonical.com"
