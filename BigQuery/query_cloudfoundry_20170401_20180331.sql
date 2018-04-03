@@ -22,7 +22,7 @@ SELECT
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
 from (
   select * from
-    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-03-01'),TIMESTAMP('2018-02-28'))
+    TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-04-01'),TIMESTAMP('2018-03-31'))
   )
 WHERE
   type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
@@ -30,7 +30,7 @@ WHERE
   AND repo.id not in (
     SELECT INTEGER(JSON_EXTRACT(payload, '$.forkee.id'))
     FROM
-    	  TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-03-01'),TIMESTAMP('2018-02-28'))
+    	  TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-04-01'),TIMESTAMP('2018-03-31'))
     WHERE type = 'ForkEvent'
  )
   AND org.login in ('cloudfoundry', 'cloudfoundry-attic', 'cloudfoundry-community', 'cloudfoundry-incubator', 'cloudfoundry-samples')
@@ -49,13 +49,13 @@ WHERE
         actor.login,
         COUNT(*) c
       FROM
-      TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-03-01'),TIMESTAMP('2018-02-28'))
+      TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-04-01'),TIMESTAMP('2018-03-31'))
       WHERE
         type = 'IssueCommentEvent'
       GROUP BY
         1
       HAVING
-        c > 4000
+        c > 2000
       ORDER BY
       2 DESC
     )
