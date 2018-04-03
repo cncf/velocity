@@ -1597,6 +1597,7 @@ spdx/spdx-spec,SPDX
 spdx/tools,SPDX
 spdx/tools-go,SPDX
 spdx/tools-python,SPDX
+spiffe/spire,SPIRE
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture
