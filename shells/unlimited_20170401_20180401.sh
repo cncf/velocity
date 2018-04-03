@@ -12,7 +12,7 @@ ruby merger.rb data/unlimited.csv data/cf_20170401_20180401.csv force
 echo "Adding/Updating CNCF Projects"
 ruby merger.rb data/unlimited.csv data/cncf_20170401_20180401.csv
 echo "Adding/Updating OpenStack case"
-ruby merger.rb data/unlimited.csv data/data_openstack_201701_201712.csv
+ruby merger.rb data/unlimited.csv data/openstack_20170401_20180401.csv
 echo "Adding/Updating Apache case"
 ruby merger.rb data/unlimited.csv data/data_apache_201701_201712.csv
 echo "Adding/Updating Chromium case"
@@ -28,7 +28,7 @@ ruby merger.rb data/unlimited.csv data/data_freebsd_201701_201712.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating OpenStack projects using their bug tracking data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201701_201712.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_20180401_20180401.csv -1
 echo "Updating Apache Projects using Jira data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_201701_201712.csv -1
 echo "Updating Chromium project using their bug tracking data"
