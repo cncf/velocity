@@ -95,6 +95,7 @@ Closure Library,code.google.com/closure/library
 Cloud Foundry,cloudfoundry.org
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud.gov,github.com/18F/cg-product
+CloudEvents,cloudevents.io
 Cockroach Labs,cockroachlabs.com
 Cocos2d-js,cocos2d-x.org
 Cocos2d-x,cocos2d-x.org
@@ -195,6 +196,7 @@ Guava,github.com/google/guava
 HTTPS Everywhere,eff.org/https-everywhere
 Hackage,stackage.org
 Halite,halite.io
+Helm,helm.sh
 Heron,heronstreaming.io
 HippieStationCode,github.com/HippieStationCode/HippieStation13
 Home Assistant,home-assistant.io
@@ -401,8 +403,6 @@ Rust,rust-lang.org
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
 SNAS.io,www.snas.io
 SPDX,spdx.org
-SPIFFE,spiffe.io
-SPIRE,spiffe.io
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
 SS13,tgstation13.org
 SVG Working Group,github.com/w3c/svgwg
@@ -424,6 +424,8 @@ Shopify Timber,shopify.com/timber
 Skillcrush,skillcrush.com
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
+Spiffe,spiffe.io
+Spire,spiffe.io
 Spontanizer,spartan.org.il
 Spotify,spotify.github.io
 Spree,guides.spreecommerce.org
@@ -436,6 +438,7 @@ TSLint,palantir.github.io/tslint
 TUF,github.com/theupdateframework.com
 Team Kodi,kodi.tv
 TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
+Telepresence,telepresence.io
 Telerik,telerik.com
 TensorFlow,tensorflow.org
 Terraform,terraform.io
@@ -543,6 +546,7 @@ openSUSE,opensuse.org
 openSUSE Kernel,kernel.opensuse.org
 openSUSE Kernel source,kernel.opensuse.org
 openSUSE SaltStack,github.com/openSUSE/salts
+openeventing,CloudEvents
 osquery,osquery.io
 ownCloud,oowncloud.org
 python,www.python.org

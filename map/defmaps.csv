@@ -77,6 +77,7 @@ chef,Chef
 chrome-enhanced-history,Chromium
 chromium,Chromium
 chromiumify,Chromium
+cloudevents,CloudEvents
 cloudfoundry,Cloud Foundry
 cloudfoundry-attic,Cloud Foundry
 cloudfoundry-community,Cloud Foundry
@@ -125,6 +126,7 @@ godotengine,Godot Engine
 grpc,gRPC
 grpc-ecosystem,gRPC
 guardian,The Guardian
+helm,Helm
 home-assistant,Home Assistant
 hyperledger,Hyperledger
 influxdata,InfluxData
@@ -136,7 +138,7 @@ jsdelivr,jsDelivr
 keybase,Keybase
 kubernetes,Kubernetes
 kubernetes-client,Kubernetes
-kubernetes-helm,Kubernetes
+kubernetes-helm,Helm
 kubernetes-incubator,Kubernetes
 laravel,Laravel
 letsencrypt,Let's Encrypt
@@ -164,6 +166,7 @@ nylas,Nylas
 odoo,Odoo
 open-policy-agent,OPA
 opencontainers,OCI
+openeventing,CloudEvents
 openhab,openHAB
 openmainframeproject,Open Mainframe
 openshift,OpenShift
@@ -196,11 +199,12 @@ sequelize,Sequelize
 serverless,Serverless Framework
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
-spiffe,SPIFFE
+spiffe,Spiffe
 spotify,Spotify
 spree,Spree
 swagger-api,Swagger
 symfony,Symfony
+telepresenceio,Telepresence
 telerik,Telerik
 terraform-providers,Terraform
 tgstation,SS13

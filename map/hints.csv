@@ -581,6 +581,7 @@ coreos/prometheus,CoreOS
 coreos/prometheus-operator,CoreOS
 coreos/rkt,rkt
 coreos/rocket,rkt
+datawire/telepresence,Telepresence
 docker/compose,Docker
 docker/containerd,containerd
 docker/distribution,Docker
@@ -730,12 +731,13 @@ kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes
 kubernetes-incubator/service-catalog,Kubernetes
-kubernetes/charts,Kubernetes
+kubernetes/charts,Helm
 kubernetes/community,Kubernetes
 kubernetes/contrib,Kubernetes
 kubernetes/dashboard,Kubernetes
+kubernetes/deployment-manager,Helm
 kubernetes/heapster,Kubernetes
-kubernetes/helm,Kubernetes
+kubernetes/helm,Helm
 kubernetes/ingress,Kubernetes
 kubernetes/kops,Kubernetes
 kubernetes/kubernetes,Kubernetes
@@ -1597,7 +1599,7 @@ spdx/spdx-spec,SPDX
 spdx/tools,SPDX
 spdx/tools-go,SPDX
 spdx/tools-python,SPDX
-spiffe/spire,SPIRE
+spiffe/spire,Spire
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture

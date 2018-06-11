@@ -352,6 +352,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
             v = v.split('/')[1]
           end
           if org[:sum].key? k
+            v = '' if v.nil?
             org[:sum][k] = '' if org[:sum][k].nil?
             org[:sum][k] += '+' + v
           else
