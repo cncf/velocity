@@ -1,4 +1,4 @@
-[<- Back to the cncf/velocity README.md file](../README.md)
+[Back to the cncf/velocity README.md file](../README.md)
 
 [Guide to non-github project processing](non_github_repositories.md)
 
@@ -18,7 +18,7 @@ For every project, find a github repo and add it to a query such as [this one](B
 
 Run the query on https://bigquery.cloud.google.com/queries/ in the website's console. It takes about 900GB and costs about $4.50
 
-Copy the results to a file like 'data/data_cncf_projects_201611_201710.csv'
+Copy the results to a file like `data/data_cncf_projects_201611_201710.csv`.
 
 Run `analysis.rb` with
 ```
