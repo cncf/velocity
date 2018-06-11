@@ -43,6 +43,7 @@ Try running this from the velocity project's root folder:
 	```
 	torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,254893
 	```
+- Put data for linux here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing`.
 Run this from the velocity project's root folder again:
 `ruby add_linux.rb data/data_lf_projects_201611_201710.csv data/data_linux.csv 2016-11-01 2017-11-01`
 

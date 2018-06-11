@@ -1,4 +1,4 @@
-[<- Back to the cncf/velocity README.md file](../README.md)
+[Back to the cncf/velocity README.md file](../README.md)
 
 [Guide to non-github project processing](non_github_repositories.md)
 
