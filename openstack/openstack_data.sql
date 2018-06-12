@@ -49,6 +49,6 @@ select * from (
     e.dup_repo_name
 ) q
 order by
-  q.authors desc,
+  q.authors_alt2 desc,
   q.activity desc
 ;
