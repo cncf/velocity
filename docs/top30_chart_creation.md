@@ -242,7 +242,7 @@ Example URL: `https://issues.apache.org/jira/browse/KYLIN-2578?jql=project%20%3D
 We need issue counts for all projects separately: Flink, Mesos, Spark, Kafka, Camel, CloudStack, Beam, Zeppelin, Cassandra, Hive, HBase, Hadoop, Ignite, NiFi, Ambari, Storm, Traffic Server, Lucene - Core, Solr, CarbonData, Geode, Trafodion, Thrift, Kylin.
 - Final line for Apache should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_201606_201705.csv -1`
 
-- Chromium case
+- <b>Chromium case</b>
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word chromium): `ruby merger.rb data/unlimited.csv data/data_chromium_201606_201705.csv`
 - Now the manual part - copy `data/data_chromium_bugtracker.csv` to `data/data_chromium_bugtracker_201606_201705.csv` (we need to update this file)
 - Get Issues from their bug tracker: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=opened%3E2016%2F7%2F25&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids
