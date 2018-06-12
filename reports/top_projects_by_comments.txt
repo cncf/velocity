@@ -1,101 +1,101 @@
 Top projects by comments:
-1) Linux (kernel.org) comments: 281035
-2) Kubernetes (kubernetes.io) comments: 270998
-3) dotnet (microsoft.com/net) comments: 127248
-4) React (facebook.com) comments: 114237
-5) VS Code (code.visualstudio.com) comments: 107420
-6) Angular (angular.io) comments: 79838
-7) SS13 (tgstation13.org) comments: 59286
-8) Elasticsearch (elastic.co/products/elasticsearch) comments: 53908
-9) OpenShift (openshift.com) comments: 52556
-10) TensorFlow (tensorflow.org) comments: 50781
-11) Rust (rust-lang.org) comments: 49343
-12) ASP.net (asp.net) comments: 48439
-13) Ansible (ansible.com) comments: 45823
-14) Node.js (nodejs.org) comments: 42660
-15) NixOS (nixos.org) comments: 42176
-16) Nextcloud (nextcloud.com) comments: 41408
-17) fossasia (fossasia.org) comments: 40006
-18) GitLab (gitlab.com) comments: 39000
-19) ManageIQ (manageiq.org) comments: 37323
-20) Docker (mobyproject.org) comments: 35434
-21) Ethereum (ethereum.org) comments: 34698
-22) WP Calypso (developer.wordpress.com/calypso) comments: 34486
-23) Apache Spark (spark.apache.org) comments: 32642
-24) getlantern comments: 31981
-25) Mapbox (mapbox.com) comments: 31131
-26) Eclipse (eclipse.org) comments: 31062
-27) Terraform (terraform.io) comments: 30740
-28) CMS Offline Software (cms-sw.github.io) comments: 29612
-29) Godot Engine (godotengine.org) comments: 29299
-30) Home Assistant (home-assistant.io) comments: 28431
-31) CoreOS (coreos.com) comments: 28050
-32) Magento (magento.com/home) comments: 26882
-33) Mozilla (mozilla.org) comments: 26575
-34) Joomla (joomla.org) comments: 26550
-35) WebKit (webkit.org) comments: 26520
-36) XX-net (github.com/XX-net/XX-Net) comments: 25850
-37) ownCloud (oowncloud.org) comments: 24430
-38) PowerShell (microsoft.com/powershell) comments: 23550
-39) Homebrew (brew.sh) comments: 23223
-40) Dart (dartlang.org) comments: 22873
-41) bazelbuild comments: 22087
-42) gRPC (grpc.io) comments: 21684
-43) vuejs (vuejs.org) comments: 21668
-44) vaadin comments: 21595
-45) ARMmbed comments: 21255
-46) Cockroach Labs (cockroachlabs.com) comments: 20987
-47) TypeScript (typescriptlang.org) comments: 20874
-48) moby comments: 20495
-49) ionic-team comments: 20474
-50) Chromium (google.com/chrome) comments: 20333
-51) Marlin (marlinfw.org) comments: 20081
-52) Flutter (flutter.io) comments: 19786
-53) SaltStack (repo.saltstack.com) comments: 19210
-54) Atom (atom.io) comments: 19061
-55) Alibaba (alibaba.com) comments: 18983
-56) OCA comments: 18907
-57) zulip comments: 18904
-58) apollographql (apollographql.com) comments: 18849
-59) istio comments: 18250
-60) openHAB (openhab.org) comments: 18073
-61) Julia (julialang.org) comments: 17704
-62) Cloud Foundry (cloudfoundry.org) comments: 17683
-63) Laravel (laravel.com) comments: 17629
-64) firebase comments: 17615
-65) npm (npmjs.com) comments: 17522
-66) NativeScript (nativescript.org) comments: 17520
-67) RobotLocomotion (drake.mit.edu) comments: 17311
-68) vgstation13 (github.com/vgstation-coders/vgstation13) comments: 17157
-69) Symfony (symfony.com) comments: 17074
-70) Ruby on Rails (rubyonrails.org) comments: 17051
-71) AMP (ampproject.org) comments: 16972
-72) Prometheus (prometheus.io) comments: 16804
-73) Firefox (mozilla.org/en-US/firefox) comments: 16437
-74) Azure SDKs (azure.microsoft.com) comments: 16053
-75) bitcoin comments: 15625
-76) The Servo Browser Engine (servo.org) comments: 15583
-77) RocketChat (rocket.chat) comments: 15437
-78) shadowsocks comments: 15413
-79) ParadiseSS13 (nanotrasen.se/forum) comments: 15215
-80) Brave Software (brave.com) comments: 15169
-81) spring-cloud comments: 15168
-82) DefinitelyTyped (definitelytyped.org) comments: 15147
-83) WordPress comments: 15077
-84) PingCAP (github.com/pingcap) comments: 14978
-85) minetest comments: 14954
-86) Mastodon (mastodon.social) comments: 14930
-87) Betaflight (github.com/betaflight/betaflight/releases) comments: 14729
-88) rancher comments: 14255
-89) MicrosoftDocs (docs.microsoft.com) comments: 14200
-90) strongloop comments: 13976
-91) spring-projects comments: 13932
-92) yarn (yarnpkg.com) comments: 13881
-93) WiX (wixtoolset.org) comments: 13843
-94) Realm (realm.io) comments: 13781
-95) webpack (github.com/webpack) comments: 13682
-96) Swagger (swagger.io) comments: 13467
-97) coala comments: 13418
-98) getsentry comments: 13253
-99) electron (electronjs.org) comments: 13223
-100) espressif comments: 13180
+1) Linux (kernel.org) comments: 297291
+2) Kubernetes (kubernetes.io) comments: 237180
+3) dotnet (microsoft.com/net) comments: 116748
+4) React (facebook.com) comments: 104252
+5) VS Code (code.visualstudio.com) comments: 98235
+6) Angular (angular.io) comments: 76049
+7) SS13 (tgstation13.org) comments: 56597
+8) Elasticsearch (elastic.co/products/elasticsearch) comments: 56552
+9) OpenShift (openshift.com) comments: 54363
+10) Rust (rust-lang.org) comments: 52912
+11) ASP.net (asp.net) comments: 52533
+12) TensorFlow (tensorflow.org) comments: 50998
+13) Ansible (ansible.com) comments: 49385
+14) NixOS (nixos.org) comments: 46159
+15) MicrosoftDocs (docs.microsoft.com) comments: 43279
+16) Nextcloud (nextcloud.com) comments: 41872
+17) Ethereum (ethereum.org) comments: 41754
+18) Node.js (nodejs.org) comments: 41740
+19) fossasia (fossasia.org) comments: 40007
+20) GitLab (gitlab.com) comments: 37000
+21) Eclipse (eclipse.org) comments: 35768
+22) Docker (mobyproject.org) comments: 35043
+23) getlantern comments: 34677
+24) Godot Engine (godotengine.org) comments: 34613
+25) Terraform (terraform.io) comments: 32218
+26) WP Calypso (developer.wordpress.com/calypso) comments: 32109
+27) Mozilla (mozilla.org) comments: 32097
+28) Mapbox (mapbox.com) comments: 32029
+29) ManageIQ (manageiq.org) comments: 31996
+30) Home Assistant (home-assistant.io) comments: 30854
+31) CMS Offline Software (cms-sw.github.io) comments: 28869
+32) ionic-team comments: 26435
+33) Magento (magento.com/home) comments: 26273
+34) XX-net (github.com/XX-net/XX-Net) comments: 26061
+35) CoreOS (coreos.com) comments: 25454
+36) PowerShell (microsoft.com/powershell) comments: 24367
+37) Helm (helm.sh) comments: 24025
+38) ARMmbed comments: 23614
+39) bazelbuild comments: 23177
+40) Apache Spark (spark.apache.org) comments: 23080
+41) Homebrew (brew.sh) comments: 22952
+42) vuejs (vuejs.org) comments: 22803
+43) Dart (dartlang.org) comments: 22691
+44) Flutter (flutter.io) comments: 22663
+45) istio comments: 22509
+46) gRPC (grpc.io) comments: 22315
+47) Cockroach Labs (cockroachlabs.com) comments: 22297
+48) Joomla (joomla.org) comments: 22187
+49) ownCloud (oowncloud.org) comments: 21993
+50) vaadin comments: 21872
+51) Laravel (laravel.com) comments: 21067
+52) Marlin (marlinfw.org) comments: 20784
+53) TypeScript (typescriptlang.org) comments: 20395
+54) moby comments: 20106
+55) firebase comments: 19834
+56) Alibaba (alibaba.com) comments: 19198
+57) Chromium (google.com/chrome) comments: 19033
+58) WordPress comments: 18397
+59) openHAB (openhab.org) comments: 18263
+60) OCA comments: 18026
+61) RocketChat (rocket.chat) comments: 18022
+62) Atom (atom.io) comments: 17949
+63) Apollo GraphQL (apollographql.com) comments: 17757
+64) pypa comments: 17615
+65) Ruby on Rails (rubyonrails.org) comments: 17478
+66) bitcoin comments: 17396
+67) pytorch comments: 17360
+68) Symfony (symfony.com) comments: 17326
+69) zulip comments: 17287
+70) PingCAP (github.com/pingcap) comments: 17277
+71) libretro (libretro.com) comments: 17229
+72) mono comments: 17168
+73) Cloud Foundry (cloudfoundry.org) comments: 17140
+74) NativeScript (nativescript.org) comments: 17101
+75) npm (npmjs.com) comments: 16951
+76) SaltStack (repo.saltstack.com) comments: 16774
+77) Julia (julialang.org) comments: 16702
+78) Brave Software (brave.com) comments: 16495
+79) spring-cloud comments: 16205
+80) Prometheus (prometheus.io) comments: 16191
+81) rust-lang-nursery comments: 16180
+82) Betaflight (github.com/betaflight/betaflight/releases) comments: 16028
+83) AMP (ampproject.org) comments: 15946
+84) Ant Design (ant.design) comments: 15785
+85) rancher comments: 15566
+86) xamarin comments: 15396
+87) WiX (wixtoolset.org) comments: 15160
+88) webpack (github.com/webpack) comments: 15088
+89) Azure SDKs (azure.microsoft.com) comments: 15072
+90) espressif comments: 14817
+91) DefinitelyTyped (definitelytyped.org) comments: 14793
+92) RobotLocomotion (drake.mit.edu) comments: 14766
+93) PaddlePaddle comments: 14681
+94) Firefox (mozilla.org/en-US/firefox) comments: 14677
+95) shadowsocks comments: 14644
+96) Odoo (odoo.com) comments: 14496
+97) fastlane (fastlane.tools) comments: 14462
+98) spring-projects comments: 14358
+99) Swagger (swagger.io) comments: 14294
+100) status-im comments: 14203
