@@ -1,4 +1,4 @@
-[<- Back to the cncf/velocity README.md file](../README.md)
+[Back to the cncf/velocity README.md file](../README.md)
 
 [Other useful notes](other_notes.md)
 
@@ -33,6 +33,7 @@ Finally replace '~~~~' with ',' to create correct csv: `:%s/\~\~\~\~/,/g`
 Then run `ruby commits_analysis.rb data/data_chromium_commits.csv map/skip_commits.csv` or `./shells/chromium_commits_analysis.sh`
 
 - Case with OpenStack: `res/data_openstack_lanuchpad.query` - data from their launchpad
+- You can use devstats contrib database.
 
 - Case with WebKit: `res/data_webkit_links.txt` issues from their bug tracker: `https://webkit.org/reporting-bugs/`
 For authors and commits, 3 different tools were tried: our cncf/gitdm on their webkit/WebKit github repo, git one-liner on the same repo (`git clone git://git.webkit.org/WebKit.git WebKit`):
