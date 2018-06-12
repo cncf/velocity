@@ -3227,3 +3227,722 @@
 2018-06-12 05:49:56 /gha2db: Opened http://data.gharchive.org/2016-09-28-6.json.gz
 2018-06-12 05:49:56 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-5.json.gz
 2018-06-12 05:49:56 /gha2db: Splitted http://data.gharchive.org/2016-09-28-5.json.gz, 30559 JSONs
+2018-06-12 05:49:56 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-5.json.gz: 30782 JSONs, found 6 matching, events 6
+2018-06-12 05:49:57 /gha2db: Working on 2016-09-28 07:00:00 +0000 UTC
+2018-06-12 05:49:57 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-4.json.gz: 30386 JSONs, found 9 matching, events 9
+2018-06-12 05:49:57 /gha2db: Working on 2016-09-28 08:00:00 +0000 UTC
+2018-06-12 05:49:57 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-2.json.gz: 33968 JSONs, found 4 matching, events 4
+2018-06-12 05:49:57 /gha2db: Working on 2016-09-28 09:00:00 +0000 UTC
+2018-06-12 05:49:57 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-7.json.gz: 41062 JSONs, found 2 matching, events 2
+2018-06-12 05:49:57 /gha2db: Working on 2016-09-28 10:00:00 +0000 UTC
+2018-06-12 05:49:57 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-1.json.gz: 32082 JSONs, found 6 matching, events 6
+2018-06-12 05:49:57 /gha2db: Working on 2016-09-28 11:00:00 +0000 UTC
+2018-06-12 05:49:57 /gha2db: Opened http://data.gharchive.org/2016-09-28-7.json.gz
+2018-06-12 05:49:57 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-6.json.gz
+2018-06-12 05:49:57 /gha2db: Opened http://data.gharchive.org/2016-09-28-8.json.gz
+2018-06-12 05:49:57 /gha2db: Splitted http://data.gharchive.org/2016-09-28-6.json.gz, 38386 JSONs
+2018-06-12 05:49:57 /gha2db: Opened http://data.gharchive.org/2016-09-28-9.json.gz
+2018-06-12 05:49:57 /gha2db: Opened http://data.gharchive.org/2016-09-28-11.json.gz
+2018-06-12 05:49:57 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-0.json.gz: 32595 JSONs, found 16 matching, events 16
+2018-06-12 05:49:57 /gha2db: Working on 2016-09-28 12:00:00 +0000 UTC
+2018-06-12 05:49:58 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-11.json.gz: 40794 JSONs, found 10 matching, events 10
+2018-06-12 05:49:58 /gha2db: Working on 2016-09-28 13:00:00 +0000 UTC
+2018-06-12 05:49:58 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-6.json.gz: 36492 JSONs, found 1 matching, events 1
+2018-06-12 05:49:58 /gha2db: Working on 2016-09-28 14:00:00 +0000 UTC
+2018-06-12 05:49:58 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-8.json.gz: 45482 JSONs, found 1 matching, events 1
+2018-06-12 05:49:58 /gha2db: Working on 2016-09-28 15:00:00 +0000 UTC
+2018-06-12 05:49:58 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-7.json.gz
+2018-06-12 05:49:58 /gha2db: Opened http://data.gharchive.org/2016-09-28-12.json.gz
+2018-06-12 05:49:58 /gha2db: Splitted http://data.gharchive.org/2016-09-28-7.json.gz, 42312 JSONs
+2018-06-12 05:49:58 /gha2db: Opened http://data.gharchive.org/2016-09-28-13.json.gz
+2018-06-12 05:49:58 /gha2db: Opened http://data.gharchive.org/2016-09-28-14.json.gz
+2018-06-12 05:49:58 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-23.json.gz: 36451 JSONs, found 18 matching, events 18
+2018-06-12 05:49:58 /gha2db: Working on 2016-09-28 16:00:00 +0000 UTC
+2018-06-12 05:49:58 /gha2db: Opened http://data.gharchive.org/2016-09-28-10.json.gz
+2018-06-12 05:49:58 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-11.json.gz
+2018-06-12 05:49:58 /gha2db: Opened http://data.gharchive.org/2016-09-28-15.json.gz
+2018-06-12 05:49:58 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-8.json.gz
+2018-06-12 05:49:58 /gha2db: Splitted http://data.gharchive.org/2016-09-28-11.json.gz, 40976 JSONs
+2018-06-12 05:49:58 /gha2db: Splitted http://data.gharchive.org/2016-09-28-8.json.gz, 48928 JSONs
+2018-06-12 05:49:58 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-9.json.gz
+2018-06-12 05:49:58 /gha2db: Splitted http://data.gharchive.org/2016-09-28-9.json.gz, 50937 JSONs
+2018-06-12 05:49:58 /gha2db: Opened http://data.gharchive.org/2016-09-28-16.json.gz
+2018-06-12 05:49:58 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-7.json.gz: 42095 JSONs, found 3 matching, events 3
+2018-06-12 05:49:58 /gha2db: Working on 2016-09-28 17:00:00 +0000 UTC
+2018-06-12 05:49:59 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-9.json.gz: 48655 JSONs, found 7 matching, events 7
+2018-06-12 05:49:59 /gha2db: Working on 2016-09-28 18:00:00 +0000 UTC
+2018-06-12 05:49:59 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-12.json.gz: 46247 JSONs, found 6 matching, events 6
+2018-06-12 05:49:59 /gha2db: Working on 2016-09-28 19:00:00 +0000 UTC
+2018-06-12 05:49:59 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-10.json.gz: 42051 JSONs, found 12 matching, events 12
+2018-06-12 05:49:59 /gha2db: Working on 2016-09-28 20:00:00 +0000 UTC
+2018-06-12 05:49:59 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-3.json.gz: 35042 JSONs, found 10 matching, events 10
+2018-06-12 05:49:59 /gha2db: Working on 2016-09-28 21:00:00 +0000 UTC
+2018-06-12 05:49:59 /gha2db: Opened http://data.gharchive.org/2016-09-28-18.json.gz
+2018-06-12 05:49:59 /gha2db: Opened http://data.gharchive.org/2016-09-28-19.json.gz
+2018-06-12 05:49:59 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-22.json.gz: 40527 JSONs, found 32 matching, events 32
+2018-06-12 05:49:59 /gha2db: Working on 2016-09-28 22:00:00 +0000 UTC
+2018-06-12 05:49:59 /gha2db: Opened http://data.gharchive.org/2016-09-28-20.json.gz
+2018-06-12 05:49:59 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-12.json.gz
+2018-06-12 05:49:59 /gha2db: Opened http://data.gharchive.org/2016-09-28-21.json.gz
+2018-06-12 05:49:59 /gha2db: Splitted http://data.gharchive.org/2016-09-28-12.json.gz, 49000 JSONs
+2018-06-12 05:49:59 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-4.json.gz: 29354 JSONs, found 8 matching, events 8
+2018-06-12 05:49:59 /gha2db: Working on 2016-09-28 23:00:00 +0000 UTC
+2018-06-12 05:49:59 /gha2db: Opened http://data.gharchive.org/2016-09-28-17.json.gz
+2018-06-12 05:49:59 /gha2db: Opened http://data.gharchive.org/2016-09-28-22.json.gz
+2018-06-12 05:49:59 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-1.json.gz: 34590 JSONs, found 15 matching, events 15
+2018-06-12 05:49:59 /gha2db: Working on 2016-09-29 00:00:00 +0000 UTC
+2018-06-12 05:49:59 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-13.json.gz
+2018-06-12 05:49:59 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-0.json.gz: 32427 JSONs, found 20 matching, events 20
+2018-06-12 05:49:59 /gha2db: Working on 2016-09-29 01:00:00 +0000 UTC
+2018-06-12 05:49:59 /gha2db: Splitted http://data.gharchive.org/2016-09-28-13.json.gz, 56259 JSONs
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-3.json.gz: 35028 JSONs, found 3 matching, events 3
+2018-06-12 05:50:00 /gha2db: Working on 2016-09-29 02:00:00 +0000 UTC
+2018-06-12 05:50:00 /gha2db: Opened http://data.gharchive.org/2016-09-28-23.json.gz
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-5.json.gz: 30558 JSONs, found 6 matching, events 6
+2018-06-12 05:50:00 /gha2db: Working on 2016-09-29 03:00:00 +0000 UTC
+2018-06-12 05:50:00 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-14.json.gz
+2018-06-12 05:50:00 /gha2db: Splitted http://data.gharchive.org/2016-09-28-14.json.gz, 62404 JSONs
+2018-06-12 05:50:00 /gha2db: Opened http://data.gharchive.org/2016-09-29-0.json.gz
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-23.json.gz: 32351 JSONs, found 22 matching, events 22
+2018-06-12 05:50:00 /gha2db: Working on 2016-09-29 04:00:00 +0000 UTC
+2018-06-12 05:50:00 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-10.json.gz
+2018-06-12 05:50:00 /gha2db: Splitted http://data.gharchive.org/2016-09-28-10.json.gz, 43796 JSONs
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-2.json.gz: 39568 JSONs, found 12 matching, events 12
+2018-06-12 05:50:00 /gha2db: Working on 2016-09-29 05:00:00 +0000 UTC
+2018-06-12 05:50:00 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-15.json.gz
+2018-06-12 05:50:00 /gha2db: Opened http://data.gharchive.org/2016-09-29-2.json.gz
+2018-06-12 05:50:00 /gha2db: Splitted http://data.gharchive.org/2016-09-28-15.json.gz, 59719 JSONs
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-21.json.gz: 47301 JSONs, found 26 matching, events 26
+2018-06-12 05:50:00 /gha2db: Working on 2016-09-29 06:00:00 +0000 UTC
+2018-06-12 05:50:00 /gha2db: Opened http://data.gharchive.org/2016-09-29-3.json.gz
+2018-06-12 05:50:00 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-16.json.gz
+2018-06-12 05:50:00 /gha2db: Splitted http://data.gharchive.org/2016-09-28-16.json.gz, 54851 JSONs
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-10.json.gz: 45450 JSONs, found 5 matching, events 5
+2018-06-12 05:50:00 /gha2db: Working on 2016-09-29 07:00:00 +0000 UTC
+2018-06-12 05:50:00 /gha2db: Opened http://data.gharchive.org/2016-09-29-4.json.gz
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-16.json.gz: 52264 JSONs, found 15 matching, events 15
+2018-06-12 05:50:00 /gha2db: Working on 2016-09-29 08:00:00 +0000 UTC
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-13.json.gz: 54795 JSONs, found 9 matching, events 9
+2018-06-12 05:50:00 /gha2db: Working on 2016-09-29 09:00:00 +0000 UTC
+2018-06-12 05:50:00 /gha2db: Opened http://data.gharchive.org/2016-09-29-5.json.gz
+2018-06-12 05:50:00 /gha2db: Opened http://data.gharchive.org/2016-09-29-6.json.gz
+2018-06-12 05:50:00 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-19.json.gz
+2018-06-12 05:50:00 /gha2db: Splitted http://data.gharchive.org/2016-09-28-19.json.gz, 50508 JSONs
+2018-06-12 05:50:00 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-18.json.gz
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-17.json.gz: 51443 JSONs, found 38 matching, events 38
+2018-06-12 05:50:00 /gha2db: Working on 2016-09-29 10:00:00 +0000 UTC
+2018-06-12 05:50:00 /gha2db: Splitted http://data.gharchive.org/2016-09-28-18.json.gz, 52471 JSONs
+2018-06-12 05:50:00 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-23.json.gz
+2018-06-12 05:50:00 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-19.json.gz: 50935 JSONs, found 19 matching, events 19
+2018-06-12 05:50:01 /gha2db: Working on 2016-09-29 11:00:00 +0000 UTC
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-28-23.json.gz, 36079 JSONs
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-7.json.gz
+2018-06-12 05:50:01 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-11.json.gz: 45063 JSONs, found 1 matching, events 1
+2018-06-12 05:50:01 /gha2db: Working on 2016-09-29 12:00:00 +0000 UTC
+2018-06-12 05:50:01 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-20.json.gz: 50701 JSONs, found 20 matching, events 20
+2018-06-12 05:50:01 /gha2db: Working on 2016-09-29 13:00:00 +0000 UTC
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-1.json.gz
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-8.json.gz
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-9.json.gz
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-2.json.gz
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-20.json.gz
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-29-2.json.gz, 39142 JSONs
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-22.json.gz
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-28-20.json.gz, 51473 JSONs
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-28-22.json.gz, 42908 JSONs
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-10.json.gz
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-3.json.gz
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-29-3.json.gz, 37322 JSONs
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-4.json.gz
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-12.json.gz
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-29-4.json.gz, 31270 JSONs
+2018-06-12 05:50:01 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-12.json.gz: 49418 JSONs, found 7 matching, events 7
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-21.json.gz
+2018-06-12 05:50:01 /gha2db: Working on 2016-09-29 14:00:00 +0000 UTC
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-13.json.gz
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-0.json.gz
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-28-21.json.gz, 47733 JSONs
+2018-06-12 05:50:01 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-8.json.gz: 50207 JSONs, found 5 matching, events 5
+2018-06-12 05:50:01 /gha2db: Working on 2016-09-29 15:00:00 +0000 UTC
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-28-17.json.gz
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-11.json.gz
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-29-0.json.gz, 35439 JSONs
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-28-17.json.gz, 53632 JSONs
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-5.json.gz
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-29-5.json.gz, 30969 JSONs
+2018-06-12 05:50:01 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-18.json.gz: 53592 JSONs, found 19 matching, events 19
+2018-06-12 05:50:01 /gha2db: Working on 2016-09-29 16:00:00 +0000 UTC
+2018-06-12 05:50:01 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-22.json.gz: 40070 JSONs, found 25 matching, events 25
+2018-06-12 05:50:01 /gha2db: Working on 2016-09-29 17:00:00 +0000 UTC
+2018-06-12 05:50:01 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-6.json.gz
+2018-06-12 05:50:01 /gha2db: Splitted http://data.gharchive.org/2016-09-29-6.json.gz, 39774 JSONs
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-14.json.gz
+2018-06-12 05:50:01 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-6.json.gz: 38385 JSONs, found 2 matching, events 2
+2018-06-12 05:50:01 /gha2db: Working on 2016-09-29 18:00:00 +0000 UTC
+2018-06-12 05:50:01 /gha2db: Opened http://data.gharchive.org/2016-09-29-15.json.gz
+2018-06-12 05:50:02 /gha2db: Opened http://data.gharchive.org/2016-09-29-17.json.gz
+2018-06-12 05:50:02 /gha2db: Opened http://data.gharchive.org/2016-09-29-16.json.gz
+2018-06-12 05:50:02 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-7.json.gz
+2018-06-12 05:50:02 /gha2db: Splitted http://data.gharchive.org/2016-09-29-7.json.gz, 43668 JSONs
+2018-06-12 05:50:02 /gha2db: Opened http://data.gharchive.org/2016-09-29-18.json.gz
+2018-06-12 05:50:02 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-15.json.gz: 57973 JSONs, found 19 matching, events 19
+2018-06-12 05:50:02 /gha2db: Working on 2016-09-29 19:00:00 +0000 UTC
+2018-06-12 05:50:02 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-8.json.gz
+2018-06-12 05:50:02 /gha2db: Splitted http://data.gharchive.org/2016-09-29-8.json.gz, 48119 JSONs
+2018-06-12 05:50:02 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-9.json.gz: 53078 JSONs, found 4 matching, events 4
+2018-06-12 05:50:02 /gha2db: Working on 2016-09-29 20:00:00 +0000 UTC
+2018-06-12 05:50:02 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-10.json.gz
+2018-06-12 05:50:02 /gha2db: Splitted http://data.gharchive.org/2016-09-29-10.json.gz, 46073 JSONs
+2018-06-12 05:50:02 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-1.json.gz
+2018-06-12 05:50:02 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-9.json.gz
+2018-06-12 05:50:02 /gha2db: Splitted http://data.gharchive.org/2016-09-29-1.json.gz, 36283 JSONs
+2018-06-12 05:50:02 /gha2db: Splitted http://data.gharchive.org/2016-09-29-9.json.gz, 51265 JSONs
+2018-06-12 05:50:02 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-11.json.gz
+2018-06-12 05:50:02 /gha2db: Splitted http://data.gharchive.org/2016-09-29-11.json.gz, 42612 JSONs
+2018-06-12 05:50:02 /gha2db: Opened http://data.gharchive.org/2016-09-29-19.json.gz
+2018-06-12 05:50:02 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-12.json.gz
+2018-06-12 05:50:02 /gha2db: Opened http://data.gharchive.org/2016-09-29-20.json.gz
+2018-06-12 05:50:02 /gha2db: Splitted http://data.gharchive.org/2016-09-29-12.json.gz, 49727 JSONs
+2018-06-12 05:50:03 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-13.json.gz
+2018-06-12 05:50:03 /gha2db: Splitted http://data.gharchive.org/2016-09-29-13.json.gz, 54380 JSONs
+2018-06-12 05:50:03 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-13.json.gz: 56497 JSONs, found 8 matching, events 8
+2018-06-12 05:50:03 /gha2db: Working on 2016-09-29 21:00:00 +0000 UTC
+2018-06-12 05:50:03 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-14.json.gz
+2018-06-12 05:50:03 /gha2db: Splitted http://data.gharchive.org/2016-09-29-14.json.gz, 60216 JSONs
+2018-06-12 05:50:03 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-21.json.gz: 47518 JSONs, found 41 matching, events 41
+2018-06-12 05:50:03 /gha2db: Working on 2016-09-29 22:00:00 +0000 UTC
+2018-06-12 05:50:03 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-15.json.gz
+2018-06-12 05:50:03 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-17.json.gz
+2018-06-12 05:50:03 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-19.json.gz: 49535 JSONs, found 16 matching, events 16
+2018-06-12 05:50:03 /gha2db: Working on 2016-09-29 23:00:00 +0000 UTC
+2018-06-12 05:50:03 /gha2db: Splitted http://data.gharchive.org/2016-09-29-15.json.gz, 58476 JSONs
+2018-06-12 05:50:03 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-14.json.gz: 59779 JSONs, found 14 matching, events 14
+2018-06-12 05:50:03 /gha2db: Working on 2016-09-30 00:00:00 +0000 UTC
+2018-06-12 05:50:03 /gha2db: Splitted http://data.gharchive.org/2016-09-29-17.json.gz, 49899 JSONs
+2018-06-12 05:50:03 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-16.json.gz
+2018-06-12 05:50:03 /gha2db: Splitted http://data.gharchive.org/2016-09-29-16.json.gz, 54612 JSONs
+2018-06-12 05:50:03 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-7.json.gz: 42311 JSONs, found 15 matching, events 15
+2018-06-12 05:50:03 /gha2db: Working on 2016-09-30 01:00:00 +0000 UTC
+2018-06-12 05:50:03 /gha2db: Opened http://data.gharchive.org/2016-09-29-21.json.gz
+2018-06-12 05:50:03 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-18.json.gz
+2018-06-12 05:50:03 /gha2db: Opened http://data.gharchive.org/2016-09-29-22.json.gz
+2018-06-12 05:50:03 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-16.json.gz: 55463 JSONs, found 22 matching, events 22
+2018-06-12 05:50:03 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-20.json.gz: 52138 JSONs, found 24 matching, events 24
+2018-06-12 05:50:03 /gha2db: Working on 2016-09-30 02:00:00 +0000 UTC
+2018-06-12 05:50:03 /gha2db: Working on 2016-09-30 03:00:00 +0000 UTC
+2018-06-12 05:50:03 /gha2db: Parsed: http://data.gharchive.org/2016-09-26-14.json.gz: 60942 JSONs, found 24 matching, events 24
+2018-06-12 05:50:03 /gha2db: Working on 2016-09-30 04:00:00 +0000 UTC
+2018-06-12 05:50:03 /gha2db: Splitted http://data.gharchive.org/2016-09-29-18.json.gz, 54006 JSONs
+2018-06-12 05:50:03 /gha2db: Opened http://data.gharchive.org/2016-09-29-23.json.gz
+2018-06-12 05:50:04 /gha2db: Opened http://data.gharchive.org/2016-09-30-0.json.gz
+2018-06-12 05:50:04 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-11.json.gz: 40975 JSONs, found 8 matching, events 8
+2018-06-12 05:50:04 /gha2db: Working on 2016-09-30 05:00:00 +0000 UTC
+2018-06-12 05:50:04 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-17.json.gz: 53764 JSONs, found 48 matching, events 48
+2018-06-12 05:50:04 /gha2db: Working on 2016-09-30 06:00:00 +0000 UTC
+2018-06-12 05:50:04 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-20.json.gz
+2018-06-12 05:50:04 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-18.json.gz: 53228 JSONs, found 26 matching, events 26
+2018-06-12 05:50:04 /gha2db: Opened http://data.gharchive.org/2016-09-30-2.json.gz
+2018-06-12 05:50:04 /gha2db: Working on 2016-09-30 07:00:00 +0000 UTC
+2018-06-12 05:50:04 /gha2db: Splitted http://data.gharchive.org/2016-09-29-20.json.gz, 51756 JSONs
+2018-06-12 05:50:04 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-19.json.gz
+2018-06-12 05:50:04 /gha2db: Opened http://data.gharchive.org/2016-09-30-1.json.gz
+2018-06-12 05:50:04 /gha2db: Opened http://data.gharchive.org/2016-09-30-4.json.gz
+2018-06-12 05:50:04 /gha2db: Opened http://data.gharchive.org/2016-09-30-3.json.gz
+2018-06-12 05:50:04 /gha2db: Splitted http://data.gharchive.org/2016-09-29-19.json.gz, 51389 JSONs
+2018-06-12 05:50:04 /gha2db: Parsed: http://data.gharchive.org/2016-09-27-15.json.gz: 59927 JSONs, found 15 matching, events 15
+2018-06-12 05:50:04 /gha2db: Working on 2016-09-30 08:00:00 +0000 UTC
+2018-06-12 05:50:04 /gha2db: Opened http://data.gharchive.org/2016-09-30-5.json.gz
+2018-06-12 05:50:04 /gha2db: Opened http://data.gharchive.org/2016-09-30-7.json.gz
+2018-06-12 05:50:04 /gha2db: Opened http://data.gharchive.org/2016-09-30-6.json.gz
+2018-06-12 05:50:04 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-8.json.gz: 48927 JSONs, found 5 matching, events 5
+2018-06-12 05:50:04 /gha2db: Working on 2016-09-30 09:00:00 +0000 UTC
+2018-06-12 05:50:04 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-0.json.gz
+2018-06-12 05:50:04 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-23.json.gz
+2018-06-12 05:50:04 /gha2db: Opened http://data.gharchive.org/2016-09-30-8.json.gz
+2018-06-12 05:50:04 /gha2db: Splitted http://data.gharchive.org/2016-09-30-0.json.gz, 32070 JSONs
+2018-06-12 05:50:04 /gha2db: Splitted http://data.gharchive.org/2016-09-29-23.json.gz, 33434 JSONs
+2018-06-12 05:50:04 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-22.json.gz
+2018-06-12 05:50:04 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-4.json.gz
+2018-06-12 05:50:04 /gha2db: Splitted http://data.gharchive.org/2016-09-30-4.json.gz, 29816 JSONs
+2018-06-12 05:50:04 /gha2db: Splitted http://data.gharchive.org/2016-09-29-22.json.gz, 38481 JSONs
+2018-06-12 05:50:04 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-4.json.gz: 31269 JSONs, found 7 matching, events 7
+2018-06-12 05:50:04 /gha2db: Working on 2016-09-30 10:00:00 +0000 UTC
+2018-06-12 05:50:04 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-1.json.gz
+2018-06-12 05:50:04 /gha2db: Splitted http://data.gharchive.org/2016-09-30-1.json.gz, 34505 JSONs
+2018-06-12 05:50:04 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-2.json.gz
+2018-06-12 05:50:04 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-3.json.gz
+2018-06-12 05:50:05 /gha2db: Splitted http://data.gharchive.org/2016-09-30-2.json.gz, 37405 JSONs
+2018-06-12 05:50:05 /gha2db: Splitted http://data.gharchive.org/2016-09-30-3.json.gz, 35331 JSONs
+2018-06-12 05:50:05 /gha2db: Decompressed http://data.gharchive.org/2016-09-29-21.json.gz
+2018-06-12 05:50:05 /gha2db: Splitted http://data.gharchive.org/2016-09-29-21.json.gz, 44555 JSONs
+2018-06-12 05:50:05 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-5.json.gz: 30968 JSONs, found 3 matching, events 3
+2018-06-12 05:50:05 /gha2db: Working on 2016-09-30 11:00:00 +0000 UTC
+2018-06-12 05:50:05 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-5.json.gz
+2018-06-12 05:50:05 /gha2db: Opened http://data.gharchive.org/2016-09-30-9.json.gz
+2018-06-12 05:50:05 /gha2db: Splitted http://data.gharchive.org/2016-09-30-5.json.gz, 31446 JSONs
+2018-06-12 05:50:05 /gha2db: Opened http://data.gharchive.org/2016-09-30-10.json.gz
+2018-06-12 05:50:05 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-3.json.gz: 37321 JSONs, found 1 matching, events 1
+2018-06-12 05:50:05 /gha2db: Working on 2016-09-30 12:00:00 +0000 UTC
+2018-06-12 05:50:05 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-6.json.gz
+2018-06-12 05:50:05 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-9.json.gz: 50936 JSONs, found 8 matching, events 8
+2018-06-12 05:50:05 /gha2db: Working on 2016-09-30 13:00:00 +0000 UTC
+2018-06-12 05:50:05 /gha2db: Splitted http://data.gharchive.org/2016-09-30-6.json.gz, 39228 JSONs
+2018-06-12 05:50:05 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-7.json.gz
+2018-06-12 05:50:05 /gha2db: Splitted http://data.gharchive.org/2016-09-30-7.json.gz, 41707 JSONs
+2018-06-12 05:50:05 /gha2db: Opened http://data.gharchive.org/2016-09-30-11.json.gz
+2018-06-12 05:50:05 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-10.json.gz: 43795 JSONs, found 4 matching, events 4
+2018-06-12 05:50:05 /gha2db: Working on 2016-09-30 14:00:00 +0000 UTC
+2018-06-12 05:50:05 /gha2db: Opened http://data.gharchive.org/2016-09-30-12.json.gz
+2018-06-12 05:50:05 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-2.json.gz: 39141 JSONs, found 9 matching, events 9
+2018-06-12 05:50:05 /gha2db: Working on 2016-09-30 15:00:00 +0000 UTC
+2018-06-12 05:50:05 /gha2db: Opened http://data.gharchive.org/2016-09-30-13.json.gz
+2018-06-12 05:50:05 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-8.json.gz
+2018-06-12 05:50:05 /gha2db: Splitted http://data.gharchive.org/2016-09-30-8.json.gz, 46327 JSONs
+2018-06-12 05:50:05 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-12.json.gz: 48999 JSONs, found 5 matching, events 5
+2018-06-12 05:50:05 /gha2db: Working on 2016-09-30 16:00:00 +0000 UTC
+2018-06-12 05:50:06 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-0.json.gz: 35438 JSONs, found 22 matching, events 22
+2018-06-12 05:50:06 /gha2db: Working on 2016-09-30 17:00:00 +0000 UTC
+2018-06-12 05:50:06 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-23.json.gz: 36078 JSONs, found 37 matching, events 37
+2018-06-12 05:50:06 /gha2db: Working on 2016-09-30 18:00:00 +0000 UTC
+2018-06-12 05:50:06 /gha2db: Opened http://data.gharchive.org/2016-09-30-14.json.gz
+2018-06-12 05:50:06 /gha2db: Opened http://data.gharchive.org/2016-09-30-15.json.gz
+2018-06-12 05:50:06 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-9.json.gz
+2018-06-12 05:50:06 /gha2db: Splitted http://data.gharchive.org/2016-09-30-9.json.gz, 46780 JSONs
+2018-06-12 05:50:06 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-10.json.gz
+2018-06-12 05:50:06 /gha2db: Opened http://data.gharchive.org/2016-09-30-16.json.gz
+2018-06-12 05:50:06 /gha2db: Splitted http://data.gharchive.org/2016-09-30-10.json.gz, 42100 JSONs
+2018-06-12 05:50:06 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-6.json.gz: 39773 JSONs, found 3 matching, events 3
+2018-06-12 05:50:06 /gha2db: Working on 2016-09-30 19:00:00 +0000 UTC
+2018-06-12 05:50:06 /gha2db: Opened http://data.gharchive.org/2016-09-30-18.json.gz
+2018-06-12 05:50:06 /gha2db: Opened http://data.gharchive.org/2016-09-30-17.json.gz
+2018-06-12 05:50:06 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-11.json.gz
+2018-06-12 05:50:06 /gha2db: Splitted http://data.gharchive.org/2016-09-30-11.json.gz, 39015 JSONs
+2018-06-12 05:50:06 /gha2db: Opened http://data.gharchive.org/2016-09-30-19.json.gz
+2018-06-12 05:50:06 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-12.json.gz
+2018-06-12 05:50:06 /gha2db: Splitted http://data.gharchive.org/2016-09-30-12.json.gz, 44887 JSONs
+2018-06-12 05:50:07 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-1.json.gz: 36282 JSONs, found 25 matching, events 25
+2018-06-12 05:50:07 /gha2db: Working on 2016-09-30 20:00:00 +0000 UTC
+2018-06-12 05:50:07 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-7.json.gz: 43667 JSONs, found 9 matching, events 9
+2018-06-12 05:50:07 /gha2db: Working on 2016-09-30 21:00:00 +0000 UTC
+2018-06-12 05:50:07 /gha2db: Opened http://data.gharchive.org/2016-09-30-20.json.gz
+2018-06-12 05:50:07 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-13.json.gz
+2018-06-12 05:50:07 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-22.json.gz: 42907 JSONs, found 22 matching, events 22
+2018-06-12 05:50:07 /gha2db: Working on 2016-09-30 22:00:00 +0000 UTC
+2018-06-12 05:50:07 /gha2db: Splitted http://data.gharchive.org/2016-09-30-13.json.gz, 48949 JSONs
+2018-06-12 05:50:07 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-15.json.gz
+2018-06-12 05:50:07 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-13.json.gz: 56258 JSONs, found 9 matching, events 9
+2018-06-12 05:50:07 /gha2db: Working on 2016-09-30 23:00:00 +0000 UTC
+2018-06-12 05:50:07 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-14.json.gz
+2018-06-12 05:50:07 /gha2db: Splitted http://data.gharchive.org/2016-09-30-15.json.gz, 56428 JSONs
+2018-06-12 05:50:07 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-16.json.gz
+2018-06-12 05:50:07 /gha2db: Splitted http://data.gharchive.org/2016-09-30-14.json.gz, 55414 JSONs
+2018-06-12 05:50:07 /gha2db: Splitted http://data.gharchive.org/2016-09-30-16.json.gz, 50990 JSONs
+2018-06-12 05:50:07 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-17.json.gz
+2018-06-12 05:50:07 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-18.json.gz
+2018-06-12 05:50:07 /gha2db: Splitted http://data.gharchive.org/2016-09-30-17.json.gz, 50499 JSONs
+2018-06-12 05:50:07 /gha2db: Splitted http://data.gharchive.org/2016-09-30-18.json.gz, 49684 JSONs
+2018-06-12 05:50:07 /gha2db: Opened http://data.gharchive.org/2016-09-30-22.json.gz
+2018-06-12 05:50:07 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-16.json.gz: 54850 JSONs, found 24 matching, events 24
+2018-06-12 05:50:07 /gha2db: Working on 2016-10-01 00:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Opened http://data.gharchive.org/2016-09-30-23.json.gz
+2018-06-12 05:50:08 /gha2db: Opened http://data.gharchive.org/2016-09-30-21.json.gz
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-19.json.gz: 50507 JSONs, found 44 matching, events 44
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 01:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-19.json.gz
+2018-06-12 05:50:08 /gha2db: Splitted http://data.gharchive.org/2016-09-30-19.json.gz, 46479 JSONs
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-4.json.gz: 29815 JSONs, found 6 matching, events 6
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 02:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-8.json.gz: 48118 JSONs, found 7 matching, events 7
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 03:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-11.json.gz: 42611 JSONs, found 8 matching, events 8
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 04:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-18.json.gz: 52470 JSONs, found 43 matching, events 43
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 05:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-10.json.gz: 46072 JSONs, found 5 matching, events 5
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 06:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-21.json.gz: 47732 JSONs, found 21 matching, events 21
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 07:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-20.json.gz: 51472 JSONs, found 20 matching, events 20
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 08:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Opened http://data.gharchive.org/2016-10-01-1.json.gz
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-14.json.gz: 62403 JSONs, found 22 matching, events 22
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 09:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Opened http://data.gharchive.org/2016-10-01-2.json.gz
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-15.json.gz: 59718 JSONs, found 40 matching, events 40
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 10:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-5.json.gz: 31445 JSONs, found 2 matching, events 2
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 11:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Opened http://data.gharchive.org/2016-10-01-3.json.gz
+2018-06-12 05:50:08 /gha2db: Opened http://data.gharchive.org/2016-10-01-4.json.gz
+2018-06-12 05:50:08 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-23.json.gz
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-3.json.gz: 35330 JSONs, found 0 matching, events 0
+2018-06-12 05:50:08 /gha2db: Splitted http://data.gharchive.org/2016-09-30-23.json.gz, 29037 JSONs
+2018-06-12 05:50:08 /gha2db: Opened http://data.gharchive.org/2016-10-01-6.json.gz
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 12:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-0.json.gz: 32069 JSONs, found 7 matching, events 7
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 13:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-1.json.gz: 34504 JSONs, found 5 matching, events 5
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 14:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Opened http://data.gharchive.org/2016-10-01-5.json.gz
+2018-06-12 05:50:08 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-22.json.gz
+2018-06-12 05:50:08 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-20.json.gz
+2018-06-12 05:50:08 /gha2db: Splitted http://data.gharchive.org/2016-09-30-22.json.gz, 35631 JSONs
+2018-06-12 05:50:08 /gha2db: Splitted http://data.gharchive.org/2016-09-30-20.json.gz, 46186 JSONs
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-2.json.gz: 37404 JSONs, found 2 matching, events 2
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 15:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Parsed: http://data.gharchive.org/2016-09-28-17.json.gz: 53631 JSONs, found 57 matching, events 57
+2018-06-12 05:50:08 /gha2db: Opened http://data.gharchive.org/2016-10-01-8.json.gz
+2018-06-12 05:50:08 /gha2db: Working on 2016-10-01 16:00:00 +0000 UTC
+2018-06-12 05:50:08 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-1.json.gz
+2018-06-12 05:50:08 /gha2db: Splitted http://data.gharchive.org/2016-10-01-1.json.gz, 22096 JSONs
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-2.json.gz
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-11.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-2.json.gz, 21916 JSONs
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-7.json.gz
+2018-06-12 05:50:09 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-9.json.gz: 51264 JSONs, found 17 matching, events 17
+2018-06-12 05:50:09 /gha2db: Working on 2016-10-01 17:00:00 +0000 UTC
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-4.json.gz
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-13.json.gz
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-09-30-21.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-4.json.gz, 21514 JSONs
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-3.json.gz
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-12.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-3.json.gz, 21892 JSONs
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-09-30-21.json.gz, 40983 JSONs
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-5.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-5.json.gz, 19542 JSONs
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-10.json.gz
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-0.json.gz
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-15.json.gz
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-14.json.gz
+2018-06-12 05:50:09 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-23.json.gz: 33433 JSONs, found 24 matching, events 24
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-16.json.gz
+2018-06-12 05:50:09 /gha2db: Working on 2016-10-01 18:00:00 +0000 UTC
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-8.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-8.json.gz, 24134 JSONs
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-9.json.gz
+2018-06-12 05:50:09 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-12.json.gz: 49726 JSONs, found 3 matching, events 3
+2018-06-12 05:50:09 /gha2db: Working on 2016-10-01 19:00:00 +0000 UTC
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-7.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-7.json.gz, 21884 JSONs
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-17.json.gz
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-11.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-11.json.gz, 23870 JSONs
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-6.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-6.json.gz, 21699 JSONs
+2018-06-12 05:50:09 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-6.json.gz: 39227 JSONs, found 0 matching, events 0
+2018-06-12 05:50:09 /gha2db: Working on 2016-10-01 20:00:00 +0000 UTC
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-10.json.gz
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-12.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-10.json.gz, 25317 JSONs
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-13.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-12.json.gz, 26464 JSONs
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-13.json.gz, 28359 JSONs
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-0.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-0.json.gz, 25585 JSONs
+2018-06-12 05:50:09 /gha2db: Opened http://data.gharchive.org/2016-10-01-19.json.gz
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-9.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-9.json.gz, 23734 JSONs
+2018-06-12 05:50:09 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-15.json.gz
+2018-06-12 05:50:09 /gha2db: Splitted http://data.gharchive.org/2016-10-01-15.json.gz, 31771 JSONs
+2018-06-12 05:50:10 /gha2db: Opened http://data.gharchive.org/2016-10-01-20.json.gz
+2018-06-12 05:50:10 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-22.json.gz: 38480 JSONs, found 13 matching, events 13
+2018-06-12 05:50:10 /gha2db: Working on 2016-10-01 21:00:00 +0000 UTC
+2018-06-12 05:50:10 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-16.json.gz
+2018-06-12 05:50:10 /gha2db: Splitted http://data.gharchive.org/2016-10-01-16.json.gz, 34043 JSONs
+2018-06-12 05:50:10 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-14.json.gz
+2018-06-12 05:50:10 /gha2db: Splitted http://data.gharchive.org/2016-10-01-14.json.gz, 31965 JSONs
+2018-06-12 05:50:10 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-17.json.gz
+2018-06-12 05:50:10 /gha2db: Splitted http://data.gharchive.org/2016-10-01-17.json.gz, 32341 JSONs
+2018-06-12 05:50:10 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-13.json.gz: 54379 JSONs, found 9 matching, events 9
+2018-06-12 05:50:10 /gha2db: Working on 2016-10-01 22:00:00 +0000 UTC
+2018-06-12 05:50:10 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-17.json.gz: 49898 JSONs, found 23 matching, events 23
+2018-06-12 05:50:10 /gha2db: Working on 2016-10-01 23:00:00 +0000 UTC
+2018-06-12 05:50:10 /gha2db: Opened http://data.gharchive.org/2016-10-01-21.json.gz
+2018-06-12 05:50:10 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-7.json.gz: 41706 JSONs, found 0 matching, events 0
+2018-06-12 05:50:10 /gha2db: Working on 2016-10-02 00:00:00 +0000 UTC
+2018-06-12 05:50:10 /gha2db: Opened http://data.gharchive.org/2016-10-01-18.json.gz
+2018-06-12 05:50:10 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-19.json.gz
+2018-06-12 05:50:10 /gha2db: Splitted http://data.gharchive.org/2016-10-01-19.json.gz, 32090 JSONs
+2018-06-12 05:50:10 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-20.json.gz
+2018-06-12 05:50:10 /gha2db: Splitted http://data.gharchive.org/2016-10-01-20.json.gz, 32640 JSONs
+2018-06-12 05:50:10 /gha2db: Opened http://data.gharchive.org/2016-10-01-22.json.gz
+2018-06-12 05:50:10 /gha2db: Opened http://data.gharchive.org/2016-10-02-0.json.gz
+2018-06-12 05:50:10 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-16.json.gz: 54611 JSONs, found 26 matching, events 26
+2018-06-12 05:50:10 /gha2db: Opened http://data.gharchive.org/2016-10-01-23.json.gz
+2018-06-12 05:50:10 /gha2db: Working on 2016-10-02 01:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-5.json.gz: 19541 JSONs, found 4 matching, events 4
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 02:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-21.json.gz
+2018-06-12 05:50:11 /gha2db: Splitted http://data.gharchive.org/2016-10-01-21.json.gz, 30257 JSONs
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-20.json.gz: 51755 JSONs, found 17 matching, events 17
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 03:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-21.json.gz: 44554 JSONs, found 17 matching, events 17
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 04:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-8.json.gz: 46326 JSONs, found 2 matching, events 2
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 05:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-14.json.gz: 60215 JSONs, found 10 matching, events 10
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 06:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-2.json.gz: 21915 JSONs, found 3 matching, events 3
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 07:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-0.json.gz
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-19.json.gz: 51388 JSONs, found 28 matching, events 28
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 08:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-23.json.gz
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-18.json.gz: 54005 JSONs, found 21 matching, events 21
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-1.json.gz: 22095 JSONs, found 3 matching, events 3
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 09:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Splitted http://data.gharchive.org/2016-10-02-0.json.gz, 21716 JSONs
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 10:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Splitted http://data.gharchive.org/2016-10-01-23.json.gz, 21881 JSONs
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-4.json.gz: 21513 JSONs, found 5 matching, events 5
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 11:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-1.json.gz
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-29-15.json.gz: 58475 JSONs, found 23 matching, events 23
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 12:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-3.json.gz: 21891 JSONs, found 0 matching, events 0
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-11.json.gz: 39014 JSONs, found 9 matching, events 9
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 13:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 14:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-10.json.gz: 42099 JSONs, found 8 matching, events 8
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 15:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-2.json.gz
+2018-06-12 05:50:11 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-22.json.gz
+2018-06-12 05:50:11 /gha2db: Splitted http://data.gharchive.org/2016-10-01-22.json.gz, 27744 JSONs
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-4.json.gz
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-7.json.gz: 21883 JSONs, found 0 matching, events 0
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 16:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-5.json.gz
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-10.json.gz
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-9.json.gz
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-7.json.gz
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-8.json.gz: 24133 JSONs, found 1 matching, events 1
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 17:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-12.json.gz
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-8.json.gz
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-11.json.gz
+2018-06-12 05:50:11 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-1.json.gz
+2018-06-12 05:50:11 /gha2db: Splitted http://data.gharchive.org/2016-10-02-1.json.gz, 20777 JSONs
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-6.json.gz: 21698 JSONs, found 0 matching, events 0
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 18:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-14.json.gz
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-15.json.gz
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-9.json.gz: 46779 JSONs, found 11 matching, events 11
+2018-06-12 05:50:11 /gha2db: Opened http://data.gharchive.org/2016-10-02-13.json.gz
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 19:00:00 +0000 UTC
+2018-06-12 05:50:11 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-2.json.gz
+2018-06-12 05:50:11 /gha2db: Decompressed http://data.gharchive.org/2016-10-01-18.json.gz
+2018-06-12 05:50:11 /gha2db: Splitted http://data.gharchive.org/2016-10-02-2.json.gz, 20977 JSONs
+2018-06-12 05:50:11 /gha2db: Splitted http://data.gharchive.org/2016-10-01-18.json.gz, 31393 JSONs
+2018-06-12 05:50:11 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-11.json.gz: 23869 JSONs, found 0 matching, events 0
+2018-06-12 05:50:11 /gha2db: Working on 2016-10-02 20:00:00 +0000 UTC
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-4.json.gz
+2018-06-12 05:50:12 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-10.json.gz: 25316 JSONs, found 0 matching, events 0
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-4.json.gz, 21434 JSONs
+2018-06-12 05:50:12 /gha2db: Working on 2016-10-02 21:00:00 +0000 UTC
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-5.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-5.json.gz, 19833 JSONs
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-17.json.gz
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-6.json.gz
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-16.json.gz
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-7.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-7.json.gz, 21808 JSONs
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-3.json.gz
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-18.json.gz
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-10.json.gz
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-8.json.gz
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-9.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-8.json.gz, 24105 JSONs
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-10.json.gz, 26593 JSONs
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-9.json.gz, 24397 JSONs
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-11.json.gz
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-12.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-11.json.gz, 24741 JSONs
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-12.json.gz, 27368 JSONs
+2018-06-12 05:50:12 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-9.json.gz: 23733 JSONs, found 1 matching, events 1
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-20.json.gz
+2018-06-12 05:50:12 /gha2db: Working on 2016-10-02 22:00:00 +0000 UTC
+2018-06-12 05:50:12 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-23.json.gz: 29036 JSONs, found 10 matching, events 10
+2018-06-12 05:50:12 /gha2db: Working on 2016-10-02 23:00:00 +0000 UTC
+2018-06-12 05:50:12 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-12.json.gz: 26463 JSONs, found 1 matching, events 1
+2018-06-12 05:50:12 /gha2db: Working on 2016-10-03 00:00:00 +0000 UTC
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-21.json.gz
+2018-06-12 05:50:12 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-12.json.gz: 44886 JSONs, found 9 matching, events 9
+2018-06-12 05:50:12 /gha2db: Working on 2016-10-03 01:00:00 +0000 UTC
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-14.json.gz
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-19.json.gz
+2018-06-12 05:50:12 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-13.json.gz: 28358 JSONs, found 0 matching, events 0
+2018-06-12 05:50:12 /gha2db: Working on 2016-10-03 02:00:00 +0000 UTC
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-14.json.gz, 33679 JSONs
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-15.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-15.json.gz, 33631 JSONs
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-6.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-6.json.gz, 22058 JSONs
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-3.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-3.json.gz, 20692 JSONs
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-22.json.gz
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-02-23.json.gz
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-17.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-17.json.gz, 32232 JSONs
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-03-0.json.gz
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-03-1.json.gz
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-13.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-13.json.gz, 29269 JSONs
+2018-06-12 05:50:12 /gha2db: Opened http://data.gharchive.org/2016-10-03-2.json.gz
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-16.json.gz
+2018-06-12 05:50:12 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-18.json.gz
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-16.json.gz, 34517 JSONs
+2018-06-12 05:50:12 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-0.json.gz: 25584 JSONs, found 25 matching, events 25
+2018-06-12 05:50:12 /gha2db: Working on 2016-10-03 03:00:00 +0000 UTC
+2018-06-12 05:50:12 /gha2db: Splitted http://data.gharchive.org/2016-10-02-18.json.gz, 34474 JSONs
+2018-06-12 05:50:13 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-20.json.gz
+2018-06-12 05:50:13 /gha2db: Splitted http://data.gharchive.org/2016-10-02-20.json.gz, 34804 JSONs
+2018-06-12 05:50:13 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-21.json.gz
+2018-06-12 05:50:13 /gha2db: Splitted http://data.gharchive.org/2016-10-02-21.json.gz, 31079 JSONs
+2018-06-12 05:50:13 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-23.json.gz
+2018-06-12 05:50:13 /gha2db: Splitted http://data.gharchive.org/2016-10-02-23.json.gz, 24970 JSONs
+2018-06-12 05:50:13 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-19.json.gz
+2018-06-12 05:50:13 /gha2db: Splitted http://data.gharchive.org/2016-10-02-19.json.gz, 33629 JSONs
+2018-06-12 05:50:13 /gha2db: Decompressed http://data.gharchive.org/2016-10-02-22.json.gz
+2018-06-12 05:50:13 /gha2db: Splitted http://data.gharchive.org/2016-10-02-22.json.gz, 28749 JSONs
+2018-06-12 05:50:13 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-0.json.gz
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-15.json.gz: 31770 JSONs, found 1 matching, events 1
+2018-06-12 05:50:13 /gha2db: Opened http://data.gharchive.org/2016-10-03-3.json.gz
+2018-06-12 05:50:13 /gha2db: Splitted http://data.gharchive.org/2016-10-03-0.json.gz, 24654 JSONs
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 04:00:00 +0000 UTC
+2018-06-12 05:50:13 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-1.json.gz
+2018-06-12 05:50:13 /gha2db: Splitted http://data.gharchive.org/2016-10-03-1.json.gz, 26402 JSONs
+2018-06-12 05:50:13 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-2.json.gz
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-0.json.gz: 21715 JSONs, found 0 matching, events 0
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 05:00:00 +0000 UTC
+2018-06-12 05:50:13 /gha2db: Splitted http://data.gharchive.org/2016-10-03-2.json.gz, 28252 JSONs
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-14.json.gz: 31964 JSONs, found 1 matching, events 1
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 06:00:00 +0000 UTC
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-22.json.gz: 35630 JSONs, found 59 matching, events 59
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 07:00:00 +0000 UTC
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-23.json.gz: 21880 JSONs, found 1 matching, events 1
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 08:00:00 +0000 UTC
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-16.json.gz: 34042 JSONs, found 2 matching, events 2
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 09:00:00 +0000 UTC
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-17.json.gz: 32340 JSONs, found 2 matching, events 2
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 10:00:00 +0000 UTC
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-13.json.gz: 48948 JSONs, found 13 matching, events 13
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 11:00:00 +0000 UTC
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-1.json.gz: 20776 JSONs, found 0 matching, events 0
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 12:00:00 +0000 UTC
+2018-06-12 05:50:13 /gha2db: Opened http://data.gharchive.org/2016-10-03-4.json.gz
+2018-06-12 05:50:13 /gha2db: Opened http://data.gharchive.org/2016-10-03-5.json.gz
+2018-06-12 05:50:13 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-3.json.gz
+2018-06-12 05:50:13 /gha2db: Splitted http://data.gharchive.org/2016-10-03-3.json.gz, 27870 JSONs
+2018-06-12 05:50:13 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-2.json.gz: 20976 JSONs, found 1 matching, events 1
+2018-06-12 05:50:13 /gha2db: Working on 2016-10-03 13:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-8.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-5.json.gz: 19832 JSONs, found 4 matching, events 4
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 14:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-7.json.gz
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-6.json.gz
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-10.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-4.json.gz: 21433 JSONs, found 3 matching, events 3
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 15:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-17.json.gz: 50498 JSONs, found 17 matching, events 17
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 16:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-11.json.gz
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-12.json.gz
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-13.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-20.json.gz: 32639 JSONs, found 2 matching, events 2
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 17:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-9.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-19.json.gz: 32089 JSONs, found 1 matching, events 1
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 18:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-7.json.gz: 21807 JSONs, found 0 matching, events 0
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 19:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-19.json.gz: 46478 JSONs, found 26 matching, events 26
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 20:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-5.json.gz
+2018-06-12 05:50:14 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-4.json.gz
+2018-06-12 05:50:14 /gha2db: Splitted http://data.gharchive.org/2016-10-03-5.json.gz, 25933 JSONs
+2018-06-12 05:50:14 /gha2db: Splitted http://data.gharchive.org/2016-10-03-4.json.gz, 27280 JSONs
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-14.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-22.json.gz: 27743 JSONs, found 1 matching, events 1
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 21:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-16.json.gz: 50989 JSONs, found 23 matching, events 23
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 22:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-18.json.gz: 49683 JSONs, found 23 matching, events 23
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-03 23:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-3.json.gz: 20691 JSONs, found 0 matching, events 0
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-21.json.gz: 30256 JSONs, found 0 matching, events 0
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-04 00:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-04 01:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-15.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-21.json.gz: 40982 JSONs, found 22 matching, events 22
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-04 02:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-8.json.gz: 24104 JSONs, found 1 matching, events 1
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-04 03:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-6.json.gz: 22057 JSONs, found 0 matching, events 0
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-16.json.gz
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-04 04:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-19.json.gz
+2018-06-12 05:50:14 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-6.json.gz
+2018-06-12 05:50:14 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-7.json.gz
+2018-06-12 05:50:14 /gha2db: Splitted http://data.gharchive.org/2016-10-03-6.json.gz, 29128 JSONs
+2018-06-12 05:50:14 /gha2db: Splitted http://data.gharchive.org/2016-10-03-7.json.gz, 32570 JSONs
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-20.json.gz
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-17.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-11.json.gz: 24740 JSONs, found 0 matching, events 0
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-04 05:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-22.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-9.json.gz: 24396 JSONs, found 0 matching, events 0
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-04 06:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-21.json.gz
+2018-06-12 05:50:14 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-8.json.gz
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-04-0.json.gz
+2018-06-12 05:50:14 /gha2db: Splitted http://data.gharchive.org/2016-10-03-8.json.gz, 37390 JSONs
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-03-23.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-14.json.gz: 55413 JSONs, found 18 matching, events 18
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-04 07:00:00 +0000 UTC
+2018-06-12 05:50:14 /gha2db: Opened http://data.gharchive.org/2016-10-04-1.json.gz
+2018-06-12 05:50:14 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-20.json.gz: 46185 JSONs, found 17 matching, events 17
+2018-06-12 05:50:14 /gha2db: Working on 2016-10-04 08:00:00 +0000 UTC
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-03-18.json.gz
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-04-2.json.gz
+2018-06-12 05:50:15 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-10.json.gz: 26592 JSONs, found 0 matching, events 0
+2018-06-12 05:50:15 /gha2db: Working on 2016-10-04 09:00:00 +0000 UTC
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-04-3.json.gz
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-10.json.gz
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-04-4.json.gz
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-03-10.json.gz, 38879 JSONs
+2018-06-12 05:50:15 /gha2db: Parsed: http://data.gharchive.org/2016-09-30-15.json.gz: 56427 JSONs, found 23 matching, events 23
+2018-06-12 05:50:15 /gha2db: Working on 2016-10-04 10:00:00 +0000 UTC
+2018-06-12 05:50:15 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-12.json.gz: 27367 JSONs, found 0 matching, events 0
+2018-06-12 05:50:15 /gha2db: Working on 2016-10-04 11:00:00 +0000 UTC
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-04-5.json.gz
+2018-06-12 05:50:15 /gha2db: Parsed: http://data.gharchive.org/2016-10-01-18.json.gz: 31392 JSONs, found 0 matching, events 0
+2018-06-12 05:50:15 /gha2db: Working on 2016-10-04 12:00:00 +0000 UTC
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-04-6.json.gz
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-04-7.json.gz
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-9.json.gz
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-04-8.json.gz
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-03-9.json.gz, 41041 JSONs
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-12.json.gz
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-03-12.json.gz, 43909 JSONs
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-11.json.gz
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-03-11.json.gz, 38959 JSONs
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-04-12.json.gz
+2018-06-12 05:50:15 /gha2db: Opened http://data.gharchive.org/2016-10-04-11.json.gz
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-04-0.json.gz
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-04-1.json.gz
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-03-13.json.gz
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-04-1.json.gz, 30676 JSONs
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-04-0.json.gz, 32487 JSONs
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-04-4.json.gz
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-04-2.json.gz
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-04-3.json.gz
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-03-13.json.gz, 51104 JSONs
+2018-06-12 05:50:15 /gha2db: Parsed: http://data.gharchive.org/2016-10-02-13.json.gz: 29268 JSONs, found 0 matching, events 0
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-04-4.json.gz, 29326 JSONs
+2018-06-12 05:50:15 /gha2db: Working on 2016-10-04 13:00:00 +0000 UTC
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-04-2.json.gz, 32281 JSONs
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-04-3.json.gz, 30599 JSONs
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-04-6.json.gz
+2018-06-12 05:50:15 /gha2db: Splitted http://data.gharchive.org/2016-10-04-6.json.gz, 20491 JSONs
+2018-06-12 05:50:15 /gha2db: Decompressed http://data.gharchive.org/2016-10-04-5.json.gz
