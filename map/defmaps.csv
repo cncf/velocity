@@ -62,6 +62,7 @@ apache-spark,Apache Spark
 apache-spark-on-k8s,Apache Spark
 apachecloudstack,Apache CloudStack
 apacheignite,Apache Ignite
+apollographql,Apollo GraphQL
 aspnet,ASP.net
 atom,Atom
 auth0,Auth0

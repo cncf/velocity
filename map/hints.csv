@@ -710,6 +710,7 @@ intel/IA-Hardware-Composer,Intel HWC2
 intel/compute-runtime,Intel Graphics Compute Runtime
 intel/gvt-linux,GVT Linux
 intel/intel-iot-refkit,Intel Iot
+intel/linux-sgx,Software Guard Extensions for Linux
 iotivity/ci-management,IoTivity
 iotivity/iotivity,IoTivity
 iotivity/iotivity-alljoyn-bridge,IoTivity

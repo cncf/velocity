@@ -52,6 +52,7 @@ Apache Thrift,thrift.apache.org
 Apache Traffic Server,trafficserver.apache.org
 Apache Trafodion,git.apache.org/incubator-trafodion.git
 Apache Zeppelin,zeppelin.apache.org
+Apollo GraphQL,apollographql.com
 ArduPilot,ardupilot.org
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
 AtlasDB,palantir.github.io/atlasdb
@@ -426,6 +427,7 @@ Shopify Docs,help.shopify.com
 Shopify SDKs,developers.shopify.com
 Shopify Timber,shopify.com/timber
 Skillcrush,skillcrush.com
+Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spiffe,spiffe.io
