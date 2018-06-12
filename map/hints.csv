@@ -706,6 +706,10 @@ hashicorp/nomad,Nomad
 hashicorp/terraform,Terraform
 hashicorp/vault,Vault
 infernojs/inferno,Inferno
+intel/IA-Hardware-Composer,Intel HWC2
+intel/compute-runtime,Intel Graphics Compute Runtime
+intel/gvt-linux,GVT Linux
+intel/intel-iot-refkit,Intel Iot
 iotivity/ci-management,IoTivity
 iotivity/iotivity,IoTivity
 iotivity/iotivity-alljoyn-bridge,IoTivity

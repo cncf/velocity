@@ -157,6 +157,7 @@ Fluentd,fluentd.org
 Flutter,flutter.io
 FreeBSD,freebsd.org
 GGRC,code.google.com/archive/p/ggrc-core
+GVT Linux,github.com/intel/gvt-linux
 Git Large File Storage,git-lfs.github.com
 GitHub,github.com
 GitHub Enterprise Backup Utilities,enterprise.github.com
@@ -210,6 +211,9 @@ IO Visor,www.iovisor.org
 Inferno,infernojs.org
 InfluxDB,influxdata.com
 InfluxData,influxdata.com
+Intel Graphics Compute Runtime,https://01.org/compute-runtime
+Intel HWC2,github.com/intel/IA-Hardware-Composer
+Intel Iot,github.com/intel/intel-iot-refkit
 Intel Open Source Technology Center,01.org
 IoTivity,www.iotivity.org
 Ionic,ionicframework.com
