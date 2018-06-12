@@ -410,6 +410,8 @@ apacheignite/documentation,Apache Ignite
 apacheignite/drools-ignite,Apache Ignite
 apacheignite/yardstick-ignite,Apache Ignite
 apacheignite/zeppelin-demo,Apache Ignite
+apcera/nats,NATS
+appc/cni,CNI
 aspnet/Docs,ASP.net Docs
 automotive-grade-linux/docs-agl,AGL
 aws/aws-iot-device-sdk-arduino-yun,AWS SDKs
@@ -583,7 +585,7 @@ coreos/rkt,rkt
 coreos/rocket,rkt
 datawire/telepresence,Telepresence
 docker/compose,Docker
-docker/containerd,containerd
+docker/containerd,Docker
 docker/distribution,Docker
 docker/docker,Docker
 docker/docker-birthday-3,Docker
