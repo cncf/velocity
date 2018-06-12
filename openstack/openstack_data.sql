@@ -7,9 +7,9 @@ select * from (
     count(distinct e.id) filter (where e.type = 'PullRequestEvent') as prs,
     count(distinct e.id) filter (where e.type = 'PushEvent') as commits,
     count(distinct e.id) filter (where e.type = 'IssuesEvent') as issues,
-    string_agg(distinct e.dup_actor_login, ',') as authors_alt2,
+    count(distinct e.dup_actor_login) as authors_alt2,
     string_agg(distinct e.dup_actor_login, ',') as authors_alt1,
-    count(distinct e.dup_actor_login) as authors
+    string_agg(distinct e.dup_actor_login, ',') as authors
   from
     gha_events e,
     gha_orgs o,

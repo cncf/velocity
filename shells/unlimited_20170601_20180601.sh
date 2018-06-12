@@ -12,7 +12,7 @@ ruby merger.rb data/unlimited.csv data/cf_20170601_20180601.csv force || exit 1
 echo "Adding/Updating CNCF Projects"
 ruby merger.rb data/unlimited.csv data/cncf_20170601_20180601.csv || exit 1
 echo "Adding/Updating OpenStack case"
-ruby merger.rb data/unlimited.csv data/openstack_20170601_20180601.csv || exit 1
+ruby merger.rb data/unlimited.csv openstack/data_openstack_2017-06-01_2018-06-01.csv || exit 1
 echo "Adding/Updating Apache case"
 ruby merger.rb data/unlimited.csv data/apache_20170601_20180601.csv || exit 1
 echo "Adding/Updating Chromium case"
