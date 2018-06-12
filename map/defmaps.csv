@@ -238,4 +238,4 @@ zendframework,Zend Framework
 # kubernetes-cluster-automation,Kubernetes
 # kubernetes-contrib,Kubernetes
 # kubernetes-ui,Kubernetes
-#openstack,=SKIP
+# openstack,=SKIP
