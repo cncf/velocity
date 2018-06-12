@@ -1,3 +1,11 @@
+CNCF:
+	#321 by activity (13194)
+	#170 by authors (297)
+	#679 by comments (3853)
+	#203 by commits (6339)
+	#320 by issues (1398)
+	#350 by prs (1604)
+
 CNI:
 	#4743 by activity (1481)
 	#2835 by authors (48)
@@ -5,6 +13,14 @@ CNI:
 	#17419 by commits (129)
 	#4535 by issues (151)
 	#2346 by prs (336)
+
+CloudEvents:
+	#4601 by activity (1533)
+	#3279 by authors (43)
+	#2704 by comments (1012)
+	#18915 by commits (113)
+	#4857 by issues (140)
+	#2925 by prs (268)
 
 CoreDNS:
 	#581 by activity (8956)
@@ -30,6 +46,14 @@ Fluentd:
 	#341 by issues (1332)
 	#371 by prs (1546)
 
+Helm:
+	#57 by activity (35701)
+	#45 by authors (587)
+	#37 by comments (24025)
+	#1309 by commits (1832)
+	#84 by issues (3063)
+	#27 by prs (6781)
+
 Jaeger:
 	#485 by activity (10159)
 	#671 by authors (132)
@@ -54,6 +78,14 @@ Linkerd:
 	#955 by issues (638)
 	#769 by prs (887)
 
+NATS:
+	#1040 by activity (5932)
+	#731 by authors (124)
+	#1263 by comments (2194)
+	#1552 by commits (1633)
+	#677 by issues (827)
+	#475 by prs (1278)
+
 Notary:
 	#7099 by activity (931)
 	#5459 by authors (29)
@@ -69,6 +101,14 @@ OCI:
 	#5366 by commits (551)
 	#3583 by issues (196)
 	#1158 by prs (654)
+
+OPA:
+	#4016 by activity (1790)
+	#3690 by authors (39)
+	#5898 by comments (385)
+	#6953 by commits (419)
+	#2447 by issues (289)
+	#1074 by prs (697)
 
 OpenTracing:
 	#1532 by activity (4363)
@@ -94,6 +134,22 @@ Rook:
 	#478 by issues (1046)
 	#570 by prs (1102)
 
+Spiffe:
+	#9020 by activity (692)
+	#4475 by authors (33)
+	#11610 by comments (131)
+	#12011 by commits (219)
+	#7567 by issues (83)
+	#3013 by prs (259)
+
+Spire:
+	#7558 by activity (865)
+	#5409 by authors (29)
+	#9453 by comments (187)
+	#15902 by commits (148)
+	#3439 by issues (204)
+	#2412 by prs (326)
+
 TUF:
 	#4568 by activity (1545)
 	#5476 by authors (28)
@@ -101,6 +157,14 @@ TUF:
 	#7649 by commits (377)
 	#4798 by issues (142)
 	#1381 by prs (553)
+
+Telepresence:
+	#3032 by activity (2368)
+	#6795 by authors (24)
+	#3308 by comments (787)
+	#3864 by commits (757)
+	#1500 by issues (441)
+	#2067 by prs (383)
 
 Vitess:
 	#1273 by activity (5091)
@@ -111,12 +175,12 @@ Vitess:
 	#361 by prs (1573)
 
 containerd:
-	#408 by activity (11314)
-	#739 by authors (124)
-	#342 by comments (6425)
-	#2182 by commits (1241)
+	#409 by activity (11291)
+	#758 by authors (122)
+	#342 by comments (6418)
+	#2185 by commits (1236)
 	#553 by issues (947)
-	#147 by prs (2701)
+	#148 by prs (2690)
 
 gRPC:
 	#44 by activity (42458)
