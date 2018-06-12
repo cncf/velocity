@@ -277,8 +277,6 @@ Tool will output something like this: "After filtering: authors: 1637, commits: 
 Update `data/data_chromium_bugtracker_201606_201705.csv` accordingly.
 - Final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_201606_201705.csv -1`
 
-chromium_commits_201701_201712.csv
-
 - <b>openSUSE case:</b>
 - BigQuery part exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
 
@@ -306,6 +304,7 @@ Processed 7152 csets from 365 developers
 - PRs = 1.07 * 665 = 711
 - Comments would be 2 * commits = 14304
 - Activity = sum of all others (comments, commits, issues, prs)
+- Finally: `ruby merger.rb data/unlimited.csv data/data_agl_20170601_20180601.csv`
 
 - <b>LibreOffice case:</b>
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
