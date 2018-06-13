@@ -1,0 +1,63 @@
+AGL 0.614 commits/hour
+Angular 0.895 commits/hour
+Ansible 1.093 commits/hour
+Apollo GraphQL 0.758 commits/hour
+Azure SDKs 0.907 commits/hour
+CNCF 0.724 commits/hour
+CNI 0.015 commits/hour
+Chromium 9.059 commits/hour
+Cloud Foundry 4.485 commits/hour
+CloudEvents 0.013 commits/hour
+CoreDNS 0.212 commits/hour
+DefinitelyTyped 0.491 commits/hour
+Docker 0.539 commits/hour
+Eclipse 1.875 commits/hour
+Elasticsearch 3.032 commits/hour
+Envoy 0.517 commits/hour
+Ethereum 1.419 commits/hour
+Fluentd 0.199 commits/hour
+FreeBSD 4.317 commits/hour
+Helm 0.209 commits/hour
+Home Assistant 1.049 commits/hour
+Homebrew 1.169 commits/hour
+Hyperledger 0.969 commits/hour
+IO Visor 0.057 commits/hour
+Jaeger 0.23 commits/hour
+JanusGraph 0.033 commits/hour
+Kubernetes 1.633 commits/hour
+Let's Encrypt 0.186 commits/hour
+Linkerd 0.158 commits/hour
+Linux 8.08 commits/hour
+Mapbox 3.45 commits/hour
+MicrosoftDocs 7.17 commits/hour
+Mozilla 2.88 commits/hour
+NATS 0.186 commits/hour
+NixOS 1.883 commits/hour
+Node.js 1.728 commits/hour
+Notary 0.009 commits/hour
+OCI 0.054 commits/hour
+OPA 0.048 commits/hour
+Open API 0.026 commits/hour
+OpenTracing 0.064 commits/hour
+Pivotal Cloud Foundry 2.309 commits/hour
+Prometheus 0.359 commits/hour
+React 0.905 commits/hour
+Rook 0.07 commits/hour
+SPDX 0.06 commits/hour
+Spiffe 0.025 commits/hour
+Spire 0.017 commits/hour
+TUF 0.043 commits/hour
+Telepresence 0.086 commits/hour
+TensorFlow 0.492 commits/hour
+Terraform 1.233 commits/hour
+The Odin Project 0.339 commits/hour
+Tizen 0.145 commits/hour
+VS Code 2.237 commits/hour
+Vitess 0.08 commits/hour
+WiX 2.713 commits/hour
+Zephyr 0.384 commits/hour
+containerd 0.142 commits/hour
+dotnet 3.55 commits/hour
+gRPC 0.496 commits/hour
+rkt 0.015 commits/hour
+vuejs 0.589 commits/hour
