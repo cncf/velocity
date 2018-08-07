@@ -90,7 +90,7 @@ Automattic/simplenote-electron,22
 Automattic/happychat-service,21
 Automattic/kue,20
 ```
-We need to examine each one in `github.com`, like for the 1st project: `github.com/Automattic/amp-wp`. We see that this is a WordPress plugin, so it belnogs to the wWrdpress/WP Calypso project:
+We need to examine each one in `github.com`, like for the 1st project: `github.com/Automattic/amp-wp`. We see that this is a WordPress plugin, so it belnogs to the Wordpress/WP Calypso project:
 `grep -HIn "wordpress" map/*.csv`
 `grep -HIn "WP Calypso" map/*.csv`
 We see that we have WP Calypso defined in the hints file:
