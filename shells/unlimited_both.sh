@@ -26,7 +26,7 @@ ruby merger.rb data/unlimited.csv data/data_libreoffice_20170801_20180801.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating Apache Projects using Jira data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20170801_20180801.csv -1
 echo "Updating OpenStack projects using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs.csv -1
 echo "Updating Chromium project using their bug tracking data"
