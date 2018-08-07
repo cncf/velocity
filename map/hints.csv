@@ -642,6 +642,7 @@ fdio-stack/felix,FD.io
 fdio-stack/netplugin,FD.io
 fossology/fossology,FOSSology
 fpco/stackage,Hackage
+github.com/tpm2-software/tpm2-tools,Intel TPM
 github/VisualStudio,GitHub Extension for Visual Studio
 github/backup-utils,GitHub Enterprise Backup Utilities
 github/choosealicense.com,Choosealicense.com
@@ -715,6 +716,8 @@ intel/compute-runtime,Intel Graphics Compute Runtime
 intel/gvt-linux,GVT Linux
 intel/intel-iot-refkit,Intel Iot
 intel/linux-sgx,Software Guard Extensions for Linux
+intel/media-driver,Intel Media Driver
+intel/zephyr.js,ZJS
 iotivity/ci-management,IoTivity
 iotivity/iotivity,IoTivity
 iotivity/iotivity-alljoyn-bridge,IoTivity

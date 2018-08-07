@@ -216,7 +216,9 @@ InfluxData,influxdata.com
 Intel Graphics Compute Runtime,https://01.org/compute-runtime
 Intel HWC2,github.com/intel/IA-Hardware-Composer
 Intel Iot,github.com/intel/intel-iot-refkit
+Intel Media Driver,github.com/intel/media-driver
 Intel Open Source Technology Center,01.org
+Intel TPM,github.com/tpm2-software/tpm2-tools
 IoTivity,www.iotivity.org
 Ionic,ionicframework.com
 Iron.io,iron.io
@@ -514,6 +516,7 @@ YAPF,github.com/google/yapf
 Yoast SEO,yoast.com/wordpress/seo
 Yogstation13,yogstation.net
 ZEIT,zeit.co
+ZJS,github.com/intel/zephyr.js
 Zalando,tech.zalando.com
 Zend Framework,framework.zend.com
 Zephyr,www.zephyrproject.org
