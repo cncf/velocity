@@ -198,6 +198,7 @@ Guava,github.com/google/guava
 HTTPS Everywhere,eff.org/https-everywhere
 Hackage,stackage.org
 Halite,halite.io
+Harbor,vmware.github.io/harbor
 Helm,helm.sh
 Heron,heronstreaming.io
 HippieStationCode,github.com/HippieStationCode/HippieStation13
@@ -328,6 +329,7 @@ OpenDaylight,www.opendaylight.org
 OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
 OpenMAMA,www.openmama.org
+OpenMetrics,github.com/RichiH/OpenMetrics
 OpenRCT2,openrct2.website
 OpenSDS,www.opensds.io
 OpenSSL,openssl.org
@@ -470,7 +472,6 @@ US Web Design Standards,standards.usa.gov
 Uber Open Source,uber.github.io
 VIP Go,vip.wordpress.com/documentation/vip-go
 VMware,vmware.github.io
-VMware Harbor,vmware.github.io/harbor
 VMware Lightwave,github.com/vmware/lightwave
 VMware Photon,vmware.github.io/photon
 VMware PowerNSX,github.com/vmware/powernsx
@@ -532,6 +533,7 @@ dotnet,microsoft.com/net
 electron,electronjs.org
 envoyproxy,github.com/envoyproxy
 eslint,eslint.org
+etcd,coreos.com/etcd
 fabric8,fabric8.io
 fastlane,fastlane.tools
 fossasia,fossasia.org

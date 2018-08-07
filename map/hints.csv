@@ -307,6 +307,7 @@ OpenStack-mobile/OAuth2-Swift,OpenStack Swift
 OpenStack-mobile/OpenStackID-Swift,OpenStack Swift
 OpenStack-mobile/SwiftFoundation,OpenStack Swift
 OpenStack-mobile/SwiftSpinner,OpenStack Swift
+RichiH/OpenMetrics,OpenMetrics
 SNAS/website,SNAS.io
 Samsung/TizenRT,Tizen
 Shopify/Timber,Shopify Timber
@@ -577,6 +578,7 @@ coredns/grpc,CoreDNS
 coreinfrastructure/best-practices-badge,Core Infrastructure
 coreinfrastructure/cii-best-practices-badge,Core Infrastructure
 coreos/coreos-kubernetes,CoreOS
+coreos/etcd,etcd
 coreos/kube-prometheus,CoreOS
 coreos/kubernetes,CoreOS
 coreos/prometheus,CoreOS
@@ -585,7 +587,7 @@ coreos/rkt,rkt
 coreos/rocket,rkt
 datawire/telepresence,Telepresence
 docker/compose,Docker
-docker/containerd,Docker
+docker/containerd,containerd
 docker/distribution,Docker
 docker/docker,Docker
 docker/docker-birthday-3,Docker
@@ -1640,7 +1642,7 @@ twitter/scrooge,Scrooge
 uber/jaeger,Jaeger
 vmware/docker-volume-vsphere,VMware vSphere
 vmware/govmomi,VMware SDKs
-vmware/harbor,VMware Harbor
+vmware/harbor,Harbor
 vmware/lightwave,VMware Lightwave
 vmware/photon,VMware Photon
 vmware/photon-controller,VMware Photon
