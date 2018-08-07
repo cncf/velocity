@@ -14,7 +14,7 @@ ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv
 echo "Adding/Updating WebKit case"
 ruby merger.rb data/unlimited.csv data/webkit_20170801_20180801.csv
 echo "Adding/Updating OpenStack case"
-ruby merger.rb data/unlimited.csv data/data_openstack_20170801_20180801.csv
+ruby merger.rb data/unlimited.csv openstack/data_openstack_2017-08-01_2018-08-01.csv
 echo "Adding/Updating Apache case"
 ruby merger.rb data/unlimited.csv data/data_apache_20170801_20180801.csv
 echo "Adding/Updating Chromium case"
