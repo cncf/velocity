@@ -12,7 +12,6 @@ w3c,=SKIP
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
-Automotive Grade Linux,AGL
 CartoDB,CARTO
 ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
@@ -65,6 +64,7 @@ apollographql,Apollo GraphQL
 aspnet,ASP.net
 atom,Atom
 auth0,Auth0
+automotive-grade-linux,AGL
 betaflight,Betaflight
 boostorg,Boost
 brave,Brave Software
@@ -172,6 +172,7 @@ opencontainers,OCI
 openeventing,CloudEvents
 openhab,openHAB
 openmainframeproject,Open Mainframe
+opensds,OpenSDS
 openshift,OpenShift
 openssl,OpenSSL
 openstack-ansible,OpenStack Ansible

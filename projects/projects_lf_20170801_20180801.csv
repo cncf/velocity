@@ -1,0 +1,46 @@
+org,repo,activity,comments,prs,commits,issues,authors,project,url
+torvalds,linux,363116,300494,75123,62622,75123,3839,Linux,kernel.org
+kubernetes+kubernetes-incubator+kubernetes-client+kubernetes-csi,kubernetes+test-infra+website+kops+community+ingress-nginx+cri-o+kubespray+minikube+service-catalog+kubernetes.github.io+dashboard+kubeadm+autoscaler+external-storage+kube-aws+features+ingress+cri-containerd+heapster+external-dns+bootkube+ingress-gce+kube-deploy+kube-state-metrics+kompose+kubectl+java+cri-tools+cluster-registry+release+kube-arbitrator+examples+sig-release+csharp+client-go+kubernetes-anywhere+frakti+dns+descheduler+client-python+apiserver-builder+drivers+node-feature-discovery+external-provisioner+csi-test+rktlet+javascript+steering+external-attacher,306622,224335,44691,11911,25685,1988,Kubernetes,kubernetes.io
+nodejs,node+i18n+build+TSC+docker-node+community-committee+nodejs.org+modules+security-wg+node-gyp+node-chakracore+node-addon-api+admin+diagnostics+node-core-utils+citgm+benchmarking+Release+node-v8+nan+summit+user-feedback+llnode+mentorship+nodejs-ko+website-redesign+github-bot+readable-stream,114482,72963,13215,19004,9300,1301,Node.js,nodejs.org
+cloudfoundry,cf-deployment+bosh+uaa+cli+cloud_controller_ng+bosh-bootloader+diego-release+java-buildpack+bosh-cli+garden-runc-release+cf-java-client+cf-networking-release+bosh-deployment+loggregator+docs-bosh+bosh-linux-stemcell-builder+php-buildpack+cf-acceptance-tests+nodejs-buildpack+loggregator-release+bosh-agent+bosh-dns-release+docs-dev-guide+cf-release+uaa-release+staticfile-buildpack+cf-deployment-concourse-tasks+capi-release+syslog-release+bosh-deployment-resource+postgres-release,33524,8573,3098,18552,3301,844,Cloud Foundry,cloudfoundry.org
+kubernetes+kubernetes-helm+helm,charts+helm+monocular+chartmuseum+helm+helm-www,36783,25322,6729,1511,3221,541,Helm,helm.sh
+prometheus,prometheus+alertmanager+node_exporter+docs+tsdb+blackbox_exporter+snmp_exporter+client_java+client_golang+jmx_exporter+client_python+mysqld_exporter+statsd_exporter+pushgateway,25886,15743,3980,2666,3497,516,Prometheus,prometheus.io
+grpc+grpc-ecosystem,grpc+grpc-java+grpc-go+grpc-node+grpc-gateway+grpc-swift+grpc.github.io+go-grpc-middleware+polyglot+grpc-web+grpc-dart,43798,24308,9425,4171,5894,491,gRPC,grpc.io
+zephyrproject-rtos,zephyr,29863,15573,7934,3444,2912,310,Zephyr,www.zephyrproject.org
+automotive-grade-linux,docs-agl,7754,1812,906,4189,847,292,AGL,www.automotivelinux.org
+hyperledger,iroha+composer+indy-sdk+burrow+quilt+caliper+composer-tools+education-cryptomoji+composer-sample-networks,25877,6579,6550,8942,3806,288,Hyperledger,hyperledger.org
+cncf+crosscloudci,landscape+k8s-conformance+toc+cross-cloud+artwork+wg-serverless,6857,2879,1348,1756,874,271,CNCF,www.cncf.io
+envoyproxy+lyft,envoy+data-plane-api+envoy+go-control-plane,19480,10236,4354,3232,1658,245,Envoy,github.com/envoyproxy
+fluent,fluent-bit+fluentd+fluentd-docs+fluentd-kubernetes-daemonset+fluent-plugin-kafka+fluent-logger-python+fluentd-docker-image+fluent-plugin-rewrite-tag-filter+fluent-logger-node+fluent-plugin-s3,7502,3819,1243,1169,1271,159,Fluentd,fluentd.org
+jaegertracing+uber,jaeger+jaeger-client-java+jaeger-ui+jaeger-client-node+jaeger-client-python+jaeger+jaeger-client-go+jaeger-kubernetes+documentation+jaeger-client-csharp+jaeger-openshift+jaeger-client-cpp,9907,5060,1926,1609,1312,154,Jaeger,jaeger.readthedocs.io/en/latest
+Samsung,TizenRT,10954,6425,3133,1297,99,127,Tizen,www.tizen.org
+coreos,etcd,10125,5832,1732,1187,1374,124,etcd,coreos.com/etcd
+iovisor,bcc+gobpf,4003,2207,875,523,398,120,IO Visor,www.iovisor.org
+containerd,containerd+cri+cri-containerd,9825,5759,2197,1002,867,108,containerd,containerd.io
+letsencrypt,boulder+website+pebble,5313,1543,1408,1517,845,104,Let's Encrypt,letsencrypt.org
+opencontainers,runc+runtime-tools+runtime-spec,4370,2912,873,351,234,91,OCI,www.opencontainers.org
+opentracing,opentracing-java+opentracing-cpp+opentracing-csharp+opentracing.io+opentracing-php+specification,3413,2104,597,426,286,90,OpenTracing,opentracing.io
+youtube+vitessio,vitess+vitess,5039,2331,1544,691,473,86,Vitess,vitess.io
+vmware,harbor,9200,3613,1990,871,2726,81,Harbor,vmware.github.io/harbor
+linkerd,linkerd+linkerd2,4307,2063,668,985,591,77,Linkerd,linkerd.io
+coredns,coredns+deployment,8044,4206,1570,1378,890,76,CoreDNS,coredns.io
+rook,rook,5990,3440,1046,424,1080,76,Rook,rook.io
+JanusGraph,janusgraph,3563,1985,563,250,765,55,JanusGraph,janusgraph.org
+OAI,OpenAPI-Specification,1996,1380,206,98,312,50,Open API,www.openapis.org
+cloudevents,spec,1876,1284,324,103,165,50,CloudEvents,cloudevents.io
+containernetworking,plugins+cni,1252,758,254,99,141,43,CNI,github.com/containernetworking
+rkt,rkt,983,527,216,94,146,39,rkt,github.com/rkt/rkt
+spdx,license-list-XML+spdx-spec+tools+spdx-online-tools,2652,1413,435,491,313,36,SPDX,spdx.org
+openhpc,ohpc,2358,440,192,1323,403,30,OpenHPC,openhpc.community
+opensds,opensds+opensds-installer,1902,433,867,476,126,29,OpenSDS,www.opensds.io
+openvswitch,ovn-kubernetes,1477,792,429,186,70,28,Open vSwitch,openvswitch.org
+fossology,fossology,1188,579,237,183,189,28,FOSSology,www.fossology.org
+theupdateframework,notary,616,355,116,53,92,21,Notary,github.com/theupdateframework/notary
+OpenMAMA,OpenMAMA,249,69,92,60,28,21,OpenMAMA,www.openmama.org
+datawire,telepresence,1763,609,296,538,320,19,Telepresence,telepresence.io
+todogroup,repolinter,307,136,83,40,48,19,TODO group,todogroup.org
+rethinkdb,rethinkdb,1801,1222,111,86,382,18,RethinkDB,www.rethinkdb.com
+theupdateframework,tuf,958,201,371,294,92,14,TUF,github.com/theupdateframework.com
+"",RichiH/OpenMetrics,415,305,29,35,46,14,OpenMetrics,github.com/RichiH/OpenMetrics
+opensecuritycontroller,osc-core,985,345,316,157,167,11,Open Security Controller,opensecuritycontroller
+coreinfrastructure,best-practices-badge,1869,660,254,697,258,9,Core Infrastructure,www.coreinfrastructure.org
