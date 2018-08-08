@@ -26,6 +26,8 @@ ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cnc
 ```
 or use `shells/run_cncf.sh` which does the same, just make sure the file names are ok in the script.
 
+To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20170801_20180801.csv projects/projects_cncf_k8s_non_k8s_20170101_20180801.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
+
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1JzefTCtG0HsLYdvZ5j49wZ5B6Yt2S2l_t76H1Xpod2I)
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1. <br />
