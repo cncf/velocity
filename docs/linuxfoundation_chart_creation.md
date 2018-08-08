@@ -21,6 +21,13 @@ Run the query on https://bigquery.cloud.google.com/queries/ in the website's con
 
 Copy the results to a file with proper name `data/data_lf_projects_201611_201710.csv`
 
+<b>Add CNCF projects</b>
+- CNCF Projects case
+- We have a line in `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
+- Copy: `cp BigQuery/query_cncf_projects.sql BigQuery/query_cncf_projects_201606_201705.sql`, update conditions: `BigQuery/query_cncf_projects_201606_201705.sql`
+- Run on BigQuery and do the same as in the CF case. The final output file will be: `data/data_cncf_projects_201606_201705.csv`
+- Final line should be (try it): `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
+
 
 <b>Add Linux data</b>
 Try running this from the velocity project's root folder:
