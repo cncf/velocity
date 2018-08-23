@@ -86,6 +86,6 @@ group by org, repo, author_email, author_name
 group by org, repo
 order by
   activity desc
-limit 100000
+limit 1000000
 ;
 
