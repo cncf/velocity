@@ -22,7 +22,7 @@ Copy the results to a file like `data/data_cncf_projects_201611_201710.csv`.
 
 Run `analysis.rb` with
 ```
-ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cncf_201611_201710.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+ruby analysis.rb data/data_cncf_projects_20170801_20180801.csv projects/projects_cncf_20170801_20180801.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 or use `shells/run_cncf.sh` which does the same, just make sure the file names are ok in the script.
 
