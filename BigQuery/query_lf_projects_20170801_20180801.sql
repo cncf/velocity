@@ -6,20 +6,19 @@ SELECT
   sum(prs) AS prs,
   sum(commits) AS commits,
   sum(issues) AS issues,
-  EXACT_COUNT_DISTINCT(author_email) AS authors_alt2,
-  GROUP_CONCAT(STRING(author_name)) AS authors_alt1,
-  GROUP_CONCAT(STRING(author_email)) AS authors
+  EXACT_COUNT_DISTINCT(author) as authors_alt2,
+  GROUP_CONCAT(STRING(author)) AS authors_alt1,
+  GROUP_CONCAT(STRING(author)) AS authors
 FROM (
 SELECT
   org.login AS org,
   repo.name AS repo,
+  actor.login as author,
   count(*) AS activity,
-  SUM(IF(type = 'IssueCommentEvent', 1, 0)) AS comments,
+  SUM(IF(type in ('IssueCommentEvent', 'PullRequestReviewCommentEvent', 'CommitCommentEvent'), 1, 0)) as comments,
   SUM(IF(type = 'PullRequestEvent', 1, 0)) AS prs,
   SUM(IF(type = 'PushEvent', 1, 0)) AS commits,
-  SUM(IF(type = 'IssuesEvent', 1, 0)) AS issues,
-  IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.email'), '"', ''), '(null)') AS author_email,
-  IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') AS author_name
+  SUM(IF(type = 'IssuesEvent', 1, 0)) AS issues
 FROM 
   (SELECT * from
     TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-08-01'),TIMESTAMP('2018-07-31'))
@@ -49,7 +48,7 @@ WHERE
       'coreos/etcd'
     )
   )
-  AND type IN ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
+  and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent', 'PullRequestReviewCommentEvent', 'CommitCommentEvent')
   AND actor.login NOT LIKE '%bot%'
   AND actor.login NOT IN (
     'CF MEGA BOT','CAPI CI','CF Buildpacks Team CI Server','CI Pool Resource','I am Groot CI','CI (automated)',
@@ -80,7 +79,7 @@ WHERE
       2 DESC
     )
   )
-GROUP BY org, repo, author_email, author_name
+GROUP BY org, repo, author
 )
 GROUP BY org, repo
 HAVING 
