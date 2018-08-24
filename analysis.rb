@@ -168,7 +168,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   # Final name --> new name mapping (defmaps)
   # Used to create better names for projects auto generated just from org or repo name
   # And/Or to group multiple orgs, repos, projects or combinations of all into single project
-  # For example we can create "XYZ" forject for sum of "Kubernetes" and "dotnet" via:
+  # For example we can create "XYZ" project for sum of "Kubernetes" and "dotnet" via:
   # name,project
   # Kubernetes,XYZ
   # dotnet,XYZ
