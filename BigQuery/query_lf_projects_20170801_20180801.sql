@@ -14,7 +14,7 @@ SELECT
   org.login AS org,
   repo.name AS repo,
   count(*) AS activity,
-  SUM(IF(type = 'IssueCommentEvent', 1, 0)) AS comments,
+  SUM(IF(type in ('IssueCommentEvent', 'PullRequestReviewCommentEvent', 'CommitCommentEvent'), 1, 0)) as comments,
   SUM(IF(type = 'PullRequestEvent', 1, 0)) AS prs,
   SUM(IF(type = 'PushEvent', 1, 0)) AS commits,
   SUM(IF(type = 'IssuesEvent', 1, 0)) AS issues,
@@ -49,35 +49,20 @@ WHERE
       'coreos/etcd'
     )
   )
-  AND type IN ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
-  AND actor.login NOT LIKE '%bot%'
-  AND actor.login NOT IN (
-    'CF MEGA BOT','CAPI CI','CF Buildpacks Team CI Server','CI Pool Resource','I am Groot CI','CI (automated)',
-    'Loggregator CI','CI (Automated)','CI Bot','cf-infra-bot','CI','cf-loggregator','bot','CF INFRASTRUCTURE BOT',
-    'CF Garden','Container Networking Bot','Routing CI (Automated)','CF-Identity','BOSH CI','CF Loggregator CI Pipeline',
-    'CF Infrastructure','CI Submodule AutoUpdate','routing-ci','Concourse Bot','CF Toronto CI Bot','Concourse CI',
-    'Pivotal Concourse Bot','RUNTIME OG CI','CF CredHub CI Pipeline','CF CI Pipeline','CF Identity',
-    'PCF Security Enablement CI','CI BOT','Cloudops CI','hcf-bot','Cloud Foundry Buildpacks Team Robot',
-    'CF CORE SERVICES BOT','PCF Security Enablement','fizzy bot','Appdog CI Bot','CF Tribe','Greenhouse CI',
-    'fabric-composer-app','iotivity-replication','SecurityTest456','odl-github','opnfv-github' 
-  )
-  AND actor.login NOT IN (
-    SELECT
-      actor.login
-    FROM (
-      SELECT
-        actor.login,
-        COUNT(*) c
-      FROM
-    		TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('2017-08-01'),TIMESTAMP('2018-07-31'))
-      WHERE
-        type = 'IssueCommentEvent'
-      GROUP BY
-        1
-      HAVING
-        c > 5000
-      ORDER BY
-      2 DESC
+  and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent', 'PullRequestReviewCommentEvent', 'CommitCommentEvent')
+  and (
+    type = 'PushEvent' or (
+      actor.login not like '%bot%'
+      and actor.login not in (
+        'CF MEGA BOT','CAPI CI','CF Buildpacks Team CI Server','CI Pool Resource','I am Groot CI','CI (automated)',
+        'Loggregator CI','CI (Automated)','CI Bot','cf-infra-bot','CI','cf-loggregator','bot','CF INFRASTRUCTURE BOT',
+        'CF Garden','Container Networking Bot','Routing CI (Automated)','CF-Identity','BOSH CI','CF Loggregator CI Pipeline',
+        'CF Infrastructure','CI Submodule AutoUpdate','routing-ci','Concourse Bot','CF Toronto CI Bot','Concourse CI',
+        'Pivotal Concourse Bot','RUNTIME OG CI','CF CredHub CI Pipeline','CF CI Pipeline','CF Identity',
+        'PCF Security Enablement CI','CI BOT','Cloudops CI','hcf-bot','Cloud Foundry Buildpacks Team Robot',
+        'CF CORE SERVICES BOT','PCF Security Enablement','fizzy bot','Appdog CI Bot','CF Tribe','Greenhouse CI',
+        'fabric-composer-app','iotivity-replication','SecurityTest456','odl-github','opnfv-github' 
+      )
     )
   )
 GROUP BY org, repo, author_email, author_name
