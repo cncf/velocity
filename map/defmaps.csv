@@ -12,11 +12,6 @@ w3c,=SKIP
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
-tikv,TiKV
-cortexproject,Cortex
-buildpack,Buildpacks
-falcosecurity,Falco
-etcd-io,etcd
 CartoDB,CARTO
 ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
@@ -74,6 +69,7 @@ betaflight,Betaflight
 boostorg,Boost
 brave,Brave Software
 broadinstitute,Broad Institute
+buildpack,Buildpacks
 c4cs,Computing for Computer Scientists
 cakephp,CakePHP
 caskroom,Homebrew
@@ -96,6 +92,7 @@ codecombat,CodeCombat
 containernetworking,CNI
 coredns,CoreDNS
 coreos,CoreOS
+cortexproject,Cortex
 cregit/cregit,cregit
 crosscloudci,CNCF
 d3athrow/vgstation13,vgstation13
@@ -112,10 +109,12 @@ elasticsearch,Elasticsearch
 elsys,ELSYS
 emberjs,Ember.js
 envoyproxy,Envoy
+etcd-io,etcd
 ethcore,Parity
 ethereum,Ethereum
 fabric8io,fabric8
 facebook,React
+falcosecurity,Falco
 fluent,Fluentd
 flutter,Flutter
 freebsd,FreeBSD
@@ -219,6 +218,7 @@ terraform-providers,Terraform
 tgstation,SS13
 thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
+tikv,TiKV
 twitter,Twitter
 uber,Uber Open Source
 vgstation-coders,vgstation13

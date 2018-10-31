@@ -579,11 +579,6 @@ coreinfrastructure/best-practices-badge,Core Infrastructure
 coreinfrastructure/cii-best-practices-badge,Core Infrastructure
 coreos/coreos-kubernetes,CoreOS
 coreos/etcd,etcd
-pingcap/tikv,TiKV
-weaveworks/cortex,Cortex
-weaveworks/prism,Cortex
-weaveworks/frankenstein,Cortex
-draios/falco,Falco
 coreos/kube-prometheus,CoreOS
 coreos/kubernetes,CoreOS
 coreos/prometheus,CoreOS
@@ -608,6 +603,7 @@ dotnet/eShopOnContainers,Microsoft eShopOnContainers
 dotnet/orleans,Microsoft Orleans
 dotnet/roslyn,VS Code
 dotnet/roslyn-project-system,VS Code
+draios/falco,Falco
 duckduckgo/zeroclickinfo-fathead,DuckDuckHack
 duckduckgo/zeroclickinfo-goodies,DuckDuckHack
 eclipse/che,Eclipse Che
@@ -1548,6 +1544,7 @@ opnfv/vswitchperf,OPNFV
 opnfv/yardstick,OPNFV
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
+pingcap/tikv,TiKV
 playframework/playframework,Play Framework
 pndaproject/example-applications,PNDA
 pndaproject/gobblin,PNDA
@@ -1682,6 +1679,9 @@ w3c/webdriver,W3C WebDriver Specification
 w3c/webrtc-pc,W3C WebRTC
 w3c/webvr,W3C WebVR
 w3c/wot,Web of Things
+weaveworks/cortex,Cortex
+weaveworks/frankenstein,Cortex
+weaveworks/prism,Cortex
 wso2/carbon-apimgt,WSO2 Carbon
 wso2/carbon-appmgt,WSO2 Carbon
 wso2/carbon-commons,WSO2 Carbon

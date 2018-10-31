@@ -14,10 +14,6 @@ AMP,ampproject.org
 ASP.net,asp.net
 ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
 AWS SDKs,aws.amazon.com
-TiKV,tikv.org
-Cortex,github.com/cortexproject
-Buildpacks,buildpacks.io
-Falco,falco.org
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
 ActiveShipping,shopify.github.io/active_shipping
 Activity Campaign site,activate.mozilla.community
@@ -76,6 +72,7 @@ Boost,boost.org
 Brackets,brackets.io
 Brave Software,brave.com
 Broad Institute,broadinstitute.org
+Buildpacks,buildpacks.io
 CARTO,carto.com
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
@@ -114,6 +111,7 @@ Core Infrastructure,www.coreinfrastructure.org
 CoreDNS,coredns.io
 CoreOS,coreos.com
 Corsica,corsica.mozilla.io
+Cortex,github.com/cortexproject
 CyanogenMod,cyanogenmod.com
 DMLC,dmlc.github.io
 DSC,msdn.microsoft.com/en-us/powershell/dsc/overview
@@ -153,6 +151,7 @@ Ethereum,ethereum.org
 FBI Crime Data Explorer,github.com/18F/crime-data-explorer
 FD.io,fd.io
 FOSSology,www.fossology.org
+Falco,falco.org
 Federalist,federalist.18f.gov
 Finagle,twitter.github.io/finagle
 Finatra,twitter.github.io/finatra
@@ -466,6 +465,7 @@ The Void distribution,voidlinux.eu
 Theme Kit,shopify.github.io/themekit
 Thimble,thimble.mozilla.org
 Thrifty,github.com/Microsoft/thrifty
+TiKV,tikv.org
 Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
 Tizen,www.tizen.org
 Toxiproxy,toxiproxy.io
