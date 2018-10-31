@@ -23,7 +23,7 @@ Copy the results to a file with proper name `data/data_lf_projects_20171101_2018
 - CNCF Projects case
 - We have a line in `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv data/data_cncf_projects_20171101_20181101.csv`
 - Copy: `cp BigQuery/query_cncf_projects.sql BigQuery/query_cncf_projects_20171101_20181101.sql`, update conditions: `BigQuery/query_cncf_projects_20171101_20181101.sql`
-- Run on BigQuery and do the same as in the CF case. The final output file will be: `data/data_cncf_projects_201606_201705.csv`
+- Run on BigQuery and do the same as in the CF case. The final output file will be: `data/data_cncf_projects_20171101_20181101.csv`
 - Final line should be: `ruby merger.rb data/data_lf_projects_20171101_20181101.csv data/data_cncf_projects_20171101_20181101.csv`.
 
 
