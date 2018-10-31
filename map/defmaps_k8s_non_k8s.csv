@@ -10,6 +10,10 @@ Notary,Non-K8s
 OpenMetrics,Non-K8s
 Spire,Non-K8s
 TUF,Non-K8s
+TiKV,Non-K8s
+Cortex,Non-K8s
+Buildpacks,Non-K8s
+Falco,Non-K8s
 Telepresence,Non-K8s
 Vitess,Non-K8s
 cloudevents,Non-K8s

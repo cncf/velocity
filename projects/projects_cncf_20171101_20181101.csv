@@ -29,4 +29,4 @@ theupdateframework,tuf+theupdateframework.github.io+taps+specification+pip+artwo
 buildpack,pack+lifecycle+spec+packs+samples+roadmap+website+libbuildpack+forge+resources+docs,1430,395,146,739,150,21,Buildpacks,buildpacks.io
 datawire+telepresenceio,telepresence+telepresence+ci-experiment,2009,752,298,528,431,19,Telepresence,telepresence.io
 theupdateframework,notary,800,510,133,56,101,18,Notary,github.com/theupdateframework/notary
-+OpenObservability,RichiH/OpenMetrics+OpenMetrics,281,176,45,35,25,10,OpenMetrics,github.com/RichiH/OpenMetrics
+RichiH+OpenObservability,OpenMetrics+OpenMetrics,281,176,45,35,25,10,OpenMetrics,openmetrics.io
