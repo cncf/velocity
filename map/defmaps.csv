@@ -12,6 +12,11 @@ w3c,=SKIP
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
+tikv,TiKV
+cortexproject,Cortex
+buildpack,Buildpacks
+falcosecurity,Falco
+etcd-io,etcd
 CartoDB,CARTO
 ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
