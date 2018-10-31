@@ -147,6 +147,20 @@ kubernetes-client,Kubernetes
 kubernetes-csi,Kubernetes
 kubernetes-helm,Helm
 kubernetes-incubator,Kubernetes
+kubernetes-sigs,Kubernetes
+OpenObservability,OpenMetrics
+kubernetes-sidecars,Kubernetes
+kubernetes-tools,Kubernetes
+kubernetes-test,Kubernetes
+kubernetes-extensions,Kubernetes
+kubernetes-federation,Kubernetes
+kubernetes-security,Kubernetes
+kubernetes-providers,Kubernetes
+kubernetes-addons,Kubernetes
+kubernetes-retired,Kubernetes
+kubernetes-graveyard,Kubernetes
+kubernetes-incubator-retired,Kubernetes
+kubernetes-sig-testing,Kubernetes
 laravel,Laravel
 letsencrypt,Let's Encrypt
 linkedin,LinkedIn

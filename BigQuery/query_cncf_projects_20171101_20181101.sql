@@ -32,7 +32,7 @@ where
       'kubernetes-incubator', 'coredns', 'grpc-ecosystem', 'containernetworking', 'cncf',
       'envoyproxy', 'jaegertracing', 'theupdateframework', 'rook', 'vitessio', 'crosscloudci',
       'cloudevents', 'openeventing', 'telepresenceio', 'helm', 'goharbor', 'kubernetes-csi',
-      'etcd-io', 'tikv', 'cortexproject', 'buildpack', 'falcosecurity'
+      'etcd-io', 'tikv', 'cortexproject', 'buildpack', 'falcosecurity', 'OpenObservability'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
