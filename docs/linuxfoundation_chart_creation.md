@@ -50,7 +50,7 @@ Try running this from the velocity project's root folder:
 	```
 - Put data for linux here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing`.
 Run this from the velocity project's root folder again:
-`ruby add_linux.rb data/data_lf_projects_201611_201710.csv data/data_linux.csv 2016-11-01 2017-11-01`
+`ruby add_linux.rb data/data_lf_projects_20171101_20181101.csv data/data_linux.csv 2017-11-01 2018-11-01`
 
 
 <b>Add AGL (Automotive Grade Linux) data</b>
