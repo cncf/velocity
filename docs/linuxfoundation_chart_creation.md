@@ -67,7 +67,7 @@ Processed 67124 csets from 1155 developers
 A total of 13431516 lines added, 12197416 removed, 24809064 changed (delta 1234100)
 ```
 - You can get number of authors: 1155 and commits 67124 (this is for all time)
-- To get data for some specific data range: `cd agl; DTFROM="2016-10-01" DTTO="2017-10-01" ./run_multirepo_range.sh` ==> `agl.txt`.
+- To get data for some specific data range: `cd agl; DTFROM="2017-11-01" DTTO="2018-11-01" ./run_multirepo_range.sh` ==> `agl.txt`.
 ```
 Processed 7152 csets from 365 developers
 ```
@@ -78,11 +78,11 @@ Processed 7152 csets from 365 developers
 - Comments would be 2 * commits = 14304
 - Activity = sum of all others (comments, commits, issues, prs)
 - Create a file based on `data/data_agl_201611_201710.csv` and apply proper data values
-- Run `ruby merger.rb data_lf_projects_201611_201710.csv data/data_agl_201611_201710.csv`
+- Run `ruby merger.rb data/data_lf_projects_20171101_20181101.csv data/data_agl_20171101_20181101.csv`.
 
 Run `analysis.rb` with
 ```
-ruby analysis.rb data/data_lf_projects_201611_201710.csv projects/projects_lf_201611_201710.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+ruby analysis.rb data/data_lf_projects_20171101_20181101.csv projects/projects_lf_20171101_20181101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1_DIvQpaPRecRONWeTh5pp3WOgbGcsY4JOPMBisizJqg/)
