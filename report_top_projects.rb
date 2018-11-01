@@ -18,7 +18,7 @@ def report_top_projects(fin, limit)
   end
 
   res = []
-  metrics = %w(comments prs commits issues authors)
+  metrics = %w(activity comments prs commits issues authors)
   metrics.each_with_index do |metric, index|
     res << []
     projs.each do |name, data|
