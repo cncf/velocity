@@ -1,20 +1,4 @@
 project,key,value
-# Chromium without Blink
-# After filtering: commits: 70443
-Chromium,issues,68599
-Chromium,authors,1605
-# Chromium,commits,77163
-Chromium,commits,67172
-# Chromium without Blink ends
-# Chromium with Blink
-# Chromium,issues,36484
-# Chromium,authors,1663
-# Chromium,commits,77437
-# Chromium with Blink ends
-# This is from OpenHub (unreliable)
-# Chromium,authors,1751
-# Chromium,commits,77562
-# This is an estimate
-# Chromium,prs,70000
-# Chromium,comments,130000
-# Chromium,activity,200000
+Chromium,issues,79432
+Chromium,authors,1883
+Chromium,commits,81746

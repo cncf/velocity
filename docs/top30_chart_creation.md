@@ -184,8 +184,8 @@ All authors & commits:
 `git log --pretty=format:"%aE" | sort | uniq | wc -l` --> 648
 `git log --pretty=format:"%H" | sort | uniq | wc -l` --> 189693
 And for our date period:
-`git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 125 authors
-`git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%H" | sort | uniq | wc -l` --> 13348 commits
+`git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 125 authors
+`git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l` --> 13348 commits
 - Now use cncf/gitdm to analyse commits, authors: from `cncf/gitdm` directory run: `./repo_in_range.sh ~/dev/WebKit/ WebKit 2016-06-01 2017-06-01`
 - See output: `vim other_repos/WebKit_2016-06-01_2017-06-01.txt`:
 ```
@@ -259,11 +259,11 @@ So there are 429 chromedriver issues and the total is: 429 + 72815 = 73244
 - Now chromium commits analysis which is quite complex
 - Their sources (all projects) are here: https://chromium.googlesource.com
 - Clone `chromium/src` in `~/dev/src/`: `git clone https://chromium.googlesource.com/chromium/src`. If repo previously cloned, do `cd src/`, `git pull`
-- Authors: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1697
-- Commits: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 79144 (but this is only FYI, this is way too many, there are bot commits here)
+- Authors: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1697
+- Commits: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 79144 (but this is only FYI, this is way too many, there are bot commits here)
 To analyze those commits (also exclude merge and robot commits):
 Run while in chromium/src repository:
-`git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits_201606_201705.csv`
+`git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits_20171101_20181101.csv`
 Open the file in vi
 Remove special CSV characters with VI commands: `:%s/"//g`, `:%s/,//g`
 Replace '~~~~' with ',' to create correct CSV: `:%s/\~\~\~\~/,/g`
