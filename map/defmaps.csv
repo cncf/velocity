@@ -123,6 +123,7 @@ freebsd-build-toolkit,FreeBSD
 freebsd-docker,FreeBSD
 freebsd-net,FreeBSD
 freebsd-riscv,FreeBSD
+gatsbyjs,Gatsby
 github,GitHub
 gitlab,GitLab
 gitlabhq,GitLab
@@ -214,6 +215,7 @@ rails,Ruby on Rails
 rapid7,Rapid7
 rook,Rook
 rust-lang,Rust
+rust-lang-nursery,Rust
 sakaiproject,Sakai
 saltstack,SaltStack
 sensu,Sensu
