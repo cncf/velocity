@@ -311,8 +311,8 @@ Processed 7152 csets from 365 developers
 - Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_201606_201705.csv` and we will update the `data/data_libreoffice_git_201606_201705.csv` file
 - Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`. If repo already cloned, do `cd core`, `git pull`
 - Analyse this repo as described in: `res/libreoffice_git_repo.txt`, to see that it generates lower number than those from BigQuery output (so we can skip this step)
-- Commits: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
-- Authors: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
+- Commits: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l`
+- Authors: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l`
 - Put results in: `data/data_libreoffice_git_201606_201705.csv` (authors, commits), values will probably be skipped by the updater tool (they are lower than current values gathered so far)
 - Issues:
 Issue listing is here: https://bugs.freedesktop.org/buglist.cgi?product=LibreOffice&query_format=specific&order=bug_id&limit=0

@@ -1,0 +1,25 @@
+project,key,value
+Apache Flink,issues,2688
+Apache Mesos,issues,1373
+Apache Spark,issues,3502
+Apache Kafka,issues,1622
+Apache Camel,issues,1178
+Apache CloudStack,issues,8
+Apache Beam,issues,2046
+Apache Zeppelin,issues,911
+Apache Cassandra,issues,915
+Apache Hive,issues,2954
+Apache HBase,issues,2525
+Apache Hadoop,issues,4691
+Apache Ignite,issues,3298
+Apache NiFi,issues,1824
+Apache Ambari,issues,2837
+Apache Storm,issues,550
+Apache Traffic Server,issues,192
+Apache Lucene - Core,issues,493
+Apache Solr,issues,0
+Apache CarbonData,issues,1493
+Apache Geode,issues,2253
+Apache Apache Trafodion,issues,465
+Apache Thrift,issues,822
+Apache Kylin,issues,739
