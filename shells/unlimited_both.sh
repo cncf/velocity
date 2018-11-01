@@ -12,11 +12,11 @@ ruby merger.rb data/unlimited.csv data/data_cloudfoundry_20171101_20181101.csv f
 echo "Adding/Updating CNCF Projects"
 ruby merger.rb data/unlimited.csv data/data_cncf_projects_20171101_20181101.csv
 echo "Adding/Updating WebKit case"
-ruby merger.rb data/unlimited.csv data/webkit_20170801_20180801.csv
+ruby merger.rb data/unlimited.csv data/webkit_20171101_20181101.csv
 echo "Adding/Updating OpenStack case"
-ruby merger.rb data/unlimited.csv openstack/data_openstack_2017-08-01_2018-08-01.csv
+ruby merger.rb data/unlimited.csv openstack/data_openstack_2017-11-01_2018-11-01.csv
 echo "Adding/Updating Apache case"
-ruby merger.rb data/unlimited.csv data/data_apache_20170801_20180801.csv
+ruby merger.rb data/unlimited.csv data/apache_20171101_20181101.csv
 echo "Adding/Updating Chromium case"
 ruby merger.rb data/unlimited.csv data/data_chrome_chromium_20170801_20180801.csv
 echo "Adding/Updating openSUSE case"
