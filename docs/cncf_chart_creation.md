@@ -20,6 +20,8 @@ Run the query on https://bigquery.cloud.google.com/queries/ in the website's con
 
 Copy the results to a file like `data/data_cncf_projects_201611_201710.csv`.
 
+You can also use command-line BQ: `./BigQuery/cncf_small.sh`.
+
 Run `analysis.rb` with
 ```
 ruby analysis.rb data/data_cncf_projects_20170801_20180801.csv projects/projects_cncf_20170801_20180801.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv

@@ -1,0 +1,185 @@
+org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors
+kubernetes,kubernetes/kubernetes,1288,1116,83,55,34,47,"Yago Nobre,Tim Allclair,Pingan2017,Justin Santa Barbara,Tomas Nozicka,Humble Chirammal,stewart-yu,Jeff Grafton,Mike Danese,yankaiz,Sandeep Rajan,He Xiaoxi,Monis Khan,fabriziopandini,houjun,Neha Yadav,AdamDang,Patrick Ohly,Chao Xu,k8s-ci-robot,mlmhl,Renan Gonçalves,yuexiao-wang,Pahud Hsieh,Jon Friesen,Jordan Liggitt,Cheng Pan,WanLinghao,Samuel Davidson,Rostislav M. Georgiev,Deep Debroy,Seth Jennings,Walter Fender,Brian Goff,Joe Betz,Avesh Agarwal,Weibin Lin,Mike Crute,(null),Aaron Crickenberger,Rafael Fernández López,ravisantoshgudimetla,Weibin Lin,zuoxiu.jm,juanvallejo,Michael Adam,Pengfei Ni","f19849e6f54d800673d3e1f83e729020353c6eb6@gmail.com,2125713a184129867c2009b68c5a7fe6fb4f766a@google.com,751be11d63c90a0521d7a61333b1128da453748c@zte.com.cn,0ce7911e6479995d6c346d6f03eb723b5135309e@fathomdb.com,5b3af47b094b636f93ff5bfb5fbaa4d2701a469b@gmail.com,dc8ba7e82a7df22725dedec9b10c7aaab9ec713f@redhat.com,b851396b6c90fb748bd6ca0a82383faccb0a1859@huawei.com,6a1e54664d159a1a2559340192712868d558add7@google.com,d4310aad15daa0adb22e7f7056b3e3f59a97b2e0@google.com,e9af063f9d7ab6cd0dee3920a4daf0f9213ca3e3@google.com,703202f2ec68f60b88497fd3807b06d1095f9d9e@infoblox.com,cfbbde68cb657cf16fb3ea5dd4b671a36814abcc@alauda.io,19f7b2d00144930eab99c4cfd2a8d2d2a225ef67@redhat.com,d4d254e71bae639fbc5459f9c4adc9a374f81099@gmail.com,59368c5e411e5fb4a03616cfa8a94f7980b56ac5@zte.com.cn,897b0ea9ffb66bb74735fb9f471977482a3c705e@gmail.com,fd97f6bd6385f9d53d01fe7710df94d5917793bb@daocloud.io,0fc9d825c622b2a5ac5160289c29f03654b10648@intel.com,cbdffa0c689f2fb8ee77f97ca085a8c336fd62fc@google.com,5c2029016e1607554af814ace319699a11cecd88@users.noreply.github.com,c49aa260d2ccb4a6ec913cfb6c2d764536924bec@gmail.com,7bf0539ab966009d6fcca592bca8cfb663508916@gmail.com,cb85382fcdcd61052c05cab964e91e5c6acdef6c@zte.com.cn,fd152f72d7922e5f6d7571044ddbc6960ea463a4@gmail.com,44f878afe53efc66b76772bd845eb65944ed8232@jonfriesen.ca,bba4abbe2d8fe77073ca2eee3511ff13a380dd30@google.com,b7b0f21a93810ed95969f36730b4553f3ddbdf3c@amazon.com,7c0edcb066d78e845f27e883eaa8e4af59f164ed@cn.fujitsu.com,c91475abfb3d83235dc6de5e5d7b20356c6521db@google.com,69ae653c85db018d136c9627c3957a3eb122cdbe@vmware.com,7fa9323c42db6a7f539b501bc29c8e3ab3ebf8bb@docker.com,527af9e7c640877508ac9f4ddd8647c066bca6c6@redhat.com,a75d6840c0703cb0c8e8c0dcac7959ac8010b959@google.com,dc73d0991b982a8303e713ef531a313af77e242a@gmail.com,cb2967abf78e0d6527b57c886022f6ddcf3e04b5@google.com,4991a86a8c7246f8f0c37d0f790d3066c276dc42@gmail.com,742459de2421e6df571d78e41e71b0414fffd434@huawei.com,b3f0443c4ef2aca2ba8cc31a9905eba98b0279ab@amazon.com,(null),4bdea8258b9e85e502cc73788676b46a83dd4b30@google.com,b0a1d61667e871f3e8f3411a9f61f75fa341442b@ereslibre.es,7b2a5a1ffc7a60e8b88a62def144a93be32db4ea@gmail.com,1202617f80dd67785145373a2daef737897fe47b@gmail.com,78bc0df094dec56acee8eeb3b186efe782e3562c@qq.com,6958e48e624f5a104bb59b7f2a9871273b0f8975@redhat.com,dcf2bf3ff8ea93047d51252815aac9756207ea09@redhat.com,a98ded867fdb33968517473eb007268b0a56fa09@microsoft.com"
+envoyproxy,envoyproxy/envoy,414,335,44,18,17,13,"Jin Xu,Itay Donanhirsh,Michal Rostecki,(null),Joshua Marantz,moderation,Jimmy Chen,Sam Smith,Nikolay Nikolaev,alyssawilk,Snow Pettersen,htuch,Derek","07997fd85dbc5b62e4dc8b2519cd4a51995c53ac@hotmail.com,e5f60c81787810ef28f5d6de692cfc656ef47522@bazoo.org,82ebf970c69340aebb770c3853be5fd96a3eb584@suse.de,(null),c3f6b7d9de5243f9f0884ee043fd42ff9df5f177@google.com,17b9e1c64588c7fa6419b4d29dc1f4426279ba01@sooper.org,f5dc1743ba36b4e14b3cb17da7e984040f0f4db8@users.noreply.github.com,03a07629efb0a02c7bbe7cc340a4243da1ab861a@gmail.com,f2b42de064d1c3e5a65b22f23cd1d00619e08e54@vmware.com,b9253d1ec9cc3e9d2aab68d288ba3dab3452adf6@google.com,dc321f0b24e908f42e5ce1d0abd89a9f4357d407@gmail.com,c185081708e02336640916420d0c772668570de5@users.noreply.github.com,a0f65b96f343fe439cad5d3da0dcb83de8f31c19@users.noreply.github.com"
+helm,helm/charts,374,256,71,23,24,18,"Joe Hohertz,Javier J. Salmerón-García,Denis Boulas,Prateek Pandey,(null),Hugo van der Zwaag,Igor Zibarev,Michael Hill,Diwakar,Christopher King,Emii Khaos,Brian Charous,Bitnami Bot,Amir,Gavin Mogan,Tomas Pizarro,Denis Baryshev,Nithya","b265e51476a452fa890dad4c8bd995e2b5b4cfb3@gmail.com,b79cf1e2189fc74525c53ab3cf54ff9727aee7ce@bitnami.com,e276e3ae1c9671c38f664651437bb5a237cd6f45@gmail.com,b9840ec9e5d2558873c20ce65666d5e6288e967d@gmail.com,(null),66ede6e2b673eaa3ae80c30be34b2462da7f3734@users.noreply.github.com,da1ec73a349ffd6676101382b1b421a718e99701@gmail.com,d6812aab6c009717be2cc591cfe28dbe85c18492@gmail.com,0546f10d14e0a3f68771ae795d6e92589b2873ab@gmail.com,711c73f64afdce07b7e38039a96d2224209e9a6c@coyfox.net,30448a1fe763f4cfce097c6110bfae6579189ad1@gmail.com,f8ac89aad169e5a56fca012405fc2e65facca565@users.noreply.github.com,82e28e1b3dcd0e52f6c19a7125c7c859e9bcf4a4@bitnami.com,3f5f959f6000ee6eb8baf3da1cd606c0e38e04e9@users.noreply.github.com,64b2b6d12bfe4baae7dad3d018f8cbf6b0e7a044@gavinmogan.com,1c190e9e0d8077bd5c6a5a1db34b2d1e8af6fed3@users.noreply.github.com,fd399842e6fc6c002c04ecdadbcf568b422243ef@gmail.com,5b6739da82a40378d16b705b962774b290e45b1a@gmail.com"
+kubernetes,kubernetes/test-infra,272,226,16,22,8,12,"(null),Kyle Weaver,Zhen Wang,Ruben Orduz,Benjamin Elder,Gyuho Lee,Erick Fejta,Lantao Liu,Koonwah Chen,Sen Lu,Kazumasa Kohtaka,Marko Mudrinić","(null),aab791d37804c01b1f34b4d51406e7787acaf9d8@google.com,9e6f1b4049d0f24c583d5262ad38332e8a0f913b@google.com,75378bb26c2856d44fb6bf8c9bfe8e8c5b4b138c@gmail.com,ac8709b75692f0c67d09a36ebed9904b865f24a5@google.com,0fbd30d364d71722b926950b451cecd97b54fc29@amazon.com,037f0a3dd8ba266e3d28dc1811b65078bc4a61f1@google.com,e12a959b3f33bba53f1a03da59760f37bd7265d7@google.com,f5e94bfdd79050d5ca904857466962fd62e77e1b@google.com,5f0ab0d390a76ca3f9315512d4f5ec623c1939ad@google.com,5510fb4cf2f58b33ef209d6c06de6125fbf2a34e@gmail.com,4a0eec27869ca80b0f466641b289eb863f79126e@gmail.com"
+grpc,grpc/grpc,146,88,32,13,13,9,"Mark D. Roth,ncteisen,Vijay Pai,Eric Anderson,Jan Tattermusch,Yash Tibrewal,Hope Casey-Allen,(null),Doug Fawley","f8bfa21f32be4966fb4ed6a329fe0dc16bf1b1c7@google.com,ecfa0095dcd7b95bb2f6200aeb30e175eb4fe890@gmail.com,66242fd87c10ec85caeaa787ce7a11bcd4c68abd@google.com,4271ddcb605987a5ffe2034bfb913089c41dd787@google.com,b5235a868fb77661dc6686a165bdbb4c6394b491@google.com,22c67cf50ef4519da71ec26986888b98775b7101@google.com,a4f6b6a86698da7d83a1cbf9609bda128622c88b@google.com,(null),b80273c3e415c4baf79e8c71722f0957bec37c05@google.com"
+kubernetes,kubernetes/community,138,118,10,8,2,8,"Nishi Davidson,(null),Aaron Small,xichengliudui,Craig Ingram,Jon Kalfayan,likeXXxx,Brendan Burns","f5c101d306e5248806a0da90c06d9929bb189862@amazon.com,(null),5a7a6a189b47cd31d24667a751e4003cd04eced5@smallnet.org,a2c2590744b33391254938220caf3382a11205eb@beyondcent.com,f713ce5dcdcac15c3b4f54f7dc4579ccdf23edef@heroku.com,e5795a6bb6039f418b8b8ecd7032e023876876aa@gmail.com,2e40747e40af36ce52e87f817ed34c87cb30fff9@ghostcloud.cn,db45154a36f876b6530318deb77b70e73030e0c3@microsoft.com"
+kubernetes-incubator,kubernetes-incubator/kubespray,136,90,23,11,12,10,"wilmardo,Dmitriy Zinin,Yongxin Li,Louis,Rong Zhang,Yumo Yang,(null),xichengliudui,Bart Laarhoven,Ted Wexler","59bd0a3ff43b32849b319e645d4798d8a5d1e889@wilmardenouden.nl,d033e22ae348aeb5660fc2140aec35850c4da997@kami-no.ru,e79a1b44092a86c29b639d024e23625c21c2a63c@alauda.io,cc545f933ecb6ca52fd94efef1e88bdd64c5cd04@pingcap.com,88acad8750daac26066e59069034d28252dce4de@alauda.io,b3ce65ff557f5b7c773cbe2aed6e11ef3789a693@lenovo.com,(null),a2c2590744b33391254938220caf3382a11205eb@beyondcent.com,768046fabc4bb9d1e51373226715c8a4379712a8@users.noreply.github.com,46ab578353b0478abc71fa54796a76c10bbe41a8@stuckinacan.com"
+kubernetes,kubernetes/website,136,79,30,21,6,18,"Robin Rakowski,(null),erganzi,Caio,LiuDui,KevinTHU,RaviSantosh Gudimetla,W Technologist,Cody Clark,Gergely Csatari,Shivesh Abhishek,Zach Corleissen,NoNE,Sapphire Mason-Brown,Alex Contini,cewuandy,zqm19941101,Rui Cao","f090e15930b486a5b04662515208c7b928aa7c2c@users.noreply.github.com,(null),45677b68ef7eaa2efead11b4c7765f924539a0b1@users.noreply.github.com,cbf023e90506777664668c5e67e978103c9b712d@gmail.com,df23d1d7aa9cafd970492f82eab0b1feae8cf951@qq.com,74347d3bc28ee157e4a5de149ec6e1d219f2622f@126.com,7b2a5a1ffc7a60e8b88a62def144a93be32db4ea@users.noreply.github.com,d50b822e3e3a325c2a8871c10d9c7f8b4705a59d@users.noreply.github.com,8c4be467c7ce6860293ac3bb6187c5d5e8c6210e@google.com,d96e7a23559ca6583545c8d8ad344206bcf45e4b@nokia.com,20af680b920a82dc634549063809c6b699ad9585@mayadata.io,a5fbd8e25ec13f19876f7856771ef1146ba0c98a@users.noreply.github.com,4cc60439e76b4f544fd4d964053e5763d65f69a9@gmail.com,b880cb0e751bc68c5dce4f37ed16c5dbdfb4bf57@gmail.com,4ec36c377f54261a4614d0b3de3ca5dc6f4e4327@linuxfoundation.org,49f9db73e3c5997c3a11ab05ca99fb010a96c807@gmail.com,bd0e59be952c4c589d196a0e3f683581fe7f619e@daocloud.io,53e2094bf95a624e735a925b354d534f0a22197a@alauda.io"
+goharbor,goharbor/harbor,103,56,18,8,21,7,"mmpei,wang yan,(null),Qian Deng,Meina Zhou,Steven Zou,FangyuanCheng","c9417119e655d586703f44275ae189386db8d76b@126.com,63b20dea16c07a874bc9bf767df5575676113cb6@vmware.com,(null),5b460793db966fe84244ff3796dd28c1ec367157@vmware.com,d8fef9e3dcb1362adff460f9292d71c6c4ce300b@vmware.com,5c7d09ecc61eee689df7048be4e7fb1d1e0b8ebc@vmware.com,684c299f395f63c4f12384b3435dbfe5cc400ab0@vmware.com"
+jaegertracing,jaegertracing/jaeger,101,83,6,4,8,4,"Pavol Loffay,Yuri Shkuro,(null),Mindaugas Rukas","b90711a72cb1a8df63faebbc3839cfa8434cb5d6@gmail.com,16e6d622505a30b44c05fb8b6dfd2d798f782d4d@users.noreply.github.com,(null),ecde00184d7bf4b9ccd81a07f0477e311c6c8e64@uber.com"
+kubernetes,kubernetes/ingress-nginx,94,59,14,11,10,7,"(null),Manuel Alejandro de Brito Fontes,Elvin Efendi,Maximilian Bode,xichengliudui,Sebastiaan van Steenis,Travis Bot","(null),eff2e4feaa4a9c20214538e54189d3641ea52a96@gmail.com,2b2113a16521fcd4aabdf0eba95ab79163c0e778@gmail.com,f941a70a4674b405588286fc5bdbd660e20c8a8e@tngtech.com,a2c2590744b33391254938220caf3382a11205eb@beyondcent.com,1d6e1cf70ec6f9ab28d3ea4b27a49a77654d370e@superseb.nl,e6cc0fb2b8dad4110ef62e9a33e5a8aa4e0f86d7@travis-ci.com"
+coredns,coredns/coredns,90,74,7,8,1,5,"(null),Francois Tur,Dzmitry Razhanski,Chris O'Haver,Miek Gieben","(null),9d2c80324e07cdb8b3a33f11a3013a362b6d60f8@infoblox.com,1062846221aaae01fefdd0fcbf7a807c0c2aa7da@infoblox.com,c8d69f6e0f4a592980d82af78b0efddff3dcc387@infoblox.com,00b357f94cf3a1145a32703fb42e2d80418ab806@miek.nl"
+kubernetes,kubernetes/perf-tests,77,69,4,4,0,2,"Krzysztof Siedlecki,(null)","04f66495e3fff55bf5704129148a125277fa9320@google.com,(null)"
+kubernetes,kubernetes/kubeadm,73,60,2,0,11,1,(null),(null)
+grpc,grpc/grpc-java,69,53,7,5,4,5,"(null),Jihun Cho,Eric Anderson,Elliotte Rusty Harold,Kun Zhang","(null),86ba50817a23192e673f015faae2e22f66bb119d@google.com,4271ddcb605987a5ffe2034bfb913089c41dd787@google.com,36a0b4221826a668920f45c6a4f483d0b710d246@users.noreply.github.com,7276d7dd258fa401c1a57e05a3bbf4380142e919@users.noreply.github.com"
+prometheus,prometheus/prometheus,68,51,7,2,8,2,"(null),Frederic Branczyk","(null),be573f521a508b499399d1fa7c86d0d9ce29e56d@gmail.com"
+kubernetes,kubernetes/minikube,61,46,4,1,10,2,"(null),peterlobster","(null),de397757d2ffa9369eaf9ec0862c7310b438321b@users.noreply.github.com"
+cloudevents,cloudevents/spec,51,47,1,0,3,1,(null),(null)
+helm,helm/helm,51,38,5,0,8,1,(null),(null)
+vitessio,vitessio/vitess,45,28,9,5,3,6,"Scott Lanning,Michael Demmer,(null),Sugu Sougoumarane,Derek Perkins,Rafael Chacon","55746cdfc34815fb7cc2d5c71b63445a84ea9920@booking.com,4b836671cce77b1b2fbe63e5b2a1661879d8af44@slack-corp.com,(null),b9023a093a3fde2f5ed7cdf696263add90aef9db@gmail.com,e1c79a582b6629e6b39e9679f4bb964d25db4aa8@derekperkins.com,2d8d596a0b97569f9226a8c33ed9c6dbc8d88120@slack-corp.com"
+tikv,tikv/tikv,43,37,3,0,3,1,(null),(null)
+open-policy-agent,open-policy-agent/opa,43,25,9,5,4,5,"(null),Stephan Renatus,Torin Sandall,arekkas,repenno","(null),3d1a7d0a294b6d8e799ad6e122143905f17f9530@chef.io,933af5bec0bc58056526d55ca6c7b45fcf14cc48@gmail.com,248cd43ac1654968809157a04280c5926af18054@ory.am,8d028a2cce5a6653b616986f5e1fffa95594535f@gmail.com"
+linkerd,linkerd/linkerd2,42,13,11,14,4,6,"Alex Leong,Andrew Seigner,(null),Risha Mars,Oliver Gould,Andrew Seigner","60c6d277a8bd81de7fdde19201bf9c58a3df08f4@buoyant.io,0495a6eea438864cacd3562b2c32e9153acc8973@buoyant.io,(null),44a07a1c8cc71de0e980dba3aca732b752fa1df5@buoyant.io,5e0b8aa15aad848de36cf3fd23d80803845b78d5@buoyant.io,02e0a999c50b1f88df7a8f5a04e1b76b35ea6a88@sig.gy"
+kubernetes,kubernetes/ingress-gce,42,37,1,4,0,5,"Yongkun Gui,(null),Krzysztof Kwaśniewski,Benjamin Pineau,Rohit Ramkumar","796c5d06a15acadd68e059e4eec1375f94c5cfd7@google.com,(null),81ac5f220b540bd383f5a9da858382744690cc68@google.com,cf5203523f4517691910cffec2801b9b3ffdb8e8@datadoghq.com,7902f6e84224b2a40632fae031a93f1b9ec8ff51@google.com"
+linkerd,linkerd/linkerd2-proxy,42,26,6,10,0,3,"Sean McArthur,Oliver Gould,(null)","d7e19930cc1f42c2d0781f4d9e6f1fe5891bf9cf@buoyant.io,5e0b8aa15aad848de36cf3fd23d80803845b78d5@buoyant.io,(null)"
+kubernetes,kubernetes/kops,40,26,5,2,7,3,"wangxy518,(null),xichengliudui","62c322d0307f47bf1dcbf2f076631a1b95d7b8db@users.noreply.github.com,(null),a2c2590744b33391254938220caf3382a11205eb@beyondcent.com"
+kubernetes-client,kubernetes-client/python,39,36,0,1,2,2,"(null),micw523","(null),98b5d8dce40e113629adc86f00d1a25037abbf7b@umich.edu"
+fluent,fluent/fluent-bit,38,21,7,9,1,5,"manuelluis,(null),Don Bowman,Jukka Pihl,Eduardo Silva","d2d99041023261f0bf06f308ab335351af069195@gmail.com,(null),0352a8acc949c7df21fec16e566ba9a74e797a97@donbowman.ca,7ffcba6440545644247306458a88a44bf5fab7b2@iki.fi,81f705dc2ce1a61a2621e0e4b442a9474e1d0c70@treasure-data.com"
+rook,rook/rook,37,26,4,3,4,3,"travisn,(null),Blaine Gardner","a8b474fdb3f77f44446f0ab9ddca8147b09b3a9e@redhat.com,(null),135b86f2968bdbcc730c10d8ababd343bb675986@suse.com"
+kubernetes,kubernetes/autoscaler,37,25,5,5,2,4,"(null),Keith Layne,Karol Gołąb,ringtail","(null),3ea1aca7af56e39e97ea7559cebb1c9a7d6ad4b9@users.noreply.github.com,fa04a7aafb655c6bda0716dcb6b907345b3cfb5c@google.com,72fa7421756f33c92c29df11a68f51675da7c3dd@alibaba-inc.com"
+grpc,grpc/grpc-go,34,11,16,6,1,5,"Menghan Li,Doug Fawley,(null),Can Guler,lyuxuan","4bdb5854613c8cf769c19904a0156132e6e1a901@google.com,b80273c3e415c4baf79e8c71722f0957bec37c05@google.com,(null),3ae616b15c78f62824c9cc64776aae2d9cea60bc@google.com,5301720faefc2531bba637fe4e2f6d71840146f9@google.com"
+prometheus,prometheus/node_exporter,34,18,5,5,6,5,"Paul Gier,Patrick,(null),Matt Layher,Kazumasa Kohtaka","02c55f18a892b365bcd1802db9e5c9df39c04674@redhat.com,1279bdd531ce0f874f58a40db8bc12a50f994d93@gmail.com,(null),76528ff2e917253aa2211f68e4ca60b5b846dcf5@gmail.com,5510fb4cf2f58b33ef209d6c06de6125fbf2a34e@gmail.com"
+prometheus,prometheus/mysqld_exporter,34,24,5,4,1,4,"(null),Kamil Dziedzic,Alexey Palazhchenko,Ben Kochie","(null),ab239c5a26a103f02214f1ae199f6dad0108e000@klecza.pl,598a0dd5ad1c22a8b1028f205417754164a55ac7@gmail.com,9bbf917dc63fbaa40c67921332d26cf16a50db75@gmail.com"
+prometheus,prometheus/alertmanager,34,26,2,1,5,2,"Arno Uhlig,(null)","54fa8d1fb88fb7ed0bd0c140076c2f54b50af739@gmail.com,(null)"
+prometheus,prometheus/tsdb,33,24,5,2,2,2,"(null),Krasi Georgiev","(null),21e7fb35bfcb57e7edaa5bc2be53d4b0187f5f6d@users.noreply.github.com"
+containerd,containerd/containerd,31,15,7,4,5,4,"Ace-Tang,(null),Wei Fu,Michael Crosby","a967bc6ab01ace27203ca6ab9fd77fbd3b598184@126.com,(null),df4176d36abdc6fd0d966de5d5471522668de494@gmail.com,951f4c7b5d47e32d0112c78d14a98eaa23e6b5ef@gmail.com"
+cortexproject,cortexproject/cortex,30,7,9,6,8,4,"Ken Haines,Elena Morozova,(null),Bryan Boreham","5ff1adc6717b4aad8ca6e89bcb19e334bb976f54@ea.com,798e78451052a6f58a42b5531cef63094904bbc6@gmail.com,(null),0a3ba1af216659500dd8f41e29f3979f42452870@weave.works"
+spiffe,spiffe/spire,28,19,6,2,1,2,"(null),Andrew Harding","(null),5ad850e20eaa008b1463fd19c590c72cca2dde47@gmail.com"
+nats-io,nats-io/gnatsd,27,23,0,1,3,2,"(null),Derek Collison","(null),e1c79a582b6629e6b39e9679f4bb964d25db4aa8@nats.io"
+containerd,containerd/cri,25,9,10,5,1,3,"Lantao Liu,(null),Mike Brown","e12a959b3f33bba53f1a03da59760f37bd7265d7@google.com,(null),392d1074b9aea7041f97d21fe1e0b35c6b1de152@us.ibm.com"
+grpc-ecosystem,grpc-ecosystem/grpc-gateway,25,16,4,3,2,3,"(null),Johan Brandhorst,Ricardo Vegas","(null),8c98250619a5229afaab52d25e022b9e3e1d22a2@gmail.com,dc9af0a4b1fc7107e23dc9eb708e9b7f904d47e4@users.noreply.github.com"
+grpc,grpc/grpc-node,25,14,3,2,6,3,"cjihrig,murgatroid99,(null)","838f779c91673db29b8572ea3f54d191d3878ae2@gmail.com,87db7e39741405ff54434acea7e2e71c4e0d88b7@google.com,(null)"
+cncf,cncf/landscape,23,11,6,5,1,4,"Dan Kohn,CNCF-bot,(null),ZeusTheTrueGod","2591e5f46f28d303f9dc027d475a5c60d8dea17a@dankohn.com,59bd0a3ff43b32849b319e645d4798d8a5d1e889@cncf.io,(null),7ba5d8437b2e771321994154c7db0805f26f31d6@yandex.ru"
+prometheus,prometheus/docs,23,15,5,1,2,2,"Arno Uhlig,(null)","54fa8d1fb88fb7ed0bd0c140076c2f54b50af739@gmail.com,(null)"
+kubernetes-incubator,kubernetes-incubator/service-catalog,22,16,2,3,1,4,"帝俊,AdamDang,Bily Zhang,(null)","af280f5b977e348dbfe06503c2f48c95f3be6fd6@daocloud.io,fd97f6bd6385f9d53d01fe7710df94d5917793bb@daocloud.io,eac750bb6dc5cfebc726238f6f4175cf42f84e5d@tenxcloud.com,(null)"
+kubernetes,kubernetes/org,22,11,1,1,9,2,"(null),Bob Killen","(null),28e7bd53ea2806dc02505a58f792523e54512fcb@umich.edu"
+linkerd,linkerd/linkerd,22,16,0,1,5,2,"Alex Leong,(null)","60c6d277a8bd81de7fdde19201bf9c58a3df08f4@buoyant.io,(null)"
+buildpack,buildpack/spec,20,18,0,0,2,1,(null),(null)
+cncf,cncf/devstats,20,5,0,10,5,2,"(null),Lukasz Gryglicki","(null),e5264becc6ee43642846a0dbf226e40cdb8c610a@o2.pl"
+kubernetes,kubernetes/kube-state-metrics,18,14,1,2,1,2,"(null),Max Leonard Inden","(null),bb17a4a5e30bc4dd6ff6d9ba25e3b87c5052b918@gmail.com"
+kubernetes-client,kubernetes-client/python-base,18,14,4,0,0,1,(null),(null)
+helm,helm/chart-testing,18,12,6,0,0,1,(null),(null)
+kubernetes,kubernetes/sig-release,18,13,2,3,0,4,"Yang Li,Brandon Philips,Aaron Crickenberger,(null)","555a477e2c9676b20f2a56eb1bbab876ee42139f@gmail.com,74d2b51265fa19d338eb593a7555ec2b932e59c0@coreos.com,4bdea8258b9e85e502cc73788676b46a83dd4b30@google.com,(null)"
+envoyproxy,envoyproxy/envoy-filter-example,17,0,0,17,0,1,envoy-filter-example(CircleCI),c5ced8be2364ab899ba60e1bb59324ed19137184@users.noreply.github.com
+theupdateframework,theupdateframework/tuf,17,0,0,17,0,2,"Sebastien Awwad,pyup-bot","3db59c6db3a806262760013e1ae477b12a72032f@gmail.com,014ca7bb507255f115360f46141ad318dcf61352@pyup.io"
+opentracing,opentracing/opentracing-java,16,15,1,0,0,1,(null),(null)
+envoyproxy,envoyproxy/envoyproxy.github.io,16,0,0,16,0,1,envoy-docs(travis),5cd730301391b023f5fb8cb156ed73ed07b4ac69@users.noreply.github.com
+nats-io,nats-io/nats-streaming-server,15,12,1,1,1,2,"(null),Carlos Alexandro Becker","(null),e0d37fc92b01fb634d204904d4d347b3805c9003@gmail.com"
+etcd-io,etcd-io/etcd,15,11,0,1,3,2,"(null),Gyuho Lee","(null),0fbd30d364d71722b926950b451cecd97b54fc29@amazon.com"
+kubernetes,kubernetes/dashboard,15,10,4,0,1,1,(null),(null)
+buildpack,buildpack/pack,15,4,1,9,1,4,"Dave Goddard,Andrew Meyer,Jacques Chester,(null)","bfcdf3e6ca6cef45543bfbb57509c92aec9a39fb@goddard.id.au,8f92422f5861fc9f31873f75dd770facd670512b@pivotal.io,8f1e729cbc4d489c19883827c4c21d9fbbde0732@pivotal.io,(null)"
+helm,helm/monocular,15,9,2,1,3,2,"(null),Adnan Abdulhussein","(null),cd29de32d4c2f73c4d50e4968d477856b3158715@prydoni.us"
+grpc,grpc/proposal,14,14,0,0,0,1,(null),(null)
+kubernetes,kubernetes/repo-infra,13,13,0,0,0,1,(null),(null)
+fluent,fluent/fluent-plugin-prometheus,13,11,1,1,0,2,"(null),Alex Fridlyand","(null),60c6d277a8bd81de7fdde19201bf9c58a3df08f4@fridlyand.com"
+kubernetes-incubator,kubernetes-incubator/external-storage,13,9,1,2,1,3,"(null),AdamDang,Akash Srivastava","(null),fd97f6bd6385f9d53d01fe7710df94d5917793bb@daocloud.io,15666bd2e5014c3734779fb1c9463d46d5aa58d5@gmail.com"
+cncf,cncf/cnfs,13,5,0,6,2,3,"denverwilliams,(null),Taylor Carpenter","88550f693e2a50fc9a29f11fcf20426e2f24916b@debian.nz,(null),8efd86fb78a56a5145ed7739dcb00c78581c5375@vulk.co"
+kubernetes-csi,kubernetes-csi/external-attacher,12,12,0,0,0,1,(null),(null)
+kubernetes-incubator,kubernetes-incubator/bootkube,12,9,1,2,0,3,"(null),Ye Ben,AdamDang","(null),3a9ed2bc7fea8af4c655583dedbf028f399e9d44@daocloud.io,fd97f6bd6385f9d53d01fe7710df94d5917793bb@daocloud.io"
+kubernetes,kubernetes/utils,12,12,0,0,0,1,(null),(null)
+prometheus,prometheus/snmp_exporter,12,8,2,1,1,2,"ArugakiWei,(null)","a468e2bf3d28df3647bf9580c7aff62fc6bf56a8@daocloud.io,(null)"
+envoyproxy,envoyproxy/envoybot,12,7,4,1,0,2,"(null),Itay Donanhirsh","(null),e5f60c81787810ef28f5d6de692cfc656ef47522@bazoo.org"
+kubernetes-client,kubernetes-client/javascript,11,8,1,1,1,2,"Jon Edvald,(null)","5edde7baadd7413672bff1b6e07da8a567ff9bf6@gmail.com,(null)"
+buildpack,buildpack/lifecycle,11,1,0,10,0,3,"Emily Casey,(null),Dave Goddard","2c35f9c4cdfaa4fb4d9df91b23e294fe59051836@pivotal.io,(null),bfcdf3e6ca6cef45543bfbb57509c92aec9a39fb@goddard.id.au"
+goharbor,goharbor/harbor-helm,11,2,5,3,1,2,"(null),Wenkai Yin","(null),f217e32b30716cdf38664c331b6ddefbd7f5cdf6@vmware.com"
+nats-io,nats-io/node-nats-streaming,10,3,4,1,2,2,"Andy Johnson,(null)","a939855a571b4b4c234d547ebae07252340a240c@live.com,(null)"
+tikv,tikv/rfcs,10,7,0,1,2,2,"(null),Connor1996","(null),f7e3376ac32ecd54ff96995c24a9472cac06d4cb@gmail.com"
+kubernetes,kubernetes/enhancements,10,10,0,0,0,1,(null),(null)
+kubernetes-csi,kubernetes-csi/docs,10,8,2,0,0,1,(null),(null)
+jaegertracing,jaegertracing/jaeger-kubernetes,10,9,0,0,1,1,(null),(null)
+jaegertracing,jaegertracing/jaeger-client-java,10,8,1,1,0,2,"Gary Brown,(null)","f9023000f29773649f3850298becb9544b5fd6a9@brownuk.com,(null)"
+jaegertracing,jaegertracing/jaeger-operator,10,7,1,1,1,2,"Gary Brown,(null)","f9023000f29773649f3850298becb9544b5fd6a9@brownuk.com,(null)"
+opentracing,opentracing/opentracing-javascript,9,9,0,0,0,1,(null),(null)
+containerd,containerd/containerd.io,9,3,4,2,0,3,"Thomas Krzero,Luc Perkins,(null)","a9cefcd31fb2202c7c1d50dd5f9848cf0f669f90@gmail.com,6648b2322b12a5095e8b9868ddcc7f1f5575a58a@gmail.com,(null)"
+fluent,fluent/fluentd,9,6,0,0,3,1,(null),(null)
+kubernetes,kubernetes/kubectl,9,7,0,0,2,1,(null),(null)
+grpc,grpc/grpc-swift,9,7,0,0,2,1,(null),(null)
+nats-io,nats-io/go-nats,9,6,1,2,0,2,"(null),Derek Collison","(null),e1c79a582b6629e6b39e9679f4bb964d25db4aa8@nats.io"
+jaegertracing,jaegertracing/jaeger-performance,9,9,0,0,0,1,(null),(null)
+grpc,grpc/grpc-dart,9,8,0,0,1,1,(null),(null)
+open-policy-agent,open-policy-agent/kube-mgmt,8,8,0,0,0,1,(null),(null)
+containerd,containerd/cgroups,8,3,1,4,0,2,"Michael Crosby,(null)","951f4c7b5d47e32d0112c78d14a98eaa23e6b5ef@gmail.com,(null)"
+grpc,grpc/grpc-web,8,4,0,0,4,1,(null),(null)
+kubernetes,kubernetes/examples,7,3,3,0,1,1,(null),(null)
+prometheus,prometheus/prombench,7,0,2,2,3,2,"sipian,Harsh Agarwal,(null)","4ecfb1cc1d90de38fb7c788e55cf4e56c37b971a@iith.ac.in,4ecfb1cc1d90de38fb7c788e55cf4e56c37b971a@iith.ac.in,(null)"
+containerd,containerd/project,7,4,2,1,0,2,"Derek McGowan,(null)","e1c79a582b6629e6b39e9679f4bb964d25db4aa8@mcgstyle.net,(null)"
+cncf,cncf/k8s-conformance,7,4,3,0,0,1,(null),(null)
+kubernetes,kubernetes/dns,7,6,1,0,0,1,(null),(null)
+goharbor,goharbor/community,7,6,1,0,0,1,(null),(null)
+prometheus,prometheus/test-infra,7,3,2,2,0,2,"sipian,(null)","4ecfb1cc1d90de38fb7c788e55cf4e56c37b971a@iith.ac.in,(null)"
+nats-io,nats-io/nats-site,6,2,3,1,0,2,"ainsley,(null)","92119e2c63e9366acfefe818b50537a85577e2db@synadia.com,(null)"
+cncf,cncf/toc,6,6,0,0,0,1,(null),(null)
+containernetworking,containernetworking/cni,6,5,0,0,1,1,(null),(null)
+cncf,cncf/gitdm,6,0,2,4,0,3,"(null),Lukasz Gryglicki,Tim Xu","(null),e5264becc6ee43642846a0dbf226e40cdb8c610a@o2.pl,16fb1e73ca620b8691c99e829547a681fde45807@gmail.com"
+kubernetes-csi,kubernetes-csi/csi-test,6,6,0,0,0,1,(null),(null)
+spiffe,spiffe/spiffe,6,3,2,1,0,2,"(null),Evan Gilman","(null),178b62e73cc3fab9e30bf27b2372c9ff92401915@scytale.io"
+etcd-io,etcd-io/jetcd,6,1,1,3,1,2,"(null),dependabot[bot]","(null),5bdcd3c0d4d24ae3e71b3b452a024c6324c7e4bb@dependabot.com"
+kubernetes-csi,kubernetes-csi/external-provisioner,6,5,0,1,0,2,"Patrick Ohly,(null)","0fc9d825c622b2a5ac5160289c29f03654b10648@intel.com,(null)"
+jaegertracing,jaegertracing/jaeger-client-python,6,5,1,0,0,1,(null),(null)
+nats-io,nats-io/nats-operator,6,2,1,1,2,2,"Waldemar Quevedo,(null)","2d029dbd3aa3d2941d38f053a387cc1ce6eef7a1@synadia.com,(null)"
+kubernetes,kubernetes/k8s.io,6,4,1,1,0,2,"(null),Christoph Blecker","(null),d033e22ae348aeb5660fc2140aec35850c4da997@toph.ca"
+envoyproxy,envoyproxy/java-control-plane,5,1,1,3,0,3,"envoy-java-control-plane-bot,(null),Snow Pettersen","0fd48f17bf612a111c73caad3662264cab314f36@users.noreply.github.com,(null),dc321f0b24e908f42e5ce1d0abd89a9f4357d407@gmail.com"
+kubernetes,kubernetes/kube-deploy,5,5,0,0,0,1,(null),(null)
+kubernetes-incubator,kubernetes-incubator/external-dns,5,4,0,0,1,1,(null),(null)
+prometheus,prometheus/client_python,5,2,1,0,2,1,(null),(null)
+opentracing,opentracing/opentracing.io,5,1,2,1,1,2,"Maxim Sukharev,(null)","0706025b2bbcec1ed8d64822f4eccd96314938d0@smacker.ru,(null)"
+envoyproxy,envoyproxy/data-plane-api,5,0,0,5,0,1,data-plane-api(CircleCI),4f9705d4157a98ddd3afbe8dfe0896f0b301fcf7@users.noreply.github.com
+kubernetes-csi,kubernetes-csi/csi-lib-iscsi,5,3,1,1,0,2,"Matt Smith,(null)","e48e2233792641fdb3ce137e343feb7922da11a6@datera.io,(null)"
+prometheus,prometheus/graphite_exporter,4,2,0,0,2,1,(null),(null)
+grpc,grpc/grpc-proto,4,2,1,1,0,2,"(null),zpencer","(null),04e9f4436b0075902ab39eee786cd23fae2c941c@google.com"
+linkerd,linkerd/website,4,0,3,1,0,2,"Thomas Rampelberg,(null)","5f50a84c1fa3bcff146405017f36aec1a10a9e38@saunter.org,(null)"
+kubernetes,kubernetes/node-problem-detector,4,4,0,0,0,1,(null),(null)
+cncf,cncf/apisnoop,4,0,0,4,0,2,"Zach Mandeville,Zach!","d7dacae2c968388960bf8970080a980ed5c5dcb7@ii.coop,50f3f01caa053693ce619d596e14b0ff3901ab49@coolguy.website"
+helm,helm/chartmuseum,4,2,0,0,2,1,(null),(null)
+cncf,cncf/ambassadors,4,2,1,0,1,1,(null),(null)
+kubernetes,kubernetes/kubernetes-anywhere,4,2,1,1,0,2,"(null),Lubomir I. Ivanov","(null),2bd3a855c738a06e9e2140ff8559d79dc9a51385@vmware.com"
+buildpack,buildpack/roadmap,3,1,0,0,2,1,(null),(null)
+kubernetes,kubernetes/apiserver,3,0,0,3,0,3,"Walter Fender,Mike Danese,Jordan Liggitt","a75d6840c0703cb0c8e8c0dcac7959ac8010b959@google.com,d4310aad15daa0adb22e7f7056b3e3f59a97b2e0@google.com,bba4abbe2d8fe77073ca2eee3511ff13a380dd30@google.com"
+opentracing,opentracing/opentracing-csharp,3,2,0,0,1,1,(null),(null)
+kubernetes,kubernetes/kompose,3,3,0,0,0,1,(null),(null)
+linkerd,linkerd/linkerd2-proxy-api,3,0,2,1,0,2,"Alex Leong,(null)","60c6d277a8bd81de7fdde19201bf9c58a3df08f4@buoyant.io,(null)"
+coredns,coredns/deployment,3,2,0,1,0,2,"Chris O'Haver,(null)","c8d69f6e0f4a592980d82af78b0efddff3dcc387@infoblox.com,(null)"
+coredns,coredns/release,3,1,1,1,0,2,"(null),Sandeep Rajan","(null),703202f2ec68f60b88497fd3807b06d1095f9d9e@infoblox.com"
+kubernetes-incubator,kubernetes-incubator/cluster-proportional-autoscaler,3,3,0,0,0,1,(null),(null)
+grpc,grpc/grpc.github.io,3,1,1,0,1,1,(null),(null)
+crosscloudci,crosscloudci/cross-cloud,3,2,0,0,1,1,(null),(null)
+kubernetes,kubernetes/cloud-provider-openstack,3,2,0,1,0,2,"Chris Hoge,(null)","711c73f64afdce07b7e38039a96d2224209e9a6c@openstack.org,(null)"
+prometheus,prometheus/blackbox_exporter,3,2,0,0,1,1,(null),(null)
+kubernetes-client,kubernetes-client/java,3,2,0,0,1,1,(null),(null)
+fluent,fluent/fluent-bit-docs,3,1,1,1,0,2,"Don Bowman,(null)","0352a8acc949c7df21fec16e566ba9a74e797a97@donbowman.ca,(null)"
+kubernetes,kubernetes/federation,3,3,0,0,0,1,(null),(null)
+crosscloudci,crosscloudci/cncf-configuration,3,0,0,3,0,2,"denverwilliams,Lucina","88550f693e2a50fc9a29f11fcf20426e2f24916b@debian.nz,3d3ac19fa8dd31b2073b94c9ccd1af357897a7c3@users.noreply.github.com"
+kubernetes,kubernetes/contrib,3,2,0,0,1,1,(null),(null)
+nats-io,nats-io/prometheus-nats-exporter,3,3,0,0,0,1,(null),(null)
+cloudevents,cloudevents/sdk-java,2,1,0,0,1,1,(null),(null)
+kubernetes,kubernetes/client-go,2,0,0,0,2,1,(null),(null)
+jaegertracing,jaegertracing/jaeger-lib,2,0,1,1,0,2,"(null),Gary Brown","(null),f9023000f29773649f3850298becb9544b5fd6a9@brownuk.com"
+telepresenceio,telepresenceio/telepresence,2,1,1,0,0,1,(null),(null)
+fluent,fluent/fluent-plugin-kafka,2,0,2,0,0,1,(null),(null)
+vitessio,vitessio/website,2,1,0,1,0,2,"(null),Adrianna Tan","(null),8bbb4be9561aaab88cb7d8efcf7ac8405c67e42c@gmail.com"
+prometheus,prometheus/nagios_plugins,2,2,0,0,0,1,(null),(null)
+kubernetes,kubernetes/sample-controller,2,1,0,0,1,1,(null),(null)
+kubernetes,kubernetes/heapster,2,2,0,0,0,1,(null),(null)
+kubernetes,kubernetes/publishing-bot,2,1,0,1,0,2,"Dr. Stefan Schimanski,(null)","c7eb7e27d720073802570910730f1cd8b821f3fc@gmail.com,(null)"
+opentracing,opentracing/specification,2,2,0,0,0,1,(null),(null)
+containerd,containerd/continuity,2,1,1,0,0,1,(null),(null)
+nats-io,nats-io/node-nats,2,0,0,2,0,1,Alberto Ricart,c1a4158909d6c23f73df353c7cc0bbe963891a65@synadia.com
+kubernetes,kubernetes/code-generator,2,1,0,0,1,1,(null),(null)
+prometheus,prometheus/jmx_exporter,2,2,0,0,0,1,(null),(null)
+jaegertracing,jaegertracing/spark-dependencies,2,2,0,0,0,1,(null),(null)
+nats-io,nats-io/java-nats-streaming,2,1,0,0,1,1,(null),(null)
+containernetworking,containernetworking/plugins,2,2,0,0,0,1,(null),(null)
+prometheus,prometheus/cloudwatch_exporter,1,1,0,0,0,1,(null),(null)
+kubernetes,kubernetes/apiextensions-apiserver,1,0,0,1,0,1,Chao Xu,cbdffa0c689f2fb8ee77f97ca085a8c336fd62fc@google.com
+kubernetes,kubernetes/cluster-registry,1,1,0,0,0,1,(null),(null)
+kubernetes,kubernetes/frakti,1,1,0,0,0,1,(null),(null)
+fluent,fluent/fluentd-kubernetes-daemonset,1,0,1,0,0,1,(null),(null)
+fluent,fluent/NLog.Targets.Fluentd,1,1,0,0,0,1,(null),(null)
+grpc-ecosystem,grpc-ecosystem/go-grpc-middleware,1,0,1,0,0,1,(null),(null)
+falcosecurity,falcosecurity/falco,1,0,1,0,0,1,(null),(null)
+kubernetes-csi,kubernetes-csi/livenessprobe,1,0,0,0,1,1,(null),(null)
+open-policy-agent,open-policy-agent/example-api-authz-python,1,0,0,1,0,1,Torin Sandall,933af5bec0bc58056526d55ca6c7b45fcf14cc48@gmail.com
+fluent,fluent/fluentd-docker-image,1,0,0,0,1,1,(null),(null)
+kubernetes,kubernetes/steering,1,1,0,0,0,1,(null),(null)
+buildpack,buildpack/libbuildpack,1,0,0,1,0,1,Ben Hale,cf6bfba6a9cc3ab14105263f6e4be417b99c9860@pivotal.io
+kubernetes,kubernetes/cli-runtime,1,0,0,1,0,1,juanvallejo,6958e48e624f5a104bb59b7f2a9871273b0f8975@redhat.com
+helm,helm/hub,1,1,0,0,0,1,(null),(null)
+fluent,fluent/fluent-plugin-webhdfs,1,1,0,0,0,1,(null),(null)
+grpc-ecosystem,grpc-ecosystem/go-grpc-prometheus,1,1,0,0,0,1,(null),(null)
+fluent,fluent/fluent-logger-node,1,1,0,0,0,1,(null),(null)
+nats-io,nats-io/java-nats,1,0,0,1,0,1,Stephen Asbury,7cdfa407ef19424e774d5883312f5d9b052b830a@synadia.com
+fluent,fluent/fluent-bit-kubernetes-logging,1,0,0,1,0,1,Eduardo Silva,81f705dc2ce1a61a2621e0e4b442a9474e1d0c70@treasure-data.com
+kubernetes-incubator,kubernetes-incubator/metrics-server,1,1,0,0,0,1,(null),(null)
+linkerd,linkerd/linkerd-zipkin,1,0,1,0,0,1,(null),(null)
