@@ -24,6 +24,7 @@ parser.add_argument("-U", "--user", help = "Bugzilla user", type=str)
 parser.add_argument("-P", "--password", help = "Bugzilla password", type=str)
 parser.add_argument("-b", "--bugs", help = "Maximum number of bugs to fetch in a single call", default=200, type=int)
 parser.add_argument("-c", "--category", help = "Bugzilla category (bug)", type=str, default="bug")
+parser.add_argument("-C", "--use-created-date", help = "Use created date instead of update date", type=lambda s: s.lower() in ['true', 't', 'yes', '1'])
 args = parser.parse_args()
 # print(args)
 # print ((args.date_from, args.date_to))
@@ -39,12 +40,17 @@ for bug in bugzilla.fetch(category=args.category, from_date=args.date_from):
     product = bug['data']['product'][0]['__text__']
     if args.product and args.product != product:
         continue
-    dt = dateutil.parser.parse(bug['data']['delta_ts'][0]['__text__'])
-    # dt = dateutil.parser.parse(bug['data']['creation_ts'][0]['__text__'])
-    # print((product, dt))
-    if dt > args.date_to:
-        # print("skip {0} > {1}".format(dt, args.date_to))
-        break
+    if args.use_created_date:
+        dt = dateutil.parser.parse(bug['data']['creation_ts'][0]['__text__'])
+        print((product, dt))
+        if dt < args.date_from or dt > args.date_to:
+            continue
+    else:
+        dt = dateutil.parser.parse(bug['data']['delta_ts'][0]['__text__'])
+        print((product, dt))
+        if dt > args.date_to:
+            # print("skip {0} > {1}".format(dt, args.date_to))
+            break
     n += 1
 if args.product:
     print((args.product, n))

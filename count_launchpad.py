@@ -21,6 +21,7 @@ parser.add_argument("-t", "--date-to", help = "Date to YYYY-MM-DD HH:MM:SS", req
 parser.add_argument("-d", "--distribution", help = "Launchpad distribution", required=True, type=str)
 parser.add_argument("-p", "--package", help = "Launchpad package", type=str)
 parser.add_argument("-c", "--category", help = "Launchpad category (issue)", type=str, default="issue")
+parser.add_argument("-C", "--use-created-date", help = "Use created date instead of update date", type=lambda s: s.lower() in ['true', 't', 'yes', '1'])
 args = parser.parse_args()
 # print(args)
 # print ((args.date_from, args.date_to))
@@ -35,11 +36,16 @@ for issue in lp.fetch(category=args.category, from_date=args.date_from):
     # print(issue.keys())
     # print(issue['data'].keys())
     # print(issue['data']['bug_data'].keys())
-    # dt = dateutil.parser.parse(issue['data']['date_created'])
-    dt = dateutil.parser.parse(issue['data']['bug_data']['date_last_updated'])
-    # print(dt)
-    if dt > args.date_to:
-        # print("skip {0}".format(dt))
-        break
+    if args.use_created_date:
+        dt = dateutil.parser.parse(issue['data']['date_created'])
+        # print(dt)
+        if dt < args.date_from or dt > args.date_to:
+            continue
+    else:
+        dt = dateutil.parser.parse(issue['data']['bug_data']['date_last_updated'])
+        # print(dt)
+        if dt > args.date_to:
+            # print("skip {0}".format(dt))
+            break
     n += 1
 print((args.distribution, n))

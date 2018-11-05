@@ -24,6 +24,7 @@ parser.add_argument("-U", "--user", help = "Jira user", type=str)
 parser.add_argument("-P", "--password", help = "Jira password", type=str)
 parser.add_argument("-i", "--issues", help = "Number of issues to fetch in a single call", default=100, type=int)
 parser.add_argument("-c", "--category", help = "Jira category (issue)", type=str, default="issue")
+parser.add_argument("-C", "--use-created-date", help = "Use created date instead of update date", type=lambda s: s.lower() in ['true', 't', 'yes', '1'])
 args = parser.parse_args()
 # print(args)
 # print ((args.date_from, args.date_to))
@@ -37,13 +38,17 @@ for issue in jira.fetch(category=args.category, from_date=args.date_from):
     # print(issue['data'].keys())
     # print(issue['data']['fields'].keys())
     # print(datetime.datetime.fromtimestamp(issue['data']['fields']['created']).strftime('%Y-%m-%d %H:%M:%S.%f'))
-    # dt = dateutil.parser.parse(issue['data']['fields']['created'])
-    dt = dateutil.parser.parse(issue['data']['fields']['updated'])
-    # print(dt)
-    if dt > args.date_to:
-        # print("skip {0}".format(dt))
-        break
-    # print((issue['data']['id'], dt))
+    if args.use_created_date:
+        dt = dateutil.parser.parse(issue['data']['fields']['created'])
+        # print(dt)
+        if dt < args.date_from or dt > args.date_to:
+            continue
+    else:
+        dt = dateutil.parser.parse(issue['data']['fields']['updated'])
+        # print(dt)
+        if dt > args.date_to:
+            # print("skip {0}".format(dt))
+            break
     n += 1
 if args.project:
     print((args.project, n))
