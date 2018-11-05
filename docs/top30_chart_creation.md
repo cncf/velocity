@@ -156,18 +156,21 @@ Merge Requests: 371,5 pages * 20 = 7430
 - To count authors run in gitlab-ce directory: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 589
 - Now, that we have the data, it needs to be added to `data/data_gitlab.csv` with a matching date range
 
-- <b>Cloud Foundry case:</b>
+### CloudFoundry
+
 - Copy: `BigQuery/query_cloudfoundry_201605_201704.sql` to `BigQuery/query_cloudfoundry_201606_201705.sql` and update conditions. Then run query in the BigQuery console (see details at the beginning of example)
 - Finally, you will have `data/data_cloudfoundry_201606_201705.csv` (run query, download as csv or save results to table, export table to google storage, download as csv).
 - Update (and eventually manually run) the CF case (in `shells/unlimited_20160601-20170701.sh`): `ruby merger.rb data/unlimited.csv data/data_cloudfoundry_201606_201705.csv force`
 
-- CNCF Projects case
+### CNCF Projects case
+
 - We have a line in `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
 - Copy: `cp BigQuery/query_cncf_projects.sql BigQuery/query_cncf_projects_201606_201705.sql`, update conditions: `BigQuery/query_cncf_projects_201606_201705.sql`
 - Run on BigQuery and do the same as in the CF case. The final output file will be: `data/data_cncf_projects_201606_201705.csv`
 - Final line should be (try it): `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
 
-- WebKit case
+### WebKit case
+
 - Change the sh merger line to `ruby merger.rb data/unlimited.csv data/webkit_201606_201705.csv`
 - WebKit has no usable data on GitHub, so running BigQuery is not needed, we no longer need those lines for WebKit (we will just update `data/webkit_201606_201705.csv` file), remove them from current shell `shells/unlimited_20160601-20170601.sh`:
 ```
@@ -219,8 +222,9 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 - Run `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv` for a test
 
 - Now need to update data to get file `data/data_openstack_bugs_201606_201705.csv` (copy file from `data/data_openstack_bugs.csv`)
-- Use their launch-pad to get issues count:
-https://wiki.openstack.org/wiki/Bugs
+- New approach: `./openstack_issues.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'`. get data from results
+
+- Old approach: Use their launch-pad to get [issues count](https://docs.openstack.org/project-team-guide/bugs.html)
 Specifically go to: `When you find a bug, you should file it against the proper OpenStack project using the corresponding link`
 Click for example "Report a bug in Nova"
 https://bugs.launchpad.net/nova/, go to Advanced, select all possible issues, click "Age" sort desc, and then manually count issues in the given date range
@@ -234,7 +238,7 @@ Estimate for all OpenStack projects (currently 46). Url for Searchlight:
 https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&field.status%3Alist=NEW&field.status%3Alist=OPINION&field.status%3Alist=INVALID&field.status%3Alist=WONTFIX&field.status%3Alist=EXPIRED&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=FIXRELEASED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&orderby=-datecreated&start=0
 - The final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201606_201705.csv -1`
 
-- <b>Apache case:</b>
+### Apache
 - Follow the BigQuery steps as in the OpenStack example. The base query is 'BigQuery/query_apache_projects.sql'. The final line should be `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_apache_projects_201606_201705.sql`, update conditions, run BigQ, download results to `data/data_apache_201606_201705.csv`
 - Run `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
