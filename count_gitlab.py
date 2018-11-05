@@ -35,12 +35,13 @@ n = 0
 for obj in gitlab.fetch(category=args.category, from_date=args.date_from):
     # print(obj.keys())
     # print(obj['data'].keys())
-    dt = dateutil.parser.parse(obj['data']['created_at'])
+    # dt = dateutil.parser.parse(obj['data']['created_at'])
+    dt = dateutil.parser.parse(obj['data']['updated_at'])
     # print(dt)
-    # if dt > args.date_to:
+    if dt > args.date_to:
         # print("skip {0}".format(dt))
-        # break
-    # n += 1
-    if dt >= args.date_from and dt < args.date_to:
-        n += 1
+        break
+    n += 1
+    #if dt >= args.date_from and dt < args.date_to:
+    #    n += 1
 print((args.category, n))

@@ -37,7 +37,9 @@ for issue in jira.fetch(category=args.category, from_date=args.date_from):
     # print(issue['data'].keys())
     # print(issue['data']['fields'].keys())
     # print(datetime.datetime.fromtimestamp(issue['data']['fields']['created']).strftime('%Y-%m-%d %H:%M:%S.%f'))
-    dt = dateutil.parser.parse(issue['data']['fields']['created'])
+    # dt = dateutil.parser.parse(issue['data']['fields']['created'])
+    dt = dateutil.parser.parse(issue['data']['fields']['updated'])
+    # print(dt)
     if dt > args.date_to:
         # print("skip {0}".format(dt))
         break

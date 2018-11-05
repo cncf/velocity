@@ -31,9 +31,13 @@ lp = Launchpad(args.distribution, package=args.package, items_per_page=75, sleep
 
 n = 0
 for issue in lp.fetch(category=args.category, from_date=args.date_from):
+    # print(issue)
     # print(issue.keys())
     # print(issue['data'].keys())
-    dt = dateutil.parser.parse(issue['data']['date_created'])
+    # print(issue['data']['bug_data'].keys())
+    # dt = dateutil.parser.parse(issue['data']['date_created'])
+    dt = dateutil.parser.parse(issue['data']['bug_data']['date_last_updated'])
+    # print(dt)
     if dt > args.date_to:
         # print("skip {0}".format(dt))
         break

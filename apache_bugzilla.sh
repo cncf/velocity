@@ -13,7 +13,7 @@ fi
 projs=(Ant ORO POI Regexp Slide)
 for proj in "${projs[@]}"
 do
-  echo "project $proj"
+  # echo "project $proj"
   ./count_bugzilla.sh -f "$1" -t "$2" -u 'https://bz.apache.org/bugzilla' -p "$proj"
 done
 ./count_bugzilla.sh -f "$1" -t "$2" -u 'https://bz.apache.org/bugzilla'

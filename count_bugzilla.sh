@@ -33,12 +33,14 @@ bugzilla = Bugzilla(args.url, user=args.user, password=args.password, max_bugs=2
 
 n = 0
 for bug in bugzilla.fetch(category=args.category, from_date=args.date_from):
+    # print(bug)
     # print(bug.keys())
     # print(bug['data'].keys())
     product = bug['data']['product'][0]['__text__']
     if args.product and args.product != product:
         continue
-    dt = dateutil.parser.parse(bug['data']['creation_ts'][0]['__text__'])
+    dt = dateutil.parser.parse(bug['data']['delta_ts'][0]['__text__'])
+    # dt = dateutil.parser.parse(bug['data']['creation_ts'][0]['__text__'])
     # print((product, dt))
     if dt > args.date_to:
         # print("skip {0} > {1}".format(dt, args.date_to))
