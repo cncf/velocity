@@ -26,6 +26,7 @@ parser.add_argument("-i", "--issues", help = "Number of issues to fetch in a sin
 parser.add_argument("-c", "--category", help = "Jira category", type=str, default="issue")
 args = parser.parse_args()
 # print(args)
+# print ((args.date_from, args.date_to))
 
 jira = Jira(args.url, project=args.project, user=args.user, password=args.password, verify=False, cert=None, max_issues=args.issues, tag=None, archive=None)
 # print(jira)

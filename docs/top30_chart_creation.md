@@ -107,7 +107,9 @@ Do the same for other projects/repos. Re-run the analysis tool untill all is fin
 - For example, after defining some new projects we see "EPFL-SV-cpp-projects" in the top 50. This is an educational org that should be skipped. Add it to `map/skip.csv` for skipping row: `EPFL-SV-cpp-projects,,`
 - Once You have all URL's defined, added new mapping, you may see a preview of the Top projects on while stopped in `binding.pry`, by typing `all`. Now we need to go back to `shells/unlimited_20160601-20170601.sh` and regenerate all non standard data (for projects not on github or requiring special queries on github - for example because of having 0 activity, comments, commits, issues, prs or authors)
 
-- <b>Linux case:</b> we need to change this line `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-05-01 2017-05-01` into `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-06-01 2017-06-01` and run it
+### Linux
+
+- Linux case we need to change this line `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-05-01 2017-05-01` into `ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2016-06-01 2017-06-01` and run it
 - A message will be shown: `Data range not found in data/data_linux.csv: 2016-06-01 - 2017-06-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
 - Data for linux is here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing` but it doesn have May 2017, so we need last month's data.
 - Go to: `https://lkml.org/lkml/2017` and copy May 2017 into linked google spreadsheet: (22110).
@@ -134,7 +136,9 @@ torvalds,torvalds/linux,2017-05-01,2017-06-01,1219,24970,14469,424,22110
 torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,254893
 ```
 
-- <b>GitLab case:</b> Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory. If already exists, update with `cd gitlab-ce`, `git pull`
+### Gitlab
+
+- GitLab case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory. If already exists, update with `cd gitlab-ce`, `git pull`
 - Their repo hosted by GitHub is: `https://github.com/gitlabhq/gitlabhq`, clone it via `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory. If already exists, update with `cd gitlab-ce`, `git pull`. This repo seems not to be used much so we will skip it.
 - Go to `cncf/gitdm` and run GitLab repo analysis: `./repo_in_range.sh ~/dev/gitlab-ce/ gitlab 2016-06-01 2017-06-01`
 - Results are output to `other_repos/gitlab_2016-06-01_2017-06-01.txt`:
@@ -147,6 +151,7 @@ A total of 926818 lines added, 548205 removed (delta 378613)
 There are 732 pages of issues (20 per page) = 14640 issues (`https://gitlab.com/gitlab-org/gitlab-ce/issues?page=732&scope=all&sort=created_desc&state=all`)
 - To count Merge Requests (PRs): `https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?page=14&scope=all&sort=created_date&state=all`
 Merge Requests: 371,5 pages * 20 = 7430
+- You can use `./gitlab_issues_and_mrs.sh 'YYYY-MM-DD HH:MM:SS' 'YYYY-MM-DD HH:MM:SS'` to count issues and merge requests too.
 - To count authors run in gitlab-ce directory: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 575
 - To count authors run in gitlab-ce directory: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 589
 - Now, that we have the data, it needs to be added to `data/data_gitlab.csv` with a matching date range
