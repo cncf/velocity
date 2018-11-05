@@ -16,17 +16,17 @@ or as a stand-alone [html page](../charts/top_30_201611_201710.html). Details on
 Before you begin, clone the cncf/gitdm repo as you will use it in addition to velocity.
 
 #### In short
-To generate all data for the Top 30 chart: https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing
+To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing).
 
 - Fetch all necessary data using BigQuery or use data already fetched present in this repo.
 - If fetched new BigQuery data then re-run the special projects BigQuery analysis scripts: `./shells`: `run_apache.sh`, `run_chrome_chromium.sh`, `run_cncf.sh`, `run_openstack.sh`.
 - To just regenerate all other data: run `./shells/unlimited_both.sh`
 - See per project ranks statistics: `reports/cncf_projects_ranks.txt`
-- Get final output file `projects/unlimited.csv` and import it on the A50 cell in `https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing` chart
+- Get final output file `projects/unlimited.csv` and import it on the [A50 cell](https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing`).
 
 
 #### In detail
-Verify [this query](BigQuery/query_201611_201710_unlimited.sql) for proper date range. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
+Verify [this query](BigQuery/query_20171101_20181101_unlimited.sql) for proper date range. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
 Run the query on https://bigquery.cloud.google.com/queries/
 
