@@ -73,7 +73,8 @@ Processed 7152 csets from 365 developers
 ```
 - 7152 commits and 365 authors.
 - To get number of Issues, search Jira: `https://jira.automotivelinux.org/browse/SPEC-923?jql=created%20%3E%3D%202016-10-01%20AND%20created%20%3C%3D%202017-10-01`
-- It says 665 issues in a given date range
+- Use `./agl_jira.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'`.
+- It will return the number of issues in a given time range.
 - PRs = 1.07 * 665 = 711
 - Comments would be 2 * commits = 14304
 - Activity = sum of all others (comments, commits, issues, prs)
