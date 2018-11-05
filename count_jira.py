@@ -43,4 +43,7 @@ for issue in jira.fetch(category=args.category, from_date=args.date_from):
         break
     # print((issue['data']['id'], dt))
     n += 1
-print(n)
+if args.project:
+    print((args.project, n))
+else:
+    print(n)
