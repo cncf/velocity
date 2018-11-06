@@ -12,5 +12,5 @@ fi
 for proj in nova neutron cinder openstack-manuals glance swift horizon keystone heat manila murano mistral openstack-api-site community
 do
   # echo "project $proj"
-  ./count_launchpad.py -f "$1" -t "$2" -d "$proj"
+  ./count_launchpad.py -f "$1" -t "$2" -d "$proj"  ${@:3:99}
 done

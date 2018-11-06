@@ -10,5 +10,5 @@ then
   exit 2
 fi
 TOKEN=`cat /etc/gitlab/token`
-./count_gitlab.py -f "$1" -t "$2" -o gitlab-org -r gitlab-ce -T "${TOKEN}" -c issue
-./count_gitlab.py -f "$1" -t "$2" -o gitlab-org -r gitlab-ce -T "${TOKEN}" -c merge_request
+./count_gitlab.py -f "$1" -t "$2" -o gitlab-org -r gitlab-ce -T "${TOKEN}" -c issue  ${@:3:99}
+./count_gitlab.py -f "$1" -t "$2" -o gitlab-org -r gitlab-ce -T "${TOKEN}" -c merge_request  ${@:3:99}

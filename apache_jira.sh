@@ -14,6 +14,6 @@ projs=(Flink Mesos Spark Kafka Camel CloudStack Beam Zeppelin Cassandra Hive HBa
 for proj in "${projs[@]}"
 do
   # echo "project $proj"
-  ./count_jira.py -f "$1" -t "$2" -u 'https://issues.apache.org/jira' -p "$proj"
+  ./count_jira.py -f "$1" -t "$2" -u 'https://issues.apache.org/jira' -p "$proj"  ${@:3:99}
 done
-./count_jira.py -f "$1" -t "$2" -u 'https://issues.apache.org/jira'
+./count_jira.py -f "$1" -t "$2" -u 'https://issues.apache.org/jira'  ${@:3:99}
