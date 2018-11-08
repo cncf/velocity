@@ -330,7 +330,7 @@ Processed 7152 csets from 365 developers
 - Commits: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l`
 - Authors: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l`
 - Put results in: `data/data_libreoffice_git_201606_201705.csv` (authors, commits), values will probably be skipped by the updater tool (they are lower than current values gathered so far)
-- Issues:
+- Issues (old approach):
 Issue listing is here: https://bugs.freedesktop.org/buglist.cgi?product=LibreOffice&query_format=specific&order=bug_id&limit=0
 Create account, change columns to "Opened" and "ID" as generaly no more is needed. (ID is a link). Sort by Opened desc and try to see all results. (You can hit nginx gateway timeout).
 This URL succeeded for me: https://bugs.documentfoundation.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&bug_status=NEEDINFO&columnlist=opendate&component=Android%20Viewer&component=Base&component=BASIC&component=Calc&component=Chart&component=ci-infra&component=contrib&component=deletionrequest&component=Documentation&component=Draw&component=Extensions&component=filters%20and%20storage&component=Formula%20Editor&component=framework&component=graphics%20stack&component=Impress&component=Installation&component=LibreOffice&component=Linguistic&component=Localization&component=Printing%20and%20PDF%20export&component=sdk&component=UI&component=ux-advise&component=Writer&component=Writer%20Web&component=WWW&limit=0&list_id=703831&order=opendate%20DESC%2Cchangeddate%2Cbug_id%20DESC&product=LibreOffice&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&resolution=NOTABUG&resolution=NOTOURBUG&resolution=INSUFFICIENTDATA
@@ -341,6 +341,7 @@ Counting issues in 'data/data_libreoffice_bugs.csv', issue date column is 'Opene
 Found 7223 matching issues.
 ```
 Update `data/data_libreoffice_git_201606_201705.csv` accordingly.
+- New approach, use: `./libreoffice_bugzilla.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'`.
 - Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201606_201705.csv -1`
 
 ### FreeBSD case
@@ -367,8 +368,8 @@ Authors:      335
 ```
 - Put results here (authors and commits): `./data/data_freebsd_svn_20171101_20181101.csv -1`
 - Go to: `https://docs.freebsd.org/mail/` and estimate number of emails for your period.
-- go to [FreeBSD Bugzilla](https://bugs.freebsd.org/bugzilla/buglist.cgi?chfield=%5BBug%20creation%5D&chfieldfrom=2017-11-01&chfieldto=2018-11-01&order=Last%20Changed&query_format=advanced) and get number of bugs in a given period (bugs=issues, prs=issues).
-- Go to search, choose 'advanced search' then 'custom search' then choose 'show advanced features). Use 'Creaation data' column twice. First for greater or equal than YYYY-MM-DD than less or equal to YYYY-MM-DD.
+- Old approach: Go to [FreeBSD Bugzilla](https://bugs.freebsd.org/bugzilla/buglist.cgi?chfield=%5BBug%20creation%5D&chfieldfrom=2017-11-01&chfieldto=2018-11-01&order=Last%20Changed&query_format=advanced) and get number of bugs in a given period (bugs=issues, prs=issues).
+- Go to search, choose 'advanced search' then 'custom search' then choose 'show advanced features'). Use 'Creaation data' column twice. First for greater or equal than YYYY-MM-DD than less or equal to YYYY-MM-DD.
 - Click search, results will be limited to first 500, click change columns and choose 'Opened' only (it will show ID and Opened then), finally [url](https://bugs.freebsd.org/bugzilla/buglist.cgi?columnlist=opendate&f1=creation_ts&f2=creation_ts&limit=0&o1=greaterthaneq&o2=lessthaneq&order=opendate%2Cchangeddate%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&query_format=advanced&v1=2017-11-01&v2=2018-11-01).
 - Put results here (comments=emails/3 (many of them are automatic)): `./data/data_freebsd_svn_20171101_20181101.csv -1`
 - Finally `ruby update_projects.rb projects/unlimited_both.csv ./data/data_freebsd_svn_20171101_20181101.csv -1`.
