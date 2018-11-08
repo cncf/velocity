@@ -10,4 +10,4 @@ then
   exit 2
 fi
 # possibly add -C 1 -D 30
-./count_bugzilla.py -f "$1" -t "$2" -u 'https://bugs.freedesktop.org' -p "LibreOffice"  ${@:3:99}
+./count_bugzillarest.py -f "$1" -t "$2" -u 'https://bugs.freedesktop.org' -p "LibreOffice"  ${@:3:99}
