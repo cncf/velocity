@@ -371,13 +371,14 @@ Authors:      335
 - Old approach: Go to [FreeBSD Bugzilla](https://bugs.freebsd.org/bugzilla/buglist.cgi?chfield=%5BBug%20creation%5D&chfieldfrom=2017-11-01&chfieldto=2018-11-01&order=Last%20Changed&query_format=advanced) and get number of bugs in a given period (bugs=issues, prs=issues).
 - Go to search, choose 'advanced search' then 'custom search' then choose 'show advanced features'). Use 'Creaation data' column twice. First for greater or equal than YYYY-MM-DD than less or equal to YYYY-MM-DD.
 - Click search, results will be limited to first 500, click change columns and choose 'Opened' only (it will show ID and Opened then), finally [url](https://bugs.freebsd.org/bugzilla/buglist.cgi?columnlist=opendate&f1=creation_ts&f2=creation_ts&limit=0&o1=greaterthaneq&o2=lessthaneq&order=opendate%2Cchangeddate%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&query_format=advanced&v1=2017-11-01&v2=2018-11-01).
+- New approach: `./freebsd_bugzilla.sh '2018-11-01 00:00:00' '2018-12-01 00:00:00'`.
 - Put results here (comments=emails/3 (many of them are automatic)): `./data/data_freebsd_svn_20171101_20181101.csv -1`
 - Finally `ruby update_projects.rb projects/unlimited_both.csv ./data/data_freebsd_svn_20171101_20181101.csv -1`.
+- Use the above two values in a copy of this file: `data_freebsd_svn_20171101_20181101.csv`
+- Now rerun `shells/unlimited_20171101_20181101.sh` and see FreeBSD's rank along with the remaining final results.
 
-### Final results
-
-- Use the above two values in a copy of this file: `data_freebsd_svn_201606_201705.csv`
-- Now rerun `shells/unlimited_201606_201705.sh` and see FreeBSD's rank along with the remaining final results.
+### Generate final data
+- Now rerun `shells/unlimited_both.sh`.
 - When script is done running, a file `./projects/unlimited.csv` is (re)/generated. You need to import it in Google chart by doing:
 - Select the cell A50. Use File --> Import, then "Upload" tab, "Select a file from your computer", choose `./projects/unlimited.csv`
 - Then "Import action" --> "replace data starting at selected call", click Import.
