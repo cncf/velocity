@@ -253,7 +253,7 @@ Example URL: `https://issues.apache.org/jira/browse/KYLIN-2578?jql=project%20%3D
 We need issue counts for all projects separately: Flink, Mesos, Spark, Kafka, Camel, CloudStack, Beam, Zeppelin, Cassandra, Hive, HBase, Hadoop, Ignite, NiFi, Ambari, Storm, Traffic Server, Lucene - Core, Solr, CarbonData, Geode, Trafodion, Thrift, Kylin.
 - Final line for Apache should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20171101_20181101.csv -1`
 
-- <b>Chromium case</b>
+### Chromium
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word chromium): `ruby merger.rb data/unlimited.csv data/data_chromium_201606_201705.csv`
 - Now the manual part - copy `data/data_chromium_bugtracker.csv` to `data/data_chromium_bugtracker_201606_201705.csv` (we need to update this file)
 - Get Issues from their bug tracker: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=opened%3E2016%2F7%2F25&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids
@@ -288,10 +288,13 @@ Tool will output something like this: "After filtering: authors: 1637, commits: 
 Update `data/data_chromium_bugtracker_201606_201705.csv` accordingly.
 - Final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_201606_201705.csv -1`
 
-- <b>openSUSE case:</b>
+### OpenSUSE
+
 - BigQuery part exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
 
-- <b>AGL (Automotive Grade Linux) case:</b>
+### AGL case (Automotive Grade Linux)
+
+- Also see `docs/linuxfoundation_chart_creation.md`.
 - Go to: https://wiki.automotivelinux.org/agl-distro/source-code and get source code somewhere:
 - `mkdir agl; cd agl`
 - `curl https://storage.googleapis.com/git-repo-downloads/repo > repo; chmod +x ./repo`
@@ -310,14 +313,16 @@ A total of 13431516 lines added, 12197416 removed, 24809064 changed (delta 12341
 Processed 7152 csets from 365 developers
 ```
 - 7152 commits and 365 authors.
-- To get number of Issues, search Jira: `https://jira.automotivelinux.org/browse/SPEC-923?jql=created%20%3E%3D%202016-10-01%20AND%20created%20%3C%3D%202017-10-01`
+- To get number of Issues, search Jira (old approach): `https://jira.automotivelinux.org/browse/SPEC-923?jql=created%20%3E%3D%202016-10-01%20AND%20created%20%3C%3D%202017-10-01`
+- New approach: Use `./agl_jira.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'`.
 - It says 665 issues in a given date range
 - PRs = 1.07 * 665 = 711
 - Comments would be 2 * commits = 14304
 - Activity = sum of all others (comments, commits, issues, prs)
 - Finally: `ruby merger.rb data/unlimited.csv data/data_agl_20170601_20180601.csv`
 
-- <b>LibreOffice case:</b>
+### LibreOffice case
+
 - Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
 - Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_201606_201705.csv` and we will update the `data/data_libreoffice_git_201606_201705.csv` file
 - Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`. If repo already cloned, do `cd core`, `git pull`
@@ -338,7 +343,8 @@ Found 7223 matching issues.
 Update `data/data_libreoffice_git_201606_201705.csv` accordingly.
 - Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201606_201705.csv -1`
 
-- <b>FreeBSD case:</b>
+### FreeBSD case
+
 - Use BigQuery/org_finder.sql (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_201606_201705.csv` (if there aren't many rows, just Download as CSV, othervise: save as table, export to gstorage, download csv)
 - Now define FreeBSD project the same way as in BigQuery: put orgs in `map/defmaps.csv`, put URL in `map/urls.csv`, put orgs as exceptions in `map/ranges.csv` and `map/ranges_sane.csv` (because some values can be 0s due to custom BigQuery)
