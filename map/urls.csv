@@ -71,14 +71,17 @@ Bond,github.com/Microsoft/bond
 Boost,boost.org
 Brackets,brackets.io
 Brave Software,brave.com
+Brigade,brigade.sh
 Broad Institute,broadinstitute.org
 Buildpacks,buildpacks.io
 CARTO,carto.com
+CDF,cd.foundation
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
 CNCF,www.cncf.io
 CNI,github.com/containernetworking
 CORD,opencord.org
+CRI-O,cri-o.io
 CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
 Caffe,github.com/Microsoft/caffe
 CakePHP,cakephp.org
@@ -123,6 +126,7 @@ DefinitelyTyped,definitelytyped.org
 Digital Transformation Office,dta.gov.au
 DirectX,microsoft.com/en-us/download/search.aspx?q=directx
 Docker,mobyproject.org
+Dragonfly,d7y.io/en-us
 Dronecode,www.dronecode.org
 DuckDuckGo,duckduckhack.com
 DuckDuckHack,duckduckhack.com
@@ -152,7 +156,6 @@ FBI Crime Data Explorer,github.com/18F/crime-data-explorer
 FD.io,fd.io
 FOSSology,www.fossology.org
 Falco,falco.org
-Dragonfly,d7y.io/en-us
 Federalist,federalist.18f.gov
 Finagle,twitter.github.io/finagle
 Finatra,twitter.github.io/finatra
@@ -201,11 +204,6 @@ Government Digital Service,gds.blog.gov.uk
 Grumpy,github.com/google/grumpy
 Guava,github.com/google/guava
 HTTPS Everywhere,eff.org/https-everywhere
-Virtual Kubelet,virtual-kubelet.io
-CRI-O,cri-o.io
-KubeEdge,kubeedge.io
-CDF,cd.foundation
-Brigade,brigade.sh
 Hackage,stackage.org
 Halite,halite.io
 Harbor,vmware.github.io/harbor
@@ -242,6 +240,7 @@ Keybase,keybase.io
 Kinetic Open Storage,www.openkinetic.org
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
+KubeEdge,kubeedge.io
 Kubernetes,kubernetes.io
 Kuma,developer.mozilla.org
 LLVM,llvm.org
@@ -493,6 +492,7 @@ VMware Xenon,github.com/vmware/xenon
 VMware vSphere,vmware.github.io/vic
 VS Code,code.visualstudio.com
 Vault,vaultproject.io
+Virtual Kubelet,virtual-kubelet.io
 Vitess,vitess.io
 Vorto Project,github.com/eclipse/vorto
 Vox Populi,voxpopuli.org

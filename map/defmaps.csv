@@ -38,12 +38,6 @@ Open API Initiative,Open API
 Open Accessibility (A11y) Group,A11y
 Open Container Initiative,OCI
 Open Mainframe Project,Open Mainframe
-dragonflyoss,Dragonfly
-virtual-kubelet,Virtual Kubelet
-Virtual-Kubelet,Virtual Kubelet
-kubeedge,KubeEdge
-brigadecore,Brigade
-cdfoundation,CDF
 OpenObservability,OpenMetrics
 OpenStack-mobile,OpenStack Mobile
 OpenStackCookbook,OpenStack Cookbook
@@ -54,6 +48,7 @@ Plailect/Guide,3DS Guide
 ResurrectionRemix,Resurrection Remix
 Software Package Data Exchange,SPDX
 TheOdinProject,The Odin Project
+Virtual-Kubelet,Virtual Kubelet
 Yoast,Yoast SEO
 Zephyr Project,Zephyr
 acemod,ACE Mod
@@ -75,11 +70,13 @@ automotive-grade-linux,AGL
 betaflight,Betaflight
 boostorg,Boost
 brave,Brave Software
+brigadecore,Brigade
 broadinstitute,Broad Institute
 buildpack,Buildpacks
 c4cs,Computing for Computer Scientists
 cakephp,CakePHP
 caskroom,Homebrew
+cdfoundation,CDF
 cfpb,Consumer Financial Protection Bureau
 chef,Chef
 chrome-enhanced-history,Chromium
@@ -108,6 +105,7 @@ department-of-veterans-affairs,Caseflow
 dmlc,DMLC
 docker,Docker
 docker-freebsd,FreeBSD
+dragonflyoss,Dragonfly
 driftyco,Ionic
 e-government-ua,Основной репозиторий
 eclipse,Eclipse
@@ -150,6 +148,7 @@ joomla,Joomla
 jsdelivr,jsDelivr
 kata-containers,Kata Containers
 keybase,Keybase
+kubeedge,KubeEdge
 kubernetes,Kubernetes
 kubernetes-addons,Kubernetes
 kubernetes-client,Kubernetes
@@ -244,6 +243,7 @@ tikv,TiKV
 twitter,Twitter
 uber,Uber Open Source
 vgstation-coders,vgstation13
+virtual-kubelet,Virtual Kubelet
 vitessio,Vitess
 vmware,VMware
 voidlinux,The Void distribution

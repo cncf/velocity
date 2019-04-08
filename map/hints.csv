@@ -53,6 +53,7 @@ Azure/azure-webjobs-sdk,Azure SDKs
 Azure/azure-webjobs-sdk-extensions,Azure SDKs
 Azure/azure-webjobs-sdk-script,Azure SDKs
 Azure/azure-webjobs-sdk-templates,Azure SDKs
+Azure/brigade,Brigade
 Azure/sonic-py-swsssdk,Azure SDKs
 BuoyantIO/linkerd,Linkerd
 Dronecode/Dronecode-Website-Issues,Dronecode
@@ -330,6 +331,7 @@ airbnb/lottie-android,Lottie
 airbnb/react-dates,React
 airbnb/react-native-maps,React
 airbnb/superset,Superset
+alibaba/Dragonfly,Dragonfly
 angular-fullstack/generator-angular-fullstack,Angular
 angular-ui/bootstrap,Angular
 angular-ui/ng-grid,Angular
@@ -603,9 +605,6 @@ dotnet/eShopOnContainers,Microsoft eShopOnContainers
 dotnet/orleans,Microsoft Orleans
 dotnet/roslyn,VS Code
 dotnet/roslyn-project-system,VS Code
-alibaba/Dragonfly,Dragonfly
-Azure/brigade,Brigade
-kubernetes-sigs/cri-o,CRI-O
 draios/falco,Falco
 duckduckgo/zeroclickinfo-fathead,DuckDuckHack
 duckduckgo/zeroclickinfo-goodies,DuckDuckHack
@@ -747,6 +746,7 @@ kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes
 kubernetes-incubator/service-catalog,Kubernetes
+kubernetes-sigs/cri-o,CRI-O
 kubernetes/charts,Helm
 kubernetes/community,Kubernetes
 kubernetes/contrib,Kubernetes
