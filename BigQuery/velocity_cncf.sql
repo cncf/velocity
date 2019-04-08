@@ -4,12 +4,12 @@ select
   sum(activity) as activity,
   sum(comments) as comments,
   sum(prs) as prs,
-  sum(pushes) as commits,
+  EXACT_COUNT_DISTINCT(sha) as commits,
   sum(issues) as issues,
   EXACT_COUNT_DISTINCT(author_email) as authors_alt2,
   GROUP_CONCAT(STRING(author_name)) AS authors_alt1,
   GROUP_CONCAT(STRING(author_email)) AS authors,
-  EXACT_COUNT_DISTINCT(sha) as distinct_shas
+  sum(pushes) as pushes
 from (
 select
   org.login as org,
