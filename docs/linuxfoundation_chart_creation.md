@@ -14,21 +14,19 @@ The chart itself can be generated in a [google sheet](https://docs.google.com/sp
 ### Chart data
 Go to this [CNCF page](https://www.linuxfoundation.org/projects/) to find a list of current projects.
 
-For every project, find a github repo and add it to a query such as [this one](BigQuery/query_lf_projects_20171101_20181101.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
+For every project, find a github repo and add it to a [query](BigQuery/velocity_lf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Copy the results to a file with proper name `data/data_lf_projects_20171101_20181101.csv`
+Run the query for a year, for example: `./run_bq.sh lf 2018-04-01 2019-04-01`. It takes about 1+TB and costs about $5+.
+
+It will generate a file for example: `data/data_lf_projects_20180401_20190401.csv`.
 
 <b>Add CNCF projects</b>
-- CNCF Projects case
-- We have a line in `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv data/data_cncf_projects_20171101_20181101.csv`
-- Copy: `cp BigQuery/query_cncf_projects.sql BigQuery/query_cncf_projects_20171101_20181101.sql`, update conditions: `BigQuery/query_cncf_projects_20171101_20181101.sql`
-- Run on BigQuery and do the same as in the CF case. The final output file will be: `data/data_cncf_projects_20171101_20181101.csv`
-- Final line should be: `ruby merger.rb data/data_lf_projects_20171101_20181101.csv data/data_cncf_projects_20171101_20181101.csv`.
+- `ruby merger.rb data/data_lf_projects_20180401_20190401.csv data/data_cncf_projects_20180401_20190401.csv`.
 
 
 <b>Add Linux data</b>
 Try running this from the velocity project's root folder:
-`ruby add_linux.rb data/data_lf_projects_20171101_20181101.csv data/data_linux.csv 2017-08-01 2018-08-01`
+`ruby add_linux.rb data/data_lf_projects_20180401_20190401.csv data/data_linux.csv 2018-04-01 2019-04-01`.
 - A message will be shown: `Data range not found in data/data_linux.csv: 2017-11-01 - 2017-11-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
 - Go to: `https://lkml.org/lkml/2017` and sum-up monthly email counts for the time period of interest, in this case, 263996.
 - Add a row for the time period in `data/data_linux.csv`: `torvalds,torvalds/linux,2016-11-01,2017-11-01,0,0,0,0,263996` - You will see that now we only have the "emails" column. Other columns must be feteched from the linux kernel repo using the `cncf/gitdm` analysis:
