@@ -112,8 +112,8 @@ Do the same for other projects/repos. Re-run the analysis tool untill all is fin
 - A message will be shown: `Data range not found in data/data_linux.csv: 2016-06-01 - 2017-06-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
 - Data for linux is here `https://docs.google.com/spreadsheets/d/1CsdreHox8ev89WoP6LjcryroKDOH2gQipMC9oS95Zhc/edit?usp=sharing` but it doesn have May 2017, so we need last month's data.
 - Go to: `https://lkml.org/lkml/2017` and copy May 2017 into linked google spreadsheet: (22110).
-- Add a row for May 2017 to `data/data_linux.csv`: `torvalds,torvalds/linux,2017-05-01,2017-06-01,0,0,0,0,22110` - You will see that now we only have the "emails" column. Other columns must be feteched from the linux kernel repo using the `cncf/gitdm` analysis:
-- You can also sum up the issues from the sheet to get 2016-06-01 - 2017-06-01: (254893): `torvalds,torvalds/linux,2016-06-01,2017-06-01,0,0,0,0,254893`
+- Add a row for May 2017 to `data/data_linux.csv`: `torvalds,torvalds/linux,2017-05-01,2017-06-01,0,0,0,0,22110,0,0` - You will see that now we only have the "emails" column. Other columns must be feteched from the linux kernel repo using the `cncf/gitdm` analysis:
+- You can also sum up the issues from the sheet to get 2016-06-01 - 2017-06-01: (254893): `torvalds,torvalds/linux,2016-06-01,2017-06-01,0,0,0,0,254893,0,0`
 - Now `cncf/gitdm` on linux kernel repo: `cd ~/dev/linux && git checkout master && git reset --hard && git pull`. An alternative to it (if you don't have the linux repo cloned) is: `cd ~/dev/`, `git clone https://github.com/torvalds/linux.git`.
 - Go to `cncf/gitdm`: `cd ~/dev/cncf/gitdm`, run: `./linux_range.sh 2017-05-01 2017-06-01`
 - While on `cncf/gitdm`, do: `vim linux_stats/range_2017-05-01_2017-06-01.txt`:
@@ -131,9 +131,10 @@ A total of 3790914 lines added, 1522111 removed (delta 2268803)
 ```
 - Final linux rows (one for May 2017, another for last year including May 2017) are:
 ```
-torvalds,torvalds/linux,2017-05-01,2017-06-01,1219,24970,14469,424,22110
-torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,254893
+torvalds,torvalds/linux,2017-05-01,2017-06-01,1219,24970,14469,424,22110,0,0
+torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,254893,0,0
 ```
+- Run `PG_PASS=... ./linux_commits.sh 2018-04-01 2019-04-01` that will give a final values for number of pushes and commits.
 
 ### Gitlab
 

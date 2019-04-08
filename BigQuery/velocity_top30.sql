@@ -56,5 +56,5 @@ HAVING
   and issues > 0
 ORDER BY
   authors_alt2 desc
-LIMIT 10000000
+LIMIT 3000000
 ;
