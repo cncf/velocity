@@ -206,6 +206,10 @@ openmainframeproject,Open Mainframe
 opennetworkinglab,Open Networking Laboratory
 opensds,OpenSDS
 opensecuritycontroller,Open Security Controller
+pytorch,pytorch
+tensorflow,tensorflow
+reactjs,React
+conda-forge,conda-forge
 openshift,OpenShift
 openssl,OpenSSL
 openstack-ansible,OpenStack Ansible

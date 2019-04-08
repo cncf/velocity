@@ -325,6 +325,8 @@ Nylas,nylas.com
 OCI,www.opencontainers.org
 ODPi,odpi.org
 ONOS,onosproject.org
+pytorch,pytorch.org
+tensorflow,www.tensorflow.org
 OPA,openpolicyagent.org
 OPAM,opam.ocaml.org
 OPNFV,www.opnfv.org
@@ -415,6 +417,7 @@ Rapid7,rapid7.com
 React,facebook.com
 ReactXP,microsoft.github.io/reactxp
 ReactiveX,reactivex.io
+conda-forge,conda-forge.org
 Realm,realm.io
 Record and Replay Framework,rr-project.org
 Resurrection Remix,plus.google.com/communities/109352646351468373340

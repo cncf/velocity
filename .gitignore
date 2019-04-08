@@ -57,3 +57,5 @@ unlimited.csv
 
 /data/unlimited*.csv
 /data/data_top30_*.csv
+/reports/all_repos.csv
+/reports/sumall.csv
