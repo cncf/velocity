@@ -23,6 +23,7 @@ Airflow,airflow.incubator.apache.org
 Akka,akka.io
 Alibaba,alibaba.com
 Alluxio,github.com/Alluxio
+Amazon Docs,aws.amazon.com
 Amazon Web Services,aws.amazon.com
 Angular,angular.io
 Ansible,ansible.com
@@ -65,6 +66,7 @@ Azure SDKs,azure.microsoft.com
 BOSH,bosh.io
 BashOnWindows,microsoft.com/en-us/commandline/wsl
 Baystation12,baystation12.net
+Bazel,bazel.build
 Betaflight,github.com/betaflight/betaflight/releases
 Blockly,developers.google.com/blockly
 Bond,github.com/Microsoft/bond
@@ -323,10 +325,9 @@ Notary,github.com/theupdateframework/notary
 Nunjucks,mozilla.github.io/nunjucks
 Nylas,nylas.com
 OCI,www.opencontainers.org
+ODOO,odoo-community.org
 ODPi,odpi.org
 ONOS,onosproject.org
-pytorch,pytorch.org
-tensorflow,www.tensorflow.org
 OPA,openpolicyagent.org
 OPAM,opam.ocaml.org
 OPNFV,www.opnfv.org
@@ -417,7 +418,6 @@ Rapid7,rapid7.com
 React,facebook.com
 ReactXP,microsoft.github.io/reactxp
 ReactiveX,reactivex.io
-conda-forge,conda-forge.org
 Realm,realm.io
 Record and Replay Framework,rr-project.org
 Resurrection Remix,plus.google.com/communities/109352646351468373340
@@ -552,6 +552,7 @@ bioconda,bioconda.github.io
 cAdvisor,github.com/google/cadvisor
 certificate-transparency,certificate-transparency.org
 cloudmesh,github.com/cloudmesh
+conda-forge,conda-forge.org
 containerd,containerd.io
 cregit,cregit.linuxsources.org
 devopsdays,devopsdays.org
@@ -585,6 +586,7 @@ openeventing,CloudEvents
 osquery,osquery.io
 ownCloud,oowncloud.org
 python,www.python.org
+pytorch,pytorch.org
 rkt,github.com/rkt/rkt
 science.mozilla.org,science.mozilla.org
 systemd,freedesktop.org/wiki/Software/systemd

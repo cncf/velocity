@@ -33,6 +33,7 @@ KSP-CKAN,CKAN
 Linux kernel,Linux
 MarlinFirmware,Marlin
 MobileChromeApps,Chromium
+OCA,ODOO
 OfficeDev,Office Developer
 Open API Initiative,Open API
 Open Accessibility (A11y) Group,A11y
@@ -67,6 +68,8 @@ aspnet,ASP.net
 atom,Atom
 auth0,Auth0
 automotive-grade-linux,AGL
+awsdocs,Amazon Docs
+bazelbuild,Bazel
 betaflight,Betaflight
 boostorg,Boost
 brave,Brave Software
@@ -93,6 +96,7 @@ cncf,CNCF
 cockroachdb,Cockroach Labs
 codeaurora-unofficial,Code Aurora
 codecombat,CodeCombat
+conda-forge,conda-forge
 containernetworking,CNI
 coredns,CoreDNS
 coreos,CoreOS
@@ -206,10 +210,6 @@ openmainframeproject,Open Mainframe
 opennetworkinglab,Open Networking Laboratory
 opensds,OpenSDS
 opensecuritycontroller,Open Security Controller
-pytorch,pytorch
-tensorflow,tensorflow
-reactjs,React
-conda-forge,conda-forge
 openshift,OpenShift
 openssl,OpenSSL
 openstack-ansible,OpenStack Ansible
@@ -230,9 +230,11 @@ p4lang,P4 Language
 pingcap,PingCAP
 pivotal-cf,Pivotal Cloud Foundry
 prometheus,Prometheus
+pytorch,pytorch
 rackt,React
 rails,Ruby on Rails
 rapid7,Rapid7
+reactjs,React
 rook,Rook
 rust-lang,Rust
 rust-lang-nursery,Rust
@@ -252,6 +254,7 @@ symfony,Symfony
 tektoncd,Tekton
 telepresenceio,Telepresence
 telerik,Telerik
+tensorflow,TensorFlow
 terraform-providers,Terraform
 tgstation,SS13
 thephpleague,League of Extraordinary Packages
