@@ -40,6 +40,8 @@ Open Container Initiative,OCI
 Open Mainframe Project,Open Mainframe
 OpenObservability,OpenMetrics
 OpenStack-mobile,OpenStack Mobile
+spinnaker,Spinnaker
+tektoncd,Tekton
 OpenStackCookbook,OpenStack Cookbook
 OpenStackweb,OpenStack Web
 ParsePlatform,Parse
@@ -51,6 +53,18 @@ TheOdinProject,The Odin Project
 Virtual-Kubelet,Virtual Kubelet
 Yoast,Yoast SEO
 Zephyr Project,Zephyr
+zephyrproject-rtos,Zephyr
+jenkinsci,Jenkins
+jenkins-x,Jenkins X
+iovisor,IO Visor
+mininet,Mininet
+opennetworkinglab,Open Networking Laboratory
+opensecuritycontroller,Open Security Vontroller
+openswitch,OpenSwitch
+p4lang,P4 Language
+openbmp,OpenBMP
+tungstenfabric,Tungsten Fabric
+opencord,CORD
 acemod,ACE Mod
 akka,Akka
 alibaba,Alibaba

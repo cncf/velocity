@@ -202,6 +202,15 @@ Google i18n,developers.google.com/international
 Google seq2seq,google.github.io/seq2seq
 Government Digital Service,gds.blog.gov.uk
 Grumpy,github.com/google/grumpy
+Spinnaker,www.spinnaker.io
+Tekton,tekton.dev
+Jenkins,jenkins.io
+Jenkins X,jenkins-x.io
+Mininet,mininet.org
+Open Networking Laboratory,opennetworking.org
+P4 Language,github.com/p4lang
+OpenBMP,gitter.im/openbmp
+Tungsten Fabric,tungsten.io
 Guava,github.com/google/guava
 HTTPS Everywhere,eff.org/https-everywhere
 Hackage,stackage.org
@@ -332,7 +341,7 @@ Open Build Service,openbuildservice.org
 Open Mainframe,www.openmainframeproject.org
 Open Management Infrastructure,github.com/Microsoft/omi
 Open Network Automation Platform,www.onap.org
-Open Security Controller,opensecuritycontroller
+Open Security Controller,www.opensecuritycontroller.org
 Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
 Open vSwitch,openvswitch.org
