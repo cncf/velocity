@@ -9,35 +9,40 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./top30_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1GKD-IrEd23c2Lj41_aw9NjiAFXK7GuvPAcJnwY6qIT8/edit?usp=sharing).
-or as a stand-alone [html page](../charts/top_30_201611_201710.html). Details on usage of google chart api are [here](https://developers.google.com/chart/interactive/docs/gallery/bubblechart). The first option is a copy/paste of resulting data whereas the second presents more control to the look of the chart. Refer to the [Bubble Chart Generator](other_notes.md#bubble-chart-generator) for automatic html creation.
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).
 
 ### Chart data
 Before you begin, clone the cncf/gitdm repo as you will use it in addition to velocity.
 
 #### In short
-To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing).
+To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).
 
 - Fetch all necessary data using BigQuery or use data already fetched present in this repo.
 - If fetched new BigQuery data then re-run the special projects BigQuery analysis scripts: `./shells`: `run_apache.sh`, `run_chrome_chromium.sh`, `run_cncf.sh`, `run_openstack.sh`.
 - To just regenerate all other data: run `./shells/unlimited_both.sh`
 - See per project ranks statistics: `reports/cncf_projects_ranks.txt`
-- Get final output file `projects/unlimited.csv` and import it on the [A50 cell](https://docs.google.com/spreadsheets/d/1hD-hXlVT60AGhGVifNn7nNo9oVMKnIoQ2kBNmx-YY8M/edit?usp=sharing`).
+- Get final output file `projects/unlimited.csv` and import it on the [A50 cell](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).
 
 
 #### In detail
-Verify [this query](BigQuery/query_20171101_20181101_unlimited.sql) for proper date range. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
+#Verify [this query](BigQuery/query_20171101_20181101_unlimited.sql) for proper date range. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query on [BigQuery console](https://bigquery.cloud.google.com/queries/) or use `./BigQuery/query_20171101_20181101_unlimited.sh`.
+#Run the query on [BigQuery console](https://bigquery.cloud.google.com/queries/) or use `./BigQuery/query_20171101_20181101_unlimited.sh`.
 
-Copy the results to a file like `data/unlimited_output_20171101_20181101.csv`. To do this, first Save as Table, then select the table in your google dataset. Next, export it as csv to gs://[BUCKET_NAME]/[FILENAME.CSV], where [BUCKET_NAME] is your Cloud Storage bucket name, and [FILENAME.CSV] is the name of your destination file. Then find the file in https://console.cloud.google.com/storage/browser/ and download it (file size is about 70MB). 
+#Copy the results to a file like `data/unlimited_output_20171101_20181101.csv`. To do this, first Save as Table, then select the table in your google dataset. Next, export it as csv to gs://[BUCKET_NAME]/[FILENAME.CSV], where [BUCKET_NAME] is your Cloud Storage bucket name, and [FILENAME.CSV] is the name of your destination file. Then find the file in https://console.cloud.google.com/storage/browser/ and download it (file size is about 70MB). 
+
+Update BigQuery [query file](BigQuery/velocity_top30.sql). If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
+
+Run the query for a year, for example: `./run_bq.sh top30 2018-04-01 2019-04-01`. It takes about 1+TB and costs about $5+.
+
+It will generate a file for example: `data/data_top30_projects_20180401_20190401.csv`.
 
 Run `analysis.rb` with
 ```
 ruby analysis.rb data/unlimited_output_201611_201710.csv projects/top30_201611_201710.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/14P8bML_jqutv1zzYy588rLSX-GjLy0Cc5aSCBY05CGE/)
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1. <br />
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
@@ -383,7 +388,7 @@ Authors:      335
 - Select the cell A50. Use File --> Import, then "Upload" tab, "Select a file from your computer", choose `./projects/unlimited.csv`
 - Then "Import action" --> "replace data starting at selected call", click Import.
 - Switch to the Chart tab and see the data.
-Final version could live here: https://docs.google.com/spreadsheets/d/1a2VdKfAI1g9ZyWL09TnJ-snOpi4BC9kaEVmB7IufY7g/edit?usp=sharing
+Final version live [here](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).
 
 ### Results:
 
