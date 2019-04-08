@@ -9,22 +9,20 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./cncf_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1jcpWHVj59dzkPBusRpyA65DBoqPll-OkJ0jJ19D6s1A/edit#gid=0) or as a stand-alone [html page](../charts/CNCF_bubble_chart_full_with_2016K8s.html). Details on usage of google chart api are [here](https://developers.google.com/chart/interactive/docs/gallery/bubblechart). The first option is a copy/paste of resulting data whereas the second presents more control to the look of the chart. Refer to the [Bubble Chart Generator](other_notes.md#bubble-chart-generator) for automatic html creation.
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1jcpWHVj59dzkPBusRpyA65DBoqPll-OkJ0jJ19D6s1A/edit#gid=0).
 
 ### Chart data
 Go to this [CNCF page](https://www.cncf.io/projects/) to find a list of current projects.
 
-For every project, find a github repo and add it to a query such as [this one](BigQuery/query_cncf_projects_20180401_20190401.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
+For every project, find a github repo and add it to a [query](BigQuery/velocity_cncf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query on [Big Query](https://bigquery.cloud.google.com/queries/) in the website's console. It takes about 900GB and costs about $4.50
+Run the query for a year, for example: `./run_cncf_bq.sh 2018-04-01 2019-04-01`. It takes about 900GB and costs about $4.50.
 
-Copy the results to a file like `data/data_cncf_projects_20180401_20190401.csv`.
+It will generate a file for example: `data/data_cncf_projects_20180401_20190401.csv`.
 
-You can also use command-line BQ: `./BigQuery/cncf_small.sh`.
-
-Run `analysis.rb` with
+Run `analysis.rb` with:
 ```
-ruby analysis.rb data/data_cncf_projects_20170801_20180801.csv projects/projects_cncf_20170801_20180801.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+ruby analysis.rb data/data_cncf_projects_20180401_20190401.csv projects/projects_cncf_20180401_20190401.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 or use `shells/run_cncf.sh` which does the same, just make sure the file names are ok in the script.
 

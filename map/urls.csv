@@ -152,6 +152,7 @@ FBI Crime Data Explorer,github.com/18F/crime-data-explorer
 FD.io,fd.io
 FOSSology,www.fossology.org
 Falco,falco.org
+Dragonfly,d7y.io/en-us
 Federalist,federalist.18f.gov
 Finagle,twitter.github.io/finagle
 Finatra,twitter.github.io/finatra
@@ -200,6 +201,10 @@ Government Digital Service,gds.blog.gov.uk
 Grumpy,github.com/google/grumpy
 Guava,github.com/google/guava
 HTTPS Everywhere,eff.org/https-everywhere
+Virtual Kubelet,virtual-kubelet.io
+KubeEdge,kubeedge.io
+CDF,cd.foundation
+Brigade,brigade.sh
 Hackage,stackage.org
 Halite,halite.io
 Harbor,vmware.github.io/harbor
@@ -217,7 +222,7 @@ IO Visor,www.iovisor.org
 Inferno,infernojs.org
 InfluxDB,influxdata.com
 InfluxData,influxdata.com
-Intel Graphics Compute Runtime,https://01.org/compute-runtime
+Intel Graphics Compute Runtime,01.org/compute-runtime
 Intel HWC2,github.com/intel/IA-Hardware-Composer
 Intel Iot,github.com/intel/intel-iot-refkit
 Intel Media Driver,github.com/intel/media-driver
@@ -576,7 +581,7 @@ vgstation13,github.com/vgstation-coders/vgstation13
 vuejs,vuejs.org
 webpack,github.com/webpack
 worldofbalance,github.com/worldofbalance
-xen,https://www.xenproject.org
+xen,www.xenproject.org
 yarn,yarnpkg.com
 zurb,zurb.com
 Основной репозиторий,igov.org.ua

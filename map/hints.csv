@@ -603,6 +603,8 @@ dotnet/eShopOnContainers,Microsoft eShopOnContainers
 dotnet/orleans,Microsoft Orleans
 dotnet/roslyn,VS Code
 dotnet/roslyn-project-system,VS Code
+alibaba/Dragonfly,Dragonfly
+Azure/brigade,Brigade
 draios/falco,Falco
 duckduckgo/zeroclickinfo-fathead,DuckDuckHack
 duckduckgo/zeroclickinfo-goodies,DuckDuckHack
