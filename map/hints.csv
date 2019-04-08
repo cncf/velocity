@@ -332,7 +332,6 @@ airbnb/react-dates,React
 airbnb/react-native-maps,React
 airbnb/superset,Superset
 alibaba/Dragonfly,Dragonfly
-knative/build,Tekton
 angular-fullstack/generator-angular-fullstack,Angular
 angular-ui/bootstrap,Angular
 angular-ui/ng-grid,Angular
@@ -743,6 +742,7 @@ jaegertracing/jaeger-kubernetes,Jaeger
 jaegertracing/jaeger-openshift,Jaeger
 jaegertracing/test-repo-move,Jaeger
 joeythesaint/cgl-specification,Carrier Grade Linux
+knative/build,Tekton
 kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes

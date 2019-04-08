@@ -40,8 +40,6 @@ Open Container Initiative,OCI
 Open Mainframe Project,Open Mainframe
 OpenObservability,OpenMetrics
 OpenStack-mobile,OpenStack Mobile
-spinnaker,Spinnaker
-tektoncd,Tekton
 OpenStackCookbook,OpenStack Cookbook
 OpenStackweb,OpenStack Web
 ParsePlatform,Parse
@@ -53,18 +51,6 @@ TheOdinProject,The Odin Project
 Virtual-Kubelet,Virtual Kubelet
 Yoast,Yoast SEO
 Zephyr Project,Zephyr
-zephyrproject-rtos,Zephyr
-jenkinsci,Jenkins
-jenkins-x,Jenkins X
-iovisor,IO Visor
-mininet,Mininet
-opennetworkinglab,Open Networking Laboratory
-opensecuritycontroller,Open Security Vontroller
-openswitch,OpenSwitch
-p4lang,P4 Language
-openbmp,OpenBMP
-tungstenfabric,Tungsten Fabric
-opencord,CORD
 acemod,ACE Mod
 akka,Akka
 alibaba,Alibaba
@@ -156,8 +142,11 @@ home-assistant,Home Assistant
 hyperledger,Hyperledger
 influxdata,InfluxData
 influxdb,InfluxDB
+iovisor,IO Visor
 iron-io,Iron.io
 jaegertracing,Jaeger
+jenkins-x,Jenkins X
+jenkinsci,Jenkins
 joomla,Joomla
 jsdelivr,jsDelivr
 kata-containers,Kata Containers
@@ -196,6 +185,7 @@ melpa,MELPA
 mesos,Apache Mesos
 mesosphere,Apache Mesos
 meteor,Meteor
+mininet,Mininet
 mitodl,MIT Office of Digital Learning
 mozilla,Mozilla
 mozilla-services,Mozilla Services
@@ -205,12 +195,17 @@ nextcloud,Nextcloud
 nodejs,Node.js
 nylas,Nylas
 odoo,Odoo
+odpi,ODPi
 open-policy-agent,OPA
+openbmp,OpenBMP
 opencontainers,OCI
+opencord,CORD
 openeventing,CloudEvents
 openhab,openHAB
 openmainframeproject,Open Mainframe
+opennetworkinglab,Open Networking Laboratory
 opensds,OpenSDS
+opensecuritycontroller,Open Security Controller
 openshift,OpenShift
 openssl,OpenSSL
 openstack-ansible,OpenStack Ansible
@@ -222,10 +217,12 @@ openstack-kr,OpenStack Korean
 openstack-packages,OpenStack Packages
 openstack-snaps,OpenStack Snaps
 openstacknetsdk,OpenStack Net SDK
+openswitch,OpenSwitch
 opentracing,OpenTracing
 openwrt,OpenWrt
 osmandapp,Osmand
 owncloud,ownCloud
+p4lang,P4 Language
 pingcap,PingCAP
 pivotal-cf,Pivotal Cloud Foundry
 prometheus,Prometheus
@@ -243,10 +240,12 @@ serverless,Serverless Framework
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
 spiffe,Spiffe
+spinnaker,Spinnaker
 spotify,Spotify
 spree,Spree
 swagger-api,Swagger
 symfony,Symfony
+tektoncd,Tekton
 telepresenceio,Telepresence
 telerik,Telerik
 terraform-providers,Terraform
@@ -254,6 +253,7 @@ tgstation,SS13
 thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV
+tungstenfabric,Tungsten Fabric
 twitter,Twitter
 uber,Uber Open Source
 vgstation-coders,vgstation13
@@ -273,6 +273,7 @@ yarnpkg,yarn
 yogstation13,Yogstation13
 zalando,Zalando
 zendframework,Zend Framework
+zephyrproject-rtos,Zephyr
 # cloudfoundry,Cloud Foundry
 # cloudfoundry-attic,Cloud Foundry Attic
 # cloudfoundry-community,Cloud Foundry Community

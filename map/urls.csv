@@ -202,15 +202,6 @@ Google i18n,developers.google.com/international
 Google seq2seq,google.github.io/seq2seq
 Government Digital Service,gds.blog.gov.uk
 Grumpy,github.com/google/grumpy
-Spinnaker,www.spinnaker.io
-Tekton,tekton.dev
-Jenkins,jenkins.io
-Jenkins X,jenkins-x.io
-Mininet,mininet.org
-Open Networking Laboratory,opennetworking.org
-P4 Language,github.com/p4lang
-OpenBMP,gitter.im/openbmp
-Tungsten Fabric,tungsten.io
 Guava,github.com/google/guava
 HTTPS Everywhere,eff.org/https-everywhere
 Hackage,stackage.org
@@ -242,6 +233,8 @@ Iron.io,iron.io
 JS Foundation,js.foundation
 Jaeger,jaeger.readthedocs.io/en/latest
 JanusGraph,janusgraph.org
+Jenkins,jenkins.io
+Jenkins X,jenkins-x.io
 Joomla,joomla.org
 Julia,julialang.org
 Kata Containers,katacontainers.io
@@ -310,6 +303,7 @@ Microsoft Virtualization,github.com/Microsoft/Virtualization-Documentation
 Microsoft docs,docs.microsoft.com
 Microsoft eShopOnContainers,github.com/dotnet-architecture/eShopOnContainers
 MicrosoftDocs,docs.microsoft.com
+Mininet,mininet.org
 Mozilla,mozilla.org
 Mozilla Copyright,changecopyright.org
 Mozilla InvestiGator,mig.mozilla.org
@@ -329,7 +323,7 @@ Notary,github.com/theupdateframework/notary
 Nunjucks,mozilla.github.io/nunjucks
 Nylas,nylas.com
 OCI,www.opencontainers.org
-ODPi,www.odpi.org
+ODPi,odpi.org
 ONOS,onosproject.org
 OPA,openpolicyagent.org
 OPAM,opam.ocaml.org
@@ -341,10 +335,12 @@ Open Build Service,openbuildservice.org
 Open Mainframe,www.openmainframeproject.org
 Open Management Infrastructure,github.com/Microsoft/omi
 Open Network Automation Platform,www.onap.org
+Open Networking Laboratory,opennetworking.org
 Open Security Controller,www.opensecuritycontroller.org
 Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
 Open vSwitch,openvswitch.org
+OpenBMP,gitter.im/openbmp
 OpenDaylight,www.opendaylight.org
 OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
@@ -390,6 +386,7 @@ OpenWrt,openwrt.org
 Openstack Tools,openstack.org
 Operations Research Tools,developers.google.com/optimization
 Osmand,osmand.net
+P4 Language,github.com/p4lang
 PACO,pacoapp.com
 PDF.js,github.com/mozilla/pdf.js
 PNDA,pnda.io
@@ -454,6 +451,7 @@ Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spiffe,spiffe.io
+Spinnaker,www.spinnaker.io
 Spire,spiffe.io
 Spontanizer,spartan.org.il
 Spotify,spotify.github.io
@@ -467,6 +465,7 @@ TSLint,palantir.github.io/tslint
 TUF,github.com/theupdateframework.com
 Team Kodi,kodi.tv
 TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
+Tekton,tekton.dev
 Telepresence,telepresence.io
 Telerik,telerik.com
 TensorFlow,tensorflow.org
@@ -486,6 +485,7 @@ Tizen,www.tizen.org
 Toxiproxy,toxiproxy.io
 Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
+Tungsten Fabric,tungsten.io
 Twitter,twitter.com
 TypeScript,typescriptlang.org
 US Extractive Industries Data,useiti.doi.gov

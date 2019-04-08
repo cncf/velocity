@@ -81,7 +81,7 @@ Processed 7152 csets from 365 developers
 
 Run `analysis.rb` with
 ```
-ruby analysis.rb data/data_lf_projects_20171101_20181101.csv projects/projects_lf_20171101_20181101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+ruby analysis.rb data/data_lf_projects_20180401_20190401.csv projects/projects_lf_20180401_20190401.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/16LBeKR0HQU-5m8pwHvYCPiyo3KiU8VWbwXFCaYk9q48/edit?usp=sharing).
