@@ -25,12 +25,6 @@ To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets
 
 
 #### In detail
-#Verify [this query](BigQuery/query_20171101_20181101_unlimited.sql) for proper date range. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
-
-#Run the query on [BigQuery console](https://bigquery.cloud.google.com/queries/) or use `./BigQuery/query_20171101_20181101_unlimited.sh`.
-
-#Copy the results to a file like `data/unlimited_output_20171101_20181101.csv`. To do this, first Save as Table, then select the table in your google dataset. Next, export it as csv to gs://[BUCKET_NAME]/[FILENAME.CSV], where [BUCKET_NAME] is your Cloud Storage bucket name, and [FILENAME.CSV] is the name of your destination file. Then find the file in https://console.cloud.google.com/storage/browser/ and download it (file size is about 70MB). 
-
 Update BigQuery [query file](BigQuery/velocity_top30.sql). If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
 Run the query for a year, for example: `./run_bq.sh top30 2018-04-01 2019-04-01`. It takes about 1+TB and costs about $5+.
@@ -39,7 +33,7 @@ It will generate a file for example: `data/data_top30_projects_20180401_20190401
 
 Run `analysis.rb` with
 ```
-ruby analysis.rb data/unlimited_output_201611_201710.csv projects/top30_201611_201710.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
+ruby analysis.rb data/data_top30_projects_20180401_20190401.csv projects/projects_top30_20180401_20190401.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).

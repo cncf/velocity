@@ -56,3 +56,4 @@ unlimited.csv
 *.log
 
 /data/unlimited*.csv
+/data/data_top30_*.csv
