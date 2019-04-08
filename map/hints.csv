@@ -605,6 +605,7 @@ dotnet/roslyn,VS Code
 dotnet/roslyn-project-system,VS Code
 alibaba/Dragonfly,Dragonfly
 Azure/brigade,Brigade
+kubernetes-sigs/cri-o,CRI-O
 draios/falco,Falco
 duckduckgo/zeroclickinfo-fathead,DuckDuckHack
 duckduckgo/zeroclickinfo-goodies,DuckDuckHack

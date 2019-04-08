@@ -202,6 +202,7 @@ Grumpy,github.com/google/grumpy
 Guava,github.com/google/guava
 HTTPS Everywhere,eff.org/https-everywhere
 Virtual Kubelet,virtual-kubelet.io
+CRI-O,cri-o.io
 KubeEdge,kubeedge.io
 CDF,cd.foundation
 Brigade,brigade.sh
