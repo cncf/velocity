@@ -9,16 +9,16 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./cncf_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1JzefTCtG0HsLYdvZ5j49wZ5B6Yt2S2l_t76H1Xpod2I) or as a stand-alone [html page](../charts/CNCF_bubble_chart_full_with_2016K8s.html). Details on usage of google chart api are [here](https://developers.google.com/chart/interactive/docs/gallery/bubblechart). The first option is a copy/paste of resulting data whereas the second presents more control to the look of the chart. Refer to the [Bubble Chart Generator](other_notes.md#bubble-chart-generator) for automatic html creation.
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1jcpWHVj59dzkPBusRpyA65DBoqPll-OkJ0jJ19D6s1A/edit#gid=0) or as a stand-alone [html page](../charts/CNCF_bubble_chart_full_with_2016K8s.html). Details on usage of google chart api are [here](https://developers.google.com/chart/interactive/docs/gallery/bubblechart). The first option is a copy/paste of resulting data whereas the second presents more control to the look of the chart. Refer to the [Bubble Chart Generator](other_notes.md#bubble-chart-generator) for automatic html creation.
 
 ### Chart data
 Go to this [CNCF page](https://www.cncf.io/projects/) to find a list of current projects.
 
-For every project, find a github repo and add it to a query such as [this one](BigQuery/query_cncf_projects_20170801_20180801.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
+For every project, find a github repo and add it to a query such as [this one](BigQuery/query_cncf_projects_20180401_20190401.sql) appropriately - either as an org or a single repo. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually. Update the time range.
 
-Run the query on https://bigquery.cloud.google.com/queries/ in the website's console. It takes about 900GB and costs about $4.50
+Run the query on [Big Query](https://bigquery.cloud.google.com/queries/) in the website's console. It takes about 900GB and costs about $4.50
 
-Copy the results to a file like `data/data_cncf_projects_201611_201710.csv`.
+Copy the results to a file like `data/data_cncf_projects_20180401_20190401.csv`.
 
 You can also use command-line BQ: `./BigQuery/cncf_small.sh`.
 
