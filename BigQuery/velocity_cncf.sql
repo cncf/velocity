@@ -21,7 +21,7 @@ select
   SUM(IF(type = 'IssuesEvent', 1, 0)) as issues,
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.email'), '"', ''), '(null)') as author_email,
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name,
-  JSON_EXTRACT(payload, '$.commits[0].sha') as sha,
+  JSON_EXTRACT(payload, '$.commits[0].sha') as sha
 from
   (select * from
     TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('{{dtfrom}}'),TIMESTAMP('{{dtto}}'))
@@ -80,7 +80,7 @@ where
       )
     )
   )
-group by org, repo, author_email, author_name
+group by org, repo, author_email, author_name, sha
 )
 group by org, repo
 order by
