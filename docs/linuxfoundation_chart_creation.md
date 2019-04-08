@@ -9,8 +9,7 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./linuxfoundation_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1oMiQySj7Nd9Q6Qm5RGT2WED8Rlhc8sTRR7p13IO6Lac/edit?usp=sharing).
-or as a stand-alone [html page](../charts/LF_bubble_chart.html). Details on usage of google chart api are [here](https://developers.google.com/chart/interactive/docs/gallery/bubblechart). The first option is a copy/paste of resulting data whereas the second presents more control to the look of the chart. Refer to the [Bubble Chart Generator](other_notes.md#bubble-chart-generator) for automatic html creation.
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/16LBeKR0HQU-5m8pwHvYCPiyo3KiU8VWbwXFCaYk9q48/edit?usp=sharing).
 
 ### Chart data
 Go to this [CNCF page](https://www.linuxfoundation.org/projects/) to find a list of current projects.
@@ -86,7 +85,7 @@ Run `analysis.rb` with
 ruby analysis.rb data/data_lf_projects_20171101_20181101.csv projects/projects_lf_20171101_20181101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1_DIvQpaPRecRONWeTh5pp3WOgbGcsY4JOPMBisizJqg/)
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/16LBeKR0HQU-5m8pwHvYCPiyo3KiU8VWbwXFCaYk9q48/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A66. <br />
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
