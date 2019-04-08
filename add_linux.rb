@@ -59,7 +59,7 @@ def add_linux(fout, fdata, rfrom, rto)
   linux_row = {
     'org' => 'torvalds',
     'repo' => 'torvalds/linux',
-    'activity' => linux['changesets'] + linux['emails'],
+    'activity' => linux['commits'] + linux['emails'],
     'comments' => linux['emails'],
     'prs' => linux['emails'] / 4,
     'commits' => linux['commits'],
