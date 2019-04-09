@@ -28,7 +28,7 @@ def add_external(fout, fdata, rfrom, rto, eorg, erepo)
   external['authors_alt2'] = external['authors'].split(',').uniq.count
 
   # fout
-  ks = %w(org repo activity comments prs commits issues authors_alt2 authors_alt1 authors)
+  ks = %w(org repo activity comments prs commits issues authors_alt2 authors_alt1 authors pushes)
   checked = false
   rows = []
   CSV.foreach(fout, headers: true) do |row|
@@ -65,7 +65,8 @@ def add_external(fout, fdata, rfrom, rto, eorg, erepo)
     'issues' => external['issues'],
     'authors_alt2' => external['authors_alt2'],
     'authors_alt1' => external['authors_alt1'],
-    'authors' => external['authors']
+    'authors' => external['authors'],
+    'pushes' => external['commits']
   }
 
   CSV.open(fout, "w", headers: ks) do |csv|
