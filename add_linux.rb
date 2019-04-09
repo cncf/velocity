@@ -30,7 +30,7 @@ def add_linux(fout, fdata, rfrom, rto)
   linux['authors_alt2'] = linux['authors'].split(',').uniq.count
 
   # fout
-  ks = %w(org repo activity comments prs commits issues authors_alt2 authors_alt1 authors)
+  ks = %w(org repo activity comments prs commits issues authors_alt2 authors_alt1 authors pushes)
   checked = false
   rows = []
   CSV.foreach(fout, headers: true) do |row|
