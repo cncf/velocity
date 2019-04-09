@@ -130,8 +130,8 @@ Run this from the velocity project's root folder again:
 
 ### Gitlab
 
-- GitLab case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce/`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory. If already exists, update with `cd gitlab-ce`, `git pull`
-- Their repo hosted by GitHub is: `https://github.com/gitlabhq/gitlabhq`, clone it via `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory. If already exists, update with `cd gitlab-ce`, `git pull`. This repo seems not to be used much so we will skip it.
+- GitLab case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory. If already exists, update with `cd gitlab-ce`, `git pull`
+- Their repo hosted by GitHub is: `https://github.com/gitlabhq/gitlabhq`, clone it via `git clone https://github.com/gitlabhq/gitlabhq.git` in `~/dev/` directory. If already exists, update with `cd gitlabhq`, `git pull`. This repo seems not to be used much so we will skip it.
 - Go to `cncf/gitdm` and run GitLab repo analysis: `./repo_in_range.sh ~/dev/gitlab-ce/ gitlab 2016-06-01 2017-06-01`
 - Results are output to `other_repos/gitlab_2016-06-01_2017-06-01.txt`:
 ```
@@ -139,6 +139,7 @@ Processed 16574 csets from 513 developers
 15 employers found
 A total of 926818 lines added, 548205 removed (delta 378613)
 ```
+- Update `data/data_gitlab.csv` - csets = commits, developers = authors
 - Their bug tracker is `https://gitlab.com/gitlab-org/gitlab-ce/issues`, just count issues in the given date range. Sort by "Last created" and count issues in given range:
 There are 732 pages of issues (20 per page) = 14640 issues (`https://gitlab.com/gitlab-org/gitlab-ce/issues?page=732&scope=all&sort=created_desc&state=all`)
 - To count Merge Requests (PRs): `https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?page=14&scope=all&sort=created_date&state=all`
