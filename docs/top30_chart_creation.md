@@ -144,9 +144,9 @@ A total of 926818 lines added, 548205 removed (delta 378613)
 There are 732 pages of issues (20 per page) = 14640 issues (`https://gitlab.com/gitlab-org/gitlab-ce/issues?page=732&scope=all&sort=created_desc&state=all`)
 - To count Merge Requests (PRs): `https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?page=14&scope=all&sort=created_date&state=all`
 Merge Requests: 371,5 pages * 20 = 7430
-- You can use `./gitlab_issues_and_mrs.sh 'YYYY-MM-DD HH:MM:SS' 'YYYY-MM-DD HH:MM:SS'` to count issues and merge requests too.
+- You can use `./gitlab_issues_and_mrs.sh 'YYYY-MM-DD HH:MM:SS' 'YYYY-MM-DD HH:MM:SS'` to count issues and merge requests too (it is terribly slow).
 - To count authors run in gitlab-ce directory: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 575
-- To count authors run in gitlab-ce directory: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 589
+- To count commits: `git log --since "2018-04-01" --until "2019-04-01" --pretty=format:"%H" | sort | uniq | wc -l` (this will return all possible distinct SHA values, maybe some need to be skipped).
 - Now, that we have the data, it needs to be added to `data/data_gitlab.csv` with a matching date range
 
 ### CloudFoundry
