@@ -27,6 +27,8 @@ echo "Adding/Updating FreeBSD Projects"
 ruby merger.rb data/unlimited.csv data/freebsd_20180401_20190401.csv || exit 1
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv || exit 1
+echo "Updating CNCF projects data"
+ruby update_projects.rb projects/unlimited_both.csv data/data_cncf_update_2018-04-01_2019-04-01.csv -1 || exit 1
 echo "Updating OpenStack projects using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_20180401_20190401.csv -1 || exit 1
 echo "Updating Apache Projects using Jira data"
