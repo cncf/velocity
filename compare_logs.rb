@@ -2,13 +2,14 @@
 
 require 'pry'
 
+# First file should be git.log and second devstats.log
 git = {}
-File.readlines('git.log').each do |line|
+File.readlines(ARGV[0]).each do |line|
   git[line.strip] = true
 end
 
 devstats = {}
-File.readlines('devstats.log').each do |line|
+File.readlines(ARGV[1]).each do |line|
   devstats[line.strip] = true
 end
 

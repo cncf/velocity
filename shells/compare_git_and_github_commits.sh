@@ -1,4 +1,5 @@
 #!/bin/bash
+# TODO: the differences are mostly because many sub-commits are created with their actuall commit date which can be outside the same range for git reporting merge commits
 if [ -z "$PG_PASS" ]
 then
   echo "$0: you need to set PG_PASS=..."
@@ -54,4 +55,4 @@ cd "${cwd}"
 cat "${log}" | sort | uniq > out && mv out "${log}"
 commits=`db.sh psql "${1}" -tAc "select distinct sha from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}' order by sha"`
 echo "$commits" > devstats.log
-./compare_logs.rb
+./compare_logs.rb git.log devstats.log
