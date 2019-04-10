@@ -20,6 +20,9 @@ Run the query for a year, for example: `./run_bq.sh cncf 2018-04-01 2019-04-01`.
 
 It will generate a file for example: `data/data_cncf_projects_20180401_20190401.csv`.
 
+- You can optionally compare commits counts from BigQuery to git commits counts via: `PG_PASS=... ./shells/get_git_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
+- You can optionally compare commits counts from BigQuery to DevStats commits counts via: `PG_PASS=... ./shells/get_devstats_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
+
 Run `analysis.rb` with:
 ```
 ruby analysis.rb data/data_cncf_projects_20180401_20190401.csv projects/projects_cncf_20180401_20190401.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv

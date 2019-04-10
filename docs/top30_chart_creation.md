@@ -147,6 +147,7 @@ Merge Requests: 371,5 pages * 20 = 7430
 - You can use `./gitlab_issues_and_mrs.sh 'YYYY-MM-DD HH:MM:SS' 'YYYY-MM-DD HH:MM:SS'` to count issues and merge requests too (it is terribly slow).
 - To count authors run in gitlab-ce directory: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 575
 - To count commits: `git log --since "2018-04-01" --until "2019-04-01" --pretty=format:"%H" | sort | uniq | wc -l` (this will return all possible distinct SHA values, maybe some need to be skipped).
+- Comments would be 2 * commits, activity = sum of all others (comments, commits, issues, prs)
 - Now, that we have the data, it needs to be added to `data/data_gitlab.csv` with a matching date range
 
 ### CloudFoundry
