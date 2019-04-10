@@ -1,4 +1,5 @@
 #!/bin/bash
+# REPOS=... - manually specify repos
 if [ -z "$PG_PASS" ]
 then
   echo "$0: you need to set PG_PASS=..."
@@ -19,7 +20,12 @@ then
   echo "$0: you need to provide 3rd date-to in YYYY-MM-DD format"
   exit 4
 fi
-repos=`db.sh psql "${1}" -tAc "select distinct name from gha_repos"`
+if [ -z "$REPOS" ]
+then
+  repos=`db.sh psql "${1}" -tAc "select distinct name from gha_repos"`
+else
+  repos="${REPOS}"
+fi
 cwd=`pwd`
 log="${cwd}/git.log"
 > "${log}"
@@ -31,7 +37,7 @@ do
     continue
   fi
   cd "${HOME}/devstats_repos/$repo" 2>/dev/null || echo "no $repo repo"
-  git log --pretty=format:"%H" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
+  git log --all --pretty=format:"%H" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
   if [ ! "$?" = "0" ]
   then
     echo "problems getting $repo git log"

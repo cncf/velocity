@@ -17,5 +17,5 @@ To count PRs: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?scope=all&s
 Merge Requests: 371,5 page = 7430
 
 To count authors run in gitlab-ce directory:
-git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l --> 575
-git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l --> 589
+git log --all --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l --> 575
+git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l --> 589

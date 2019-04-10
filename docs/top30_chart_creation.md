@@ -145,8 +145,8 @@ There are 732 pages of issues (20 per page) = 14640 issues (`https://gitlab.com/
 - To count Merge Requests (PRs): `https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?page=14&scope=all&sort=created_date&state=all`
 Merge Requests: 371,5 pages * 20 = 7430
 - You can use `./gitlab_issues_and_mrs.sh 'YYYY-MM-DD HH:MM:SS' 'YYYY-MM-DD HH:MM:SS'` to count issues and merge requests too (it is terribly slow).
-- To count authors run in gitlab-ce directory: `git log --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 575
-- To count commits: `git log --since "2018-04-01" --until "2019-04-01" --pretty=format:"%H" | sort | uniq | wc -l` (this will return all possible distinct SHA values, maybe some need to be skipped).
+- To count authors run in gitlab-ce directory: `git log --all --since "2016-06-01" --until "2017-06-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 575
+- To count commits: `git log --all --since "2018-04-01" --until "2019-04-01" --pretty=format:"%H" | sort | uniq | wc -l` (this will return all possible distinct SHA values, maybe some need to be skipped).
 - Comments would be 2 * commits, activity = sum of all others (comments, commits, issues, prs)
 - Now, that we have the data, it needs to be added to `data/data_gitlab.csv` with a matching date range
 
@@ -183,11 +183,11 @@ See how many days makes 10k, and estimate for 365 days (1 year): gives 22k bugs/
 `cd ~dev/ && git clone git://git.webkit.org/WebKit.git WebKit`. If already exists, do `git pull`
 - Some git one liner stats:
 All authors & commits:
-`git log --pretty=format:"%aE" | sort | uniq | wc -l` --> 648
-`git log --pretty=format:"%H" | sort | uniq | wc -l` --> 189693
+`git log --all --pretty=format:"%aE" | sort | uniq | wc -l` --> 648
+`git log --all --pretty=format:"%H" | sort | uniq | wc -l` --> 189693
 And for our date period:
-`git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 125 authors
-`git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l` --> 13348 commits
+`git log --all --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l` --> 125 authors
+`git log --all --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l` --> 13348 commits
 - Now use cncf/gitdm to analyse commits, authors: from `cncf/gitdm` directory run: `./repo_in_range.sh ~/dev/WebKit/ WebKit 2016-06-01 2017-06-01`
 - See output: `vim other_repos/WebKit_2016-06-01_2017-06-01.txt`:
 ```
@@ -264,11 +264,11 @@ So there are 429 chromedriver issues and the total is: 429 + 72815 = 73244
 - Now chromium commits analysis which is quite complex
 - Their sources (all projects) are here: https://chromium.googlesource.com
 - Clone `chromium/src` in `~/dev/src/`: `git clone https://chromium.googlesource.com/chromium/src`. If repo previously cloned, do `cd src/`, `git pull`
-- Authors: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1697
-- Commits: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 79144 (but this is only FYI, this is way too many, there are bot commits here)
+- Authors: `git log --all --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1697
+- Commits: `git log --all --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 79144 (but this is only FYI, this is way too many, there are bot commits here)
 To analyze those commits (also exclude merge and robot commits):
 Run while in chromium/src repository:
-`git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits_20171101_20181101.csv`
+`git log --all --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits_20171101_20181101.csv`
 Open the file in vi
 Remove special CSV characters with VI commands: `:%s/"//g`, `:%s/,//g`
 Replace '~~~~' with ',' to create correct CSV: `:%s/\~\~\~\~/,/g`
@@ -321,8 +321,8 @@ Processed 7152 csets from 365 developers
 - Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_201606_201705.csv` and we will update the `data/data_libreoffice_git_201606_201705.csv` file
 - Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`. If repo already cloned, do `cd core`, `git pull`
 - Analyse this repo as described in: `res/libreoffice_git_repo.txt`, to see that it generates lower number than those from BigQuery output (so we can skip this step)
-- Commits: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l`
-- Authors: `git log --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l`
+- Commits: `git log --all --since "2017-11-01" --until "2018-11-01" --pretty=format:"%H" | sort | uniq | wc -l`
+- Authors: `git log --all --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l`
 - Put results in: `data/data_libreoffice_git_201606_201705.csv` (authors, commits), values will probably be skipped by the updater tool (they are lower than current values gathered so far)
 - Issues (old approach):
 Issue listing is here: https://bugs.freedesktop.org/buglist.cgi?product=LibreOffice&query_format=specific&order=bug_id&limit=0

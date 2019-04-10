@@ -22,11 +22,11 @@ Some details about adding external data from non-GitHub projects:
 
 - Case with Chromium: (details here: `res/data_chromium_bugtracker.txt`), issues from their bugtracker, number of authors and commits in date range via `git log` one-liner:
 Must be called in Git repo cloned from GoogleSource (not from github): `git clone https://chromium.googlesource.com/chromium/src`
-Commits: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 77437
-Authors: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1663
+Commits: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l` gives 77437
+Authors: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l` gives 1663
 To analyze those commits (such as to exclude merge and robot commits):
 data/data_chromium_commits.csv, run while in chromium/src repository:
-`git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits.csv`
+`git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits.csv`
 Then remove special csv characters with VI commands: `:%s/"//g`, `:%s/,//g`
 Then add a csv header row manually "email,name,hash,subject" and move it to: `data/data_chromium_commits.csv`
 Finally replace '~~~~' with ',' to create correct csv: `:%s/\~\~\~\~/,/g`
@@ -37,9 +37,9 @@ Then run `ruby commits_analysis.rb data/data_chromium_commits.csv map/skip_commi
 
 - Case with WebKit: `res/data_webkit_links.txt` issues from their bug tracker: `https://webkit.org/reporting-bugs/`
 For authors and commits, 3 different tools were tried: our cncf/gitdm on their webkit/WebKit github repo, git one-liner on the same repo (`git clone git://git.webkit.org/WebKit.git WebKit`):
-Authors: 121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
-Authors: 121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
-Commits: 13051: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
+Authors: 121: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
+Authors: 121: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
+Commits: 13051: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
 Our cncf/gitdm output files are also stored here: `res/webkit/`: WebKit_2016-05-01_2017-05-01.csv  WebKit_2016-05-01_2017-05-01.txt
 
 Also tried SVN one liner on their original SVN repo (due to the fact that its Github repo is only a mirror): 

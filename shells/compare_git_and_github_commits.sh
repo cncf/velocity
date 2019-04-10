@@ -1,5 +1,6 @@
 #!/bin/bash
-# TODO: the differences are mostly because many sub-commits are created with their actuall commit date which can be outside the same range for git reporting merge commits
+# REPOS=... - manually specify repos
+# TODO: the differences are mostly because many sub-commits are created with their actual commit date which can be outside the same range for git reporting merge commits
 if [ -z "$PG_PASS" ]
 then
   echo "$0: you need to set PG_PASS=..."
@@ -20,7 +21,12 @@ then
   echo "$0: you need to provide 3rd date-to in YYYY-MM-DD format"
   exit 4
 fi
-repos=`db.sh psql "${1}" -tAc "select distinct name from gha_repos"`
+if [ -z "$REPOS" ]
+then
+  repos=`db.sh psql "${1}" -tAc "select distinct name from gha_repos"`
+else
+  repos="${REPOS//[,\']/}"
+fi
 cwd=`pwd`
 log="${cwd}/git.log"
 > "${log}"
@@ -32,7 +38,7 @@ do
     continue
   fi
   cd "${HOME}/devstats_repos/$repo" 2>/dev/null || echo "no $repo repo"
-  git log --pretty=format:"%H" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
+  git log --all --pretty=format:"%H" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
   if [ ! "$?" = "0" ]
   then
     echo "problems getting $repo git log"
@@ -44,7 +50,12 @@ sed -i '/^$/d' "${log}"
 ls -l "${log}"
 commitsG=`cat "${log}" | sort | uniq | wc -l`
 echo "git: ${1}: ${2} - ${3}: ${commitsG} commits"
-commitsD=`db.sh psql "${1}" -tAc "select count(distinct sha) from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}'"`
+if [ -z "$REPOS" ]
+then
+  commitsD=`db.sh psql "${1}" -tAc "select count(distinct sha) from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}'"`
+else
+  commitsD=`db.sh psql "${1}" -tAc "select count(distinct sha) from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}' and dup_repo_name in (${REPOS})"`
+fi
 echo "devstats: ${1}: ${2} - ${3}: ${commitsD} commits"
 if [ "$commitsG" = "$commitsD" ]
 then
@@ -53,6 +64,11 @@ then
 fi
 cd "${cwd}"
 cat "${log}" | sort | uniq > out && mv out "${log}"
-commits=`db.sh psql "${1}" -tAc "select distinct sha from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}' order by sha"`
+if [ -z "$REPOS" ]
+then
+  commits=`db.sh psql "${1}" -tAc "select distinct sha from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}' order by sha"`
+else
+  commits=`db.sh psql "${1}" -tAc "select distinct sha from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}'  and dup_repo_name in (${REPOS}) order by sha"`
+fi
 echo "$commits" > devstats.log
 ./compare_logs.rb git.log devstats.log

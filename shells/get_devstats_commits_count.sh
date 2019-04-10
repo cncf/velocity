@@ -1,4 +1,5 @@
 #!/bin/bash
+# REPOS=... - manually specify repos
 if [ -z "$PG_PASS" ]
 then
   echo "$0: you need to set PG_PASS=..."
@@ -19,5 +20,10 @@ then
   echo "$0: you need to provide 3rd date-to in YYYY-MM-DD format"
   exit 4
 fi
-commits=`db.sh psql "${1}" -tAc "select count(distinct sha) from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}'"`
+if [ -z "$REPOS" ]
+then
+  commits=`db.sh psql "${1}" -tAc "select count(distinct sha) from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}'"`
+else
+  commits=`db.sh psql "${1}" -tAc "select count(distinct sha) from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}' and dup_repo_name in (${REPOS})"`
+fi
 echo "${1}: ${2} - ${3}: ${commits} commits"

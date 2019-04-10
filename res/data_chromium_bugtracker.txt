@@ -18,28 +18,28 @@ contributors: 1751
 commits: 77562
 
 Git one liner on Google Chromium repo cloned by `git clone https://chromium.googlesource.com/chromium/chromium`
-121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
-121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
-13051: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
+121: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
+121: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
+13051: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
 
 chromium/chromium from Google Source have last commit on 2014-07-23, we can
 extrapolate authors (%aE) and commits (%H) using data from few years before
 
-git log --since "2013-07-23" --until "2014-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 1380 (+279)
-git log --since "2012-07-23" --until "2013-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 1101 (+240)
-git log --since "2011-07-23" --until "2012-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 861 (+232)
-git log --since "2010-07-23" --until "2011-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 629 (+239)
-git log --since "2009-07-23" --until "2010-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 390 (+155)
-git log --since "2008-07-23" --until "2009-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 235 (+235)
-git log --since "2007-07-23" --until "2008-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 0
+git log --all --since "2013-07-23" --until "2014-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 1380 (+279)
+git log --all --since "2012-07-23" --until "2013-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 1101 (+240)
+git log --all --since "2011-07-23" --until "2012-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 861 (+232)
+git log --all --since "2010-07-23" --until "2011-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 629 (+239)
+git log --all --since "2009-07-23" --until "2010-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 390 (+155)
+git log --all --since "2008-07-23" --until "2009-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 235 (+235)
+git log --all --since "2007-07-23" --until "2008-07-23" --pretty=format:"%aE" | sort | uniq | wc -l --> 0
 
-Project start: git log --since "2008-07-23" --until "2009-07-23" --pretty=format:"%ai" | sort | head
+Project start: git log --all --since "2008-07-23" --until "2009-07-23" --pretty=format:"%ai" | sort | head
 2008-07-26 18:05:13 +0000
 
 We can also clone chromium/src repo: git clone https://chromium.googlesource.com/chromium/src
 Finally exact
-Commits: git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l --> 77437
-Authors: git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l --> 1663
+Commits: git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l --> 77437
+Authors: git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l --> 1663
 
 Splitting blink:
 Chromium, component Blink, opened > 2016/05/01: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=component%3ABlink&colspec=ID%20Pri%20M%20Stars%20ReleaseBlock%20Component%20Status%20Owner%20Summary%20OS%20Modified&sort=-modified&num=100&start=100
@@ -64,7 +64,7 @@ This is an all time output fro  processing src/blink subdirectory:
 Processed 164804 csets from 1266 developers
 
 Now to analyse merge/robot commits, generate data file:
-git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits.csv
+git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits.csv
 
 After excluding bots/automattic merges with `./shells/chromium_commits_analysis.sh`
 After filtering: authors: 1649, commits: 70443

@@ -22,13 +22,13 @@ Processed 13046 csets from 121 developers
 A total of 10394999 lines added, 2808437 removed (delta 7586562)
 
 Git one liner (For last year 2016-05-01 - 2017-05-01):
-121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
-121: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
-13051: `git log --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
+121: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%aE" | sort | uniq | wc -l`
+121: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%cE" | sort | uniq | wc -l`
+13051: `git log --all --since "2016-05-01" --until "2017-05-01" --pretty=format:"%H" | sort | uniq | wc -l`
 
 Git one liner for all time:
-Authors: 648: `git log --pretty=format:"%cE" | sort | uniq | wc -l`
-Commits: 189534: `git log --pretty=format:"%H" | sort | uniq | wc -l`
+Authors: 648: `git log --all --pretty=format:"%cE" | sort | uniq | wc -l`
+Commits: 189534: `git log --all --pretty=format:"%H" | sort | uniq | wc -l`
 
 
 So usually:
