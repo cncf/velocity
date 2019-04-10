@@ -4,6 +4,7 @@ require './comment'
 
 def update(fmerge, fdata, n)
   sort_col = 'authors'
+  force = !ENV['FORCE'].nil?
 
   # org,repo,activity,comments,prs,commits,issues,authors,project,url
   projects = {}
@@ -40,7 +41,7 @@ def update(fmerge, fdata, n)
       the_same += 1
       next
     end
-    if projects[proj][key].to_i > value.to_i
+    if projects[proj][key].to_i > value.to_i && !force
       puts "Project #{proj} have #{key} = #{projects[proj][key]} which is more than #{value}"
       higher += 1
       next
