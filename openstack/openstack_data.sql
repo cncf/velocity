@@ -3,7 +3,7 @@ select * from (
     o.login as org,
     e.dup_repo_name as repo,
     count(distinct e.id) as activity,
-    count(distinct e.id) filter (where e.type = 'IssueCommentEvent') as comments,
+    count(distinct e.id) filter (where e.type in ('IssueCommentEvent', 'CommitCommentEvent', 'PullRequestReviewEvent')) as comments,
     count(distinct e.id) filter (where e.type = 'PullRequestEvent') as prs,
     count(distinct e.id) filter (where e.type = 'PushEvent') as commits,
     count(distinct e.id) filter (where e.type = 'IssuesEvent') as issues,
@@ -19,7 +19,7 @@ select * from (
     and e.repo_id = r.id
     and r.repo_group = 'OpenStack'
     and e.type in (
-      'IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent'
+      'IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent', 'PullRequestReviewEvent', 'CommitCommentEvent'
     )
     and e.dup_actor_login != 'openstack-gerrit'
     and e.dup_actor_login not like '%bot%'

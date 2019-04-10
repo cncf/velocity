@@ -202,8 +202,8 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 ### OpenStack case:</b>
 
 - Newer method - use CNCF devstats contrib instance:
-- cd openstack; PG_PASS=... ./openstack.sh 2017-06-01 2018-06-01 1>/dev/null;
-- ruby merger.rb data/unlimited.csv openstack/data_openstack_2017-06-01_2018-06-01.csv
+- `cd openstack; PG_PASS=... ./openstack.sh 2017-06-01 2018-06-01 1>/dev/null`
+- `ruby merger.rb data/unlimited.csv data_openstack_2018-04-01_2019-04-01.csv`.
 
 - Old approach (using BigQuery)
 - Change line `ruby merger.rb data/unlimited.csv data/data_openstack_201605_201704.csv` to `ruby merger.rb data/unlimited.csv data/data_openstack_201606_201705.csv`
