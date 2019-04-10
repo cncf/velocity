@@ -11,6 +11,7 @@ language js as """
 """;
 with pushes as (
   select
+    id,
     get_shas(payload) as shas
   from
     `githubarchive.{{table}}`
@@ -19,16 +20,11 @@ with pushes as (
     and repo.name = 'torvalds/linux'
 )
 select
-  count(distinct sha) as commits
-from (
-  select
-    sha
-  from
-    pushes
-  cross join
-    unnest(pushes.shas) as sha
-  where
-    sha is not null 
-)
-
--- Returns 9841
+  id,
+  sha
+from
+  pushes
+cross join
+  unnest(pushes.shas) as sha
+where
+  sha = '{{sha}}'
