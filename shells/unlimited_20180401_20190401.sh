@@ -10,7 +10,7 @@ echo "Adding/Updating Cloud Foundry Projects"
 ruby merger.rb data/unlimited.csv data/data_cf_projects_20180401_20190401.csv force || exit 1
 # Don't forget to add exception to map/ranges.csv when adding projects pulled with different BigQuery (specially with 0s for issues, PRs etc)
 echo "Adding/Updating CNCF Projects"
-ruby merger.rb data/unlimited.csv data/cncf_20180401_20190401.csv || exit 1
+ruby merger.rb data/unlimited.csv ata/data_cncf_projects_20180401_20190401.csv || exit 1
 echo "Adding/Updating OpenStack case"
 ruby merger.rb data/unlimited.csv openstack/data_openstack_2018-04-01_2019-04-01.csv || exit 1
 echo "Adding/Updating Apache case"

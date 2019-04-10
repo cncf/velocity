@@ -153,16 +153,11 @@ Merge Requests: 371,5 pages * 20 = 7430
 ### CloudFoundry
 
 - Run `./run_bq.sh cf 2018-04-01 2019-04-01 || echo 'error'` to get Cloud Foundry data. It will generate `data/data_cf_projects_20180401_20190401.csv` file.
-- Copy: `BigQuery/query_cloudfoundry_201605_201704.sql` to `BigQuery/query_cloudfoundry_201606_201705.sql` and update conditions. Then run query in the BigQuery console (see details at the beginning of example)
-- Finally, you will have `data/data_cloudfoundry_201606_201705.csv` (run query, download as csv or save results to table, export table to google storage, download as csv).
 - Update (and eventually manually run) the CF case (in `shells/unlimited_20160601-20170701.sh`): `ruby merger.rb data/unlimited.csv data/data_cloudfoundry_201606_201705.csv force`
 
 ### CNCF Projects case
 
-- We have a line in `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
-- Copy: `cp BigQuery/query_cncf_projects.sql BigQuery/query_cncf_projects_201606_201705.sql`, update conditions: `BigQuery/query_cncf_projects_201606_201705.sql`
-- Run on BigQuery and do the same as in the CF case. The final output file will be: `data/data_cncf_projects_201606_201705.csv`
-- Final line should be (try it): `ruby merger.rb data/unlimited.csv data/data_cncf_projects_201606_201705.csv`
+- We have a line in `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv ata/data_cncf_projects_20180401_20190401.csv`
 
 ### WebKit case
 
@@ -204,7 +199,8 @@ A total of 11838610 lines added, 3105609 removed (delta 8733001)
 - Activity = sum of all others (comments, commits, issues, prs)
 - Create and open file `data/webkit_201606_201705.csv` from previous range file; edit and save
 
-- <b>OpenStack case:</b>
+### OpenStack case:</b>
+
 - Newer method - use CNCF devstats contrib instance:
 - cd openstack; PG_PASS=... ./openstack.sh 2017-06-01 2018-06-01 1>/dev/null;
 - ruby merger.rb data/unlimited.csv openstack/data_openstack_2017-06-01_2018-06-01.csv
