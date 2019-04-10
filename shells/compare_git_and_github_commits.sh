@@ -41,5 +41,17 @@ do
 done
 sed -i '/^$/d' "${log}"
 ls -l "${log}"
-commits=`cat "${log}" | sort | uniq | wc -l`
-echo "${1}: ${2} - ${3}: ${commits} commits"
+commitsG=`cat "${log}" | sort | uniq | wc -l`
+echo "git: ${1}: ${2} - ${3}: ${commitsG} commits"
+commitsD=`db.sh psql "${1}" -tAc "select count(distinct sha) from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}'"`
+echo "devstats: ${1}: ${2} - ${3}: ${commitsD} commits"
+if [ "$commitsG" = "$commitsD" ]
+then
+  echo "Commits counts match"
+  exit 0
+fi
+cd "${cwd}"
+cat "${log}" | sort | uniq > out && mv out "${log}"
+commits=`db.sh psql "${1}" -tAc "select distinct sha from gha_commits where dup_created_at > '${2}' and dup_created_at <= '${3}' order by sha"`
+echo "$commits" > devstats.log
+./compare_logs.rb
