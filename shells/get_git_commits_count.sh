@@ -46,6 +46,7 @@ do
   fi
 done
 sed -i '/^$/d' "${log}"
+cat "${log}" | sort | uniq > out && mv out "${log}"
 ls -l "${log}"
-commits=`cat "${log}" | sort | uniq | wc -l`
+commits=`cat "${log}" | wc -l`
 echo "${1}: ${2} - ${3}: ${commits} commits"
