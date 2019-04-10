@@ -82,6 +82,11 @@ Run `analysis.rb` with
 ruby analysis.rb data/data_lf_projects_20180401_20190401.csv projects/projects_lf_20180401_20190401.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
+Now update CNCF projects commits counts to use git instead of BigQuery data:
+
+- `PG_PASS=... ./update_cncf_projects_commits.rb 2018-04-01 2019-04-01`. If you generated CNCF data just before generating LF data, then you already have that step completed.
+- `ruby update_projects.rb projects/projects_lf_20180401_20190401.csv data/data_cncf_update_2018-04-01_2019-04-01.csv -1`.
+
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/16LBeKR0HQU-5m8pwHvYCPiyo3KiU8VWbwXFCaYk9q48/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A66. <br />
