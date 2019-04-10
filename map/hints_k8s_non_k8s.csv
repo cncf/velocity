@@ -64,7 +64,7 @@ kubernetes/test-infra,Kubernetes
 lyft/envoy,Envoy
 miekg/coredns,CoreDNS
 rktproject/rkt,rkt
-spiffe/spire,Spire
+spiffe/spire,SPIRE
 theupdateframework/artwork,TUF
 theupdateframework/notary,Notary
 theupdateframework/pep-maximum-security-model,TUF

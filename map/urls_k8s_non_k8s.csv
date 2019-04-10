@@ -20,8 +20,8 @@ OpenMetrics,github.com/RichiH/OpenMetrics
 OpenTracing,opentracing.io
 Prometheus,prometheus.io
 Rook,rook.io
-Spiffe,spiffe.io
-Spire,spiffe.io
+SPIFFE,spiffe.io
+SPIRE,spiffe.io
 TUF,github.com/theupdateframework.com
 Telepresence,telepresence.io
 Vitess,vitess.io

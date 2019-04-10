@@ -8,7 +8,7 @@ Jaeger,Non-K8s
 Kubernetes,K8s
 Notary,Non-K8s
 OpenMetrics,Non-K8s
-Spire,Non-K8s
+SPIRE,Non-K8s
 TUF,Non-K8s
 TiKV,Non-K8s
 Cortex,Non-K8s
@@ -45,7 +45,7 @@ opentracing,Non-K8s
 prometheus,Non-K8s
 rkt,Non-K8s
 rook,Non-K8s
-spiffe,Non-K8s
+SPIFFE,Non-K8s
 telepresenceio,Non-K8s
 theupdateframework,Non-K8s
 uber,Non-K8s
