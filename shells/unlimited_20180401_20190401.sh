@@ -7,7 +7,7 @@ echo "Adding GitLab data"
 ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2018-04-01 2019-04-01 gitlab gitlab/GitLab || exit 1
 echo "Adding/Updating Cloud Foundry Projects"
 # This uses "force" mode to update Cloud Foundry values to lower ones (this is because we have special query output for CF projects which skips more bots, so lower values are expected)
-ruby merger.rb data/unlimited.csv data/cf_20180401_20190401.csv force || exit 1
+ruby merger.rb data/unlimited.csv data/data_cf_projects_20180401_20190401.csv force || exit 1
 # Don't forget to add exception to map/ranges.csv when adding projects pulled with different BigQuery (specially with 0s for issues, PRs etc)
 echo "Adding/Updating CNCF Projects"
 ruby merger.rb data/unlimited.csv data/cncf_20180401_20190401.csv || exit 1
