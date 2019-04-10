@@ -431,6 +431,8 @@ Rust,rust-lang.org
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
 SNAS.io,www.snas.io
 SPDX,spdx.org
+SPIFFE,spiffe.io
+SPIRE,spiffe.io
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
 SS13,tgstation13.org
 SVG Working Group,github.com/w3c/svgwg
@@ -453,9 +455,7 @@ Skillcrush,skillcrush.com
 Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
-SPIFFE,spiffe.io
 Spinnaker,www.spinnaker.io
-SPIRE,spiffe.io
 Spontanizer,spartan.org.il
 Spotify,spotify.github.io
 Spree,guides.spreecommerce.org

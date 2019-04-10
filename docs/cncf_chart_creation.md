@@ -31,7 +31,7 @@ ruby analysis.rb data/data_cncf_projects_20180401_20190401.csv projects/projects
 Now update commits counts to use git instead of BigQuery data:
 
 - `PG_PASS=... ./update_cncf_projects_commits.rb 2018-04-01 2019-04-01`.
-- `uby update_projects.rb projects/projects_cncf_20180401_20190401.csv data/data_cncf_update_2018-04-01_2019-04_01.csv`.
+- `ruby update_projects.rb projects/projects_cncf_20180401_20190401.csv data/data_cncf_update_2018-04-01_2019-04-01.csv -1`.
 
 To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20170801_20180801.csv projects/projects_cncf_k8s_non_k8s_20170101_20180801.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
 
