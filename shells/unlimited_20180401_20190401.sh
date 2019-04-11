@@ -18,7 +18,7 @@ ruby merger.rb data/unlimited.csv data/data_apache_projects_20180401_20190401.cs
 echo "Adding/Updating Chromium case"
 ruby merger.rb data/unlimited.csv data/data_chromium_projects_20180401_20190401.csv || exit 1
 echo "Adding/Updating openSUSE case"
-ruby merger.rb data/unlimited.csv data/opensuse_20180401_20190401.csv || exit 1
+ruby merger.rb data/unlimited.csv data/data_opensuse_projects_20180401_20190401.csv || exit 1
 echo "Adding/Updating AutomotiveGradeLinux (AGL) case"
 ruby merger.rb data/unlimited.csv data/data_agl_20180401_20190401.csv || exit 1
 echo "Adding/Updating LibreOffice case"

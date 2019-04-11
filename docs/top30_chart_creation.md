@@ -227,7 +227,7 @@ Update `data/data_chromium_bugtracker_201606_201705.csv` accordingly.
 
 ### OpenSUSE
 
-- BigQuery part exactly the same as Apache or OpenStack (just replace with word opensuse): `ruby merger.rb data/unlimited.csv data/data_opensuse_201606_201705.csv`
+- Run `./run_bq.sh opensuse 2018-04-01 2019-04-01 || echo 'error'` to get OpenSure data. It will generate `data/data_opensuse_projects_20180401_20190401.csv` file.
 
 ### AGL case (Automotive Grade Linux)
 
