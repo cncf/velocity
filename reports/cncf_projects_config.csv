@@ -18,8 +18,8 @@ Vitess
 OCI
 NATS
 OPA
-Spiffe
-Spire
+SPIFFE
+SPIRE
 CloudEvents
 Telepresence
 Helm
@@ -31,5 +31,9 @@ TiKV
 Cortex
 Buildpacks
 Falco
-Istio
 Spinnaker
+Dragonfly
+Virtual Kubelet
+KubeEdge
+Brigade
+CRI-O
