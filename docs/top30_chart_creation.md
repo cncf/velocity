@@ -260,7 +260,7 @@ Processed 7152 csets from 365 developers
 
 ### LibreOffice case
 
-- Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word libreoffice): `ruby merger.rb data/unlimited.csv data/data_libreoffice_201606_201705.csv`
+- Run `./run_bq.sh libreoffice 2018-04-01 2019-04-01 || echo 'error'` to get LibreOffice data. It will generate `data/data_libreoffice_projects_20180401_20190401.csv` file.
 - Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_201606_201705.csv` and we will update the `data/data_libreoffice_git_201606_201705.csv` file
 - Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`. If repo already cloned, do `cd core`, `git pull`
 - Analyse this repo as described in: `res/libreoffice_git_repo.txt`, to see that it generates lower number than those from BigQuery output (so we can skip this step)
@@ -268,9 +268,9 @@ Processed 7152 csets from 365 developers
 - Authors: `git log --all --since "2017-11-01" --until "2018-11-01" --pretty=format:"%aE" | sort | uniq | wc -l`
 - Put results in: `data/data_libreoffice_git_201606_201705.csv` (authors, commits), values will probably be skipped by the updater tool (they are lower than current values gathered so far)
 - Issues (old approach):
-Issue listing is here: https://bugs.freedesktop.org/buglist.cgi?product=LibreOffice&query_format=specific&order=bug_id&limit=0
-Create account, change columns to "Opened" and "ID" as generaly no more is needed. (ID is a link). Sort by Opened desc and try to see all results. (You can hit nginx gateway timeout).
-This URL succeeded for me: https://bugs.documentfoundation.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&bug_status=NEEDINFO&columnlist=opendate&component=Android%20Viewer&component=Base&component=BASIC&component=Calc&component=Chart&component=ci-infra&component=contrib&component=deletionrequest&component=Documentation&component=Draw&component=Extensions&component=filters%20and%20storage&component=Formula%20Editor&component=framework&component=graphics%20stack&component=Impress&component=Installation&component=LibreOffice&component=Linguistic&component=Localization&component=Printing%20and%20PDF%20export&component=sdk&component=UI&component=ux-advise&component=Writer&component=Writer%20Web&component=WWW&limit=0&list_id=703831&order=opendate%20DESC%2Cchangeddate%2Cbug_id%20DESC&product=LibreOffice&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&resolution=NOTABUG&resolution=NOTOURBUG&resolution=INSUFFICIENTDATA
+- Issue listing is here: `https://bugs.freedesktop.org/buglist.cgi?product=LibreOffice&query_format=specific&order=bug_id&limit=0`
+- Create account, change columns to "Opened" and "ID" as generaly no more is needed. (ID is a link). Sort by Opened desc and try to see all results. (You can hit nginx gateway timeout).
+- This URL succeeded for me: `https://bugs.documentfoundation.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&bug_status=NEEDINFO&columnlist=opendate&component=Android%20Viewer&component=Base&component=BASIC&component=Calc&component=Chart&component=ci-infra&component=contrib&component=deletionrequest&component=Documentation&component=Draw&component=Extensions&component=filters%20and%20storage&component=Formula%20Editor&component=framework&component=graphics%20stack&component=Impress&component=Installation&component=LibreOffice&component=Linguistic&component=Localization&component=Printing%20and%20PDF%20export&component=sdk&component=UI&component=ux-advise&component=Writer&component=Writer%20Web&component=WWW&limit=0&list_id=703831&order=opendate%20DESC%2Cchangeddate%2Cbug_id%20DESC&product=LibreOffice&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&resolution=NOTABUG&resolution=NOTOURBUG&resolution=INSUFFICIENTDATA`
 In the browser window, select rows in range, copy, paste into a text file and see row count. --- OR --- Download as csv to `data/data_libreoffice_bugs.csv`, and then count issues with given date range "2016-06-01" --> "2017-06-01" with `ruby count_issues.rb data/data_libreoffice_bugs.csv Opened '2016-06-01 00:00:00' '2017-06-01 00:00:00'`
 ```
 ruby count_issues.rb data/data_libreoffice_bugs.csv Opened 2016-06-01 2017-06-01
@@ -278,12 +278,12 @@ Counting issues in 'data/data_libreoffice_bugs.csv', issue date column is 'Opene
 Found 7223 matching issues.
 ```
 Update `data/data_libreoffice_git_201606_201705.csv` accordingly.
-- New approach, use: `./libreoffice_bugzilla.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'`.
+- New approach, use: `./libreoffice_bugzilla.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'` (terribly slow).
 - Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201606_201705.csv -1`
 
 ### FreeBSD case
 
-- Use BigQuery/org_finder.sql (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
+- Use `BigQuery/org_finder.sql` (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_201606_201705.csv` (if there aren't many rows, just Download as CSV, othervise: save as table, export to gstorage, download csv)
 - Now define FreeBSD project the same way as in BigQuery: put orgs in `map/defmaps.csv`, put URL in `map/urls.csv`, put orgs as exceptions in `map/ranges.csv` and `map/ranges_sane.csv` (because some values can be 0s due to custom BigQuery)
 - Add FreeBSD processing to shells/unlimited:

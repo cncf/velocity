@@ -35,8 +35,9 @@ echo "Updating Apache Projects using Jira data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20180401_20190401.csv -1 || exit 1
 echo "Updating Chromium project using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_20180401_20190401.csv -1 || exit 1
-echo "Updating LibreOffice project using their git repo"
+echo "Updating LibreOffice project using their git repo and bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_20180401_20190401.csv -1 || exit 1
+ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_bugs_20180401_20190401.csv -1 || exit 1
 echo "Updating FreeBSD project using their repos SVN data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_freebsd_svn_20180401_20190401.csv -1 || exit 1
 echo "Generating Projects Ranks statistics"
