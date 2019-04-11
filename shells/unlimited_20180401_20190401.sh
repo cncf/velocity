@@ -14,7 +14,7 @@ ruby merger.rb data/unlimited.csv data/data_cncf_projects_20180401_20190401.csv 
 echo "Adding/Updating OpenStack case"
 ruby merger.rb data/unlimited.csv openstack/data_openstack_2018-04-01_2019-04-01.csv || exit 1
 echo "Adding/Updating Apache case"
-ruby merger.rb data/unlimited.csv data/apache_20180401_20190401.csv || exit 1
+ruby merger.rb data/unlimited.csv data/data_apache_projects_20180401_20190401.csv || exit 1
 echo "Adding/Updating Chromium case"
 ruby merger.rb data/unlimited.csv data/chromium_20180401_20190401.csv || exit 1
 echo "Adding/Updating openSUSE case"

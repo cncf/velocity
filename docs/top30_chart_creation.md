@@ -183,17 +183,10 @@ https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&fie
 
 ### Apache
 
-- Follow the BigQuery steps as in the OpenStack example. The base query is 'BigQuery/query_apache_projects.sql'. The final line should be `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
-- `cp BigQuery/query_apache_projects.sql BigQuery/query_apache_projects_201606_201705.sql`, update conditions, run BigQ, download results to `data/data_apache_201606_201705.csv`
-- Run `ruby merger.rb data/unlimited.csv data/data_apache_201606_201705.csv`
+- Run `./run_bq.sh apache 2018-04-01 2019-04-01 || echo 'error'` to get Apache data. It will generate `data/data_apache_projects_20180401_20190401.csv` file.
+- `ruby merger.rb data/unlimited.csv data/data_apache_projects_20180401_20190401.csv`.
 - Now we need more data for Apache from their jira, first copy file from previous data range `cp data/data_apache_jira.csv data/data_apache_jira_201606_201705.csv`
-- New approach: `./apache_jira.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'` and/or `./apache_bugzilla.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'`.
-- Now go to their jira: issues.apache.org/jira/browse, you may set conditions to find issues, like this:
-```
-project = "Kylin" AND created >= 2016-05-01 AND created <= 2017-05-01
-```
-Example URL: `https://issues.apache.org/jira/browse/KYLIN-2578?jql=project%20%3D%20%27Kylin%27%20and%20created%20%3E%3D%202016-05-01%20AND%20created%20%3C%3D%202017-05-01`
-We need issue counts for all projects separately: Flink, Mesos, Spark, Kafka, Camel, CloudStack, Beam, Zeppelin, Cassandra, Hive, HBase, Hadoop, Ignite, NiFi, Ambari, Storm, Traffic Server, Lucene - Core, Solr, CarbonData, Geode, Trafodion, Thrift, Kylin.
+- New approach (works, but terribly slow): `./apache_jira.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'` and/or `./apache_bugzilla.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'`.
 - Final line for Apache should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20171101_20181101.csv -1`
 
 ### Chromium
