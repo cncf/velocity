@@ -232,7 +232,7 @@ Update `data/data_chromium_bugtracker_201606_201705.csv` accordingly.
 ### AGL case (Automotive Grade Linux)
 
 - Also see `docs/linuxfoundation_chart_creation.md`.
-- Go to: https://wiki.automotivelinux.org/agl-distro/source-code and get source code somewhere:
+- Go to: `https://wiki.automotivelinux.org/agl-distro/source-code` and get source code somewhere:
 - `mkdir agl; cd agl`
 - `curl https://storage.googleapis.com/git-repo-downloads/repo > repo; chmod +x ./repo`
 - `./repo init -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo; ./repo init`
