@@ -24,7 +24,7 @@ ruby merger.rb data/unlimited.csv data/data_agl_20180401_20190401.csv || exit 1
 echo "Adding/Updating LibreOffice case"
 ruby merger.rb data/unlimited.csv data/data_libreoffice_projects_20180401_20190401.csv || exit 1
 echo "Adding/Updating FreeBSD Projects"
-ruby merger.rb data/unlimited.csv data/freebsd_20180401_20190401.csv || exit 1
+ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20180401_20190401.csv || exit 1
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv || exit 1
 echo "Updating CNCF projects data"
