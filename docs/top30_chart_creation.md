@@ -190,8 +190,9 @@ https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&fie
 - Final line for Apache should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20171101_20181101.csv -1`
 
 ### Chromium
-- Beginning (BigQuery part) exactly the same as Apache or OpenStack (just replace with word chromium): `ruby merger.rb data/unlimited.csv data/data_chromium_201606_201705.csv`
-- Now the manual part - copy `data/data_chromium_bugtracker.csv` to `data/data_chromium_bugtracker_201606_201705.csv` (we need to update this file)
+
+- Run `./run_bq.sh chromium 2018-04-01 2019-04-01 || echo 'error'` to get Chromium data. It will generate `data/data_chromium_projects_20180401_20190401.csv` file.
+- Now the manual part: `cp data/data_chromium_bugtracker.csv data/data_chromium_bugtracker_20180401_20190401.csv` (we need to update this file)
 - Get Issues from their bug tracker: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=opened%3E2016%2F7%2F25&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids
 Search: All issues + opened>2016/7/19 gives: 63565 (for 2016/7/18 gives 63822+ which means a non exact number) we will extrapolate from here.
 All issues + opened>2017/6/1 gives 325, so we have: 63565 - 325 = 63240 issues in 2016-07-19 - 2017-06-01
