@@ -63,7 +63,7 @@ WHERE
     )
   )
 GROUP BY
-  org, repo, author_email, author_name
+  org, repo, author_email, author_name, sha
 )
 GROUP BY org, repo
 HAVING

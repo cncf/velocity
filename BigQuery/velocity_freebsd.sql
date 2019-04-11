@@ -57,7 +57,7 @@ where
       2 DESC
     )
   )
-group by org, repo, author_email, author_name
+group by org, repo, author_email, author_name, sha
 )
 group by org, repo
 order by
