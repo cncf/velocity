@@ -360,6 +360,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
           end
         elsif v.is_a?(Integer)
           org[:sum][k] = 0 unless org[:sum].key? k
+          binding.pry if org[:sum][k].nil?
           org[:sum][k] += v
         else
           org[:sum][k] = nil
