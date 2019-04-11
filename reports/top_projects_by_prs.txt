@@ -1,101 +1,101 @@
 Top projects by prs:
-1) google-test prs: 97103
-2) Linux (kernel.org) prs: 77030
-3) Kubernetes (kubernetes.io) prs: 43846
-4) Homebrew (brew.sh) prs: 28005
-5) dotnet (microsoft.com/net) prs: 20733
-6) MicrosoftDocs (docs.microsoft.com) prs: 20014
-7) OpenShift (openshift.com) prs: 18953
-8) Elasticsearch (elastic.co/products/elasticsearch) prs: 17802
-9) NixOS (nixos.org) prs: 15200
-10) VS Code (code.visualstudio.com) prs: 12008
-11) Ansible (ansible.com) prs: 11978
-12) WebKit (webkit.org) prs: 11900
-13) Rust (rust-lang.org) prs: 11165
-14) ManageIQ (manageiq.org) prs: 10644
-15) LambdaSchool prs: 10031
-16) React (facebook.com) prs: 9976
-17) gRPC (grpc.io) prs: 9547
-18) Government Digital Service (gds.blog.gov.uk) prs: 9358
-19) Home Assistant (home-assistant.io) prs: 9344
-20) istio prs: 9319
-21) Azure SDKs (azure.microsoft.com) prs: 8918
-22) Mozilla (mozilla.org) prs: 8846
-23) testpalerra prs: 8822
-24) ASP.net (asp.net) prs: 8733
-25) fossasia (fossasia.org) prs: 8456
-26) GitLab (gitlab.com) prs: 7860
-27) Eclipse (eclipse.org) prs: 7731
-28) pytorch prs: 7703
-29) Ethereum (ethereum.org) prs: 7686
-30) Mapbox (mapbox.com) prs: 7435
-31) DefinitelyTyped (definitelytyped.org) prs: 7377
-32) PaddlePaddle prs: 7365
-33) Datadog (datadog.com) prs: 7215
-34) WSO2 (wso2.github.io) prs: 7207
-35) WP Calypso (developer.wordpress.com/calypso) prs: 7204
-36) Node.js (nodejs.org) prs: 7017
-37) Helm (helm.sh) prs: 6959
-38) Angular (angular.io) prs: 6889
-39) Cockroach Labs (cockroachlabs.com) prs: 6765
-40) conda-forge prs: 6702
-41) code-dot-org prs: 6700
-42) vaadin prs: 6689
-43) mono prs: 6651
-44) Terraform (terraform.io) prs: 6573
-45) SS13 (tgstation13.org) prs: 6495
-46) Nextcloud (nextcloud.com) prs: 6405
-47) DevExpress prs: 6091
-48) Dart (dartlang.org) prs: 5752
-49) The Void distribution (voidlinux.eu) prs: 5653
-50) udacity (udacity.com) prs: 5561
-51) Magento (magento.com/home) prs: 5552
-52) Apache Beam (beam.apache.org) prs: 5504
-53) Caseflow (va.gov) prs: 5495
-54) getsentry prs: 5289
-55) Linuxbrew prs: 5168
-56) Cloud Foundry (cloudfoundry.org) prs: 5163
-57) Wire Swiss GmbH (wire.com) prs: 5141
-58) dimagi prs: 5140
-59) Symfony (symfony.com) prs: 5129
-60) Envoy (github.com/envoyproxy) prs: 5107
-61) Flutter (flutter.io) prs: 5050
-62) ownCloud (oowncloud.org) prs: 5016
-63) ARMmbed prs: 4942
-64) ballerina-platform prs: 4925
-65) AMP (ampproject.org) prs: 4916
-66) PingCAP (github.com/pingcap) prs: 4874
-67) OpenLiberty prs: 4772
-68) bioconda (bioconda.github.io) prs: 4762
-69) apache/incubator-mxnet prs: 4716
-70) Godot Engine (godotengine.org) prs: 4669
-71) googleapis prs: 4657
-72) TensorFlow (tensorflow.org) prs: 4635
-73) Odoo (odoo.com) prs: 4635
-74) HTTPS Everywhere (eff.org/https-everywhere) prs: 4631
-75) SaltStack (repo.saltstack.com) prs: 4627
-76) CMS Offline Software (cms-sw.github.io) prs: 4604
-77) Apache Ambari (ambari.apache.org) prs: 4603
-78) OCA prs: 4582
-79) The Guardian (theguardian.com) prs: 4564
-80) Prometheus (prometheus.io) prs: 4556
-81) LCTT prs: 4527
-82) webliumteam prs: 4520
-83) Apache Mesos (mesos.apache.org) prs: 4429
-84) Alibaba (alibaba.com) prs: 4411
-85) IBM prs: 4398
-86) Office Developer (dev.office.com) prs: 4361
-87) Auth0 (auth0.com) prs: 4317
-88) Keybase (keybase.io) prs: 4269
-89) Uber Open Source (uber.github.io) prs: 4226
-90) vuejs (vuejs.org) prs: 4213
-91) Laravel (laravel.com) prs: 4187
-92) Zephyr (www.zephyrproject.org) prs: 4167
-93) zulip prs: 4166
-94) xamarin prs: 4156
-95) artsy prs: 4138
-96) bazelbuild prs: 4124
-97) WiX (wixtoolset.org) prs: 4094
-98) PowerShell (microsoft.com/powershell) prs: 4076
-99) Chromium (google.com/chrome) prs: 4047
-100) frappe prs: 4045
+1) Linux (kernel.org) prs: 46887
+2) Kubernetes (kubernetes.io) prs: 41513
+3) Homebrew (brew.sh) prs: 28331
+4) Elasticsearch (elastic.co/products/elasticsearch) prs: 26993
+5) dotnet (microsoft.com/net) prs: 25168
+6) OpenShift (openshift.com) prs: 21144
+7) NixOS (nixos.org) prs: 16342
+8) FreeBSD (freebsd.org) prs: 13900
+9) Ansible (ansible.com) prs: 13494
+10) googleapis prs: 13055
+11) React (facebook.com) prs: 11964
+12) LambdaSchool prs: 11616
+13) Azure SDKs (azure.microsoft.com) prs: 11512
+14) Rust (rust-lang.org) prs: 11434
+15) VS Code (code.visualstudio.com) prs: 11163
+16) Mozilla (mozilla.org) prs: 11146
+17) pytorch (pytorch.org) prs: 10929
+18) Home Assistant (home-assistant.io) prs: 10687
+19) gRPC (grpc.io) prs: 9527
+20) TensorFlow (tensorflow.org) prs: 9260
+21) void-linux prs: 8944
+22) testpalerra prs: 8624
+23) istio prs: 8579
+24) Ethereum (ethereum.org) prs: 8536
+25) Eclipse (eclipse.org) prs: 8524
+26) GitLab (gitlab.com) prs: 8436
+27) Terraform (terraform.io) prs: 8339
+28) Helm (helm.sh) prs: 8327
+29) ManageIQ (manageiq.org) prs: 8325
+30) Datadog (datadog.com) prs: 8304
+31) Government Digital Service (gds.blog.gov.uk) prs: 8112
+32) ASP.net (asp.net) prs: 7898
+33) fossasia (fossasia.org) prs: 7826
+34) DefinitelyTyped (definitelytyped.org) prs: 7764
+35) PaddlePaddle prs: 7415
+36) Node.js (nodejs.org) prs: 7230
+37) Magento (magento.com/home) prs: 7211
+38) ballerina-platform prs: 7170
+39) Angular (angular.io) prs: 7004
+40) Mapbox (mapbox.com) prs: 6880
+41) Nextcloud (nextcloud.com) prs: 6699
+42) conda-forge (conda-forge.org) prs: 6692
+43) Caseflow (va.gov) prs: 6450
+44) mono prs: 6208
+45) getsentry prs: 6155
+46) WP Calypso (developer.wordpress.com/calypso) prs: 6112
+47) Flutter (flutter.io) prs: 6100
+48) code-dot-org prs: 6042
+49) Apache Beam (beam.apache.org) prs: 6030
+50) vaadin prs: 5923
+51) WSO2 (wso2.github.io) prs: 5896
+52) DevExpress prs: 5834
+53) Cockroach Labs (cockroachlabs.com) prs: 5775
+54) Odoo (odoo.com) prs: 5764
+55) ownCloud (oowncloud.org) prs: 5661
+56) betagouv prs: 5548
+57) Zephyr (www.zephyrproject.org) prs: 5537
+58) PingCAP (github.com/pingcap) prs: 5497
+59) ARMmbed prs: 5462
+60) SS13 (tgstation13.org) prs: 5367
+61) AMP (ampproject.org) prs: 5294
+62) InfluxData (influxdata.com) prs: 5261
+63) Envoy (www.envoyproxy.io) prs: 5201
+64) ODOO (odoo-community.org) prs: 5160
+65) Alibaba (alibaba.com) prs: 5158
+66) artsy prs: 5126
+67) bioconda (bioconda.github.io) prs: 5115
+68) Bazel (bazel.build) prs: 5029
+69) webliumteam prs: 5003
+70) Wire Swiss GmbH (wire.com) prs: 4995
+71) Cloud Foundry (cloudfoundry.org) prs: 4987
+72) Uber Open Source (uber.github.io) prs: 4908
+73) Dart (dartlang.org) prs: 4822
+74) Keybase (keybase.io) prs: 4742
+75) Office Developer (dev.office.com) prs: 4728
+76) Prometheus (prometheus.io) prs: 4694
+77) dimagi prs: 4633
+78) apache/incubator-mxnet prs: 4597
+79) Lambda-School-Labs prs: 4576
+80) Linuxbrew prs: 4551
+81) bcgov prs: 4524
+82) OpenLiberty prs: 4497
+83) Symfony (symfony.com) prs: 4488
+84) Laravel (laravel.com) prs: 4402
+85) input-output-hk prs: 4358
+86) mozilla-mobile prs: 4353
+87) Gatsby (gatsbyjs.org) prs: 4345
+88) WordPress prs: 4328
+89) udacity (udacity.com) prs: 4295
+90) LCTT prs: 4289
+91) Apache Spark (spark.apache.org) prs: 4196
+92) sul-dlss prs: 4189
+93) RocketChat (rocket.chat) prs: 4164
+94) Godot Engine (godotengine.org) prs: 4135
+95) CMS Offline Software (cms-sw.github.io) prs: 4110
+96) SaltStack (repo.saltstack.com) prs: 4057
+97) The Guardian (theguardian.com) prs: 4049
+98) spring-cloud prs: 4039
+99) xamarin prs: 4039
+100) PowerShell (microsoft.com/powershell) prs: 4027
