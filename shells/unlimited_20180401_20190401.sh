@@ -22,7 +22,7 @@ ruby merger.rb data/unlimited.csv data/data_opensuse_projects_20180401_20190401.
 echo "Adding/Updating AutomotiveGradeLinux (AGL) case"
 ruby merger.rb data/unlimited.csv data/data_agl_20180401_20190401.csv || exit 1
 echo "Adding/Updating LibreOffice case"
-ruby merger.rb data/unlimited.csv data/libreoffice_20180401_20190401.csv || exit 1
+ruby merger.rb data/unlimited.csv data/data_libreoffice_projects_20180401_20190401.csv || exit 1
 echo "Adding/Updating FreeBSD Projects"
 ruby merger.rb data/unlimited.csv data/freebsd_20180401_20190401.csv || exit 1
 echo "Analysis"
