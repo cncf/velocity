@@ -1,7 +1,5 @@
 project,url
-Mozilla Common Voice,voice.mozilla.org
-Mozilla Iris,github.com/mozilla/iris
-Mozilla Foundation,foundation.mozilla.org
+Mozilla Gecko,developer.mozilla.org/en-US/docs/Gecko
 18F C2,cap.18f.gov
 18F CALC,calc.gsa.gov
 18F Federal Election Commision,api.open.fec.gov/developers
@@ -310,10 +308,14 @@ Microsoft eShopOnContainers,github.com/dotnet-architecture/eShopOnContainers
 MicrosoftDocs,docs.microsoft.com
 Mininet,mininet.org
 Mozilla,mozilla.org
+Mozilla Common Voice,voice.mozilla.org
 Mozilla Copyright,changecopyright.org
+Mozilla Foundation,foundation.mozilla.org
 Mozilla InvestiGator,mig.mozilla.org
+Mozilla Iris,github.com/mozilla/iris
 Mozilla Services,mozilla-services.github.io
 Mozilla donation forms,donate.mozilla.org
+Mozilla hubs,hubs.mozilla.com
 NATS,nats.io
 NServiceBus,particular.net/nservicebus
 Nakadi,github.com/zalando/nakadi

@@ -1,11 +1,9 @@
 repo,project
-mozilla/voice-web,Mozilla Common Voice
-mozilla/iris,Mozilla Iris
-mozilla/foundation.mozilla.org,Mozilla Foundation
 18F/18f.gsa.gov,18F Website
 18F/C2,18F C2
 18F/calc,18F CALC
 18F/cg-dashboard,Cloud Foundry Dashboard
+mozilla/gecko,Mozilla Gecko
 18F/cg-docs,Cloud.gov
 18F/cg-product,Cloud.gov
 18F/cg-site,Cloud.gov
@@ -830,6 +828,7 @@ mozilla/firefox10.org,Firefox
 mozilla/firefoxmarket,Firefox
 mozilla/firefoxos-quick-start,Firefox
 mozilla/fireplace,Firefox
+mozilla/foundation.mozilla.org,Mozilla Foundation
 mozilla/fx36start,Firefox
 mozilla/fxa,Firefox
 mozilla/fxa-activity-metrics,Firefox
@@ -865,11 +864,13 @@ mozilla/gcli,Firefox
 mozilla/geckodriver,Rust
 mozilla/get-synced,Firefox
 mozilla/hapi-fxa-oauth,Firefox
+mozilla/hubs,Mozilla hubs
 mozilla/hungry-js,Firefox
 mozilla/inneractive,Firefox
 mozilla/input-lib,Firefox
 mozilla/input.mozilla.org,Firefox
 mozilla/interest-dashboard,Firefox
+mozilla/iris,Mozilla Iris
 mozilla/itisatrap,Firefox
 mozilla/kanbugger,Firefox
 mozilla/kuma,Kuma
@@ -980,6 +981,7 @@ mozilla/transonic,Firefox
 mozilla/triage-report,Firefox
 mozilla/valence,Firefox
 mozilla/video_codec_module,Firefox
+mozilla/voice-web,Mozilla Common Voice
 mozilla/webapi-examples,Firefox
 mozilla/webcompat-addon,Firefox
 mozilla/webdriver-rust,Rust

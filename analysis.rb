@@ -416,11 +416,11 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     project = sum['project']
     ract[project] = item[2][:items].map { |i| [i['activity'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rcomm[project] = item[2][:items].map { |i| [i['commits'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
-    rauth[project] = item[2][:items].map { |i| [i['authors'].split(',').count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
+    rauth[project] = item[2][:items].map { |i| [i['authors'].split(',').uniq.count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rprs[project] = item[2][:items].map { |i| [i['prs'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     riss[project] = item[2][:items].map { |i| [i['issues'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rpush[project] = item[2][:items].map { |i| [i['pushes'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
-    rauth1[project] = item[2][:items].map { |i| [i['authors_alt1'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
+    rauth1[project] = item[2][:items].map { |i| [i['authors_alt1'].split(',').uniq.count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rauth2[project] = item[2][:items].map { |i| [i['authors_alt2'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     if !urls.key?(project)
       s = "Project ##{index} (#{sum['mode']}, #{sum[sort_col]}) #{project} (#{sum['org']}) (#{sum['repo']}) have no URL defined"
@@ -464,6 +464,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   puts "See Project's specific repo: `res[res.map { |i| i[0] }.index('openSUSE')][2][:items].select { |i| i['repo'] == 'openSUSE/kernel' }`"
   puts "Project's Repo's real authors count: `res[res.map { |i| i[0] }.index('openSUSE')][2][:items].select { |i| i['repo'] == 'openSUSE/kernel' }.first['authors'].split(',').count`"
   puts 'Projects matching regexp: `res.map.with_index { |e, i| [e, i] }.select { |e| e[0][0].match("/cloud/i".to_regexp) }.map { |e| "#{e[1]} #{e[0][0]}" }`'
+  puts 'Projects and authors: `res.each_with_index.map { |r, i| [i+1, r[0], r[1]] }`'
 
   binding.pry
 
