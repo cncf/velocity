@@ -3,7 +3,6 @@ repo,project
 18F/C2,18F C2
 18F/calc,18F CALC
 18F/cg-dashboard,Cloud Foundry Dashboard
-mozilla/gecko,Mozilla Gecko
 18F/cg-docs,Cloud.gov
 18F/cg-product,Cloud.gov
 18F/cg-site,Cloud.gov
@@ -99,6 +98,12 @@ GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/php-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
 HaliteChallenge/Halite,Halite
+IBM/CAST,CAST
+IBM/carbon-components,Carbon Design System
+IBM/carbon-components-angular,Carbon Design System
+IBM/carbon-components-react,Carbon Design System
+IBM/carbon-elements,Carbon Design System
+IBM/kui,Kui Shell
 JSFoundation/TAC,JS Foundation
 JSFoundation/cla-assistant,JS Foundation
 JSFoundation/js.foundation,JS Foundation
@@ -332,7 +337,11 @@ airbnb/lottie-android,Lottie
 airbnb/react-dates,React
 airbnb/react-native-maps,React
 airbnb/superset,Superset
+alibaba/AliOS-Things,AliOS Things
 alibaba/Dragonfly,Dragonfly
+alibaba/Sentinel,Sentinel
+alibaba/fescar,Seata
+alibaba/pouch,PouchContainer
 angular-fullstack/generator-angular-fullstack,Angular
 angular-ui/bootstrap,Angular
 angular-ui/ng-grid,Angular
@@ -711,16 +720,31 @@ googlei18n/libphonenumber,Google i18n
 grpc-ecosystem/grpc-opentracing,gRPC
 hacktoberfest17/programming,hacktoberfest17
 hashicorp/consul,Consul
+hashicorp/go-oracle-terraform,Terraform
 hashicorp/nomad,Nomad
+hashicorp/packer,Hashicorp Packer
 hashicorp/terraform,Terraform
+hashicorp/terraform-aws-consul,Terraform
+hashicorp/terraform-aws-vault,Terraform
+hashicorp/terraform-google-consul,Terraform
+hashicorp/terraform-google-vault,Terraform
+hashicorp/terraform-guides,Terraform
+hashicorp/terraform-website,Terraform
+hashicorp/vagrant,Vagrant
+hashicorp/vagrant-installers,Vagrant
 hashicorp/vault,Vault
 infernojs/inferno,Inferno
 intel/IA-Hardware-Composer,Intel HWC2
 intel/compute-runtime,Intel Graphics Compute Runtime
 intel/gvt-linux,GVT Linux
+intel/haxm,Intel HAXM
+intel/intel-graphics-compiler,Intel Graphics Compiler for OpenCL
 intel/intel-iot-refkit,Intel Iot
 intel/linux-sgx,Software Guard Extensions for Linux
+intel/llvm,Intel LLVM
 intel/media-driver,Intel Media Driver
+intel/nemu,Intel NEMU
+intel/webml-polyfill,Intel Web Machine Learning
 intel/zephyr.js,ZJS
 iotivity/ci-management,IoTivity
 iotivity/iotivity,IoTivity
@@ -777,6 +801,7 @@ mozilla/Twitter-Collage,Firefox
 mozilla/about-home-piano-snippet,Firefox
 mozilla/activate.mozilla.community,Activity Campaign site
 mozilla/activity-stream,Firefox
+mozilla/activity-stream-l10n,Firefox
 mozilla/adbhelper,Firefox
 mozilla/addon-builder-helper,Firefox
 mozilla/addons-frontend,Addons-Server
@@ -789,6 +814,7 @@ mozilla/areweslimyet-benchtester,Firefox
 mozilla/authorized,Firefox
 mozilla/bedrock,bedrock
 mozilla/blok,Firefox
+mozilla/blurts-server,Firefox Monitor
 mozilla/blushproof,Firefox
 mozilla/brackets,Brackets
 mozilla/browserid-local-verify,Firefox
@@ -861,6 +887,7 @@ mozilla/fxpay,Firefox
 mozilla/fxtest-dashboard,Firefox
 mozilla/gaia-custom-elements,Firefox
 mozilla/gcli,Firefox
+mozilla/gecko,Mozilla Gecko
 mozilla/geckodriver,Rust
 mozilla/get-synced,Firefox
 mozilla/hapi-fxa-oauth,Firefox
@@ -934,6 +961,7 @@ mozilla/node-firefox-start-simulator,Firefox
 mozilla/node-firefox-uninstall-app,Firefox
 mozilla/normandy,Firefox
 mozilla/normandy-addon,Firefox
+mozilla/notes,Firefox Notes
 mozilla/nunjucks,Nunjucks
 mozilla/onboard,Firefox
 mozilla/onyx,Firefox
@@ -961,6 +989,7 @@ mozilla/rocketfuel,Firefox
 mozilla/rr,Record and Replay Framework
 mozilla/rust-tooltool,Rust
 mozilla/science.mozilla.org,science.mozilla.org
+mozilla/send,Firefox Send
 mozilla/server-share,Firefox
 mozilla/shield-study-privacy,Firefox
 mozilla/sign-addon,Firefox

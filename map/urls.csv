@@ -1,5 +1,4 @@
 project,url
-Mozilla Gecko,developer.mozilla.org/en-US/docs/Gecko
 18F C2,cap.18f.gov
 18F CALC,calc.gsa.gov
 18F Federal Election Commision,api.open.fec.gov/developers
@@ -22,6 +21,7 @@ Addons-Server,addons.mozilla.org
 AirSim,github.com/Microsoft/AirSim
 Airflow,airflow.incubator.apache.org
 Akka,akka.io
+AliOS Things,github.com/alibaba/AliOS-Things
 Alibaba,alibaba.com
 Alluxio,github.com/Alluxio
 Amazon Docs,aws.amazon.com
@@ -78,6 +78,7 @@ Brigade,brigade.sh
 Broad Institute,broadinstitute.org
 Buildpacks,buildpacks.io
 CARTO,carto.com
+CAST,github.com/IBM/CAST
 CDF,cd.foundation
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
@@ -90,6 +91,7 @@ Caffe,github.com/Microsoft/caffe
 CakePHP,cakephp.org
 Campaign finance for everyone,beta.fec.gov/data
 Capirca,github.com/google/capirca
+Carbon Design System,carbondesignsystem.com
 Carrier Grade Linux,wiki.linuxfoundation.org/cgl/start
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
@@ -163,6 +165,9 @@ Federalist,federalist.18f.gov
 Finagle,twitter.github.io/finagle
 Finatra,twitter.github.io/finatra
 Firefox,mozilla.org/en-US/firefox
+Firefox Monitor,monitor.firefox.com
+Firefox Notes,firefox.com
+Firefox Send,send.firefox.com
 FlexboxLayout,github.com/google/flexbox-layout
 Fluentd,fluentd.org
 Flutter,flutter.io
@@ -210,6 +215,7 @@ HTTPS Everywhere,eff.org/https-everywhere
 Hackage,stackage.org
 Halite,halite.io
 Harbor,goharbor.io
+Hashicorp Packer,packer.io
 Helm,helm.sh
 Heron,heronstreaming.io
 HippieStationCode,github.com/HippieStationCode/HippieStation13
@@ -224,12 +230,17 @@ IO Visor,www.iovisor.org
 Inferno,infernojs.org
 InfluxDB,influxdata.com
 InfluxData,influxdata.com
+Intel Graphics Compiler for OpenCL,github.com/intel/intel-graphics-compiler
 Intel Graphics Compute Runtime,01.org/compute-runtime
+Intel HAXM,github.com/intel/haxm
 Intel HWC2,github.com/intel/IA-Hardware-Composer
 Intel Iot,github.com/intel/intel-iot-refkit
+Intel LLVM,llvm.org
 Intel Media Driver,github.com/intel/media-driver
+Intel NEMU,github.com/intel/nemu
 Intel Open Source Technology Center,01.org
 Intel TPM,github.com/tpm2-software/tpm2-tools
+Intel Web Machine Learning,github.com/intel/webml-polyfill
 IoTivity,www.iotivity.org
 Ionic,ionicframework.com
 Iron.io,iron.io
@@ -247,6 +258,7 @@ Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 KubeEdge,kubeedge.io
 Kubernetes,kubernetes.io
+Kui Shell,github.com/IBM/kui
 Kuma,developer.mozilla.org
 LLVM,llvm.org
 Laravel,laravel.com
@@ -311,6 +323,7 @@ Mozilla,mozilla.org
 Mozilla Common Voice,voice.mozilla.org
 Mozilla Copyright,changecopyright.org
 Mozilla Foundation,foundation.mozilla.org
+Mozilla Gecko,developer.mozilla.org/en-US/docs/Gecko
 Mozilla InvestiGator,mig.mozilla.org
 Mozilla Iris,github.com/mozilla/iris
 Mozilla Services,mozilla-services.github.io
@@ -411,6 +424,7 @@ PokemonGoF,maps.pikabot.org
 PokemonGoMap,pokemongomap.info
 Polymer,polymer-project.org
 Positron,github.com/mozilla/positron
+PouchContainer,pouchcontainer.io
 Power BI,powerbi.microsoft.com
 PowerShell,microsoft.com/powershell
 Project Tofino,mozilla.github.io/tofino
@@ -446,7 +460,9 @@ Sakai,sakaiproject.org
 SaltStack,repo.saltstack.com
 Satchel,microsoft.github.io/satcheljs
 Scrooge,twitter.github.io/scrooge
+Seata,github.com/seata/seata
 Sensu,sensuapp.org
+Sentinel,github.com/alibaba/Sentinel
 Sequelize,docs-sequelizejs.com
 Serverless Framework,serverless.com
 Shaka Player,github.com/google/shaka-player
@@ -508,6 +524,7 @@ VMware SDKs,vmware.com
 VMware Xenon,github.com/vmware/xenon
 VMware vSphere,vmware.github.io/vic
 VS Code,code.visualstudio.com
+Vagrant,vagrantup.com
 Vault,vaultproject.io
 Virtual Kubelet,virtual-kubelet.io
 Vitess,vitess.io

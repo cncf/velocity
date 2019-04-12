@@ -240,6 +240,7 @@ rust-lang,Rust
 rust-lang-nursery,Rust
 sakaiproject,Sakai
 saltstack,SaltStack
+seata,Seata
 sensu,Sensu
 sequelize,Sequelize
 serverless,Serverless Framework

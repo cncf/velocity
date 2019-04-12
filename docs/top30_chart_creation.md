@@ -315,6 +315,13 @@ Authors:      335
 - Use the above two values in a copy of this file: `data_freebsd_svn_20171101_20181101.csv`
 - Now rerun `shells/unlimited_20171101_20181101.sh` and see FreeBSD's rank along with the remaining final results.
 
+
+### Remove non-code projects
+
+- Some projects are already defined in `map/skip.csv` but examine `projects/unlimited_both.csv` and remove documentation related projects etc (we want to track them to see changes, but we don not want them in the final report).
+- Example: MicrosoftDocs, TheOdinProject
+- We may also want to remove some full-orgs which aren't a single project, like: ibm, intel, hashicorp, mozilla - but finally you need to split out separate projects from them.
+
 ### Generate final data
 - Now rerun `shells/unlimited_both.sh`.
 - When script is done running, a file `./projects/unlimited.csv` is (re)/generated. You need to import it in Google chart by doing:
