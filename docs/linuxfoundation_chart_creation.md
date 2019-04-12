@@ -20,11 +20,13 @@ Run the query for a year, for example: `./run_bq.sh lf 2018-04-01 2019-04-01`. I
 
 It will generate a file for example: `data/data_lf_projects_20180401_20190401.csv`.
 
-<b>Add CNCF projects</b>
+### Add CNCF projects
+
 - `ruby merger.rb data/data_lf_projects_20180401_20190401.csv data/data_cncf_projects_20180401_20190401.csv`.
 
 
-<b>Add Linux data</b>
+### Add Linux data
+
 Try running this from the velocity project's root folder:
 `ruby add_linux.rb data/data_lf_projects_20180401_20190401.csv data/data_linux.csv 2018-04-01 2019-04-01`.
 - A message will be shown: `Data range not found in data/data_linux.csv: 2018-04-01 - 2019-04-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
@@ -46,10 +48,11 @@ Try running this from the velocity project's root folder:
 - Run `PG_PASS=... ./linux_commits.sh 2018-04-01 2019-04-01` that will give values for number of pushes and commits. This is not needed but recommended. Otherwise put `0,0` for commits and pushes. Changesets are used to calculate output commits.
 - Run `./lkml_analysis.rb 2018-04-01 2019-04-01` to get number of LKML emails (all) and new threads.
 Run this from the velocity project's root folder again:
-`ruby add_linux.rb data/data_lf_projects_20180401_20190401.csv data/data_linux.csv 2018-04-01 2019-04-01`
+`ruby add_linux.rb data/data_lf_projects_20180401_20190401.csv data/data_linux.csv 2018-04-01 2019-04-01`.
 
 
-<b>Add AGL (Automotive Grade Linux) data</b>
+### Add AGL (Automotive Grade Linux) data
+
 - Go to: https://wiki.automotivelinux.org/agl-distro/source-code and get source code somewhere:
 - `mkdir agl; cd agl`
 - `curl https://storage.googleapis.com/git-repo-downloads/repo > repo; chmod +x ./repo`

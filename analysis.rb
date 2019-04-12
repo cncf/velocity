@@ -406,8 +406,11 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   ract = {}
   rcomm = {}
   rauth = {}
+  rauth1 = {}
+  rauth2 = {}
   rprs = {}
   riss = {}
+  rpush = {}
   res.each_with_index do |item, index|
     sum = item[2][:sum]
     project = sum['project']
@@ -416,6 +419,9 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     rauth[project] = item[2][:items].map { |i| [i['authors'].split(',').count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rprs[project] = item[2][:items].map { |i| [i['prs'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     riss[project] = item[2][:items].map { |i| [i['issues'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
+    rpush[project] = item[2][:items].map { |i| [i['pushes'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
+    rauth1[project] = item[2][:items].map { |i| [i['authors_alt1'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
+    rauth2[project] = item[2][:items].map { |i| [i['authors_alt2'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     if !urls.key?(project)
       s = "Project ##{index} (#{sum['mode']}, #{sum[sort_col]}) #{project} (#{sum['org']}) (#{sum['repo']}) have no URL defined"
       if index <= 50
@@ -447,7 +453,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   tops = res[0..40].map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
   all = res.map.with_index { |it, idx| "#{idx}) #{it[0]} (#{it[2][:sum]['mode']} #{it[2][:sum]['url']}): #{it[1]} (#{it[2][:sum]['org']}) (#{it[2][:sum]['repo']})" }
   puts tops
-  puts "`all` to see all data, `miss` to see missing project's urls, `ract['key'] to see `key`'s repos sorted by activity desc (also rcomm, rauth, rprs, riss for commits, authors, PRs, issues)"
+  puts "`all` to see all data, `miss` to see missing project's urls, `ract['key'] to see `key`'s repos sorted by activity desc (also rcomm, rauth, rprs, riss, rpush for commits, authors, PRs, issues, pushes)"
   puts "Use `rauth[res[N][0]]` to examine what creates N-th top project, actually to have a good Top N data, You should define all data correctly for 0-N"
   puts "Or by project name `rauth[res[res.map { |i| i[0] }.index('project_name')][0]]`"
   puts "Project's index is: `res.map { |i| i[0] }.index('project_name')`, top N: `res.map { |i| i[0] }[0..N]`"
