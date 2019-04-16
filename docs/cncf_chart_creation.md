@@ -28,7 +28,7 @@ Run `analysis.rb` with:
 ruby analysis.rb data/data_cncf_projects_20180401_20190401.csv projects/projects_cncf_20180401_20190401.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
-Now update commits counts to use git instead of BigQuery data:
+Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
 
 - `PG_PASS=... ./update_cncf_projects_commits.rb 2018-04-01 2019-04-01`.
 - `ruby update_projects.rb projects/projects_cncf_20180401_20190401.csv data/data_cncf_update_2018-04-01_2019-04-01.csv -1`.

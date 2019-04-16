@@ -1,5 +1,6 @@
 #!/bin/bash
 # REPOS=... - manually specify repos
+# TODO: skip bots
 if [ -z "$PG_PASS" ]
 then
   echo "$0: you need to set PG_PASS=..."

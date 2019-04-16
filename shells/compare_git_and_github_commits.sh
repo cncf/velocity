@@ -1,6 +1,7 @@
 #!/bin/bash
 # REPOS=... - manually specify repos
 # TODO: the differences are mostly because many sub-commits are created with their actual commit date which can be outside the same range for git reporting merge commits
+# TODO: skip bots
 if [ -z "$PG_PASS" ]
 then
   echo "$0: you need to set PG_PASS=..."

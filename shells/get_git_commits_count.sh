@@ -1,5 +1,6 @@
 #!/bin/bash
 # REPOS=... - manually specify repos
+# TODO: skip bots
 if [ -z "$PG_PASS" ]
 then
   echo "$0: you need to set PG_PASS=..."
@@ -37,7 +38,8 @@ do
     continue
   fi
   cd "${HOME}/devstats_repos/$repo" 2>/dev/null || echo "no $repo repo"
-  git log --all --pretty=format:"%H" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
+  #git log --all --pretty=format:"%H" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
+  git log --all --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
   if [ ! "$?" = "0" ]
   then
     echo "problems getting $repo git log"
