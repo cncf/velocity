@@ -47,7 +47,7 @@ do
 done
 cd "${cwd}"
 sed -i '/^$/d' "${log}"
-vim -c '%s/"//g' -c '%s/,//g' -c '%s/\~\~\~\~/,/g' -c 'wq!' "${log}"
+vim --not-a-term -c '%s/"//g' -c '%s/,//g' -c '%s/\~\~\~\~/,/g' -c 'wq!' "${log}"
 echo "author_email,committer_email,sha" > out
 cat "${log}" | sort | uniq >> out && mv out "${log}"
 ls -l "${log}"
