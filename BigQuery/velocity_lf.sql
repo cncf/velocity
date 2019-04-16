@@ -43,7 +43,8 @@ WHERE
       'kubernetes-sig-testing', 'kubernetes-providers', 'kubernetes-addons', 'kubernetes-test', 'jenkins-x',
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'spinnaker', 'tektoncd', 'jenkinsci',
-      'iovisor', 'mininet', 'opennetworkinglab', 'p4lang', 'OpenBMP', 'tungstenfabric', 'opencord'
+      'iovisor', 'mininet', 'opennetworkinglab', 'p4lang', 'OpenBMP', 'tungstenfabric', 'opencord',
+      'networkservicemesh', 'cri-o'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',
@@ -54,7 +55,8 @@ WHERE
       'docker/notary', 'youtube/vitess', 'appc/cni', 'miekg/coredns', 'coreos/rocket',
       'rktproject/rkt', 'datawire/telepresence', 'RichiH/OpenMetrics', 'vmware/harbor',
       'coreos/etcd', 'pingcap/tikv', 'weaveworks/cortex', 'weaveworks/prism', 'knative/build',
-      'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade'
+      'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade',
+      'ligato/networkservicemesh',
     )
   )
   and type in (

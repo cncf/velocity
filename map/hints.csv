@@ -1,6 +1,5 @@
 repo,project
 18F/18f.gsa.gov,18F Website
-ligato/networkservicemesh,Network Service Mesh
 18F/C2,18F C2
 18F/calc,18F CALC
 18F/cg-dashboard,Cloud Foundry Dashboard
@@ -787,6 +786,7 @@ kubernetes/kubernetes,Kubernetes
 kubernetes/kubernetes.github.io,Kubernetes
 kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
+ligato/networkservicemesh,Network Service Mesh
 lyft/envoy,Envoy
 mamedev/mame,MAME
 miekg/coredns,CoreDNS

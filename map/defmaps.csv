@@ -1,6 +1,6 @@
 name,project
-networkservicemesh,Network Service Mesh
 01org,=SKIP
+cri-o,CRI-O
 =External,=SKIP
 Azure,=SKIP
 GoogleCloudPlatform,=SKIP
@@ -195,6 +195,7 @@ mitodl,MIT Office of Digital Learning
 mozilla,Mozilla
 mozilla-services,Mozilla Services
 nats-io,NATS
+networkservicemesh,Network Service Mesh
 neveragaindottech,neveragain.tech
 nextcloud,Nextcloud
 nodejs,Node.js

@@ -1,5 +1,4 @@
 project,url
-Network Service Mesh,networkservicemesh.io
 18F C2,cap.18f.gov
 18F CALC,calc.gsa.gov
 18F Federal Election Commision,api.open.fec.gov/developers
@@ -335,6 +334,7 @@ NServiceBus,particular.net/nservicebus
 Nakadi,github.com/zalando/nakadi
 NativeScript,nativescript.org
 Netflix,netflix.github.io
+Network Service Mesh,networkservicemesh.io
 Next.js,zeit.co/blog/next2
 Nextcloud,nextcloud.com
 NixOS,nixos.org
