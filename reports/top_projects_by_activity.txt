@@ -94,8 +94,8 @@ Top projects by activity:
 93) vaadin activity: 44552
 94) PaddlePaddle activity: 44056
 95) ipfs activity: 42874
-96) testpalerra activity: 42847
-97) Keybase (keybase.io) activity: 42150
-98) Ant Design (ant.design) activity: 42006
-99) publiclab activity: 41457
-100) Laravel (laravel.com) activity: 41187
+96) Keybase (keybase.io) activity: 42150
+97) Ant Design (ant.design) activity: 42006
+98) publiclab activity: 41457
+99) Laravel (laravel.com) activity: 41187
+100) material-components activity: 41094

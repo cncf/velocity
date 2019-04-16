@@ -39,8 +39,8 @@ Top projects by authors:
 38) Ruby on Rails (rubyonrails.org) authors: 669
 39) ODOO (odoo-community.org) authors: 663
 40) Auth0 (auth0.com) authors: 650
-41) Alibaba (alibaba.com) authors: 646
-42) Pivotal Cloud Foundry (pivotal.io) authors: 646
+41) Pivotal Cloud Foundry (pivotal.io) authors: 646
+42) Alibaba (alibaba.com) authors: 646
 43) WiX (wixtoolset.org) authors: 627
 44) Uber Open Source (uber.github.io) authors: 624
 45) Mapbox (mapbox.com) authors: 618
@@ -48,8 +48,8 @@ Top projects by authors:
 47) Nextcloud (nextcloud.com) authors: 592
 48) Bazel (bazel.build) authors: 590
 49) Go (golang.org) authors: 574
-50) SAP authors: 572
-51) bioconda (bioconda.github.io) authors: 572
+50) bioconda (bioconda.github.io) authors: 572
+51) SAP authors: 572
 52) Godot Engine (godotengine.org) authors: 571
 53) VMware (vmware.github.io) authors: 565
 54) qmk authors: 560
@@ -57,8 +57,8 @@ Top projects by authors:
 56) mui-org authors: 548
 57) fossasia (fossasia.org) authors: 547
 58) react-native-community authors: 540
-59) Shopify (shopify.com) authors: 538
-60) spring-projects authors: 538
+59) spring-projects authors: 538
+60) Shopify (shopify.com) authors: 538
 61) TrustWallet authors: 536
 62) Office Developer (dev.office.com) authors: 533
 63) SaltStack (repo.saltstack.com) authors: 531
@@ -80,8 +80,8 @@ Top projects by authors:
 79) elementary authors: 483
 80) Netflix (netflix.github.io) authors: 480
 81) webpack (github.com/webpack) authors: 478
-82) Azure-Samples authors: 471
-83) magento-engcom authors: 471
+82) magento-engcom authors: 471
+83) Azure-Samples authors: 471
 84) istio authors: 466
 85) mozilla-l10n authors: 464
 86) getsentry authors: 462
@@ -98,4 +98,4 @@ Top projects by authors:
 97) grafana authors: 441
 98) facebookresearch authors: 441
 99) GitHub (github.com) authors: 435
-100) Government Digital Service (gds.blog.gov.uk) authors: 434
+100) AMP (ampproject.org) authors: 434
