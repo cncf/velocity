@@ -38,8 +38,7 @@ do
     continue
   fi
   cd "${HOME}/devstats_repos/$repo" 2>/dev/null || echo "no $repo repo"
-  #git log --all --pretty=format:"%H" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
-  git log --all --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
+  git log --all --pretty=format:"%aE~~~~%cE~~~~%H" --since="${2}" --until="${3}" >> "${log}" 2>/dev/null
   if [ ! "$?" = "0" ]
   then
     echo "problems getting $repo git log"
@@ -48,7 +47,11 @@ do
   fi
 done
 sed -i '/^$/d' "${log}"
-cat "${log}" | sort | uniq > out && mv out "${log}"
+vim -c '%s/"//g' -c '%s/,//g' -c '%s/\~\~\~\~/,/g' -c 'wq!' "${log}"
+echo "author_email,committer_email,sha" > out
+cat "${log}" | sort | uniq >> out && mv out "${log}"
 ls -l "${log}"
-commits=`cat "${log}" | wc -l`
+cp "${log}" /tmp/
+bots=`cat ~/dev/go/src/github.com/cncf/devstats/util_sql/only_bots.sql`
+commits=`db.sh psql tuf -q -c 'create temp table tcom(c text, a text, sha varchar(40))' -c "copy tcom from '/tmp/git.log' with (format csv)" -c "create temp table bots as select distinct email from gha_actors_emails where actor_id in (select id from gha_actors where lower(login) $bots)" -c "select count(distinct sha) from tcom where a not in (select email from bots) and c not in (select email from bots)" -tAc 'drop table bots' -c 'drop table tcom'`
 echo "${1}: ${2} - ${3}: ${commits} commits"
