@@ -1,6 +1,5 @@
 #!/bin/bash
 # REPOS=... - manually specify repos
-# TODO: skip bots
 if [ -z "$PG_PASS" ]
 then
   echo "$0: you need to set PG_PASS=..."
@@ -25,7 +24,7 @@ if [ -z "$REPOS" ]
 then
   repos=`db.sh psql "${1}" -tAc "select distinct name from gha_repos"`
 else
-  repos="${REPOS}"
+  repos="${REPOS//[,\']/}"
 fi
 cwd=`pwd`
 log="${cwd}/git.log"
@@ -46,6 +45,7 @@ do
     echo "" >> "${log}"
   fi
 done
+cd "${cwd}"
 sed -i '/^$/d' "${log}"
 vim -c '%s/"//g' -c '%s/,//g' -c '%s/\~\~\~\~/,/g' -c 'wq!' "${log}"
 echo "author_email,committer_email,sha" > out
@@ -53,5 +53,6 @@ cat "${log}" | sort | uniq >> out && mv out "${log}"
 ls -l "${log}"
 cp "${log}" /tmp/
 bots=`cat ~/dev/go/src/github.com/cncf/devstats/util_sql/only_bots.sql`
-commits=`db.sh psql tuf -q -c 'create temp table tcom(c text, a text, sha varchar(40))' -c "copy tcom from '/tmp/git.log' with (format csv)" -c "create temp table bots as select distinct email from gha_actors_emails where actor_id in (select id from gha_actors where lower(login) $bots)" -c "select count(distinct sha) from tcom where a not in (select email from bots) and c not in (select email from bots)" -tAc 'drop table bots' -c 'drop table tcom'`
+commits=`db.sh psql gha -q -c 'create temp table tcom(c text, a text, sha varchar(40))' -c "copy tcom from '/tmp/git.log' with (format csv)" -c "create temp table bots as select distinct email from gha_actors_emails where actor_id in (select id from gha_actors where lower(login) $bots)" -c "select count(distinct sha) from tcom where a not in (select email from bots) and c not in (select email from bots)" -tAc 'drop table bots' -c 'drop table tcom'`
 echo "${1}: ${2} - ${3}: ${commits} commits"
+echo "$commits" > commits.txt
