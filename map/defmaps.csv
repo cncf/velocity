@@ -1,6 +1,5 @@
 name,project
 01org,=SKIP
-cri-o,CRI-O
 =External,=SKIP
 Azure,=SKIP
 GoogleCloudPlatform,=SKIP
@@ -103,6 +102,7 @@ coredns,CoreDNS
 coreos,CoreOS
 cortexproject,Cortex
 cregit/cregit,cregit
+cri-o,CRI-O
 crosscloudci,CNCF
 d3athrow/vgstation13,vgstation13
 dart-lang,Dart
