@@ -1,36 +1,36 @@
 #!/bin/sh
 echo "Restoring BigQuery output"
-cp data/unlimited_output_20171101_20181101.csv data/unlimited.csv
+cp data/unlimited_output_20180701_20190701.csv data/unlimited.csv
 echo "Adding Linux kernel data"
-ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2017-11-01 2018-11-01
+ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2018-07-01 2019-07-01
 echo "Adding GitLab data"
-ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2017-11-01 2018-11-01 gitlab gitlab/GitLab
+ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2018-07-01 2019-07-01 gitlab gitlab/GitLab
 echo "Adding/Updating Cloud Foundry Projects"
 # This uses "force" mode to update Cloud Foundry values to lower ones (this is because we have special query output for CF projects which skips more bots, so lower values are expected)
-ruby merger.rb data/unlimited.csv data/data_cloudfoundry_20171101_20181101.csv force
+ruby merger.rb data/unlimited.csv data/data_cloudfoundry_20180701_20190701.csv force
 # Don't forget to add exception to map/ranges.csv when adding projects pulled with different BigQuery (specially with 0s for issues, PRs etc)
 echo "Adding/Updating CNCF Projects"
-ruby merger.rb data/unlimited.csv data/data_cncf_projects_20171101_20181101.csv
+ruby merger.rb data/unlimited.csv data/data_cncf_projects_20180701_20190701.csv
 echo "Adding/Updating WebKit case"
-ruby merger.rb data/unlimited.csv data/webkit_20171101_20181101.csv
+ruby merger.rb data/unlimited.csv data/webkit_20180701_20190701.csv
 echo "Adding/Updating OpenStack case"
-ruby merger.rb data/unlimited.csv openstack/data_openstack_2017-11-01_2018-11-01.csv
+ruby merger.rb data/unlimited.csv openstack/data_openstack_2018-07-01_2019-07-01.csv
 echo "Adding/Updating Apache case"
-ruby merger.rb data/unlimited.csv data/apache_20171101_20181101.csv
+ruby merger.rb data/unlimited.csv data/apache_20180701_20190701.csv
 echo "Adding/Updating Chromium case"
-ruby merger.rb data/unlimited.csv data/data_chrome_chromium_20171101_20181101.csv
+ruby merger.rb data/unlimited.csv data/data_chrome_chromium_20180701_20190701.csv
 echo "Adding/Updating openSUSE case"
-ruby merger.rb data/unlimited.csv data/data_opensuse_20171101_20181101.csv
+ruby merger.rb data/unlimited.csv data/data_opensuse_20180701_20190701.csv
 echo "Adding/Updating AGL case"
-ruby merger.rb data/unlimited.csv data/data_agl_20171101_20181101.csv
+ruby merger.rb data/unlimited.csv data/data_agl_20180701_20190701.csv
 echo "Adding/Updating LibreOffice case"
-ruby merger.rb data/unlimited.csv data/data_libreoffice_20171101_20181101.csv
+ruby merger.rb data/unlimited.csv data/data_libreoffice_20180701_20190701.csv
 echo "Adding/Updating FreeBSD case"
-ruby merger.rb data/unlimited.csv data/data_freebsd_20171101_20181101.csv
+ruby merger.rb data/unlimited.csv data/data_freebsd_20180701_20190701.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating Apache Projects using Jira data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20171101_20181101.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20180701_20190701.csv -1
 echo "Updating OpenStack projects using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs.csv -1
 echo "Updating Chromium project using their bug tracking data"
@@ -40,7 +40,7 @@ ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git.cs
 echo "Updating WebKit project using gitdm and other"
 ruby update_projects.rb projects/unlimited_both.csv data/data_webkit_gitdm_and_others.csv -1
 echo "Updating FreeBSD data from SVN logs"
-ruby update_projects.rb projects/unlimited_both.csv ./data/data_freebsd_svn_20171101_20181101.csv -1
+ruby update_projects.rb projects/unlimited_both.csv ./data/data_freebsd_svn_20180701_20190701.csv -1
 echo "Generating Projects Ranks statistics"
 ./shells/report_cncf_project_ranks.sh
 ./shells/report_other_project_ranks.sh
