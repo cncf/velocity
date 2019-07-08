@@ -232,6 +232,8 @@ p4lang,P4 Language
 pingcap,PingCAP
 pivotal-cf,Pivotal Cloud Foundry
 prometheus,Prometheus
+openebs,OpenEBS
+open-telemetry,OpenTelemetry
 pytorch,pytorch
 rackt,React
 rails,Ruby on Rails
