@@ -16,20 +16,20 @@ Go to this [CNCF page](https://www.linuxfoundation.org/projects/) to find a list
 
 For every project, find a github repo and add it to a [query](BigQuery/velocity_lf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `./run_bq.sh lf 2018-04-01 2019-04-01`. It takes about 1+TB and costs about $5+.
+Run the query for a year, for example: `./run_bq.sh lf 2018-07-01 2019-07-01`. It takes about 1+TB and costs about $5+.
 
-It will generate a file for example: `data/data_lf_projects_20180401_20190401.csv`.
+It will generate a file for example: `data/data_lf_projects_20180701_20190701.csv`.
 
 ### Add CNCF projects
 
-- `ruby merger.rb data/data_lf_projects_20180401_20190401.csv data/data_cncf_projects_20180401_20190401.csv`.
+- `ruby merger.rb data/data_lf_projects_20180701_20190701.csv data/data_cncf_projects_20180701_20190701.csv`.
 
 
 ### Add Linux data
 
 Try running this from the velocity project's root folder:
-`ruby add_linux.rb data/data_lf_projects_20180401_20190401.csv data/data_linux.csv 2018-04-01 2019-04-01`.
-- A message will be shown: `Data range not found in data/data_linux.csv: 2018-04-01 - 2019-04-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
+`ruby add_linux.rb data/data_lf_projects_20180701_20190701.csv data/data_linux.csv 2018-07-01 2019-07-01`.
+- A message will be shown: `Data range not found in data/data_linux.csv: 2018-07-01 - 2019-07-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
 - Add a row for the time period in `data/data_linux.csv`: `torvalds,torvalds/linux,2016-11-01,2017-11-01,0,0,0,0,0,0,0,0`
 	- Get `cncf/gitdm` with `git clone https://github.com/cncf/gitdm.git`
 	- Get or update local linux kernel repo with `cd ~/dev/linux && git checkout master && git reset --hard && git pull`. An alternative to it (if you don't have the linux repo cloned) is: `cd ~/dev/`, `git clone https://github.com/torvalds/linux.git`.
@@ -45,10 +45,10 @@ Try running this from the velocity project's root folder:
 	```
 	torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,0,0,0,0
 	```
-- Run `PG_PASS=... ./linux_commits.sh 2018-04-01 2019-04-01` that will give values for number of pushes and commits. This is not needed but recommended. Otherwise put `0,0` for commits and pushes. Changesets are used to calculate output commits.
-- Run `./lkml_analysis.rb 2018-04-01 2019-04-01` to get number of LKML emails (all) and new threads.
+- Run `PG_PASS=... ./linux_commits.sh 2018-07-01 2019-07-01` that will give values for number of pushes and commits. This is not needed but recommended. Otherwise put `0,0` for commits and pushes. Changesets are used to calculate output commits.
+- Run `./lkml_analysis.rb 2018-07-01 2019-07-01` to get number of LKML emails (all) and new threads.
 Run this from the velocity project's root folder again:
-`ruby add_linux.rb data/data_lf_projects_20180401_20190401.csv data/data_linux.csv 2018-04-01 2019-04-01`.
+`ruby add_linux.rb data/data_lf_projects_20180701_20190701.csv data/data_linux.csv 2018-07-01 2019-07-01`.
 
 
 ### Add AGL (Automotive Grade Linux) data
@@ -66,7 +66,7 @@ Processed 67124 csets from 1155 developers
 A total of 13431516 lines added, 12197416 removed, 24809064 changed (delta 1234100)
 ```
 - You can get number of authors: 1155 and commits 67124 (this is for all time)
-- To get data for some specific data range: `cd agl; DTFROM="2018-04-01" DTTO="2019-04-01" ./run_multirepo_range.sh` ==> `agl.txt`.
+- To get data for some specific data range: `cd agl; DTFROM="2018-07-01" DTTO="2019-07-01" ./run_multirepo_range.sh` ==> `agl.txt`.
 ```
 Processed 7152 csets from 365 developers
 ```
@@ -78,17 +78,17 @@ Processed 7152 csets from 365 developers
 - Comments would be 2 * commits = 14304
 - Activity = sum of all others (comments, commits, issues, prs)
 - Create a file based on `data/data_agl_201611_201710.csv` and apply proper data values
-- Run `ruby merger.rb data/data_lf_projects_20180401_20190401.csv data/data_agl_20180401_20190401.csv`.
+- Run `ruby merger.rb data/data_lf_projects_20180701_20190701.csv data/data_agl_20180701_20190701.csv`.
 
 Run `analysis.rb` with
 ```
-ruby analysis.rb data/data_lf_projects_20180401_20190401.csv projects/projects_lf_20180401_20190401.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+ruby analysis.rb data/data_lf_projects_20180701_20190701.csv projects/projects_lf_20180701_20190701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Now update CNCF projects commits counts to use git instead of BigQuery data:
 
-- `PG_PASS=... ./update_cncf_projects_commits.rb 2018-04-01 2019-04-01`. If you generated CNCF data just before generating LF data, then you already have that step completed.
-- `ruby update_projects.rb projects/projects_lf_20180401_20190401.csv data/data_cncf_update_2018-04-01_2019-04-01.csv -1`.
+- `PG_PASS=... ./update_cncf_projects_commits.rb 2018-07-01 2019-07-01`. If you generated CNCF data just before generating LF data, then you already have that step completed.
+- `ruby update_projects.rb projects/projects_lf_20180701_20190701.csv data/data_cncf_update_2018-07-01_2019-07-01.csv -1`.
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/16LBeKR0HQU-5m8pwHvYCPiyo3KiU8VWbwXFCaYk9q48/edit?usp=sharing).
 
