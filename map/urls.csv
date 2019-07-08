@@ -364,6 +364,7 @@ Open Source Survey,opensourcesurvey.org
 Open vSwitch,openvswitch.org
 OpenBMP,gitter.im/openbmp
 OpenDaylight,www.opendaylight.org
+OpenEBS,openebs.io
 OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
 OpenMAMA,www.openmama.org
@@ -403,6 +404,7 @@ OpenStack Swift,openstack.org
 OpenStack Tools,openstack.org
 OpenStack Web,openstack.org
 OpenSwitch,www.openswitch.net
+OpenTelemetry,opentelemetry.io
 OpenTracing,opentracing.io
 OpenWrt,openwrt.org
 Openstack Tools,openstack.org
@@ -430,8 +432,6 @@ Power BI,powerbi.microsoft.com
 PowerShell,microsoft.com/powershell
 Project Tofino,mozilla.github.io/tofino
 Prometheus,prometheus.io
-OpenEBS,openebs.io
-OpenTelemetry,opentelemetry.io
 Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
 RDF4J,rdf4j.org
