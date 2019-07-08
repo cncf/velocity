@@ -47,13 +47,14 @@ The chart now only contains GitHub-hosted projects and for Linux Foundation purp
 
 
 ### Example - Top 30 chart data preparation for a new date range
+
 Existing script `shells/unlimited_both.sh` generates our chart data for 2018-07-01 to 2019-07-01. Let's assume we want to generate the chart for a new date range: 2018-07-01 to 2019-07-01. <br/>This is a step-by-step tutorial on how to accomplish that.
 - Copy `shells/unlimited_both.sh` to `shells/unlimited_20170701-20190701.sh`
 - Keep `shells/unlimited_20180701-20190701.sh` opened in some other terminal window `vi shells/unlimited_20180701-20190701.sh` as we need to update all steps. Change all the dates to a new range now so you do not forget and run mixed data.
 - First, we need unlimited BigQuery output for a new date range:
 ```
 echo "Restoring BigQuery output"
-cp data/unlimited_output_201807_201704.csv data/unlimited.csv
+cp data/data_top30_projects_20180701_20190701.csv data/unlimited.csv
 ```
 - We need the `data/unlimited_output_201807_201907.csv` file. To generate this one, we need to run BigQuery for the new date range.
 - Open the sql file that generated the current range's data: `vi BigQuery/query_201807_201907_unlimited.sql`
