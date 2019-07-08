@@ -129,6 +129,11 @@ torvalds,torvalds/linux,2018-07-01,2019-07-01,64482,3790914,1522111,3803,0,0,0,0
 Run this from the velocity project's root folder again:
 `ruby add_linux.rb data/data_lf_projects_20180701_20190701.csv data/data_linux.csv 2018-07-01 2019-07-01`
 
+
+### CNCF Projects case
+
+- We have a line in `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv ata/data_cncf_projects_20180701_20190701.csv`
+
 ### Gitlab
 
 - GitLab case: Their repo is: `https://gitlab.com/gitlab-org/gitlab-ce`, clone it via: `git clone https://gitlab.com/gitlab-org/gitlab-ce.git` in `~/dev/` directory. If already exists, update with `cd gitlab-ce`, `git pull`
@@ -156,9 +161,6 @@ Merge Requests: 371,5 pages * 20 = 7430
 - Run `./run_bq.sh cf 2018-07-01 2019-07-01 || echo 'error'` to get Cloud Foundry data. It will generate `data/data_cf_projects_20180701_20190701.csv` file.
 - Update (and eventually manually run) the CF case (in `shells/unlimited_20180701-20190701.sh`): `ruby merger.rb data/unlimited.csv data/data_cloudfoundry_201807_201907.csv force`
 
-### CNCF Projects case
-
-- We have a line in `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv ata/data_cncf_projects_20180701_20190701.csv`
 
 ### OpenStack case:</b>
 
