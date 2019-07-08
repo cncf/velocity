@@ -16,26 +16,26 @@ Go to this [CNCF page](https://www.cncf.io/projects/) to find a list of current 
 
 For every project, find a github repo and add it to a [query](BigQuery/velocity_cncf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `./run_bq.sh cncf 2018-04-01 2019-04-01`. It takes about 900GB and costs about $4.50.
+Run the query for a year, for example: `./run_bq.sh cncf 2018-07-01 2019-07-01`. It takes about 900GB and costs about $4.50.
 
-It will generate a file for example: `data/data_cncf_projects_20180401_20190401.csv`.
+It will generate a file for example: `data/data_cncf_projects_20180701_20190701.csv`.
 
 - You can optionally compare commits counts from BigQuery to git commits counts via: `PG_PASS=... ./shells/get_git_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
 - You can optionally compare commits counts from BigQuery to DevStats commits counts via: `PG_PASS=... ./shells/get_devstats_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
 
 Run `analysis.rb` with:
 ```
-ruby analysis.rb data/data_cncf_projects_20180401_20190401.csv projects/projects_cncf_20180401_20190401.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+ruby analysis.rb data/data_cncf_projects_20180701_20190701.csv projects/projects_cncf_20180701_20190701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
 
-- `PG_PASS=... ./update_cncf_projects_commits.rb 2018-04-01 2019-04-01`.
-- `ruby update_projects.rb projects/projects_cncf_20180401_20190401.csv data/data_cncf_update_2018-04-01_2019-04-01.csv -1`.
+- `PG_PASS=... ./update_cncf_projects_commits.rb 2018-07-01 2019-07-01`.
+- `ruby update_projects.rb projects/projects_cncf_20180701_20190701.csv data/data_cncf_update_2018-07-01_2019-07-01.csv -1`.
 
 To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20170801_20180801.csv projects/projects_cncf_k8s_non_k8s_20170101_20180801.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
 
-Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/10LmMFBcjqTOjEjGAXcvebhrhEKQIvCY3BLVr7QP_CU0/edit?usp=sharing).
+Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/1S1Yq-Z4Iir49Uu3L0bWA5hEVDcsOrrGrtgJ5PH2dIKk/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1. <br />
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
