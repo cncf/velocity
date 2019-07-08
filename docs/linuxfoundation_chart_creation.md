@@ -93,7 +93,7 @@ Now update CNCF projects commits counts to use git instead of BigQuery data:
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1dCe99AyOEhQhuEyhwIn_P2thVtjQXF1cGFiLo8fhZZM/edit?usp=sharing).
 
-Put results of the analysis into a file and import the data in the 'Data' sheet in cell A66. <br />
+Put results of the analysis into a file and import the data in the 'Data' sheet in cell A100.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
 
 Select the Chart tab, it will be updated automatically
