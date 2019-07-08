@@ -9,7 +9,7 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./linuxfoundation_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/16LBeKR0HQU-5m8pwHvYCPiyo3KiU8VWbwXFCaYk9q48/edit?usp=sharing).
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1dCe99AyOEhQhuEyhwIn_P2thVtjQXF1cGFiLo8fhZZM/edit#gid=134798507).
 
 ### Chart data
 Go to this [CNCF page](https://www.linuxfoundation.org/projects/) to find a list of current projects.

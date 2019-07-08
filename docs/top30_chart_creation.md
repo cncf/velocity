@@ -9,7 +9,7 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./top30_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
 
 ### Chart data
 Before you begin, clone the cncf/gitdm repo as you will use it in addition to velocity.
@@ -36,7 +36,7 @@ Run `analysis.rb` with
 ruby analysis.rb data/data_top30_projects_20180401_20190401.csv projects/projects_top30_20180401_20190401.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1. <br />
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
