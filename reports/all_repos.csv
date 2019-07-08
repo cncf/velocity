@@ -215,6 +215,7 @@ crosscloudci/onap-ciservice
 crosscloudci/onap-so-configuration
 crosscloudci/prometheus-configuration
 docker/containerd
+docs-agl
 dragonflyoss/Dragonfly
 dragonflyoss/community
 dragonflyoss/dashboard
@@ -309,6 +310,11 @@ goharbor/goharbor.github.io
 goharbor/harbor
 goharbor/harbor-helm
 goharbor/website
+graphql/express-graphql
+graphql/graphiql
+graphql/graphql-js
+graphql/graphql-wg
+graphql/graphql.github.io
 grpc-ecosystem/awesome-grpc
 grpc-ecosystem/go-grpc-middleware
 grpc-ecosystem/go-grpc-prometheus
