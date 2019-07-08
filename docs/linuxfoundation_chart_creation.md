@@ -91,7 +91,7 @@ Now update CNCF projects commits counts to use git instead of BigQuery data:
 - `PG_PASS=... ./update_cncf_projects_commits.rb 2018-07-01 2019-07-01`. If you generated CNCF data just before generating LF data, then you already have that step completed.
 - `ruby update_projects.rb projects/projects_lf_20180701_20190701.csv data/data_cncf_update_2018-07-01_2019-07-01.csv -1`.
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/16LBeKR0HQU-5m8pwHvYCPiyo3KiU8VWbwXFCaYk9q48/edit?usp=sharing).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1dCe99AyOEhQhuEyhwIn_P2thVtjQXF1cGFiLo8fhZZM/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A66. <br />
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
