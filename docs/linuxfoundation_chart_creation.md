@@ -59,6 +59,7 @@ Run this from the velocity project's root folder again:
 - `./repo init -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo; ./repo init`
 - `./repo sync`
 - Now You need to use script `agl/run_multirepo.sh` with: `./run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub-like statistics.
+- `DTFROM=2018-07-01 DTTO=2019-07-01 ./run_multirepo_range.sh`.
 - There will be `agl.txt` file generated, something like this:
 ```
 Processed 67124 csets from 1155 developers
