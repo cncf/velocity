@@ -33,8 +33,8 @@ Try running this from the velocity project's root folder:
 - Add a row for the time period in `data/data_linux.csv`: `torvalds,torvalds/linux,2016-11-01,2017-11-01,0,0,0,0,0,0,0,0`
 	- Get `cncf/gitdm` with `git clone https://github.com/cncf/gitdm.git`
 	- Get or update local linux kernel repo with `cd ~/dev/linux && git checkout master && git reset --hard && git pull`. An alternative to it (if you don't have the linux repo cloned) is: `cd ~/dev/`, `git clone https://github.com/torvalds/linux.git`.
-	- Go to `cncf/gitdm/`, `cd ~/dev/cncf/gitdm/src` and run: `./linux_range.sh 2017-11-01 2018-11-01`
-	- While in `cncf/gitdm/` directory, view: `vim linux_stats/range_2017-11-01_2018-11-01.txt`:
+	- Go to `cncf/gitdm/`, `cd ~/dev/alt/gitdm/src` and run: `./linux_range.sh 2018-07-01 2019-07-01`
+	- While in `cncf/gitdm/` directory, view: `vim linux_stats/range_2018-07-01_2019-07-01.txt`:
 	```
 	Processed 64482 csets from 3803 developers
 	91 employers found
