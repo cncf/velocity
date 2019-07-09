@@ -15,10 +15,10 @@ echo "Adding/Updating OpenStack case"
 ruby merger.rb data/unlimited.csv openstack/data_openstack_2018-07-01_2019-07-01.csv
 echo "Adding/Updating Apache case"
 ruby merger.rb data/unlimited.csv data/data_apache_projects_20180701_20190701.csv
+echo "Adding/Updating Chromium case"
+ruby merger.rb data/unlimited.csv data/data_chromium_projects_20180701_20190701.csv
 echo "Adding/Updating WebKit case"
 ruby merger.rb data/unlimited.csv data/webkit_20180701_20190701.csv
-echo "Adding/Updating Chromium case"
-ruby merger.rb data/unlimited.csv data/data_chrome_chromium_20180701_20190701.csv
 echo "Adding/Updating openSUSE case"
 ruby merger.rb data/unlimited.csv data/data_opensuse_20180701_20190701.csv
 echo "Adding/Updating AGL case"
