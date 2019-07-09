@@ -195,6 +195,7 @@ https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&fie
 ### Chromium
 
 - Run `./run_bq.sh chromium 2018-07-01 2019-07-01 || echo 'error'` to get Chromium data. It will generate `data/data_chromium_projects_20180701_20190701.csv` file.
+- Merge data `ruby merger.rb data/unlimited.csv data/data_chromium_projects_20180701_20190701.csv`.
 - Now the manual part: `cp data/data_chromium_bugtracker.csv data/data_chromium_bugtracker_20180701_20190701.csv` (we need to update this file)
 - Get Issues from their bug tracker: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=opened%3E2016%2F7%2F25&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids
 Search: All issues + opened>2016/7/19 gives: 63565 (for 2016/7/18 gives 63822+ which means a non exact number) we will extrapolate from here.
@@ -225,8 +226,8 @@ Then run `ruby commits_analysis.rb data/data_chromium_commits_201807_201907.csv 
 Script execution will stop so type `quit` and press return/enter
 Eventually/optionally add new rules to skip commits to `map/skip_commits.csv`
 Tool will output something like this: "After filtering: authors: 1637, commits: 67180" (following regular expressions matched/it had used).
-Update `data/data_chromium_bugtracker_201807_201907.csv` accordingly.
-- Final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_201807_201907.csv -1`
+Update `data/data_chromium_bugtracker_20180701_20190701.csv` accordingly.
+- Final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_20180701_20190701.csv -1`
 
 ### OpenSUSE
 
