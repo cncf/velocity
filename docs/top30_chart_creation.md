@@ -260,12 +260,13 @@ Processed 7152 csets from 365 developers
 - PRs = 1.07 * 665 = 711
 - Comments would be 2 * commits = 14304
 - Activity = sum of all others (comments, commits, issues, prs)
-- Finally: `ruby merger.rb data/unlimited.csv data/data_agl_20180701_20190701.csv`
+- Finally: `ruby merger.rb data/unlimited.csv data/data_agl_projects_20180701_20190701.csv`
 
 ### LibreOffice case
 
 - Run `./run_bq.sh libreoffice 2018-07-01 2019-07-01 || echo 'error'` to get LibreOffice data. It will generate `data/data_libreoffice_projects_20180701_20190701.csv` file.
-- Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_201807_201907.csv` and we will update the `data/data_libreoffice_git_201807_201907.csv` file
+- Run `ruby merger.rb data/unlimited.csv data/data_libreoffice_20180701_20190701.csv`.
+- Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_20180701_20190701.csv` and we will update the `data/data_libreoffice_git_20180701_20190701.csv` file
 - Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`. If repo already cloned, do `cd core`, `git pull`
 - Analyse this repo as described in: `res/libreoffice_git_repo.txt`, to see that it generates lower number than those from BigQuery output (so we can skip this step)
 - Commits: `git log --all --since "2018-07-01" --until "2019-07-01" --pretty=format:"%H" | sort | uniq | wc -l`
