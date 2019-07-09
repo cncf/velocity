@@ -231,6 +231,7 @@ Update `data/data_chromium_bugtracker_20180701_20190701.csv` accordingly.
 ### OpenSUSE
 
 - Run `./run_bq.sh opensuse 2018-07-01 2019-07-01 || echo 'error'` to get OpenSure data. It will generate `data/data_opensuse_projects_20180701_20190701.csv` file.
+- Run `ruby merger.rb data/unlimited.csv data/data_opensuse_projects_20180701_20190701.csv`.
 
 ### AGL case (Automotive Grade Linux)
 
