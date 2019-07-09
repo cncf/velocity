@@ -305,7 +305,7 @@ svn checkout https://svn.freebsd.org/doc/head doc
 svn checkout https://svn.freebsd.org/ports/head ports
 ```
 - `svn update` all of them if you already have them.
-- Use `cncf/gitdm/freebsd_svn.sh` script to analyse FreeBSD SVN repos with `./freebsd_svn.sh 20180701 20190701`:
+- Use `cncf/gitdm/src/freebsd_svn.sh` script to analyse FreeBSD SVN repos with `./freebsd_svn.sh 20180701 20190701`:
 ```
 Revisions:    35927
 Authors:      335
