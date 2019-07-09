@@ -271,7 +271,7 @@ Processed 7152 csets from 365 developers
 - Analyse this repo as described in: `res/libreoffice_git_repo.txt`, to see that it generates lower number than those from BigQuery output (so we can skip this step)
 - Commits: `git log --all --since "2018-07-01" --until "2019-07-01" --pretty=format:"%H" | sort | uniq | wc -l`
 - Authors: `git log --all --since "2018-07-01" --until "2019-07-01" --pretty=format:"%aE" | sort | uniq | wc -l`
-- Put results in: `data/data_libreoffice_git_201807_201907.csv` (authors, commits), values will probably be skipped by the updater tool (they are lower than current values gathered so far)
+- Put results in: `data/data_libreoffice_git_20180701_20190701.csv` (authors, commits), values will probably be skipped by the updater tool (they are lower than current values gathered so far)
 - Issues (old approach):
 - Issue listing is here: `https://bugs.freedesktop.org/buglist.cgi?product=LibreOffice&query_format=specific&order=bug_id&limit=0`
 - Create account, change columns to "Opened" and "ID" as generaly no more is needed. (ID is a link). Sort by Opened desc and try to see all results. (You can hit nginx gateway timeout).
@@ -282,9 +282,9 @@ ruby count_issues.rb data/data_libreoffice_bugs.csv Opened 2018-07-01 2019-07-01
 Counting issues in 'data/data_libreoffice_bugs.csv', issue date column is 'Opened', range: 2018-07-01T00:00:00+00:00 - 2019-07-01T00:00:00+00:00
 Found 7223 matching issues.
 ```
-Update `data/data_libreoffice_git_201807_201907.csv` accordingly.
+Update `data/data_libreoffice_git_20180701_20190701.csv` accordingly.
 - New approach, use: `./libreoffice_bugzilla.sh '2018-07-01 00:00:00' '2019-07-01 00:00:00'` (terribly slow).
-- Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_201807_201907.csv -1`
+- Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_20180701_20190701.csv -1`
 
 ### FreeBSD case
 
