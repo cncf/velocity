@@ -265,7 +265,7 @@ Processed 7152 csets from 365 developers
 ### LibreOffice case
 
 - Run `./run_bq.sh libreoffice 2018-07-01 2019-07-01 || echo 'error'` to get LibreOffice data. It will generate `data/data_libreoffice_projects_20180701_20190701.csv` file.
-- Run `ruby merger.rb data/unlimited.csv data/data_libreoffice_20180701_20190701.csv`.
+- Run `ruby merger.rb data/unlimited.csv data/data_libreoffice_projects_20180701_20190701.csv`.
 - Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_20180701_20190701.csv` and we will update the `data/data_libreoffice_git_20180701_20190701.csv` file
 - Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`. If repo already cloned, do `cd core`, `git pull`
 - Analyse this repo as described in: `res/libreoffice_git_repo.txt`, to see that it generates lower number than those from BigQuery output (so we can skip this step)
