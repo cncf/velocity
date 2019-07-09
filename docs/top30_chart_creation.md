@@ -21,7 +21,7 @@ To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets
 - If fetched new BigQuery data then re-run the special projects BigQuery analysis scripts: `./shells`: `run_apache.sh`, `run_chrome_chromium.sh`, `run_cncf.sh`, `run_openstack.sh`.
 - To just regenerate all other data: run `./shells/unlimited_both.sh`
 - See per project ranks statistics: `reports/cncf_projects_ranks.txt`
-- Get final output file `projects/unlimited.csv` and import it on the [A50 cell](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).
+- Get final output file `projects/unlimited.csv` and import it on the [A50 cell](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
 
 
 #### In detail
@@ -335,7 +335,8 @@ Imporant:
 - Select the cell A50. Use File --> Import, then "Upload" tab, "Select a file from your computer", choose `./projects/unlimited.csv`
 - Then "Import action" --> "replace data starting at selected call", click Import.
 - Switch to the Chart tab and see the data.
-Final version live [here](https://docs.google.com/spreadsheets/d/1RQhZDR9PA3_8UD-UP3AWi3wJTqoMb3bLGbFnkLBk_ZE/edit?usp=sharing).
+
+Final version live [here](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
 
 ### Results:
 
