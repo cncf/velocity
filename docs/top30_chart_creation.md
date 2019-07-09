@@ -310,11 +310,11 @@ svn checkout https://svn.freebsd.org/ports/head ports
 Revisions:    35927
 Authors:      335
 ```
-- Put results here (authors and commits): `./data/data_freebsd_svn_20171101_20181101.csv`
+- Put results here (authors and commits): `./data/data_freebsd_svn_20180701_20190701.csv`
 - Go to: `https://docs.freebsd.org/mail/` and estimate number of emails for your period.
 - Old approach: Go to [FreeBSD Bugzilla](https://bugs.freebsd.org/bugzilla/buglist.cgi?chfield=%5BBug%20creation%5D&chfieldfrom=2018-07-01&chfieldto=2019-07-01&order=Last%20Changed&query_format=advanced) and get number of bugs in a given period (bugs=issues, prs=issues).
 - Go to search, choose 'advanced search' then 'custom search' then choose 'show advanced features'). Use 'Creaation data' column twice. First for greater or equal than YYYY-MM-DD than less or equal to YYYY-MM-DD.
-- Click search, results will be limited to first 500, click change columns and choose 'Opened' only (it will show ID and Opened then), finally [url](https://bugs.freebsd.org/bugzilla/buglist.cgi?columnlist=opendate&f1=creation_ts&f2=creation_ts&limit=0&o1=greaterthaneq&o2=lessthaneq&order=opendate%2Cchangeddate%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&query_format=advanced&v1=2019-07-01&v2=2018-11-01).
+- Click search, results will be limited to first 500, click change columns and choose 'Opened' only (it will show ID and Opened then), finally [url](https://bugs.freebsd.org/bugzilla/buglist.cgi?columnlist=opendate&f1=creation_ts&f2=creation_ts&limit=0&o1=greaterthaneq&o2=lessthaneq&order=opendate%2Cchangeddate%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&query_format=advanced&v1=2018-07-01&v2=2019-07-01).
 - New approach: `./freebsd_bugzilla.sh '2018-07-01 00:00:00' '2019-07-01 00:00:00'` (terribly slow).
 - Put results here (comments=emails/3 (many of them are automatic)): `./data/data_freebsd_svn_20180701_20190701.csv`
 - Finally `ruby update_projects.rb projects/unlimited_both.csv ./data/data_freebsd_svn_20180701_20190701.csv`.
