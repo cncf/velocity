@@ -220,8 +220,8 @@ Remove special CSV characters with VI commands: `:%s/"//g`, `:%s/,//g`
 Replace '~~~~' with ',' to create correct CSV: `:%s/\~\~\~\~/,/g`
 Finally add CSV header manually "email,name,hash,subject" 
 Save and quit vim.
-Then move the file to: `cncf/velocity`:`data/data_chromium_commits_201807_201907.csv`: `mv chromium_commits_201807_201907.csv ~/dev/cncf/velocity/data/data_chromium_commits_201807_201907.csv`
-Then run `ruby commits_analysis.rb data/data_chromium_commits_201807_201907.csv map/skip_commits.csv`
+Then move the file to: `cncf/velocity`:`data/data_chromium_commits_20180701_20190701.csv`: `mv chromium_commits_20180701_20190701.csv ~/dev/cncf/velocity/data/data_chromium_commits_20180701_20190701.csv`
+Then run `ruby commits_analysis.rb data/data_chromium_commits_20180701_20190701.csv map/skip_commits.csv`
 Script execution will stop so type `quit` and press return/enter
 Eventually/optionally add new rules to skip commits to `map/skip_commits.csv`
 Tool will output something like this: "After filtering: authors: 1637, commits: 67180" (following regular expressions matched/it had used).
