@@ -215,11 +215,11 @@ So there are 429 chromedriver issues and the total is: 429 + 72815 = 73244
 To analyze those commits (also exclude merge and robot commits):
 Run while in chromium/src repository:
 `git log --all --since "2018-07-01" --until "2019-07-01" --pretty=format:"%aE~~~~%aN~~~~%H~~~~%s" | sort | uniq > chromium_commits_20180701_20190701.csv`
-Open the file in vi
+Open the file in `vim`.
 Remove special CSV characters with VI commands: `:%s/"//g`, `:%s/,//g`
 Replace '~~~~' with ',' to create correct CSV: `:%s/\~\~\~\~/,/g`
 Finally add CSV header manually "email,name,hash,subject" 
-Save and quit vi.
+Save and quit vim.
 Then move the file to: `cncf/velocity`:`data/data_chromium_commits_201807_201907.csv`: `mv chromium_commits_201807_201907.csv ~/dev/cncf/velocity/data/data_chromium_commits_201807_201907.csv`
 Then run `ruby commits_analysis.rb data/data_chromium_commits_201807_201907.csv map/skip_commits.csv`
 Script execution will stop so type `quit` and press return/enter
