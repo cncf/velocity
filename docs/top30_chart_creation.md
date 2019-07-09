@@ -189,7 +189,7 @@ https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&fie
 - Run `./run_bq.sh apache 2018-07-01 2019-07-01 || echo 'error'` to get Apache data. It will generate `data/data_apache_projects_20180701_20190701.csv` file.
 - `ruby merger.rb data/unlimited.csv data/data_apache_projects_20180701_20190701.csv`.
 - Now we need more data for Apache from their jira, first copy file from previous data range `cp data/data_apache_jira.csv data/data_apache_jira_20180701_20190701.csv`
-- New approach (works, but terribly slow): `./apache_jira.sh '2018-07-01 00:00:00' '2019-07-01 00:00:00'` and/or `./apache_bugzilla.sh '2018-07-01 00:00:00' '2019-07-01 00:00:00'`.
+- New approach (works, but terribly slow): `./apache_jira.sh '2018-07-01 00:00:00' '2019-07-01 00:00:00'` and/or ` [REST=1] ./apache_bugzilla.sh '2018-07-01 00:00:00' '2019-07-01 00:00:00'`. `REST=1` can be used once Apache Bugzilla switch to a newer REST API (not yet).
 - Final line for Apache should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20180701_20190701.csv -1`
 
 ### Chromium
