@@ -289,13 +289,14 @@ Update `data/data_libreoffice_git_20180701_20190701.csv` accordingly.
 ### FreeBSD case
 
 - New approach: Run `./run_bq.sh freebsd 2018-07-01 2019-07-01 || echo 'error'` to get FreeBSD data. It will generate `data/data_freebsd_projects_20180701_20190701.csv` file.
+- Run `ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20180701_20190701.csv`.
 - Use `BigQuery/org_finder.sql` (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
-- `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_201807_201907.csv` (if there aren't many rows, just Download as CSV, othervise: save as table, export to gstorage, download csv)
+- `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_projects20180701_20190701.csv` (if there aren't many rows, just Download as CSV, othervise: save as table, export to gstorage, download csv)
 - Now define FreeBSD project the same way as in BigQuery: put orgs in `map/defmaps.csv`, put URL in `map/urls.csv`, put orgs as exceptions in `map/ranges.csv` and `map/ranges_sane.csv` (because some values can be 0s due to custom BigQuery)
 - Add FreeBSD processing to shells/unlimited:
 ```
 echo "Adding/Updating FreeBSD Projects"
-ruby merger.rb data/unlimited.csv data/data_freebsd_201807_201907.csv
+ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20180701_20190701.csv
 ```
 - Go to `~/dev/freebsd` and clone 3 SVN repos:
 ```

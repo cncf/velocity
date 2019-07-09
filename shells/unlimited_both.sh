@@ -23,10 +23,10 @@ echo "Adding/Updating AGL case"
 ruby merger.rb data/unlimited.csv data/data_agl_projects_20180701_20190701.csv
 echo "Adding/Updating LibreOffice case"
 ruby merger.rb data/unlimited.csv data/data_libreoffice_projects_20180701_20190701.csv
+echo "Adding/Updating FreeBSD case"
+ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20180701_20190701.csv
 echo "Adding/Updating WebKit case"
 ruby merger.rb data/unlimited.csv data/webkit_20180701_20190701.csv
-echo "Adding/Updating FreeBSD case"
-ruby merger.rb data/unlimited.csv data/data_freebsd_20180701_20190701.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating Apache Projects using Jira data"
