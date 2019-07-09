@@ -25,8 +25,6 @@ echo "Adding/Updating LibreOffice case"
 ruby merger.rb data/unlimited.csv data/data_libreoffice_projects_20180701_20190701.csv
 echo "Adding/Updating FreeBSD case"
 ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20180701_20190701.csv
-echo "Adding/Updating WebKit case"
-ruby merger.rb data/unlimited.csv data/webkit_20180701_20190701.csv
 echo "Analysis"
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating Apache Projects using Jira data"
@@ -37,8 +35,6 @@ echo "Updating Chromium project using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_20180701_20190701.csv -1
 echo "Updating LibreOffice project using their git repo"
 ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_20180701_20190701.csv -1
-echo "Updating WebKit project using gitdm and other"
-ruby update_projects.rb projects/unlimited_both.csv data/data_webkit_gitdm_and_others.csv -1
 echo "Updating FreeBSD data from SVN logs"
 ruby update_projects.rb projects/unlimited_both.csv ./data/data_freebsd_svn_20180701_20190701.csv -1
 echo "Generating Projects Ranks statistics"
