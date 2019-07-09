@@ -38,7 +38,7 @@ ruby analysis.rb data/data_top30_projects_20180701_20190701.csv projects/project
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
 
-Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1. <br />
+Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
 
 Select the Chart tab, it will be updated automatically
@@ -48,7 +48,7 @@ The chart now only contains GitHub-hosted projects and for Linux Foundation purp
 
 ### Example - Top 30 chart data preparation for a new date range
 
-Existing script `shells/unlimited_both.sh` generates our chart data for 2018-07-01 to 2019-07-01. Let's assume we want to generate the chart for a new date range: 2018-07-01 to 2019-07-01. <br/>This is a step-by-step tutorial on how to accomplish that.
+Existing script `shells/unlimited_both.sh` generates our chart data for 2018-07-01 to 2019-07-01. Let's assume we want to generate the chart for a new date range: 2018-07-01 to 2019-07-01.This is a step-by-step tutorial on how to accomplish that.
 - Copy `shells/unlimited_both.sh` to `shells/unlimited_20170701-20190701.sh`
 - Keep `shells/unlimited_20180701-20190701.sh` opened in some other terminal window `vi shells/unlimited_20180701-20190701.sh` as we need to update all steps. Change all the dates to a new range now so you do not forget and run mixed data.
 - First, we need unlimited BigQuery output for a new date range:
@@ -162,7 +162,7 @@ Merge Requests: 371,5 pages * 20 = 7430
 - Update (and eventually manually run) the CF case (in `shells/unlimited_20180701-20190701.sh`): `ruby merger.rb data/unlimited.csv data/data_cloudfoundry_201807_201907.csv force`
 
 
-### OpenStack case:</b>
+### OpenStack case
 
 - Newer method - use CNCF devstats contrib instance:
 - `cd openstack; PG_PASS=... ./openstack.sh 2018-07-01 2019-07-01 1>/dev/null`
@@ -188,7 +188,7 @@ https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&fie
 
 - Run `./run_bq.sh apache 2018-07-01 2019-07-01 || echo 'error'` to get Apache data. It will generate `data/data_apache_projects_20180701_20190701.csv` file.
 - `ruby merger.rb data/unlimited.csv data/data_apache_projects_20180701_20190701.csv`.
-- Now we need more data for Apache from their jira, first copy file from previous data range `cp data/data_apache_jira.csv data/data_apache_jira_201807_201907.csv`
+- Now we need more data for Apache from their jira, first copy file from previous data range `cp data/data_apache_jira.csv data/data_apache_jira_20180701_20190701.csv`
 - New approach (works, but terribly slow): `./apache_jira.sh '2018-07-01 00:00:00' '2019-07-01 00:00:00'` and/or `./apache_bugzilla.sh '2018-07-01 00:00:00' '2019-07-01 00:00:00'`.
 - Final line for Apache should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20180701_20190701.csv -1`
 
