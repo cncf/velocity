@@ -10,7 +10,7 @@ echo "Adding GitLab data"
 ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2018-07-01 2019-07-01 gitlab gitlab/GitLab
 echo "Adding/Updating Cloud Foundry Projects"
 # This uses "force" mode to update Cloud Foundry values to lower ones (this is because we have special query output for CF projects which skips more bots, so lower values are expected)
-ruby merger.rb data/unlimited.csv data/data_cloudfoundry_20180701_20190701.csv force
+ruby merger.rb data/unlimited.csv data/data_cf_projects_20180701_20190701.csv force
 echo "Adding/Updating WebKit case"
 ruby merger.rb data/unlimited.csv data/webkit_20180701_20190701.csv
 echo "Adding/Updating OpenStack case"
