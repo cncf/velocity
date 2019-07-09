@@ -21,10 +21,10 @@ echo "Adding/Updating OpenSUSE case"
 ruby merger.rb data/unlimited.csv data/data_opensuse_projects_20180701_20190701.csv
 echo "Adding/Updating AGL case"
 ruby merger.rb data/unlimited.csv data/data_agl_20180701_20190701.csv
-echo "Adding/Updating WebKit case"
-ruby merger.rb data/unlimited.csv data/webkit_20180701_20190701.csv
 echo "Adding/Updating LibreOffice case"
 ruby merger.rb data/unlimited.csv data/data_libreoffice_20180701_20190701.csv
+echo "Adding/Updating WebKit case"
+ruby merger.rb data/unlimited.csv data/webkit_20180701_20190701.csv
 echo "Adding/Updating FreeBSD case"
 ruby merger.rb data/unlimited.csv data/data_freebsd_20180701_20190701.csv
 echo "Analysis"
