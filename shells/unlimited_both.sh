@@ -11,10 +11,10 @@ ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2018-07-01 2019-07-
 echo "Adding/Updating Cloud Foundry Projects"
 # This uses "force" mode to update Cloud Foundry values to lower ones (this is because we have special query output for CF projects which skips more bots, so lower values are expected)
 ruby merger.rb data/unlimited.csv data/data_cf_projects_20180701_20190701.csv force
-echo "Adding/Updating WebKit case"
-ruby merger.rb data/unlimited.csv data/webkit_20180701_20190701.csv
 echo "Adding/Updating OpenStack case"
 ruby merger.rb data/unlimited.csv openstack/data_openstack_2018-07-01_2019-07-01.csv
+echo "Adding/Updating WebKit case"
+ruby merger.rb data/unlimited.csv data/webkit_20180701_20190701.csv
 echo "Adding/Updating Apache case"
 ruby merger.rb data/unlimited.csv data/apache_20180701_20190701.csv
 echo "Adding/Updating Chromium case"
@@ -32,7 +32,7 @@ ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv ma
 echo "Updating Apache Projects using Jira data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20180701_20190701.csv -1
 echo "Updating OpenStack projects using their bug tracking data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs.csv -1
+ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_20180701_20190701.csv -1
 echo "Updating Chromium project using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker.csv -1
 echo "Updating LibreOffice project using their git repo"

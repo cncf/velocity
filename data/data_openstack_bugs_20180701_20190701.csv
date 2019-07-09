@@ -1,0 +1,50 @@
+project,key,value
+OpenStack Nova,issues,1350
+OpenStack Neutron,issues,1530
+OpenStack Cinder,issues,1130
+OpenStack Manuals,issues,980
+OpenStack Glance,issues,190
+OpenStack Swift,issues,270
+OpenStack Horizon,issues,790
+OpenStack Keystone,issues,380
+OpenStack Heat,issues,490
+OpenStack Manila,issues,370
+OpenStack Murano,issues,340
+OpenStack Mistral,issues,240
+OpenStack API,issues,45
+OpenStack Community,issues,20
+OpenStack Nova,prs,1900
+OpenStack Neutron,prs,2250
+OpenStack Cinder,prs,1700
+OpenStack Manuals,prs,1470
+OpenStack Glance,prs,280
+OpenStack Swift,prs,430
+OpenStack Horizon,prs,1180
+OpenStack Keystone,prs,570
+OpenStack Heat,prs,740
+OpenStack Manila,prs,520
+OpenStack Murano,prs,410
+OpenStack Mistral,prs,360
+OpenStack API,prs,66
+OpenStack Community,prs,30
+OpenStack Nova,comments,3800
+OpenStack Neutron,comments,4500
+OpenStack Cinder,comments,3400
+OpenStack Manuals,comments,300
+OpenStack Glance,comments,550
+OpenStack Swift,comments,850
+OpenStack Horizon,comments,2400
+OpenStack Keystone,comments,1100
+OpenStack Heat,comments,1500
+OpenStack Manila,comments,1000
+OpenStack Murano,comments,820
+OpenStack Mistral,comments,720
+OpenStack API,comments,130
+OpenStack Community,comments,60
+# They're skipped by map/skip.csv
+# OpenStack Other Repos,issues,10125
+# OpenStack Other Repos,prs,15200
+# OpenStack Other Repos,comments,30500
+# OpenStack Stackalytics,issues,50
+# OpenStack Stackalytics,prs,75
+# OpenStack Stackalytics,comments,150

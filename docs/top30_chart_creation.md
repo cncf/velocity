@@ -182,7 +182,7 @@ Then manipulate the "memo" parameter (end of URL) to get a starting value. And c
 The url may not e exact as to what you need, Click the gear image just above the first listed bug, select only id and age, hit search. Now you can sort by Age. If page says not found, chances are your start is out of range so start from 0
 Estimate for all OpenStack projects (currently 46). Url for Searchlight:
 https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&field.status%3Alist=NEW&field.status%3Alist=OPINION&field.status%3Alist=INVALID&field.status%3Alist=WONTFIX&field.status%3Alist=EXPIRED&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=FIXRELEASED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&orderby=-datecreated&start=0
-- The final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_201807_201907.csv -1`
+- The final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_20180701_20190701.csv -1`
 
 ### Apache
 
