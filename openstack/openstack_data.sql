@@ -7,14 +7,19 @@ select * from (
     count(distinct e.id) filter (where e.type = 'PullRequestEvent') as prs,
     count(distinct e.id) filter (where e.type = 'PushEvent') as commits,
     count(distinct e.id) filter (where e.type = 'IssuesEvent') as issues,
-    count(distinct e.dup_actor_login) as authors_alt2,
-    string_agg(distinct e.dup_actor_login, ',') as authors_alt1,
-    string_agg(distinct e.dup_actor_login, ',') as authors,
+    count(distinct coalesce(c.encrypted_email, e.dup_actor_login)) as authors_alt2,
+    string_agg(distinct coalesce(c.encrypted_email, e.dup_actor_login), ',') as authors_alt1,
+    string_agg(distinct coalesce(c.encrypted_email, e.dup_actor_login), ',') as authors,
     count(distinct e.id) filter (where e.type = 'PushEvent') as pushes
   from
-    gha_events e,
     gha_orgs o,
-    gha_repos r
+    gha_repos r,
+    gha_events e
+  left join
+    gha_commits c
+  on
+    e.type = 'PushEvent'
+    and e.id = c.event_id
   where
     e.org_id = o.id
     and e.repo_id = r.id
@@ -22,8 +27,7 @@ select * from (
     and e.type in (
       'IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent', 'PullRequestReviewEvent', 'CommitCommentEvent'
     )
-    and e.dup_actor_login != 'openstack-gerrit'
-    and e.dup_actor_login not like '%bot%'
+    and (lower(e.dup_actor_login) {{exclude_bots}})
     and e.created_at >= '{{from}}'
     and e.created_at < '{{to}}'
     and e.actor_id not in (
