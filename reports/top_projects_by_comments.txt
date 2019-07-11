@@ -77,25 +77,25 @@ Top projects by comments:
 76) DMLC (dmlc.github.io) comments: 29273
 77) Ant Design (ant.design) comments: 29097
 78) paritytech comments: 29061
-79) spring-projects comments: 29045
-80) Uber Open Source (uber.github.io) comments: 28405
-81) Datadog (datadog.com) comments: 28314
-82) apache/incubator-mxnet comments: 28247
-83) status-im comments: 27763
-84) Alibaba (alibaba.com) comments: 27469
-85) openjournals comments: 27420
-86) oppia comments: 27326
-87) ValveSoftware comments: 27271
-88) scikit-learn comments: 26794
-89) cosmos comments: 26713
-90) input-output-hk comments: 26647
-91) webcompat comments: 26188
-92) openHAB (openhab.org) comments: 26078
-93) Marlin (marlinfw.org) comments: 25640
-94) bitcoin comments: 25513
-95) getsentry comments: 25296
-96) spring-cloud comments: 25274
-97) AdguardTeam comments: 25232
-98) Docker (mobyproject.org) comments: 25227
-99) cilium comments: 25088
-100) PaddlePaddle comments: 25041
+79) Uber Open Source (uber.github.io) comments: 28405
+80) Datadog (datadog.com) comments: 28314
+81) apache/incubator-mxnet comments: 28247
+82) status-im comments: 27763
+83) Alibaba (alibaba.com) comments: 27469
+84) openjournals comments: 27420
+85) oppia comments: 27326
+86) ValveSoftware comments: 27271
+87) scikit-learn comments: 26794
+88) cosmos comments: 26713
+89) input-output-hk comments: 26647
+90) webcompat comments: 26188
+91) openHAB (openhab.org) comments: 26078
+92) Marlin (marlinfw.org) comments: 25640
+93) bitcoin comments: 25513
+94) getsentry comments: 25296
+95) spring-cloud comments: 25274
+96) AdguardTeam comments: 25232
+97) Docker (mobyproject.org) comments: 25227
+98) cilium comments: 25088
+99) PaddlePaddle comments: 25041
+100) kubevirt comments: 24913

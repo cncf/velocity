@@ -75,27 +75,27 @@ Top projects by activity:
 74) paritytech activity: 53655
 75) The Servo Browser Engine (servo.org) activity: 53294
 76) PowerShell (microsoft.com/powershell) activity: 53100
-77) spring-projects activity: 53080
-78) Envoy (www.envoyproxy.io) activity: 52966
-79) pandas-dev activity: 52627
-80) AdguardTeam activity: 52144
-81) Uber Open Source (uber.github.io) activity: 51409
-82) firebase activity: 51391
-83) Alibaba (alibaba.com) activity: 51281
-84) kubeflow activity: 51158
-85) publiclab activity: 50745
-86) Apollo GraphQL (apollographql.com) activity: 50567
-87) Office Developer (dev.office.com) activity: 50448
-88) Go (golang.org) activity: 49715
-89) betagouv activity: 49611
-90) mozilla-mobile activity: 49391
-91) wavesplatform activity: 49273
-92) highfidelity activity: 46902
-93) Ant Design (ant.design) activity: 46337
-94) WiX (wixtoolset.org) activity: 45885
-95) PaddlePaddle activity: 45776
-96) vuejs (vuejs.org) activity: 45718
-97) cosmos activity: 45686
-98) rancher activity: 45646
-99) Nexus-Mods activity: 45058
-100) sourcegraph activity: 44833
+77) Envoy (www.envoyproxy.io) activity: 52966
+78) pandas-dev activity: 52627
+79) AdguardTeam activity: 52144
+80) Uber Open Source (uber.github.io) activity: 51409
+81) firebase activity: 51391
+82) Alibaba (alibaba.com) activity: 51281
+83) kubeflow activity: 51158
+84) publiclab activity: 50745
+85) Apollo GraphQL (apollographql.com) activity: 50567
+86) Office Developer (dev.office.com) activity: 50448
+87) Go (golang.org) activity: 49715
+88) betagouv activity: 49611
+89) mozilla-mobile activity: 49391
+90) wavesplatform activity: 49273
+91) highfidelity activity: 46902
+92) Ant Design (ant.design) activity: 46337
+93) WiX (wixtoolset.org) activity: 45885
+94) PaddlePaddle activity: 45776
+95) vuejs (vuejs.org) activity: 45718
+96) cosmos activity: 45686
+97) rancher activity: 45646
+98) Nexus-Mods activity: 45058
+99) sourcegraph activity: 44833
+100) ionic-team activity: 44826
