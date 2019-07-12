@@ -32,6 +32,8 @@ echo "Updating Apache Projects using Jira data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20180701_20190701.csv -1
 echo "Updating OpenStack projects using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_20180701_20190701.csv -1
+# This is for merged OpenStack into a single project
+ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_all_2018-07-01_2019-07-01.csv -1
 echo "Updating Chromium project using their bug tracking data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_20180701_20190701.csv -1
 echo "Updating LibreOffice project using their git repo"
