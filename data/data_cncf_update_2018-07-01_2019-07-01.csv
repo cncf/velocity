@@ -1,9 +1,9 @@
 project,key,value
-Kubernetes,commits,36905
+Kubernetes,commits,36925
 Prometheus,commits,3587
 OpenTracing,commits,399
 Fluentd,commits,3252
-Linkerd,commits,4681
+Linkerd,commits,4682
 gRPC,commits,6010
 CoreDNS,commits,919
 containerd,commits,1334
@@ -15,25 +15,26 @@ Notary,commits,24
 TUF,commits,350
 Rook,commits,978
 Vitess,commits,1575
-NATS,commits,4856
+NATS,commits,4858
 OPA,commits,857
 SPIFFE,commits,949
 SPIRE,commits,686
-CloudEvents,commits,813
+CloudEvents,commits,623
 Telepresence,commits,423
 Helm,commits,1269
 OpenMetrics,commits,77
 Harbor,commits,1674
 etcd,commits,1002
 TiKV,commits,1958
-Cortex,commits,857
-Buildpacks,commits,1916
+Cortex,commits,848
+Buildpacks,commits,1915
 Falco,commits,810
 Dragonfly,commits,544
 Virtual Kubelet,commits,501
 KubeEdge,commits,715
-Brigade,commits,666
-CRI-O,commits,977
+Brigade,commits,667
+CRI-O,commits,978
 Network Service Mesh,commits,776
 OpenEBS,commits,16398
 OpenTelemetry,commits,478
+Thanos,commits,518
