@@ -1,46 +1,46 @@
 Brigade:
 	#3341 by activity (2790)
-	#2937 by authors (45)
+	#2938 by authors (45)
 	#2736 by comments (1525)
-	#10680 by commits (289)
+	#10681 by commits (289)
 	#1835 by issues (401)
 	#1662 by prs (568)
-	#11277 by pushes (296)
+	#11278 by pushes (296)
 
 Buildpacks:
 	#1966 by activity (4783)
-	#2718 by authors (48)
+	#2719 by authors (48)
 	#2628 by comments (1603)
 	#1459 by commits (1905)
-	#1303 by issues (535)
+	#1304 by issues (535)
 	#1733 by prs (548)
 	#1523 by pushes (2097)
 
 CNCF:
 	#323 by activity (20839)
 	#73 by authors (511)
-	#727 by comments (5733)
+	#726 by comments (5733)
 	#159 by commits (9228)
 	#253 by issues (1836)
 	#129 by prs (3507)
 	#184 by pushes (9763)
 
 CNI:
-	#5118 by activity (1777)
+	#5119 by activity (1777)
 	#2080 by authors (58)
-	#3504 by comments (1153)
-	#19899 by commits (121)
+	#3505 by comments (1153)
+	#19900 by commits (121)
 	#4152 by issues (183)
 	#2979 by prs (319)
-	#20796 by pushes (122)
+	#20797 by pushes (122)
 
 CRI-O:
-	#1023 by activity (8553)
+	#1022 by activity (8553)
 	#2002 by authors (60)
 	#558 by comments (7021)
 	#6043 by commits (544)
 	#3012 by issues (254)
-	#1038 by prs (849)
+	#1039 by prs (849)
 	#6588 by pushes (546)
 
 CloudEvents:
@@ -50,33 +50,33 @@ CloudEvents:
 	#9350 by commits (336)
 	#2838 by issues (270)
 	#1629 by prs (578)
-	#9971 by pushes (344)
+	#9972 by pushes (344)
 
 CoreDNS:
 	#884 by activity (9640)
-	#800 by authors (117)
-	#605 by comments (6667)
-	#3263 by commits (971)
+	#799 by authors (117)
+	#604 by comments (6667)
+	#3262 by commits (971)
 	#698 by issues (888)
 	#497 by prs (1534)
-	#3554 by pushes (997)
+	#3553 by pushes (997)
 
 Cortex:
 	#2491 by activity (3827)
-	#2924 by authors (45)
+	#2925 by authors (45)
 	#1996 by comments (2169)
 	#6492 by commits (504)
 	#2018 by issues (366)
-	#1235 by prs (738)
+	#1236 by prs (738)
 	#6503 by pushes (554)
 
 Dragonfly:
 	#2650 by activity (3570)
-	#3519 by authors (39)
+	#3520 by authors (39)
 	#2186 by comments (1979)
 	#6356 by commits (516)
 	#2504 by issues (301)
-	#1172 by prs (774)
+	#1173 by prs (774)
 	#6822 by pushes (524)
 
 Envoy:
@@ -90,8 +90,8 @@ Envoy:
 
 Falco:
 	#3325 by activity (2803)
-	#2577 by authors (50)
-	#3295 by comments (1236)
+	#2578 by authors (50)
+	#3296 by comments (1236)
 	#4760 by commits (695)
 	#2678 by issues (283)
 	#1864 by prs (510)
@@ -131,14 +131,14 @@ Jaeger:
 	#2459 by commits (1237)
 	#284 by issues (1723)
 	#312 by prs (2123)
-	#2638 by pushes (1309)
+	#2637 by pushes (1309)
 
 KubeEdge:
 	#1139 by activity (7851)
 	#1093 by authors (94)
-	#729 by comments (5731)
+	#728 by comments (5731)
 	#6306 by commits (520)
-	#1180 by issues (582)
+	#1181 by issues (582)
 	#860 by prs (996)
 	#6631 by pushes (542)
 
@@ -162,8 +162,8 @@ Linkerd:
 
 NATS:
 	#626 by activity (12486)
-	#614 by authors (146)
-	#695 by comments (5975)
+	#613 by authors (146)
+	#694 by comments (5975)
 	#889 by commits (2802)
 	#319 by issues (1585)
 	#286 by prs (2247)
@@ -171,30 +171,30 @@ NATS:
 
 Network Service Mesh:
 	#1432 by activity (6318)
-	#2846 by authors (46)
+	#2847 by authors (46)
 	#1277 by comments (3360)
-	#4060 by commits (800)
-	#1472 by issues (485)
+	#4059 by commits (800)
+	#1473 by issues (485)
 	#466 by prs (1604)
 	#4179 by pushes (869)
 
 Notary:
-	#14916 by activity (455)
-	#14084 by authors (12)
-	#8788 by comments (330)
-	#43415 by commits (19)
-	#11129 by issues (57)
-	#9668 by prs (80)
-	#43447 by pushes (20)
+	#14917 by activity (455)
+	#14085 by authors (12)
+	#8789 by comments (330)
+	#43416 by commits (19)
+	#11130 by issues (57)
+	#9669 by prs (80)
+	#43448 by pushes (20)
 
 OCI:
 	#2585 by activity (3662)
 	#1963 by authors (61)
 	#1434 by comments (3005)
-	#14539 by commits (194)
+	#14540 by commits (194)
 	#5104 by issues (146)
 	#3014 by prs (316)
-	#15428 by pushes (195)
+	#15429 by pushes (195)
 
 OPA:
 	#1872 by activity (4993)
@@ -215,13 +215,13 @@ OpenEBS:
 	#272 by pushes (7723)
 
 OpenMetrics:
-	#16379 by activity (398)
-	#18080 by authors (10)
-	#9685 by comments (283)
-	#33070 by commits (45)
-	#17966 by issues (28)
-	#15398 by prs (41)
-	#33612 by pushes (46)
+	#16380 by activity (398)
+	#18081 by authors (10)
+	#9686 by comments (283)
+	#33071 by commits (45)
+	#17967 by issues (28)
+	#15399 by prs (41)
+	#33613 by pushes (46)
 
 OpenTelemetry:
 	#1544 by activity (5943)
@@ -236,10 +236,10 @@ OpenTracing:
 	#3684 by activity (2547)
 	#1401 by authors (79)
 	#2596 by comments (1626)
-	#10913 by commits (282)
+	#10914 by commits (282)
 	#3057 by issues (250)
 	#2254 by prs (424)
-	#11429 by pushes (291)
+	#11430 by pushes (291)
 
 Prometheus:
 	#131 by activity (36502)
@@ -252,7 +252,7 @@ Prometheus:
 
 Rook:
 	#585 by activity (13133)
-	#749 by authors (123)
+	#748 by authors (123)
 	#382 by comments (9671)
 	#4713 by commits (702)
 	#384 by issues (1371)
@@ -260,22 +260,22 @@ Rook:
 	#5164 by pushes (707)
 
 SPIFFE:
-	#10716 by activity (723)
-	#5897 by authors (26)
-	#9534 by comments (290)
-	#17575 by commits (147)
-	#12929 by issues (46)
+	#10717 by activity (723)
+	#5898 by authors (26)
+	#9535 by comments (290)
+	#17576 by commits (147)
+	#12930 by issues (46)
 	#3939 by prs (237)
-	#18264 by pushes (150)
+	#18265 by pushes (150)
 
 SPIRE:
 	#3227 by activity (2893)
-	#4503 by authors (32)
+	#4504 by authors (32)
 	#2499 by comments (1706)
-	#10043 by commits (311)
+	#10044 by commits (311)
 	#2887 by issues (265)
-	#1548 by prs (605)
-	#10427 by pushes (326)
+	#1549 by prs (605)
+	#10428 by pushes (326)
 
 Spinnaker:
 	#627 by activity (12480)
@@ -287,26 +287,35 @@ Spinnaker:
 	#2350 by pushes (1460)
 
 TUF:
-	#6832 by activity (1285)
-	#6757 by authors (23)
-	#5986 by comments (584)
+	#6833 by activity (1285)
+	#6758 by authors (23)
+	#5987 by comments (584)
 	#6934 by commits (468)
-	#12322 by issues (49)
+	#12323 by issues (49)
 	#5600 by prs (158)
 	#7192 by pushes (494)
 
 Telepresence:
-	#5606 by activity (1602)
-	#6296 by authors (24)
-	#5042 by comments (742)
-	#11761 by commits (256)
+	#5607 by activity (1602)
+	#6297 by authors (24)
+	#5043 by comments (742)
+	#11762 by commits (256)
 	#1891 by issues (390)
 	#4568 by prs (202)
-	#12191 by pushes (268)
+	#12192 by pushes (268)
+
+Thanos:
+	#1107 by activity (8027)
+	#815 by authors (115)
+	#751 by comments (5601)
+	#4242 by commits (769)
+	#1174 by issues (585)
+	#926 by prs (935)
+	#3984 by pushes (906)
 
 TiKV:
 	#328 by activity (20607)
-	#706 by authors (129)
+	#705 by authors (129)
 	#210 by comments (15122)
 	#1668 by commits (1717)
 	#781 by issues (813)
@@ -320,7 +329,7 @@ Virtual Kubelet:
 	#9327 by commits (337)
 	#2840 by issues (270)
 	#1608 by prs (588)
-	#9422 by pushes (366)
+	#9423 by pushes (366)
 
 Vitess:
 	#1819 by activity (5097)
@@ -333,16 +342,16 @@ Vitess:
 
 containerd:
 	#829 by activity (10155)
-	#711 by authors (128)
+	#710 by authors (128)
 	#548 by comments (7101)
-	#3396 by commits (942)
+	#3395 by commits (942)
 	#1103 by issues (613)
 	#305 by prs (2155)
-	#3764 by pushes (950)
+	#3763 by pushes (950)
 
 etcd:
-	#1099 by activity (8078)
-	#683 by authors (133)
+	#1098 by activity (8078)
+	#682 by authors (133)
 	#792 by comments (5371)
 	#4850 by commits (682)
 	#590 by issues (1001)
@@ -359,11 +368,11 @@ gRPC:
 	#558 by pushes (4495)
 
 rkt:
-	#23754 by activity (217)
-	#19397 by authors (9)
-	#16089 by comments (116)
-	#47289 by commits (13)
-	#16901 by issues (31)
-	#12349 by prs (57)
-	#47769 by pushes (13)
+	#23755 by activity (217)
+	#19398 by authors (9)
+	#16090 by comments (116)
+	#47290 by commits (13)
+	#16902 by issues (31)
+	#12350 by prs (57)
+	#47770 by pushes (13)
 
