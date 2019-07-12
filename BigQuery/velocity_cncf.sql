@@ -39,7 +39,7 @@ where
       'kubernetes-sig-testing', 'kubernetes-providers', 'kubernetes-addons', 'kubernetes-test',
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'cri-o', 'networkservicemesh',
-      'open-telemetry', 'openebs'
+      'open-telemetry', 'openebs', 'thanos-io'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -48,7 +48,7 @@ where
       'rktproject/rkt', 'datawire/telepresence', 'RichiH/OpenMetrics', 'vmware/harbor',
       'coreos/etcd', 'pingcap/tikv', 'weaveworks/cortex', 'weaveworks/prism',
       'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade',
-      'ligato/networkservicemesh'
+      'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos'
     )
   )
   and type in (
