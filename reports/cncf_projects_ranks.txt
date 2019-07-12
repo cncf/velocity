@@ -169,6 +169,15 @@ NATS:
 	#286 by prs (2247)
 	#965 by pushes (3056)
 
+Network Service Mesh:
+	#1432 by activity (6318)
+	#2846 by authors (46)
+	#1277 by comments (3360)
+	#4060 by commits (800)
+	#1472 by issues (485)
+	#466 by prs (1604)
+	#4179 by pushes (869)
+
 Notary:
 	#14916 by activity (455)
 	#14084 by authors (12)
@@ -196,6 +205,15 @@ OPA:
 	#680 by prs (1199)
 	#6395 by pushes (565)
 
+OpenEBS:
+	#178 by activity (29916)
+	#154 by authors (354)
+	#235 by comments (13693)
+	#229 by commits (7582)
+	#364 by issues (1419)
+	#36 by prs (7256)
+	#272 by pushes (7723)
+
 OpenMetrics:
 	#16379 by activity (398)
 	#18080 by authors (10)
@@ -204,6 +222,15 @@ OpenMetrics:
 	#17966 by issues (28)
 	#15398 by prs (41)
 	#33612 by pushes (46)
+
+OpenTelemetry:
+	#1544 by activity (5943)
+	#2258 by authors (55)
+	#1119 by comments (3843)
+	#6434 by commits (509)
+	#1018 by issues (655)
+	#795 by prs (1056)
+	#6820 by pushes (524)
 
 OpenTracing:
 	#3684 by activity (2547)

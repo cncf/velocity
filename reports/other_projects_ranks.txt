@@ -286,6 +286,15 @@ Linux:
 	#1 by prs (49655)
 	#4891 by pushes (748)
 
+OpenStack:
+	#39 by activity (75039)
+	#6 by authors (2591)
+	#93 by comments (25654)
+	#6 by commits (74365)
+	#138 by issues (2578)
+	#172 by prs (3093)
+	#6 by pushes (74365)
+
 OpenStack Ansible:
 	#60942 by activity (3)
 	#60606 by authors (2)
