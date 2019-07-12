@@ -30,6 +30,7 @@ GoogleChrome,Chromium
 IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
 KSP-CKAN,CKAN
+Kata Containers,OpenStack
 Linux kernel,Linux
 MarlinFirmware,Marlin
 MobileChromeApps,Chromium
@@ -40,6 +41,35 @@ Open Accessibility (A11y) Group,A11y
 Open Container Initiative,OCI
 Open Mainframe Project,Open Mainframe
 OpenObservability,OpenMetrics
+OpenStack API,OpenStack
+OpenStack Ansible,OpenStack
+OpenStack Charmers,OpenStack
+OpenStack Cinder,OpenStack
+OpenStack Community,OpenStack
+OpenStack Cookbook,OpenStack
+OpenStack Dev,OpenStack
+OpenStack Glance,OpenStack
+OpenStack Heat,OpenStack
+OpenStack Horizon,OpenStack
+OpenStack Hyper-v,OpenStack
+OpenStack Infra,OpenStack
+OpenStack Keystone,OpenStack
+OpenStack Korean,OpenStack
+OpenStack Manila,OpenStack
+OpenStack Manuals,OpenStack
+OpenStack Mistral,OpenStack
+OpenStack Mobile,OpenStack
+OpenStack Murano,OpenStack
+OpenStack Net SDK,OpenStack
+OpenStack Neutron,OpenStack
+OpenStack Nova,OpenStack
+OpenStack Other Repos,OpenStack
+OpenStack Packages,OpenStack
+OpenStack Snaps,OpenStack
+OpenStack Stackalytics,OpenStack
+OpenStack Swift,OpenStack
+OpenStack Tools,OpenStack
+OpenStack Web,OpenStack
 OpenStack-mobile,OpenStack Mobile
 OpenStackCookbook,OpenStack Cookbook
 OpenStackweb,OpenStack Web
@@ -217,6 +247,7 @@ opensds,OpenSDS
 opensecuritycontroller,Open Security Controller
 openshift,OpenShift
 openssl,OpenSSL
+openstack,OpenStack
 openstack-ansible,OpenStack Ansible
 openstack-charmers,OpenStack Charmers
 openstack-dev,OpenStack Dev
@@ -298,32 +329,3 @@ zephyrproject-rtos,Zephyr
 # kubernetes-contrib,Kubernetes
 # kubernetes-ui,Kubernetes
 # openstack,=SKIP
-OpenStack API,OpenStack
-OpenStack Ansible,OpenStack
-OpenStack Charmers,OpenStack
-OpenStack Cinder,OpenStack
-OpenStack Community,OpenStack
-OpenStack Cookbook,OpenStack
-OpenStack Dev,OpenStack
-OpenStack Glance,OpenStack
-OpenStack Heat,OpenStack
-OpenStack Horizon,OpenStack
-OpenStack Hyper-v,OpenStack
-OpenStack Infra,OpenStack
-OpenStack Keystone,OpenStack
-OpenStack Korean,OpenStack
-OpenStack Manila,OpenStack
-OpenStack Manuals,OpenStack
-OpenStack Mistral,OpenStack
-OpenStack Mobile,OpenStack
-OpenStack Murano,OpenStack
-OpenStack Net SDK,OpenStack
-OpenStack Neutron,OpenStack
-OpenStack Nova,OpenStack
-OpenStack Other Repos,OpenStack
-OpenStack Packages,OpenStack
-OpenStack Snaps,OpenStack
-OpenStack Stackalytics,OpenStack
-OpenStack Swift,OpenStack
-OpenStack Tools,OpenStack
-OpenStack Web,OpenStack

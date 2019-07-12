@@ -465,6 +465,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   puts "Project's Repo's real authors count: `res[res.map { |i| i[0] }.index('openSUSE')][2][:items].select { |i| i['repo'] == 'openSUSE/kernel' }.first['authors'].split(',').count`"
   puts 'Projects matching regexp: `res.map.with_index { |e, i| [e, i] }.select { |e| e[0][0].match("/cloud/i".to_regexp) }.map { |e| "#{e[1]} #{e[0][0]}" }`'
   puts 'Projects and authors: `res.each_with_index.map { |r, i| [i+1, r[0], r[1]] }`'
+  puts 'OpenStack analysis: `res.select { |r| r[0][0..8] == \'OpenStack\' }.map { |r| [r[0], r[1]] }`'
 
   binding.pry
 
