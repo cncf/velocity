@@ -12,8 +12,8 @@ Apache Beam:
 	#176 by authors (322)
 	#181 by comments (16644)
 	#933 by commits (2707)
-	#56 by issues (4470)
-	#53 by prs (5949)
+	#57 by issues (4470)
+	#54 by prs (5949)
 	#1104 by pushes (2732)
 
 Apache Camel:
@@ -58,7 +58,7 @@ Apache Flink:
 	#485 by comments (7795)
 	#2412 by commits (1263)
 	#43 by issues (5865)
-	#93 by prs (4450)
+	#94 by prs (4450)
 	#2735 by pushes (1264)
 
 Apache Geode:
@@ -67,7 +67,7 @@ Apache Geode:
 	#2652 by comments (1583)
 	#1048 by commits (2498)
 	#182 by issues (2216)
-	#131 by prs (3487)
+	#132 by prs (3487)
 	#1158 by pushes (2616)
 
 Apache HBase:
@@ -75,7 +75,7 @@ Apache HBase:
 	#3066 by authors (44)
 	#3481 by comments (1161)
 	#12170 by commits (245)
-	#77 by issues (3659)
+	#78 by issues (3659)
 	#1965 by prs (485)
 	#13000 by pushes (246)
 
@@ -102,7 +102,7 @@ Apache Hive:
 	#45547 by authors (4)
 	#12555 by comments (184)
 	#56971 by commits (3)
-	#123 by issues (2804)
+	#124 by issues (2804)
 	#2122 by prs (451)
 	#57085 by pushes (3)
 
@@ -111,7 +111,7 @@ Apache Ignite:
 	#4849 by authors (31)
 	#8932 by comments (322)
 	#24008 by commits (88)
-	#57 by issues (4441)
+	#58 by issues (4441)
 	#180 by prs (2965)
 	#25080 by pushes (88)
 
@@ -121,7 +121,7 @@ Apache Kafka:
 	#486 by comments (7778)
 	#1413 by commits (1955)
 	#170 by issues (2338)
-	#154 by prs (3260)
+	#155 by prs (3260)
 	#1667 by pushes (1960)
 
 Apache Kylin:
@@ -147,7 +147,7 @@ Apache Mesos:
 	#232 by authors (269)
 	#504 by comments (7528)
 	#282 by commits (6391)
-	#100 by issues (3215)
+	#101 by issues (3215)
 	#239 by prs (2493)
 	#277 by pushes (7589)
 
@@ -166,7 +166,7 @@ Apache Spark:
 	#123 by comments (22443)
 	#2903 by commits (1076)
 	#30 by issues (7019)
-	#82 by prs (4746)
+	#83 by prs (4746)
 	#3290 by pushes (1079)
 
 Apache Storm:
@@ -220,7 +220,7 @@ CNCF:
 	#727 by comments (5733)
 	#159 by commits (9228)
 	#253 by issues (1836)
-	#128 by prs (3507)
+	#129 by prs (3507)
 	#184 by pushes (9763)
 
 Chromium:
@@ -229,7 +229,7 @@ Chromium:
 	#120 by comments (23223)
 	#4 by commits (87716)
 	#1 by issues (77838)
-	#99 by prs (4202)
+	#100 by prs (4202)
 	#15 by pushes (43973)
 
 Cloud Foundry:
@@ -237,8 +237,8 @@ Cloud Foundry:
 	#23 by authors (1031)
 	#261 by comments (12603)
 	#24 by commits (33912)
-	#116 by issues (2916)
-	#75 by prs (5017)
+	#117 by issues (2916)
+	#76 by prs (5017)
 	#26 by pushes (38930)
 
 FreeBSD:
@@ -291,8 +291,8 @@ OpenStack:
 	#6 by authors (2591)
 	#93 by comments (25654)
 	#6 by commits (74365)
-	#138 by issues (2578)
-	#172 by prs (3093)
+	#47 by issues (4960)
+	#35 by prs (7520)
 	#6 by pushes (74365)
 
 OpenStack Ansible:

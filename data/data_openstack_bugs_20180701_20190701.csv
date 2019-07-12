@@ -41,6 +41,10 @@ OpenStack Murano,comments,70
 OpenStack Mistral,comments,546
 OpenStack API,comments,20
 OpenStack Community,comments,2
+# plain sum
+OpenStack,issues,4960
+OpenStack,prs,7520
+OpenStack,comments,14875
 # They're skipped by map/skip.csv
 # OpenStack Other Repos,issues,10125
 # OpenStack Other Repos,prs,15200

@@ -170,6 +170,7 @@ Merge Requests: 371,5 pages * 20 = 7430
 - `ruby merger.rb data/unlimited.csv openstack/data_openstack_2018-07-01_2019-07-01.csv`.
 - New approach: `./openstack_issues.sh '2018-07-01 00:00:00' '2019-07-01 00:00:00'`. Get data from results - it is terribly slow, almost unusable.
 - Update file `data/data_openstack_bugs_20180701_20190701.csv` (copy file from `data/data_openstack_bugs.csv`)
+- Also create a row for entire OpenStack by summing all issues/PRs/comments.
 
 - Old approach: Use their launch-pad to get [issues count](https://docs.openstack.org/project-team-guide/bugs.html)
 Specifically go to: `When you find a bug, you should file it against the proper OpenStack project using the corresponding link`

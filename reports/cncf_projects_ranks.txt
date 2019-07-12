@@ -22,7 +22,7 @@ CNCF:
 	#727 by comments (5733)
 	#159 by commits (9228)
 	#253 by issues (1836)
-	#128 by prs (3507)
+	#129 by prs (3507)
 	#184 by pushes (9763)
 
 CNI:
@@ -85,7 +85,7 @@ Envoy:
 	#58 by comments (35681)
 	#188 by commits (8489)
 	#147 by issues (2493)
-	#52 by prs (6070)
+	#53 by prs (6070)
 	#226 by pushes (8807)
 
 Falco:
@@ -111,7 +111,7 @@ Harbor:
 	#921 by authors (106)
 	#456 by comments (8241)
 	#2144 by commits (1402)
-	#97 by issues (3224)
+	#98 by issues (3224)
 	#179 by prs (2969)
 	#2380 by pushes (1441)
 
@@ -120,7 +120,7 @@ Helm:
 	#9 by authors (1777)
 	#38 by comments (44116)
 	#345 by commits (5431)
-	#51 by issues (4723)
+	#52 by issues (4723)
 	#22 by prs (9111)
 	#424 by pushes (5444)
 
@@ -211,7 +211,7 @@ OpenEBS:
 	#235 by comments (13693)
 	#229 by commits (7582)
 	#364 by issues (1419)
-	#36 by prs (7256)
+	#37 by prs (7256)
 	#272 by pushes (7723)
 
 OpenMetrics:
@@ -246,8 +246,8 @@ Prometheus:
 	#67 by authors (530)
 	#105 by comments (24374)
 	#779 by commits (3077)
-	#79 by issues (3523)
-	#69 by prs (5347)
+	#80 by issues (3523)
+	#70 by prs (5347)
 	#876 by pushes (3292)
 
 Rook:
@@ -354,7 +354,7 @@ gRPC:
 	#76 by authors (510)
 	#40 by comments (42414)
 	#476 by commits (4372)
-	#49 by issues (4806)
+	#50 by issues (4806)
 	#18 by prs (9889)
 	#558 by pushes (4495)
 
