@@ -1,0 +1,329 @@
+name,project
+01org,=SKIP
+=External,=SKIP
+Azure,=SKIP
+GoogleCloudPlatform,=SKIP
+Microsoft,=SKIP
+apache,=SKIP
+aws,=SKIP
+google,=SKIP
+openSUSE,=SKIP
+w3c,=SKIP
+ApacheFriends,XAMPP
+Ar1i/PokemonGo-Bot,PokemonGoF
+AusDTO,Digital Transformation Office
+CartoDB,CARTO
+ChromeDevTools,Chromium
+ChromeExtensionStore,Chromium
+ChromiumWebApps,Chromium
+CleverRaven,Cataclysm-DDA
+Cloud Native Computing Foundation,CNCF
+Core Infrastructure Initiative,Core Infrastructure
+DataDog,Datadog
+FreeBSD-UPB,FreeBSD
+FreeBSDDesktop,FreeBSD
+FreeBSDFoundation,FreeBSD
+FreeBSDRust,FreeBSD
+FreeBSDWorkingBranch,FreeBSD
+FreeBSDonHyper-V,FreeBSD
+GoogleChrome,Chromium
+IBM-Bluemix,IBM Bluemix
+IO Visor Project,IO Visor
+KSP-CKAN,CKAN
+Linux kernel,Linux
+MarlinFirmware,Marlin
+MobileChromeApps,Chromium
+OCA,ODOO
+OfficeDev,Office Developer
+Open API Initiative,Open API
+Open Accessibility (A11y) Group,A11y
+Open Container Initiative,OCI
+Open Mainframe Project,Open Mainframe
+OpenObservability,OpenMetrics
+OpenStack-mobile,OpenStack Mobile
+OpenStackCookbook,OpenStack Cookbook
+OpenStackweb,OpenStack Web
+ParsePlatform,Parse
+Particular,NServiceBus
+Plailect/Guide,3DS Guide
+ResurrectionRemix,Resurrection Remix
+Software Package Data Exchange,SPDX
+TheOdinProject,The Odin Project
+Virtual-Kubelet,Virtual Kubelet
+Yoast,Yoast SEO
+Zephyr Project,Zephyr
+acemod,ACE Mod
+akka,Akka
+alibaba,Alibaba
+alphagov,Government Digital Service
+ampproject,AMP
+ansible,Ansible
+ant-design,Ant Design
+apache-spark,Apache Spark
+apache-spark-on-k8s,Apache Spark
+apachecloudstack,Apache CloudStack
+apacheignite,Apache Ignite
+apollographql,Apollo GraphQL
+aspnet,ASP.net
+atom,Atom
+auth0,Auth0
+automotive-grade-linux,AGL
+awsdocs,Amazon Docs
+bazelbuild,Bazel
+betaflight,Betaflight
+boostorg,Boost
+brave,Brave Software
+brigadecore,Brigade
+broadinstitute,Broad Institute
+buildpack,Buildpacks
+c4cs,Computing for Computer Scientists
+cakephp,CakePHP
+caskroom,Homebrew
+cdfoundation,CDF
+cfpb,Consumer Financial Protection Bureau
+chef,Chef
+chrome-enhanced-history,Chromium
+chromium,Chromium
+chromiumify,Chromium
+cloudevents,CloudEvents
+cloudfoundry,Cloud Foundry
+cloudfoundry-attic,Cloud Foundry
+cloudfoundry-community,Cloud Foundry
+cloudfoundry-incubator,Cloud Foundry
+cloudfoundry-samples,Cloud Foundry
+cms-sw,CMS Offline Software
+cncf,CNCF
+cockroachdb,Cockroach Labs
+codeaurora-unofficial,Code Aurora
+codecombat,CodeCombat
+conda-forge,conda-forge
+containernetworking,CNI
+coredns,CoreDNS
+coreos,CoreOS
+cortexproject,Cortex
+cregit/cregit,cregit
+cri-o,CRI-O
+crosscloudci,CNCF
+d3athrow/vgstation13,vgstation13
+dart-lang,Dart
+department-of-veterans-affairs,Caseflow
+dmlc,DMLC
+docker,Docker
+docker-freebsd,FreeBSD
+dragonflyoss,Dragonfly
+driftyco,Ionic
+e-government-ua,Основной репозиторий
+eclipse,Eclipse
+elastic,Elasticsearch
+elasticsearch,Elasticsearch
+elsys,ELSYS
+emberjs,Ember.js
+envoyproxy,Envoy
+etcd-io,etcd
+ethcore,Parity
+ethereum,Ethereum
+fabric8io,fabric8
+facebook,React
+falcosecurity,Falco
+fluent,Fluentd
+flutter,Flutter
+freebsd,FreeBSD
+freebsd-build-toolkit,FreeBSD
+freebsd-docker,FreeBSD
+freebsd-net,FreeBSD
+freebsd-riscv,FreeBSD
+gatsbyjs,Gatsby
+github,GitHub
+gitlab,GitLab
+gitlabhq,GitLab
+go-freebsd,FreeBSD
+godotengine,Godot Engine
+goharbor,Harbor
+graphql,GraphQL
+grpc,gRPC
+grpc-ecosystem,gRPC
+guardian,The Guardian
+helm,Helm
+home-assistant,Home Assistant
+hyperledger,Hyperledger
+influxdata,InfluxData
+influxdb,InfluxDB
+iovisor,IO Visor
+iron-io,Iron.io
+jaegertracing,Jaeger
+jenkins-x,Jenkins X
+jenkinsci,Jenkins
+joomla,Joomla
+jsdelivr,jsDelivr
+kata-containers,Kata Containers
+keybase,Keybase
+kubeedge,KubeEdge
+kubernetes,Kubernetes
+kubernetes-addons,Kubernetes
+kubernetes-client,Kubernetes
+kubernetes-csi,Kubernetes
+kubernetes-extensions,Kubernetes
+kubernetes-federation,Kubernetes
+kubernetes-graveyard,Kubernetes
+kubernetes-helm,Helm
+kubernetes-incubator,Kubernetes
+kubernetes-incubator-retired,Kubernetes
+kubernetes-providers,Kubernetes
+kubernetes-retired,Kubernetes
+kubernetes-security,Kubernetes
+kubernetes-sidecars,Kubernetes
+kubernetes-sig-testing,Kubernetes
+kubernetes-sigs,Kubernetes
+kubernetes-test,Kubernetes
+kubernetes-tools,Kubernetes
+laravel,Laravel
+letsencrypt,Let's Encrypt
+linkedin,LinkedIn
+linkerd,Linkerd
+linux-sunxi,Linux sunxi
+lyft,Envoy
+magento,Magento
+mantidproject,Mantid
+mapbox,Mapbox
+mapsme,MAPS.ME
+mattermost,Mattermost
+melpa,MELPA
+mesos,Apache Mesos
+mesosphere,Apache Mesos
+meteor,Meteor
+mininet,Mininet
+mitodl,MIT Office of Digital Learning
+mozilla,Mozilla
+mozilla-services,Mozilla Services
+nats-io,NATS
+networkservicemesh,Network Service Mesh
+neveragaindottech,neveragain.tech
+nextcloud,Nextcloud
+nodejs,Node.js
+nylas,Nylas
+odoo,Odoo
+odpi,ODPi
+open-policy-agent,OPA
+open-telemetry,OpenTelemetry
+openbmp,OpenBMP
+opencontainers,OCI
+opencord,CORD
+openebs,OpenEBS
+openeventing,CloudEvents
+openhab,openHAB
+openmainframeproject,Open Mainframe
+opennetworkinglab,Open Networking Laboratory
+opensds,OpenSDS
+opensecuritycontroller,Open Security Controller
+openshift,OpenShift
+openssl,OpenSSL
+openstack-ansible,OpenStack Ansible
+openstack-charmers,OpenStack Charmers
+openstack-dev,OpenStack Dev
+openstack-hyper-v,OpenStack Hyper-v
+openstack-infra,OpenStack Infra
+openstack-kr,OpenStack Korean
+openstack-packages,OpenStack Packages
+openstack-snaps,OpenStack Snaps
+openstacknetsdk,OpenStack Net SDK
+openswitch,OpenSwitch
+opentracing,OpenTracing
+openwrt,OpenWrt
+osmandapp,Osmand
+owncloud,ownCloud
+p4lang,P4 Language
+pingcap,PingCAP
+pivotal-cf,Pivotal Cloud Foundry
+prometheus,Prometheus
+pytorch,pytorch
+rackt,React
+rails,Ruby on Rails
+rapid7,Rapid7
+react-native-community,React
+reactjs,React
+rethinkdb,RethinkDB
+rook,Rook
+rust-lang,Rust
+rust-lang-nursery,Rust
+sakaiproject,Sakai
+saltstack,SaltStack
+seata,Seata
+sensu,Sensu
+sequelize,Sequelize
+serverless,Serverless Framework
+servo,The Servo Browser Engine
+skillcrush,Skillcrush
+spiffe,SPIFFE
+spinnaker,Spinnaker
+spotify,Spotify
+spree,Spree
+swagger-api,Swagger
+symfony,Symfony
+tektoncd,Tekton
+telepresenceio,Telepresence
+telerik,Telerik
+tensorflow,TensorFlow
+terraform-providers,Terraform
+tgstation,SS13
+thephpleague,League of Extraordinary Packages
+theupdateframework,TUF
+tikv,TiKV
+tungstenfabric,Tungsten Fabric
+twitter,Twitter
+uber,Uber Open Source
+vgstation-coders,vgstation13
+virtual-kubelet,Virtual Kubelet
+vitessio,Vitess
+vmware,VMware
+voidlinux,The Void distribution
+voxpupuli,Vox Populi
+w3c,W3C
+wireapp,Wire Swiss GmbH
+wix,WiX
+wordpress-mobile,WordPress-mobile
+wso2,WSO2
+xbmc,Team Kodi
+xen-project,xen
+yarnpkg,yarn
+yogstation13,Yogstation13
+zalando,Zalando
+zendframework,Zend Framework
+zephyrproject-rtos,Zephyr
+# cloudfoundry,Cloud Foundry
+# cloudfoundry-attic,Cloud Foundry Attic
+# cloudfoundry-community,Cloud Foundry Community
+# cloudfoundry-incubator,Cloud Foundry Incubator
+# cloudfoundry-samples,Cloud Foundry Samples
+# kubernetes-cluster-automation,Kubernetes
+# kubernetes-contrib,Kubernetes
+# kubernetes-ui,Kubernetes
+# openstack,=SKIP
+OpenStack API,OpenStack
+OpenStack Ansible,OpenStack
+OpenStack Charmers,OpenStack
+OpenStack Cinder,OpenStack
+OpenStack Community,OpenStack
+OpenStack Cookbook,OpenStack
+OpenStack Dev,OpenStack
+OpenStack Glance,OpenStack
+OpenStack Heat,OpenStack
+OpenStack Horizon,OpenStack
+OpenStack Hyper-v,OpenStack
+OpenStack Infra,OpenStack
+OpenStack Keystone,OpenStack
+OpenStack Korean,OpenStack
+OpenStack Manila,OpenStack
+OpenStack Manuals,OpenStack
+OpenStack Mistral,OpenStack
+OpenStack Mobile,OpenStack
+OpenStack Murano,OpenStack
+OpenStack Net SDK,OpenStack
+OpenStack Neutron,OpenStack
+OpenStack Nova,OpenStack
+OpenStack Other Repos,OpenStack
+OpenStack Packages,OpenStack
+OpenStack Snaps,OpenStack
+OpenStack Stackalytics,OpenStack
+OpenStack Swift,OpenStack
+OpenStack Tools,OpenStack
+OpenStack Web,OpenStack
