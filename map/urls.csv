@@ -1,6 +1,5 @@
 project,url
 18F C2,cap.18f.gov
-Thanos,thanos.io
 18F CALC,calc.gsa.gov
 18F Federal Election Commision,api.open.fec.gov/developers
 18F Handbook,handbook.18f.gov
@@ -501,6 +500,7 @@ Telerik,telerik.com
 TensorFlow,tensorflow.org
 Terraform,terraform.io
 Texture,texturegroup.org
+Thanos,thanos.io
 The Guardian,theguardian.com
 The Odin Project,theodinproject.com
 The Physical Web,physical-web.org

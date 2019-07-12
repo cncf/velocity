@@ -98,8 +98,6 @@ GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/php-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
 HaliteChallenge/Halite,Halite
-improbable-eng/promlts,Thanos
-improbable-eng/thanos,Thanos
 IBM/CAST,CAST
 IBM/carbon-components,Carbon Design System
 IBM/carbon-components-angular,Carbon Design System
@@ -735,6 +733,8 @@ hashicorp/terraform-website,Terraform
 hashicorp/vagrant,Vagrant
 hashicorp/vagrant-installers,Vagrant
 hashicorp/vault,Vault
+improbable-eng/promlts,Thanos
+improbable-eng/thanos,Thanos
 infernojs/inferno,Inferno
 intel/IA-Hardware-Composer,Intel HWC2
 intel/compute-runtime,Intel Graphics Compute Runtime
