@@ -44,7 +44,7 @@ WHERE
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'spinnaker', 'tektoncd', 'jenkinsci',
       'iovisor', 'mininet', 'opennetworkinglab', 'p4lang', 'OpenBMP', 'tungstenfabric', 'opencord',
-      'networkservicemesh', 'cri-o', 'open-telemetry', 'openebs', 'graphql', 'thanos-io'
+      'networkservicemesh', 'cri-o', 'open-telemetry', 'openebs', 'graphql', 'thanos-io', 'fluxcd'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',
@@ -56,7 +56,8 @@ WHERE
       'rktproject/rkt', 'datawire/telepresence', 'RichiH/OpenMetrics', 'vmware/harbor',
       'coreos/etcd', 'pingcap/tikv', 'weaveworks/cortex', 'weaveworks/prism', 'knative/build',
       'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade',
-      'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos'
+      'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos',
+      'weaveworks/flux'
     )
   )
   and type in (
