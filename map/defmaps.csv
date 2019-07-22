@@ -266,6 +266,7 @@ tensorflow,TensorFlow
 terraform-providers,Terraform
 tgstation,SS13
 thanos-io,Thanos
+fluxcd,Flux
 thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV

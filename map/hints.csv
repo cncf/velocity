@@ -735,6 +735,7 @@ hashicorp/vagrant-installers,Vagrant
 hashicorp/vault,Vault
 improbable-eng/promlts,Thanos
 improbable-eng/thanos,Thanos
+weaveworks/flux,Flux
 infernojs/inferno,Inferno
 intel/IA-Hardware-Composer,Intel HWC2
 intel/compute-runtime,Intel Graphics Compute Runtime
