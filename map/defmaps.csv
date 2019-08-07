@@ -267,6 +267,7 @@ terraform-providers,Terraform
 tgstation,SS13
 thanos-io,Thanos
 fluxcd,Flux
+in-toto,in-toto
 thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV
