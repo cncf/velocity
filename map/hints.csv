@@ -21,6 +21,61 @@ Airbnb/react-native,React
 EnMasseProject/barnabas,Strimzi
 ppatierno/barnabas,Strimzi
 ppatierno/kaas,Strimzi
+awslabs/aws-sam-cli,AWS SAM
+awslabs/serverless-application-model,AWS SAM
+awslabs/aws-sam-local,AWS SAM
+Azure/azure-functions-host,AZF
+Azure/azure-webjobs-sdk,AZF
+Azure/azure-webjobs-sdk-extensions,AZF
+Azure/azure-functions-durable-extension,AZF
+Azure/azure-functions-durable-js,AZF
+Azure/azure-functions-core-tools,AZF
+Azure/azure-functions-nodejs-worker,AZF
+Azure/azure-functions-java-worker,AZF
+Azure/azure-functions-python-worker,AZF
+Azure/azure-functions-ux,AZF
+Azure/azure-functions-templates,AZF
+Azure/azure-webjobs-sdk-script-samples,AZF
+Azure/azure-functions-vs-build-sdk,AZF
+Azure/azure-webjobs-sdk,AZF
+Azure/azure-webjobs-sdk-extensions,AZF
+Azure/azure-webjobs-sdk-script,AZF
+Azure/azure-webjobs-sdk-templates,AZF
+Azure/azure-functions-cli,AZF
+projectkudu/AzureFunctions,AZF
+projectkudu/WebJobsPortal,AZF
+projectkudu/AzureFunctionsPortal,AZF
+projectkudu/azure-functions-ux,AZF
+markfisher/sk8s,Pivotal Riff
+jldec/projectriff.io,Pivotal Riff
+pivotal-cf/pfs-system-test,Pivotal Riff
+ericbottard/sk8s-go,Pivotal Riff
+ericbottard/sk8s-types,Pivotal Riff
+ericbottard/kubernetes-model,Pivotal Riff
+ericbottard/sk8s-http-gateway,Pivotal Riff
+ericbottard/function-sidecar,Pivotal Riff
+ericbottard/sk8s-topic-controller,Pivotal Riff
+fnhub/katacoda-scenarios,Oracle Fn
+treeder/fn-plugin-example,Oracle Fn
+treeder/fn-ext-dns,Oracle Fn
+treeder/fn-ext-example,Oracle Fn
+treeder/fn-ext-auth,Oracle Fn
+apache/incubator-openwhisk,Apache OpenWhisk
+apache/openwhisk,Apache OpenWhisk
+stefanprodan/caddy-builder,OpenFaaS
+alexellis/faas,OpenFaaS
+alexellis/faas-cli,OpenFaaS
+alexellis/java-afterburn,OpenFaaS
+alexellis/faas-netes,OpenFaaS
+alexellis/caddy-builder,OpenFaaS
+alexellis/openfaas-workshop,OpenFaaS
+alexellis/derek,OpenFaaS
+alexellis/java-openfaas-fast-fork,OpenFaaS
+alexellis/openfaas-cloud,OpenFaaS
+alexellis/faas-nats,OpenFaaS
+alexellis/serverless-faas,OpenFaaS
+alexellis/faas-provider,OpenFaaS
+alexellis/nodejs-afterburn,OpenFaaS
 AngularClass/angular2-webpack-starter,Angular
 Automattic/WP-Job-Manager,WP Calypso
 Automattic/amp-wp,WP Calypso
@@ -52,10 +107,6 @@ Azure/azure-sdk-for-php,Azure SDKs
 Azure/azure-sdk-for-python,Azure SDKs
 Azure/azure-sdk-for-ruby,Azure SDKs
 Azure/azure-sdk-ruby,Azure SDKs
-Azure/azure-webjobs-sdk,Azure SDKs
-Azure/azure-webjobs-sdk-extensions,Azure SDKs
-Azure/azure-webjobs-sdk-script,Azure SDKs
-Azure/azure-webjobs-sdk-templates,Azure SDKs
 Azure/brigade,Brigade
 Azure/sonic-py-swsssdk,Azure SDKs
 BuoyantIO/linkerd,Linkerd
