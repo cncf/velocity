@@ -42,6 +42,7 @@ Azure/azure-webjobs-sdk-extensions,AZF
 Azure/azure-webjobs-sdk-script,AZF
 Azure/azure-webjobs-sdk-templates,AZF
 Azure/azure-functions-cli,AZF
+Azure/Azure-Functions,AZF
 projectkudu/AzureFunctions,AZF
 projectkudu/WebJobsPortal,AZF
 projectkudu/AzureFunctionsPortal,AZF
