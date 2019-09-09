@@ -39,7 +39,7 @@ where
       'kubernetes-sig-testing', 'kubernetes-providers', 'kubernetes-addons', 'kubernetes-test',
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'cri-o', 'networkservicemesh',
-      'open-telemetry', 'openebs', 'thanos-io', 'fluxcd', 'in-toto', 'strimzi'
+      'open-telemetry', 'openebs', 'thanos-io', 'fluxcd', 'in-toto', 'strimzi', 'kubevirt'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 

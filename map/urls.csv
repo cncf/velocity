@@ -511,6 +511,7 @@ Thanos,thanos.io
 Flux,github.com/fluxcd
 in-toto,in-toto.io
 Strimzi,strimzi.io
+KubeVirt,kubevirt.io
 The Guardian,theguardian.com
 The Odin Project,theodinproject.com
 The Physical Web,physical-web.org
