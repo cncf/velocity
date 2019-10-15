@@ -1672,6 +1672,7 @@ python/pythondotorg,python
 python/the-knights-who-say-ni,python
 python/typeshed,python
 python/typing,python
+rancher/longhorn,Longhorn
 react-community/create-react-native-app,React
 react-community/react-navigation,React
 react-native-community/react-native-elements,React
