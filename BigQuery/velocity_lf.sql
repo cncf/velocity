@@ -45,7 +45,7 @@ WHERE
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'spinnaker', 'tektoncd', 'jenkinsci',
       'iovisor', 'mininet', 'opennetworkinglab', 'p4lang', 'OpenBMP', 'tungstenfabric', 'opencord',
       'networkservicemesh', 'cri-o', 'open-telemetry', 'openebs', 'graphql', 'thanos-io', 'fluxcd',
-      'in-toto', 'strimzi', 'kubevirt', 'longhorn'
+      'in-toto', 'strimzi', 'kubevirt', 'longhorn', 'chubaofs'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',
@@ -59,7 +59,8 @@ WHERE
       'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade',
       'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas', 'ppatierno/kaas',
-      'rancher/longhorn'
+      'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
+      'containerfilesystem/doc-zh'
     )
   )
   and type in (

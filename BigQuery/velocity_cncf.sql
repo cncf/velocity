@@ -40,7 +40,7 @@ where
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'cri-o', 'networkservicemesh',
       'open-telemetry', 'openebs', 'thanos-io', 'fluxcd', 'in-toto', 'strimzi', 'kubevirt',
-      'rancher/longhorn'
+      'longhorn', 'chubaofs'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -51,7 +51,8 @@ where
       'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade',
       'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas',' ppatierno/kaas',
-      'rancher/longhorn'
+      'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
+      'containerfilesystem/doc-zh'
     )
   )
   and type in (
