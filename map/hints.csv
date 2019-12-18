@@ -1673,6 +1673,9 @@ python/the-knights-who-say-ni,python
 python/typeshed,python
 python/typing,python
 rancher/longhorn,Longhorn
+containerfs/containerfs.github.io,Chubao FS
+containerfilesystem/cfs,Chubao FS
+containerfilesystem/doc-zh,Chubao FS
 react-community/create-react-native-app,React
 react-community/react-navigation,React
 react-native-community/react-native-elements,React
