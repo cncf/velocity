@@ -18,65 +18,6 @@ repo,project
 18F/tock,tock
 18F/web-design-standards,US Web Design Standards
 Airbnb/react-native,React
-EnMasseProject/barnabas,Strimzi
-ppatierno/barnabas,Strimzi
-ppatierno/kaas,Strimzi
-awslabs/aws-sam-cli,AWS SAM
-awslabs/serverless-application-model,AWS SAM
-awslabs/aws-sam-local,AWS SAM
-Azure/azure-functions-host,AZF
-Azure/azure-webjobs-sdk,AZF
-Azure/azure-webjobs-sdk-extensions,AZF
-Azure/azure-functions-durable-extension,AZF
-Azure/azure-functions-durable-js,AZF
-Azure/azure-functions-core-tools,AZF
-Azure/azure-functions-nodejs-worker,AZF
-Azure/azure-functions-java-worker,AZF
-Azure/azure-functions-python-worker,AZF
-Azure/azure-functions-ux,AZF
-Azure/azure-functions-templates,AZF
-Azure/azure-webjobs-sdk-script-samples,AZF
-Azure/azure-functions-vs-build-sdk,AZF
-Azure/azure-webjobs-sdk,AZF
-Azure/azure-webjobs-sdk-extensions,AZF
-Azure/azure-webjobs-sdk-script,AZF
-Azure/azure-webjobs-sdk-templates,AZF
-Azure/azure-functions-cli,AZF
-Azure/Azure-Functions,AZF
-projectkudu/AzureFunctions,AZF
-projectkudu/WebJobsPortal,AZF
-projectkudu/AzureFunctionsPortal,AZF
-projectkudu/azure-functions-ux,AZF
-markfisher/sk8s,Pivotal Riff
-jldec/projectriff.io,Pivotal Riff
-pivotal-cf/pfs-system-test,Pivotal Riff
-ericbottard/sk8s-go,Pivotal Riff
-ericbottard/sk8s-types,Pivotal Riff
-ericbottard/kubernetes-model,Pivotal Riff
-ericbottard/sk8s-http-gateway,Pivotal Riff
-ericbottard/function-sidecar,Pivotal Riff
-ericbottard/sk8s-topic-controller,Pivotal Riff
-fnhub/katacoda-scenarios,Oracle Fn
-treeder/fn-plugin-example,Oracle Fn
-treeder/fn-ext-dns,Oracle Fn
-treeder/fn-ext-example,Oracle Fn
-treeder/fn-ext-auth,Oracle Fn
-apache/incubator-openwhisk,Apache OpenWhisk
-apache/openwhisk,Apache OpenWhisk
-stefanprodan/caddy-builder,OpenFaaS
-alexellis/faas,OpenFaaS
-alexellis/faas-cli,OpenFaaS
-alexellis/java-afterburn,OpenFaaS
-alexellis/faas-netes,OpenFaaS
-alexellis/caddy-builder,OpenFaaS
-alexellis/openfaas-workshop,OpenFaaS
-alexellis/derek,OpenFaaS
-alexellis/java-openfaas-fast-fork,OpenFaaS
-alexellis/openfaas-cloud,OpenFaaS
-alexellis/faas-nats,OpenFaaS
-alexellis/serverless-faas,OpenFaaS
-alexellis/faas-provider,OpenFaaS
-alexellis/nodejs-afterburn,OpenFaaS
 AngularClass/angular2-webpack-starter,Angular
 Automattic/WP-Job-Manager,WP Calypso
 Automattic/amp-wp,WP Calypso
@@ -88,7 +29,19 @@ Automattic/woocommerce-connect-client,Automattic WooCommerce
 Automattic/wp-calypso,WP Calypso
 Automattic/wp-e2e-tests,WP Calypso
 Automattic/wp-super-cache,WP Calypso
+Azure/Azure-Functions,AZF
 Azure/azure-batch-sdk-for-java,Azure SDKs
+Azure/azure-functions-cli,AZF
+Azure/azure-functions-core-tools,AZF
+Azure/azure-functions-durable-extension,AZF
+Azure/azure-functions-durable-js,AZF
+Azure/azure-functions-host,AZF
+Azure/azure-functions-java-worker,AZF
+Azure/azure-functions-nodejs-worker,AZF
+Azure/azure-functions-python-worker,AZF
+Azure/azure-functions-templates,AZF
+Azure/azure-functions-ux,AZF
+Azure/azure-functions-vs-build-sdk,AZF
 Azure/azure-iot-gateway-sdk,Azure SDKs
 Azure/azure-iot-sdk-c,Azure SDKs
 Azure/azure-iot-sdk-csharp,Azure SDKs
@@ -108,6 +61,11 @@ Azure/azure-sdk-for-php,Azure SDKs
 Azure/azure-sdk-for-python,Azure SDKs
 Azure/azure-sdk-for-ruby,Azure SDKs
 Azure/azure-sdk-ruby,Azure SDKs
+Azure/azure-webjobs-sdk,AZF
+Azure/azure-webjobs-sdk-extensions,AZF
+Azure/azure-webjobs-sdk-script,AZF
+Azure/azure-webjobs-sdk-script-samples,AZF
+Azure/azure-webjobs-sdk-templates,AZF
 Azure/brigade,Brigade
 Azure/sonic-py-swsssdk,Azure SDKs
 BuoyantIO/linkerd,Linkerd
@@ -118,6 +76,7 @@ Dronecode/Vagrant,Dronecode
 Dronecode/_Repository-List,Dronecode
 Dronecode/sitl_gazeb,Dronecode
 EFForg/https-everywhere,HTTPS Everywhere
+EnMasseProject/barnabas,Strimzi
 GoogleChrome/lighthouse,Chromium
 GoogleCloudPlatform/DataflowJavaSDK,Google Cloud SDKs
 GoogleCloudPlatform/DataflowPythonSDK,Google Cloud SDKs
@@ -392,6 +351,19 @@ airbnb/lottie-android,Lottie
 airbnb/react-dates,React
 airbnb/react-native-maps,React
 airbnb/superset,Superset
+alexellis/caddy-builder,OpenFaaS
+alexellis/derek,OpenFaaS
+alexellis/faas,OpenFaaS
+alexellis/faas-cli,OpenFaaS
+alexellis/faas-nats,OpenFaaS
+alexellis/faas-netes,OpenFaaS
+alexellis/faas-provider,OpenFaaS
+alexellis/java-afterburn,OpenFaaS
+alexellis/java-openfaas-fast-fork,OpenFaaS
+alexellis/nodejs-afterburn,OpenFaaS
+alexellis/openfaas-cloud,OpenFaaS
+alexellis/openfaas-workshop,OpenFaaS
+alexellis/serverless-faas,OpenFaaS
 alibaba/AliOS-Things,AliOS Things
 alibaba/Dragonfly,Dragonfly
 alibaba/Sentinel,Sentinel
@@ -451,6 +423,7 @@ apache/incubator-carbondata,Apache CarbonData
 apache/incubator-geode,Apache Geode
 apache/incubator-hivemall,Apache Hive
 apache/incubator-hivemall-site,Apache Hive
+apache/incubator-openwhisk,Apache OpenWhisk
 apache/incubator-trafodion,Apache Trafodion
 apache/incubator-zeppelin,Apache Zeppelin
 apache/jclouds,Apache CloudStack
@@ -466,6 +439,7 @@ apache/nifi-maven,Apache NiFi
 apache/nifi-minifi,Apache NiFi
 apache/nifi-minifi-cpp,Apache NiFi
 apache/nifi-site,Apache NiFi
+apache/openwhisk,Apache OpenWhisk
 apache/spark,Apache Spark
 apache/spark-website,Apache Spark
 apache/storm,Apache Storm
@@ -502,6 +476,9 @@ aws/aws-sdk-php-symfony,AWS SDKs
 aws/aws-sdk-php-zf2,AWS SDKs
 aws/aws-sdk-ruby,AWS SDKs
 aws/aws-sdk-ruby-record,AWS SDKs
+awslabs/aws-sam-cli,AWS SAM
+awslabs/aws-sam-local,AWS SAM
+awslabs/serverless-application-model,AWS SAM
 brunopulis/awesome-a11y,A11y
 callemall/material-ui,Material-UI
 cip-project/board-at-desk-single-dev,Civil Infrastructure Platform
@@ -640,6 +617,9 @@ codeaurora-unofficial/platform-system-vold,Code Aurora
 codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-fw-api,Code Aurora
 codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qca-wifi-host-cmn,Code Aurora
 codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qcacld-3.0,Code Aurora
+containerfilesystem/cfs,Chubao FS
+containerfilesystem/doc-zh,Chubao FS
+containerfs/containerfs.github.io,Chubao FS
 coredns/coredns-grpc,CoreDNS
 coredns/grpc,CoreDNS
 coreinfrastructure/best-practices-badge,Core Infrastructure
@@ -698,6 +678,12 @@ envoyproxy/data-plane-api,Envoy
 envoyproxy/envoy,Envoy
 envoyproxy/envoy-filter-example,Envoy
 envoyproxy/envoyproxy.github.io,Envoy
+ericbottard/function-sidecar,Pivotal Riff
+ericbottard/kubernetes-model,Pivotal Riff
+ericbottard/sk8s-go,Pivotal Riff
+ericbottard/sk8s-http-gateway,Pivotal Riff
+ericbottard/sk8s-topic-controller,Pivotal Riff
+ericbottard/sk8s-types,Pivotal Riff
 fa16scmorg/FA16SCM,Assignment Simulaton Repository
 facebook/AsyncDisplayKit,Texture
 facebook/osquery,osquery
@@ -708,6 +694,7 @@ facebook/rocksdb,RocksDB
 facebookincubator/create-react-app,React
 fdio-stack/felix,FD.io
 fdio-stack/netplugin,FD.io
+fnhub/katacoda-scenarios,Oracle Fn
 fossology/fossology,FOSSology
 fpco/stackage,Hackage
 github.com/tpm2-software/tpm2-tools,Intel TPM
@@ -790,7 +777,6 @@ hashicorp/vagrant-installers,Vagrant
 hashicorp/vault,Vault
 improbable-eng/promlts,Thanos
 improbable-eng/thanos,Thanos
-weaveworks/flux,Flux
 infernojs/inferno,Inferno
 intel/IA-Hardware-Composer,Intel HWC2
 intel/compute-runtime,Intel Graphics Compute Runtime
@@ -824,6 +810,7 @@ iovisor/xdp-vagrant,IO Visor
 jaegertracing/jaeger-kubernetes,Jaeger
 jaegertracing/jaeger-openshift,Jaeger
 jaegertracing/test-repo-move,Jaeger
+jldec/projectriff.io,Pivotal Riff
 joeythesaint/cgl-specification,Carrier Grade Linux
 knative/build,Tekton
 kubernetes-incubator/bootkube,Kubernetes
@@ -847,6 +834,7 @@ kubernetes/test-infra,Kubernetes
 ligato/networkservicemesh,Network Service Mesh
 lyft/envoy,Envoy
 mamedev/mame,MAME
+markfisher/sk8s,Pivotal Riff
 miekg/coredns,CoreDNS
 mozilla/123done,Firefox
 mozilla/ADBFuzz,Firefox
@@ -1642,6 +1630,7 @@ opnfv/yardstick,OPNFV
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
 pingcap/tikv,TiKV
+pivotal-cf/pfs-system-test,Pivotal Riff
 playframework/playframework,Play Framework
 pndaproject/example-applications,PNDA
 pndaproject/gobblin,PNDA
@@ -1662,6 +1651,12 @@ pndaproject/pnda-dib-elements,PNDA
 pndaproject/pnda-guide,PNDA
 pndaproject/pnda-heat-templates,PNDA
 pndaproject/red-pnda,PNDA
+ppatierno/barnabas,Strimzi
+ppatierno/kaas,Strimzi
+projectkudu/AzureFunctions,AZF
+projectkudu/AzureFunctionsPortal,AZF
+projectkudu/WebJobsPortal,AZF
+projectkudu/azure-functions-ux,AZF
 python/bedevere,python
 python/core-workflow,python
 python/devguide,python
@@ -1673,9 +1668,6 @@ python/the-knights-who-say-ni,python
 python/typeshed,python
 python/typing,python
 rancher/longhorn,Longhorn
-containerfs/containerfs.github.io,Chubao FS
-containerfilesystem/cfs,Chubao FS
-containerfilesystem/doc-zh,Chubao FS
 react-community/create-react-native-app,React
 react-community/react-navigation,React
 react-native-community/react-native-elements,React
@@ -1715,6 +1707,7 @@ spdx/tools,SPDX
 spdx/tools-go,SPDX
 spdx/tools-python,SPDX
 spiffe/spire,SPIRE
+stefanprodan/caddy-builder,OpenFaaS
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture
@@ -1741,6 +1734,10 @@ todogroup/repolinter,TODO group
 todogroup/todogroup.github.io,TODO group
 tootsuite/mastodon,Mastodon
 torvalds/linux,Linux
+treeder/fn-ext-auth,Oracle Fn
+treeder/fn-ext-dns,Oracle Fn
+treeder/fn-ext-example,Oracle Fn
+treeder/fn-plugin-example,Oracle Fn
 twitter/finagle,Finagle
 twitter/finatra,Finatra
 twitter/heron,Heron
@@ -1781,6 +1778,7 @@ w3c/webrtc-pc,W3C WebRTC
 w3c/webvr,W3C WebVR
 w3c/wot,Web of Things
 weaveworks/cortex,Cortex
+weaveworks/flux,Flux
 weaveworks/frankenstein,Cortex
 weaveworks/prism,Cortex
 wso2/carbon-apimgt,WSO2 Carbon

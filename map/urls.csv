@@ -13,14 +13,9 @@ AGL,www.automotivelinux.org
 AMP,ampproject.org
 ASP.net,asp.net
 ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
-AWS SDKs,aws.amazon.com
 AWS SAM,aws.amazon.com/serverless/sam
+AWS SDKs,aws.amazon.com
 AZF,azure.microsoft.com
-Pivotal Riff,projectriff.io
-Knative,knative.dev
-Oracle Fn,fnproject.io
-Apache OpenWhisk,openwhisk.apache.org
-OpenFaaS,openfaas.com
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
 ActiveShipping,shopify.github.io/active_shipping
 Activity Campaign site,activate.mozilla.community
@@ -55,6 +50,7 @@ Apache Kylin,kylin.apache.org
 Apache Lucene/Solr,git.apache.org/lucene-solr.git
 Apache Mesos,mesos.apache.org
 Apache NiFi,nifi.apache.org
+Apache OpenWhisk,openwhisk.apache.org
 Apache Spark,spark.apache.org
 Apache Storm,storm.apache.org
 Apache Thrift,thrift.apache.org
@@ -107,6 +103,7 @@ Chef,chef.io/chef
 Choosealicense.com,choosealicense.com
 Chromium,google.com/chrome
 Chromium Blink,chromium.org/blink
+Chubao FS,chubao.io
 Civil Infrastructure Platform,www.cip-project.org
 Closure Library,code.google.com/closure/library
 Cloud Foundry,cloudfoundry.org
@@ -178,6 +175,7 @@ Firefox Send,send.firefox.com
 FlexboxLayout,github.com/google/flexbox-layout
 Fluentd,fluentd.org
 Flutter,flutter.io
+Flux,github.com/fluxcd
 FreeBSD,freebsd.org
 GGRC,code.google.com/archive/p/ggrc-core
 GVT Linux,github.com/intel/gvt-linux
@@ -262,9 +260,11 @@ Julia,julialang.org
 Kata Containers,katacontainers.io
 Keybase,keybase.io
 Kinetic Open Storage,www.openkinetic.org
+Knative,knative.dev
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 KubeEdge,kubeedge.io
+KubeVirt,kubevirt.io
 Kubernetes,kubernetes.io
 Kui Shell,github.com/IBM/kui
 Kuma,developer.mozilla.org
@@ -280,7 +280,6 @@ Linux Standard Base,LinuxStandardBase
 Linux sunxi,linux-sunxi.org
 Liquid,liquidmarkup.org
 Longhorn,github.com/longhorn
-Chubao FS,chubao.io
 Lottie,airbnb.design/lottie
 MAME,mamedev.org
 MAPS.ME,maps.me
@@ -375,6 +374,7 @@ Open vSwitch,openvswitch.org
 OpenBMP,gitter.im/openbmp
 OpenDaylight,www.opendaylight.org
 OpenEBS,openebs.io
+OpenFaaS,openfaas.com
 OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
 OpenMAMA,www.openmama.org
@@ -420,6 +420,7 @@ OpenTracing,opentracing.io
 OpenWrt,openwrt.org
 Openstack Tools,openstack.org
 Operations Research Tools,developers.google.com/optimization
+Oracle Fn,fnproject.io
 Osmand,osmand.net
 P4 Language,github.com/p4lang
 PACO,pacoapp.com
@@ -433,6 +434,7 @@ PerfView,channel9.msdn.com/Series/PerfView-Tutorial
 Person Finder,google.org/personfinder
 PingCAP,github.com/pingcap
 Pivotal Cloud Foundry,pivotal.io
+Pivotal Riff,projectriff.io
 Play Framework,playframework.com
 PokemonGoF,maps.pikabot.org
 PokemonGoMap,pokemongomap.info
@@ -494,6 +496,7 @@ Spinnaker,www.spinnaker.io
 Spontanizer,spartan.org.il
 Spotify,spotify.github.io
 Spree,guides.spreecommerce.org
+Strimzi,strimzi.io
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com
@@ -510,10 +513,6 @@ TensorFlow,tensorflow.org
 Terraform,terraform.io
 Texture,texturegroup.org
 Thanos,thanos.io
-Flux,github.com/fluxcd
-in-toto,in-toto.io
-Strimzi,strimzi.io
-KubeVirt,kubevirt.io
 The Guardian,theguardian.com
 The Odin Project,theodinproject.com
 The Physical Web,physical-web.org
@@ -612,6 +611,7 @@ google-gson,github.com/google/gson
 hacktoberfest17,hacktoberfest.digitalocean.com/eventkit
 hnginterns,hng-intern.herokuapp.com
 hzuapps,github.com/hzuapps
+in-toto,in-toto.io
 iojs,io.js
 jsDelivr,jsdelivr.com
 libretro,libretro.com

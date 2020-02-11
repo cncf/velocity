@@ -20,11 +20,6 @@ CleverRaven,Cataclysm-DDA
 Cloud Native Computing Foundation,CNCF
 Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
-knative,Knative
-riff,Pivotal Riff
-fnproject,Oracle Fn
-openfaas,OpenFaaS
-open-faas,OpenFaaS
 FreeBSD-UPB,FreeBSD
 FreeBSDDesktop,FreeBSD
 FreeBSDFoundation,FreeBSD
@@ -90,6 +85,7 @@ chef,Chef
 chrome-enhanced-history,Chromium
 chromium,Chromium
 chromiumify,Chromium
+chubaofs,Chubao FS
 cloudevents,CloudEvents
 cloudfoundry,Cloud Foundry
 cloudfoundry-attic,Cloud Foundry
@@ -132,6 +128,8 @@ facebook,React
 falcosecurity,Falco
 fluent,Fluentd
 flutter,Flutter
+fluxcd,Flux
+fnproject,Oracle Fn
 freebsd,FreeBSD
 freebsd-build-toolkit,FreeBSD
 freebsd-docker,FreeBSD
@@ -151,6 +149,7 @@ guardian,The Guardian
 helm,Helm
 home-assistant,Home Assistant
 hyperledger,Hyperledger
+in-toto,in-toto
 influxdata,InfluxData
 influxdb,InfluxDB
 iovisor,IO Visor
@@ -162,6 +161,7 @@ joomla,Joomla
 jsdelivr,jsDelivr
 kata-containers,Kata Containers
 keybase,Keybase
+knative,Knative
 kubeedge,KubeEdge
 kubernetes,Kubernetes
 kubernetes-addons,Kubernetes
@@ -181,13 +181,13 @@ kubernetes-sig-testing,Kubernetes
 kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
+kubevirt,KubeVirt
 laravel,Laravel
 letsencrypt,Let's Encrypt
 linkedin,LinkedIn
 linkerd,Linkerd
 linux-sunxi,Linux sunxi
 longhorn,Longhorn
-chubaofs,Chubao FS
 lyft,Envoy
 magento,Magento
 mantidproject,Mantid
@@ -210,6 +210,7 @@ nodejs,Node.js
 nylas,Nylas
 odoo,Odoo
 odpi,ODPi
+open-faas,OpenFaaS
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
 openbmp,OpenBMP
@@ -217,6 +218,7 @@ opencontainers,OCI
 opencord,CORD
 openebs,OpenEBS
 openeventing,CloudEvents
+openfaas,OpenFaaS
 openhab,openHAB
 openmainframeproject,Open Mainframe
 opennetworkinglab,Open Networking Laboratory
@@ -249,6 +251,7 @@ rapid7,Rapid7
 react-native-community,React
 reactjs,React
 rethinkdb,RethinkDB
+riff,Pivotal Riff
 rook,Rook
 rust-lang,Rust
 rust-lang-nursery,Rust
@@ -264,6 +267,7 @@ spiffe,SPIFFE
 spinnaker,Spinnaker
 spotify,Spotify
 spree,Spree
+strimzi,Strimzi
 swagger-api,Swagger
 symfony,Symfony
 tektoncd,Tekton
@@ -273,10 +277,6 @@ tensorflow,TensorFlow
 terraform-providers,Terraform
 tgstation,SS13
 thanos-io,Thanos
-fluxcd,Flux
-in-toto,in-toto
-strimzi,Strimzi
-kubevirt,KubeVirt
 thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV
