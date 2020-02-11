@@ -25,7 +25,8 @@ data['projects'].each do |project|
   disabled = project[1]['disabled']
   next if disabled
   puts "#{db} -> #{name}"
-  `./shells/get_git_commits_count.sh "#{db}" "#{from}" "#{to}"`
+  #`./shells/get_git_commits_count.sh "#{db}" "#{from}" "#{to}"`
+  `./shells/get_git_commits_count_from_all.sh "#{name}" "#{from}" "#{to}"`
   commits=`cat commits.txt`
   puts "#{name} commits: #{commits}"
   `echo -n "#{name},commits,#{commits}" >> "data/data_cncf_update_#{from}_#{to}.csv"`
