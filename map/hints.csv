@@ -617,9 +617,9 @@ codeaurora-unofficial/platform-system-vold,Code Aurora
 codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-fw-api,Code Aurora
 codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qca-wifi-host-cmn,Code Aurora
 codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qcacld-3.0,Code Aurora
-containerfilesystem/cfs,Chubao FS
-containerfilesystem/doc-zh,Chubao FS
-containerfs/containerfs.github.io,Chubao FS
+containerfilesystem/cfs,ChubaoFS
+containerfilesystem/doc-zh,ChubaoFS
+containerfs/containerfs.github.io,ChubaoFS
 coredns/coredns-grpc,CoreDNS
 coredns/grpc,CoreDNS
 coreinfrastructure/best-practices-badge,Core Infrastructure
