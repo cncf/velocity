@@ -328,6 +328,7 @@ OpenStack-mobile/OAuth2-Swift,OpenStack Swift
 OpenStack-mobile/OpenStackID-Swift,OpenStack Swift
 OpenStack-mobile/SwiftFoundation,OpenStack Swift
 OpenStack-mobile/SwiftSpinner,OpenStack Swift
+PixarAnimationStudios/OpenTimelineIO,OpenTimelineIO
 RichiH/OpenMetrics,OpenMetrics
 SNAS/website,SNAS.io
 Samsung/TizenRT,Tizen
@@ -1708,7 +1709,6 @@ spdx/tools-go,SPDX
 spdx/tools-python,SPDX
 spiffe/spire,Spire
 stefanprodan/caddy-builder,OpenFaaS
-PixarAnimationStudios/OpenTimelineIO,OpenTimelineIO
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture

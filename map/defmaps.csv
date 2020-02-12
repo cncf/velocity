@@ -9,6 +9,9 @@ aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
 w3c,=SKIP
+AcademySoftwareFoundation,Academy Software Foundation
+Adlik,Adlik
+Angel-ML,Angel
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
@@ -31,7 +34,9 @@ IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
 KSP-CKAN,CKAN
 Linux kernel,Linux
+MAVLink,MAVLink
 MarlinFirmware,Marlin
+MarquezProject,Project Marquez
 MobileChromeApps,Chromium
 OCA,ODOO
 OfficeDev,Office Developer
@@ -43,6 +48,8 @@ OpenObservability,OpenMetrics
 OpenStack-mobile,OpenStack Mobile
 OpenStackCookbook,OpenStack Cookbook
 OpenStackweb,OpenStack Web
+PX4,PX4 Drone Autopilot
+PaddlePaddle,PaddlePaddle
 ParsePlatform,Parse
 Particular,NServiceBus
 Plailect/Guide,3DS Guide
@@ -53,6 +60,7 @@ Virtual-Kubelet,Virtual Kubelet
 Yoast,Yoast SEO
 Zephyr Project,Zephyr
 acemod,ACE Mod
+acumos,Acumos
 akka,Akka
 alibaba,Alibaba
 alphagov,Government Digital Service
@@ -126,6 +134,7 @@ ethereum,Ethereum
 fabric8io,fabric8
 facebook,React
 falcosecurity,Falco
+fledge-iot,Fledge
 fluent,Fluentd
 flutter,Flutter
 fluxcd,Flux
@@ -148,10 +157,9 @@ grpc-ecosystem,gRPC
 guardian,The Guardian
 helm,Helm
 home-assistant,Home Assistant
+horovod,Horovod
 hyperledger,Hyperledger
 hyperledger-labs,Hyperledger
-onnx,Open Neural Network Exchange
-sparklyr,sparklyr
 in-toto,in-toto
 influxdata,InfluxData
 influxdb,InfluxDB
@@ -197,6 +205,7 @@ mantidproject,Mantid
 mapbox,Mapbox
 mapsme,MAPS.ME
 mattermost,Mattermost
+mavlink,MAVLink
 melpa,MELPA
 mesos,Apache Mesos
 mesosphere,Apache Mesos
@@ -213,6 +222,7 @@ nodejs,Node.js
 nylas,Nylas
 odoo,Odoo
 odpi,ODPi
+onnx,Open Neural Network Exchange
 open-faas,OpenFaaS
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
@@ -247,6 +257,7 @@ p4lang,P4 Language
 pingcap,PingCAP
 pivotal-cf,Pivotal Cloud Foundry
 prometheus,Prometheus
+pyro-ppl,Pyro
 pytorch,pytorch
 rackt,React
 rails,Ruby on Rails
@@ -266,20 +277,8 @@ sequelize,Sequelize
 serverless,Serverless Framework
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
+sparklyr,sparklyr
 spiffe,Spiffe
-zowe,Zowe
-Angel-ML,Angel
-PaddlePaddle,PaddlePaddle
-horovod,Horovod
-pyro-ppl,Pyro
-AcademySoftwareFoundation,Academy Software Foundation
-Adlik,Adlik
-MAVLink,MAVLink
-mavlink,MAVLink
-MarquezProject,Project Marquez
-PX4,PX4 Drone Autopilot
-acumos,Acumos
-fledge-iot,Fledge
 spinnaker,Spinnaker
 spotify,Spotify
 spree,Spree
@@ -317,6 +316,7 @@ yogstation13,Yogstation13
 zalando,Zalando
 zendframework,Zend Framework
 zephyrproject-rtos,Zephyr
+zowe,Zowe
 # cloudfoundry,Cloud Foundry
 # cloudfoundry-attic,Cloud Foundry Attic
 # cloudfoundry-community,Cloud Foundry Community

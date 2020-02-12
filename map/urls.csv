@@ -16,10 +16,13 @@ ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
 AWS SAM,aws.amazon.com/serverless/sam
 AWS SDKs,aws.amazon.com
 AZF,azure.microsoft.com
+Academy Software Foundation,aswf.io
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
 ActiveShipping,shopify.github.io/active_shipping
 Activity Campaign site,activate.mozilla.community
+Acumos,acumos.org
 Addons-Server,addons.mozilla.org
+Adlik,adlik.ai
 AirSim,github.com/Microsoft/AirSim
 Airflow,airflow.incubator.apache.org
 Akka,akka.io
@@ -28,6 +31,7 @@ Alibaba,alibaba.com
 Alluxio,github.com/Alluxio
 Amazon Docs,aws.amazon.com
 Amazon Web Services,aws.amazon.com
+Angel,github.com/Angel-ML
 Angular,angular.io
 Ansible,ansible.com
 Ant Design,ant.design
@@ -172,6 +176,7 @@ Firefox,mozilla.org/en-US/firefox
 Firefox Monitor,monitor.firefox.com
 Firefox Notes,firefox.com
 Firefox Send,send.firefox.com
+Fledge,lfedge.org/projects/fledge
 FlexboxLayout,github.com/google/flexbox-layout
 Fluentd,fluentd.org
 Flutter,flutter.io
@@ -228,11 +233,10 @@ HippieStationCode,github.com/HippieStationCode/HippieStation13
 Home Assistant,home-assistant.io
 Homebrew,brew.sh
 Homebrew Cask,caskroom.github.io
+Horovod,eng.uber.com/horovod
 Hubot,hubot.github.com
 Hyper,hyper.is
 Hyperledger,hyperledger.org
-Open Neural Network Exchange,onnx.ai
-sparklyr,github.com/sparklyr
 IBM Bluemix,bluemix.net
 IO Visor,www.iovisor.org
 Inferno,infernojs.org
@@ -285,6 +289,7 @@ Longhorn,github.com/longhorn
 Lottie,airbnb.design/lottie
 MAME,mamedev.org
 MAPS.ME,maps.me
+MAVLink,mavlink.org
 MELPA,melpa.org
 MIT Office of Digital Learning,odl.mit.edu
 Magento,magento.com/home
@@ -369,6 +374,7 @@ Open Mainframe,www.openmainframeproject.org
 Open Management Infrastructure,github.com/Microsoft/omi
 Open Network Automation Platform,www.onap.org
 Open Networking Laboratory,opennetworking.org
+Open Neural Network Exchange,onnx.ai
 Open Security Controller,www.opensecuritycontroller.org
 Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
@@ -418,6 +424,7 @@ OpenStack Tools,openstack.org
 OpenStack Web,openstack.org
 OpenSwitch,www.openswitch.net
 OpenTelemetry,opentelemetry.io
+OpenTimelineIO,opentimeline.io
 OpenTracing,opentracing.io
 OpenWrt,openwrt.org
 Openstack Tools,openstack.org
@@ -428,6 +435,8 @@ P4 Language,github.com/p4lang
 PACO,pacoapp.com
 PDF.js,github.com/mozilla/pdf.js
 PNDA,pnda.io
+PX4 Drone Autopilot,px4.io
+PaddlePaddle,paddlepaddle.org
 ParadiseSS13,nanotrasen.se/forum
 Parity,github.com/paritytech/parity
 Parse,parseplatform.github.io
@@ -445,10 +454,12 @@ Positron,github.com/mozilla/positron
 PouchContainer,pouchcontainer.io
 Power BI,powerbi.microsoft.com
 PowerShell,microsoft.com/powershell
+Project Marquez,marquezproject.ai
 Project Tofino,mozilla.github.io/tofino
 Prometheus,prometheus.io
 Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
+Pyro,pyro.ai
 RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
 Rapid7,rapid7.com
@@ -469,13 +480,6 @@ SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-netw
 SNAS.io,www.snas.io
 SPDX,spdx.org
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
-Zowe,zowe.org
-Angel,github.com/Angel-ML
-PaddlePaddle,paddlepaddle.org
-OpenTimelineIO,opentimeline.io
-Horovod,eng.uber.com/horovod
-Pyro,pyro.ai
-Fledge,lfedge.org/projects/fledge
 SS13,tgstation13.org
 SVG Working Group,github.com/w3c/svgwg
 SageTV,forums.sagetv.com
@@ -509,12 +513,6 @@ Strimzi,strimzi.io
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com
-Academy Software Foundation,aswf.io
-Adlik,adlik.ai
-MAVLink,mavlink.org
-MarquezProject,marquezproject.ai
-PX4 Drone Autopilot,px4.io
-Acumos,acumos.org
 TEAMMATES,teammatesv4.appspot.com
 TODO group,todogroup.org
 TSLint,palantir.github.io/tslint
@@ -599,6 +597,7 @@ ZJS,github.com/intel/zephyr.js
 Zalando,tech.zalando.com
 Zend Framework,framework.zend.com
 Zephyr,www.zephyrproject.org
+Zowe,zowe.org
 Zypper,en.opensuse.org/Portal:Zypper
 advocacy.mozilla.org,advocacy.mozilla.org
 apollographql,apollographql.com
@@ -646,6 +645,7 @@ python,www.python.org
 pytorch,pytorch.org
 rkt,github.com/rkt/rkt
 science.mozilla.org,science.mozilla.org
+sparklyr,github.com/sparklyr
 systemd,freedesktop.org/wiki/Software/systemd
 tock,18f.gsa.gov/2015/05/21/TockingTime
 udacity,udacity.com
