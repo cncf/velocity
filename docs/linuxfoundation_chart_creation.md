@@ -47,7 +47,7 @@ Try running this from the velocity project's root folder:
 	```
 	torvalds,torvalds/linux,2016-06-01,2017-06-01,64482,3790914,1522111,3803,0,0,0,0
 	```
-- Run `PG_PASS=... ./linux_commits.sh 2018-07-01 2019-07-01` that will give values for number of pushes and commits. This is not needed but recommended. Otherwise put `0,0` for commits and pushes. Changesets are used to calculate output commits.
+- Create `devstats-reports` pod, shell into it and run: `./linux_commits.sh 2018-07-01 2019-07-01` that will give values for number of pushes and commits. This is not needed but recommended. Otherwise put `0,0` for commits and pushes. Changesets are used to calculate output commits.
 - Run `./lkml_analysis.rb 2018-07-01 2019-07-01` to get number of LKML emails (all) and new threads.
 Run this from the velocity project's root folder again:
 `ruby add_linux.rb data/data_lf_projects_20180701_20190701.csv data/data_linux.csv 2018-07-01 2019-07-01`.
