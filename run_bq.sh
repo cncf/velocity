@@ -25,5 +25,5 @@ FROM="{{dtto}}" TO="$3" MODE=ss replacer /tmp/velocity_bigquery.sql || exit 6
 ofn="data/data_${1}_projects_${2//-/}_${3//-/}.csv"
 echo "$ofn"
 cat /tmp/velocity_bigquery.sql | bq --format=csv --headless query --use_legacy_sql=true -n 1000000 --use_cache > "$ofn" || exit 7
-ed "$ofn" <<<$'1d\nwq\n' || exit 8
+#ed "$ofn" <<<$'1d\nwq\n' || exit 8
 echo "$ofn written"
