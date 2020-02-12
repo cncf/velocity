@@ -1706,7 +1706,7 @@ spdx/spdx-spec,SPDX
 spdx/tools,SPDX
 spdx/tools-go,SPDX
 spdx/tools-python,SPDX
-spiffe/spire,SPIRE
+spiffe/spire,Spire
 stefanprodan/caddy-builder,OpenFaaS
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
