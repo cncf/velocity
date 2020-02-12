@@ -1,9 +1,11 @@
-select
-  count(distinct sha) as number_of_commits
+select 
+  {{actor}},
+  count(distinct sha) as commits
 from
   gha_commits
 where
-  author_name not in
+  lower({{actor}}) {{exclude_bots}}
+  and author_name not in
 (
 'CI Pool Resource',
 'CF Buildpacks Team CI Server',
@@ -46,8 +48,7 @@ where
 'fizzy bot',
 'Appdog CI Bot',
 'CF Tribe',
-'Greenhouse CI',
-'CF RELINT BOT'
+'Greenhouse CI'
 )
   and committer_name not in
 (
@@ -92,31 +93,12 @@ where
 'fizzy bot',
 'Appdog CI Bot',
 'CF Tribe',
-'Greenhouse CI',
-'CF RELINT BOT'
+'Greenhouse CI'
 )
-  and dup_actor_login not in
-(
-'cf-buildpacks-eng',
-'cm-release-bot',
-'capi-bot',
-'runtime-ci',
-'cf-infra-bot',
-'routing-ci',
-'pcf-core-services-writer',
-'cf-loggregator-oauth-bot',
-'cf-identity',
-'hcf-bot',
-'cfadmins-deploykey-user',
-'cf-pub-tools',
-'pcf-toronto-ci-bot',
-'perm-ci-bot',
-'backup-restore-team-bot',
-'greenhouse-ci'
-)
-  and dup_created_at >= '{{from}}'
-  and dup_created_at < '{{to}}'
-  and (lower(dup_actor_login) {{exclude_bots}})
-  and (lower(dup_author_login) {{exclude_bots}})
-  and (lower(dup_committer_login) {{exclude_bots}})
+group by
+  {{actor}}
+order by
+  commits desc
+limit
+  50
 ;
