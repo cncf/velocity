@@ -88,9 +88,12 @@ Run `analysis.rb` with
 ruby analysis.rb data/data_lf_projects_20180701_20190701.csv projects/projects_lf_20180701_20190701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
-Now update CNCF projects commits counts to use git instead of BigQuery data:
+Now update CNCF projects commits counts to use git instead of BigQuery data
 
-- `PG_PASS=... ./update_cncf_projects_commits.rb 2018-07-01 2019-07-01`. If you generated CNCF data just before generating LF data, then you already have that step completed.
+If you generated CNCF data just before generating LF data, then you already have that step completed, see [Guide to the CNCF projects chart creation](docs/cncf_chart_creation.md).
+
+- Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2019-02-01 2020-02-01`.
+- Download update: `wget https://teststats.cncf.io/backups/data_cncf_update_2019-02-01_2020-02-01.csv`. `mv data_cncf_update_2019-02-01_2020-02-01.csv data/`.
 - `ruby update_projects.rb projects/projects_lf_20180701_20190701.csv data/data_cncf_update_2018-07-01_2019-07-01.csv -1`.
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1dCe99AyOEhQhuEyhwIn_P2thVtjQXF1cGFiLo8fhZZM/edit?usp=sharing).
