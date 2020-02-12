@@ -22,6 +22,8 @@ It will generate a file for example: `data/data_lf_projects_20180701_20190701.cs
 
 ### Add CNCF projects
 
+You may miss CSV header, add `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` if needed.
+
 - `ruby merger.rb data/data_lf_projects_20180701_20190701.csv data/data_cncf_projects_20180701_20190701.csv`.
 
 
