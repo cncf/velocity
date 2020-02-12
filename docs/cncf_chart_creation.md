@@ -25,7 +25,7 @@ It will generate a file for example: `data/data_cncf_projects_20180701_20190701.
 
 Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` in this case):
 ```
-ruby analysis.rb data/data_cncf_projects_20180701_20190701.csv projects/projects_cncf_20180701_20190701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+ruby analysis.rb data/data_cncf_projects_20190201_20200201.csv projects/projects_cncf_20190201_20200201.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
