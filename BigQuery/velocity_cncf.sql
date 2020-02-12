@@ -84,7 +84,6 @@ where
         'odl-github','opnfv-github','googlebot', 'coveralls', 'rktbot', 'coreosbot', 'web-flow', 'devstats-sync','openstack-gerrit',
         'openstack-gerrit', 'prometheus-roobot', 'CNCF-bot'
       )
-      and (lower(actor.login) {{exclude_bots}})
     )
   )
 group by org, repo, author_email, author_name, sha

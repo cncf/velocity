@@ -22,7 +22,6 @@ trap finish EXIT
 cp "BigQuery/velocity_${1}.sql" /tmp/velocity_bigquery.sql || exit 4
 FROM="{{dtfrom}}" TO="$2" MODE=ss replacer /tmp/velocity_bigquery.sql || exit 5
 FROM="{{dtto}}" TO="$3" MODE=ss replacer /tmp/velocity_bigquery.sql || exit 6
-FROM="{{exclude_bots}}" TO="`cat sql/exclude_bots.sql`" MODE=ss replacer /tmp/velocity_bigquery.sql || exit 6
 ofn="data/data_${1}_projects_${2//-/}_${3//-/}.csv"
 echo "$ofn"
 cat /tmp/velocity_bigquery.sql | bq --format=csv --headless query --use_legacy_sql=true -n 1000000 --use_cache > "$ofn" || exit 7
