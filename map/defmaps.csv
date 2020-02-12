@@ -149,6 +149,9 @@ guardian,The Guardian
 helm,Helm
 home-assistant,Home Assistant
 hyperledger,Hyperledger
+hyperledger-labs,Hyperledger
+onnx,Open Neural Network Exchange
+sparklyr,sparklyr
 in-toto,in-toto
 influxdata,InfluxData
 influxdb,InfluxDB
@@ -264,6 +267,19 @@ serverless,Serverless Framework
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
 spiffe,Spiffe
+zowe,Zowe
+Angel-ML,Angel
+PaddlePaddle,PaddlePaddle
+horovod,Horovod
+pyro-ppl,Pyro
+AcademySoftwareFoundation,Academy Software Foundation
+Adlik,Adlik
+MAVLink,MAVLink
+mavlink,MAVLink
+MarquezProject,Project Marquez
+PX4,PX4 Drone Autopilot
+acumos,Acumos
+fledge-iot,Fledge
 spinnaker,Spinnaker
 spotify,Spotify
 spree,Spree

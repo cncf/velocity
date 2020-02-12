@@ -1708,6 +1708,7 @@ spdx/tools-go,SPDX
 spdx/tools-python,SPDX
 spiffe/spire,Spire
 stefanprodan/caddy-builder,OpenFaaS
+PixarAnimationStudios/OpenTimelineIO,OpenTimelineIO
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture

@@ -231,6 +231,8 @@ Homebrew Cask,caskroom.github.io
 Hubot,hubot.github.com
 Hyper,hyper.is
 Hyperledger,hyperledger.org
+Open Neural Network Exchange,onnx.ai
+sparklyr,github.com/sparklyr
 IBM Bluemix,bluemix.net
 IO Visor,www.iovisor.org
 Inferno,infernojs.org
@@ -467,6 +469,13 @@ SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-netw
 SNAS.io,www.snas.io
 SPDX,spdx.org
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
+Zowe,zowe.org
+Angel,github.com/Angel-ML
+PaddlePaddle,paddlepaddle.org
+OpenTimelineIO,opentimeline.io
+Horovod,eng.uber.com/horovod
+Pyro,pyro.ai
+Fledge,lfedge.org/projects/fledge
 SS13,tgstation13.org
 SVG Working Group,github.com/w3c/svgwg
 SageTV,forums.sagetv.com
@@ -500,6 +509,12 @@ Strimzi,strimzi.io
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com
+Academy Software Foundation,aswf.io
+Adlik,adlik.ai
+MAVLink,mavlink.org
+MarquezProject,marquezproject.ai
+PX4 Drone Autopilot,px4.io
+Acumos,acumos.org
 TEAMMATES,teammatesv4.appspot.com
 TODO group,todogroup.org
 TSLint,palantir.github.io/tslint
