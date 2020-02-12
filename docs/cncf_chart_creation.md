@@ -30,8 +30,13 @@ ruby analysis.rb data/data_cncf_projects_20180701_20190701.csv projects/projects
 
 Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
 
+- Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2019-02-01 2020-02-01`.
+- Download update: `wget https://teststats.cncf.io/backups/data_cncf_update_2019-02-01_2020-02-01.csv`. `mv data_cncf_update_2019-02-01_2020-02-01.csv data/`.
+- `ruby update_projects.rb projects/projects_cncf_20190201_20200201.csv data/data_cncf_update_2019-02-01_2020-02-01.csv -1`.
+
+If you have all CNCF projects databases locally, you can use old local approach to get commits count updates:
+
 - `PG_PASS=... ./update_cncf_projects_commits.rb 2018-07-01 2019-07-01`.
-- `ruby update_projects.rb projects/projects_cncf_20180701_20190701.csv data/data_cncf_update_2018-07-01_2019-07-01.csv -1`.
 
 To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20170801_20180801.csv projects/projects_cncf_k8s_non_k8s_20170101_20180801.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
 
