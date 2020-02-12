@@ -105,4 +105,4 @@ Select the Chart tab, it will be updated automatically
 
 CloudFoundry PRs and Issues counts need manual adjustment in the Data tab of the google doc.
 
-Use `cloudfoundry/` shell scripts to get this data. 
+Use `[DROP=1] PG_PASS=... ./cloudfoundry/run.sh 2019-02-01 2020-02-01` shell scripts to get this data.

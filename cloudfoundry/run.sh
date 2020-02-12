@@ -16,5 +16,10 @@ then
 fi
 from="${1}"
 to="${2}"
-GHA2DB_LOCAL=1 PG_DB=cloudfoundry runq ./cloudfoundry/cloudfoundry_commits.sql {{from}} "${from}" {{to}} "${to}" || exit 4
-GHA2DB_LOCAL=1 PG_DB=cloudfoundry runq ./cloudfoundry/cloudfoundry_prs_and_issues.sql {{from}} "${from}" {{to}} "${to}" || exit 5
+if [ ! -z "$DROP" ]
+then
+  sudo -u postgres psql -c 'drop database if exists cloudfoundry' || exit 4
+fi
+./cloudfoundry/cloudfoundry.sh "${from}" "${to}" || exit 5
+./cloudfoundry/cloudfoundry_analysis.sh "${from}" "${to}" || exit 6
+echo "Analysis OK"
