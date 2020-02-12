@@ -16,5 +16,6 @@ then
 fi
 from="${1}"
 to="${2}"
-GHA2DB_LOCAL=1 PG_DB=cloudfoundry runq ./cloudfoundry/cloudfoundry_commits.sql {{from}} "${from}" {{to}} "${to}" || exit 4
-GHA2DB_LOCAL=1 PG_DB=cloudfoundry runq ./cloudfoundry/cloudfoundry_prs_and_issues.sql {{from}} "${from}" {{to}} "${to}" || exit 5
+GHA2DB_LOCAL=1 PG_DB=cloudfoundry runq ./cloudfoundry/cloudfoundry_commits.sql {{from}} "${from}" {{to}} "${to}" {{exclude_bots}} "`cat sql/exclude_bots.sql`" || exit 4
+GHA2DB_LOCAL=1 PG_DB=cloudfoundry runq ./cloudfoundry/cloudfoundry_prs.sql {{from}} "${from}" {{to}} "${to}" {{exclude_bots}} "`cat sql/exclude_bots.sql`" || exit 5
+GHA2DB_LOCAL=1 PG_DB=cloudfoundry runq ./cloudfoundry/cloudfoundry_issues.sql {{from}} "${from}" {{to}} "${to}" {{exclude_bots}} "`cat sql/exclude_bots.sql`" || exit 5
