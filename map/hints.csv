@@ -51,6 +51,7 @@ Azure/azure-iot-sdk-python,Azure SDKs
 Azure/azure-iot-sdks,Azure SDKs
 Azure/azure-iot-sdks-preview,Azure SDKs
 Azure/azure-quickstart-templates,Azure SDKs
+Azure/azure-rest-api-specs,Azure REST API
 Azure/azure-sdk-for-go,Azure SDKs
 Azure/azure-sdk-for-java,Azure SDKs
 Azure/azure-sdk-for-media-services,Azure SDKs
@@ -291,6 +292,7 @@ Microsoft/vscode-docker,VS Code
 Microsoft/vscode-docs,VS Code
 Microsoft/vscode-go,VS Code
 Microsoft/vscode-mssql,VS Code
+Microsoft/vscode-python,VS Code
 Microsoft/vscode-react-native,VS Code
 Microsoft/vscode-sublime-keybindings,VS Code
 Microsoft/vscode-tips-and-tricks,VS Code
@@ -330,6 +332,7 @@ OpenStack-mobile/SwiftFoundation,OpenStack Swift
 OpenStack-mobile/SwiftSpinner,OpenStack Swift
 PixarAnimationStudios/OpenTimelineIO,OpenTimelineIO
 RichiH/OpenMetrics,OpenMetrics
+SAP/cloud-commerce-spartacus-storefront,Spartakus
 SNAS/website,SNAS.io
 Samsung/TizenRT,Tizen
 Shopify/Timber,Shopify Timber
@@ -780,6 +783,7 @@ improbable-eng/promlts,Thanos
 improbable-eng/thanos,Thanos
 infernojs/inferno,Inferno
 intel/IA-Hardware-Composer,Intel HWC2
+intel/cloud-hypervisor,Cloud Hypervisor
 intel/compute-runtime,Intel Graphics Compute Runtime
 intel/gvt-linux,GVT Linux
 intel/haxm,Intel HAXM
@@ -833,9 +837,188 @@ kubernetes/kubernetes.github.io,Kubernetes
 kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
 ligato/networkservicemesh,Network Service Mesh
+llvm/llvm-project,LLVM Project
 lyft/envoy,Envoy
 mamedev/mame,MAME
 markfisher/sk8s,Pivotal Riff
+microsoft/AL,Dynamics NAV
+microsoft/AirSim,AirSim
+microsoft/ApplicationInsights-Home,Microsoft Application Insights
+microsoft/ApplicationInsights-JS,Microsoft Application Insights
+microsoft/ApplicationInsights-Java,Microsoft Application Insights
+microsoft/ApplicationInsights-SDK-Labs,Microsoft Application Insights
+microsoft/ApplicationInsights-aspnetcore,Microsoft Application Insights
+microsoft/ApplicationInsights-dotnet,dotnet
+microsoft/ApplicationInsights-dotnet-logging,Microsoft Application Insights
+microsoft/ApplicationInsights-dotnet-server,Microsoft Application Insights
+microsoft/ApplicationInsights-node.js,Microsoft Application Insights
+microsoft/AzureBot,Azure
+microsoft/AzureUsageAndBillingPortal,Azure
+microsoft/BashOnWindows,BashOnWindows
+microsoft/BotBuilder,Microsoft BotBuilder
+microsoft/BotBuilder-Location,Microsoft BotBuilder
+microsoft/BotBuilder-Samples,Microsoft BotBuilder
+microsoft/BotFramework-Emulator,Microsoft BotBuilder
+microsoft/BotFramework-WebChat,Microsoft BotBuilder
+microsoft/BusinessPlatformApps,Microsoft BusinessPlatformApps
+microsoft/CNTK,Microsoft Cognitive Toolkit
+microsoft/Chakra-Samples,Microsoft Chakra
+microsoft/ChakraCore,Microsoft Chakra
+microsoft/ChakraCore-wiki,Microsoft Chakra
+microsoft/CodeContracts,dotnet
+microsoft/Cognitive-Documentation,Microsoft Cognitive Toolkit
+microsoft/Cognitive-Face-Windows,Microsoft Cognitive Toolkit
+microsoft/CognitiveServices-Documentation,Microsoft Cognitive Toolkit
+microsoft/CommandLine-Documentation,Microsoft docs
+microsoft/DSCEA,PowerShell
+microsoft/DesktopBridgeToUWP-Samples,Microsoft docs
+microsoft/DirectX-Graphics-Samples,DirectX
+microsoft/DirectXShaderCompiler,DirectX
+microsoft/Docker-PowerShell,PowerShell
+microsoft/Docker.DotNet,dotnet
+microsoft/Dynamics-AX-Integration,Microsoft (other)
+microsoft/EMDocs,Microsoft docs
+microsoft/FFmpegInterop,Microsoft (other)
+microsoft/GSL,Microsoft GSL
+microsoft/GalaxyExplorer,Microsoft HoloToolkit
+microsoft/Git-Credential-Manager-for-Mac-and-Linux,Microsoft (other)
+microsoft/Git-Credential-Manager-for-Windows,Microsoft (other)
+microsoft/GraphEngine,Microsoft Graph Engine
+microsoft/HoloJS,Microsoft HoloToolkit
+microsoft/HoloLensCompanionKit,Microsoft HoloToolkit
+microsoft/HoloToolkit,Microsoft HoloToolkit
+microsoft/HoloToolkit-Unity,Microsoft HoloToolkit
+microsoft/IIS.Administration,Microsoft IIS
+microsoft/IntuneDocs,Microsoft Intune
+microsoft/LightGBM,Microsoft DMTK
+microsoft/MIEngine,VS Code
+microsoft/Microsoft.IO.RecyclableMemoryStream,dotnet
+microsoft/Mobius,Microsoft Mobius
+microsoft/ODBC-Specification,Microsoft ODBC
+microsoft/OMS-Agent-for-Linux,Microsoft OMS
+microsoft/Office-Online-Test-Tools-and-Documentation,Microsoft docs
+microsoft/PTVS,VS Code
+microsoft/PartsUnlimited,Microsoft docs
+microsoft/PartsUnlimitedMRP,Microsoft (other)
+microsoft/PowerBI-CSharp,Power BI
+microsoft/PowerBI-Cli,Power BI
+microsoft/PowerBI-JavaScript,Power BI
+microsoft/PowerBI-visuals,Power BI
+microsoft/PowerBI-visuals-docs,Power BI
+microsoft/PowerBI-visuals-tools,Power BI
+microsoft/PowerShell-DSC-for-Linux,DSC
+microsoft/Pyjion,Pyjion
+microsoft/RTVS,VS Code
+microsoft/ReportingServicesTools,SQL Server
+microsoft/SCCMdocs,Microsoft docs
+microsoft/SDN,SDN
+microsoft/TSJS-lib-generator,Microsoft (other)
+microsoft/TypeScript,TypeScript
+microsoft/TypeScript-Handbook,TypeScript
+microsoft/TypeScript-Sublime-Plugin,TypeScript
+microsoft/TypeScript-TmLanguage,TypeScript
+microsoft/UWPCommunityToolkit,Microsoft UWP
+microsoft/VSProjectSystem,VS Code
+microsoft/VSSDK-Extensibility-Samples,VS Code
+microsoft/Virtualization-Documentation,Microsoft Virtualization
+microsoft/WinAppDriver,VS Code
+microsoft/WinObjC,Microsoft Objective-C for Windows
+microsoft/Windows-driver-samples,Microsoft docs
+microsoft/Windows-universal-samples,Microsoft docs
+microsoft/WindowsDevicePortalWrapper,Microsoft UWP
+microsoft/WindowsProtocolTestSuites,Microsoft (other)
+microsoft/XamlBehaviors,Microsoft UWP
+microsoft/Yams,YAMS
+microsoft/ace,ACE
+microsoft/api-guidelines,Microsoft API
+microsoft/app-store-vsts-extension,VS Code
+microsoft/aspnet-api-versioning,dotnet
+microsoft/bond,Bond
+microsoft/caffe,Caffe
+microsoft/checkedc,Checked C
+microsoft/checkedc-clang,Checked C
+microsoft/checkedc-llvm-test-suite,Checked C
+microsoft/clrmd,VS Code
+microsoft/code-push,CodePush
+microsoft/cordova-plugin-code-push,CodePush
+microsoft/cordova-simulate,Microsoft (other)
+microsoft/cpprestsdk,VS Code
+microsoft/cppwinrt,VS Code
+microsoft/dotnet,dotnet
+microsoft/dotnet-apiport,dotnet
+microsoft/edge-diagnostics-adapter,Microsoft Edge
+microsoft/generator-docker,VS Code
+microsoft/ghcrawler,Microsoft (other)
+microsoft/go-winio,Microsoft (other)
+microsoft/google-play-vsts-extension,VS Code
+microsoft/hcsshim,Microsoft (other)
+microsoft/llvm,LLVM
+microsoft/maker.js,Maker.js
+microsoft/malmo,Malmö
+microsoft/mattercenter,Microsoft Office
+microsoft/mobile-center-sdk-react-native,React
+microsoft/msbuild,VS Code
+microsoft/msphpsql,SQL Server
+microsoft/mssql-docker,SQL Server
+microsoft/mssql-jdbc,SQL Server
+microsoft/mwt-ds,Microsoft Decision Service
+microsoft/nodejstools,VS Code
+microsoft/o365-moodle,Microsoft Office
+microsoft/omi,Open Management Infrastructure
+microsoft/peek,Azure
+microsoft/perfview,PerfView
+microsoft/pxt,Microsoft MakeCode
+microsoft/pxt-microbit,micro-bit
+microsoft/pxt-microbit-electron,micro-bit
+microsoft/react-native-code-push,CodePush
+microsoft/react-native-windows,Microsoft (other)
+microsoft/reactxp,ReactXP
+microsoft/sarif-sdk,dotnet
+microsoft/satcheljs,Satchel
+microsoft/sql-server-samples,SQL Server
+microsoft/team-explorer-everywhere,Microsoft (other)
+microsoft/testfx,VS Code
+microsoft/tfs-cli,VS Code
+microsoft/thrifty,Thrifty
+microsoft/tigertoolbox,SQL Server
+microsoft/tolerant-php-parser,Microsoft (other)
+microsoft/tslib,TypeScript
+microsoft/tslint-microsoft-contrib,TSLint
+microsoft/types-publisher,Microsoft (other)
+microsoft/vcpkg,VS Code
+microsoft/visualfsharp,Microsoft F#
+microsoft/visualfsharpdocs,Microsoft F#
+microsoft/visualstudio-docs,VS Code
+microsoft/vs-threading,VS Code
+microsoft/vscode,VS Code
+microsoft/vscode-chrome-debug-core,VS Code
+microsoft/vscode-cordova,VS Code
+microsoft/vscode-docker,VS Code
+microsoft/vscode-docs,VS Code
+microsoft/vscode-go,VS Code
+microsoft/vscode-mssql,VS Code
+microsoft/vscode-python,VS Code
+microsoft/vscode-react-native,VS Code
+microsoft/vscode-sublime-keybindings,VS Code
+microsoft/vscode-tips-and-tricks,VS Code
+microsoft/vso-agent-tasks,VS Code
+microsoft/vss-web-extension-sdk,VS Code
+microsoft/vstest,VS Code
+microsoft/vsts-agent,VS Code
+microsoft/vsts-extension-build-release-tasks,VS Code
+microsoft/vsts-node-api,VS Code
+microsoft/vsts-rm-extensions,VS Code
+microsoft/vsts-task-lib,Microsoft (other)
+microsoft/vsts-tasks,VS Code
+microsoft/vsts-team-calendar,VS Code
+microsoft/vsts-vscode,VS Code
+microsoft/vswhere,VS Code
+microsoft/web-build-tools,VS Code
+microsoft/windows-dev-center-vsts-extension,VS Code
+microsoft/windows-driver-docs,Microsoft docs
+microsoft/windows-itpro-docs,Microsoft docs
+microsoft/winsdkfb,VS Code
+microsoft/xunit-performance,dotnet
 miekg/coredns,CoreDNS
 mozilla/123done,Firefox
 mozilla/ADBFuzz,Firefox

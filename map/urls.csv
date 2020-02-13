@@ -70,6 +70,7 @@ Auth0,auth0.com
 Automattic Jetpack,jetpack.com
 Automattic WooCommerce,github.com/Automattic/woocommerce-services
 Azure,azure.github.io
+Azure REST API,github.com/Azure/azure-rest-api-specs
 Azure SDKs,azure.microsoft.com
 BOSH,bosh.io
 BashOnWindows,microsoft.com/en-us/commandline/wsl
@@ -112,6 +113,7 @@ Civil Infrastructure Platform,www.cip-project.org
 Closure Library,code.google.com/closure/library
 Cloud Foundry,cloudfoundry.org
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
+Cloud Hypervisor,github.com/cloud-hypervisor/cloud-hypervisor
 Cloud.gov,github.com/18F/cg-product
 CloudEvents,cloudevents.io
 Cockroach Labs,cockroachlabs.com
@@ -121,6 +123,7 @@ Code Aurora,www.codeaurora.org
 CodeCombat,codecombat.com
 CodePush,codepush.tools
 Computing for Computer Scientists,c4cs.github.io
+Concourse,concourse-ci.org
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
 Core Infrastructure,www.coreinfrastructure.org
@@ -197,6 +200,7 @@ Go,golang.org
 Godot Engine,godotengine.org
 Google (other),google.com
 Google API,developers.google.com/apis-explorer
+Google APIs,googleapis.github.io
 Google Closure Compiler,developers.google.com/closure/compiler
 Google Cloud,cloud.google.com
 Google Cloud Docs,cloud.google.com/docs
@@ -275,6 +279,7 @@ Kubernetes,kubernetes.io
 Kui Shell,github.com/IBM/kui
 Kuma,developer.mozilla.org
 LLVM,llvm.org
+LLVM Project,llvm.org
 Laravel,laravel.com
 League of Extraordinary Packages,thephpleague.com
 Let's Encrypt,letsencrypt.org
@@ -501,6 +506,7 @@ Shopify SDKs,developers.shopify.com
 Shopify Timber,shopify.com/timber
 Skillcrush,skillcrush.com
 Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
+Spartakus,sap.github.io
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spiffe,spiffe.io
