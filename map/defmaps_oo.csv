@@ -58,7 +58,6 @@ OpenStack Heat,OpenStack
 OpenStack Horizon,OpenStack
 OpenStack Hyper-v,OpenStack
 OpenStack Infra,OpenStack
-llvm,LLVM
 OpenStack Keystone,OpenStack
 OpenStack Korean,OpenStack
 OpenStack Manila,OpenStack
@@ -232,6 +231,7 @@ letsencrypt,Let's Encrypt
 linkedin,LinkedIn
 linkerd,Linkerd
 linux-sunxi,Linux sunxi
+llvm,LLVM
 longhorn,Longhorn
 lyft,Envoy
 magento,Magento
