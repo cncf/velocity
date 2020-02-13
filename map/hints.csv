@@ -247,7 +247,7 @@ Microsoft/ghcrawler,Microsoft (other)
 Microsoft/go-winio,Microsoft (other)
 Microsoft/google-play-vsts-extension,VS Code
 Microsoft/hcsshim,Microsoft (other)
-Microsoft/llvm,LLVM
+Microsoft/llvm,Microsoft LLVM
 Microsoft/maker.js,Maker.js
 Microsoft/malmo,Malmö
 Microsoft/mattercenter,Microsoft Office
@@ -837,7 +837,6 @@ kubernetes/kubernetes.github.io,Kubernetes
 kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
 ligato/networkservicemesh,Network Service Mesh
-llvm/llvm-project,LLVM Project
 lyft/envoy,Envoy
 mamedev/mame,MAME
 markfisher/sk8s,Pivotal Riff
@@ -952,7 +951,7 @@ microsoft/ghcrawler,Microsoft (other)
 microsoft/go-winio,Microsoft (other)
 microsoft/google-play-vsts-extension,VS Code
 microsoft/hcsshim,Microsoft (other)
-microsoft/llvm,LLVM
+microsoft/llvm,Microsoft LLVM
 microsoft/maker.js,Maker.js
 microsoft/malmo,Malmö
 microsoft/mattercenter,Microsoft Office
@@ -2119,4 +2118,5 @@ zephyrproject-rtos/zephyr-testing,Zephyr
 # cloudfoundry/staticfile-buildpack,CF Buildpacks
 # cloudfoundry/uaa,CF UAA Server
 # cloudfoundry/uaa-release,CF UAA Server
+# llvm/llvm-project,LLVM
 #NAME?,Chromium Blink

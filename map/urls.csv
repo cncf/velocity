@@ -223,6 +223,7 @@ Google Xi Editor,github.com/google/xi-editor
 Google i18n,developers.google.com/international
 Google seq2seq,google.github.io/seq2seq
 Government Digital Service,gds.blog.gov.uk
+Grafana Labs,grafana.com
 GraphQL,graphql.org
 Grumpy,github.com/google/grumpy
 Guava,github.com/google/guava
@@ -279,7 +280,6 @@ Kubernetes,kubernetes.io
 Kui Shell,github.com/IBM/kui
 Kuma,developer.mozilla.org
 LLVM,llvm.org
-LLVM Project,llvm.org
 Laravel,laravel.com
 League of Extraordinary Packages,thephpleague.com
 Let's Encrypt,letsencrypt.org
@@ -327,6 +327,7 @@ Microsoft Graph Engine,graphengine.io
 Microsoft HoloToolkit,github.com/Microsoft/HoloToolkit
 Microsoft IIS,iis.net
 Microsoft Intune,microsoft.com/en-us/cloud-platform/microsoft-intune
+Microsoft LLVM,llvm.org
 Microsoft MakeCode,makecode.com
 Microsoft Mobius,github.com/Microsoft/Mobius
 Microsoft ODBC,docs.microsoft.com/en-us/sql/odbc/microsoft-open-database-connectivity-odbc
@@ -465,6 +466,7 @@ Prometheus,prometheus.io
 Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
 Pyro,pyro.ai
+QMK,qmk.fm
 RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
 Rapid7,rapid7.com
@@ -507,6 +509,7 @@ Shopify Timber,shopify.com/timber
 Skillcrush,skillcrush.com
 Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Spartakus,sap.github.io
+Spatie,spatie.be/open-source
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spiffe,spiffe.io
@@ -515,6 +518,7 @@ Spire,spiffe.io
 Spontanizer,spartan.org.il
 Spotify,spotify.github.io
 Spree,guides.spreecommerce.org
+Spring,spring.io/projects
 Strimzi,strimzi.io
 Superset,github.com/airbnb/superset
 Swagger,swagger.io

@@ -4,7 +4,6 @@ name,project
 Azure,=SKIP
 GoogleCloudPlatform,=SKIP
 Microsoft,=SKIP
-concourse,Concourse
 apache,=SKIP
 aws,=SKIP
 google,=SKIP
@@ -24,8 +23,6 @@ CleverRaven,Cataclysm-DDA
 Cloud Native Computing Foundation,CNCF
 Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
-googleapis,Google APIs
-mui-org,Material-UI
 FreeBSD-UPB,FreeBSD
 FreeBSDDesktop,FreeBSD
 FreeBSDFoundation,FreeBSD
@@ -108,6 +105,7 @@ cncf,CNCF
 cockroachdb,Cockroach Labs
 codeaurora-unofficial,Code Aurora
 codecombat,CodeCombat
+concourse,Concourse
 conda-forge,conda-forge
 containernetworking,CNI
 coredns,CoreDNS
@@ -154,6 +152,8 @@ gitlabhq,GitLab
 go-freebsd,FreeBSD
 godotengine,Godot Engine
 goharbor,Harbor
+googleapis,Google APIs
+grafana,Grafana Labs
 graphql,GraphQL
 grpc,gRPC
 grpc-ecosystem,gRPC
@@ -201,6 +201,7 @@ letsencrypt,Let's Encrypt
 linkedin,LinkedIn
 linkerd,Linkerd
 linux-sunxi,Linux sunxi
+llvm,LLVM
 longhorn,Longhorn
 lyft,Envoy
 magento,Magento
@@ -217,6 +218,7 @@ mininet,Mininet
 mitodl,MIT Office of Digital Learning
 mozilla,Mozilla
 mozilla-services,Mozilla Services
+mui-org,Material-UI
 nats-io,NATS
 networkservicemesh,Network Service Mesh
 neveragaindottech,neveragain.tech
@@ -262,6 +264,7 @@ pivotal-cf,Pivotal Cloud Foundry
 prometheus,Prometheus
 pyro-ppl,Pyro
 pytorch,pytorch
+qmk,QMK
 rackt,React
 rails,Ruby on Rails
 rapid7,Rapid7
@@ -281,10 +284,12 @@ serverless,Serverless Framework
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
 sparklyr,sparklyr
+spatie,Spatie
 spiffe,Spiffe
 spinnaker,Spinnaker
 spotify,Spotify
 spree,Spree
+spring-projects,Spring
 strimzi,Strimzi
 swagger-api,Swagger
 symfony,Symfony
