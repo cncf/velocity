@@ -40,8 +40,24 @@ WHERE
   and (
     type = 'PushEvent' or (
       LOWER(actor.login) not like '%bot%'
-      AND actor.login != 'tgstation-server'
-      AND actor.login != 'openstack-gerrit'
+      and actor.login != 'tgstation-server'
+      and actor.login != 'openstack-gerrit'
+      and actor.login not like 'k8s-%'
+      and actor.login not like '%-jenkins'
+      and actor.login not like '%-testing'
+      and actor.login not like 'codecov-%'
+      and actor.login not in (
+        'CF MEGA BOT','CAPI CI','CF Buildpacks Team CI Server','CI Pool Resource','I am Groot CI','CI (automated)',
+        'Loggregator CI','CI (Automated)','CI Bot','cf-infra-bot','CI','cf-loggregator','bot','CF INFRASTRUCTURE BOT',
+        'CF Garden','Container Networking Bot','Routing CI (Automated)','CF-Identity','BOSH CI','CF Loggregator CI Pipeline',
+        'CF Infrastructure','CI Submodule AutoUpdate','routing-ci','Concourse Bot','CF Toronto CI Bot','Concourse CI',
+        'Pivotal Concourse Bot','RUNTIME OG CI','CF CredHub CI Pipeline','CF CI Pipeline','CF Identity',
+        'PCF Security Enablement CI','CI BOT','Cloudops CI','hcf-bot','Cloud Foundry Buildpacks Team Robot',
+        'CF CORE SERVICES BOT','PCF Security Enablement','fizzy bot','Appdog CI Bot','CF Tribe','Greenhouse CI',
+        'fabric-composer-app','iotivity-replication','SecurityTest456','odl-github','opnfv-github', 'googlebot',
+        'coveralls', 'rktbot', 'coreosbot', 'web-flow', 'devstats-sync','openstack-gerrit', 'openstack-gerrit',
+        'prometheus-roobot', 'CNCF-bot'
+      )
     )
   )
 GROUP BY
