@@ -119,6 +119,8 @@ dart-lang,Dart
 department-of-veterans-affairs,Caseflow
 dmlc,DMLC
 docker,Docker
+freebsd-ita,FreeBSD
+zfsonfreebsd,FreeBSD
 docker-freebsd,FreeBSD
 dragonflyoss,Dragonfly
 driftyco,Ionic
