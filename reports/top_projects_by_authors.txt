@@ -1,101 +1,101 @@
 Top projects by authors:
-1) React (facebook.com) authors: 5011
-2) Linux (kernel.org) authors: 3899
-3) Kubernetes (kubernetes.io) authors: 3794
-4) DefinitelyTyped (definitelytyped.org) authors: 3587
-5) Homebrew (brew.sh) authors: 2858
-6) OpenStack (openstack.org) authors: 2591
-7) dotnet (microsoft.com/net) authors: 2142
-8) Chromium (google.com/chrome) authors: 2059
-9) Helm (helm.sh) authors: 1777
-10) TensorFlow (tensorflow.org) authors: 1749
-11) VS Code (code.visualstudio.com) authors: 1688
-12) Terraform (terraform.io) authors: 1683
-13) Ansible (ansible.com) authors: 1580
-14) Gatsby (gatsbyjs.org) authors: 1501
-15) Rust (rust-lang.org) authors: 1472
-16) Home Assistant (home-assistant.io) authors: 1444
-17) NixOS (nixos.org) authors: 1401
-18) vuejs (vuejs.org) authors: 1290
-19) Elasticsearch (elastic.co/products/elasticsearch) authors: 1213
-20) pytorch (pytorch.org) authors: 1113
-21) Mozilla (mozilla.org) authors: 1109
-22) Node.js (nodejs.org) authors: 1074
-23) Cloud Foundry (cloudfoundry.org) authors: 1031
+1) React (facebook.com) authors: 5641
+2) Linux (kernel.org) authors: 4185
+3) Kubernetes (kubernetes.io) authors: 4119
+4) DefinitelyTyped (definitelytyped.org) authors: 3616
+5) Homebrew (brew.sh) authors: 2902
+6) Helm (helm.sh) authors: 2159
+7) Terraform (terraform.io) authors: 2136
+8) dotnet (microsoft.com/net) authors: 2127
+9) Chromium (google.com/chrome) authors: 2102
+10) OpenStack (openstack.org) authors: 2037
+11) TensorFlow (tensorflow.org) authors: 1999
+12) Gatsby (gatsbyjs.org) authors: 1971
+13) Elasticsearch (elastic.co/products/elasticsearch) authors: 1625
+14) Concourse (concourse-ci.org) authors: 1611
+15) NixOS (nixos.org) authors: 1599
+16) Home Assistant (home-assistant.io) authors: 1573
+17) Rust (rust-lang.org) authors: 1555
+18) Ansible (ansible.com) authors: 1480
+19) pytorch (pytorch.org) authors: 1371
+20) Mozilla (mozilla.org) authors: 1252
+21) OpenShift (openshift.com) authors: 1146
+22) vuejs (vuejs.org) authors: 1080
+23) Symfony (symfony.com) authors: 1006
 24) FreeBSD (freebsd.org) authors: 1005
-25) OpenShift (openshift.com) authors: 957
-26) Laravel (laravel.com) authors: 952
-27) Symfony (symfony.com) authors: 948
-28) Ethereum (ethereum.org) authors: 923
-29) Eclipse (eclipse.org) authors: 883
-30) conda-forge (conda-forge.org) authors: 814
-31) ASP.net (asp.net) authors: 798
-32) GitLab (gitlab.com) authors: 790
-33) Datadog (datadog.com) authors: 748
-34) Apollo GraphQL (apollographql.com) authors: 725
-35) Magento (magento.com/home) authors: 723
-36) Alibaba (alibaba.com) authors: 716
-37) Angular (angular.io) authors: 700
-38) Ant Design (ant.design) authors: 694
-39) TrustWallet (trustwallet.com) authors: 677
-40) ODOO (odoo-community.org) authors: 663
-41) Azure SDKs (azure.microsoft.com) authors: 658
-42) Uber Open Source (uber.github.io) authors: 638
-43) Ruby on Rails (rubyonrails.org) authors: 629
-44) Amazon Docs (aws.amazon.com) authors: 628
-45) Docker (mobyproject.org) authors: 627
-46) Godot Engine (godotengine.org) authors: 623
-47) Auth0 (auth0.com) authors: 621
-48) Bazel (bazel.build) authors: 616
-49) Pivotal Cloud Foundry (pivotal.io) authors: 612
-50) WiX (wixtoolset.org) authors: 602
-51) Nextcloud (nextcloud.com) authors: 590
-52) bioconda (bioconda.github.io) authors: 585
-53) spring-projects authors: 583
-54) spatie authors: 582
-55) qmk authors: 569
-56) Mapbox (mapbox.com) authors: 566
-57) ionic-team authors: 565
-58) python (www.python.org) authors: 564
-59) Go (golang.org) authors: 563
-60) KhronosGroup authors: 562
-61) googleapis authors: 556
-62) Shopify (shopify.com) authors: 554
-63) Azure/azure-rest-api-specs authors: 551
-64) web-platform-tests authors: 551
-65) js-org authors: 539
-66) Jenkins (jenkins.io) authors: 538
-67) Prometheus (prometheus.io) authors: 530
-68) Tencent authors: 528
-69) Office Developer (dev.office.com) authors: 520
-70) AGL (www.automotivelinux.org) authors: 518
-71) revaturelabs authors: 515
-72) Azure-Samples authors: 512
-73) CNCF (www.cncf.io) authors: 511
-74) VMware (vmware.github.io) authors: 511
-75) facebookresearch authors: 511
-76) gRPC (grpc.io) authors: 510
-77) istio authors: 509
-78) oracle authors: 496
-79) fossasia (fossasia.org) authors: 494
-80) CodingTrain authors: 492
-81) mdn authors: 489
-82) getsentry authors: 489
-83) grafana authors: 484
-84) GitHub (github.com) authors: 471
-85) electron (electronjs.org) authors: 467
-86) mozilla-l10n authors: 466
-87) thoth-station authors: 456
-88) AMP (ampproject.org) authors: 455
-89) Serverless Framework (serverless.com) authors: 454
-90) DMLC (dmlc.github.io) authors: 453
-91) JetBrains authors: 448
-92) aws-samples authors: 448
-93) Envoy (www.envoyproxy.io) authors: 447
-94) webpack (github.com/webpack) authors: 447
-95) pandas-dev authors: 446
-96) WSO2 (wso2.github.io) authors: 446
-97) SaltStack (repo.saltstack.com) authors: 444
-98) fastai authors: 444
-99) WordPress authors: 442
-100) PowerShell (microsoft.com/powershell) authors: 442
+25) conda-forge (conda-forge.org) authors: 999
+26) Eclipse (eclipse.org) authors: 965
+27) Node.js (nodejs.org) authors: 961
+28) Laravel (laravel.com) authors: 957
+29) Alibaba (alibaba.com) authors: 896
+30) LLVM (llvm.org) authors: 894
+31) Cloud Foundry (cloudfoundry.org) authors: 874
+32) ASP.net (asp.net) authors: 844
+33) Datadog (datadog.com) authors: 800
+34) Magento (magento.com/home) authors: 788
+35) Ethereum (ethereum.org) authors: 785
+36) GitLab (gitlab.com) authors: 774
+37) Azure SDKs (azure.microsoft.com) authors: 767
+38) VS Code (code.visualstudio.com) authors: 745
+39) Google APIs (googleapis.github.io) authors: 711
+40) ODOO (odoo-community.org) authors: 696
+41) Azure REST API (github.com/Azure/azure-rest-api-specs) authors: 665
+42) Amazon Docs (aws.amazon.com) authors: 658
+43) Bazel (bazel.build) authors: 657
+44) WiX (wixtoolset.org) authors: 657
+45) Godot Engine (godotengine.org) authors: 647
+46) Uber Open Source (uber.github.io) authors: 646
+47) Spring (spring.io/projects) authors: 640
+48) Ant Design (ant.design) authors: 639
+49) bioconda (bioconda.github.io) authors: 638
+50) QMK (qmk.fm) authors: 634
+51) python (www.python.org) authors: 630
+52) GitHub (github.com) authors: 630
+53) Spatie (spatie.be/open-source) authors: 627
+54) CNCF (www.cncf.io) authors: 625
+55) Ruby on Rails (rubyonrails.org) authors: 624
+56) Grafana Labs (grafana.com) authors: 620
+57) javascript-tutorial authors: 611
+58) KhronosGroup authors: 610
+59) Apollo GraphQL (apollographql.com) authors: 606
+60) facebookincubator authors: 600
+61) Envoy (www.envoyproxy.io) authors: 595
+62) Tencent authors: 594
+63) cardano-foundation authors: 593
+64) Shopify (shopify.com) authors: 592
+65) getsentry authors: 589
+66) Jenkins (jenkins.io) authors: 587
+67) Nextcloud (nextcloud.com) authors: 583
+68) ionic-team authors: 574
+69) istio authors: 571
+70) gRPC (grpc.io) authors: 571
+71) Azure-Samples authors: 556
+72) web-platform-tests authors: 550
+73) oracle authors: 548
+74) Prometheus (prometheus.io) authors: 545
+75) adobe authors: 540
+76) Pivotal Cloud Foundry (pivotal.io) authors: 539
+77) Flutter (flutter.io) authors: 535
+78) adafruit authors: 531
+79) js-org authors: 527
+80) PingCAP (github.com/pingcap) authors: 525
+81) Go (golang.org) authors: 524
+82) pandas-dev authors: 523
+83) Angular (angular.io) authors: 522
+84) mozilla-l10n authors: 515
+85) revaturelabs authors: 514
+86) Mapbox (mapbox.com) authors: 513
+87) Docker (mobyproject.org) authors: 512
+88) TrustWallet (trustwallet.com) authors: 511
+89) fossasia (fossasia.org) authors: 500
+90) TheAlgorithms authors: 497
+91) Mattermost (mattermost.org) authors: 493
+92) Office Developer (dev.office.com) authors: 486
+93) apache/airflow authors: 486
+94) Cataclysm-DDA (en.cataclysmdda.com) authors: 483
+95) Odoo (odoo.com) authors: 483
+96) Auth0 (auth0.com) authors: 475
+97) WSO2 (wso2.github.io) authors: 471
+98) JetBrains authors: 469
+99) hashicorp authors: 464
+100) DMLC (dmlc.github.io) authors: 460

@@ -1,101 +1,101 @@
 Top projects by activity:
-1) Kubernetes (kubernetes.io) activity: 452849
-2) dotnet (microsoft.com/net) activity: 414216
-3) Linux (kernel.org) activity: 398429
-4) Elasticsearch (elastic.co/products/elasticsearch) activity: 319426
-5) React (facebook.com) activity: 244483
-6) OpenShift (openshift.com) activity: 236044
-7) VS Code (code.visualstudio.com) activity: 209522
-8) Rust (rust-lang.org) activity: 207397
-9) CMS Offline Software (cms-sw.github.io) activity: 204616
-10) Lombiq activity: 184088
-11) TensorFlow (tensorflow.org) activity: 168071
-12) ASP.net (asp.net) activity: 159676
-13) phalcon activity: 139461
-14) NixOS (nixos.org) activity: 138982
-15) istio activity: 138956
-16) pytorch (pytorch.org) activity: 127452
-17) Home Assistant (home-assistant.io) activity: 125262
-18) Ethereum (ethereum.org) activity: 121232
-19) Nextcloud (nextcloud.com) activity: 118309
-20) googleapis activity: 117243
-21) Ansible (ansible.com) activity: 116306
-22) Flutter (flutter.io) activity: 111658
-23) Node.js (nodejs.org) activity: 111211
-24) Eclipse (eclipse.org) activity: 107797
-25) Homebrew (brew.sh) activity: 107665
-26) Mozilla (mozilla.org) activity: 105837
-27) Terraform (terraform.io) activity: 100010
-28) conda-forge (conda-forge.org) activity: 96952
-29) docker-library activity: 95388
-30) GitLab (gitlab.com) activity: 95000
-31) Angular (angular.io) activity: 93076
-32) Odoo (odoo.com) activity: 92592
-33) Magento (magento.com/home) activity: 88907
-34) Caseflow (va.gov) activity: 79153
-35) PingCAP (github.com/pingcap) activity: 76546
-36) WordPress activity: 76144
-37) ARMmbed activity: 76061
-38) Chromium (google.com/chrome) activity: 75604
-39) OpenStack (openstack.org) activity: 75039
-40) Azure SDKs (azure.microsoft.com) activity: 72914
-41) Datadog (datadog.com) activity: 71953
-42) Cockroach Labs (cockroachlabs.com) activity: 70685
-43) openfoodfacts activity: 70311
-44) fossasia (fossasia.org) activity: 70039
-45) Mapbox (mapbox.com) activity: 68945
-46) bitnami activity: 68364
-47) Zephyr (www.zephyrproject.org) activity: 68055
-48) SS13 (tgstation13.org) activity: 67847
-49) electron (electronjs.org) activity: 67342
-50) Government Digital Service (gds.blog.gov.uk) activity: 66956
-51) WP Calypso (developer.wordpress.com/calypso) activity: 65694
-52) ownCloud (oowncloud.org) activity: 65262
-53) input-output-hk activity: 64017
-54) Dart (dartlang.org) activity: 63803
-55) Helm (helm.sh) activity: 63388
-56) Godot Engine (godotengine.org) activity: 63056
-57) ODOO (odoo-community.org) activity: 61583
-58) Bazel (bazel.build) activity: 61217
-59) raspberrypilearning activity: 59710
-60) knative activity: 59517
-61) Cloud Foundry (cloudfoundry.org) activity: 59466
-62) Gatsby (gatsbyjs.org) activity: 59457
-63) gRPC (grpc.io) activity: 58400
-64) spring-cloud activity: 57517
-65) mono activity: 57399
-66) algolia activity: 57377
-67) ManageIQ (manageiq.org) activity: 56889
-68) status-im activity: 56555
-69) Joomla (joomla.org) activity: 55667
-70) AMP (ampproject.org) activity: 55599
-71) getsentry activity: 55423
-72) xamarin activity: 55157
-73) Symfony (symfony.com) activity: 55054
-74) InfluxData (influxdata.com) activity: 53830
-75) paritytech activity: 53655
-76) The Servo Browser Engine (servo.org) activity: 53294
-77) PowerShell (microsoft.com/powershell) activity: 53100
-78) spring-projects activity: 53080
-79) Envoy (www.envoyproxy.io) activity: 52966
-80) pandas-dev activity: 52627
-81) AdguardTeam activity: 52144
-82) Uber Open Source (uber.github.io) activity: 51409
-83) firebase activity: 51391
-84) Alibaba (alibaba.com) activity: 51281
-85) kubeflow activity: 51158
-86) publiclab activity: 50745
-87) Apollo GraphQL (apollographql.com) activity: 50567
-88) Office Developer (dev.office.com) activity: 50448
-89) Go (golang.org) activity: 49715
-90) betagouv activity: 49611
-91) mozilla-mobile activity: 49391
-92) wavesplatform activity: 49273
-93) highfidelity activity: 46902
-94) Ant Design (ant.design) activity: 46337
-95) WiX (wixtoolset.org) activity: 45885
-96) PaddlePaddle activity: 45776
-97) vuejs (vuejs.org) activity: 45718
-98) cosmos activity: 45686
-99) rancher activity: 45646
-100) Nexus-Mods activity: 45058
+1) Kubernetes (kubernetes.io) activity: 527371
+2) dotnet (microsoft.com/net) activity: 492497
+3) Linux (kernel.org) activity: 436464
+4) Elasticsearch (elastic.co/products/elasticsearch) activity: 427056
+5) Lombiq activity: 412281
+6) OpenShift (openshift.com) activity: 308123
+7) React (facebook.com) activity: 267838
+8) Rust (rust-lang.org) activity: 228139
+9) TensorFlow (tensorflow.org) activity: 205160
+10) pytorch (pytorch.org) activity: 203774
+11) CMS Offline Software (cms-sw.github.io) activity: 201546
+12) Google APIs (googleapis.github.io) activity: 194581
+13) ASP.net (asp.net) activity: 171215
+14) Odoo (odoo.com) activity: 167823
+15) Flutter (flutter.io) activity: 155354
+16) Ansible (ansible.com) activity: 145049
+17) NixOS (nixos.org) activity: 141289
+18) Mozilla (mozilla.org) activity: 140493
+19) Home Assistant (home-assistant.io) activity: 138683
+20) Nextcloud (nextcloud.com) activity: 132243
+21) Eclipse (eclipse.org) activity: 132224
+22) Homebrew (brew.sh) activity: 128575
+23) Terraform (terraform.io) activity: 126805
+24) Azure SDKs (azure.microsoft.com) activity: 109180
+25) VS Code (code.visualstudio.com) activity: 108270
+26) PingCAP (github.com/pingcap) activity: 106494
+27) bcgov activity: 106017
+28) istio activity: 105924
+29) Magento (magento.com/home) activity: 104189
+30) docker-library activity: 103407
+31) ElderDrivers activity: 102522
+32) Caseflow (va.gov) activity: 100246
+33) Ethereum (ethereum.org) activity: 97942
+34) input-output-hk activity: 97384
+35) Node.js (nodejs.org) activity: 95829
+36) bitnami activity: 85872
+37) SS13 (tgstation13.org) activity: 85681
+38) Datadog (datadog.com) activity: 85538
+39) Government Digital Service (gds.blog.gov.uk) activity: 84073
+40) Chromium (google.com/chrome) activity: 83643
+41) conda-forge (conda-forge.org) activity: 82591
+42) phalcon activity: 78076
+43) OpenStack (openstack.org) activity: 77104
+44) Knative (knative.dev) activity: 74625
+45) WordPress activity: 74483
+46) Angular (angular.io) activity: 73140
+47) AdguardTeam activity: 72852
+48) kubeflow activity: 72536
+49) Envoy (www.envoyproxy.io) activity: 72452
+50) Helm (helm.sh) activity: 71915
+51) Dart (dartlang.org) activity: 70699
+52) ODOO (odoo-community.org) activity: 70612
+53) Gatsby (gatsbyjs.org) activity: 70608
+54) Zephyr (www.zephyrproject.org) activity: 70366
+55) sourcegraph activity: 70161
+56) Cockroach Labs (cockroachlabs.com) activity: 69921
+57) xamarin activity: 69561
+58) Godot Engine (godotengine.org) activity: 69557
+59) openfoodfacts activity: 69538
+60) getsentry activity: 68541
+61) AMP (ampproject.org) activity: 68518
+62) Bazel (bazel.build) activity: 67727
+63) Alibaba (alibaba.com) activity: 67602
+64) paritytech activity: 67526
+65) firebase activity: 67478
+66) ownCloud (oowncloud.org) activity: 66431
+67) electron (electronjs.org) activity: 66250
+68) tencentyun activity: 66143
+69) WP Calypso (developer.wordpress.com/calypso) activity: 65015
+70) mozilla-mobile activity: 64850
+71) ARMmbed activity: 64022
+72) Symfony (symfony.com) activity: 63479
+73) mono activity: 63224
+74) fossasia (fossasia.org) activity: 62989
+75) Mapbox (mapbox.com) activity: 62183
+76) Mattermost (mattermost.org) activity: 60136
+77) odoo-mergebot-testing-org activity: 59563
+78) PaddlePaddle (paddlepaddle.org) activity: 58356
+79) pandas-dev activity: 57988
+80) Grafana Labs (grafana.com) activity: 57040
+81) gRPC (grpc.io) activity: 56046
+82) The Servo Browser Engine (servo.org) activity: 55405
+83) Spring (spring.io/projects) activity: 54996
+84) bbc activity: 54371
+85) WSO2 (wso2.github.io) activity: 54194
+86) ManageIQ (manageiq.org) activity: 54056
+87) Apollo GraphQL (apollographql.com) activity: 54039
+88) Go (golang.org) activity: 53989
+89) algolia activity: 53326
+90) daos-stack activity: 53291
+91) rancher activity: 52585
+92) GitLab (gitlab.com) activity: 52540
+93) InfluxData (influxdata.com) activity: 52397
+94) Cloud Foundry (cloudfoundry.org) activity: 51977
+95) Office Developer (dev.office.com) activity: 51740
+96) publiclab activity: 51563
+97) status-im activity: 51086
+98) spring-cloud activity: 51048
+99) Uber Open Source (uber.github.io) activity: 50830
+100) Cataclysm-DDA (en.cataclysmdda.com) activity: 50291

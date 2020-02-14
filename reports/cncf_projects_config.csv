@@ -18,8 +18,8 @@ Vitess
 OCI
 NATS
 OPA
-SPIFFE
-SPIRE
+Spiffe
+Spire
 CloudEvents
 Telepresence
 Helm
