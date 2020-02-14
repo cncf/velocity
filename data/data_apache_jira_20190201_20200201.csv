@@ -1,10 +1,10 @@
 project,key,value
 Apache Flink,issues,7396
 Apache Mesos,issues,1752
-Apache Spark,issues,7008
-Apache Kafka,issues,2278
-Apache Camel,issues,1199
-Apache CloudStack,issues,4
+Apache Spark,issues,7693
+Apache Kafka,issues,2209
+Apache Camel,issues,1793
+Apache CloudStack,issues,0
 Apache Beam,issues,4260
 Apache Zeppelin,issues,795
 Apache Cassandra,issues,13920
