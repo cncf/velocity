@@ -243,7 +243,7 @@ Update `data/data_chromium_bugtracker_20180701_20190701.csv` accordingly.
 - `curl https://storage.googleapis.com/git-repo-downloads/repo > repo; chmod +x ./repo`
 - `./repo init -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo; ./repo init`
 - `./repo sync`
-- Now You need to use script `agl/run_multirepo.sh` with: `./run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub-like statistics.
+- Now You need to use script `agl/run_multirepo.sh` with: `./run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub-like statistics: `DTFROM=2019-02-01 DTTO=2020-01-01 ./run_multirepo_range.sh`.
 - There will be `agl.txt` file generated, something like this:
 ```
 Processed 67124 csets from 1155 developers
@@ -257,7 +257,7 @@ Processed 7152 csets from 365 developers
 ```
 - 7152 commits and 365 authors.
 - To get number of Issues, search Jira (old approach): `https://jira.automotivelinux.org/browse/SPEC-923?jql=created%20%3E%3D%202018-07-01%20AND%20created%20%3C%3D%202019-07-01`
-- New approach: Use `./agl_jira.sh '2019-07-01 00:00:00' '2018-11-01 00:00:00'`.
+- New approach: Use `./agl_jira.sh '2019-02-01 00:00:00' '2020-02-01 00:00:00'`.
 - It says 665 issues in a given date range
 - PRs = 1.07 * 665 = 711
 - Comments would be 2 * commits = 14304
