@@ -1,9 +1,9 @@
 project,key,value
 OpenStack Nova,issues,1214
-OpenStack Neutron,issues,979
-OpenStack Cinder,issues,725
-OpenStack Manuals,issues,115
-OpenStack Glance,issues,215
+OpenStack Neutron,issues,978
+OpenStack Cinder,issues,620
+OpenStack Manuals,issues,101
+OpenStack Glance,issues,126
 OpenStack Swift,issues,156
 OpenStack Horizon,issues,479
 OpenStack Keystone,issues,423
@@ -14,11 +14,11 @@ OpenStack Mistral,issues,182
 OpenStack API,issues,6
 OpenStack Community,issues,0
 OpenStack Nova,prs,1821
-OpenStack Neutron,prs,1500
-OpenStack Cinder,prs,1100
-OpenStack Manuals,prs,170
-OpenStack Glance,prs,330
-OpenStack Swift,prs,230
+OpenStack Neutron,prs,1482
+OpenStack Cinder,prs,930
+OpenStack Manuals,prs,151
+OpenStack Glance,prs,252
+OpenStack Swift,prs,312
 OpenStack Horizon,prs,730
 OpenStack Keystone,prs,635
 OpenStack Heat,prs,67
@@ -28,11 +28,11 @@ OpenStack Mistral,prs,273
 OpenStack API,prs,10
 OpenStack Community,prs,1
 OpenStack Nova,comments,3640
-OpenStack Neutron,comments,3000
-OpenStack Cinder,comments,2200
-OpenStack Manuals,comments,340
-OpenStack Glance,comments,495
-OpenStack Swift,comments,460
+OpenStack Neutron,comments,2964
+OpenStack Cinder,comments,1860
+OpenStack Manuals,comments,303
+OpenStack Glance,comments,304
+OpenStack Swift,comments,624
 OpenStack Horizon,comments,1490
 OpenStack Keystone,comments,1270
 OpenStack Heat,comments,134
