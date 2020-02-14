@@ -42,9 +42,9 @@ OpenStack Mistral,comments,390
 OpenStack API,comments,20
 OpenStack Community,comments,2
 # plain sum
-OpenStack,issues,4834
-OpenStack,prs,7488
-OpenStack,comments,14795
+OpenStack,issues,4484
+OpenStack,prs,6726
+OpenStack,comments,13452
 # They're skipped by map/skip.csv
 # OpenStack Other Repos,issues,10125
 # OpenStack Other Repos,prs,15200

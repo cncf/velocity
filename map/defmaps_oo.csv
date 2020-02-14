@@ -65,8 +65,6 @@ OpenStack Manuals,OpenStack
 OpenStack Mistral,OpenStack
 OpenStack Mobile,OpenStack
 OpenStack Murano,OpenStack
-freebsd-ita,FreeBSD
-zfsonfreebsd,FreeBSD
 OpenStack Net SDK,OpenStack
 OpenStack Neutron,OpenStack
 OpenStack Nova,OpenStack
@@ -175,6 +173,7 @@ fnproject,Oracle Fn
 freebsd,FreeBSD
 freebsd-build-toolkit,FreeBSD
 freebsd-docker,FreeBSD
+freebsd-ita,FreeBSD
 freebsd-net,FreeBSD
 freebsd-riscv,FreeBSD
 gatsbyjs,Gatsby
@@ -357,6 +356,7 @@ yogstation13,Yogstation13
 zalando,Zalando
 zendframework,Zend Framework
 zephyrproject-rtos,Zephyr
+zfsonfreebsd,FreeBSD
 zowe,Zowe
 # cloudfoundry,Cloud Foundry
 # cloudfoundry-attic,Cloud Foundry Attic
