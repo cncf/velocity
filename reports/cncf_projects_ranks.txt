@@ -176,7 +176,7 @@ Kubernetes:
 	#27 by commits (38346)
 	#3 by issues (30435)
 	#2 by prs (48851)
-	#33 by pushes (38713)
+	#30 by pushes (41084)
 
 Linkerd:
 	#334 by activity (23018)

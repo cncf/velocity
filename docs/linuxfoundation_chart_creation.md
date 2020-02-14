@@ -95,6 +95,7 @@ If you generated CNCF data just before generating LF data, then you already have
 - Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2019-02-01 2020-02-01`.
 - Download update: `wget https://teststats.cncf.io/backups/data_cncf_update_2019-02-01_2020-02-01.csv`. `mv data_cncf_update_2019-02-01_2020-02-01.csv data/`.
 - `ruby update_projects.rb projects/projects_lf_20180701_20190701.csv data/data_cncf_update_2018-07-01_2019-07-01.csv -1`.
+- You can also use `PROJFMT=1 ruby update_projects.rb projects/projects_lf_20180701_20190701.csv ./projects/projects_cncf_20190201_20200201.csv -1` instead.
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1dCe99AyOEhQhuEyhwIn_P2thVtjQXF1cGFiLo8fhZZM/edit?usp=sharing).
 

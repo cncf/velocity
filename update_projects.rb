@@ -2,11 +2,13 @@ require 'csv'
 require 'pry'
 require './comment'
 
-def update(fmerge, fdata, n)
+def update(fmerge, fdata, n_lines)
   sort_col = 'authors'
   force = !ENV['FORCE'].nil?
+  projfmt = !ENV['PROJFMT'].nil?
+  dbg = !ENV['DEBUG'].nil?
 
-  # org,repo,activity,comments,prs,commits,issues,authors,project,url
+  # org,repo,activity,comments,prs,commits,issues,authors,pushes,project,url
   projects = {}
   CSV.foreach(fmerge, headers: true) do |row|
     next if is_comment row
@@ -15,14 +17,27 @@ def update(fmerge, fdata, n)
     projects[proj] = h
   end
 
-  # project,key,value
   updates = {}
-  CSV.foreach(fdata, headers: true) do |row|
-    next if is_comment row
-    h = row.to_h
-    proj = h['project'].strip
-    key = h['key'].strip
-    updates[[proj,key]] = h['value']
+  if projfmt
+    # org,repo,activity,comments,prs,commits,issues,authors,pushes,project,url
+    keys = %w(activity comments prs commits issues authors pushes)
+    CSV.foreach(fdata, headers: true) do |row|
+      next if is_comment row
+      h = row.to_h
+      proj = h['project'].strip
+      keys.each do |key|
+        updates[[proj,key]] = h[key]
+      end
+    end
+  else
+    # project,key,value
+    CSV.foreach(fdata, headers: true) do |row|
+      next if is_comment row
+      h = row.to_h
+      proj = h['project'].strip
+      key = h['key'].strip
+      updates[[proj,key]] = h['value']
+    end
   end
 
   updated = the_same = higher = 0
@@ -37,16 +52,18 @@ def update(fmerge, fdata, n)
       next
     end
     if projects[proj][key].to_s == value.to_s
-      puts "Project #{proj} already have #{key} = #{value}"
+      puts "Project #{proj} already have #{key} = #{value}" if dbg
       the_same += 1
       next
     end
     if projects[proj][key].to_i > value.to_i && !force
-      puts "Project #{proj} have #{key} = #{projects[proj][key]} which is more than #{value}"
+      puts "Project #{proj} have #{key} = #{projects[proj][key]} which is more than #{value}" if dbg
       higher += 1
       next
     end
+    had = projects[proj][key]
     projects[proj][key] = value
+    puts "Updated project #{proj} #{key}: #{had} -> #{value}" if dbg
     updated += 1
   end
   puts "Updated #{updated} values" if updated > 0
@@ -69,7 +86,7 @@ def update(fmerge, fdata, n)
     sorted.each do |item|
       lines += 1
       csv << item[1]
-      break if lines >= n && n > 0
+      break if lines >= n_lines && n_lines > 0
     end
   end
 end

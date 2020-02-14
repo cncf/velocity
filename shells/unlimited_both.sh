@@ -43,6 +43,10 @@ echo "Updating LibreOffice project using their git repo"
 ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_20190201_20200201.csv -1
 echo "Updating FreeBSD data from SVN logs"
 ruby update_projects.rb projects/unlimited_both.csv ./data/data_freebsd_svn_20190201_20200201.csv -1
+echo "Prioritizing LF projects data"
+PROJFMT=1 ruby update_projects.rb projects/unlimited_both.csv ./projects/projects_lf_20190201_20200201.csv -1
+echo "Prioritizing CNCF projects data"
+PROJFMT=1 ruby update_projects.rb projects/unlimited_both.csv ./projects/projects_cncf_20190201_20200201.csv -1
 echo "Generating Projects Ranks statistics"
 ./shells/report_cncf_project_ranks.sh
 ./shells/report_other_project_ranks.sh

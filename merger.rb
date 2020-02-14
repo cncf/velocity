@@ -3,6 +3,8 @@ require 'pry'
 require './comment'
 
 def merger(fmerge, fdata, force)
+  dbg = !ENV['DEBUG'].nil?
+
   # Repo --> data mapping (from file to get data from)
   repos = {}
   CSV.foreach(fdata, headers: true) do |row|
@@ -30,7 +32,7 @@ def merger(fmerge, fdata, force)
             # puts "Force update #{repo}:#{k}: #{v} -> #{new[k]}"
             higher += 1
           else
-            puts "Not updating #{repo}:#{k}, current value #{v} higher than new value #{new[k]}"
+            puts "Not updating #{repo}:#{k}, current value #{v} higher than new value #{new[k]}" if dbg
             higher += 1
             next
           end
