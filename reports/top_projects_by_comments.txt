@@ -32,7 +32,7 @@ Top projects by comments:
 31) Ethereum (ethereum.org) comments: 57584
 32) Knative (knative.dev) comments: 57317
 33) kubeflow comments: 57184
-34) Zephyr (www.zephyrproject.org) comments: 53382
+34) Zephyr (www.zephyrproject.org) comments: 55311
 35) Angular (angular.io) comments: 53348
 36) Godot Engine (godotengine.org) comments: 52269
 37) WordPress comments: 49486
