@@ -17,11 +17,11 @@ Apache Ambari,issues,572
 Apache Storm,issues,331
 Apache TS,issues,1
 Apache Lucene,issues,804
-Apache Solr,issues,4010
-Apache CarbonData,issues,933
-Apache Geode,issues,2266
-Apache Trafodion,issues,907
-Apache Thrift,issues,817
-Apache Kylin,issues,766
+Apache Solr,issues,4696
+Apache CarbonData,issues,416
+Apache Geode,issues,1872
+Apache Trafodion,issues,128
+Apache Thrift,issues,541
+Apache Kylin,issues,653
 # This is skipped by map/skip.csv
 # Apache (other),issues,51762
