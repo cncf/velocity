@@ -16,52 +16,52 @@ Top projects by prs:
 15) Zephyr (www.zephyrproject.org) prs: 14147
 16) Rust (rust-lang.org) prs: 14121
 17) TensorFlow (tensorflow.org) prs: 13358
-18) Mozilla (mozilla.org) prs: 13255
-19) Node.js (nodejs.org) prs: 13024
-20) Home Assistant (home-assistant.io) prs: 12765
-21) Terraform (terraform.io) prs: 12600
-22) Eclipse (eclipse.org) prs: 12491
-23) PingCAP (github.com/pingcap) prs: 11034
-24) FreeBSD (freebsd.org) prs: 11033
-25) gRPC (grpc.io) prs: 10998
-26) Helm (helm.sh) prs: 10753
-27) istio prs: 10116
-28) Datadog (datadog.com) prs: 10083
-29) Flutter (flutter.io) prs: 10017
-30) Government Digital Service (gds.blog.gov.uk) prs: 10005
-31) WSO2 (wso2.github.io) prs: 9967
-32) void-linux prs: 9946
-33) JuliaRegistries prs: 9010
-34) Odoo (odoo.com) prs: 8881
-35) Ethereum (ethereum.org) prs: 8850
-36) ASP.net (asp.net) prs: 8771
-37) Magento (magento.com/home) prs: 8644
-38) Envoy (www.envoyproxy.io) prs: 8453
-39) carbon-design-system prs: 8348
-40) odoo-mergebot-testing-org prs: 8260
-41) DefinitelyTyped (definitelytyped.org) prs: 8223
-42) ManageIQ (manageiq.org) prs: 8219
-43) input-output-hk prs: 8129
-44) bcgov prs: 8036
-45) getsentry prs: 7883
-46) Knative (knative.dev) prs: 7874
-47) conda-forge (conda-forge.org) prs: 7735
-48) Nextcloud (nextcloud.com) prs: 7527
-49) Caseflow (va.gov) prs: 7276
-50) SS13 (tgstation13.org) prs: 7185
-51) GitLab (gitlab.com) prs: 7160
-52) ministryofjustice prs: 6997
-53) mono prs: 6890
-54) ODOO (odoo-community.org) prs: 6869
-55) OpenStack (openstack.org) prs: 6726
-56) Bazel (bazel.build) prs: 6707
-57) DevExpress prs: 6665
-58) mozilla-mobile prs: 6572
-59) KubeVirt (kubevirt.io) prs: 6438
-60) ownCloud (oowncloud.org) prs: 6436
-61) betagouv prs: 6384
-62) Apache Flink (flink.apache.org) prs: 6346
-63) Cataclysm-DDA (en.cataclysmdda.com) prs: 6286
+18) Node.js (nodejs.org) prs: 13024
+19) Home Assistant (home-assistant.io) prs: 12765
+20) Terraform (terraform.io) prs: 12600
+21) Eclipse (eclipse.org) prs: 12491
+22) PingCAP (github.com/pingcap) prs: 11034
+23) FreeBSD (freebsd.org) prs: 11033
+24) gRPC (grpc.io) prs: 10998
+25) Helm (helm.sh) prs: 10753
+26) istio prs: 10116
+27) Datadog (datadog.com) prs: 10083
+28) Flutter (flutter.io) prs: 10017
+29) Government Digital Service (gds.blog.gov.uk) prs: 10005
+30) WSO2 (wso2.github.io) prs: 9967
+31) void-linux prs: 9946
+32) JuliaRegistries prs: 9010
+33) Odoo (odoo.com) prs: 8881
+34) Ethereum (ethereum.org) prs: 8850
+35) ASP.net (asp.net) prs: 8771
+36) Magento (magento.com/home) prs: 8644
+37) Envoy (www.envoyproxy.io) prs: 8453
+38) carbon-design-system prs: 8348
+39) odoo-mergebot-testing-org prs: 8260
+40) DefinitelyTyped (definitelytyped.org) prs: 8223
+41) ManageIQ (manageiq.org) prs: 8219
+42) input-output-hk prs: 8129
+43) bcgov prs: 8036
+44) getsentry prs: 7883
+45) Knative (knative.dev) prs: 7874
+46) conda-forge (conda-forge.org) prs: 7735
+47) Nextcloud (nextcloud.com) prs: 7527
+48) Caseflow (va.gov) prs: 7276
+49) SS13 (tgstation13.org) prs: 7185
+50) GitLab (gitlab.com) prs: 7160
+51) ministryofjustice prs: 6997
+52) mono prs: 6890
+53) ODOO (odoo-community.org) prs: 6869
+54) OpenStack (openstack.org) prs: 6726
+55) Bazel (bazel.build) prs: 6707
+56) DevExpress prs: 6665
+57) mozilla-mobile prs: 6572
+58) KubeVirt (kubevirt.io) prs: 6438
+59) ownCloud (oowncloud.org) prs: 6436
+60) betagouv prs: 6384
+61) Apache Flink (flink.apache.org) prs: 6346
+62) Cataclysm-DDA (en.cataclysmdda.com) prs: 6286
+63) Mozilla (mozilla.org) prs: 6214
 64) blackflux prs: 6099
 65) AMP (ampproject.org) prs: 6080
 66) Symfony (symfony.com) prs: 6061
@@ -87,15 +87,15 @@ Top projects by prs:
 86) Chromium (google.com/chrome) prs: 5399
 87) OpenLiberty prs: 5380
 88) VS Code (code.visualstudio.com) prs: 5350
-89) Alibaba (alibaba.com) prs: 5332
-90) rancher prs: 5331
-91) apache/airflow prs: 5326
-92) apache/arrow prs: 5325
-93) vaadin prs: 5289
-94) kyma-project prs: 5264
-95) Tencent prs: 5234
-96) nervosnetwork prs: 5184
-97) RedHatInsights prs: 5169
-98) Keybase (keybase.io) prs: 5157
-99) Godot Engine (godotengine.org) prs: 5122
-100) InfluxData (influxdata.com) prs: 5118
+89) rancher prs: 5331
+90) apache/airflow prs: 5326
+91) apache/arrow prs: 5325
+92) vaadin prs: 5289
+93) kyma-project prs: 5264
+94) Tencent prs: 5234
+95) nervosnetwork prs: 5184
+96) RedHatInsights prs: 5169
+97) Keybase (keybase.io) prs: 5157
+98) Godot Engine (godotengine.org) prs: 5122
+99) InfluxData (influxdata.com) prs: 5118
+100) Chef (chef.io/chef) prs: 5049

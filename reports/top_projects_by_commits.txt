@@ -16,34 +16,34 @@ Top projects by commits:
 15) React (facebook.com) commits: 59214
 16) TensorFlow (tensorflow.org) commits: 52100
 17) Homebrew (brew.sh) commits: 46438
-18) Mozilla (mozilla.org) commits: 44386
-19) Ansible (ansible.com) commits: 43418
-20) pytorch (pytorch.org) commits: 41617
-21) Kubernetes (kubernetes.io) commits: 41084
-22) FreeBSD (freebsd.org) commits: 40171
-23) test-organization-kkjeer commits: 40002
-24) ASP.net (asp.net) commits: 39876
-25) OpenShift (openshift.com) commits: 39197
-26) Nextcloud (nextcloud.com) commits: 39093
-27) Caseflow (va.gov) commits: 38932
-28) Datadog (datadog.com) commits: 35583
-29) sourcegraph commits: 33662
-30) Terraform (terraform.io) commits: 33337
-31) input-output-hk commits: 32387
-32) Government Digital Service (gds.blog.gov.uk) commits: 31648
-33) Cloud Foundry (cloudfoundry.org) commits: 31458
-34) Home Assistant (home-assistant.io) commits: 31031
-35) electron (electronjs.org) commits: 29943
-36) Blockmodo commits: 29175
-37) magento-l10n commits: 29094
-38) AdguardTeam commits: 28554
-39) Odoo (odoo.com) commits: 28291
-40) raspberrypilearning commits: 27417
-41) LLVM (llvm.org) commits: 27286
-42) Eclipse (eclipse.org) commits: 26043
-43) OrchardCMS commits: 25973
-44) easylist commits: 24562
-45) Jasig commits: 24079
+18) Ansible (ansible.com) commits: 43418
+19) pytorch (pytorch.org) commits: 41617
+20) Kubernetes (kubernetes.io) commits: 41084
+21) FreeBSD (freebsd.org) commits: 40171
+22) test-organization-kkjeer commits: 40002
+23) ASP.net (asp.net) commits: 39876
+24) OpenShift (openshift.com) commits: 39197
+25) Nextcloud (nextcloud.com) commits: 39093
+26) Caseflow (va.gov) commits: 38932
+27) Datadog (datadog.com) commits: 35583
+28) sourcegraph commits: 33662
+29) Terraform (terraform.io) commits: 33337
+30) input-output-hk commits: 32387
+31) Government Digital Service (gds.blog.gov.uk) commits: 31648
+32) Cloud Foundry (cloudfoundry.org) commits: 31458
+33) Home Assistant (home-assistant.io) commits: 31031
+34) electron (electronjs.org) commits: 29943
+35) Blockmodo commits: 29175
+36) magento-l10n commits: 29094
+37) AdguardTeam commits: 28554
+38) Odoo (odoo.com) commits: 28291
+39) raspberrypilearning commits: 27417
+40) LLVM (llvm.org) commits: 27286
+41) Eclipse (eclipse.org) commits: 26043
+42) OrchardCMS commits: 25973
+43) easylist commits: 24562
+44) Jasig commits: 24079
+45) Mozilla (mozilla.org) commits: 23873
 46) NixOS (nixos.org) commits: 23423
 47) GoogleCloudPlatform/container-definitions commits: 22414
 48) navikt commits: 21764
@@ -71,31 +71,31 @@ Top projects by commits:
 70) firebase commits: 17688
 71) OriginProtocol commits: 17605
 72) Chef (chef.io/chef) commits: 17477
-73) ownCloud (oowncloud.org) commits: 16933
-74) algolia commits: 16866
-75) Wire Swiss GmbH (wire.com) commits: 16780
-76) plotly commits: 16526
-77) Dart (dartlang.org) commits: 16518
-78) wazuh commits: 16516
-79) bbc commits: 16328
-80) status-im commits: 16217
-81) Mastodon (mastodon.social) commits: 16093
-82) PX4 Drone Autopilot (px4.io) commits: 15986
-83) mono commits: 15871
-84) PingCAP (github.com/pingcap) commits: 15834
-85) WP Calypso (developer.wordpress.com/calypso) commits: 15649
-86) Keybase (keybase.io) commits: 15297
-87) SmartThingsCommunity commits: 15119
-88) InfluxData (influxdata.com) commits: 15110
-89) ODOO (odoo-community.org) commits: 15038
-90) cypress-io commits: 14975
-91) Charcoal-SE commits: 14573
-92) wavesplatform commits: 14427
-93) prysmaticlabs commits: 14221
-94) oracle commits: 14020
-95) verdaccio commits: 13968
-96) digital-asset commits: 13902
-97) WordPress-mobile (make.wordpress.org/mobile) commits: 13889
-98) vaadin commits: 13843
-99) Shopify (shopify.com) commits: 13822
-100) thoth-station commits: 13797
+73) Intel LLVM (llvm.org) commits: 17355
+74) ownCloud (oowncloud.org) commits: 16933
+75) algolia commits: 16866
+76) Wire Swiss GmbH (wire.com) commits: 16780
+77) plotly commits: 16526
+78) Dart (dartlang.org) commits: 16518
+79) wazuh commits: 16516
+80) bbc commits: 16328
+81) status-im commits: 16217
+82) Mastodon (mastodon.social) commits: 16093
+83) PX4 Drone Autopilot (px4.io) commits: 15986
+84) mono commits: 15871
+85) PingCAP (github.com/pingcap) commits: 15834
+86) WP Calypso (developer.wordpress.com/calypso) commits: 15649
+87) Keybase (keybase.io) commits: 15297
+88) SmartThingsCommunity commits: 15119
+89) InfluxData (influxdata.com) commits: 15110
+90) ODOO (odoo-community.org) commits: 15038
+91) Firefox (mozilla.org/en-US/firefox) commits: 15027
+92) cypress-io commits: 14975
+93) Charcoal-SE commits: 14573
+94) wavesplatform commits: 14427
+95) prysmaticlabs commits: 14221
+96) oracle commits: 14020
+97) verdaccio commits: 13968
+98) digital-asset commits: 13902
+99) WordPress-mobile (make.wordpress.org/mobile) commits: 13889
+100) vaadin commits: 13843
