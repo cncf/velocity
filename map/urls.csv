@@ -5,11 +5,16 @@ project,url
 18F Handbook,handbook.18f.gov
 18F Identity Provider,secure.login.gov
 18F Website,18f.gsa.gov
+25-days-of-serverless,github.com/microsoft/25-days-of-serverless
 3DS Guide,3ds.guide
 A11y,onosproject.org
 ACE,microsoft.github.io/ace
 ACE Mod,acemod.com
 AGL,www.automotivelinux.org
+AI,github.com/microsoft/AI
+AIF360,github.com/IBM/AIF360
+AIX360,github.com/IBM/AIX360
+ALAppExtensions,github.com/microsoft/ALAppExtensions
 AMP,ampproject.org
 ASP.net,asp.net
 ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
@@ -21,6 +26,7 @@ Accessible Rich Internet Applications,w3.org/WAI/ARIA
 ActiveShipping,shopify.github.io/active_shipping
 Activity Campaign site,activate.mozilla.community
 Acumos,acumos.org
+AdaptiveCards,github.com/microsoft/AdaptiveCards
 Addons-Server,addons.mozilla.org
 Adlik,adlik.ai
 AirSim,github.com/Microsoft/AirSim
@@ -62,7 +68,9 @@ Apache Traffic Server,trafficserver.apache.org
 Apache Trafodion,git.apache.org/incubator-trafodion.git
 Apache Zeppelin,zeppelin.apache.org
 Apollo GraphQL,apollographql.com
+Application-Insights-Workbooks,github.com/microsoft/Application-Insights-Workbooks
 ArduPilot,ardupilot.org
+Arthas,alibaba.github.io/arthas
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
 AtlasDB,palantir.github.io/atlasdb
 Atom,atom.io
@@ -72,21 +80,28 @@ Automattic WooCommerce,github.com/Automattic/woocommerce-services
 Azure,azure.github.io
 Azure REST API,github.com/Azure/azure-rest-api-specs
 Azure SDKs,azure.microsoft.com
+Azure-Kinect-Sensor-SDK,github.com/microsoft/Azure-Kinect-Sensor-SDK
+AzureTipsAndTricks,github.com/microsoft/AzureTipsAndTricks
 BOSH,bosh.io
 BashOnWindows,microsoft.com/en-us/commandline/wsl
 Baystation12,baystation12.net
 Bazel,bazel.build
 Betaflight,github.com/betaflight/betaflight/releases
+BizCharts,github.com/alibaba/BizCharts
 Blockly,developers.google.com/blockly
 Bond,github.com/Microsoft/bond
 Boost,boost.org
+BotFramework-Composer,github.com/microsoft/BotFramework-Composer
 Brackets,brackets.io
 Brave Software,brave.com
 Brigade,brigade.sh
 Broad Institute,broadinstitute.org
+Bugzilla,bugzilla.org
+BuildXL,github.com/microsoft/BuildXL
 Buildpacks,buildpacks.io
 CARTO,carto.com
 CAST,github.com/IBM/CAST
+CCF,github.com/microsoft/CCF
 CDF,cd.foundation
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
@@ -97,6 +112,7 @@ CRI-O,cri-o.io
 CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
 Caffe,github.com/Microsoft/caffe
 CakePHP,cakephp.org
+CameraTraps,github.com/microsoft/CameraTraps
 Campaign finance for everyone,beta.fec.gov/data
 Capirca,github.com/google/capirca
 Carbon Design System,carbondesignsystem.com
@@ -109,6 +125,7 @@ Choosealicense.com,choosealicense.com
 Chromium,google.com/chrome
 Chromium Blink,chromium.org/blink
 ChubaoFS,chubao.io
+CicadaPlayer,github.com/alibaba/CicadaPlayer
 Civil Infrastructure Platform,www.cip-project.org
 Closure Library,code.google.com/closure/library
 Cloud Foundry,cloudfoundry.org
@@ -122,6 +139,7 @@ Cocos2d-x,cocos2d-x.org
 Code Aurora,www.codeaurora.org
 CodeCombat,codecombat.com
 CodePush,codepush.tools
+ComputerVision,github.com/microsoft/ComputerVision
 Computing for Computer Scientists,c4cs.github.io
 Concourse,concourse-ci.org
 Consul,consul.io
@@ -132,15 +150,18 @@ CoreOS,coreos.com
 Corsica,corsica.mozilla.io
 Cortex,github.com/cortexproject
 CyanogenMod,cyanogenmod.com
+DLWorkspace,github.com/microsoft/DLWorkspace
 DMLC,dmlc.github.io
 DSC,msdn.microsoft.com/en-us/powershell/dsc/overview
 DXR,dxr.readthedocs.org
 Dagger 2,google.github.io/dagger
 Dart,dartlang.org
 Datadog,datadog.com
+DeepSpeech,github.com/mozilla/DeepSpeech
 DefinitelyTyped,definitelytyped.org
 Digital Transformation Office,dta.gov.au
 DirectX,microsoft.com/en-us/download/search.aspx?q=directx
+DirectX-Specs,github.com/microsoft/DirectX-Specs
 Docker,mobyproject.org
 Dragonfly,d7y.io/en-us
 Dronecode,www.dronecode.org
@@ -149,6 +170,7 @@ DuckDuckHack,duckduckhack.com
 Dynamics NAV,microsoft.com/en-us/dynamics365/nav-overview
 ELSYS,elsys-bg.org
 EarlGrey,google.github.io/EarlGrey
+EasyRepro,github.com/microsoft/EasyRepro
 Eclipse,eclipse.org
 Eclipse Che,eclipse.org/che
 Eclipse Collections Project,eclipse.org/collections
@@ -160,6 +182,7 @@ Eclipse Paho,eclipse.org/paho
 Eclipse Xtext,eclipse.org/Xtext
 Eclipse hawkBit,projects.eclipse.org/projects/iot.hawkbit
 Eddystone,github.com/google/eddystone
+EdgeML,github.com/microsoft/EdgeML
 Elasticsearch,elastic.co/products/elasticsearch
 Ember.js,emberjs.com
 Encrypted Media Extensions,w3c.github.io/encrypted-media
@@ -168,9 +191,12 @@ Enzyme,airbnb.io/enzyme
 Error Prone,errorprone.info
 Esri,esri.com
 Ethereum,ethereum.org
+FASTER,github.com/microsoft/FASTER
 FBI Crime Data Explorer,github.com/18F/crime-data-explorer
 FD.io,fd.io
+FHIR,github.com/IBM/FHIR
 FOSSology,www.fossology.org
+Facebook Container,github.com/mozilla/contain-facebook
 Falco,falco.org
 Federalist,federalist.18f.gov
 Finagle,twitter.github.io/finagle
@@ -185,6 +211,7 @@ Fluentd,fluentd.org
 Flutter,flutter.io
 Flux,github.com/fluxcd
 FreeBSD,freebsd.org
+Funcraft,github.com/alibaba/funcraft
 GGRC,code.google.com/archive/p/ggrc-core
 GVT Linux,github.com/intel/gvt-linux
 Gatsby,gatsbyjs.org
@@ -243,10 +270,13 @@ Hubot,hubot.github.com
 Hyper,hyper.is
 Hyperledger,hyperledger.org
 IBM Bluemix,bluemix.net
+IBM-Z-zOS,github.com/IBM/IBM-Z-zOS
+ICE,ice.work
 IO Visor,www.iovisor.org
 Inferno,infernojs.org
 InfluxDB,influxdata.com
 InfluxData,influxdata.com
+InsiderDevTourDemos19,github.com/microsoft/InsiderDevTourDemos19
 Intel Graphics Compiler for OpenCL,github.com/intel/intel-graphics-compiler
 Intel Graphics Compute Runtime,01.org/compute-runtime
 Intel HAXM,github.com/intel/haxm
@@ -295,8 +325,20 @@ Lottie,airbnb.design/lottie
 MAME,mamedev.org
 MAPS.ME,maps.me
 MAVLink,mavlink.org
+MAX-Audio-Classifier,github.com/IBM/MAX-Audio-Classifier
+MAX-Audio-Embedding-Generator,github.com/IBM/MAX-Audio-Embedding-Generator
+MAX-Human-Pose-Estimator,github.com/IBM/MAX-Human-Pose-Estimator
+MAX-Image-Segmenter,github.com/IBM/MAX-Image-Segmenter
+MAX-Object-Detector,github.com/IBM/MAX-Object-Detector
+MAX-ResNet-50,github.com/IBM/MAX-ResNet-50
+MAX-Skeleton,github.com/IBM/MAX-Skeleton
+MAX-Text-Sentiment-Classifier,github.com/IBM/MAX-Text-Sentiment-Classifier
 MELPA,melpa.org
 MIT Office of Digital Learning,odl.mit.edu
+MLOps,github.com/microsoft/MLOps
+MLOpsPython,github.com/microsoft/MLOpsPython
+MMdnn,github.com/microsoft/MMdnn
+MNN,github.com/alibaba/MNN
 Magento,magento.com/home
 Maker.js,http://microsoft.github.io/maker.js
 Malmö,github.com/Microsoft/malmo
@@ -314,6 +356,7 @@ Micro-purchase,micropurchase.18f.gov
 Microsoft (other),microsoft.com
 Microsoft API,github.com/Microsoft/api-guidelines
 Microsoft Application Insights,azure.microsoft.com/en-us/services/application-insights
+Microsoft Bedrock,github.com/microsoft/bedrock
 Microsoft BotBuilder,botframework.com
 Microsoft BusinessPlatformApps,github.com/Microsoft/BusinessPlatformApps
 Microsoft Chakra,github.com/Microsoft/ChakraCore
@@ -341,6 +384,8 @@ Microsoft docs,docs.microsoft.com
 Microsoft eShopOnContainers,github.com/dotnet-architecture/eShopOnContainers
 MicrosoftDocs,docs.microsoft.com
 Mininet,mininet.org
+MixedRealityToolkit-Unity,github.com/microsoft/MixedRealityToolkit-Unity
+MozDef,github.com/mozilla/MozDef
 Mozilla,mozilla.org
 Mozilla Common Voice,voice.mozilla.org
 Mozilla Copyright,changecopyright.org
@@ -353,10 +398,12 @@ Mozilla donation forms,donate.mozilla.org
 Mozilla hubs,hubs.mozilla.com
 NATS,nats.io
 NServiceBus,particular.net/nservicebus
+Nacos,nacos.io
 Nakadi,github.com/zalando/nakadi
 NativeScript,nativescript.org
 Netflix,netflix.github.io
 Network Service Mesh,networkservicemesh.io
+NeuronBlocks,github.com/microsoft/NeuronBlocks
 Next.js,zeit.co/blog/next2
 Nextcloud,nextcloud.com
 NixOS,nixos.org
@@ -374,6 +421,7 @@ OPAM,opam.ocaml.org
 OPNFV,www.opnfv.org
 Odoo,odoo.com
 Office Developer,dev.office.com
+Omex,github.com/microsoft/Omex
 Open API,www.openapis.org
 Open Build Service,openbuildservice.org
 Open Mainframe,www.openmainframeproject.org
@@ -432,6 +480,7 @@ OpenSwitch,www.openswitch.net
 OpenTelemetry,opentelemetry.io
 OpenTimelineIO,opentimeline.io
 OpenTracing,opentracing.io
+OpenUI5,openui5.org
 OpenWrt,openwrt.org
 Openstack Tools,openstack.org
 Operations Research Tools,developers.google.com/optimization
@@ -459,7 +508,11 @@ Polymer,polymer-project.org
 Positron,github.com/mozilla/positron
 PouchContainer,pouchcontainer.io
 Power BI,powerbi.microsoft.com
+PowerApps-Samples,github.com/microsoft/PowerApps-Samples
+PowerPlatformConnectors,github.com/microsoft/PowerPlatformConnectors
 PowerShell,microsoft.com/powershell
+PowerStig,github.com/microsoft/PowerStig
+PowerToys,github.com/microsoft/PowerToys
 Project Marquez,marquezproject.ai
 Project Tofino,mozilla.github.io/tofino
 Prometheus,prometheus.io
@@ -467,14 +520,20 @@ Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
 Pyro,pyro.ai
 QMK,qmk.fm
+Quantum,github.com/microsoft/Quantum
+QuantumKatas,github.com/microsoft/QuantumKatas
+QuantumLibraries,github.com/microsoft/QuantumLibraries
 RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
 Rapid7,rapid7.com
+Rax,rax.js.org
 React,facebook.com
 ReactXP,microsoft.github.io/reactxp
 ReactiveX,reactivex.io
 Realm,realm.io
+Recognizers-Text,github.com/microsoft/Recognizers-Text
 Record and Replay Framework,rr-project.org
+RedisShake,github.com/alibaba/RedisShake
 Resurrection Remix,plus.google.com/communities/109352646351468373340
 RethinkDB,www.rethinkdb.com
 RobotLocomotion,drake.mit.edu
@@ -483,11 +542,14 @@ RocksDB,rocksdb.org
 Rook,rook.io
 Ruby on Rails,rubyonrails.org
 Rust,rust-lang.org
+SAP Fundamentals,github.com/SAP/fundamental
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
 SNAS.io,www.snas.io
 SPDX,spdx.org
+SPTAG,github.com/microsoft/SPTAG
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
 SS13,tgstation13.org
+STL,github.com/microsoft/STL
 SVG Working Group,github.com/w3c/svgwg
 SageTV,forums.sagetv.com
 Sakai,sakaiproject.org
@@ -527,12 +589,14 @@ TEAMMATES,teammatesv4.appspot.com
 TODO group,todogroup.org
 TSLint,palantir.github.io/tslint
 TUF,github.com/theupdateframework.com
+TailwindTraders-Website,github.com/microsoft/TailwindTraders-Website
 Team Kodi,kodi.tv
 TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
 Tekton,tekton.dev
 Telepresence,telepresence.io
 Telerik,telerik.com
 TensorFlow,tensorflow.org
+Terminal,github.com/microsoft/Terminal
 Terraform,terraform.io
 Texture,texturegroup.org
 Thanos,thanos.io
@@ -548,15 +612,20 @@ TiKV,tikv.org
 Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
 Tizen,www.tizen.org
 Toxiproxy,toxiproxy.io
+Train-Custom-Speech-Model,github.com/IBM/Train-Custom-Speech-Model
 Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
 TrustWallet,trustwallet.com
 Tungsten Fabric,tungsten.io
 Twitter,twitter.com
 TypeScript,typescriptlang.org
+TypeScript-Node-Starter,github.com/microsoft/TypeScript-Node-Starter
+TypeScript-Website,github.com/microsoft/TypeScript-Website
+TypeScript-wiki,github.com/microsoft/TypeScript-wiki
 US Extractive Industries Data,useiti.doi.gov
 US Web Design Standards,standards.usa.gov
 Uber Open Source,uber.github.io
+VFSForGit,github.com/microsoft/VFSForGit
 VIP Go,vip.wordpress.com/documentation/vip-go
 VMware,vmware.github.io
 VMware Lightwave,github.com/vmware/lightwave
@@ -570,6 +639,7 @@ Vagrant,vagrantup.com
 Vault,vaultproject.io
 Virtual Kubelet,virtual-kubelet.io
 Vitess,vitess.io
+VoTT,github.com/microsoft/VoTT
 Vorto Project,github.com/eclipse/vorto
 Vox Populi,voxpopuli.org
 W3C,w3.org
@@ -588,16 +658,21 @@ W3C WebRTC,w3c.github.io/webrtc-pc
 W3C WebVR,w3c.github.io/webvr
 WAI-ARIA Authoring Practices,w3.org/WAI/ARIA
 WP Calypso,developer.wordpress.com/calypso
+WPF-Samples,github.com/microsoft/WPF-Samples
 WSO2,wso2.github.io
 WSO2 Carbon,wso2.com/products/carbon
 Web Authentication WG,w3.org/Webauthn
 Web of Things,w3.org/WoT/IG
 WebKit,webkit.org
+WebTemplateStudio,github.com/microsoft/WebTemplateStudio
 WiX,wixtoolset.org
+Windows-Machine-Learning,github.com/microsoft/Windows-Machine-Learning
+Windows-iotcore-samples,github.com/microsoft/Windows-iotcore-samples
 Wire Swiss GmbH,wire.com
 WordPress-mobile,make.wordpress.org/mobile
 XAMPP,apachefriends.org
 XX-net,github.com/XX-net/XX-Net
+Xaml-Controls-Gallery,github.com/microsoft/Xaml-Controls-Gallery
 YAMS,github.com/Microsoft/Yams
 YAPF,github.com/google/yapf
 Yoast SEO,yoast.com/wordpress/seo
@@ -609,62 +684,269 @@ Zend Framework,framework.zend.com
 Zephyr,www.zephyrproject.org
 Zowe,zowe.org
 Zypper,en.opensuse.org/Portal:Zypper
+accessibility-insights-service,github.com/microsoft/accessibility-insights-service
+accessibility-insights-web,github.com/microsoft/accessibility-insights-web
+accessibility-insights-windows,github.com/microsoft/accessibility-insights-windows
+addons-code-manager,github.com/mozilla/addons-code-manager
+adversarial-robustness-toolbox,github.com/IBM/adversarial-robustness-toolbox
 advocacy.mozilla.org,advocacy.mozilla.org
+ai-edu,github.com/microsoft/ai-edu
+ailab,github.com/microsoft/ailab
+aksworkshop,github.com/microsoft/aksworkshop
+angular-react,github.com/microsoft/angular-react
 apollographql,apollographql.com
+appcenter,github.com/microsoft/appcenter
+appcenter-cli,github.com/microsoft/appcenter-cli
+appcenter-sdk-android,github.com/microsoft/appcenter-sdk-android
+appcenter-sdk-apple,github.com/microsoft/appcenter-sdk-apple
+appcenter-sdk-cordova,github.com/microsoft/appcenter-sdk-cordova
+appcenter-sdk-dotnet,github.com/microsoft/appcenter-sdk-dotnet
+appcenter-sdk-react-native,github.com/microsoft/appcenter-sdk-react-native
+appcenter-sdk-unity,github.com/microsoft/appcenter-sdk-unity
+audit-ci,github.com/IBM/audit-ci
+axe-pipelines-samples,github.com/microsoft/axe-pipelines-samples
+axe-windows,github.com/microsoft/axe-windows
+azure-databricks-operator,github.com/microsoft/azure-databricks-operator
+azure-iot-developer-kit,github.com/microsoft/azure-iot-developer-kit
+azure-pipelines-agent,github.com/microsoft/azure-pipelines-agent
+azure-pipelines-extensions,github.com/microsoft/azure-pipelines-extensions
+azure-pipelines-image-generation,github.com/microsoft/azure-pipelines-image-generation
+azure-pipelines-task-lib,github.com/microsoft/azure-pipelines-task-lib
+azure-pipelines-tasks,github.com/microsoft/azure-pipelines-tasks
+azure-pipelines-yaml,github.com/microsoft/azure-pipelines-yaml
+azure-spring-boot,github.com/microsoft/azure-spring-boot
+azuredatastudio,github.com/microsoft/azuredatastudio
+azuredevopslabs,github.com/microsoft/azuredevopslabs
 bedrock,mozilla.org
 benchmark,github.com/google/benchmark
+bert-stack-overflow,github.com/microsoft/bert-stack-overflow
+bigquery-etl,github.com/mozilla/bigquery-etl
 bioconda,bioconda.github.io
+botbuilder-dotnet,github.com/microsoft/botbuilder-dotnet
+botbuilder-js,github.com/microsoft/botbuilder-js
+botbuilder-python,github.com/microsoft/botbuilder-python
+botbuilder-tools,github.com/microsoft/botbuilder-tools
+botframework-cli,github.com/microsoft/botframework-cli
+botframework-sdk,github.com/microsoft/botframework-sdk
+botframework-solutions,github.com/microsoft/botframework-solutions
+bugbug,github.com/mozilla/bugbug
+busiotools,github.com/microsoft/busiotools
+butterfly,github.com/alibaba/butterfly
 cAdvisor,github.com/google/cadvisor
+calculator,github.com/microsoft/calculator
+canal,github.com/alibaba/canal
+carbon-addons-iot-react,github.com/IBM/carbon-addons-iot-react
 certificate-transparency,certificate-transparency.org
+cf-java-client-sap,github.com/SAP/cf-java-client-sap
+chevrotain,github.com/SAP/chevrotain
+cics-bundle-maven,github.com/IBM/cics-bundle-maven
+cloud-commerce-spartacus-storefront-docs,github.com/SAP/cloud-commerce-spartacus-storefront-docs
+cloud-mta,github.com/SAP/cloud-mta
+cloud-mta-build-tool,github.com/SAP/cloud-mta-build-tool
+cloud-native-starter,github.com/IBM/cloud-native-starter
+cloud-pak,github.com/IBM/cloud-pak
+cloud-s4-sdk-pipeline-lib,github.com/SAP/cloud-s4-sdk-pipeline-lib
+cloud-security-xsuaa-integration,github.com/SAP/cloud-security-xsuaa-integration
+cloudland,github.com/IBM/cloudland
 cloudmesh,github.com/cloudmesh
+cobalt,github.com/microsoft/cobalt
+code-with-engineering-playbook,github.com/microsoft/code-with-engineering-playbook
+cognitive-services-speech-sdk-js,github.com/microsoft/cognitive-services-speech-sdk-js
+comanche,github.com/IBM/comanche
+commerce-ui,github.com/IBM/commerce-ui
+composable,github.com/IBM/composable
+computerscience,github.com/microsoft/computerscience
 conda-forge,conda-forge.org
 containerd,containerd.io
+coobjc,github.com/alibaba/coobjc
 cregit,cregit.linuxsources.org
+cve-bin-tool,github.com/intel/cve-bin-tool
+daal,github.com/intel/daal
+data-accelerator,github.com/microsoft/data-accelerator
+devops-docker-images,github.com/SAP/devops-docker-images
+devops-project-samples,github.com/microsoft/devops-project-samples
 devopsdays,devopsdays.org
+dffml,github.com/intel/dffml
+domino-docker,github.com/IBM/domino-docker
+donate-wagtail,donate.mozilla.org
 dotnet,microsoft.com/net
+dragonwell8_hotspot,github.com/alibaba/dragonwell8_hotspot
+druid,github.com/alibaba/druid
+easyexcel,github.com/alibaba/easyexcel
 electron,electronjs.org
 envoyproxy,github.com/envoyproxy
 eslint,eslint.org
 etcd,coreos.com/etcd
+euler,github.com/alibaba/euler
+extension-workshop,github.com/mozilla/extension-workshop
+external-mesa,github.com/intel/external-mesa
 fabric8,fabric8.io
+fast-dna,github.com/microsoft/fast-dna
+fastjson,github.com/alibaba/fastjson
 fastlane,fastlane.tools
+fastlane-plugin-appcenter,github.com/microsoft/fastlane-plugin-appcenter
+fhir-server,github.com/microsoft/fhir-server
+fish-redux,github.com/alibaba/fish-redux
+fluent-ui-react,github.com/microsoft/fluent-ui-react
+flutter-go,github.com/alibaba/flutter-go
+flutter_boost,github.com/alibaba/flutter_boost
+form-render,github.com/alibaba/form-render
 fossasia,fossasia.org
 gRPC,grpc.io
+git,github.com/microsoft/git
+go-sdk-core,github.com/IBM/go-sdk-core
 gocd,www.gocd.org
 google-gson,github.com/google/gson
+grcov,github.com/mozilla/grcov
 hacktoberfest17,hacktoberfest.digitalocean.com/eventkit
 hnginterns,hng-intern.herokuapp.com
 hzuapps,github.com/hzuapps
+i40-aas,github.com/SAP/i40-aas
+ias,github.com/intel/ias
+ibm-block-csi-driver,github.com/IBM/ibm-block-csi-driver
+ibm-spectrum-scale-csi-driver,github.com/IBM/ibm-spectrum-scale-csi-driver
+ibmcloud-storage-volume-lib,github.com/IBM/ibmcloud-storage-volume-lib
+ignite-learning-paths,github.com/microsoft/ignite-learning-paths
+ignite-learning-paths-training-aiml,github.com/microsoft/ignite-learning-paths-training-aiml
+ignite-learning-paths-training-apps,github.com/microsoft/ignite-learning-paths-training-apps
+ignite-learning-paths-training-mod,github.com/microsoft/ignite-learning-paths-training-mod
+ignite-learning-paths-training-ops,github.com/microsoft/ignite-learning-paths-training-ops
+immersive-reader-sdk,github.com/microsoft/immersive-reader-sdk
 in-toto,in-toto.io
+intel-device-plugins-for-kubernetes,github.com/intel/intel-device-plugins-for-kubernetes
+interpret,github.com/microsoft/interpret
 iojs,io.js
+ipmctl,github.com/intel/ipmctl
+iris2,github.com/mozilla/iris2
+jenkins-library,github.com/SAP/jenkins-library
 jsDelivr,jsdelivr.com
+just,github.com/microsoft/just
+jvm-sandbox,github.com/alibaba/jvm-sandbox
+kitsune,github.com/mozilla/kitsune
+kiwi,github.com/alibaba/kiwi
+landcover,github.com/microsoft/landcover
+language-server-protocol,github.com/microsoft/language-server-protocol
+ledmon,github.com/intel/ledmon
+legal-docs,github.com/mozilla/legal-docs
+libHttpClient,github.com/microsoft/libHttpClient
 libretro,libretro.com
+libva,github.com/intel/libva
+linux-intel-lts,github.com/intel/linux-intel-lts
+lkp-tests,github.com/intel/lkp-tests
+luigi,github.com/SAP/luigi
 lyft,github.com/lyft/envoy
+mi-prometheus,github.com/IBM/mi-prometheus
 micro-bit,microbit.co.uk/blocks/editor
+microsoft-ui-xaml,github.com/microsoft/microsoft-ui-xaml
+microsoft-ui-xaml-specs,github.com/microsoft/microsoft-ui-xaml-specs
+mimalloc,github.com/microsoft/mimalloc
+mkl-dnn,github.com/intel/mkl-dnn
+monaco-editor,github.com/microsoft/monaco-editor
+multi-account-containers,github.com/mozilla/multi-account-containers
+multicloud-operators-subscription,github.com/IBM/multicloud-operators-subscription
+multus-cni,github.com/intel/multus-cni
+navcontainerhelper,github.com/microsoft/navcontainerhelper
 neveragain.tech,neveragain.tech
+nicedoc.io,github.com/IBM/nicedoc.io
+nlp,github.com/microsoft/nlp
+nlp-recipes,github.com/microsoft/nlp-recipes
+nni,github.com/microsoft/nni
+node-sdk-core,github.com/IBM/node-sdk-core
+nodejs-react-app,github.com/IBM/nodejs-react-app
 npm,npmjs.com
+onnxruntime,github.com/microsoft/onnxruntime
 openHAB,openhab.org
 openSUSE,opensuse.org
 openSUSE Kernel,kernel.opensuse.org
 openSUSE Kernel source,kernel.opensuse.org
 openSUSE SaltStack,github.com/openSUSE/salts
+openapi-to-graphql,github.com/IBM/openapi-to-graphql
+openapi-validator,github.com/IBM/openapi-validator
+openenclave,github.com/microsoft/openenclave
 openeventing,CloudEvents
+openshift101,github.com/IBM/openshift101
 osquery,osquery.io
 ownCloud,oowncloud.org
+p3c,github.com/alibaba/p3c
+pai,github.com/microsoft/pai
+platform-resource-manager,github.com/intel/platform-resource-manager
+playwright,github.com/microsoft/playwright
+pont,github.com/alibaba/pont
+powerai,github.com/IBM/powerai
+powerbi-powershell,github.com/microsoft/powerbi-powershell
+presidio,github.com/microsoft/presidio
+prose,github.com/microsoft/prose
+pxt-adafruit,github.com/microsoft/pxt-adafruit
+pxt-arcade,github.com/microsoft/pxt-arcade
+pxt-maker,github.com/microsoft/pxt-maker
+pyright,github.com/microsoft/pyright
 python,www.python.org
+python-flask-app,github.com/IBM/python-flask-app
+python-language-server,github.com/microsoft/python-language-server
+python-sdk-core,github.com/IBM/python-sdk-core
 pytorch,pytorch.org
+qsharp-compiler,github.com/microsoft/qsharp-compiler
+qsharp-runtime,github.com/microsoft/qsharp-runtime
+react-native,github.com/microsoft/react-native
+recommenders,github.com/microsoft/recommenders
+release-services,github.com/mozilla/release-services
+releases-comm-central,github.com/mozilla/releases-comm-central
 rkt,github.com/rkt/rkt
+rushstack,github.com/microsoft/rushstack
+sccache,github.com/mozilla/sccache
 science.mozilla.org,science.mozilla.org
+sops,github.com/mozilla/sops
 sparklyr,github.com/sparklyr
+spring-cloud-alibaba,github.com/alibaba/spring-cloud-alibaba
+spring-cloud-azure,github.com/microsoft/spring-cloud-azure
+spring-data-cosmosdb,github.com/microsoft/spring-data-cosmosdb
+sqltoolsservice,github.com/microsoft/sqltoolsservice
+sriov-network-device-plugin,github.com/intel/sriov-network-device-plugin
+stix-shifter,github.com/IBM/stix-shifter
+styleguides,github.com/SAP/styleguides
 systemd,freedesktop.org/wiki/Software/systemd
+taxinomitis,github.com/IBM/taxinomitis
+telemetry-airflow,github.com/mozilla/telemetry-airflow
+tengine,github.com/alibaba/tengine
+terminal,github.com/microsoft/terminal
+terraform-provider-azuredevops,github.com/microsoft/terraform-provider-azuredevops
+thermal_daemon,github.com/intel/thermal_daemon
 tock,18f.gsa.gov/2015/05/21/TockingTime
+treeherder,github.com/mozilla/treeherder
+tsiclient,github.com/microsoft/tsiclient
 udacity,udacity.com
+uform,github.com/alibaba/uform
+verona,github.com/microsoft/verona
 vgstation13,github.com/vgstation-coders/vgstation13
+vision-ai-developer-kit,github.com/microsoft/vision-ai-developer-kit
+vscode-arduino,github.com/microsoft/vscode-arduino
+vscode-azure-iot-toolkit,github.com/microsoft/vscode-azure-iot-toolkit
+vscode-azuretools,github.com/microsoft/vscode-azuretools
+vscode-cmake-tools,github.com/microsoft/vscode-cmake-tools
+vscode-cosmosdb,github.com/microsoft/vscode-cosmosdb
+vscode-cpptools,github.com/microsoft/vscode-cpptools
+vscode-dev-containers,github.com/microsoft/vscode-dev-containers
+vscode-extension-samples,github.com/microsoft/vscode-extension-samples
+vscode-iot-workbench,github.com/microsoft/vscode-iot-workbench
+vscode-pull-request-github,github.com/microsoft/vscode-pull-request-github
+vscode-python-devicesimulator,github.com/microsoft/vscode-python-devicesimulator
+vscode-vsce,github.com/microsoft/vscode-vsce
+vscode-wiki,github.com/microsoft/vscode-wiki
+vstest-docs,github.com/microsoft/vstest-docs
 vuejs,vuejs.org
+wasm-micro-runtime,github.com/intel/wasm-micro-runtime
+watson-assistant-workbench,github.com/IBM/watson-assistant-workbench
+watson-banking-chatbot,github.com/IBM/watson-banking-chatbot
 webpack,github.com/webpack
+weex-ui,github.com/alibaba/weex-ui
+wil,github.com/microsoft/wil
+workload-collocation-agent,github.com/intel/workload-collocation-agent
 worldofbalance,github.com/worldofbalance
+x-deeplearning,github.com/alibaba/x-deeplearning
 xen,www.xenproject.org
+xlang,github.com/microsoft/xlang
 yarn,yarnpkg.com
+zowe-cli-cics-deploy-plugin,github.com/IBM/zowe-cli-cics-deploy-plugin
 zurb,zurb.com
 Основной репозиторий,igov.org.ua
 # CF Acceptance tests,cloudfoundry.org
