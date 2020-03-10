@@ -740,6 +740,9 @@ codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qcacld-3.0,Code Auror
 containerfilesystem/cfs,ChubaoFS
 containerfilesystem/doc-zh,ChubaoFS
 containerfs/containerfs.github.io,ChubaoFS
+tomkerkhove/sample-dotnet-queue-worker,KEDA
+tomkerkhove/sample-dotnet-queue-worker-servicebus-queue,KEDA
+tomkerkhove/sample-dotnet-worker-servicebus-queue,KEDA
 coredns/coredns-grpc,CoreDNS
 coredns/grpc,CoreDNS
 coreinfrastructure/best-practices-badge,Core Infrastructure

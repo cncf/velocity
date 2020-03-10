@@ -40,7 +40,7 @@ where
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'cri-o', 'networkservicemesh',
       'open-telemetry', 'openebs', 'thanos-io', 'fluxcd', 'in-toto', 'strimzi', 'kubevirt',
-      'longhorn', 'chubaofs'
+      'longhorn', 'chubaofs', 'kedacore'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -52,7 +52,9 @@ where
       'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas',' ppatierno/kaas',
       'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
-      'containerfilesystem/doc-zh'
+      'containerfilesystem/doc-zh', 'tomkerkhove/sample-dotnet-queue-worker',
+      'tomkerkhove/sample-dotnet-queue-worker-servicebus-queue',
+      'tomkerkhove/sample-dotnet-worker-servicebus-queue'
     )
   )
   and type in (

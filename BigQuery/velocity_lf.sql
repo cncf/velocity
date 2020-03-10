@@ -47,7 +47,7 @@ WHERE
       'networkservicemesh', 'cri-o', 'open-telemetry', 'openebs', 'graphql', 'thanos-io', 'fluxcd', 'zowe',
       'in-toto', 'strimzi', 'kubevirt', 'longhorn', 'chubaofs', 'fledge-iot', 'AcademySoftwareFoundation',
       'Adlik', 'MAVLink', 'MarquezProject', 'PX4', 'acumos', 'hyperledger-labs', 'mavlink', 'onnx', 'sparklyr',
-      'PaddlePaddle', 'horovod', 'pyro-ppl'
+      'PaddlePaddle', 'horovod', 'pyro-ppl', 'kedacore'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',
@@ -62,7 +62,8 @@ WHERE
       'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas', 'ppatierno/kaas',
       'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
-      'containerfilesystem/doc-zh', 'PixarAnimationStudios/OpenTimelineIO'
+      'containerfilesystem/doc-zh', 'PixarAnimationStudios/OpenTimelineIO', 'tomkerkhove/sample-dotnet-queue-worker',
+      'tomkerkhove/sample-dotnet-queue-worker-servicebus-queue', 'tomkerkhove/sample-dotnet-worker-servicebus-queue'
     )
   )
   and type in (
