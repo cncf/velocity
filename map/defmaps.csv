@@ -95,6 +95,7 @@ chromium,Chromium
 chromiumify,Chromium
 chubaofs,ChubaoFS
 kedacore,KEDA
+servicemeshinterface,SMI
 cloudevents,CloudEvents
 cloudfoundry,Cloud Foundry
 cloudfoundry-attic,Cloud Foundry

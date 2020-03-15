@@ -40,7 +40,7 @@ where
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'cri-o', 'networkservicemesh',
       'open-telemetry', 'openebs', 'thanos-io', 'fluxcd', 'in-toto', 'strimzi', 'kubevirt',
-      'longhorn', 'chubaofs', 'kedacore'
+      'longhorn', 'chubaofs', 'kedacore', 'servicemeshinterface'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -54,7 +54,9 @@ where
       'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
       'containerfilesystem/doc-zh', 'tomkerkhove/sample-dotnet-queue-worker',
       'tomkerkhove/sample-dotnet-queue-worker-servicebus-queue',
-      'tomkerkhove/sample-dotnet-worker-servicebus-queue'
+      'tomkerkhove/sample-dotnet-worker-servicebus-queue', 'deislabs/smi-spec',
+      'deislabs/smi-sdk-go', 'deislabs/smi-metrics', 'deislabs/smi-adapter-istio',
+      'deislabs/smi-spec.io'
     )
   )
   and type in (
