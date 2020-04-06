@@ -40,7 +40,7 @@ where
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'cri-o', 'networkservicemesh',
       'open-telemetry', 'openebs', 'thanos-io', 'fluxcd', 'in-toto', 'strimzi', 'kubevirt',
-      'longhorn', 'chubaofs', 'kedacore', 'servicemeshinterface', 'argoproj'
+      'longhorn', 'chubaofs', 'kedacore', 'servicemeshinterface', 'argoproj', 'volcano-sh'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 

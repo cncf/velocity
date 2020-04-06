@@ -47,7 +47,7 @@ WHERE
       'networkservicemesh', 'cri-o', 'open-telemetry', 'openebs', 'graphql', 'thanos-io', 'fluxcd', 'zowe',
       'in-toto', 'strimzi', 'kubevirt', 'longhorn', 'chubaofs', 'fledge-iot', 'AcademySoftwareFoundation',
       'Adlik', 'MAVLink', 'MarquezProject', 'PX4', 'acumos', 'hyperledger-labs', 'mavlink', 'onnx', 'sparklyr',
-      'PaddlePaddle', 'horovod', 'pyro-ppl', 'kedacore', 'servicemeshinterface', 'argoproj'
+      'PaddlePaddle', 'horovod', 'pyro-ppl', 'kedacore', 'servicemeshinterface', 'argoproj', 'volcano-sh'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',

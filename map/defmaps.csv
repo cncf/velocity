@@ -97,6 +97,7 @@ chubaofs,ChubaoFS
 kedacore,KEDA
 servicemeshinterface,SMI
 argoproj,Argo
+volcano-sh,Volcano
 cloudevents,CloudEvents
 cloudfoundry,Cloud Foundry
 cloudfoundry-attic,Cloud Foundry
