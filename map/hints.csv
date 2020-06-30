@@ -1316,6 +1316,23 @@ microsoft/windows-itpro-docs,Microsoft docs
 microsoft/winsdkfb,VS Code
 microsoft/xlang,xlang
 microsoft/xunit-performance,dotnet
+capitalone/cloud-custodian,Cloud Custodian
+coreos/dex,Dex
+Kong/kuma,Kuma
+Kong/kuma-website,Kuma
+Kong/kuma-demo,Kuma
+Kong/kuma-gui,Kuma
+Kong/kumacut,Kuma
+docker/pasl,PARSEC
+baidu/bfe,BFE
+Huawei-PaaS/CNI-Genie,CNI-Genie
+patras-sdk/kubebuilder-maestro,Kudo
+patras-sdk/maestro,Kudo
+maestrosdk/maestro,Kudo
+maestrosdk/frameworks,Kudo
+openebs/test-storage,LitmusChaos
+openebs/litmus,LitmusChaos
+cncf/hub,Artifact Hub
 miekg/coredns,CoreDNS
 mozilla/123done,Firefox
 mozilla/ADBFuzz,Firefox
