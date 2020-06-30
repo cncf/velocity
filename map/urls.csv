@@ -1,17 +1,4 @@
 project,url
-
-cni-genie,CNI-Genie
-keptn,Keptn
-kudobuilder,Kudo
-cloud-custodian,Cloud Custodian
-dexidp,Dex
-litmuschaos,LitmusChaos
-artifacthub,Artifact Hub
-parallaxsecond,PARSEC
-bfenetworks,BFE
-crossplane,Crossplane
-crossplaneio,Crossplane
-
 18F C2,cap.18f.gov
 18F CALC,calc.gsa.gov
 18F Federal Election Commision,api.open.fec.gov/developers
@@ -21,16 +8,16 @@ crossplaneio,Crossplane
 25-days-of-serverless,github.com/microsoft/25-days-of-serverless
 3DS Guide,3ds.guide
 A11y,onosproject.org
-ACE,microsoft.github.io/ace
 ACE Mod,acemod.com
+ACE,microsoft.github.io/ace
 AGL,www.automotivelinux.org
 AI,github.com/microsoft/AI
 AIF360,github.com/IBM/AIF360
 AIX360,github.com/IBM/AIX360
 ALAppExtensions,github.com/microsoft/ALAppExtensions
 AMP,ampproject.org
-ASP.net,asp.net
 ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
+ASP.net,asp.net
 AWS SAM,aws.amazon.com/serverless/sam
 AWS SDKs,aws.amazon.com
 AZF,azure.microsoft.com
@@ -83,18 +70,21 @@ Apache Zeppelin,zeppelin.apache.org
 Apollo GraphQL,apollographql.com
 Application-Insights-Workbooks,github.com/microsoft/Application-Insights-Workbooks
 ArduPilot,ardupilot.org
+Argo,argoproj.github.io
 Arthas,alibaba.github.io/arthas
+Artifact Hub,artifacthub.io
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
 AtlasDB,palantir.github.io/atlasdb
 Atom,atom.io
 Auth0,auth0.com
 Automattic Jetpack,jetpack.com
 Automattic WooCommerce,github.com/Automattic/woocommerce-services
-Azure,azure.github.io
 Azure REST API,github.com/Azure/azure-rest-api-specs
 Azure SDKs,azure.microsoft.com
+Azure,azure.github.io
 Azure-Kinect-Sensor-SDK,github.com/microsoft/Azure-Kinect-Sensor-SDK
 AzureTipsAndTricks,github.com/microsoft/AzureTipsAndTricks
+BFE,bfe-networks.net
 BOSH,bosh.io
 BashOnWindows,microsoft.com/en-us/commandline/wsl
 Baystation12,baystation12.net
@@ -120,6 +110,7 @@ CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
 CNCF,www.cncf.io
 CNI,github.com/containernetworking
+CNI-Genie,cni-genie.io
 CORD,opencord.org
 CRI-O,cri-o.io
 CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
@@ -135,18 +126,15 @@ Cataclysm-DDA,en.cataclysmdda.com
 Checked C,microsoft.com/en-us/research/project/checked-c
 Chef,chef.io/chef
 Choosealicense.com,choosealicense.com
-Chromium,google.com/chrome
 Chromium Blink,chromium.org/blink
+Chromium,google.com/chrome
 ChubaoFS,chubao.io
-KEDA,keda.sh
-SMI,smi-spec.io
-Argo,argoproj.github.io
-Volcano,volcano.sh
 CicadaPlayer,github.com/alibaba/CicadaPlayer
 Civil Infrastructure Platform,www.cip-project.org
 Closure Library,code.google.com/closure/library
-Cloud Foundry,cloudfoundry.org
+Cloud Custodian,cloudcustodian.io
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
+Cloud Foundry,cloudfoundry.org
 Cloud Hypervisor,github.com/cloud-hypervisor/cloud-hypervisor
 Cloud.gov,github.com/18F/cg-product
 CloudEvents,cloudevents.io
@@ -166,6 +154,7 @@ CoreDNS,coredns.io
 CoreOS,coreos.com
 Corsica,corsica.mozilla.io
 Cortex,github.com/cortexproject
+Crossplane,crossplane.io
 CyanogenMod,cyanogenmod.com
 DLWorkspace,github.com/microsoft/DLWorkspace
 DMLC,dmlc.github.io
@@ -176,6 +165,7 @@ Dart,dartlang.org
 Datadog,datadog.com
 DeepSpeech,github.com/mozilla/DeepSpeech
 DefinitelyTyped,definitelytyped.org
+Dex,github.com/dexidp
 Digital Transformation Office,dta.gov.au
 DirectX,microsoft.com/en-us/download/search.aspx?q=directx
 DirectX-Specs,github.com/microsoft/DirectX-Specs
@@ -188,7 +178,6 @@ Dynamics NAV,microsoft.com/en-us/dynamics365/nav-overview
 ELSYS,elsys-bg.org
 EarlGrey,google.github.io/EarlGrey
 EasyRepro,github.com/microsoft/EasyRepro
-Eclipse,eclipse.org
 Eclipse Che,eclipse.org/che
 Eclipse Collections Project,eclipse.org/collections
 Eclipse Jetty,eclipse.org/jetty
@@ -198,6 +187,7 @@ Eclipse OMR,eclipse.org/omr
 Eclipse Paho,eclipse.org/paho
 Eclipse Xtext,eclipse.org/Xtext
 Eclipse hawkBit,projects.eclipse.org/projects/iot.hawkbit
+Eclipse,eclipse.org
 Eddystone,github.com/google/eddystone
 EdgeML,github.com/microsoft/EdgeML
 Elasticsearch,elastic.co/products/elasticsearch
@@ -218,10 +208,10 @@ Falco,falco.org
 Federalist,federalist.18f.gov
 Finagle,twitter.github.io/finagle
 Finatra,twitter.github.io/finatra
-Firefox,mozilla.org/en-US/firefox
 Firefox Monitor,monitor.firefox.com
 Firefox Notes,firefox.com
 Firefox Send,send.firefox.com
+Firefox,mozilla.org/en-US/firefox
 Fledge,lfedge.org/projects/fledge
 FlexboxLayout,github.com/google/flexbox-layout
 Fluentd,fluentd.org
@@ -233,12 +223,12 @@ GGRC,code.google.com/archive/p/ggrc-core
 GVT Linux,github.com/intel/gvt-linux
 Gatsby,gatsbyjs.org
 Git Large File Storage,git-lfs.github.com
-GitHub,github.com
 GitHub Enterprise Backup Utilities,enterprise.github.com
 GitHub Extension for Visual Studio,visualstudio.github.com
 GitHub Markup,github.com/github/markup
 GitHub Training Kit,services.github.com/on-demand
 GitHub and Government,government.github.com
+GitHub,github.com
 GitLab,gitlab.com
 Go,golang.org
 Godot Engine,godotengine.org
@@ -246,10 +236,10 @@ Google (other),google.com
 Google API,developers.google.com/apis-explorer
 Google APIs,googleapis.github.io
 Google Closure Compiler,developers.google.com/closure/compiler
-Google Cloud,cloud.google.com
 Google Cloud Docs,cloud.google.com/docs
 Google Cloud Platform,cloud.google.com
 Google Cloud SDKs,cloud.google.com/sdk
+Google Cloud,cloud.google.com
 Google Earth Enterprise,github.com/google/earthenterprise
 Google ExoPlayer,github.com/google/ExoPlayer
 Google FlatBuffers,google.github.io/flatbuffers
@@ -280,8 +270,8 @@ Helm,helm.sh
 Heron,heronstreaming.io
 HippieStationCode,github.com/HippieStationCode/HippieStation13
 Home Assistant,home-assistant.io
-Homebrew,brew.sh
 Homebrew Cask,caskroom.github.io
+Homebrew,brew.sh
 Horovod,eng.uber.com/horovod
 Hubot,hubot.github.com
 Hyper,hyper.is
@@ -311,11 +301,13 @@ Iron.io,iron.io
 JS Foundation,js.foundation
 Jaeger,jaeger.readthedocs.io/en/latest
 JanusGraph,janusgraph.org
-Jenkins,jenkins.io
 Jenkins X,jenkins-x.io
+Jenkins,jenkins.io
 Joomla,joomla.org
 Julia,julialang.org
+KEDA,keda.sh
 Kata Containers,katacontainers.io
+Keptn,kepth.sh
 Keybase,keybase.io
 Kinetic Open Storage,www.openkinetic.org
 Knative,knative.dev
@@ -324,8 +316,10 @@ Kronos Vulkan,kronos.org
 KubeEdge,kubeedge.io
 KubeVirt,kubevirt.io
 Kubernetes,kubernetes.io
+Kudo,kudo.dev
 Kui Shell,github.com/IBM/kui
 Kuma,developer.mozilla.org
+Kuma,kuma.io
 LLVM,llvm.org
 Laravel,laravel.com
 League of Extraordinary Packages,thephpleague.com
@@ -333,10 +327,11 @@ Let's Encrypt,letsencrypt.org
 Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
 Linkerd,linkerd.io
-Linux,kernel.org
 Linux Standard Base,LinuxStandardBase
 Linux sunxi,linux-sunxi.org
+Linux,kernel.org
 Liquid,liquidmarkup.org
+LitmusChaos,litmuschaos.io
 Longhorn,github.com/longhorn
 Lottie,airbnb.design/lottie
 MAME,mamedev.org
@@ -403,7 +398,6 @@ MicrosoftDocs,docs.microsoft.com
 Mininet,mininet.org
 MixedRealityToolkit-Unity,github.com/microsoft/MixedRealityToolkit-Unity
 MozDef,github.com/mozilla/MozDef
-Mozilla,mozilla.org
 Mozilla Common Voice,voice.mozilla.org
 Mozilla Copyright,changecopyright.org
 Mozilla Foundation,foundation.mozilla.org
@@ -413,6 +407,7 @@ Mozilla Iris,github.com/mozilla/iris
 Mozilla Services,mozilla-services.github.io
 Mozilla donation forms,donate.mozilla.org
 Mozilla hubs,hubs.mozilla.com
+Mozilla,mozilla.org
 NATS,nats.io
 NServiceBus,particular.net/nservicebus
 Nacos,nacos.io
@@ -462,7 +457,6 @@ OpenRCT2,openrct2.website
 OpenSDS,www.opensds.io
 OpenSSL,openssl.org
 OpenShift,openshift.com
-OpenStack,openstack.org
 OpenStack (other),openstack.org
 OpenStack API,openstack.org
 OpenStack Ansible,openstack.org
@@ -493,6 +487,7 @@ OpenStack Stackalytics,openstack.org
 OpenStack Swift,openstack.org
 OpenStack Tools,openstack.org
 OpenStack Web,openstack.org
+OpenStack,openstack.org
 OpenSwitch,www.openswitch.net
 OpenTelemetry,opentelemetry.io
 OpenTimelineIO,opentimeline.io
@@ -505,6 +500,7 @@ Oracle Fn,fnproject.io
 Osmand,osmand.net
 P4 Language,github.com/p4lang
 PACO,pacoapp.com
+PARSEC,github.com/parallaxsecond/parsec
 PDF.js,github.com/mozilla/pdf.js
 PNDA,pnda.io
 PX4 Drone Autopilot,px4.io
@@ -561,6 +557,7 @@ Ruby on Rails,rubyonrails.org
 Rust,rust-lang.org
 SAP Fundamentals,github.com/SAP/fundamental
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
+SMI,smi-spec.io
 SNAS.io,www.snas.io
 SPDX,spdx.org
 SPTAG,github.com/microsoft/SPTAG
@@ -579,12 +576,12 @@ Sentinel,github.com/alibaba/Sentinel
 Sequelize,docs-sequelizejs.com
 Serverless Framework,serverless.com
 Shaka Player,github.com/google/shaka-player
-Shopify,shopify.com
 Shopify API,shopify.github.io/shopify_api
 Shopify App,shopify.github.io/shopify_app
 Shopify Docs,help.shopify.com
 Shopify SDKs,developers.shopify.com
 Shopify Timber,shopify.com/timber
+Shopify,shopify.com
 Skillcrush,skillcrush.com
 Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Spartakus,sap.github.io
@@ -644,22 +641,22 @@ US Web Design Standards,standards.usa.gov
 Uber Open Source,uber.github.io
 VFSForGit,github.com/microsoft/VFSForGit
 VIP Go,vip.wordpress.com/documentation/vip-go
-VMware,vmware.github.io
 VMware Lightwave,github.com/vmware/lightwave
 VMware Photon,vmware.github.io/photon
 VMware PowerNSX,github.com/vmware/powernsx
 VMware SDKs,vmware.com
 VMware Xenon,github.com/vmware/xenon
 VMware vSphere,vmware.github.io/vic
+VMware,vmware.github.io
 VS Code,code.visualstudio.com
 Vagrant,vagrantup.com
 Vault,vaultproject.io
 Virtual Kubelet,virtual-kubelet.io
 Vitess,vitess.io
 VoTT,github.com/microsoft/VoTT
+Volcano,volcano.sh
 Vorto Project,github.com/eclipse/vorto
 Vox Populi,voxpopuli.org
-W3C,w3.org
 W3C CSSWG,drafts.csswg.org
 W3C HTML,w3c.github.io/html
 W3C Platform Tests,irc.w3.org/?channels=testing
@@ -673,11 +670,12 @@ W3C Web Payments Browser API,w3.org/TR/payment-request
 W3C WebDriver Specification,w3c.github.io/webdriver/webdriver-spec.html
 W3C WebRTC,w3c.github.io/webrtc-pc
 W3C WebVR,w3c.github.io/webvr
+W3C,w3.org
 WAI-ARIA Authoring Practices,w3.org/WAI/ARIA
 WP Calypso,developer.wordpress.com/calypso
 WPF-Samples,github.com/microsoft/WPF-Samples
-WSO2,wso2.github.io
 WSO2 Carbon,wso2.com/products/carbon
+WSO2,wso2.github.io
 Web Authentication WG,w3.org/Webauthn
 Web of Things,w3.org/WoT/IG
 WebKit,webkit.org
@@ -873,10 +871,10 @@ nodejs-react-app,github.com/IBM/nodejs-react-app
 npm,npmjs.com
 onnxruntime,github.com/microsoft/onnxruntime
 openHAB,openhab.org
-openSUSE,opensuse.org
-openSUSE Kernel,kernel.opensuse.org
 openSUSE Kernel source,kernel.opensuse.org
+openSUSE Kernel,kernel.opensuse.org
 openSUSE SaltStack,github.com/openSUSE/salts
+openSUSE,opensuse.org
 openapi-to-graphql,github.com/IBM/openapi-to-graphql
 openapi-validator,github.com/IBM/openapi-validator
 openenclave,github.com/microsoft/openenclave
