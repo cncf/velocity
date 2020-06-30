@@ -1,5 +1,5 @@
 #!/bin/bash
-sed -i '1d' all_affs.csv
-cat all_affs.csv | sort | uniq > out
-echo '"email","name","company","date_to","source"' > all_affs.csv
-cat out >> all_affs.csv
+sed -i '1d' map/hints.csv
+cat map/hints.csv | sort | uniq > out
+echo 'repo,project' > map/hints.csv
+cat out >> map/hints.csv

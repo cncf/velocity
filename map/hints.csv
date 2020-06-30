@@ -113,6 +113,7 @@ GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/php-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
 HaliteChallenge/Halite,Halite
+Huawei-PaaS/CNI-Genie,CNI-Genie
 IBM/AIF360,AIF360
 IBM/AIX360,AIX360
 IBM/CAST,CAST
@@ -177,6 +178,11 @@ Kinetic/kinetic-go,Kinetic Open Storage
 Kinetic/kinetic-java,Kinetic Open Storage
 Kinetic/kinetic-js,Kinetic Open Storage
 Kinetic/kinetic-protocol,Kinetic Open Storage
+Kong/kuma,Kuma
+Kong/kuma-demo,Kuma
+Kong/kuma-gui,Kuma
+Kong/kuma-website,Kuma
+Kong/kumacut,Kuma
 LinuxStandardBase/download-app,Linux Standard Base
 LinuxStandardBase/lanana,Linux Standard Base
 LinuxStandardBase/lsb,Linux Standard Base
@@ -599,8 +605,10 @@ aws/aws-sdk-ruby-record,AWS SDKs
 awslabs/aws-sam-cli,AWS SAM
 awslabs/aws-sam-local,AWS SAM
 awslabs/serverless-application-model,AWS SAM
+baidu/bfe,BFE
 brunopulis/awesome-a11y,A11y
 callemall/material-ui,Material-UI
+capitalone/cloud-custodian,Cloud Custodian
 cip-project/board-at-desk-single-dev,Civil Infrastructure Platform
 cip-project/cip-kernel-sec,Civil Infrastructure Platform
 cip-project/cip-kernelci,Civil Infrastructure Platform
@@ -619,6 +627,7 @@ cncf/foundation,CNCF
 cncf/gha2db,CNCF
 cncf/gha2pg,CNCF
 cncf/gitdm,CNCF
+cncf/hub,Artifact Hub
 cncf/k8s-conformance,CNCF
 cncf/landscape,CNCF
 cncf/presentations,CNCF
@@ -740,19 +749,12 @@ codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qcacld-3.0,Code Auror
 containerfilesystem/cfs,ChubaoFS
 containerfilesystem/doc-zh,ChubaoFS
 containerfs/containerfs.github.io,ChubaoFS
-tomkerkhove/sample-dotnet-queue-worker,KEDA
-tomkerkhove/sample-dotnet-queue-worker-servicebus-queue,KEDA
-tomkerkhove/sample-dotnet-worker-servicebus-queue,KEDA
-deislabs/smi-spec,SMI
-deislabs/smi-sdk-go,SMI,
-deislabs/smi-metrics,SMI
-deislabs/smi-adapter-istio,SMI
-deislabs/smi-spec.io,SMI
 coredns/coredns-grpc,CoreDNS
 coredns/grpc,CoreDNS
 coreinfrastructure/best-practices-badge,Core Infrastructure
 coreinfrastructure/cii-best-practices-badge,Core Infrastructure
 coreos/coreos-kubernetes,CoreOS
+coreos/dex,Dex
 coreos/etcd,etcd
 coreos/kube-prometheus,CoreOS
 coreos/kubernetes,CoreOS
@@ -761,6 +763,11 @@ coreos/prometheus-operator,CoreOS
 coreos/rkt,rkt
 coreos/rocket,rkt
 datawire/telepresence,Telepresence
+deislabs/smi-adapter-istio,SMI
+deislabs/smi-metrics,SMI
+deislabs/smi-sdk-go,SMI,
+deislabs/smi-spec,SMI
+deislabs/smi-spec.io,SMI
 docker/compose,Docker
 docker/containerd,containerd
 docker/distribution,Docker
@@ -771,6 +778,7 @@ docker/docker.github.io,Docker
 docker/labs,Docker
 docker/libnetwork,Docker
 docker/notary,Notary
+docker/pasl,PARSEC
 docker/swarm,Docker
 docker/swarmkit,Docker
 dotnet/cli,dotnet
@@ -980,6 +988,8 @@ kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
 ligato/networkservicemesh,Network Service Mesh
 lyft/envoy,Envoy
+maestrosdk/frameworks,Kudo
+maestrosdk/maestro,Kudo
 mamedev/mame,MAME
 markfisher/sk8s,Pivotal Riff
 microsoft/25-days-of-serverless,25-days-of-serverless
@@ -1316,23 +1326,6 @@ microsoft/windows-itpro-docs,Microsoft docs
 microsoft/winsdkfb,VS Code
 microsoft/xlang,xlang
 microsoft/xunit-performance,dotnet
-capitalone/cloud-custodian,Cloud Custodian
-coreos/dex,Dex
-Kong/kuma,Kuma
-Kong/kuma-website,Kuma
-Kong/kuma-demo,Kuma
-Kong/kuma-gui,Kuma
-Kong/kumacut,Kuma
-docker/pasl,PARSEC
-baidu/bfe,BFE
-Huawei-PaaS/CNI-Genie,CNI-Genie
-patras-sdk/kubebuilder-maestro,Kudo
-patras-sdk/maestro,Kudo
-maestrosdk/maestro,Kudo
-maestrosdk/frameworks,Kudo
-openebs/test-storage,LitmusChaos
-openebs/litmus,LitmusChaos
-cncf/hub,Artifact Hub
 miekg/coredns,CoreDNS
 mozilla/123done,Firefox
 mozilla/ADBFuzz,Firefox
@@ -1804,6 +1797,8 @@ opendaylight/vtn,OpenDaylight
 opendaylight/yang-push,OpenDaylight
 opendaylight/yangide,OpenDaylight
 opendaylight/yangtools,OpenDaylight
+openebs/litmus,LitmusChaos
+openebs/test-storage,LitmusChaos
 openhpc/ohpc,OpenHPC
 openhpc/submissions,OpenHPC
 openmainframeproject/ade,Open Mainframe
@@ -2163,6 +2158,8 @@ opnfv/vswitchperf,OPNFV
 opnfv/yardstick,OPNFV
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
+patras-sdk/kubebuilder-maestro,Kudo
+patras-sdk/maestro,Kudo
 pingcap/tikv,TiKV
 pivotal-cf/pfs-system-test,Pivotal Riff
 playframework/playframework,Play Framework
@@ -2266,6 +2263,9 @@ todogroup/policies,TODO group
 todogroup/project-metadata,TODO group
 todogroup/repolinter,TODO group
 todogroup/todogroup.github.io,TODO group
+tomkerkhove/sample-dotnet-queue-worker,KEDA
+tomkerkhove/sample-dotnet-queue-worker-servicebus-queue,KEDA
+tomkerkhove/sample-dotnet-worker-servicebus-queue,KEDA
 tootsuite/mastodon,Mastodon
 torvalds/linux,Linux
 treeder/fn-ext-auth,Oracle Fn
