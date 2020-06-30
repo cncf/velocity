@@ -1,20 +1,13 @@
 name,project
 01org,=SKIP
 =External,=SKIP
-Azure,=SKIP
-GoogleCloudPlatform,=SKIP
-Microsoft,=SKIP
-apache,=SKIP
-aws,=SKIP
-google,=SKIP
-openSUSE,=SKIP
-w3c,=SKIP
 AcademySoftwareFoundation,Academy Software Foundation
 Adlik,Adlik
 Angel-ML,Angel
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
+Azure,=SKIP
 CartoDB,CARTO
 ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
@@ -30,6 +23,7 @@ FreeBSDRust,FreeBSD
 FreeBSDWorkingBranch,FreeBSD
 FreeBSDonHyper-V,FreeBSD
 GoogleChrome,Chromium
+GoogleCloudPlatform,=SKIP
 IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
 KSP-CKAN,CKAN
@@ -37,6 +31,7 @@ Linux kernel,Linux
 MAVLink,MAVLink
 MarlinFirmware,Marlin
 MarquezProject,Project Marquez
+Microsoft,=SKIP
 MobileChromeApps,Chromium
 OCA,ODOO
 OfficeDev,Office Developer
@@ -67,18 +62,23 @@ alphagov,Government Digital Service
 ampproject,AMP
 ansible,Ansible
 ant-design,Ant Design
+apache,=SKIP
 apache-spark,Apache Spark
 apache-spark-on-k8s,Apache Spark
 apachecloudstack,Apache CloudStack
 apacheignite,Apache Ignite
 apollographql,Apollo GraphQL
+argoproj,Argo
+artifacthub,Artifact Hub
 aspnet,ASP.net
 atom,Atom
 auth0,Auth0
 automotive-grade-linux,AGL
+aws,=SKIP
 awsdocs,Amazon Docs
 bazelbuild,Bazel
 betaflight,Betaflight
+bfenetworks,BFE
 boostorg,Boost
 brave,Brave Software
 brigadecore,Brigade
@@ -94,10 +94,7 @@ chrome-enhanced-history,Chromium
 chromium,Chromium
 chromiumify,Chromium
 chubaofs,ChubaoFS
-kedacore,KEDA
-servicemeshinterface,SMI
-argoproj,Argo
-volcano-sh,Volcano
+cloud-custodian,Cloud Custodian
 cloudevents,CloudEvents
 cloudfoundry,Cloud Foundry
 cloudfoundry-attic,Cloud Foundry
@@ -106,6 +103,7 @@ cloudfoundry-incubator,Cloud Foundry
 cloudfoundry-samples,Cloud Foundry
 cms-sw,CMS Offline Software
 cncf,CNCF
+cni-genie,CNI-Genie
 cockroachdb,Cockroach Labs
 codeaurora-unofficial,Code Aurora
 codecombat,CodeCombat
@@ -118,13 +116,14 @@ cortexproject,Cortex
 cregit/cregit,cregit
 cri-o,CRI-O
 crosscloudci,CNCF
+crossplane,Crossplane
+crossplaneio,Crossplane
 d3athrow/vgstation13,vgstation13
 dart-lang,Dart
 department-of-veterans-affairs,Caseflow
+dexidp,Dex
 dmlc,DMLC
 docker,Docker
-freebsd-ita,FreeBSD
-zfsonfreebsd,FreeBSD
 docker-freebsd,FreeBSD
 dragonflyoss,Dragonfly
 driftyco,Ionic
@@ -149,6 +148,7 @@ fnproject,Oracle Fn
 freebsd,FreeBSD
 freebsd-build-toolkit,FreeBSD
 freebsd-docker,FreeBSD
+freebsd-ita,FreeBSD
 freebsd-net,FreeBSD
 freebsd-riscv,FreeBSD
 gatsbyjs,Gatsby
@@ -158,6 +158,7 @@ gitlabhq,GitLab
 go-freebsd,FreeBSD
 godotengine,Godot Engine
 goharbor,Harbor
+google,=SKIP
 googleapis,Google APIs
 grafana,Grafana Labs
 graphql,GraphQL
@@ -180,6 +181,8 @@ jenkinsci,Jenkins
 joomla,Joomla
 jsdelivr,jsDelivr
 kata-containers,Kata Containers
+kedacore,KEDA
+keptn,Keptn
 keybase,Keybase
 knative,Knative
 kubeedge,KubeEdge
@@ -202,11 +205,13 @@ kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubevirt,KubeVirt
+kudobuilder,Kudo
 laravel,Laravel
 letsencrypt,Let's Encrypt
 linkedin,LinkedIn
 linkerd,Linkerd
 linux-sunxi,Linux sunxi
+litmuschaos,LitmusChaos
 llvm,LLVM
 longhorn,Longhorn
 lyft,Envoy
@@ -237,6 +242,7 @@ onnx,Open Neural Network Exchange
 open-faas,OpenFaaS
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
+openSUSE,=SKIP
 openbmp,OpenBMP
 opencontainers,OCI
 opencord,CORD
@@ -265,6 +271,7 @@ openwrt,OpenWrt
 osmandapp,Osmand
 owncloud,ownCloud
 p4lang,P4 Language
+parallaxsecond,PARSEC
 pingcap,PingCAP
 pivotal-cf,Pivotal Cloud Foundry
 prometheus,Prometheus
@@ -287,6 +294,7 @@ seata,Seata
 sensu,Sensu
 sequelize,Sequelize
 serverless,Serverless Framework
+servicemeshinterface,SMI
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
 sparklyr,sparklyr
@@ -317,7 +325,9 @@ virtual-kubelet,Virtual Kubelet
 vitessio,Vitess
 vmware,VMware
 voidlinux,The Void distribution
+volcano-sh,Volcano
 voxpupuli,Vox Populi
+w3c,=SKIP
 w3c,W3C
 wireapp,Wire Swiss GmbH
 wix,WiX
@@ -330,6 +340,7 @@ yogstation13,Yogstation13
 zalando,Zalando
 zendframework,Zend Framework
 zephyrproject-rtos,Zephyr
+zfsonfreebsd,FreeBSD
 zowe,Zowe
 # cloudfoundry,Cloud Foundry
 # cloudfoundry-attic,Cloud Foundry Attic
