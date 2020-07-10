@@ -911,6 +911,7 @@ hashicorp/terraform-website,Terraform
 hashicorp/vagrant,Vagrant
 hashicorp/vagrant-installers,Vagrant
 hashicorp/vault,Vault
+heptio/contour,Contour
 improbable-eng/promlts,Thanos
 improbable-eng/thanos,Thanos
 infernojs/inferno,Inferno

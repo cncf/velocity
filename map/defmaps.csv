@@ -268,12 +268,14 @@ openstacknetsdk,OpenStack Net SDK
 openswitch,OpenSwitch
 opentracing,OpenTracing
 openwrt,OpenWrt
+operator-framework,Operator Framework
 osmandapp,Osmand
 owncloud,ownCloud
 p4lang,P4 Language
 parallaxsecond,PARSEC
 pingcap,PingCAP
 pivotal-cf,Pivotal Cloud Foundry
+projectcontour,Contour
 prometheus,Prometheus
 pyro-ppl,Pyro
 pytorch,pytorch
