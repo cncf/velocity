@@ -89,6 +89,7 @@ cakephp,CakePHP
 caskroom,Homebrew
 cdfoundation,CDF
 cfpb,Consumer Financial Protection Bureau
+chaos-mesh,Chaos Mesh
 chef,Chef
 chrome-enhanced-history,Chromium
 chromium,Chromium
@@ -296,6 +297,7 @@ seata,Seata
 sensu,Sensu
 sequelize,Sequelize
 serverless,Serverless Framework
+serverlessworkflow,Serverless Workflow
 servicemeshinterface,SMI
 servo,The Servo Browser Engine
 skillcrush,Skillcrush

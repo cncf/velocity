@@ -637,6 +637,7 @@ cncf/velocity,CNCF
 cncf/wg-ci,CNCF
 cncf/wg-networking,CNCF
 cncf/wg-serverless,CNCF
+cncf/wg-serverless-workflow,Serverless Workflow
 cncf/wg-storage,CNCF
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x
@@ -2161,6 +2162,7 @@ palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
 patras-sdk/kubebuilder-maestro,Kudo
 patras-sdk/maestro,Kudo
+pingcap/chaos-mesh,Chaos Mesh
 pingcap/tikv,TiKV
 pivotal-cf/pfs-system-test,Pivotal Riff
 playframework/playframework,Play Framework
