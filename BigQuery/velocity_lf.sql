@@ -50,7 +50,7 @@ WHERE
       'PaddlePaddle', 'horovod', 'pyro-ppl', 'kedacore', 'servicemeshinterface', 'argoproj', 'volcano-sh',
       'cni-genie', 'keptn', 'kudobuilder', 'cloud-custodian', 'dexidp', 'artifacthub', 'parallaxsecond',
       'bfenetworks', 'crossplane', 'crossplaneio', 'litmuschaos', 'projectcontour', 'operator-framework',
-      'chaos-mesh', 'serverlessworkflow'
+      'chaos-mesh', 'serverlessworkflow', 'wayfair-tremor', 'metal3-io', 'openservicemesh'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',
@@ -74,7 +74,7 @@ WHERE
       'openebs/test-storage', 'openebs/litmus', 'cncf/hub', 'heptio/contour', 'chaos-mesh/chaos-mesh',
       'cncf/wg-serverless-workflow', 'rancher/k3s', 'rancher/k3d', 'rancher/k3s-ansible', 'rancher/k3s-root',
       'rancher/k3s-upgrade', 'rancher/k3s-selinux', 'rancher/terraform-k3s-aws-cluster', 'ibuildthecloud/k3s-root',
-      'ibuildthecloud/k3s-dev', 'ibuildthecloud/k3d'
+      'ibuildthecloud/k3s-dev', 'ibuildthecloud/k3d', 'spotify/backstage', 'deislabs/porter', 'alibaba/openyurt'
     )
   )
   and type in (
