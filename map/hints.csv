@@ -486,6 +486,7 @@ alibaba/ice,ICE
 alibaba/jvm-sandbox,jvm-sandbox
 alibaba/kiwi,kiwi
 alibaba/nacos,Nacos
+alibaba/openyurt,OpenYurt
 alibaba/p3c,p3c
 alibaba/pont,pont
 alibaba/pouch,PouchContainer
@@ -764,6 +765,7 @@ coreos/prometheus-operator,CoreOS
 coreos/rkt,rkt
 coreos/rocket,rkt
 datawire/telepresence,Telepresence
+deislabs/porter,Porter
 deislabs/smi-adapter-istio,SMI
 deislabs/smi-metrics,SMI
 deislabs/smi-sdk-go,SMI,
@@ -2251,6 +2253,7 @@ spdx/tools,SPDX
 spdx/tools-go,SPDX
 spdx/tools-python,SPDX
 spiffe/spire,Spire
+spotify/backstage,Backstage
 stefanprodan/caddy-builder,OpenFaaS
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow

@@ -86,6 +86,7 @@ Azure-Kinect-Sensor-SDK,github.com/microsoft/Azure-Kinect-Sensor-SDK
 AzureTipsAndTricks,github.com/microsoft/AzureTipsAndTricks
 BFE,bfe-networks.net
 BOSH,bosh.io
+Backstage,backstage.io
 BashOnWindows,microsoft.com/en-us/commandline/wsl
 Baystation12,baystation12.net
 Bazel,bazel.build
@@ -366,6 +367,7 @@ Mastodon,mastodon.social
 Material-UI,material-ui.com
 Mattermost,mattermost.org
 Mesosphere,mesosphere.com
+Metal³,metal3.io
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
 Microsoft (other),microsoft.com
@@ -445,6 +447,7 @@ Open Network Automation Platform,www.onap.org
 Open Networking Laboratory,opennetworking.org
 Open Neural Network Exchange,onnx.ai
 Open Security Controller,www.opensecuritycontroller.org
+Open Service Mesh,openservicemesh.io
 Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
 Open vSwitch,openvswitch.org
@@ -497,6 +500,7 @@ OpenTimelineIO,opentimeline.io
 OpenTracing,opentracing.io
 OpenUI5,openui5.org
 OpenWrt,openwrt.org
+OpenYurt,opeyurt.io
 Openstack Tools,openstack.org
 Operations Research Tools,developers.google.com/optimization
 Operator Framework,operatorhub.io
@@ -522,6 +526,7 @@ Play Framework,playframework.com
 PokemonGoF,maps.pikabot.org
 PokemonGoMap,pokemongomap.info
 Polymer,polymer-project.org
+Porter,porter.sh
 Positron,github.com/mozilla/positron
 PouchContainer,pouchcontainer.io
 Power BI,powerbi.microsoft.com
@@ -632,6 +637,7 @@ Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
 Tizen,www.tizen.org
 Toxiproxy,toxiproxy.io
 Train-Custom-Speech-Model,github.com/IBM/Train-Custom-Speech-Model
+Tremor,tremor.rs
 Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
 TrustWallet,trustwallet.com

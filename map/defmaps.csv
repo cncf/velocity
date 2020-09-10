@@ -225,6 +225,7 @@ mavlink,MAVLink
 melpa,MELPA
 mesos,Apache Mesos
 mesosphere,Apache Mesos
+metal3-io,Metal³
 meteor,Meteor
 mininet,Mininet
 mitodl,MIT Office of Digital Learning
@@ -255,6 +256,7 @@ openmainframeproject,Open Mainframe
 opennetworkinglab,Open Networking Laboratory
 opensds,OpenSDS
 opensecuritycontroller,Open Security Controller
+openservicemesh,Open Service Mesh
 openshift,OpenShift
 openssl,OpenSSL
 openstack-ansible,OpenStack Ansible
@@ -333,6 +335,7 @@ volcano-sh,Volcano
 voxpupuli,Vox Populi
 w3c,=SKIP
 w3c,W3C
+wayfair-tremor,Tremor
 wireapp,Wire Swiss GmbH
 wix,WiX
 wordpress-mobile,WordPress-mobile
