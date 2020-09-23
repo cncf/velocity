@@ -153,6 +153,7 @@ freebsd-ita,FreeBSD
 freebsd-net,FreeBSD
 freebsd-riscv,FreeBSD
 gatsbyjs,Gatsby
+getporter,Porter
 github,GitHub
 gitlab,GitLab
 gitlabhq,GitLab
@@ -185,6 +186,7 @@ kata-containers,Kata Containers
 kedacore,KEDA
 keptn,Keptn
 keybase,Keybase
+keylime,Keylime
 knative,Knative
 kubeedge,KubeEdge
 kubernetes,Kubernetes

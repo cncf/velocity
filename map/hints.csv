@@ -1334,6 +1334,8 @@ microsoft/winsdkfb,VS Code
 microsoft/xlang,xlang
 microsoft/xunit-performance,dotnet
 miekg/coredns,CoreDNS
+mit-ll/python-keylime,Keylime
+mit-ll/keylime,Keylime
 mozilla/123done,Firefox
 mozilla/ADBFuzz,Firefox
 mozilla/DeepSpeech,DeepSpeech
