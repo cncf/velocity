@@ -43,7 +43,8 @@ where
       'longhorn', 'chubaofs', 'kedacore', 'servicemeshinterface', 'argoproj', 'volcano-sh',
       'cni-genie', 'keptn', 'kudobuilder', 'cloud-custodian', 'dexidp', 'artifacthub', 'parallaxsecond',
       'bfenetworks', 'crossplane', 'crossplaneio', 'litmuschaos', 'projectcontour', 'operator-framework',
-      'chaos-mesh', 'serverlessworkflow', 'wayfair-tremor', 'metal3-io', 'openservicemesh', 'tremor-rs'
+      'chaos-mesh', 'serverlessworkflow', 'wayfair-tremor', 'metal3-io', 'openservicemesh', 'tremor-rs',
+      'getporter', 'keylime'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -65,7 +66,8 @@ where
       'openebs/test-storage', 'openebs/litmus', 'cncf/hub', 'heptio/contour', 'chaos-mesh/chaos-mesh',
       'cncf/wg-serverless-workflow', 'rancher/k3s', 'rancher/k3d', 'rancher/k3s-ansible', 'rancher/k3s-root',
       'rancher/k3s-upgrade', 'rancher/k3s-selinux', 'rancher/terraform-k3s-aws-cluster', 'ibuildthecloud/k3s-root',
-      'ibuildthecloud/k3s-dev', 'ibuildthecloud/k3d', 'spotify/backstage', 'deislabs/porter', 'alibaba/openyurt'
+      'ibuildthecloud/k3s-dev', 'ibuildthecloud/k3d', 'spotify/backstage', 'deislabs/porter', 'alibaba/openyurt',
+      'mit-ll/python-keylime', 'mit-ll/keylime'
     )
   )
   and type in (
