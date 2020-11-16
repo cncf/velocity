@@ -51,7 +51,7 @@ WHERE
       'cni-genie', 'keptn', 'kudobuilder', 'cloud-custodian', 'dexidp', 'artifacthub', 'parallaxsecond',
       'bfenetworks', 'crossplane', 'crossplaneio', 'litmuschaos', 'projectcontour', 'operator-framework',
       'chaos-mesh', 'serverlessworkflow', 'wayfair-tremor', 'metal3-io', 'openservicemesh', 'tremor-rs',
-      'getporter', 'keylime'
+      'getporter', 'keylime', 'backstage'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',

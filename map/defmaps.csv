@@ -78,6 +78,7 @@ aws,=SKIP
 awsdocs,Amazon Docs
 bazelbuild,Bazel
 betaflight,Betaflight
+backstage,Backstage
 bfenetworks,BFE
 boostorg,Boost
 brave,Brave Software
