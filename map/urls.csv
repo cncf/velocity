@@ -135,6 +135,7 @@ CicadaPlayer,github.com/alibaba/CicadaPlayer
 Civil Infrastructure Platform,www.cip-project.org
 Closure Library,code.google.com/closure/library
 Cloud Custodian,cloudcustodian.io
+Cloud Deployment Kit for Kubernetes,cdk8s.io
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud Foundry,cloudfoundry.org
 Cloud Hypervisor,github.com/cloud-hypervisor/cloud-hypervisor
@@ -325,6 +326,7 @@ Kudo,kudo.dev
 Kui Shell,github.com/IBM/kui
 Kuma,developer.mozilla.org
 Kuma,kuma.io
+Kyverno,kyverno.io
 LLVM,llvm.org
 Laravel,laravel.com
 League of Extraordinary Packages,thephpleague.com
@@ -458,6 +460,7 @@ OpenEBS,openebs.io
 OpenFaaS,openfaas.com
 OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
+OpenKruise,openkruise.io
 OpenMAMA,www.openmama.org
 OpenMetrics,openmetrics.io
 OpenRCT2,openrct2.website
@@ -536,6 +539,7 @@ PowerPlatformConnectors,github.com/microsoft/PowerPlatformConnectors
 PowerShell,microsoft.com/powershell
 PowerStig,github.com/microsoft/PowerStig
 PowerToys,github.com/microsoft/PowerToys
+Pravega,pravega.io
 Project Marquez,marquezproject.ai
 Project Tofino,mozilla.github.io/tofino
 Prometheus,prometheus.io
@@ -566,6 +570,7 @@ Rook,rook.io
 Ruby on Rails,rubyonrails.org
 Rust,rust-lang.org
 SAP Fundamentals,github.com/SAP/fundamental
+SchemaHero,schemahero.io
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
 SMI,smi-spec.io
 SNAS.io,www.snas.io
@@ -635,6 +640,7 @@ Thimble,thimble.mozilla.org
 Thrifty,github.com/Microsoft/thrifty
 TiKV,tikv.org
 Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
+Tinkerbell,tinkerbell.org
 Tizen,www.tizen.org
 Toxiproxy,toxiproxy.io
 Train-Custom-Speech-Model,github.com/IBM/Train-Custom-Speech-Model
@@ -764,6 +770,7 @@ calculator,github.com/microsoft/calculator
 canal,github.com/alibaba/canal
 carbon-addons-iot-react,github.com/IBM/carbon-addons-iot-react
 certificate-transparency,certificate-transparency.org
+cert-manager,cert-manager.io
 cf-java-client-sap,github.com/SAP/cf-java-client-sap
 chevrotain,github.com/SAP/chevrotain
 cics-bundle-maven,github.com/IBM/cics-bundle-maven

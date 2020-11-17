@@ -89,6 +89,7 @@ c4cs,Computing for Computer Scientists
 cakephp,CakePHP
 caskroom,Homebrew
 cdfoundation,CDF
+cert-manager,cert-manager
 cfpb,Consumer Financial Protection Bureau
 chaos-mesh,Chaos Mesh
 chef,Chef
@@ -189,6 +190,7 @@ keptn,Keptn
 keybase,Keybase
 keylime,Keylime
 knative,Knative
+kruiseio,OpenKruise
 kubeedge,KubeEdge
 kubernetes,Kubernetes
 kubernetes-addons,Kubernetes
@@ -210,6 +212,7 @@ kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubevirt,KubeVirt
 kudobuilder,Kudo
+kyverno,Kyverno
 laravel,Laravel
 letsencrypt,Let's Encrypt
 linkedin,LinkedIn
@@ -255,6 +258,7 @@ openebs,OpenEBS
 openeventing,CloudEvents
 openfaas,OpenFaaS
 openhab,openHAB
+openkruise,OpenKruise
 openmainframeproject,Open Mainframe
 opennetworkinglab,Open Networking Laboratory
 opensds,OpenSDS
@@ -281,6 +285,7 @@ p4lang,P4 Language
 parallaxsecond,PARSEC
 pingcap,PingCAP
 pivotal-cf,Pivotal Cloud Foundry
+pravega,Pravega
 projectcontour,Contour
 prometheus,Prometheus
 pyro-ppl,Pyro
@@ -298,6 +303,7 @@ rust-lang,Rust
 rust-lang-nursery,Rust
 sakaiproject,Sakai
 saltstack,SaltStack
+schemahero,SchemaHero
 seata,Seata
 sensu,Sensu
 sequelize,Sequelize
@@ -326,6 +332,7 @@ thanos-io,Thanos
 thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV
+tinkerbell,Tinkerbell
 tungstenfabric,Tungsten Fabric
 twitter,Twitter
 uber,Uber Open Source
