@@ -51,7 +51,8 @@ WHERE
       'cni-genie', 'keptn', 'kudobuilder', 'cloud-custodian', 'dexidp', 'artifacthub', 'parallaxsecond',
       'bfenetworks', 'crossplane', 'crossplaneio', 'litmuschaos', 'projectcontour', 'operator-framework',
       'chaos-mesh', 'serverlessworkflow', 'wayfair-tremor', 'metal3-io', 'openservicemesh', 'tremor-rs',
-      'getporter', 'keylime', 'backstage'
+      'getporter', 'keylime', 'backstage', 'schemahero', 'cert-manager', 'openkruise', 'kruiseio',
+      'tinkerbell', 'pravega', 'kyverno'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',
@@ -76,7 +77,8 @@ WHERE
       'cncf/wg-serverless-workflow', 'rancher/k3s', 'rancher/k3d', 'rancher/k3s-ansible', 'rancher/k3s-root',
       'rancher/k3s-upgrade', 'rancher/k3s-selinux', 'rancher/terraform-k3s-aws-cluster', 'ibuildthecloud/k3s-root',
       'ibuildthecloud/k3s-dev', 'ibuildthecloud/k3d', 'spotify/backstage', 'deislabs/porter', 'alibaba/openyurt',
-      'mit-ll/python-keylime', 'mit-ll/keylime'
+      'mit-ll/python-keylime', 'mit-ll/keylime', 'awslabs/cdk8s', 'jeststack/cert-manager',
+      'jetstack-experimental/cert-manager', 'packethost/tinkerbell', 'nirmata/kyverno'
     )
   )
   and type in (

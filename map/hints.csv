@@ -605,6 +605,7 @@ aws/aws-sdk-ruby,AWS SDKs
 aws/aws-sdk-ruby-record,AWS SDKs
 awslabs/aws-sam-cli,AWS SAM
 awslabs/aws-sam-local,AWS SAM
+awslabs/cdk8s,Cloud Deployment Kit for Kubernetes
 awslabs/serverless-application-model,AWS SAM
 baidu/bfe,BFE
 brunopulis/awesome-a11y,A11y
@@ -972,6 +973,8 @@ iovisor/xdp-vagrant,IO Visor
 jaegertracing/jaeger-kubernetes,Jaeger
 jaegertracing/jaeger-openshift,Jaeger
 jaegertracing/test-repo-move,Jaeger
+jetstack/cert-manager,cert-manager
+jetstack-experimental/cert-manager,cert-manager
 jldec/projectriff.io,Pivotal Riff
 joeythesaint/cgl-specification,Carrier Grade Linux
 knative/build,Tekton
@@ -1603,6 +1606,7 @@ mozilla/webmaker-ffos,Firefox
 mozilla/yogafire,Firefox
 mozilla/zamboni,Firefox
 mozilla/zippy,Firefox
+nirmata/kyverno,Kyverno
 obrienlabs/onap-root,Open Network Automation Platform
 ocaml/opam-repository,OPAM
 odpi/ambari,ODPi
@@ -2165,6 +2169,7 @@ opnfv/ves,OPNFV
 opnfv/vnf_forwarding_graph,OPNFV
 opnfv/vswitchperf,OPNFV
 opnfv/yardstick,OPNFV
+packethost/tinkerbell,Tinkerbell
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
 patras-sdk/kubebuilder-maestro,Kudo
