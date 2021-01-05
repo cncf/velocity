@@ -1,13 +1,20 @@
 name,project
 01org,=SKIP
 =External,=SKIP
+Azure,=SKIP
+GoogleCloudPlatform,=SKIP
+Microsoft,=SKIP
+apache,=SKIP
+aws,=SKIP
+google,=SKIP
+openSUSE,=SKIP
+w3c,=SKIP
 AcademySoftwareFoundation,Academy Software Foundation
 Adlik,Adlik
 Angel-ML,Angel
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AusDTO,Digital Transformation Office
-Azure,=SKIP
 CartoDB,CARTO
 ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
@@ -23,7 +30,6 @@ FreeBSDRust,FreeBSD
 FreeBSDWorkingBranch,FreeBSD
 FreeBSDonHyper-V,FreeBSD
 GoogleChrome,Chromium
-GoogleCloudPlatform,=SKIP
 IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
 KSP-CKAN,CKAN
@@ -31,7 +37,6 @@ Linux kernel,Linux
 MAVLink,MAVLink
 MarlinFirmware,Marlin
 MarquezProject,Project Marquez
-Microsoft,=SKIP
 MobileChromeApps,Chromium
 OCA,ODOO
 OfficeDev,Office Developer
@@ -62,7 +67,6 @@ alphagov,Government Digital Service
 ampproject,AMP
 ansible,Ansible
 ant-design,Ant Design
-apache,=SKIP
 apache-spark,Apache Spark
 apache-spark-on-k8s,Apache Spark
 apachecloudstack,Apache CloudStack
@@ -74,11 +78,10 @@ aspnet,ASP.net
 atom,Atom
 auth0,Auth0
 automotive-grade-linux,AGL
-aws,=SKIP
 awsdocs,Amazon Docs
+backstage,Backstage
 bazelbuild,Bazel
 betaflight,Betaflight
-backstage,Backstage
 bfenetworks,BFE
 boostorg,Boost
 brave,Brave Software
@@ -162,7 +165,6 @@ gitlabhq,GitLab
 go-freebsd,FreeBSD
 godotengine,Godot Engine
 goharbor,Harbor
-google,=SKIP
 googleapis,Google APIs
 grafana,Grafana Labs
 graphql,GraphQL
@@ -250,7 +252,6 @@ onnx,Open Neural Network Exchange
 open-faas,OpenFaaS
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
-openSUSE,=SKIP
 openbmp,OpenBMP
 opencontainers,OCI
 opencord,CORD
@@ -333,6 +334,7 @@ thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV
 tinkerbell,Tinkerbell
+tremor-rs,Tremor
 tungstenfabric,Tungsten Fabric
 twitter,Twitter
 uber,Uber Open Source
@@ -343,10 +345,8 @@ vmware,VMware
 voidlinux,The Void distribution
 volcano-sh,Volcano
 voxpupuli,Vox Populi
-w3c,=SKIP
 w3c,W3C
 wayfair-tremor,Tremor
-tremor-rs,Tremor
 wireapp,Wire Swiss GmbH
 wix,WiX
 wordpress-mobile,WordPress-mobile

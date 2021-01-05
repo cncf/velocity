@@ -769,7 +769,7 @@ datawire/telepresence,Telepresence
 deislabs/porter,Porter
 deislabs/smi-adapter-istio,SMI
 deislabs/smi-metrics,SMI
-deislabs/smi-sdk-go,SMI,
+deislabs/smi-sdk-go,SMI
 deislabs/smi-spec,SMI
 deislabs/smi-spec.io,SMI
 docker/compose,Docker
@@ -974,8 +974,8 @@ iovisor/xdp-vagrant,IO Visor
 jaegertracing/jaeger-kubernetes,Jaeger
 jaegertracing/jaeger-openshift,Jaeger
 jaegertracing/test-repo-move,Jaeger
-jetstack/cert-manager,cert-manager
 jetstack-experimental/cert-manager,cert-manager
+jetstack/cert-manager,cert-manager
 jldec/projectriff.io,Pivotal Riff
 joeythesaint/cgl-specification,Carrier Grade Linux
 knative/build,Tekton
@@ -1338,8 +1338,8 @@ microsoft/winsdkfb,VS Code
 microsoft/xlang,xlang
 microsoft/xunit-performance,dotnet
 miekg/coredns,CoreDNS
-mit-ll/python-keylime,Keylime
 mit-ll/keylime,Keylime
+mit-ll/python-keylime,Keylime
 mozilla/123done,Firefox
 mozilla/ADBFuzz,Firefox
 mozilla/DeepSpeech,DeepSpeech
@@ -2220,8 +2220,8 @@ rancher/k3s-ansible,K3s
 rancher/k3s-root,K3s
 rancher/k3s-selinux,K3s
 rancher/k3s-upgrade,K3s
-rancher/terraform-k3s-aws-cluster,K3s
 rancher/longhorn,Longhorn
+rancher/terraform-k3s-aws-cluster,K3s
 react-community/create-react-native-app,React
 react-community/react-navigation,React
 react-native-community/react-native-elements,React
