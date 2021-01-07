@@ -32,7 +32,7 @@ def lkml_analysis(froms, tos)
 end
 
 if ARGV.size < 2
-  puts "Missing arguments: datefrom  dateto"
+  puts "Missing arguments: datefrom dateto"
   exit(1)
 end
 
