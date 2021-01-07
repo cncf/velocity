@@ -15,7 +15,7 @@ then
   exit 3
 fi
 function finish {
-    rm -f /tmp/velocity_bigquery.sql
+  rm -f /tmp/velocity_bigquery.sql
 }
 trap finish EXIT
 
