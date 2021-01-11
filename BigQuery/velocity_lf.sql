@@ -52,7 +52,7 @@ WHERE
       'bfenetworks', 'crossplane', 'crossplaneio', 'litmuschaos', 'projectcontour', 'operator-framework',
       'chaos-mesh', 'serverlessworkflow', 'wayfair-tremor', 'metal3-io', 'openservicemesh', 'tremor-rs',
       'getporter', 'keylime', 'backstage', 'schemahero', 'cert-manager', 'openkruise', 'kruiseio',
-      'tinkerbell', 'pravega', 'kyverno', 'buildpack'
+      'tinkerbell', 'pravega', 'kyverno', 'buildpacks', 'gitops-working-group'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',
