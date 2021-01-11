@@ -19,6 +19,7 @@ org,repo,project
 ,"github/platform-samples,SchweizerischeBundesbahnen/releasetrain",
 "TheOdinProject,MicrosoftDocs,selfteaching",,
 "microsoft",,
+"JetBrains,ec-jrc,education,Lambda-School-Labs,googleinterns,Cullyege",,
 "EPFL-SV-cpp-projects,skillcrush,hzuapps,firstcontributions,Hacktoberfest-2018",,
 # TODO here skipping some entire orgs, do not use in the final approach
 # microsoft,IBM,openstack,intel,SAP,mui-org,,
