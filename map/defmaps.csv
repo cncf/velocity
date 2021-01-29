@@ -131,10 +131,12 @@ cri-o,CRI-O
 crosscloudci,CNCF
 crossplane,Crossplane
 crossplaneio,Crossplane
+curiefense,Curiefense
 d3athrow/vgstation13,vgstation13
 dart-lang,Dart
 department-of-veterans-affairs,Caseflow
 dexidp,Dex
+distribution,Distribution
 dmlc,DMLC
 docker,Docker
 docker-freebsd,FreeBSD
@@ -295,6 +297,7 @@ owncloud,ownCloud
 p4lang,P4 Language
 parallaxsecond,PARSEC
 pingcap,PingCAP
+piraeusdatastore,Piraeus-Datastore
 pivotal-cf,Pivotal Cloud Foundry
 pravega,Pravega
 projectcontour,Contour

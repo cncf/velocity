@@ -102,6 +102,7 @@ Argo,argoproj.github.io
 Arthas,alibaba.github.io/arthas
 Artifact Hub,artifacthub.io
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
+Athenz,athenz.io
 AtlasDB,palantir.github.io/atlasdb
 Atom,atom.io
 Auth0,auth0.com
@@ -187,6 +188,7 @@ CoreOS,coreos.com
 Corsica,corsica.mozilla.io
 Cortex,github.com/cortexproject
 Crossplane,crossplane.io
+Curiefense,curiefense.io
 CyanogenMod,cyanogenmod.com
 DLWorkspace,github.com/microsoft/DLWorkspace
 DMLC,dmlc.github.io
@@ -201,6 +203,7 @@ Dex,github.com/dexidp
 Digital Transformation Office,dta.gov.au
 DirectX,microsoft.com/en-us/download/search.aspx?q=directx
 DirectX-Specs,github.com/microsoft/DirectX-Specs
+Distribution,github.com/distribution
 Docker,mobyproject.org
 Dragonfly,d7y.io/en-us
 Dronecode,www.dronecode.org
@@ -348,6 +351,7 @@ Kinetic Open Storage,www.openkinetic.org
 Knative,knative.dev
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
+Kube-OVN,github.com/alauda/kube-ovn
 KubeEdge,kubeedge.io
 KubeVirt,kubevirt.io
 Kubernetes,kubernetes.io
@@ -552,6 +556,7 @@ Patroni,github.com/zalando/patroni
 PerfView,channel9.msdn.com/Series/PerfView-Tutorial
 Person Finder,google.org/personfinder
 PingCAP,github.com/pingcap
+Piraeus-Datastore,piraeus.io
 Pivotal Cloud Foundry,pivotal.io
 Pivotal Riff,projectriff.io
 Play Framework,playframework.com
@@ -884,6 +889,7 @@ jenkins-library,github.com/SAP/jenkins-library
 jsDelivr,jsdelivr.com
 just,github.com/microsoft/just
 jvm-sandbox,github.com/alibaba/jvm-sandbox
+k8dash,github.com/indeedeng/k8dash
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
 landcover,github.com/microsoft/landcover
