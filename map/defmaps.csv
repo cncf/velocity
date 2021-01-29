@@ -205,6 +205,7 @@ keylime,Keylime
 knative,Knative
 kruiseio,OpenKruise
 kubeedge,KubeEdge
+kubeovn,Kube-OVN
 kubernetes,Kubernetes
 kubernetes-addons,Kubernetes
 kubernetes-client,Kubernetes
