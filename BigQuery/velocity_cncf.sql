@@ -46,7 +46,7 @@ where
       'chaos-mesh', 'serverlessworkflow', 'wayfair-tremor', 'metal3-io', 'openservicemesh', 'tremor-rs',
       'getporter', 'keylime', 'backstage', 'schemahero', 'cert-manager', 'openkruise', 'kruiseio',
       'tinkerbell', 'pravega', 'kyverno', 'buildpacks', 'gitops-working-group', 'piraeusdatastore',
-      'curiefense', 'distribution', 'kubeovn', 'AthenZ', 'openyurtio'
+      'curiefense', 'distribution', 'kubeovn', 'AthenZ', 'openyurtio', 'ingraind', 'tricksterproxy'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -71,7 +71,8 @@ where
       'ibuildthecloud/k3s-dev', 'ibuildthecloud/k3d', 'spotify/backstage', 'deislabs/porter', 'alibaba/openyurt',
       'mit-ll/python-keylime', 'mit-ll/keylime', 'awslabs/cdk8s', 'jeststack/cert-manager',
       'jetstack-experimental/cert-manager', 'packethost/tinkerbell', 'nirmata/kyverno', 'indeedeng/k8dash',
-      'yahoo/athenz', 'indeedeng/k8dash-website', 'alauda/kube-ovn'
+      'yahoo/athenz', 'indeedeng/k8dash-website', 'alauda/kube-ovn', 'redsift/ingraind', 'Comcast/kuberhealthy',
+      'AbsaOSS/k8gb', 'AbsaOSS/ohmyglb', 'Comcast/trickster'
     )
   )
   and type in (
