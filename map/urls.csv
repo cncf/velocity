@@ -342,6 +342,7 @@ Jenkins,jenkins.io
 Joomla,joomla.org
 Julia,julialang.org
 K3s,k3s.io
+K8GB,github.com/AbsaOSS/k8gb
 KEDA,keda.sh
 Kata Containers,katacontainers.io
 Keptn,kepth.sh
@@ -354,6 +355,7 @@ Kronos Vulkan,kronos.org
 Kube-OVN,github.com/alauda/kube-ovn
 KubeEdge,kubeedge.io
 KubeVirt,kubevirt.io
+Kuberhealthy,github.com/Comcast/kuberhealthy
 Kubernetes,kubernetes.io
 Kudo,kudo.dev
 Kui Shell,github.com/IBM/kui
@@ -678,6 +680,7 @@ Tizen,www.tizen.org
 Toxiproxy,toxiproxy.io
 Train-Custom-Speech-Model,github.com/IBM/Train-Custom-Speech-Model
 Tremor,tremor.rs
+Trickster,tricksterproxy.io
 Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
 TrustWallet,trustwallet.com
@@ -880,6 +883,7 @@ ignite-learning-paths-training-mod,github.com/microsoft/ignite-learning-paths-tr
 ignite-learning-paths-training-ops,github.com/microsoft/ignite-learning-paths-training-ops
 immersive-reader-sdk,github.com/microsoft/immersive-reader-sdk
 in-toto,in-toto.io
+ingraind,ingraind.org
 intel-device-plugins-for-kubernetes,github.com/intel/intel-device-plugins-for-kubernetes
 interpret,github.com/microsoft/interpret
 iojs,io.js

@@ -191,6 +191,7 @@ hyperledger-labs,Hyperledger
 in-toto,in-toto
 influxdata,InfluxData
 influxdb,InfluxDB
+ingraind,ingraind
 iovisor,IO Visor
 iron-io,Iron.io
 jaegertracing,Jaeger
@@ -351,6 +352,7 @@ theupdateframework,TUF
 tikv,TiKV
 tinkerbell,Tinkerbell
 tremor-rs,Tremor
+tricksterproxy,Trickster
 trustwallet,TrustWallet
 tungstenfabric,Tungsten Fabric
 twitter,Twitter

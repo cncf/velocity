@@ -136,6 +136,8 @@ repo,project
 18F/openFEC-web-app,Campaign finance for everyone
 18F/tock,tock
 18F/web-design-standards,US Web Design Standards
+AbsaOSS/k8gb,K8GB
+AbsaOSS/ohmyglb,K8GB
 Airbnb/react-native,React
 AngularClass/angular2-webpack-starter,Angular
 Automattic/WP-Job-Manager,WP Calypso
@@ -189,6 +191,8 @@ Azure/azure-webjobs-sdk-templates,AZF
 Azure/brigade,Brigade
 Azure/sonic-py-swsssdk,Azure SDKs
 BuoyantIO/linkerd,Linkerd
+Comcast/kuberhealthy,Kuberhealthy
+Comcast/trickster,Trickster
 Dronecode/Dronecode-Website-Issues,Dronecode
 Dronecode/Technical-Steering-Committee,Dronecode
 Dronecode/UX-Design,Dronecode
@@ -2353,6 +2357,7 @@ realm/realm-cocoa,Realm
 realm/realm-dotnet,Realm
 realm/realm-java,Realm
 realm/realm-js,Realm
+redsift/ingraind,ingraind
 rethinkdb/aspnet-signalr-chat,RethinkDB
 rethinkdb/docs,RethinkDB
 rethinkdb/elasticsearch-river-rethinkdb,RethinkDB
