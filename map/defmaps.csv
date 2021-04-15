@@ -149,6 +149,7 @@ elastic,Elasticsearch
 elasticsearch,Elasticsearch
 elsys,ELSYS
 emberjs,Ember.js
+emissary-ingress,Emissary-ingress
 envoyproxy,Envoy
 etcd-io,etcd
 ethcore,Parity

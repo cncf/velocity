@@ -889,6 +889,7 @@ coreos/prometheus,CoreOS
 coreos/prometheus-operator,CoreOS
 coreos/rkt,rkt
 coreos/rocket,rkt
+datawire/ambassador,Emissary-ingress
 datawire/telepresence,Telepresence
 deislabs/porter,Porter
 deislabs/smi-adapter-istio,SMI

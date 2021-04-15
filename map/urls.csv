@@ -227,6 +227,7 @@ Eddystone,github.com/google/eddystone
 EdgeML,github.com/microsoft/EdgeML
 Elasticsearch,elastic.co/products/elasticsearch
 Ember.js,emberjs.com
+Emissary-ingress,getambassador.io
 Encrypted Media Extensions,w3c.github.io/encrypted-media
 Envoy,www.envoyproxy.io
 Enzyme,airbnb.io/enzyme
