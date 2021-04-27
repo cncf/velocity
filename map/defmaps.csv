@@ -162,7 +162,7 @@ fluent,Fluentd
 flutter,Flutter
 fluxcd,Flux
 fnproject,Oracle Fn
-foniod,ingraind
+foniod,Foniod
 freebsd,FreeBSD
 freebsd-build-toolkit,FreeBSD
 freebsd-docker,FreeBSD
@@ -193,7 +193,7 @@ hyperledger-labs,Hyperledger
 in-toto,in-toto
 influxdata,InfluxData
 influxdb,InfluxDB
-ingraind,ingraind
+ingraind,Foniod
 iovisor,IO Visor
 iron-io,Iron.io
 jaegertracing,Jaeger
@@ -210,6 +210,7 @@ knative,Knative
 kruiseio,OpenKruise
 kubeedge,KubeEdge
 kubeovn,Kube-OVN
+kuberhealthy,Kuberhealthy
 kubernetes,Kubernetes
 kubernetes-addons,Kubernetes
 kubernetes-client,Kubernetes

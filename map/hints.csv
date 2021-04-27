@@ -1047,8 +1047,8 @@ ibuildthecloud/k3s-dev,K3s
 ibuildthecloud/k3s-root,K3s
 improbable-eng/promlts,Thanos
 improbable-eng/thanos,Thanos
-indeedeng/k8dash,k8dash
-indeedeng/k8dash-website,k8dash
+indeedeng/k8dash,Skooner
+indeedeng/k8dash-website,Skooner
 infernojs/inferno,Inferno
 intel/IA-Hardware-Composer,Intel HWC2
 intel/cloud-hypervisor,Cloud Hypervisor
@@ -2358,7 +2358,7 @@ realm/realm-cocoa,Realm
 realm/realm-dotnet,Realm
 realm/realm-java,Realm
 realm/realm-js,Realm
-redsift/ingraind,ingraind
+redsift/ingraind,Foniod
 rethinkdb/aspnet-signalr-chat,RethinkDB
 rethinkdb/docs,RethinkDB
 rethinkdb/elasticsearch-river-rethinkdb,RethinkDB
