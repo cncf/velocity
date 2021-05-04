@@ -68,6 +68,7 @@ Amazon Web Services,aws.amazon.com
 Angel,github.com/Angel-ML
 Angular,angular.io
 Ansible,ansible.com
+Antrea,github.com/vmware-tanzu/antrea
 Ant Design,ant.design
 Apache (other),apache.org
 Apache Ambari,ambari.apache.org
@@ -153,6 +154,7 @@ Carbon Design System,carbondesignsystem.com
 Carrier Grade Linux,wiki.linuxfoundation.org/cgl/start
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
+ChaosBlade,github.com/chaosblade-io
 Chaos Mesh,chaos-mesh.org
 Checked C,microsoft.com/en-us/research/project/checked-c
 Chef,chef.io/chef
@@ -251,6 +253,7 @@ Firefox,mozilla.org/en-US/firefox
 Fledge,lfedge.org/projects/fledge
 FlexboxLayout,github.com/google/flexbox-layout
 Fluentd,fluentd.org
+Fluid,github.com/fluid-cloudnative
 Flutter,flutter.io
 Flux,github.com/fluxcd
 FreeBSD,freebsd.org
@@ -648,6 +651,7 @@ Spotify,spotify.github.io
 Spree,guides.spreecommerce.org
 Spring,spring.io/projects
 Strimzi,strimzi.io
+Submariner,submariner.io
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com
@@ -706,6 +710,7 @@ VMware,vmware.github.io
 VS Code,code.visualstudio.com
 Vagrant,vagrantup.com
 Vault,vaultproject.io
+Vineyard,v6d.io
 Virtual Kubelet,virtual-kubelet.io
 Vitess,vitess.io
 VoTT,github.com/microsoft/VoTT
@@ -727,6 +732,7 @@ W3C WebRTC,w3c.github.io/webrtc-pc
 W3C WebVR,w3c.github.io/webvr
 W3C,w3.org
 WAI-ARIA Authoring Practices,w3.org/WAI/ARIA
+WasmEdge Runtime,wasmedge.org
 WP Calypso,developer.wordpress.com/calypso
 WPF-Samples,github.com/microsoft/WPF-Samples
 WSO2 Carbon,wso2.com/products/carbon

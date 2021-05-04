@@ -62,6 +62,7 @@ ResurrectionRemix,Resurrection Remix
 Software Package Data Exchange,SPDX
 TheOdinProject,The Odin Project
 Virtual-Kubelet,Virtual Kubelet
+WasmEdge,WasmEdge Runtime
 Yoast,Yoast SEO
 Zephyr Project,Zephyr
 acemod,ACE Mod
@@ -102,6 +103,7 @@ caskroom,Homebrew
 cdfoundation,CDF
 cert-manager,cert-manager
 cfpb,Consumer Financial Protection Bureau
+chaosblade-io,ChaosBlade
 chaos-mesh,Chaos Mesh
 chef,Chef
 chrome-enhanced-history,Chromium
@@ -159,6 +161,7 @@ facebook,React
 falcosecurity,Falco
 fledge-iot,Fledge
 fluent,Fluentd
+fluid-cloudnative,Fluid
 flutter,Flutter
 fluxcd,Flux
 fnproject,Oracle Fn
@@ -341,6 +344,7 @@ spotify,Spotify
 spree,Spree
 spring-projects,Spring
 strimzi,Strimzi
+submariner-io,Submariner
 swagger-api,Swagger
 symfony,Symfony
 tektoncd,Tekton

@@ -609,6 +609,7 @@ alibaba/funcraft,Funcraft
 alibaba/ice,ICE
 alibaba/jvm-sandbox,jvm-sandbox
 alibaba/kiwi,kiwi
+alibaba/libvineyard,Vineyard
 alibaba/nacos,Nacos
 alibaba/openyurt,OpenYurt
 alibaba/p3c,p3c
@@ -618,6 +619,7 @@ alibaba/rax,Rax
 alibaba/spring-cloud-alibaba,spring-cloud-alibaba
 alibaba/tengine,tengine
 alibaba/uform,uform
+alibaba/v6d,Vineyard
 alibaba/weex-ui,weex-ui
 alibaba/x-deeplearning,x-deeplearning
 angular-fullstack/generator-angular-fullstack,Angular
@@ -735,6 +737,7 @@ baidu/bfe,BFE
 brunopulis/awesome-a11y,A11y
 callemall/material-ui,Material-UI
 capitalone/cloud-custodian,Cloud Custodian
+cheyang/fluid,Fluid
 cip-project/board-at-desk-single-dev,Civil Infrastructure Platform
 cip-project/cip-kernel-sec,Civil Infrastructure Platform
 cip-project/cip-kernelci,Civil Infrastructure Platform
@@ -2348,6 +2351,7 @@ rancher/k3s-root,K3s
 rancher/k3s-selinux,K3s
 rancher/k3s-upgrade,K3s
 rancher/longhorn,Longhorn
+rancher/submariner,Submariner
 rancher/terraform-k3s-aws-cluster,K3s
 react-community/create-react-native-app,React
 react-community/react-navigation,React
@@ -2442,6 +2446,7 @@ vmware/pyvmomi-community-samples,VMware SDKs
 vmware/rbvmomi,VMware SDKs
 vmware/vic,VMware vSphere
 vmware/xenon,VMware Xenon
+vmware-tanzu/antrea,Antrea
 w3c/ServiceWorker,W3C Service Worker
 w3c/aria,Accessible Rich Internet Applications
 w3c/browser-payment-api,W3C Web Payments Browser API
