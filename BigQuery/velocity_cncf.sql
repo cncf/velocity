@@ -40,7 +40,7 @@ where
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'cri-o', 'networkservicemesh',
       'open-telemetry', 'openebs', 'thanos-io', 'fluxcd', 'in-toto', 'strimzi', 'kubevirt',
-      'longhorn', 'chubaofs', 'kedacore', 'servicemeshinterface', 'argoproj', 'volcano-sh',
+      'longhorn', 'chubaofs', 'kedacore', 'servicemeshinterface', 'argoproj', 'volcano-sh', 'v6d-io',
       'cni-genie', 'keptn', 'kudobuilder', 'cloud-custodian', 'dexidp', 'artifacthub', 'parallaxsecond',
       'bfenetworks', 'crossplane', 'crossplaneio', 'litmuschaos', 'projectcontour', 'operator-framework',
       'chaos-mesh', 'serverlessworkflow', 'wayfair-tremor', 'metal3-io', 'openservicemesh', 'tremor-rs',
