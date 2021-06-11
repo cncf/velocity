@@ -54,7 +54,8 @@ WHERE
       'getporter', 'keylime', 'backstage', 'schemahero', 'cert-manager', 'openkruise', 'kruiseio',
       'tinkerbell', 'pravega', 'kyverno', 'buildpacks', 'gitops-working-group', 'piraeusdatastore', 'v6d-io',
       'curiefense', 'distribution', 'kubeovn', 'AthenZ', 'openyurtio', 'ingraind', 'tricksterproxy', 'foniod',
-      'emissary-ingress', 'kuberhealthy', 'WasmEdge', 'chaosblade-io', 'fluid-cloudnative', 'submariner-io'
+      'emissary-ingress', 'kuberhealthy', 'WasmEdge', 'chaosblade-io', 'fluid-cloudnative', 'submariner-io',
+      'argoproj-labs'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',
