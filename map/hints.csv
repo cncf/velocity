@@ -609,6 +609,7 @@ alibaba/funcraft,Funcraft
 alibaba/ice,ICE
 alibaba/jvm-sandbox,jvm-sandbox
 alibaba/kiwi,kiwi
+alibaba/kubedl,KubeDL
 alibaba/libvineyard,Vineyard
 alibaba/nacos,Nacos
 alibaba/openyurt,OpenYurt
@@ -1127,6 +1128,35 @@ kubernetes/kubernetes,Kubernetes
 kubernetes/kubernetes.github.io,Kubernetes
 kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
+layer5io/meshery,Meshery
+layer5io/service-mesh-benchmark-spec,Service Mesh Performance
+layer5io/meshery-istio,Meshery
+layer5io/meshery-linkerd,Meshery
+layer5io/meshery-octarine,Meshery
+layer5io/meshery-consul,Meshery
+layer5io/meshery-nsm,Meshery
+layer5io/istio-service-mesh-workshop,Service Mesh Performance
+layer5io/meshery-app-mesh,Meshery
+layer5io/meshery-maesh,Meshery
+layer5io/meshery-kuma,Meshery
+layer5io/meshery-cpx,Meshery
+layer5io/meshery-nsx-sm,Meshery
+layer5io/meshery-adapter-template,Meshery
+layer5io/meshery.io,Meshery
+layer5io/meshery-tmp,Meshery
+layer5io/service-mesh-performance-specification,Service Mesh Performance
+layer5io/meshery-tanzu-sm,Meshery
+layer5io/meshery-operator,Meshery
+layer5io/meshery-osm,Meshery
+layer5io/meshery-adapter-kit,Meshery
+layer5io/service-mesh-performance,Service Mesh Performance
+layer5io/meshery-nginx-sm,Meshery
+layer5io/advanced-istio-service-mesh-workshop,Service Mesh Performance
+layer5io/meshery-adapter-library,Meshery
+layer5io/linkerd-service-mesh-workshop,Service Mesh Performance
+layer5io/service-mesh-labs,Service Mesh Performance
+layer5io/meshery-traefik-mesh,Meshery
+layer5io/mesheryctl-smi-conformance-action,Meshery
 ligato/networkservicemesh,Network Service Mesh
 lyft/envoy,Envoy
 maestrosdk/frameworks,Kudo
@@ -1738,6 +1768,11 @@ mozilla/yogafire,Firefox
 mozilla/zamboni,Firefox
 mozilla/zippy,Firefox
 nirmata/kyverno,Kyverno
+oam-dev/kubevela,KubeVela
+oam-dev/kubevela.io,KubeVela
+oam-dev/kubevela-core-api,KubeVela
+oam-dev/velacp,KubeVela
+oam-dev/kubevela-tutorials,KubeVela
 obrienlabs/onap-root,Open Network Automation Platform
 ocaml/opam-repository,OPAM
 odpi/ambari,ODPi
@@ -2308,6 +2343,14 @@ patras-sdk/maestro,Kudo
 pingcap/chaos-mesh,Chaos Mesh
 pingcap/tikv,TiKV
 pivotal-cf/pfs-system-test,Pivotal Riff
+pixie-labs/pixie,Pixie
+pixie-labs/px-dev-website,Pixie
+pixie-labs/pxapi.go,Pixie
+pixie-labs/pixie-docs,Pixie
+pixie-labs/pixie-demos,Pixie
+pixie-labs/px.dev,Pixie
+pixie-labs/pixie-blog,Pixie
+pixie-labs/grafana-plugin,Pixie
 playframework/playframework,Play Framework
 pndaproject/example-applications,PNDA
 pndaproject/gobblin,PNDA
