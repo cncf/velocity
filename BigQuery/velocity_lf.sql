@@ -55,7 +55,7 @@ WHERE
       'tinkerbell', 'pravega', 'kyverno', 'buildpacks', 'gitops-working-group', 'piraeusdatastore', 'v6d-io',
       'curiefense', 'distribution', 'kubeovn', 'AthenZ', 'openyurtio', 'ingraind', 'tricksterproxy', 'foniod',
       'emissary-ingress', 'kuberhealthy', 'WasmEdge', 'chaosblade-io', 'fluid-cloudnative', 'submariner-io',
-      'argoproj-labs', 'trickstercache'
+      'argoproj-labs', 'trickstercache', 'skooner-k8s', 'antrea-io'
     )
     OR repo.name IN (
       'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',

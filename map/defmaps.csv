@@ -72,6 +72,7 @@ alibaba,Alibaba
 alphagov,Government Digital Service
 ampproject,AMP
 ansible,Ansible
+antrea-io,Antrea
 ant-design,Ant Design
 apache,=SKIP
 apache-spark,Apache Spark
@@ -337,6 +338,7 @@ serverlessworkflow,Serverless Workflow
 servicemeshinterface,SMI
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
+skooner-k8s,Skooner
 sparklyr,sparklyr
 spatie,Spatie
 spiffe,Spiffe

@@ -68,7 +68,7 @@ Amazon Web Services,aws.amazon.com
 Angel,github.com/Angel-ML
 Angular,angular.io
 Ansible,ansible.com
-Antrea,github.com/vmware-tanzu/antrea
+Antrea,antrea.io
 Ant Design,ant.design
 Apache (other),apache.org
 Apache Ambari,ambari.apache.org
@@ -356,7 +356,7 @@ Kinetic Open Storage,www.openkinetic.org
 Knative,knative.dev
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
-Kube-OVN,github.com/alauda/kube-ovn
+Kube-OVN,kube-ovn.io
 KubeEdge,kubeedge.io
 KubeVirt,kubevirt.io
 Kuberhealthy,github.com/Comcast/kuberhealthy
