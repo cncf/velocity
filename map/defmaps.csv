@@ -235,6 +235,7 @@ kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubevirt,KubeVirt
+kube-vip,kube-vip
 kudobuilder,Kudo
 kyverno,Kyverno
 laravel,Laravel

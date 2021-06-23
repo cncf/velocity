@@ -357,7 +357,9 @@ Knative,knative.dev
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 Kube-OVN,kube-ovn.io
+KubeDL,kubedl.io
 KubeEdge,kubeedge.io
+KubeVela,kubevela.io
 KubeVirt,kubevirt.io
 Kuberhealthy,github.com/Comcast/kuberhealthy
 Kubernetes,kubernetes.io
@@ -407,6 +409,7 @@ Martian Proxy,github.com/google/martian
 Mastodon,mastodon.social
 Material-UI,material-ui.com
 Mattermost,mattermost.org
+Meshery,layer5.io/meshery
 Mesosphere,mesosphere.com
 Metal³,metal3.io
 Meteor,meteor.com
@@ -565,6 +568,7 @@ PingCAP,github.com/pingcap
 Piraeus-Datastore,piraeus.io
 Pivotal Cloud Foundry,pivotal.io
 Pivotal Riff,projectriff.io
+Pixie,px.dev
 Play Framework,playframework.com
 PokemonGoF,maps.pikabot.org
 PokemonGoMap,pokemongomap.info
@@ -630,6 +634,7 @@ Sentinel,github.com/alibaba/Sentinel
 Sequelize,docs-sequelizejs.com
 Serverless Framework,serverless.com
 Serverless Workflow,serverlessworkflow.io
+Service Mesh Performance,github.com/layer5io/service-mesh-performance
 Shaka Player,github.com/google/shaka-player
 Shopify API,shopify.github.io/shopify_api
 Shopify App,shopify.github.io/shopify_app
@@ -903,6 +908,7 @@ jvm-sandbox,github.com/alibaba/jvm-sandbox
 k8dash,github.com/indeedeng/k8dash
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
+kube-vip,kube-vip.io
 landcover,github.com/microsoft/landcover
 language-server-protocol,github.com/microsoft/language-server-protocol
 ledmon,github.com/intel/ledmon
