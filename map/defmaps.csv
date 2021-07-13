@@ -337,6 +337,7 @@ sequelize,Sequelize
 serverless,Serverless Framework
 serverlessworkflow,Serverless Workflow
 servicemeshinterface,SMI
+service-mesh-performance,Service Mesh Performance
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
 skooner-k8s,Skooner
