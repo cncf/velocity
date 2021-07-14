@@ -212,6 +212,7 @@ keptn,Keptn
 keybase,Keybase
 keylime,Keylime
 knative,Knative
+krator-rs,Krator
 kruiseio,OpenKruise
 kubeedge,KubeEdge
 kubeovn,Kube-OVN
@@ -305,6 +306,7 @@ opentracing,OpenTracing
 openwrt,OpenWrt
 openyurtio,OpenYurt
 operator-framework,Operator Framework
+oras-project,ORAS
 osmandapp,Osmand
 owncloud,ownCloud
 p4lang,P4 Language
@@ -380,6 +382,10 @@ volcano-sh,Volcano
 voxpupuli,Vox Populi
 w3c,=SKIP
 w3c,W3C
+wascaruntime,wasmCloud
+wascc,wasmCloud
+wasmCloud,wasmCloud
+waxosuit,wasmCloud
 wayfair-tremor,Tremor
 wireapp,Wire Swiss GmbH
 wix,WiX

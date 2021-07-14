@@ -895,6 +895,8 @@ coreos/rkt,rkt
 coreos/rocket,rkt
 datawire/ambassador,Emissary-ingress
 datawire/telepresence,Telepresence
+deislabs/krustlet,Krustlet
+deislabs/oras,ORAS
 deislabs/porter,Porter
 deislabs/smi-adapter-istio,SMI
 deislabs/smi-metrics,SMI
@@ -2421,6 +2423,7 @@ rethinkdb/rethinkdb-example-nodejs,RethinkDB
 rethinkdb/rethinkdb-example-nodejs-chat,RethinkDB
 rethinkdb/rethinkdb-nix,RethinkDB
 rktproject/rkt,rkt
+shizhMSFT/oras,ORAS
 spdx/license-coverage-grader,SPDX
 spdx/license-list,SPDX
 spdx/license-list-XML,SPDX
