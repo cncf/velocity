@@ -57,11 +57,13 @@ WHERE
       'emissary-ingress', 'kuberhealthy', 'WasmEdge', 'chaosblade-io', 'fluid-cloudnative', 'submariner-io',
       'argoproj-labs', 'trickstercache', 'skooner-k8s', 'antrea-io', 'pixie-labs', 'layer5io', 'oam-dev',
       'kube-vip', 'service-mesh-performance', 'krator-rs', 'oras-project', 'wasmCloud', 'wascc', 'wascaruntime',
-      'waxosuit'
+      'waxosuit', 'finos', 'chaoss', 'onap', 'o-ran-sc', 'lf-energy', 'TarsCloud', 'lfai', 'lf-edge', 'magma',
+      'automotive-grade-linux', 'sodafoundation', 'riscv', 'projectacrn', 'danos', 'ceph', 'lfph', 'xen-project',
+      'reactivefoundation'
     )
     OR repo.name IN (
-      'automotive-grade-linux/docs-agl','joeythesaint/cgl-specification','cncf/cross-cloud',
-      'cregit/cregit','diamon/diamon-www-data','JanusGraph/janusgraph',
+      'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
+      'cregit/cregit','diamon/diamon-www-data','JanusGraph/janusgraph', 'deislabs/krustlet',
       'brunopulis/awesome-a11y','obrienlabs/onap-root','ni/linux','Samsung/TizenRT',
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
       'lyft/envoy', 'uber/jaeger', 'BuoyantIO/linkerd', 'apcera/nats', 'apcera/gnatsd',
@@ -86,8 +88,7 @@ WHERE
       'jetstack-experimental/cert-manager', 'packethost/tinkerbell', 'nirmata/kyverno', 'indeedeng/k8dash',
       'yahoo/athenz', 'indeedeng/k8dash-website', 'alauda/kube-ovn', 'redsift/ingraind', 'Comcast/kuberhealthy',
       'AbsaOSS/k8gb', 'AbsaOSS/ohmyglb', 'Comcast/trickster', 'datawire/ambassador', 'alibaba/v6d',
-      'alibaba/libvineyard', 'vmware-tanzu/antrea', 'cheyang/fluid', 'rancher/submariner', 'alibaba/kubedl',
-      'deislabs/krustlet', 'deislabs/oras', 'shizhMSFT/oras'
+      'alibaba/libvineyard', 'vmware-tanzu/antrea', 'cheyang/fluid', 'rancher/submariner', 'alibaba/kubedl'
     )
   )
   and type in (
