@@ -228,6 +228,7 @@ Fluentd,fluentd.org
 Fluid,github.com/fluid-cloudnative
 Flutter,flutter.io
 Flux,github.com/fluxcd
+Foniod,ingraind.org
 FreeBSD,freebsd.org
 Funcraft,github.com/alibaba/funcraft
 GGRC,code.google.com/archive/p/ggrc-core
@@ -618,6 +619,7 @@ Shopify Docs,help.shopify.com
 Shopify SDKs,developers.shopify.com
 Shopify Timber,shopify.com/timber
 Skillcrush,skillcrush.com
+Skooner,skooner.io
 Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Spartakus,sap.github.io
 Spatie,spatie.be/open-source
@@ -871,7 +873,6 @@ ignite-learning-paths-training-ops,github.com/microsoft/ignite-learning-paths-tr
 immersive-reader-sdk,github.com/microsoft/immersive-reader-sdk
 in-toto,in-toto.io
 ingraind,ingraind.org
-Foniod,ingraind.org
 intel-device-plugins-for-kubernetes,github.com/intel/intel-device-plugins-for-kubernetes
 interpret,github.com/microsoft/interpret
 iojs,io.js
@@ -882,7 +883,6 @@ jsDelivr,jsdelivr.com
 just,github.com/microsoft/just
 jvm-sandbox,github.com/alibaba/jvm-sandbox
 k8dash,skooner.io
-Skooner,skooner.io
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
 kube-vip,kube-vip.io
