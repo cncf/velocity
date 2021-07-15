@@ -109,6 +109,7 @@ CARTO,carto.com
 CAST,github.com/IBM/CAST
 CCF,github.com/microsoft/CCF
 CDF,cd.foundation
+CHAOSS,chaoss.community
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
 CNCF,www.cncf.io
@@ -126,6 +127,7 @@ Carbon Design System,carbondesignsystem.com
 Carrier Grade Linux,wiki.linuxfoundation.org/cgl/start
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
+Ceph,ceph.io
 Chaos Mesh,chaos-mesh.org
 ChaosBlade,github.com/chaosblade-io
 Checked C,microsoft.com/en-us/research/project/checked-c
@@ -164,6 +166,7 @@ Cortex,github.com/cortexproject
 Crossplane,crossplane.io
 Curiefense,curiefense.io
 CyanogenMod,cyanogenmod.com
+DANOS,danosproject.org
 DLWorkspace,github.com/microsoft/DLWorkspace
 DMLC,dmlc.github.io
 DSC,msdn.microsoft.com/en-us/powershell/dsc/overview
@@ -212,6 +215,7 @@ FASTER,github.com/microsoft/FASTER
 FBI Crime Data Explorer,github.com/18F/crime-data-explorer
 FD.io,fd.io
 FHIR,github.com/IBM/FHIR
+FINOS,finos.org
 FOSSology,www.fossology.org
 Facebook Container,github.com/mozilla/contain-facebook
 Falco,falco.org
@@ -342,6 +346,10 @@ Kudo,kudo.dev
 Kui Shell,github.com/IBM/kui
 Kuma,kuma.io
 Kyverno,kyverno.io
+LF AI,lfaidata.foundation
+LF Edge,lfedge.org
+LF Energy,lfenergy.org
+LF Public Health,lfph.io
 LLVM,llvm.org
 Laravel,laravel.com
 League of Extraordinary Packages,thephpleague.com
@@ -374,6 +382,7 @@ MLOpsPython,github.com/microsoft/MLOpsPython
 MMdnn,github.com/microsoft/MMdnn
 MNN,github.com/alibaba/MNN
 Magento,magento.com/home
+Magma,magmacore.org
 Maker.js,http://microsoft.github.io/maker.js
 Malmö,github.com/Microsoft/malmo
 ManageIQ,manageiq.org
@@ -448,9 +457,11 @@ Nomad,nomadproject.io
 Notary,github.com/theupdateframework/notary
 Nunjucks,mozilla.github.io/nunjucks
 Nylas,nylas.com
+O-RAN,orna-osc.org
 OCI,www.opencontainers.org
 ODOO,odoo-community.org
 ODPi,odpi.org
+ONAP,onap.org
 ONOS,onosproject.org
 OPA,openpolicyagent.org
 OPAM,opam.ocaml.org
@@ -559,6 +570,7 @@ PowerShell,microsoft.com/powershell
 PowerStig,github.com/microsoft/PowerStig
 PowerToys,github.com/microsoft/PowerToys
 Pravega,pravega.io
+Project ACRN,projectacrn.org
 Project Marquez,marquezproject.ai
 Project Tofino,mozilla.github.io/tofino
 Prometheus,prometheus.io
@@ -571,10 +583,12 @@ QuantumKatas,github.com/microsoft/QuantumKatas
 QuantumLibraries,github.com/microsoft/QuantumLibraries
 RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
+RISC-V,riscv.org
 Rapid7,rapid7.com
 Rax,rax.js.org
 React,facebook.com
 ReactXP,microsoft.github.io/reactxp
+Reactive Foundation,reactive.foundation
 ReactiveX,reactivex.io
 Realm,realm.io
 Recognizers-Text,github.com/microsoft/Recognizers-Text
@@ -592,6 +606,7 @@ SAP Fundamentals,github.com/SAP/fundamental
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
 SMI,smi-spec.io
 SNAS.io,www.snas.io
+SODA Foundation,sodafoundation.io
 SPDX,spdx.org
 SPTAG,github.com/microsoft/SPTAG
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
@@ -637,6 +652,7 @@ Submariner,submariner.io
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com
+TARS,tarscloud.org
 TEAMMATES,teammatesv4.appspot.com
 TODO group,todogroup.org
 TSLint,palantir.github.io/tslint
