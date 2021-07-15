@@ -1,32 +1,4 @@
 project,url
-# CF Acceptance tests,cloudfoundry.org
-# CF Buildpacks,docs.cloudfoundry.org/buildpacks
-# CF CI Infrastructure,mega.ci.cf-app.com
-# CF Cloud Controller,cloudfoundry.org
-# CF Dropsonde,cloudfoundry.org
-# CF Executor,cloudfoundry.org
-# CF GoRouter,cloudfoundry.org
-# CF Guardian,cloudfoundry.org
-# CF Homebrew Tap,cloudfoundry.org
-# CF NOAA,cloudfoundry.org
-# CF PMC Notes,github.com/cloudfoundry/pmc-notes
-# CF Top,xxx.org
-# CF UAA Server,cloudfoundry.org
-# CF sprout-wrap,cloudfoundry.org
-# Cloud Foundry (other),cloudfoundry.org
-# Cloud Foundry API,apidocs.cloudfoundry.org
-# Cloud Foundry Attic,github.com/cloudfoundry-attic
-# Cloud Foundry CLI,docs.cloudfoundry.org/cf-cli
-# Cloud Foundry Community,github.com/cloudfoundry-community
-# Cloud Foundry Dashboard,dashboard.fr.cloud.gov
-# Cloud Foundry Diego,cloudfoundry.org
-# Cloud Foundry Docs,cloudfoundry.org
-# Cloud Foundry Incubator,github.com/cloudfoundry-incubator
-# Cloud Foundry MySQL Service,cloudfoundry.org
-# Cloud Foundry Release,cloudfoundry.org
-# Cloud Foundry Samples,github.com/cloudfoundry-samples
-# Cloud Foundry,github.com/cloudfoundry
-# Cloud Native Logging,cloudfoundry.org
 18F C2,cap.18f.gov
 18F CALC,calc.gsa.gov
 18F Federal Election Commision,api.open.fec.gov/developers
@@ -36,16 +8,16 @@ project,url
 25-days-of-serverless,github.com/microsoft/25-days-of-serverless
 3DS Guide,3ds.guide
 A11y,onosproject.org
-ACE Mod,acemod.com
 ACE,microsoft.github.io/ace
+ACE Mod,acemod.com
 AGL,www.automotivelinux.org
 AI,github.com/microsoft/AI
 AIF360,github.com/IBM/AIF360
 AIX360,github.com/IBM/AIX360
 ALAppExtensions,github.com/microsoft/ALAppExtensions
 AMP,ampproject.org
-ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
 ASP.net,asp.net
+ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
 AWS SAM,aws.amazon.com/serverless/sam
 AWS SDKs,aws.amazon.com
 AZF,azure.microsoft.com
@@ -68,8 +40,8 @@ Amazon Web Services,aws.amazon.com
 Angel,github.com/Angel-ML
 Angular,angular.io
 Ansible,ansible.com
-Antrea,antrea.io
 Ant Design,ant.design
+Antrea,antrea.io
 Apache (other),apache.org
 Apache Ambari,ambari.apache.org
 Apache Beam,beam.apache.org
@@ -109,9 +81,9 @@ Atom,atom.io
 Auth0,auth0.com
 Automattic Jetpack,jetpack.com
 Automattic WooCommerce,github.com/Automattic/woocommerce-services
+Azure,azure.github.io
 Azure REST API,github.com/Azure/azure-rest-api-specs
 Azure SDKs,azure.microsoft.com
-Azure,azure.github.io
 Azure-Kinect-Sensor-SDK,github.com/microsoft/Azure-Kinect-Sensor-SDK
 AzureTipsAndTricks,github.com/microsoft/AzureTipsAndTricks
 BFE,bfe-networks.net
@@ -154,21 +126,21 @@ Carbon Design System,carbondesignsystem.com
 Carrier Grade Linux,wiki.linuxfoundation.org/cgl/start
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
-ChaosBlade,github.com/chaosblade-io
 Chaos Mesh,chaos-mesh.org
+ChaosBlade,github.com/chaosblade-io
 Checked C,microsoft.com/en-us/research/project/checked-c
 Chef,chef.io/chef
 Choosealicense.com,choosealicense.com
-Chromium Blink,chromium.org/blink
 Chromium,google.com/chrome
+Chromium Blink,chromium.org/blink
 ChubaoFS,chubao.io
 CicadaPlayer,github.com/alibaba/CicadaPlayer
 Civil Infrastructure Platform,www.cip-project.org
 Closure Library,code.google.com/closure/library
 Cloud Custodian,cloudcustodian.io
 Cloud Deployment Kit for Kubernetes,cdk8s.io
-Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud Foundry,cloudfoundry.org
+Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud Hypervisor,github.com/cloud-hypervisor/cloud-hypervisor
 Cloud.gov,github.com/18F/cg-product
 CloudEvents,cloudevents.io
@@ -215,6 +187,7 @@ Dynamics NAV,microsoft.com/en-us/dynamics365/nav-overview
 ELSYS,elsys-bg.org
 EarlGrey,google.github.io/EarlGrey
 EasyRepro,github.com/microsoft/EasyRepro
+Eclipse,eclipse.org
 Eclipse Che,eclipse.org/che
 Eclipse Collections Project,eclipse.org/collections
 Eclipse Jetty,eclipse.org/jetty
@@ -224,7 +197,6 @@ Eclipse OMR,eclipse.org/omr
 Eclipse Paho,eclipse.org/paho
 Eclipse Xtext,eclipse.org/Xtext
 Eclipse hawkBit,projects.eclipse.org/projects/iot.hawkbit
-Eclipse,eclipse.org
 Eddystone,github.com/google/eddystone
 EdgeML,github.com/microsoft/EdgeML
 Elasticsearch,elastic.co/products/elasticsearch
@@ -246,10 +218,10 @@ Falco,falco.org
 Federalist,federalist.18f.gov
 Finagle,twitter.github.io/finagle
 Finatra,twitter.github.io/finatra
+Firefox,mozilla.org/en-US/firefox
 Firefox Monitor,monitor.firefox.com
 Firefox Notes,firefox.com
 Firefox Send,send.firefox.com
-Firefox,mozilla.org/en-US/firefox
 Fledge,lfedge.org/projects/fledge
 FlexboxLayout,github.com/google/flexbox-layout
 Fluentd,fluentd.org
@@ -262,12 +234,12 @@ GGRC,code.google.com/archive/p/ggrc-core
 GVT Linux,github.com/intel/gvt-linux
 Gatsby,gatsbyjs.org
 Git Large File Storage,git-lfs.github.com
+GitHub,github.com
 GitHub Enterprise Backup Utilities,enterprise.github.com
 GitHub Extension for Visual Studio,visualstudio.github.com
 GitHub Markup,github.com/github/markup
 GitHub Training Kit,services.github.com/on-demand
 GitHub and Government,government.github.com
-GitHub,github.com
 GitLab,gitlab.com
 GitOps WG,github.com/fluxcd/gitops-working-group
 Go,golang.org
@@ -276,10 +248,10 @@ Google (other),google.com
 Google API,developers.google.com/apis-explorer
 Google APIs,googleapis.github.io
 Google Closure Compiler,developers.google.com/closure/compiler
+Google Cloud,cloud.google.com
 Google Cloud Docs,cloud.google.com/docs
 Google Cloud Platform,cloud.google.com
 Google Cloud SDKs,cloud.google.com/sdk
-Google Cloud,cloud.google.com
 Google Earth Enterprise,github.com/google/earthenterprise
 Google ExoPlayer,github.com/google/ExoPlayer
 Google FlatBuffers,google.github.io/flatbuffers
@@ -310,8 +282,8 @@ Helm,helm.sh
 Heron,heronstreaming.io
 HippieStationCode,github.com/HippieStationCode/HippieStation13
 Home Assistant,home-assistant.io
-Homebrew Cask,caskroom.github.io
 Homebrew,brew.sh
+Homebrew Cask,caskroom.github.io
 Horovod,eng.uber.com/horovod
 Hubot,hubot.github.com
 Hyper,hyper.is
@@ -341,8 +313,8 @@ Iron.io,iron.io
 JS Foundation,js.foundation
 Jaeger,jaeger.readthedocs.io/en/latest
 JanusGraph,janusgraph.org
-Jenkins X,jenkins-x.io
 Jenkins,jenkins.io
+Jenkins X,jenkins-x.io
 Joomla,joomla.org
 Julia,julialang.org
 K3s,k3s.io
@@ -376,9 +348,9 @@ Let's Encrypt,letsencrypt.org
 Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
 Linkerd,linkerd.io
+Linux,kernel.org
 Linux Standard Base,LinuxStandardBase
 Linux sunxi,linux-sunxi.org
-Linux,kernel.org
 Liquid,liquidmarkup.org
 LitmusChaos,litmuschaos.io
 Longhorn,github.com/longhorn
@@ -449,6 +421,7 @@ MicrosoftDocs,docs.microsoft.com
 Mininet,mininet.org
 MixedRealityToolkit-Unity,github.com/microsoft/MixedRealityToolkit-Unity
 MozDef,github.com/mozilla/MozDef
+Mozilla,mozilla.org
 Mozilla Common Voice,voice.mozilla.org
 Mozilla Copyright,changecopyright.org
 Mozilla Foundation,foundation.mozilla.org
@@ -458,7 +431,6 @@ Mozilla Iris,github.com/mozilla/iris
 Mozilla Services,mozilla-services.github.io
 Mozilla donation forms,donate.mozilla.org
 Mozilla hubs,hubs.mozilla.com
-Mozilla,mozilla.org
 NATS,nats.io
 NServiceBus,particular.net/nservicebus
 Nacos,nacos.io
@@ -511,6 +483,7 @@ OpenRCT2,openrct2.website
 OpenSDS,www.opensds.io
 OpenSSL,openssl.org
 OpenShift,openshift.com
+OpenStack,openstack.org
 OpenStack (other),openstack.org
 OpenStack API,openstack.org
 OpenStack Ansible,openstack.org
@@ -541,7 +514,6 @@ OpenStack Stackalytics,openstack.org
 OpenStack Swift,openstack.org
 OpenStack Tools,openstack.org
 OpenStack Web,openstack.org
-OpenStack,openstack.org
 OpenSwitch,www.openswitch.net
 OpenTelemetry,opentelemetry.io
 OpenTimelineIO,opentimeline.io
@@ -639,12 +611,12 @@ Serverless Framework,serverless.com
 Serverless Workflow,serverlessworkflow.io
 Service Mesh Performance,smp-spec.io
 Shaka Player,github.com/google/shaka-player
+Shopify,shopify.com
 Shopify API,shopify.github.io/shopify_api
 Shopify App,shopify.github.io/shopify_app
 Shopify Docs,help.shopify.com
 Shopify SDKs,developers.shopify.com
 Shopify Timber,shopify.com/timber
-Shopify,shopify.com
 Skillcrush,skillcrush.com
 Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Spartakus,sap.github.io
@@ -708,13 +680,13 @@ US Web Design Standards,standards.usa.gov
 Uber Open Source,uber.github.io
 VFSForGit,github.com/microsoft/VFSForGit
 VIP Go,vip.wordpress.com/documentation/vip-go
+VMware,vmware.github.io
 VMware Lightwave,github.com/vmware/lightwave
 VMware Photon,vmware.github.io/photon
 VMware PowerNSX,github.com/vmware/powernsx
 VMware SDKs,vmware.com
 VMware Xenon,github.com/vmware/xenon
 VMware vSphere,vmware.github.io/vic
-VMware,vmware.github.io
 VS Code,code.visualstudio.com
 Vagrant,vagrantup.com
 Vault,vaultproject.io
@@ -725,6 +697,7 @@ VoTT,github.com/microsoft/VoTT
 Volcano,volcano.sh
 Vorto Project,github.com/eclipse/vorto
 Vox Populi,voxpopuli.org
+W3C,w3.org
 W3C CSSWG,drafts.csswg.org
 W3C HTML,w3c.github.io/html
 W3C Platform Tests,irc.w3.org/?channels=testing
@@ -738,13 +711,12 @@ W3C Web Payments Browser API,w3.org/TR/payment-request
 W3C WebDriver Specification,w3c.github.io/webdriver/webdriver-spec.html
 W3C WebRTC,w3c.github.io/webrtc-pc
 W3C WebVR,w3c.github.io/webvr
-W3C,w3.org
 WAI-ARIA Authoring Practices,w3.org/WAI/ARIA
-WasmEdge Runtime,wasmedge.org
 WP Calypso,developer.wordpress.com/calypso
 WPF-Samples,github.com/microsoft/WPF-Samples
-WSO2 Carbon,wso2.com/products/carbon
 WSO2,wso2.github.io
+WSO2 Carbon,wso2.com/products/carbon
+WasmEdge Runtime,wasmedge.org
 Web Authentication WG,w3.org/Webauthn
 Web of Things,w3.org/WoT/IG
 WebKit,webkit.org
@@ -899,6 +871,7 @@ ignite-learning-paths-training-ops,github.com/microsoft/ignite-learning-paths-tr
 immersive-reader-sdk,github.com/microsoft/immersive-reader-sdk
 in-toto,in-toto.io
 ingraind,ingraind.org
+Foniod,ingraind.org
 intel-device-plugins-for-kubernetes,github.com/intel/intel-device-plugins-for-kubernetes
 interpret,github.com/microsoft/interpret
 iojs,io.js
@@ -908,7 +881,8 @@ jenkins-library,github.com/SAP/jenkins-library
 jsDelivr,jsdelivr.com
 just,github.com/microsoft/just
 jvm-sandbox,github.com/alibaba/jvm-sandbox
-k8dash,github.com/indeedeng/k8dash
+k8dash,skooner.io
+Skooner,skooner.io
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
 kube-vip,kube-vip.io
@@ -944,10 +918,10 @@ nodejs-react-app,github.com/IBM/nodejs-react-app
 npm,npmjs.com
 onnxruntime,github.com/microsoft/onnxruntime
 openHAB,openhab.org
-openSUSE Kernel source,kernel.opensuse.org
-openSUSE Kernel,kernel.opensuse.org
-openSUSE SaltStack,github.com/openSUSE/salts
 openSUSE,opensuse.org
+openSUSE Kernel,kernel.opensuse.org
+openSUSE Kernel source,kernel.opensuse.org
+openSUSE SaltStack,github.com/openSUSE/salts
 openapi-to-graphql,github.com/IBM/openapi-to-graphql
 openapi-validator,github.com/IBM/openapi-validator
 openenclave,github.com/microsoft/openenclave
@@ -1022,8 +996,8 @@ vscode-vsce,github.com/microsoft/vscode-vsce
 vscode-wiki,github.com/microsoft/vscode-wiki
 vstest-docs,github.com/microsoft/vstest-docs
 vuejs,vuejs.org
-wasmCloud,wasmcloud.com
 wasm-micro-runtime,github.com/intel/wasm-micro-runtime
+wasmCloud,wasmcloud.com
 watson-assistant-workbench,github.com/IBM/watson-assistant-workbench
 watson-banking-chatbot,github.com/IBM/watson-banking-chatbot
 webpack,github.com/webpack
@@ -1038,3 +1012,31 @@ yarn,yarnpkg.com
 zowe-cli-cics-deploy-plugin,github.com/IBM/zowe-cli-cics-deploy-plugin
 zurb,zurb.com
 Основной репозиторий,igov.org.ua
+# CF Acceptance tests,cloudfoundry.org
+# CF Buildpacks,docs.cloudfoundry.org/buildpacks
+# CF CI Infrastructure,mega.ci.cf-app.com
+# CF Cloud Controller,cloudfoundry.org
+# CF Dropsonde,cloudfoundry.org
+# CF Executor,cloudfoundry.org
+# CF GoRouter,cloudfoundry.org
+# CF Guardian,cloudfoundry.org
+# CF Homebrew Tap,cloudfoundry.org
+# CF NOAA,cloudfoundry.org
+# CF PMC Notes,github.com/cloudfoundry/pmc-notes
+# CF Top,xxx.org
+# CF UAA Server,cloudfoundry.org
+# CF sprout-wrap,cloudfoundry.org
+# Cloud Foundry (other),cloudfoundry.org
+# Cloud Foundry API,apidocs.cloudfoundry.org
+# Cloud Foundry Attic,github.com/cloudfoundry-attic
+# Cloud Foundry CLI,docs.cloudfoundry.org/cf-cli
+# Cloud Foundry Community,github.com/cloudfoundry-community
+# Cloud Foundry Dashboard,dashboard.fr.cloud.gov
+# Cloud Foundry Diego,cloudfoundry.org
+# Cloud Foundry Docs,cloudfoundry.org
+# Cloud Foundry Incubator,github.com/cloudfoundry-incubator
+# Cloud Foundry MySQL Service,cloudfoundry.org
+# Cloud Foundry Release,cloudfoundry.org
+# Cloud Foundry Samples,github.com/cloudfoundry-samples
+# Cloud Foundry,github.com/cloudfoundry
+# Cloud Native Logging,cloudfoundry.org

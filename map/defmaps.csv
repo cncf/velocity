@@ -1,15 +1,14 @@
 name,project
-# cloudfoundry,Cloud Foundry
-# cloudfoundry-attic,Cloud Foundry Attic
-# cloudfoundry-community,Cloud Foundry Community
-# cloudfoundry-incubator,Cloud Foundry Incubator
-# cloudfoundry-samples,Cloud Foundry Samples
-# kubernetes-cluster-automation,Kubernetes
-# kubernetes-contrib,Kubernetes
-# kubernetes-ui,Kubernetes
-# openstack,=SKIP
 01org,=SKIP
 =External,=SKIP
+Azure,=SKIP
+GoogleCloudPlatform,=SKIP
+Microsoft,=SKIP
+apache,=SKIP
+aws,=SKIP
+google,=SKIP
+openSUSE,=SKIP
+w3c,=SKIP
 AcademySoftwareFoundation,Academy Software Foundation
 Adlik,Adlik
 Angel-ML,Angel
@@ -17,7 +16,6 @@ ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AthenZ,Athenz
 AusDTO,Digital Transformation Office
-Azure,=SKIP
 CartoDB,CARTO
 ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
@@ -33,7 +31,6 @@ FreeBSDRust,FreeBSD
 FreeBSDWorkingBranch,FreeBSD
 FreeBSDonHyper-V,FreeBSD
 GoogleChrome,Chromium
-GoogleCloudPlatform,=SKIP
 IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
 KSP-CKAN,CKAN
@@ -41,7 +38,6 @@ Linux kernel,Linux
 MAVLink,MAVLink
 MarlinFirmware,Marlin
 MarquezProject,Project Marquez
-Microsoft,=SKIP
 MobileChromeApps,Chromium
 OCA,ODOO
 OfficeDev,Office Developer
@@ -72,9 +68,8 @@ alibaba,Alibaba
 alphagov,Government Digital Service
 ampproject,AMP
 ansible,Ansible
-antrea-io,Antrea
 ant-design,Ant Design
-apache,=SKIP
+antrea-io,Antrea
 apache-spark,Apache Spark
 apache-spark-on-k8s,Apache Spark
 apachecloudstack,Apache CloudStack
@@ -87,7 +82,6 @@ aspnet,ASP.net
 atom,Atom
 auth0,Auth0
 automotive-grade-linux,AGL
-aws,=SKIP
 awsdocs,Amazon Docs
 backstage,Backstage
 bazelbuild,Bazel
@@ -105,8 +99,8 @@ caskroom,Homebrew
 cdfoundation,CDF
 cert-manager,cert-manager
 cfpb,Consumer Financial Protection Bureau
-chaosblade-io,ChaosBlade
 chaos-mesh,Chaos Mesh
+chaosblade-io,ChaosBlade
 chef,Chef
 chrome-enhanced-history,Chromium
 chromium,Chromium
@@ -183,7 +177,6 @@ gitops-working-group,GitOps WG
 go-freebsd,FreeBSD
 godotengine,Godot Engine
 goharbor,Harbor
-google,=SKIP
 googleapis,Google APIs
 grafana,Grafana Labs
 graphql,GraphQL
@@ -214,6 +207,7 @@ keylime,Keylime
 knative,Knative
 krator-rs,Krator
 kruiseio,OpenKruise
+kube-vip,kube-vip
 kubeedge,KubeEdge
 kubeovn,Kube-OVN
 kuberhealthy,Kuberhealthy
@@ -236,7 +230,6 @@ kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubevirt,KubeVirt
-kube-vip,kube-vip
 kudobuilder,Kudo
 kyverno,Kyverno
 laravel,Laravel
@@ -276,7 +269,6 @@ onnx,Open Neural Network Exchange
 open-faas,OpenFaaS
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
-openSUSE,=SKIP
 openbmp,OpenBMP
 opencontainers,OCI
 opencord,CORD
@@ -338,8 +330,8 @@ sensu,Sensu
 sequelize,Sequelize
 serverless,Serverless Framework
 serverlessworkflow,Serverless Workflow
-servicemeshinterface,SMI
 service-mesh-performance,Service Mesh Performance
+servicemeshinterface,SMI
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
 skooner-k8s,Skooner
@@ -366,8 +358,8 @@ theupdateframework,TUF
 tikv,TiKV
 tinkerbell,Tinkerbell
 tremor-rs,Tremor
-tricksterproxy,Trickster
 trickstercache,Trickster
+tricksterproxy,Trickster
 trustwallet,TrustWallet
 tungstenfabric,Tungsten Fabric
 twitter,Twitter
@@ -380,7 +372,6 @@ vmware,VMware
 voidlinux,The Void distribution
 volcano-sh,Volcano
 voxpupuli,Vox Populi
-w3c,=SKIP
 w3c,W3C
 wascaruntime,wasmCloud
 wascc,wasmCloud
@@ -400,3 +391,12 @@ zendframework,Zend Framework
 zephyrproject-rtos,Zephyr
 zfsonfreebsd,FreeBSD
 zowe,Zowe
+# cloudfoundry,Cloud Foundry
+# cloudfoundry-attic,Cloud Foundry Attic
+# cloudfoundry-community,Cloud Foundry Community
+# cloudfoundry-incubator,Cloud Foundry Incubator
+# cloudfoundry-samples,Cloud Foundry Samples
+# kubernetes-cluster-automation,Kubernetes
+# kubernetes-contrib,Kubernetes
+# kubernetes-ui,Kubernetes
+# openstack,=SKIP
