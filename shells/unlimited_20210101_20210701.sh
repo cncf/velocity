@@ -31,8 +31,8 @@ cp map/defmaps.csv map/defmaps_oo.csv
 cat map/defmaps_merged_openstack.csv >> map/defmaps_oo.csv
 # ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps_oo.csv map/skip_special.csv map/ranges_sane.csv
-#echo "Updating Apache Projects using Jira data"
-#ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20210101_20210701.csv -1
+echo "Updating Apache Projects using Jira data"
+ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20210101_20210701.csv -1
 #echo "Updating OpenStack projects using their bug tracking data"
 #ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_20210101_20210701.csv -1
 # This is for merged OpenStack into a single project
