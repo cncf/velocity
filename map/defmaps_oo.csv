@@ -14,6 +14,7 @@ Adlik,Adlik
 Angel-ML,Angel
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
+AthenZ,Athenz
 AusDTO,Digital Transformation Office
 CartoDB,CARTO
 ChromeDevTools,Chromium
@@ -85,8 +86,10 @@ Particular,NServiceBus
 Plailect/Guide,3DS Guide
 ResurrectionRemix,Resurrection Remix
 Software Package Data Exchange,SPDX
+TarsCloud,TARS
 TheOdinProject,The Odin Project
 Virtual-Kubelet,Virtual Kubelet
+WasmEdge,WasmEdge Runtime
 Yoast,Yoast SEO
 Zephyr Project,Zephyr
 acemod,ACE Mod
@@ -96,13 +99,16 @@ alibaba,Alibaba
 alphagov,Government Digital Service
 ampproject,AMP
 ansible,Ansible
+ansible-collections,Ansible
 ant-design,Ant Design
+antrea-io,Antrea
 apache-spark,Apache Spark
 apache-spark-on-k8s,Apache Spark
 apachecloudstack,Apache CloudStack
 apacheignite,Apache Ignite
 apollographql,Apollo GraphQL
 argoproj,Argo
+argoproj-labs,Argo
 artifacthub,Artifact Hub
 aspnet,ASP.net
 atom,Atom
@@ -123,9 +129,12 @@ c4cs,Computing for Computer Scientists
 cakephp,CakePHP
 caskroom,Homebrew
 cdfoundation,CDF
+ceph,Ceph
 cert-manager,cert-manager
 cfpb,Consumer Financial Protection Bureau
 chaos-mesh,Chaos Mesh
+chaosblade-io,ChaosBlade
+chaoss,CHAOSS
 chef,Chef
 chrome-enhanced-history,Chromium
 chromium,Chromium
@@ -155,10 +164,14 @@ cri-o,CRI-O
 crosscloudci,CNCF
 crossplane,Crossplane
 crossplaneio,Crossplane
+curiefense,Curiefense
 d3athrow/vgstation13,vgstation13
+danos,DANOS
 dart-lang,Dart
+denoland,Deno
 department-of-veterans-affairs,Caseflow
 dexidp,Dex
+distribution,Distribution
 dmlc,DMLC
 docker,Docker
 docker-freebsd,FreeBSD
@@ -170,6 +183,7 @@ elastic,Elasticsearch
 elasticsearch,Elasticsearch
 elsys,ELSYS
 emberjs,Ember.js
+emissary-ingress,Emissary-ingress
 envoyproxy,Envoy
 etcd-io,etcd
 ethcore,Parity
@@ -177,17 +191,21 @@ ethereum,Ethereum
 fabric8io,fabric8
 facebook,React
 falcosecurity,Falco
+finos,FINOS
 fledge-iot,Fledge
 fluent,Fluentd
+fluid-cloudnative,Fluid
 flutter,Flutter
 fluxcd,Flux
 fnproject,Oracle Fn
+foniod,Foniod
 freebsd,FreeBSD
 freebsd-build-toolkit,FreeBSD
 freebsd-docker,FreeBSD
 freebsd-ita,FreeBSD
 freebsd-net,FreeBSD
 freebsd-riscv,FreeBSD
+frontierdotxyz,Frontier
 gatsbyjs,Gatsby
 getporter,Porter
 github,GitHub
@@ -211,21 +229,28 @@ hyperledger-labs,Hyperledger
 in-toto,in-toto
 influxdata,InfluxData
 influxdb,InfluxDB
+ingraind,Foniod
 iovisor,IO Visor
 iron-io,Iron.io
 jaegertracing,Jaeger
+jellyfin,Jellyfin
 jenkins-x,Jenkins X
 jenkinsci,Jenkins
 joomla,Joomla
 jsdelivr,jsDelivr
+k8gb-io,K8GB
 kata-containers,Kata Containers
 kedacore,KEDA
 keptn,Keptn
 keybase,Keybase
 keylime,Keylime
 knative,Knative
+krator-rs,Krator
 kruiseio,OpenKruise
+kube-vip,kube-vip
 kubeedge,KubeEdge
+kubeovn,Kube-OVN
+kuberhealthy,Kuberhealthy
 kubernetes,Kubernetes
 kubernetes-addons,Kubernetes
 kubernetes-client,Kubernetes
@@ -246,9 +271,14 @@ kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubevirt,KubeVirt
 kudobuilder,Kudo
+kumahq,Kuma
 kyverno,Kyverno
 laravel,Laravel
 letsencrypt,Let's Encrypt
+lf-edge,LF Edge
+lf-energy,LF Energy
+lfai,LF AI
+lfph,LF Public Health
 linkedin,LinkedIn
 linkerd,Linkerd
 linux-sunxi,Linux sunxi
@@ -257,6 +287,7 @@ llvm,LLVM
 longhorn,Longhorn
 lyft,Envoy
 magento,Magento
+magma,Magma
 mantidproject,Mantid
 mapbox,Mapbox
 mapsme,MAPS.ME
@@ -275,11 +306,14 @@ mui-org,Material-UI
 nats-io,NATS
 networkservicemesh,Network Service Mesh
 neveragaindottech,neveragain.tech
+newrelic,New Relic
 nextcloud,Nextcloud
 nodejs,Node.js
 nylas,Nylas
+o-ran-sc,O-RAN
 odoo,Odoo
 odpi,ODPi
+onap,ONAP
 onnx,Open Neural Network Exchange
 open-faas,OpenFaaS
 open-policy-agent,OPA
@@ -312,26 +346,33 @@ openstacknetsdk,OpenStack Net SDK
 openswitch,OpenSwitch
 opentracing,OpenTracing
 openwrt,OpenWrt
+openyurtio,OpenYurt
 operator-framework,Operator Framework
+oras-project,ORAS
 osmandapp,Osmand
 owncloud,ownCloud
 p4lang,P4 Language
 parallaxsecond,PARSEC
 pingcap,PingCAP
+piraeusdatastore,Piraeus-Datastore
 pivotal-cf,Pivotal Cloud Foundry
 pravega,Pravega
+projectacrn,Project ACRN
 projectcontour,Contour
 prometheus,Prometheus
 pyro-ppl,Pyro
 pytorch,pytorch
 qmk,QMK
+r-lib,R
 rackt,React
 rails,Ruby on Rails
 rapid7,Rapid7
 react-native-community,React
+reactivefoundation,Reactive Foundation
 reactjs,React
 rethinkdb,RethinkDB
 riff,Pivotal Riff
+riscv,RISC-V
 rook,Rook
 rust-lang,Rust
 rust-lang-nursery,Rust
@@ -343,9 +384,12 @@ sensu,Sensu
 sequelize,Sequelize
 serverless,Serverless Framework
 serverlessworkflow,Serverless Workflow
+service-mesh-performance,Service Mesh Performance
 servicemeshinterface,SMI
 servo,The Servo Browser Engine
 skillcrush,Skillcrush
+skooner-k8s,Skooner
+sodafoundation,SODA Foundation
 sparklyr,sparklyr
 spatie,Spatie
 spiffe,Spiffe
@@ -354,6 +398,7 @@ spotify,Spotify
 spree,Spree
 spring-projects,Spring
 strimzi,Strimzi
+submariner-io,Submariner
 swagger-api,Swagger
 symfony,Symfony
 tektoncd,Tekton
@@ -368,10 +413,13 @@ theupdateframework,TUF
 tikv,TiKV
 tinkerbell,Tinkerbell
 tremor-rs,Tremor
+trickstercache,Trickster
+tricksterproxy,Trickster
 trustwallet,TrustWallet
 tungstenfabric,Tungsten Fabric
 twitter,Twitter
 uber,Uber Open Source
+v6d-io,Vineyard
 vgstation-coders,vgstation13
 virtual-kubelet,Virtual Kubelet
 vitessio,Vitess
@@ -380,6 +428,10 @@ voidlinux,The Void distribution
 volcano-sh,Volcano
 voxpupuli,Vox Populi
 w3c,W3C
+wascaruntime,wasmCloud
+wascc,wasmCloud
+wasmCloud,wasmCloud
+waxosuit,wasmCloud
 wayfair-tremor,Tremor
 wireapp,Wire Swiss GmbH
 wix,WiX
