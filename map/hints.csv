@@ -940,12 +940,12 @@ hashicorp/vagrant,Vagrant
 hashicorp/vagrant-installers,Vagrant
 hashicorp/vault,Vault
 heptio/contour,Contour
+herbrandson/k8dash,Skooner
 ibuildthecloud/k3d,K3s
 ibuildthecloud/k3s-dev,K3s
 ibuildthecloud/k3s-root,K3s
 improbable-eng/promlts,Thanos
 improbable-eng/thanos,Thanos
-herbrandson/k8dash,Skooner
 indeedeng/k8dash,Skooner
 indeedeng/k8dash-website,Skooner
 infernojs/inferno,Inferno
