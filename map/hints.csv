@@ -915,15 +915,23 @@ googlei18n/libphonenumber,Google i18n
 grpc-ecosystem/grpc-opentracing,gRPC
 hacktoberfest17/programming,hacktoberfest17
 hashicorp/consul,Consul
+hashicorp/consul-helm,Consul
+hashicorp/consul-k8s,Consul
 hashicorp/go-oracle-terraform,Terraform
 hashicorp/nomad,Nomad
 hashicorp/packer,Hashicorp Packer
 hashicorp/terraform,Terraform
 hashicorp/terraform-aws-consul,Terraform
 hashicorp/terraform-aws-vault,Terraform
+hashicorp/terraform-cdk,Terraform
 hashicorp/terraform-google-consul,Terraform
 hashicorp/terraform-google-vault,Terraform
 hashicorp/terraform-guides,Terraform
+hashicorp/terraform-ls,Terraform
+hashicorp/terraform-plugin-sdk,Terraform
+hashicorp/terraform-provider-aws,Terraform
+hashicorp/terraform-provider-google,Terraform
+hashicorp/terraform-provider-kubernetes,Terraform
 hashicorp/terraform-website,Terraform
 hashicorp/vagrant,Vagrant
 hashicorp/vagrant-installers,Vagrant
@@ -1168,6 +1176,7 @@ microsoft/VSSDK-Extensibility-Samples,VS Code
 microsoft/Virtualization-Documentation,Microsoft Virtualization
 microsoft/VoTT,VoTT
 microsoft/WPF-Samples,WPF-Samples
+microsoft/WSL,WSL
 microsoft/WebTemplateStudio,WebTemplateStudio
 microsoft/WinAppDriver,VS Code
 microsoft/WinObjC,Microsoft Objective-C for Windows
@@ -1247,6 +1256,7 @@ microsoft/fast-dna,fast-dna
 microsoft/fastlane-plugin-appcenter,fastlane-plugin-appcenter
 microsoft/fhir-server,fhir-server
 microsoft/fluent-ui-react,fluent-ui-react
+microsoft/fluentui,Fluent UI
 microsoft/generator-docker,VS Code
 microsoft/ghcrawler,Microsoft (other)
 microsoft/git,git

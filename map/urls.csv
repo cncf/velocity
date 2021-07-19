@@ -176,6 +176,7 @@ Dart,dartlang.org
 Datadog,datadog.com
 DeepSpeech,github.com/mozilla/DeepSpeech
 DefinitelyTyped,definitelytyped.org
+Deno,deno.land
 Dex,github.com/dexidp
 Digital Transformation Office,dta.gov.au
 DirectX,microsoft.com/en-us/download/search.aspx?q=directx
@@ -228,6 +229,7 @@ Firefox Notes,firefox.com
 Firefox Send,send.firefox.com
 Fledge,lfedge.org/projects/fledge
 FlexboxLayout,github.com/google/flexbox-layout
+Fluent UI,developer.microsoft.com/fluentui
 Fluentd,fluentd.org
 Fluid,github.com/fluid-cloudnative
 Flutter,flutter.io
@@ -318,6 +320,7 @@ Iron.io,iron.io
 JS Foundation,js.foundation
 Jaeger,jaeger.readthedocs.io/en/latest
 JanusGraph,janusgraph.org
+Jellyfin,jellyfin.org
 Jenkins,jenkins.io
 Jenkins X,jenkins-x.io
 Joomla,joomla.org
@@ -581,6 +584,7 @@ QMK,qmk.fm
 Quantum,github.com/microsoft/Quantum
 QuantumKatas,github.com/microsoft/QuantumKatas
 QuantumLibraries,github.com/microsoft/QuantumLibraries
+R,github.com/r-lib
 RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
 RISC-V,riscv.org
@@ -732,6 +736,7 @@ W3C WebVR,w3c.github.io/webvr
 WAI-ARIA Authoring Practices,w3.org/WAI/ARIA
 WP Calypso,developer.wordpress.com/calypso
 WPF-Samples,github.com/microsoft/WPF-Samples
+WSL,docs.microsoft.com/windows/wsl
 WSO2,wso2.github.io
 WSO2 Carbon,wso2.com/products/carbon
 WasmEdge Runtime,wasmedge.org
