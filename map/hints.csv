@@ -789,7 +789,7 @@ deislabs/smi-spec,SMI
 deislabs/smi-spec.io,SMI
 docker/compose,Docker
 docker/containerd,containerd
-docker/distribution,Docker
+docker/distribution,Distribution
 docker/docker,Docker
 docker/docker-birthday-3,Docker
 docker/docker-py,Docker
@@ -945,6 +945,7 @@ ibuildthecloud/k3s-dev,K3s
 ibuildthecloud/k3s-root,K3s
 improbable-eng/promlts,Thanos
 improbable-eng/thanos,Thanos
+herbrandson/k8dash,Skooner
 indeedeng/k8dash,Skooner
 indeedeng/k8dash-website,Skooner
 infernojs/inferno,Inferno
@@ -2248,6 +2249,7 @@ pixie-labs/px-dev-website,Pixie
 pixie-labs/px.dev,Pixie
 pixie-labs/pxapi.go,Pixie
 playframework/playframework,Play Framework
+plunder-app/kube-vip,kube-vip
 pndaproject/example-applications,PNDA
 pndaproject/gobblin,PNDA
 pndaproject/logstash-codec-pnda-avro,PNDA
@@ -2317,6 +2319,7 @@ rethinkdb/rethinkdb-example-nodejs,RethinkDB
 rethinkdb/rethinkdb-example-nodejs-chat,RethinkDB
 rethinkdb/rethinkdb-nix,RethinkDB
 rktproject/rkt,rkt
+second-state/SSVM,WasmEdge Runtime
 shizhMSFT/oras,ORAS
 spdx/license-coverage-grader,SPDX
 spdx/license-list,SPDX

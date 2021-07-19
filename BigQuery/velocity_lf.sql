@@ -59,7 +59,7 @@ WHERE
       'kube-vip', 'service-mesh-performance', 'krator-rs', 'oras-project', 'wasmCloud', 'wascc', 'wascaruntime',
       'waxosuit', 'finos', 'chaoss', 'onap', 'o-ran-sc', 'lf-energy', 'TarsCloud', 'lfai', 'lf-edge', 'magma',
       'automotive-grade-linux', 'sodafoundation', 'riscv', 'projectacrn', 'danos', 'ceph', 'lfph', 'xen-project',
-      'reactivefoundation', 'kumahq'
+      'reactivefoundation', 'kumahq', 'k8gb-io'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -73,7 +73,7 @@ WHERE
       'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade',
       'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos', 'second-state/SSVM',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas', 'ppatierno/kaas',
-      'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
+      'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs', 'herbrandson/k8dash',
       'containerfilesystem/doc-zh', 'PixarAnimationStudios/OpenTimelineIO', 'tomkerkhove/sample-dotnet-queue-worker',
       'tomkerkhove/sample-dotnet-queue-worker-servicebus-queue', 'tomkerkhove/sample-dotnet-worker-servicebus-queue',
       'deislabs/smi-spec', 'deislabs/smi-sdk-go', 'deislabs/smi-metrics', 'deislabs/smi-adapter-istio',

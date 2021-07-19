@@ -50,7 +50,7 @@ where
       'foniod', 'emissary-ingress', 'kuberhealthy', 'WasmEdge', 'chaosblade-io', 'fluid-cloudnative',
       'submariner-io', 'argoproj-labs', 'trickstercache', 'skooner-k8s', 'antrea-io', 'pixie-labs',
       'layer5io', 'oam-dev', 'kube-vip', 'service-mesh-performance', 'krator-rs', 'oras-project',
-      'wasmCloud', 'wascc', 'wascaruntime', 'waxosuit', 'kumahq'
+      'wasmCloud', 'wascc', 'wascaruntime', 'waxosuit', 'kumahq', 'k8gb-io'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -65,7 +65,7 @@ where
       'containerfilesystem/doc-zh', 'tomkerkhove/sample-dotnet-queue-worker',
       'tomkerkhove/sample-dotnet-queue-worker-servicebus-queue', 'plunder-app/kube-vip',
       'tomkerkhove/sample-dotnet-worker-servicebus-queue', 'deislabs/smi-spec',
-      'deislabs/smi-sdk-go', 'deislabs/smi-metrics', 'deislabs/smi-adapter-istio',
+      'deislabs/smi-sdk-go', 'deislabs/smi-metrics', 'deislabs/smi-adapter-istio', 'herbrandson/k8dash',
       'deislabs/smi-spec.io', 'capitalone/cloud-custodian', 'coreos/dex', 'Kong/kuma',  'Kong/kuma-website',
       'Kong/kuma-demo', 'Kong/kuma-gui', 'Kong/kumacut', 'docker/pasl', 'baidu/bfe', 'Huawei-PaaS/CNI-Genie',
       'patras-sdk/kubebuilder-maestro', 'patras-sdk/maestro', 'maestrosdk/maestro', 'maestrosdk/frameworks',
