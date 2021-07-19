@@ -28,6 +28,10 @@ Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments
 ruby analysis.rb data/data_cncf_projects_20190201_20200201.csv projects/projects_cncf_20190201_20200201.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
+Some projects are defined as regexps inside one or more orgs - BQ query tracks their orgs and config specifies which repos go to which project. You need to remove remaining repos for those orgs from the report.
+
+Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in projects/projects_20190201_20200201.csv` file.
+
 Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
 
 - Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2019-02-01 2020-02-01`.
