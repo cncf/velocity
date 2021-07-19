@@ -4,5 +4,22 @@ Apache Spark,issues,?
 Apache Kafka,issues,1999
 Apache Camel,issues,1740
 Apache Flink,issues,4313
+Apache Beam,issues,9678
+Apache Zeppelin,issues,1029
+Apache Cassandra,issues,1744
+Apache Hive,issues,2390
+Apache HBase,issues,2172
+Apache Hadoop,issues,849
+Apache Ignite,issues,2290
+Apache NiFi,issues,1188
+Apache Ambari,issues,218
+Apache Storm,issues,221
+Apache TS,issues,3
+Apache Lucene,issues,602
+Apache Solr,issues,1662
+Apache Geode,issues,1368
+Apache Trafodion,issues,73
+Apache Thrift,issues,156
+Apache Kylin,issues,1046
 # This is skipped by map/skip.csv
 # Apache (other),issues,xyz
