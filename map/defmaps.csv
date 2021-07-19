@@ -69,6 +69,7 @@ alibaba,Alibaba
 alphagov,Government Digital Service
 ampproject,AMP
 ansible,Ansible
+ansible-collections,Ansible
 ant-design,Ant Design
 antrea-io,Antrea
 apache-spark,Apache Spark
@@ -174,6 +175,7 @@ freebsd-docker,FreeBSD
 freebsd-ita,FreeBSD
 freebsd-net,FreeBSD
 freebsd-riscv,FreeBSD
+frontierdotxyz,Frontier
 gatsbyjs,Gatsby
 getporter,Porter
 github,GitHub
@@ -272,6 +274,7 @@ mui-org,Material-UI
 nats-io,NATS
 networkservicemesh,Network Service Mesh
 neveragaindottech,neveragain.tech
+newrelic,New Relic
 nextcloud,Nextcloud
 nodejs,Node.js
 nylas,Nylas

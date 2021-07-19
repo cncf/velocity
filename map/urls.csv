@@ -212,6 +212,8 @@ Enzyme,airbnb.io/enzyme
 Error Prone,errorprone.info
 Esri,esri.com
 Ethereum,ethereum.org
+Expensify Bedrock,bedrockdb.com
+Expensify.cash,expensify.cash
 FASTER,github.com/microsoft/FASTER
 FBI Crime Data Explorer,github.com/18F/crime-data-explorer
 FD.io,fd.io
@@ -236,6 +238,7 @@ Flutter,flutter.io
 Flux,github.com/fluxcd
 Foniod,ingraind.org
 FreeBSD,freebsd.org
+Frontier,frontier.xyz
 Funcraft,github.com/alibaba/funcraft
 GGRC,code.google.com/archive/p/ggrc-core
 GVT Linux,github.com/intel/gvt-linux
@@ -452,6 +455,7 @@ NativeScript,nativescript.org
 Netflix,netflix.github.io
 Network Service Mesh,networkservicemesh.io
 NeuronBlocks,github.com/microsoft/NeuronBlocks
+New Relic,opensource.newrelic.com
 Next.js,zeit.co/blog/next2
 Nextcloud,nextcloud.com
 NixOS,nixos.org
@@ -591,6 +595,7 @@ RISC-V,riscv.org
 Rapid7,rapid7.com
 Rax,rax.js.org
 React,facebook.com
+React-Native-Onyx,github.com/Expensify/react-native-onyx
 ReactXP,microsoft.github.io/reactxp
 Reactive Foundation,reactive.foundation
 ReactiveX,reactivex.io
