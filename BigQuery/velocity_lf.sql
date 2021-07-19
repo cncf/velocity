@@ -59,19 +59,19 @@ WHERE
       'kube-vip', 'service-mesh-performance', 'krator-rs', 'oras-project', 'wasmCloud', 'wascc', 'wascaruntime',
       'waxosuit', 'finos', 'chaoss', 'onap', 'o-ran-sc', 'lf-energy', 'TarsCloud', 'lfai', 'lf-edge', 'magma',
       'automotive-grade-linux', 'sodafoundation', 'riscv', 'projectacrn', 'danos', 'ceph', 'lfph', 'xen-project',
-      'reactivefoundation'
+      'reactivefoundation', 'kumahq'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
       'cregit/cregit','diamon/diamon-www-data','JanusGraph/janusgraph', 'deislabs/krustlet',
-      'brunopulis/awesome-a11y','obrienlabs/onap-root','ni/linux','Samsung/TizenRT',
-      'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
+      'brunopulis/awesome-a11y','obrienlabs/onap-root','ni/linux','Samsung/TizenRT', 'plunder-app/kube-vip',
+      'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'docker/distribution',
       'lyft/envoy', 'uber/jaeger', 'BuoyantIO/linkerd', 'apcera/nats', 'apcera/gnatsd',
       'docker/notary', 'youtube/vitess', 'appc/cni', 'miekg/coredns', 'coreos/rocket',
       'rktproject/rkt', 'datawire/telepresence', 'RichiH/OpenMetrics', 'vmware/harbor',
       'coreos/etcd', 'pingcap/tikv', 'weaveworks/cortex', 'weaveworks/prism', 'knative/build',
       'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade',
-      'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos',
+      'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos', 'second-state/SSVM',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas', 'ppatierno/kaas',
       'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
       'containerfilesystem/doc-zh', 'PixarAnimationStudios/OpenTimelineIO', 'tomkerkhove/sample-dotnet-queue-worker',
