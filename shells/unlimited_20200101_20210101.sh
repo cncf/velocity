@@ -31,6 +31,8 @@ cp map/defmaps.csv map/defmaps_oo.csv
 cat map/defmaps_merged_openstack.csv >> map/defmaps_oo.csv
 # ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps_oo.csv map/skip_special.csv map/ranges_sane.csv
+echo "Take some time for manual fixes in projects/unlimited_both.csv file"
+read
 echo "Updating Apache Projects using Jira data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20200101_20210101.csv -1
 #echo "Updating OpenStack projects using their bug tracking data"
@@ -54,6 +56,7 @@ echo "Generating Projects Ranks statistics"
 echo "Truncating results to Top 500"
 cat ./projects/unlimited_both.csv | head -n 501 > tmp && mv tmp ./projects/unlimited.csv
 echo "Copying reports to a separate directory"
+rm -rf ./reports/20200101_20210101
 mkdir ./reports/20200101_20210101
 cp ./reports/top_projects_by_*.txt ./reports/*_projects_ranks.txt ./reports/20200101_20210101/
 echo "All done"
