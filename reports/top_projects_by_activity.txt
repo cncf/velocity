@@ -25,37 +25,37 @@ Top projects by activity:
 24) Eclipse (eclipse.org) activity: 142448
 25) conda-forge (conda-forge.org) activity: 137178
 26) Datadog (datadog.com) activity: 129057
-27) OpenTelemetry (opentelemetry.io) activity: 123808
-28) getsentry activity: 115362
-29) Terraform (terraform.io) activity: 113381
-30) input-output-hk activity: 113324
-31) PaddlePaddle (paddlepaddle.org) activity: 102415
-32) Cockroach Labs (cockroachlabs.com) activity: 101827
-33) docker-library activity: 99922
-34) Magento (magento.com/home) activity: 99854
-35) WordPress activity: 98592
-36) apple activity: 94950
-37) Ethereum (ethereum.org) activity: 94525
-38) SS13 (tgstation13.org) activity: 90102
-39) Envoy (www.envoyproxy.io) activity: 89643
-40) Godot Engine (godotengine.org) activity: 88659
-41) Grafana Labs (grafana.com) activity: 88335
-42) paritytech activity: 88003
-43) Mattermost (mattermost.org) activity: 86769
-44) bcgov activity: 85082
-45) AdguardTeam activity: 85047
-46) istio activity: 84648
-47) trailofbits activity: 84305
-48) python (www.python.org) activity: 84085
-49) firebase activity: 83189
-50) Zephyr (www.zephyrproject.org) activity: 83157
-51) cagov activity: 83138
-52) sourcegraph activity: 83047
-53) Knative (knative.dev) activity: 81455
-54) suttacentral activity: 80981
-55) electron (electronjs.org) activity: 80951
-56) WP Calypso (developer.wordpress.com/calypso) activity: 80727
-57) Ansible (ansible.com) activity: 80458
+27) Terraform (terraform.io) activity: 128279
+28) Ansible (ansible.com) activity: 126402
+29) OpenTelemetry (opentelemetry.io) activity: 123808
+30) getsentry activity: 115362
+31) input-output-hk activity: 113324
+32) PaddlePaddle (paddlepaddle.org) activity: 102415
+33) Cockroach Labs (cockroachlabs.com) activity: 101827
+34) docker-library activity: 99922
+35) Magento (magento.com/home) activity: 99854
+36) WordPress activity: 98592
+37) apple activity: 94950
+38) Ethereum (ethereum.org) activity: 94525
+39) SS13 (tgstation13.org) activity: 90102
+40) Envoy (www.envoyproxy.io) activity: 89643
+41) Godot Engine (godotengine.org) activity: 88659
+42) Grafana Labs (grafana.com) activity: 88335
+43) paritytech activity: 88003
+44) Mattermost (mattermost.org) activity: 86769
+45) bcgov activity: 85082
+46) AdguardTeam activity: 85047
+47) istio activity: 84648
+48) trailofbits activity: 84305
+49) python (www.python.org) activity: 84085
+50) firebase activity: 83189
+51) Zephyr (www.zephyrproject.org) activity: 83157
+52) cagov activity: 83138
+53) sourcegraph activity: 83047
+54) Knative (knative.dev) activity: 81455
+55) suttacentral activity: 80981
+56) electron (electronjs.org) activity: 80951
+57) WP Calypso (developer.wordpress.com/calypso) activity: 80727
 58) Government Digital Service (gds.blog.gov.uk) activity: 80271
 59) SmartThingsCommunity activity: 78859
 60) mozilla-mobile activity: 78633
