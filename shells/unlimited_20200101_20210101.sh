@@ -53,4 +53,7 @@ echo "Generating Projects Ranks statistics"
 ./report_top_projects.sh
 echo "Truncating results to Top 500"
 cat ./projects/unlimited_both.csv | head -n 501 > tmp && mv tmp ./projects/unlimited.csv
+echo "Copying reports to a separate directory"
+mkdir ./reports/20200101_20210101
+cp ./reports/top_projects_by_*.txt ./reports/*_projects_ranks.txt ./reports/20200101_20210101/
 echo "All done"

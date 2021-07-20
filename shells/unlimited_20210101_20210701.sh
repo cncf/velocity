@@ -36,7 +36,7 @@ ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_202101
 #echo "Updating OpenStack projects using their bug tracking data"
 #ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_20210101_20210701.csv -1
 # This is for merged OpenStack into a single project
-#ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_all_2021-01-01_2021-07-01.csv -1
+#ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_20210101_20210701.csv -1
 #echo "Updating Chromium project using their bug tracking data"
 #ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_20210101_20210701.csv -1
 #echo "Updating LibreOffice project using their git repo"
@@ -53,4 +53,7 @@ echo "Generating Projects Ranks statistics"
 ./report_top_projects.sh
 echo "Truncating results to Top 500"
 cat ./projects/unlimited_both.csv | head -n 501 > tmp && mv tmp ./projects/unlimited.csv
+echo "Copying reports to a separate directory"
+mkdir ./reports/20210101_20210701
+cp ./reports/top_projects_by_*.txt ./reports/*_projects_ranks.txt ./reports/20210101_20210701/
 echo "All done"
