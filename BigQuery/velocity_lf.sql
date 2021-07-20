@@ -59,7 +59,7 @@ WHERE
       'kube-vip', 'service-mesh-performance', 'krator-rs', 'oras-project', 'wasmCloud', 'wascc', 'wascaruntime',
       'waxosuit', 'finos', 'chaoss', 'onap', 'o-ran-sc', 'lf-energy', 'TarsCloud', 'lfai', 'lf-edge', 'magma',
       'automotive-grade-linux', 'sodafoundation', 'riscv', 'projectacrn', 'danos', 'ceph', 'lfph', 'xen-project',
-      'reactivefoundation', 'kumahq', 'k8gb-io'
+      'reactivefoundation', 'kumahq', 'k8gb-io', 'cdk8s-team'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',

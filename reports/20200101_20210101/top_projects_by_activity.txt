@@ -35,67 +35,67 @@ Top projects by activity:
 34) docker-library activity: 99922
 35) Magento (magento.com/home) activity: 99854
 36) WordPress activity: 98592
-37) apple activity: 94950
-38) Ethereum (ethereum.org) activity: 94525
-39) SS13 (tgstation13.org) activity: 90102
-40) Envoy (www.envoyproxy.io) activity: 89643
-41) Godot Engine (godotengine.org) activity: 88659
-42) Grafana Labs (grafana.com) activity: 88335
-43) paritytech activity: 88003
-44) Mattermost (mattermost.org) activity: 86769
-45) bcgov activity: 85082
-46) AdguardTeam activity: 85047
-47) istio activity: 84648
-48) trailofbits activity: 84305
-49) python (www.python.org) activity: 84085
-50) firebase activity: 83189
-51) Zephyr (www.zephyrproject.org) activity: 83157
-52) cagov activity: 83138
-53) sourcegraph activity: 83047
-54) Knative (knative.dev) activity: 81455
-55) suttacentral activity: 80981
-56) electron (electronjs.org) activity: 80951
-57) WP Calypso (developer.wordpress.com/calypso) activity: 80727
-58) Government Digital Service (gds.blog.gov.uk) activity: 80271
-59) SmartThingsCommunity activity: 78859
-60) mozilla-mobile activity: 78633
-61) NVIDIA activity: 76443
-62) xamarin activity: 75904
-63) daos-stack activity: 72505
-64) aws-amplify activity: 71922
-65) openfoodfacts activity: 71621
-66) leanprover-community activity: 71349
-67) oppia activity: 70938
-68) ODOO (odoo-community.org) activity: 70759
-69) bitnami activity: 70378
-70) woocommerce activity: 70134
-71) tencentyun activity: 70108
-72) adobe activity: 68806
-73) pandas-dev activity: 68785
-74) Mozilla (mozilla.org) activity: 67741
-75) AMP (ampproject.org) activity: 67642
-76) Dart (dartlang.org) activity: 67567
-77) navikt activity: 66748
-78) VS Code (code.visualstudio.com) activity: 66614
-79) prisma activity: 66452
-80) rapidsai activity: 66024
-81) Brave Software (brave.com) activity: 65926
-82) Gatsby (gatsbyjs.org) activity: 65187
-83) kubeflow activity: 64129
-84) Ant Design (ant.design) activity: 64014
-85) containers activity: 64009
-86) gnosis activity: 63352
-87) quarkusio activity: 63249
-88) InfluxData (influxdata.com) activity: 62491
-89) Angular (angular.io) activity: 61767
-90) openHAB (openhab.org) activity: 61194
-91) microsoftgraph activity: 60336
-92) filecoin-project activity: 60298
-93) Spring (spring.io/projects) activity: 58865
-94) ownCloud (oowncloud.org) activity: 58766
-95) gRPC (grpc.io) activity: 58619
-96) aws/aws-cdk activity: 58573
-97) Hyperledger (hyperledger.org) activity: 58491
-98) Bazel (bazel.build) activity: 58095
-99) oracle activity: 58093
-100) thoth-station activity: 58071
+37) awslabs activity: 96592
+38) apple activity: 94950
+39) Ethereum (ethereum.org) activity: 94525
+40) SS13 (tgstation13.org) activity: 90102
+41) Envoy (www.envoyproxy.io) activity: 89643
+42) Godot Engine (godotengine.org) activity: 88659
+43) Grafana Labs (grafana.com) activity: 88335
+44) paritytech activity: 88003
+45) Mattermost (mattermost.org) activity: 86769
+46) bcgov activity: 85082
+47) AdguardTeam activity: 85047
+48) istio activity: 84648
+49) trailofbits activity: 84305
+50) python (www.python.org) activity: 84085
+51) firebase activity: 83189
+52) Zephyr (www.zephyrproject.org) activity: 83157
+53) cagov activity: 83138
+54) sourcegraph activity: 83047
+55) Knative (knative.dev) activity: 81455
+56) suttacentral activity: 80981
+57) electron (electronjs.org) activity: 80951
+58) WP Calypso (developer.wordpress.com/calypso) activity: 80727
+59) Government Digital Service (gds.blog.gov.uk) activity: 80271
+60) SmartThingsCommunity activity: 78859
+61) mozilla-mobile activity: 78633
+62) NVIDIA activity: 76443
+63) xamarin activity: 75904
+64) daos-stack activity: 72505
+65) aws-amplify activity: 71922
+66) openfoodfacts activity: 71621
+67) leanprover-community activity: 71349
+68) oppia activity: 70938
+69) ODOO (odoo-community.org) activity: 70759
+70) bitnami activity: 70378
+71) woocommerce activity: 70134
+72) tencentyun activity: 70108
+73) adobe activity: 68806
+74) pandas-dev activity: 68785
+75) Mozilla (mozilla.org) activity: 67741
+76) AMP (ampproject.org) activity: 67642
+77) Dart (dartlang.org) activity: 67567
+78) navikt activity: 66748
+79) VS Code (code.visualstudio.com) activity: 66614
+80) prisma activity: 66452
+81) rapidsai activity: 66024
+82) Brave Software (brave.com) activity: 65926
+83) Gatsby (gatsbyjs.org) activity: 65187
+84) kubeflow activity: 64129
+85) Ant Design (ant.design) activity: 64014
+86) containers activity: 64009
+87) gnosis activity: 63352
+88) quarkusio activity: 63249
+89) InfluxData (influxdata.com) activity: 62491
+90) Angular (angular.io) activity: 61767
+91) openHAB (openhab.org) activity: 61194
+92) microsoftgraph activity: 60336
+93) filecoin-project activity: 60298
+94) Spring (spring.io/projects) activity: 58865
+95) ownCloud (oowncloud.org) activity: 58766
+96) gRPC (grpc.io) activity: 58619
+97) aws/aws-cdk activity: 58573
+98) Hyperledger (hyperledger.org) activity: 58491
+99) Bazel (bazel.build) activity: 58095
+100) oracle activity: 58093

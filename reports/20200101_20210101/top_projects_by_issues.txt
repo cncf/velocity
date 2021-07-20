@@ -38,64 +38,64 @@ Top projects by issues:
 37) rancher issues: 7228
 38) aws-amplify issues: 7034
 39) Go (golang.org) issues: 6794
-40) woocommerce issues: 6728
-41) Tencent issues: 6601
-42) vuejs (vuejs.org) issues: 6537
-43) Argo (argoproj.github.io) issues: 6421
-44) carbon-design-system issues: 6417
-45) Brave Software (brave.com) issues: 6357
-46) Hyperledger (hyperledger.org) issues: 6354
-47) gRPC (grpc.io) issues: 6293
-48) Grafana Labs (grafana.com) issues: 6234
-49) InfluxData (influxdata.com) issues: 6163
-50) NixOS (nixos.org) issues: 6070
-51) vector-im issues: 6063
-52) StrangeLoopGames issues: 5795
-53) xamarin issues: 5788
-54) OpenModelica issues: 5768
-55) NVIDIA issues: 5682
-56) PingCAP (github.com/pingcap) issues: 5547
-57) Helm (helm.sh) issues: 5472
-58) Zephyr (www.zephyrproject.org) issues: 5444
-59) github-vet issues: 5313
-60) Mozilla (mozilla.org) issues: 5226
-61) ballerina-platform issues: 5222
-62) prisma issues: 5192
-63) Scaleskope-Ind issues: 5156
-64) AdguardTeam issues: 5105
-65) cityofaustin issues: 5089
-66) Magento (magento.com/home) issues: 5063
-67) Envoy (www.envoyproxy.io) issues: 5053
-68) istio issues: 5006
-69) Ethereum (ethereum.org) issues: 4998
-70) rstudio issues: 4987
-71) WordPress issues: 4873
-72) Automattic issues: 4833
-73) firebase issues: 4677
-74) ionic-team issues: 4660
-75) mdn issues: 4585
-76) microsoftgraph issues: 4546
-77) Harbor (goharbor.io) issues: 4457
-78) Angular (angular.io) issues: 4413
-79) nextgenhealthcare issues: 4402
-80) hi-code-room issues: 4393
-81) navikt issues: 4389
-82) Laravel (laravel.com) issues: 4341
-83) adobe issues: 4329
-84) Apache Flink (flink.apache.org) issues: 4313
-85) vaadin issues: 4279
-86) PowerShell (microsoft.com/powershell) issues: 4208
-87) VS Code (code.visualstudio.com) issues: 4183
-88) gnosis issues: 4180
-89) Mapbox (mapbox.com) issues: 4137
-90) WildCodeSchool issues: 4126
-91) espressif issues: 4079
-92) platformio issues: 4044
-93) filecoin-project issues: 4030
-94) pulumi issues: 3995
-95) angband issues: 3988
-96) PrestaShop issues: 3974
-97) horionclient issues: 3966
-98) canonical-web-and-design issues: 3934
-99) OpenShift (openshift.com) issues: 3931
-100) topcoder-platform issues: 3931
+40) awslabs issues: 6733
+41) woocommerce issues: 6728
+42) Tencent issues: 6601
+43) vuejs (vuejs.org) issues: 6537
+44) Argo (argoproj.github.io) issues: 6421
+45) carbon-design-system issues: 6417
+46) Brave Software (brave.com) issues: 6357
+47) Hyperledger (hyperledger.org) issues: 6354
+48) gRPC (grpc.io) issues: 6293
+49) Grafana Labs (grafana.com) issues: 6234
+50) InfluxData (influxdata.com) issues: 6163
+51) NixOS (nixos.org) issues: 6070
+52) vector-im issues: 6063
+53) StrangeLoopGames issues: 5795
+54) xamarin issues: 5788
+55) OpenModelica issues: 5768
+56) NVIDIA issues: 5682
+57) PingCAP (github.com/pingcap) issues: 5547
+58) Helm (helm.sh) issues: 5472
+59) Zephyr (www.zephyrproject.org) issues: 5444
+60) github-vet issues: 5313
+61) Mozilla (mozilla.org) issues: 5226
+62) ballerina-platform issues: 5222
+63) prisma issues: 5192
+64) Scaleskope-Ind issues: 5156
+65) AdguardTeam issues: 5105
+66) cityofaustin issues: 5089
+67) Magento (magento.com/home) issues: 5063
+68) Envoy (www.envoyproxy.io) issues: 5053
+69) istio issues: 5006
+70) Ethereum (ethereum.org) issues: 4998
+71) rstudio issues: 4987
+72) WordPress issues: 4873
+73) Automattic issues: 4833
+74) huggingface issues: 4786
+75) firebase issues: 4677
+76) ionic-team issues: 4660
+77) mdn issues: 4585
+78) microsoftgraph issues: 4546
+79) Harbor (goharbor.io) issues: 4457
+80) Angular (angular.io) issues: 4413
+81) nextgenhealthcare issues: 4402
+82) hi-code-room issues: 4393
+83) navikt issues: 4389
+84) Laravel (laravel.com) issues: 4341
+85) adobe issues: 4329
+86) Apache Flink (flink.apache.org) issues: 4313
+87) vaadin issues: 4279
+88) PowerShell (microsoft.com/powershell) issues: 4208
+89) VS Code (code.visualstudio.com) issues: 4183
+90) gnosis issues: 4180
+91) Mapbox (mapbox.com) issues: 4137
+92) WildCodeSchool issues: 4126
+93) espressif issues: 4079
+94) platformio issues: 4044
+95) filecoin-project issues: 4030
+96) pulumi issues: 3995
+97) angband issues: 3988
+98) PrestaShop issues: 3974
+99) horionclient issues: 3966
+100) canonical-web-and-design issues: 3934

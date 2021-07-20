@@ -59,43 +59,43 @@ Top projects by commits:
 58) Azure SDKs (azure.microsoft.com) commits: 24737
 59) WiX (wixtoolset.org) commits: 24095
 60) covid19india commits: 23565
-61) firebase commits: 23414
-62) Rust (rust-lang.org) commits: 23299
-63) WordPress commits: 23255
-64) Mattermost (mattermost.org) commits: 23205
-65) Cloud Foundry (cloudfoundry.org) commits: 23178
-66) micronaut-projects commits: 23052
-67) Mozilla (mozilla.org) commits: 22384
-68) covid19-eu-zh commits: 22123
-69) betagouv commits: 22060
-70) Intel LLVM (llvm.org) commits: 21920
-71) WP Calypso (developer.wordpress.com/calypso) commits: 21839
-72) czbiohub commits: 21702
-73) openZH commits: 21634
-74) ministryofjustice commits: 21222
-75) JuliaRegistries commits: 20670
-76) mozilla-l10n commits: 20421
-77) filecoin-project commits: 20317
-78) vote4hk commits: 20161
-79) Broad Institute (broadinstitute.org) commits: 20120
-80) SAP commits: 20102
-81) OWASP commits: 20014
-82) Grafana Labs (grafana.com) commits: 19986
-83) AMP (ampproject.org) commits: 19796
-84) hacks-guide commits: 19335
-85) wazuh commits: 19183
-86) ownCloud (oowncloud.org) commits: 19035
-87) New Relic (opensource.newrelic.com) commits: 18984
-88) dortania commits: 18945
-89) w3f commits: 18805
-90) smart-data-models commits: 18702
-91) woocommerce commits: 18503
-92) OrchardCMS commits: 18419
-93) InfluxData (influxdata.com) commits: 18025
-94) cypress-io commits: 17758
-95) gnosis commits: 17701
-96) decidim commits: 17557
-97) Automattic commits: 17555
-98) Bazel (bazel.build) commits: 17527
-99) oracle commits: 17399
-100) rstudio commits: 17377
+61) awslabs commits: 23502
+62) IBM commits: 23458
+63) firebase commits: 23414
+64) Rust (rust-lang.org) commits: 23299
+65) WordPress commits: 23255
+66) Mattermost (mattermost.org) commits: 23205
+67) Cloud Foundry (cloudfoundry.org) commits: 23178
+68) micronaut-projects commits: 23052
+69) Mozilla (mozilla.org) commits: 22384
+70) covid19-eu-zh commits: 22123
+71) betagouv commits: 22060
+72) Intel LLVM (llvm.org) commits: 21920
+73) WP Calypso (developer.wordpress.com/calypso) commits: 21839
+74) czbiohub commits: 21702
+75) openZH commits: 21634
+76) ministryofjustice commits: 21222
+77) JuliaRegistries commits: 20670
+78) mozilla-l10n commits: 20421
+79) filecoin-project commits: 20317
+80) vote4hk commits: 20161
+81) Broad Institute (broadinstitute.org) commits: 20120
+82) SAP commits: 20102
+83) OWASP commits: 20014
+84) Grafana Labs (grafana.com) commits: 19986
+85) AMP (ampproject.org) commits: 19796
+86) hacks-guide commits: 19335
+87) wazuh commits: 19183
+88) ownCloud (oowncloud.org) commits: 19035
+89) New Relic (opensource.newrelic.com) commits: 18984
+90) dortania commits: 18945
+91) w3f commits: 18805
+92) smart-data-models commits: 18702
+93) woocommerce commits: 18503
+94) OrchardCMS commits: 18419
+95) InfluxData (influxdata.com) commits: 18025
+96) cypress-io commits: 17758
+97) gnosis commits: 17701
+98) decidim commits: 17557
+99) Automattic commits: 17555
+100) Bazel (bazel.build) commits: 17527

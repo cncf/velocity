@@ -41,61 +41,61 @@ Top projects by comments:
 40) pandas-dev comments: 55328
 41) daos-stack comments: 55097
 42) getsentry comments: 54925
-43) VS Code (code.visualstudio.com) comments: 52479
-44) Ethereum (ethereum.org) comments: 51966
-45) Datadog (datadog.com) comments: 51452
-46) Mattermost (mattermost.org) comments: 51099
-47) Grafana Labs (grafana.com) comments: 50550
-48) kubeflow comments: 50338
-49) PaddlePaddle (paddlepaddle.org) comments: 50302
-50) containers comments: 50146
-51) rapidsai comments: 49716
-52) NVIDIA comments: 49479
-53) xamarin comments: 48804
-54) quarkusio comments: 48519
-55) aws-amplify comments: 47731
-56) mozilla-mobile comments: 46455
-57) openHAB (openhab.org) comments: 45329
-58) firebase comments: 44820
-59) Angular (angular.io) comments: 44755
-60) ODOO (odoo-community.org) comments: 44536
-61) input-output-hk comments: 43795
-62) aws/aws-cdk comments: 43435
-63) ray-project comments: 42826
-64) AdguardTeam comments: 42804
-65) paritytech comments: 41725
-66) WP Calypso (developer.wordpress.com/calypso) comments: 41568
-67) KubeVirt (kubevirt.io) comments: 41273
-68) PrestaShop comments: 40107
-69) Joomla (joomla.org) comments: 39688
-70) Go (golang.org) comments: 39451
-71) Dart (dartlang.org) comments: 38849
-72) Gatsby (gatsbyjs.org) comments: 38646
-73) Ant Design (ant.design) comments: 38032
-74) AMP (ampproject.org) comments: 37879
-75) libra comments: 37226
-76) bitcoin comments: 36488
-77) Hyperledger (hyperledger.org) comments: 36281
-78) Symfony (symfony.com) comments: 35261
-79) OpenWrt (openwrt.org) comments: 35047
-80) woocommerce comments: 34719
-81) gRPC (grpc.io) comments: 34337
-82) OpenSSL (openssl.org) comments: 34311
-83) Azure REST API (github.com/Azure/azure-rest-api-specs) comments: 34030
-84) scylladb comments: 34002
-85) microsoftgraph comments: 33260
-86) PowerShell (microsoft.com/powershell) comments: 32940
-87) Tekton (tekton.dev) comments: 32854
-88) vuejs (vuejs.org) comments: 32426
-89) pypa comments: 32401
-90) Brave Software (brave.com) comments: 32331
-91) sourcegraph comments: 32119
-92) cilium comments: 32116
-93) ARMmbed comments: 32019
-94) apache/airflow comments: 31877
-95) Helm (helm.sh) comments: 31872
-96) conan-io comments: 31389
-97) gnosis comments: 31386
-98) RIOT-OS comments: 31029
-99) Bazel (bazel.build) comments: 30920
-100) qgis comments: 30497
+43) awslabs comments: 54089
+44) VS Code (code.visualstudio.com) comments: 52479
+45) Ethereum (ethereum.org) comments: 51966
+46) Datadog (datadog.com) comments: 51452
+47) Mattermost (mattermost.org) comments: 51099
+48) Grafana Labs (grafana.com) comments: 50550
+49) kubeflow comments: 50338
+50) PaddlePaddle (paddlepaddle.org) comments: 50302
+51) containers comments: 50146
+52) rapidsai comments: 49716
+53) NVIDIA comments: 49479
+54) xamarin comments: 48804
+55) quarkusio comments: 48519
+56) aws-amplify comments: 47731
+57) mozilla-mobile comments: 46455
+58) openHAB (openhab.org) comments: 45329
+59) firebase comments: 44820
+60) Angular (angular.io) comments: 44755
+61) ODOO (odoo-community.org) comments: 44536
+62) input-output-hk comments: 43795
+63) aws/aws-cdk comments: 43435
+64) ray-project comments: 42826
+65) AdguardTeam comments: 42804
+66) paritytech comments: 41725
+67) WP Calypso (developer.wordpress.com/calypso) comments: 41568
+68) KubeVirt (kubevirt.io) comments: 41273
+69) PrestaShop comments: 40107
+70) Joomla (joomla.org) comments: 39688
+71) Go (golang.org) comments: 39451
+72) Dart (dartlang.org) comments: 38849
+73) Gatsby (gatsbyjs.org) comments: 38646
+74) Ant Design (ant.design) comments: 38032
+75) AMP (ampproject.org) comments: 37879
+76) libra comments: 37226
+77) bitcoin comments: 36488
+78) Hyperledger (hyperledger.org) comments: 36281
+79) Symfony (symfony.com) comments: 35261
+80) OpenWrt (openwrt.org) comments: 35047
+81) huggingface comments: 34729
+82) woocommerce comments: 34719
+83) gRPC (grpc.io) comments: 34337
+84) OpenSSL (openssl.org) comments: 34311
+85) Azure REST API (github.com/Azure/azure-rest-api-specs) comments: 34030
+86) scylladb comments: 34002
+87) microsoftgraph comments: 33260
+88) PowerShell (microsoft.com/powershell) comments: 32940
+89) Tekton (tekton.dev) comments: 32854
+90) vuejs (vuejs.org) comments: 32426
+91) pypa comments: 32401
+92) Brave Software (brave.com) comments: 32331
+93) sourcegraph comments: 32119
+94) cilium comments: 32116
+95) ARMmbed comments: 32019
+96) apache/airflow comments: 31877
+97) Helm (helm.sh) comments: 31872
+98) conan-io comments: 31389
+99) gnosis comments: 31386
+100) RIOT-OS comments: 31029
