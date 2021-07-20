@@ -1,0 +1,101 @@
+Top projects by comments:
+1) Kubernetes (kubernetes.io) comments: 432497
+2) Linux (kernel.org) comments: 423151
+3) dotnet (microsoft.com/net) comments: 352830
+4) Elasticsearch (elastic.co/products/elasticsearch) comments: 352493
+5) OpenShift (openshift.com) comments: 285031
+6) Rust (rust-lang.org) comments: 200230
+7) Flutter (flutter.io) comments: 173624
+8) FreeBSD (freebsd.org) comments: 150300
+9) Home Assistant (home-assistant.io) comments: 134100
+10) TensorFlow (tensorflow.org) comments: 122859
+11) NixOS (nixos.org) comments: 119940
+12) pytorch (pytorch.org) comments: 118577
+13) React (facebook.com) comments: 109792
+14) CMS Offline Software (cms-sw.github.io) comments: 107766
+15) PingCAP (github.com/pingcap) comments: 99848
+16) Azure SDKs (azure.microsoft.com) comments: 91049
+17) Nextcloud (nextcloud.com) comments: 90449
+18) Eclipse (eclipse.org) comments: 87635
+19) conda-forge (conda-forge.org) comments: 80724
+20) OpenTelemetry (opentelemetry.io) comments: 80187
+21) Google APIs (googleapis.github.io) comments: 76710
+22) Terraform (terraform.io) comments: 73698
+23) Ansible (ansible.com) comments: 73099
+24) Magento (magento.com/home) comments: 70435
+25) apple comments: 68786
+26) Godot Engine (godotengine.org) comments: 68148
+27) Node.js (nodejs.org) comments: 66453
+28) Caseflow (va.gov) comments: 66315
+29) istio comments: 63935
+30) Cockroach Labs (cockroachlabs.com) comments: 61930
+31) SS13 (tgstation13.org) comments: 61094
+32) Odoo (odoo.com) comments: 60904
+33) Knative (knative.dev) comments: 60804
+34) oppia comments: 60420
+35) WordPress comments: 59785
+36) Homebrew (brew.sh) comments: 57926
+37) Zephyr (www.zephyrproject.org) comments: 57823
+38) python (www.python.org) comments: 56966
+39) Envoy (www.envoyproxy.io) comments: 56877
+40) pandas-dev comments: 55328
+41) daos-stack comments: 55097
+42) getsentry comments: 54925
+43) VS Code (code.visualstudio.com) comments: 52479
+44) Ethereum (ethereum.org) comments: 51966
+45) Datadog (datadog.com) comments: 51452
+46) Mattermost (mattermost.org) comments: 51099
+47) Grafana Labs (grafana.com) comments: 50550
+48) kubeflow comments: 50338
+49) PaddlePaddle (paddlepaddle.org) comments: 50302
+50) containers comments: 50146
+51) rapidsai comments: 49716
+52) NVIDIA comments: 49479
+53) xamarin comments: 48804
+54) quarkusio comments: 48519
+55) aws-amplify comments: 47731
+56) mozilla-mobile comments: 46455
+57) openHAB (openhab.org) comments: 45329
+58) firebase comments: 44820
+59) Angular (angular.io) comments: 44755
+60) ODOO (odoo-community.org) comments: 44536
+61) input-output-hk comments: 43795
+62) aws/aws-cdk comments: 43435
+63) ray-project comments: 42826
+64) AdguardTeam comments: 42804
+65) paritytech comments: 41725
+66) WP Calypso (developer.wordpress.com/calypso) comments: 41568
+67) KubeVirt (kubevirt.io) comments: 41273
+68) PrestaShop comments: 40107
+69) Joomla (joomla.org) comments: 39688
+70) Go (golang.org) comments: 39451
+71) Dart (dartlang.org) comments: 38849
+72) Gatsby (gatsbyjs.org) comments: 38646
+73) Ant Design (ant.design) comments: 38032
+74) AMP (ampproject.org) comments: 37879
+75) libra comments: 37226
+76) bitcoin comments: 36488
+77) Hyperledger (hyperledger.org) comments: 36281
+78) Symfony (symfony.com) comments: 35261
+79) OpenWrt (openwrt.org) comments: 35047
+80) woocommerce comments: 34719
+81) gRPC (grpc.io) comments: 34337
+82) OpenSSL (openssl.org) comments: 34311
+83) Azure REST API (github.com/Azure/azure-rest-api-specs) comments: 34030
+84) scylladb comments: 34002
+85) microsoftgraph comments: 33260
+86) PowerShell (microsoft.com/powershell) comments: 32940
+87) Tekton (tekton.dev) comments: 32854
+88) vuejs (vuejs.org) comments: 32426
+89) pypa comments: 32401
+90) Brave Software (brave.com) comments: 32331
+91) sourcegraph comments: 32119
+92) cilium comments: 32116
+93) ARMmbed comments: 32019
+94) apache/airflow comments: 31877
+95) Helm (helm.sh) comments: 31872
+96) conan-io comments: 31389
+97) gnosis comments: 31386
+98) RIOT-OS comments: 31029
+99) Bazel (bazel.build) comments: 30920
+100) qgis comments: 30497
