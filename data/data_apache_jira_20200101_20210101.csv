@@ -21,5 +21,6 @@ Apache Geode,issues,1368
 Apache Trafodion,issues,73
 Apache Thrift,issues,156
 Apache Kylin,issues,1046
+Apache,issues,93249
 # This is skipped by map/skip.csv
-# Apache (other),issues,xyz
+# Apache (other),issues,93249
