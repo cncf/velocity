@@ -1,4 +1,14 @@
 ﻿# velocity
+## Current reports
+
+1/1/2021 - 7/1/2021:
+- [CNCF Projects Velocity](https://docs.google.com/spreadsheets/d/1KiMOYGO1nFO9Sq9mBdCEx16nd5ykqe6ngPZQ23nP1wo/edit?usp=sharing).
+- [Linux Foundation Projects Velocity](https://docs.google.com/spreadsheets/d/1gNxnUjGB6P1RZMngdZWao2OqQvNl3D6yf5DWMWU218M/edit?usp=sharing).
+- [Top 30 Open Source Projects](https://docs.google.com/spreadsheets/d/1kAVjxNcpcwj6Al81SXzy2cgzrumz0-num-m_aT4F3hE/edit?usp=sharing).
+- [Other reports](https://github.com/cncf/velocity/tree/master/reports/20210101_20210701).
+
+## Past reports
+
 ## Track development velocity
 
 This tool set generates data for a Bubble/Motion Google Sheet Chart.<br/>The main script is `analysis.rb`. The input is a csv file created from BigQuery results. 
