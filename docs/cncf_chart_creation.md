@@ -55,6 +55,8 @@ A gist describing this process is at https://gist.github.com/lukaszgryglicki/093
 
 Use [this sheet](https://docs.google.com/spreadsheets/d/1j_L8AL137U8R3TclNo9b79m2r0nZi3b484PAqqeY-H8/edit?usp=sharing) for K8s vs. Non-K8s comparisoion.
 
+Update the main [README](https://github.com/cncf/velocity#current-reports), set new 'Current reports' and move current to [Past Reports](https://github.com/cncf/velocity#past-reports).
+
 ### CNCF Projects split by Kubernetes VS rest
 For this case, a new set of map files was created:
 - `map/k8s_vs_rest_defmaps.csv` - list of orgs found in query

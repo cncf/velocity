@@ -102,7 +102,9 @@ Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1gNxnUjGB
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A200.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
 
-Select the Chart tab, it will be updated automatically
+Select the Chart tab, it will be updated automatically.
+
+Update the main [README](https://github.com/cncf/velocity#current-reports), set new 'Current reports' and move current to [Past Reports](https://github.com/cncf/velocity#past-reports).
 
 CloudFoundry PRs and Issues counts need manual adjustment in the Data tab of the google doc.
 
