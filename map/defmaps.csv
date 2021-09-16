@@ -210,6 +210,7 @@ jenkinsci,Jenkins
 joomla,Joomla
 jsdelivr,jsDelivr
 k8gb-io,K8GB
+karmada-io,Karmada
 kata-containers,Kata Containers
 kedacore,KEDA
 keptn,Keptn
@@ -268,6 +269,7 @@ melpa,MELPA
 mesos,Apache Mesos
 mesosphere,Apache Mesos
 metal3-io,Metal³
+metallb,MetalLB
 meteor,Meteor
 mininet,Mininet
 mitodl,MIT Office of Digital Learning
@@ -370,6 +372,7 @@ spree,Spree
 spring-projects,Spring
 strimzi,Strimzi
 submariner-io,Submariner
+superedge,SuperEdge
 swagger-api,Swagger
 symfony,Symfony
 tektoncd,Tekton

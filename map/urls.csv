@@ -32,6 +32,7 @@ Adlik,adlik.ai
 AirSim,github.com/Microsoft/AirSim
 Airflow,airflow.incubator.apache.org
 Akka,akka.io
+Akri,docs.akri.sh
 AliOS Things,github.com/alibaba/AliOS-Things
 Alibaba,alibaba.com
 Alluxio,github.com/Alluxio
@@ -302,6 +303,7 @@ IBM Bluemix,bluemix.net
 IBM-Z-zOS,github.com/IBM/IBM-Z-zOS
 ICE,ice.work
 IO Visor,www.iovisor.org
+Inclavare Containers,github.com/alibaba/inclavare-containers
 Inferno,infernojs.org
 InfluxDB,influxdata.com
 InfluxData,influxdata.com
@@ -332,6 +334,7 @@ K3s,k3s.io
 K8GB,github.com/AbsaOSS/k8gb
 KEDA,keda.sh
 Kata Containers,katacontainers.io
+Karmada,Karmada.io
 Keptn,kepth.sh
 Keybase,keybase.io
 Keylime,keylime.dev
@@ -402,6 +405,7 @@ Mattermost,mattermost.org
 Meshery,layer5.io/meshery
 Mesosphere,mesosphere.com
 Metal³,metal3.io
+MetalLB,metallb.org
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
 Microsoft (other),microsoft.com
@@ -658,6 +662,7 @@ Spree,guides.spreecommerce.org
 Spring,spring.io/projects
 Strimzi,strimzi.io
 Submariner,submariner.io
+SuperEdge,github.com/superedge
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com

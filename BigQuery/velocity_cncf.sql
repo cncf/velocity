@@ -50,7 +50,8 @@ where
       'foniod', 'emissary-ingress', 'kuberhealthy', 'WasmEdge', 'chaosblade-io', 'fluid-cloudnative',
       'submariner-io', 'argoproj-labs', 'trickstercache', 'skooner-k8s', 'antrea-io', 'pixie-labs',
       'layer5io', 'oam-dev', 'kube-vip', 'service-mesh-performance', 'krator-rs', 'oras-project',
-      'wasmCloud', 'wascc', 'wascaruntime', 'waxosuit', 'kumahq', 'k8gb-io', 'cdk8s-team'
+      'wasmCloud', 'wascc', 'wascaruntime', 'waxosuit', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb',
+      'karmada-io', 'superedge'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -78,7 +79,8 @@ where
       'yahoo/athenz', 'indeedeng/k8dash-website', 'alauda/kube-ovn', 'redsift/ingraind', 'Comcast/kuberhealthy',
       'AbsaOSS/k8gb', 'AbsaOSS/ohmyglb', 'Comcast/trickster', 'datawire/ambassador', 'alibaba/v6d',
       'alibaba/libvineyard', 'vmware-tanzu/antrea', 'cheyang/fluid', 'rancher/submariner', 'alibaba/kubedl',
-      'deislabs/krustlet', 'deislabs/oras', 'shizhMSFT/oras', 'docker/distribution', 'second-state/SSVM'
+      'deislabs/krustlet', 'deislabs/oras', 'shizhMSFT/oras', 'docker/distribution', 'second-state/SSVM',
+      'deislabs/akri', 'danderson/metallb', 'google/metallb', 'alibaba/inclavare-containers'
     )
   )
   and type in (

@@ -491,6 +491,7 @@ alibaba/flutter_boost,flutter_boost
 alibaba/form-render,form-render
 alibaba/funcraft,Funcraft
 alibaba/ice,ICE
+alibaba/inclavare-containers,Inclavare Containers
 alibaba/jvm-sandbox,jvm-sandbox
 alibaba/kiwi,kiwi
 alibaba/kubedl,KubeDL
@@ -777,8 +778,10 @@ coreos/prometheus,CoreOS
 coreos/prometheus-operator,CoreOS
 coreos/rkt,rkt
 coreos/rocket,rkt
+danderson/metallb,MetalLB
 datawire/ambassador,Emissary-ingress
 datawire/telepresence,Telepresence
+deislabs/akri,Akri
 deislabs/krustlet,Krustlet
 deislabs/oras,ORAS
 deislabs/porter,Porter
@@ -897,6 +900,7 @@ google/guava,Guava
 google/guetzli,Google Perceptual JPEG encoder
 google/martian,Martian Proxy
 google/material-design-lite,Google Material Design Components
+google/metallb,MetalLB
 google/openhtf,OpenHTF
 google/or-tools,Operations Research Tools
 google/oss-fuzz,Google OSS-Fuzz
