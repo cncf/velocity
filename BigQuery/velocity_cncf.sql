@@ -35,7 +35,7 @@ where
       'envoyproxy', 'jaegertracing', 'theupdateframework', 'rook', 'vitessio', 'crosscloudci',
       'cloudevents', 'openeventing', 'telepresenceio', 'helm', 'goharbor', 'kubernetes-csi',
       'etcd-io', 'tikv', 'cortexproject', 'buildpack', 'falcosecurity', 'OpenObservability',
-      'dragonflyoss', 'virtual-kubelet', 'Virtual-Kubelet', 'kubeedge', 'brigadecore',
+      'dragonflyoss', 'virtual-kubelet', 'Virtual-Kubelet', 'kubeedge', 'brigadecore', 'pixie-io',
       'kubernetes-sig-testing', 'kubernetes-providers', 'kubernetes-addons', 'kubernetes-test',
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'cri-o', 'networkservicemesh',
