@@ -1669,6 +1669,7 @@ mozilla/yogafire,Firefox
 mozilla/zamboni,Firefox
 mozilla/zippy,Firefox
 nirmata/kyverno,Kyverno
+noironetworks/cilium-net,Cilium
 oam-dev/kubevela,KubeVela
 oam-dev/kubevela-core-api,KubeVela
 oam-dev/kubevela-tutorials,KubeVela
