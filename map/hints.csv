@@ -945,9 +945,6 @@ hashicorp/vagrant-installers,Vagrant
 hashicorp/vault,Vault
 heptio/contour,Contour
 herbrandson/k8dash,Skooner
-ibuildthecloud/k3d,K3s
-ibuildthecloud/k3s-dev,K3s
-ibuildthecloud/k3s-root,K3s
 improbable-eng/promlts,Thanos
 improbable-eng/thanos,Thanos
 indeedeng/k8dash,Skooner
@@ -2290,12 +2287,6 @@ python/pythondotorg,python
 python/the-knights-who-say-ni,python
 python/typeshed,python
 python/typing,python
-rancher/k3d,K3s
-rancher/k3s,K3s
-rancher/k3s-ansible,K3s
-rancher/k3s-root,K3s
-rancher/k3s-selinux,K3s
-rancher/k3s-upgrade,K3s
 rancher/longhorn,Longhorn
 rancher/submariner,Submariner
 rancher/terraform-k3s-aws-cluster,K3s
