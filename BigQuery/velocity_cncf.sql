@@ -51,7 +51,8 @@ where
       'submariner-io', 'argoproj-labs', 'trickstercache', 'skooner-k8s', 'antrea-io', 'pixie-labs',
       'layer5io', 'oam-dev', 'kube-vip', 'service-mesh-performance', 'krator-rs', 'oras-project',
       'wasmCloud', 'wascc', 'wascaruntime', 'waxosuit', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb',
-      'karmada-io', 'superedge', 'cilium', 'project-akri'
+      'karmada-io', 'superedge', 'cilium', 'project-akri', 'dapr', 'open-cluster-management-io',
+      'open-cluster-management'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -79,7 +80,8 @@ where
       'alibaba/libvineyard', 'vmware-tanzu/antrea', 'cheyang/fluid', 'rancher/submariner', 'alibaba/kubedl',
       'deislabs/krustlet', 'deislabs/oras', 'shizhMSFT/oras', 'docker/distribution', 'second-state/SSVM',
       'deislabs/akri', 'danderson/metallb', 'google/metallb', 'alibaba/inclavare-containers',
-      'noironetworks/cilium-net'
+      'noironetworks/cilium-net', 'kubesphere/openelb', 'kubesphere/porterlb', 'kubesphere/porter',
+      'Azure/vscode-kubernetes-tools'
     )
   )
   and type in (
