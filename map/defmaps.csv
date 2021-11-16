@@ -140,6 +140,7 @@ crossplaneio,Crossplane
 curiefense,Curiefense
 d3athrow/vgstation13,vgstation13
 danos,DANOS
+dapr,Dapr
 dart-lang,Dart
 denoland,Deno
 department-of-veterans-affairs,Caseflow
@@ -291,6 +292,8 @@ odoo,Odoo
 odpi,ODPi
 onap,ONAP
 onnx,Open Neural Network Exchange
+open-cluster-management-io,Open Cluster Management
+open-cluster-management,Open Cluster Management
 open-faas,OpenFaaS
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
