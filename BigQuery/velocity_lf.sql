@@ -60,7 +60,8 @@ WHERE
       'waxosuit', 'finos', 'chaoss', 'onap', 'o-ran-sc', 'lf-energy', 'TarsCloud', 'lfai', 'lf-edge', 'magma',
       'automotive-grade-linux', 'sodafoundation', 'riscv', 'projectacrn', 'danos', 'ceph', 'lfph', 'xen-project',
       'reactivefoundation', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb', 'karmada-io', 'superedge', 'cilium',
-      'dapr', 'open-cluster-management-io', 'open-cluster-management'
+      'dapr', 'open-cluster-management-io', 'open-cluster-management', 'nocalhost', 'kubearmor', 'k8up-io',
+      'kube-rs'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -90,7 +91,7 @@ WHERE
       'alibaba/libvineyard', 'vmware-tanzu/antrea', 'cheyang/fluid', 'rancher/submariner', 'alibaba/kubedl',
       'deislabs/akri', 'danderson/metallb', 'google/metallb', 'alibaba/inclavare-containers',
       'noironetworks/cilium-net', 'kubesphere/openelb', 'kubesphere/porterlb', 'kubesphere/porter',
-      'Azure/vscode-kubernetes-tools'
+      'Azure/vscode-kubernetes-tools', 'accuknox/KubeArmor', 'vshn/k8up', 'clux/kube-rs', 'clux/kubernetes-rust'
     )
   )
   and type in (
