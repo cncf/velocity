@@ -448,6 +448,7 @@ Shopify/shopify_app,Shopify App
 Shopify/themekit,Theme Kit
 Shopify/toxiproxy,Toxiproxy
 SpartanRefactoring/Spartanizer,Spontanizer
+accuknox/KubeArmor,KubeArmor
 airbnb/caravel,Superset
 airbnb/enzyme,Enzyme
 airbnb/lottie-android,Lottie
@@ -630,6 +631,8 @@ cip-project/cip-kernelci,Civil Infrastructure Platform
 cip-project/kernelci-backend,Civil Infrastructure Platform
 cip-project/kernelci-frontend,Civil Infrastructure Platform
 cip-project/linux-cip,Civil Infrastructure Platform
+clux/kube-rs,kube-rs
+clux/kubernetes-rust,kube-rs
 cncf/ambassadors,CNCF
 cncf/artwork,CNCF
 cncf/cla,CNCF
@@ -2390,6 +2393,7 @@ vmware/pyvmomi-community-samples,VMware SDKs
 vmware/rbvmomi,VMware SDKs
 vmware/vic,VMware vSphere
 vmware/xenon,VMware Xenon
+vshn/k8up,K8up
 w3c/ServiceWorker,W3C Service Worker
 w3c/aria,Accessible Rich Internet Applications
 w3c/browser-payment-api,W3C Web Payments Browser API

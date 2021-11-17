@@ -214,6 +214,7 @@ joomla,Joomla
 jsdelivr,jsDelivr
 k3s-io,K3s
 k8gb-io,K8GB
+k8up-io,K8up
 karmada-io,Karmada
 kata-containers,Kata Containers
 kedacore,KEDA
@@ -224,6 +225,8 @@ knative,Knative
 krator-rs,Krator
 kruiseio,OpenKruise
 kube-vip,kube-vip
+kube-rs,kube-rs
+kubearmor,KubeArmor
 kubeedge,KubeEdge
 kubeovn,Kube-OVN
 kuberhealthy,Kuberhealthy
@@ -285,6 +288,7 @@ networkservicemesh,Network Service Mesh
 neveragaindottech,neveragain.tech
 newrelic,New Relic
 nextcloud,Nextcloud
+nocalhost,nocalhost
 nodejs,Node.js
 nylas,Nylas
 o-ran-sc,O-RAN

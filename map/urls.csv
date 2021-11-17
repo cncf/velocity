@@ -334,6 +334,7 @@ Joomla,joomla.org
 Julia,julialang.org
 K3s,k3s.io
 K8GB,github.com/AbsaOSS/k8gb
+K8up,k8up.io
 KEDA,keda.sh
 Kata Containers,katacontainers.io
 Karmada,Karmada.io
@@ -347,6 +348,7 @@ Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 Krustlet,krustlet.dev
 Kube-OVN,kube-ovn.io
+KubeArmor,accuknox.com/kubearmor
 KubeDL,kubedl.io
 KubeEdge,kubeedge.io
 KubeVela,kubevela.io
@@ -465,6 +467,7 @@ New Relic,opensource.newrelic.com
 Next.js,zeit.co/blog/next2
 Nextcloud,nextcloud.com
 NixOS,nixos.org
+Nocalhost,nocalhost.dev
 Node.js,nodejs.org
 Nomad,nomadproject.io
 Notary,github.com/theupdateframework/notary
@@ -921,6 +924,7 @@ jvm-sandbox,github.com/alibaba/jvm-sandbox
 k8dash,skooner.io
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
+kube-rs,docs.rs/kube
 kube-vip,kube-vip.io
 landcover,github.com/microsoft/landcover
 language-server-protocol,github.com/microsoft/language-server-protocol
