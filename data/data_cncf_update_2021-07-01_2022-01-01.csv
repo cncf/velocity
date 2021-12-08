@@ -1,0 +1,121 @@
+project,key,value
+Kubernetes,commits,19549
+Prometheus,commits,624
+OpenTracing,commits,1
+Fluentd,commits,2235
+Linkerd,commits,475
+gRPC,commits,380
+CoreDNS,commits,56
+containerd,commits,901
+CNI,commits,35
+Envoy,commits,1505
+Jaeger,commits,136
+Notary,commits,7
+TUF,commits,317
+Rook,commits,1084
+Vitess,commits,2948
+NATS,commits,2075
+OPA,commits,241
+Spiffe,commits,260
+Spire,commits,80
+CloudEvents,commits,92
+Telepresence,commits,2146
+Helm,commits,280
+OpenMetrics,commits,3
+Harbor,commits,298
+etcd,commits,289
+TiKV,commits,494
+Cortex,commits,120
+Buildpacks,commits,534
+Falco,commits,147
+Dragonfly,commits,1046
+Virtual Kubelet,commits,58
+KubeEdge,commits,499
+Brigade,commits,892
+CRI-O,commits,623
+Network Service Mesh,commits,1663
+OpenEBS,commits,2851
+OpenTelemetry,commits,2983
+Thanos,commits,65
+Flux,commits,3283
+in-toto,commits,200
+Strimzi,commits,424
+KubeVirt,commits,6515
+Longhorn,commits,1350
+ChubaoFS,commits,119
+KEDA,commits,11
+SMI,commits,47
+Argo,commits,2448
+Volcano,commits,201
+CNI-Genie,commits,2
+Keptn,commits,768
+Kudo,commits,3
+Cloud Custodian,commits,30
+Dex,commits,85
+LitmusChaos,commits,466
+Artifact Hub,commits,25
+Kuma,commits,336
+PARSEC,commits,378
+BFE,commits,94
+Crossplane,commits,1008
+Contour,commits,24
+Operator Framework,commits,681
+Chaos Mesh,commits,407
+Serverless Workflow,commits,148
+K3s,commits,345
+Backstage,commits,4979
+Tremor,commits,4905
+Metal³,commits,605
+Porter,commits,223
+OpenYurt,commits,78
+Open Service Mesh,commits,461
+Keylime,commits,190
+SchemaHero,commits,67
+Cloud Deployment Kit for Kubernetes,commits,440
+cert-manager,commits,1211
+OpenKruise,commits,173
+Tinkerbell,commits,624
+Pravega,commits,376
+Kyverno,commits,810
+GitOps WG,commits,1
+Piraeus-Datastore,commits,90
+Skooner,commits,29
+Athenz,commits,116
+Kube-OVN,commits,767
+Curiefense,commits,226
+Distribution,commits,27
+Foniod,commits,141
+Kuberhealthy,commits,42
+K8GB,commits,288
+Trickster,commits,24
+Emissary-ingress,commits,1216
+WasmEdge Runtime,commits,381
+ChaosBlade,commits,143
+Vineyard,commits,40
+Antrea,commits,109
+Fluid,commits,203
+Submariner,commits,819
+Pixie,commits,1452
+Meshery,commits,3280
+Service Mesh Performance,commits,306
+KubeVela,commits,268
+kube-vip,commits,84
+KubeDL,commits,34
+Krustlet,commits,74
+Krator,commits,6
+ORAS,commits,88
+wasmCloud,commits,506
+Akri,commits,149
+MetalLB,commits,297
+Karmada,commits,406
+Inclavare Containers,commits,208
+SuperEdge,commits,48
+Cilium,commits,3181
+Dapr,commits,867
+OpenELB,commits,22
+Open Cluster Management,commits,5837
+VS Code Kubernetes Tools,commits,1
+Nocalhost,commits,2432
+KubeArmor,commits,1387
+K8up,commits,281
+kube-rs,commits,307
