@@ -71,6 +71,7 @@ Azure/azure-webjobs-sdk-script-samples,AZF
 Azure/azure-webjobs-sdk-templates,AZF
 Azure/brigade,Brigade
 Azure/sonic-py-swsssdk,Azure SDKs
+Azure/vscode-kubernetes-tools,VS Code Kubernetes Tools
 BuoyantIO/linkerd,Linkerd
 Comcast/kuberhealthy,Kuberhealthy
 Comcast/trickster,Trickster
@@ -1028,9 +1029,8 @@ kubernetes/kubernetes.github.io,Kubernetes
 kubernetes/minikube,Kubernetes
 kubernetes/test-infra,Kubernetes
 kubesphere/openelb,OpenELB
-kubesphere/porterlb,OpenELB
 kubesphere/porter,OpenELB
-Azure/vscode-kubernetes-tools,VS Code Kubernetes Tools
+kubesphere/porterlb,OpenELB
 layer5io/advanced-istio-service-mesh-workshop,Service Mesh Performance
 layer5io/istio-service-mesh-workshop,Service Mesh Performance
 layer5io/linkerd-service-mesh-workshop,Service Mesh Performance

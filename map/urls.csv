@@ -336,8 +336,8 @@ K3s,k3s.io
 K8GB,github.com/AbsaOSS/k8gb
 K8up,k8up.io
 KEDA,keda.sh
-Kata Containers,katacontainers.io
 Karmada,Karmada.io
+Kata Containers,katacontainers.io
 Keptn,kepth.sh
 Keybase,keybase.io
 Keylime,keylime.dev
@@ -408,8 +408,8 @@ Material-UI,material-ui.com
 Mattermost,mattermost.org
 Meshery,layer5.io/meshery
 Mesosphere,mesosphere.com
-Metal³,metal3.io
 MetalLB,metallb.org
+Metal³,metal3.io
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
 Microsoft (other),microsoft.com

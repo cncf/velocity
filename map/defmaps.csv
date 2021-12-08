@@ -65,7 +65,6 @@ Zephyr Project,Zephyr
 acemod,ACE Mod
 acumos,Acumos
 akka,Akka
-project-akri,Akri
 alibaba,Alibaba
 alphagov,Government Digital Service
 ampproject,AMP
@@ -224,8 +223,8 @@ keylime,Keylime
 knative,Knative
 krator-rs,Krator
 kruiseio,OpenKruise
-kube-vip,kube-vip
 kube-rs,kube-rs
+kube-vip,kube-vip
 kubearmor,KubeArmor
 kubeedge,KubeEdge
 kubeovn,Kube-OVN
@@ -288,7 +287,7 @@ networkservicemesh,Network Service Mesh
 neveragaindottech,neveragain.tech
 newrelic,New Relic
 nextcloud,Nextcloud
-nocalhost,nocalhost
+nocalhost,Nocalhost
 nodejs,Node.js
 nylas,Nylas
 o-ran-sc,O-RAN
@@ -296,8 +295,8 @@ odoo,Odoo
 odpi,ODPi
 onap,ONAP
 onnx,Open Neural Network Exchange
-open-cluster-management-io,Open Cluster Management
 open-cluster-management,Open Cluster Management
+open-cluster-management-io,Open Cluster Management
 open-faas,OpenFaaS
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
@@ -340,6 +339,7 @@ piraeusdatastore,Piraeus-Datastore
 pivotal-cf,Pivotal Cloud Foundry
 pixie-io,Pixie
 pravega,Pravega
+project-akri,Akri
 projectacrn,Project ACRN
 projectcontour,Contour
 prometheus,Prometheus
