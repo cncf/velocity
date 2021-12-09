@@ -15,4 +15,4 @@ do
   ls -l $FN
   cd $WD
 done
-cat $FN | /home/justa/dev/alt/gitdm/src/cncfdm.py -r '^vendor/|/vendor/|^Godeps/' -R -n -b /home/justa/dev/alt/gitdm/src/ -t -z -d -D -U -u -h $F.html -o $F.txt -x $F.csv > $F.out
+cat $FN | ~/dev/cncf/gitdm/src/cncfdm.py -r '^vendor/|/vendor/|^Godeps/' -R -n -b ~/dev/cncf/gitdm/src/ -t -z -d -D -U -u -h $F.html -o $F.txt -x $F.csv > $F.out
