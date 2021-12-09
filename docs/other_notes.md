@@ -32,7 +32,7 @@ The above command generates output list of google repos with 13 authors or less 
 
 ### Special GitHub projects (like mirrors, backups etc.)
 
-Follow these steps to add a new non-standard project (but from GitHub mirros, allowed are 0s on comments, commits, issues, prs, activity, authors):
+Follow these steps to add a new non-standard project (but from GitHub mirrors, allowed are 0s on comments, commits, issues, prs, activity, authors):
 - Copy `BigQuery/org_finder.sql` to clipboard and run this on BigQuery replacing condition for org (for example lower(org.login) like '%your%org%)
 - Examine output org/repos combination (manually on GitHub) and decide about final condition for the final BigQuery run
 - Copy `BigQuery/query_apache_projects.sql` into some `BigQuery/query_your_project.sql` then update conditions to those found in the previous step
@@ -48,7 +48,7 @@ ruby merger.rb data/unlimited.csv data/data_your_project_datefrom_date_to.csv
 - You can run manually: `ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
 - For example see YourProject rank: `res.map { |i| i[0] }.index('LibreOffice')` or `res[res.map { |i| i[0] }.index('LibreOffice')][2][:sum]`
 - Some of the values will be missing (like for example PRs for mirror repos)
-- Now it is time for a non standard path, please see `shells/unlimited_both.sh` for non standar data update that comes after final `ruby analysis.rb` call - this is usually different for each non-standard project
+- Now it is time for a non standard path, please see `shells/unlimited_both.sh` for non standard data update that comes after final `ruby analysis.rb` call - this is usually different for each non-standard project
 
 
 ### Finding bots to be excluded in queries for project data
@@ -66,7 +66,7 @@ activity,comments,prs,commits,issues,author
 ```
 The other authors can be validated to be human by going to address such as https://github.com/frodenas
 
-Another way to identify bots would be by means af a query such as `query_chromium_authors_v2_from_to.sql` which lists names and counts of their commits. A results file such as `data_chromium_authors_v2_201611_2017_10.csv` brings data as follows:
+Another way to identify bots would be by means of a query such as `query_chromium_authors_v2_from_to.sql` which lists names and counts of their commits. A results file such as `data_chromium_authors_v2_201611_2017_10.csv` brings data as follows:
 ```
 activity,comments,prs,commits,issues,author_name
 30583,17349,5997,25,7212,(null)
