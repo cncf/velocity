@@ -6,41 +6,19 @@ ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2021-01-01 2022-01-01
 # Don't forget to add exception to map/ranges.csv when adding projects pulled with different BigQuery (specially with 0s for issues, PRs etc)
 echo "Adding/Updating CNCF Projects"
 ruby merger.rb data/unlimited.csv data/data_cncf_projects_20210101_20220101.csv
-echo "Adding GitLab data"
-ruby add_external.rb data/unlimited.csv data/data_gitlab.csv 2021-01-01 2022-01-01 gitlab gitlab/GitLab
 echo "Adding/Updating Cloud Foundry Projects"
 # This uses "force" mode to update Cloud Foundry values to lower ones (this is because we have special query output for CF projects which skips more bots, so lower values are expected)
 ruby merger.rb data/unlimited.csv data/data_cf_projects_20210101_20220101.csv force
-echo "Adding/Updating OpenStack case"
-ruby merger.rb data/unlimited.csv openstack/data_openstack_2021-01-01_2022-01-01.csv
 echo "Adding/Updating Apache case"
 ruby merger.rb data/unlimited.csv data/data_apache_projects_20210101_20220101.csv
-echo "Adding/Updating Chromium case"
-ruby merger.rb data/unlimited.csv data/data_chromium_projects_20210101_20220101.csv
 echo "Adding/Updating OpenSUSE case"
 ruby merger.rb data/unlimited.csv data/data_opensuse_projects_20210101_20220101.csv
-echo "Adding/Updating AGL case"
-ruby merger.rb data/unlimited.csv data/data_agl_projects_20210101_20220101.csv
-echo "Adding/Updating LibreOffice case"
-ruby merger.rb data/unlimited.csv data/data_libreoffice_projects_20210101_20220101.csv
 echo "Adding/Updating FreeBSD case"
 ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20210101_20220101.csv
 echo "Analysis"
-# This is for merged OpenStack into a single project
-cp map/defmaps.csv map/defmaps_oo.csv
-cat map/defmaps_merged_openstack.csv >> map/defmaps_oo.csv
-# ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
-ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps_oo.csv map/skip_special.csv map/ranges_sane.csv
+ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating Apache Projects using Jira data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20210101_20220101.csv -1
-echo "Updating OpenStack projects using their bug tracking data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_bugs_20210101_20220101.csv -1
-# This is for merged OpenStack into a single project
-ruby update_projects.rb projects/unlimited_both.csv data/data_openstack_all_2021-01-01_2022-01-01.csv -1
-echo "Updating Chromium project using their bug tracking data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_20210101_20220101.csv -1
-echo "Updating LibreOffice project using their git repo"
-ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_20210101_20220101.csv -1
 echo "Updating FreeBSD data from SVN logs"
 ruby update_projects.rb projects/unlimited_both.csv ./data/data_freebsd_svn_20210101_20220101.csv -1
 echo "Prioritizing LF projects data"

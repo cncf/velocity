@@ -1,0 +1,28 @@
+project,key,value
+Apache Flink,issues,7040
+Apache Mesos,issues,47
+Apache Spark,issues,3240
+Apache Kafka,issues,1235
+Apache Camel,issues,915
+Apache CloudStack,issues,7
+Apache Beam,issues,2479
+Apache Zeppelin,issues,294
+Apache Cassandra,issues,884
+Apache Hive,issues,1071
+Apache HBase,issues,1060
+Apache Hadoop,issues,844
+Apache Ignite,issues,1441
+Apache NiFi,issues,1076
+Apache Ambari,issues,104
+Apache Storm,issues,60
+Apache TS,issues,0
+Apache Lucene,issues,447
+Apache Solr,issues,752
+Apache CarbonData,issues,215
+Apache Geode,issues,867
+Apache Trafodion,issues,0
+Apache Thrift,issues,537
+Apache Kylin,issues,242
+Apache,issues,59554
+# This is skipped by map/skip.csv
+# Apache (other),issues,59554

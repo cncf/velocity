@@ -30,7 +30,8 @@ args = parser.parse_args()
 # print(args)
 # print ((args.date_from, args.date_to))
 
-jira = Jira(args.url, project=args.project, user=args.user, password=args.password, verify=False, cert=None, max_issues=args.issues, tag=None, archive=None)
+#jira = Jira(args.url, project=args.project, user=args.user, password=args.password, verify=False, cert=None, max_issues=args.issues, tag=None, archive=None)
+jira = Jira(args.url, project=args.project, user=args.user, password=args.password, cert=None, tag=None, archive=None)
 # print(jira)
 
 oids = set()
