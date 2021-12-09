@@ -36,6 +36,7 @@ GoogleChrome,Chromium
 IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
 KSP-CKAN,CKAN
+KiFoundation,Ki Foundation
 Linux kernel,Linux
 LinuxHeartsFreeBSD,FreeBSD
 MAVLink,MAVLink
@@ -402,6 +403,7 @@ tensorflow,TensorFlow
 terraform-providers,Terraform
 tgstation,SS13
 thanos-io,Thanos
+tharsis,Tharsis
 thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV
