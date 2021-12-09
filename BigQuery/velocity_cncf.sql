@@ -52,7 +52,7 @@ where
       'layer5io', 'oam-dev', 'kube-vip', 'service-mesh-performance', 'krator-rs', 'oras-project',
       'wasmCloud', 'wascc', 'wascaruntime', 'waxosuit', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb',
       'karmada-io', 'superedge', 'cilium', 'project-akri', 'dapr', 'open-cluster-management-io',
-      'open-cluster-management', 'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs'
+      'open-cluster-management', 'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs', 'k3s-io'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -84,6 +84,10 @@ where
       'Azure/vscode-kubernetes-tools', 'accuknox/KubeArmor', 'vshn/k8up', 'clux/kube-rs',
       'clux/kubernetes-rust'
     )
+  )
+  and repo.name not in (
+    'k3s-io/klog', 'k3s-io/containerd', 'k3s-io/cri-tools', 'k3s-io/etcd', 'k3s-io/flannel',
+    'k3s-io/go-powershell', 'k3s-io/kubernetes', 'k3s-io/nocode'
   )
   and type in (
     'IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent',

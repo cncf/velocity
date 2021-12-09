@@ -61,7 +61,7 @@ WHERE
       'automotive-grade-linux', 'sodafoundation', 'riscv', 'projectacrn', 'danos', 'ceph', 'lfph', 'xen-project',
       'reactivefoundation', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb', 'karmada-io', 'superedge', 'cilium',
       'dapr', 'open-cluster-management-io', 'open-cluster-management', 'nocalhost', 'kubearmor', 'k8up-io',
-      'kube-rs'
+      'kube-rs', 'k3s-io'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -93,6 +93,10 @@ WHERE
       'noironetworks/cilium-net', 'kubesphere/openelb', 'kubesphere/porterlb', 'kubesphere/porter',
       'Azure/vscode-kubernetes-tools', 'accuknox/KubeArmor', 'vshn/k8up', 'clux/kube-rs', 'clux/kubernetes-rust'
     )
+  )
+  and repo.name not in (
+    'k3s-io/klog', 'k3s-io/containerd', 'k3s-io/cri-tools', 'k3s-io/etcd', 'k3s-io/flannel',
+    'k3s-io/go-powershell', 'k3s-io/kubernetes', 'k3s-io/nocode'
   )
   and type in (
     'IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent',
