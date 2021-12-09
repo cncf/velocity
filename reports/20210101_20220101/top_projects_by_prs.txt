@@ -1,0 +1,101 @@
+Top projects by prs:
+1) Linux (kernel.org) prs: 62426
+2) Elasticsearch (elastic.co/products/elasticsearch) prs: 50708
+3) Homebrew (brew.sh) prs: 43194
+4) Google APIs (googleapis.github.io) prs: 42007
+5) Kubernetes (kubernetes.io) prs: 41117
+6) NixOS (nixos.org) prs: 33165
+7) OpenShift (openshift.com) prs: 31945
+8) PaddlePaddle (paddlepaddle.org) prs: 31488
+9) dotnet (microsoft.com/net) prs: 30423
+10) OpenTelemetry (opentelemetry.io) prs: 24132
+11) SmartThingsCommunity prs: 21368
+12) JuliaRegistries prs: 21026
+13) pytorch (pytorch.org) prs: 18810
+14) Azure SDKs (azure.microsoft.com) prs: 17466
+15) Home Assistant (home-assistant.io) prs: 15427
+16) mergifyio-testing prs: 15122
+17) Datadog (datadog.com) prs: 14289
+18) Hyperledger (hyperledger.org) prs: 14127
+19) semgrep prs: 13347
+20) Zephyr (www.zephyrproject.org) prs: 12997
+21) Network Service Mesh (networkservicemesh.io) prs: 12820
+22) Rust (rust-lang.org) prs: 12690
+23) Open Cluster Management (open-cluster-management.io) prs: 12064
+24) getsentry prs: 12043
+25) Ansible (ansible.com) prs: 11172
+26) conda-forge (conda-forge.org) prs: 10876
+27) TrustWallet (trustwallet.com) prs: 10798
+28) Solana (solana.com) prs: 10760
+29) VS Code (code.visualstudio.com) prs: 10252
+30) sourcegraph prs: 10237
+31) PingCAP (github.com/pingcap) prs: 9739
+32) Grafana Labs (grafana.com) prs: 9359
+33) New Relic (opensource.newrelic.com) prs: 9179
+34) gRPC (grpc.io) prs: 9077
+35) Caseflow (va.gov) prs: 8834
+36) Zuri Chat (zuri.chat) prs: 8706
+37) Cockroach Labs (cockroachlabs.com) prs: 8488
+38) Nextcloud (nextcloud.com) prs: 8245
+39) openvinotoolkit prs: 8152
+40) Flutter (flutter.io) prs: 8135
+41) betagouv prs: 8069
+42) Node.js (nodejs.org) prs: 8052
+43) Envoy (www.envoyproxy.io) prs: 8000
+44) bcgov prs: 7903
+45) React (facebook.com) prs: 7821
+46) Argo (argoproj.github.io) prs: 7740
+47) SS13 (tgstation13.org) prs: 7686
+48) paritytech prs: 7512
+49) ODOO (odoo-community.org) prs: 7469
+50) ballerina-platform prs: 7451
+51) TensorFlow (tensorflow.org) prs: 7392
+52) InfluxData (influxdata.com) prs: 7343
+53) Tencent prs: 7289
+54) Odoo (odoo.com) prs: 7210
+55) input-output-hk prs: 7176
+56) ministryofjustice prs: 7168
+57) DevExpress prs: 6913
+58) carbon-design-system prs: 6823
+59) Ethereum (ethereum.org) prs: 6788
+60) milvus-io prs: 6740
+61) Eclipse (eclipse.org) prs: 6699
+62) Cilium (cilium.io) prs: 6676
+63) WSO2 (wso2.github.io) prs: 6657
+64) boostcampwm-2021 prs: 6647
+65) Magma (magmacore.org) prs: 6639
+66) google/it-cert-automation-practice prs: 6578
+67) Apache Flink (flink.apache.org) prs: 6306
+68) Godot Engine (godotengine.org) prs: 6270
+69) Operator Framework (operatorhub.io) prs: 6094
+70) rancher prs: 6007
+71) spack prs: 5992
+72) Terraform (terraform.io) prs: 5951
+73) RedHatInsights prs: 5891
+74) apache/shardingsphere prs: 5891
+75) OpenLiberty prs: 5882
+76) CNCF (www.cncf.io) prs: 5861
+77) ownCloud (oowncloud.org) prs: 5849
+78) WordPress prs: 5816
+79) adobe prs: 5775
+80) Automattic prs: 5756
+81) Mattermost (mattermost.org) prs: 5733
+82) void-linux prs: 5707
+83) apache/superset prs: 5707
+84) mozilla-mobile prs: 5630
+85) WP Calypso (developer.wordpress.com/calypso) prs: 5602
+86) woocommerce prs: 5567
+87) knative-sandbox prs: 5564
+88) DefinitelyTyped (definitelytyped.org) prs: 5531
+89) corona-warn-app prs: 5432
+90) equinor prs: 5371
+91) apache/airflow prs: 5341
+92) Apache Spark (spark.apache.org) prs: 5335
+93) KubeVirt (kubevirt.io) prs: 5308
+94) Backstage (backstage.io) prs: 5294
+95) SAP prs: 5257
+96) NVIDIA prs: 5253
+97) conan-io prs: 5207
+98) VMware (vmware.github.io) prs: 5138
+99) code-dot-org prs: 5011
+100) Seagate prs: 4993
