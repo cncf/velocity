@@ -29,11 +29,12 @@ from
 where
   (
     org.login in (
-      'FreeBSD-UPB', 'FreeBSDDesktop', 'FreeBSDFoundation','FreeBSDRust','FreeBSDWorkingBranch',
-      'FreeBSDonHyper-V','docker-freebsd','freebsd','freebsd-build-toolkit','freebsd-docker',
-      'freebsd-net','freebsd-riscv','go-freebsd', 'freebsd-haskel', 'freebsd-ext', 'freebsd-es',
+      'FreeBSD-UPB', 'FreeBSDDesktop', 'FreeBSDFoundation', 'FreeBSDRust', 'FreeBSDWorkingBranch',
+      'FreeBSDonHyper-V', 'docker-freebsd', 'freebsd', 'freebsd-build-toolkit', 'freebsd-docker',
+      'freebsd-net','freebsd-riscv', 'go-freebsd', 'freebsd-haskel', 'freebsd-ext', 'freebsd-es',
       'freebsd-electron', 'freebsd-chef', 'FreeBSDChina', 'kde-freebsd', 'pbc-freebsd',
-      'openstack-freebsd', 'gitlab-freebsd', 'freebsd-ita', 'zfsonfreebsd'
+      'openstack-freebsd', 'gitlab-freebsd', 'freebsd-ita', 'zfsonfreebsd', 'FreeBSD-Ask',
+      'LinuxHeartsFreeBSD', 'UIUCFreeBSD', 'freebsd-pefs', 'freebsd-store'
     )
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
