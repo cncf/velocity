@@ -61,7 +61,7 @@ WHERE
       'automotive-grade-linux', 'sodafoundation', 'riscv', 'projectacrn', 'danos', 'ceph', 'lfph', 'xen-project',
       'reactivefoundation', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb', 'karmada-io', 'superedge', 'cilium',
       'dapr', 'open-cluster-management-io', 'open-cluster-management', 'nocalhost', 'kubearmor', 'k8up-io',
-      'kube-rs', 'k3s-io'
+      'kube-rs', 'k3s-io', 'o3de', 'symphonyoss'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
