@@ -95,7 +95,7 @@ Angular,angular.io
 ...
 ```
 
-`defmaps.csv` a csv file with proper names for projects generated as default groupping within org:
+`defmaps.csv` a csv file with proper names for projects generated as default grouping within org:
 ```
 name,project
 aspnet,ASP.net
@@ -103,7 +103,7 @@ nixpkgs,NixOS
 Azure,=SKIP
 ...
 ```
-The special flag '=SKIP' for a project means that this org should NOT be groupped
+The special flag '=SKIP' for a project means that this org should NOT be grouped
 
 `skip.csv` a csv file that contains lists of repos and/or orgs and/or projects to be skipped in the analysis:
 ```
@@ -115,7 +115,7 @@ org,repo,project
 
 `ranges.csv` a csv file that contains ranges of repos properties which makes repo included in calculations.
 It can constrain any of "commits, prs, comments, issues, authors" to be within range n1 .. n2 (if n1 or n2 < 0 then this value is skipped, so -1..-1 means unlimited
-There can be also be exception repos/orgs that do not use those ranges:
+There can also be exception repos/orgs that do not use those ranges:
 ```
 key,min,max,exceptions
 activity,50,-1,"kubernetes,docker/containerd,coreos/rkt"
@@ -127,7 +127,7 @@ authors,3,-1,"kubernetes,docker/containerd,google/go-github"
 ```
 
 The generated output file contains all the input data (so it can be 600 rows for 1000 input rows for example).
-You should manually review generated output and choose how many rocords you need.
+You should manually review generated output and choose how many records you need.
 
 `hintgen.rb` is a tool that takes data already processed for various created charts and creates distinct projects hint file from it. Example usage:
 
@@ -175,7 +175,7 @@ VS Code,code.visualstudio.com,2016-02,17139,11638,986,1899,2616,133,155621,10438
 VS Code,code.visualstudio.com,2017-04,155621,104386,9501,17650,24084,198,155621,104386,9501,17650,24084,198
 ...
 ```
-Each row contains its label data (separate or cumulative) whereas columns with starting with `max_` contain cumulative data for all labels.
+Each row contains its label data (separate or cumulative) whereas columns starting with `max_` contain cumulative data for all labels.
 This is to make the data ready for google sheet motion chart without complex cell indexing.
 
 The final (optional) file `summaries.csv` is used to read the number of authors. This is because the number of authors is computed differently.

@@ -53,7 +53,7 @@ Select the Chart tab, it will be updated automatically
 
 A gist describing this process is at https://gist.github.com/lukaszgryglicki/093ced06455a3f14f0e4d25459525207
 
-Use [this sheet](https://docs.google.com/spreadsheets/d/1j_L8AL137U8R3TclNo9b79m2r0nZi3b484PAqqeY-H8/edit?usp=sharing) for K8s vs. Non-K8s comparisoion.
+Use [this sheet](https://docs.google.com/spreadsheets/d/1j_L8AL137U8R3TclNo9b79m2r0nZi3b484PAqqeY-H8/edit?usp=sharing) for K8s vs. Non-K8s comparison.
 
 Update the main [README](https://github.com/cncf/velocity#current-reports), set new 'Current reports' and move current to [Past Reports](https://github.com/cncf/velocity#past-reports).
 

@@ -90,7 +90,7 @@ Automattic/simplenote-electron,22
 Automattic/happychat-service,21
 Automattic/kue,20
 ```
-We need to examine each one in `github.com`, like for the 1st project: `github.com/Automattic/amp-wp`. We see that this is a WordPress plugin, so it belnogs to the Wordpress/WP Calypso project:
+We need to examine each one in `github.com`, like for the 1st project: `github.com/Automattic/amp-wp`. We see that this is a WordPress plugin, so it belongs to the Wordpress/WP Calypso project:
 `grep -HIn "wordpress" map/*.csv`
 `grep -HIn "WP Calypso" map/*.csv`
 We see that we have WP Calypso defined in the hints file:
@@ -103,7 +103,7 @@ map/hints.csv:30:Automattic/wp-e2e-tests,WP Calypso
 map/urls.csv:438:WP Calypso,developer.wordpress.com/calypso
 ```
 Just add a new repo mapping row for this project in `map/hints.csv`: `Automattic/amp-wp,WP Calypso`
-Do the same for other projects/repos. Re-run the analysis tool untill all is fine.
+Do the same for other projects/repos. Re-run the analysis tool until all is fine.
 - For example, after defining some new projects we see "EPFL-SV-cpp-projects" in the top 50. This is an educational org that should be skipped. Add it to `map/skip.csv` for skipping row: `EPFL-SV-cpp-projects,,`
 - Once You have all URL's defined, added new mapping, you may see a preview of the Top projects on while stopped in `binding.pry`, by typing `all`. Now we need to go back to `shells/unlimited_20180701-20190701.sh` and regenerate all non standard data (for projects not on github or requiring special queries on github - for example because of having 0 activity, comments, commits, issues, prs or authors)
 
@@ -276,7 +276,7 @@ Processed 7152 csets from 365 developers
 - Put results in: `data/data_libreoffice_git_20180701_20190701.csv` (authors, commits), values will probably be skipped by the updater tool (they are lower than current values gathered so far)
 - Issues (old approach):
 - Issue listing is here: `https://bugs.freedesktop.org/buglist.cgi?product=LibreOffice&query_format=specific&order=bug_id&limit=0`
-- Create account, change columns to "Opened" and "ID" as generaly no more is needed. (ID is a link). Sort by Opened desc and try to see all results. (You can hit nginx gateway timeout).
+- Create account, change columns to "Opened" and "ID" as generally no more is needed. (ID is a link). Sort by Opened desc and try to see all results. (You can hit nginx gateway timeout).
 - This URL succeeded for me: `https://bugs.documentfoundation.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&bug_status=NEEDINFO&columnlist=opendate&component=Android%20Viewer&component=Base&component=BASIC&component=Calc&component=Chart&component=ci-infra&component=contrib&component=deletionrequest&component=Documentation&component=Draw&component=Extensions&component=filters%20and%20storage&component=Formula%20Editor&component=framework&component=graphics%20stack&component=Impress&component=Installation&component=LibreOffice&component=Linguistic&component=Localization&component=Printing%20and%20PDF%20export&component=sdk&component=UI&component=ux-advise&component=Writer&component=Writer%20Web&component=WWW&limit=0&list_id=703831&order=opendate%20DESC%2Cchangeddate%2Cbug_id%20DESC&product=LibreOffice&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&resolution=NOTABUG&resolution=NOTOURBUG&resolution=INSUFFICIENTDATA`
 In the browser window, select rows in range, copy, paste into a text file and see row count. --- OR --- Download as csv to `data/data_libreoffice_bugs.csv`, and then count issues with given date range "2018-07-01" --> "2019-07-01" with `ruby count_issues.rb data/data_libreoffice_bugs.csv Opened '2018-07-01 00:00:00' '2019-07-01 00:00:00'`
 ```
@@ -293,7 +293,7 @@ Update `data/data_libreoffice_git_20180701_20190701.csv` accordingly.
 - New approach: Run `./run_bq.sh freebsd 2018-07-01 2019-07-01 || echo 'error'` to get FreeBSD data. It will generate `data/data_freebsd_projects_20180701_20190701.csv` file.
 - Run `ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20180701_20190701.csv`.
 - Use `BigQuery/org_finder.sql` (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
-- `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_projects20180701_20190701.csv` (if there aren't many rows, just Download as CSV, othervise: save as table, export to gstorage, download csv)
+- `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_projects20180701_20190701.csv` (if there aren't many rows, just Download as CSV, otherwise: save as table, export to gstorage, download csv)
 - Now define FreeBSD project the same way as in BigQuery: put orgs in `map/defmaps.csv`, put URL in `map/urls.csv`, put orgs as exceptions in `map/ranges.csv` and `map/ranges_sane.csv` (because some values can be 0s due to custom BigQuery)
 - Add FreeBSD processing to shells/unlimited:
 ```
@@ -326,8 +326,8 @@ Authors:      335
 
 ### Remove non-code projects
 
-Imporant:
-- Some projects are already defined in `map/skip.csv` but examine `projects/unlimited_both.csv` and remove documentation related projects etc (we want to track them to see changes, but we don not want them in the final report).
+Important:
+- Some projects are already defined in `map/skip.csv` but examine `projects/unlimited_both.csv` and remove documentation related projects etc (we want to track them to see changes, but we do not want them in the final report).
 - Example: MicrosoftDocs, TheOdinProject
 - We may also want to remove some full-orgs which aren't a single project, like: ibm, intel, hashicorp, mozilla - but finally you need to split out separate projects from them.
 
@@ -353,12 +353,12 @@ Chart with monthly data (that looks wrong IMHO due to google motion chart data i
 https://docs.google.com/spreadsheets/d/1ZgdIuMxxcyt8fo7xI1rMeFNNx9wx0AxS-2a58NlHtGc/edit?usp=sharing
 
 Playing around with the 1st chart (cumulative sum):
-It is not able to remember settings so once you click on "Chart1" scheet suggest action is to:
-- Change axis-x and axis-y from Lin (linerar) to Log (logarithmics)
+It is not able to remember settings so once you click on "Chart1" sheet suggest action is to:
+- Change axis-x and axis-y from Lin (linear) to Log (logarithmics)
 - You can choose what column should be used for color: like activity (this is default and shows which project was most active) or choose unique color (You can select from commits, prs+issues, size) (size is square root of number of authors)
 - Change playback speed (control next to play) to slowest
 - Select inerested projects from Legend (like Kubernetes for example or Kubernetes vs dotnet etc) and check "trails"
-- You can also change what x and y axisis use as data, defaults are: x=commits, y=pr+issues, and change scale type lin/log
+- You can also change what x and y axes are used as data, defaults are: x=commits, y=pr+issues, and change scale type lin/log
 - You can also change which column is used for bubble size (default is "size" which means square root of number of authors), note that the number of authors = max from all months (distinct authors that contributed to activity), this is obviously different from set of distinct authors activity in the entire 15 months range
 
 On the top/right just above the Color drop down you will see additional two chart types:
