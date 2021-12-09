@@ -683,6 +683,17 @@ jaegertracing/jaeger-performance
 jaegertracing/jaeger-ui
 jaegertracing/spark-dependencies
 jaegertracing/vertx-create-span
+k3s-io/cri
+k3s-io/helm-controller
+k3s-io/helm-set-status
+k3s-io/k3s
+k3s-io/k3s-ansible
+k3s-io/k3s-root
+k3s-io/k3s-selinux
+k3s-io/k3s-upgrade
+k3s-io/kine
+k3s-io/klipper-helm
+k3s-io/klipper-lb
 k8gb-io/artwork
 k8gb-io/community-operators
 k8gb-io/coredns-crd-plugin
@@ -1318,6 +1329,7 @@ nocalhost/nocalhost-web
 nocalhost/nocalhost.github.io
 nocalhost/remotecommand
 nocalhost/syncthing
+nocalhost/tkestack-charts
 nocalhost/validator
 oam-dev/catalog
 oam-dev/cluster-gateway
@@ -1901,6 +1913,7 @@ tikv/client-rust
 tikv/client-validator
 tikv/community
 tikv/copr-test
+tikv/crc64fast
 tikv/fail-rs
 tikv/grpc-rs
 tikv/importer
