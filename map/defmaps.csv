@@ -16,6 +16,7 @@ ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AthenZ,Athenz
 AusDTO,Digital Transformation Office
+Cardano-NFTs,CNFT.IO
 CartoDB,CARTO
 ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
@@ -59,8 +60,6 @@ Plailect/Guide,3DS Guide
 ResurrectionRemix,Resurrection Remix
 Software Package Data Exchange,SPDX
 TP-Lab,TokenPocket Lab
-Cardano-NFTs,CNFT.IO
-zurichat,Zuri Chat
 TarsCloud,TARS
 TheOdinProject,The Odin Project
 UIUCFreeBSD,FreeBSD
@@ -441,6 +440,7 @@ zendframework,Zend Framework
 zephyrproject-rtos,Zephyr
 zfsonfreebsd,FreeBSD
 zowe,Zowe
+zurichat,Zuri Chat
 # cloudfoundry,Cloud Foundry
 # cloudfoundry-attic,Cloud Foundry Attic
 # cloudfoundry-community,Cloud Foundry Community

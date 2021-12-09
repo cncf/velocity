@@ -300,7 +300,7 @@ Update `data/data_libreoffice_git_20180701_20190701.csv` accordingly.
 echo "Adding/Updating FreeBSD Projects"
 ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20180701_20190701.csv
 ```
-- Go to `~/dev/freebsd` and clone 3 SVN repos:
+- Go to `~/dev/freebsd` and clone 3 SVN repos (note that FreeBSD moved away from SVN 1/1/21):
 ```
 svn checkout https://svn.freebsd.org/base/head base
 svn checkout https://svn.freebsd.org/doc/head doc

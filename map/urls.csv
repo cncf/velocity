@@ -114,6 +114,7 @@ CHAOSS,chaoss.community
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
 CNCF,www.cncf.io
+CNFT.IO,cnft.io
 CNI,github.com/containernetworking
 CNI-Genie,cni-genie.io
 CORD,opencord.org
@@ -691,9 +692,6 @@ TensorFlow,tensorflow.org
 Terminal,github.com/microsoft/Terminal
 Terraform,terraform.io
 Texture,texturegroup.org
-TokenPocket Lab,tokenpocket.pro
-CNFT.io,cnft.io
-Zuri Chat,zuri.chat
 Thanos,thanos.io
 The Guardian,theguardian.com
 The Odin Project,theodinproject.com
@@ -707,6 +705,7 @@ TiKV,tikv.org
 Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
 Tinkerbell,tinkerbell.org
 Tizen,www.tizen.org
+TokenPocket Lab,tokenpocket.pro
 Toxiproxy,toxiproxy.io
 Train-Custom-Speech-Model,github.com/IBM/Train-Custom-Speech-Model
 Tremor,tremor.rs
@@ -786,6 +785,7 @@ Zalando,tech.zalando.com
 Zend Framework,framework.zend.com
 Zephyr,www.zephyrproject.org
 Zowe,zowe.org
+Zuri Chat,zuri.chat
 Zypper,en.opensuse.org/Portal:Zypper
 accessibility-insights-service,github.com/microsoft/accessibility-insights-service
 accessibility-insights-web,github.com/microsoft/accessibility-insights-web
