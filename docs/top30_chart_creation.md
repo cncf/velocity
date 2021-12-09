@@ -9,7 +9,7 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./top30_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1HLM5Ogq02nfWG_dNPsTy6IhIaFZiY6wwzLpOIHcbFuw/edit?usp=sharing).
 
 ### Chart data
 Before you begin, clone the cncf/gitdm repo as you will use it in addition to velocity.
