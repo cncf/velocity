@@ -7,8 +7,10 @@ select
   EXACT_COUNT_DISTINCT(sha) as commits,
   sum(issues) as issues,
   EXACT_COUNT_DISTINCT(author_email) as authors_alt2,
-  GROUP_CONCAT(STRING(author_name)) AS authors_alt1,
-  GROUP_CONCAT(STRING(author_email)) AS authors,
+  IF(LENGTH(CONCAT(GROUP_CONCAT(STRING(author_name)),GROUP_CONCAT(STRING(author_email))))>20000000,IF(SUBSTR(SUBSTR(GROUP_CONCAT(STRING(author_name)),1,10000000),-1,1)=',',SUBSTR(GROUP_CONCAT(STRING(author_name)), 1,9999999),SUBSTR(GROUP_CONCAT(STRING(author_name)),1,10000000)),GROUP_CONCAT(STRING(author_name))) as authors_alt1,
+  IF(LENGTH(CONCAT(GROUP_CONCAT(STRING(author_name)),GROUP_CONCAT(STRING(author_email))))>20000000,IF(SUBSTR(SUBSTR(GROUP_CONCAT(STRING(author_email)),1,10000000),-1,1)=',',SUBSTR(GROUP_CONCAT(STRING(author_email)),1,9999999),SUBSTR(GROUP_CONCAT(STRING(author_email)),1,10000000)),GROUP_CONCAT(STRING(author_email))) as authors,
+  -- GROUP_CONCAT(STRING(author_name)) AS authors_alt1,
+  -- GROUP_CONCAT(STRING(author_email)) AS authors,
   sum(pushes) as pushes
 from (
 SELECT
