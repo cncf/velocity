@@ -1,0 +1,101 @@
+Top projects by issues:
+1) Linux (kernel.org) issues: 29276
+2) dotnet (microsoft.com/net) issues: 15179
+3) VS Code (code.visualstudio.com) issues: 12725
+4) Elasticsearch (elastic.co/products/elasticsearch) issues: 9349
+5) Kubernetes (kubernetes.io) issues: 9042
+6) Apache Flink (flink.apache.org) issues: 7040
+7) Caseflow (va.gov) issues: 6596
+8) FreeBSD (freebsd.org) issues: 6385
+9) PaddlePaddle (paddlepaddle.org) issues: 6324
+10) Flutter (flutter.io) issues: 5989
+11) boostcampwm-2021 issues: 5920
+12) Home Assistant (home-assistant.io) issues: 4780
+13) Seagate issues: 4554
+14) bcgov issues: 4344
+15) Nextcloud (nextcloud.com) issues: 4263
+16) OpenTelemetry (opentelemetry.io) issues: 4146
+17) Spring (spring.io/projects) issues: 3916
+18) AdguardTeam issues: 3670
+19) Cockroach Labs (cockroachlabs.com) issues: 3611
+20) pytorch (pytorch.org) issues: 3547
+21) Zuri Chat (zuri.chat) issues: 3444
+22) Hyperledger (hyperledger.org) issues: 3408
+23) Rust (rust-lang.org) issues: 3393
+24) Apache Spark (spark.apache.org) issues: 3240
+25) rancher issues: 3202
+26) Brave Software (brave.com) issues: 3143
+27) Azure SDKs (azure.microsoft.com) issues: 3114
+28) Godot Engine (godotengine.org) issues: 3110
+29) vector-im issues: 3066
+30) PingCAP (github.com/pingcap) issues: 3046
+31) mozilla-mobile issues: 3046
+32) woowacourse-teams issues: 3036
+33) React (facebook.com) issues: 3031
+34) Eclipse (eclipse.org) issues: 3010
+35) woowa-techcamp-2021 issues: 2991
+36) Ant Design (ant.design) issues: 2906
+37) TensorFlow (tensorflow.org) issues: 2874
+38) ballerina-platform issues: 2843
+39) Terraform (terraform.io) issues: 2831
+40) Grafana Labs (grafana.com) issues: 2737
+41) O3DE (o3de.org) issues: 2737
+42) woocommerce issues: 2684
+43) Argo (argoproj.github.io) issues: 2646
+44) Google APIs (googleapis.github.io) issues: 2645
+45) InfluxData (influxdata.com) issues: 2613
+46) Tencent issues: 2572
+47) Apache Beam (beam.apache.org) issues: 2479
+48) Ansible (ansible.com) issues: 2467
+49) type-challenges issues: 2467
+50) Go (golang.org) issues: 2399
+51) opensearch-project issues: 2358
+52) wazuh issues: 2350
+53) NixOS (nixos.org) issues: 2287
+54) Dart (dartlang.org) issues: 2247
+55) NVIDIA issues: 2201
+56) open-mmlab issues: 2200
+57) WordPress issues: 2194
+58) PowerToys (github.com/microsoft/PowerToys) issues: 2167
+59) aws-amplify issues: 2092
+60) Automattic issues: 2084
+61) appsmithorg issues: 2083
+62) carbon-design-system issues: 2065
+63) ALAppExtensions (github.com/microsoft/ALAppExtensions) issues: 2034
+64) apache/incubator-inlong issues: 2020
+65) sourcegraph issues: 1998
+66) apache/shardingsphere issues: 1987
+67) Ethereum (ethereum.org) issues: 1947
+68) equinor issues: 1936
+69) milvus-io issues: 1918
+70) Node.js (nodejs.org) issues: 1914
+71) New Relic (opensource.newrelic.com) issues: 1902
+72) vercel issues: 1888
+73) WP Calypso (developer.wordpress.com/calypso) issues: 1863
+74) vuejs (vuejs.org) issues: 1842
+75) getsentry issues: 1819
+76) Zephyr (www.zephyrproject.org) issues: 1808
+77) Magma (magmacore.org) issues: 1796
+78) tachiyomiorg issues: 1788
+79) filecoin-project issues: 1774
+80) gnosis issues: 1771
+81) airbytehq issues: 1749
+82) espressif issues: 1683
+83) WSO2 (wso2.github.io) issues: 1683
+84) pulumi issues: 1670
+85) huggingface issues: 1644
+86) betagouv issues: 1624
+87) azerothcore issues: 1619
+88) quarkusio issues: 1602
+89) microsoftgraph issues: 1580
+90) Alibaba (alibaba.com) issues: 1576
+91) gRPC (grpc.io) issues: 1574
+92) vmware-tanzu issues: 1570
+93) gitpod-io issues: 1569
+94) CDCgov issues: 1544
+95) paritytech issues: 1538
+96) SAP issues: 1523
+97) ClickHouse issues: 1497
+98) prisma issues: 1481
+99) ChainSafe issues: 1464
+100) MetaMask issues: 1459

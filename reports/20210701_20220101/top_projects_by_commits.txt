@@ -1,0 +1,101 @@
+Top projects by commits:
+1) suttacentral commits: 65101
+2) dotnet (microsoft.com/net) commits: 47995
+3) Google APIs (googleapis.github.io) commits: 37708
+4) docker-library commits: 37043
+5) CMS Offline Software (cms-sw.github.io) commits: 35147
+6) RPMTW commits: 33228
+7) Homebrew (brew.sh) commits: 33001
+8) Elasticsearch (elastic.co/products/elasticsearch) commits: 30730
+9) tencentyun commits: 29983
+10) Datadog (datadog.com) commits: 29919
+11) Nextcloud (nextcloud.com) commits: 25683
+12) Linux (kernel.org) commits: 25012
+13) sourcegraph commits: 24532
+14) pytorch (pytorch.org) commits: 22205
+15) Odoo (odoo.com) commits: 21281
+16) Caseflow (va.gov) commits: 20549
+17) thoth-station commits: 20363
+18) Kubernetes (kubernetes.io) commits: 19549
+19) NixOS (nixos.org) commits: 19354
+20) betagouv commits: 18543
+21) React (facebook.com) commits: 17521
+22) CraftTweaker commits: 16589
+23) AdguardTeam commits: 16295
+24) CovidTrackerFr commits: 16141
+25) SocialGouv commits: 15584
+26) googlemaps commits: 15407
+27) TensorFlow (tensorflow.org) commits: 15138
+28) input-output-hk commits: 14987
+29) bitnami commits: 14968
+30) easylist commits: 14915
+31) getsentry commits: 14851
+32) OpenShift (openshift.com) commits: 14595
+33) paritytech commits: 14344
+34) COS301-SE-2021 commits: 13652
+35) leanprover-community commits: 13519
+36) Vitess (vitess.io) commits: 13459
+37) LLVM (llvm.org) commits: 13038
+38) Grafana Labs (grafana.com) commits: 12993
+39) qiskit-community commits: 12565
+40) OSUKED commits: 12353
+41) CovidEngine commits: 12349
+42) VS Code (code.visualstudio.com) commits: 11416
+43) conda-forge (conda-forge.org) commits: 11332
+44) boostcampwm-2021 commits: 11207
+45) SS13 (tgstation13.org) commits: 11067
+46) openZH commits: 10497
+47) New Relic (opensource.newrelic.com) commits: 10466
+48) InfluxData (influxdata.com) commits: 10388
+49) bcgov commits: 10316
+50) MegEngine commits: 10284
+51) ownCloud (oowncloud.org) commits: 10248
+52) prisma commits: 10074
+53) Azure SDKs (azure.microsoft.com) commits: 10072
+54) Skyrat-SS13 commits: 9901
+55) FreeBSD (freebsd.org) commits: 9864
+56) WordPress commits: 9778
+57) freesewing commits: 9658
+58) SAP commits: 9614
+59) woocommerce commits: 9331
+60) JuliaRegistries commits: 9281
+61) adobe commits: 9277
+62) ODOO (odoo-community.org) commits: 9174
+63) Status-Plus commits: 8883
+64) Oneflow-Inc commits: 8674
+65) Network Service Mesh (networkservicemesh.io) commits: 8656
+66) Home Assistant (home-assistant.io) commits: 8547
+67) CliMA commits: 8521
+68) ballerina-platform commits: 8415
+69) Zuri Chat (zuri.chat) commits: 8386
+70) gnosis commits: 8302
+71) os-autoinst commits: 8300
+72) PingCAP (github.com/pingcap) commits: 8293
+73) Automattic commits: 8079
+74) woowacourse-teams commits: 8026
+75) LCTT commits: 7987
+76) chatwoot commits: 7982
+77) PostHog commits: 7972
+78) woowa-techcamp-2021 commits: 7963
+79) microsoftgraph commits: 7905
+80) gbif commits: 7884
+81) elementary commits: 7831
+82) quarkusio commits: 7810
+83) status-im commits: 7772
+84) electron (electronjs.org) commits: 7728
+85) kotlin-graphics commits: 7722
+86) cagov commits: 7646
+87) PyTorchLightning commits: 7587
+88) rstudio commits: 7565
+89) phishfort commits: 7518
+90) WP Calypso (developer.wordpress.com/calypso) commits: 7493
+91) firebase commits: 7492
+92) jina-ai commits: 7479
+93) Eclipse (eclipse.org) commits: 7424
+94) Ethereum (ethereum.org) commits: 7420
+95) ChainSafe commits: 7295
+96) PaddlePaddle (paddlepaddle.org) commits: 7289
+97) aquasecurity commits: 7231
+98) Government Digital Service (gds.blog.gov.uk) commits: 7148
+99) Discord-Custom-Covers commits: 7111
+100) ROM-builders commits: 7106

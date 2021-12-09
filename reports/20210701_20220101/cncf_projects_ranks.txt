@@ -1,0 +1,1107 @@
+Akri:
+	#7308 by activity (643)
+	#12637 by authors (10)
+	#4651 by comments (405)
+	#11395 by commits (149)
+	#7059 by issues (50)
+	#4991 by prs (104)
+	#17677 by pushes (84)
+
+Antrea:
+	#389 by activity (9071)
+	#1743 by authors (47)
+	#200 by comments (7216)
+	#3833 by commits (489)
+	#1282 by issues (262)
+	#317 by prs (1095)
+	#4130 by pushes (518)
+
+Argo:
+	#119 by activity (19251)
+	#51 by authors (411)
+	#136 by comments (9494)
+	#285 by commits (3528)
+	#43 by issues (2646)
+	#45 by prs (3411)
+	#340 by pushes (3708)
+
+Artifact Hub:
+	#4644 by activity (1070)
+	#28099 by authors (5)
+	#10211 by comments (134)
+	#4658 by commits (405)
+	#3815 by issues (96)
+	#1303 by prs (374)
+	#4594 by pushes (466)
+
+Athenz:
+	#6467 by activity (741)
+	#6059 by authors (18)
+	#7557 by comments (211)
+	#8398 by commits (216)
+	#14984 by issues (18)
+	#1751 by prs (295)
+	#9181 by pushes (217)
+
+BFE:
+	#9068 by activity (494)
+	#4248 by authors (24)
+	#9123 by comments (159)
+	#14466 by commits (106)
+	#5223 by issues (70)
+	#3352 by prs (157)
+	#15035 by pushes (110)
+
+Backstage:
+	#210 by activity (14003)
+	#118 by authors (276)
+	#236 by comments (6651)
+	#182 by commits (4979)
+	#250 by issues (871)
+	#99 by prs (2218)
+	#291 by pushes (4264)
+
+Brigade:
+	#1501 by activity (3246)
+	#6690 by authors (17)
+	#1892 by comments (1137)
+	#1933 by commits (892)
+	#718 by issues (412)
+	#321 by prs (1081)
+	#3504 by pushes (616)
+
+Buildpacks:
+	#951 by activity (4734)
+	#1298 by authors (59)
+	#742 by comments (2629)
+	#1445 by commits (1131)
+	#1278 by issues (263)
+	#757 by prs (584)
+	#1562 by pushes (1258)
+
+CNCF:
+	#250 by activity (12431)
+	#33 by authors (532)
+	#319 by comments (5355)
+	#277 by commits (3612)
+	#189 by issues (996)
+	#92 by prs (2323)
+	#334 by pushes (3758)
+
+CNI:
+	#12183 by activity (335)
+	#8471 by authors (14)
+	#7565 by comments (211)
+	#25839 by commits (35)
+	#8427 by issues (40)
+	#7689 by prs (62)
+	#31110 by pushes (22)
+
+CNI-Genie:
+	#46422 by activity (8)
+	#47564 by authors (1)
+	#41580 by comments (3)
+	#46309 by commits (2)
+	#32262 by issues (4)
+	#47453 by prs (1)
+	#47918 by pushes (0)
+
+CRI-O:
+	#1709 by activity (2942)
+	#2549 by authors (35)
+	#1079 by comments (1949)
+	#2968 by commits (623)
+	#3106 by issues (117)
+	#2159 by prs (243)
+	#3368 by pushes (637)
+
+Chaos Mesh:
+	#924 by activity (4832)
+	#1457 by authors (54)
+	#618 by comments (3060)
+	#2321 by commits (778)
+	#1018 by issues (316)
+	#666 by prs (637)
+	#2579 by pushes (820)
+
+ChaosBlade:
+	#6313 by activity (763)
+	#3742 by authors (27)
+	#7578 by comments (210)
+	#10675 by commits (161)
+	#1855 by issues (191)
+	#2772 by prs (193)
+	#11113 by pushes (170)
+
+ChubaoFS:
+	#12159 by activity (336)
+	#5050 by authors (21)
+	#17055 by comments (52)
+	#13325 by commits (119)
+	#6906 by issues (51)
+	#3545 by prs (149)
+	#17651 by pushes (84)
+
+Cilium:
+	#164 by activity (16393)
+	#329 by authors (148)
+	#127 by comments (10092)
+	#341 by commits (3181)
+	#236 by issues (899)
+	#76 by prs (2577)
+	#509 by pushes (2832)
+
+Cloud Custodian:
+	#5493 by activity (896)
+	#3090 by authors (30)
+	#4335 by comments (442)
+	#15027 by commits (100)
+	#2287 by issues (156)
+	#2690 by prs (198)
+	#15955 by pushes (100)
+
+Cloud Deployment Kit for Kubernetes:
+	#2497 by activity (2100)
+	#5388 by authors (20)
+	#5976 by comments (292)
+	#1733 by commits (986)
+	#1673 by issues (208)
+	#804 by prs (554)
+	#1933 by pushes (1047)
+
+CloudEvents:
+	#3617 by activity (1408)
+	#1428 by authors (55)
+	#2585 by comments (813)
+	#11305 by commits (150)
+	#2310 by issues (154)
+	#1873 by prs (277)
+	#11414 by pushes (164)
+
+Contour:
+	#1955 by activity (2622)
+	#5712 by authors (19)
+	#1228 by comments (1730)
+	#8260 by commits (220)
+	#1397 by issues (244)
+	#1108 by prs (428)
+	#9071 by pushes (220)
+
+CoreDNS:
+	#3278 by activity (1561)
+	#1752 by authors (47)
+	#2449 by comments (866)
+	#8424 by commits (215)
+	#2691 by issues (134)
+	#1568 by prs (324)
+	#8536 by pushes (237)
+
+Cortex:
+	#2575 by activity (2026)
+	#1755 by authors (47)
+	#1930 by comments (1116)
+	#6730 by commits (276)
+	#1987 by issues (179)
+	#1374 by prs (357)
+	#5685 by pushes (374)
+
+Crossplane:
+	#1182 by activity (3977)
+	#1335 by authors (58)
+	#865 by comments (2331)
+	#1680 by commits (1008)
+	#567 by issues (487)
+	#497 by prs (790)
+	#5727 by pushes (371)
+
+Curiefense:
+	#3607 by activity (1413)
+	#3647 by authors (27)
+	#3272 by comments (621)
+	#6195 by commits (300)
+	#1891 by issues (188)
+	#1756 by prs (294)
+	#6735 by pushes (310)
+
+Dapr:
+	#314 by activity (10522)
+	#343 by authors (145)
+	#275 by comments (5948)
+	#1509 by commits (1095)
+	#111 by issues (1392)
+	#126 by prs (1956)
+	#1616 by pushes (1228)
+
+Dex:
+	#9757 by activity (452)
+	#7140 by authors (16)
+	#7582 by comments (210)
+	#16675 by commits (85)
+	#6279 by issues (57)
+	#5513 by prs (93)
+	#16786 by pushes (92)
+
+Distribution:
+	#8731 by activity (517)
+	#10660 by authors (11)
+	#5025 by comments (366)
+	#28457 by commits (27)
+	#5372 by issues (68)
+	#7413 by prs (65)
+	#32461 by pushes (19)
+
+Dragonfly:
+	#1560 by activity (3152)
+	#2430 by authors (37)
+	#4291 by comments (447)
+	#1061 by commits (1441)
+	#1165 by issues (284)
+	#431 by prs (865)
+	#1194 by pushes (1563)
+
+Emissary-ingress:
+	#2552 by activity (2047)
+	#5289 by authors (20)
+	#4586 by comments (412)
+	#1334 by commits (1216)
+	#3563 by issues (102)
+	#939 by prs (490)
+	#1941 by pushes (1044)
+
+Envoy:
+	#81 by activity (24778)
+	#109 by authors (294)
+	#55 by comments (15172)
+	#192 by commits (4771)
+	#147 by issues (1136)
+	#51 by prs (3268)
+	#231 by pushes (5203)
+
+Falco:
+	#781 by activity (5495)
+	#822 by authors (83)
+	#465 by comments (3820)
+	#2964 by commits (623)
+	#1307 by issues (259)
+	#519 by prs (768)
+	#3288 by pushes (652)
+
+Fluentd:
+	#501 by activity (7720)
+	#411 by authors (131)
+	#432 by comments (4109)
+	#561 by commits (2235)
+	#264 by issues (847)
+	#135 by prs (1845)
+	#2246 by pushes (920)
+
+Fluid:
+	#2992 by activity (1713)
+	#1434 by authors (54)
+	#3803 by comments (518)
+	#3660 by commits (513)
+	#1288 by issues (261)
+	#1148 by prs (418)
+	#4137 by pushes (517)
+
+Flux:
+	#467 by activity (8173)
+	#462 by authors (123)
+	#491 by comments (3674)
+	#321 by commits (3283)
+	#208 by issues (944)
+	#202 by prs (1475)
+	#800 by pushes (2086)
+
+Foniod:
+	#8358 by activity (543)
+	#14198 by authors (9)
+	#6088 by comments (286)
+	#11874 by commits (141)
+	#6308 by issues (57)
+	#5530 by prs (93)
+	#15343 by pushes (107)
+
+GitOps WG:
+	#28003 by activity (77)
+	#31124 by authors (4)
+	#17861 by comments (48)
+	#43670 by commits (3)
+	#22471 by issues (9)
+	#18374 by prs (17)
+	#43858 by pushes (3)
+
+Harbor:
+	#1049 by activity (4388)
+	#1087 by authors (67)
+	#896 by comments (2264)
+	#4746 by commits (397)
+	#215 by issues (929)
+	#484 by prs (806)
+	#5372 by pushes (399)
+
+Helm:
+	#1085 by activity (4245)
+	#740 by authors (89)
+	#675 by comments (2856)
+	#6619 by commits (280)
+	#341 by issues (692)
+	#1025 by prs (459)
+	#8492 by pushes (238)
+
+Inclavare Containers:
+	#4236 by activity (1189)
+	#8200 by authors (14)
+	#3259 by comments (624)
+	#8692 by commits (208)
+	#1935 by issues (184)
+	#1979 by prs (263)
+	#14392 by pushes (118)
+
+Jaeger:
+	#1365 by activity (3513)
+	#673 by authors (94)
+	#1083 by comments (1938)
+	#5052 by commits (372)
+	#859 by issues (358)
+	#638 by prs (665)
+	#3898 by pushes (552)
+
+K3s:
+	#910 by activity (4869)
+	#1807 by authors (46)
+	#741 by comments (2632)
+	#4569 by commits (411)
+	#210 by issues (941)
+	#426 by prs (885)
+	#5206 by pushes (411)
+
+K8GB:
+	#3716 by activity (1370)
+	#7582 by authors (15)
+	#4165 by comments (462)
+	#3668 by commits (512)
+	#5699 by issues (64)
+	#1740 by prs (297)
+	#3935 by pushes (547)
+
+K8up:
+	#3704 by activity (1375)
+	#6190 by authors (18)
+	#6042 by comments (288)
+	#4875 by commits (387)
+	#5354 by issues (68)
+	#3890 by prs (135)
+	#2341 by pushes (885)
+
+KEDA:
+	#1114 by activity (4159)
+	#969 by authors (72)
+	#827 by comments (2433)
+	#3720 by commits (504)
+	#848 by issues (361)
+	#513 by prs (775)
+	#3639 by pushes (590)
+
+Karmada:
+	#1177 by activity (3985)
+	#1207 by authors (62)
+	#601 by comments (3111)
+	#4634 by commits (406)
+	#2147 by issues (166)
+	#1244 by prs (389)
+	#6549 by pushes (320)
+
+Keptn:
+	#533 by activity (7484)
+	#1699 by authors (48)
+	#1541 by comments (1391)
+	#371 by commits (2980)
+	#217 by issues (924)
+	#163 by prs (1685)
+	#383 by pushes (3494)
+
+Keylime:
+	#4998 by activity (993)
+	#5003 by authors (21)
+	#3576 by comments (555)
+	#9393 by commits (190)
+	#3117 by issues (117)
+	#2448 by prs (217)
+	#15579 by pushes (104)
+
+Krator:
+	#19953 by activity (154)
+	#23727 by authors (5)
+	#18013 by comments (47)
+	#27535 by commits (30)
+	#8015 by issues (43)
+	#12264 by prs (33)
+	#27943 by pushes (31)
+
+Krustlet:
+	#30337 by activity (63)
+	#26372 by authors (5)
+	#19433 by comments (40)
+	#18109 by commits (74)
+	#26555 by issues (6)
+	#21763 by prs (12)
+	#41694 by pushes (5)
+
+Kube-OVN:
+	#5112 by activity (971)
+	#5628 by authors (19)
+	#9943 by comments (139)
+	#2374 by commits (767)
+	#7640 by issues (45)
+	#1341 by prs (366)
+	#5062 by pushes (423)
+
+KubeArmor:
+	#2325 by activity (2244)
+	#2110 by authors (41)
+	#3112 by comments (663)
+	#1130 by commits (1387)
+	#1447 by issues (236)
+	#589 by prs (704)
+	#3342 by pushes (641)
+
+KubeDL:
+	#41200 by activity (21)
+	#39443 by authors (3)
+	#33797 by comments (8)
+	#26379 by commits (34)
+	#38659 by issues (2)
+	#31593 by prs (5)
+	#41271 by pushes (6)
+
+KubeEdge:
+	#854 by activity (5085)
+	#1014 by authors (70)
+	#479 by comments (3744)
+	#3765 by commits (499)
+	#820 by issues (372)
+	#668 by prs (636)
+	#6134 by pushes (344)
+
+KubeVela:
+	#810 by activity (5319)
+	#1185 by authors (63)
+	#872 by comments (2312)
+	#1731 by commits (986)
+	#713 by issues (414)
+	#175 by prs (1598)
+	#2055 by pushes (998)
+
+KubeVirt:
+	#105 by activity (21217)
+	#379 by authors (138)
+	#47 by comments (15961)
+	#120 by commits (6515)
+	#934 by issues (337)
+	#111 by prs (2053)
+	#498 by pushes (2875)
+
+Kuberhealthy:
+	#17710 by activity (189)
+	#7633 by authors (15)
+	#16071 by comments (59)
+	#23024 by commits (46)
+	#9626 by issues (34)
+	#12618 by prs (31)
+	#20339 by pushes (65)
+
+Kubernetes:
+	#6 by activity (174094)
+	#2 by authors (2083)
+	#3 by comments (134050)
+	#18 by commits (19549)
+	#5 by issues (9042)
+	#4 by prs (16505)
+	#41 by pushes (14542)
+
+Kudo:
+	#21773 by activity (131)
+	#12900 by authors (10)
+	#16931 by comments (53)
+	#29667 by commits (24)
+	#14144 by issues (20)
+	#12192 by prs (33)
+	#29970 by pushes (25)
+
+Kuma:
+	#807 by activity (5335)
+	#1855 by authors (45)
+	#1195 by comments (1778)
+	#1284 by commits (1250)
+	#482 by issues (547)
+	#182 by prs (1563)
+	#1312 by pushes (1456)
+
+Kyverno:
+	#776 by activity (5509)
+	#836 by authors (81)
+	#570 by comments (3265)
+	#2196 by commits (810)
+	#298 by issues (776)
+	#458 by prs (831)
+	#3358 by pushes (638)
+
+Linkerd:
+	#672 by activity (6193)
+	#968 by authors (72)
+	#925 by comments (2193)
+	#742 by commits (1849)
+	#835 by issues (368)
+	#213 by prs (1441)
+	#746 by pushes (2191)
+
+LitmusChaos:
+	#916 by activity (4851)
+	#739 by authors (89)
+	#1082 by comments (1942)
+	#1336 by commits (1215)
+	#995 by issues (323)
+	#243 by prs (1352)
+	#1605 by pushes (1235)
+
+Longhorn:
+	#583 by activity (6950)
+	#2268 by authors (39)
+	#451 by comments (3978)
+	#1170 by commits (1350)
+	#302 by issues (773)
+	#224 by prs (1393)
+	#2615 by pushes (809)
+
+Meshery:
+	#37648 by activity (31)
+	#21533 by authors (6)
+	#33261 by comments (8)
+	#322 by commits (3280)
+	#33038 by issues (3)
+	#23457 by prs (10)
+	#37678 by pushes (10)
+
+MetalLB:
+	#1711 by activity (2939)
+	#2999 by authors (31)
+	#901 by comments (2252)
+	#6244 by commits (297)
+	#3287 by issues (111)
+	#1264 by prs (383)
+	#10082 by pushes (194)
+
+Metal³:
+	#470 by activity (8083)
+	#1546 by authors (52)
+	#219 by comments (6912)
+	#3074 by commits (605)
+	#5970 by issues (60)
+	#809 by prs (548)
+	#3726 by pushes (576)
+
+NATS:
+	#416 by activity (8566)
+	#433 by authors (127)
+	#486 by comments (3690)
+	#631 by commits (2075)
+	#275 by issues (819)
+	#137 by prs (1830)
+	#728 by pushes (2228)
+
+Network Service Mesh:
+	#104 by activity (21288)
+	#3890 by authors (26)
+	#1003 by comments (2066)
+	#65 by commits (8656)
+	#856 by issues (359)
+	#22 by prs (5801)
+	#47 by pushes (13062)
+
+Nocalhost:
+	#952 by activity (4733)
+	#1675 by authors (49)
+	#10391 by comments (129)
+	#444 by commits (2646)
+	#9790 by issues (33)
+	#179 by prs (1583)
+	#471 by pushes (3003)
+
+Notary:
+	#29470 by activity (68)
+	#30373 by authors (4)
+	#16738 by comments (55)
+	#39785 by commits (7)
+	#33763 by issues (3)
+	#27529 by prs (7)
+	#43822 by pushes (3)
+
+OCI:
+	#1444 by activity (3348)
+	#1548 by authors (52)
+	#706 by comments (2762)
+	#7755 by commits (237)
+	#2690 by issues (134)
+	#1176 by prs (409)
+	#8306 by pushes (244)
+
+OPA:
+	#707 by activity (5945)
+	#577 by authors (104)
+	#492 by comments (3674)
+	#3509 by commits (534)
+	#333 by issues (706)
+	#348 by prs (1015)
+	#3897 by pushes (552)
+
+ORAS:
+	#4301 by activity (1170)
+	#3526 by authors (28)
+	#2947 by comments (706)
+	#13680 by commits (115)
+	#3210 by issues (114)
+	#2326 by prs (227)
+	#13972 by pushes (123)
+
+Open Cluster Management:
+	#92 by activity (22908)
+	#181 by authors (214)
+	#149 by comments (8772)
+	#106 by commits (7017)
+	#1021 by issues (315)
+	#27 by prs (5040)
+	#95 by pushes (8797)
+
+Open Service Mesh:
+	#1164 by activity (4017)
+	#2025 by authors (42)
+	#1075 by comments (1952)
+	#3295 by commits (568)
+	#950 by issues (333)
+	#296 by prs (1147)
+	#3666 by pushes (585)
+
+OpenEBS:
+	#373 by activity (9347)
+	#536 by authors (111)
+	#344 by comments (4982)
+	#392 by commits (2851)
+	#588 by issues (477)
+	#161 by prs (1690)
+	#743 by pushes (2198)
+
+OpenELB:
+	#27210 by activity (82)
+	#13144 by authors (9)
+	#18912 by comments (42)
+	#30458 by commits (22)
+	#21901 by issues (9)
+	#17478 by prs (18)
+	#35631 by pushes (13)
+
+OpenKruise:
+	#3564 by activity (1432)
+	#4456 by authors (23)
+	#2139 by comments (1000)
+	#10096 by commits (173)
+	#4503 by issues (81)
+	#2417 by prs (220)
+	#13355 by pushes (131)
+
+OpenMetrics:
+	#27201 by activity (82)
+	#10487 by authors (11)
+	#20765 by comments (34)
+	#35151 by commits (13)
+	#18946 by issues (12)
+	#15181 by prs (23)
+	#35618 by pushes (13)
+
+OpenTelemetry:
+	#25 by activity (52953)
+	#31 by authors (548)
+	#15 by comments (30912)
+	#109 by commits (6791)
+	#16 by issues (4146)
+	#10 by prs (10481)
+	#132 by pushes (7421)
+
+OpenTracing:
+	#26395 by activity (88)
+	#16985 by authors (8)
+	#23525 by comments (25)
+	#34579 by commits (14)
+	#12981 by issues (23)
+	#14197 by prs (26)
+	#35075 by pushes (14)
+
+OpenYurt:
+	#2521 by activity (2078)
+	#1487 by authors (53)
+	#1489 by comments (1437)
+	#9347 by commits (191)
+	#1712 by issues (204)
+	#2137 by prs (245)
+	#10139 by pushes (192)
+
+Operator Framework:
+	#499 by activity (7745)
+	#441 by authors (126)
+	#340 by comments (5032)
+	#2180 by commits (814)
+	#548 by issues (501)
+	#242 by prs (1354)
+	#2440 by pushes (858)
+
+PARSEC:
+	#2629 by activity (1984)
+	#4339 by authors (24)
+	#1793 by comments (1195)
+	#4981 by commits (378)
+	#2576 by issues (140)
+	#1100 by prs (431)
+	#9101 by pushes (219)
+
+Piraeus-Datastore:
+	#10232 by activity (426)
+	#12974 by authors (10)
+	#7771 by comments (203)
+	#16106 by commits (90)
+	#7412 by issues (47)
+	#5384 by prs (96)
+	#18180 by pushes (80)
+
+Pixie:
+	#2250 by activity (2305)
+	#2932 by authors (32)
+	#4736 by comments (397)
+	#1050 by commits (1452)
+	#3345 by issues (109)
+	#1372 by prs (358)
+	#1326 by pushes (1442)
+
+Porter:
+	#4926 by activity (1007)
+	#5753 by authors (19)
+	#3711 by comments (532)
+	#8149 by commits (223)
+	#2639 by issues (137)
+	#2329 by prs (227)
+	#14968 by pushes (111)
+
+Pravega:
+	#833 by activity (5196)
+	#1171 by authors (64)
+	#805 by comments (2478)
+	#2133 by commits (827)
+	#213 by issues (932)
+	#415 by prs (903)
+	#2347 by pushes (883)
+
+Prometheus:
+	#326 by activity (10336)
+	#171 by authors (222)
+	#267 by comments (6136)
+	#1478 by commits (1113)
+	#179 by issues (1024)
+	#130 by prs (1918)
+	#1559 by pushes (1259)
+
+Rook:
+	#514 by activity (7634)
+	#1657 by authors (49)
+	#324 by comments (5279)
+	#1535 by commits (1084)
+	#521 by issues (522)
+	#338 by prs (1034)
+	#2649 by pushes (800)
+
+SMI:
+	#8612 by activity (525)
+	#6214 by authors (18)
+	#8239 by comments (186)
+	#8293 by commits (219)
+	#7928 by issues (43)
+	#9896 by prs (44)
+	#8093 by pushes (252)
+
+SchemaHero:
+	#10246 by activity (425)
+	#9188 by authors (13)
+	#13512 by comments (82)
+	#11446 by commits (148)
+	#7536 by issues (46)
+	#5518 by prs (93)
+	#9680 by pushes (204)
+
+Serverless Workflow:
+	#5075 by activity (978)
+	#12818 by authors (10)
+	#4971 by comments (371)
+	#9838 by commits (179)
+	#4914 by issues (75)
+	#1428 by prs (348)
+	#10514 by pushes (184)
+
+Service Mesh Performance:
+	#6727 by activity (709)
+	#2797 by authors (33)
+	#4835 by comments (384)
+	#6084 by commits (306)
+	#3906 by issues (93)
+	#4922 by prs (105)
+	#13655 by pushes (127)
+
+Skooner:
+	#25038 by activity (99)
+	#20170 by authors (6)
+	#19845 by comments (38)
+	#27859 by commits (29)
+	#11945 by issues (26)
+	#15765 by prs (22)
+	#35707 by pushes (13)
+
+Spiffe:
+	#7536 by activity (621)
+	#5894 by authors (19)
+	#5068 by comments (361)
+	#7108 by commits (260)
+	#8792 by issues (38)
+	#4275 by prs (122)
+	#15962 by pushes (100)
+
+Spinnaker:
+	#6087 by activity (793)
+	#2328 by authors (38)
+	#3637 by comments (542)
+	#16778 by commits (84)
+	#3319 by issues (110)
+	#4620 by prs (112)
+	#17645 by pushes (84)
+
+Spire:
+	#2951 by activity (1742)
+	#3235 by authors (29)
+	#1942 by comments (1110)
+	#11184 by commits (152)
+	#2328 by issues (153)
+	#1552 by prs (327)
+	#12065 by pushes (152)
+
+Strimzi:
+	#645 by activity (6355)
+	#1412 by authors (55)
+	#395 by comments (4423)
+	#2201 by commits (808)
+	#1120 by issues (293)
+	#461 by prs (827)
+	#2610 by pushes (812)
+
+Submariner:
+	#969 by activity (4688)
+	#1922 by authors (44)
+	#1544 by comments (1390)
+	#1266 by commits (1266)
+	#1236 by issues (269)
+	#304 by prs (1124)
+	#905 by pushes (1906)
+
+SuperEdge:
+	#11828 by activity (350)
+	#4200 by authors (24)
+	#16495 by comments (56)
+	#17112 by commits (81)
+	#10835 by issues (29)
+	#2893 by prs (184)
+	#18031 by pushes (81)
+
+TUF:
+	#1861 by activity (2750)
+	#3193 by authors (30)
+	#1027 by comments (2028)
+	#5885 by commits (317)
+	#1483 by issues (232)
+	#1578 by prs (323)
+	#11018 by pushes (172)
+
+Telepresence:
+	#1111 by activity (4167)
+	#3454 by authors (28)
+	#1668 by comments (1284)
+	#590 by commits (2146)
+	#557 by issues (495)
+	#608 by prs (689)
+	#1068 by pushes (1699)
+
+Thanos:
+	#1483 by activity (3271)
+	#804 by authors (84)
+	#946 by comments (2156)
+	#6542 by commits (284)
+	#1008 by issues (318)
+	#903 by prs (506)
+	#7175 by pushes (292)
+
+TiKV:
+	#184 by activity (14900)
+	#291 by authors (159)
+	#117 by comments (10467)
+	#1292 by commits (1245)
+	#212 by issues (933)
+	#96 by prs (2253)
+	#1563 by pushes (1257)
+
+Tinkerbell:
+	#2324 by activity (2244)
+	#1644 by authors (50)
+	#1862 by comments (1151)
+	#2959 by commits (624)
+	#2456 by issues (145)
+	#790 by prs (559)
+	#5481 by pushes (390)
+
+Tremor:
+	#716 by activity (5873)
+	#2724 by authors (34)
+	#3001 by comments (689)
+	#183 by commits (4905)
+	#2126 by issues (168)
+	#815 by prs (546)
+	#274 by pushes (4470)
+
+Trickster:
+	#26343 by activity (89)
+	#34271 by authors (4)
+	#24074 by comments (24)
+	#29910 by commits (24)
+	#12748 by issues (24)
+	#18407 by prs (17)
+	#30600 by pushes (24)
+
+VS Code Kubernetes Tools:
+	#13914 by activity (277)
+	#15149 by authors (8)
+	#8641 by comments (174)
+	#35185 by commits (13)
+	#5560 by issues (66)
+	#14889 by prs (24)
+	#35651 by pushes (13)
+
+Vineyard:
+	#4686 by activity (1059)
+	#5935 by authors (18)
+	#7401 by comments (218)
+	#4804 by commits (393)
+	#3409 by issues (107)
+	#1470 by prs (341)
+	#5448 by pushes (393)
+
+Virtual Kubelet:
+	#13690 by activity (284)
+	#9412 by authors (13)
+	#10658 by comments (124)
+	#19241 by commits (66)
+	#10353 by issues (31)
+	#8000 by prs (59)
+	#19536 by pushes (70)
+
+Vitess:
+	#140 by activity (17712)
+	#1184 by authors (63)
+	#821 by comments (2447)
+	#36 by commits (13459)
+	#537 by issues (509)
+	#262 by prs (1270)
+	#44 by pushes (13486)
+
+Volcano:
+	#2702 by activity (1928)
+	#2233 by authors (39)
+	#1565 by comments (1374)
+	#8919 by commits (201)
+	#1737 by issues (202)
+	#2369 by prs (223)
+	#13436 by pushes (130)
+
+WasmEdge Runtime:
+	#2002 by activity (2559)
+	#3105 by authors (30)
+	#2180 by comments (980)
+	#3329 by commits (562)
+	#550 by issues (501)
+	#1383 by prs (355)
+	#2891 by pushes (738)
+
+cert-manager:
+	#852 by activity (5106)
+	#1019 by authors (70)
+	#457 by comments (3879)
+	#1342 by commits (1211)
+	#1262 by issues (265)
+	#917 by prs (498)
+	#4609 by pushes (464)
+
+containerd:
+	#584 by activity (6925)
+	#488 by authors (118)
+	#417 by comments (4237)
+	#1907 by commits (901)
+	#514 by issues (527)
+	#198 by prs (1491)
+	#3191 by pushes (670)
+
+etcd:
+	#1714 by activity (2935)
+	#1060 by authors (68)
+	#1149 by comments (1840)
+	#6416 by commits (289)
+	#1002 by issues (320)
+	#928 by prs (492)
+	#7260 by pushes (288)
+
+gRPC:
+	#120 by activity (19156)
+	#131 by authors (250)
+	#103 by comments (11161)
+	#610 by commits (2108)
+	#91 by issues (1574)
+	#35 by prs (4286)
+	#770 by pushes (2137)
+
+in-toto:
+	#4972 by activity (998)
+	#3174 by authors (30)
+	#3091 by comments (668)
+	#8960 by commits (200)
+	#6250 by issues (57)
+	#3584 by prs (147)
+	#13723 by pushes (126)
+
+kube-rs:
+	#3285 by activity (1557)
+	#6639 by authors (17)
+	#2434 by comments (871)
+	#5243 by commits (360)
+	#3092 by issues (118)
+	#2930 by prs (182)
+	#5537 by pushes (386)
+
+kube-vip:
+	#10034 by activity (436)
+	#7057 by authors (16)
+	#7739 by comments (204)
+	#16787 by commits (84)
+	#4403 by issues (83)
+	#5675 by prs (90)
+	#21350 by pushes (59)
+
+wasmCloud:
+	#1308 by activity (3659)
+	#2731 by authors (34)
+	#1754 by comments (1224)
+	#1455 by commits (1125)
+	#590 by issues (476)
+	#499 by prs (789)
+	#1714 by pushes (1170)
+
