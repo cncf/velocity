@@ -97,7 +97,7 @@ If you generated CNCF data just before generating LF data, then you already have
 - `ruby update_projects.rb projects/projects_lf_20180701_20190701.csv data/data_cncf_update_2018-07-01_2019-07-01.csv -1`.
 - You can also use `PROJFMT=1 ruby update_projects.rb projects/projects_lf_20180701_20190701.csv ./projects/projects_cncf_20190201_20200201.csv -1` instead.
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1gNxnUjGB6P1RZMngdZWao2OqQvNl3D6yf5DWMWU218M/edit?usp=sharing).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1NrHGwd2RUgWlP3_14les2uejfwOJ5qjzspaHrMrS-0w/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A200.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
