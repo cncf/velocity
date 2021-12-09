@@ -1,101 +1,101 @@
 Top projects by comments:
-1) Linux (kernel.org) comments: 210229
-2) Kubernetes (kubernetes.io) comments: 200873
-3) Elasticsearch (elastic.co/products/elasticsearch) comments: 168647
-4) dotnet (microsoft.com/net) comments: 150464
-5) OpenShift (openshift.com) comments: 122333
-6) Rust (rust-lang.org) comments: 93091
-7) NixOS (nixos.org) comments: 81193
-8) FreeBSD (freebsd.org) comments: 73100
-9) Flutter (flutter.io) comments: 63972
-10) pytorch (pytorch.org) comments: 62924
-11) Home Assistant (home-assistant.io) comments: 61799
-12) Azure SDKs (azure.microsoft.com) comments: 50719
-13) PingCAP (github.com/pingcap) comments: 49819
-14) Nextcloud (nextcloud.com) comments: 42089
-15) TensorFlow (tensorflow.org) comments: 39802
-16) OpenTelemetry (opentelemetry.io) comments: 38884
-17) Ansible (ansible.com) comments: 36097
-18) CMS Offline Software (cms-sw.github.io) comments: 35215
-19) conda-forge (conda-forge.org) comments: 34848
-20) Odoo (odoo.com) comments: 34294
-21) SS13 (tgstation13.org) comments: 34268
-22) Caseflow (va.gov) comments: 34132
-23) Google APIs (googleapis.github.io) comments: 33319
-24) Cockroach Labs (cockroachlabs.com) comments: 32842
-25) getsentry comments: 32280
-26) oppia comments: 31516
-27) Godot Engine (godotengine.org) comments: 31188
-28) React (facebook.com) comments: 30928
-29) WordPress comments: 30235
-30) Homebrew (brew.sh) comments: 29518
-31) PaddlePaddle (paddlepaddle.org) comments: 29137
-32) Zephyr (www.zephyrproject.org) comments: 28530
-33) Datadog (datadog.com) comments: 28257
-34) Grafana Labs (grafana.com) comments: 28056
-35) openvinotoolkit comments: 28048
-36) Eclipse (eclipse.org) comments: 27433
-37) NVIDIA comments: 26385
-38) paritytech comments: 26080
-39) Envoy (www.envoyproxy.io) comments: 25398
-40) Ethereum (ethereum.org) comments: 24232
-41) ODOO (odoo-community.org) comments: 23881
-42) Node.js (nodejs.org) comments: 23504
-43) Terraform (terraform.io) comments: 23362
-44) containers comments: 23274
-45) KubeVirt (kubevirt.io) comments: 23227
-46) quarkusio comments: 22315
-47) istio comments: 21937
-48) InfluxData (influxdata.com) comments: 21891
-49) Joomla (joomla.org) comments: 21725
-50) rapidsai comments: 21456
-51) VS Code (code.visualstudio.com) comments: 21362
-52) AdguardTeam comments: 21217
-53) Magento (magento.com/home) comments: 21209
-54) microsoftgraph comments: 21024
-55) Dart (dartlang.org) comments: 21011
-56) WP Calypso (developer.wordpress.com/calypso) comments: 20947
-57) xamarin comments: 20072
-58) aws-amplify comments: 19924
-59) PyTorchLightning comments: 19915
-60) Mattermost (mattermost.org) comments: 19674
-61) input-output-hk comments: 19496
-62) huggingface comments: 19419
-63) OpenSSL (openssl.org) comments: 19041
-64) pandas-dev comments: 18961
-65) Seagate comments: 18520
-66) Go (golang.org) comments: 18392
-67) aws/aws-cdk comments: 18311
-68) leanprover-community comments: 18292
-69) PrestaShop comments: 18086
-70) GitHub (github.com) comments: 17969
-71) woocommerce comments: 17870
-72) kubeflow comments: 17807
-73) firebase comments: 17452
-74) Symfony (symfony.com) comments: 17427
-75) rancher comments: 17294
-76) bcgov comments: 17240
-77) ppy comments: 16935
-78) ownCloud (oowncloud.org) comments: 16914
-79) Material-UI (material-ui.com) comments: 16639
-80) thoth-station comments: 16530
-81) ballerina-platform comments: 16219
-82) ClickHouse comments: 16144
-83) Angular (angular.io) comments: 15971
-84) open-mmlab comments: 15847
-85) cilium comments: 15840
-86) vercel comments: 15667
-87) trinodb comments: 15662
-88) AMP (ampproject.org) comments: 15611
-89) Automattic comments: 15512
-90) ray-project comments: 15494
-91) scylladb comments: 15481
-92) mozilla-mobile comments: 15465
-93) corona-warn-app comments: 15432
-94) kiegroup comments: 15266
-95) bitcoin comments: 15265
-96) conan-io comments: 15195
-97) Spring (spring.io/projects) comments: 15041
-98) Expensify.cash (expensify.cash) comments: 14987
-99) sourcegraph comments: 14781
-100) Knative (knative.dev) comments: 14511
+1) Linux (kernel.org) comments: 387191
+2) Kubernetes (kubernetes.io) comments: 333437
+3) Elasticsearch (elastic.co/products/elasticsearch) comments: 302972
+4) dotnet (microsoft.com/net) comments: 271186
+5) OpenShift (openshift.com) comments: 238232
+6) Rust (rust-lang.org) comments: 156110
+7) VS Code (code.visualstudio.com) comments: 152161
+8) NixOS (nixos.org) comments: 136299
+9) Home Assistant (home-assistant.io) comments: 113158
+10) pytorch (pytorch.org) comments: 105534
+11) Flutter (flutter.io) comments: 99869
+12) PingCAP (github.com/pingcap) comments: 93734
+13) Azure SDKs (azure.microsoft.com) comments: 82188
+14) conda-forge (conda-forge.org) comments: 69659
+15) OpenTelemetry (opentelemetry.io) comments: 69587
+16) Nextcloud (nextcloud.com) comments: 69403
+17) CMS Offline Software (cms-sw.github.io) comments: 68867
+18) Odoo (odoo.com) comments: 64862
+19) TensorFlow (tensorflow.org) comments: 61031
+20) PaddlePaddle (paddlepaddle.org) comments: 58261
+21) Godot Engine (godotengine.org) comments: 57978
+22) Ansible (ansible.com) comments: 57680
+23) Google APIs (googleapis.github.io) comments: 57168
+24) Caseflow (va.gov) comments: 56614
+25) SS13 (tgstation13.org) comments: 56523
+26) Cockroach Labs (cockroachlabs.com) comments: 55982
+27) React (facebook.com) comments: 55535
+28) WordPress comments: 53405
+29) getsentry comments: 52892
+30) Datadog (datadog.com) comments: 52766
+31) Grafana Labs (grafana.com) comments: 51615
+32) openvinotoolkit comments: 50281
+33) oppia comments: 49408
+34) Zephyr (www.zephyrproject.org) comments: 48872
+35) Homebrew (brew.sh) comments: 47389
+36) NVIDIA comments: 46021
+37) paritytech comments: 45686
+38) containers comments: 44828
+39) Ethereum (ethereum.org) comments: 43629
+40) Eclipse (eclipse.org) comments: 41656
+41) ODOO (odoo-community.org) comments: 40881
+42) Envoy (www.envoyproxy.io) comments: 40455
+43) Node.js (nodejs.org) comments: 40222
+44) KubeVirt (kubevirt.io) comments: 39020
+45) InfluxData (influxdata.com) comments: 38809
+46) Mattermost (mattermost.org) comments: 38476
+47) quarkusio comments: 37517
+48) aws-amplify comments: 37140
+49) Terraform (terraform.io) comments: 36643
+50) WP Calypso (developer.wordpress.com/calypso) comments: 36324
+51) Magento (magento.com/home) comments: 35203
+52) PyTorchLightning comments: 35078
+53) microsoftgraph comments: 34680
+54) AdguardTeam comments: 34549
+55) rapidsai comments: 34360
+56) Joomla (joomla.org) comments: 34298
+57) input-output-hk comments: 34065
+58) istio comments: 33975
+59) Dart (dartlang.org) comments: 33964
+60) rancher comments: 33270
+61) woocommerce comments: 32961
+62) huggingface comments: 32763
+63) aws/aws-cdk comments: 32583
+64) ray-project comments: 32415
+65) leanprover-community comments: 32326
+66) bcgov comments: 32244
+67) xamarin comments: 32014
+68) ownCloud (oowncloud.org) comments: 31303
+69) open-mmlab comments: 31294
+70) pandas-dev comments: 31041
+71) Go (golang.org) comments: 30926
+72) Seagate comments: 30500
+73) firebase comments: 30239
+74) vercel comments: 29726
+75) ppy comments: 29521
+76) Material-UI (material-ui.com) comments: 29492
+77) thoth-station comments: 29418
+78) mozilla-mobile comments: 29255
+79) sourcegraph comments: 29045
+80) PrestaShop comments: 28867
+81) ClickHouse comments: 28765
+82) Hyperledger (hyperledger.org) comments: 28500
+83) Symfony (symfony.com) comments: 28421
+84) conan-io comments: 28111
+85) trinodb comments: 27998
+86) kubeflow comments: 27704
+87) ballerina-platform comments: 27554
+88) matrix-org comments: 27340
+89) apache/airflow comments: 27339
+90) Automattic comments: 27311
+91) next-step comments: 27152
+92) scylladb comments: 26920
+93) bitcoin comments: 26791
+94) girlscript comments: 26272
+95) Cilium (cilium.io) comments: 26087
+96) kiegroup comments: 25777
+97) gnosis comments: 25520
+98) Angular (angular.io) comments: 25430
+99) apache/arrow comments: 25284
+100) KhronosGroup comments: 25164
