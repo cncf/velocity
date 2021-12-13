@@ -666,7 +666,7 @@ Spatie,spatie.be/open-source
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spiffe,spiffe.io
-Spinnaker,www.spinnaker.io
+Spinnaker,spinnaker.io
 Spire,spiffe.io
 Spontanizer,spartan.org.il
 Spotify,spotify.github.io
@@ -1005,6 +1005,7 @@ rkt,github.com/rkt/rkt
 rushstack,github.com/microsoft/rushstack
 sccache,github.com/mozilla/sccache
 science.mozilla.org,science.mozilla.org
+sigstore,sigstore.dev
 sops,github.com/mozilla/sops
 sparklyr,github.com/sparklyr
 spring-cloud-alibaba,github.com/alibaba/spring-cloud-alibaba

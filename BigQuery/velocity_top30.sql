@@ -48,7 +48,7 @@ WHERE
       and actor.login not like '%-jenkins'
       and actor.login not like '%-testing'
       and actor.login not like 'codecov-%'
-      and actor.login not in (
+      and LOWER(actor.login) not in (
         'cf mega bot','capi ci','cf buildpacks team ci server','ci pool resource','i am groot ci','ci (automated)',
         'loggregator ci','ci (automated)','ci bot','cf-infra-bot','ci','cf-loggregator','bot','cf infrastructure bot',
         'cf garden','container networking bot','routing ci (automated)','cf-identity','bosh ci','cf loggregator ci pipeline',
