@@ -138,11 +138,5 @@ WHERE
 GROUP BY org, repo, author_email, author_name, sha
 )
 GROUP BY org, repo
-HAVING 
-  authors_alt2 > 5
-  AND comments > 50
-  AND prs > 10
-  AND commits > 10
-  AND issues > 10
 ORDER BY activity DESC
 ;
