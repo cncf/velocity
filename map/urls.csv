@@ -721,6 +721,7 @@ TypeScript,typescriptlang.org
 TypeScript-Node-Starter,github.com/microsoft/TypeScript-Node-Starter
 TypeScript-Website,github.com/microsoft/TypeScript-Website
 TypeScript-wiki,github.com/microsoft/TypeScript-wiki
+Unikraft,unikraft.org
 US Extractive Industries Data,useiti.doi.gov
 US Web Design Standards,standards.usa.gov
 Uber Open Source,uber.github.io
@@ -777,6 +778,7 @@ WordPress-mobile,make.wordpress.org/mobile
 XAMPP,apachefriends.org
 XX-net,github.com/XX-net/XX-Net
 Xaml-Controls-Gallery,github.com/microsoft/Xaml-Controls-Gallery
+Xen,xenproject.org
 YAMS,github.com/Microsoft/Yams
 YAPF,github.com/google/yapf
 Yoast SEO,yoast.com/wordpress/seo
@@ -1055,7 +1057,6 @@ wil,github.com/microsoft/wil
 workload-collocation-agent,github.com/intel/workload-collocation-agent
 worldofbalance,github.com/worldofbalance
 x-deeplearning,github.com/alibaba/x-deeplearning
-xen,www.xenproject.org
 xlang,github.com/microsoft/xlang
 yarn,yarnpkg.com
 zowe-cli-cics-deploy-plugin,github.com/IBM/zowe-cli-cics-deploy-plugin
