@@ -735,7 +735,7 @@ VMware SDKs,vmware.com
 VMware Xenon,github.com/vmware/xenon
 VMware vSphere,vmware.github.io/vic
 VS Code,code.visualstudio.com
-VS Code Kubernetes Tools,github.com/Azure/vscode-kubernetes-tools
+VS Code Kubernetes Tools,github.com/vscode-kubernetes-tools/vscode-kubernetes-tools
 Vagrant,vagrantup.com
 Vault,vaultproject.io
 Vineyard,v6d.io

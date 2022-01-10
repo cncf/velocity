@@ -61,7 +61,7 @@ WHERE
       'automotive-grade-linux', 'sodafoundation', 'riscv', 'projectacrn', 'danos', 'ceph', 'lfph', 'unikraft',
       'reactivefoundation', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb', 'karmada-io', 'superedge', 'cilium',
       'dapr', 'open-cluster-management-io', 'open-cluster-management', 'nocalhost', 'kubearmor', 'k8up-io',
-      'kube-rs', 'k3s-io', 'o3de', 'symphonyoss', 'sigstore'
+      'kube-rs', 'k3s-io', 'o3de', 'symphonyoss', 'sigstore', 'vscode-kubernetes-tools'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
