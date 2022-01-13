@@ -52,7 +52,7 @@ where
       'layer5io', 'oam-dev', 'kube-vip', 'service-mesh-performance', 'krator-rs', 'oras-project',
       'wasmCloud', 'wascc', 'wascaruntime', 'waxosuit', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb',
       'karmada-io', 'superedge', 'cilium', 'project-akri', 'dapr', 'open-cluster-management-io',
-      'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs', 'k3s-io', 'vscode-kubernetes-tools'
+      'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs', 'k3s-io', 'vscode-kubernetes-tools', 'devfile'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -82,7 +82,7 @@ where
       'deislabs/akri', 'danderson/metallb', 'google/metallb', 'alibaba/inclavare-containers',
       'noironetworks/cilium-net', 'kubesphere/openelb', 'kubesphere/porterlb', 'kubesphere/porter',
       'Azure/vscode-kubernetes-tools', 'accuknox/KubeArmor', 'vshn/k8up', 'clux/kube-rs',
-      'clux/kubernetes-rust'
+      'clux/kubernetes-rust', 'che-incubator/devworkspace-api'
     )
   )
   and repo.name not in (
