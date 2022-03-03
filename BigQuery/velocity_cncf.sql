@@ -53,7 +53,7 @@ where
       'wasmCloud', 'wascc', 'wascaruntime', 'waxosuit', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb',
       'karmada-io', 'superedge', 'cilium', 'project-akri', 'dapr', 'open-cluster-management-io',
       'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs', 'k3s-io', 'vscode-kubernetes-tools', 'devfile',
-      'meshery'
+      'meshery', 'knative', 'knative-sandbox'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
