@@ -1,1 +1,0 @@
-/root/dev/go/src/github.com/cncf/devstats/util_sql/exclude_bots.sql
