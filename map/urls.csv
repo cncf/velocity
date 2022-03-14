@@ -158,6 +158,7 @@ CodePush,codepush.tools
 ComputerVision,github.com/microsoft/ComputerVision
 Computing for Computer Scientists,c4cs.github.io
 Concourse,concourse-ci.org
+Confidential Containers,github.com/confidential-containers
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
 Contour,projectcontour.io
@@ -226,6 +227,7 @@ FHIR,github.com/IBM/FHIR
 FINOS,finos.org
 FINOS Symphony,finosfoundation.atlassian.net/wiki/spaces/SYM/overview
 FOSSology,www.fossology.org
+FabEdge,www.fabedge.io
 Facebook Container,github.com/mozilla/contain-facebook
 Falco,falco.org
 Federalist,federalist.18f.gov

@@ -25,6 +25,7 @@ CleverRaven,Cataclysm-DDA
 Cloud Native Computing Foundation,CNCF
 Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
+FabEdge,FabEdge
 FreeBSD-Ask,FreeBSD
 FreeBSD-UPB,FreeBSD
 FreeBSDDesktop,FreeBSD
@@ -133,6 +134,7 @@ codeaurora-unofficial,Code Aurora
 codecombat,CodeCombat
 concourse,Concourse
 conda-forge,conda-forge
+confidential-containers,Confidential Containers
 containernetworking,CNI
 coredns,CoreDNS
 coreos,CoreOS
