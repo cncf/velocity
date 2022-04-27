@@ -53,7 +53,7 @@ where
       'wasmCloud', 'wascc', 'wascaruntime', 'waxosuit', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb',
       'karmada-io', 'superedge', 'cilium', 'project-akri', 'dapr', 'open-cluster-management-io',
       'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs', 'k3s-io', 'vscode-kubernetes-tools', 'devfile',
-      'meshery', 'knative', 'knative-sandbox', 'FabEdge', 'confidential-containers'
+      'meshery', 'knative', 'knative-sandbox', 'FabEdge', 'confidential-containers', 'OpenFunction'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -83,7 +83,8 @@ where
       'deislabs/akri', 'danderson/metallb', 'google/metallb', 'alibaba/inclavare-containers',
       'noironetworks/cilium-net', 'kubesphere/openelb', 'kubesphere/porterlb', 'kubesphere/porter',
       'Azure/vscode-kubernetes-tools', 'accuknox/KubeArmor', 'vshn/k8up', 'clux/kube-rs',
-      'clux/kubernetes-rust', 'che-incubator/devworkspace-api'
+      'clux/kubernetes-rust', 'che-incubator/devworkspace-api', 'alibaba/sealer', 'SpectralOps/teller',
+      'SpectralOps/helm-teller', 'SpectralOps/setup-teller-action'
     )
   )
   and repo.name not in (

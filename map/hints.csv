@@ -449,6 +449,9 @@ Shopify/shopify_app,Shopify App
 Shopify/themekit,Theme Kit
 Shopify/toxiproxy,Toxiproxy
 SpartanRefactoring/Spartanizer,Spontanizer
+SpectralOps/teller,Teller
+SpectralOps/helm-teller,Teller
+SpectralOps/setup-teller-action,Teller
 accuknox/KubeArmor,KubeArmor
 airbnb/caravel,Superset
 airbnb/enzyme,Enzyme
@@ -504,6 +507,7 @@ alibaba/p3c,p3c
 alibaba/pont,pont
 alibaba/pouch,PouchContainer
 alibaba/rax,Rax
+alibaba/sealer,sealer
 alibaba/spring-cloud-alibaba,spring-cloud-alibaba
 alibaba/tengine,tengine
 alibaba/uform,uform

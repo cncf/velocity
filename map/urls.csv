@@ -511,6 +511,7 @@ OpenDaylight,www.opendaylight.org
 OpenEBS,openebs.io
 OpenELB,openelb.github.io
 OpenFaaS,openfaas.com
+OpenFunction,openfunction.dev
 OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
 OpenKruise,openkruise.io
@@ -692,6 +693,7 @@ TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
 Tekton,tekton.dev
 Telepresence,telepresence.io
 Telerik,telerik.com
+Teller,tlr.dev
 TensorFlow,tensorflow.org
 Terminal,github.com/microsoft/Terminal
 Terraform,terraform.io
@@ -1010,6 +1012,7 @@ rkt,github.com/rkt/rkt
 rushstack,github.com/microsoft/rushstack
 sccache,github.com/mozilla/sccache
 science.mozilla.org,science.mozilla.org
+sealer,sealer.cool
 sigstore,sigstore.dev
 sops,github.com/mozilla/sops
 sparklyr,github.com/sparklyr
