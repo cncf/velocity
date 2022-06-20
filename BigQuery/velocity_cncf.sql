@@ -54,6 +54,8 @@ where
       'karmada-io', 'superedge', 'cilium', 'project-akri', 'dapr', 'open-cluster-management-io',
       'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs', 'k3s-io', 'vscode-kubernetes-tools', 'devfile',
       'meshery', 'knative', 'knative-sandbox', 'FabEdge', 'confidential-containers', 'OpenFunction'
+      'clusterpedia-io', 'kubecost', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature',
+      'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -84,7 +86,7 @@ where
       'noironetworks/cilium-net', 'kubesphere/openelb', 'kubesphere/porterlb', 'kubesphere/porter',
       'Azure/vscode-kubernetes-tools', 'accuknox/KubeArmor', 'vshn/k8up', 'clux/kube-rs',
       'clux/kubernetes-rust', 'che-incubator/devworkspace-api', 'alibaba/sealer', 'SpectralOps/teller',
-      'SpectralOps/helm-teller', 'SpectralOps/setup-teller-action'
+      'SpectralOps/helm-teller', 'SpectralOps/setup-teller-action', 'merico-dev/stream', 'merico-dev/OpenStream'
     )
   )
   and repo.name not in (
