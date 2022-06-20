@@ -10,6 +10,7 @@ project,url
 A11y,onosproject.org
 ACE,microsoft.github.io/ace
 ACE Mod,acemod.com
+Aeraki Mesh,aeraki.net
 AGL,www.automotivelinux.org
 AI,github.com/microsoft/AI
 AIF360,github.com/IBM/AIF360
@@ -149,6 +150,7 @@ Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud Hypervisor,github.com/cloud-hypervisor/cloud-hypervisor
 Cloud.gov,github.com/18F/cg-product
 CloudEvents,cloudevents.io
+Clusterpedia,clusterpedia.io
 Cockroach Labs,cockroachlabs.com
 Cocos2d-js,cocos2d-x.org
 Cocos2d-x,cocos2d-x.org
@@ -169,6 +171,7 @@ Corsica,corsica.mozilla.io
 Cortex,github.com/cortexproject
 Crossplane,crossplane.io
 Curiefense,curiefense.io
+Curve,opencurve.io
 CyanogenMod,cyanogenmod.com
 DANOS,danosproject.org
 DLWorkspace,github.com/microsoft/DLWorkspace
@@ -183,6 +186,7 @@ DeepSpeech,github.com/mozilla/DeepSpeech
 DefinitelyTyped,definitelytyped.org
 Deno,deno.land
 Dex,github.com/dexidp
+DevStream,devstream.io
 Devfile,github.com/devfile
 Digital Transformation Office,dta.gov.au
 DirectX,microsoft.com/en-us/download/search.aspx?q=directx
@@ -507,10 +511,12 @@ Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
 Open vSwitch,openvswitch.org
 OpenBMP,gitter.im/openbmp
+OpenCost,kubecost.com
 OpenDaylight,www.opendaylight.org
 OpenEBS,openebs.io
 OpenELB,openelb.github.io
 OpenFaaS,openfaas.com
+OpenFeature,openfeature.dev
 OpenFunction,openfunction.dev
 OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
@@ -939,6 +945,7 @@ jvm-sandbox,github.com/alibaba/jvm-sandbox
 k8dash,skooner.io
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
+kubewarden,kubewarden.io
 kube-rs,docs.rs/kube
 kube-vip,kube-vip.io
 landcover,github.com/microsoft/landcover

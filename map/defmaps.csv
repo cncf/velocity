@@ -4,6 +4,8 @@ name,project
 Azure,=SKIP
 GoogleCloudPlatform,=SKIP
 Microsoft,=SKIP
+aeraki-mesh,Aeraki Mesh
+aeraki-framework,Aeraki Mesh
 apache,=SKIP
 aws,=SKIP
 google,=SKIP
@@ -115,6 +117,7 @@ chaos-mesh,Chaos Mesh
 chaosblade-io,ChaosBlade
 chaoss,CHAOSS
 chef,Chef
+chimera-kube,kubewarden
 chrome-enhanced-history,Chromium
 chromium,Chromium
 chromiumify,Chromium
@@ -127,6 +130,7 @@ cloudfoundry-attic,Cloud Foundry
 cloudfoundry-community,Cloud Foundry
 cloudfoundry-incubator,Cloud Foundry
 cloudfoundry-samples,Cloud Foundry
+clusterpedia-io,Clusterpedia
 cms-sw,CMS Offline Software
 cncf,CNCF
 cni-genie,CNI-Genie
@@ -154,6 +158,7 @@ denoland,Deno
 department-of-veterans-affairs,Caseflow
 dexidp,Dex
 devfile,Devfile
+devstream-io,DevStream
 distribution,Distribution
 dmlc,DMLC
 docker,Docker
@@ -238,6 +243,7 @@ kruiseio,OpenKruise
 kube-rs,kube-rs
 kube-vip,kube-vip
 kubearmor,KubeArmor
+kubecost,OpenCost
 kubeedge,KubeEdge
 kubeovn,Kube-OVN
 kuberhealthy,Kuberhealthy
@@ -260,6 +266,7 @@ kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubevirt,KubeVirt
+kubewarden,kubewarden
 kudobuilder,Kudo
 kumahq,Kuma
 kyverno,Kyverno
@@ -311,14 +318,17 @@ onap,ONAP
 onnx,Open Neural Network Exchange
 open-cluster-management-io,Open Cluster Management
 open-faas,OpenFaaS
+open-feature,OpenFeature
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
 openbmp,OpenBMP
 opencontainers,OCI
 opencord,CORD
+opencurve,Curve
 openebs,OpenEBS
 openeventing,CloudEvents
 openfaas,OpenFaaS
+openfeatureflags,OpenFeature
 openhab,openHAB
 openkruise,OpenKruise
 openmainframeproject,Open Mainframe
