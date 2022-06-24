@@ -244,6 +244,7 @@ kube-rs,kube-rs
 kube-vip,kube-vip
 kubearmor,KubeArmor
 kubecost,OpenCost
+kubedl-io,KubeDL
 kubeedge,KubeEdge
 kubeovn,Kube-OVN
 kuberhealthy,Kuberhealthy
