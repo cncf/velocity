@@ -55,7 +55,7 @@ where
       'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs', 'k3s-io', 'vscode-kubernetes-tools', 'devfile',
       'meshery', 'knative', 'knative-sandbox', 'FabEdge', 'confidential-containers', 'OpenFunction'
       'clusterpedia-io', 'kubecost', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature',
-      'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io'
+      'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
