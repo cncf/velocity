@@ -120,6 +120,7 @@ GoogleCloudPlatform/kubernetes-workshops,Kubernetes
 GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/php-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
+G-Research/armada,Armada
 HaliteChallenge/Halite,Halite
 Huawei-PaaS/CNI-Genie,CNI-Genie
 IBM/AIF360,AIF360
@@ -865,6 +866,7 @@ fluxcd/gitops-working-group,GitOps WG
 fnhub/katacoda-scenarios,Oracle Fn
 fossology/fossology,FOSSology
 fpco/stackage,Hackage
+fusor/mig-operator,Konveyor
 github.com/tpm2-software/tpm2-tools,Intel TPM
 github/VisualStudio,GitHub Extension for Visual Studio
 github/backup-utils,GitHub Enterprise Backup Utilities

@@ -74,6 +74,7 @@ Apollo GraphQL,apollographql.com
 Application-Insights-Workbooks,github.com/microsoft/Application-Insights-Workbooks
 ArduPilot,ardupilot.org
 Argo,argoproj.github.io
+Armada,armadaproject.io
 Arthas,alibaba.github.io/arthas
 Artifact Hub,artifacthub.io
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
@@ -224,6 +225,7 @@ Esri,esri.com
 Ethereum,ethereum.org
 Expensify Bedrock,bedrockdb.com
 Expensify.cash,expensify.cash
+External Secrets Operator,external-secrets.io
 FASTER,github.com/microsoft/FASTER
 FBI Crime Data Explorer,github.com/18F/crime-data-explorer
 FD.io,fd.io
@@ -302,6 +304,7 @@ Harbor,goharbor.io
 Hashicorp Packer,packer.io
 Helm,helm.sh
 Heron,heronstreaming.io
+Hexa Policy Orchestrator,hexaorchestration.org
 HippieStationCode,github.com/HippieStationCode/HippieStation13
 Home Assistant,home-assistant.io
 Homebrew,brew.sh
@@ -353,6 +356,7 @@ Keylime,keylime.dev
 Ki Foundation,foundation.ki
 Kinetic Open Storage,www.openkinetic.org
 Knative,knative.dev
+Konveyor,konveyor.io
 Krator,docs.rs/krator
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org

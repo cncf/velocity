@@ -176,6 +176,7 @@ envoyproxy,Envoy
 etcd-io,etcd
 ethcore,Parity
 ethereum,Ethereum
+external-secrets,External Secrets Operator
 fabric8io,fabric8
 facebook,React
 falcosecurity,Falco
@@ -212,6 +213,7 @@ grpc,gRPC
 grpc-ecosystem,gRPC
 guardian,The Guardian
 helm,Helm
+hexa-org,Hexa Policy Orchestrator
 home-assistant,Home Assistant
 horovod,Horovod
 hyperledger,Hyperledger
@@ -238,6 +240,7 @@ keptn,Keptn
 keybase,Keybase
 keylime,Keylime
 knative,Knative
+konveyor,Konveyor
 krator-rs,Krator
 kruiseio,OpenKruise
 kube-rs,kube-rs
