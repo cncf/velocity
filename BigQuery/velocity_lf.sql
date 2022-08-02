@@ -64,7 +64,7 @@ WHERE
       'symphonyoss', 'sigstore', 'vscode-kubernetes-tools', 'devfile', 'meshery', 'knative', 'knative-sandbox',
       'FabEdge', 'confidential-containers', 'OpenFunction', 'clusterpedia-io', 'kubecost', 'aeraki-mesh',
       'aeraki-framewoirk', 'opencurve', 'open-feature', 'openfeatureflags', 'kubewarden', 'chimera-kube',
-      'devstream-io', 'kubedl-io', 'kubevela'
+      'devstream-io', 'kubedl-io', 'kubevela', 'hexa-org', 'konveyor', 'external-secrets'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -96,7 +96,8 @@ WHERE
       'noironetworks/cilium-net', 'kubesphere/openelb', 'kubesphere/porterlb', 'kubesphere/porter',
       'Azure/vscode-kubernetes-tools', 'accuknox/KubeArmor', 'vshn/k8up', 'clux/kube-rs', 'clux/kubernetes-rust',
       'che-incubator/devworkspace-api', 'alibaba/sealer', 'SpectralOps/teller', 'SpectralOps/helm-teller',
-      'SpectralOps/setup-teller-action', 'merico-dev/stream', 'merico-dev/OpenStream'
+      'SpectralOps/setup-teller-action', 'merico-dev/stream', 'merico-dev/OpenStream', 'fusor/mig-operator',
+      'G-Research/armada'
     )
   )
   and repo.name not in (
