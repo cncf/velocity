@@ -34,7 +34,7 @@ Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects
 
 Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
 
-- Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2019-02-01 2020-02-01`.
+- Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2019-02-01 2020-02-01`. This takes hours to complete.
 - Download update: `wget https://teststats.cncf.io/backups/data_cncf_update_2019-02-01_2020-02-01.csv`. `mv data_cncf_update_2019-02-01_2020-02-01.csv data/`.
 - `ruby update_projects.rb projects/projects_cncf_20190201_20200201.csv data/data_cncf_update_2019-02-01_2020-02-01.csv -1`.
 
