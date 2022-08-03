@@ -10,7 +10,6 @@ project,url
 A11y,onosproject.org
 ACE,microsoft.github.io/ace
 ACE Mod,acemod.com
-Aeraki Mesh,aeraki.net
 AGL,www.automotivelinux.org
 AI,github.com/microsoft/AI
 AIF360,github.com/IBM/AIF360
@@ -30,6 +29,7 @@ Acumos,acumos.org
 AdaptiveCards,github.com/microsoft/AdaptiveCards
 Addons-Server,addons.mozilla.org
 Adlik,adlik.ai
+Aeraki Mesh,aeraki.net
 AirSim,github.com/Microsoft/AirSim
 Airflow,airflow.incubator.apache.org
 Akka,akka.io
@@ -186,9 +186,9 @@ Datadog,datadog.com
 DeepSpeech,github.com/mozilla/DeepSpeech
 DefinitelyTyped,definitelytyped.org
 Deno,deno.land
-Dex,github.com/dexidp
 DevStream,devstream.io
 Devfile,github.com/devfile
+Dex,github.com/dexidp
 Digital Transformation Office,dta.gov.au
 DirectX,microsoft.com/en-us/download/search.aspx?q=directx
 DirectX-Specs,github.com/microsoft/DirectX-Specs
@@ -949,9 +949,9 @@ jvm-sandbox,github.com/alibaba/jvm-sandbox
 k8dash,skooner.io
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
-kubewarden,kubewarden.io
 kube-rs,docs.rs/kube
 kube-vip,kube-vip.io
+kubewarden,kubewarden.io
 landcover,github.com/microsoft/landcover
 language-server-protocol,github.com/microsoft/language-server-protocol
 ledmon,github.com/intel/ledmon

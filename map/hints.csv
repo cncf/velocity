@@ -86,6 +86,7 @@ EnMasseProject/barnabas,Strimzi
 Expensify/Bedrock,Expensify Bedrock
 Expensify/Expensify.cash,Expensify.cash
 Expensify/react-native-onyx,React-Native-Onyx
+G-Research/armada,Armada
 GoogleChrome/lighthouse,Chromium
 GoogleCloudPlatform/DataflowJavaSDK,Google Cloud SDKs
 GoogleCloudPlatform/DataflowPythonSDK,Google Cloud SDKs
@@ -120,7 +121,6 @@ GoogleCloudPlatform/kubernetes-workshops,Kubernetes
 GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/php-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
-G-Research/armada,Armada
 HaliteChallenge/Halite,Halite
 Huawei-PaaS/CNI-Genie,CNI-Genie
 IBM/AIF360,AIF360
@@ -450,9 +450,9 @@ Shopify/shopify_app,Shopify App
 Shopify/themekit,Theme Kit
 Shopify/toxiproxy,Toxiproxy
 SpartanRefactoring/Spartanizer,Spontanizer
-SpectralOps/teller,Teller
 SpectralOps/helm-teller,Teller
 SpectralOps/setup-teller-action,Teller
+SpectralOps/teller,Teller
 accuknox/KubeArmor,KubeArmor
 airbnb/caravel,Superset
 airbnb/enzyme,Enzyme
@@ -630,8 +630,8 @@ baidu/bfe,BFE
 brunopulis/awesome-a11y,A11y
 callemall/material-ui,Material-UI
 capitalone/cloud-custodian,Cloud Custodian
-cheyang/fluid,Fluid
 che-incubator/devworkspace-api,Devfile
+cheyang/fluid,Fluid
 cip-project/board-at-desk-single-dev,Civil Infrastructure Platform
 cip-project/cip-kernel-sec,Civil Infrastructure Platform
 cip-project/cip-kernelci,Civil Infrastructure Platform
@@ -1073,8 +1073,8 @@ maestrosdk/frameworks,Kudo
 maestrosdk/maestro,Kudo
 mamedev/mame,MAME
 markfisher/sk8s,Pivotal Riff
-merico-dev/stream,DevStream
 merico-dev/OpenStream,DevStream
+merico-dev/stream,DevStream
 microsoft/25-days-of-serverless,25-days-of-serverless
 microsoft/AI,AI
 microsoft/AL,Dynamics NAV

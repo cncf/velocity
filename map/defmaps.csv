@@ -4,8 +4,6 @@ name,project
 Azure,=SKIP
 GoogleCloudPlatform,=SKIP
 Microsoft,=SKIP
-aeraki-mesh,Aeraki Mesh
-aeraki-framework,Aeraki Mesh
 apache,=SKIP
 aws,=SKIP
 google,=SKIP
@@ -74,6 +72,8 @@ Yoast,Yoast SEO
 Zephyr Project,Zephyr
 acemod,ACE Mod
 acumos,Acumos
+aeraki-framework,Aeraki Mesh
+aeraki-mesh,Aeraki Mesh
 akka,Akka
 alibaba,Alibaba
 alphagov,Government Digital Service
@@ -156,9 +156,9 @@ dapr,Dapr
 dart-lang,Dart
 denoland,Deno
 department-of-veterans-affairs,Caseflow
-dexidp,Dex
 devfile,Devfile
 devstream-io,DevStream
+dexidp,Dex
 distribution,Distribution
 dmlc,DMLC
 docker,Docker
@@ -240,6 +240,7 @@ keptn,Keptn
 keybase,Keybase
 keylime,Keylime
 knative,Knative
+knative-sandbox,Knative
 konveyor,Konveyor
 krator-rs,Krator
 kruiseio,OpenKruise
@@ -269,8 +270,8 @@ kubernetes-sig-testing,Kubernetes
 kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
-kubevirt,KubeVirt
 kubevela,KubeVela
+kubevirt,KubeVirt
 kubewarden,kubewarden
 kudobuilder,Kudo
 kumahq,Kuma
