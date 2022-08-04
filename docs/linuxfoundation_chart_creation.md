@@ -9,7 +9,7 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./linuxfoundation_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1dCe99AyOEhQhuEyhwIn_P2thVtjQXF1cGFiLo8fhZZM/edit#gid=134798507).
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1z7UMEA6VBKNSrsJp2gAVX3IEUYusjWlz7uoybhXYE3s/edit?usp=sharing).
 
 ### Chart data
 Go to this [CNCF page](https://www.linuxfoundation.org/projects/) to find a list of current projects.
@@ -97,7 +97,7 @@ If you generated CNCF data just before generating LF data, then you already have
 - `ruby update_projects.rb projects/projects_lf_20180701_20190701.csv data/data_cncf_update_2018-07-01_2019-07-01.csv -1`.
 - You can also use `PROJFMT=1 ruby update_projects.rb projects/projects_lf_20180701_20190701.csv ./projects/projects_cncf_20190201_20200201.csv -1` instead.
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1NrHGwd2RUgWlP3_14les2uejfwOJ5qjzspaHrMrS-0w/edit?usp=sharing).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1z7UMEA6VBKNSrsJp2gAVX3IEUYusjWlz7uoybhXYE3s/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A200.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
