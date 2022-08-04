@@ -56,7 +56,7 @@ where
       'meshery', 'knative', 'knative-sandbox', 'FabEdge', 'confidential-containers', 'OpenFunction',
       'clusterpedia-io', 'kubecost', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature',
       'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela',
-      'hexa-org', 'konveyor', 'external-secrets'
+      'hexa-org', 'konveyor', 'external-secrets', 'krustlet'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 

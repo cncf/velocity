@@ -64,7 +64,7 @@ WHERE
       'symphonyoss', 'sigstore', 'vscode-kubernetes-tools', 'devfile', 'meshery', 'knative', 'knative-sandbox',
       'FabEdge', 'confidential-containers', 'OpenFunction', 'clusterpedia-io', 'kubecost', 'aeraki-mesh',
       'aeraki-framewoirk', 'opencurve', 'open-feature', 'openfeatureflags', 'kubewarden', 'chimera-kube',
-      'devstream-io', 'kubedl-io', 'kubevela', 'hexa-org', 'konveyor', 'external-secrets'
+      'devstream-io', 'kubedl-io', 'kubevela', 'hexa-org', 'konveyor', 'external-secrets', 'krustlet'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
