@@ -15,7 +15,7 @@ The chart itself can be generated in a [google sheet](https://docs.google.com/sp
 Before you begin, clone the cncf/gitdm repo as you will use it in addition to velocity.
 
 #### In short
-To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
+To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets/d/1bQ8hLa34RTeFlRCIZLQekw3hrjWygJhPmPwnWPeTq8A/edit?usp=sharing).
 
 - Fetch all necessary data using BigQuery or use data already fetched present in this repo.
 - If fetched new BigQuery data then re-run the special projects BigQuery analysis scripts: `./shells`: `run_apache.sh`, `run_chrome_chromium.sh`, `run_cncf.sh`, `run_openstack.sh`.
