@@ -25,6 +25,7 @@ CleverRaven,Cataclysm-DDA
 Cloud Native Computing Foundation,CNCF
 Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
+DefiLlama,DefiLlama
 FabEdge,FabEdge
 FreeBSD-Ask,FreeBSD
 FreeBSD-UPB,FreeBSD
@@ -144,6 +145,7 @@ containernetworking,CNI
 coredns,CoreDNS
 coreos,CoreOS
 cortexproject,Cortex
+cosmostation,Cosmostation
 cregit/cregit,cregit
 cri-o,CRI-O
 crosscloudci,CNCF
@@ -216,6 +218,7 @@ helm,Helm
 hexa-org,Hexa Policy Orchestrator
 home-assistant,Home Assistant
 horovod,Horovod
+huggingface,Hugging Face
 hyperledger,Hyperledger
 hyperledger-labs,Hyperledger
 in-toto,in-toto
@@ -439,6 +442,7 @@ twitter,Twitter
 uber,Uber Open Source
 unikraft,Unikraft
 v6d-io,Vineyard
+vercel,Vercel
 vgstation-coders,vgstation13
 virtual-kubelet,Virtual Kubelet
 vitessio,Vitess

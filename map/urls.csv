@@ -71,6 +71,7 @@ Apache Traffic Server,trafficserver.apache.org
 Apache Trafodion,git.apache.org/incubator-trafodion.git
 Apache Zeppelin,zeppelin.apache.org
 Apollo GraphQL,apollographql.com
+Apple LLVM,llvm.org
 Application-Insights-Workbooks,github.com/microsoft/Application-Insights-Workbooks
 ArduPilot,ardupilot.org
 Argo,argoproj.github.io
@@ -170,6 +171,7 @@ CoreDNS,coredns.io
 CoreOS,coreos.com
 Corsica,corsica.mozilla.io
 Cortex,github.com/cortexproject
+Cosmostation,cosmostation.io
 Crossplane,crossplane.io
 Curiefense,curiefense.io
 Curve,opencurve.io
@@ -184,6 +186,7 @@ Dapr,dapr.io
 Dart,dartlang.org
 Datadog,datadog.com
 DeepSpeech,github.com/mozilla/DeepSpeech
+DefiLlama,defillama.com
 DefinitelyTyped,definitelytyped.org
 Deno,deno.land
 DevStream,devstream.io
@@ -248,6 +251,7 @@ FlexboxLayout,github.com/google/flexbox-layout
 Fluent UI,developer.microsoft.com/fluentui
 Fluentd,fluentd.org
 Fluid,github.com/fluid-cloudnative
+FluidFramework,fluidframework.com
 Flutter,flutter.io
 Flux,github.com/fluxcd
 Foniod,ingraind.org
@@ -311,6 +315,7 @@ Homebrew,brew.sh
 Homebrew Cask,caskroom.github.io
 Horovod,eng.uber.com/horovod
 Hubot,hubot.github.com
+Hugging Face,huggingface.co
 Hyper,hyper.is
 Hyperledger,hyperledger.org
 IBM Bluemix,bluemix.net
@@ -691,6 +696,7 @@ Submariner,submariner.io
 SuperEdge,github.com/superedge
 Superset,github.com/airbnb/superset
 Swagger,swagger.io
+Swift,swift.org
 Symfony,symfony.com
 TARS,tarscloud.org
 TEAMMATES,teammatesv4.appspot.com
@@ -753,6 +759,7 @@ VS Code,code.visualstudio.com
 VS Code Kubernetes Tools,github.com/vscode-kubernetes-tools/vscode-kubernetes-tools
 Vagrant,vagrantup.com
 Vault,vaultproject.io
+Vercel,vercel.com
 Vineyard,v6d.io
 Virtual Kubelet,virtual-kubelet.io
 Vitess,vitess.io

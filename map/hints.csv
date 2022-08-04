@@ -600,6 +600,50 @@ apacheignite/yardstick-ignite,Apache Ignite
 apacheignite/zeppelin-demo,Apache Ignite
 apcera/nats,NATS
 appc/cni,CNI
+apple/llvm-project,Apple LLVM
+apple/swift,Swift
+apple/swift-algorithms,Swift
+apple/swift-argument-parser,Swift
+apple/swift-async-algorithms,Swift
+apple/swift-atomics,Swift
+apple/swift-cluster-membership,Swift
+apple/swift-collections,Swift
+apple/swift-corelibs-foundation,Swift
+apple/swift-corelibs-libdispatch,Swift
+apple/swift-corelibs-xctest,Swift
+apple/swift-crypto,Swift
+apple/swift-distributed-actors,Swift
+apple/swift-distributed-tracing,Swift
+apple/swift-distributed-tracing-baggage,Swift
+apple/swift-docc,Swift
+apple/swift-docc-plugin,Swift
+apple/swift-docc-render,Swift
+apple/swift-docc-symbolkit,Swift
+apple/swift-docker,Swift
+apple/swift-driver,Swift
+apple/swift-format,Swift
+apple/swift-llbuild,Swift
+apple/swift-lmdb,Swift
+apple/swift-log,Swift
+apple/swift-markdown,Swift
+apple/swift-metrics,Swift
+apple/swift-metrics-extras,Swift
+apple/swift-nio,Swift
+apple/swift-nio-examples,Swift
+apple/swift-nio-extras,Swift
+apple/swift-nio-http2,Swift
+apple/swift-nio-ssh,Swift
+apple/swift-nio-ssl,Swift
+apple/swift-nio-transport-services,Swift
+apple/swift-numerics,Swift
+apple/swift-org-website,Swift
+apple/swift-package-manager,Swift
+apple/swift-protobuf,Swift
+apple/swift-statsd-client,Swift
+apple/swift-syntax,Swift
+apple/swift-system,Swift
+apple/swift-tools-support-core,Swift
+apple/swift-xcode-playground-support,Swift
 aspnet/Docs,ASP.net Docs
 automotive-grade-linux/docs-agl,AGL
 aws/aws-iot-device-sdk-arduino-yun,AWS SDKs
@@ -935,25 +979,112 @@ hacktoberfest17/programming,hacktoberfest17
 hashicorp/consul,Consul
 hashicorp/consul-helm,Consul
 hashicorp/consul-k8s,Consul
+hashicorp/consul-terraform-sync,Terraform
+hashicorp/docker-on-aws-ecs-with-terraform-cdk-using-typescript,Terraform
+hashicorp/f5-terraform-consul-sd-webinar,Terraform
+hashicorp/field-demo-vault-secrets-mgmt,Terraform
+hashicorp/field-workshops-terraform,Terraform
+hashicorp/ghaction-terraform-provider-release,Terraform
 hashicorp/go-oracle-terraform,Terraform
+hashicorp/learn-terraform-aft-account-customizations,Terraform
+hashicorp/learn-terraform-aft-account-request,Terraform
+hashicorp/learn-terraform-aws-control-tower-aft,Terraform
+hashicorp/learn-terraform-cdktf-applications,Terraform
+hashicorp/learn-terraform-circleci,Terraform
+hashicorp/learn-terraform-cloudflare-static-website,Terraform
+hashicorp/learn-terraform-console,Terraform
+hashicorp/learn-terraform-data-sources-vpc,Terraform
+hashicorp/learn-terraform-drift-management,Terraform
+hashicorp/learn-terraform-functions,Terraform
+hashicorp/learn-terraform-github-actions,Terraform
+hashicorp/learn-terraform-hashicups-provider,Terraform
+hashicorp/learn-terraform-import,Terraform
+hashicorp/learn-terraform-lambda-api-gateway,Terraform
+hashicorp/learn-terraform-microsoft-caf-enterprise-scale,Terraform
+hashicorp/learn-terraform-multicloud-kubernetes,Terraform
+hashicorp/learn-terraform-provider-versioning,Terraform
+hashicorp/learn-terraform-provision-eks-cluster,Terraform
+hashicorp/learn-terraform-provision-gke-cluster,Terraform
+hashicorp/learn-terraform-resource-targeting,Terraform
+hashicorp/learn-terraform-sensitive-variables,Terraform
+hashicorp/learn-terraform-spotify,Terraform
 hashicorp/nomad,Nomad
 hashicorp/packer,Hashicorp Packer
+hashicorp/setup-terraform,Terraform
 hashicorp/terraform,Terraform
 hashicorp/terraform-aws-consul,Terraform
+hashicorp/terraform-aws-consul-ecs,Terraform
+hashicorp/terraform-aws-hashicorp-vault-eks-addon,Terraform
+hashicorp/terraform-aws-nomad,Terraform
 hashicorp/terraform-aws-vault,Terraform
+hashicorp/terraform-aws-vault-ent-starter,Terraform
+hashicorp/terraform-aws-vault-starter,Terraform
 hashicorp/terraform-cdk,Terraform
+hashicorp/terraform-cidr-subnets,Terraform
+hashicorp/terraform-config-inspect,Terraform
+hashicorp/terraform-docs-common,Terraform
+hashicorp/terraform-exec,Terraform
+hashicorp/terraform-foundational-policies-library,Terraform
 hashicorp/terraform-google-consul,Terraform
+hashicorp/terraform-google-nomad,Terraform
+hashicorp/terraform-google-terraform-enterprise,Terraform
 hashicorp/terraform-google-vault,Terraform
 hashicorp/terraform-guides,Terraform
+hashicorp/terraform-helm,Terraform
+hashicorp/terraform-json,Terraform
+hashicorp/terraform-k8s,Terraform
 hashicorp/terraform-ls,Terraform
+hashicorp/terraform-plugin-docs,Terraform
+hashicorp/terraform-plugin-framework,Terraform
+hashicorp/terraform-plugin-framework-validators,Terraform
+hashicorp/terraform-plugin-go,Terraform
+hashicorp/terraform-plugin-log,Terraform
+hashicorp/terraform-plugin-mux,Terraform
 hashicorp/terraform-plugin-sdk,Terraform
+hashicorp/terraform-provider-ad,Terraform
+hashicorp/terraform-provider-archive,Terraform
 hashicorp/terraform-provider-aws,Terraform
+hashicorp/terraform-provider-awscc,Terraform
+hashicorp/terraform-provider-azuread,Terraform
+hashicorp/terraform-provider-azurerm,Terraform
+hashicorp/terraform-provider-azurestack,Terraform
+hashicorp/terraform-provider-boundary,Terraform
+hashicorp/terraform-provider-cloudinit,Terraform
+hashicorp/terraform-provider-consul,Terraform
+hashicorp/terraform-provider-corner,Terraform
+hashicorp/terraform-provider-dns,Terraform
+hashicorp/terraform-provider-external,Terraform
+hashicorp/terraform-provider-fakewebservices,Terraform
 hashicorp/terraform-provider-google,Terraform
+hashicorp/terraform-provider-googleworkspace,Terraform
+hashicorp/terraform-provider-hashicups,Terraform
+hashicorp/terraform-provider-hashicups-pf,Terraform
+hashicorp/terraform-provider-hcp,Terraform
+hashicorp/terraform-provider-hcs,Terraform
+hashicorp/terraform-provider-helm,Terraform
+hashicorp/terraform-provider-http,Terraform
 hashicorp/terraform-provider-kubernetes,Terraform
+hashicorp/terraform-provider-kubernetes-alpha,Terraform
+hashicorp/terraform-provider-local,Terraform
+hashicorp/terraform-provider-nomad,Terraform
+hashicorp/terraform-provider-null,Terraform
+hashicorp/terraform-provider-random,Terraform
+hashicorp/terraform-provider-scaffolding,Terraform
+hashicorp/terraform-provider-scaffolding-framework,Terraform
+hashicorp/terraform-provider-tfe,Terraform
+hashicorp/terraform-provider-time,Terraform
+hashicorp/terraform-provider-tls,Terraform
+hashicorp/terraform-provider-vault,Terraform
+hashicorp/terraform-provider-vsphere,Terraform
+hashicorp/terraform-registry-address,Terraform
+hashicorp/terraform-schema,Terraform
+hashicorp/terraform-sentinel-policies,Terraform
 hashicorp/terraform-website,Terraform
 hashicorp/vagrant,Vagrant
 hashicorp/vagrant-installers,Vagrant
 hashicorp/vault,Vault
+hashicorp/vault-plugin-secrets-terraform,Terraform
+hashicorp/vscode-terraform,Terraform
 heptio/contour,Contour
 herbrandson/k8dash,Skooner
 improbable-eng/promlts,Thanos
@@ -1130,6 +1261,7 @@ microsoft/EasyRepro,EasyRepro
 microsoft/EdgeML,EdgeML
 microsoft/FASTER,FASTER
 microsoft/FFmpegInterop,Microsoft (other)
+microsoft/FluidFramework,FluidFramework
 microsoft/GSL,Microsoft GSL
 microsoft/GalaxyExplorer,Microsoft HoloToolkit
 microsoft/Git-Credential-Manager-for-Mac-and-Linux,Microsoft (other)
@@ -1155,6 +1287,8 @@ microsoft/ODBC-Specification,Microsoft ODBC
 microsoft/OMS-Agent-for-Linux,Microsoft OMS
 microsoft/Office-Online-Test-Tools-and-Documentation,Microsoft docs
 microsoft/Omex,Omex
+microsoft/PSDocs-vscode,VS Code
+microsoft/PSRule-vscode,VS Code
 microsoft/PTVS,VS Code
 microsoft/PartsUnlimited,Microsoft docs
 microsoft/PartsUnlimitedMRP,Microsoft (other)
@@ -1238,6 +1372,7 @@ microsoft/azure-pipelines-extensions,azure-pipelines-extensions
 microsoft/azure-pipelines-image-generation,azure-pipelines-image-generation
 microsoft/azure-pipelines-task-lib,azure-pipelines-task-lib
 microsoft/azure-pipelines-tasks,azure-pipelines-tasks
+microsoft/azure-pipelines-vscode,VS Code
 microsoft/azure-pipelines-yaml,azure-pipelines-yaml
 microsoft/azure-spring-boot,azure-spring-boot
 microsoft/azuredatastudio,azuredatastudio
@@ -1322,7 +1457,9 @@ microsoft/pai,pai
 microsoft/peek,Azure
 microsoft/perfview,PerfView
 microsoft/playwright,playwright
+microsoft/playwright-vscode,VS Code
 microsoft/powerbi-powershell,powerbi-powershell
+microsoft/powerplatform-vscode,VS Code
 microsoft/presidio,presidio
 microsoft/prose,prose
 microsoft/pxt,Microsoft MakeCode
@@ -1342,6 +1479,7 @@ microsoft/reactxp,ReactXP
 microsoft/recommenders,recommenders
 microsoft/rushstack,rushstack
 microsoft/sarif-sdk,dotnet
+microsoft/sarif-vscode-extension,VS Code
 microsoft/satcheljs,Satchel
 microsoft/spring-cloud-azure,spring-cloud-azure
 microsoft/spring-data-cosmosdb,spring-data-cosmosdb
@@ -1367,28 +1505,95 @@ microsoft/visualfsharpdocs,Microsoft F#
 microsoft/visualstudio-docs,VS Code
 microsoft/vs-threading,VS Code
 microsoft/vscode,VS Code
+microsoft/vscode-anycode,VS Code
+microsoft/vscode-apimanagement,VS Code
 microsoft/vscode-arduino,vscode-arduino
+microsoft/vscode-azure-account,VS Code
+microsoft/vscode-azure-iot-edge,VS Code
 microsoft/vscode-azure-iot-toolkit,vscode-azure-iot-toolkit
+microsoft/vscode-azureappservice,VS Code
+microsoft/vscode-azurearmtools,VS Code
+microsoft/vscode-azurecontainerapps,VS Code
+microsoft/vscode-azurefunctions,VS Code
+microsoft/vscode-azurelogicapps,VS Code
+microsoft/vscode-azureresourcegroups,VS Code
+microsoft/vscode-azurestaticwebapps,VS Code
+microsoft/vscode-azurestorage,VS Code
 microsoft/vscode-azuretools,vscode-azuretools
+microsoft/vscode-azurevirtualmachines,VS Code
+microsoft/vscode-black-formatter,VS Code
 microsoft/vscode-chrome-debug-core,VS Code
 microsoft/vscode-cmake-tools,vscode-cmake-tools
+microsoft/vscode-codicons,VS Code
 microsoft/vscode-cordova,VS Code
 microsoft/vscode-cosmosdb,vscode-cosmosdb
 microsoft/vscode-cpptools,vscode-cpptools
+microsoft/vscode-css-languageservice,VS Code
+microsoft/vscode-dapr,VS Code
+microsoft/vscode-debugadapter-node,VS Code
 microsoft/vscode-dev-containers,vscode-dev-containers
 microsoft/vscode-docker,VS Code
 microsoft/vscode-docs,VS Code
+microsoft/vscode-docs-authoring,VS Code
+microsoft/vscode-dtdl,VS Code
+microsoft/vscode-edge-devtools,VS Code
+microsoft/vscode-eslint,VS Code
 microsoft/vscode-extension-samples,vscode-extension-samples
+microsoft/vscode-extension-telemetry,VS Code
+microsoft/vscode-gather,VS Code
+microsoft/vscode-generator-code,VS Code
+microsoft/vscode-github-issue-notebooks,VS Code
+microsoft/vscode-github-triage-actions,VS Code
 microsoft/vscode-go,VS Code
+microsoft/vscode-gradle,VS Code
+microsoft/vscode-hexeditor,VS Code
+microsoft/vscode-html-languageservice,VS Code
 microsoft/vscode-iot-workbench,vscode-iot-workbench
+microsoft/vscode-isort,VS Code
+microsoft/vscode-java-debug,VS Code
+microsoft/vscode-java-dependency,VS Code
+microsoft/vscode-java-pack,VS Code
+microsoft/vscode-java-test,VS Code
+microsoft/vscode-js-debug,VS Code
+microsoft/vscode-js-profile-visualizer,VS Code
+microsoft/vscode-json-languageservice,VS Code
+microsoft/vscode-jupyter,VS Code
+microsoft/vscode-jupyter-keymap,VS Code
+microsoft/vscode-jupyter-lsp-middleware,VS Code
+microsoft/vscode-jupyter-powertoys,VS Code
+microsoft/vscode-languageserver-node,VS Code
+microsoft/vscode-livepreview,VS Code
+microsoft/vscode-loc,VS Code
+microsoft/vscode-lombok,VS Code
+microsoft/vscode-makefile-tools,VS Code
+microsoft/vscode-markdown-languageservice,VS Code
+microsoft/vscode-markdown-tm-grammar,VS Code
+microsoft/vscode-maven,VS Code
+microsoft/vscode-mock-debug,VS Code
 microsoft/vscode-mssql,VS Code
+microsoft/vscode-notebook-renderers,VS Code
+microsoft/vscode-npm-scripts,VS Code
+microsoft/vscode-powerquery,VS Code
 microsoft/vscode-pull-request-github,vscode-pull-request-github
+microsoft/vscode-pylint,VS Code
 microsoft/vscode-python,VS Code
 microsoft/vscode-python-devicesimulator,vscode-python-devicesimulator
+microsoft/vscode-python-tools-extension-template,VS Code
 microsoft/vscode-react-native,VS Code
+microsoft/vscode-remote-release,VS Code
+microsoft/vscode-remote-try-java,VS Code
+microsoft/vscode-spring-boot-dashboard,VS Code
 microsoft/vscode-sublime-keybindings,VS Code
+microsoft/vscode-test,VS Code
+microsoft/vscode-test-web,VS Code
+microsoft/vscode-textmate,VS Code
 microsoft/vscode-tips-and-tricks,VS Code
+microsoft/vscode-tools-for-ai,VS Code
+microsoft/vscode-tye,VS Code
+microsoft/vscode-typescript-next,VS Code
 microsoft/vscode-vsce,vscode-vsce
+microsoft/vscode-webview-ui-toolkit,VS Code
+microsoft/vscode-webview-ui-toolkit-samples,VS Code
 microsoft/vscode-wiki,vscode-wiki
 microsoft/vso-agent-tasks,VS Code
 microsoft/vss-web-extension-sdk,VS Code
