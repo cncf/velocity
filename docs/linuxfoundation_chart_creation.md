@@ -12,7 +12,7 @@
 The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1z7UMEA6VBKNSrsJp2gAVX3IEUYusjWlz7uoybhXYE3s/edit?usp=sharing).
 
 ### Chart data
-Go to this [CNCF page](https://www.linuxfoundation.org/projects/) to find a list of current projects.
+Go to this [LF page](https://www.linuxfoundation.org/projects/) to find a list of current projects.
 
 For every project, find a github repo and add it to a [query](BigQuery/velocity_lf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
