@@ -306,7 +306,7 @@ Microsoft/ghcrawler,Microsoft (other)
 Microsoft/go-winio,Microsoft (other)
 Microsoft/google-play-vsts-extension,VS Code
 Microsoft/hcsshim,Microsoft (other)
-Microsoft/llvm,Microsoft LLVM
+Microsoft/llvm,LLVM
 Microsoft/maker.js,Maker.js
 Microsoft/malmo,Malmö
 Microsoft/mattercenter,Microsoft Office
@@ -600,7 +600,7 @@ apacheignite/yardstick-ignite,Apache Ignite
 apacheignite/zeppelin-demo,Apache Ignite
 apcera/nats,NATS
 appc/cni,CNI
-apple/llvm-project,Apple LLVM
+apple/llvm-project,LLVM
 apple/swift,Swift
 apple/swift-algorithms,Swift
 apple/swift-argument-parser,Swift
@@ -1111,7 +1111,7 @@ intel/libva,libva
 intel/linux-intel-lts,linux-intel-lts
 intel/linux-sgx,Software Guard Extensions for Linux
 intel/lkp-tests,lkp-tests
-intel/llvm,Intel LLVM
+intel/llvm,LLVM
 intel/media-driver,Intel Media Driver
 intel/mkl-dnn,mkl-dnn
 intel/multus-cni,multus-cni
@@ -1430,7 +1430,7 @@ microsoft/just,just
 microsoft/landcover,landcover
 microsoft/language-server-protocol,language-server-protocol
 microsoft/libHttpClient,libHttpClient
-microsoft/llvm,Microsoft LLVM
+microsoft/llvm,LLVM
 microsoft/maker.js,Maker.js
 microsoft/malmo,Malmö
 microsoft/mattercenter,Microsoft Office
