@@ -5,7 +5,7 @@ require './comment'
 
 $g_added = 0
 $g_forks_file = 'forks.json'
-def is_fork?(gcs, hint, fork_data, repo)
+def is_fork?(gcs, hint, fork_data, repo, i, n)
   dbg = ENV.key? 'DBG'
   if fork_data.key?(repo)
     puts "Found cached #{repo}, is fork: #{fork_data[repo]}" if dbg
@@ -50,6 +50,7 @@ def is_fork?(gcs, hint, fork_data, repo)
   if $g_added % 200 == 0
     pretty = JSON.pretty_generate fork_data
     File.write $g_forks_file, pretty
+    puts "#{$g_forks_file} written, line: #{i}/#{n}: #{(i.to_f*100.0)/n.to_f}%"
   end
   return hint, r.fork
 end
@@ -333,14 +334,15 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   orgs = {}
   project_counts = {}
   all_repos = {}
-  CSV.foreach(fin, headers: true) do |row|
+  n_rows = CSV.foreach(fin, headers: true).count
+  CSV.foreach(fin, headers: true).with_index do |row, i|
     next if is_comment row
     h = row.to_h
 
     # skip repos & orgs
     repo = h['repo']
     unless forks
-      hint, is_fork = is_fork?(gcs, hint, fork_data, repo)
+      hint, is_fork = is_fork?(gcs, hint, fork_data, repo, i, n_rows)
       next if is_fork
     end
     all_repos[repo] = true
