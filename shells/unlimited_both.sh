@@ -16,7 +16,7 @@ ruby merger.rb data/unlimited.csv data/data_opensuse_projects_20210801_20220801.
 echo "Adding/Updating FreeBSD case"
 ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20210801_20220801.csv
 echo "Analysis"
-ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Updating Apache Projects using Jira data"
 ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20210801_20220801.csv -1
 echo "Updating FreeBSD data from SVN logs"

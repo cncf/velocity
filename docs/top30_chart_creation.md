@@ -33,7 +33,7 @@ It will generate a file for example: `data/data_top30_projects_20180701_20190701
 
 Run `analysis.rb` with
 ```
-ruby analysis.rb data/data_top30_projects_20180701_20190701.csv projects/projects_top30_20180701_20190701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
+FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_projects_20180701_20190701.csv projects/projects_top30_20180701_20190701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
@@ -68,7 +68,7 @@ echo "Restoring BigQuery output"
 cp data/unlimited_output_201807_201907.csv data/unlimited.csv
 ```
 - So we have main data (step 1) ready for the new chart. Now we need to get data for all non-standard projects. You can try our analysis tool without any special projects by running:
-`ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
+`FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
 - It is possible that there will be some new projects that are unknown. Ranks can change during this step, so there can be manual changes needed to mappings in `map/` directory: `hints.csv`, `defmaps.csv` and `urls.csv`. Possibly also in `skip.csv` (if there are new projects that should be skipped)
 - This is what came out on the 1st run:
 ```
@@ -79,7 +79,7 @@ Project #50 (org, 353) Automattic (Automattic) (...) have no URL defined
 
 In case you got lost, run these in the velocity root folder:
 `cp data/unlimited_output_201807_201907.csv data/unlimited.csv`
-`ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
+`FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
 
 - Let's see which top authors projects for those non-found projects are: `rauth[res[res.map { |i| i[0] }.index('Automattic')][0]]`
 - Then we must add entries for few top ones in `map/hints.csv` say with >= 20 authors:

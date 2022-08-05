@@ -4,6 +4,7 @@ require 'to_regexp'
 require './comment'
 
 $g_added = 0
+$g_forks_file = 'forks.json'
 def is_fork?(gcs, hint, fork_data, repo)
   dbg = ENV.key? 'DBG'
   if fork_data.key?(repo)
@@ -41,7 +42,7 @@ def is_fork?(gcs, hint, fork_data, repo)
   $g_added += 1
   if $g_added % 200 == 0
     pretty = JSON.pretty_generate fork_data
-    File.write 'forks.json', pretty
+    File.write $g_forks_file, pretty
   end
   return hint, r.fork
 end
@@ -58,8 +59,9 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     gcs = octokit_init()
     hint = rate_limit(gcs)[0]
     fork_data = {}
+    $g_forks_file = ENV['FORKS_FILE'] if ENV.key? 'FORKS_FILE'
     begin
-      data = JSON.parse File.read 'forks.json'
+      data = JSON.parse File.read $g_forks_file
       data.each do |row|
         repo = row[0]
         is_fork = row[1]
@@ -71,7 +73,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     Signal.trap('INT') do
       puts "Caught signal, saving forks cache"
       pretty = JSON.pretty_generate fork_data
-      File.write 'forks.json', pretty
+      File.write $g_forks_file, pretty
       puts "Saved"
       exit 1
     end
@@ -409,7 +411,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
 
   unless forks
     pretty = JSON.pretty_generate fork_data
-    File.write 'forks.json', pretty
+    File.write $g_forks_file, pretty
   end
 
   orgs.each do |name, org|

@@ -85,7 +85,7 @@ Processed 7152 csets from 365 developers
 
 Run `analysis.rb` with
 ```
-ruby analysis.rb data/data_lf_projects_20180701_20190701.csv projects/projects_lf_20180701_20190701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+FORKS_FILE=lf_forks.json ruby analysis.rb data/data_lf_projects_20180701_20190701.csv projects/projects_lf_20180701_20190701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Some projects are defined as regexps inside one or more orgs - BQ query tracks their orgs and config specifies which repos go to which project. You need to remove remaining repos for those orgs from the report.
