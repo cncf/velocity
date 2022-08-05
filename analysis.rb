@@ -20,6 +20,11 @@ def is_fork?(gcs, hint, fork_data, repo)
     fork_data[repo] = nil
     $g_added += 1
     return hint, false
+  rescue Octokit::UnavailableForLegalReasons => err
+    puts "Repository access blocked for #{repo}, skipping"
+    fork_data[repo] = nil
+    $g_added += 1
+    return hint, false
   rescue Octokit::AbuseDetected => err
     puts "Abuse #{err} for #{repo}, sleeping 30 seconds"
     sleep 30
