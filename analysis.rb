@@ -3,11 +3,79 @@ require 'pry'
 require 'to_regexp'
 require './comment'
 
+$g_added = 0
+def is_fork?(gcs, hint, fork_data, repo)
+  dbg = ENV.key? 'DBG'
+  if fork_data.key?(repo)
+    puts "Found cached #{repo}, is fork: #{fork_data[repo]}" if dbg
+    return hint, fork_data[repo]
+  end
+  puts "GitHub repo #{repo} not known yet, querying GitHub API" if dbg
+  begin
+    r = gcs[hint].repo repo
+  rescue Octokit::NotFound => err
+    puts "GitHub doesn't know repo #{repo}"
+    puts err
+    return hint, false
+  rescue Octokit::AbuseDetected => err
+    puts "Abuse #{err} for #{repo}, sleeping 30 seconds"
+    sleep 30
+    retry
+  rescue Octokit::TooManyRequests => err
+    hint, td = rate_limit(gcs)
+    puts "Too many GitHub requests for #{repo}, sleeping for #{td} seconds"
+    sleep td
+    retry
+  rescue Zlib::BufError, Zlib::DataError, Faraday::ConnectionFailed => err
+    puts "Retryable error #{err} for #{repo}, sleeping 10 seconds"
+    sleep 10
+    retry
+  rescue => err
+    puts "Uups, something bad happened for #{repo}, check `err` variable!"
+    STDERR.puts [err.class, err]
+    binding.pry
+    return hint, false
+  end
+  puts "#{repo} is fork: #{r.fork}" if dbg or r.fork
+  fork_data[repo] = r.fork
+  $g_added += 1
+  if $g_added % 200 == 0
+    pretty = JSON.pretty_generate fork_data
+    File.write 'forks.json', pretty
+  end
+  return hint, r.fork
+end
+
 # It also uses `map/projects_statistics.csv` file to get a list of projects that needs to be included in rank statistics.
 # Output rank statistics file is `projects/project_ranks.txt`
 def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   sort_col = 'authors'
-
+  forks = ENV.has_key? 'INCLUDE_FORKS'
+  unless forks
+    require 'json'
+    require 'octokit'
+    require './ghapi'
+    gcs = octokit_init()
+    hint = rate_limit(gcs)[0]
+    fork_data = {}
+    begin
+      data = JSON.parse File.read 'forks.json'
+      data.each do |row|
+        repo = row[0]
+        is_fork = row[1]
+        fork_data[repo] = is_fork
+      end
+    rescue => err
+      STDERR.puts [err.class, err]
+    end
+    Signal.trap('INT') do
+      puts "Caught signal, saving forks cache"
+      pretty = JSON.pretty_generate fork_data
+      File.write 'forks.json', pretty
+      puts "Saved"
+      exit 1
+    end
+  end
   # Repos, Orgs and Projects to skip
   skip_repos = {}
   skip_orgs = {}
@@ -262,6 +330,10 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
 
     # skip repos & orgs
     repo = h['repo']
+    unless forks
+      hint, is_fork = is_fork?(gcs, hint, fork_data, repo)
+      next if is_fork
+    end
     all_repos[repo] = true
     next if skip_repos.key? repo
     org = h['org']
@@ -333,6 +405,11 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       h[p] = vi if vis == v
     end
     orgs[k][:items] << h
+  end
+
+  unless forks
+    pretty = JSON.pretty_generate fork_data
+    File.write 'forks.json', pretty
   end
 
   orgs.each do |name, org|
