@@ -9,7 +9,7 @@ def is_fork?(gcs, hint, fork_data, repo)
   dbg = ENV.key? 'DBG'
   if fork_data.key?(repo)
     puts "Found cached #{repo}, is fork: #{fork_data[repo]}" if dbg
-    return hint, fork_data[repo]
+    return hint, fork_data[repo] unless ENV.key? 'UPDATE_UNKNOWNS' and fork_data[repo].nil?
   end
   puts "GitHub repo #{repo} not known yet, querying GitHub API" if dbg
   begin
@@ -17,6 +17,8 @@ def is_fork?(gcs, hint, fork_data, repo)
   rescue Octokit::NotFound => err
     puts "GitHub doesn't know repo #{repo}"
     puts err
+    fork_data[repo] = nil
+    $g_added += 1
     return hint, false
   rescue Octokit::AbuseDetected => err
     puts "Abuse #{err} for #{repo}, sleeping 30 seconds"
