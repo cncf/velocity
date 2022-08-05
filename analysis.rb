@@ -20,6 +20,12 @@ def is_fork?(gcs, hint, fork_data, repo, i, n)
     fork_data[repo] = nil
     $g_added += 1
     return hint, false
+  rescue Octokit::InvalidRepository => err
+    puts "GitHub says that repo #{repo} is invalid"
+    puts err
+    fork_data[repo] = nil
+    $g_added += 1
+    return hint, false
   rescue Octokit::UnavailableForLegalReasons => err
     puts "Repository access blocked for #{repo}, skipping"
     fork_data[repo] = nil
@@ -31,6 +37,8 @@ def is_fork?(gcs, hint, fork_data, repo, i, n)
     retry
   rescue Octokit::TooManyRequests => err
     hint, td = rate_limit(gcs)
+    # Better try another switch than wait more than 200s
+    td = 200 if td > 200
     puts "Too many GitHub requests for #{repo}, sleeping for #{td} seconds"
     sleep td
     retry
