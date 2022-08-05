@@ -100,7 +100,7 @@ Service Mesh Performance,commits,421
 KubeVela,commits,1087
 kube-vip,commits,185
 KubeDL,commits,153
-Krustlet,commits,51
+Krustlet,commits,124
 Krator,commits,6
 ORAS,commits,192
 wasmCloud,commits,523
@@ -109,7 +109,7 @@ MetalLB,commits,669
 Karmada,commits,1230
 Inclavare Containers,commits,347
 SuperEdge,commits,117
-Cilium,commits,87419
+Cilium,commits,8004
 Dapr,commits,2245
 OpenELB,commits,63
 Open Cluster Management,commits,498
