@@ -64,3 +64,5 @@ unique.csv
 commits.txt
 errors.txt
 run.log
+top*.log
+top*.err
