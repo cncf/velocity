@@ -1,101 +1,101 @@
 Top projects by issues:
 1) Linux (kernel.org) issues: 71029
-2) VS Code (code.visualstudio.com) issues: 37249
+2) VS Code (code.visualstudio.com) issues: 35635
 3) dotnet (microsoft.com/net) issues: 32810
-4) Elasticsearch (elastic.co/products/elasticsearch) issues: 20459
-5) Kubernetes (kubernetes.io) issues: 20370
-6) Caseflow (va.gov) issues: 17661
-7) PaddlePaddle (paddlepaddle.org) issues: 15700
-8) Flutter (flutter.io) issues: 14107
-9) Home Assistant (home-assistant.io) issues: 12699
-10) bcgov issues: 11727
-11) OpenTelemetry (opentelemetry.io) issues: 11506
-12) sap-tutorials issues: 10692
-13) type-challenges issues: 10208
-14) Spring (spring.io/projects) issues: 10128
-15) Cockroach Labs (cockroachlabs.com) issues: 9748
-16) Terraform (terraform.io) issues: 9487
-17) Nextcloud (nextcloud.com) issues: 9383
-18) Hyperledger (hyperledger.org) issues: 9370
-19) pytorch (pytorch.org) issues: 9129
-20) Rust (rust-lang.org) issues: 8689
-21) React (facebook.com) issues: 7997
-22) telegramdesktop issues: 7732
-23) helium issues: 7646
-24) Grafana Labs (grafana.com) issues: 7604
-25) Godot Engine (godotengine.org) issues: 7431
-26) vector-im issues: 7219
-27) Brave Software (brave.com) issues: 7168
-28) mozilla-mobile issues: 6981
-29) Eclipse (eclipse.org) issues: 6953
-30) O3DE (o3de.org) issues: 6783
-31) PingCAP (github.com/pingcap) issues: 6782
-32) rancher issues: 6737
-33) Azure SDKs (azure.microsoft.com) issues: 6656
-34) Ant Design (ant.design) issues: 6531
-35) AdguardTeam issues: 6509
-36) woocommerce issues: 6337
-37) opensearch-project issues: 6271
-38) Node.js (nodejs.org) issues: 6133
-39) Argo (argoproj.github.io) issues: 6122
-40) boostcampwm-2021 issues: 6074
-41) wazuh issues: 5795
-42) PowerToys (github.com/microsoft/PowerToys) issues: 5742
-43) filecoin-project issues: 5726
-44) Ansible (ansible.com) issues: 5718
-45) NixOS (nixos.org) issues: 5679
-46) TensorFlow (tensorflow.org) issues: 5656
-47) ballerina-platform issues: 5639
-48) Zephyr (www.zephyrproject.org) issues: 5437
-49) Go (golang.org) issues: 5430
-50) CMSgov issues: 5426
-51) LLVM (llvm.org) issues: 5421
-52) aws-amplify issues: 5375
-53) InfluxData (influxdata.com) issues: 5321
-54) Dart (dartlang.org) issues: 5296
-55) Google APIs (googleapis.github.io) issues: 5258
-56) Alibaba (alibaba.com) issues: 5141
-57) appsmithorg issues: 5036
-58) ALAppExtensions (github.com/microsoft/ALAppExtensions) issues: 4919
-59) equinor issues: 4918
-60) MPMG-DCC-UFMG issues: 4888
-61) WP Calypso (developer.wordpress.com/calypso) issues: 4818
-62) apache/shardingsphere issues: 4779
-63) Vercel (vercel.com) issues: 4727
-64) MetaMask issues: 4581
-65) vuejs (vuejs.org) issues: 4465
-66) Apache Beam (beam.apache.org) issues: 4350
-67) airbytehq issues: 4325
-68) carbon-design-system issues: 4284
-69) espressif issues: 4277
-70) trufflesuite issues: 4270
-71) vmware-tanzu issues: 4254
-72) Ethereum (ethereum.org) issues: 4246
-73) WSO2 (wso2.github.io) issues: 4192
-74) New Relic (opensource.newrelic.com) issues: 4147
-75) pulumi issues: 4117
-76) Hugging Face (huggingface.co) issues: 4101
-77) tachiyomiorg issues: 4084
-78) ClickHouse issues: 4022
-79) Automattic issues: 4000
-80) gitpod-io issues: 3994
-81) apache/dolphinscheduler issues: 3984
-82) python (www.python.org) issues: 3932
-83) gRPC (grpc.io) issues: 3795
-84) LeetCode-Feedback issues: 3767
-85) paritytech issues: 3740
-86) Docker (mobyproject.org) issues: 3740
-87) bounswe issues: 3697
-88) uBlockOrigin issues: 3669
-89) Swift (swift.org) issues: 3652
-90) conda-forge (conda-forge.org) issues: 3637
-91) CDCgov issues: 3605
-92) Magma (magmacore.org) issues: 3586
-93) Joystream issues: 3580
-94) ray-project issues: 3548
-95) project-chip issues: 3523
-96) rstudio issues: 3505
-97) Solana (solana.com) issues: 3503
-98) playwright (github.com/microsoft/playwright) issues: 3497
-99) Shopify (shopify.com) issues: 3490
-100) matrix-org issues: 3475
+4) microsoft issues: 28199
+5) Elasticsearch (elastic.co/products/elasticsearch) issues: 20458
+6) Kubernetes (kubernetes.io) issues: 20323
+7) Caseflow (va.gov) issues: 17531
+8) PaddlePaddle (paddlepaddle.org) issues: 15700
+9) Flutter (flutter.io) issues: 14107
+10) Home Assistant (home-assistant.io) issues: 12699
+11) bcgov issues: 11727
+12) OpenTelemetry (opentelemetry.io) issues: 11506
+13) sap-tutorials issues: 10692
+14) type-challenges issues: 10208
+15) Spring (spring.io/projects) issues: 10128
+16) Cockroach Labs (cockroachlabs.com) issues: 9748
+17) Terraform (terraform.io) issues: 9420
+18) Nextcloud (nextcloud.com) issues: 9383
+19) Hyperledger (hyperledger.org) issues: 9370
+20) pytorch (pytorch.org) issues: 9129
+21) Rust (rust-lang.org) issues: 8668
+22) Tencent issues: 8314
+23) React (facebook.com) issues: 7997
+24) telegramdesktop issues: 7732
+25) helium issues: 7643
+26) Grafana Labs (grafana.com) issues: 7595
+27) Godot Engine (godotengine.org) issues: 7431
+28) vector-im issues: 7219
+29) Brave Software (brave.com) issues: 7167
+30) mozilla-mobile issues: 6981
+31) Eclipse (eclipse.org) issues: 6953
+32) O3DE (o3de.org) issues: 6783
+33) PingCAP (github.com/pingcap) issues: 6778
+34) rancher issues: 6737
+35) Azure SDKs (azure.microsoft.com) issues: 6656
+36) open-mmlab issues: 6606
+37) Ant Design (ant.design) issues: 6531
+38) AdguardTeam issues: 6509
+39) WordPress issues: 6478
+40) woocommerce issues: 6335
+41) opensearch-project issues: 6271
+42) Node.js (nodejs.org) issues: 6133
+43) Argo (argoproj.github.io) issues: 6122
+44) boostcampwm-2021 issues: 6074
+45) sourcegraph issues: 6039
+46) wazuh issues: 5795
+47) PowerToys (github.com/microsoft/PowerToys) issues: 5742
+48) Ansible (ansible.com) issues: 5718
+49) filecoin-project issues: 5709
+50) NixOS (nixos.org) issues: 5679
+51) TensorFlow (tensorflow.org) issues: 5656
+52) ballerina-platform issues: 5639
+53) NVIDIA issues: 5477
+54) Zephyr (www.zephyrproject.org) issues: 5437
+55) Go (golang.org) issues: 5430
+56) CMSgov issues: 5426
+57) aws-amplify issues: 5375
+58) InfluxData (influxdata.com) issues: 5321
+59) Dart (dartlang.org) issues: 5296
+60) Google APIs (googleapis.github.io) issues: 5258
+61) Alibaba (alibaba.com) issues: 5141
+62) getsentry issues: 5129
+63) awslabs issues: 5082
+64) LLVM (llvm.org) issues: 5081
+65) appsmithorg issues: 5036
+66) ALAppExtensions (github.com/microsoft/ALAppExtensions) issues: 4919
+67) equinor issues: 4918
+68) MPMG-DCC-UFMG issues: 4888
+69) WP Calypso (developer.wordpress.com/calypso) issues: 4818
+70) apache/shardingsphere issues: 4779
+71) Vercel (vercel.com) issues: 4727
+72) MetaMask issues: 4581
+73) vuejs (vuejs.org) issues: 4465
+74) Apache Beam (beam.apache.org) issues: 4350
+75) airbytehq issues: 4325
+76) carbon-design-system issues: 4284
+77) trufflesuite issues: 4264
+78) vmware-tanzu issues: 4254
+79) espressif issues: 4209
+80) WSO2 (wso2.github.io) issues: 4192
+81) Ethereum (ethereum.org) issues: 4148
+82) New Relic (opensource.newrelic.com) issues: 4147
+83) pulumi issues: 4117
+84) Hugging Face (huggingface.co) issues: 4101
+85) tachiyomiorg issues: 4084
+86) ClickHouse issues: 4022
+87) Automattic issues: 4000
+88) apache/dolphinscheduler issues: 3984
+89) python (www.python.org) issues: 3932
+90) gitpod-io issues: 3878
+91) betagouv issues: 3867
+92) gRPC (grpc.io) issues: 3795
+93) LeetCode-Feedback issues: 3767
+94) Docker (mobyproject.org) issues: 3740
+95) paritytech issues: 3735
+96) bounswe issues: 3697
+97) uBlockOrigin issues: 3669
+98) Swift (swift.org) issues: 3651
+99) conda-forge (conda-forge.org) issues: 3637
+100) microsoftgraph issues: 3626

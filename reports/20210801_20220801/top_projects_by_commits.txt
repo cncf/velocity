@@ -1,101 +1,101 @@
 Top projects by commits:
 1) Uniswap commits: 156969
-2) suttacentral commits: 131027
-3) esmf-org commits: 102910
-4) dotnet (microsoft.com/net) commits: 94481
-5) Google APIs (googleapis.github.io) commits: 94344
-6) Cilium (cilium.io) commits: 87419
+2) microsoft commits: 152622
+3) suttacentral commits: 131027
+4) esmf-org commits: 102910
+5) dotnet (microsoft.com/net) commits: 94481
+6) Google APIs (googleapis.github.io) commits: 94344
 7) CMS Offline Software (cms-sw.github.io) commits: 84460
 8) Datadog (datadog.com) commits: 82010
-9) Elasticsearch (elastic.co/products/elasticsearch) commits: 79760
-10) LLVM (llvm.org) commits: 70205
-11) Linux (kernel.org) commits: 69698
-12) Nextcloud (nextcloud.com) commits: 68841
-13) Odoo (odoo.com) commits: 68761
-14) pytorch (pytorch.org) commits: 65386
-15) docker-library commits: 65126
-16) tencentyun commits: 64101
-17) React (facebook.com) commits: 61555
+9) Elasticsearch (elastic.co/products/elasticsearch) commits: 79759
+10) Linux (kernel.org) commits: 69698
+11) Nextcloud (nextcloud.com) commits: 68841
+12) Odoo (odoo.com) commits: 68761
+13) pytorch (pytorch.org) commits: 65386
+14) docker-library commits: 65126
+15) tencentyun commits: 64101
+16) React (facebook.com) commits: 61555
+17) ministryofjustice commits: 58593
 18) Homebrew (brew.sh) commits: 57738
-19) CraftTweaker commits: 51761
-20) NixOS (nixos.org) commits: 49066
-21) Caseflow (va.gov) commits: 48320
-22) Kubernetes (kubernetes.io) commits: 47037
-23) hotio commits: 46988
-24) RPMTW commits: 46656
-25) leanprover-community commits: 44652
-26) conda-forge (conda-forge.org) commits: 43914
-27) Automattic commits: 42405
-28) easylist commits: 40751
-29) ncatlab commits: 40645
-30) googlemaps commits: 40326
-31) Grafana Labs (grafana.com) commits: 39400
-32) CovidTrackerFr commits: 38767
-33) AdguardTeam commits: 38719
-34) demisto commits: 38179
-35) VS Code (code.visualstudio.com) commits: 38100
-36) Godot Engine (godotengine.org) commits: 37839
-37) OpenShift (openshift.com) commits: 37021
-38) product-os commits: 35716
-39) SocialGouv commits: 34651
-40) airframesio commits: 33362
-41) TensorFlow (tensorflow.org) commits: 32331
-42) paritytech commits: 32040
-43) bcgov commits: 31121
-44) thoth-station commits: 29485
-45) os-autoinst commits: 29431
-46) CliMA commits: 29213
-47) freesewing commits: 29204
-48) harness commits: 28066
-49) SS13 (tgstation13.org) commits: 27784
-50) New Relic (opensource.newrelic.com) commits: 27264
-51) WiX (wixtoolset.org) commits: 26802
-52) Skyrat-SS13 commits: 26686
-53) Terraform (terraform.io) commits: 26415
-54) OSUKED commits: 26263
-55) FreeBSD (freebsd.org) commits: 25950
-56) prisma commits: 24608
-57) woocommerce commits: 24424
-58) navikt commits: 24371
-59) ownCloud (oowncloud.org) commits: 24202
-60) balena-os commits: 24178
-61) Ansible (ansible.com) commits: 23873
-62) iptv-org commits: 23847
-63) Government Digital Service (gds.blog.gov.uk) commits: 23747
-64) aquasecurity commits: 23537
-65) qiskit-community commits: 23101
-66) Network Service Mesh (networkservicemesh.io) commits: 22809
-67) Azure SDKs (azure.microsoft.com) commits: 21991
-68) InfluxData (influxdata.com) commits: 21609
-69) JuliaRegistries commits: 21583
-70) quarkusio commits: 21313
-71) filecoin-project commits: 21131
-72) CitizenLabDotCo commits: 21018
-73) Home Assistant (home-assistant.io) commits: 21001
-74) taosdata commits: 20649
-75) openZH commits: 20627
-76) Shopify (shopify.com) commits: 20405
-77) PingCAP (github.com/pingcap) commits: 20276
-78) ODOO (odoo-community.org) commits: 19917
-79) Oneflow-Inc commits: 19912
-80) Eclipse (eclipse.org) commits: 19827
-81) cagov commits: 19822
-82) Solana (solana.com) commits: 19531
-83) status-im commits: 19369
-84) PaddlePaddle (paddlepaddle.org) commits: 19298
-85) PostHog commits: 19100
-86) Joomla (joomla.org) commits: 18876
-87) gitpod-io commits: 18828
-88) LCTT commits: 18808
-89) chatwoot commits: 18408
-90) WP Calypso (developer.wordpress.com/calypso) commits: 18223
-91) Zowe (zowe.org) commits: 18097
-92) matrix-org commits: 17991
-93) mozilla-l10n commits: 17843
-94) firebase commits: 17670
-95) phishfort commits: 17595
-96) gravitational commits: 17562
-97) open-sauced commits: 17530
-98) wazuh commits: 17494
-99) infosecstreams commits: 17463
-100) OpenTelemetry (opentelemetry.io) commits: 17378
+19) bitnami commits: 57236
+20) sourcegraph commits: 54367
+21) CraftTweaker commits: 51761
+22) NixOS (nixos.org) commits: 49066
+23) Caseflow (va.gov) commits: 47581
+24) Kubernetes (kubernetes.io) commits: 47037
+25) hotio commits: 46988
+26) RPMTW commits: 46656
+27) leanprover-community commits: 44652
+28) conda-forge (conda-forge.org) commits: 43914
+29) LLVM (llvm.org) commits: 43476
+30) betagouv commits: 42634
+31) Automattic commits: 42405
+32) getsentry commits: 40983
+33) easylist commits: 40751
+34) ncatlab commits: 40645
+35) googlemaps commits: 40326
+36) Grafana Labs (grafana.com) commits: 39383
+37) CovidTrackerFr commits: 38767
+38) AdguardTeam commits: 38719
+39) demisto commits: 38179
+40) Godot Engine (godotengine.org) commits: 37839
+41) VS Code (code.visualstudio.com) commits: 37293
+42) OpenShift (openshift.com) commits: 36571
+43) product-os commits: 35716
+44) SocialGouv commits: 34651
+45) airframesio commits: 33362
+46) TensorFlow (tensorflow.org) commits: 32331
+47) input-output-hk commits: 32191
+48) paritytech commits: 32036
+49) bcgov commits: 31121
+50) thoth-station commits: 29485
+51) os-autoinst commits: 29431
+52) CliMA commits: 29213
+53) freesewing commits: 29204
+54) awslabs commits: 28320
+55) harness commits: 28066
+56) SS13 (tgstation13.org) commits: 27784
+57) New Relic (opensource.newrelic.com) commits: 27264
+58) WiX (wixtoolset.org) commits: 26802
+59) hashicorp commits: 26686
+60) Skyrat-SS13 commits: 26686
+61) WordPress commits: 26626
+62) Terraform (terraform.io) commits: 26358
+63) OSUKED commits: 26263
+64) FreeBSD (freebsd.org) commits: 25888
+65) prisma commits: 24608
+66) woocommerce commits: 24423
+67) navikt commits: 24371
+68) balena-os commits: 24178
+69) ownCloud (oowncloud.org) commits: 24148
+70) Ansible (ansible.com) commits: 23873
+71) iptv-org commits: 23847
+72) Government Digital Service (gds.blog.gov.uk) commits: 23747
+73) aquasecurity commits: 23537
+74) qiskit-community commits: 23101
+75) SAP commits: 22838
+76) Network Service Mesh (networkservicemesh.io) commits: 22809
+77) Azure SDKs (azure.microsoft.com) commits: 21991
+78) InfluxData (influxdata.com) commits: 21609
+79) JuliaRegistries commits: 21583
+80) quarkusio commits: 21313
+81) adobe commits: 21221
+82) CitizenLabDotCo commits: 21018
+83) Home Assistant (home-assistant.io) commits: 21001
+84) filecoin-project commits: 20851
+85) openZH commits: 20627
+86) taosdata commits: 20584
+87) IBM commits: 20361
+88) PingCAP (github.com/pingcap) commits: 20161
+89) Oneflow-Inc commits: 19912
+90) Eclipse (eclipse.org) commits: 19827
+91) cagov commits: 19822
+92) PaddlePaddle (paddlepaddle.org) commits: 19298
+93) Tencent commits: 19289
+94) Solana (solana.com) commits: 19283
+95) status-im commits: 19256
+96) Shopify (shopify.com) commits: 19143
+97) PostHog commits: 19100
+98) ODOO (odoo-community.org) commits: 19043
+99) Joomla (joomla.org) commits: 18876
+100) LCTT commits: 18808
