@@ -35,7 +35,7 @@ WHERE
       'opencontainers','openmainframeproject','opensecuritycontroller','openvswitch','openchain','opendaylight',
       'openhpc','OpenMAMA','opensds','open-switch','opentracing','opnfv','pndaproject','prometheus','RConsortium',
       'rethinkdb','SNAS','spdx','todogroup','xen-project','zephyrproject-rtos', 'containerd', 'rkt', 
-      'kubernetes-helm', 'kubernetes-client', 'kubernetes-incubator', 'coredns', 'grpc-ecosystem',
+      'kubernetes-helm', 'kubernetes-client', 'kubernetes-incubator', 'coredns', 'grpc-ecosystem', 'cubefs',
       'containernetworking', 'crosscloudci', 'cloudevents', 'openeventing', 'envoyproxy', 'jaegertracing',
       'theupdateframework', 'rook', 'vitessio', 'telepresenceio', 'helm', 'goharbor', 'kubernetes-csi',
       'nats-io', 'open-policy-agent', 'spiffe',  'etcd-io', 'tikv', 'cortexproject', 'buildpack', 'falcosecurity',

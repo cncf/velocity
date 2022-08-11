@@ -39,7 +39,7 @@ where
       'kubernetes-sig-testing', 'kubernetes-providers', 'kubernetes-addons', 'kubernetes-test',
       'kubernetes-extensions', 'kubernetes-federation', 'kubernetes-security', 'kubernetes-sigs',
       'kubernetes-sidecars', 'kubernetes-tools', 'cdfoundation', 'cri-o', 'networkservicemesh',
-      'open-telemetry', 'openebs', 'thanos-io', 'fluxcd', 'in-toto', 'strimzi', 'kubevirt',
+      'open-telemetry', 'openebs', 'thanos-io', 'fluxcd', 'in-toto', 'strimzi', 'kubevirt', 'cubefs',
       'longhorn', 'chubaofs', 'kedacore', 'servicemeshinterface', 'argoproj', 'volcano-sh', 'v6d-io',
       'cni-genie', 'keptn', 'kudobuilder', 'cloud-custodian', 'dexidp', 'artifacthub', 'parallaxsecond',
       'bfenetworks', 'crossplane', 'crossplaneio', 'litmuschaos', 'projectcontour', 'operator-framework',

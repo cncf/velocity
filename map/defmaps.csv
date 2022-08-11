@@ -122,7 +122,8 @@ chimera-kube,kubewarden
 chrome-enhanced-history,Chromium
 chromium,Chromium
 chromiumify,Chromium
-chubaofs,ChubaoFS
+chubaofs,CubeFS
+cubefs,CubeFS
 cilium,Cilium
 cloud-custodian,Cloud Custodian
 cloudevents,CloudEvents
