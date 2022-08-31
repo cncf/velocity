@@ -8,6 +8,7 @@ apache,=SKIP
 aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
+openembedded,Yocto
 w3c,=SKIP
 AcademySoftwareFoundation,Academy Software Foundation
 Adlik,Adlik
@@ -469,6 +470,7 @@ xbmc,Team Kodi
 xen-project,Xen
 yarnpkg,yarn
 yogstation13,Yogstation13
+yoctoproject,Yocto
 zalando,Zalando
 zendframework,Zend Framework
 zephyrproject-rtos,Zephyr
