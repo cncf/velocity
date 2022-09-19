@@ -130,6 +130,7 @@ Campaign finance for everyone,beta.fec.gov/data
 Capirca,github.com/google/capirca
 Carbon Design System,carbondesignsystem.com
 Carrier Grade Linux,wiki.linuxfoundation.org/cgl/start
+Carvel,carvel.dev
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
 Ceph,ceph.io
@@ -165,6 +166,7 @@ Concourse,concourse-ci.org
 Confidential Containers,github.com/confidential-containers
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
+ContainerSSH,containerssh.io
 Contour,projectcontour.io
 Core Infrastructure,www.coreinfrastructure.org
 CoreDNS,coredns.io
@@ -377,6 +379,7 @@ Kubernetes,kubernetes.io
 Kudo,kudo.dev
 Kui Shell,github.com/IBM/kui
 Kuma,kuma.io
+Kured,github.com/weaveworks/kured
 Kyverno,kyverno.io
 LF AI,lfaidata.foundation
 LF Edge,lfedge.org
@@ -386,6 +389,7 @@ LLVM,llvm.org
 Laravel,laravel.com
 League of Extraordinary Packages,thephpleague.com
 Let's Encrypt,letsencrypt.org
+Lima,github.com/lima-vm/lima
 Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
 Linkerd,linkerd.io
@@ -524,6 +528,7 @@ OpenCost,kubecost.com
 OpenDaylight,www.opendaylight.org
 OpenEBS,openebs.io
 OpenELB,openelb.github.io
+OpenFGA,openfga.dev
 OpenFaaS,openfaas.com
 OpenFeature,openfeature.dev
 OpenFunction,openfunction.dev
@@ -666,6 +671,7 @@ Seata,github.com/seata/seata
 Sensu,sensuapp.org
 Sentinel,github.com/alibaba/Sentinel
 Sequelize,docs-sequelizejs.com
+Serverless Devs,serverless-devs.com
 Serverless Framework,serverless.com
 Serverless Workflow,serverlessworkflow.io
 Service Mesh Performance,smp-spec.io

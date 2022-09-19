@@ -24,6 +24,7 @@ ChromeExtensionStore,Chromium
 ChromiumWebApps,Chromium
 CleverRaven,Cataclysm-DDA
 Cloud Native Computing Foundation,CNCF
+ContainerSSH,ContainerSSH
 Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
 DefiLlama,DefiLlama
@@ -63,6 +64,8 @@ ParsePlatform,Parse
 Particular,NServiceBus
 Plailect/Guide,3DS Guide
 ResurrectionRemix,Resurrection Remix
+Serverless-Devs,Serverless Devs
+ServerlessTool,Serverless Devs
 Software Package Data Exchange,SPDX
 TP-Lab,TokenPocket Lab
 TarsCloud,TARS
@@ -237,6 +240,7 @@ jenkins-x,Jenkins X
 jenkinsci,Jenkins
 joomla,Joomla
 jsdelivr,jsDelivr
+k14s,Carvel
 k3s-io,K3s
 k8gb-io,K8GB
 k8up-io,K8up
@@ -290,6 +294,7 @@ lf-edge,LF Edge
 lf-energy,LF Energy
 lfai,LF AI
 lfph,LF Public Health
+lima-vm,Lima
 linkedin,LinkedIn
 linkerd,Linkerd
 linux-sunxi,Linux sunxi
@@ -343,6 +348,7 @@ openebs,OpenEBS
 openeventing,CloudEvents
 openfaas,OpenFaaS
 openfeatureflags,OpenFeature
+openfga,OpenFGA
 openhab,openHAB
 openkruise,OpenKruise
 openmainframeproject,Open Mainframe

@@ -20,6 +20,7 @@ repo,project
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
 Airbnb/react-native,React
+AkihiroSuda/lima,Lima
 AngularClass/angular2-webpack-starter,Angular
 Automattic/WP-Job-Manager,WP Calypso
 Automattic/amp-wp,WP Calypso
@@ -1143,6 +1144,8 @@ iovisor/xdp-vagrant,IO Visor
 jaegertracing/jaeger-kubernetes,Jaeger
 jaegertracing/jaeger-openshift,Jaeger
 jaegertracing/test-repo-move,Jaeger
+janoszen/ContainerSSH,ContainerSSH
+janoszen/containerssh,ContainerSSH
 jetstack-experimental/cert-manager,cert-manager
 jetstack/cert-manager,cert-manager
 jldec/projectriff.io,Pivotal Riff
@@ -2594,6 +2597,15 @@ twitter/heron,Heron
 twitter/scrooge,Scrooge
 uber/jaeger,Jaeger
 vmware-tanzu/antrea,Antrea
+vmware-tanzu/carvel,Carvel
+vmware-tanzu/carvel-kapp-controller,Carvel
+vmware-tanzu/carvel-kapp,Carvel
+vmware-tanzu/carvel-ytt,Carvel
+vmware-tanzu/carvel-imgpkg,Carvel
+vmware-tanzu/carvel-kbld,Carvel
+vmware-tanzu/carvel-vendir,Carvel
+vmware-tanzu/carvel-kwt,Carvel
+vmware-tanzu/carvel-secretgen-controller,Carvel
 vmware/docker-volume-vsphere,VMware vSphere
 vmware/govmomi,VMware SDKs
 vmware/harbor,Harbor
@@ -2632,6 +2644,7 @@ w3c/wot,Web of Things
 weaveworks/cortex,Cortex
 weaveworks/flux,Flux
 weaveworks/frankenstein,Cortex
+weaveworks/kured,Kured
 weaveworks/prism,Cortex
 wso2/carbon-apimgt,WSO2 Carbon
 wso2/carbon-appmgt,WSO2 Carbon
