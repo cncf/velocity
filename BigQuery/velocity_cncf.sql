@@ -56,7 +56,8 @@ where
       'meshery', 'knative', 'knative-sandbox', 'FabEdge', 'confidential-containers', 'OpenFunction',
       'clusterpedia-io', 'kubecost', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature',
       'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela',
-      'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib'
+      'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib', 'Serverless-Devs',
+      'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -88,7 +89,11 @@ where
       'Azure/vscode-kubernetes-tools', 'accuknox/KubeArmor', 'vshn/k8up', 'clux/kube-rs',
       'clux/kubernetes-rust', 'che-incubator/devworkspace-api', 'alibaba/sealer', 'SpectralOps/teller',
       'SpectralOps/helm-teller', 'SpectralOps/setup-teller-action', 'merico-dev/stream', 'merico-dev/OpenStream',
-      'fusor/mig-operator', 'G-Research/armada'
+      'fusor/mig-operator', 'G-Research/armada', 'janoszen/ContainerSSH', 'janoszen/containerssh',
+      'weaveworks/kured', 'vmware-tanzu/carvel', 'vmware-tanzu/carvel-kapp-controller',
+      'vmware-tanzu/carvel-kapp', 'vmware-tanzu/carvel-ytt', 'vmware-tanzu/carvel-imgpkg',
+      'vmware-tanzu/carvel-kbld', 'vmware-tanzu/carvel-vendir', 'vmware-tanzu/carvel-kwt',
+      'vmware-tanzu/carvel-secretgen-controller', 'AkihiroSuda/lima'
     )
   )
   and repo.name not in (
