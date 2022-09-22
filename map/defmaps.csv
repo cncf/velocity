@@ -263,6 +263,7 @@ kubecost,OpenCost
 kubedl-io,KubeDL
 kubeedge,KubeEdge
 kubeovn,Kube-OVN
+kubereboot,Kured
 kuberhealthy,Kuberhealthy
 kubernetes,Kubernetes
 kubernetes-addons,Kubernetes
