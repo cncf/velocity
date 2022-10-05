@@ -57,7 +57,7 @@ where
       'clusterpedia-io', 'kubecost', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature',
       'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela',
       'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib', 'Serverless-Devs',
-      'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot'
+      'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
