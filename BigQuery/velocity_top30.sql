@@ -64,7 +64,7 @@ WHERE
         'hibernate-ci', 'kernelprbot', 'istio-testing', 'spinnakerbot', 'pikbot', 'spinnaker-release', 'golangcibot',
         'opencontrail-ci-admin', 'titanium-octobot', 'asfgit', 'appveyorbot', 'cadvisorjenkinsbot', 'gitcoinbot',
         'katacontainersbot', 'prombot', 'prowbot', 'cdk8s-automation', 'facebook-github-whois-bot-0', 'knative-automation',
-        'covbot', 'gprasath', 'k8s-reviewable'
+        'covbot', 'gprasath', 'k8s-reviewable', 'claassistant', 'containersshbuilder', 'wasmcloud-automation', 'fossabot'
       )
     )
   )
