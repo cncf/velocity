@@ -530,6 +530,7 @@ angular/material,Angular
 angular/material2,Angular
 angular/protractor,Protractor
 angular/tsickle,Angular
+anuvu/zot,zot
 apache-spark-on-k8s/ansible,Apache Spark
 apache-spark-on-k8s/kubernetes-HDFS,Apache Spark
 apache-spark-on-k8s/spark,Apache Spark
@@ -645,6 +646,7 @@ apple/swift-syntax,Swift
 apple/swift-system,Swift
 apple/swift-tools-support-core,Swift
 apple/swift-xcode-playground-support,Swift
+armosec/kubescape,Kubescape
 aspnet/Docs,ASP.net Docs
 automotive-grade-linux/docs-agl,AGL
 aws/aws-iot-device-sdk-arduino-yun,AWS SDKs
@@ -907,6 +909,9 @@ facebook/rocksdb,RocksDB
 facebookincubator/create-react-app,React
 fdio-stack/felix,FD.io
 fdio-stack/netplugin,FD.io
+flant/werf,werf
+flant/dapp,werf
+flant/dapper,werf
 fluxcd/gitops-working-group,GitOps WG
 fnhub/katacoda-scenarios,Oracle Fn
 fossology/fossology,FOSSology
@@ -954,6 +959,7 @@ google/grumpy,Grumpy
 google/gson,google-gson
 google/guava,Guava
 google/guetzli,Google Perceptual JPEG encoder
+google/ko,ko
 google/martian,Martian Proxy
 google/material-design-lite,Google Material Design Components
 google/metallb,MetalLB
@@ -1150,6 +1156,8 @@ jetstack-experimental/cert-manager,cert-manager
 jetstack/cert-manager,cert-manager
 jldec/projectriff.io,Pivotal Riff
 joeythesaint/cgl-specification,Carrier Grade Linux
+kebe7jun/mepf,Merbridge
+kebe7jun/mebpf,Merbridge
 knative/build,Tekton
 kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
