@@ -112,6 +112,8 @@ buildpack,Buildpacks
 buildpacks,Buildpacks
 c4cs,Computing for Computer Scientists
 cakephp,CakePHP
+capsule-rs,Capsule
+carina-io,Carina
 caskroom,Homebrew
 cdfoundation,CDF
 cdk8s-team,Cloud Deployment Kit for Kubernetes
@@ -151,6 +153,7 @@ coredns,CoreDNS
 coreos,CoreOS
 cortexproject,Cortex
 cosmostation,Cosmostation
+covexo,DevSpace
 cregit/cregit,cregit
 cri-o,CRI-O
 crosscloudci,CNCF
@@ -165,6 +168,7 @@ dart-lang,Dart
 denoland,Deno
 department-of-veterans-affairs,Caseflow
 devfile,Devfile
+devspace-cloud,DevSpace
 devstream-io,DevStream
 dexidp,Dex
 distribution,Distribution
@@ -254,6 +258,7 @@ keybase,Keybase
 keylime,Keylime
 knative,Knative
 knative-sandbox,Knative
+ko-build,ko
 konveyor,Konveyor
 krator-rs,Krator
 kruiseio,OpenKruise
@@ -285,6 +290,7 @@ kubernetes-sig-testing,Kubernetes
 kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
+kubescape,Kubescape
 kubevela,KubeVela
 kubevirt,KubeVirt
 kubewarden,kubewarden
@@ -313,6 +319,7 @@ mapsme,MAPS.ME
 mattermost,Mattermost
 mavlink,MAVLink
 melpa,MELPA
+merbridge,Merbridge
 meshery,Meshery
 mesos,Apache Mesos
 mesosphere,Apache Mesos
@@ -331,6 +338,7 @@ newrelic,New Relic
 nextcloud,Nextcloud
 nocalhost,Nocalhost
 nodejs,Node.js
+notaryproject,Notary
 nylas,Nylas
 o-ran-sc,O-RAN
 o3de,O3DE
@@ -338,6 +346,7 @@ odoo,Odoo
 odpi,ODPi
 onap,ONAP
 onnx,Open Neural Network Exchange
+opcr-io,OPCR
 open-cluster-management-io,Open Cluster Management
 open-faas,OpenFaaS
 open-feature,OpenFeature
@@ -380,12 +389,14 @@ osmandapp,Osmand
 owncloud,ownCloud
 p4lang,P4 Language
 parallaxsecond,PARSEC
+paralus,Paralus
 pingcap,PingCAP
 piraeusdatastore,Piraeus-Datastore
 pivotal-cf,Pivotal Cloud Foundry
 pixie-io,Pixie
 pravega,Pravega
 project-akri,Akri
+project-zot,zot
 projectacrn,Project ACRN
 projectcontour,Contour
 prometheus,Prometheus
@@ -471,6 +482,7 @@ wascc,wasmCloud
 wasmCloud,wasmCloud
 waxosuit,wasmCloud
 wayfair-tremor,Tremor
+werf,werf
 wireapp,Wire Swiss GmbH
 wix,WiX
 wordpress-mobile,WordPress-mobile
