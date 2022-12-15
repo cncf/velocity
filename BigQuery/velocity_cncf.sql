@@ -58,7 +58,8 @@ where
       'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela',
       'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib', 'Serverless-Devs',
       'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
-      'inclavare-containers'
+      'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'capsule-rs',
+      'project-zot', 'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -94,7 +95,8 @@ where
       'weaveworks/kured', 'vmware-tanzu/carvel', 'vmware-tanzu/carvel-kapp-controller',
       'vmware-tanzu/carvel-kapp', 'vmware-tanzu/carvel-ytt', 'vmware-tanzu/carvel-imgpkg',
       'vmware-tanzu/carvel-kbld', 'vmware-tanzu/carvel-vendir', 'vmware-tanzu/carvel-kwt',
-      'vmware-tanzu/carvel-secretgen-controller', 'AkihiroSuda/lima'
+      'vmware-tanzu/carvel-secretgen-controller', 'AkihiroSuda/lima', 'kebe7jun/mepf', 'kebe7jun/mebpf',
+      'anuvu/zot', 'google/ko', 'flant/werf', 'flant/dapp', 'flant/dapper', 'armosec/kubescape'
     )
   )
   and repo.name not in (
