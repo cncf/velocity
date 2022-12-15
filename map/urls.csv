@@ -128,7 +128,9 @@ CakePHP,cakephp.org
 CameraTraps,github.com/microsoft/CameraTraps
 Campaign finance for everyone,beta.fec.gov/data
 Capirca,github.com/google/capirca
+Capsule,github.com/capsule-rs
 Carbon Design System,carbondesignsystem.com
+Carina,opencarina.com
 Carrier Grade Linux,wiki.linuxfoundation.org/cgl/start
 Carvel,carvel.dev
 Caseflow,va.gov
@@ -191,6 +193,7 @@ DeepSpeech,github.com/mozilla/DeepSpeech
 DefiLlama,defillama.com
 DefinitelyTyped,definitelytyped.org
 Deno,deno.land
+DevSpace,loft.sh
 DevStream,devstream.io
 Devfile,github.com/devfile
 Dex,github.com/dexidp
@@ -377,6 +380,7 @@ KubeVela,kubevela.io
 KubeVirt,kubevirt.io
 Kuberhealthy,github.com/Comcast/kuberhealthy
 Kubernetes,kubernetes.io
+Kubescape,github.com/kubescape
 Kudo,kudo.dev
 Kui Shell,github.com/IBM/kui
 Kuma,kuma.io
@@ -430,6 +434,7 @@ Martian Proxy,github.com/google/martian
 Mastodon,mastodon.social
 Material-UI,material-ui.com
 Mattermost,mattermost.org
+Merbridge,merbridge.io
 Meshery,layer5.io/meshery
 Mesosphere,mesosphere.com
 MetalLB,metallb.org
@@ -494,7 +499,7 @@ NixOS,nixos.org
 Nocalhost,nocalhost.dev
 Node.js,nodejs.org
 Nomad,nomadproject.io
-Notary,github.com/theupdateframework/notary
+Notary,github.com/notaryproject
 Nunjucks,mozilla.github.io/nunjucks
 Nylas,nylas.com
 O-RAN,orna-osc.org
@@ -506,6 +511,7 @@ ONAP,onap.org
 ONOS,onosproject.org
 OPA,openpolicyagent.org
 OPAM,opam.ocaml.org
+OPCR,openpolicyregistry.io
 OPNFV,www.opnfv.org
 ORAS,oras.land
 Odoo,odoo.com
@@ -593,6 +599,7 @@ PNDA,pnda.io
 PX4 Drone Autopilot,px4.io
 PaddlePaddle,paddlepaddle.org
 ParadiseSS13,nanotrasen.se/forum
+Paralus,paralus.io
 Parity,github.com/paritytech/parity
 Parse,parseplatform.github.io
 Patroni,github.com/zalando/patroni
@@ -964,6 +971,7 @@ jvm-sandbox,github.com/alibaba/jvm-sandbox
 k8dash,skooner.io
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
+ko,ko.build
 kube-rs,docs.rs/kube
 kube-vip,kube-vip.io
 kubewarden,kubewarden.io
@@ -1085,12 +1093,14 @@ watson-assistant-workbench,github.com/IBM/watson-assistant-workbench
 watson-banking-chatbot,github.com/IBM/watson-banking-chatbot
 webpack,github.com/webpack
 weex-ui,github.com/alibaba/weex-ui
+werf,werf.io
 wil,github.com/microsoft/wil
 workload-collocation-agent,github.com/intel/workload-collocation-agent
 worldofbalance,github.com/worldofbalance
 x-deeplearning,github.com/alibaba/x-deeplearning
 xlang,github.com/microsoft/xlang
 yarn,yarnpkg.com
+zot,zotregistry.io
 zowe-cli-cics-deploy-plugin,github.com/IBM/zowe-cli-cics-deploy-plugin
 zurb,zurb.com
 Основной репозиторий,igov.org.ua
