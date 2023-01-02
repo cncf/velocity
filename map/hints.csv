@@ -909,9 +909,9 @@ facebook/rocksdb,RocksDB
 facebookincubator/create-react-app,React
 fdio-stack/felix,FD.io
 fdio-stack/netplugin,FD.io
-flant/werf,werf
 flant/dapp,werf
 flant/dapper,werf
+flant/werf,werf
 fluxcd/gitops-working-group,GitOps WG
 fnhub/katacoda-scenarios,Oracle Fn
 fossology/fossology,FOSSology
@@ -1156,8 +1156,8 @@ jetstack-experimental/cert-manager,cert-manager
 jetstack/cert-manager,cert-manager
 jldec/projectriff.io,Pivotal Riff
 joeythesaint/cgl-specification,Carrier Grade Linux
-kebe7jun/mepf,Merbridge
 kebe7jun/mebpf,Merbridge
+kebe7jun/mepf,Merbridge
 knative/build,Tekton
 kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
@@ -2606,14 +2606,14 @@ twitter/scrooge,Scrooge
 uber/jaeger,Jaeger
 vmware-tanzu/antrea,Antrea
 vmware-tanzu/carvel,Carvel
-vmware-tanzu/carvel-kapp-controller,Carvel
-vmware-tanzu/carvel-kapp,Carvel
-vmware-tanzu/carvel-ytt,Carvel
 vmware-tanzu/carvel-imgpkg,Carvel
+vmware-tanzu/carvel-kapp,Carvel
+vmware-tanzu/carvel-kapp-controller,Carvel
 vmware-tanzu/carvel-kbld,Carvel
-vmware-tanzu/carvel-vendir,Carvel
 vmware-tanzu/carvel-kwt,Carvel
 vmware-tanzu/carvel-secretgen-controller,Carvel
+vmware-tanzu/carvel-vendir,Carvel
+vmware-tanzu/carvel-ytt,Carvel
 vmware/docker-volume-vsphere,VMware vSphere
 vmware/govmomi,VMware SDKs
 vmware/harbor,Harbor

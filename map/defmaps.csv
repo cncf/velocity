@@ -8,7 +8,6 @@ apache,=SKIP
 aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
-openembedded,Yocto
 w3c,=SKIP
 AcademySoftwareFoundation,Academy Software Foundation
 Adlik,Adlik
@@ -129,7 +128,6 @@ chrome-enhanced-history,Chromium
 chromium,Chromium
 chromiumify,Chromium
 chubaofs,CubeFS
-cubefs,CubeFS
 cilium,Cilium
 cloud-custodian,Cloud Custodian
 cloudevents,CloudEvents
@@ -158,8 +156,9 @@ cregit/cregit,cregit
 cri-o,CRI-O
 crosscloudci,CNCF
 crossplane,Crossplane
-crossplaneio,Crossplane
 crossplane-contrib,Crossplane
+crossplaneio,Crossplane
+cubefs,CubeFS
 curiefense,Curiefense
 d3athrow/vgstation13,vgstation13
 danos,DANOS
@@ -357,6 +356,7 @@ opencontainers,OCI
 opencord,CORD
 opencurve,Curve
 openebs,OpenEBS
+openembedded,Yocto
 openeventing,CloudEvents
 openfaas,OpenFaaS
 openfeatureflags,OpenFeature
@@ -490,8 +490,8 @@ wso2,WSO2
 xbmc,Team Kodi
 xen-project,Xen
 yarnpkg,yarn
-yogstation13,Yogstation13
 yoctoproject,Yocto
+yogstation13,Yogstation13
 zalando,Zalando
 zendframework,Zend Framework
 zephyrproject-rtos,Zephyr
