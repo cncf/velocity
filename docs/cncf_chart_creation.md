@@ -36,6 +36,7 @@ Update forks files used for LF and Top30 generation: `./merge_forks.rb lf_forks.
 
 Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
 
+- If updated forks JSON(s) then generate devstats-reports docker image: `DOCKER_USER=lukaszgryglicki SKIP_TEST=1 SKIP_PROD=1 SKIP_FULL=1 SKIP_MIN=1 SKIP_GRAFANA=1 SKIP_TESTS=1 SKIP_PATRONI=1 SKIP_STATIC=1 SKIP_API=1 ./images/build_images.sh`.
 - Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2022-01-01 2023-01-01 &>> /update.log &`, `tail -f /update.log`. This takes hours to complete.
 - Download update: `wget https://teststats.cncf.io/backups/data_cncf_update_2019-02-01_2020-02-01.csv`. `mv data_cncf_update_2019-02-01_2020-02-01.csv data/`.
 - `ruby update_projects.rb projects/projects_cncf_20190201_20200201.csv data/data_cncf_update_2019-02-01_2020-02-01.csv -1`.
