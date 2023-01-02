@@ -32,6 +32,8 @@ Some projects are defined as regexps inside one or more orgs - BQ query tracks t
 
 Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_20190201_20200201.csv` file. Also check for last column being empty `/s,""`.
 
+Update forks files used for LF and Top30 generation: `./merge_forks.rb lf_forks.json forks.json`, `./merge_forks.rb all_forks.json forks.json`.
+
 Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
 
 - Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2019-02-01 2020-02-01`. This takes hours to complete.
