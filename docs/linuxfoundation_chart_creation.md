@@ -92,6 +92,8 @@ Some projects are defined as regexps inside one or more orgs - BQ query tracks t
 
 Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_20190201_20200201.csv` file. Also check for last column being empty `/s,""`.
 
+Update forks files used for LF and Top30 generation: `./merge_forks.rb all_forks.json lf_forks.json`.
+
 Now update CNCF projects commits counts to use git instead of BigQuery data
 
 If you generated CNCF data just before generating LF data, then you already have that step completed, see [Guide to the CNCF projects chart creation](docs/cncf_chart_creation.md).
