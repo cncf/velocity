@@ -103,6 +103,19 @@ If you generated CNCF data just before generating LF data, then you already have
 - `ruby update_projects.rb projects/projects_lf_20180701_20190701.csv data/data_cncf_update_2018-07-01_2019-07-01.csv -1`.
 - You can also use `PROJFMT=1 ruby update_projects.rb projects/projects_lf_20180701_20190701.csv ./projects/projects_cncf_20190201_20200201.csv -1` instead.
 
+
+# Yocto
+
+- Add bugzilla data via: `./yocto_bugzilla.sh '2022-01-01 00:00:00' '2023-01-01 00:00:00'`. Put number of bugzilla issues in `data/data_bugzilla_20220101_20230101.csv`:
+```
+project,key,value
+Yocto,issues,1865
+```
+- `ruby update_projects.rb projects/projects_lf_20180701_20190701.csv data/data_bugzilla_20220101_20230101.csv -1`
+
+
+# Final chart
+
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1z7UMEA6VBKNSrsJp2gAVX3IEUYusjWlz7uoybhXYE3s/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A300.
