@@ -356,6 +356,7 @@ opencontainers,OCI
 opencord,CORD
 opencurve,Curve
 openebs,OpenEBS
+openelb,OpenELB
 openembedded,Yocto
 openeventing,CloudEvents
 openfaas,OpenFaaS
