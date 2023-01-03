@@ -44,6 +44,7 @@ Angular,angular.io
 Ansible,ansible.com
 Ant Design,ant.design
 Antrea,antrea.io
+Anythink Market,www.anythink.market
 Apache (other),apache.org
 Apache Ambari,ambari.apache.org
 Apache Beam,beam.apache.org
@@ -251,6 +252,7 @@ Firefox,mozilla.org/en-US/firefox
 Firefox Monitor,monitor.firefox.com
 Firefox Notes,firefox.com
 Firefox Send,send.firefox.com
+Flathub,flathub.org
 Fledge,lfedge.org/projects/fledge
 FlexboxLayout,github.com/google/flexbox-layout
 Fluent UI,developer.microsoft.com/fluentui
@@ -725,6 +727,7 @@ Tekton,tekton.dev
 Telepresence,telepresence.io
 Telerik,telerik.com
 Teller,tlr.dev
+Tencent Enterprise Design System,tdesign.tencent.com
 TensorFlow,tensorflow.org
 Terminal,github.com/microsoft/Terminal
 Terraform,terraform.io
