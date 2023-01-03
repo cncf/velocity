@@ -47,7 +47,6 @@ external-secrets,external-secrets+kubernetes-external-secrets+kes-to-eso+vmes,75
 thanos-io,thanos+objstore+kube-thanos+thanos-community-website+thanosbench+tutorials,7301,5041,1105,566,567,149,588,Thanos,thanos.io
 openembedded,meta-openembedded,1670,347,187,952,36,149,1100,Yocto,yoctoproject.org
 ceph,ceph-csi+ceph-ansible+go-ceph+csi-charts+ceph.io+ceph-build+cephadm-ansible+ceph-container+ceph-nvmeof+s3-tests+ceph-iscsi+ceph-salt+ceph-telemetry+shaman+paddles+ceph-mixins,14671,8899,1982,2961,512,147,3278,Ceph,ceph.io
-layer5io,layer5+meshery-smp-action+getnighthawk+meshkit+wasm-filters+discuss-board+.github+layer5-repo-template+meet+image-hub+Subscription+kubeopenapi-jsonschema+meshery-smi-conformance-action+learn-layer5+meshery-service-mesh-patterns-action+discuss-twitter+mesheryctl-aliases+gowrk2+layer5-istio-adapter+containers-101-workshop+slack+preview-layer5+dummy+helm-chart-releaser+docs-ng+trigger-remote-provider-action,11333,7056,1565,1851,808,145,1904,layer5io,""
 iovisor,bcc+bpftrace+kubectl-trace,5184,3085,1095,472,508,142,496,IO Visor,www.iovisor.org
 AcademySoftwareFoundation,MaterialX+aswf-landscape+openvdb+OpenShadingLanguage+OpenTimelineIO+OpenColorIO+OpenCue+rez+openexr+OpenColorIO-Config-ACES+Imath+tac+opencue.io+aswf-docker+wg-usd,9814,4247,2760,2034,737,142,2070,Academy Software Foundation,aswf.io
 etcd-io,etcd+jetcd+website+gofail+raft+discovery.etcd.io,11587,8094,1955,679,855,141,683,etcd,coreos.com/etcd
@@ -78,7 +77,6 @@ openebs,mayastor-control-plane+mayastor+mayastor-extensions+mayastor-docs+openeb
 opencontainers,runc+wg-reference-types+image-spec+distribution-spec+runtime-spec+selinux+runtime-tools+umoci+tob+artifacts+opencontainers.org+oci-conformance+go-digest+.github+image-tools,5099,3532,853,343,351,90,363,OCI,www.opencontainers.org
 openyurtio,openyurt+openyurt.io+yurt-app-manager+raven+yurt-edgex-manager+yurt-device-controller+community+raven-controller-manager+yurt-dashboard+yurtcluster-operator+openyurt-helm+lite-kubelet+node-resource-manager+kole+yurt-app-manager-api+pool-coordinator-controller+api,5432,2987,1098,807,531,89,816,OpenYurt,opeyurt.io
 chaos-mesh,chaos-mesh+website+chaosd+chaos-tproxy+rfcs+chaos-mesh.github.io+byteman-helper+charts+toda+datasource+k8s_dns_chaos+tidb-chaos+chaos-driver+nsexec+memStress+chaos-mesh-action+iproute2-rs+bpfki+rs-tproxy+web-show+website-zh+website-archived,8279,5211,1032,1198,766,88,1270,Chaos Mesh,chaos-mesh.org
-todogroup,ospology+governance+ospolandscape+todogroup.org+outbound-oss+osposurvey+ospo101+work-day-activities+awesome-ospo+.github,2452,800,592,797,258,85,802,todogroup,""
 antrea-io,antrea+theia+nephe+website+has-changes,28437,23561,2346,1876,517,84,2013,Antrea,antrea.io
 cloudevents,spec+sdk-python+sdk-go+sdk-javascript+sdk-csharp+sdk-java+sdk-rust+cloudevents-web+conformance+sdk-ruby+sdk-php,3803,2377,628,413,345,83,453,CloudEvents,cloudevents.io
 cloud-custodian,cloud-custodian+tfparse+examples+pytest-terraform+helm-charts+cel-python+community,4391,2411,969,524,459,80,552,Cloud Custodian,cloudcustodian.io
@@ -96,7 +94,7 @@ metal3-io,cluster-api-provider-metal3+metal3-dev-env+project-infra+baremetal-ope
 cortexproject,cortex+cortex-helm-chart,3753,1772,721,850,270,71,990,Cortex,github.com/cortexproject
 buildpacks,registry-index+lifecycle+pack+rfcs+spec+docs+libcnb+imgutil+community+github-actions+profile+samples+registry-api+pack-orb+registry-namespaces+scafall+ci+homebrew-tap+tekton-integration+templates,7701,2705,1030,3235,458,69,3508,Buildpacks,buildpacks.io
 devfile,devworkspace-operator+api+registry+docs+devfile-web+registry-support+library+integration-tests+developer-images+registry-operator+landing-page+devfile.github.io+registry-viewer+devworkspace-operator-docs,4267,1857,1034,761,605,69,771,Devfile,github.com/devfile
-RConsortium,OOP-WG+asa-biop-swe-wg+submissions-pilot2+rtrs-wg+submissions-wg+R-Certification-WG+r-repositories-wg+submissions-pilot1+submissions-pilot1-to-fda+isc,2066,824,263,602,323,69,656,RConsortium,""
+RConsortium,OOP-WG+asa-biop-swe-wg+submissions-pilot2+rtrs-wg+submissions-wg+R-Certification-WG+r-repositories-wg+submissions-pilot1+submissions-pilot1-to-fda+isc,2066,824,263,602,323,69,656,RConsortium,r-consortium.org
 cdfoundation,cdf-landscape+foundation+toc+sig-events+sig-interoperability+best-practices-site+sig-software-supply-chain+tekton-helm-chart+community-ambassador-program+sig-mlops+artwork+sig-best-practices+presentations+glossary+awards+communitygroups+sig-chinese-localization+faq+sig-security-supply-chain+sig-security-sbom+sig-security,2068,878,389,593,202,68,599,CDF,cd.foundation
 longhorn,longhorn+longhorn-manager+longhorn-tests+longhorn-engine+website+longhorn-instance-manager+longhorn-ui+backing-image-manager+charts+infra+longhorn-share-manager+backupstore+upgrade-responder+sparse-tools+go-iscsi-helper+bot+longhorn-spdk,18762,11582,3290,1796,2056,64,1834,Longhorn,github.com/longhorn
 kubearmor,KubeArmor+policy-templates+kubearmor-client+discovery-engine+kvm-service+kubearmor-relay-server+koach+kubearmor-log-client+kastore+openhorizon-demo,6683,2743,2322,1190,324,64,1294,KubeArmor,accuknox.com/kubearmor
@@ -119,7 +117,6 @@ oras-project,oras+oras-go+oras-py+oras-www+artifacts-spec+community,5790,3756,78
 chaosblade-io,chaosblade+chaosblade-operator+chaosblade-website+chaosblade-box+chaosblade-exec-jvm+chaosblade-exec-os+chaosblade-exec-cri+community+chaosblade-box-fe+chaosblade-spec-go+chaosblade-box-agent+chaosblade-exec-cloud+chaosblade-exec-middleware+chaosblade-exec-cplus+awesome-chaosblade+chaosblade-exec-docker+chaosblade-exec-golang+chaosblade-help-doc+chaosblade-box-fe-0.4.x,1854,489,532,450,355,52,478,ChaosBlade,github.com/chaosblade-io
 emissary-ingress,emissary+community+ratelimit-example+goversion,4662,1823,795,1204,379,51,1665,Emissary-ingress,getambassador.io
 notaryproject,notation+notation-go+notaryproject+notation-core-go+roadmap+notaryproject.dev+notary+notation-go-lib+tuf+meeting-notes,7113,5020,1017,496,544,51,532,Notary,github.com/notaryproject
-oam-dev,velaux+catalog+terraform-controller+cluster-gateway+velad+docker-terraform+spec+samples+grafana-registration+oam-dev.github.io+community+cluster-register+kubevela-github-actions,2057,684,760,436,169,51,444,oam-dev,""
 openkruise,kruise+rollouts+openkruise.io+kruise-game+charts+kruise-tools+controllermesh+community,2601,1577,459,330,232,49,333,OpenKruise,openkruise.io
 wasmCloud,wasmcloud-otp+wash+capability-providers+weld+examples+interfaces+wasmcloud-dev-site+wadm+wasmcloud.com-dev+control-interface-client+project-templates+wasmCloud+wasmcloud-test+lattice-observer+actor-tinygo+homebrew-wasmcloud+wascap+chocolatey-wash+machine-learning+wasmcloud-js+provider-sdk-go+common-actions+provider-archive+adr+.github+nkeys+tinygo-cbor+branding+awesome-wasm,4727,1702,1159,1532,269,49,1597,wasmCloud,wasmcloud.com
 tinkerbell,hegel+tink+boots+cluster-api-provider-tinkerbell+rufio+sandbox+hook+ipxedust+org+pbnj+tinkerbell-docs+charts+hub+dhcp+proposals+lint-install+roadmap+terraform-provider-tinkerbell+tinkerbell.org+boots-ipxe+.github+crocodile+infrastructure+k8s-sandbox+artwork,3657,2005,687,513,373,49,592,Tinkerbell,tinkerbell.org
@@ -168,7 +165,6 @@ bfenetworks,bfe+ingress-bfe+api-server+conf-agent+dashboard,726,300,235,129,60,2
 v6d-io,v6d,1976,510,590,604,267,25,609,Vineyard,v6d.io
 brigadecore,brigade+brigade-dashboard+blog+brigade-github-gateway+brigade-cron-event-source+docs-portuguese+brigade-www+brigade-cloudevents-gateway+brigade-acr-gateway+docs-hindi+brigade-bitbucket-gateway+brigade-metrics+brigade-noisy-neighbor+brigade-slack-gateway+brigade-dockerhub-gateway+badgr+brigade-sdk-for-js+go-tools+docker-tools+kashti+helm-tools+int-test-tools+brigade-foundations+kind-node+brigadier+community+brigade-utils+win-go-tools+brigade-vscode+brigade-tutorial-app+charts+hello-git+brigtest+kents-test-repo+brigade-tutorial-config+brigade-discord-gateway+brigade-github-app+buck+brigade-k8s-gateway+brigade-eventgrid-gateway+brigade-vsts-gateway+brigade-sdk-for-rust+github-gateway-oauth,3405,1165,1198,623,411,25,631,Brigade,brigade.sh
 rethinkdb,rethinkdb+docs+rethinkdb-admin+rethinkdb-python+www+rethinkdb-dockerfiles+rethinkdb-ruby+rethinkdb-javascript+rethinkdb-java+rethinkdb-go,1106,407,226,256,186,25,287,RethinkDB,www.rethinkdb.com
-ni,linux,146,34,74,34,4,25,34,ni,""
 JanusGraph,janusgraph,1835,956,379,278,137,24,363,JanusGraph,janusgraph.org
 virtual-kubelet,azure-aci+virtual-kubelet+tensile-kube+node-cli+community+alibabacloud-eci+aws-fargate,1335,471,412,267,126,24,326,Virtual Kubelet,virtual-kubelet.io
 inclavare-containers+alibaba,rats-tls+librats+inclavare-containers+verdictd+inclavare-containers+enclave-network-gateway+deterministic-builds+eventlog-rs+etpm+inclavare-containers.io+attestation-evidence-broker+rbi+inclavared+shelter+enclave-tls,1175,505,294,146,226,24,150,Inclavare Containers,inclavare-containers.io
@@ -188,7 +184,6 @@ artifacthub,hub+blog+helm-charts+homebrew-cmd+scoop-cmd,1980,358,640,525,134,19,
 k8gb-io,k8gb+coredns-crd-plugin+k8gb-manim,1145,306,245,475,99,19,495,K8GB,github.com/AbsaOSS/k8gb
 k8up-io,k8up+wrestic,968,234,185,287,60,19,489,K8up,k8up.io
 openelb,openelb+website+console+openelb.github.io+porter-website,726,488,93,74,69,19,76,OpenELB,openelb.github.io
-iotivity,iotivity-lite,1634,549,268,688,42,18,775,iotivity,""
 PixarAnimationStudios,OpenTimelineIO,700,469,100,54,74,18,57,OpenTimelineIO,opentimeline.io
 piraeusdatastore,piraeus-operator+linstor-csi+piraeus+helm-charts+piraeus-ha-controller+linstor-scheduler-extender+linstor-affinity-controller+piraeusdatastore.github.io+kubectl-linstor+csi-driver-nfs-export,1442,635,302,362,125,17,380,Piraeus-Datastore,piraeus.io
 opcr-io,policy+opcr-website+homebrew-tap+policy-login-action+policy-action-sample+policy-build-action,510,80,161,238,8,17,261,OPCR,openpolicyregistry.io
@@ -198,7 +193,6 @@ openhpc,ohpc,1137,427,298,275,137,14,275,OpenHPC,openhpc.community
 skooner-k8s,skooner,291,124,73,35,38,14,56,Skooner,skooner.io
 krustlet,oci-distribution+krustlet+krustlet-docs,347,206,66,37,38,14,37,Krustlet,krustlet.dev
 todogroup,repolinter+job-descriptions,181,76,54,36,10,14,41,TODO group,todogroup.org
-OAI,Tooling+Documentation+sig-workflows+moonwalk+community+Overlay-Specification+Marketing,526,43,115,302,55,13,313,OAI,""
 alibaba,sealer,1387,535,378,180,291,12,183,sealer,sealer.cool
 sparklyr,sparklyr,673,209,69,286,80,12,315,sparklyr,github.com/sparklyr
 ContainerSSH,libcontainerssh+containerssh.github.io+ContainerSSH+configurator+github-terraform+community+agent+.github+examples+auditlog+kubernetes+branding+go.containerssh.io+auth+guest-image+metrics+backend+geoip+unixutils+health+log+packages+authintegration+library-template+service+sshproxy+docker+structutils+sshserver+images+security+metricsintegration+test+configuration+http+auditlogintegration,626,157,151,237,36,12,282,ContainerSSH,containerssh.io
@@ -219,8 +213,6 @@ mininet,mininet+mininet.github.com,335,198,39,16,82,5,16,Mininet,mininet.org
 openvswitch,openvswitch.github.io,72,13,28,29,2,5,29,Open vSwitch,openvswitch.org
 capsule-rs,capsule+sandbox,69,33,8,20,7,3,21,Capsule,github.com/capsule-rs
 krator-rs,krator,24,7,7,10,0,3,10,Krator,docs.rs/krator
-LinuxStandardBase,lsb-samples,11,3,4,2,2,3,2,LinuxStandardBase,""
-pixie-labs,pixie-eks-blueprints-addon+pixie-blueprints-addon+pixie-ssp-addon,12,2,5,5,0,3,5,pixie-labs,""
 gitops-working-group,gitops-working-group,66,40,17,1,8,2,1,GitOps WG,github.com/fluxcd/gitops-working-group
 cni-genie,CNI-Genie,10,6,0,1,3,2,1,CNI-Genie,cni-genie.io
 devspace-cloud,devspace-cloud-plugin,6,0,2,4,0,2,4,DevSpace,loft.sh
