@@ -7714,5 +7714,10 @@
   "falcosecurity/libscap": false,
   "falcosecurity/advocacy": false,
   "openebs/csi-lib-iscsi": true,
-  "in-toto/image-resources": false
+  "in-toto/image-resources": false,
+  "openelb/openelb": false,
+  "openelb/website": false,
+  "openelb/console": false,
+  "openelb/openelb.github.io": false,
+  "openelb/porter-website": false
 }

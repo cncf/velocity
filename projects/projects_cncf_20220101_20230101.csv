@@ -30,7 +30,6 @@ konveyor,pelorus+tackle2-ui+move2kube+tackle-test-generator-cli+tackle-ui-tests+
 kubevela+oam-dev,kubevela+kubevela+kubevela.io+catalog+kubevela.io+velaux+velad+community+workflow+terraform-controller+prism+kube-trigger+pkg+samples+kubevela-core-api+vector-controller+cloudshell+kubevela-core-api+killercoda-scenario+vela-upload-release-asset+upload-release-asset,16051,6875,4707,2817,1633,157,2836,KubeVela,kubevela.io
 external-secrets,external-secrets+kubernetes-external-secrets+kes-to-eso+vmes,7574,4100,773,1763,656,156,2045,External Secrets Operator,external-secrets.io
 thanos-io,thanos+objstore+kube-thanos+thanos-community-website+thanosbench+tutorials,7301,5041,1105,566,567,149,588,Thanos,thanos.io
-layer5io,layer5+meshery-smp-action+getnighthawk+meshkit+wasm-filters+discuss-board+.github+layer5-repo-template+meet+image-hub+Subscription+kubeopenapi-jsonschema+meshery-smi-conformance-action+learn-layer5+mesheryctl-aliases+meshery-service-mesh-patterns-action+discuss-twitter+gowrk2+layer5-istio-adapter+containers-101-workshop+preview-layer5+slack+dummy+helm-chart-releaser+docs-ng+trigger-remote-provider-action,11333,7056,1565,1851,808,145,1904,layer5io,""
 etcd-io,etcd+jetcd+website+gofail+raft+discovery.etcd.io,11587,8094,1955,679,855,141,683,etcd,coreos.com/etcd
 goharbor,harbor+harbor-helm+harbor-operator+website+acceleration-service+community+terraform-provider-harbor+harbor-arm+jenkins-shared-library+perf+pluggable-scanner-spec+go-client+.github,11288,5808,2248,1037,2144,141,1088,Harbor,goharbor.io
 karmada-io,karmada+website+dashboard+community+karmada-operator+api,16610,13003,1675,1249,681,133,1251,Karmada,Karmada.io
@@ -83,7 +82,6 @@ oras-project,oras+oras-go+oras-py+oras-www+artifacts-spec+community,5790,3756,78
 chaosblade-io,chaosblade+chaosblade-operator+chaosblade-website+chaosblade-box+chaosblade-exec-jvm+chaosblade-exec-os+chaosblade-exec-cri+community+chaosblade-spec-go+chaosblade-box-fe+chaosblade-exec-cloud+chaosblade-box-agent+chaosblade-exec-middleware+chaosblade-exec-cplus+awesome-chaosblade+chaosblade-exec-docker+chaosblade-exec-golang+chaosblade-box-fe-0.4.x+chaosblade-help-doc,1854,489,532,450,355,52,478,ChaosBlade,github.com/chaosblade-io
 emissary-ingress,emissary+community+ratelimit-example+goversion,4662,1823,795,1204,379,51,1665,Emissary-ingress,getambassador.io
 notaryproject,notation+notation-go+notaryproject+notation-core-go+roadmap+notaryproject.dev+notary+notation-go-lib+tuf+meeting-notes,7113,5020,1017,496,544,51,532,Notary,github.com/notaryproject
-oam-dev,velaux+catalog+terraform-controller+cluster-gateway+velad+docker-terraform+spec+samples+grafana-registration+oam-dev.github.io+community+cluster-register+kubevela-github-actions,2057,684,760,436,169,51,444,oam-dev,""
 openkruise,kruise+rollouts+openkruise.io+kruise-game+charts+kruise-tools+controllermesh+community,2601,1577,459,330,232,49,333,OpenKruise,openkruise.io
 wasmCloud,wasmcloud-otp+wash+capability-providers+weld+examples+interfaces+wasmcloud-dev-site+wasmcloud.com-dev+wadm+control-interface-client+project-templates+wasmCloud+wasmcloud-test+lattice-observer+actor-tinygo+homebrew-wasmcloud+wascap+chocolatey-wash+machine-learning+wasmcloud-js+provider-sdk-go+common-actions+provider-archive+adr+.github+nkeys+tinygo-cbor+awesome-wasm+branding,4727,1702,1159,1532,269,49,1597,wasmCloud,wasmcloud.com
 tinkerbell,hegel+tink+boots+cluster-api-provider-tinkerbell+rufio+sandbox+hook+ipxedust+org+pbnj+tinkerbell-docs+charts+hub+dhcp+proposals+lint-install+roadmap+terraform-provider-tinkerbell+tinkerbell.org+boots-ipxe+crocodile+.github+infrastructure+k8s-sandbox+artwork,3657,2005,687,513,373,49,592,Tinkerbell,tinkerbell.org
@@ -155,8 +153,6 @@ OpenObservability,OpenMetrics,137,85,11,20,21,6,20,OpenMetrics,openmetrics.io
 trickstercache,trickster+helm-charts+trickstercache.org,86,22,30,13,21,6,13,Trickster,tricksterproxy.io
 capsule-rs,capsule+sandbox,69,33,8,20,7,3,21,Capsule,github.com/capsule-rs
 krator-rs,krator,24,7,7,10,0,3,10,Krator,docs.rs/krator
-pixie-labs,pixie-eks-blueprints-addon+pixie-blueprints-addon+pixie-ssp-addon,12,2,5,5,0,3,5,pixie-labs,""
 gitops-working-group,gitops-working-group,66,40,17,1,8,2,1,GitOps WG,github.com/fluxcd/gitops-working-group
 cni-genie,CNI-Genie,10,6,0,1,3,2,1,CNI-Genie,cni-genie.io
 devspace-cloud,devspace-cloud-plugin,6,0,2,4,0,2,4,DevSpace,loft.sh
-rkt,rkt,1,0,1,0,0,1,0,rkt,github.com/rkt/rkt
