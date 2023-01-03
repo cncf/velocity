@@ -1,0 +1,8 @@
+project,key,value
+Apache Mesos,issues,7581
+Apache Spark,issues,5465
+Apache Kafka,issues,1496
+Apache Camel,issues,1284
+Apache Flink,issues,2566
+# This is skipped by map/skip.csv
+# Apache (other),issues,52578
