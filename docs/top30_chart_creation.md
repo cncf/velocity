@@ -338,7 +338,7 @@ Important:
 - Then "Import action" --> "replace data starting at selected call", click Import.
 - Switch to the Chart tab and see the data.
 
-Final version live [here](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
+Final version live [here](https://docs.google.com/spreadsheets/d/1WNncbRD3isbFsuIj3n65Qr4OyzNQJthrSx2-RqRqavk/edit?usp=sharing).
 
 Update the main [README](https://github.com/cncf/velocity#current-reports), set new 'Current reports' and move current to [Past Reports](https://github.com/cncf/velocity#past-reports).
 
