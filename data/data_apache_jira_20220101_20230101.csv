@@ -1,8 +1,12 @@
 project,key,value
-Apache Mesos,issues,7581
-Apache Spark,issues,5465
-Apache Kafka,issues,1496
-Apache Camel,issues,1284
-Apache Flink,issues,2566
+Apache Mesos,issues,12
+Apache Spark,issues,8927
+Apache Flink,issues,7208
+Apache Kafka,issues,1598
+Apache Camel,issues,2106
+Apache CloudStack,issues,16
+Apache Zeppelin,issues,337
+Apache Cassandra,issues,1781
+Apache Hive,issues,4781
 # This is skipped by map/skip.csv
 # Apache (other),issues,52578
