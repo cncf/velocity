@@ -106,12 +106,12 @@ If you generated CNCF data just before generating LF data, then you already have
 
 # Yocto
 
-- Add bugzilla data via: `./yocto_bugzilla.sh '2022-01-01 00:00:00' '2023-01-01 00:00:00'`. Put number of bugzilla issues in `data/data_bugzilla_20220101_20230101.csv`:
+- Add bugzilla data via: `./yocto_bugzilla.sh '2022-01-01 00:00:00' '2023-01-01 00:00:00'`. Put number of bugzilla issues in `data/data_yocto_bugzilla_20220101_20230101.csv`:
 ```
 project,key,value
 Yocto,issues,1865
 ```
-- `ruby update_projects.rb projects/projects_lf_20180701_20190701.csv data/data_bugzilla_20220101_20230101.csv -1`
+- `ruby update_projects.rb projects/projects_lf_20220101_20230101.csv data/data_yocto_bugzilla_20220101_20230101.csv -1`
 
 
 # Final chart

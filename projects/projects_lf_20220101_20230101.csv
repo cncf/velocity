@@ -45,7 +45,7 @@ kubevela+oam-dev,kubevela+kubevela+kubevela.io+catalog+kubevela.io+velaux+velad+
 automotive-grade-linux,docs-agl,11337,6650,704,3325,658,157,3325,AGL,www.automotivelinux.org
 external-secrets,external-secrets+kubernetes-external-secrets+kes-to-eso+vmes,7574,4100,773,1763,656,156,2045,External Secrets Operator,external-secrets.io
 thanos-io,thanos+objstore+kube-thanos+thanos-community-website+thanosbench+tutorials,7301,5041,1105,566,567,149,588,Thanos,thanos.io
-openembedded,meta-openembedded,1670,347,187,952,36,149,1100,Yocto,yoctoproject.org
+openembedded,meta-openembedded,1670,347,187,952,1172,149,1100,Yocto,yoctoproject.org
 ceph,ceph-csi+ceph-ansible+go-ceph+csi-charts+ceph.io+ceph-build+cephadm-ansible+ceph-container+ceph-nvmeof+s3-tests+ceph-iscsi+ceph-salt+ceph-telemetry+shaman+paddles+ceph-mixins,14671,8899,1982,2961,512,147,3278,Ceph,ceph.io
 iovisor,bcc+bpftrace+kubectl-trace,5184,3085,1095,472,508,142,496,IO Visor,www.iovisor.org
 AcademySoftwareFoundation,MaterialX+aswf-landscape+openvdb+OpenShadingLanguage+OpenTimelineIO+OpenColorIO+OpenCue+rez+openexr+OpenColorIO-Config-ACES+Imath+tac+opencue.io+aswf-docker+wg-usd,9814,4247,2760,2034,737,142,2070,Academy Software Foundation,aswf.io
