@@ -6901,5 +6901,10 @@
   "kubescape/gateway": false,
   "argoproj-labs/old-argo-dataflow": false,
   "pixie-io/microservices-demo": true,
-  "devstream-io/dtm-repo-scaffolding-golang": null
+  "devstream-io/dtm-repo-scaffolding-golang": null,
+  "openelb/openelb": false,
+  "openelb/website": false,
+  "openelb/console": false,
+  "openelb/openelb.github.io": false,
+  "openelb/porter-website": false
 }
