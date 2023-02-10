@@ -451,6 +451,7 @@ swagger-api,Swagger
 symfony,Symfony
 symphonyoss,FINOS Symphony
 tektoncd,Tekton
+tektoncd-catalog,Tekton
 telepresenceio,Telepresence
 telerik,Telerik
 tensorflow,TensorFlow
