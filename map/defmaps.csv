@@ -115,6 +115,7 @@ c4cs,Computing for Computer Scientists
 cakephp,CakePHP
 capsule-rs,Capsule
 carina-io,Carina
+carvel-dev,Carvel
 caskroom,Homebrew
 cdfoundation,CDF
 cdk8s-team,Cloud Deployment Kit for Kubernetes
@@ -357,6 +358,7 @@ open-telemetry,OpenTelemetry
 openbmp,OpenBMP
 opencontainers,OCI
 opencord,CORD
+opencost,OpenCost
 opencurve,Curve
 openebs,OpenEBS
 openelb,OpenELB
