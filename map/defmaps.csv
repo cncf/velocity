@@ -139,6 +139,7 @@ cloudfoundry-attic,Cloud Foundry
 cloudfoundry-community,Cloud Foundry
 cloudfoundry-incubator,Cloud Foundry
 cloudfoundry-samples,Cloud Foundry
+clusternet,Clusternet
 clusterpedia-io,Clusterpedia
 cms-sw,CMS Offline Software
 cncf,CNCF
@@ -240,6 +241,7 @@ inclavare-containers,Inclavare Containers
 influxdata,InfluxData
 influxdb,InfluxDB
 ingraind,Foniod
+inspektor-gadget,Inspektor Gadget
 iovisor,IO Visor
 iron-io,Iron.io
 istio,Istio

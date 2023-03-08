@@ -155,6 +155,7 @@ Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud Hypervisor,github.com/cloud-hypervisor/cloud-hypervisor
 Cloud.gov,github.com/18F/cg-product
 CloudEvents,cloudevents.io
+Clusternet,clusternet.io
 Clusterpedia,clusterpedia.io
 Cockroach Labs,cockroachlabs.com
 Cocos2d-js,cocos2d-x.org
@@ -334,6 +335,7 @@ Inferno,infernojs.org
 InfluxDB,influxdata.com
 InfluxData,influxdata.com
 InsiderDevTourDemos19,github.com/microsoft/InsiderDevTourDemos19
+Inspektor Gadget,inspektor-gadget.io
 Intel Graphics Compiler for OpenCL,github.com/intel/intel-graphics-compiler
 Intel Graphics Compute Runtime,01.org/compute-runtime
 Intel HAXM,github.com/intel/haxm

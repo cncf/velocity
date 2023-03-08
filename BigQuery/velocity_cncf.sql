@@ -60,7 +60,7 @@ where
       'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'capsule-rs',
       'project-zot', 'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb',
-      'opencost', 'carvel-dev'
+      'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
@@ -97,7 +97,8 @@ where
       'vmware-tanzu/carvel-kapp', 'vmware-tanzu/carvel-ytt', 'vmware-tanzu/carvel-imgpkg',
       'vmware-tanzu/carvel-kbld', 'vmware-tanzu/carvel-vendir', 'vmware-tanzu/carvel-kwt',
       'vmware-tanzu/carvel-secretgen-controller', 'AkihiroSuda/lima', 'kebe7jun/mepf', 'kebe7jun/mebpf',
-      'anuvu/zot', 'google/ko', 'flant/werf', 'flant/dapp', 'flant/dapper', 'armosec/kubescape'
+      'anuvu/zot', 'google/ko', 'flant/werf', 'flant/dapp', 'flant/dapper', 'armosec/kubescape',
+      'kinvolk/inspektor-gadget'
     )
   )
   and repo.name not in (

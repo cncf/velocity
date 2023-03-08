@@ -68,7 +68,7 @@ WHERE
       'Serverless-Devs', 'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'capsule-rs', 'project-zot',
       'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb', 'tektoncd-catalog',
-      'opencost', 'carvel-dev'
+      'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -106,7 +106,7 @@ WHERE
       'vmware-tanzu/carvel-ytt', 'vmware-tanzu/carvel-imgpkg', 'vmware-tanzu/carvel-kbld',
       'vmware-tanzu/carvel-vendir', 'vmware-tanzu/carvel-kwt', 'vmware-tanzu/carvel-secretgen-controller',
       'AkihiroSuda/lima', 'kebe7jun/mepf', 'kebe7jun/mebpf', 'anuvu/zot', 'google/ko', 'flant/werf', 'flant/dapp',
-      'flant/dapper', 'armosec/kubescape'
+      'flant/dapper', 'armosec/kubescape', 'kinvolk/inspektor-gadget'
     )
   )
   and repo.name not in (
