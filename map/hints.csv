@@ -2544,6 +2544,9 @@ realm/realm-cocoa,Realm
 realm/realm-dotnet,Realm
 realm/realm-java,Realm
 realm/realm-js,Realm
+redhat-developer/build,Shipwright
+redhat-developer/buildv2,Shipwright
+redhat-developer/buildv2-operator,Shipwright
 redsift/ingraind,Foniod
 rethinkdb/aspnet-signalr-chat,RethinkDB
 rethinkdb/docs,RethinkDB

@@ -27,6 +27,7 @@ ContainerSSH,ContainerSSH
 Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
 DefiLlama,DefiLlama
+DeployHubProject,Ortelius
 FabEdge,FabEdge
 FreeBSD-Ask,FreeBSD
 FreeBSD-UPB,FreeBSD
@@ -54,6 +55,7 @@ Open Accessibility (A11y) Group,A11y
 Open Container Initiative,OCI
 Open Mainframe Project,Open Mainframe
 OpenFunction,OpenFunction
+OpenMake-Software,Ortelius
 OpenObservability,OpenMetrics
 OpenStack-mobile,OpenStack Mobile
 OpenStackCookbook,OpenStack Cookbook
@@ -117,6 +119,7 @@ capsule-rs,Capsule
 carina-io,Carina
 carvel-dev,Carvel
 caskroom,Homebrew
+cdevents,CDEvents
 cdfoundation,CDF
 cdk8s-team,Cloud Deployment Kit for Kubernetes
 ceph,Ceph
@@ -393,6 +396,7 @@ openwrt,OpenWrt
 openyurtio,OpenYurt
 operator-framework,Operator Framework
 oras-project,ORAS
+ortelius,Ortelius
 osmandapp,Osmand
 owncloud,ownCloud
 p4lang,P4 Language
@@ -409,6 +413,7 @@ projectacrn,Project ACRN
 projectcontour,Contour
 prometheus,Prometheus
 pyro-ppl,Pyro
+pyrsia,Pyrsia
 pytorch,pytorch
 qmk,QMK
 r-lib,R
@@ -427,6 +432,7 @@ rust-lang-nursery,Rust
 sakaiproject,Sakai
 saltstack,SaltStack
 schemahero,SchemaHero
+screwdriver-cd,Screwdriver CD
 seata,Seata
 sensu,Sensu
 sequelize,Sequelize
@@ -435,6 +441,7 @@ serverlessworkflow,Serverless Workflow
 service-mesh-performance,Service Mesh Performance
 servicemeshinterface,SMI
 servo,The Servo Browser Engine
+shipwright-io,Shipwright
 sigstore,sigstore
 skillcrush,Skillcrush
 skooner-k8s,Skooner

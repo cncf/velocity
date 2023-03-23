@@ -113,6 +113,7 @@ Buildpacks,buildpacks.io
 CARTO,carto.com
 CAST,github.com/IBM/CAST
 CCF,github.com/microsoft/CCF
+CDEvents,cdevents.dev
 CDF,cd.foundation
 CHAOSS,chaoss.community
 CKAN,ksp-ckan.org
@@ -594,6 +595,7 @@ Openstack Tools,openstack.org
 Operations Research Tools,developers.google.com/optimization
 Operator Framework,operatorhub.io
 Oracle Fn,fnproject.io
+Ortelius,ortelius.io
 Osmand,osmand.net
 P4 Language,github.com/p4lang
 PACO,pacoapp.com
@@ -635,6 +637,7 @@ Prometheus,prometheus.io
 Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
 Pyro,pyro.ai
+Pyrsia,pyrsia.io
 QMK,qmk.fm
 Quantum,github.com/microsoft/Quantum
 QuantumKatas,github.com/microsoft/QuantumKatas
@@ -680,6 +683,7 @@ Sakai,sakaiproject.org
 SaltStack,repo.saltstack.com
 Satchel,microsoft.github.io/satcheljs
 SchemaHero,schemahero.io
+Screwdriver CD,screwdriver.cd
 Scrooge,twitter.github.io/scrooge
 Seata,github.com/seata/seata
 Sensu,sensuapp.org
@@ -690,6 +694,7 @@ Serverless Framework,serverless.com
 Serverless Workflow,serverlessworkflow.io
 Service Mesh Performance,smp-spec.io
 Shaka Player,github.com/google/shaka-player
+Shipwright,shipwright.io
 Shopify,shopify.com
 Shopify API,shopify.github.io/shopify_api
 Shopify App,shopify.github.io/shopify_app

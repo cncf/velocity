@@ -68,7 +68,8 @@ WHERE
       'Serverless-Devs', 'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'capsule-rs', 'project-zot',
       'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb', 'tektoncd-catalog',
-      'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet'
+      'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet', 'cdevents', 'ortelius', 'DeployHubProject',
+      'OpenMake-Software', 'pyrsia', 'screwdriver-cd', 'shipwright-io'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -78,7 +79,7 @@ WHERE
       'lyft/envoy', 'uber/jaeger', 'BuoyantIO/linkerd', 'apcera/nats', 'apcera/gnatsd',
       'docker/notary', 'youtube/vitess', 'appc/cni', 'miekg/coredns', 'coreos/rocket',
       'rktproject/rkt', 'datawire/telepresence', 'RichiH/OpenMetrics', 'vmware/harbor',
-      'coreos/etcd', 'pingcap/tikv', 'weaveworks/cortex', 'weaveworks/prism',
+      'coreos/etcd', 'pingcap/tikv', 'weaveworks/cortex', 'weaveworks/prism', 'redhat-developer/build',
       'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade',
       'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos', 'second-state/SSVM',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas', 'ppatierno/kaas',
@@ -106,7 +107,8 @@ WHERE
       'vmware-tanzu/carvel-ytt', 'vmware-tanzu/carvel-imgpkg', 'vmware-tanzu/carvel-kbld',
       'vmware-tanzu/carvel-vendir', 'vmware-tanzu/carvel-kwt', 'vmware-tanzu/carvel-secretgen-controller',
       'AkihiroSuda/lima', 'kebe7jun/mepf', 'kebe7jun/mebpf', 'anuvu/zot', 'google/ko', 'flant/werf', 'flant/dapp',
-      'flant/dapper', 'armosec/kubescape', 'kinvolk/inspektor-gadget'
+      'flant/dapper', 'armosec/kubescape', 'kinvolk/inspektor-gadget', 'redhat-developer/buildv2',
+      'redhat-developer/buildv2-operator'
     )
   )
   and repo.name not in (
