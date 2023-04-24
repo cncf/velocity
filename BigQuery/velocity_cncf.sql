@@ -60,7 +60,7 @@ where
       'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'capsule-rs',
       'project-zot', 'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb',
-      'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet'
+      'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet', 'sealerio'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
