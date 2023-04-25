@@ -29,7 +29,7 @@ from
 where
   (
     org.login in (
-      'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'containerd',
+      'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'containerd', 'devspace-sh',
       'rkt', 'kubernetes-client', 'kubernetes-helm', 'nats-io', 'open-policy-agent', 'spiffe',
       'kubernetes-incubator', 'coredns', 'grpc-ecosystem', 'containernetworking', 'cncf',
       'envoyproxy', 'jaegertracing', 'theupdateframework', 'rook', 'vitessio', 'crosscloudci',

@@ -2595,6 +2595,7 @@ theupdateframework/specification,TUF
 theupdateframework/taps,TUF
 theupdateframework/theupdateframework.github.io,TUF
 theupdateframework/tuf,TUF
+theupdateframework/python-tuf,TUF
 todogroup/awesome-oss-mgmt,TODO group
 todogroup/charter,TODO group
 todogroup/gh-issues,TODO group
