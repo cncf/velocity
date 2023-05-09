@@ -66,10 +66,13 @@ WHERE
       'aeraki-framewoirk', 'opencurve', 'open-feature', 'openfeatureflags', 'kubewarden', 'chimera-kube',
       'devstream-io', 'kubedl-io', 'kubevela', 'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'openembedded',
       'Serverless-Devs', 'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
-      'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'capsule-rs', 'project-zot',
+      'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'project-zot',
       'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb', 'tektoncd-catalog', 'opencost',
       'carvel-dev', 'inspektor-gadget', 'clusternet', 'cdevents', 'ortelius', 'pyrsia', 'screwdriver-cd',
-      'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh'
+      'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh', 'clastix/capsule',
+      'clastix/capsule-proxy', 'clastix/capsule-addon-rancher', 'clastix/capsule-community',
+      'clastix/capsule-addon-cloudcasa', 'clastix/capsule-k8s-charm', 'clastix/clastix/capsule-lens-extension',
+      'clastix/capsule-helm-chart', 'clastix/flux2-capsule-multi-tenancy'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
