@@ -697,6 +697,15 @@ cip-project/cip-kernelci,Civil Infrastructure Platform
 cip-project/kernelci-backend,Civil Infrastructure Platform
 cip-project/kernelci-frontend,Civil Infrastructure Platform
 cip-project/linux-cip,Civil Infrastructure Platform
+clastix/capsule,Capsule
+clastix/capsule-proxy,Capsule
+clastix/capsule-addon-rancher,Capsule
+clastix/capsule-community,Capsule
+clastix/capsule-addon-cloudcasa,Capsule
+clastix/capsule-k8s-charm,Capsule
+clastix/clastix/capsule-lens-extension,Capsule
+clastix/capsule-helm-chart,Capsule
+clastix/flux2-capsule-multi-tenancy,Capsule
 clux/kube-rs,kube-rs
 clux/kubernetes-rust,kube-rs
 cncf/ambassadors,CNCF
