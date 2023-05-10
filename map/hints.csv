@@ -706,6 +706,9 @@ clastix/capsule-k8s-charm,Capsule
 clastix/clastix/capsule-lens-extension,Capsule
 clastix/capsule-helm-chart,Capsule
 clastix/flux2-capsule-multi-tenancy,Capsule
+clastix/capsule-ns-filter,Capsule
+clastix/Capsule,Capsule
+clastix/ckd-capsule-app,Capsule
 clux/kube-rs,kube-rs
 clux/kubernetes-rust,kube-rs
 cncf/ambassadors,CNCF
