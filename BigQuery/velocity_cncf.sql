@@ -100,7 +100,8 @@ where
       'anuvu/zot', 'google/ko', 'flant/werf', 'flant/dapp', 'flant/dapper', 'armosec/kubescape',
       'kinvolk/inspektor-gadget', 'clastix/capsule', 'clastix/capsule-proxy', 'clastix/capsule-addon-rancher',
       'clastix/capsule-community', 'clastix/capsule-addon-cloudcasa', 'clastix/capsule-k8s-charm',
-      'clastix/clastix/capsule-lens-extension', 'clastix/capsule-helm-chart', 'clastix/flux2-capsule-multi-tenancy'
+      'clastix/clastix/capsule-lens-extension', 'clastix/capsule-helm-chart', 'clastix/flux2-capsule-multi-tenancy',
+      'clastix/capsule-ns-filter', 'clastix/Capsule', 'clastix/ckd-capsule-app'
     )
   )
   and repo.name not in (
