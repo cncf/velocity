@@ -69,7 +69,7 @@ WHERE
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'project-zot',
       'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb', 'tektoncd-catalog', 'opencost',
       'carvel-dev', 'inspektor-gadget', 'clusternet', 'cdevents', 'ortelius', 'pyrsia', 'screwdriver-cd',
-      'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh'
+      'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh', 'tellerops'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -108,11 +108,11 @@ WHERE
       'vmware-tanzu/carvel-vendir', 'vmware-tanzu/carvel-kwt', 'vmware-tanzu/carvel-secretgen-controller',
       'AkihiroSuda/lima', 'kebe7jun/mepf', 'kebe7jun/mebpf', 'anuvu/zot', 'google/ko', 'flant/werf', 'flant/dapp',
       'flant/dapper', 'armosec/kubescape', 'kinvolk/inspektor-gadget', 'redhat-developer/buildv2',
-      'redhat-developer/buildv2-operator', 'clastix/capsule', 'clastix/capsule-proxy',
+      'redhat-developer/buildv2-operator', 'clastix/capsule', 'clastix/capsule-proxy', ' cncf/sig-app-delivery',
       'clastix/capsule-addon-rancher', 'clastix/capsule-community', 'clastix/capsule-addon-cloudcasa',
       'clastix/capsule-k8s-charm', 'clastix/clastix/capsule-lens-extension', 'clastix/capsule-helm-chart',
       'clastix/flux2-capsule-multi-tenancy', 'clastix/capsule-ns-filter', 'clastix/Capsule',
-      'clastix/ckd-capsule-app'
+      'clastix/ckd-capsule-app', 'cncf/tag-app-delivery'
     )
   )
   and repo.name not in (

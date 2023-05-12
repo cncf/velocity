@@ -727,7 +727,9 @@ cncf/hub,Artifact Hub
 cncf/k8s-conformance,CNCF
 cncf/landscape,CNCF
 cncf/presentations,CNCF
+cncf/sig-app-delivery,GitOps WG
 cncf/soc,CNCF
+cncf/tag-app-delivery,GitOps WG
 cncf/toc,CNCF
 cncf/velocity,CNCF
 cncf/wg-ci,CNCF

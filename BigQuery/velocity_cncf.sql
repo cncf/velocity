@@ -58,16 +58,16 @@ where
       'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela',
       'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib', 'Serverless-Devs',
       'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
-      'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo',
+      'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'tellerops',
       'project-zot', 'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb',
       'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet', 'sealerio', 'keycloak', 'armadaproject'
     )
     or repo.name in (
-      'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
+      'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
       'lyft/envoy', 'uber/jaeger', 'BuoyantIO/linkerd', 'apcera/nats', 'apcera/gnatsd',
       'docker/notary', 'youtube/vitess', 'appc/cni', 'miekg/coredns', 'coreos/rocket',
       'rktproject/rkt', 'datawire/telepresence', 'RichiH/OpenMetrics', 'vmware/harbor',
-      'coreos/etcd', 'pingcap/tikv', 'weaveworks/cortex', 'weaveworks/prism',
+      'coreos/etcd', 'pingcap/tikv', 'weaveworks/cortex', 'weaveworks/prism', 'cncf/tag-app-delivery',
       'weaveworks/frankenstein', 'draios/falco', 'alibaba/Dragonfly', 'Azure/brigade',
       'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas',' ppatierno/kaas',
