@@ -69,7 +69,8 @@ WHERE
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'project-zot',
       'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb', 'tektoncd-catalog', 'opencost',
       'carvel-dev', 'inspektor-gadget', 'clusternet', 'cdevents', 'ortelius', 'pyrsia', 'screwdriver-cd',
-      'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh', 'tellerops'
+      'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh', 'tellerops', 'headlamp-k8s',
+      'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -112,7 +113,8 @@ WHERE
       'clastix/capsule-addon-rancher', 'clastix/capsule-community', 'clastix/capsule-addon-cloudcasa',
       'clastix/capsule-k8s-charm', 'clastix/clastix/capsule-lens-extension', 'clastix/capsule-helm-chart',
       'clastix/flux2-capsule-multi-tenancy', 'clastix/capsule-ns-filter', 'clastix/Capsule',
-      'clastix/ckd-capsule-app', 'cncf/tag-app-delivery'
+      'clastix/ckd-capsule-app', 'cncf/tag-app-delivery', 'mozilla/sops', 'mozilla/sotp', 'mozilla-services/sosp',
+      'kinvolk/headlamp', 'cloudimmunity/docker-slim'
     )
   )
   and repo.name not in (

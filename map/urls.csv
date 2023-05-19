@@ -315,6 +315,7 @@ Hackage,stackage.org
 Halite,halite.io
 Harbor,goharbor.io
 Hashicorp Packer,packer.io
+Headlamp,headlamp.dev
 Helm,helm.sh
 Heron,heronstreaming.io
 Hexa Policy Orchestrator,hexaorchestration.org
@@ -366,6 +367,7 @@ K8up,k8up.io
 KEDA,keda.sh
 Karmada,Karmada.io
 Kata Containers,katacontainers.io
+Kepler,sustainable-computing.io
 Keptn,kepth.sh
 Keybase,keybase.io
 Keycloak,keycloak.org
@@ -613,6 +615,7 @@ Patroni,github.com/zalando/patroni
 PerfView,channel9.msdn.com/Series/PerfView-Tutorial
 Person Finder,google.org/personfinder
 PingCAP,github.com/pingcap
+PipeCD,pipecd.dev
 Piraeus-Datastore,piraeus.io
 Pivotal Cloud Foundry,pivotal.io
 Pivotal Riff,projectriff.io
@@ -704,6 +707,7 @@ Shopify SDKs,developers.shopify.com
 Shopify Timber,shopify.com/timber
 Skillcrush,skillcrush.com
 Skooner,skooner.io
+SlimToolkit,slimtoolkit.org
 Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Solana,solana.com
 Spartakus,sap.github.io
@@ -1061,7 +1065,7 @@ sccache,github.com/mozilla/sccache
 science.mozilla.org,science.mozilla.org
 sealer,sealer.cool
 sigstore,sigstore.dev
-sops,github.com/mozilla/sops
+SOPS,github.com/mozilla/sops
 sparklyr,github.com/sparklyr
 spring-cloud-alibaba,github.com/alibaba/spring-cloud-alibaba
 spring-cloud-azure,github.com/microsoft/spring-cloud-azure

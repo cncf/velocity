@@ -709,6 +709,7 @@ clastix/flux2-capsule-multi-tenancy,Capsule
 clastix/capsule-ns-filter,Capsule
 clastix/Capsule,Capsule
 clastix/ckd-capsule-app,Capsule
+cloudimmunity/docker-slim,SlimToolkit
 clux/kube-rs,kube-rs
 clux/kubernetes-rust,kube-rs
 cncf/ambassadors,CNCF
@@ -1184,6 +1185,7 @@ jldec/projectriff.io,Pivotal Riff
 joeythesaint/cgl-specification,Carrier Grade Linux
 kebe7jun/mebpf,Merbridge
 kebe7jun/mepf,Merbridge
+kinvolk/headlamp,Headlamp
 kinvolk/inspektor-gadget,Inspektor Gadget
 knative/build,Tekton
 kubernetes-incubator/bootkube,Kubernetes
@@ -1896,7 +1898,8 @@ mozilla/shield-study-privacy,Firefox
 mozilla/sign-addon,Firefox
 mozilla/snowl,Firefox
 mozilla/socialapi-dev,Firefox
-mozilla/sops,sops
+mozilla/sops,SOPS
+mozilla/sotp,SOPS
 mozilla/spark,Firefox
 mozilla/spidernode,SpiderNode
 mozilla/splice,Firefox
@@ -1924,6 +1927,7 @@ mozilla/webmaker-ffos,Firefox
 mozilla/yogafire,Firefox
 mozilla/zamboni,Firefox
 mozilla/zippy,Firefox
+mizilla-services/sops,SOPS
 nirmata/kyverno,Kyverno
 noironetworks/cilium-net,Cilium
 oam-dev/kubevela,KubeVela

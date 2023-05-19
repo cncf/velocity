@@ -182,6 +182,7 @@ distribution,Distribution
 dmlc,DMLC
 docker,Docker
 docker-freebsd,FreeBSD
+docker-slim,SlimToolkit
 dragonflyoss,Dragonfly
 driftyco,Ionic
 e-government-ua,Основной репозиторий
@@ -233,6 +234,7 @@ graphql,GraphQL
 grpc,gRPC
 grpc-ecosystem,gRPC
 guardian,The Guardian
+headlight-k8s,Headlight
 helm,Helm
 hexa-org,Hexa Policy Orchestrator
 home-assistant,Home Assistant
@@ -405,6 +407,7 @@ p4lang,P4 Language
 parallaxsecond,PARSEC
 paralus,Paralus
 pingcap,PingCAP
+pipe-cd,PipeCD
 piraeusdatastore,Piraeus-Datastore
 pivotal-cf,Pivotal Cloud Foundry
 pixie-io,Pixie
@@ -448,6 +451,7 @@ shipwright-io,Shipwright
 sigstore,sigstore
 skillcrush,Skillcrush
 skooner-k8s,Skooner
+slimtoolkit,SlimToolkit
 sodafoundation,SODA Foundation
 solana-labs,Solana
 sparklyr,sparklyr
@@ -461,6 +465,7 @@ spring-projects,Spring
 strimzi,Strimzi
 submariner-io,Submariner
 superedge,SuperEdge
+sustainable-computing-io,Kepler
 swagger-api,Swagger
 symfony,Symfony
 symphonyoss,FINOS Symphony

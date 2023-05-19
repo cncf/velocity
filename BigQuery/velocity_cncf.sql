@@ -60,7 +60,8 @@ where
       'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'tellerops',
       'project-zot', 'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb',
-      'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet', 'sealerio', 'keycloak', 'armadaproject'
+      'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet', 'sealerio', 'keycloak', 'armadaproject',
+      'headlamp-k8s', 'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -101,7 +102,8 @@ where
       'kinvolk/inspektor-gadget', 'clastix/capsule', 'clastix/capsule-proxy', 'clastix/capsule-addon-rancher',
       'clastix/capsule-community', 'clastix/capsule-addon-cloudcasa', 'clastix/capsule-k8s-charm',
       'clastix/clastix/capsule-lens-extension', 'clastix/capsule-helm-chart', 'clastix/flux2-capsule-multi-tenancy',
-      'clastix/capsule-ns-filter', 'clastix/Capsule', 'clastix/ckd-capsule-app'
+      'clastix/capsule-ns-filter', 'clastix/Capsule', 'clastix/ckd-capsule-app', 'mozilla/sops', 'mozilla/sotp',
+      'mozilla-services/sosp', 'kinvolk/headlamp', 'cloudimmunity/docker-slim'
     )
   )
   and repo.name not in (
