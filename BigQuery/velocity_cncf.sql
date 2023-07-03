@@ -61,7 +61,8 @@ where
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'tellerops',
       'project-zot', 'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb',
       'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet', 'sealerio', 'keycloak', 'armadaproject',
-      'headlamp-k8s', 'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd'
+      'headlamp-k8s', 'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd' 'xline-kv',
+      'hwameistor', 'microcks', 'kubeclipper', 'kubeclipper-labs', 'kubeflow'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -103,7 +104,8 @@ where
       'clastix/capsule-community', 'clastix/capsule-addon-cloudcasa', 'clastix/capsule-k8s-charm',
       'clastix/clastix/capsule-lens-extension', 'clastix/capsule-helm-chart', 'clastix/flux2-capsule-multi-tenancy',
       'clastix/capsule-ns-filter', 'clastix/Capsule', 'clastix/ckd-capsule-app', 'mozilla/sops', 'mozilla/sotp',
-      'mozilla-services/sosp', 'kinvolk/headlamp', 'cloudimmunity/docker-slim'
+      'mozilla-services/sosp', 'kinvolk/headlamp', 'cloudimmunity/docker-slim', 'Azure/eraser', 'datenlord/Xline',
+      'GoogleContainerTools/kpt', 'google/kubeflow'
     )
   )
   and repo.name not in (

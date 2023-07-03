@@ -70,7 +70,8 @@ WHERE
       'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb', 'tektoncd-catalog', 'opencost',
       'carvel-dev', 'inspektor-gadget', 'clusternet', 'cdevents', 'ortelius', 'pyrsia', 'screwdriver-cd',
       'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh', 'tellerops', 'headlamp-k8s',
-      'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd'
+      'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd', 'xline-kv', 'hwameistor', 'microcks',
+      'kubeclipper', 'kubeclipper-labs', 'kubeflow'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -114,7 +115,8 @@ WHERE
       'clastix/capsule-k8s-charm', 'clastix/clastix/capsule-lens-extension', 'clastix/capsule-helm-chart',
       'clastix/flux2-capsule-multi-tenancy', 'clastix/capsule-ns-filter', 'clastix/Capsule',
       'clastix/ckd-capsule-app', 'cncf/tag-app-delivery', 'mozilla/sops', 'mozilla/sotp', 'mozilla-services/sosp',
-      'kinvolk/headlamp', 'cloudimmunity/docker-slim'
+      'kinvolk/headlamp', 'cloudimmunity/docker-slim', 'Azure/eraser', 'datenlord/Xline', 'GoogleContainerTools/kpt',
+      'google/kubeflow'
     )
   )
   and repo.name not in (

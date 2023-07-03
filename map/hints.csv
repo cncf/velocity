@@ -71,6 +71,7 @@ Azure/azure-webjobs-sdk-script,AZF
 Azure/azure-webjobs-sdk-script-samples,AZF
 Azure/azure-webjobs-sdk-templates,AZF
 Azure/brigade,Brigade
+Azure/eraser,Eraser
 Azure/sonic-py-swsssdk,Azure SDKs
 Azure/vscode-kubernetes-tools,VS Code Kubernetes Tools
 BuoyantIO/linkerd,Linkerd
@@ -122,6 +123,7 @@ GoogleCloudPlatform/kubernetes-workshops,Kubernetes
 GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/php-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
+GoogleContainerTools/kpt,kpt
 HaliteChallenge/Halite,Halite
 Huawei-PaaS/CNI-Genie,CNI-Genie
 IBM/AIF360,AIF360
@@ -865,6 +867,7 @@ coreos/rocket,rkt
 danderson/metallb,MetalLB
 datawire/ambassador,Emissary-ingress
 datawire/telepresence,Telepresence
+datenlord/Xline,Xline
 deislabs/akri,Akri
 deislabs/krustlet,Krustlet
 deislabs/oras,ORAS
@@ -987,6 +990,7 @@ google/gson,google-gson
 google/guava,Guava
 google/guetzli,Google Perceptual JPEG encoder
 google/ko,ko
+google/kubeflow/Kubeflow
 google/martian,Martian Proxy
 google/material-design-lite,Google Material Design Components
 google/metallb,MetalLB

@@ -240,6 +240,7 @@ hexa-org,Hexa Policy Orchestrator
 home-assistant,Home Assistant
 horovod,Horovod
 huggingface,Hugging Face
+hwameistor,Hwameistor
 hyperledger,Hyperledger
 hyperledger-labs,Hyperledger
 in-toto,in-toto
@@ -278,9 +279,12 @@ krustlet,Krustlet
 kube-rs,kube-rs
 kube-vip,kube-vip
 kubearmor,KubeArmor
+kubeclipper,Kubeclipper
+kubeclipper-labs,Kubeclipper
 kubecost,OpenCost
 kubedl-io,KubeDL
 kubeedge,KubeEdge
+kubeflow,Kubeflow
 kubeovn,Kube-OVN
 kubereboot,Kured
 kuberhealthy,Kuberhealthy
@@ -338,6 +342,7 @@ mesosphere,Apache Mesos
 metal3-io,Metal³
 metallb,MetalLB
 meteor,Meteor
+microcks,Microcks
 mininet,Mininet
 mitodl,MIT Office of Digital Learning
 mozilla,Mozilla
@@ -514,6 +519,7 @@ wordpress-mobile,WordPress-mobile
 wso2,WSO2
 xbmc,Team Kodi
 xen-project,Xen
+xline-kv,Xline
 yarnpkg,yarn
 yoctoproject,Yocto
 yogstation13,Yogstation13

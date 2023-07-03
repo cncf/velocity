@@ -231,6 +231,7 @@ Emissary-ingress,getambassador.io
 Encrypted Media Extensions,w3c.github.io/encrypted-media
 Envoy,www.envoyproxy.io
 Enzyme,airbnb.io/enzyme
+Eraser,azure.github.io/eraser
 Error Prone,errorprone.info
 Esri,esri.com
 Ethereum,ethereum.org
@@ -326,6 +327,7 @@ Homebrew Cask,caskroom.github.io
 Horovod,eng.uber.com/horovod
 Hubot,hubot.github.com
 Hugging Face,huggingface.co
+Hwameistor,hwameistor.io
 Hyper,hyper.is
 Hyperledger,hyperledger.org
 IBM Bluemix,bluemix.net
@@ -386,6 +388,8 @@ KubeDL,kubedl.io
 KubeEdge,kubeedge.io
 KubeVela,kubevela.io
 KubeVirt,kubevirt.io
+Kubeclipper,kubeclipper.io
+Kubeflow,kubeflow.org
 Kuberhealthy,github.com/Comcast/kuberhealthy
 Kubernetes,kubernetes.io
 Kubescape,github.com/kubescape
@@ -449,6 +453,7 @@ MetalLB,metallb.org
 Metal³,metal3.io
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
+Microcks,microcks.io
 Microsoft (other),microsoft.com
 Microsoft API,github.com/Microsoft/api-guidelines
 Microsoft Application Insights,azure.microsoft.com/en-us/services/application-insights
@@ -832,6 +837,7 @@ XAMPP,apachefriends.org
 XX-net,github.com/XX-net/XX-Net
 Xaml-Controls-Gallery,github.com/microsoft/Xaml-Controls-Gallery
 Xen,xenproject.org
+Xline,xline.cloud
 YAMS,github.com/Microsoft/Yams
 YAPF,github.com/google/yapf
 Yoast SEO,yoast.com/wordpress/seo
@@ -989,6 +995,7 @@ k8dash,skooner.io
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
 ko,ko.build
+kpt,kpt.dev
 kube-rs,docs.rs/kube
 kube-vip,kube-vip.io
 kubewarden,kubewarden.io
