@@ -523,7 +523,7 @@ alibaba/p3c,p3c
 alibaba/pont,pont
 alibaba/pouch,PouchContainer
 alibaba/rax,Rax
-alibaba/sealer,sealer
+alibaba/sealer,Sealer
 alibaba/spring-cloud-alibaba,spring-cloud-alibaba
 alibaba/tengine,tengine
 alibaba/uform,uform
@@ -699,18 +699,18 @@ cip-project/cip-kernelci,Civil Infrastructure Platform
 cip-project/kernelci-backend,Civil Infrastructure Platform
 cip-project/kernelci-frontend,Civil Infrastructure Platform
 cip-project/linux-cip,Civil Infrastructure Platform
+clastix/Capsule,Capsule
 clastix/capsule,Capsule
-clastix/capsule-proxy,Capsule
+clastix/capsule-addon-cloudcasa,Capsule
 clastix/capsule-addon-rancher,Capsule
 clastix/capsule-community,Capsule
-clastix/capsule-addon-cloudcasa,Capsule
-clastix/capsule-k8s-charm,Capsule
-clastix/clastix/capsule-lens-extension,Capsule
 clastix/capsule-helm-chart,Capsule
-clastix/flux2-capsule-multi-tenancy,Capsule
+clastix/capsule-k8s-charm,Capsule
 clastix/capsule-ns-filter,Capsule
-clastix/Capsule,Capsule
+clastix/capsule-proxy,Capsule
 clastix/ckd-capsule-app,Capsule
+clastix/clastix/capsule-lens-extension,Capsule
+clastix/flux2-capsule-multi-tenancy,Capsule
 cloudimmunity/docker-slim,SlimToolkit
 clux/kube-rs,kube-rs
 clux/kubernetes-rust,kube-rs
@@ -990,7 +990,7 @@ google/gson,google-gson
 google/guava,Guava
 google/guetzli,Google Perceptual JPEG encoder
 google/ko,ko
-google/kubeflow/Kubeflow
+google/kubeflow,Kubeflow
 google/martian,Martian Proxy
 google/material-design-lite,Google Material Design Components
 google/metallb,MetalLB
@@ -1663,6 +1663,7 @@ microsoft/xunit-performance,dotnet
 miekg/coredns,CoreDNS
 mit-ll/keylime,Keylime
 mit-ll/python-keylime,Keylime
+mizilla-services/sops,SOPS
 mozilla/123done,Firefox
 mozilla/ADBFuzz,Firefox
 mozilla/DeepSpeech,DeepSpeech
@@ -1931,7 +1932,6 @@ mozilla/webmaker-ffos,Firefox
 mozilla/yogafire,Firefox
 mozilla/zamboni,Firefox
 mozilla/zippy,Firefox
-mizilla-services/sops,SOPS
 nirmata/kyverno,Kyverno
 noironetworks/cilium-net,Cilium
 oam-dev/kubevela,KubeVela
@@ -2613,11 +2613,11 @@ theupdateframework/pep-maximum-security-model,TUF
 theupdateframework/pep-on-pypi-with-tuf,TUF
 theupdateframework/pip,TUF
 theupdateframework/pypi.updateframework.com,TUF
+theupdateframework/python-tuf,TUF
 theupdateframework/specification,TUF
 theupdateframework/taps,TUF
 theupdateframework/theupdateframework.github.io,TUF
 theupdateframework/tuf,TUF
-theupdateframework/python-tuf,TUF
 todogroup/awesome-oss-mgmt,TODO group
 todogroup/charter,TODO group
 todogroup/gh-issues,TODO group

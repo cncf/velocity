@@ -657,7 +657,6 @@ RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
 RISC-V,riscv.org
 Rapid7,rapid7.com
-Sentry,sentry.io
 Rax,rax.js.org
 React,facebook.com
 React-Native-Onyx,github.com/Expensify/react-native-onyx
@@ -681,6 +680,7 @@ SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-netw
 SMI,smi-spec.io
 SNAS.io,www.snas.io
 SODA Foundation,sodafoundation.io
+SOPS,github.com/mozilla/sops
 SPDX,spdx.dev
 SPTAG,github.com/microsoft/SPTAG
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
@@ -694,9 +694,11 @@ Satchel,microsoft.github.io/satcheljs
 SchemaHero,schemahero.io
 Screwdriver CD,screwdriver.cd
 Scrooge,twitter.github.io/scrooge
+Sealer,sealer.cool
 Seata,github.com/seata/seata
 Sensu,sensuapp.org
 Sentinel,github.com/alibaba/Sentinel
+Sentry,sentry.io
 Sequelize,docs-sequelizejs.com
 Serverless Devs,serverless-devs.com
 Serverless Framework,serverless.com
@@ -1070,9 +1072,7 @@ rkt,github.com/rkt/rkt
 rushstack,github.com/microsoft/rushstack
 sccache,github.com/mozilla/sccache
 science.mozilla.org,science.mozilla.org
-sealer,sealer.cool
 sigstore,sigstore.dev
-SOPS,github.com/mozilla/sops
 sparklyr,github.com/sparklyr
 spring-cloud-alibaba,github.com/alibaba/spring-cloud-alibaba
 spring-cloud-azure,github.com/microsoft/spring-cloud-azure

@@ -221,6 +221,7 @@ freebsd-store,FreeBSD
 frontierdotxyz,Frontier
 gatsbyjs,Gatsby
 getporter,Porter
+getsentry,Sentry
 github,GitHub
 gitlab,GitLab
 gitlabhq,GitLab
@@ -234,7 +235,8 @@ graphql,GraphQL
 grpc,gRPC
 grpc-ecosystem,gRPC
 guardian,The Guardian
-headlight-k8s,Headlight
+headlamp-k8s,Headlamp
+headlight-k8s,Headlamp
 helm,Helm
 hexa-org,Hexa Policy Orchestrator
 home-assistant,Home Assistant
@@ -523,7 +525,6 @@ xline-kv,Xline
 yarnpkg,yarn
 yoctoproject,Yocto
 yogstation13,Yogstation13
-getsentry,Sentry
 zalando,Zalando
 zendframework,Zend Framework
 zephyrproject-rtos,Zephyr
