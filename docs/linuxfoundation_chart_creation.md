@@ -16,21 +16,21 @@ Go to this [LF page](https://www.linuxfoundation.org/projects/) to find a list o
 
 For every project, find a github repo and add it to a [query](BigQuery/velocity_lf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `./run_bq.sh lf 2018-07-01 2019-07-01`. It takes about 1+TB and costs about $5+.
+Run the query for a year, for example: `./run_bq.sh lf 2022-07-01 2023-07-01`. It takes about 1+TB and costs about $5+.
 
-It will generate a file for example: `data/data_lf_projects_20180701_20190701.csv`.
+It will generate a file for example: `data/data_lf_projects_20220701_20230701.csv`.
 
 ### Add CNCF projects
 
 You may miss CSV header, add `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` if needed.
 
-- `ruby merger.rb data/data_lf_projects_20180701_20190701.csv data/data_cncf_projects_20180701_20190701.csv`.
+- `ruby merger.rb data/data_lf_projects_20220701_20230701.csv data/data_cncf_projects_20220701_20230701.csv`.
 
 
 ### Add Linux data
 
 Try running this from the velocity project's root folder:
-`ruby add_linux.rb data/data_lf_projects_20180701_20190701.csv data/data_linux.csv 2018-07-01 2019-07-01`.
+`ruby add_linux.rb data/data_lf_projects_20220701_20230701.csv data/data_linux.csv 2022-07-01 2023-07-01`.
 - A message will be shown: `Data range not found in data/data_linux.csv: 2018-07-01 - 2019-07-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
 - Add a row for the time period in `data/data_linux.csv`: `torvalds,torvalds/linux,2016-11-01,2017-11-01,0,0,0,0,0,0,0,0`
 	- Get `cncf/gitdm` with `git clone https://github.com/cncf/gitdm.git`
