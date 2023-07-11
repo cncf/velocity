@@ -48,7 +48,7 @@ If you have all CNCF projects databases locally, you can use old local approach 
 
 To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20220701_20230701.csv projects/projects_cncf_k8s_non_k8s_20220701_20230701.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
 
-Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/1NifFdE45BlscO6j7vlDspccQ-i9Ksgip6yx2bmhmCCs/edit?usp=sharing).
+Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/1HnYZriD2uBd-phEp3h3TsRTv1kdk-C7RfUiat-p1pt0/edit#gid=976519966).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
