@@ -27,13 +27,13 @@ To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets
 #### In detail
 Update BigQuery [query file](BigQuery/velocity_top30.sql). If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `./run_bq.sh top30 2018-07-01 2019-07-01`. It takes about 1+TB and costs about $5+.
+Run the query for a year, for example: `./run_bq.sh top30 2022-07-01 2023-07-01`. It takes about 1+TB and costs about $5+.
 
-It will generate a file for example: `data/data_top30_projects_20180701_20190701.csv`.
+It will generate a file for example: `data/data_top30_projects_20220701_20230701.csv`.
 
 Run `analysis.rb` with
 ```
-FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_projects_20180701_20190701.csv projects/projects_top30_20180701_20190701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
+FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_projects_20220701_20230701.csv projects/projects_top30_20220701_20230701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
