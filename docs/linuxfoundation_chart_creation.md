@@ -61,7 +61,7 @@ Run this from the velocity project's root folder again:
 - `./repo init -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo; ./repo init`
 - `./repo sync`
 - Now You need to use script `agl/run_multirepo.sh` with: `./run_multirepo.sh` that uses `cncf/gitdm` to generate GitHub-like statistics.
-- `DTFROM=2018-07-01 DTTO=2019-07-01 ./run_multirepo_range.sh`.
+- `DTFROM=2022-07-01 DTTO=2023-07-01 ./run_multirepo_range.sh`.
 - There will be `agl.txt` file generated, something like this:
 ```
 Processed 67124 csets from 1155 developers
@@ -69,19 +69,22 @@ Processed 67124 csets from 1155 developers
 A total of 13431516 lines added, 12197416 removed, 24809064 changed (delta 1234100)
 ```
 - You can get number of authors: 1155 and commits 67124 (this is for all time)
-- To get data for some specific data range: `cd agl; DTFROM="2018-07-01" DTTO="2019-07-01" ./run_multirepo_range.sh` ==> `agl.txt`.
+- To get data for some specific data range: `cd agl; DTFROM="2022-07-01" DTTO="2023-07-01" ./run_multirepo_range.sh` ==> `agl.txt`.
 ```
 Processed 7152 csets from 365 developers
 ```
 - 7152 commits and 365 authors.
-- To get number of Issues, search Jira (old approach): `https://jira.automotivelinux.org/browse/SPEC-923?jql=created%20%3E%3D%202016-10-01%20AND%20created%20%3C%3D%202017-10-01`
-- Use `./agl_jira.sh '2017-11-01 00:00:00' '2018-11-01 00:00:00'`.
+- To get number of Issues, search Jira (old approach): `https://jira.automotivelinux.org/browse/SPEC-923?jql=created%20%3E%3D%202022-07-01%20AND%20created%20%3C%3D%202023-07-01`
+- Use `./agl_jira.sh '2022-07-01 00:00:00' '2023-07-01 00:00:00'`.
 - It will return the number of issues in a given time range.
 - PRs = 1.07 * 665 = 711
 - Comments would be 2 * commits = 14304
 - Activity = sum of all others (comments, commits, issues, prs)
 - Create a file based on `data/data_agl_projects_20180701_20190701.csv` and apply proper data values
 - Run `ruby merger.rb data/data_lf_projects_20180701_20190701.csv data/data_agl_projects_20180701_20190701.csv`.
+
+
+### Run analysis
 
 Run `analysis.rb` with
 ```
