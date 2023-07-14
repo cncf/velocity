@@ -80,8 +80,8 @@ Processed 7152 csets from 365 developers
 - PRs = 1.07 * 665 = 711
 - Comments would be 2 * commits = 14304
 - Activity = sum of all others (comments, commits, issues, prs)
-- Create a file based on `data/data_agl_projects_20180701_20190701.csv` and apply proper data values
-- Run `ruby merger.rb data/data_lf_projects_20180701_20190701.csv data/data_agl_projects_20180701_20190701.csv`.
+- Create a file based on `data/data_agl_projects_20220701_20230701.csv` and apply proper data values
+- Run `ruby merger.rb data/data_lf_projects_20220701_20230701.csv data/data_agl_projects_20220701_20230701.csv`.
 
 
 ### Run analysis
