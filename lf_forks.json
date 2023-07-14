@@ -9149,5 +9149,8 @@
   "jenkinsci/covcomplplot-plugin": false,
   "jenkinsci/x-developer-client-plugin": false,
   "ortelius/cdf-toc": null,
-  "ortelius/ortelius-toc": false
+  "ortelius/ortelius-toc": false,
+  "buildpacks-community/invites": false,
+  "buildpacks-community/scafall": false,
+  "buildpacks-community/community": false
 }
