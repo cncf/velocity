@@ -7507,5 +7507,8 @@
   "ortelius/dev-env-setup": false,
   "openembedded/bitbake": false,
   "ortelius/ms-dep-pkg-r": false,
-  "jenkinsci/autify-plugin": false
+  "jenkinsci/autify-plugin": false,
+  "buildpacks-community/invites": false,
+  "buildpacks-community/scafall": false,
+  "buildpacks-community/community": false
 }

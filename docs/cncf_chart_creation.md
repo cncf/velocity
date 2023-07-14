@@ -30,7 +30,7 @@ ruby analysis.rb data/data_cncf_projects_20220701_20230701.csv projects/projects
 
 Some projects are defined as regexps inside one or more orgs - BQ query tracks their orgs and config specifies which repos go to which project. You need to remove remaining repos for those orgs from the report.
 
-Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_20220701_20230701.csv` file. Also check for last column being empty `/s,""`.
+Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_cncf_20220701_20230701.csv` file. Also check for last column being empty `/s,""`.
 
 Update forks files used for LF and Top30 generation: `./merge_forks.rb lf_forks.json forks.json`, `./merge_forks.rb all_forks.json forks.json`.
 
