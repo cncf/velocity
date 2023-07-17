@@ -36,7 +36,7 @@ Run `analysis.rb` with
 FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_projects_20220701_20230701.csv projects/projects_top30_20220701_20230701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1M6In8WDSiW-RhGGD6GFpT-DwSgu6kfay0Oq3YjcYbYo/edit#gid=1169691230).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
@@ -48,24 +48,24 @@ The chart now only contains GitHub-hosted projects and for Linux Foundation purp
 
 ### Example - Top 30 chart data preparation for a new date range
 
-Existing script `shells/unlimited_both.sh` generates our chart data for 2018-07-01 to 2019-07-01. Let's assume we want to generate the chart for a new date range: 2018-07-01 to 2019-07-01. This is a step-by-step tutorial on how to accomplish that.
-- Copy `shells/unlimited_both.sh` to `shells/unlimited_20170701-20190701.sh`
-- Keep `shells/unlimited_20180701-20190701.sh` opened in some other terminal window `vi shells/unlimited_20180701-20190701.sh` as we need to update all steps. Change all the dates to a new range now so you do not forget and run mixed data.
+Existing script `shells/unlimited_both.sh` generates our chart data for 2022-07-01 to 2023-07-01. Let's assume we want to generate the chart for a new date range: 2022-07-01 to 2023-07-01. This is a step-by-step tutorial on how to accomplish that.
+- Copy `shells/unlimited_both.sh` to `shells/unlimited_20220701-20230701.sh`
+- Keep `shells/unlimited_20220701-20230701.sh` opened in some other terminal window `vi shells/unlimited_20220701-20230701.sh` as we need to update all steps. Change all the dates to a new range now so you do not forget and run mixed data.
 - First, we need unlimited BigQuery output for a new date range:
 ```
 echo "Restoring BigQuery output"
-cp data/data_top30_projects_20180701_20190701.csv data/unlimited.csv
+cp data/data_top30_projects_20220701_20230701.csv data/unlimited.csv
 ```
-- We need the `data/unlimited_output_201807_201907.csv` file. To generate this one, we need to run BigQuery for the new date range.
-- Open the sql file that generated the current range's data: `vi BigQuery/query_201807_201907_unlimited.sql`
-- Save as `BigQuery/query_201807_201907_unlimited.sql` after changing the date ranges in SQL.
-- Copy to clipboard `pbcopy < BigQuery/query_201807_201907_unlimited.sql` and run in Google BigQuery: `https://bigquery.cloud.google.com/queries/<<your_google_project_name>>`, it takes about 1TB and costs about $5
-- Save result to a table `<<your_google_user_name>>:unlimited_201807_201907` "Save as table"
-- Open this table `<<your_google_user_name>>:unlimited_201807_201907` and click "Export Table" to export it to google storage as: `gs://<<your_google_user_name>>/unlimited_201807_201907.csv` (You may click "View files" to see files in your gstorage)
-- Go to google storage and download `<<your_google_user_name>>/unlimited_201807_201907.csv` and put it where `shells/unlimited_20180701-20190701.sh` expects it (update the file name to `data/unlimited_output_201807_201907.csv`): 
+- We need the `data/unlimited_output_202207_202307.csv` file. To generate this one, we need to run BigQuery for the new date range.
+- Open the sql file that generated the current range's data: `vi BigQuery/query_202207_202307_unlimited.sql`
+- Save as `BigQuery/query_202207_202307_unlimited.sql` after changing the date ranges in SQL.
+- Copy to clipboard `pbcopy < BigQuery/query_202207_202307_unlimited.sql` and run in Google BigQuery: `https://bigquery.cloud.google.com/queries/<<your_google_project_name>>`, it takes about 1TB and costs about $5
+- Save result to a table `<<your_google_user_name>>:unlimited_202207_202307` "Save as table"
+- Open this table `<<your_google_user_name>>:unlimited_202207_202307` and click "Export Table" to export it to google storage as: `gs://<<your_google_user_name>>/unlimited_202207_202307.csv` (You may click "View files" to see files in your gstorage)
+- Go to google storage and download `<<your_google_user_name>>/unlimited_202207_202307.csv` and put it where `shells/unlimited_20220701-20230701.sh` expects it (update the file name to `data/unlimited_output_202207_202307.csv`): 
 ```
 echo "Restoring BigQuery output"
-cp data/unlimited_output_201807_201907.csv data/unlimited.csv
+cp data/unlimited_output_202207_202307.csv data/unlimited.csv
 ```
 - So we have main data (step 1) ready for the new chart. Now we need to get data for all non-standard projects. You can try our analysis tool without any special projects by running:
 `FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
