@@ -31,7 +31,7 @@ where
     org.login in (
       'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'containerd', 'devspace-sh',
       'rkt', 'kubernetes-client', 'kubernetes-helm', 'nats-io', 'open-policy-agent', 'spiffe',
-      'kubernetes-incubator', 'coredns', 'grpc-ecosystem', 'containernetworking', 'cncf',
+      'kubernetes-incubator', 'coredns', 'grpc-ecosystem', 'containernetworking', 'cncf', 'getsops',
       'envoyproxy', 'jaegertracing', 'theupdateframework', 'rook', 'vitessio', 'crosscloudci',
       'cloudevents', 'openeventing', 'telepresenceio', 'helm', 'goharbor', 'kubernetes-csi',
       'etcd-io', 'tikv', 'cortexproject', 'buildpack', 'falcosecurity', 'OpenObservability',
