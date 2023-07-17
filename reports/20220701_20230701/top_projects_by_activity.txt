@@ -1,0 +1,101 @@
+Top projects by activity:
+1) unifyai activity: 2564239
+2) Linux (kernel.org) activity: 495707
+3) dotnet (microsoft.com/net) activity: 465334
+4) Elasticsearch (elastic.co/products/elasticsearch) activity: 462810
+5) Kubernetes (kubernetes.io) activity: 449412
+6) Odoo (odoo.com) activity: 400864
+7) OpenShift (openshift.com) activity: 344222
+8) pytorch (pytorch.org) activity: 340458
+9) NixOS (nixos.org) activity: 275553
+10) VS Code (code.visualstudio.com) activity: 269168
+11) Datadog (datadog.com) activity: 252353
+12) Rust (rust-lang.org) activity: 246650
+13) Nextcloud (nextcloud.com) activity: 234365
+14) ingadhoc activity: 221348
+15) Grafana Labs (grafana.com) activity: 208912
+16) Home Assistant (home-assistant.io) activity: 196108
+17) Sentry (sentry.io) activity: 193456
+18) Homebrew (brew.sh) activity: 172212
+19) Caseflow (va.gov) activity: 164446
+20) OpenTelemetry (opentelemetry.io) activity: 160186
+21) Godot Engine (godotengine.org) activity: 158512
+22) Google APIs (googleapis.github.io) activity: 157607
+23) Hugging Face (huggingface.co) activity: 154305
+24) React (facebook.com) activity: 152710
+25) PingCAP (github.com/pingcap) activity: 150609
+26) sourcegraph activity: 147449
+27) Enterprise-CMCS activity: 145165
+28) Expensify activity: 143406
+29) WordPress activity: 142749
+30) demisto activity: 141392
+31) opensearch-project activity: 139437
+32) Cockroach Labs (cockroachlabs.com) activity: 134357
+33) Flutter (flutter.io) activity: 134026
+34) bcgov activity: 133271
+35) PaddlePaddle (paddlepaddle.org) activity: 132866
+36) Azure SDKs (azure.microsoft.com) activity: 132003
+37) conda-forge (conda-forge.org) activity: 131825
+38) paritytech activity: 131584
+39) canonical activity: 129720
+40) leanprover-community activity: 127709
+41) LLVM (llvm.org) activity: 127550
+42) suttacentral activity: 110151
+43) input-output-hk activity: 107778
+44) python (www.python.org) activity: 105753
+45) quarkusio activity: 102594
+46) Terraform (terraform.io) activity: 102108
+47) airbytehq activity: 102033
+48) status-im activity: 97481
+49) mate-academy activity: 96314
+50) Vercel (vercel.com) activity: 96287
+51) AdguardTeam activity: 96261
+52) gravitational activity: 96094
+53) Zephyr (www.zephyrproject.org) activity: 95493
+54) truecharts activity: 94831
+55) SS13 (tgstation13.org) activity: 94008
+56) Ethereum (ethereum.org) activity: 91146
+57) MetaMask activity: 90671
+58) ODOO Community Association (odoo-community.org) activity: 90137
+59) matrix-org activity: 89867
+60) WP Calypso (developer.wordpress.com/calypso) activity: 88273
+61) Government Digital Service (gds.blog.gov.uk) activity: 87724
+62) TensorFlow (tensorflow.org) activity: 87639
+63) Ansible (ansible.com) activity: 85472
+64) Swift (swift.org) activity: 83747
+65) woocommerce activity: 83210
+66) filecoin-project activity: 83112
+67) aws-amplify activity: 82845
+68) CMS Offline Software (cms-sw.github.io) activity: 81959
+69) openedx activity: 81045
+70) cosmos activity: 80139
+71) openvinotoolkit activity: 78999
+72) betagouv activity: 78123
+73) bitnami activity: 77969
+74) StarRocks activity: 77517
+75) Node.js (nodejs.org) activity: 75018
+76) Hyperledger (hyperledger.org) activity: 73921
+77) ray-project activity: 73536
+78) Dart (dartlang.org) activity: 72778
+79) appsmithorg activity: 72383
+80) New Relic (opensource.newrelic.com) activity: 72270
+81) Mattermost (mattermost.org) activity: 72199
+82) containers activity: 71940
+83) rapidsai activity: 71553
+84) ClickHouse activity: 70247
+85) scylladb activity: 70219
+86) pulumi activity: 70179
+87) firebase activity: 69590
+88) MystenLabs activity: 67713
+89) Cilium (cilium.io) activity: 66742
+90) apple activity: 66690
+91) Shopify (shopify.com) activity: 65922
+92) prisma activity: 65906
+93) microsoftgraph activity: 65285
+94) Envoy (www.envoyproxy.io) activity: 65205
+95) equinor activity: 64421
+96) Apache Beam (beam.apache.org) activity: 64391
+97) dfinity activity: 64065
+98) adobe activity: 63085
+99) Automattic activity: 62534
+100) rancher activity: 61750
