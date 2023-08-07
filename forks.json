@@ -6923,6 +6923,7 @@
   "kinvolk/inspektor-gadget": false,
   "kinvolk/headlamp": false,
   "Azure/eraser": false,
+  "eraser-dev/eraser": false,
   "headlamp-k8s/headlamp": false,
   "datenlord/Xline": false,
   "kubeflow/katib": false,
