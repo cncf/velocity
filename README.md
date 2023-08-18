@@ -1,6 +1,6 @@
 # Open Source Project Velocity by CNCF
 
-# Authors definition
+# Definitions
 
 - Authors is defined as a number of distinct commits/changesets authors across all project's repositories.
 - Issues value is defined as a number of distinct issues/bugs/emails (depending on data source type, like GitHub, Gerrint, Linux Kernel mail archives, etc.).
