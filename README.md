@@ -1,5 +1,13 @@
 # Open Source Project Velocity by CNCF
 
+# Authors definition
+
+- Authors is defined as a number of distinct commits/changesets authors across all project's repositories.
+- Issues value is defined as a number of distinct issues/bugs/emails (depending on data source type, like GitHub, Gerrint, Linux Kernel mail archives, etc.).
+- PRs value is defined as a number of distinct Pull Requests/Merge Requests (depending on data source type).
+- Charts use the logarithmic scale number of commits for the X-axis, the logarithmic scale number of sum of issues and PRs for the Y-axis, and the square root of the number of authors for the bubble size.
+
+
 ## Current reports
 
 7/1/2022 - 7/1/2023:
