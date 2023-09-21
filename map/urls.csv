@@ -172,6 +172,7 @@ Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
 ContainerSSH,containerssh.io
 Contour,projectcontour.io
+Copacetic,project-copacetic.github.io/copacetic
 Core Infrastructure,www.coreinfrastructure.org
 CoreDNS,coredns.io
 CoreOS,coreos.com
@@ -366,7 +367,9 @@ Julia,julialang.org
 K3s,k3s.io
 K8GB,github.com/AbsaOSS/k8gb
 K8up,k8up.io
+KCL,kcl-lang.io
 KEDA,keda.sh
+Kanister,kanister.io
 Karmada,Karmada.io
 Kata Containers,katacontainers.io
 Kepler,sustainable-computing.io
@@ -415,6 +418,7 @@ Linux Standard Base,LinuxStandardBase
 Linux sunxi,linux-sunxi.org
 Liquid,liquidmarkup.org
 LitmusChaos,litmuschaos.io
+Logging Operator,kube-logging.dev
 Longhorn,github.com/longhorn
 Lottie,airbnb.design/lottie
 MAME,mamedev.org
@@ -995,6 +999,7 @@ jsDelivr,jsdelivr.com
 just,github.com/microsoft/just
 jvm-sandbox,github.com/alibaba/jvm-sandbox
 k8dash,skooner.io
+kcp,kcp.io
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
 ko,ko.build

@@ -195,6 +195,8 @@ Kong/kuma-demo,Kuma
 Kong/kuma-gui,Kuma
 Kong/kuma-website,Kuma
 Kong/kumacut,Kuma
+KusionStack/kcl,KCL
+KusionStack/KCLVM,KCL
 LinuxStandardBase/download-app,Linux Standard Base
 LinuxStandardBase/lanana,Linux Standard Base
 LinuxStandardBase/lsb,Linux Standard Base
@@ -688,6 +690,7 @@ awslabs/aws-sam-local,AWS SAM
 awslabs/cdk8s,Cloud Deployment Kit for Kubernetes
 awslabs/serverless-application-model,AWS SAM
 baidu/bfe,BFE
+banzaicloud/logging-operator,Logging Operator
 brunopulis/awesome-a11y,A11y
 callemall/material-ui,Material-UI
 capitalone/cloud-custodian,Cloud Custodian

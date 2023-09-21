@@ -267,8 +267,11 @@ k14s,Carvel
 k3s-io,K3s
 k8gb-io,K8GB
 k8up-io,K8up
+kanisterio,Kanister
 karmada-io,Karmada
 kata-containers,Kata Containers
+kcl-lang,KCL
+kcp-dev,kcp
 kedacore,KEDA
 keptn,Keptn
 keybase,Keybase
@@ -282,6 +285,7 @@ konveyor,Konveyor
 krator-rs,Krator
 kruiseio,OpenKruise
 krustlet,Krustlet
+kube-logging,Logging Operator
 kube-rs,kube-rs
 kube-vip,kube-vip
 kubearmor,KubeArmor
@@ -424,6 +428,7 @@ pivotal-cf,Pivotal Cloud Foundry
 pixie-io,Pixie
 pravega,Pravega
 project-akri,Akri
+project-copacetic,Copacetic
 project-zot,zot
 projectacrn,Project ACRN
 projectcontour,Contour
