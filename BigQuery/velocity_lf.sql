@@ -72,7 +72,7 @@ WHERE
       'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh', 'tellerops', 'headlamp-k8s',
       'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd', 'xline-kv', 'hwameistor', 'microcks',
       'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community', 'getsops', 'eraser-dev',
-      'knative-extensions'
+      'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev', 'kcl-lang'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -117,7 +117,7 @@ WHERE
       'clastix/flux2-capsule-multi-tenancy', 'clastix/capsule-ns-filter', 'clastix/Capsule',
       'clastix/ckd-capsule-app', 'cncf/tag-app-delivery', 'mozilla/sops', 'mozilla/sotp', 'mozilla-services/sosp',
       'kinvolk/headlamp', 'cloudimmunity/docker-slim', 'Azure/eraser', 'datenlord/Xline', 'GoogleContainerTools/kpt',
-      'google/kubeflow'
+      'google/kubeflow', 'banzaicloud/logging-operator', 'KusionStack/kcl', 'KusionStack/KCLVM'
     )
   )
   and repo.name not in (

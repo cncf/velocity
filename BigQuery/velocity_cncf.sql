@@ -63,7 +63,8 @@ where
       'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet', 'sealerio', 'keycloak', 'armadaproject',
       'headlamp-k8s', 'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd', 'xline-kv',
       'hwameistor', 'microcks', 'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community',
-      'eraser-dev', 'knative-extensions'
+      'eraser-dev', 'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev',
+      'kcl-lang'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -106,7 +107,8 @@ where
       'clastix/clastix/capsule-lens-extension', 'clastix/capsule-helm-chart', 'clastix/flux2-capsule-multi-tenancy',
       'clastix/capsule-ns-filter', 'clastix/Capsule', 'clastix/ckd-capsule-app', 'mozilla/sops', 'mozilla/sotp',
       'mozilla-services/sosp', 'kinvolk/headlamp', 'cloudimmunity/docker-slim', 'Azure/eraser', 'datenlord/Xline',
-      'GoogleContainerTools/kpt', 'google/kubeflow'
+      'GoogleContainerTools/kpt', 'google/kubeflow', 'banzaicloud/logging-operator', 'KusionStack/kcl',
+      'KusionStack/KCLVM'
     )
   )
   and repo.name not in (
