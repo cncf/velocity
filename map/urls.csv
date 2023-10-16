@@ -848,6 +848,7 @@ WiX,wixtoolset.org
 Windows-Machine-Learning,github.com/microsoft/Windows-Machine-Learning
 Windows-iotcore-samples,github.com/microsoft/Windows-iotcore-samples
 Wire Swiss GmbH,wire.com
+WordPress,wordpress.org
 WordPress-mobile,make.wordpress.org/mobile
 XAMPP,apachefriends.org
 XX-net,github.com/XX-net/XX-Net
@@ -925,7 +926,6 @@ cf-java-client-sap,github.com/SAP/cf-java-client-sap
 chevrotain,github.com/SAP/chevrotain
 cics-bundle-maven,github.com/IBM/cics-bundle-maven
 cloud-commerce-spartacus-storefront-docs,github.com/SAP/cloud-commerce-spartacus-storefront-docs
-WordPress,wordpress.org
 cloud-mta,github.com/SAP/cloud-mta
 cloud-mta-build-tool,github.com/SAP/cloud-mta-build-tool
 cloud-native-starter,github.com/IBM/cloud-native-starter
