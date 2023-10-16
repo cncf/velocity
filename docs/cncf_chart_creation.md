@@ -46,7 +46,6 @@ If you have all CNCF projects databases locally, you can use old local approach 
 
 - `PG_PASS=... ./update_cncf_projects_commits.rb 2022-07-01 2023-07-01`.
 
-To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20220701_20230701.csv projects/projects_cncf_k8s_non_k8s_20220701_20230701.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
 
 Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/1HnYZriD2uBd-phEp3h3TsRTv1kdk-C7RfUiat-p1pt0/edit#gid=976519966).
 
@@ -62,6 +61,9 @@ Use [this sheet](https://docs.google.com/spreadsheets/d/1j_L8AL137U8R3TclNo9b79m
 Update the main [README](https://github.com/cncf/velocity#current-reports), set new 'Current reports' and move current to [Past Reports](https://github.com/cncf/velocity#past-reports).
 
 ### CNCF Projects split by Kubernetes VS rest
+
+To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20220701_20230701.csv projects/projects_cncf_k8s_non_k8s_20220701_20230701.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
+
 For this case, a new set of map files was created:
 - `map/k8s_vs_rest_defmaps.csv` - list of orgs found in query
 - `map/k8s_vs_rest_urls.csv` - definition of k8s vs rest
