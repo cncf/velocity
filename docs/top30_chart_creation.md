@@ -37,7 +37,7 @@ Run `analysis.rb` with
 FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_projects_20220701_20230701.csv projects/projects_top30_20220701_20230701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1M6In8WDSiW-RhGGD6GFpT-DwSgu6kfay0Oq3YjcYbYo/edit#gid=1169691230).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1HO6ZO7T3noU2CfafsmyCHmsfURs7Ah01Wrs2tcyBEs0/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
