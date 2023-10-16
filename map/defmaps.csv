@@ -43,10 +43,12 @@ KSP-CKAN,CKAN
 KiFoundation,Ki Foundation
 Linux kernel,Linux
 LinuxHeartsFreeBSD,FreeBSD
+LinuxStandardBase,Linux Standard Base
 MAVLink,MAVLink
 MarlinFirmware,Marlin
 MarquezProject,Project Marquez
 MobileChromeApps,Chromium
+OAI,Open API
 OCA,ODOO Community Association
 ObelusFamily,Anythink Market
 OfficeDev,Office Developer
@@ -254,6 +256,7 @@ influxdata,InfluxData
 influxdb,InfluxDB
 ingraind,Foniod
 inspektor-gadget,Inspektor Gadget
+iotivity,IoTivity
 iovisor,IO Visor
 iron-io,Iron.io
 istio,Istio
