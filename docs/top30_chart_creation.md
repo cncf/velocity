@@ -25,6 +25,7 @@ To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets
 
 
 #### In detail
+
 Update BigQuery [query file](BigQuery/velocity_top30.sql). If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
 Run the query for a year, for example: `./run_bq.sh top30 2022-07-01 2023-07-01`. It takes about 1+TB and costs about $5+.
