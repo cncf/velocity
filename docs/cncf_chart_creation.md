@@ -46,8 +46,7 @@ If you have all CNCF projects databases locally, you can use old local approach 
 
 - `PG_PASS=... ./update_cncf_projects_commits.rb 2022-07-01 2023-07-01`.
 
-
-Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/1HnYZriD2uBd-phEp3h3TsRTv1kdk-C7RfUiat-p1pt0/edit#gid=976519966).
+Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/1uDIQywu3itQEkxN3rEzvJgydl1Q5gTw5YFOdSMWSc30/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
