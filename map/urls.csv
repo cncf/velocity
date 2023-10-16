@@ -80,6 +80,7 @@ Armada,armadaproject.io
 Arthas,alibaba.github.io/arthas
 Artifact Hub,artifacthub.io
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
+Astro,astro.build
 Athenz,athenz.io
 AtlasDB,palantir.github.io/atlasdb
 Atom,atom.io
@@ -98,6 +99,7 @@ BashOnWindows,microsoft.com/en-us/commandline/wsl
 Baystation12,baystation12.net
 Bazel,bazel.build
 Betaflight,github.com/betaflight/betaflight/releases
+Big Data Analytic Toolkit,intel.github.io/BDTK
 BizCharts,github.com/alibaba/BizCharts
 Blockly,developers.google.com/blockly
 Bond,github.com/Microsoft/bond
@@ -266,6 +268,7 @@ FluidFramework,fluidframework.com
 Flutter,flutter.io
 Flux,github.com/fluxcd
 Foniod,ingraind.org
+Formal_ML,github.com/IBM/FormalML
 FreeBSD,freebsd.org
 Frontier,frontier.xyz
 Funcraft,github.com/alibaba/funcraft
@@ -349,6 +352,7 @@ Intel Iot,github.com/intel/intel-iot-refkit
 Intel LLVM,llvm.org
 Intel Media Driver,github.com/intel/media-driver
 Intel NEMU,github.com/intel/nemu
+Intel Neural Compressor,github.com/intel/neural-compressor
 Intel Open Source Technology Center,01.org
 Intel TPM,github.com/tpm2-software/tpm2-tools
 Intel Web Machine Learning,github.com/intel/webml-polyfill
@@ -414,11 +418,7 @@ Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
 Linkerd,linkerd.io
 Linux,kernel.org
-Big Data Analytic Toolkit,intel.github.io/BDTK
-Formal_ML,github.com/IBM/FormalML
-OpenSearch Project,opensearch.org
 Linux Standard Base,linuxbase.org
-Intel Neural Compressor,github.com/intel/neural-compressor
 Linux sunxi,linux-sunxi.org
 Liquid,liquidmarkup.org
 LitmusChaos,litmuschaos.io
@@ -508,6 +508,7 @@ Mozilla hubs,hubs.mozilla.com
 Multiplatform Paging,github.com/cashapp/multiplatform-paging
 NATS,nats.io
 NServiceBus,particular.net/nservicebus
+NVIDIA NeMo,nvidia.github.io/NeMo
 Nacos,nacos.io
 Nakadi,github.com/zalando/nakadi
 NativeScript,nativescript.org
@@ -552,6 +553,7 @@ Open Service Mesh,openservicemesh.io
 Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
 Open vSwitch,openvswitch.org
+OpenAI,openai.com
 OpenBMP,gitter.im/openbmp
 OpenCost,kubecost.com
 OpenDaylight,www.opendaylight.org
@@ -569,6 +571,7 @@ OpenMetrics,openmetrics.io
 OpenRCT2,openrct2.website
 OpenSDS,www.opensds.io
 OpenSSL,openssl.org
+OpenSearch Project,opensearch.org
 OpenShift,openshift.com
 OpenStack,openstack.org
 OpenStack (other),openstack.org
@@ -667,6 +670,7 @@ REASON,facebook.github.io/reason
 RISC-V,riscv.org
 Rapid7,rapid7.com
 Rax,rax.js.org
+Raycast,raycast.com
 React,facebook.com
 React-Native-Onyx,github.com/Expensify/react-native-onyx
 ReactXP,microsoft.github.io/reactxp
@@ -726,6 +730,7 @@ Skooner,skooner.io
 SlimToolkit,slimtoolkit.org
 Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Solana,solana.com
+Spartacus,github.com/SAP/spartacus
 Spartakus,sap.github.io
 Spatie,spatie.be/open-source
 Specberus,w3.org/pubrules
@@ -920,10 +925,7 @@ cf-java-client-sap,github.com/SAP/cf-java-client-sap
 chevrotain,github.com/SAP/chevrotain
 cics-bundle-maven,github.com/IBM/cics-bundle-maven
 cloud-commerce-spartacus-storefront-docs,github.com/SAP/cloud-commerce-spartacus-storefront-docs
-Spartacus,github.com/SAP/spartacus
-NVIDIA NeMo,nvidia.github.io/NeMo
-Astro,astro.build
-OpenAI,openai.com
+WordPress,wordpress.org
 cloud-mta,github.com/SAP/cloud-mta
 cloud-mta-build-tool,github.com/SAP/cloud-mta-build-tool
 cloud-native-starter,github.com/IBM/cloud-native-starter

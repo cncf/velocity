@@ -20,11 +20,6 @@ repo,project
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
 Airbnb/react-native,React
-intel/neural-compressor,Intel Neural Compressor
-intel/BDTK,Big Data Analytic Toolkit
-IBM/FormalML,Formal_ML
-NVIDIA/NeMo,NVIDIA NeMo
-SAP/spartacus,Spartacus
 AkihiroSuda/lima,Lima
 AngularClass/angular2-webpack-starter,Angular
 Automattic/WP-Job-Manager,WP Calypso
@@ -135,6 +130,7 @@ IBM/AIF360,AIF360
 IBM/AIX360,AIX360
 IBM/CAST,CAST
 IBM/FHIR,FHIR
+IBM/FormalML,Formal_ML
 IBM/IBM-Z-zOS,IBM-Z-zOS
 IBM/MAX-Audio-Classifier,MAX-Audio-Classifier
 IBM/MAX-Audio-Embedding-Generator,MAX-Audio-Embedding-Generator
@@ -387,6 +383,7 @@ MicrosoftDocs/visualstudio-docs,MicrosoftDocs
 MicrosoftDocs/windows-uwp,MicrosoftDocs
 MicrosoftDocs/windowsserverdocs,MicrosoftDocs
 MicrosoftDocs/winrt-api,MicrosoftDocs
+NVIDIA/NeMo,NVIDIA NeMo
 OAI/Gluecon-Workshop,Open API
 OAI/OpenAPI-Specification,Open API
 OAI/OpenAPI-Style-Guide,Open API
@@ -428,6 +425,7 @@ SAP/openui5-docs,OpenUI5
 SAP/openui5-fhir,OpenUI5
 SAP/openui5-sample-app,OpenUI5
 SAP/openui5-website,OpenUI5
+SAP/spartacus,Spartacus
 SAP/styleguides,styleguides
 SAP/ui5-builder,OpenUI5
 SAP/ui5-cli,OpenUI5
@@ -1139,6 +1137,7 @@ improbable-eng/thanos,Thanos
 indeedeng/k8dash,Skooner
 indeedeng/k8dash-website,Skooner
 infernojs/inferno,Inferno
+intel/BDTK,Big Data Analytic Toolkit
 intel/IA-Hardware-Composer,Intel HWC2
 intel/cloud-hypervisor,Cloud Hypervisor
 intel/compute-runtime,Intel Graphics Compute Runtime
@@ -1163,6 +1162,7 @@ intel/media-driver,Intel Media Driver
 intel/mkl-dnn,mkl-dnn
 intel/multus-cni,multus-cni
 intel/nemu,Intel NEMU
+intel/neural-compressor,Intel Neural Compressor
 intel/platform-resource-manager,platform-resource-manager
 intel/sriov-network-device-plugin,sriov-network-device-plugin
 intel/thermal_daemon,thermal_daemon

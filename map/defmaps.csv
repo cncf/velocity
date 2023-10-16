@@ -50,13 +50,11 @@ MarquezProject,Project Marquez
 MobileChromeApps,Chromium
 OAI,Open API
 OCA,ODOO Community Association
-opensearch-project,OpenSearch Project
-withastro,Astro
-openai,OpenAI
 ObelusFamily,Anythink Market
 OfficeDev,Office Developer
 Open API Initiative,Open API
 Open Accessibility (A11y) Group,A11y
+WordPress,WordPress
 Open Container Initiative,OCI
 Open Mainframe Project,Open Mainframe
 OpenFunction,OpenFunction
@@ -385,6 +383,7 @@ open-faas,OpenFaaS
 open-feature,OpenFeature
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
+openai,OpenAI
 openbmp,OpenBMP
 opencontainers,OCI
 opencord,CORD
@@ -402,6 +401,7 @@ openkruise,OpenKruise
 openmainframeproject,Open Mainframe
 opennetworkinglab,Open Networking Laboratory
 opensds,OpenSDS
+opensearch-project,OpenSearch Project
 opensecuritycontroller,Open Security Controller
 openservicemesh,Open Service Mesh
 openshift,OpenShift
@@ -447,6 +447,7 @@ r-lib,R
 rackt,React
 rails,Ruby on Rails
 rapid7,Rapid7
+raycast,Raycast
 react-native-community,React
 reactivefoundation,Reactive Foundation
 reactjs,React
@@ -531,6 +532,7 @@ waxosuit,wasmCloud
 wayfair-tremor,Tremor
 werf,werf
 wireapp,Wire Swiss GmbH
+withastro,Astro
 wix,WiX
 wordpress-mobile,WordPress-mobile
 wso2,WSO2
