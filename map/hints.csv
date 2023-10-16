@@ -20,6 +20,11 @@ repo,project
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
 Airbnb/react-native,React
+intel/neural-compressor,Intel Neural Compressor
+intel/BDTK,Big Data Analytic Toolkit
+IBM/FormalML,Formal_ML
+NVIDIA/NeMo,NVIDIA NeMo
+SAP/spartacus,Spartacus
 AkihiroSuda/lima,Lima
 AngularClass/angular2-webpack-starter,Angular
 Automattic/WP-Job-Manager,WP Calypso

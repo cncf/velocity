@@ -414,7 +414,11 @@ Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
 Linkerd,linkerd.io
 Linux,kernel.org
+Big Data Analytic Toolkit,intel.github.io/BDTK
+Formal_ML,github.com/IBM/FormalML
+OpenSearch Project,opensearch.org
 Linux Standard Base,linuxbase.org
+Intel Neural Compressor,github.com/intel/neural-compressor
 Linux sunxi,linux-sunxi.org
 Liquid,liquidmarkup.org
 LitmusChaos,litmuschaos.io
@@ -916,6 +920,10 @@ cf-java-client-sap,github.com/SAP/cf-java-client-sap
 chevrotain,github.com/SAP/chevrotain
 cics-bundle-maven,github.com/IBM/cics-bundle-maven
 cloud-commerce-spartacus-storefront-docs,github.com/SAP/cloud-commerce-spartacus-storefront-docs
+Spartacus,github.com/SAP/spartacus
+NVIDIA NeMo,nvidia.github.io/NeMo
+Astro,astro.build
+OpenAI,openai.com
 cloud-mta,github.com/SAP/cloud-mta
 cloud-mta-build-tool,github.com/SAP/cloud-mta-build-tool
 cloud-native-starter,github.com/IBM/cloud-native-starter
