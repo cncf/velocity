@@ -64,7 +64,7 @@ where
       'headlamp-k8s', 'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd', 'xline-kv',
       'hwameistor', 'microcks', 'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community',
       'eraser-dev', 'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev',
-      'kcl-lang'
+      'kcl-lang', 'projectcapsule'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',

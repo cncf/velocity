@@ -72,7 +72,7 @@ WHERE
       'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh', 'tellerops', 'headlamp-k8s',
       'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd', 'xline-kv', 'hwameistor', 'microcks',
       'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community', 'getsops', 'eraser-dev',
-      'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev', 'kcl-lang'
+      'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev', 'kcl-lang', 'projectcapsule'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
