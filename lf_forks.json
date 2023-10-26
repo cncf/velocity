@@ -8097,6 +8097,7 @@
   "carvel-dev/kapp-controller": false,
   "open-telemetry/semantic-conventions": false,
   "clastix/capsule": false,
+  "projectcapsule/capsule": false,
   "keycloak/keycloak-documentation": false,
   "kubeflow/kfp-tekton": false,
   "kubeclipper-labs/kubeclipper": false,
