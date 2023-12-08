@@ -54,7 +54,7 @@ where
       'karmada-io', 'superedge', 'cilium', 'project-akri', 'dapr', 'open-cluster-management-io',
       'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs', 'k3s-io', 'vscode-kubernetes-tools', 'devfile',
       'meshery', 'knative', 'knative-sandbox', 'FabEdge', 'confidential-containers', 'OpenFunction',
-      'clusterpedia-io', 'kubecost', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature',
+      'clusterpedia-io', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature',
       'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela',
       'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib', 'Serverless-Devs',
       'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',

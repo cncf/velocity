@@ -295,7 +295,6 @@ kube-vip,kube-vip
 kubearmor,KubeArmor
 kubeclipper,Kubeclipper
 kubeclipper-labs,Kubeclipper
-kubecost,OpenCost
 kubedl-io,KubeDL
 kubeedge,KubeEdge
 kubeflow,Kubeflow
