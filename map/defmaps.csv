@@ -41,6 +41,7 @@ IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
 KSP-CKAN,CKAN
 KiFoundation,Ki Foundation
+KubeStellar,KubeStellar
 Linux kernel,Linux
 LinuxHeartsFreeBSD,FreeBSD
 LinuxStandardBase,Linux Standard Base
@@ -129,6 +130,7 @@ cdk8s-team,Cloud Deployment Kit for Kubernetes
 ceph,Ceph
 cert-manager,cert-manager
 cfpb,Consumer Financial Protection Bureau
+chaos-kubox,KrknChaos
 chaos-mesh,Chaos Mesh
 chaosblade-io,ChaosBlade
 chaoss,CHAOSS
@@ -270,6 +272,7 @@ jsdelivr,jsDelivr
 k14s,Carvel
 k3s-io,K3s
 k8gb-io,K8GB
+k8sgpt-ai,K8sGPT
 k8up-io,K8up
 kanisterio,Kanister
 karmada-io,Karmada
@@ -289,6 +292,8 @@ konveyor,Konveyor
 krator-rs,Krator
 kruiseio,OpenKruise
 krustlet,Krustlet
+kuasar-io,Kuasar
+kube-burner,kube-burner
 kube-logging,Logging Operator
 kube-rs,kube-rs
 kube-vip,kube-vip
@@ -320,6 +325,7 @@ kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubescape,Kubescape
+kubestellar,KubeStellar
 kubevela,KubeVela
 kubevirt,KubeVirt
 kubewarden,kubewarden
@@ -347,6 +353,7 @@ mapbox,Mapbox
 mapsme,MAPS.ME
 mattermost,Mattermost
 mavlink,MAVLink
+megaease,easegress
 melpa,MELPA
 merbridge,Merbridge
 meshery,Meshery
@@ -451,6 +458,7 @@ raycast,Raycast
 react-native-community,React
 reactivefoundation,Reactive Foundation
 reactjs,React
+redhat-chaos,KrknChaos
 rethinkdb,RethinkDB
 riff,Pivotal Riff
 riscv,RISC-V
@@ -480,6 +488,7 @@ solana-labs,Solana
 sparklyr,sparklyr
 spatie,Spatie
 spdx,SPDX
+spidernet-io,Spiderpool
 spiffe,Spiffe
 spinnaker,Spinnaker
 spotify,Spotify

@@ -370,6 +370,7 @@ Joomla,joomla.org
 Julia,julialang.org
 K3s,k3s.io
 K8GB,github.com/AbsaOSS/k8gb
+K8sGPT,k8sgpt.ai
 K8up,k8up.io
 KCL,kcl-lang.io
 KEDA,keda.sh
@@ -386,9 +387,11 @@ Kinetic Open Storage,www.openkinetic.org
 Knative,knative.dev
 Konveyor,konveyor.io
 Krator,docs.rs/krator
+KrknChaos,github.com/redhat-chaos/krknChaos
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 Krustlet,krustlet.dev
+Kuasar,kuasar.io
 Kube-OVN,kube-ovn.io
 KubeArmor,accuknox.com/kubearmor
 KubeDL,kubedl.io
@@ -400,6 +403,7 @@ Kubeflow,kubeflow.org
 Kuberhealthy,github.com/Comcast/kuberhealthy
 Kubernetes,kubernetes.io
 Kubescape,github.com/kubescape
+Kubestellar,kubestellar.io
 Kudo,kudo.dev
 Kui Shell,github.com/IBM/kui
 Kuma,kuma.io
@@ -734,6 +738,7 @@ Spartacus,github.com/SAP/spartacus
 Spartakus,sap.github.io
 Spatie,spatie.be/open-source
 Specberus,w3.org/pubrules
+Spiderpool,spidernet-io.github.io/spiderpool/
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spiffe,spiffe.io
 Spinnaker,spinnaker.io
@@ -957,6 +962,7 @@ donate-wagtail,donate.mozilla.org
 dotnet,microsoft.com/net
 dragonwell8_hotspot,github.com/alibaba/dragonwell8_hotspot
 druid,github.com/alibaba/druid
+easegress,megaease.com/easegress/
 easyexcel,github.com/alibaba/easyexcel
 electron,electronjs.org
 envoyproxy,github.com/envoyproxy
@@ -1014,6 +1020,7 @@ kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
 ko,ko.build
 kpt,kpt.dev
+kube-burner,cloud-bulldozer.github.io/kube-burner/
 kube-rs,docs.rs/kube
 kube-vip,kube-vip.io
 kubewarden,kubewarden.io

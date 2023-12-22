@@ -719,6 +719,10 @@ clastix/ckd-capsule-app,Capsule
 clastix/clastix/capsule-lens-extension,Capsule
 clastix/flux2-capsule-multi-tenancy,Capsule
 cloudimmunity/docker-slim,SlimToolkit
+cloud-bulldozer/kraken,KrknChaos
+cloud-bulldozer/krkn,KrknChaos
+cloud-bulldozer/kube-burner,kube-burner
+cloud-bulldozer/rosa-burner,kube-burner
 clux/kube-rs,kube-rs
 clux/kubernetes-rust,kube-rs
 cncf/ambassadors,CNCF
@@ -1196,6 +1200,7 @@ jetstack-experimental/cert-manager,cert-manager
 jetstack/cert-manager,cert-manager
 jldec/projectriff.io,Pivotal Riff
 joeythesaint/cgl-specification,Carrier Grade Linux
+kcp-dev/edge-mc,Kubestellar
 kebe7jun/mebpf,Merbridge
 kebe7jun/mepf,Merbridge
 kinvolk/headlamp,Headlamp
@@ -2171,6 +2176,8 @@ opensds/proposals,OpenSDS
 opensds/sdscontroller_proto,OpenSDS
 opensds/storage-sdk,OpenSDS
 opensds/tsc,OpenSDS
+openshift/kraken,KrknChaos
+openshift/krkn,KrknChaos
 opensecuritycontroller/community,Open Security Controller
 opensecuritycontroller/opensecuritycontroller.org,Open Security Controller
 opensecuritycontroller/osc-ci-config,Open Security Controller
