@@ -64,7 +64,8 @@ where
       'headlamp-k8s', 'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd', 'xline-kv',
       'hwameistor', 'microcks', 'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community',
       'eraser-dev', 'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev',
-      'kcl-lang', 'projectcapsule'
+      'kcl-lang', 'projectcapsule', 'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar',
+      'megaease', 'spidernet-io', 'k8sgpt-ai', 'chaos-kubox', 'KubeStellar'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -108,7 +109,8 @@ where
       'clastix/capsule-ns-filter', 'clastix/Capsule', 'clastix/ckd-capsule-app', 'mozilla/sops', 'mozilla/sotp',
       'mozilla-services/sosp', 'kinvolk/headlamp', 'cloudimmunity/docker-slim', 'Azure/eraser', 'datenlord/Xline',
       'GoogleContainerTools/kpt', 'google/kubeflow', 'banzaicloud/logging-operator', 'KusionStack/kcl',
-      'KusionStack/KCLVM'
+      'KusionStack/KCLVM', 'cloud-bulldozer/kube-burner', 'cloud-bulldozer/rosa-burner',
+      'cloud-bulldozer/krkn', 'cloud-bulldozer/kraken', 'openshift-scale/kraken', 'kcp-dev/edge-mc'
     )
   )
   and repo.name not in (
