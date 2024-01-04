@@ -289,6 +289,7 @@ knative-extensions,Knative
 knative-sandbox,Knative
 ko-build,ko
 konveyor,Konveyor
+kptdev,kpt
 krator-rs,Krator
 kruiseio,OpenKruise
 krustlet,Krustlet

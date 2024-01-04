@@ -8074,6 +8074,7 @@
   "spiffe/helm-charts": false,
   "pipe-cd/pipecd": false,
   "GoogleContainerTools/kpt": false,
+  "kptdev/kpt": false,
   "sealerio/sealer": false,
   "hwameistor/hwameistor": false,
   "kubeflow/kubeflow": false,
