@@ -65,7 +65,7 @@ where
       'hwameistor', 'microcks', 'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community',
       'eraser-dev', 'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev',
       'kcl-lang', 'projectcapsule', 'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar',
-      'megaease', 'spidernet-io', 'k8sgpt-ai', 'chaos-kubox', 'KubeStellar'
+      'megaease', 'spidernet-io', 'k8sgpt-ai', 'chaos-kubox', 'KubeStellar', 'kptdev'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
