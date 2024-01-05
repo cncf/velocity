@@ -28,11 +28,6 @@ mmo = {}
 single = multi = replaced = 0
 sumk = ['activity', 'comments', 'prs', 'commits', 'issues', 'pushes']
 mmi.each do |k, v|
-  if v.length == 1
-    single += 1
-    mmo[k] = v[0]
-    next
-  end
   w = {}
   w['org'] = v[0]['org']
   w['repo'] = v[0]['repo']
@@ -73,7 +68,11 @@ mmi.each do |k, v|
   w['authors_alt2'] = nnames if nnames > w['authors_alt2']
   replaced += 1 unless wauth == w['authors_alt2']
   mmo[k] = w
-  multi += 1
+  if v.length == 1
+    single += 1
+  else
+    multi += 1
+  end
 end
 puts "output to: #{ofn}"
 puts "output records: #{mmo.length}, single: #{single}, merged: #{multi}, authors from unique count: #{replaced}"
