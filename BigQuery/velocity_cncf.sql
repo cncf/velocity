@@ -65,7 +65,7 @@ where
       'hwameistor', 'microcks', 'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community',
       'eraser-dev', 'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev',
       'kcl-lang', 'projectcapsule', 'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar',
-      'megaease', 'spidernet-io', 'k8sgpt-ai', 'chaos-kubox', 'KubeStellar', 'kptdev', 'loft-sh'
+      'megaease', 'spidernet-io', 'k8sgpt-ai', 'chaos-kubox', 'KubeStellar', 'kptdev'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -79,7 +79,7 @@ where
       'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
       'containerfilesystem/doc-zh', 'tomkerkhove/sample-dotnet-queue-worker',
       'tomkerkhove/sample-dotnet-queue-worker-servicebus-queue', 'plunder-app/kube-vip',
-      'tomkerkhove/sample-dotnet-worker-servicebus-queue', 'deislabs/smi-spec',
+      'tomkerkhove/sample-dotnet-worker-servicebus-queue', 'deislabs/smi-spec', 'loft-sh/devspace',
       'deislabs/smi-sdk-go', 'deislabs/smi-metrics', 'deislabs/smi-adapter-istio', 'herbrandson/k8dash',
       'deislabs/smi-spec.io', 'capitalone/cloud-custodian', 'coreos/dex', 'Kong/kuma',  'Kong/kuma-website',
       'Kong/kuma-demo', 'Kong/kuma-gui', 'Kong/kumacut', 'docker/pasl', 'baidu/bfe', 'Huawei-PaaS/CNI-Genie',
