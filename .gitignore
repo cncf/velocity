@@ -52,6 +52,7 @@ build-iPhoneSimulator/
 .rvmrc
 
 unlimited.csv
+huge.csv
 
 *.log
 

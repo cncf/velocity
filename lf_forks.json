@@ -9869,5 +9869,19 @@
   "megaease/zipkin4net": true,
   "kube-burner/kube-burner": false,
   "opencurve/braft": true,
-  "slimtoolkit/uiprogress": true
+  "slimtoolkit/uiprogress": true,
+  "redhat-chaos/krkn": false,
+  "redhat-chaos/krkn-hub": false,
+  "redhat-chaos/krkn-lib-kubernetes": false,
+  "redhat-chaos/krkn-lib": false,
+  "redhat-chaos/krkn-telemetry": false,
+  "redhat-chaos/cerberus": false,
+  "redhat-chaos/arcaflow-plugin-kill-pod": false,
+  "redhat-chaos/krkn-lib-docs": false,
+  "redhat-chaos/krkn-dashboard": false,
+  "redhat-chaos/chaos-guide": false,
+  "redhat-chaos/krknChaos": false,
+  "redhat-chaos/actions": false,
+  "redhat-chaos/krknChaos-hub": false,
+  "redhat-chaos/arcaflow-plugin-network-chaos": false
 }
