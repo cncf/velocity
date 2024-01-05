@@ -31,7 +31,7 @@ Update BigQuery [query file](BigQuery/velocity_top30.sql). If a project does not
 Run the query for a year, for example: `./run_bq.sh top30 2023-01-01 2024-01-01`. It takes about 1+TB and costs about $15-$25+.
 Or run the query for a year, for example: `./run_bq_year.sh top30 2023`. It takes about 1+TB and costs about $15-$25+.
 
-It will generate a file for example: `data/data_top30_projects_20230101_20240101.csv`.
+It will generate a file for example: `data/data_top30_projects_20230101_20240101.csv` or `data/data_top30_2023.csv`.
 
 Run `analysis.rb` with
 ```
