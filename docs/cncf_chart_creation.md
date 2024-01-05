@@ -16,7 +16,7 @@ Go to this [CNCF page](https://www.cncf.io/projects/) to find a list of current 
 
 For every project, find a github repo and add it to a [query](BigQuery/velocity_cncf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `./run_bq.sh cncf 2023-01-01 2024-01-01`. It takes about 900GB and costs about $4.50.
+Run the query for a year, for example: `./run_bq.sh cncf 2023-01-01 2024-01-01`. It takes about 900GB and costs about $15-$25+.
 
 It will generate a file for example: `data/data_cncf_projects_20230101_20240101.csv`.
 

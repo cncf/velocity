@@ -28,7 +28,7 @@ To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets
 
 Update BigQuery [query file](BigQuery/velocity_top30.sql). If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `./run_bq.sh top30 2022-07-01 2023-07-01`. It takes about 1+TB and costs about $5+.
+Run the query for a year, for example: `./run_bq.sh top30 2022-07-01 2023-07-01`. It takes about 1+TB and costs about $15-$25+.
 
 It will generate a file for example: `data/data_top30_projects_20220701_20230701.csv`.
 
@@ -60,7 +60,7 @@ cp data/data_top30_projects_20220701_20230701.csv data/unlimited.csv
 - We need the `data/unlimited_output_202207_202307.csv` file. To generate this one, we need to run BigQuery for the new date range.
 - Open the sql file that generated the current range's data: `vi BigQuery/query_202207_202307_unlimited.sql`
 - Save as `BigQuery/query_202207_202307_unlimited.sql` after changing the date ranges in SQL.
-- Copy to clipboard `pbcopy < BigQuery/query_202207_202307_unlimited.sql` and run in Google BigQuery: `https://bigquery.cloud.google.com/queries/<<your_google_project_name>>`, it takes about 1TB and costs about $5
+- Copy to clipboard `pbcopy < BigQuery/query_202207_202307_unlimited.sql` and run in Google BigQuery: `https://bigquery.cloud.google.com/queries/<<your_google_project_name>>`, it takes about 1TB and costs about $15-$25+.
 - Save result to a table `<<your_google_user_name>>:unlimited_202207_202307` "Save as table"
 - Open this table `<<your_google_user_name>>:unlimited_202207_202307` and click "Export Table" to export it to google storage as: `gs://<<your_google_user_name>>/unlimited_202207_202307.csv` (You may click "View files" to see files in your gstorage)
 - Go to google storage and download `<<your_google_user_name>>/unlimited_202207_202307.csv` and put it where `shells/unlimited_20220701-20230701.sh` expects it (update the file name to `data/unlimited_output_202207_202307.csv`): 
