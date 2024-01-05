@@ -41,7 +41,7 @@ IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
 KSP-CKAN,CKAN
 KiFoundation,Ki Foundation
-KubeStellar,KubeStellar
+KubeStellar,Kubestellar
 Linux kernel,Linux
 LinuxHeartsFreeBSD,FreeBSD
 LinuxStandardBase,Linux Standard Base
@@ -326,7 +326,7 @@ kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubescape,Kubescape
-kubestellar,KubeStellar
+kubestellar,Kubestellar
 kubevela,KubeVela
 kubevirt,KubeVirt
 kubewarden,kubewarden

@@ -718,11 +718,11 @@ clastix/capsule-proxy,Capsule
 clastix/ckd-capsule-app,Capsule
 clastix/clastix/capsule-lens-extension,Capsule
 clastix/flux2-capsule-multi-tenancy,Capsule
-cloudimmunity/docker-slim,SlimToolkit
 cloud-bulldozer/kraken,KrknChaos
 cloud-bulldozer/krkn,KrknChaos
 cloud-bulldozer/kube-burner,kube-burner
 cloud-bulldozer/rosa-burner,kube-burner
+cloudimmunity/docker-slim,SlimToolkit
 clux/kube-rs,kube-rs
 clux/kubernetes-rust,kube-rs
 cncf/ambassadors,CNCF
@@ -2176,8 +2176,6 @@ opensds/proposals,OpenSDS
 opensds/sdscontroller_proto,OpenSDS
 opensds/storage-sdk,OpenSDS
 opensds/tsc,OpenSDS
-openshift/kraken,KrknChaos
-openshift/krkn,KrknChaos
 opensecuritycontroller/community,Open Security Controller
 opensecuritycontroller/opensecuritycontroller.org,Open Security Controller
 opensecuritycontroller/osc-ci-config,Open Security Controller
@@ -2189,6 +2187,8 @@ opensecuritycontroller/sdn-controller-nsc-plugin,Open Security Controller
 opensecuritycontroller/sdn-controller-nsfc-plugin,Open Security Controller
 opensecuritycontroller/security-mgr-api,Open Security Controller
 opensecuritycontroller/security-mgr-sample-plugin,Open Security Controller
+openshift/kraken,KrknChaos
+openshift/krkn,KrknChaos
 openstack-charmers/charm-glance-simplestreams-sync,OpenStack Glance
 openstack-charmers/charm-interface-keystone,OpenStack Keystone
 openstack-charmers/charm-interface-keystone-domain-backend,OpenStack Keystone

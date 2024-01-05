@@ -16,35 +16,36 @@ Go to this [CNCF page](https://www.cncf.io/projects/) to find a list of current 
 
 For every project, find a github repo and add it to a [query](BigQuery/velocity_cncf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `./run_bq.sh cncf 2022-07-01 2023-07-01`. It takes about 900GB and costs about $4.50.
+Run the query for a year, for example: `./run_bq.sh cncf 2023-01-01 2024-01-01`. It takes about 900GB and costs about $4.50.
 
-It will generate a file for example: `data/data_cncf_projects_20220701_20230701.csv`.
+It will generate a file for example: `data/data_cncf_projects_20230101_20240101.csv`.
 
 - You can optionally compare commits counts from BigQuery to git commits counts via: `PG_PASS=... ./shells/get_git_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
 - You can optionally compare commits counts from BigQuery to DevStats commits counts via: `PG_PASS=... ./shells/get_devstats_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
+- Those steps are possible only from DevStats kubernetes node or if you have DevStats installed locally.
 
 Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` in this case):
 ```
-ruby analysis.rb data/data_cncf_projects_20220701_20230701.csv projects/projects_cncf_20220701_20230701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+ruby analysis.rb data/data_cncf_projects_20230101_20240101.csv projects/projects_cncf_20230101_20240101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Some projects are defined as regexps inside one or more orgs - BQ query tracks their orgs and config specifies which repos go to which project. You need to remove remaining repos for those orgs from the report.
 
-Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_cncf_20220701_20230701.csv` file. Also check for last column being empty `/s,""`.
+Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_cncf_20230101_20240101.csv` file. Also check for last column being empty `/s,""`, `/oam-dev\|layer5io\|pixie-labs`.
 
 Update forks files used for LF and Top30 generation: `./merge_forks.rb lf_forks.json forks.json`, `./merge_forks.rb all_forks.json forks.json`.
 
 Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
 
 - If updated forks JSON(s) then generate devstats-reports docker image: `DOCKER_USER=lukaszgryglicki SKIP_TEST=1 SKIP_PROD=1 SKIP_FULL=1 SKIP_MIN=1 SKIP_GRAFANA=1 SKIP_TESTS=1 SKIP_PATRONI=1 SKIP_STATIC=1 SKIP_API=1 ./images/build_images.sh`.
-- Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2022-07-01 2023-07-01 &>> /update.log &`, `tail -f /update.log`. This takes hours to complete.
-- Download update: `wget https://teststats.cncf.io/backups/data_cncf_update_2022-07-01_2023-07-01.csv`. `mv data_cncf_update_2022-07-01_2023-07-01.csv data/`. The server can also be `devstats.cncf.io` instead of `teststats.cncf.io`.
+- Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2023-01-01 2024-01-01 &>> /update.log &`, `tail -f /update.log`. This takes hours to complete.
+- Download update: `wget https://teststats.cncf.io/backups/data_cncf_update_2023-01-01_2024-01-01.csv`. `mv data_cncf_update_2023-01-01_2024-01-01.csv data/`. The server can also be `devstats.cncf.io` instead of `teststats.cncf.io`.
 - Delete no more needed reporting pod: `helm delete devstats-prod-reports`.
-- `ruby update_projects.rb projects/projects_cncf_20220701_20230701.csv data/data_cncf_update_2022-07-01_2023-07-01.csv -1`.
+- `ruby update_projects.rb projects/projects_cncf_20230101_20240101.csv data/data_cncf_update_2023-01-01_2024-01-01.csv -1`.
 
 If you have all CNCF projects databases locally, you can use old local approach to get commits count updates:
 
-- `PG_PASS=... ./update_cncf_projects_commits.rb 2022-07-01 2023-07-01`.
+- `PG_PASS=... ./update_cncf_projects_commits.rb 2023-01-01 2024-01-01`.
 
 Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/1uDIQywu3itQEkxN3rEzvJgydl1Q5gTw5YFOdSMWSc30/edit?usp=sharing).
 
@@ -61,7 +62,7 @@ Update the main [README](https://github.com/cncf/velocity#current-reports), set 
 
 ### CNCF Projects split by Kubernetes VS rest
 
-To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20220701_20230701.csv projects/projects_cncf_k8s_non_k8s_20220701_20230701.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
+To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20230101_20240101.csv projects/projects_cncf_k8s_non_k8s_20230101_20240101.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
 
 For this case, a new set of map files was created:
 - `map/k8s_vs_rest_defmaps.csv` - list of orgs found in query
