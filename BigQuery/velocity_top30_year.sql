@@ -35,7 +35,8 @@ WHERE
   AND repo.id not in (
     SELECT INTEGER(JSON_EXTRACT(payload, '$.forkee.id'))
     FROM
-      TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('{{dtfrom}}'),TIMESTAMP('{{dtto}}'))
+      -- TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('{{dtfrom}}'),TIMESTAMP('{{dtto}}'))
+      [githubarchive:year.{{year}}]
     WHERE type = 'ForkEvent'
   )
   AND LOWER(org.login) not in ('necrobotio', 'githubschool', 'freecodecamp')
