@@ -11,7 +11,7 @@
 ## Current reports
 
 1/1/2023 - 1/1/2024:
-- [CNCF Projects Velocity]().
+- [CNCF Projects Velocity](https://docs.google.com/spreadsheets/d/1wEnJ9OD_M4J3guZOccIVy_8OOQCX-tsgZOefK0TQ5bY/edit?usp=sharing).
 - [Linux Foundation Projects Velocity]().
 - [Top 30 Open Source Projects]().
 - [Other reports]().
