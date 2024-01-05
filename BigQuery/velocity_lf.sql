@@ -62,7 +62,7 @@ WHERE
       'reactivefoundation', 'kumahq', 'k8gb-io', 'cdk8s-team', 'metallb', 'karmada-io', 'superedge', 'cilium',
       'dapr', 'open-cluster-management-io', 'nocalhost', 'kubearmor', 'k8up-io', 'kube-rs', 'k3s-io', 'o3de',
       'symphonyoss', 'sigstore', 'vscode-kubernetes-tools', 'devfile', 'meshery', 'knative', 'knative-sandbox',
-      'FabEdge', 'confidential-containers', 'OpenFunction', 'clusterpedia-io', 'aeraki-mesh',
+      'FabEdge', 'confidential-containers', 'OpenFunction', 'clusterpedia-io', 'aeraki-mesh', 'loft-sh',
       'aeraki-framewoirk', 'opencurve', 'open-feature', 'openfeatureflags', 'kubewarden', 'chimera-kube',
       'devstream-io', 'kubedl-io', 'kubevela', 'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'openembedded',
       'Serverless-Devs', 'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
