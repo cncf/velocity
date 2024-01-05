@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-require 'pry'
+# require 'pry'
 
 if ENV['OUT'].nil?
   puts "Specify output file via OUT=filename.csv"
@@ -79,9 +79,14 @@ puts "output to: #{ofn}"
 puts "output records: #{mmo.length}, single: #{single}, merged: #{multi}, authors from unique count: #{replaced}"
 
 hdr = %w(org repo activity comments prs commits issues authors_alt2 authors_alt1 authors pushes)
+data = []
+mmo.each do |_, row|
+  data << [-row['authors_alt2'].to_i, row]
+end
+data = data.sort_by { |row| row[0] }
 CSV.open(ofn, 'w', headers: hdr) do |csv|
   csv << hdr
-  mmo.each do |k, row|
-    csv << row
+  data.each do |row|
+    csv << row[1]
   end
 end
