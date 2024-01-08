@@ -67,7 +67,6 @@ PX4,PX4 Drone Autopilot
 PaddlePaddle,PaddlePaddle
 ParsePlatform,Parse
 Particular,NServiceBus
-Plailect/Guide,3DS Guide
 RConsortium,RConsortium
 ResurrectionRemix,Resurrection Remix
 Serverless-Devs,Serverless Devs
@@ -165,7 +164,6 @@ coreos,CoreOS
 cortexproject,Cortex
 cosmostation,Cosmostation
 covexo,DevSpace
-cregit/cregit,cregit
 cri-o,CRI-O
 crosscloudci,CNCF
 crossplane,Crossplane
@@ -173,7 +171,6 @@ crossplane-contrib,Crossplane
 crossplaneio,Crossplane
 cubefs,CubeFS
 curiefense,Curiefense
-d3athrow/vgstation13,vgstation13
 danos,DANOS
 dapr,Dapr
 dart-lang,Dart
@@ -191,6 +188,7 @@ docker-freebsd,FreeBSD
 docker-slim,SlimToolkit
 dragonflyoss,Dragonfly
 driftyco,Ionic
+dymensionxyz,Dymension
 e-government-ua,Основной репозиторий
 eclipse,Eclipse
 elastic,Elasticsearch
@@ -333,6 +331,7 @@ kubewarden,kubewarden
 kudobuilder,Kudo
 kumahq,Kuma
 kyverno,Kyverno
+langchain-ai,LangChain
 laravel,Laravel
 letsencrypt,Let's Encrypt
 lf-edge,LF Edge

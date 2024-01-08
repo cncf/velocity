@@ -18,7 +18,7 @@ org,repo,project
 ,"apache/brooklyn-server,apache/incubator-joshua,apache/incubator-toree,apache/incubator-singa,apache/incubator-rocketmq,apache/james-project,apache/parquet-mr,apache/cordova-windows,apache/brooklyn-docs,apache/ranger,apache/couchdb-fauxton,apache/cayenne,apache/asterixdb,apache/incubator-mynewt-newt,apache/parquet-cpp,apache/cordova-plugin-camera,apache/commons-crypto,apache/deltaspike,apache/bookkeeper,apache/nutch,apache/syncope,apache/airavata,apache/cordova-plugin-media,apache/incubator-rya,apache/incubator-distributedlog,apache/felix,apache/oozie,apache/incubator-spot,apache/cordova-plugin-contacts,apache/sentry,apache/opennlp,apache/cordova-plugin-file,apache/brooklyn-library,apache/commons-io,apache/flex-asjs,apache/struts,apache/incubator-apex-malhar,apache/couchdb-couch",
 ,"github/platform-samples,SchweizerischeBundesbahnen/releasetrain,microsoft/StudentsAtBuild,digitalinnovationone/dio-lab-open-source,cloudflare/cloudflare-docs",
 "TheOdinProject,MicrosoftDocs,selfteaching,CSC207-UofT,llvm-doe-org,girlscript,twowaits",,
-"EPFL-SV-cpp-projects,skillcrush,hzuapps,firstcontributions,Hacktoberfest-2018",,
+"EPFL-SV-cpp-projects,skillcrush,hzuapps,firstcontributions,Hacktoberfest-2018,nix-community",,
 "github,JetBrains,ec-jrc,education,Lambda-School-Labs,googleinterns,Cullyege",,
 "zuri-training,awslabs,EddieHubCommunity,CSC207-2022F-UofT,hexlet-components,is-a-dev,open-mmlab,dortania,codestates-seb,hackclub,ministryofjustice",,
 # To skip OpenStack Manuals
