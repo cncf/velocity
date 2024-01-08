@@ -1,0 +1,101 @@
+Top projects by comments:
+1) Linux (kernel.org) comments: 402762
+2) Kubernetes (kubernetes.io) comments: 330984
+3) Elasticsearch (elastic.co/products/elasticsearch) comments: 305817
+4) dotnet (microsoft.com/net) comments: 260955
+5) OpenShift (openshift.com) comments: 222155
+6) Expensify comments: 199853
+7) Rust (rust-lang.org) comments: 190460
+8) NixOS (nixos.org) comments: 180315
+9) VS Code (code.visualstudio.com) comments: 149740
+10) Home Assistant (home-assistant.io) comments: 144745
+11) pytorch (pytorch.org) comments: 137604
+12) Odoo (odoo.com) comments: 133088
+13) Hugging Face (huggingface.co) comments: 126380
+14) Grafana Labs (grafana.com) comments: 106053
+15) LLVM (llvm.org) comments: 103646
+16) OpenSearch Project (opensearch.org) comments: 101056
+17) Godot Engine (godotengine.org) comments: 100922
+18) OpenTelemetry (opentelemetry.io) comments: 92993
+19) Flutter (flutter.io) comments: 88108
+20) Datadog (datadog.com) comments: 87626
+21) PingCAP (github.com/pingcap) comments: 87115
+22) WordPress (wordpress.org) comments: 83538
+23) Sentry (sentry.io) comments: 82165
+24) Nextcloud (nextcloud.com) comments: 79491
+25) Cockroach Labs (cockroachlabs.com) comments: 76205
+26) Caseflow (va.gov) comments: 75137
+27) python (www.python.org) comments: 73811
+28) Zephyr (www.zephyrproject.org) comments: 69382
+29) Azure SDKs (azure.microsoft.com) comments: 68672
+30) PaddlePaddle (paddlepaddle.org) comments: 66907
+31) paritytech comments: 66154
+32) React (facebook.com) comments: 63959
+33) scylladb comments: 61980
+34) Swift (swift.org) comments: 59767
+35) CMS Offline Software (cms-sw.github.io) comments: 57829
+36) Vercel (vercel.com) comments: 56320
+37) SS13 (tgstation13.org) comments: 54747
+38) Node.js (nodejs.org) comments: 52667
+39) containers comments: 52442
+40) status-im comments: 52266
+41) bcgov comments: 51005
+42) openvinotoolkit comments: 50669
+43) StarRocks comments: 49515
+44) ray-project comments: 49292
+45) Terraform (terraform.io) comments: 47341
+46) apache/doris comments: 47170
+47) Ansible (ansible.com) comments: 46230
+48) conda-forge (conda-forge.org) comments: 45953
+49) apple comments: 45814
+50) Cilium (cilium.io) comments: 45462
+51) ODOO Community Association (odoo-community.org) comments: 45378
+52) airbytehq comments: 45343
+53) harness comments: 43280
+54) filecoin-project comments: 42814
+55) KhronosGroup comments: 42797
+56) aws-amplify comments: 42048
+57) Ethereum (ethereum.org) comments: 41275
+58) WP Calypso (developer.wordpress.com/calypso) comments: 41265
+59) leanprover-community comments: 40997
+60) Mattermost (mattermost.org) comments: 39890
+61) MetaMask comments: 39829
+62) ClickHouse comments: 38953
+63) Homebrew (brew.sh) comments: 38519
+64) espressif comments: 38469
+65) Dart (dartlang.org) comments: 37851
+66) AdguardTeam comments: 37677
+67) ultralytics comments: 37413
+68) woocommerce comments: 37361
+69) Google APIs (googleapis.github.io) comments: 36607
+70) sourcegraph comments: 36476
+71) Envoy (www.envoyproxy.io) comments: 36255
+72) quarkusio comments: 36192
+73) KubeVirt (kubevirt.io) comments: 36164
+74) input-output-hk comments: 35699
+75) appsmithorg comments: 35677
+76) space-wizards comments: 35071
+77) gravitational comments: 34156
+78) aws/aws-cdk comments: 33998
+79) rancher comments: 33846
+80) redpanda-data comments: 33716
+81) sonic-net comments: 33439
+82) Istio (istio.io) comments: 33417
+83) Flathub (flathub.org) comments: 33289
+84) Hyperledger (hyperledger.org) comments: 33214
+85) apache/arrow comments: 32873
+86) openedx comments: 32361
+87) mui comments: 32277
+88) OpenWrt (openwrt.org) comments: 32134
+89) rapidsai comments: 31481
+90) Spring (spring.io/projects) comments: 31396
+91) matrix-org comments: 31323
+92) apache/airflow comments: 31277
+93) unifyai comments: 31103
+94) Go (golang.org) comments: 31073
+95) systemd (freedesktop.org/wiki/Software/systemd) comments: 30487
+96) firebase comments: 29609
+97) trinodb comments: 29345
+98) go-gitea comments: 29284
+99) hashgraph comments: 28958
+100) TensorFlow (tensorflow.org) comments: 28828
