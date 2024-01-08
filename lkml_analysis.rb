@@ -15,6 +15,7 @@ def lkml_analysis(froms, tos)
   all = 0
   new = 0
   loop do
+    puts "#{dt}"
     sdt = dt.strftime("%Y/%-m/%-d")
     url = "https://lkml.org/lkml/#{sdt}"
     cmd = "wget #{url} -O out 1>/dev/null 2>/dev/null"
