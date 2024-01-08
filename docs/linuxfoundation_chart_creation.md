@@ -110,7 +110,7 @@ If you generated CNCF data just before generating LF data, then you already have
 
 # Yocto
 
-- Add bugzilla data via: `./yocto_bugzilla.sh '2023-01-01 00:00:00' '2024-01-01 00:00:00'`. Put number of bugzilla issues in `data/data_yocto_bugzilla_20230101_20240101.csv`:
+- Add bugzilla data via: `[REST=1] ./yocto_bugzilla.sh '2023-01-01 00:00:00' '2024-01-01 00:00:00'`. Put number of bugzilla issues in `data/data_yocto_bugzilla_20230101_20240101.csv`:
 ```
 project,key,value
 Yocto,issues,1865
@@ -120,7 +120,7 @@ Yocto,issues,1865
 
 # Final chart
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1aiHuku3_DZZCjcdm9FLftIVjSWsSdcoBrhOp37Jwi5g/edit?usp=sharing).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1cMkr_0ikbjgJci7eOa3yLgJab31i5NmloJxEXuSlkro/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A300.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
