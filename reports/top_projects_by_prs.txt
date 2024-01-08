@@ -1,101 +1,101 @@
 Top projects by prs:
-1) Linux (kernel.org) prs: 67188
-2) Homebrew (brew.sh) prs: 54950
-3) NixOS (nixos.org) prs: 54627
-4) Kubernetes (kubernetes.io) prs: 44242
-5) Elasticsearch (elastic.co/products/elasticsearch) prs: 40038
-6) OpenTelemetry (opentelemetry.io) prs: 32893
-7) OpenShift (openshift.com) prs: 31123
-8) truecharts prs: 30969
-9) dotnet (microsoft.com/net) prs: 30497
-10) pytorch (pytorch.org) prs: 25698
-11) Datadog (datadog.com) prs: 25286
-12) Sentry (sentry.io) prs: 24067
-13) Grafana Labs (grafana.com) prs: 23211
-14) JuliaRegistries prs: 21465
-15) PaddlePaddle (paddlepaddle.org) prs: 20794
-16) VS Code (code.visualstudio.com) prs: 20506
-17) Home Assistant (home-assistant.io) prs: 20063
-18) harness prs: 19507
-19) apache/doris prs: 18077
-20) mate-academy prs: 17968
-21) Rust (rust-lang.org) prs: 17572
-22) Zephyr (www.zephyrproject.org) prs: 16984
-23) OpenSearch Project (opensearch.org) prs: 16580
-24) Azure SDKs (azure.microsoft.com) prs: 16004
-25) bcgov prs: 15770
-26) Hyperledger (hyperledger.org) prs: 15363
-27) Hugging Face (huggingface.co) prs: 14528
-28) Nextcloud (nextcloud.com) prs: 14369
-29) sourcegraph prs: 13786
-30) Cilium (cilium.io) prs: 13732
-31) Odoo (odoo.com) prs: 13614
-32) Cloud Foundry (cloudfoundry.org) prs: 12836
-33) conda-forge (conda-forge.org) prs: 12547
-34) Ansible (ansible.com) prs: 12513
-35) StarRocks prs: 12450
-36) Caseflow (va.gov) prs: 12357
-37) python (www.python.org) prs: 12254
-38) React (facebook.com) prs: 12107
-39) FINOS (finos.org) prs: 11509
-40) New Relic (opensource.newrelic.com) prs: 11432
-41) Envoy (www.envoyproxy.io) prs: 11343
-42) ODOO Community Association (odoo-community.org) prs: 11161
-43) gravitational prs: 10989
-44) Google APIs (googleapis.github.io) prs: 10971
-45) PingCAP (github.com/pingcap) prs: 10822
-46) Cockroach Labs (cockroachlabs.com) prs: 10736
-47) Terraform (terraform.io) prs: 10560
-48) Flutter (flutter.io) prs: 10378
-49) openvinotoolkit prs: 10281
-50) Swift (swift.org) prs: 10093
-51) Vercel (vercel.com) prs: 10034
-52) gRPC (grpc.io) prs: 9980
-53) equinor prs: 9905
-54) paritytech prs: 9742
-55) Ethereum (ethereum.org) prs: 9738
-56) CNCF (www.cncf.io) prs: 9444
-57) apache/shardingsphere prs: 9285
-58) WordPress (wordpress.org) prs: 9120
-59) Jenkins (jenkins.io) prs: 9079
-60) LLVM (llvm.org) prs: 9074
-61) DefiLlama (defillama.com) prs: 9073
-62) input-output-hk prs: 9044
-63) sonic-net prs: 9041
-64) sigstore (sigstore.dev) prs: 9010
-65) code-423n4 prs: 8812
-66) leanprover-community prs: 8790
-67) conan-io prs: 8786
-68) WP Calypso (developer.wordpress.com/calypso) prs: 8729
-69) Godot Engine (godotengine.org) prs: 8604
-70) Argo (argoproj.github.io) prs: 8580
-71) Apache Spark (spark.apache.org) prs: 8558
-72) Node.js (nodejs.org) prs: 8545
-73) MetaMask prs: 8382
-74) TencentBlueKing prs: 8253
-75) woocommerce prs: 8155
-76) SS13 (tgstation13.org) prs: 8110
-77) aws-amplify prs: 8063
-78) Flathub (flathub.org) prs: 7994
-79) matrix-org prs: 7918
-80) unifyai prs: 7838
-81) Knative (knative.dev) prs: 7767
-82) openedx prs: 7716
-83) cdklabs prs: 7640
-84) woowacourse-teams prs: 7597
-85) betagouv prs: 7564
-86) ray-project prs: 7468
-87) cosmos prs: 7397
-88) Government Digital Service (gds.blog.gov.uk) prs: 7394
-89) ClickHouse prs: 7300
-90) rancher prs: 7260
-91) dfinity prs: 7113
-92) MystenLabs prs: 7092
-93) space-wizards prs: 7005
-94) status-im prs: 6846
-95) adobe prs: 6810
-96) Mattermost (mattermost.org) prs: 6781
-97) PostHog prs: 6754
-98) ballerina-platform prs: 6715
-99) Automattic prs: 6706
-100) boostcampwm-2022 prs: 6642
+1) Linux (kernel.org) prs: 64944
+2) NixOS (nixos.org) prs: 58162
+3) Homebrew (brew.sh) prs: 54134
+4) Kubernetes (kubernetes.io) prs: 43554
+5) Elasticsearch (elastic.co/products/elasticsearch) prs: 40737
+6) OpenTelemetry (opentelemetry.io) prs: 32881
+7) dotnet (microsoft.com/net) prs: 30284
+8) truecharts prs: 30084
+9) Datadog (datadog.com) prs: 25886
+10) OpenShift (openshift.com) prs: 25327
+11) Sentry (sentry.io) prs: 25201
+12) pytorch (pytorch.org) prs: 25182
+13) Grafana Labs (grafana.com) prs: 24043
+14) apache/doris prs: 21485
+15) JuliaRegistries prs: 21415
+16) Home Assistant (home-assistant.io) prs: 20517
+17) VS Code (code.visualstudio.com) prs: 19623
+18) PaddlePaddle (paddlepaddle.org) prs: 18524
+19) Zephyr (www.zephyrproject.org) prs: 17921
+20) Rust (rust-lang.org) prs: 17460
+21) OpenSearch Project (opensearch.org) prs: 16309
+22) Azure SDKs (azure.microsoft.com) prs: 15577
+23) Hyperledger (hyperledger.org) prs: 15244
+24) Hugging Face (huggingface.co) prs: 15113
+25) Cilium (cilium.io) prs: 14843
+26) Nextcloud (nextcloud.com) prs: 14633
+27) LLVM (llvm.org) prs: 14372
+28) Odoo (odoo.com) prs: 14181
+29) bcgov prs: 13600
+30) Caseflow (va.gov) prs: 13289
+31) sourcegraph prs: 13138
+32) Cloud Foundry (cloudfoundry.org) prs: 13115
+33) Ansible (ansible.com) prs: 12509
+34) python (www.python.org) prs: 12400
+35) React (facebook.com) prs: 12357
+36) StarRocks prs: 12308
+37) Envoy (www.envoyproxy.io) prs: 12082
+38) harness prs: 11555
+39) FINOS (finos.org) prs: 11408
+40) TencentBlueKing prs: 11379
+41) gravitational prs: 10983
+42) conda-forge (conda-forge.org) prs: 10883
+43) ODOO Community Association (odoo-community.org) prs: 10449
+44) Flutter (flutter.io) prs: 10445
+45) Cockroach Labs (cockroachlabs.com) prs: 10440
+46) New Relic (opensource.newrelic.com) prs: 10354
+47) Google APIs (googleapis.github.io) prs: 10243
+48) Terraform (terraform.io) prs: 10222
+49) PingCAP (github.com/pingcap) prs: 10220
+50) Swift (swift.org) prs: 10161
+51) openvinotoolkit prs: 10099
+52) Vercel (vercel.com) prs: 10086
+53) gRPC (grpc.io) prs: 9791
+54) equinor prs: 9758
+55) WordPress (wordpress.org) prs: 9426
+56) MetaMask prs: 9389
+57) Ethereum (ethereum.org) prs: 9239
+58) paritytech prs: 9188
+59) DefiLlama (defillama.com) prs: 9187
+60) WP Calypso (developer.wordpress.com/calypso) prs: 9152
+61) sonic-net prs: 9057
+62) input-output-hk prs: 9040
+63) Jenkins (jenkins.io) prs: 8908
+64) leanprover-community prs: 8690
+65) woocommerce prs: 8620
+66) Node.js (nodejs.org) prs: 8587
+67) conan-io prs: 8534
+68) Godot Engine (godotengine.org) prs: 8515
+69) Apache Spark (spark.apache.org) prs: 8458
+70) Argo (argoproj.github.io) prs: 8306
+71) code-423n4 prs: 8290
+72) sigstore (sigstore.dev) prs: 8226
+73) SS13 (tgstation13.org) prs: 8032
+74) apache/shardingsphere prs: 7986
+75) aws-amplify prs: 7985
+76) Knative (knative.dev) prs: 7737
+77) mate-academy prs: 7719
+78) space-wizards prs: 7700
+79) woowacourse-teams prs: 7548
+80) ClickHouse prs: 7459
+81) ray-project prs: 7431
+82) openedx prs: 7415
+83) betagouv prs: 7260
+84) dfinity prs: 7178
+85) matrix-org prs: 7064
+86) Flathub (flathub.org) prs: 7011
+87) status-im prs: 6917
+88) MystenLabs prs: 6911
+89) PostHog prs: 6907
+90) rancher prs: 6887
+91) Kyverno (kyverno.io) prs: 6848
+92) unifyai prs: 6662
+93) adobe prs: 6604
+94) Keycloak (keycloak.org) prs: 6520
+95) supabase prs: 6497
+96) containers prs: 6405
+97) kyma-project prs: 6384
+98) hlxsites prs: 6383
+99) cdklabs prs: 6380
+100) pulumi prs: 6370
