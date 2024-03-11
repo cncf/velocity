@@ -232,7 +232,7 @@ getsops,SOPS
 github,GitHub
 gitlab,GitLab
 gitlabhq,GitLab
-gitops-working-group,GitOps WG
+gitops-working-group,OpenGitOps
 go-freebsd,FreeBSD
 godotengine,Godot Engine
 goharbor,Harbor
@@ -390,6 +390,7 @@ opcr-io,OPCR
 open-cluster-management-io,Open Cluster Management
 open-faas,OpenFaaS
 open-feature,OpenFeature
+open-gitops,OpenGitOps
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
 openai,OpenAI
