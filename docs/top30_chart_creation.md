@@ -344,6 +344,8 @@ Important:
 
 Final version live [here](https://docs.google.com/spreadsheets/d/1WNncbRD3isbFsuIj3n65Qr4OyzNQJthrSx2-RqRqavk/edit?usp=sharing).
 
+Make sure that `Terraform` and `Elasticsearch` are not included as they are no longer open source projects - I've removed manually from last report, now just make sure that they won't get into new reports going forward as well.
+
 Update the main [README](https://github.com/cncf/velocity#current-reports), set new 'Current reports' and move current to [Past Reports](https://github.com/cncf/velocity#past-reports).
 
 ### Results:
