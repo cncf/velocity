@@ -697,6 +697,8 @@ awslabs/serverless-application-model,AWS SAM
 baidu/bfe,BFE
 banzaicloud/logging-operator,Logging Operator
 brunopulis/awesome-a11y,A11y
+bufbuild/connect-go,Connect
+bufbuild/rerpc,Connect
 callemall/material-ui,Material-UI
 capitalone/cloud-custodian,Cloud Custodian
 cashapp/multiplatform-paging,Multiplatform Paging
@@ -1950,6 +1952,7 @@ mozilla/webmaker-ffos,Firefox
 mozilla/yogafire,Firefox
 mozilla/zamboni,Firefox
 mozilla/zippy,Firefox
+mudler/c3os,Kairos
 nirmata/kyverno,Kyverno
 noironetworks/cilium-net,Cilium
 oam-dev/kubevela,KubeVela
@@ -2590,6 +2593,7 @@ redhat-developer/build,Shipwright
 redhat-developer/buildv2,Shipwright
 redhat-developer/buildv2-operator,Shipwright
 redsift/ingraind,Foniod
+rerpc/rerpc,Connect
 rethinkdb/aspnet-signalr-chat,RethinkDB
 rethinkdb/docs,RethinkDB
 rethinkdb/elasticsearch-river-rethinkdb,RethinkDB

@@ -119,6 +119,7 @@ broadinstitute,Broad Institute
 buildpack,Buildpacks
 buildpacks,Buildpacks
 buildpacks-community,Buildpacks
+c3os-io,Kairos
 c4cs,Computing for Computer Scientists
 cakephp,CakePHP
 carina-io,Carina
@@ -159,6 +160,7 @@ codecombat,CodeCombat
 concourse,Concourse
 conda-forge,conda-forge
 confidential-containers,Confidential Containers
+connectrpc,Connect
 containernetworking,CNI
 coredns,CoreDNS
 coreos,CoreOS
@@ -273,6 +275,7 @@ k3s-io,K3s
 k8gb-io,K8GB
 k8sgpt-ai,K8sGPT
 k8up-io,K8up
+kairos-io,Kairos
 kanisterio,Kanister
 karmada-io,Karmada
 kata-containers,Kata Containers
@@ -288,6 +291,7 @@ knative-extensions,Knative
 knative-sandbox,Knative
 ko-build,ko
 konveyor,Konveyor
+koordinator-sh,Koordinator
 kptdev,kpt
 krator-rs,Krator
 krkn-chaos,KrknChaos
@@ -298,6 +302,7 @@ kube-burner,kube-burner
 kube-logging,Logging Operator
 kube-rs,kube-rs
 kube-vip,kube-vip
+kubean,Kubean
 kubearmor,KubeArmor
 kubeclipper,Kubeclipper
 kubeclipper-labs,Kubeclipper
@@ -326,6 +331,7 @@ kubernetes-sigs,Kubernetes
 kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubescape,Kubescape
+kubeslice,Kubeslice
 kubestellar,Kubestellar
 kubevela,KubeVela
 kubevirt,KubeVirt
@@ -457,6 +463,7 @@ pytorch,pytorch
 qmk,QMK
 r-lib,R
 rackt,React
+radius-project,Radius
 rails,Ruby on Rails
 rapid7,Rapid7
 raycast,Raycast
@@ -464,6 +471,7 @@ react-native-community,React
 reactivefoundation,Reactive Foundation
 reactjs,React
 redhat-chaos,KrknChaos
+rerpc,Connect
 rethinkdb,RethinkDB
 riff,Pivotal Riff
 riscv,RISC-V

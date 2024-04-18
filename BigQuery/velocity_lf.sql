@@ -74,7 +74,8 @@ WHERE
       'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community', 'getsops', 'eraser-dev',
       'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev', 'kcl-lang', 'projectcapsule',
       'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar', 'megaease', 'spidernet-io', 'k8sgpt-ai',
-      'chaos-kubox', 'KubeStellar', 'kptdev', 'redhat-chaos', 'OpenMetrics', 'openmetrics', 'open-gitops'
+      'chaos-kubox', 'KubeStellar', 'kptdev', 'redhat-chaos', 'OpenMetrics', 'openmetrics', 'open-gitops',
+      'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io', 'kubean-io', 'koordinator-sh', 'radius-project'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -121,7 +122,8 @@ WHERE
       'kinvolk/headlamp', 'cloudimmunity/docker-slim', 'Azure/eraser', 'datenlord/Xline', 'GoogleContainerTools/kpt',
       'google/kubeflow', 'banzaicloud/logging-operator', 'KusionStack/kcl', 'KusionStack/KCLVM',
       'cloud-bulldozer/kube-burner', 'cloud-bulldozer/rosa-burner', 'cloud-bulldozer/krkn',
-      'cloud-bulldozer/kraken', 'openshift-scale/kraken', 'kcp-dev/edge-mc'
+      'cloud-bulldozer/kraken', 'openshift-scale/kraken', 'kcp-dev/edge-mc', 'bufbuild/connect-go', 'bufbuild/rerpc',
+      'rerpc/rerpc', 'mudler/c3os'
     )
   )
   and repo.name not in (
