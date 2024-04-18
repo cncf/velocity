@@ -170,6 +170,7 @@ ComputerVision,github.com/microsoft/ComputerVision
 Computing for Computer Scientists,c4cs.github.io
 Concourse,concourse-ci.org
 Confidential Containers,github.com/confidential-containers
+Connect,connectrpc.com
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
 ContainerSSH,containerssh.io
@@ -375,6 +376,7 @@ K8sGPT,k8sgpt.ai
 K8up,k8up.io
 KCL,kcl-lang.io
 KEDA,keda.sh
+Kairos,kairos.io
 Kanister,kanister.io
 Karmada,Karmada.io
 Kata Containers,katacontainers.io
@@ -387,6 +389,7 @@ Ki Foundation,foundation.ki
 Kinetic Open Storage,www.openkinetic.org
 Knative,knative.dev
 Konveyor,konveyor.io
+Koordinator,koordinator.sh
 Krator,docs.rs/krator
 KrknChaos,github.com/redhat-chaos/krknChaos
 Kronos GLSL,kronos.org
@@ -399,11 +402,13 @@ KubeDL,kubedl.io
 KubeEdge,kubeedge.io
 KubeVela,kubevela.io
 KubeVirt,kubevirt.io
+Kubean,kubean-io.github.io/kubean/
 Kubeclipper,kubeclipper.io
 Kubeflow,kubeflow.org
 Kuberhealthy,github.com/Comcast/kuberhealthy
 Kubernetes,kubernetes.io
 Kubescape,github.com/kubescape
+Kubeslice,kubeslice.io
 Kubestellar,kubestellar.io
 Kudo,kudo.dev
 Kui Shell,github.com/IBM/kui
@@ -674,6 +679,7 @@ RConsortium,r-consortium.org
 RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
 RISC-V,riscv.org
+Radius,radapp.io
 Rapid7,rapid7.com
 Rax,rax.js.org
 Raycast,raycast.com
