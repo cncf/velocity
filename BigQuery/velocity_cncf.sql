@@ -67,7 +67,7 @@ where
       'kcl-lang', 'projectcapsule', 'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar',
       'megaease', 'spidernet-io', 'k8sgpt-ai', 'chaos-kubox', 'KubeStellar', 'kptdev', 'redhat-chaos',
       'OpenMetrics', 'openmetrics', 'open-gitops', 'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io',
-      'kubean-io', 'koordinator-sh', 'radius-project'
+      'kubean-io', 'koordinator-sh', 'radius-project', 'easegress-io'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
