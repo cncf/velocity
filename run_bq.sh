@@ -29,5 +29,7 @@ cat /tmp/velocity_bigquery.sql | bq --format=csv --headless query --use_legacy_s
 e=$(date +%s%N)
 t=$((e - s))
 t=$((t / 1000000))
+ts=$((t / 1000))
+tm=$((ts / 60))
 #ed "$ofn" <<<$'1d\nwq\n' || exit 8
-echo "$ofn written in $t ms."
+echo "$ofn written in $t ms ($ts s, $tm min)."
