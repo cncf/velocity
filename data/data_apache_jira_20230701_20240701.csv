@@ -18,8 +18,10 @@ Apache Storm,issues,216
 Apache TS,issues,0
 Apache Lucene,issues,27
 Apache Solr,issues,944
-Apache CarbonData,issues,
-Apache Geode,issues,
-Apache Trafodion,issues,
-Apache Thrift,issues,
-Apache Kylin,issues,
+Apache CarbonData,issues,17
+Apache Geode,issues,17
+Apache Trafodion,issues,0
+Apache Thrift,issues,127
+Apache Kylin,issues,292
+# This is skipped by map/skip.csv
+# Apache (other),issues,
