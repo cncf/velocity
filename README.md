@@ -7,17 +7,22 @@
 - PRs value is defined as a number of distinct Pull Requests/Merge Requests (depending on data source type).
 - Charts use the logarithmic scale number of commits for the X-axis, the logarithmic scale number of sum of issues and PRs for the Y-axis, and the square root of the number of authors for the bubble size.
 
-
 ## Current reports
+
+1/1/2023 - 1/1/2024:
+- [CNCF Projects Velocity](https://docs.google.com/spreadsheets/d/1FyVjdO9kMnz4hmEkyYLpl101cBDg_ZGHMkR5j_ce5JU/edit?usp=sharing).
+- [Linux Foundation Projects Velocity]().
+- [Top 30 Open Source Projects]().
+- [Other reports](https://github.com/cncf/velocity/tree/main/reports/20230701_20240701).
+
+
+## Past reports
 
 1/1/2023 - 1/1/2024:
 - [CNCF Projects Velocity](https://docs.google.com/spreadsheets/d/1wEnJ9OD_M4J3guZOccIVy_8OOQCX-tsgZOefK0TQ5bY/edit?usp=sharing).
 - [Linux Foundation Projects Velocity](https://docs.google.com/spreadsheets/d/1cMkr_0ikbjgJci7eOa3yLgJab31i5NmloJxEXuSlkro/edit?usp=sharing).
 - [Top 30 Open Source Projects](https://docs.google.com/spreadsheets/d/1WhaELR_ijVGG53S_7Na8hXmOgNzuetF83cpXH4IVK2o/edit?usp=sharing).
 - [Other reports](https://github.com/cncf/velocity/tree/main/reports/20230101_20240101).
-
-
-## Past reports
 
 10/12/2022 - 10/12/2023:
 - [CNCF Projects Velocity](https://docs.google.com/spreadsheets/d/1uDIQywu3itQEkxN3rEzvJgydl1Q5gTw5YFOdSMWSc30/edit?usp=sharing).
