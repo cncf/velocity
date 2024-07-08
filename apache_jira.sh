@@ -10,7 +10,8 @@ then
   exit 2
 fi
 
-projs=(Flink Mesos Spark Kafka Camel CloudStack Beam Zeppelin Cassandra Hive HBase Hadoop Ignite NiFi Ambari Storm TS Lucene Solr CarbonData Geode Trafodion Thrift Kylin)
+# projs=(Flink Mesos Spark Kafka Camel CloudStack Beam Zeppelin Cassandra Hive HBase Hadoop Ignite NiFi Ambari Storm TS Lucene Solr CarbonData Geode Trafodion Thrift Kylin)
+projs=(NiFi Ambari Storm TS Lucene Solr CarbonData Geode Trafodion Thrift Kylin)
 for proj in "${projs[@]}"
 do
   # echo "project $proj"
