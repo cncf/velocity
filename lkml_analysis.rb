@@ -11,20 +11,23 @@ def lkml_analysis(froms, tos)
     puts "#{froms} - #{tos}: #{e}"
     return
   end
+  dbg = !ENV['DBG'].nil?
   dt = from
   all = 0
   new = 0
   loop do
-    puts "#{dt}"
+    puts "#{dt}" if dbg
     sdt = dt.strftime("%Y/%-m/%-d")
     url = "https://lkml.org/lkml/#{sdt}"
     cmd = "wget #{url} -O out 1>/dev/null 2>/dev/null"
+    puts "executing: #{cmd}" if dbg
     `#{cmd} || exit 1`
     contents = `cat out`
     all_day = contents.scan(/<tr class="c[01]">/).length
     new_day = contents.scan(/<td>\[New\]<\/td>/).length
     all += all_day
     new += new_day
+    puts "(#{all}, #{new}) += (#{all_day}, #{new_day})" if dbg
     `rm out`
     dt = dt + 1
     break if dt >= to
