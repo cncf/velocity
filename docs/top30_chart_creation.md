@@ -28,10 +28,10 @@ To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets
 
 Update BigQuery [query file](BigQuery/velocity_top30.sql). If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `./run_bq.sh top30 2023-07-01 2024-07-01`. It takes about 1+TB and costs about $15-$25+.
-Or run the query for a year, for example: `./run_bq_year.sh top30_year 2023`. It takes about 1+TB and costs about $15-$25+.
+Run the query for a year date range, for example: `./run_bq.sh top30 2023-07-01 2024-07-01`. It takes about 1+TB and costs about $15-$25+.
+Or run the query for a specified year, for example: `./run_bq_year.sh top30_year 2023`. It takes about 1+TB and costs about $15-$25+.
 - It can happen that it is not possible to get data for all year in one call, you can do in two parts each 6 months for example and later merge via:
-- `` ./run_bq.sh top30 2023-07-01 2023-07-01; ./run_bq.sh top30 2023-07-01 2024-07-01; OUT=data/data_top30_projects_20230701_20240701.csv ./merge_bq.rb data/data_top30_projects_20230701_20230701.csv data/data_top30_projects_20230701_20240701.csv ``.
+- `` ./run_bq.sh top30 2023-07-01 2024-01-01; ./run_bq.sh top30 2024-01-01 2024-07-01; OUT=data/data_top30_projects_20230701_20240701.csv ./merge_bq.rb data/data_top30_projects_20230701_20230701.csv data/data_top30_projects_20230701_20240701.csv ``.
 
 It will generate a file for example: `data/data_top30_projects_20230701_20240701.csv` or `data/data_top30_2023.csv`.
 
