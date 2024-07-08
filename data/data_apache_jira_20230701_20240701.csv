@@ -14,10 +14,10 @@ Apache Hadoop,issues,1318
 Apache Ignite,issues,3493
 Apache NiFi,issues,2071
 Apache Ambari,issues,234
-Apache Storm,issues,
-Apache TS,issues,
-Apache Lucene,issues,
-Apache Solr,issues,
+Apache Storm,issues,216
+Apache TS,issues,0
+Apache Lucene,issues,27
+Apache Solr,issues,944
 Apache CarbonData,issues,
 Apache Geode,issues,
 Apache Trafodion,issues,
