@@ -133,6 +133,24 @@ CRI-O:
 	#1908 by prs (892)
 	#2954 by pushes (2408)
 
+Capsule:
+	#9672 by activity (1486)
+	#10285 by authors (23)
+	#10014 by comments (423)
+	#14356 by commits (389)
+	#8276 by issues (123)
+	#4020 by prs (429)
+	#13024 by pushes (511)
+
+Carina:
+	#55555 by activity (80)
+	#28785 by authors (9)
+	#36458 by comments (36)
+	#61740 by commits (23)
+	#46474 by issues (8)
+	#44584 by prs (14)
+	#63729 by pushes (22)
+
 Carvel:
 	#3079 by activity (5242)
 	#1834 by authors (92)
@@ -1302,6 +1320,15 @@ SchemaHero:
 	#25898 by issues (27)
 	#15540 by prs (92)
 	#26298 by pushes (195)
+
+Sealer:
+	#36126 by activity (220)
+	#37142 by authors (7)
+	#20398 by comments (130)
+	#71069 by commits (11)
+	#23062 by issues (33)
+	#25075 by prs (46)
+	#71953 by pushes (11)
 
 Serverless Devs:
 	#12299 by activity (1109)
