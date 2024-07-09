@@ -59,8 +59,8 @@ Open Container Initiative,OCI
 Open Mainframe Project,Open Mainframe
 OpenFunction,OpenFunction
 OpenMake-Software,Ortelius
-OpenMetrics,OpenMetrics
-OpenObservability,OpenMetrics
+OpenMetrics,Prometheus
+OpenObservability,Prometheus
 OpenStack-mobile,OpenStack Mobile
 OpenStackCookbook,OpenStack Cookbook
 OpenStackweb,OpenStack Web
