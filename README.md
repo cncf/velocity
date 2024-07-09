@@ -11,7 +11,7 @@
 
 1/1/2023 - 1/1/2024:
 - [CNCF Projects Velocity](https://docs.google.com/spreadsheets/d/1FyVjdO9kMnz4hmEkyYLpl101cBDg_ZGHMkR5j_ce5JU/edit?usp=sharing).
-- [Linux Foundation Projects Velocity]().
+- [Linux Foundation Projects Velocity](https://docs.google.com/spreadsheets/d/1Aiyb2qoQ-vgTXkP3F5OdSB8nrVI43Al0EJfkkZjRqqY/edit?usp=sharing).
 - [Top 30 Open Source Projects]().
 - [Other reports](https://github.com/cncf/velocity/tree/main/reports/20230701_20240701).
 
