@@ -72,7 +72,9 @@ echo "Restoring BigQuery output"
 cp data/unlimited_output_202207_202307.csv data/unlimited.csv
 ```
 - So we have main data (step 1) ready for the new chart. Now we need to get data for all non-standard projects. You can try our analysis tool without any special projects by running:
-`[SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
+```
+[SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+```
 - It is possible that there will be some new projects that are unknown. Ranks can change during this step, so there can be manual changes needed to mappings in `map/` directory: `hints.csv`, `defmaps.csv` and `urls.csv`. Possibly also in `skip.csv` (if there are new projects that should be skipped)
 - This is what came out on the 1st run:
 ```
@@ -136,7 +138,7 @@ Run this from the velocity project's root folder again:
 
 ### CNCF Projects case
 
-- We have a line in `ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv ata/data_cncf_projects_20230701_20240701.csv`
+- We have a line in `` ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv ata/data_cncf_projects_20230701_20240701.csv ``.
 
 ### Gitlab
 
