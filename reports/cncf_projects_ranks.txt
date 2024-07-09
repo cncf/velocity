@@ -1321,15 +1321,6 @@ SchemaHero:
 	#15540 by prs (92)
 	#26298 by pushes (195)
 
-sealer:
-	#36126 by activity (220)
-	#37142 by authors (7)
-	#20398 by comments (130)
-	#71069 by commits (11)
-	#23062 by issues (33)
-	#25075 by prs (46)
-	#71953 by pushes (11)
-
 Serverless Devs:
 	#12299 by activity (1109)
 	#10660 by authors (22)
@@ -1689,6 +1680,15 @@ kubewarden:
 	#1170 by issues (764)
 	#232 by prs (4177)
 	#1154 by pushes (5582)
+
+sealer:
+	#36126 by activity (220)
+	#37142 by authors (7)
+	#20398 by comments (130)
+	#71069 by commits (11)
+	#23062 by issues (33)
+	#25075 by prs (46)
+	#71953 by pushes (11)
 
 wasmCloud:
 	#1006 by activity (13979)
