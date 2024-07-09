@@ -1,0 +1,101 @@
+Top projects by comments:
+1) Linux (kernel.org) comments: 403000
+2) Elasticsearch (elastic.co/products/elasticsearch) comments: 333639
+3) Kubernetes (kubernetes.io) comments: 314480
+4) dotnet (microsoft.com/net) comments: 272122
+5) Expensify comments: 243728
+6) NixOS (nixos.org) comments: 212395
+7) Rust (rust-lang.org) comments: 208559
+8) OpenShift (openshift.com) comments: 203789
+9) LLVM (llvm.org) comments: 195166
+10) Home Assistant (home-assistant.io) comments: 157778
+11) Odoo (odoo.com) comments: 157759
+12) Hugging Face (huggingface.co) comments: 144238
+13) pytorch (pytorch.org) comments: 143245
+14) VS Code (code.visualstudio.com) comments: 140271
+15) OpenSearch Project (opensearch.org) comments: 106728
+16) Grafana Labs (grafana.com) comments: 106252
+17) OpenTelemetry (opentelemetry.io) comments: 105831
+18) Godot Engine (godotengine.org) comments: 99644
+19) Datadog (datadog.com) comments: 92849
+20) WordPress (wordpress.org) comments: 90348
+21) Sentry (sentry.io) comments: 89861
+22) Caseflow (va.gov) comments: 88529
+23) Flutter (flutter.io) comments: 81886
+24) Zephyr (www.zephyrproject.org) comments: 81287
+25) python (www.python.org) comments: 79742
+26) Nextcloud (nextcloud.com) comments: 75260
+27) Cockroach Labs (cockroachlabs.com) comments: 73961
+28) PingCAP (github.com/pingcap) comments: 70414
+29) scylladb comments: 67226
+30) CMS Offline Software (cms-sw.github.io) comments: 61911
+31) Azure SDKs (azure.microsoft.com) comments: 59764
+32) Swift (swift.org) comments: 54747
+33) containers comments: 54408
+34) apache/doris comments: 53485
+35) React (facebook.com) comments: 53087
+36) Vercel (vercel.com) comments: 53069
+37) bcgov comments: 52802
+38) Node.js (nodejs.org) comments: 52369
+39) status-im comments: 51291
+40) PaddlePaddle (paddlepaddle.org) comments: 51072
+41) paritytech comments: 48657
+42) SS13 (tgstation13.org) comments: 48331
+43) openvinotoolkit comments: 48272
+44) conda-forge (conda-forge.org) comments: 48193
+45) leanprover-community comments: 48137
+46) space-wizards comments: 48074
+47) Ansible (ansible.com) comments: 47117
+48) MetaMask comments: 45493
+49) woocommerce comments: 44978
+50) ODOO Community Association (odoo-community.org) comments: 44394
+51) Terraform (terraform.io) comments: 44183
+52) Cilium (cilium.io) comments: 44083
+53) ultralytics comments: 43874
+54) harness comments: 42078
+55) Google APIs (googleapis.github.io) comments: 41269
+56) KubeVirt (kubevirt.io) comments: 41140
+57) LangChain (langchain.com) comments: 40422
+58) ray-project comments: 40132
+59) StarRocks comments: 38716
+60) Ethereum (ethereum.org) comments: 38645
+61) espressif comments: 38523
+62) ClickHouse comments: 38208
+63) aws-amplify comments: 38153
+64) AdguardTeam comments: 37258
+65) KhronosGroup comments: 37162
+66) WP Calypso (developer.wordpress.com/calypso) comments: 36720
+67) sonic-net comments: 36531
+68) airbytehq comments: 36460
+69) sourcegraph comments: 36012
+70) aws/aws-cdk comments: 35869
+71) astral-sh comments: 35840
+72) Dart (dartlang.org) comments: 35624
+73) Envoy (www.envoyproxy.io) comments: 35235
+74) OpenWrt (openwrt.org) comments: 35234
+75) mui comments: 35072
+76) Mattermost (mattermost.org) comments: 34838
+77) apache/arrow comments: 34781
+78) Flathub (flathub.org) comments: 34424
+79) Homebrew (brew.sh) comments: 34401
+80) rancher comments: 33372
+81) terraform-ibm-modules comments: 33304
+82) quarkusio comments: 32595
+83) Spring (spring.io/projects) comments: 32548
+84) apple comments: 32084
+85) openedx comments: 32071
+86) rapidsai comments: 31682
+87) Astro (astro.build) comments: 31621
+88) systemd (freedesktop.org/wiki/Software/systemd) comments: 31567
+89) Istio (istio.io) comments: 31561
+90) redpanda-data comments: 31438
+91) Bazel (bazel.build) comments: 31114
+92) apache/airflow comments: 30540
+93) milvus-io comments: 30440
+94) Hyperledger (hyperledger.org) comments: 29611
+95) woowacourse-teams comments: 29561
+96) facebookincubator comments: 29435
+97) hashgraph comments: 29413
+98) Go (golang.org) comments: 29375
+99) project-chip comments: 29113
+100) gravitational comments: 29047

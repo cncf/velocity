@@ -1,0 +1,101 @@
+Top projects by authors:
+1) Linux (kernel.org) authors: 4465
+2) NixOS (nixos.org) authors: 3849
+3) Kubernetes (kubernetes.io) authors: 3567
+4) React (facebook.com) authors: 3433
+5) LLVM (llvm.org) authors: 2645
+6) Hugging Face (huggingface.co) authors: 2488
+7) dotnet (microsoft.com/net) authors: 2252
+8) pytorch (pytorch.org) authors: 2244
+9) LangChain (langchain.com) authors: 2177
+10) Datadog (datadog.com) authors: 2083
+11) Grafana Labs (grafana.com) authors: 2020
+12) Homebrew (brew.sh) authors: 2006
+13) Rust (rust-lang.org) authors: 1977
+14) Home Assistant (home-assistant.io) authors: 1918
+15) DefiLlama (defillama.com) authors: 1755
+16) OpenTelemetry (opentelemetry.io) authors: 1591
+17) conda-forge (conda-forge.org) authors: 1577
+18) Elasticsearch (elastic.co/products/elasticsearch) authors: 1429
+19) Terraform (terraform.io) authors: 1399
+20) VS Code (code.visualstudio.com) authors: 1392
+21) Dymension (dymension.xyz) authors: 1389
+22) Ansible (ansible.com) authors: 1304
+23) Ethereum (ethereum.org) authors: 1293
+24) Azure REST API (github.com/Azure/azure-rest-api-specs) authors: 1275
+25) Vercel (vercel.com) authors: 1265
+26) CNCF (www.cncf.io) authors: 1252
+27) OpenShift (openshift.com) authors: 1223
+28) Caseflow (va.gov) authors: 1214
+29) DefinitelyTyped (definitelytyped.org) authors: 1190
+30) python (www.python.org) authors: 1186
+31) Zephyr (www.zephyrproject.org) authors: 1044
+32) Jellyfin (jellyfin.org) authors: 1040
+33) Shopify (shopify.com) authors: 1032
+34) OpenSearch Project (opensearch.org) authors: 1018
+35) Sentry (sentry.io) authors: 1000
+36) COSMOS (cosmos.network) authors: 975
+37) Flathub (flathub.org) authors: 970
+38) Celestia (celestia.mobi) authors: 957
+39) ODOO Community Association (odoo-community.org) authors: 951
+40) Astro (astro.build) authors: 933
+41) Spring (spring.io/projects) authors: 923
+42) Argo (argoproj.github.io) authors: 913
+43) Raycast (raycast.com) authors: 911
+44) TensorFlow (tensorflow.org) authors: 908
+45) run-llama authors: 847
+46) Odoo (odoo.com) authors: 842
+47) Azure SDKs (azure.microsoft.com) authors: 838
+48) ydb-platform authors: 823
+49) Azure-Samples authors: 815
+50) WordPress (wordpress.org) authors: 811
+51) Symfony (symfony.com) authors: 808
+52) hashicorp authors: 782
+53) SAP authors: 774
+54) Bazel (bazel.build) authors: 774
+55) jup-ag authors: 773
+56) New Relic (opensource.newrelic.com) authors: 772
+57) bioconda (bioconda.github.io) authors: 758
+58) arduino authors: 756
+59) R (github.com/r-lib) authors: 750
+60) Laravel (laravel.com) authors: 749
+61) ClickHouse authors: 747
+62) supabase authors: 745
+63) Hyperledger (hyperledger.org) authors: 731
+64) vuejs (vuejs.org) authors: 726
+65) Node.js (nodejs.org) authors: 700
+66) Google APIs (googleapis.github.io) authors: 697
+67) PaddlePaddle (paddlepaddle.org) authors: 696
+68) filamentphp authors: 687
+69) cloudflare authors: 674
+70) nuxt authors: 668
+71) TokenPocket Lab (tokenpocket.pro) authors: 667
+72) Nextcloud (nextcloud.com) authors: 660
+73) bcgov authors: 657
+74) cardano-foundation authors: 652
+75) Backstage (backstage.io) authors: 642
+76) Automattic authors: 641
+77) web-platform-tests authors: 637
+78) Alibaba (alibaba.com) authors: 636
+79) facebookincubator authors: 630
+80) containers authors: 629
+81) Godot Engine (godotengine.org) authors: 623
+82) opentffoundation authors: 613
+83) Ant Design (ant.design) authors: 613
+84) OpenWrt (openwrt.org) authors: 605
+85) KhronosGroup authors: 597
+86) nf-core authors: 592
+87) ethereum-lists authors: 591
+88) bitnami authors: 591
+89) OpenAI (openai.com) authors: 587
+90) prebid authors: 586
+91) paritytech authors: 586
+92) MetaMask authors: 584
+93) ROCm authors: 582
+94) space-wizards authors: 577
+95) chingu-voyages authors: 576
+96) spack authors: 572
+97) harness authors: 571
+98) apple authors: 571
+99) Ruby on Rails (rubyonrails.org) authors: 569
+100) openedx authors: 565
