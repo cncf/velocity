@@ -167,7 +167,7 @@ paralus,paralus+dashboard+website+relay+helm-charts+cli+prompt+eks-blueprints-ad
 kubeclipper,kubeclipper+console+kubeclipper.github.io+community+test-infra+sig-testing+kubectl,2199,990,584,528,85,29,540,Kubeclipper,kubeclipper.io
 werf,werf+website+actions+kubedog+trdl+sample-app+examples+copy-recurse+.github+lockgate+logboek,4580,264,1618,3345,74,28,2624,werf,werf.io
 curiefense,curiefense+emissary-images+curiefense-helm+native-envoy-sandbox+curiefense-gitbook+curiefense.github.io,1349,180,504,507,117,28,548,Curiefense,curiefense.io
-sealerio,sealer+sealer.cool+basefs+applications+plugins+community,2439,1139,654,272,370,27,276,Sealer,sealer.cool
+sealerio,sealer+sealer.cool+basefs+applications+plugins+community,2439,1139,654,272,370,27,276,sealer,sealer.cool
 piraeusdatastore,piraeus-operator+linstor-csi+helm-charts+piraeus+csi-driver-nfs-export+piraeus-ha-controller+linstor-scheduler-extender+kubectl-linstor+linstor-affinity-controller+drbd-shutdown-guard,1720,759,330,421,183,27,448,Piraeus-Datastore,piraeus.io
 project-akri,akri+akri-docs+akri-main,1253,746,235,176,101,27,171,Akri,docs.akri.sh
 microcks,microcks+microcks-ansible-operator+microcks-testcontainers-java+microcks-docker-desktop-extension+microcks.io+.github+microcks-backstage-provider+microcks.github.io+microcks-testcontainers-node+microcks-postman-runtime+microcks-quarkus+microcks-operator+api-lifecycle+microcks-cli+hub.microcks.io+microcks-keycloak+api-tooling+microcks-jenkins-plugin+test-github-action+import-github-action+microcks-testcontainers-go+microcks-go-client,1531,501,85,604,433,27,512,Microcks,microcks.io

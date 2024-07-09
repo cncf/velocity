@@ -1321,7 +1321,7 @@ SchemaHero:
 	#15540 by prs (92)
 	#26298 by pushes (195)
 
-Sealer:
+sealer:
 	#36126 by activity (220)
 	#37142 by authors (7)
 	#20398 by comments (130)

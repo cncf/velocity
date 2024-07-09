@@ -129,7 +129,7 @@ clusternet,clusternet+website+charts+kubectl-clusternet+apis,1115,432,354,218,10
 kubeclipper,kubeclipper+console+kubeclipper.github.io+community+test-infra+kubectl,903,433,232,195,33,28,205,Kubeclipper,kubeclipper.io
 werf,werf+website+kubedog+actions+trdl+nelm+sample-app+examples+logboek+copy-recurse+.github+lockgate,3951,254,1447,3136,52,27,2198,werf,werf.io
 ko-build,ko+terraform-provider-ko+setup-ko,1240,358,354,421,73,27,455,ko,ko.build
-sealerio,sealer+sealer.cool+basefs+applications+plugins+community,1750,843,463,179,265,26,179,Sealer,sealer.cool
+sealerio,sealer+sealer.cool+basefs+applications+plugins+community,1750,843,463,179,265,26,179,sealer,sealer.cool
 getsops+mozilla,sops+sops+sotp+community+sotp,1641,926,271,239,144,26,300,SOPS,github.com/mozilla/sops
 k8up-io,k8up+antora-ui-default,835,265,94,254,76,26,400,K8up,k8up.io
 virtual-kubelet,azure-aci+virtual-kubelet+tensile-kube+node-cli+alibabacloud-eci+cri+systemk+nomad,1053,348,312,215,97,26,296,Virtual Kubelet,virtual-kubelet.io

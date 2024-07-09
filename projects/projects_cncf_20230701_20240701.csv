@@ -172,7 +172,7 @@ carina-io,carina+carina-io.github.io+disko+carina-api,80,36,14,23,8,9,22,Carina,
 vscode-kubernetes-tools,vscode-kubernetes-tools,271,157,33,13,68,8,13,VS Code Kubernetes Tools,github.com/vscode-kubernetes-tools/vscode-kubernetes-tools
 opcr-io,policy+homebrew-tap+opcr-website+policy-build-action+policy-logout-action+policy-push-action+policy-login-action,141,12,52,63,7,8,70,OPCR,openpolicyregistry.io
 hexa-org,policy-orchestrator+policy-mapper+policy-opa+policy,795,78,61,508,308,7,348,Hexa Policy Orchestrator,hexaorchestration.org
-sealerio,sealer+basefs+sealer.cool+community,220,130,46,11,33,7,11,Sealer,sealer.cool
+sealerio,sealer+basefs+sealer.cool+community,220,130,46,11,33,7,11,sealer,sealer.cool
 skooner-k8s,skooner+skooner-website,125,42,42,22,10,6,31,Skooner,skooner.io
 FabEdge,fabedge+helm-chart,112,0,75,46,6,6,31,FabEdge,www.fabedge.io
 bfenetworks,bfe+conf-agent+ingress-bfe,74,25,21,5,23,6,5,BFE,bfe-networks.net

@@ -228,7 +228,7 @@ opcr-io,policy+homebrew-tap+opcr-website+policy-build-action+policy-push-action+
 sparklyr,sparklyr,530,124,79,211,70,7,257,sparklyr,github.com/sparklyr
 hexa-org,policy-orchestrator+policy-mapper+policy-opa+policy,795,78,61,508,308,7,348,Hexa Policy Orchestrator,hexaorchestration.org
 horovod,horovod,342,171,49,58,58,7,64,Horovod,eng.uber.com/horovod
-sealerio,sealer+basefs+sealer.cool+community,220,130,46,11,33,7,11,Sealer,sealer.cool
+sealerio,sealer+basefs+sealer.cool+community,220,130,46,11,33,7,11,sealer,sealer.cool
 sodafoundation,documentation+crystal+delfin+strato+installer+examples,163,57,51,33,22,7,33,SODA Foundation,sodafoundation.io
 "",brunopulis/awesome-a11y,22,1,11,7,2,7,8,A11y,onosproject.org
 coreinfrastructure,best-practices-badge,709,300,143,123,79,6,187,Core Infrastructure,www.coreinfrastructure.org

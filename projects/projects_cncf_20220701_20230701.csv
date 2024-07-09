@@ -105,7 +105,7 @@ lima-vm,lima+socket_vmnet+alpine-lima+sshocker+go-qcow2reader+.github+vde_vmnet+
 containernetworking,plugins+cni+cni.dev+meeting-notes,1132,682,225,103,119,40,106,CNI,github.com/containernetworking
 project-zot,zot+zui+project-zot.github.io+docs-zot+site-zot+helm-charts+dnscontrol+go-osv+assets,5190,1972,1461,820,793,39,964,zot,zotregistry.io
 devstream-io,devstream+dtm-e2e-go+dtme2epython+website+blog+dtm-e2e-python+ospp-cr-bot+ospp-go-grpc+dtm-pipeline-templates+dtm-scaffolding-python+dtm-repo-scaffolding-python-flask+SummerSong2022+dtm-repo-scaffolding-golang-gin+dtm-scaffolding-golang+dtm-jenkins-share-library+dtm-repo-scaffolding-python+dtm-repo-scaffolding-golang+dtm-gitlab-share-library+dtm-repo-scaffolding-golang-cli+.github,4937,1108,840,2311,383,39,2606,DevStream,devstream.io
-sealerio,sealer+sealer.cool+basefs+community+applications+plugins,3803,2025,887,380,501,37,390,Sealer,sealer.cool
+sealerio,sealer+sealer.cool+basefs+community+applications+plugins,3803,2025,887,380,501,37,390,sealer,sealer.cool
 keylime,keylime+rust-keylime+enhancements+python3-uefi-eventlog+meetings+keylime-vagrant-ansible-tpm-emulator+keylime-cloud-environments+attestation-operator+keylime.github.io+ansible-keylime,4677,3051,812,732,232,37,582,Keylime,keylime.dev
 clusterpedia-io,clusterpedia+clusterpedia-helm+website+client-go+fake-apiserver+sample-storage+sample-storage-layer+api+elasticsearch-storage,1540,637,526,349,98,37,279,Clusterpedia,clusterpedia.io
 kube-vip,kube-vip+kube-vip-cloud-provider+website+helm-charts+kube-vip-gateway-api,957,406,221,159,175,37,155,kube-vip,kube-vip.io
