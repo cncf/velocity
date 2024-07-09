@@ -304,6 +304,7 @@ kube-logging,Logging Operator
 kube-rs,kube-rs
 kube-vip,kube-vip
 kubean,Kubean
+kubean-io,Kubean
 kubearmor,KubeArmor
 kubeclipper,Kubeclipper
 kubeclipper-labs,Kubeclipper
@@ -406,6 +407,7 @@ opencontainers,OCI
 opencord,CORD
 opencost,OpenCost
 opencurve,Curve
+opendaylight,OpenDaylight
 openebs,OpenEBS
 openelb,OpenELB
 openembedded,Yocto
