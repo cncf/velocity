@@ -125,6 +125,7 @@ CNFT.IO,cnft.io
 CNI,github.com/containernetworking
 CNI-Genie,cni-genie.io
 CORD,opencord.org
+COSMOS,cosmos.network
 CRI-O,cri-o.io
 CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
 Caffe,github.com/Microsoft/caffe
@@ -139,6 +140,7 @@ Carrier Grade Linux,wiki.linuxfoundation.org/cgl/start
 Carvel,carvel.dev
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
+Celestia,celestia.mobi
 Ceph,ceph.io
 Chaos Mesh,chaos-mesh.org
 ChaosBlade,github.com/chaosblade-io
@@ -420,6 +422,7 @@ LF Edge,lfedge.org
 LF Energy,lfenergy.org
 LF Public Health,lfph.io
 LLVM,llvm.org
+LXD,canonical.com/lxd
 LangChain,langchain.com
 Laravel,laravel.com
 League of Extraordinary Packages,thephpleague.com
@@ -519,6 +522,7 @@ Mozilla hubs,hubs.mozilla.com
 Multiplatform Paging,github.com/cashapp/multiplatform-paging
 NATS,nats.io
 NServiceBus,particular.net/nservicebus
+NVIDIA CUDA,developer.nvidia.com/cuda-toolkit
 NVIDIA NeMo,nvidia.github.io/NeMo
 Nacos,nacos.io
 Nakadi,github.com/zalando/nakadi

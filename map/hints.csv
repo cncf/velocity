@@ -384,7 +384,50 @@ MicrosoftDocs/visualstudio-docs,MicrosoftDocs
 MicrosoftDocs/windows-uwp,MicrosoftDocs
 MicrosoftDocs/windowsserverdocs,MicrosoftDocs
 MicrosoftDocs/winrt-api,MicrosoftDocs
+NVIDIA/CUDALibrarySamples,NVIDIA CUDA
+NVIDIA/CoMD-CUDA,NVIDIA CUDA
+NVIDIA/DL4AGX,NVIDIA CUDA
+NVIDIA/GMAT,NVIDIA CUDA
+NVIDIA/HMM_sample_code,NVIDIA CUDA
+NVIDIA/MatX,NVIDIA CUDA
+NVIDIA/MinkowskiEngine,NVIDIA CUDA
 NVIDIA/NeMo,NVIDIA NeMo
+NVIDIA/PRBench,NVIDIA CUDA
+NVIDIA/TransformerEngine,NVIDIA CUDA
+NVIDIA/apt-packaging-cuda-keyring,NVIDIA CUDA
+NVIDIA/cccl,NVIDIA CUDA
+NVIDIA/clara-ia,NVIDIA CUDA
+NVIDIA/cnmem,NVIDIA CUDA
+NVIDIA/cuCollections,NVIDIA CUDA
+NVIDIA/cuQuantum,NVIDIA CUDA
+NVIDIA/cub,NVIDIA CUDA
+NVIDIA/cuda-checkpoint,NVIDIA CUDA
+NVIDIA/cuda-cpp-grammar,NVIDIA CUDA
+NVIDIA/cuda-gdb,NVIDIA CUDA
+NVIDIA/cuda-profiler,NVIDIA CUDA
+NVIDIA/cuda-python,NVIDIA CUDA
+NVIDIA/cuda-quantum,NVIDIA CUDA
+NVIDIA/cuda-repo-management,NVIDIA CUDA
+NVIDIA/cuda-samples,NVIDIA CUDA
+NVIDIA/cutlass,NVIDIA CUDA
+NVIDIA/gpu-operator,NVIDIA CUDA
+NVIDIA/grcuda,NVIDIA CUDA
+NVIDIA/jitify,NVIDIA CUDA
+NVIDIA/libcudacxx,NVIDIA CUDA
+NVIDIA/mcmc-bnn-example,NVIDIA CUDA
+NVIDIA/nsight-vscode-edition,NVIDIA CUDA
+NVIDIA/numba-cuda,NVIDIA CUDA
+NVIDIA/numbast,NVIDIA CUDA
+NVIDIA/nvImageCodec,NVIDIA CUDA
+NVIDIA/nvaitc-toolkit,NVIDIA CUDA
+NVIDIA/nvbench,NVIDIA CUDA
+NVIDIA/nvidia-docker,NVIDIA CUDA
+NVIDIA/otk-demand-loading,NVIDIA CUDA
+NVIDIA/otk-omm-baking,NVIDIA CUDA
+NVIDIA/otk-shader-util,NVIDIA CUDA
+NVIDIA/tensorrt-laboratory,NVIDIA CUDA
+NVIDIA/thrust,NVIDIA CUDA
+NVIDIA/torch-cutorch,NVIDIA CUDA
 OAI/Gluecon-Workshop,Open API
 OAI/OpenAPI-Specification,Open API
 OAI/OpenAPI-Style-Guide,Open API
@@ -700,6 +743,24 @@ brunopulis/awesome-a11y,A11y
 bufbuild/connect-go,Connect
 bufbuild/rerpc,Connect
 callemall/material-ui,Material-UI
+canonical/canonical-sphinx-extensions,LXD
+canonical/charm-lxd,LXD
+canonical/charm-microcloud,LXD
+canonical/lxd,LXD
+canonical/lxd-ci,LXD
+canonical/lxd-demo-server,LXD
+canonical/lxd-imagebuilder,LXD
+canonical/lxd-imagebuilder-pkg-snap,LXD
+canonical/lxd-integrator-operator,LXD
+canonical/lxd-pkg-chocolatey,LXD
+canonical/lxd-pkg-snap,LXD
+canonical/lxd-stable-maintenance,LXD
+canonical/lxd-ui,LXD
+canonical/lxd.dart,LXD
+canonical/microcloud,LXD
+canonical/openstack-on-lxd,LXD
+canonical/pylxd,LXD
+canonical/setup-lxd,LXD
 capitalone/cloud-custodian,Cloud Custodian
 cashapp/multiplatform-paging,Multiplatform Paging
 che-incubator/devworkspace-api,Devfile

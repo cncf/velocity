@@ -333,7 +333,7 @@ Authors:      335
 Important:
 - Some projects are already defined in `map/skip.csv` but examine `projects/unlimited_both.csv` and remove documentation related projects etc (we want to track them to see changes, but we do not want them in the final report).
 - Example: MicrosoftDocs, TheOdinProject
-- We may also want to remove some full-orgs which aren't a single project, like: ibm, intel, hashicorp, mozilla - but finally you need to split out separate projects from them.
+- We may also want to remove some full-orgs which aren't a single project, like: ibm, intel, hashicorp, mozilla, ansys, adobe - but finally you need to split out separate projects from them.
 
 ### Generate final data
 - Now rerun `shells/unlimited_both.sh`.
