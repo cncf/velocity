@@ -67,7 +67,8 @@ where
       'kcl-lang', 'projectcapsule', 'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar',
       'megaease', 'spidernet-io', 'k8sgpt-ai', 'chaos-kubox', 'KubeStellar', 'kptdev', 'redhat-chaos',
       'OpenMetrics', 'openmetrics', 'open-gitops', 'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io',
-      'kubean-io', 'koordinator-sh', 'radius-project', 'easegress-io'
+      'kubean-io', 'koordinator-sh', 'radius-project', 'easegress-io', 'bank-vaults', 'runatlantis',
+      'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini', 'score-spec', 'bpfman', 'bpfd-dev'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -113,7 +114,9 @@ where
       'GoogleContainerTools/kpt', 'google/kubeflow', 'banzaicloud/logging-operator', 'KusionStack/kcl',
       'KusionStack/KCLVM', 'cloud-bulldozer/kube-burner', 'cloud-bulldozer/rosa-burner',
       'cloud-bulldozer/krkn', 'cloud-bulldozer/kraken', 'openshift-scale/kraken', 'kcp-dev/edge-mc',
-      'bufbuild/connect-go', 'bufbuild/rerpc', 'rerpc/rerpc', 'mudler/c3os'
+      'bufbuild/connect-go', 'bufbuild/rerpc', 'rerpc/rerpc', 'mudler/c3os', 'banzaicloud/bank-vaults',
+      'banzaicloud/vault-dogsbody', 'atlantisnorth/atlantis', 'anuvu/stacker', 'IBM/compliance-trestle',
+      '3scale-labs/authorino', 'redhat-et/bpfd'
     )
   )
   and repo.name not in (
