@@ -15,15 +15,6 @@ Angel-ML,Angel
 ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AthenZ,Athenz
-bank-vaults,Bank-Vaults
-runatlantis,Atlantis
-project-stacker,Stacker
-oscal-compass,TrestleGRC
-Kuadrant,Kuadrant
-openGemini,openGemini
-score-spec,Score
-bpfman,bpfman
-bpfd-dev,bpfman
 AusDTO,Digital Transformation Office
 Cardano-NFTs,CNFT.IO
 CartoDB,CARTO
@@ -50,6 +41,7 @@ IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
 KSP-CKAN,CKAN
 KiFoundation,Ki Foundation
+Kuadrant,Kuadrant
 KubeStellar,Kubestellar
 Linux kernel,Linux
 LinuxHeartsFreeBSD,FreeBSD
@@ -118,10 +110,13 @@ auth0,Auth0
 automotive-grade-linux,AGL
 awsdocs,Amazon Docs
 backstage,Backstage
+bank-vaults,Bank-Vaults
 bazelbuild,Bazel
 betaflight,Betaflight
 bfenetworks,BFE
 boostorg,Boost
+bpfd-dev,bpfman
+bpfman,bpfman
 brave,Brave Software
 brigadecore,Brigade
 broadinstitute,Broad Institute
@@ -412,6 +407,7 @@ open-feature,OpenFeature
 open-gitops,OpenGitOps
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
+openGemini,openGemini
 openai,OpenAI
 openbmp,OpenBMP
 opencontainers,OCI
@@ -453,6 +449,7 @@ openyurtio,OpenYurt
 operator-framework,Operator Framework
 oras-project,ORAS
 ortelius,Ortelius
+oscal-compass,TrestleGRC
 osmandapp,Osmand
 owncloud,ownCloud
 p4lang,P4 Language
@@ -466,6 +463,7 @@ pixie-io,Pixie
 pravega,Pravega
 project-akri,Akri
 project-copacetic,Copacetic
+project-stacker,Stacker
 project-zot,zot
 projectacrn,Project ACRN
 projectcapsule,Capsule
@@ -490,11 +488,13 @@ rethinkdb,RethinkDB
 riff,Pivotal Riff
 riscv,RISC-V
 rook,Rook
+runatlantis,Atlantis
 rust-lang,Rust
 rust-lang-nursery,Rust
 sakaiproject,Sakai
 saltstack,SaltStack
 schemahero,SchemaHero
+score-spec,Score
 screwdriver-cd,Screwdriver CD
 sealerio,sealer
 seata,Seata

@@ -16,14 +16,8 @@ repo,project
 18F/openFEC,18F Federal Election Commision
 18F/openFEC-web-app,Campaign finance for everyone
 18F/tock,tock
-banzaicloud/bank-vaults,Bank-Vaults
-banzaicloud/vault-dogsbody,Bank-Vaults
-atlantisnorth/atlantis,Atlantis
-anuvu/stacker,Stacker
-IBM/compliance-trestle,TrestleGRC
-3scale-labs/authorino,Kuadrant
-redhat-et/bpfd,bpfman
 18F/web-design-standards,US Web Design Standards
+3scale-labs/authorino,Kuadrant
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
 Airbnb/react-native,React
@@ -161,6 +155,7 @@ IBM/cloud-pak,cloud-pak
 IBM/cloudland,cloudland
 IBM/comanche,comanche
 IBM/commerce-ui,commerce-ui
+IBM/compliance-trestle,TrestleGRC
 IBM/composable,composable
 IBM/domino-docker,domino-docker
 IBM/go-sdk-core,go-sdk-core
@@ -601,6 +596,7 @@ angular/material,Angular
 angular/material2,Angular
 angular/protractor,Protractor
 angular/tsickle,Angular
+anuvu/stacker,Stacker
 anuvu/zot,zot
 apache-spark-on-k8s/ansible,Apache Spark
 apache-spark-on-k8s/kubernetes-HDFS,Apache Spark
@@ -719,6 +715,7 @@ apple/swift-tools-support-core,Swift
 apple/swift-xcode-playground-support,Swift
 armosec/kubescape,Kubescape
 aspnet/Docs,ASP.net Docs
+atlantisnorth/atlantis,Atlantis
 automotive-grade-linux/docs-agl,AGL
 aws/aws-iot-device-sdk-arduino-yun,AWS SDKs
 aws/aws-iot-device-sdk-embedded-C,AWS SDKs
@@ -745,7 +742,9 @@ awslabs/aws-sam-local,AWS SAM
 awslabs/cdk8s,Cloud Deployment Kit for Kubernetes
 awslabs/serverless-application-model,AWS SAM
 baidu/bfe,BFE
+banzaicloud/bank-vaults,Bank-Vaults
 banzaicloud/logging-operator,Logging Operator
+banzaicloud/vault-dogsbody,Bank-Vaults
 brunopulis/awesome-a11y,A11y
 bufbuild/connect-go,Connect
 bufbuild/rerpc,Connect
@@ -2660,6 +2659,7 @@ realm/realm-js,Realm
 redhat-developer/build,Shipwright
 redhat-developer/buildv2,Shipwright
 redhat-developer/buildv2-operator,Shipwright
+redhat-et/bpfd,bpfman
 redsift/ingraind,Foniod
 rerpc/rerpc,Connect
 rethinkdb/aspnet-signalr-chat,RethinkDB

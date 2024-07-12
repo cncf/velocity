@@ -21,14 +21,6 @@ ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
 AWS SAM,aws.amazon.com/serverless/sam
 AWS SDKs,aws.amazon.com
 AZF,azure.microsoft.com
-Bank-Vaults,bank-vaults.dev
-Atlantis,runatlantis.io
-Stacker,stackerbuild.io
-TrestleGRC,oscal-compass.github.io
-Kuadrant,kuadrant.io
-openGemini,opengemini.org
-Score,score.dev
-bpfman,bpfman.io
 Academy Software Foundation,aswf.io
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
 ActiveShipping,shopify.github.io/active_shipping
@@ -90,6 +82,7 @@ Artifact Hub,artifacthub.io
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
 Astro,astro.build
 Athenz,athenz.io
+Atlantis,runatlantis.io
 AtlasDB,palantir.github.io/atlasdb
 Atom,atom.io
 Auth0,auth0.com
@@ -103,6 +96,7 @@ AzureTipsAndTricks,github.com/microsoft/AzureTipsAndTricks
 BFE,bfe-networks.net
 BOSH,bosh.io
 Backstage,backstage.io
+Bank-Vaults,bank-vaults.dev
 BashOnWindows,microsoft.com/en-us/commandline/wsl
 Baystation12,baystation12.net
 Bazel,bazel.build
@@ -405,6 +399,7 @@ KrknChaos,github.com/redhat-chaos/krknChaos
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 Krustlet,krustlet.dev
+Kuadrant,kuadrant.io
 Kuasar,kuasar.io
 Kube-OVN,kube-ovn.io
 KubeArmor,accuknox.com/kubearmor
@@ -730,9 +725,9 @@ Sakai,sakaiproject.org
 SaltStack,repo.saltstack.com
 Satchel,microsoft.github.io/satcheljs
 SchemaHero,schemahero.io
+Score,score.dev
 Screwdriver CD,screwdriver.cd
 Scrooge,twitter.github.io/scrooge
-sealer,sealer.cool
 Seata,github.com/seata/seata
 Sensu,sensuapp.org
 Sentinel,github.com/alibaba/Sentinel
@@ -768,6 +763,7 @@ Spontanizer,spartan.org.il
 Spotify,spotify.github.io
 Spree,guides.spreecommerce.org
 Spring,spring.io/projects
+Stacker,stackerbuild.io
 Strimzi,strimzi.io
 Submariner,submariner.io
 SuperEdge,github.com/superedge
@@ -810,6 +806,7 @@ TokenPocket Lab,tokenpocket.pro
 Toxiproxy,toxiproxy.io
 Train-Custom-Speech-Model,github.com/IBM/Train-Custom-Speech-Model
 Tremor,tremor.rs
+TrestleGRC,oscal-compass.github.io
 Trickster,tricksterproxy.io
 Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
@@ -939,6 +936,7 @@ botbuilder-tools,github.com/microsoft/botbuilder-tools
 botframework-cli,github.com/microsoft/botframework-cli
 botframework-sdk,github.com/microsoft/botframework-sdk
 botframework-solutions,github.com/microsoft/botframework-solutions
+bpfman,bpfman.io
 bugbug,github.com/mozilla/bugbug
 busiotools,github.com/microsoft/busiotools
 butterfly,github.com/alibaba/butterfly
@@ -1076,6 +1074,7 @@ node-sdk-core,github.com/IBM/node-sdk-core
 nodejs-react-app,github.com/IBM/nodejs-react-app
 npm,npmjs.com
 onnxruntime,github.com/microsoft/onnxruntime
+openGemini,opengemini.org
 openHAB,openhab.org
 openSUSE,opensuse.org
 openSUSE Kernel,kernel.opensuse.org
@@ -1116,6 +1115,7 @@ rkt,github.com/rkt/rkt
 rushstack,github.com/microsoft/rushstack
 sccache,github.com/mozilla/sccache
 science.mozilla.org,science.mozilla.org
+sealer,sealer.cool
 sigstore,sigstore.dev
 sparklyr,github.com/sparklyr
 spring-cloud-alibaba,github.com/alibaba/spring-cloud-alibaba
