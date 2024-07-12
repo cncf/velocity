@@ -16,6 +16,13 @@ repo,project
 18F/openFEC,18F Federal Election Commision
 18F/openFEC-web-app,Campaign finance for everyone
 18F/tock,tock
+banzaicloud/bank-vaults,Bank-Vaults
+banzaicloud/vault-dogsbody,Bank-Vaults
+atlantisnorth/atlantis,Atlantis
+anuvu/stacker,Stacker
+IBM/compliance-trestle,TrestleGRC
+3scale-labs/authorino,Kuadrant
+redhat-et/bpfd,bpfman
 18F/web-design-standards,US Web Design Standards
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
