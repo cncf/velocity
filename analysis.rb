@@ -184,6 +184,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   end
 
   projects = {}
+  lower_projects = {}
   CSV.foreach(fhint, headers: true) do |row|
     next if is_comment row
     h = row.to_h
@@ -202,6 +203,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       return
     end
     projects[repo] = proj
+    lower_projects[repo.downcase] = proj
   end
 
   # Sort hints files on the fly (program user manually updates that file while working so it should be sorted all the time)
@@ -270,6 +272,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   end
 
   defmaps = {}
+  lower_defmaps = {}
   skip_group = {}
   CSV.foreach(fdefmaps, headers: true) do |row|
     next if is_comment row
@@ -301,6 +304,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       return
     end
     defmaps[name] = project
+    lower_defmaps[name.downcase] = project
   end
 
   # Sort defmaps files on the fly (program user manually updates that file while working so it should be sorted all the time)
@@ -348,6 +352,8 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
   orgs = {}
   project_counts = {}
   all_repos = {}
+  lr_hits = {}
+  lo_hits = {}
   n_rows = CSV.foreach(fin, headers: true).count
   CSV.foreach(fin, headers: true).with_index do |row, i|
     next if is_comment row
@@ -405,6 +411,16 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       project_counts[k][0] += 1
       project_counts[k][1] << repo
       mode = 'project'
+    else
+      lrepo = repo.downcase
+      k = h['project'] = lower_projects[lrepo]
+      if k
+        lr_hits[lrepo] = k
+        project_counts[k] = [0, []] unless project_counts.key?(k)
+        project_counts[k][0] += 1
+        project_counts[k][1] << repo
+        mode = 'project'
+      end
     end
 
     # Is this org defined to skip groupping?
@@ -418,6 +434,13 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     if defmaps.key? k
       k = defmaps[k]
       mode = 'defmap'
+    else
+      lk = k.downcase
+      if k != lk && lower_defmaps.key?(lk)
+        k = lower_defmaps[lk]
+        lo_hits[lk] = k
+        mode = 'defmap'
+      end
     end
     h['project'] = k
     h['mode'] = mode
@@ -489,6 +512,10 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       binding.pry
     end
   end
+
+  puts "lowercase hits repos/orgs: #{lr_hits.length}/#{lo_hits.length}"
+  puts "lowercase repos mapping: #{lr_hits}" if lr_hits.length > 0
+  puts "lowercase orgs mapping: #{lo_hits}" if lo_hits.length > 0
 
   # Sort by sort_col desc to get list of top projects
   orgs_arr = []
