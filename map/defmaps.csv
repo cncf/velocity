@@ -1,4 +1,21 @@
 name,project
+
+
+
+
+
+AcademySoftwareFoundation,ASWF
+aswf,ASWF Common
+MotionPictureSoftwareFoundation,ASWF Common
+DigitalProductionExampleLibrary,ASWF Digital Production Example Library
+OpenAssetIO,ASWF OpenAssetIO
+opentimelineio,ASWF OpenTimelineIO
+vfx-rs,ASWF Working Group for Rust Bindings
+
+
+
+
+
 01org,=SKIP
 =External,=SKIP
 Azure,=SKIP
@@ -9,7 +26,6 @@ aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
 w3c,=SKIP
-AcademySoftwareFoundation,Academy Software Foundation
 Adlik,Adlik
 Angel-ML,Angel
 ApacheFriends,XAMPP

@@ -1,4 +1,55 @@
 repo,project
+
+
+
+
+academysoftwarefoundation/.github,ASWF Common
+academysoftwarefoundation/artwork,ASWF Common
+academysoftwarefoundation/aswf-landscape,ASWF Common
+academysoftwarefoundation/foundation,ASWF Common
+academysoftwarefoundation/tac,ASWF Common
+academysoftwarefoundation/archived-ci-management,ASWF CI Working Group
+academysoftwarefoundation/aswf-docker,ASWF CI Working Group
+academysoftwarefoundation/aswf-sample-project,ASWF CI Working Group
+academysoftwarefoundation/aswf-sample-wg,ASWF CI Working Group
+academysoftwarefoundation/wg-ci,ASWF CI Working Group
+AcademySoftwareFoundation/dpel-website,ASWF Digital Production Example Library
+AcademySoftwareFoundation/MaterialX,ASWF MaterialX
+AcademySoftwareFoundation/materialx-website,ASWF MaterialX
+AcademySoftwareFoundation/OpenPBR,ASWF MaterialX
+academysoftwarefoundation/EncodingGuidelines,ASWF Open Review Initiative
+academysoftwarefoundation/OpenRV,ASWF Open Review Initiative
+academysoftwarefoundation/ori-shared-platform,ASWF Open Review Initiative
+academysoftwarefoundation/wg-review-approval,ASWF Open Review Initiative
+academysoftwarefoundation/xstudio,ASWF Open Review Initiative
+AcademySoftwareFoundation/OpenShadingLanguage,ASWF Open Shading Language
+AcademySoftwareFoundation/OpenColorIO,ASWF OpenColorIO
+AcademySoftwareFoundation/OpenColorIO-Config-ACES,ASWF OpenColorIO
+AcademySoftwareFoundation/ColorInterop,ASWF OpenColorIO
+AcademySoftwareFoundation/OpenCue,ASWF OpenCue
+AcademySoftwareFoundation/opencue.io,ASWF OpenCue
+AcademySoftwareFoundation/openexr,ASWF OpenEXR
+AcademySoftwareFoundation/Imath,ASWF OpenEXR
+AcademySoftwareFoundation/openexr-images,ASWF OpenEXR
+AcademySoftwareFoundation/openexr-examples,ASWF OpenEXR
+AcademySoftwareFoundation/openexr-website,ASWF OpenEXR
+AcademySoftwareFoundation/openfx,ASWF OpenFX
+academysoftwarefoundation/OpenImageIO,ASWF OpenImageIO
+academysoftwarefoundation/OpenImageIO-clatest,ASWF OpenImageIO
+academysoftwarefoundation/OpenImageIO-images,ASWF OpenImageIO
+AcademySoftwareFoundation/OpenTimelineIO,ASWF OpenTimelineIO
+AcademySoftwareFoundation/openvdb,ASWF OpenVDB
+AcademySoftwareFoundation/openvdb-website,ASWF OpenVDB
+AcademySoftwareFoundation/rawtoaces,ASWF RAW to ACES Utility
+AcademySoftwareFoundation/rawtoaces-data,ASWF RAW to ACES Utility
+academysoftwarefoundation/rez,ASWF Rez
+academysoftwarefoundation/rez-test,ASWF Rez
+
+
+
+
+
+
 18F/18f.gsa.gov,18F Website
 18F/C2,18F C2
 18F/calc,18F CALC
