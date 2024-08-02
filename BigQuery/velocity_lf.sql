@@ -77,7 +77,7 @@ WHERE
       'chaos-kubox', 'KubeStellar', 'kptdev', 'redhat-chaos', 'OpenMetrics', 'openmetrics', 'open-gitops',
       'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io', 'kubean-io', 'koordinator-sh', 'radius-project',
       'easegress-io', 'bank-vaults', 'runatlantis', 'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini',
-      'score-spec', 'bpfman', 'bpfd-dev'
+      'score-spec', 'bpfman', 'bpfd-dev', 'pytorch'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
