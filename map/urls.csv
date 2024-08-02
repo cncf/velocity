@@ -1,22 +1,4 @@
 project,url
-ASWF,aswf.io
-ASWF Common,aswf.io
-ASWF CI Working Group,aswf.io
-ASWF Digital Production Example Library,dpel.aswf.io
-ASWF MaterialX,materialx.org
-ASWF Open Review Initiative,academysoftwarefoundation.github.io/EncodingGuidelines
-ASWF Open Shading Language,github.com/AcademySoftwareFoundation/OpenShadingLanguage
-ASWF OpenAssetIO,github.com/OpenAssetIO
-ASWF OpenColorIO,opencolor.io
-ASWF OpenCue,opencue.io
-ASWF OpenEXR,openexr.com
-ASWF OpenFX,github.com/AcademySoftwareFoundation/openfx
-ASWF OpenImageIO,openimageio.readthedocs.org
-ASWF OpenTimelineIO,opentimeline.io
-ASWF OpenVDB,openvdb.org
-ASWF RAW to ACES Utility,github.com/AcademySoftwareFoundation/rawtoaces
-ASWF Rez,rez.readthedocs.io
-ASWF Working Group for Rust Bindings,github.com/vfx-rs
 18F C2,cap.18f.gov
 18F CALC,calc.gsa.gov
 18F Federal Election Commision,api.open.fec.gov/developers
@@ -36,6 +18,24 @@ ALAppExtensions,github.com/microsoft/ALAppExtensions
 AMP,ampproject.org
 ASP.net,asp.net
 ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
+ASWF,aswf.io
+ASWF CI Working Group,aswf.io
+ASWF Common,aswf.io
+ASWF Digital Production Example Library,dpel.aswf.io
+ASWF MaterialX,materialx.org
+ASWF Open Review Initiative,academysoftwarefoundation.github.io/EncodingGuidelines
+ASWF Open Shading Language,github.com/AcademySoftwareFoundation/OpenShadingLanguage
+ASWF OpenAssetIO,github.com/OpenAssetIO
+ASWF OpenColorIO,opencolor.io
+ASWF OpenCue,opencue.io
+ASWF OpenEXR,openexr.com
+ASWF OpenFX,github.com/AcademySoftwareFoundation/openfx
+ASWF OpenImageIO,openimageio.readthedocs.org
+ASWF OpenTimelineIO,opentimeline.io
+ASWF OpenVDB,openvdb.org
+ASWF RAW to ACES Utility,github.com/AcademySoftwareFoundation/rawtoaces
+ASWF Rez,rez.readthedocs.io
+ASWF Working Group for Rust Bindings,github.com/vfx-rs
 AWS SAM,aws.amazon.com/serverless/sam
 AWS SDKs,aws.amazon.com
 AZF,azure.microsoft.com

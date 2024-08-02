@@ -1,11 +1,4 @@
 name,project
-AcademySoftwareFoundation,ASWF
-aswf,ASWF Common
-MotionPictureSoftwareFoundation,ASWF Common
-DigitalProductionExampleLibrary,ASWF Digital Production Example Library
-OpenAssetIO,ASWF OpenAssetIO
-opentimelineio,ASWF OpenTimelineIO
-vfx-rs,ASWF Working Group for Rust Bindings
 01org,=SKIP
 =External,=SKIP
 Azure,=SKIP
@@ -16,6 +9,7 @@ aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
 w3c,=SKIP
+AcademySoftwareFoundation,ASWF
 Adlik,Adlik
 Angel-ML,Angel
 ApacheFriends,XAMPP
@@ -34,6 +28,7 @@ Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
 DefiLlama,DefiLlama
 DeployHubProject,Ortelius
+DigitalProductionExampleLibrary,ASWF Digital Production Example Library
 FabEdge,FabEdge
 FreeBSD-Ask,FreeBSD
 FreeBSD-UPB,FreeBSD
@@ -56,6 +51,7 @@ MAVLink,MAVLink
 MarlinFirmware,Marlin
 MarquezProject,Project Marquez
 MobileChromeApps,Chromium
+MotionPictureSoftwareFoundation,ASWF Common
 OAI,Open API
 OCA,ODOO Community Association
 ObelusFamily,Anythink Market
@@ -64,6 +60,7 @@ Open API Initiative,Open API
 Open Accessibility (A11y) Group,A11y
 Open Container Initiative,OCI
 Open Mainframe Project,Open Mainframe
+OpenAssetIO,ASWF OpenAssetIO
 OpenFunction,OpenFunction
 OpenMake-Software,Ortelius
 OpenMetrics,Prometheus
@@ -111,6 +108,7 @@ argoproj-labs,Argo
 armadaproject,Armada
 artifacthub,Artifact Hub
 aspnet,ASP.net
+aswf,ASWF Common
 atom,Atom
 auth0,Auth0
 automotive-grade-linux,AGL
@@ -449,6 +447,7 @@ openstack-packages,OpenStack Packages
 openstack-snaps,OpenStack Snaps
 openstacknetsdk,OpenStack Net SDK
 openswitch,OpenSwitch
+opentimelineio,ASWF OpenTimelineIO
 opentracing,OpenTracing
 openwrt,OpenWrt
 openyurtio,OpenYurt
@@ -558,6 +557,7 @@ uber,Uber Open Source
 unikraft,Unikraft
 v6d-io,Vineyard
 vercel,Vercel
+vfx-rs,ASWF Working Group for Rust Bindings
 vgstation-coders,vgstation13
 virtual-kubelet,Virtual Kubelet
 vitessio,Vitess

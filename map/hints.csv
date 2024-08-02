@@ -1,45 +1,4 @@
 repo,project
-academysoftwarefoundation/.github,ASWF Common
-academysoftwarefoundation/artwork,ASWF Common
-academysoftwarefoundation/aswf-landscape,ASWF Common
-academysoftwarefoundation/foundation,ASWF Common
-academysoftwarefoundation/tac,ASWF Common
-academysoftwarefoundation/archived-ci-management,ASWF CI Working Group
-academysoftwarefoundation/aswf-docker,ASWF CI Working Group
-academysoftwarefoundation/aswf-sample-project,ASWF CI Working Group
-academysoftwarefoundation/aswf-sample-wg,ASWF CI Working Group
-academysoftwarefoundation/wg-ci,ASWF CI Working Group
-AcademySoftwareFoundation/dpel-website,ASWF Digital Production Example Library
-AcademySoftwareFoundation/MaterialX,ASWF MaterialX
-AcademySoftwareFoundation/materialx-website,ASWF MaterialX
-AcademySoftwareFoundation/OpenPBR,ASWF MaterialX
-academysoftwarefoundation/EncodingGuidelines,ASWF Open Review Initiative
-academysoftwarefoundation/OpenRV,ASWF Open Review Initiative
-academysoftwarefoundation/ori-shared-platform,ASWF Open Review Initiative
-academysoftwarefoundation/wg-review-approval,ASWF Open Review Initiative
-academysoftwarefoundation/xstudio,ASWF Open Review Initiative
-AcademySoftwareFoundation/OpenShadingLanguage,ASWF Open Shading Language
-AcademySoftwareFoundation/OpenColorIO,ASWF OpenColorIO
-AcademySoftwareFoundation/OpenColorIO-Config-ACES,ASWF OpenColorIO
-AcademySoftwareFoundation/ColorInterop,ASWF OpenColorIO
-AcademySoftwareFoundation/OpenCue,ASWF OpenCue
-AcademySoftwareFoundation/opencue.io,ASWF OpenCue
-AcademySoftwareFoundation/openexr,ASWF OpenEXR
-AcademySoftwareFoundation/Imath,ASWF OpenEXR
-AcademySoftwareFoundation/openexr-images,ASWF OpenEXR
-AcademySoftwareFoundation/openexr-examples,ASWF OpenEXR
-AcademySoftwareFoundation/openexr-website,ASWF OpenEXR
-AcademySoftwareFoundation/openfx,ASWF OpenFX
-academysoftwarefoundation/OpenImageIO,ASWF OpenImageIO
-academysoftwarefoundation/OpenImageIO-clatest,ASWF OpenImageIO
-academysoftwarefoundation/OpenImageIO-images,ASWF OpenImageIO
-AcademySoftwareFoundation/OpenTimelineIO,ASWF OpenTimelineIO
-AcademySoftwareFoundation/openvdb,ASWF OpenVDB
-AcademySoftwareFoundation/openvdb-website,ASWF OpenVDB
-AcademySoftwareFoundation/rawtoaces,ASWF RAW to ACES Utility
-AcademySoftwareFoundation/rawtoaces-data,ASWF RAW to ACES Utility
-academysoftwarefoundation/rez,ASWF Rez
-academysoftwarefoundation/rez-test,ASWF Rez
 18F/18f.gsa.gov,18F Website
 18F/C2,18F C2
 18F/calc,18F CALC
@@ -61,6 +20,27 @@ academysoftwarefoundation/rez-test,ASWF Rez
 3scale-labs/authorino,Kuadrant
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
+AcademySoftwareFoundation/ColorInterop,ASWF OpenColorIO
+AcademySoftwareFoundation/Imath,ASWF OpenEXR
+AcademySoftwareFoundation/MaterialX,ASWF MaterialX
+AcademySoftwareFoundation/OpenColorIO,ASWF OpenColorIO
+AcademySoftwareFoundation/OpenColorIO-Config-ACES,ASWF OpenColorIO
+AcademySoftwareFoundation/OpenCue,ASWF OpenCue
+AcademySoftwareFoundation/OpenPBR,ASWF MaterialX
+AcademySoftwareFoundation/OpenShadingLanguage,ASWF Open Shading Language
+AcademySoftwareFoundation/OpenTimelineIO,ASWF OpenTimelineIO
+AcademySoftwareFoundation/dpel-website,ASWF Digital Production Example Library
+AcademySoftwareFoundation/materialx-website,ASWF MaterialX
+AcademySoftwareFoundation/opencue.io,ASWF OpenCue
+AcademySoftwareFoundation/openexr,ASWF OpenEXR
+AcademySoftwareFoundation/openexr-examples,ASWF OpenEXR
+AcademySoftwareFoundation/openexr-images,ASWF OpenEXR
+AcademySoftwareFoundation/openexr-website,ASWF OpenEXR
+AcademySoftwareFoundation/openfx,ASWF OpenFX
+AcademySoftwareFoundation/openvdb,ASWF OpenVDB
+AcademySoftwareFoundation/openvdb-website,ASWF OpenVDB
+AcademySoftwareFoundation/rawtoaces,ASWF RAW to ACES Utility
+AcademySoftwareFoundation/rawtoaces-data,ASWF RAW to ACES Utility
 Airbnb/react-native,React
 AkihiroSuda/lima,Lima
 AngularClass/angular2-webpack-starter,Angular
@@ -561,6 +541,26 @@ Tencent/tdesign-starter-cli,Tencent Enterprise Design System
 Tencent/tdesign-vue,Tencent Enterprise Design System
 Tencent/tdesign-vue-next-starter,Tencent Enterprise Design System
 Tencent/tdesign-vue-starter,Tencent Enterprise Design System
+academysoftwarefoundation/.github,ASWF Common
+academysoftwarefoundation/EncodingGuidelines,ASWF Open Review Initiative
+academysoftwarefoundation/OpenImageIO,ASWF OpenImageIO
+academysoftwarefoundation/OpenImageIO-clatest,ASWF OpenImageIO
+academysoftwarefoundation/OpenImageIO-images,ASWF OpenImageIO
+academysoftwarefoundation/OpenRV,ASWF Open Review Initiative
+academysoftwarefoundation/archived-ci-management,ASWF CI Working Group
+academysoftwarefoundation/artwork,ASWF Common
+academysoftwarefoundation/aswf-docker,ASWF CI Working Group
+academysoftwarefoundation/aswf-landscape,ASWF Common
+academysoftwarefoundation/aswf-sample-project,ASWF CI Working Group
+academysoftwarefoundation/aswf-sample-wg,ASWF CI Working Group
+academysoftwarefoundation/foundation,ASWF Common
+academysoftwarefoundation/ori-shared-platform,ASWF Open Review Initiative
+academysoftwarefoundation/rez,ASWF Rez
+academysoftwarefoundation/rez-test,ASWF Rez
+academysoftwarefoundation/tac,ASWF Common
+academysoftwarefoundation/wg-ci,ASWF CI Working Group
+academysoftwarefoundation/wg-review-approval,ASWF Open Review Initiative
+academysoftwarefoundation/xstudio,ASWF Open Review Initiative
 accuknox/KubeArmor,KubeArmor
 airbnb/caravel,Superset
 airbnb/enzyme,Enzyme
