@@ -1,9 +1,4 @@
 name,project
-
-
-
-
-
 AcademySoftwareFoundation,ASWF
 aswf,ASWF Common
 MotionPictureSoftwareFoundation,ASWF Common
@@ -11,11 +6,6 @@ DigitalProductionExampleLibrary,ASWF Digital Production Example Library
 OpenAssetIO,ASWF OpenAssetIO
 opentimelineio,ASWF OpenTimelineIO
 vfx-rs,ASWF Working Group for Rust Bindings
-
-
-
-
-
 01org,=SKIP
 =External,=SKIP
 Azure,=SKIP

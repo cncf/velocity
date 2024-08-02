@@ -1,9 +1,4 @@
 project,url
-
-
-
-
-
 ASWF,aswf.io
 ASWF Common,aswf.io
 ASWF CI Working Group,aswf.io
@@ -22,11 +17,6 @@ ASWF OpenVDB,openvdb.org
 ASWF RAW to ACES Utility,github.com/AcademySoftwareFoundation/rawtoaces
 ASWF Rez,rez.readthedocs.io
 ASWF Working Group for Rust Bindings,github.com/vfx-rs
-
-
-
-
-
 18F C2,cap.18f.gov
 18F CALC,calc.gsa.gov
 18F Federal Election Commision,api.open.fec.gov/developers
