@@ -997,6 +997,9 @@ deislabs/akri,Akri
 deislabs/krustlet,Krustlet
 deislabs/oras,ORAS
 deislabs/porter,Porter
+deislabs/ratify,Ratify
+deislabs/ratify-web,Ratify
+deislabs/ratify-action,Ratify
 deislabs/smi-adapter-istio,SMI
 deislabs/smi-metrics,SMI
 deislabs/smi-sdk-go,SMI
@@ -1371,6 +1374,7 @@ layer5io/service-mesh-labs,Service Mesh Performance
 layer5io/service-mesh-performance,Service Mesh Performance
 layer5io/service-mesh-performance-specification,Service Mesh Performance
 ligato/networkservicemesh,Network Service Mesh
+lyft/cartography,Cartography
 lyft/envoy,Envoy
 maestrosdk/frameworks,Kudo
 maestrosdk/maestro,Kudo
