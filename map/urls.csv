@@ -156,6 +156,7 @@ Capsule,capsule.clastix.io
 Carbon Design System,carbondesignsystem.com
 Carina,opencarina.com
 Carrier Grade Linux,wiki.linuxfoundation.org/cgl/start
+Cartography,lyft.github.io/cartography
 Carvel,carvel.dev
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
@@ -338,6 +339,7 @@ Grafana Labs,grafana.com
 GraphQL,graphql.org
 Grumpy,github.com/google/grumpy
 Guava,github.com/google/guava
+HAMi,project-hami.io
 HTTPS Everywhere,eff.org/https-everywhere
 Hackage,stackage.org
 Halite,halite.io
@@ -459,6 +461,7 @@ LitmusChaos,litmuschaos.io
 Logging Operator,kube-logging.dev
 Longhorn,github.com/longhorn
 Lottie,airbnb.design/lottie
+LoxiLB,loxilb.io
 MAME,mamedev.org
 MAPS.ME,maps.me
 MAVLink,mavlink.org
@@ -666,6 +669,7 @@ Parity,github.com/paritytech/parity
 Parse,parseplatform.github.io
 Patroni,github.com/zalando/patroni
 PerfView,channel9.msdn.com/Series/PerfView-Tutorial
+Perses,perses.dev
 Person Finder,google.org/personfinder
 PingCAP,github.com/pingcap
 PipeCD,pipecd.dev
@@ -706,6 +710,7 @@ REASON,facebook.github.io/reason
 RISC-V,riscv.org
 Radius,radapp.io
 Rapid7,rapid7.com
+Ratify,ratify.dev
 Rax,rax.js.org
 Raycast,raycast.com
 React,facebook.com
