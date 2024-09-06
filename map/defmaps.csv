@@ -72,6 +72,7 @@ PX4,PX4 Drone Autopilot
 PaddlePaddle,PaddlePaddle
 ParsePlatform,Parse
 Particular,NServiceBus
+Project-HAMi,HAMi
 RConsortium,RConsortium
 ResurrectionRemix,Resurrection Remix
 Serverless-Devs,Serverless Devs
@@ -366,6 +367,7 @@ litmuschaos,LitmusChaos
 llvm,LLVM
 loft-sh,DevSpace
 longhorn,Longhorn
+loxilb-io,LoxiLB
 lyft,Envoy
 magento,Magento
 magma,Magma
@@ -460,6 +462,7 @@ owncloud,ownCloud
 p4lang,P4 Language
 parallaxsecond,PARSEC
 paralus,Paralus
+perses,Perses
 pingcap,PingCAP
 pipe-cd,PipeCD
 piraeusdatastore,Piraeus-Datastore
@@ -483,6 +486,7 @@ rackt,React
 radius-project,Radius
 rails,Ruby on Rails
 rapid7,Rapid7
+ratify-project,Ratify
 raycast,Raycast
 react-native-community,React
 reactivefoundation,Reactive Foundation
