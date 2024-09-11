@@ -998,8 +998,8 @@ deislabs/krustlet,Krustlet
 deislabs/oras,ORAS
 deislabs/porter,Porter
 deislabs/ratify,Ratify
-deislabs/ratify-web,Ratify
 deislabs/ratify-action,Ratify
+deislabs/ratify-web,Ratify
 deislabs/smi-adapter-istio,SMI
 deislabs/smi-metrics,SMI
 deislabs/smi-sdk-go,SMI
