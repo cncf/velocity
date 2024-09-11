@@ -1320,8 +1320,11 @@ joeythesaint/cgl-specification,Carrier Grade Linux
 kcp-dev/edge-mc,Kubestellar
 kebe7jun/mebpf,Merbridge
 kebe7jun/mepf,Merbridge
+kinvolk/Flatcar,Flatcar
+kinvolk/flatcar-scripts,Flatcar
 kinvolk/headlamp,Headlamp
 kinvolk/inspektor-gadget,Inspektor Gadget
+kinvolk/mantle,Flatcar
 knative/build,Tekton
 kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
