@@ -549,7 +549,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     rprs[project] = item[2][:items].map { |i| [i['prs'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     riss[project] = item[2][:items].map { |i| [i['issues'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rpush[project] = item[2][:items].map { |i| [i['pushes'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
-    rauth1[project] = item[2][:items].map { |i| [i['authors_alt1'].split(',').uniq.count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
+    rauth1[project] = item[2][:items].map { |i| [i['authors_alt1'].to_s.split(',').uniq.count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rauth2[project] = item[2][:items].map { |i| [i['authors_alt2'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     if !urls.key?(project)
       s = "Project ##{index} (#{sum['mode']}, #{sum[sort_col]}) #{project} (#{sum['org']}) (#{sum['repo']}) have no URL defined"
