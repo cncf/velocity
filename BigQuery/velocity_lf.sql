@@ -78,7 +78,7 @@ WHERE
       'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io', 'kubean-io', 'koordinator-sh', 'radius-project',
       'easegress-io', 'bank-vaults', 'runatlantis', 'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini',
       'score-spec', 'bpfman', 'bpfd-dev', 'pytorch', 'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi',
-      'flatcar', 'flatcar-linux'
+      'flatca', 'flatcar-linux', 'KusionStack'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -123,13 +123,12 @@ WHERE
       'clastix/flux2-capsule-multi-tenancy', 'clastix/capsule-ns-filter', 'clastix/Capsule',
       'clastix/ckd-capsule-app', 'cncf/tag-app-delivery', 'mozilla/sops', 'mozilla/sotp', 'mozilla-services/sosp',
       'kinvolk/headlamp', 'cloudimmunity/docker-slim', 'Azure/eraser', 'datenlord/Xline', 'GoogleContainerTools/kpt',
-      'google/kubeflow', 'banzaicloud/logging-operator', 'KusionStack/kcl', 'KusionStack/KCLVM',
       'cloud-bulldozer/kube-burner', 'cloud-bulldozer/rosa-burner', 'cloud-bulldozer/krkn',
       'cloud-bulldozer/kraken', 'openshift-scale/kraken', 'kcp-dev/edge-mc', 'bufbuild/connect-go', 'bufbuild/rerpc',
       'rerpc/rerpc', 'mudler/c3os', 'banzaicloud/bank-vaults', 'banzaicloud/vault-dogsbody', 'atlantisnorth/atlantis',
       'anuvu/stacker', 'IBM/compliance-trestle', '3scale-labs/authorino', 'redhat-et/bpfd', 'lyft/cartography',
       'deislabs/ratify', 'deislabs/ratify-web', 'deislabs/ratify-action', 'kinvolk/Flatcar',
-      'kinvolk/flatcar-scripts', 'kinvolk/mantle'
+      'kinvolk/flatcar-scripts', 'kinvolk/mantle', 'google/kubeflow', 'banzaicloud/logging-operator'
     )
   )
   and repo.name not in (

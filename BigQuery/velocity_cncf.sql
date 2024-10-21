@@ -69,7 +69,8 @@ where
       'OpenMetrics', 'openmetrics', 'open-gitops', 'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io',
       'kubean-io', 'koordinator-sh', 'radius-project', 'easegress-io', 'bank-vaults', 'runatlantis',
       'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini', 'score-spec', 'bpfman', 'bpfd-dev',
-      'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi', 'shipwright-io', 'flatcar', 'flatcar-linux'
+      'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi', 'shipwright-io', 'flatcar', 'flatcar-linux',
+      'KusionStack'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -112,10 +113,9 @@ where
       'clastix/clastix/capsule-lens-extension', 'clastix/capsule-helm-chart', 'clastix/flux2-capsule-multi-tenancy',
       'clastix/capsule-ns-filter', 'clastix/Capsule', 'clastix/ckd-capsule-app', 'mozilla/sops', 'mozilla/sotp',
       'mozilla-services/sosp', 'kinvolk/headlamp', 'cloudimmunity/docker-slim', 'Azure/eraser', 'datenlord/Xline',
-      'GoogleContainerTools/kpt', 'google/kubeflow', 'banzaicloud/logging-operator', 'KusionStack/kcl',
-      'KusionStack/KCLVM', 'cloud-bulldozer/kube-burner', 'cloud-bulldozer/rosa-burner',
-      'cloud-bulldozer/krkn', 'cloud-bulldozer/kraken', 'openshift-scale/kraken', 'kcp-dev/edge-mc',
-      'bufbuild/connect-go', 'bufbuild/rerpc', 'rerpc/rerpc', 'mudler/c3os', 'banzaicloud/bank-vaults',
+      'GoogleContainerTools/kpt', 'google/kubeflow', 'banzaicloud/logging-operator', 'cloud-bulldozer/kube-burner',
+      'cloud-bulldozer/rosa-burner', 'cloud-bulldozer/krkn', 'cloud-bulldozer/kraken', 'openshift-scale/kraken',
+      'kcp-dev/edge-mc',, 'bufbuild/connect-go', 'bufbuild/rerpc', 'rerpc/rerpc', 'mudler/c3os', 'banzaicloud/bank-vaults',
       'banzaicloud/vault-dogsbody', 'atlantisnorth/atlantis', 'anuvu/stacker', 'IBM/compliance-trestle',
       '3scale-labs/authorino', 'redhat-et/bpfd', 'lyft/cartography', 'deislabs/ratify', 'deislabs/ratify-web',
       'deislabs/ratify-action', 'redhat-developer/build', 'redhat-developer/buildv2',
