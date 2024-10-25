@@ -70,7 +70,7 @@ where
       'kubean-io', 'koordinator-sh', 'radius-project', 'easegress-io', 'bank-vaults', 'runatlantis',
       'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini', 'score-spec', 'bpfman', 'bpfd-dev',
       'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi', 'shipwright-io', 'flatcar', 'flatcar-linux',
-      'KusionStack'
+      'KusionStack', 'cartography-cncf'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
