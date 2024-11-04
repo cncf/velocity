@@ -78,7 +78,7 @@ WHERE
       'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io', 'kubean-io', 'koordinator-sh', 'radius-project',
       'easegress-io', 'bank-vaults', 'runatlantis', 'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini',
       'score-spec', 'bpfman', 'bpfd-dev', 'pytorch', 'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi',
-      'flatca', 'flatcar-linux', 'KusionStack', 'cartography-cncf'
+      'flatca', 'flatcar-linux', 'KusionStack', 'cartography-cncf', 'cncf-tags'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
