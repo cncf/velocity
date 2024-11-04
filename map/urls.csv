@@ -1196,6 +1196,11 @@ yarn,yarnpkg.com
 zot,zotregistry.io
 zowe-cli-cics-deploy-plugin,github.com/IBM/zowe-cli-cics-deploy-plugin
 zurb,zurb.com
+Youki,containers.github.io/youki
+KAITO,github.com/kaito-project/kaito
+Sermant,sermant.io
+Kmesh,kmesh.net
+OVN-Kubernetes,ovn-kubernetes.io
 Основной репозиторий,igov.org.ua
 # CF Acceptance tests,cloudfoundry.org
 # CF Buildpacks,docs.cloudfoundry.org/buildpacks

@@ -2871,6 +2871,13 @@ zephyrproject-rtos/sdk-ng,Zephyr
 zephyrproject-rtos/zephyr,Zephyr
 zephyrproject-rtos/zephyr-arm,Zephyr
 zephyrproject-rtos/zephyr-testing,Zephyr
+containers/youki,Youki
+utam0k/youki,Youki
+Azure/kaito,KAITO
+huaweicloud/Sermant,Sermant
+huaweicloud/java-mesh,Sermant
+huaweicloud/JavaMesh,Sermant
+openvswitch/ovn-kubernetes,OVN-Kubernetes
 # cloudfoundry-community/admin-ui-boshrelease,BOSH
 # cloudfoundry-community/asp.net5-buildpack,CF Buildpacks
 # cloudfoundry-community/aws-nat-bastion-bosh-cf,BOSH

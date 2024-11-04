@@ -599,6 +599,11 @@ zephyrproject-rtos,Zephyr
 zfsonfreebsd,FreeBSD
 zowe,Zowe
 zurichat,Zuri Chat
+youki-dev,Youki
+kaito-project,KAITO
+sermant-io,Sermant
+kmesh-net,Kmesh
+ovn-org,OVN-Kubernetes
 # cloudfoundry,Cloud Foundry
 # cloudfoundry-attic,Cloud Foundry Attic
 # cloudfoundry-community,Cloud Foundry Community
