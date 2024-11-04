@@ -78,7 +78,8 @@ WHERE
       'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io', 'kubean-io', 'koordinator-sh', 'radius-project',
       'easegress-io', 'bank-vaults', 'runatlantis', 'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini',
       'score-spec', 'bpfman', 'bpfd-dev', 'pytorch', 'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi',
-      'flatca', 'flatcar-linux', 'KusionStack', 'cartography-cncf', 'cncf-tags'
+      'flatcar', 'flatcar-linux', 'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project',
+      'sermant-io', 'kmesh-net', 'ovn-org'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -128,7 +129,9 @@ WHERE
       'rerpc/rerpc', 'mudler/c3os', 'banzaicloud/bank-vaults', 'banzaicloud/vault-dogsbody', 'atlantisnorth/atlantis',
       'anuvu/stacker', 'IBM/compliance-trestle', '3scale-labs/authorino', 'redhat-et/bpfd', 'lyft/cartography',
       'deislabs/ratify', 'deislabs/ratify-web', 'deislabs/ratify-action', 'kinvolk/Flatcar',
-      'kinvolk/flatcar-scripts', 'kinvolk/mantle', 'google/kubeflow', 'banzaicloud/logging-operator'
+      'kinvolk/flatcar-scripts', 'kinvolk/mantle', 'google/kubeflow', 'banzaicloud/logging-operator',
+      'containers/youki', 'utam0k/youki', 'Azure/kaito', 'huaweicloud/Sermant', 'huaweicloud/java-mesh',
+      'huaweicloud/JavaMesh', 'openvswitch/ovn-kubernetes'
     )
   )
   and repo.name not in (

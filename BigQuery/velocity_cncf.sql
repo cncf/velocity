@@ -70,7 +70,8 @@ where
       'kubean-io', 'koordinator-sh', 'radius-project', 'easegress-io', 'bank-vaults', 'runatlantis',
       'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini', 'score-spec', 'bpfman', 'bpfd-dev',
       'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi', 'shipwright-io', 'flatcar', 'flatcar-linux',
-      'KusionStack', 'cartography-cncf', 'cncf-tags'
+      'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project', 'sermant-io',
+      'kmesh-net', 'ovn-org'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -119,7 +120,9 @@ where
       'banzaicloud/vault-dogsbody', 'atlantisnorth/atlantis', 'anuvu/stacker', 'IBM/compliance-trestle',
       '3scale-labs/authorino', 'redhat-et/bpfd', 'lyft/cartography', 'deislabs/ratify', 'deislabs/ratify-web',
       'deislabs/ratify-action', 'redhat-developer/build', 'redhat-developer/buildv2',
-      'redhat-developer/buildv2-operator', 'kinvolk/Flatcar', 'kinvolk/flatcar-scripts', 'kinvolk/mantle'
+      'redhat-developer/buildv2-operator', 'kinvolk/Flatcar', 'kinvolk/flatcar-scripts', 'kinvolk/mantle',
+      'containers/youki', 'utam0k/youki', 'Azure/kaito', 'huaweicloud/Sermant', 'huaweicloud/java-mesh',
+      'huaweicloud/JavaMesh', 'openvswitch/ovn-kubernetes'
     )
   )
   and repo.name not in (
