@@ -293,6 +293,7 @@ k8gb-io,K8GB
 k8sgpt-ai,K8sGPT
 k8up-io,K8up
 kairos-io,Kairos
+kaito-project,KAITO
 kanisterio,Kanister
 karmada-io,Karmada
 kata-containers,Kata Containers
@@ -303,6 +304,7 @@ keptn,Keptn
 keybase,Keybase
 keycloak,Keycloak
 keylime,Keylime
+kmesh-net,Kmesh
 knative,Knative
 knative-extensions,Knative
 knative-sandbox,Knative
@@ -463,6 +465,7 @@ oras-project,ORAS
 ortelius,Ortelius
 oscal-compass,TrestleGRC
 osmandapp,Osmand
+ovn-org,OVN-Kubernetes
 owncloud,ownCloud
 p4lang,P4 Language
 parallaxsecond,PARSEC
@@ -514,6 +517,7 @@ sealerio,sealer
 seata,Seata
 sensu,Sensu
 sequelize,Sequelize
+sermant-io,Sermant
 serverless,Serverless Framework
 serverlessworkflow,Serverless Workflow
 service-mesh-performance,Service Mesh Performance
@@ -593,17 +597,13 @@ xline-kv,Xline
 yarnpkg,yarn
 yoctoproject,Yocto
 yogstation13,Yogstation13
+youki-dev,Youki
 zalando,Zalando
 zendframework,Zend Framework
 zephyrproject-rtos,Zephyr
 zfsonfreebsd,FreeBSD
 zowe,Zowe
 zurichat,Zuri Chat
-youki-dev,Youki
-kaito-project,KAITO
-sermant-io,Sermant
-kmesh-net,Kmesh
-ovn-org,OVN-Kubernetes
 # cloudfoundry,Cloud Foundry
 # cloudfoundry-attic,Cloud Foundry Attic
 # cloudfoundry-community,Cloud Foundry Community

@@ -94,6 +94,7 @@ Azure/azure-webjobs-sdk-script-samples,AZF
 Azure/azure-webjobs-sdk-templates,AZF
 Azure/brigade,Brigade
 Azure/eraser,Eraser
+Azure/kaito,KAITO
 Azure/sonic-py-swsssdk,Azure SDKs
 Azure/vscode-kubernetes-tools,VS Code Kubernetes Tools
 BuoyantIO/linkerd,Linkerd
@@ -974,6 +975,7 @@ codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qcacld-3.0,Code Auror
 containerfilesystem/cfs,CubeFS
 containerfilesystem/doc-zh,CubeFS
 containerfs/containerfs.github.io,CubeFS
+containers/youki,Youki
 coredns/coredns-grpc,CoreDNS
 coredns/grpc,CoreDNS
 coreinfrastructure/best-practices-badge,Core Infrastructure
@@ -1253,6 +1255,9 @@ hashicorp/vault-plugin-secrets-terraform,Terraform
 hashicorp/vscode-terraform,Terraform
 heptio/contour,Contour
 herbrandson/k8dash,Skooner
+huaweicloud/JavaMesh,Sermant
+huaweicloud/Sermant,Sermant
+huaweicloud/java-mesh,Sermant
 improbable-eng/promlts,Thanos
 improbable-eng/thanos,Thanos
 indeedeng/k8dash,Skooner
@@ -2582,7 +2587,7 @@ openstack/tripleo-heat-templates,OpenStack Heat
 openstack/xenapi-os-testing,OpenStack API
 openvswitch/of-config,Open vSwitch
 openvswitch/openvswitch.github.io,Open vSwitch
-openvswitch/ovn-kubernetes,Open vSwitch
+openvswitch/ovn-kubernetes,OVN-Kubernetes
 openvswitch/ovn-scale-test,Open vSwitch
 openvswitch/ovs,Open vSwitch
 openvswitch/ovs-issues,Open vSwitch
@@ -2783,6 +2788,7 @@ twitter/finatra,Finatra
 twitter/heron,Heron
 twitter/scrooge,Scrooge
 uber/jaeger,Jaeger
+utam0k/youki,Youki
 vmware-tanzu/antrea,Antrea
 vmware-tanzu/carvel,Carvel
 vmware-tanzu/carvel-imgpkg,Carvel
@@ -2871,13 +2877,6 @@ zephyrproject-rtos/sdk-ng,Zephyr
 zephyrproject-rtos/zephyr,Zephyr
 zephyrproject-rtos/zephyr-arm,Zephyr
 zephyrproject-rtos/zephyr-testing,Zephyr
-containers/youki,Youki
-utam0k/youki,Youki
-Azure/kaito,KAITO
-huaweicloud/Sermant,Sermant
-huaweicloud/java-mesh,Sermant
-huaweicloud/JavaMesh,Sermant
-openvswitch/ovn-kubernetes,OVN-Kubernetes
 # cloudfoundry-community/admin-ui-boshrelease,BOSH
 # cloudfoundry-community/asp.net5-buildpack,CF Buildpacks
 # cloudfoundry-community/aws-nat-bastion-bosh-cf,BOSH
