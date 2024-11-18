@@ -781,7 +781,7 @@ aws/aws-sdk-ruby,AWS SDKs
 aws/aws-sdk-ruby-record,AWS SDKs
 awslabs/aws-sam-cli,AWS SAM
 awslabs/aws-sam-local,AWS SAM
-awslabs/cdk8s,Cloud Deployment Kit for Kubernetes
+awslabs/cdk8s,Cloud Development Kit for Kubernetes
 awslabs/serverless-application-model,AWS SAM
 baidu/bfe,BFE
 banzaicloud/bank-vaults,Bank-Vaults
