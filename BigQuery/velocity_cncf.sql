@@ -116,7 +116,7 @@ where
       'mozilla-services/sosp', 'kinvolk/headlamp', 'cloudimmunity/docker-slim', 'Azure/eraser', 'datenlord/Xline',
       'GoogleContainerTools/kpt', 'google/kubeflow', 'banzaicloud/logging-operator', 'cloud-bulldozer/kube-burner',
       'cloud-bulldozer/rosa-burner', 'cloud-bulldozer/krkn', 'cloud-bulldozer/kraken', 'openshift-scale/kraken',
-      'kcp-dev/edge-mc',, 'bufbuild/connect-go', 'bufbuild/rerpc', 'rerpc/rerpc', 'mudler/c3os', 'banzaicloud/bank-vaults',
+      'kcp-dev/edge-mc', 'bufbuild/connect-go', 'bufbuild/rerpc', 'rerpc/rerpc', 'mudler/c3os', 'banzaicloud/bank-vaults',
       'banzaicloud/vault-dogsbody', 'atlantisnorth/atlantis', 'anuvu/stacker', 'IBM/compliance-trestle',
       '3scale-labs/authorino', 'redhat-et/bpfd', 'lyft/cartography', 'deislabs/ratify', 'deislabs/ratify-web',
       'deislabs/ratify-action', 'redhat-developer/build', 'redhat-developer/buildv2',
