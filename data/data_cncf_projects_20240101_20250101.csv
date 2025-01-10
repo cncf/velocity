@@ -1,0 +1,6 @@
+Error in query string: Error processing job 'ancient-
+vortex-162805:bqjob_r7ae52d8e8b1a7285_000001944ff8d7a1_1': Encountered " "," ",
+"" at line 119, column 25.
+Was expecting:
+")" ...
+
