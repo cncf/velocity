@@ -22,7 +22,7 @@ It will generate a file for example: `data/data_cncf_projects_20240101_20250101.
 
 - You can optionally compare commits counts from BigQuery to git commits counts via: `PG_PASS=... ./shells/get_git_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
 - You can optionally compare commits counts from BigQuery to DevStats commits counts via: `PG_PASS=... ./shells/get_devstats_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
-- Those steps are possible only from DevStats kubernetes node or if you have DevStats installed locally.
+- Those steps are possible only from DevStats kubernetes node or if you have DevStats installed locally. Normally this is not needed and should be skipped.
 
 Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` in this case):
 ```
@@ -31,7 +31,7 @@ Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments
 
 Some projects are defined as regexps inside one or more orgs - BQ query tracks their orgs and config specifies which repos go to which project. You need to remove remaining repos for those orgs from the report.
 
-Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_cncf_20240101_20250101.csv` file. Also check for last column being empty `/s,""`, `/oam-dev\|layer5io\|pixie-labs`.
+Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_cncf_20240101_20250101.csv` file. Also check for last column being empty `/,""`, `/oam-dev\|layer5io\|pixie-labs`.
 
 Update forks files used for LF and Top30 generation: `./merge_forks.rb lf_forks.json forks.json`, `./merge_forks.rb all_forks.json forks.json`.
 
