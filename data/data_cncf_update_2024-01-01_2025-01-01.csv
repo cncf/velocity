@@ -115,7 +115,6 @@ K8up,commits,142
 kube-rs,commits,318
 Devfile,commits,390
 Knative,commits,414
-,commits,
 Confidential Containers,commits,1789
 OpenFunction,commits,6
 Teller,commits,49
@@ -123,7 +122,6 @@ Sealer,commits,1
 Clusterpedia,commits,68
 OpenCost,commits,531
 Aeraki Mesh,commits,1
-,commits,
 OpenFeature,commits,1904
 kubewarden,commits,2699
 DevStream,commits,1
