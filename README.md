@@ -9,6 +9,9 @@
 
 ## Current reports
 
+1/1/2024 - 1/1/2025:
+- [CNCF Projects Velocity](https://docs.google.com/spreadsheets/d/1Lh4rdlOFHyz8lDoiHRYGlR_yNkqvJsz2ld808lVubig/edit?usp=sharing).
+
 1/1/2023 - 1/1/2024:
 - [CNCF Projects Velocity](https://docs.google.com/spreadsheets/d/1FyVjdO9kMnz4hmEkyYLpl101cBDg_ZGHMkR5j_ce5JU/edit?usp=sharing).
 - [Linux Foundation Projects Velocity](https://docs.google.com/spreadsheets/d/1Aiyb2qoQ-vgTXkP3F5OdSB8nrVI43Al0EJfkkZjRqqY/edit?usp=sharing).
