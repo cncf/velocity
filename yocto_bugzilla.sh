@@ -17,14 +17,14 @@ do
   #echo "project $proj"
   if [ ! -z "$REST" ]
   then
-    ./count_bugzillarest.py -f "$1" -t "$2" -u 'https://bugzilla.yoctoproject.org' -p "$proj"  ${@:3:99}
+    ./count_bugzillarest.py -f "$1" -t "$2" -u 'https://bugzilla.yoctoproject.org' -p "$proj" ${@:3:99}
   else
-  ./count_bugzilla.py -f "$1" -t "$2" -u 'https://bugzilla.yoctoproject.org' -p "$proj"  ${@:3:99}
+    ./count_bugzilla.py -f "$1" -t "$2" -u 'https://bugzilla.yoctoproject.org' -p "$proj" ${@:3:99}
   fi
 done
 if [ ! -z "$REST" ]
 then
-  ./count_bugzillarest.py -f "$1" -t "$2" -u 'https://bugzilla.yoctoproject.org'  ${@:3:99}
+  ./count_bugzillarest.py -f "$1" -t "$2" -u 'https://bugzilla.yoctoproject.org' ${@:3:99}
 else
-  ./count_bugzilla.py -f "$1" -t "$2" -u 'https://bugzilla.yoctoproject.org'  ${@:3:99}
+  ./count_bugzilla.py -f "$1" -t "$2" -u 'https://bugzilla.yoctoproject.org' ${@:3:99}
 fi
