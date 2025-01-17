@@ -49,7 +49,7 @@ Try running this from the velocity project's root folder:
 	```
 - Create `devstats-reports` pod (on the test instance, not prod - prod doesn't have the linux db).
 - Shell into it and run: `./velocity/linux_commits.sh 2024-01-01 2025-01-01` that will give values for number of pushes and commits. This is not needed but recommended. Otherwise put `0,0` for commits and pushes. Changesets are used to calculate output commits.
-- NOTE: looks like `lkml.org` is no longer usable for this purpose, it always return an empty page with just the month/day name and no messages in it.
+- NOTE: looks like `lkml.org` is no longer usable for this purpose, it always return an empty page with just the month/day name and no messages in it. Edit: seems like it is workign again - so just try.
 - Run `./lkml_analysis.rb 2024-01-01 2025-01-01` from `cncf/velocity` to get number of LKML emails (all) and new threads.
 
 Run this from the velocity project's root folder again:
