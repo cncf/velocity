@@ -11,7 +11,8 @@ def lkml_analysis(froms, tos)
     puts "#{froms} - #{tos}: #{e}"
     return
   end
-  dbg = !ENV['DBG'].nil?
+  # dbg = !ENV['DBG'].nil?
+  dbg = ENV['QUIET'].nil?
   dt = from
   all = 0
   new = 0
