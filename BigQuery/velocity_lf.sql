@@ -79,7 +79,7 @@ WHERE
       'easegress-io', 'bank-vaults', 'runatlantis', 'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini',
       'score-spec', 'bpfman', 'bpfd-dev', 'pytorch', 'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi',
       'flatcar', 'flatcar-linux', 'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project',
-      'sermant-io', 'kmesh-net', 'ovn-org'
+      'sermant-io', 'kmesh-net', 'ovn-org', 'prometheus-community'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
