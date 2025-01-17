@@ -485,6 +485,7 @@ projectacrn,Project ACRN
 projectcapsule,Capsule
 projectcontour,Contour
 prometheus,Prometheus
+prometheus-community,Prometheus
 pyro-ppl,Pyro
 pyrsia,Pyrsia
 pytorch,pytorch
