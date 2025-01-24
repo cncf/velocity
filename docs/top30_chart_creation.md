@@ -347,9 +347,11 @@ Important:
 - Then "Import action" --> "replace data starting at selected call", click Import.
 - Switch to the Chart tab and see the data.
 
-Final version live [here](https://docs.google.com/spreadsheets/d/1N4DCm7vtYNYY2iPglQWBZRWuoZeksXtV6DWkpcPL_kY/edit?usp=sharing).
+Final version live [here](https://docs.google.com/spreadsheets/d/1IJIh0E8S1mp2Qr9eA6z38oEl6IRgVGpS5w9uICLQUk4/edit?usp=sharing).
 
 Make sure that `Terraform` and `Elasticsearch` are not included as they are no longer open source projects - I've removed manually from last report, now just make sure that they won't get into new reports going forward as well.
+
+MAke sure that `CNCF` is not included - as its is not a project, but a foundation.
 
 Update the main [README](https://github.com/cncf/velocity#current-reports), set new 'Current reports' and move current to [Past Reports](https://github.com/cncf/velocity#past-reports).
 
