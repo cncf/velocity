@@ -804,6 +804,12 @@ canonical/lxd-imagebuilder,LXD
 canonical/lxd-imagebuilder-pkg-snap,LXD
 canonical/lxd-integrator-operator,LXD
 canonical/lxd-pkg-chocolatey,LXD
+NVIDIA/Fuser,nvFuser
+NVIDIA/spark-rapids,NVIDIA Spark Rapids
+NVIDIA/TensorRT-LLM,TensorRT-LLM
+NVIDIA/DALI,NVIDIA DALI
+NVIDIA/TensorRT,TensorRT
+NVIDIA/TensorRT-Incubator,TensorRT
 canonical/lxd-pkg-snap,LXD
 canonical/lxd-stable-maintenance,LXD
 canonical/lxd-ui,LXD

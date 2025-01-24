@@ -83,6 +83,11 @@ Apache Mesos,mesos.apache.org
 Apache NiFi,nifi.apache.org
 Apache OpenWhisk,openwhisk.apache.org
 Apache Spark,spark.apache.org
+nvFuser,github.com/NVIDIA/Fuser
+NVIDIA Spark Rapids,nvidia.github.io/spark-rapids
+TensorRT-LLM,nvidia.github.io/TensorRT-LLM
+NVIDIA/DALI,docs.nvidia.com/deeplearning/dali
+TensorRT,developer.nvidia.com/tensorrt
 Apache Storm,storm.apache.org
 Apache Thrift,thrift.apache.org
 Apache Traffic Server,trafficserver.apache.org
