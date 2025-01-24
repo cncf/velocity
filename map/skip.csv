@@ -20,7 +20,7 @@ org,repo,project
 "TheOdinProject,MicrosoftDocs,selfteaching,CSC207-UofT,llvm-doe-org,girlscript,twowaits",,
 "EPFL-SV-cpp-projects,skillcrush,hzuapps,firstcontributions,Hacktoberfest-2018,nix-community",,
 "github,JetBrains,ec-jrc,education,Lambda-School-Labs,googleinterns,Cullyege,ICEI-PUC-Minas-PMV-ADS,gtech-mulearn,karnotxyz",,
-"zuri-training,awslabs,EddieHubCommunity,CSC207-2022F-UofT,hexlet-components,is-a-dev,open-mmlab,dortania,codestates-seb,hackclub,ministryofjustice,betagouv",,
+"zuri-training,awslabs,EddieHubCommunity,CSC207-2022F-UofT,hexlet-components,is-a-dev,open-mmlab,dortania,codestates-seb,hackclub,ministryofjustice,betagouv,GSSoC24,Azure-Samples",,
 "Elasticsearch,Terraform",,
 # Elasticsearch,Terraform are no longer open source
 # To skip OpenStack Manuals
