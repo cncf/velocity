@@ -1,9 +1,9 @@
 project,key,value
-Apache Mesos,issues,
-Apache Spark,issues,
+Apache Mesos,issues,11
+Apache Spark,issues,4782
 Apache Kafka,issues,
 Apache Camel,issues,
-Apache Flink,issues,
+Apache Flink,issues,3936
 Apache CloudStack,issues,
 Apache Beam,issues,
 Apache Zeppelin,issues,
