@@ -75,6 +75,7 @@ ParsePlatform,Parse
 Particular,NServiceBus
 Project-HAMi,HAMi
 RConsortium,RConsortium
+ROCm,AMD ROCm
 ResurrectionRemix,Resurrection Remix
 Serverless-Devs,Serverless Devs
 ServerlessTool,Serverless Devs
@@ -506,6 +507,7 @@ rethinkdb,RethinkDB
 riff,Pivotal Riff
 riscv,RISC-V
 rook,Rook
+run-llama,LlamaIndex
 runatlantis,Atlantis
 rust-lang,Rust
 rust-lang-nursery,Rust

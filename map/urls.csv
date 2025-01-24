@@ -15,6 +15,7 @@ AI,github.com/microsoft/AI
 AIF360,github.com/IBM/AIF360
 AIX360,github.com/IBM/AIX360
 ALAppExtensions,github.com/microsoft/ALAppExtensions
+AMD ROCm,rocm.docs.amd.com
 AMP,ampproject.org
 ASP.net,asp.net
 ASP.net Docs,docs.microsoft.com/en-us/aspnet/core
@@ -83,11 +84,6 @@ Apache Mesos,mesos.apache.org
 Apache NiFi,nifi.apache.org
 Apache OpenWhisk,openwhisk.apache.org
 Apache Spark,spark.apache.org
-nvFuser,github.com/NVIDIA/Fuser
-NVIDIA Spark Rapids,nvidia.github.io/spark-rapids
-TensorRT-LLM,nvidia.github.io/TensorRT-LLM
-NVIDIA/DALI,docs.nvidia.com/deeplearning/dali
-TensorRT,developer.nvidia.com/tensorrt
 Apache Storm,storm.apache.org
 Apache Thrift,thrift.apache.org
 Apache Traffic Server,trafficserver.apache.org
@@ -473,6 +469,7 @@ Linux Standard Base,linuxbase.org
 Linux sunxi,linux-sunxi.org
 Liquid,liquidmarkup.org
 LitmusChaos,litmuschaos.io
+LlamaIndex,llamaindex.ai
 Logging Operator,kube-logging.dev
 Longhorn,github.com/longhorn
 Lottie,airbnb.design/lottie
@@ -561,7 +558,9 @@ Multiplatform Paging,github.com/cashapp/multiplatform-paging
 NATS,nats.io
 NServiceBus,particular.net/nservicebus
 NVIDIA CUDA,developer.nvidia.com/cuda-toolkit
+NVIDIA DALI,docs.nvidia.com/deeplearning/dali
 NVIDIA NeMo,nvidia.github.io/NeMo
+NVIDIA Spark Rapids,nvidia.github.io/spark-rapids
 Nacos,nacos.io
 Nakadi,github.com/zalando/nakadi
 NativeScript,nativescript.org
@@ -608,6 +607,7 @@ Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
 Open vSwitch,openvswitch.org
 OpenAI,openai.com
+OpenAI Triton backend for Intel GPUs,github.com/intel/intel-xpu-backend-for-triton
 OpenBMP,gitter.im/openbmp
 OpenCost,kubecost.com
 OpenDaylight,www.opendaylight.org
@@ -824,6 +824,8 @@ Telerik,telerik.com
 Teller,tlr.dev
 Tencent Enterprise Design System,tdesign.tencent.com
 TensorFlow,tensorflow.org
+TensorRT,developer.nvidia.com/tensorrt
+TensorRT-LLM,nvidia.github.io/TensorRT-LLM
 Terminal,github.com/microsoft/Terminal
 Terraform,terraform.io
 Texture,texturegroup.org
@@ -1113,6 +1115,7 @@ nni,github.com/microsoft/nni
 node-sdk-core,github.com/IBM/node-sdk-core
 nodejs-react-app,github.com/IBM/nodejs-react-app
 npm,npmjs.com
+nvFuser,github.com/NVIDIA/Fuser
 onnxruntime,github.com/microsoft/onnxruntime
 openGemini,opengemini.org
 openHAB,openhab.org

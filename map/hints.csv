@@ -410,13 +410,18 @@ MicrosoftDocs/windowsserverdocs,MicrosoftDocs
 MicrosoftDocs/winrt-api,MicrosoftDocs
 NVIDIA/CUDALibrarySamples,NVIDIA CUDA
 NVIDIA/CoMD-CUDA,NVIDIA CUDA
+NVIDIA/DALI,NVIDIA DALI
 NVIDIA/DL4AGX,NVIDIA CUDA
+NVIDIA/Fuser,nvFuser
 NVIDIA/GMAT,NVIDIA CUDA
 NVIDIA/HMM_sample_code,NVIDIA CUDA
 NVIDIA/MatX,NVIDIA CUDA
 NVIDIA/MinkowskiEngine,NVIDIA CUDA
 NVIDIA/NeMo,NVIDIA NeMo
 NVIDIA/PRBench,NVIDIA CUDA
+NVIDIA/TensorRT,TensorRT
+NVIDIA/TensorRT-Incubator,TensorRT
+NVIDIA/TensorRT-LLM,TensorRT-LLM
 NVIDIA/TransformerEngine,NVIDIA CUDA
 NVIDIA/apt-packaging-cuda-keyring,NVIDIA CUDA
 NVIDIA/cccl,NVIDIA CUDA
@@ -449,6 +454,7 @@ NVIDIA/nvidia-docker,NVIDIA CUDA
 NVIDIA/otk-demand-loading,NVIDIA CUDA
 NVIDIA/otk-omm-baking,NVIDIA CUDA
 NVIDIA/otk-shader-util,NVIDIA CUDA
+NVIDIA/spark-rapids,NVIDIA Spark Rapids
 NVIDIA/tensorrt-laboratory,NVIDIA CUDA
 NVIDIA/thrust,NVIDIA CUDA
 NVIDIA/torch-cutorch,NVIDIA CUDA
@@ -804,12 +810,6 @@ canonical/lxd-imagebuilder,LXD
 canonical/lxd-imagebuilder-pkg-snap,LXD
 canonical/lxd-integrator-operator,LXD
 canonical/lxd-pkg-chocolatey,LXD
-NVIDIA/Fuser,nvFuser
-NVIDIA/spark-rapids,NVIDIA Spark Rapids
-NVIDIA/TensorRT-LLM,TensorRT-LLM
-NVIDIA/DALI,NVIDIA DALI
-NVIDIA/TensorRT,TensorRT
-NVIDIA/TensorRT-Incubator,TensorRT
 canonical/lxd-pkg-snap,LXD
 canonical/lxd-stable-maintenance,LXD
 canonical/lxd-ui,LXD
@@ -1290,6 +1290,7 @@ intel/ias,ias
 intel/intel-device-plugins-for-kubernetes,intel-device-plugins-for-kubernetes
 intel/intel-graphics-compiler,Intel Graphics Compiler for OpenCL
 intel/intel-iot-refkit,Intel Iot
+intel/intel-xpu-backend-for-triton,OpenAI Triton backend for Intel GPUs
 intel/ipmctl,ipmctl
 intel/ledmon,ledmon
 intel/libva,libva
