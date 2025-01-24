@@ -32,6 +32,7 @@ Run the query for a year date range, for example: `./run_bq.sh top30 2023-07-01 
 Or run the query for a specified year, for example: `./run_bq_year.sh top30_year 2023`. It takes about 1+TB and costs about $15-$25+.
 - It can happen that it is not possible to get data for all year in one call, you can do in two parts each 6 months for example and later merge via:
 - `` ./run_bq.sh top30 2023-07-01 2024-01-01; ./run_bq.sh top30 2024-01-01 2024-07-01; OUT=data/data_top30_projects_20230701_20240701.csv ./merge_bq.rb data/data_top30_projects_20230701_20240101.csv data/data_top30_projects_20240101_20240701.csv ``.
+- Note that it takes many minutes, so it shoudl run in teh background and be monitored.
 
 It will generate a file for example: `data/data_top30_projects_20230701_20240701.csv` or `data/data_top30_2023.csv`.
 
