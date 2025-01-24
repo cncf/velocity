@@ -1,13 +1,13 @@
 project,key,value
 Apache Mesos,issues,11
 Apache Spark,issues,4782
-Apache Kafka,issues,
-Apache Camel,issues,
+Apache Kafka,issues,3410
+Apache Camel,issues,1555
 Apache Flink,issues,3936
-Apache CloudStack,issues,
-Apache Beam,issues,
-Apache Zeppelin,issues,
-Apache Cassandra,issues,
+Apache CloudStack,issues,0
+Apache Beam,issues,422
+Apache Zeppelin,issues,276
+Apache Cassandra,issues,1224
 Apache Hive,issues,
 Apache HBase,issues,
 Apache Hadoop,issues,
