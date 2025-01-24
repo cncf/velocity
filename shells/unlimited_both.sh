@@ -1,4 +1,10 @@
 #!/bin/sh
+if [ ! -z "GENERATE" ]
+then
+  ./run_bq.sh top30 2024-01-01 2024-07-01
+  ./run_bq.sh top30 2024-07-01 2025-01-01
+  OUT=data/data_top30_projects_20240101_20250101.csv ./merge_bq.rb data/data_top30_projects_20240101_20240701.csv data/data_top30_projects_20240701_20250101.csv
+fi
 echo "Restoring BigQuery output"
 cp data/data_top30_projects_20240101_20250101.csv data/unlimited.csv
 echo "Adding Linux kernel data"
