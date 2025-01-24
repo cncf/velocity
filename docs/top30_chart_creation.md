@@ -113,7 +113,7 @@ Just add a new repo mapping row for this project in `map/hints.csv`: `Automattic
 Do the same for other projects/repos. Re-run the analysis tool until all is fine.
 - For example, after defining some new projects we see "EPFL-SV-cpp-projects" in the top 50. This is an educational org that should be skipped. Add it to `map/skip.csv` for skipping row: `EPFL-SV-cpp-projects,,`
 - Once You have all URL's defined, added new mapping, you may see a preview of the Top projects on while stopped in `binding.pry`, by typing `all`. Now we need to go back to `shells/unlimited_20230701-20240701.sh` and regenerate all non standard data (for projects not on github or requiring special queries on github - for example because of having 0 activity, comments, commits, issues, prs or authors)
-- To skip list from `unmapped` reported by `analysis.rb` do in `vim`: `` :%s/^\s\+"\d\+\s\+\(\w\+\/.*\)",/\1,/g ``, then `` :%s/\n//g `` and manually add to ` map/skip.csv` like `` ","org/repo1,org/repo2,...,org/repoN", ``.
+- To skip list from `unmapped` reported by `analysis.rb` do in `vim`: `` :%s/^\s*"\d\+\s\+\(\w\+\/.*\)",/\1,/g ``, then `` :%s/\n//g `` and manually add to ` map/skip.csv` like `` ","org/repo1,org/repo2,...,org/repoN", ``.
 
 ### Linux
 
