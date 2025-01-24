@@ -11,10 +11,12 @@ then
 fi
 
 # projs=(Flink Mesos Spark Kafka Camel CloudStack Beam Zeppelin Cassandra Hive HBase Hadoop Ignite NiFi Ambari Storm TS Lucene Solr CarbonData Geode Trafodion Thrift Kylin)
-projs=(NiFi Ambari Storm TS Lucene Solr CarbonData Geode Trafodion Thrift Kylin)
+# projs=(NiFi Ambari Storm TS Lucene Solr CarbonData Geode Trafodion Thrift Kylin)
+projs=(Flink Mesos Spark Kafka Camel CloudStack Beam Zeppelin Cassandra Hive HBase Hadoop Ignite)
 for proj in "${projs[@]}"
 do
   # echo "project $proj"
   ./count_jira.py -f "$1" -t "$2" -u 'https://issues.apache.org/jira' -p "$proj"  ${@:3:99}
 done
+echo 'All projects:'
 ./count_jira.py -f "$1" -t "$2" -u 'https://issues.apache.org/jira'  ${@:3:99}
