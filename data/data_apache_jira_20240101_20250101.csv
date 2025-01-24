@@ -8,10 +8,10 @@ Apache CloudStack,issues,0
 Apache Beam,issues,422
 Apache Zeppelin,issues,276
 Apache Cassandra,issues,1224
-Apache Hive,issues,
-Apache HBase,issues,
-Apache Hadoop,issues,
-Apache Ignite,issues,
+# Apache Hive,issues,
+# Apache HBase,issues,
+# Apache Hadoop,issues,
+# Apache Ignite,issues,
 Apache NiFi,issues,1861
 Apache Ambari,issues,323
 Apache Storm,issues,1038
