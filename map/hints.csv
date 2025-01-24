@@ -794,6 +794,9 @@ callemall/material-ui,Material-UI
 canonical/canonical-sphinx-extensions,LXD
 canonical/charm-lxd,LXD
 canonical/charm-microcloud,LXD
+canonical/charmcraft,Canonical Charmcraft
+canonical/cloud-init,Canonical cloud-init
+canonical/k8s-snap,Canonical Kuberentes
 canonical/lxd,LXD
 canonical/lxd-ci,LXD
 canonical/lxd-demo-server,LXD
@@ -808,7 +811,11 @@ canonical/lxd.dart,LXD
 canonical/microcloud,LXD
 canonical/openstack-on-lxd,LXD
 canonical/pylxd,LXD
+canonical/rockcraft,Canonical Rockcraft
 canonical/setup-lxd,LXD
+canonical/snapcraft,Canonical Snapcraft
+canonical/snapcraft.io,Canonical Snapcraft
+canonical/ubuntu.com,Canonical Ubuntu
 capitalone/cloud-custodian,Cloud Custodian
 cashapp/multiplatform-paging,Multiplatform Paging
 che-incubator/devworkspace-api,Devfile

@@ -67,3 +67,4 @@ errors.txt
 run.log
 top*.log
 top*.err
+skip
