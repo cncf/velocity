@@ -71,7 +71,8 @@ where
       'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini', 'score-spec', 'bpfman', 'bpfd-dev',
       'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi', 'shipwright-io', 'flatcar', 'flatcar-linux',
       'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project', 'sermant-io',
-      'kmesh-net', 'ovn-org', 'prometheus-community'
+      'kmesh-net', 'ovn-org', 'prometheus-community', 'tratteria', 'spinkube', 'k0sproject',
+      'cloudnative-pg', 'podman-desktop', 'drasi-project'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -122,7 +123,19 @@ where
       'deislabs/ratify-action', 'redhat-developer/build', 'redhat-developer/buildv2',
       'redhat-developer/buildv2-operator', 'kinvolk/Flatcar', 'kinvolk/flatcar-scripts', 'kinvolk/mantle',
       'containers/youki', 'utam0k/youki', 'Azure/kaito', 'huaweicloud/Sermant', 'huaweicloud/java-mesh',
-      'huaweicloud/JavaMesh', 'openvswitch/ovn-kubernetes'
+      'huaweicloud/JavaMesh', 'openvswitch/ovn-kubernetes', 'fermyon/spin', 'fermyon/spin-python-sdk',
+      'fermyon/spin-js-sdk', 'fermyon/spin-rust-sdk', 'fermyon/spin-dotnet-sdk', 'fermyon/spin-nim-sdk',
+      'fermyon/spin-plugins', 'fermyon/spin-test', 'fermyon/platform-plugin', 'AxaFrance/SlimFaas',
+      'fermyon/spin-trigger-command', 'fermyon/spin-trigger-sqs', 'fermyon/spin-trigger-cron',
+      'ktock/container2wasm', 'stateful/runme', 'stateful/runme.dev', 'stateful/runmejs',
+      'stateful/runme-web-extension', 'stateful/runme-action', 'stateful/docs.runme.dev',
+      'stateful/runme-action-examples', 'stateful/mkdocs-runme-plugin', 'stateful/Runme-CDEs',
+      'stateful/runme-terramate-aws', 'stateful/terramate-runme-example',
+      'stateful/runme-terramate-example', 'stateful/runme-foyle-ai', 'Azure/Fleet-PRSE',
+      'Azure/fleet-networking', 'Azure/fleet', 'Azure/azure-rest-api-specs-fleet',
+      'containers/podman', 'containers/buildah', 'containers/skopeo', 'containers/netavark',
+      'containers/aardvark-dns', 'containers/image', 'containers/storage', 'containers/common',
+      'containers/conmon', 'containers/podman-py', 'containers/bootc', 'containers/composefs'
     )
   )
   and repo.name not in (
