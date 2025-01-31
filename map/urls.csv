@@ -40,6 +40,20 @@ ASWF Working Group for Rust Bindings,github.com/vfx-rs
 AWS SAM,aws.amazon.com/serverless/sam
 AWS SDKs,aws.amazon.com
 AZF,azure.microsoft.com
+Tratteria,tratteria.io
+Spin,developer.fermyon.com/spin
+SpinKube,spinkube.dev
+SlimFaaS,github.com/AxaFrance/SlimFaas
+container2wasm,github.com/ktock/container2wasm
+k0s,k0sproject.io
+Runme Notebooks,runme.dev
+CloudNativePG,cloudnative-pg.io
+KubeFleet,github.com/Azure/fleet
+Podman Desktop,podman-desktop.io
+Podman Container Tools,podman.io
+bootc,containers.github.io/bootc
+composefs,github.com/containers/composefs
+Drasi,drasi.io
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
 ActiveShipping,shopify.github.io/active_shipping
 Activity Campaign site,activate.mozilla.community
