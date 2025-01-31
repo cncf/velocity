@@ -17,6 +17,49 @@ repo,project
 18F/openFEC-web-app,Campaign finance for everyone
 18F/tock,tock
 18F/web-design-standards,US Web Design Standards
+fermyon/spin,Spin
+fermyon/spin-python-sdk,Spin
+fermyon/spin-js-sdk,Spin
+fermyon/spin-rust-sdk,Spin
+fermyon/spin-dotnet-sdk,Spin
+fermyon/spin-nim-sdk,Spin
+fermyon/spin-plugins,Spin
+fermyon/spin-test,Spin
+fermyon/platform-plugin,Spin
+AxaFrance/SlimFaas,SlimFaaS
+fermyon/spin-trigger-command,Spin
+fermyon/spin-trigger-sqs,Spin
+fermyon/spin-trigger-cron,Spin
+ktock/container2wasm,container2wasm
+stateful/runme,Runme Notebooks
+stateful/runme.dev,Runme Notebooks
+stateful/runmejs,Runme Notebooks
+stateful/runme-web-extension,Runme Notebooks
+stateful/runme-action,Runme Notebooks
+stateful/docs.runme.dev,Runme Notebooks
+stateful/runme-action-examples,Runme Notebooks
+stateful/mkdocs-runme-plugin,Runme Notebooks
+stateful/Runme-CDEs,Runme Notebooks
+stateful/runme-terramate-aws,Runme Notebooks
+stateful/terramate-runme-example,Runme Notebooks
+stateful/runme-terramate-example,Runme Notebooks
+stateful/runme-foyle-ai,Runme Notebooks
+Azure/Fleet-PRSE,KubeFleet
+Azure/fleet-networking,KubeFleet
+Azure/fleet,KubeFleet
+Azure/azure-rest-api-specs-fleet,KubeFleet
+containers/podman,Podman Container Tools
+containers/buildah,Podman Container Tools
+containers/skopeo,Podman Container Tools
+containers/netavark,Podman Container Tools
+containers/aardvark-dns,Podman Container Tools
+containers/image,Podman Container Tools
+containers/storage,Podman Container Tools
+containers/common,Podman Container Tools
+containers/conmon,Podman Container Tools
+containers/podman-py,Podman Container Tools
+containers/bootc,bootc
+containers/composefs,composefs
 3scale-labs/authorino,Kuadrant
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
