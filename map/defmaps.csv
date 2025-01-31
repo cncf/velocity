@@ -9,12 +9,6 @@ aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
 w3c,=SKIP
-tratteria,Tratteria
-spinkube,SpinKube
-k0sproject,k0s
-cloudnative-pg,CloudNativePG
-podman-desktop,Podman Desktop
-drasi-project,Drasi
 AcademySoftwareFoundation,ASWF
 Adlik,Adlik
 Angel-ML,Angel
@@ -168,6 +162,7 @@ cloudfoundry-attic,Cloud Foundry
 cloudfoundry-community,Cloud Foundry
 cloudfoundry-incubator,Cloud Foundry
 cloudfoundry-samples,Cloud Foundry
+cloudnative-pg,CloudNativePG
 clusternet,Clusternet
 clusterpedia-io,Clusterpedia
 cms-sw,CMS Offline Software
@@ -211,6 +206,7 @@ docker,Docker
 docker-freebsd,FreeBSD
 docker-slim,SlimToolkit
 dragonflyoss,Dragonfly
+drasi-project,Drasi
 driftyco,Ionic
 dymensionxyz,Dymension
 e-government-ua,Основной репозиторий
@@ -294,6 +290,7 @@ jenkins-x,Jenkins X
 jenkinsci,Jenkins
 joomla,Joomla
 jsdelivr,jsDelivr
+k0sproject,k0s
 k14s,Carvel
 k3s-io,K3s
 k8gb-io,K8GB
@@ -483,6 +480,7 @@ pipe-cd,PipeCD
 piraeusdatastore,Piraeus-Datastore
 pivotal-cf,Pivotal Cloud Foundry
 pixie-io,Pixie
+podman-desktop,Podman Desktop
 pravega,Pravega
 project-akri,Akri
 project-copacetic,Copacetic
@@ -544,6 +542,7 @@ spatie,Spatie
 spdx,SPDX
 spidernet-io,Spiderpool
 spiffe,Spiffe
+spinkube,SpinKube
 spinnaker,Spinnaker
 spotify,Spotify
 spree,Spree
@@ -569,6 +568,7 @@ thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV
 tinkerbell,Tinkerbell
+tratteria,Tratteria
 tremor-rs,Tremor
 trickstercache,Trickster
 tricksterproxy,Trickster

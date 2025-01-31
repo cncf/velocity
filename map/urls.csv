@@ -40,20 +40,6 @@ ASWF Working Group for Rust Bindings,github.com/vfx-rs
 AWS SAM,aws.amazon.com/serverless/sam
 AWS SDKs,aws.amazon.com
 AZF,azure.microsoft.com
-Tratteria,tratteria.io
-Spin,developer.fermyon.com/spin
-SpinKube,spinkube.dev
-SlimFaaS,github.com/AxaFrance/SlimFaas
-container2wasm,github.com/ktock/container2wasm
-k0s,k0sproject.io
-Runme Notebooks,runme.dev
-CloudNativePG,cloudnative-pg.io
-KubeFleet,github.com/Azure/fleet
-Podman Desktop,podman-desktop.io
-Podman Container Tools,podman.io
-bootc,containers.github.io/bootc
-composefs,github.com/containers/composefs
-Drasi,drasi.io
 Accessible Rich Internet Applications,w3.org/WAI/ARIA
 ActiveShipping,shopify.github.io/active_shipping
 Activity Campaign site,activate.mozilla.community
@@ -202,6 +188,7 @@ Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud Hypervisor,github.com/cloud-hypervisor/cloud-hypervisor
 Cloud.gov,github.com/18F/cg-product
 CloudEvents,cloudevents.io
+CloudNativePG,cloudnative-pg.io
 Clusternet,clusternet.io
 Clusterpedia,clusterpedia.io
 Cockroach Labs,cockroachlabs.com
@@ -254,6 +241,7 @@ DirectX-Specs,github.com/microsoft/DirectX-Specs
 Distribution,github.com/distribution
 Docker,mobyproject.org
 Dragonfly,d7y.io/en-us
+Drasi,drasi.io
 Dronecode,www.dronecode.org
 DuckDuckGo,duckduckhack.com
 DuckDuckHack,duckduckhack.com
@@ -449,6 +437,7 @@ Kube-OVN,kube-ovn.io
 KubeArmor,accuknox.com/kubearmor
 KubeDL,kubedl.io
 KubeEdge,kubeedge.io
+KubeFleet,github.com/Azure/fleet
 KubeVela,kubevela.io
 KubeVirt,kubevirt.io
 Kubean,kubean-io.github.io/kubean/
@@ -709,6 +698,8 @@ Pivotal Cloud Foundry,pivotal.io
 Pivotal Riff,projectriff.io
 Pixie,px.dev
 Play Framework,playframework.com
+Podman Container Tools,podman.io
+Podman Desktop,podman-desktop.io
 PokemonGoF,maps.pikabot.org
 PokemonGoMap,pokemongomap.info
 Polymer,polymer-project.org
@@ -760,6 +751,7 @@ RocketChat,rocket.chat
 RocksDB,rocksdb.org
 Rook,rook.io
 Ruby on Rails,rubyonrails.org
+Runme Notebooks,runme.dev
 Rust,rust-lang.org
 SAP Fundamentals,github.com/SAP/fundamental
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
@@ -801,6 +793,7 @@ Shopify SDKs,developers.shopify.com
 Shopify Timber,shopify.com/timber
 Skillcrush,skillcrush.com
 Skooner,skooner.io
+SlimFaaS,github.com/AxaFrance/SlimFaas
 SlimToolkit,slimtoolkit.org
 Software Guard Extensions for Linux,01.org/intel-softwareguard-extensions
 Solana,solana.com
@@ -811,6 +804,8 @@ Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spiderpool,spidernet-io.github.io/spiderpool/
 Spiffe,spiffe.io
+Spin,developer.fermyon.com/spin
+SpinKube,spinkube.dev
 Spinnaker,spinnaker.io
 Spire,spiffe.io
 Spontanizer,spartan.org.il
@@ -861,6 +856,7 @@ Tizen,www.tizen.org
 TokenPocket Lab,tokenpocket.pro
 Toxiproxy,toxiproxy.io
 Train-Custom-Speech-Model,github.com/IBM/Train-Custom-Speech-Model
+Tratteria,tratteria.io
 Tremor,tremor.rs
 TrestleGRC,oscal-compass.github.io
 Trickster,tricksterproxy.io
@@ -987,6 +983,7 @@ benchmark,github.com/google/benchmark
 bert-stack-overflow,github.com/microsoft/bert-stack-overflow
 bigquery-etl,github.com/mozilla/bigquery-etl
 bioconda,bioconda.github.io
+bootc,containers.github.io/bootc
 botbuilder-dotnet,github.com/microsoft/botbuilder-dotnet
 botbuilder-js,github.com/microsoft/botbuilder-js
 botbuilder-python,github.com/microsoft/botbuilder-python
@@ -1022,8 +1019,10 @@ cognitive-services-speech-sdk-js,github.com/microsoft/cognitive-services-speech-
 comanche,github.com/IBM/comanche
 commerce-ui,github.com/IBM/commerce-ui
 composable,github.com/IBM/composable
+composefs,github.com/containers/composefs
 computerscience,github.com/microsoft/computerscience
 conda-forge,conda-forge.org
+container2wasm,github.com/ktock/container2wasm
 containerd,containerd.io
 coobjc,github.com/alibaba/coobjc
 cregit,cregit.linuxsources.org
@@ -1091,6 +1090,7 @@ jenkins-library,github.com/SAP/jenkins-library
 jsDelivr,jsdelivr.com
 just,github.com/microsoft/just
 jvm-sandbox,github.com/alibaba/jvm-sandbox
+k0s,k0sproject.io
 k8dash,skooner.io
 kcp,kcp.io
 kitsune,github.com/mozilla/kitsune

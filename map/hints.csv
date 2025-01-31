@@ -17,49 +17,6 @@ repo,project
 18F/openFEC-web-app,Campaign finance for everyone
 18F/tock,tock
 18F/web-design-standards,US Web Design Standards
-fermyon/spin,Spin
-fermyon/spin-python-sdk,Spin
-fermyon/spin-js-sdk,Spin
-fermyon/spin-rust-sdk,Spin
-fermyon/spin-dotnet-sdk,Spin
-fermyon/spin-nim-sdk,Spin
-fermyon/spin-plugins,Spin
-fermyon/spin-test,Spin
-fermyon/platform-plugin,Spin
-AxaFrance/SlimFaas,SlimFaaS
-fermyon/spin-trigger-command,Spin
-fermyon/spin-trigger-sqs,Spin
-fermyon/spin-trigger-cron,Spin
-ktock/container2wasm,container2wasm
-stateful/runme,Runme Notebooks
-stateful/runme.dev,Runme Notebooks
-stateful/runmejs,Runme Notebooks
-stateful/runme-web-extension,Runme Notebooks
-stateful/runme-action,Runme Notebooks
-stateful/docs.runme.dev,Runme Notebooks
-stateful/runme-action-examples,Runme Notebooks
-stateful/mkdocs-runme-plugin,Runme Notebooks
-stateful/Runme-CDEs,Runme Notebooks
-stateful/runme-terramate-aws,Runme Notebooks
-stateful/terramate-runme-example,Runme Notebooks
-stateful/runme-terramate-example,Runme Notebooks
-stateful/runme-foyle-ai,Runme Notebooks
-Azure/Fleet-PRSE,KubeFleet
-Azure/fleet-networking,KubeFleet
-Azure/fleet,KubeFleet
-Azure/azure-rest-api-specs-fleet,KubeFleet
-containers/podman,Podman Container Tools
-containers/buildah,Podman Container Tools
-containers/skopeo,Podman Container Tools
-containers/netavark,Podman Container Tools
-containers/aardvark-dns,Podman Container Tools
-containers/image,Podman Container Tools
-containers/storage,Podman Container Tools
-containers/common,Podman Container Tools
-containers/conmon,Podman Container Tools
-containers/podman-py,Podman Container Tools
-containers/bootc,bootc
-containers/composefs,composefs
 3scale-labs/authorino,Kuadrant
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
@@ -97,7 +54,9 @@ Automattic/woocommerce-connect-client,Automattic WooCommerce
 Automattic/wp-calypso,WP Calypso
 Automattic/wp-e2e-tests,WP Calypso
 Automattic/wp-super-cache,WP Calypso
+AxaFrance/SlimFaas,SlimFaaS
 Azure/Azure-Functions,AZF
+Azure/Fleet-PRSE,KubeFleet
 Azure/azure-batch-sdk-for-java,Azure SDKs
 Azure/azure-functions-cli,AZF
 Azure/azure-functions-core-tools,AZF
@@ -120,6 +79,7 @@ Azure/azure-iot-sdks,Azure SDKs
 Azure/azure-iot-sdks-preview,Azure SDKs
 Azure/azure-quickstart-templates,Azure SDKs
 Azure/azure-rest-api-specs,Azure REST API
+Azure/azure-rest-api-specs-fleet,KubeFleet
 Azure/azure-sdk-for-go,Azure SDKs
 Azure/azure-sdk-for-java,Azure SDKs
 Azure/azure-sdk-for-media-services,Azure SDKs
@@ -137,6 +97,8 @@ Azure/azure-webjobs-sdk-script-samples,AZF
 Azure/azure-webjobs-sdk-templates,AZF
 Azure/brigade,Brigade
 Azure/eraser,Eraser
+Azure/fleet,KubeFleet
+Azure/fleet-networking,KubeFleet
 Azure/kaito,KAITO
 Azure/sonic-py-swsssdk,Azure SDKs
 Azure/vscode-kubernetes-tools,VS Code Kubernetes Tools
@@ -1036,6 +998,18 @@ codeaurora-unofficial/platform-vendor-qcom-opensource-wlan-qcacld-3.0,Code Auror
 containerfilesystem/cfs,CubeFS
 containerfilesystem/doc-zh,CubeFS
 containerfs/containerfs.github.io,CubeFS
+containers/aardvark-dns,Podman Container Tools
+containers/bootc,bootc
+containers/buildah,Podman Container Tools
+containers/common,Podman Container Tools
+containers/composefs,composefs
+containers/conmon,Podman Container Tools
+containers/image,Podman Container Tools
+containers/netavark,Podman Container Tools
+containers/podman,Podman Container Tools
+containers/podman-py,Podman Container Tools
+containers/skopeo,Podman Container Tools
+containers/storage,Podman Container Tools
 containers/youki,Youki
 coredns/coredns-grpc,CoreDNS
 coredns/grpc,CoreDNS
@@ -1130,6 +1104,18 @@ facebook/rocksdb,RocksDB
 facebookincubator/create-react-app,React
 fdio-stack/felix,FD.io
 fdio-stack/netplugin,FD.io
+fermyon/platform-plugin,Spin
+fermyon/spin,Spin
+fermyon/spin-dotnet-sdk,Spin
+fermyon/spin-js-sdk,Spin
+fermyon/spin-nim-sdk,Spin
+fermyon/spin-plugins,Spin
+fermyon/spin-python-sdk,Spin
+fermyon/spin-rust-sdk,Spin
+fermyon/spin-test,Spin
+fermyon/spin-trigger-command,Spin
+fermyon/spin-trigger-cron,Spin
+fermyon/spin-trigger-sqs,Spin
 flant/dapp,werf
 flant/dapper,werf
 flant/werf,werf
@@ -1393,6 +1379,7 @@ kinvolk/headlamp,Headlamp
 kinvolk/inspektor-gadget,Inspektor Gadget
 kinvolk/mantle,Flatcar
 knative/build,Tekton
+ktock/container2wasm,container2wasm
 kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes
@@ -2810,6 +2797,19 @@ spdx/tools-go,SPDX
 spdx/tools-python,SPDX
 spiffe/spire,Spire
 spotify/backstage,Backstage
+stateful/Runme-CDEs,Runme Notebooks
+stateful/docs.runme.dev,Runme Notebooks
+stateful/mkdocs-runme-plugin,Runme Notebooks
+stateful/runme,Runme Notebooks
+stateful/runme-action,Runme Notebooks
+stateful/runme-action-examples,Runme Notebooks
+stateful/runme-foyle-ai,Runme Notebooks
+stateful/runme-terramate-aws,Runme Notebooks
+stateful/runme-terramate-example,Runme Notebooks
+stateful/runme-web-extension,Runme Notebooks
+stateful/runme.dev,Runme Notebooks
+stateful/runmejs,Runme Notebooks
+stateful/terramate-runme-example,Runme Notebooks
 stefanprodan/caddy-builder,OpenFaaS
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
