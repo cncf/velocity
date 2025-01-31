@@ -9,6 +9,12 @@ aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
 w3c,=SKIP
+tratteria,Tratteria
+spinkube,SpinKube
+k0sproject,k0s
+cloudnative-pg,CloudNativePG
+podman-desktop,Podman Desktop
+drasi-project,Drasi
 AcademySoftwareFoundation,ASWF
 Adlik,Adlik
 Angel-ML,Angel
