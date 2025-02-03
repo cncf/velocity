@@ -72,7 +72,7 @@ where
       'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi', 'shipwright-io', 'flatcar', 'flatcar-linux',
       'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project', 'sermant-io',
       'kmesh-net', 'ovn-org', 'prometheus-community', 'tratteria', 'spinkube', 'k0sproject',
-      'cloudnative-pg', 'podman-desktop', 'drasi-project'
+      'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',

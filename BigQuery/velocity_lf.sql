@@ -80,7 +80,7 @@ WHERE
       'score-spec', 'bpfman', 'bpfd-dev', 'pytorch', 'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi',
       'flatcar', 'flatcar-linux', 'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project',
       'sermant-io', 'kmesh-net', 'ovn-org', 'prometheus-community', 'tratteria', 'spinkube', 'k0sproject',
-      'cloudnative-pg', 'podman-desktop', 'drasi-project'
+      'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
