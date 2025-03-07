@@ -72,7 +72,8 @@ where
       'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi', 'shipwright-io', 'flatcar', 'flatcar-linux',
       'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project', 'sermant-io',
       'kmesh-net', 'ovn-org', 'prometheus-community', 'tratteria', 'spinkube', 'k0sproject',
-      'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes'
+      'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes', 'kgateway-dev', 'k8sgateway',
+      'hyperlight-dev'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -135,7 +136,16 @@ where
       'Azure/fleet-networking', 'Azure/fleet', 'Azure/azure-rest-api-specs-fleet',
       'containers/podman', 'containers/buildah', 'containers/skopeo', 'containers/netavark',
       'containers/aardvark-dns', 'containers/image', 'containers/storage', 'containers/common',
-      'containers/conmon', 'containers/podman-py', 'containers/bootc', 'containers/composefs'
+      'containers/conmon', 'containers/podman-py', 'containers/bootc', 'containers/composefs',
+      'interTwin-eu/interLink', 'interTwin-eu/vk-test-set', 'interTwin-eu/interlink-jhub',
+      'interTwin-eu/interlink-slurm-plugin', 'interTwin-eu/interlink-docker-plugin',
+      'interTwin-eu/interlink-helm-chart', 'interTwin-eu/interlink-monitoring-stack',
+      'interTwin-eu/interlink-htcondor-plugin', 'interTwin-eu/interlink-kueue-plugin',
+      'interTwin-eu/interlink-arc-plugin', 'interTwin-eu/interlink-unicore-plugin', 'aenix-io/etcd-operator',
+      'aenix-io/talm', 'aenix-io/talos-bootstrap', 'aeniz-io/cozystack', 'aenix-io/kubernetes-in-kubernetes',
+      'aenix-io/kubefarm', 'aenix-io/cozystack-website', 'aenix-io/cozy-proxy', 'aenix-io/cozystack-telemetry-server',
+      'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
+      'jozu-ai/pykitops', 'solo-io/gloo'
     )
   )
   and repo.name not in (
