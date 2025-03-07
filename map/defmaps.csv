@@ -35,6 +35,9 @@ FreeBSD-UPB,FreeBSD
 FreeBSDDesktop,FreeBSD
 FreeBSDFoundation,FreeBSD
 FreeBSDRust,FreeBSD
+kgateway,kgateway
+k8sgateway,kgateway
+hyperligth-dev,Hyperlight
 FreeBSDWorkingBranch,FreeBSD
 FreeBSDonHyper-V,FreeBSD
 GoogleChrome,Chromium
