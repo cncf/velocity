@@ -18,32 +18,6 @@ repo,project
 18F/tock,tock
 18F/web-design-standards,US Web Design Standards
 3scale-labs/authorino,Kuadrant
-interTwin-eu/interLink,Interlink
-interTwin-eu/vk-test-set,Interlink
-interTwin-eu/interlink-jhub,Interlink
-interTwin-eu/interlink-slurm-plugin,Interlink
-interTwin-eu/interlink-docker-plugin,Interlink
-interTwin-eu/interlink-helm-chart,Interlink
-interTwin-eu/interlink-monitoring-stack,Interlink
-interTwin-eu/interlink-htcondor-plugin,Interlink
-interTwin-eu/interlink-kueue-plugin,Interlink
-interTwin-eu/interlink-arc-plugin,Interlink
-interTwin-eu/interlink-unicore-plugin,Interlink
-aenix-io/etcd-operator,CozyStack
-aenix-io/talm,CozyStack
-aenix-io/talos-bootstrap,CozyStack
-aeniz-io/cozystack,CozyStack
-aenix-io/kubernetes-in-kubernetes,CozyStack
-aenix-io/kubefarm,CozyStack
-aenix-io/cozystack-website,CozyStack
-aenix-io/cozy-proxy,CozyStack
-aenix-io/cozystack-telemetry-server,CozyStack
-jozu-ai/kitops,KitOps
-aenix-io/cozystack-gitops-example,KitOps
-jozu-ai/gh-kit-setup,KitOps
-jozu-ai/daggerverse,KitOps
-jozu-ai/pykitops,KitOps
-solo-io/gloo,kgateway
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
 AcademySoftwareFoundation/ColorInterop,ASWF OpenColorIO
@@ -605,6 +579,16 @@ adobe/react-spectrum-charts,Adobe React Spectrum
 adobe/spectrum-css,Adobe React Spectrum
 adobe/spectrum-tokens,Adobe React Spectrum
 adobe/spectrum-web-components,Adobe React Spectrum
+aenix-io/cozy-proxy,CozyStack
+aenix-io/cozystack-gitops-example,KitOps
+aenix-io/cozystack-telemetry-server,CozyStack
+aenix-io/cozystack-website,CozyStack
+aenix-io/etcd-operator,CozyStack
+aenix-io/kubefarm,CozyStack
+aenix-io/kubernetes-in-kubernetes,CozyStack
+aenix-io/talm,CozyStack
+aenix-io/talos-bootstrap,CozyStack
+aeniz-io/cozystack,CozyStack
 airbnb/caravel,Superset
 airbnb/enzyme,Enzyme
 airbnb/lottie-android,Lottie
@@ -1370,6 +1354,17 @@ intel/wasm-micro-runtime,wasm-micro-runtime
 intel/webml-polyfill,Intel Web Machine Learning
 intel/workload-collocation-agent,workload-collocation-agent
 intel/zephyr.js,ZJS
+interTwin-eu/interLink,Interlink
+interTwin-eu/interlink-arc-plugin,Interlink
+interTwin-eu/interlink-docker-plugin,Interlink
+interTwin-eu/interlink-helm-chart,Interlink
+interTwin-eu/interlink-htcondor-plugin,Interlink
+interTwin-eu/interlink-jhub,Interlink
+interTwin-eu/interlink-kueue-plugin,Interlink
+interTwin-eu/interlink-monitoring-stack,Interlink
+interTwin-eu/interlink-slurm-plugin,Interlink
+interTwin-eu/interlink-unicore-plugin,Interlink
+interTwin-eu/vk-test-set,Interlink
 iotivity/ci-management,IoTivity
 iotivity/iotivity,IoTivity
 iotivity/iotivity-alljoyn-bridge,IoTivity
@@ -1396,6 +1391,10 @@ jetstack-experimental/cert-manager,cert-manager
 jetstack/cert-manager,cert-manager
 jldec/projectriff.io,Pivotal Riff
 joeythesaint/cgl-specification,Carrier Grade Linux
+jozu-ai/daggerverse,KitOps
+jozu-ai/gh-kit-setup,KitOps
+jozu-ai/kitops,KitOps
+jozu-ai/pykitops,KitOps
 kcp-dev/edge-mc,Kubestellar
 kebe7jun/mebpf,Merbridge
 kebe7jun/mepf,Merbridge
@@ -2807,6 +2806,7 @@ rethinkdb/rethinkdb-nix,RethinkDB
 rktproject/rkt,rkt
 second-state/SSVM,WasmEdge Runtime
 shizhMSFT/oras,ORAS
+solo-io/gloo,kgateway
 spdx/license-coverage-grader,SPDX
 spdx/license-list,SPDX
 spdx/license-list-XML,SPDX

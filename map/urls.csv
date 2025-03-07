@@ -48,11 +48,6 @@ AdaptiveCards,github.com/microsoft/AdaptiveCards
 Addons-Server,addons.mozilla.org
 Adlik,adlik.ai
 Adobe React Spectrum,react-spectrum.adobe.com
-Interlink,interwin.eu
-CozyStack,cozystack.io
-kgateway,kgateway.dev
-KitOps,kitops.ml
-Hyperlight,hyperlight.org
 Aeraki Mesh,aeraki.net
 AirSim,github.com/Microsoft/AirSim
 Airflow,airflow.incubator.apache.org
@@ -218,6 +213,7 @@ CoreOS,coreos.com
 Corsica,corsica.mozilla.io
 Cortex,github.com/cortexproject
 Cosmostation,cosmostation.io
+CozyStack,cozystack.io
 Crossplane,crossplane.io
 CubeFS,cubefs.io
 Curiefense,curiefense.io
@@ -375,6 +371,7 @@ Hugging Face,huggingface.co
 Hwameistor,hwameistor.io
 Hyper,hyper.is
 Hyperledger,hyperledger.org
+Hyperlight,hyperlight.org
 IBM Bluemix,bluemix.net
 IBM-Z-zOS,github.com/IBM/IBM-Z-zOS
 ICE,ice.work
@@ -397,6 +394,7 @@ Intel Neural Compressor,github.com/intel/neural-compressor
 Intel Open Source Technology Center,01.org
 Intel TPM,github.com/tpm2-software/tpm2-tools
 Intel Web Machine Learning,github.com/intel/webml-polyfill
+Interlink,interwin.eu
 IoTivity,www.iotivity.org
 Ionic,ionicframework.com
 Iron.io,iron.io
@@ -427,6 +425,7 @@ Keycloak,keycloak.org
 Keylime,keylime.dev
 Ki Foundation,foundation.ki
 Kinetic Open Storage,www.openkinetic.org
+KitOps,kitops.ml
 Kmesh,kmesh.net
 Knative,knative.dev
 Konveyor,konveyor.io
@@ -1098,6 +1097,7 @@ jvm-sandbox,github.com/alibaba/jvm-sandbox
 k0s,k0sproject.io
 k8dash,skooner.io
 kcp,kcp.io
+kgateway,kgateway.dev
 kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
 ko,ko.build

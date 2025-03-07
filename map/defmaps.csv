@@ -35,9 +35,6 @@ FreeBSD-UPB,FreeBSD
 FreeBSDDesktop,FreeBSD
 FreeBSDFoundation,FreeBSD
 FreeBSDRust,FreeBSD
-kgateway,kgateway
-k8sgateway,kgateway
-hyperligth-dev,Hyperlight
 FreeBSDWorkingBranch,FreeBSD
 FreeBSDonHyper-V,FreeBSD
 GoogleChrome,Chromium
@@ -277,6 +274,7 @@ huggingface,Hugging Face
 hwameistor,Hwameistor
 hyperledger,Hyperledger
 hyperledger-labs,Hyperledger
+hyperligth-dev,Hyperlight
 in-toto,in-toto
 inclavare-containers,Inclavare Containers
 influxdata,InfluxData
@@ -297,6 +295,7 @@ k0sproject,k0s
 k14s,Carvel
 k3s-io,K3s
 k8gb-io,K8GB
+k8sgateway,kgateway
 k8sgpt-ai,K8sGPT
 k8up-io,K8up
 kairos-io,Kairos
@@ -311,6 +310,7 @@ keptn,Keptn
 keybase,Keybase
 keycloak,Keycloak
 keylime,Keylime
+kgateway,kgateway
 kmesh-net,Kmesh
 knative,Knative
 knative-extensions,Knative
@@ -472,8 +472,8 @@ oras-project,ORAS
 ortelius,Ortelius
 oscal-compass,TrestleGRC
 osmandapp,Osmand
-ovn-org,OVN-Kubernetes
 ovn-kubernetes,OVN-Kubernetes
+ovn-org,OVN-Kubernetes
 owncloud,ownCloud
 p4lang,P4 Language
 parallaxsecond,PARSEC
