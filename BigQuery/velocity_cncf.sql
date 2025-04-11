@@ -73,7 +73,8 @@ where
       'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project', 'sermant-io',
       'kmesh-net', 'ovn-org', 'prometheus-community', 'tratteria', 'spinkube', 'k0sproject',
       'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes', 'kgateway-dev', 'k8sgateway',
-      'hyperlight-dev', 'cozystack', 'kitops-ml'
+      'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm',
+      'runmedev', 'tokenetes', 'bootc-dev', 'composefs'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',

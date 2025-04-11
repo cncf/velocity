@@ -79,6 +79,7 @@ ROCm,AMD ROCm
 ResurrectionRemix,Resurrection Remix
 Serverless-Devs,Serverless Devs
 ServerlessTool,Serverless Devs
+SlimPlanet,SlimFaaS
 Software Package Data Exchange,SPDX
 TP-Lab,TokenPocket Lab
 TarsCloud,TARS
@@ -122,6 +123,7 @@ bazelbuild,Bazel
 betaflight,Betaflight
 bfenetworks,BFE
 boostorg,Boost
+bootc-dev,bootc
 bpfd-dev,bpfman
 bpfman,bpfman
 brave,Brave Software
@@ -172,10 +174,12 @@ cni-genie,CNI-Genie
 cockroachdb,Cockroach Labs
 codeaurora-unofficial,Code Aurora
 codecombat,CodeCombat
+composefs,composefs
 concourse,Concourse
 conda-forge,conda-forge
 confidential-containers,Confidential Containers
 connectrpc,Connect
+container2wasm,container2wasm
 containernetworking,CNI
 coredns,CoreDNS
 coreos,CoreOS
@@ -519,6 +523,7 @@ riscv,RISC-V
 rook,Rook
 run-llama,LlamaIndex
 runatlantis,Atlantis
+runmedev,Runme Notebooks
 rust-lang,Rust
 rust-lang-nursery,Rust
 sakaiproject,Sakai
@@ -548,6 +553,7 @@ spatie,Spatie
 spdx,SPDX
 spidernet-io,Spiderpool
 spiffe,Spiffe
+spinframework,Spin
 spinkube,SpinKube
 spinnaker,Spinnaker
 spotify,Spotify
@@ -574,6 +580,7 @@ thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV
 tinkerbell,Tinkerbell
+tokenetes,Tratteria
 tratteria,Tratteria
 tremor-rs,Tremor
 trickstercache,Trickster
