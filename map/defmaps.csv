@@ -471,7 +471,10 @@ openstack-packages,OpenStack Packages
 openstack-snaps,OpenStack Snaps
 openstacknetsdk,OpenStack Net SDK
 openswitch,OpenSwitch
+opentffoundation,OpenTofu
 opentimelineio,ASWF OpenTimelineIO
+opentofu,OpenTofu
+openterraform,OpenTofu
 opentracing,OpenTracing
 openwrt,OpenWrt
 openyurtio,OpenYurt
@@ -582,8 +585,8 @@ thephpleague,League of Extraordinary Packages
 theupdateframework,TUF
 tikv,TiKV
 tinkerbell,Tinkerbell
-tokenetes,Tratteria
-tratteria,Tratteria
+tokenetes,Tokenetes
+tratteria,Tokenetes
 tremor-rs,Tremor
 trickstercache,Trickster
 tricksterproxy,Trickster
