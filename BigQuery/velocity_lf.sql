@@ -156,7 +156,7 @@ WHERE
       'aenix-io/talm', 'aenix-io/talos-bootstrap', 'aeniz-io/cozystack', 'aenix-io/kubernetes-in-kubernetes',
       'aenix-io/kubefarm', 'aenix-io/cozystack-website', 'aenix-io/cozy-proxy', 'aenix-io/cozystack-telemetry-server',
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
-      'jozu-ai/pykitops', 'solo-io/gloo'
+      'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp'
     )
   )
   and repo.name not in (
