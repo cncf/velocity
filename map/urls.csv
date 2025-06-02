@@ -149,6 +149,7 @@ CORD,opencord.org
 COSMOS,cosmos.network
 CRI-O,cri-o.io
 CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
+Cadence,cadenceworkflow.io
 Caffe,github.com/Microsoft/caffe
 CakePHP,cakephp.org
 CameraTraps,github.com/microsoft/CameraTraps
@@ -1097,6 +1098,7 @@ just,github.com/microsoft/just
 jvm-sandbox,github.com/alibaba/jvm-sandbox
 k0s,k0sproject.io
 k8dash,skooner.io
+kagent,kagent.dev
 kcp,kcp.io
 kgateway,kgateway.dev
 kitsune,github.com/mozilla/kitsune
@@ -1203,6 +1205,7 @@ tsiclient,github.com/microsoft/tsiclient
 udacity,udacity.com
 uform,github.com/alibaba/uform
 unitxt,unitxt.readthedocs.io
+urunc,urunc.io
 verona,github.com/microsoft/verona
 vgstation13,github.com/vgstation-coders/vgstation13
 vision-ai-developer-kit,github.com/microsoft/vision-ai-developer-kit

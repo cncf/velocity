@@ -134,6 +134,7 @@ buildpacks,Buildpacks
 buildpacks-community,Buildpacks
 c3os-io,Kairos
 c4cs,Computing for Computer Scientists
+cadence-workflow,Cadence
 cakephp,CakePHP
 carina-io,Carina
 cartography-cncf,Cartography
@@ -303,6 +304,7 @@ k8gb-io,K8GB
 k8sgateway,kgateway
 k8sgpt-ai,K8sGPT
 k8up-io,K8up
+kagent-dev,kagent
 kairos-io,Kairos
 kaito-project,KAITO
 kanisterio,Kanister
@@ -595,6 +597,7 @@ tungstenfabric,Tungsten Fabric
 twitter,Twitter
 uber,Uber Open Source
 unikraft,Unikraft
+urunc-dev,urunc
 v6d-io,Vineyard
 vercel,Vercel
 vfx-rs,ASWF Working Group for Rust Bindings

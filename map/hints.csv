@@ -2151,6 +2151,7 @@ mozilla/zippy,Firefox
 mudler/c3os,Kairos
 nirmata/kyverno,Kyverno
 noironetworks/cilium-net,Cilium
+nubificus/urunc,urunc
 oam-dev/kubevela,KubeVela
 oam-dev/kubevela-core-api,KubeVela
 oam-dev/kubevela-tutorials,KubeVela
@@ -2877,6 +2878,7 @@ twitter/finagle,Finagle
 twitter/finatra,Finatra
 twitter/heron,Heron
 twitter/scrooge,Scrooge
+uber/cadence,Cadence
 uber/jaeger,Jaeger
 utam0k/youki,Youki
 vmware-tanzu/antrea,Antrea

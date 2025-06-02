@@ -75,7 +75,7 @@ where
       'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes', 'kgateway-dev', 'k8sgateway',
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions',
-      'opentofu', 'opentffoundation', 'openterraform'
+      'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -133,7 +133,7 @@ where
       'ktock/container2wasm', 'stateful/runme', 'stateful/runme.dev', 'stateful/runmejs',
       'stateful/runme-web-extension', 'stateful/runme-action', 'stateful/docs.runme.dev',
       'stateful/runme-action-examples', 'stateful/mkdocs-runme-plugin', 'stateful/Runme-CDEs',
-      'stateful/runme-terramate-aws', 'stateful/terramate-runme-example',
+      'stateful/runme-terramate-aws', 'stateful/terramate-runme-example', 'uber/cadence',
       'stateful/runme-terramate-example', 'stateful/runme-foyle-ai', 'Azure/Fleet-PRSE',
       'Azure/fleet-networking', 'Azure/fleet', 'Azure/azure-rest-api-specs-fleet',
       'containers/podman', 'containers/buildah', 'containers/skopeo', 'containers/netavark',
@@ -147,7 +147,7 @@ where
       'aenix-io/talm', 'aenix-io/talos-bootstrap', 'aeniz-io/cozystack', 'aenix-io/kubernetes-in-kubernetes',
       'aenix-io/kubefarm', 'aenix-io/cozystack-website', 'aenix-io/cozy-proxy', 'aenix-io/cozystack-telemetry-server',
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
-      'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp'
+      'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc'
     )
   )
   and repo.name not in (
