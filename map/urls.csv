@@ -552,6 +552,7 @@ Microsoft eShopOnContainers,github.com/dotnet-architecture/eShopOnContainers
 MicrosoftDocs,docs.microsoft.com
 Mininet,mininet.org
 MixedRealityToolkit-Unity,github.com/microsoft/MixedRealityToolkit-Unity
+ModelPack,github.com/CloudNativeAI/model-spec
 MozDef,github.com/mozilla/MozDef
 Mozilla,mozilla.org
 Mozilla Common Voice,voice.mozilla.org
@@ -1236,6 +1237,7 @@ workload-collocation-agent,github.com/intel/workload-collocation-agent
 worldofbalance,github.com/worldofbalance
 x-deeplearning,github.com/alibaba/x-deeplearning
 xlang,github.com/microsoft/xlang
+xRegistry,xregistry.io
 yarn,yarnpkg.com
 zot,zotregistry.io
 zowe-cli-cics-deploy-plugin,github.com/IBM/zowe-cli-cics-deploy-plugin

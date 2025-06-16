@@ -83,7 +83,7 @@ WHERE
       'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes', 'kgateway-dev', 'k8sgateway',
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'opentofu',
-      'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev'
+      'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',

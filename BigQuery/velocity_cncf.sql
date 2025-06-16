@@ -75,7 +75,8 @@ where
       'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes', 'kgateway-dev', 'k8sgateway',
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions',
-      'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev'
+      'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
+      'xregistry', 'CloudNativeAI'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
