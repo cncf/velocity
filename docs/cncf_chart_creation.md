@@ -26,7 +26,7 @@ It will generate a file for example: `data/data_cncf_projects_20240101_20250101.
 
 Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` in this case):
 ```
-[SKIP_TOKENS=''] ruby analysis.rb data/data_cncf_projects_20240101_20250101.csv projects/projects_cncf_20240101_20250101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+[SKIP_TOKENS=''] FORKS_FILE=forks.json ruby analysis.rb data/data_cncf_projects_20240101_20250101.csv projects/projects_cncf_20240101_20250101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Some projects are defined as regexps inside one or more orgs - BQ query tracks their orgs and config specifies which repos go to which project. You need to remove remaining repos for those orgs from the report.
