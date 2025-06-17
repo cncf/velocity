@@ -1409,9 +1409,9 @@ kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes
 kubernetes-incubator/service-catalog,Kubernetes
+kubernetes-purgatory/headlamp,Headlamp
 kubernetes-sigs/cri-o,CRI-O
 kubernetes-sigs/headlamp,Headlamp
-kubernetes-purgatory/headlamp,Headlamp
 kubernetes/charts,Helm
 kubernetes/community,Kubernetes
 kubernetes/contrib,Kubernetes

@@ -22,8 +22,8 @@ ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
 ChromiumWebApps,Chromium
 CleverRaven,Cataclysm-DDA
-CloudNativeAI,ModelPack
 Cloud Native Computing Foundation,CNCF
+CloudNativeAI,ModelPack
 ContainerSSH,ContainerSSH
 Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
@@ -474,10 +474,10 @@ openstack-packages,OpenStack Packages
 openstack-snaps,OpenStack Snaps
 openstacknetsdk,OpenStack Net SDK
 openswitch,OpenSwitch
+openterraform,OpenTofu
 opentffoundation,OpenTofu
 opentimelineio,ASWF OpenTimelineIO
 opentofu,OpenTofu
-openterraform,OpenTofu
 opentracing,OpenTracing
 openwrt,OpenWrt
 openyurtio,OpenYurt
