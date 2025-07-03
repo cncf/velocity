@@ -9,19 +9,19 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./top30_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1bQ8hLa34RTeFlRCIZLQekw3hrjWygJhPmPwnWPeTq8A/edit?usp=sharing).
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1IJIh0E8S1mp2Qr9eA6z38oEl6IRgVGpS5w9uICLQUk4/edit?usp=sharing).
 
 ### Chart data
 Before you begin, clone the cncf/gitdm repo as you will use it in addition to velocity.
 
 #### In short
-To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets/d/1bQ8hLa34RTeFlRCIZLQekw3hrjWygJhPmPwnWPeTq8A/edit?usp=sharing).
+To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets/d/1IJIh0E8S1mp2Qr9eA6z38oEl6IRgVGpS5w9uICLQUk4/edit?usp=sharing).
 
 - Fetch all necessary data using BigQuery or use data already fetched present in this repo.
 - If fetched new BigQuery data then re-run the special projects BigQuery analysis scripts: `./shells`: `run_apache.sh`, `run_chrome_chromium.sh`, `run_cncf.sh`, `run_openstack.sh`.
 - To just regenerate all other data: run `./shells/unlimited_both.sh`
 - See per project ranks statistics: `reports/cncf_projects_ranks.txt`
-- Get final output file `projects/unlimited.csv` and import it on the [A50 cell](https://docs.google.com/spreadsheets/d/14ALEBOqyLZPudxaf7gAWZPBLjDy_RMiYwaobDdBYOLs/edit?usp=sharing).
+- Get final output file `projects/unlimited.csv` and import it on the [A50 cell](https://docs.google.com/spreadsheets/d/1IJIh0E8S1mp2Qr9eA6z38oEl6IRgVGpS5w9uICLQUk4/edit?usp=sharing).
 
 
 #### In detail
@@ -41,7 +41,7 @@ Run `analysis.rb` with
 [SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_projects_20240701_20250701.csv projects/projects_top30_20240701_20250701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1WhaELR_ijVGG53S_7Na8hXmOgNzuetF83cpXH4IVK2o/edit?usp=sharing).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1IJIh0E8S1mp2Qr9eA6z38oEl6IRgVGpS5w9uICLQUk4/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
@@ -168,6 +168,7 @@ Merge Requests: 371,5 pages * 20 = 7430
 
 - Run `./run_bq.sh cf 2024-07-01 2025-07-01 || echo 'error'` to get Cloud Foundry data. It will generate `data/data_cf_projects_20240701_20250701.csv` file.
 - Update (and eventually manually run) the CF case (in `shells/unlimited_20240701-20250701.sh`): `ruby merger.rb data/unlimited.csv data/data_cloudfoundry_202207_202407.csv force`
+- Probably no need to run this as it falls outside Top 100.
 
 
 ### OpenStack case
@@ -201,6 +202,7 @@ https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&fie
 - Now we need more data for Apache from their jira, first copy file from previous data range `cp data/data_apache_jira.csv data/data_apache_jira_20240701_20250701.csv`
 - New approach (works, but terribly slow): `./apache_jira.sh '2024-07-01 00:00:00' '2025-07-01 00:00:00'` and/or `[REST=1] ./apache_bugzilla.sh '2024-07-01 00:00:00' '2025-07-01 00:00:00'`. `REST=1` can be used once Apache Bugzilla switch to a newer REST API (not yet).
 - Final line for Apache should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20240701_20250701.csv -1`
+- Probably no need to run this as it falls outside Top 100.
 
 ### Chromium
 
@@ -237,11 +239,13 @@ Eventually/optionally add new rules to skip commits to `map/skip_commits.csv`
 Tool will output something like this: "After filtering: authors: 1637, commits: 67180" (following regular expressions matched/it had used).
 Update `data/data_chromium_bugtracker_20240701_20250701.csv` accordingly.
 - Final line should be `ruby update_projects.rb projects/unlimited_both.csv data/data_chromium_bugtracker_20240701_20250701.csv -1`
+- Probably no need to run this as it falls outside Top 100.
 
 ### OpenSUSE
 
 - Run `./run_bq.sh opensuse 2024-07-01 2025-07-01 || echo 'error'` to get OpenSure data. It will generate `data/data_opensuse_projects_20240701_20250701.csv` file.
 - Run `ruby merger.rb data/unlimited.csv data/data_opensuse_projects_20240701_20250701.csv`.
+- Probably no need to run this as it falls outside Top 100.
 
 ### AGL case (Automotive Grade Linux)
 
@@ -295,6 +299,7 @@ Found 7223 matching issues.
 Update `data/data_libreoffice_git_20240701_20250701.csv` accordingly.
 - New approach, use: `./libreoffice_bugzilla.sh '2024-07-01 00:00:00' '2025-07-01 00:00:00'` (terribly slow).
 - Final line should be: `ruby update_projects.rb projects/unlimited_both.csv data/data_libreoffice_git_20240701_20250701.csv -1`
+- Probably no need to run this as it falls outside Top 100.
 
 ### FreeBSD case
 
@@ -330,6 +335,7 @@ Authors:      335
 - Finally `ruby update_projects.rb projects/unlimited_both.csv ./data/data_freebsd_svn_20240701_20250701.csv`.
 - Use the above two values in a copy of this file: `data_freebsd_svn_20240701_20250701.csv`
 - Now rerun `shells/unlimited_20240701_20250701.sh` and see FreeBSD's rank along with the remaining final results.
+- Probably no need to run this as it falls outside Top 100.
 
 
 ### Remove non-code projects
