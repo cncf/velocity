@@ -68,3 +68,5 @@ run.log
 top*.log
 top*.err
 skip
+wget-log
+wget-log.*
