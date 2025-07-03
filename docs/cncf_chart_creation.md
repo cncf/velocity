@@ -38,7 +38,8 @@ Update forks files used for LF and Top30 generation: `./merge_forks.rb lf_forks.
 Now update commits counts to use git instead of BigQuery data: (remember to update `devstats:util_sql/only_bots.sql`).
 
 - If updated forks JSON(s) then generate devstats-reports docker image: `DOCKER_USER=lukaszgryglicki SKIP_TEST=1 SKIP_PROD=1 SKIP_FULL=1 SKIP_MIN=1 SKIP_GRAFANA=1 SKIP_TESTS=1 SKIP_PATRONI=1 SKIP_STATIC=1 SKIP_API=1 ./images/build_images.sh`.
-- Create `devstats-reports` pod, shell into it and run: `./velocity/update_cncf_projects_commits.sh 2024-07-01 2025-07-01 &>> /update.log &`, `tail -f /update.log`. This takes hours to complete.
+- Create reporting pod: `helm install devstats-prod-reports ./devstats-helm --set skipSecrets=1,skipPVs=1,skipBackupsPV=1,skipVacuum=1,skipBackups=1,skipBootstrap=1,skipProvisions=1,skipCrons=1,skipAffiliations=1,skipGrafanas=1,skipServices=1,skipPostgres=1,skipIngress=1,skipStatic=1,skipAPI=1,skipNamespaces=1,reportsPod=1,namespace='devstats-prod'`.
+- Shell into reports pod: `../devstats-k8s-lf/util/pod_shell.sh devstats-reports` and run: `./velocity/update_cncf_projects_commits.sh 2024-07-01 2025-07-01 &>> /update.log &`, `tail -f /update.log`. This takes hours to complete.
 - Download update: `wget https://teststats.cncf.io/backups/data_cncf_update_2024-07-01_2025-07-01.csv`. `mv data_cncf_update_2024-07-01_2025-07-01.csv data/`. The server can also be `devstats.cncf.io` instead of `teststats.cncf.io`.
 - Delete no more needed reporting pod: `helm delete devstats-prod-reports`.
 - `ruby update_projects.rb projects/projects_cncf_20240701_20250701.csv data/data_cncf_update_2024-07-01_2025-07-01.csv -1`.
