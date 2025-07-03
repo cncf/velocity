@@ -281,7 +281,7 @@ huggingface,Hugging Face
 hwameistor,Hwameistor
 hyperledger,Hyperledger
 hyperledger-labs,Hyperledger
-hyperligth-dev,Hyperlight
+hyperlight-dev,Hyperlight
 in-toto,in-toto
 inclavare-containers,Inclavare Containers
 influxdata,InfluxData
@@ -318,7 +318,7 @@ keptn,Keptn
 keybase,Keybase
 keycloak,Keycloak
 keylime,Keylime
-kgateway,kgateway
+kgateway-dev,kgateway
 kitops-ml,KitOps
 kmesh-net,Kmesh
 knative,Knative

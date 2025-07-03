@@ -22,7 +22,7 @@ then
 fi
 if [ -z "$REPOS" ]
 then
-  repos=`db.sh psql "${1}" -tAc "select distinct name from gha_repos"`
+  repos=$(db.sh psql "${1}" -tAc "select distinct name from gha_repos")
 else
   repos="${REPOS//[,\']/}"
 fi
