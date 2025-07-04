@@ -9,19 +9,19 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./top30_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1IJIh0E8S1mp2Qr9eA6z38oEl6IRgVGpS5w9uICLQUk4/edit?usp=sharing).
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1KBlQIBOO-i3GuAJd69lAWN5PMA8GxJfj3yKxFLyqGFg/edit?usp=sharing).
 
 ### Chart data
 Before you begin, clone the cncf/gitdm repo as you will use it in addition to velocity.
 
 #### In short
-To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets/d/1IJIh0E8S1mp2Qr9eA6z38oEl6IRgVGpS5w9uICLQUk4/edit?usp=sharing).
+To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets/d/1KBlQIBOO-i3GuAJd69lAWN5PMA8GxJfj3yKxFLyqGFg/edit?usp=sharing).
 
 - Fetch all necessary data using BigQuery or use data already fetched present in this repo.
 - If fetched new BigQuery data then re-run the special projects BigQuery analysis scripts: `./shells`: `run_apache.sh`, `run_chrome_chromium.sh`, `run_cncf.sh`, `run_openstack.sh`.
 - To just regenerate all other data: run `./shells/unlimited_both.sh`
 - See per project ranks statistics: `reports/cncf_projects_ranks.txt`
-- Get final output file `projects/unlimited.csv` and import it on the [A50 cell](https://docs.google.com/spreadsheets/d/1IJIh0E8S1mp2Qr9eA6z38oEl6IRgVGpS5w9uICLQUk4/edit?usp=sharing).
+- Get final output file `projects/unlimited.csv` and import it on the [A50 cell](https://docs.google.com/spreadsheets/d/1KBlQIBOO-i3GuAJd69lAWN5PMA8GxJfj3yKxFLyqGFg/edit?usp=sharing).
 
 
 #### In detail
@@ -41,7 +41,7 @@ Run `analysis.rb` with
 [SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_projects_20240701_20250701.csv projects/projects_top30_20240701_20250701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1IJIh0E8S1mp2Qr9eA6z38oEl6IRgVGpS5w9uICLQUk4/edit?usp=sharing).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1KBlQIBOO-i3GuAJd69lAWN5PMA8GxJfj3yKxFLyqGFg/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
