@@ -22,6 +22,7 @@ ChromeDevTools,Chromium
 ChromeExtensionStore,Chromium
 ChromiumWebApps,Chromium
 CleverRaven,Cataclysm-DDA
+ClickHouse,ClickHouse
 Cloud Native Computing Foundation,CNCF
 CloudNativeAI,ModelPack
 ContainerSSH,ContainerSSH
@@ -321,10 +322,6 @@ keylime,Keylime
 kgateway-dev,kgateway
 kitops-ml,KitOps
 kmesh-net,Kmesh
-vllm-project,vLLM
-modelcontextprotocol,Model Context Protocol
-langgenius,Lang Genius
-ClickHouse,ClickHouse
 knative,Knative
 knative-extensions,Knative
 knative-sandbox,Knative
@@ -381,6 +378,7 @@ kudobuilder,Kudo
 kumahq,Kuma
 kyverno,Kyverno
 langchain-ai,LangChain
+langgenius,Lang Genius
 laravel,Laravel
 letsencrypt,Let's Encrypt
 lf-edge,LF Edge
@@ -417,6 +415,7 @@ meteor,Meteor
 microcks,Microcks
 mininet,Mininet
 mitodl,MIT Office of Digital Learning
+modelcontextprotocol,Model Context Protocol
 mozilla,Mozilla
 mozilla-services,Mozilla Services
 mui-org,Material-UI
@@ -610,6 +609,7 @@ vfx-rs,ASWF Working Group for Rust Bindings
 vgstation-coders,vgstation13
 virtual-kubelet,Virtual Kubelet
 vitessio,Vitess
+vllm-project,vLLM
 vmware,VMware
 voidlinux,The Void distribution
 volcano-sh,Volcano

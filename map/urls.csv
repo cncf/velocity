@@ -95,6 +95,7 @@ Apple LLVM,llvm.org
 Application-Insights-Workbooks,github.com/microsoft/Application-Insights-Workbooks
 ArduPilot,ardupilot.org
 Argo,argoproj.github.io
+Arm Toolchain,github.com/arm/arm-toolchain
 Armada,armadaproject.io
 Arthas,alibaba.github.io/arthas
 Artifact Hub,artifacthub.io
@@ -155,6 +156,7 @@ CakePHP,cakephp.org
 CameraTraps,github.com/microsoft/CameraTraps
 Campaign finance for everyone,beta.fec.gov/data
 Canonical Charmcraft,github.com/canonical/charmcraft
+Canonical Craft,github.com/canonical/craft-application
 Canonical Kuberentes,github.com/canonical/k8s-snap
 Canonical Rockcraft,documentation.ubuntu.com/rockcraft
 Canonical Snapcraft,snapcraft.io
@@ -181,6 +183,7 @@ Chromium Blink,chromium.org/blink
 CicadaPlayer,github.com/alibaba/CicadaPlayer
 Cilium,cilium.io
 Civil Infrastructure Platform,www.cip-project.org
+ClickHouse,clickhouse.com
 Closure Library,code.google.com/closure/library
 Cloud Custodian,cloudcustodian.io
 Cloud Development Kit for Kubernetes,cdk8s.io
@@ -374,8 +377,6 @@ Hyper,hyper.is
 Hyperledger,hyperledger.org
 Hyperlight,hyperlight.org
 IBM Bluemix,bluemix.net
-Arm Toolchain,github.com/arm/arm-toolchain
-vLLM,github.com/vllm-project
 IBM-Z-zOS,github.com/IBM/IBM-Z-zOS
 ICE,ice.work
 IO Visor,www.iovisor.org
@@ -467,6 +468,7 @@ LF Energy,lfenergy.org
 LF Public Health,lfph.io
 LLVM,llvm.org
 LXD,canonical.com/lxd
+Lang Genius,github.com/langgenius
 LangChain,langchain.com
 Laravel,laravel.com
 League of Extraordinary Packages,thephpleague.com
@@ -554,6 +556,7 @@ Microsoft eShopOnContainers,github.com/dotnet-architecture/eShopOnContainers
 MicrosoftDocs,docs.microsoft.com
 Mininet,mininet.org
 MixedRealityToolkit-Unity,github.com/microsoft/MixedRealityToolkit-Unity
+Model Context Protocol,github.com/modelcontextprotocol
 ModelPack,github.com/CloudNativeAI/model-spec
 MozDef,github.com/mozilla/MozDef
 Mozilla,mozilla.org
@@ -617,6 +620,7 @@ Open Security Controller,www.opensecuritycontroller.org
 Open Service Mesh,openservicemesh.io
 Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
+Open UX Tools,github.com/SAP/open-ux-tools
 Open vSwitch,openvswitch.org
 OpenAI,openai.com
 OpenAI Triton backend for Intel GPUs,github.com/intel/intel-xpu-backend-for-triton
@@ -876,10 +880,6 @@ TrustWallet,trustwallet.com
 Tungsten Fabric,tungsten.io
 Twitter,twitter.com
 TypeScript,typescriptlang.org
-Model Context Protocol,github.com/modelcontextprotocol
-Lang Genius,github.com/langgenius
-Open UX Tools,github.com/SAP/open-ux-tools
-ClickHouse,clickhouse.com
 TypeScript-Node-Starter,github.com/microsoft/TypeScript-Node-Starter
 TypeScript-Website,github.com/microsoft/TypeScript-Website
 TypeScript-wiki,github.com/microsoft/TypeScript-wiki
@@ -1214,6 +1214,7 @@ udacity,udacity.com
 uform,github.com/alibaba/uform
 unitxt,unitxt.readthedocs.io
 urunc,urunc.io
+vLLM,github.com/vllm-project
 verona,github.com/microsoft/verona
 vgstation13,github.com/vgstation-coders/vgstation13
 vision-ai-developer-kit,github.com/microsoft/vision-ai-developer-kit

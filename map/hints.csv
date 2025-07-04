@@ -307,7 +307,6 @@ Microsoft/TypeScript,TypeScript
 Microsoft/TypeScript-Handbook,TypeScript
 Microsoft/TypeScript-Sublime-Plugin,TypeScript
 Microsoft/TypeScript-TmLanguage,TypeScript
-microsoft/typescript-go,TypeScript
 Microsoft/UWPCommunityToolkit,Microsoft UWP
 Microsoft/VSProjectSystem,VS Code
 Microsoft/VSSDK-Extensibility-Samples,VS Code
@@ -501,6 +500,7 @@ SAP/jenkins-library,jenkins-library
 SAP/karma-ui5,OpenUI5
 SAP/less-openui5,OpenUI5
 SAP/luigi,luigi
+SAP/open-ux-tools,Open UX Tools
 SAP/openui5,OpenUI5
 SAP/openui5-docs,OpenUI5
 SAP/openui5-fhir,OpenUI5
@@ -517,7 +517,6 @@ SAP/ui5-project,OpenUI5
 SAP/ui5-server,OpenUI5
 SAP/ui5-tooling,OpenUI5
 SAP/ui5-typescript,OpenUI5
-SAP/open-ux-tools,Open UX Tools
 SAP/ui5-uiveri5,OpenUI5
 SAP/ui5-webcomponents,OpenUI5
 SAP/ui5-webcomponents-react,OpenUI5
@@ -783,6 +782,7 @@ apple/swift-syntax,Swift
 apple/swift-system,Swift
 apple/swift-tools-support-core,Swift
 apple/swift-xcode-playground-support,Swift
+arm/arm-toolchain,Arm Toolchain
 armosec/kubescape,Kubescape
 aspnet/Docs,ASP.net Docs
 atlantisnorth/atlantis,Atlantis
@@ -824,6 +824,15 @@ canonical/charm-lxd,LXD
 canonical/charm-microcloud,LXD
 canonical/charmcraft,Canonical Charmcraft
 canonical/cloud-init,Canonical cloud-init
+canonical/craft-application,Canonical Craft
+canonical/craft-archives,Canonical Craft
+canonical/craft-artifacts,Canonical Craft
+canonical/craft-cli,Canonical Craft
+canonical/craft-grammar,Canonical Craft
+canonical/craft-parts,Canonical Craft
+canonical/craft-platforms,Canonical Craft
+canonical/craft-providers,Canonical Craft
+canonical/craft-store,Canonical Craft
 canonical/k8s-snap,Canonical Kuberentes
 canonical/lxd,LXD
 canonical/lxd-ci,LXD
@@ -1036,6 +1045,7 @@ coreos/prometheus,CoreOS
 coreos/prometheus-operator,CoreOS
 coreos/rkt,rkt
 coreos/rocket,rkt
+create-playwright,playwright
 cregit/cregit,cregit
 d3athrow/vgstation13,vgstation13
 danderson/metallb,MetalLB
@@ -1629,6 +1639,7 @@ microsoft/axe-pipelines-samples,axe-pipelines-samples
 microsoft/axe-windows,axe-windows
 microsoft/azure-databricks-operator,azure-databricks-operator
 microsoft/azure-iot-developer-kit,azure-iot-developer-kit
+microsoft/azure-linux-image-tools,Azure
 microsoft/azure-pipelines-agent,azure-pipelines-agent
 microsoft/azure-pipelines-extensions,azure-pipelines-extensions
 microsoft/azure-pipelines-image-generation,azure-pipelines-image-generation
@@ -1719,7 +1730,13 @@ microsoft/pai,pai
 microsoft/peek,Azure
 microsoft/perfview,PerfView
 microsoft/playwright,playwright
+microsoft/playwright-dotnet,VS Code
+microsoft/playwright-java,playwright
+microsoft/playwright-mcp,playwright
+microsoft/playwright-pytest,playwright
+microsoft/playwright-python,playwright
 microsoft/playwright-vscode,VS Code
+microsoft/playwright.dev,playwright
 microsoft/powerbi-powershell,powerbi-powershell
 microsoft/powerplatform-vscode,VS Code
 microsoft/presidio,presidio
@@ -1759,6 +1776,7 @@ microsoft/tsiclient,tsiclient
 microsoft/tslib,TypeScript
 microsoft/tslint-microsoft-contrib,TSLint
 microsoft/types-publisher,Microsoft (other)
+microsoft/typescript-go,TypeScript
 microsoft/vcpkg,VS Code
 microsoft/verona,verona
 microsoft/vision-ai-developer-kit,vision-ai-developer-kit
@@ -2812,7 +2830,6 @@ rktproject/rkt,rkt
 second-state/SSVM,WasmEdge Runtime
 shizhMSFT/oras,ORAS
 solo-io/gloo,kgateway
-arm/arm-toolchain,Arm Toolchain
 spdx/license-coverage-grader,SPDX
 spdx/license-list,SPDX
 spdx/license-list-XML,SPDX
