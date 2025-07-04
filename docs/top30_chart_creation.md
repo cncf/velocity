@@ -140,7 +140,7 @@ Run this from the velocity project's root folder again:
 
 ### CNCF Projects case
 
-- We have a line in `` ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv ata/data_cncf_projects_20240701_20250701.csv ``.
+- We have a line in `` ruby merger.rb data/unlimited.csv data/data_cncf_projects.csv` which needs to be changed to `ruby merger.rb data/unlimited.csv data/data_cncf_projects_20240701_20250701.csv ``.
 
 ### Gitlab
 

@@ -321,6 +321,10 @@ keylime,Keylime
 kgateway-dev,kgateway
 kitops-ml,KitOps
 kmesh-net,Kmesh
+vllm-project,vLLM
+modelcontextprotocol,Model Context Protocol
+langgenius,Lang Genius
+ClickHouse,ClickHouse
 knative,Knative
 knative-extensions,Knative
 knative-sandbox,Knative

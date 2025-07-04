@@ -307,6 +307,7 @@ Microsoft/TypeScript,TypeScript
 Microsoft/TypeScript-Handbook,TypeScript
 Microsoft/TypeScript-Sublime-Plugin,TypeScript
 Microsoft/TypeScript-TmLanguage,TypeScript
+microsoft/typescript-go,TypeScript
 Microsoft/UWPCommunityToolkit,Microsoft UWP
 Microsoft/VSProjectSystem,VS Code
 Microsoft/VSSDK-Extensibility-Samples,VS Code
@@ -516,6 +517,7 @@ SAP/ui5-project,OpenUI5
 SAP/ui5-server,OpenUI5
 SAP/ui5-tooling,OpenUI5
 SAP/ui5-typescript,OpenUI5
+SAP/open-ux-tools,Open UX Tools
 SAP/ui5-uiveri5,OpenUI5
 SAP/ui5-webcomponents,OpenUI5
 SAP/ui5-webcomponents-react,OpenUI5
@@ -2810,6 +2812,7 @@ rktproject/rkt,rkt
 second-state/SSVM,WasmEdge Runtime
 shizhMSFT/oras,ORAS
 solo-io/gloo,kgateway
+arm/arm-toolchain,Arm Toolchain
 spdx/license-coverage-grader,SPDX
 spdx/license-list,SPDX
 spdx/license-list-XML,SPDX

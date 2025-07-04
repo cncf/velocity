@@ -374,6 +374,8 @@ Hyper,hyper.is
 Hyperledger,hyperledger.org
 Hyperlight,hyperlight.org
 IBM Bluemix,bluemix.net
+Arm Toolchain,github.com/arm/arm-toolchain
+vLLM,github.com/vllm-project
 IBM-Z-zOS,github.com/IBM/IBM-Z-zOS
 ICE,ice.work
 IO Visor,www.iovisor.org
@@ -874,6 +876,10 @@ TrustWallet,trustwallet.com
 Tungsten Fabric,tungsten.io
 Twitter,twitter.com
 TypeScript,typescriptlang.org
+Model Context Protocol,github.com/modelcontextprotocol
+Lang Genius,github.com/langgenius
+Open UX Tools,github.com/SAP/open-ux-tools
+ClickHouse,clickhouse.com
 TypeScript-Node-Starter,github.com/microsoft/TypeScript-Node-Starter
 TypeScript-Website,github.com/microsoft/TypeScript-Website
 TypeScript-wiki,github.com/microsoft/TypeScript-wiki
