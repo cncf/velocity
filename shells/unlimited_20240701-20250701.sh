@@ -14,8 +14,6 @@ echo "Adding/Updating CNCF Projects"
 ruby merger.rb data/unlimited.csv data/data_cncf_projects_20240701_20250701.csv
 echo "Analysis"
 FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
-echo "Updating Apache Projects using Jira data"
-ruby update_projects.rb projects/unlimited_both.csv data/data_apache_jira_20240701_20250701.csv -1
 echo "Prioritizing LF projects data"
 PROJFMT=1 ruby update_projects.rb projects/unlimited_both.csv ./projects/projects_lf_20240701_20250701.csv -1
 echo "Prioritizing CNCF projects data"
