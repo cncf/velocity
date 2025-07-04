@@ -11,6 +11,7 @@
 /test/version_tmp/
 /tmp/
 /out
+/.venv/
 
 # Used by dotenv library to load environment variables.
 # .env
