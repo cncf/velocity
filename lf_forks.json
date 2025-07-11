@@ -12371,5 +12371,7 @@
   "hyperledger/fabric-x-committer": false,
   "jenkinsci/arestocats-plugin": false,
   "jenkinsci/svn-partial-release-mgr-plugin": true,
-  "flatcar/garm-provider-linode": false
+  "flatcar/garm-provider-linode": false,
+  "zephyrproject-rtos/libjaylink": false,
+  "cloudfoundry/servicebroker": false
 }
