@@ -9760,5 +9760,6 @@
   "kubestellar/presentations": false,
   "konveyor/tackle2-addon-platform": false,
   "WasmEdge/homebrew": false,
-  "bfenetworks/bfe-mock-waf": false
+  "bfenetworks/bfe-mock-waf": false,
+  "flatcar/garm-provider-linode": false
 }

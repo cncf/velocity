@@ -545,7 +545,7 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     project = sum['project']
     ract[project] = item[2][:items].map { |i| [i['activity'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rcomm[project] = item[2][:items].map { |i| [i['commits'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
-    rauth[project] = item[2][:items].map { |i| [i['authors'].split(',').uniq.count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
+    rauth[project] = item[2][:items].map { |i| [i['authors'].to_s.split(',').uniq.count, i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rprs[project] = item[2][:items].map { |i| [i['prs'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     riss[project] = item[2][:items].map { |i| [i['issues'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }
     rpush[project] = item[2][:items].map { |i| [i['pushes'], i['repo']] }.sort_by { |i| -i[0] }.map { |i| "#{i[1]},#{i[0]}" }

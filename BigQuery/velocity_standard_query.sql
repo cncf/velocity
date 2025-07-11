@@ -66,7 +66,8 @@ commits_flat AS (
     repo,
     org,
     JSON_VALUE(commit, '$.sha') AS sha,
-    LOWER(TRIM(REPLACE(JSON_VALUE(commit, '$.author.email'), '"', ''))) AS author_email
+    NULLIF(LOWER(TRIM(REPLACE(JSON_VALUE(commit, '$.author.email'), '"', ''))), '') AS author_email,
+    NULLIF(LOWER(TRIM(REPLACE(JSON_VALUE(commit, '$.author.name'), '"', ''))), '') AS author_name
   FROM
     base,
     UNNEST(
@@ -74,29 +75,24 @@ commits_flat AS (
     ) AS commit
 )
 SELECT
-  *,
-  '=' || CAST(authors_alt2 AS STRING) AS authors_alt1,
-  '=' || CAST(authors_alt2 AS STRING) AS authors,
-  pushes
-FROM (
-  SELECT
-    b.org,
-    b.repo,
-    COUNT(DISTINCT b.id) AS activity,
-    COUNT(DISTINCT IF(b.type IN ('IssueCommentEvent', 'PullRequestReviewCommentEvent', 'CommitCommentEvent', 'PullRequestReviewEvent'), b.id, NULL)) AS comments,
-    COUNT(DISTINCT IF(b.type = 'PullRequestEvent', b.id, NULL)) AS prs,
-    COUNT(DISTINCT c.sha) AS commits,
-    COUNT(DISTINCT IF(b.type = 'IssuesEvent', b.id, NULL)) AS issues,
-    COUNT(DISTINCT c.author_email) AS authors_alt2,
-    COUNT(DISTINCT IF(b.type = 'PushEvent', b.id, NULL)) AS pushes
-  FROM
-    base b
-  LEFT JOIN
-    commits_flat c
-  ON
-    b.repo = c.repo AND b.org = c.org
-  GROUP BY
-    b.org, b.repo
-)
+  b.org,
+  b.repo,
+  COUNT(DISTINCT b.id) AS activity,
+  COUNT(DISTINCT IF(b.type IN ('IssueCommentEvent', 'PullRequestReviewCommentEvent', 'CommitCommentEvent', 'PullRequestReviewEvent'), b.id, NULL)) AS comments,
+  COUNT(DISTINCT IF(b.type = 'PullRequestEvent', b.id, NULL)) AS prs,
+  COUNT(DISTINCT c.sha) AS commits,
+  COUNT(DISTINCT IF(b.type = 'IssuesEvent', b.id, NULL)) AS issues,
+  COUNT(DISTINCT c.author_email) AS authors_alt2,
+  STRING_AGG(DISTINCT c.author_name) AS authors_alt1,
+  STRING_AGG(DISTINCT c.author_email) AS authors,
+  COUNT(DISTINCT IF(b.type = 'PushEvent', b.id, NULL)) AS pushes
+FROM
+  base b
+LEFT JOIN
+  commits_flat c
+ON
+  b.repo = c.repo AND b.org = c.org
+GROUP BY
+  b.org, b.repo
 ORDER BY
   activity DESC
