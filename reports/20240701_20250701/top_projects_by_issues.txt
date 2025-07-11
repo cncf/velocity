@@ -6,8 +6,8 @@ Top projects by issues:
 5) dotnet (microsoft.com/net) issues: 27107
 6) Caseflow (va.gov) issues: 24789
 7) DaoCloud issues: 24546
-8) pytorch (pytorch.org) issues: 20315
-9) OpenTelemetry (opentelemetry.io) issues: 16490
+8) pytorch (pytorch.org) issues: 20316
+9) OpenTelemetry (opentelemetry.io) issues: 16363
 10) bcgov issues: 15432
 11) Home Assistant (home-assistant.io) issues: 14951
 12) Kubernetes (kubernetes.io) issues: 14581
@@ -95,7 +95,7 @@ Top projects by issues:
 94) BSData issues: 3984
 95) foundryvtt issues: 3957
 96) Azure SDKs (azure.microsoft.com) issues: 3940
-97) Hyperledger (hyperledger.org) issues: 3929
+97) Hyperledger (hyperledger.org) issues: 3933
 98) modelscope issues: 3912
 99) ollama issues: 3909
 100) microsoft issues: 3834

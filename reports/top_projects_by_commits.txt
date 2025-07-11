@@ -1,10 +1,10 @@
 Top projects by commits:
 1) regro commits: 231347
-2) FlashUSDTSenderSoftware commits: 182158
-3) Datadog (datadog.com) commits: 164657
-4) MetaMask commits: 142824
-5) ExpediaGroup commits: 118158
-6) pytorch (pytorch.org) commits: 117559
+2) pytorch (pytorch.org) commits: 183529
+3) FlashUSDTSenderSoftware commits: 182158
+4) Datadog (datadog.com) commits: 164657
+5) MetaMask commits: 142824
+6) ExpediaGroup commits: 118158
 7) Homebrew (brew.sh) commits: 106728
 8) Grafana Labs (grafana.com) commits: 100027
 9) JohnSnowLabs commits: 97389
@@ -14,88 +14,88 @@ Top projects by commits:
 13) Google APIs (googleapis.github.io) commits: 88814
 14) Nextcloud (nextcloud.com) commits: 88204
 15) Sentry (sentry.io) commits: 87735
-16) NixOS (nixos.org) commits: 72446
-17) LLVM (llvm.org) commits: 72325
-18) Odoo (odoo.com) commits: 71710
-19) Caseflow (va.gov) commits: 69116
-20) Linux (kernel.org) commits: 68608
-21) openfoodfacts commits: 68118
-22) tenstorrent commits: 67668
-23) airbytehq commits: 64079
-24) React (facebook.com) commits: 61134
-25) tscircuit commits: 60267
-26) SteamAutoCracks commits: 59301
-27) cloudflare commits: 53825
-28) Azure/azure-docs-sdk-dotnet commits: 51208
-29) OpenTofu (opentofu.org) commits: 48763
-30) AdguardTeam commits: 48600
-31) bcgov commits: 48539
-32) PostHog commits: 48146
-33) openaps commits: 45529
-34) camunda commits: 43332
-35) Hugging Face (huggingface.co) commits: 43306
-36) ansys commits: 43159
-37) ethereum-optimism commits: 42610
-38) dfinity commits: 42255
-39) suttacentral commits: 42089
-40) braze-inc commits: 42049
-41) canonical commits: 42026
-42) layer5labs commits: 41675
-43) pulumi commits: 41453
-44) Kubernetes (kubernetes.io) commits: 40946
-45) smartcontractkit commits: 39574
-46) openedx commits: 39289
-47) input-output-hk commits: 37591
-48) woocommerce commits: 36408
-49) VS Code (code.visualstudio.com) commits: 35320
-50) CliMA commits: 34692
-51) AMD ROCm (rocm.docs.amd.com) commits: 34074
-52) OpenShift (openshift.com) commits: 33229
-53) easylist commits: 32563
-54) Automattic commits: 32540
-55) wolfi-dev commits: 32316
-56) metabase commits: 32218
-57) bitnami commits: 32097
-58) deckhouse commits: 31846
-59) Home Assistant (home-assistant.io) commits: 31732
-60) MystenLabs commits: 31355
-61) CDCgov commits: 31129
-62) harvestfi commits: 30997
-63) insightsengineering commits: 30363
-64) Vercel (vercel.com) commits: 29913
-65) OpenTelemetry (opentelemetry.io) commits: 29584
-66) terraform-ibm-modules commits: 29377
-67) factiverse commits: 29218
-68) MCDReforged commits: 28930
-69) ucsb-cs156-f24 commits: 28550
-70) Altinn commits: 28460
-71) hashgraph commits: 28274
-72) ydb-platform commits: 28110
-73) PennyLaneAI commits: 27927
-74) graphprotocol commits: 26843
-75) LangChain (langchain.com) commits: 26834
-76) Zowe (zowe.org) commits: 26545
-77) ls1intum commits: 26539
-78) LedgerHQ commits: 26322
-79) bitwarden commits: 26213
-80) AztecProtocol commits: 25730
-81) duckduckgo commits: 25688
-82) 51Degrees commits: 25605
-83) WordPress (wordpress.org) commits: 25175
-84) rancher commits: 25007
-85) paritytech commits: 24965
-86) vaadin commits: 24952
-87) Azure SDKs (azure.microsoft.com) commits: 24509
-88) mozilla-l10n commits: 24458
-89) Kong commits: 24185
-90) wandb commits: 24179
-91) n8n-io commits: 24138
-92) ucsb-cs156-s25 commits: 24063
-93) IntersectMBO commits: 24052
-94) Cloudflare-Mining commits: 23940
-95) starkware-libs commits: 23922
-96) FuelLabs commits: 23761
-97) 100-hours-a-week commits: 23760
-98) defenseunicorns commits: 23379
-99) ClickHouse (clickhouse.com) commits: 23167
-100) woowacourse-teams commits: 22914
+16) Kubernetes (kubernetes.io) commits: 82773
+17) NixOS (nixos.org) commits: 72446
+18) LLVM (llvm.org) commits: 72325
+19) Odoo (odoo.com) commits: 71710
+20) Caseflow (va.gov) commits: 69116
+21) Linux (kernel.org) commits: 68608
+22) openfoodfacts commits: 68118
+23) tenstorrent commits: 67668
+24) airbytehq commits: 64079
+25) React (facebook.com) commits: 61134
+26) tscircuit commits: 60267
+27) SteamAutoCracks commits: 59301
+28) cloudflare commits: 53825
+29) Azure/azure-docs-sdk-dotnet commits: 51208
+30) OpenTofu (opentofu.org) commits: 48763
+31) AdguardTeam commits: 48600
+32) bcgov commits: 48539
+33) PostHog commits: 48146
+34) openaps commits: 45529
+35) OpenTelemetry (opentelemetry.io) commits: 44956
+36) camunda commits: 43332
+37) Hugging Face (huggingface.co) commits: 43306
+38) ansys commits: 43159
+39) ethereum-optimism commits: 42610
+40) dfinity commits: 42255
+41) suttacentral commits: 42089
+42) braze-inc commits: 42049
+43) canonical commits: 42026
+44) layer5labs commits: 41675
+45) pulumi commits: 41453
+46) smartcontractkit commits: 39574
+47) openedx commits: 39289
+48) input-output-hk commits: 37591
+49) woocommerce commits: 36408
+50) Backstage (backstage.io) commits: 35404
+51) VS Code (code.visualstudio.com) commits: 35320
+52) CliMA commits: 34692
+53) Zowe (zowe.org) commits: 34484
+54) AMD ROCm (rocm.docs.amd.com) commits: 34074
+55) OpenShift (openshift.com) commits: 33229
+56) easylist commits: 32563
+57) Automattic commits: 32540
+58) Cilium (cilium.io) commits: 32325
+59) wolfi-dev commits: 32316
+60) metabase commits: 32218
+61) bitnami commits: 32097
+62) deckhouse commits: 31846
+63) Home Assistant (home-assistant.io) commits: 31732
+64) MystenLabs commits: 31355
+65) CDCgov commits: 31129
+66) harvestfi commits: 30997
+67) Cloud Foundry (cloudfoundry.org) commits: 30391
+68) insightsengineering commits: 30363
+69) Vercel (vercel.com) commits: 29913
+70) terraform-ibm-modules commits: 29377
+71) factiverse commits: 29218
+72) MCDReforged commits: 28930
+73) ucsb-cs156-f24 commits: 28550
+74) Altinn commits: 28460
+75) hashgraph commits: 28274
+76) ydb-platform commits: 28110
+77) PennyLaneAI commits: 27927
+78) OpenFeature (openfeature.dev) commits: 27009
+79) graphprotocol commits: 26843
+80) LangChain (langchain.com) commits: 26834
+81) ls1intum commits: 26539
+82) LedgerHQ commits: 26322
+83) bitwarden commits: 26213
+84) AztecProtocol commits: 25730
+85) duckduckgo commits: 25688
+86) Node.js (nodejs.org) commits: 25620
+87) 51Degrees commits: 25605
+88) WordPress (wordpress.org) commits: 25175
+89) rancher commits: 25007
+90) paritytech commits: 24965
+91) vaadin commits: 24952
+92) Azure SDKs (azure.microsoft.com) commits: 24509
+93) mozilla-l10n commits: 24458
+94) KubeVirt (kubevirt.io) commits: 24224
+95) Kong commits: 24185
+96) wandb commits: 24179
+97) n8n-io commits: 24138
+98) ucsb-cs156-s25 commits: 24063
+99) IntersectMBO commits: 24052
+100) Cloudflare-Mining commits: 23940

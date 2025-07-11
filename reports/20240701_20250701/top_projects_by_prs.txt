@@ -1,9 +1,9 @@
 Top projects by prs:
 1) NixOS (nixos.org) prs: 73436
 2) Linux (kernel.org) prs: 71554
-3) pytorch (pytorch.org) prs: 64067
-4) OpenTelemetry (opentelemetry.io) prs: 42744
-5) Kubernetes (kubernetes.io) prs: 38346
+3) pytorch (pytorch.org) prs: 64070
+4) OpenTelemetry (opentelemetry.io) prs: 41572
+5) Kubernetes (kubernetes.io) prs: 38344
 6) LLVM (llvm.org) prs: 38027
 7) Datadog (datadog.com) prs: 32545
 8) dotnet (microsoft.com/net) prs: 30483
@@ -45,7 +45,7 @@ Top projects by prs:
 44) swiftlang prs: 10560
 45) AMD ROCm (rocm.docs.amd.com) prs: 10510
 46) Ansible (ansible.com) prs: 10327
-47) Hyperledger (hyperledger.org) prs: 10185
+47) Hyperledger (hyperledger.org) prs: 10197
 48) sonic-net prs: 10072
 49) Cockroach Labs (cockroachlabs.com) prs: 9969
 50) 100-hours-a-week prs: 9943
@@ -67,35 +67,35 @@ Top projects by prs:
 66) Flutter (flutter.io) prs: 8925
 67) DefiLlama (defillama.com) prs: 8865
 68) Ethereum (ethereum.org) prs: 8851
-69) Atlantis (runatlantis.io) prs: 8847
-70) Jenkins (jenkins.io) prs: 8775
-71) prgrms-web-devcourse-final-project prs: 8606
-72) terraform-ibm-modules prs: 8525
-73) gravitational prs: 8467
-74) ClickHouse (clickhouse.com) prs: 8356
-75) Godot Engine (godotengine.org) prs: 8352
-76) Cloud Foundry (cloudfoundry.org) prs: 8283
-77) trunk-io prs: 8043
-78) ethereum-optimism prs: 7922
-79) Keycloak (keycloak.org) prs: 7745
-80) astral-sh prs: 7691
-81) PingCAP (github.com/pingcap) prs: 7425
-82) WP Calypso (developer.wordpress.com/calypso) prs: 7423
-83) equinor prs: 7401
-84) apache/airflow prs: 7234
-85) gRPC (grpc.io) prs: 7160
-86) pulumi prs: 7159
-87) Kernel360 prs: 7119
-88) bitwarden prs: 7038
-89) frappe prs: 6982
-90) WordPress (wordpress.org) prs: 6907
-91) woowacourse-teams prs: 6813
-92) supabase prs: 6757
-93) New Relic (opensource.newrelic.com) prs: 6737
-94) web-infra-dev prs: 6723
-95) space-wizards prs: 6722
-96) sigstore (sigstore.dev) prs: 6686
-97) mate-academy prs: 6674
-98) boostcampwm-2024 prs: 6665
-99) cloudflare prs: 6660
-100) Meshery (layer5.io/meshery) prs: 6655
+69) Jenkins (jenkins.io) prs: 8781
+70) prgrms-web-devcourse-final-project prs: 8606
+71) terraform-ibm-modules prs: 8525
+72) gravitational prs: 8467
+73) ClickHouse (clickhouse.com) prs: 8356
+74) Godot Engine (godotengine.org) prs: 8352
+75) Cloud Foundry (cloudfoundry.org) prs: 8329
+76) trunk-io prs: 8043
+77) ethereum-optimism prs: 7922
+78) Keycloak (keycloak.org) prs: 7745
+79) astral-sh prs: 7691
+80) PingCAP (github.com/pingcap) prs: 7425
+81) WP Calypso (developer.wordpress.com/calypso) prs: 7423
+82) equinor prs: 7401
+83) apache/airflow prs: 7234
+84) gRPC (grpc.io) prs: 7160
+85) pulumi prs: 7159
+86) Kernel360 prs: 7119
+87) bitwarden prs: 7038
+88) frappe prs: 6982
+89) WordPress (wordpress.org) prs: 6907
+90) woowacourse-teams prs: 6813
+91) supabase prs: 6757
+92) New Relic (opensource.newrelic.com) prs: 6737
+93) web-infra-dev prs: 6723
+94) space-wizards prs: 6722
+95) sigstore (sigstore.dev) prs: 6694
+96) mate-academy prs: 6674
+97) boostcampwm-2024 prs: 6665
+98) cloudflare prs: 6660
+99) Meshery (layer5.io/meshery) prs: 6654
+100) dagster-io prs: 6467

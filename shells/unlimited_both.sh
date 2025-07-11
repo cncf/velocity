@@ -1,9 +1,10 @@
 #!/bin/sh
 if [ ! -z "GENERATE" ]
 then
-  ./run_bq_standard.sh top30 20240701 20250101
-  ./run_bq_standard.sh top30 20250101 20250701
-  OUT=data/data_top30_projects_20240701_20250701.csv ./merge_bq.rb data/data_top30_projects_20240701_20250101.csv data/data_top30_projects_20250101_20250701.csv
+  # ./run_bq_standard.sh top30 20240701 20250101
+  # ./run_bq_standard.sh top30 20250101 20250701
+  # OUT=data/data_top30_projects_20240701_20250701.csv ./merge_bq.rb data/data_top30_projects_20240701_20250101.csv data/data_top30_projects_20250101_20250701.csv
+  ./run_bq_standard.sh top30 20240701 20250701
 fi
 echo "Restoring BigQuery output"
 cp data/data_top30_projects_20240701_20250701.csv data/unlimited.csv
