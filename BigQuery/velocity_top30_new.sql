@@ -61,16 +61,15 @@ WITH base AS (
 ),
 commits_flat AS (
   SELECT
-    repo,
-    org,
+    id,
     JSON_VALUE(commit, '$.sha') AS sha,
     NULLIF(LOWER(TRIM(REPLACE(JSON_VALUE(commit, '$.author.email'), '"', ''))), '') AS author_email,
     NULLIF(LOWER(TRIM(REPLACE(JSON_VALUE(commit, '$.author.name'), '"', ''))), '') AS author_name
   FROM
     base,
-    UNNEST(
-      IF(type = 'PushEvent', JSON_EXTRACT_ARRAY(payload, '$.commits'), [])
-    ) AS commit
+    UNNEST(JSON_EXTRACT_ARRAY(payload, '$.commits')) AS commit
+  WHERE
+    type = 'PushEvent'
 )
 SELECT
   b.org,
@@ -89,7 +88,7 @@ FROM
 LEFT JOIN
   commits_flat c
 ON
-  b.repo = c.repo AND b.org = c.org
+  b.id = c.id
 GROUP BY
   b.org, b.repo
 HAVING
