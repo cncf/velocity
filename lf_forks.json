@@ -12370,5 +12370,6 @@
   "jenkinsci/javancss-plugin": false,
   "hyperledger/fabric-x-committer": false,
   "jenkinsci/arestocats-plugin": false,
-  "jenkinsci/svn-partial-release-mgr-plugin": true
+  "jenkinsci/svn-partial-release-mgr-plugin": true,
+  "flatcar/garm-provider-linode": false
 }
