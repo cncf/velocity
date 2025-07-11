@@ -73,14 +73,7 @@ commits_flat AS (
     ) AS commit
 )
 SELECT
-  org,
-  repo,
-  activity,
-  comments,
-  prs,
-  commits,
-  issues,
-  authors_alt2,
+  *,
   '=' || CAST(authors_alt2 AS STRING) AS authors_alt1,
   '=' || CAST(authors_alt2 AS STRING) AS authors,
   pushes
