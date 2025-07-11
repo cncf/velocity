@@ -16,7 +16,7 @@ Go to this [LF page](https://www.linuxfoundation.org/projects/) to find a list o
 
 For every project, find a github repo and add it to a [query](BigQuery/velocity_lf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `./run_bq.sh lf 2024-07-01 2025-07-01`. It takes about 1+TB and costs about $15-$25.
+Run the query for a year, for example: `[DBG=1] ./run_bq_templated.sh lf 20240701 20250701`.
 
 It will generate a file for example: `data/data_lf_projects_20240701_20250701.csv`.
 

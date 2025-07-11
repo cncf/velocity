@@ -28,10 +28,10 @@ To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets
 
 Update BigQuery [query file](BigQuery/velocity_top30.sql). If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year date range, for example: `./run_bq.sh top30 2024-07-01 2025-07-01`. It takes about 1+TB and costs about $15-$25+.
-Or run the query for a specified year, for example: `./run_bq_year.sh top30_year 2024`. It takes about 1+TB and costs about $15-$25+.
+Run the query for a year date range, for example: `./run_bq_standard.sh top30_new 20240701 20250701`. It takes about 1+TB and costs about $15-$25+.
+Or run the query for a specified year, for example (outdated/needs checks of updating to standardSQL): `./run_bq_year.sh top30_year 2024`. It takes about 1+TB and costs about $15-$25+.
 - It can happen that it is not possible to get data for all year in one call, you can do in two parts each 6 months for example and later merge via:
-- `` ./run_bq.sh top30 2024-07-01 2025-01-01; ./run_bq.sh top30 2025-01-01 2025-07-01; OUT=data/data_top30_projects_20240701_20250701.csv ./merge_bq.rb data/data_top30_projects_20240701_20250101.csv data/data_top30_projects_20250101_20250701.csv ``.
+- `` ./run_bq_standard.sh top30_new 20240701 20250101; ./run_bq_standard.sh top30_new 20250101 20250701; OUT=data/data_top30_projects_20240701_20250701.csv ./merge_bq.rb data/data_top30_projects_20240701_20250101.csv data/data_top30_projects_20250101_20250701.csv ``.
 - Note that it takes many minutes, so it shoudl run in teh background and be monitored.
 
 It will generate a file for example: `data/data_top30_projects_20240701_20250701.csv` or `data/data_top30_2024.csv`.
@@ -166,7 +166,7 @@ Merge Requests: 371,5 pages * 20 = 7430
 
 ### CloudFoundry
 
-- Run `./run_bq.sh cf 2024-07-01 2025-07-01 || echo 'error'` to get Cloud Foundry data. It will generate `data/data_cf_projects_20240701_20250701.csv` file.
+- Run `./run_bq_templated.sh cf 20240701 20250701 || echo 'error'` to get Cloud Foundry data. It will generate `data/data_cf_projects_20240701_20250701.csv` file.
 - Update (and eventually manually run) the CF case (in `shells/unlimited_20240701-20250701.sh`): `ruby merger.rb data/unlimited.csv data/data_cloudfoundry_202207_202407.csv force`
 - Probably no need to run this as it falls outside Top 100.
 
@@ -197,7 +197,7 @@ https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&fie
 
 ### Apache
 
-- Run `./run_bq.sh apache 2024-07-01 2025-07-01 || echo 'error'` to get Apache data. It will generate `data/data_apache_projects_20240701_20250701.csv` file.
+- Run `./run_bq_templated.sh apache 20240701 20250701 || echo 'error'` to get Apache data. It will generate `data/data_apache_projects_20240701_20250701.csv` file.
 - `ruby merger.rb data/unlimited.csv data/data_apache_projects_20240701_20250701.csv`.
 - Now we need more data for Apache from their jira, first copy file from previous data range `cp data/data_apache_jira.csv data/data_apache_jira_20240701_20250701.csv`
 - New approach (works, but terribly slow): `./apache_jira.sh '2024-07-01 00:00:00' '2025-07-01 00:00:00'` and/or `[REST=1] ./apache_bugzilla.sh '2024-07-01 00:00:00' '2025-07-01 00:00:00'`. `REST=1` can be used once Apache Bugzilla switch to a newer REST API (not yet).
@@ -206,7 +206,7 @@ https://bugs.launchpad.net/searchlight/+bugs?field.searchtext=&search=Search&fie
 
 ### Chromium
 
-- Run `./run_bq.sh chromium 2024-07-01 2025-07-01 || echo 'error'` to get Chromium data. It will generate `data/data_chromium_projects_20240701_20250701.csv` file.
+- Run `./run_bq_templated.sh chromium 20240701 20250701 || echo 'error'` to get Chromium data. It will generate `data/data_chromium_projects_20240701_20250701.csv` file.
 - Merge data `ruby merger.rb data/unlimited.csv data/data_chromium_projects_20240701_20250701.csv`.
 - Now the manual part: `cp data/data_chromium_bugtracker.csv data/data_chromium_bugtracker_20240701_20250701.csv` (we need to update this file)
 - Get Issues from their [bug tracker](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=opened%3E2016%2F7%2F25&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids).
@@ -243,7 +243,7 @@ Update `data/data_chromium_bugtracker_20240701_20250701.csv` accordingly.
 
 ### OpenSUSE
 
-- Run `./run_bq.sh opensuse 2024-07-01 2025-07-01 || echo 'error'` to get OpenSure data. It will generate `data/data_opensuse_projects_20240701_20250701.csv` file.
+- Run `./run_bq_templated.sh opensuse 20240701 20250701 || echo 'error'` to get OpenSure data. It will generate `data/data_opensuse_projects_20240701_20250701.csv` file.
 - Run `ruby merger.rb data/unlimited.csv data/data_opensuse_projects_20240701_20250701.csv`.
 - Probably no need to run this as it falls outside Top 100.
 
@@ -278,7 +278,7 @@ Processed 7152 csets from 365 developers
 
 ### LibreOffice case
 
-- Run `./run_bq.sh libreoffice 2024-07-01 2025-07-01 || echo 'error'` to get LibreOffice data. It will generate `data/data_libreoffice_projects_20240701_20250701.csv` file.
+- Run `./run_bq_templated.sh libreoffice 20240701 20250701 || echo 'error'` to get LibreOffice data. It will generate `data/data_libreoffice_projects_20240701_20250701.csv` file.
 - Run `ruby merger.rb data/unlimited.csv data/data_libreoffice_projects_20240701_20250701.csv`.
 - Now git repo analysis:, first copy `cp data/data_libreoffice_git.csv data/data_libreoffice_git_20240701_20250701.csv` and we will update the `data/data_libreoffice_git_20240701_20250701.csv` file
 - Get source code: https://www.libreoffice.org/about-us/source-code/, for example: `git clone git://anongit.freedesktop.org/libreoffice/core` in `~/dev/`. If repo already cloned, do `cd core`, `git pull`
@@ -303,7 +303,7 @@ Update `data/data_libreoffice_git_20240701_20250701.csv` accordingly.
 
 ### FreeBSD case
 
-- New approach: Run `./run_bq.sh freebsd 2024-07-01 2025-07-01 || echo 'error'` to get FreeBSD data. It will generate `data/data_freebsd_projects_20240701_20250701.csv` file.
+- New approach: Run `./run_bq_templated.sh freebsd 20240701 20250701 || echo 'error'` to get FreeBSD data. It will generate `data/data_freebsd_projects_20240701_20250701.csv` file.
 - Run `ruby merger.rb data/unlimited.csv data/data_freebsd_projects_20240701_20250701.csv`.
 - Use `BigQuery/org_finder.sql` (with condition '%freebsd%' to find FreeBSD orgs). Check all of them on GitHub and create final BigQuery:
 - `cp BigQuery/query_apache_projects.sql BigQuery/query_freebsd_projects.sql` and update conditions, run query, download results, put them in `data/data_freebsd_projects20240701_20250701.csv` (if there aren't many rows, just Download as CSV, otherwise: save as table, export to gstorage, download csv)
