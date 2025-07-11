@@ -370,11 +370,13 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     org = h['org']
     next if skip_orgs.key? org
 
+    h['authors'] = '' if h['authors'].nil?
     a = h['authors']
     if a[0] == '=' && a[1..-1].to_i > 0
       n = a[1..-1].to_i
       h['authors'] = (1..n).to_a.join(',')
     end
+    h['authors_alt1'] = '' if h['authors_alt1'].nil?
     a = h['authors_alt1']
     if a[0] == '=' && a[1..-1].to_i > 0
       n = a[1..-1].to_i
@@ -508,8 +510,9 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
       else
         puts "Very Alternate value used: #{org[:sum]['authors_alt2']}"
         org[:sum]['authors'] = org[:sum]['authors_alt2']
+        binding.pry if org[:sum]['authors'] > 0
       end
-      binding.pry
+      # binding.pry
     end
   end
 
