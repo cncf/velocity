@@ -1417,6 +1417,8 @@ kinvolk/inspektor-gadget,Inspektor Gadget
 kinvolk/mantle,Flatcar
 knative/build,Tekton
 ktock/container2wasm,container2wasm
+kubeflow/kfserving,KServe
+kubeflow/kfserving-lts,KServe
 kubernetes-incubator/bootkube,Kubernetes
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes

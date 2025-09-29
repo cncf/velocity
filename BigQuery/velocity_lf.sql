@@ -71,7 +71,7 @@ WHERE
       'carvel-dev', 'inspektor-gadget', 'clusternet', 'cdevents', 'ortelius', 'pyrsia', 'screwdriver-cd',
       'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh', 'tellerops', 'headlamp-k8s',
       'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd', 'xline-kv', 'hwameistor', 'microcks',
-      'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community', 'getsops', 'eraser-dev',
+      'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community', 'getsops', 'eraser-dev', 'kserve',
       'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev', 'kcl-lang', 'projectcapsule',
       'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar', 'megaease', 'spidernet-io', 'k8sgpt-ai',
       'chaos-kubox', 'KubeStellar', 'kptdev', 'redhat-chaos', 'OpenMetrics', 'openmetrics', 'open-gitops',

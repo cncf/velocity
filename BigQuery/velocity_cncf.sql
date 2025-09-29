@@ -57,7 +57,7 @@ where
       'clusterpedia-io', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature', 'krkn-chaos',
       'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela',
       'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib', 'Serverless-Devs',
-      'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
+      'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio', 'kserve',
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'tellerops',
       'project-zot', 'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb',
       'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet', 'sealerio', 'keycloak', 'armadaproject',
