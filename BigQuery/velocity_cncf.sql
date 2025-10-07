@@ -76,7 +76,7 @@ where
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions',
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
-      'xregistry', 'CloudNativeAI', 'modelpack'
+      'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -88,7 +88,7 @@ where
       'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas',' ppatierno/kaas',
       'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
-      'containerfilesystem/doc-zh', 'tomkerkhove/sample-dotnet-queue-worker',
+      'containerfilesystem/doc-zh', 'tomkerkhove/sample-dotnet-queue-worker', 'pusher/oauth2_proxy',
       'tomkerkhove/sample-dotnet-queue-worker-servicebus-queue', 'plunder-app/kube-vip',
       'tomkerkhove/sample-dotnet-worker-servicebus-queue', 'deislabs/smi-spec', 'loft-sh/devspace',
       'deislabs/smi-sdk-go', 'deislabs/smi-metrics', 'deislabs/smi-adapter-istio', 'herbrandson/k8dash',

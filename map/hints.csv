@@ -2786,6 +2786,7 @@ projectkudu/AzureFunctions,AZF
 projectkudu/AzureFunctionsPortal,AZF
 projectkudu/WebJobsPortal,AZF
 projectkudu/azure-functions-ux,AZF
+pusher/oauth2_proxy,OAuth2-Proxy
 python/bedevere,python
 python/core-workflow,python
 python/devguide,python
