@@ -76,7 +76,7 @@ where
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions',
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
-      'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy'
+      'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -148,7 +148,9 @@ where
       'aenix-io/talm', 'aenix-io/talos-bootstrap', 'aeniz-io/cozystack', 'aenix-io/kubernetes-in-kubernetes',
       'aenix-io/kubefarm', 'aenix-io/cozystack-website', 'aenix-io/cozy-proxy', 'aenix-io/cozystack-telemetry-server',
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
-      'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc'
+      'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc',
+      'streamnative/oxia', 'Azure/dalec', 'robusta-dev/holmesgpt', 'robusta-dev/homebrew-holmesgpt',
+      'robusta-dev/holmesgpt-community-toolsets'
     )
   )
   and repo.name not in (

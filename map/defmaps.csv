@@ -8,6 +8,7 @@ apache,=SKIP
 aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
+oxia-db,Oxia
 w3c,=SKIP
 AcademySoftwareFoundation,ASWF
 Adlik,Adlik
@@ -145,6 +146,7 @@ caskroom,Homebrew
 cdevents,CDEvents
 cdfoundation,CDF
 cdk8s-team,Cloud Development Kit for Kubernetes
+cedar-policy,Cedar Policy
 celestiamobile,Celestia
 ceph,Ceph
 cert-manager,cert-manager

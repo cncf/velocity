@@ -171,6 +171,7 @@ Cartography,lyft.github.io/cartography
 Carvel,carvel.dev
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
+Cedar Policy,cedarpolicy.com
 Celestia,celestia.mobi
 Ceph,ceph.io
 Chaos Mesh,chaos-mesh.org
@@ -229,6 +230,7 @@ DMLC,dmlc.github.io
 DSC,msdn.microsoft.com/en-us/powershell/dsc/overview
 DXR,dxr.readthedocs.org
 Dagger 2,google.github.io/dagger
+Dalec,azure.github.io/dalec
 Dapr,dapr.io
 Dart,dartlang.org
 Datadog,datadog.com
@@ -366,6 +368,7 @@ Helm,helm.sh
 Heron,heronstreaming.io
 Hexa Policy Orchestrator,hexaorchestration.org
 HippieStationCode,github.com/HippieStationCode/HippieStation13
+HolmesGPT,holmesgpt.dev
 Home Assistant,home-assistant.io
 Homebrew,brew.sh
 Homebrew Cask,caskroom.github.io
@@ -691,6 +694,7 @@ Operator Framework,operatorhub.io
 Oracle Fn,fnproject.io
 Ortelius,ortelius.io
 Osmand,osmand.net
+Oxia,oxia-db.github.io
 P4 Language,github.com/p4lang
 PACO,pacoapp.com
 PARSEC,github.com/parallaxsecond/parsec

@@ -96,6 +96,7 @@ Azure/azure-webjobs-sdk-script,AZF
 Azure/azure-webjobs-sdk-script-samples,AZF
 Azure/azure-webjobs-sdk-templates,AZF
 Azure/brigade,Brigade
+Azure/dalec,Dalec
 Azure/eraser,Eraser
 Azure/fleet,KubeFleet
 Azure/fleet-networking,KubeFleet
@@ -2830,6 +2831,9 @@ rethinkdb/rethinkdb-example-nodejs,RethinkDB
 rethinkdb/rethinkdb-example-nodejs-chat,RethinkDB
 rethinkdb/rethinkdb-nix,RethinkDB
 rktproject/rkt,rkt
+robusta-dev/holmesgpt,HolmesGPT
+robusta-dev/homebrew-holmesgpt,HolmesGPT
+robusta-dev/holmesgpt-community-toolsets,HolmesGPT
 second-state/SSVM,WasmEdge Runtime
 shizhMSFT/oras,ORAS
 solo-io/gloo,kgateway
@@ -2863,6 +2867,7 @@ stateful/runme.dev,Runme Notebooks
 stateful/runmejs,Runme Notebooks
 stateful/terramate-runme-example,Runme Notebooks
 stefanprodan/caddy-builder,OpenFaaS
+streamnative/oxia,Oxia
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture
