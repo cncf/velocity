@@ -28,7 +28,7 @@
       'clusterpedia-io', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature', 'krkn-chaos',
       'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela',
       'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib', 'Serverless-Devs',
-      'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
+      'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio', 'kserve',
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'tellerops',
       'project-zot', 'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb',
       'opencost', 'carvel-dev', 'inspektor-gadget', 'clusternet', 'sealerio', 'keycloak', 'armadaproject',
@@ -42,12 +42,12 @@
       'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini', 'score-spec', 'bpfman', 'bpfd-dev',
       'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi', 'shipwright-io', 'flatcar', 'flatcar-linux',
       'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project', 'sermant-io',
-      'kmesh-net', 'ovn-org', 'prometheus-community', 'tratteria', 'spinkube', 'k0sproject',
+      'kmesh-net', 'ovn-org', 'prometheus-community', 'tratteria', 'spinkube', 'k0sproject', 'interlink-hq',
       'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes', 'kgateway-dev', 'k8sgateway',
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions',
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
-      'xregistry', 'CloudNativeAI', 'modelpack'
+      'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -59,7 +59,7 @@
       'ligato/networkservicemesh', 'improbable-eng/promlts', 'improbable-eng/thanos',
       'weaveworks/flux', 'EnMasseProject/barnabas', 'ppatierno/barnabas',' ppatierno/kaas',
       'rancher/longhorn', 'containerfs/containerfs.github.io', 'containerfilesystem/cfs',
-      'containerfilesystem/doc-zh', 'tomkerkhove/sample-dotnet-queue-worker',
+      'containerfilesystem/doc-zh', 'tomkerkhove/sample-dotnet-queue-worker', 'pusher/oauth2_proxy',
       'tomkerkhove/sample-dotnet-queue-worker-servicebus-queue', 'plunder-app/kube-vip',
       'tomkerkhove/sample-dotnet-worker-servicebus-queue', 'deislabs/smi-spec', 'loft-sh/devspace',
       'deislabs/smi-sdk-go', 'deislabs/smi-metrics', 'deislabs/smi-adapter-istio', 'herbrandson/k8dash',
@@ -119,7 +119,9 @@
       'aenix-io/talm', 'aenix-io/talos-bootstrap', 'aeniz-io/cozystack', 'aenix-io/kubernetes-in-kubernetes',
       'aenix-io/kubefarm', 'aenix-io/cozystack-website', 'aenix-io/cozy-proxy', 'aenix-io/cozystack-telemetry-server',
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
-      'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc'
+      'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc',
+      'streamnative/oxia', 'Azure/dalec', 'robusta-dev/holmesgpt', 'robusta-dev/homebrew-holmesgpt',
+      'robusta-dev/holmesgpt-community-toolsets'
     )
   )
   and repo.name not in (

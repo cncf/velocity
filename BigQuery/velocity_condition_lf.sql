@@ -37,12 +37,12 @@
       'aeraki-framewoirk', 'opencurve', 'open-feature', 'openfeatureflags', 'kubewarden', 'chimera-kube',
       'devstream-io', 'kubedl-io', 'kubevela', 'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'openembedded',
       'Serverless-Devs', 'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
-      'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'project-zot',
+      'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'project-zot', 'oauth2-proxy',
       'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb', 'tektoncd-catalog', 'opencost',
       'carvel-dev', 'inspektor-gadget', 'clusternet', 'cdevents', 'ortelius', 'pyrsia', 'screwdriver-cd',
       'shipwright-io', 'sealerio', 'keycloak', 'armadaproject', 'devspace-sh', 'tellerops', 'headlamp-k8s',
       'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd', 'xline-kv', 'hwameistor', 'microcks',
-      'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community', 'getsops', 'eraser-dev',
+      'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community', 'getsops', 'eraser-dev', 'kserve',
       'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev', 'kcl-lang', 'projectcapsule',
       'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar', 'megaease', 'spidernet-io', 'k8sgpt-ai',
       'chaos-kubox', 'KubeStellar', 'kptdev', 'redhat-chaos', 'OpenMetrics', 'openmetrics', 'open-gitops',
@@ -54,7 +54,8 @@
       'cloudnative-pg', 'podman-desktop', 'drasi-project', 'ovn-kubernetes', 'kgateway-dev', 'k8sgateway',
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm', 'modelpack',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'opentofu',
-      'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI'
+      'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI',
+      'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -115,7 +116,7 @@
       'stateful/runme-action-examples', 'stateful/mkdocs-runme-plugin', 'stateful/Runme-CDEs',
       'stateful/runme-terramate-aws', 'stateful/terramate-runme-example', 'uber/cadence',
       'stateful/runme-terramate-example', 'stateful/runme-foyle-ai', 'Azure/Fleet-PRSE',
-      'Azure/fleet-networking', 'Azure/fleet', 'Azure/azure-rest-api-specs-fleet',
+      'Azure/fleet-networking', 'Azure/fleet', 'Azure/azure-rest-api-specs-fleet', 'pusher/oauth2_proxy',
       'containers/podman', 'containers/buildah', 'containers/skopeo', 'containers/netavark',
       'containers/aardvark-dns', 'containers/image', 'containers/storage', 'containers/common',
       'containers/conmon', 'containers/podman-py', 'containers/bootc', 'containers/composefs',
@@ -127,7 +128,9 @@
       'aenix-io/talm', 'aenix-io/talos-bootstrap', 'aeniz-io/cozystack', 'aenix-io/kubernetes-in-kubernetes',
       'aenix-io/kubefarm', 'aenix-io/cozystack-website', 'aenix-io/cozy-proxy', 'aenix-io/cozystack-telemetry-server',
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
-      'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc'
+      'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc',
+      'streamnative/oxia', 'Azure/dalec', 'robusta-dev/holmesgpt', 'robusta-dev/homebrew-holmesgpt',
+      'robusta-dev/holmesgpt-community-toolsets'
     )
   )
   and repo.name not in (
