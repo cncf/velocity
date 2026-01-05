@@ -75,7 +75,7 @@ WHERE
       'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev', 'kcl-lang', 'projectcapsule',
       'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar', 'megaease', 'spidernet-io', 'k8sgpt-ai',
       'chaos-kubox', 'KubeStellar', 'kptdev', 'redhat-chaos', 'OpenMetrics', 'openmetrics', 'open-gitops',
-      'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io', 'kubean-io', 'koordinator-sh', 'radius-project',
+      'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io', 'kubean-io', 'koordinator-sh', 'radius-project', 'HolmesGPT',
       'easegress-io', 'bank-vaults', 'runatlantis', 'project-stacker', 'oscal-compass', 'Kuadrant', 'openGemini',
       'score-spec', 'bpfman', 'bpfd-dev', 'pytorch', 'loxilb-io', 'perses', 'ratify-project', 'Project-HAMi',
       'flatcar', 'flatcar-linux', 'KusionStack', 'cartography-cncf', 'cncf-tags', 'youki-dev', 'kaito-project',
