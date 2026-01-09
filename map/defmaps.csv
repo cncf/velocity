@@ -8,7 +8,6 @@ apache,=SKIP
 aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
-oxia-db,Oxia
 w3c,=SKIP
 AcademySoftwareFoundation,ASWF
 Adlik,Adlik
@@ -499,6 +498,7 @@ osmandapp,Osmand
 ovn-kubernetes,OVN-Kubernetes
 ovn-org,OVN-Kubernetes
 owncloud,ownCloud
+oxia-db,Oxia
 p4lang,P4 Language
 parallaxsecond,PARSEC
 paralus,Paralus

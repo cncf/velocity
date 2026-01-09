@@ -20,8 +20,10 @@ Run the query for a year, for example: `[DBG=1] ./run_bq_templated.sh cncf 20250
 
 It will generate a file for example: `data/data_cncf_projects_20250101_20260101.csv`.
 
+Optional:
 - You can optionally compare commits counts from BigQuery to git commits counts via: `PG_PASS=... ./shells/get_git_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
 - You can optionally compare commits counts from BigQuery to DevStats commits counts via: `PG_PASS=... ./shells/get_devstats_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
+- The above two commands (not needed) can also run from within a helm devstats reports pod, shange `shells/` path to `velocity/` and run - again this is not needed.
 - Those steps are possible only from DevStats kubernetes node or if you have DevStats installed locally. Normally this is not needed and should be skipped.
 
 Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` in this case):

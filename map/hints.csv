@@ -2832,8 +2832,8 @@ rethinkdb/rethinkdb-example-nodejs-chat,RethinkDB
 rethinkdb/rethinkdb-nix,RethinkDB
 rktproject/rkt,rkt
 robusta-dev/holmesgpt,HolmesGPT
-robusta-dev/homebrew-holmesgpt,HolmesGPT
 robusta-dev/holmesgpt-community-toolsets,HolmesGPT
+robusta-dev/homebrew-holmesgpt,HolmesGPT
 second-state/SSVM,WasmEdge Runtime
 shizhMSFT/oras,ORAS
 solo-io/gloo,kgateway
