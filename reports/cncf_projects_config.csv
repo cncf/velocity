@@ -3,8 +3,6 @@ Kubernetes
 Prometheus
 gRPC
 Fluentd
-rkt
-OpenTracing
 containerd
 CNI
 Linkerd
@@ -34,7 +32,6 @@ Spinnaker
 Dragonfly
 Virtual Kubelet
 KubeEdge
-Brigade
 CRI-O
 Network Service Mesh
 OpenEBS
@@ -47,11 +44,8 @@ KubeVirt
 Longhorn
 CubeFS
 KEDA
-SMI
 Argo
 Volcano
-CNI-Genie
-Keptn
 Kudo
 Cloud Custodian
 Dex
@@ -78,16 +72,12 @@ Cloud Development Kit for Kubernetes
 cert-manager
 OpenKruise
 Tinkerbell
-Pravega
 Kyverno
 GitOps WG
 Piraeus-Datastore
-Skooner
 Athenz
 Kube-OVN
-Curiefense
 Distribution
-Foniod
 Kuberhealthy
 K8GB
 Trickster
@@ -103,39 +93,28 @@ Meshery
 Service Mesh Performance
 KubeVela
 kube-vip
-KubeDL
-Krustlet
-Krator
 ORAS
 wasmCloud
 Akri
 MetalLB
 Karmada
 Inclavare Containers
-SuperEdge
 Cilium
 Dapr
-OpenELB
 Open Cluster Management
 VS Code Kubernetes Tools
-Nocalhost
 KubeArmor
 K8up
 kube-rs
 Devfile
 Knative
-FabEdge
 Confidential Containers
 OpenFunction
-Teller
-sealer
 Clusterpedia
 OpenCost
 Aeraki Mesh
-Curve
 OpenFeature
 kubewarden
-DevStream
 Hexa Policy Orchestrator
 Konveyor
 Armada
@@ -147,7 +126,6 @@ Kured
 Carvel
 Lima
 Istio
-Merbridge
 DevSpace
 Capsule
 zot
@@ -166,7 +144,6 @@ SlimToolkit
 Kepler
 PipeCD
 Eraser
-Xline
 Hwameistor
 kpt
 Microcks
