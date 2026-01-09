@@ -34,8 +34,8 @@ echo "$ofn"
 if [ ! -z "${DBG}" ]
 then
   function finish {
-    cat /tmp/velocity_bigquery.sql
     cat "$ofn"
+    cat /tmp/velocity_bigquery.sql
   }
   trap finish EXIT
 fi
