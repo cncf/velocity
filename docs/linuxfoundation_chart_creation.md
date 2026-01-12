@@ -122,7 +122,7 @@ Yocto,issues,1865
 
 # Final chart
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1C_0_Sp1yoWg_yBC98blQVy3HmNMxifMkHsbEkCD5gbU/edit?usp=sharing).
+Make a copy of the [google doc]((https://docs.google.com/spreadsheets/d/1jeuWn6ILx6-qgcNVJtkzdbA8x6Jf0axZyxQa_6JEQfo/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A300.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
