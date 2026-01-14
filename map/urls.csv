@@ -109,8 +109,14 @@ Auth0,auth0.com
 Automattic Jetpack,jetpack.com
 Automattic WooCommerce,github.com/Automattic/woocommerce-services
 Azure,azure.github.io
+Azure AI,learn.microsoft.com/azure/ai-services
+Azure Arc,learn.microsoft.com/azure/azure-arc
+Azure Cosmos DB,learn.microsoft.com/azure/cosmos-db
+Azure DevOps,learn.microsoft.com/azure/devops
+Azure Quantum,learn.microsoft.com/azure/quantum
 Azure REST API,github.com/Azure/azure-rest-api-specs
 Azure SDKs,azure.microsoft.com
+Azure Storage,learn.microsoft.com/azure/storage
 Azure-Kinect-Sensor-SDK,github.com/microsoft/Azure-Kinect-Sensor-SDK
 AzureTipsAndTricks,github.com/microsoft/AzureTipsAndTricks
 BFE,bfe-networks.net
@@ -270,6 +276,7 @@ Eclipse hawkBit,projects.eclipse.org/projects/iot.hawkbit
 Eddystone,github.com/google/eddystone
 EdgeML,github.com/microsoft/EdgeML
 Elasticsearch,elastic.co/products/elasticsearch
+ElectionGuard,electionguard.vote
 Ember.js,emberjs.com
 Emissary-ingress,getambassador.io
 Encrypted Media Extensions,w3c.github.io/encrypted-media
@@ -295,6 +302,7 @@ Falco,falco.org
 Federalist,federalist.18f.gov
 Finagle,twitter.github.io/finagle
 Finatra,twitter.github.io/finatra
+Firebase,firebase.google.com
 Firefox,mozilla.org/en-US/firefox
 Firefox Monitor,monitor.firefox.com
 Firefox Notes,firefox.com
@@ -319,6 +327,7 @@ GVT Linux,github.com/intel/gvt-linux
 Gatsby,gatsbyjs.org
 Git Large File Storage,git-lfs.github.com
 GitHub,github.com
+GitHub Copilot,github.com/features/copilot
 GitHub Enterprise Backup Utilities,enterprise.github.com
 GitHub Extension for Visual Studio,visualstudio.github.com
 GitHub Markup,github.com/github/markup
@@ -382,6 +391,7 @@ Hyperlight,hyperlight.org
 IBM Bluemix,bluemix.net
 IBM-Z-zOS,github.com/IBM/IBM-Z-zOS
 ICE,ice.work
+IIS,learn.microsoft.com/iis
 IO Visor,www.iovisor.org
 Inclavare Containers,inclavare-containers.io
 Inferno,infernojs.org
@@ -433,6 +443,7 @@ Keycloak,keycloak.org
 Keylime,keylime.dev
 Ki Foundation,foundation.ki
 Kinetic Open Storage,www.openkinetic.org
+Kiota,learn.microsoft.com/openapi/kiota
 KitOps,kitops.ml
 Kmesh,kmesh.net
 Knative,knative.dev
@@ -540,7 +551,9 @@ Microsoft DMTK,github.com/microsoft/dmtk
 Microsoft Decision Service,mwtds.azurewebsites.net
 Microsoft Edge,microsoft.com/en-us/windows/microsoft-edge
 Microsoft F#,github.com/Microsoft/visualfsharp
+Microsoft Fabric,learn.microsoft.com/fabric
 Microsoft GSL,github.com/Microsoft/GSL
+Microsoft Graph,learn.microsoft.com/graph
 Microsoft Graph Engine,graphengine.io
 Microsoft HoloToolkit,github.com/Microsoft/HoloToolkit
 Microsoft IIS,iis.net
@@ -553,6 +566,8 @@ Microsoft OMS,microsoft.com/en-us/cloud-platform/operations-management-suite
 Microsoft Objective-C for Windows,github.com/Microsoft/WinObjC
 Microsoft Office,office.com
 Microsoft Orleans,dotnet.github.io/orleans
+Microsoft Security,learn.microsoft.com/security
+Microsoft Teams,learn.microsoft.com/microsoftteams
 Microsoft UWP,github.com/Microsoft/Windows-universal-samples
 Microsoft Virtualization,github.com/Microsoft/Virtualization-Documentation
 Microsoft docs,docs.microsoft.com
@@ -610,7 +625,6 @@ OPCR,openpolicyregistry.io
 OPNFV,www.opnfv.org
 ORAS,oras.land
 OVN-Kubernetes,ovn-kubernetes.io
-Firebase,firebase.google.com
 Odoo,odoo.com
 Office Developer,dev.office.com
 Omex,github.com/microsoft/Omex
@@ -727,6 +741,7 @@ Porter,porter.sh
 Positron,github.com/mozilla/positron
 PouchContainer,pouchcontainer.io
 Power BI,powerbi.microsoft.com
+Power Platform,https://powerplatform.microsoft.com
 PowerApps-Samples,github.com/microsoft/PowerApps-Samples
 PowerPlatformConnectors,github.com/microsoft/PowerPlatformConnectors
 PowerShell,microsoft.com/powershell
@@ -742,6 +757,7 @@ Pyjion,github.com/Microsoft/Pyjion
 Pyro,pyro.ai
 Pyrsia,pyrsia.io
 QMK,qmk.fm
+Qiskit,qiskit.org
 Quantum,github.com/microsoft/Quantum
 QuantumKatas,github.com/microsoft/QuantumKatas
 QuantumLibraries,github.com/microsoft/QuantumLibraries
@@ -773,7 +789,21 @@ Rook,rook.io
 Ruby on Rails,rubyonrails.org
 Runme Notebooks,runme.dev
 Rust,rust-lang.org
+SAP ABAP,help.sap.com/docs/abap
+SAP AI SDK,developers.sap.com/topics/artificial-intelligence.html
+SAP BTP,btp.sap.com
+SAP CAP,cap.cloud.sap
+SAP Cloud Foundry,help.sap.com/docs/cloud-foundry
+SAP Cloud SDK,developers.sap.com/topics/cloud-sdk.html
+SAP Commerce,help.sap.com/docs/sap-commerce
+SAP Customer Data Cloud,help.sap.com/docs/customer-data-cloud
+SAP DevOps,developers.sap.com/topics/devops.html
 SAP Fundamentals,github.com/SAP/fundamental
+SAP HANA,help.sap.com/docs/hana
+SAP Identity & Security,help.sap.com/docs/identity-authentication
+SAP Machine,sapmachine.io
+SAP Open Source Portal,sap.github.io
+SAP UI5,ui5.sap.com
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
 SMI,smi-spec.io
 SNAS.io,www.snas.io
@@ -802,6 +832,7 @@ Sermant,sermant.io
 Serverless Devs,serverless-devs.com
 Serverless Framework,serverless.com
 Serverless Workflow,serverlessworkflow.io
+Service Fabric,learn.microsoft.com/azure/service-fabric
 Service Mesh Performance,smp-spec.io
 Shaka Player,github.com/google/shaka-player
 Shipwright,shipwright.io
@@ -840,6 +871,7 @@ Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Swift,swift.org
 Symfony,symfony.com
+Sysinternals,learn.microsoft.com/sysinternals
 TARS,tarscloud.org
 TEAMMATES,teammatesv4.appspot.com
 TODO (OSPO) Group,github.com/todogroup
@@ -903,18 +935,6 @@ VMware PowerNSX,github.com/vmware/powernsx
 VMware SDKs,vmware.com
 VMware Xenon,github.com/vmware/xenon
 VMware vSphere,vmware.github.io/vic
-GitHub Copilot,github.com/features/copilot
-Kiota,learn.microsoft.com/openapi/kiota
-Microsoft Fabric,learn.microsoft.com/fabric
-Power Platform,https://powerplatform.microsoft.com
-Sysinternals,learn.microsoft.com/sysinternals
-Windows Diagnostics,learn.microsoft.com/windows-hardware/drivers/debugger
-Azure Arc,learn.microsoft.com/azure/azure-arc
-Microsoft Security,learn.microsoft.com/security
-Azure Quantum,learn.microsoft.com/azure/quantum
-ElectionGuard,electionguard.vote
-Azure Cosmos DB,learn.microsoft.com/azure/cosmos-db
-Microsoft Teams,learn.microsoft.com/microsoftteams
 VS Code,code.visualstudio.com
 VS Code Kubernetes Tools,github.com/vscode-kubernetes-tools/vscode-kubernetes-tools
 Vagrant,vagrantup.com
@@ -953,6 +973,7 @@ Web of Things,w3.org/WoT/IG
 WebKit,webkit.org
 WebTemplateStudio,github.com/microsoft/WebTemplateStudio
 WiX,wixtoolset.org
+Windows Diagnostics,learn.microsoft.com/windows-hardware/drivers/debugger
 Windows-Machine-Learning,github.com/microsoft/Windows-Machine-Learning
 Windows-iotcore-samples,github.com/microsoft/Windows-iotcore-samples
 Wire Swiss GmbH,wire.com

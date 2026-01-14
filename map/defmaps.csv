@@ -237,6 +237,7 @@ fabric8io,fabric8
 facebook,React
 falcosecurity,Falco
 finos,FINOS
+firebase,Firebase
 flatcar,Flatcar
 flatcar-linux,Flatcar
 flathub,Flathub
@@ -436,7 +437,6 @@ nylas,Nylas
 o-ran-sc,O-RAN
 o3de,O3DE
 oauth2-proxy,OAuth2-Proxy
-firebase,Firebase
 odoo,Odoo
 odpi,ODPi
 onap,ONAP
