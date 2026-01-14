@@ -28,7 +28,7 @@ org,repo,project
 "github,JetBrains,ec-jrc,education,Lambda-School-Labs,googleinterns,Cullyege,ICEI-PUC-Minas-PMV-ADS,gtech-mulearn,karnotxyz",,
 "zuri-training,awslabs,EddieHubCommunity,CSC207-2022F-UofT,hexlet-components,is-a-dev,open-mmlab,dortania,codestates-seb,hackclub,ministryofjustice,betagouv,GSSoC24,Azure-Samples",,
 "Elasticsearch,Terraform",,
-,"zhangyoufu/lwn",
+,"zhangyoufu/lwn,preechapon-cmd/chromium",
 "hashicorp,elastic,cncf,cncf-tags,conda-forge",,
 # Elasticsearch,Terraform are no longer open source
 ,"IBM/data-prep-kit,IBM/OpenJCEPlus,IBM/terratorch,IBM/lunchpail,IBM/cloud-pak-deployer,IBM/vscode-ibmi-projectexplorer,IBM/dolomite-engine,IBM/sarama,IBM/sonar-cryptography,IBM/cloudant-node-sdk,IBM/ibm-spectrum-scale-csi,IBM/prompt-declaration-language,IBM/bamoe-docs,IBM/ansible-power-aix,IBM/azure-marketplace-arm-templates,IBM/Ansible-OpenShift-Provisioning,IBM/ibm-generative-ai,IBM/data-prep-lab,IBM/cloudant-python-sdk,IBM/aihwkit,IBM/text-generation-inference,IBM/ibm-object-csi-driver,IBM/aspera-cli,IBM/nl2flow,IBM/z_ansible_collections_samples,IBM/sourceorbit,IBM/autopilot,IBM/ibmi-bob",

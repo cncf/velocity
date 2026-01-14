@@ -58,6 +58,7 @@ Alibaba,alibaba.com
 Alluxio,github.com/Alluxio
 Amazon Docs,aws.amazon.com
 Amazon Web Services,aws.amazon.com
+Anbox Cloud,anbox-cloud.io
 Angel,github.com/Angel-ML
 Angular,angular.io
 Ansible,ansible.com
@@ -163,7 +164,11 @@ CameraTraps,github.com/microsoft/CameraTraps
 Campaign finance for everyone,beta.fec.gov/data
 Canonical Charmcraft,github.com/canonical/charmcraft
 Canonical Craft,github.com/canonical/craft-application
+Canonical Identity Platform,ubuntu.com/identity
+Canonical Kubeflow,ubuntu.com/ai/kubeflow
 Canonical Kuberentes,github.com/canonical/k8s-snap
+Canonical Observability,ubuntu.com/observability
+Canonical OpenStack,ubuntu.com/openstack
 Canonical Rockcraft,documentation.ubuntu.com/rockcraft
 Canonical Snapcraft,snapcraft.io
 Canonical Ubuntu,ubuntu.com
@@ -182,6 +187,7 @@ Celestia,celestia.mobi
 Ceph,ceph.io
 Chaos Mesh,chaos-mesh.org
 ChaosBlade,github.com/chaosblade-io
+Charmed Kubernetes,ubuntu.com/kubernetes
 Checked C,microsoft.com/en-us/research/project/checked-c
 Chef,chef.io/chef
 Choosealicense.com,choosealicense.com
@@ -362,6 +368,7 @@ Google Xi Editor,github.com/google/xi-editor
 Google i18n,developers.google.com/international
 Google seq2seq,google.github.io/seq2seq
 Government Digital Service,gds.blog.gov.uk
+GraalVM,graalvm.org
 Grafana Labs,grafana.com
 GraphQL,graphql.org
 Grumpy,github.com/google/grumpy
@@ -388,7 +395,21 @@ Hwameistor,hwameistor.io
 Hyper,hyper.is
 Hyperledger,hyperledger.org
 Hyperlight,hyperlight.org
+IBM AIOps,ibm.com/products/watson-aiops
+IBM Aspera,ibm.com/products/aspera
 IBM Bluemix,bluemix.net
+IBM Cloud,ibm.com/cloud
+IBM Cloud Object Storage,ibm.com/cloud/object-storage
+IBM Cloud VPC,ibm.com/cloud/vpc
+IBM Cloudant,ibm.com/cloud/cloudant
+IBM Db2,ibm.com/products/db2
+IBM Guardium,ibm.com/products/ibm-security-guardium
+IBM Maximo,ibm.com/products/maximo
+IBM OpenShift AI,ibm.com/products/red-hat-openshift-ai
+IBM Spectrum Scale,ibm.com/products/spectrum-scale
+IBM Z,ibm.com/z
+IBM i,ibm.com/products/ibm-i
+IBM watsonx,ibm.com/watsonx
 IBM-Z-zOS,github.com/IBM/IBM-Z-zOS
 ICE,ice.work
 IIS,learn.microsoft.com/iis
@@ -423,6 +444,7 @@ Jellyfin,jellyfin.org
 Jenkins,jenkins.io
 Jenkins X,jenkins-x.io
 Joomla,joomla.org
+Juju,juju.is
 Julia,julialang.org
 K3s,k3s.io
 K8GB,github.com/AbsaOSS/k8gb
@@ -483,6 +505,7 @@ LF Energy,lfenergy.org
 LF Public Health,lfph.io
 LLVM,llvm.org
 LXD,canonical.com/lxd
+Landscape,landscape.canonical.com
 Lang Genius,github.com/langgenius
 LangChain,langchain.com
 Laravel,laravel.com
@@ -502,6 +525,7 @@ Logging Operator,kube-logging.dev
 Longhorn,github.com/longhorn
 Lottie,airbnb.design/lottie
 LoxiLB,loxilb.io
+MAAS,maas.io
 MAME,mamedev.org
 MAPS.ME,maps.me
 MAVLink,mavlink.org
@@ -538,6 +562,7 @@ MetalLB,metallb.org
 Metal³,metal3.io
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
+MicroK8s,microk8s.io
 Microcks,microcks.io
 Microsoft (other),microsoft.com
 Microsoft API,github.com/Microsoft/api-guidelines
@@ -654,6 +679,7 @@ OpenFaaS,openfaas.com
 OpenFeature,openfeature.dev
 OpenFunction,openfunction.dev
 OpenGitOps,opengitops.dev
+OpenGrok,oracle.github.io/opengrok
 OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
 OpenKruise,openkruise.io
@@ -706,7 +732,17 @@ OpenYurt,opeyurt.io
 Openstack Tools,openstack.org
 Operations Research Tools,developers.google.com/optimization
 Operator Framework,operatorhub.io
+Oracle AI & Data Science,oracle.com/artificial-intelligence
+Oracle APEX,apex.oracle.com
+Oracle Cloud Infrastructure,oracle.com/cloud
+Oracle Coherence,oracle.com/middleware/technologies/coherence.html
+Oracle Container Platform,oracle.com/cloud-native/container-engine-kubernetes
+Oracle Database,oracle.com/database
 Oracle Fn,fnproject.io
+Oracle Java,oracle.com/java
+Oracle Linux,oracle.com/linux
+Oracle NoSQL Database,oracle.com/database/nosql
+Oracle VisualVM,visualvm.github.io
 Ortelius,ortelius.io
 Osmand,osmand.net
 Oxia,oxia-db.github.io
@@ -757,6 +793,7 @@ Pyjion,github.com/Microsoft/Pyjion
 Pyro,pyro.ai
 Pyrsia,pyrsia.io
 QMK,qmk.fm
+QMK Firmware,qmk.fm
 Qiskit,qiskit.org
 Quantum,github.com/microsoft/Quantum
 QuantumKatas,github.com/microsoft/QuantumKatas
@@ -768,6 +805,14 @@ REASON,facebook.github.io/reason
 RISC-V,riscv.org
 Radius,radapp.io
 Rapid7,rapid7.com
+Raspberry Pi Camera,raspberrypi.com/documentation/computers/camera
+Raspberry Pi EEPROM,raspberrypi.com/documentation/computers/raspberry-pi
+Raspberry Pi Firmware,github.com/raspberrypi/firmware
+Raspberry Pi Imager,raspberrypi.com/software
+Raspberry Pi Linux,github.com/raspberrypi/linux
+Raspberry Pi OS,raspberrypi.com/software
+Raspberry Pi Pico SDK,raspberrypi.com/documentation/microcontrollers
+Raspberry Pi Pico Tools,raspberrypi.com/documentation/microcontrollers
 Ratify,ratify.dev
 Rax,rax.js.org
 Raycast,raycast.com
@@ -912,6 +957,7 @@ Toxiproxy,toxiproxy.io
 Train-Custom-Speech-Model,github.com/IBM/Train-Custom-Speech-Model
 Tremor,tremor.rs
 TrestleGRC,oscal-compass.github.io
+Tribuo,tribuo.org
 Trickster,tricksterproxy.io
 Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
@@ -925,6 +971,8 @@ TypeScript-wiki,github.com/microsoft/TypeScript-wiki
 US Extractive Industries Data,useiti.doi.gov
 US Web Design Standards,standards.usa.gov
 Uber Open Source,uber.github.io
+Ubuntu,ubuntu.com
+Ubuntu Core,ubuntu.com/core
 Unikraft,unikraft.org
 VFSForGit,github.com/microsoft/VFSForGit
 VIP Go,vip.wordpress.com/documentation/vip-go
@@ -971,6 +1019,7 @@ WasmEdge Runtime,wasmedge.org
 Web Authentication WG,w3.org/Webauthn
 Web of Things,w3.org/WoT/IG
 WebKit,webkit.org
+WebLogic Server,oracle.com/middleware/technologies/weblogic.html
 WebTemplateStudio,github.com/microsoft/WebTemplateStudio
 WiX,wixtoolset.org
 Windows Diagnostics,learn.microsoft.com/windows-hardware/drivers/debugger

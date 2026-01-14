@@ -155,12 +155,17 @@ GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
 GoogleContainerTools/kpt,kpt
 HaliteChallenge/Halite,Halite
 Huawei-PaaS/CNI-Genie,CNI-Genie
+IBM/AI-IBMi-guide,IBM i
+IBM/AI-SDK-Db2-IBMi,IBM Db2
 IBM/AIF360,AIF360
 IBM/AIX360,AIX360
 IBM/CAST,CAST
 IBM/FHIR,FHIR
 IBM/FormalML,Formal_ML
+IBM/Guardium_External_S-TAP,IBM Guardium
 IBM/IBM-Z-zOS,IBM-Z-zOS
+IBM/JTOpen,IBM i
+IBM/JTOpen-test,IBM i
 IBM/MAX-Audio-Classifier,MAX-Audio-Classifier
 IBM/MAX-Audio-Embedding-Generator,MAX-Audio-Embedding-Generator
 IBM/MAX-Human-Pose-Estimator,MAX-Human-Pose-Estimator
@@ -169,8 +174,15 @@ IBM/MAX-Object-Detector,MAX-Object-Detector
 IBM/MAX-ResNet-50,MAX-ResNet-50
 IBM/MAX-Skeleton,MAX-Skeleton
 IBM/MAX-Text-Sentiment-Classifier,MAX-Text-Sentiment-Classifier
+IBM/OpenShift-AI-Toolkit-Operator,IBM OpenShift AI
+IBM/SpectrumScaleTools,IBM Spectrum Scale
+IBM/StorageScaleVagrant,IBM Spectrum Scale
 IBM/Train-Custom-Speech-Model,Train-Custom-Speech-Model
+IBM/actions-ibmcloud-cli,IBM Cloud
 IBM/adversarial-robustness-toolbox,adversarial-robustness-toolbox
+IBM/appconfiguration-rust-sdk,IBM Cloud
+IBM/aspera-connect-sdk-js,IBM Aspera
+IBM/aspera-sdk-js,IBM Aspera
 IBM/audit-ci,audit-ci
 IBM/carbon-addons-iot-react,carbon-addons-iot-react
 IBM/carbon-components,Carbon Design System
@@ -178,35 +190,78 @@ IBM/carbon-components-angular,Carbon Design System
 IBM/carbon-components-react,Carbon Design System
 IBM/carbon-elements,Carbon Design System
 IBM/cics-bundle-maven,cics-bundle-maven
+IBM/cloud-databases-go-sdk,IBM Cloud
 IBM/cloud-native-starter,cloud-native-starter
 IBM/cloud-pak,cloud-pak
+IBM/cloudant-go-sdk,IBM Cloudant
+IBM/cloudant-java-sdk,IBM Cloudant
+IBM/cloudant-kafka-connector,IBM Cloudant
+IBM/cloudant-spring,IBM Cloudant
 IBM/cloudland,cloudland
 IBM/comanche,comanche
 IBM/commerce-ui,commerce-ui
 IBM/compliance-trestle,TrestleGRC
 IBM/composable,composable
+IBM/cp4waiops-samples,IBM AIOps
+IBM/db2-samples,IBM Db2
+IBM/db2forzosdeveloperextension-about,IBM Db2
+IBM/dbt-watsonx-presto,IBM watsonx
+IBM/dbt-watsonx-spark,IBM watsonx
 IBM/domino-docker,domino-docker
+IBM/dotnet-s390x,IBM Z
 IBM/go-sdk-core,go-sdk-core
+IBM/granite-workshop,IBM watsonx
 IBM/ibm-block-csi-driver,ibm-block-csi-driver
+IBM/ibm-cloud-sdk-common,IBM Cloud
+IBM/ibm-cos-sdk-go,IBM Cloud Object Storage
+IBM/ibm-cos-sdk-java,IBM Cloud Object Storage
+IBM/ibm-cos-sdk-java-config,IBM Cloud Object Storage
+IBM/ibm-cos-sdk-python-core,IBM Cloud Object Storage
+IBM/ibm-cos-sdk-python-s3transfer,IBM Cloud Object Storage
+IBM/ibm-pak,IBM Cloud
+IBM/ibm-spectrum-scale-bridge-for-grafana,IBM Spectrum Scale
 IBM/ibm-spectrum-scale-csi-driver,ibm-spectrum-scale-csi-driver
+IBM/ibm-spectrum-scale-install-infra,IBM Spectrum Scale
+IBM/ibm-vpc-file-csi-driver,IBM Cloud VPC
+IBM/ibm-watsonx-gov,IBM watsonx
+IBM/ibmcloud-cos-cli,IBM Cloud Object Storage
 IBM/ibmcloud-storage-volume-lib,ibmcloud-storage-volume-lib
+IBM/ibmi-eventf-parser,IBM i
+IBM/ibmi-mcp-server,IBM i
+IBM/ibmi-oss-docs,IBM i
+IBM/java-sdk-core,IBM Cloud
 IBM/kui,Kui Shell
+IBM/maximo-labs,IBM Maximo
 IBM/mi-prometheus,mi-prometheus
 IBM/multicloud-operators-subscription,multicloud-operators-subscription
+IBM/networking-python-sdk,IBM Cloud
 IBM/nicedoc.io,nicedoc.io
 IBM/node-sdk-core,node-sdk-core
 IBM/nodejs-react-app,nodejs-react-app
 IBM/openapi-to-graphql,openapi-to-graphql
 IBM/openapi-validator,openapi-validator
 IBM/openshift101,openshift101
+IBM/packer-plugin-ibmcloud,IBM Cloud
 IBM/powerai,powerai
 IBM/python-flask-app,python-flask-app
 IBM/python-sdk-core,python-sdk-core
 IBM/stix-shifter,stix-shifter
 IBM/taxinomitis,taxinomitis
 IBM/unitxt,unitxt
+IBM/vpc-file-storage-mount-helper,IBM Cloud VPC
+IBM/vpc-java-sdk,IBM Cloud VPC
+IBM/vpc-node-sdk,IBM Cloud VPC
+IBM/vpc-python-sdk,IBM Cloud VPC
+IBM/waiops-tech-jam,IBM AIOps
 IBM/watson-assistant-workbench,watson-assistant-workbench
 IBM/watson-banking-chatbot,watson-banking-chatbot
+IBM/watson-machine-learning-samples,IBM watsonx
+IBM/watsonx-ai-node-sdk,IBM watsonx
+IBM/watsonx-ai-python-sdk,IBM watsonx
+IBM/watsonx-ai-samples,IBM watsonx
+IBM/watsonx-go,IBM watsonx
+IBM/watsonxdata-python-sdk,IBM watsonx
+IBM/zDNN,IBM Z
 IBM/zowe-cli-cics-deploy-plugin,zowe-cli-cics-deploy-plugin
 JSFoundation/TAC,JS Foundation
 JSFoundation/cla-assistant,JS Foundation
@@ -881,11 +936,21 @@ brunopulis/awesome-a11y,A11y
 bufbuild/connect-go,Connect
 bufbuild/rerpc,Connect
 callemall/material-ui,Material-UI
+canonical/alertmanager-k8s-operator,Canonical Observability
+canonical/anbox-cloud.io,Anbox Cloud
+canonical/canonical-identity-platform-docs,Canonical Identity Platform
+canonical/canonical-kubernetes-release-ci,Charmed Kubernetes
+canonical/canonical-openstack-docs,Canonical OpenStack
 canonical/canonical-sphinx-extensions,LXD
+canonical/charm-juju-backup-all,Juju
 canonical/charm-lxd,LXD
 canonical/charm-microcloud,LXD
+canonical/charm-openstack-service-checks,Canonical OpenStack
 canonical/charmcraft,Canonical Charmcraft
+canonical/charmed-kubeflow-documentation,Canonical Kubeflow
+canonical/charmed-kubeflow-solutions,Canonical Kubeflow
 canonical/cloud-init,Canonical cloud-init
+canonical/cluster-api-k8s,Charmed Kubernetes
 canonical/craft-application,Canonical Craft
 canonical/craft-archives,Canonical Craft
 canonical/craft-artifacts,Canonical Craft
@@ -895,7 +960,21 @@ canonical/craft-parts,Canonical Craft
 canonical/craft-platforms,Canonical Craft
 canonical/craft-providers,Canonical Craft
 canonical/craft-store,Canonical Craft
+canonical/gomaasclient,MAAS
+canonical/grafana-k8s-operator,Canonical Observability
+canonical/identity-platform-admin-ui-operator,Canonical Identity Platform
+canonical/identity-platform-login-ui-operator,Canonical Identity Platform
+canonical/juju-backup-all,Juju
+canonical/juju-dashboard,Juju
+canonical/juju-doctor,Juju
+canonical/juju.is,Juju
 canonical/k8s-snap,Canonical Kuberentes
+canonical/kubeflow-ci,Canonical Kubeflow
+canonical/kubeflow-dashboard-operator,Canonical Kubeflow
+canonical/kubeflow-rocks,Canonical Kubeflow
+canonical/landscape-client-charm,Landscape
+canonical/landscape-documentation,Landscape
+canonical/landscape-ui,Landscape
 canonical/lxd,LXD
 canonical/lxd-ci,LXD
 canonical/lxd-demo-server,LXD
@@ -907,13 +986,31 @@ canonical/lxd-pkg-snap,LXD
 canonical/lxd-stable-maintenance,LXD
 canonical/lxd-ui,LXD
 canonical/lxd.dart,LXD
+canonical/maas.io,MAAS
 canonical/microcloud,LXD
+canonical/microk8s-community-addons,MicroK8s
+canonical/microk8s-core-addons,MicroK8s
+canonical/microk8s.io,MicroK8s
+canonical/observability,Canonical Observability
+canonical/observability-docs,Canonical Observability
+canonical/observability-stack,Canonical Observability
 canonical/openstack-on-lxd,LXD
+canonical/opentelemetry-collector-k8s-operator,Canonical Observability
+canonical/packer-maas,MAAS
+canonical/prometheus-k8s-operator,Canonical Observability
 canonical/pylxd,LXD
 canonical/rockcraft,Canonical Rockcraft
 canonical/setup-lxd,LXD
 canonical/snapcraft,Canonical Snapcraft
 canonical/snapcraft.io,Canonical Snapcraft
+canonical/terraform-provider-maas,MAAS
+canonical/ubuntu-cloud-image-changelog,Ubuntu
+canonical/ubuntu-core-desktop,Ubuntu Core
+canonical/ubuntu-core-docs,Ubuntu Core
+canonical/ubuntu-packaging-guide,Ubuntu
+canonical/ubuntu-pro-docs,Ubuntu
+canonical/ubuntu-security-documentation,Ubuntu
+canonical/ubuntu-server-documentation,Ubuntu
 canonical/ubuntu.com,Canonical Ubuntu
 capitalone/cloud-custodian,Cloud Custodian
 cashapp/multiplatform-paging,Multiplatform Paging
@@ -2925,6 +3022,66 @@ opnfv/ves,OPNFV
 opnfv/vnf_forwarding_graph,OPNFV
 opnfv/vswitchperf,OPNFV
 opnfv/yardstick,OPNFV
+oracle/accelerated-data-science,Oracle AI & Data Science
+oracle/ai-optimizer,Oracle AI & Data Science
+oracle/apex,Oracle APEX
+oracle/cluster-api-provider-oci,Oracle Cloud Infrastructure
+oracle/coherence,Oracle Coherence
+oracle/coherence-cli,Oracle Coherence
+oracle/coherence-go-client,Oracle Coherence
+oracle/coherence-operator,Oracle Coherence
+oracle/coherence-py-client,Oracle Coherence
+oracle/container-images,Oracle Container Platform
+oracle/create-database-app,Oracle Database
+oracle/dbt-oracle,Oracle Database
+oracle/docker-images,Oracle Container Platform
+oracle/fmw-kubernetes,WebLogic Server
+oracle/graal,GraalVM
+oracle/graaljs,GraalVM
+oracle/graalpy-extensions,GraalVM
+oracle/graalpython,GraalVM
+oracle/graalvm-reachability-metadata,GraalVM
+oracle/javavscode,Oracle Java
+oracle/langchain-oracle,Oracle AI & Data Science
+oracle/linux-uek,Oracle Linux
+oracle/node-oracledb,Oracle Database
+oracle/nosql,Oracle NoSQL Database
+oracle/nosql-go-sdk,Oracle NoSQL Database
+oracle/nosql-intellij-plugin,Oracle NoSQL Database
+oracle/nosql-java-sdk,Oracle NoSQL Database
+oracle/oci-ai-speech-realtime-python-sdk,Oracle Cloud Infrastructure
+oracle/oci-ansible-collection,Oracle Cloud Infrastructure
+oracle/oci-cli,Oracle Cloud Infrastructure
+oracle/oci-cloud-controller-manager,Oracle Cloud Infrastructure
+oracle/oci-designer-toolkit,Oracle Cloud Infrastructure
+oracle/oci-dotnet-sdk,Oracle Cloud Infrastructure
+oracle/oci-go-sdk,Oracle Cloud Infrastructure
+oracle/oci-grafana-metrics,Oracle Cloud Infrastructure
+oracle/oci-hdfs-connector,Oracle Cloud Infrastructure
+oracle/oci-java-sdk,Oracle Cloud Infrastructure
+oracle/oci-mlflow,Oracle Cloud Infrastructure
+oracle/oci-native-ingress-controller,Oracle Cloud Infrastructure
+oracle/oci-python-sdk,Oracle Cloud Infrastructure
+oracle/oci-secrets-store-csi-driver-provider,Oracle Cloud Infrastructure
+oracle/oci-typescript-sdk,Oracle Cloud Infrastructure
+oracle/ojdbc-extensions,Oracle Database
+oracle/opengrok,OpenGrok
+oracle/oracle-database-operator,Oracle Database
+oracle/oracle-db-appdev-monitoring,Oracle Database
+oracle/oracle-linux,Oracle Linux
+oracle/python-oracledb,Oracle Database
+oracle/solaris-ips,Oracle Linux
+oracle/spring-cloud-oracle,Oracle Java
+oracle/sql-developer-vscode,Oracle Java
+oracle/terraform-provider-oci,Oracle Cloud Infrastructure
+oracle/tribuo,Tribuo
+oracle/truffleruby,GraalVM
+oracle/visualvm,Oracle VisualVM
+oracle/weblogic-deploy-tooling,WebLogic Server
+oracle/weblogic-image-tool,WebLogic Server
+oracle/weblogic-kubernetes-operator,WebLogic Server
+oracle/weblogic-monitoring-exporter,WebLogic Server
+oracle/weblogic-remote-console,WebLogic Server
 packethost/tinkerbell,Tinkerbell
 palantir/atlasdb,AtlasDB
 palantir/tslint,TSLint
@@ -2982,6 +3139,29 @@ python/typing,python
 rancher/longhorn,Longhorn
 rancher/submariner,Submariner
 rancher/terraform-k3s-aws-cluster,K3s
+raspberrypi/QMK,QMK Firmware
+raspberrypi/debugprobe,Raspberry Pi Pico Tools
+raspberrypi/firmware,Raspberry Pi Firmware
+raspberrypi/libcamera,Raspberry Pi Camera
+raspberrypi/libpisp,Raspberry Pi Camera
+raspberrypi/linux,Raspberry Pi Linux
+raspberrypi/openocd,Raspberry Pi Pico Tools
+raspberrypi/picamera2,Raspberry Pi Camera
+raspberrypi/pico-bootrom-rp2350,Raspberry Pi Pico SDK
+raspberrypi/pico-examples,Raspberry Pi Pico SDK
+raspberrypi/pico-extras,Raspberry Pi Pico SDK
+raspberrypi/pico-micropython-examples,Raspberry Pi Pico SDK
+raspberrypi/pico-sdk,Raspberry Pi Pico SDK
+raspberrypi/pico-sdk-tools,Raspberry Pi Pico Tools
+raspberrypi/pico-setup,Raspberry Pi Pico Tools
+raspberrypi/pico-vscode,Raspberry Pi Pico Tools
+raspberrypi/picotool,Raspberry Pi Pico Tools
+raspberrypi/pylibcamera,Raspberry Pi Camera
+raspberrypi/rpi-eeprom,Raspberry Pi EEPROM
+raspberrypi/rpi-imager,Raspberry Pi Imager
+raspberrypi/rpi-sb-provisioner,Raspberry Pi EEPROM
+raspberrypi/rpicam-apps,Raspberry Pi Camera
+raspberrypi/usbboot,Raspberry Pi EEPROM
 react-community/create-react-native-app,React
 react-community/react-navigation,React
 react-native-community/react-native-elements,React
