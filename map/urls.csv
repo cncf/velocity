@@ -62,6 +62,14 @@ Anbox Cloud,anbox-cloud.io
 Angel,github.com/Angel-ML
 Angular,angular.io
 Ansible,ansible.com
+Ansys AEDT,docs.pyansys.com/version/stable/api/aedt/index.html
+Ansys DPF,docs.pyansys.com/version/stable/api/dpf/index.html
+Ansys Fluent,docs.pyansys.com/version/stable/api/fluent/index.html
+Ansys Granta,developer.ansys.com/granta
+Ansys MAPDL,docs.pyansys.com/version/stable/api/mapdl/index.html
+Ansys Mechanical,docs.pyansys.com/version/stable/api/mechanical/index.html
+Ansys PyAnsys,docs.pyansys.com
+Ansys SCADE,developer.ansys.com/scade
 Ant Design,ant.design
 Antrea,antrea.io
 Anythink Market,www.anythink.market
@@ -100,6 +108,7 @@ Arm Toolchain,github.com/arm/arm-toolchain
 Armada,armadaproject.io
 Arthas,alibaba.github.io/arthas
 Artifact Hub,artifacthub.io
+Ascender,ctrliq.com
 Assignment Simulaton Repository,github.com/fa16scmorg/FA16SCM
 Astro,astro.build
 Athenz,athenz.io

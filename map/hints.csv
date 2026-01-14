@@ -782,6 +782,84 @@ angular/material,Angular
 angular/material2,Angular
 angular/protractor,Protractor
 angular/tsickle,Angular
+ansys/DevRelDocs,Ansys PyAnsys
+ansys/ansys-api-edb,Ansys AEDT
+ansys/ansys-api-speos,Ansys AEDT
+ansys/ansys-sphinx-theme,Ansys PyAnsys
+ansys/ansys-templates,Ansys PyAnsys
+ansys/grantami-bomanalytics,Ansys Granta
+ansys/grantami-bomanalytics-openapi,Ansys Granta
+ansys/grantami-dataflow-extensions,Ansys Granta
+ansys/grantami-jobqueue,Ansys Granta
+ansys/grantami-recordlists,Ansys Granta
+ansys/grantami-serverapi-openapi,Ansys Granta
+ansys/pyacp,Ansys Mechanical
+ansys/pyadditive,Ansys Mechanical
+ansys/pyadditive-widgets,Ansys Mechanical
+ansys/pyaedt,Ansys AEDT
+ansys/pyaedt-examples,Ansys AEDT
+ansys/pyaedt-toolkits-antenna,Ansys AEDT
+ansys/pyaedt-toolkits-common,Ansys AEDT
+ansys/pyansys,Ansys PyAnsys
+ansys/pyansys-dev-guide,Ansys PyAnsys
+ansys/pyansys-geometry,Ansys PyAnsys
+ansys/pyansys-heart,Ansys PyAnsys
+ansys/pyansys-math,Ansys PyAnsys
+ansys/pyansys-sound,Ansys PyAnsys
+ansys/pyansys-tools-report,Ansys PyAnsys
+ansys/pyansys-tools-variableinterop,Ansys PyAnsys
+ansys/pyansys-tools-versioning,Ansys PyAnsys
+ansys/pyansys-tools-workflows,Ansys PyAnsys
+ansys/pyansys-units,Ansys PyAnsys
+ansys/pyconceptev,Ansys Mechanical
+ansys/pydpf-composites,Ansys DPF
+ansys/pydpf-core,Ansys DPF
+ansys/pydpf-post,Ansys DPF
+ansys/pydyna,Ansys Mechanical
+ansys/pydynamicreporting,Ansys Mechanical
+ansys/pyedb,Ansys AEDT
+ansys/pyedb-core,Ansys AEDT
+ansys/pyensight,Ansys Mechanical
+ansys/pyfluent,Ansys Fluent
+ansys/pyfluent-examples,Ansys Fluent
+ansys/pyfluent-parametric,Ansys Fluent
+ansys/pyfluent-visualization,Ansys Fluent
+ansys/pygranta,Ansys Granta
+ansys/pyhps,Ansys Mechanical
+ansys/pyhps-data-transfer,Ansys Mechanical
+ansys/pymapdl,Ansys MAPDL
+ansys/pymapdl-examples,Ansys MAPDL
+ansys/pymapdl-reader,Ansys MAPDL
+ansys/pymaterials-manager,Ansys Mechanical
+ansys/pymechanical,Ansys Mechanical
+ansys/pymechanical-embedding-examples,Ansys Mechanical
+ansys/pymechanical-env,Ansys Mechanical
+ansys/pymechanical-examples,Ansys Mechanical
+ansys/pymechanical-stubs,Ansys Mechanical
+ansys/pymodelcenter,Ansys Mechanical
+ansys/pymotorcad,Ansys Mechanical
+ansys/pyoptislang,Ansys AEDT
+ansys/pypim,Ansys Mechanical
+ansys/pyprimemesh,Ansys PyAnsys
+ansys/pyrocky,Ansys Mechanical
+ansys/pyscadeone,Ansys SCADE
+ansys/pyseascape,Ansys Mechanical
+ansys/pysimai,Ansys Mechanical
+ansys/pyspeos,Ansys AEDT
+ansys/pysystem-coupling,Ansys Mechanical
+ansys/pytwin,Ansys Mechanical
+ansys/pyworkbench,Ansys Mechanical
+ansys/pyworkbench-examples,Ansys Mechanical
+ansys/scade-actions,Ansys SCADE
+ansys/scade-almgw-msoffice,Ansys SCADE
+ansys/scade-almgw-sphinx-needs,Ansys SCADE
+ansys/scade-apitools,Ansys SCADE
+ansys/scade-example-multi-touch-cockpit,Ansys SCADE
+ansys/scade-example-smart-boiler-control,Ansys SCADE
+ansys/scade-git,Ansys SCADE
+ansys/scade-pyhg,Ansys SCADE
+ansys/scade-python-wrapper,Ansys SCADE
+ansys/scade-wux,Ansys SCADE
 anuvu/stacker,Stacker
 anuvu/zot,zot
 apache-spark-on-k8s/ansible,Apache Spark
@@ -1206,6 +1284,11 @@ coreos/rkt,rkt
 coreos/rocket,rkt
 create-playwright,playwright
 cregit/cregit,cregit
+ctrliq/ascender,Ascender
+ctrliq/ascender-install,Ascender
+ctrliq/kernel-src-tree,Ascender
+ctrliq/kernel-src-tree-tools,Ascender
+ctrliq/pika,Ascender
 d3athrow/vgstation13,vgstation13
 danderson/metallb,MetalLB
 datawire/ambassador,Emissary-ingress
