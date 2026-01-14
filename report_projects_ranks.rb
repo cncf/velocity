@@ -60,6 +60,7 @@ def report_ranks(fin, fpstats, frep)
       puts "Project #{proj} not found, aborting stats"
       return
     end
+    puts "Processing project #{proj}"
     props = obj.keys.select { |key| obj[key].to_i.to_s == obj[key].to_s } - %w(authors_alt1 authors_alt2) unless props
     props.each do |prop|
       stats[proj] = {} unless stats.key? proj
