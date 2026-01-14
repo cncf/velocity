@@ -610,6 +610,7 @@ OPCR,openpolicyregistry.io
 OPNFV,www.opnfv.org
 ORAS,oras.land
 OVN-Kubernetes,ovn-kubernetes.io
+Firebase,firebase.google.com
 Odoo,odoo.com
 Office Developer,dev.office.com
 Omex,github.com/microsoft/Omex
@@ -902,6 +903,18 @@ VMware PowerNSX,github.com/vmware/powernsx
 VMware SDKs,vmware.com
 VMware Xenon,github.com/vmware/xenon
 VMware vSphere,vmware.github.io/vic
+GitHub Copilot,github.com/features/copilot
+Kiota,learn.microsoft.com/openapi/kiota
+Microsoft Fabric,learn.microsoft.com/fabric
+Power Platform,https://powerplatform.microsoft.com
+Sysinternals,learn.microsoft.com/sysinternals
+Windows Diagnostics,learn.microsoft.com/windows-hardware/drivers/debugger
+Azure Arc,learn.microsoft.com/azure/azure-arc
+Microsoft Security,learn.microsoft.com/security
+Azure Quantum,learn.microsoft.com/azure/quantum
+ElectionGuard,electionguard.vote
+Azure Cosmos DB,learn.microsoft.com/azure/cosmos-db
+Microsoft Teams,learn.microsoft.com/microsoftteams
 VS Code,code.visualstudio.com
 VS Code Kubernetes Tools,github.com/vscode-kubernetes-tools/vscode-kubernetes-tools
 Vagrant,vagrantup.com

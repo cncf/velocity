@@ -392,6 +392,85 @@ Microsoft/vscode-python,VS Code
 Microsoft/vscode-react-native,VS Code
 Microsoft/vscode-sublime-keybindings,VS Code
 Microsoft/vscode-tips-and-tricks,VS Code
+microsoft/vscode-containers,VS Code
+microsoft/vscode-documentdb,VS Code
+microsoft/vscode-perf,VS Code
+microsoft/vscode-pgsql,VS Code
+microsoft/vscode-ripgrep,VS Code
+microsoft/vscode-deviceid,VS Code
+microsoft/vscode-bisect,VS Code
+microsoft/vscode-platform-specific-sample,VS Code
+microsoft/vscode-ts-customized-language-service,VS Code
+microsoft/vscode-serial-monitor,VS Code
+microsoft/vscode-dwarf-debugging,VS Code
+microsoft/vscode-dwarf-debugging-ext,VS Code
+microsoft/vscode-js-debug-browsers,VS Code
+microsoft/vscode-ext-kusto,VS Code
+microsoft/vscode-tmdl,VS Code
+microsoft/vscode-ai-pack,VS Code
+microsoft/vscode-fabric,VS Code
+microsoft/vscode-languagedetection,VS Code
+microsoft/vscode-windows-process-tree,VS Code
+microsoft/vscode-linux-build-agent,VS Code
+microsoft/vscode-copilotstudio,VS Code
+microsoft/fabric-toolbox,Microsoft Fabric
+microsoft/fabric-cicd,Microsoft Fabric
+microsoft/fabric-sdk-go,Microsoft Fabric
+microsoft/fabric-cli,Microsoft Fabric
+microsoft/fabric-extensibility-toolkit,Microsoft Fabric
+microsoft/Microsoft-Fabric-tools-workload,Microsoft Fabric
+microsoft/unified-data-foundation-with-fabric-solution-accelerator,Microsoft Fabric
+microsoft/aitour26-BRK462-enable-agentic-ai-apps-with-a-unified-data-estate-in-microsoft-fabric,Microsoft Fabric
+microsoft/ignite25-LAB533-develop-scalable-data-solutions-with-sql-database-in-microsoft-fabric,Microsoft Fabric
+microsoft/kiota-php,Kiota
+microsoft/PowerAppsCodeApps,Power Platform
+microsoft/powercat,Power Platform
+microsoft/Power-CAT-Tools,Power Platform
+microsoft/power-pages-samples,Power Platform
+microsoft/power-platform-resources,Power Platform
+microsoft/PowerPlatform-EnterprisePolicies,Power Platform
+microsoft/power-fx-enhanced-connector,Power Platform
+microsoft/powerbi-desktop-samples,Power Platform
+microsoft/powerbi-visuals-pulsechart,Power Platform
+microsoft/powerquery-language-services,Power Platform
+microsoft/Excel-Labs,Power Platform
+microsoft/Sysinternals-jcd,Sysinternals
+microsoft/homebrew-sysinternalstap,Sysinternals
+microsoft/SysinternalsEBPF,Sysinternals
+microsoft/ProcDump-for-Linux,Windows Diagnostics
+microsoft/AzureArcSCVMMTSG,Azure Arc
+microsoft/AzureStack_Network_Switch_Config_Generator,Azure Arc
+microsoft/Microsoft.AzureStack.Util.ConvertNetwork,Azure Arc
+microsoft/AzureLocal-Network-Switch-Validation,Azure Arc
+microsoft/Sentinel,Microsoft Security
+microsoft/Microsoft-Defender-for-Identity,Microsoft Security
+microsoft/EntraSuite-Training,Microsoft Security
+microsoft/GlobalSecureAccess,Microsoft Security
+microsoft/Migrate2GSA,Microsoft Security
+microsoft/entra-apps-identifier-uri-protection,Microsoft Security
+microsoft/qdk,Azure Quantum
+microsoft/azure-quantum-tgp,Azure Quantum
+microsoft/electionguard-rust,ElectionGuard
+microsoft/documentdb,Azure Cosmos DB
+microsoft/documentdb-kubernetes-operator,Azure Cosmos DB
+microsoft/vscode-documentdb,Azure Cosmos DB
+microsoft/teams.ts,Microsoft Teams
+microsoft/teams.net,Microsoft Teams
+microsoft/teams.py,Microsoft Teams
+microsoft/spfx-react-webchat,Microsoft Teams
+microsoft/ProcMon-for-Linux,Windows Diagnostics
+microsoft/SysmonForLinux,Windows Diagnostics
+microsoft/kiota-dart,Kiota
+microsoft/kiota-authentication-azure-go,Kiota
+microsoft/kiota-serialization-json-ruby,Kiota
+microsoft/vscode-copilot-chat,GitHub Copilot
+microsoft/copilot-intellij-feedback,GitHub Copilot
+microsoft/mastering-github-copilot-for-dotnet-csharp-developers,GitHub Copilot
+microsoft/github-copilot-vibe-coding-workshop,GitHub Copilot
+microsoft/aitour-Essential-Prompting-for-GitHub-Copilot-in-VS-Code,GitHub Copilot
+microsoft/aitour26-WRK541-real-world-code-migration-with-github-copilot-agent-mode,GitHub Copilot
+microsoft/aitour26-BRK442-github-copilot-as-an-ai-agent-in-the-developer-workflow,GitHub Copilot
+microsoft/aitour26-BRK447-agentic-use-of-github-copilot-within-visual-studio,GitHub Copilot
 Microsoft/vso-agent-tasks,VS Code
 Microsoft/vss-web-extension-sdk,VS Code
 Microsoft/vstest,VS Code
