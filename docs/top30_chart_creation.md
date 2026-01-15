@@ -26,19 +26,19 @@ To generate all data for the [Top 30 chart](https://docs.google.com/spreadsheets
 
 #### In detail
 
-Update BigQuery [query file](BigQuery/velocity_top30.sql). If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
+Update BigQuery [query file](BigQuery/velocity_top30_new.sql). If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
 Run the query for a year date range, for example: `./run_bq_standard.sh top30_new 20250101 20260101`.
-Or run the query for a specified year, for example (outdated/needs checks of updating to standardSQL): `./run_bq_year.sh top30_year 2024`.
+Or run the query for a specified year, for example (outdated/needs checks of updating to standardSQL): `./run_bq_year.sh top30_year 2025`.
 - It can happen that it is not possible to get data for all year in one call, you can do in two parts each 6 months for example and later merge via:
-- `` ./run_bq_standard.sh top30_new 20250101 20250101; ./run_bq_standard.sh top30_new 20250101 20260101; OUT=data/data_top30_projects_20250101_20260101.csv ./merge_bq.rb data/data_top30_projects_20250101_20250101.csv data/data_top30_projects_20250101_20260101.csv ``.
+- `` ./run_bq_standard.sh top30_new 20250101 20250101; ./run_bq_standard.sh top30_new 20250101 20260101; OUT=data/data_top30_new_projects_20250101_20260101.csv ./merge_bq.rb data/data_top30_new_projects_20250101_20250101.csv data/data_top30_new_projects_20250101_20260101.csv ``.
 - Note that it takes many minutes, so it should run in the background and be monitored.
 
-It will generate a file for example: `data/data_top30_projects_20250101_20260101.csv` or `data/data_top30_2024.csv`.
+It will generate a file for example: `data/data_top30_new_projects_20250101_20260101.csv` or `data/data_top30_2025.csv`.
 
 Run `analysis.rb` with
 ```
-[SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_projects_20250101_20260101.csv projects/projects_top30_20250101_20260101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
+[SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_new_projects_20250101_20260101.csv projects/projects_top30_new_20250101_20260101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1oxcyhMpwekdrqB3ly6bk4l4AQncWbXOYKLhjxSqhoUs/edit?usp=sharing).
@@ -59,7 +59,7 @@ Existing script `shells/unlimited_both.sh` generates our chart data for 2025-01-
 - First, we need unlimited BigQuery output for a new date range:
 ```
 echo "Restoring BigQuery output"
-cp data/data_top30_projects_20250101_20260101.csv data/unlimited.csv
+cp data/data_top30_new_projects_20250101_20260101.csv data/unlimited.csv
 ```
 - We need the `data/unlimited_output_202207_202407.csv` file. To generate this one, we need to run BigQuery for the new date range.
 - Open the sql file that generated the current range's data: `vi BigQuery/query_202207_202407_unlimited.sql`
