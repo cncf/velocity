@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z "$1" ]
 then
-  echo "$0: you need to provide 1st arument analysis type, supported are: cncf, lf, top30, cf, apache, chromium, opensuse, libreoffice, freebsd"
+  echo "$0: you need to provide 1st arument analysis type, supported are: cncf, lf, top30, cf, apache, chromium, opensuse, libreoffice, freebsd, zephyr"
   exit 1
 fi
 if [ -z "$2" ]
