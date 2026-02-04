@@ -84,7 +84,7 @@ WHERE
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm', 'modelpack',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'opentofu',
       'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI',
-      'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq'
+      'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -159,7 +159,7 @@ WHERE
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
       'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc',
       'streamnative/oxia', 'Azure/dalec', 'robusta-dev/holmesgpt', 'robusta-dev/homebrew-holmesgpt',
-      'robusta-dev/holmesgpt-community-toolsets'
+      'robusta-dev/holmesgpt-community-toolsets', 'truefoundry/KubeElasti', 'truefoundry/elasti'
     )
   )
   and repo.name not in (

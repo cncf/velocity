@@ -76,7 +76,8 @@ where
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'HolmesGPT',
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
-      'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec'
+      'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
+      'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -150,7 +151,7 @@ where
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
       'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc',
       'streamnative/oxia', 'Azure/dalec', 'robusta-dev/holmesgpt', 'robusta-dev/homebrew-holmesgpt',
-      'robusta-dev/holmesgpt-community-toolsets'
+      'robusta-dev/holmesgpt-community-toolsets', 'truefoundry/KubeElasti', 'truefoundry/elasti'
     )
   )
   and repo.name not in (
