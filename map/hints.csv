@@ -3346,6 +3346,8 @@ treeder/fn-ext-auth,Oracle Fn
 treeder/fn-ext-dns,Oracle Fn
 treeder/fn-ext-example,Oracle Fn
 treeder/fn-plugin-example,Oracle Fn
+truefoundry/KubeElasti,KubeElasti
+truefoundry/elasti,KubeElasti
 twitter/finagle,Finagle
 twitter/finatra,Finatra
 twitter/heron,Heron

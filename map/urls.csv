@@ -217,6 +217,7 @@ CloudEvents,cloudevents.io
 CloudNativePG,cloudnative-pg.io
 Clusternet,clusternet.io
 Clusterpedia,clusterpedia.io
+CoHDI,github.com/CoHDI
 Cockroach Labs,cockroachlabs.com
 Cocos2d-js,cocos2d-x.org
 Cocos2d-x,cocos2d-x.org
@@ -491,6 +492,7 @@ Kube-OVN,kube-ovn.io
 KubeArmor,accuknox.com/kubearmor
 KubeDL,kubedl.io
 KubeEdge,kubeedge.io
+KubeElasti,kubeelasti.dev
 KubeFleet,github.com/Azure/fleet
 KubeVela,kubevela.io
 KubeVirt,kubevirt.io
@@ -679,6 +681,7 @@ Open vSwitch,openvswitch.org
 OpenAI,openai.com
 OpenAI Triton backend for Intel GPUs,github.com/intel/intel-xpu-backend-for-triton
 OpenBMP,gitter.im/openbmp
+OpenChoreo,openchoreo.dev
 OpenCost,kubecost.com
 OpenDaylight,www.opendaylight.org
 OpenEBS,openebs.io

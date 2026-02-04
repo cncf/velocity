@@ -25,6 +25,7 @@ CleverRaven,Cataclysm-DDA
 ClickHouse,ClickHouse
 Cloud Native Computing Foundation,CNCF
 CloudNativeAI,ModelPack
+CoHDI,CoHDI
 ContainerSSH,ContainerSSH
 Core Infrastructure Initiative,Core Infrastructure
 DataDog,Datadog
@@ -157,6 +158,7 @@ chaosblade-io,ChaosBlade
 chaoss,CHAOSS
 chef,Chef
 chimera-kube,kubewarden
+choreo-idp,OpenChoreo
 chrome-enhanced-history,Chromium
 chromium,Chromium
 chromiumify,Chromium
@@ -452,6 +454,7 @@ open-telemetry,OpenTelemetry
 openGemini,openGemini
 openai,OpenAI
 openbmp,OpenBMP
+openchoreo,OpenChoreo
 opencontainers,OCI
 opencord,CORD
 opencost,OpenCost
