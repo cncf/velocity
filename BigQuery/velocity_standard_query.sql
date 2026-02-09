@@ -54,7 +54,8 @@ WITH base AS (
           'katacontainersbot', 'prombot', 'prowbot', 'cdk8s-automation', 'openebs-pro-sa', 'stateful-wombot', 'fermybot',
           'opentofu-provider-sync-service-account', 'flatcar-infra', 'atlantisbot', 'megaeasex', 'kuasar-io-dev', 'startxfr',
           'opentelemetrybot', 'invalid-email-address', 'fluxcdbot', 'claassistant', 'containersshbuilder', 'wasmcloud-automation',
-          'fossabot', 'knative-automation', 'covbot', 'poiana', 'gprasath', 'k8s-reviewable', 'codecov-io', 'k8s-teamcity-mesosphere'
+          'fossabot', 'knative-automation', 'covbot', 'poiana', 'gprasath', 'k8s-reviewable', 'codecov-io', 'k8s-teamcity-mesosphere',
+          'copilot', 'claude', 'codex'
         )
       )
     ) AND (

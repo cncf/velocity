@@ -199,7 +199,7 @@ WHERE
         'bosh-ci-push-pull', 'zephyr-github', 'zephyrbot', 'strimzi-ci', 'athenabot', 'grpc-testing', 'angular-builds',
         'hibernate-ci', 'kernelprbot', 'istio-testing', 'spinnakerbot', 'pikbot', 'spinnaker-release', 'golangcibot',
         'opencontrail-ci-admin', 'titanium-octobot', 'asfgit', 'appveyorbot', 'cadvisorjenkinsbot', 'gitcoinbot',
-        'katacontainersbot', 'prombot', 'prowbot', 'cdk8s-automation'
+        'katacontainersbot', 'prombot', 'prowbot', 'cdk8s-automation', 'copilot', 'claude', 'codex'
       )
     )
   )
