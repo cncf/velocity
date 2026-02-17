@@ -503,6 +503,7 @@ type repoStats struct {
 	names        []string
 	emailCount   int
 	commitCount  int
+	cloneFailed  bool
 	err          error
 }
 
@@ -940,6 +941,7 @@ func computeRepoStats(ctx context.Context, cfg config, tmpRoot string, repo stri
 
 	resolvedRepo, usedURL, err := cloneRepo(repoCtx, cfg, repo, repoDir)
 	if err != nil {
+		st.cloneFailed = true
 		st.err = err
 		return st
 	}
@@ -1094,7 +1096,9 @@ func main() {
 		fmt.Printf("warning: %v (commits column will not be updated)\n", err)
 	}
 
-	// Collect distinct repos.
+	// Collect distinct repos (and original counts for progress / never-worse preview).
+	origAuthorsByRepo := make(map[string]int, len(input.rows))
+	origCommitsByRepo := make(map[string]int, len(input.rows))
 	repoSet := make(map[string]struct{})
 	repos := make([]string, 0, len(input.rows))
 	for _, row := range input.rows {
@@ -1105,9 +1109,38 @@ func main() {
 		if repo == "" {
 			continue
 		}
+
+		// Original author count: authors_alt2 preferred, else authors list.
+		origAuthors := 0
+		if auth2Idx < len(row) {
+			if v, ok := parseCountField(row[auth2Idx]); ok {
+				origAuthors = v
+			}
+		}
+		if origAuthors == 0 && authIdx < len(row) {
+			if v, ok := countListField(row[authIdx]); ok {
+				origAuthors = v
+			}
+		}
+		if prev, ok := origAuthorsByRepo[repo]; !ok || origAuthors > prev {
+			origAuthorsByRepo[repo] = origAuthors
+		}
+
+		// Original commits count (if column exists).
+		if commitsIdx >= 0 && commitsIdx < len(row) {
+			origCommits := 0
+			if v, ok := parseCountField(row[commitsIdx]); ok {
+				origCommits = v
+			}
+			if prev, ok := origCommitsByRepo[repo]; !ok || origCommits > prev {
+				origCommitsByRepo[repo] = origCommits
+			}
+		}
+
 		if _, ok := repoSet[repo]; ok {
 			continue
 		}
+
 		repoSet[repo] = struct{}{}
 		repos = append(repos, repo)
 	}
@@ -1142,7 +1175,17 @@ func main() {
 	jobs := make(chan string)
 	resultsCh := make(chan repoStats)
 
-	var doneCount int64
+	// Progress counters (updated by workers).
+	var processed int64
+	var failed int64
+	var failedClone int64
+	var wouldSkipNeverWorse int64
+	var wouldSkipCommitsNeverWorse int64
+	var authorsSum int64
+	var commitsSum int64
+
+	var progressMu sync.Mutex
+
 	var wg sync.WaitGroup
 	wg.Add(cfg.threads)
 	for w := 0; w < cfg.threads; w++ {
@@ -1152,10 +1195,42 @@ func main() {
 			for repo := range jobs {
 				st := computeRepoStats(ctx, cfg, tmpRoot, repo)
 				resultsCh <- st
+				c := atomic.AddInt64(&processed, 1)
 
-				c := atomic.AddInt64(&doneCount, 1)
+				if st.err != nil {
+					atomic.AddInt64(&failed, 1)
+					if st.cloneFailed {
+						atomic.AddInt64(&failedClone, 1)
+					}
+				} else {
+					atomic.AddInt64(&authorsSum, int64(st.emailCount))
+					atomic.AddInt64(&commitsSum, int64(st.commitCount))
+					if cfg.neverWorse {
+						if orig := origAuthorsByRepo[repo]; orig > 0 && st.emailCount < orig {
+							atomic.AddInt64(&wouldSkipNeverWorse, 1)
+						}
+						if commitsIdx >= 0 {
+							if origC := origCommitsByRepo[repo]; origC > 0 && st.commitCount < origC {
+								atomic.AddInt64(&wouldSkipCommitsNeverWorse, 1)
+							}
+						}
+					}
+				}
+
 				if !cfg.quiet && (c%25 == 0 || c == int64(len(repos))) {
-					fmt.Printf("progress: %d/%d repos processed\n", c, len(repos))
+					progressMu.Lock()
+					f := atomic.LoadInt64(&failed)
+					fc := atomic.LoadInt64(&failedClone)
+					nw := atomic.LoadInt64(&wouldSkipNeverWorse)
+					nwC := atomic.LoadInt64(&wouldSkipCommitsNeverWorse)
+					aSum := atomic.LoadInt64(&authorsSum)
+					cSum := atomic.LoadInt64(&commitsSum)
+					ok := c - f
+					fmt.Printf(
+						"progress: %d/%d repos | ok=%d failed=%d (clone=%d other=%d) | never-worse: authors=%d commits=%d | detected: authors(sum)=%d commits(sum)=%d\n",
+						c, len(repos), ok, f, fc, f-fc, nw, nwC, aSum, cSum,
+					)
+					progressMu.Unlock()
 				}
 				if cfg.debug && st.err != nil {
 					fmt.Printf("worker %d: repo %s failed: %v\n", workerID, repo, st.err)
@@ -1193,7 +1268,7 @@ func main() {
 	// Update rows.
 	updated := 0
 	skippedNeverWorse := 0
-	failed := 0
+	failed = 0
 
 	for i, row := range input.rows {
 		if repoIdx >= len(row) {

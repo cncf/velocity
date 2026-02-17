@@ -3,7 +3,8 @@ WITH base AS (
   SELECT
     id,
     repo.name AS repo,
-    org.login AS org,
+    -- org.login AS org,
+    COALESCE(org.login, SPLIT(repo.name, '/')[SAFE_OFFSET(0)]) AS org,
     type,
     actor.login AS actor,
     payload
