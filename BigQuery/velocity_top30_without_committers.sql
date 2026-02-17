@@ -15,7 +15,7 @@ WITH base AS (
       'PushEvent', 'PullRequestEvent', 'IssuesEvent', 'PullRequestReviewEvent',
       'CommitCommentEvent', 'IssueCommentEvent', 'PullRequestReviewCommentEvent'
     )
-    actor.login NOT LIKE 'k8s-%'
+    AND actor.login NOT LIKE 'k8s-%'
     AND actor.login NOT LIKE '%-bot'
     AND actor.login NOT LIKE '%-robot'
     AND actor.login NOT LIKE 'bot-%'
@@ -57,7 +57,6 @@ WITH base AS (
     )
 ), agg AS (
   SELECT
-    ROW_NUMBER() as row_num,
     b.org,
     b.repo,
     COUNT(DISTINCT b.id) AS activity,
@@ -65,24 +64,23 @@ WITH base AS (
     COUNT(DISTINCT IF(b.type = 'PullRequestEvent', b.id, NULL)) AS prs,
     COUNT(DISTINCT IF(b.type = 'IssuesEvent', b.id, NULL)) AS issues,
     COUNT(DISTINCT IF(b.type = 'PushEvent', b.id, NULL)) AS pushes,
-    COUNT(DISTINCT b.actor) AS actors,
     COUNT(DISTINCT IF(b.type = 'PullRequestEvent' AND LOWER(JSON_VALUE(payload, '$.action')) = 'opened', b.actor, NULL)) AS pr_openers,
     COUNT(DISTINCT IF(b.type = 'IssuesEvent' AND LOWER(JSON_VALUE(payload, '$.action')) = 'opened', b.actor, NULL)) AS issue_openers,
     COUNT(DISTINCT IF(b.type IN ('IssueCommentEvent', 'PullRequestReviewCommentEvent', 'CommitCommentEvent', 'PullRequestReviewEvent'), b.actor, NULL)) AS commenters,
+    COUNT(DISTINCT IF(b.type = 'PushEvent', b.actor, NULL)) AS pushers,
   FROM
     base b
   GROUP BY
     b.org, b.repo
   HAVING
-    authors_alt2 > 0
-    and comments > 0
+    comments > 0
     and prs > 0
-    and commits > 0
     and issues > 0
+    and pushes > 0
   ORDER BY
-    pr_openers + issue_openers + commenters + actors DESC, activity DESC
+    pr_openers + issue_openers + commenters + pushers + pushes / 30 DESC
   LIMIT
-    5000000
+    200000
 )
 SELECT
   org,
@@ -99,4 +97,4 @@ SELECT
 FROM
   agg
 ORDER BY
-  row_num
+  pr_openers + issue_openers + commenters + pushers + pushes / 30 DESC
