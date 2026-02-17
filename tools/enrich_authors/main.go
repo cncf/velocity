@@ -1,9 +1,36 @@
 package main
 
+// enrich_authors.go
+//
+// A velocity (cncf/velocity) enrichment utility.
+//
+// It post-processes BigQuery CSV exports and replaces the following columns:
+//   - authors       : comma-separated list of unique contributor emails
+//   - authors_alt1  : comma-separated list of unique contributor names (best-effort)
+//   - authors_alt2  : count of unique contributor emails
+//
+// Contributors are extracted from local git history by temporarily cloning each repo and
+// scanning commits across ALL refs (git log --all), within an optional date range.
+//
+// The tool extracts contributors from:
+//   * commit Author (name/email)
+//   * commit Committer (name/email)
+//   * trailer-like lines in commit messages (Key: Name <email>, etc), including multiple
+//     "Name <email>" entries on a single line.
+//
+// Operational highlights ("best of both"):
+//   * Robust cloning: partial clone first (--filter=blob:none), optional shallow-since,
+//     retries on transient network errors, optional GitHub rename/transfer detection.
+//   * Robust log parsing: streamed parsing (no full git log buffering).
+//   * Safe CSV update: on per-repo failure, leaves rows unchanged; optional "never worse"
+//     mode prevents replacing a row if the computed author count is lower than the original.
+//
+// Intended to be compatible with velocity's analysis.rb which expects a header row.
+
 import (
-	"bufio"
 	"bytes"
 	"context"
+	"crypto/sha1"
 	"encoding/csv"
 	"errors"
 	"flag"
@@ -15,6 +42,7 @@ import (
 	"os/exec"
 	"os/signal"
 	"path/filepath"
+	"regexp"
 	"runtime"
 	"sort"
 	"strconv"
@@ -25,29 +53,12 @@ import (
 	"time"
 )
 
-// enrich_authors.go
-//
-// A small utility to post-process velocity BigQuery CSV exports and replace
-// the `authors` / `authors_alt1` / `authors_alt2` columns with values computed
-// from local git history.
-//
-// For each distinct repo in the input CSV, the tool:
-//   1. Clones the repo into a temporary directory (optionally shallow/partial).
-//   2. Scans commits in a date range using `git log`.
-//   3. Extracts contributor emails from:
-//        - commit author (an/ae)
-//        - commit committer (cn/ce)
-//        - any trailer-like line containing one or more "Name <email>" entries
-//          (e.g. Co-authored-by, Signed-off-by, Reviewed-by, Tested-by, etc.)
-//   4. Deletes the cloned repo directory.
-//   5. Writes an output CSV identical to input, except updated authors columns.
-//
-// The output is intended to be compatible with velocity's analysis.rb, which
-// expects a header row and uses `authors` as a comma-separated list.
+const (
+	gitExecDefault = "git"
+	userAgent      = "velocity-enrich-authors"
+)
 
-const gitExecDefault = "git"
-
-var defaultHeader = []string{
+var expectedHeader = []string{
 	"org",
 	"repo",
 	"activity",
@@ -61,17 +72,249 @@ var defaultHeader = []string{
 	"pushes",
 }
 
-// contributorSet tracks unique contributors by email, and a best-effort name.
-// Email is treated as the identity key (lowercased).
-// Names are deduped case-insensitively.
-//
-// NOTE: Some people use multiple emails; they will count as multiple identities.
-// That is consistent with the original BigQuery query (distinct on email).
+// ---- Flags / config ----
+
+type config struct {
+	inPath  string
+	outPath string
+
+	from string // git log --since
+	to   string // git log --until
+
+	threads int
+
+	tmpParent string
+	keepTmp   bool
+
+	gitBinary string
+
+	repoTimeout  time.Duration // total per repo
+	cloneTimeout time.Duration // per clone attempt
+	logTimeout   time.Duration // git log
+
+	cloneRetries int
+
+	detectRenames    bool
+	fetchAllBranches bool
+
+	maxListItems int
+	maxListBytes int
+
+	neverWorse    bool
+	allowDecrease bool
+
+	quiet bool
+	debug bool
+}
+
+func parseDateMaybe(s string) string {
+	s = strings.TrimSpace(s)
+	if s == "" {
+		return ""
+	}
+	// Accept YYYYMMDD.
+	if len(s) == 8 {
+		allDigits := true
+		for _, r := range s {
+			if r < '0' || r > '9' {
+				allDigits = false
+				break
+			}
+		}
+		if allDigits {
+			return fmt.Sprintf("%s-%s-%s", s[0:4], s[4:6], s[6:8])
+		}
+	}
+	return s
+}
+
+func parseFlags() config {
+	cfg := config{}
+	flag.StringVar(&cfg.inPath, "in", "", "Input CSV file (BigQuery export)")
+	flag.StringVar(&cfg.outPath, "out", "", "Output CSV file (default: <in>_enriched.csv)")
+
+	var fromArg, toArg string
+	flag.StringVar(&fromArg, "from", "", "Start date/time (inclusive). Accepts YYYYMMDD, YYYY-MM-DD, or any git-parseable date")
+	flag.StringVar(&toArg, "to", "", "End date/time (exclusive day boundary if YYYY-MM-DD/YYYMMDD; passed to git log --until)")
+	// Backward/alternate flag names.
+	flag.StringVar(&fromArg, "since", "", "Alias for -from")
+	flag.StringVar(&toArg, "until", "", "Alias for -to")
+
+	flag.IntVar(&cfg.threads, "threads", runtime.NumCPU(), "Number of concurrent repo workers")
+
+	flag.StringVar(&cfg.tmpParent, "tmp", "", "Base temp directory (default: OS temp dir)")
+	flag.StringVar(&cfg.tmpParent, "tmpdir", "", "Alias for -tmp")
+	flag.BoolVar(&cfg.keepTmp, "keep-tmp", false, "Keep cloned repos on disk (debug)")
+
+	flag.StringVar(&cfg.gitBinary, "git", gitExecDefault, "Git executable")
+
+	flag.DurationVar(&cfg.repoTimeout, "repo-timeout", 45*time.Minute, "Timeout per repo (clone+fetch+log)")
+	flag.DurationVar(&cfg.cloneTimeout, "clone-timeout", 15*time.Minute, "Timeout for a single git clone attempt")
+	flag.DurationVar(&cfg.logTimeout, "log-timeout", 30*time.Minute, "Timeout for git log")
+
+	flag.IntVar(&cfg.cloneRetries, "clone-retries", 3, "Max attempts per clone variant (for transient errors)")
+
+	flag.BoolVar(&cfg.detectRenames, "detect-renames", true, "On clone failure, try to detect GitHub renames via HTTPS redirects")
+	flag.BoolVar(&cfg.fetchAllBranches, "fetch-all-branches", true, "After clone, explicitly fetch all heads (+refs/heads/*:refs/heads/*)")
+
+	flag.IntVar(&cfg.maxListItems, "max-list-items", 2000, "If contributor list has more than this many items, write '=N' instead of full list (0 disables)")
+	flag.IntVar(&cfg.maxListBytes, "max-list-bytes", 0, "If comma-joined list exceeds this many bytes, write '=N' instead of full list (0 disables)")
+
+	flag.BoolVar(&cfg.neverWorse, "never-worse", true, "Do not replace a row if computed author count is lower than the original")
+	flag.BoolVar(&cfg.allowDecrease, "allow-decrease", false, "Override -never-worse and allow replacing rows even if computed author count is lower")
+
+	flag.BoolVar(&cfg.quiet, "quiet", false, "Less logging")
+	flag.BoolVar(&cfg.debug, "debug", false, "Verbose logging")
+
+	flag.Parse()
+
+	if cfg.inPath == "" {
+		fmt.Fprintf(os.Stderr, "Usage: %s -in input.csv [-out output.csv] [flags...]\n", os.Args[0])
+		flag.PrintDefaults()
+		os.Exit(2)
+	}
+	if cfg.outPath == "" {
+		ext := filepath.Ext(cfg.inPath)
+		base := strings.TrimSuffix(cfg.inPath, ext)
+		cfg.outPath = base + "_enriched.csv"
+	}
+	if cfg.tmpParent == "" {
+		cfg.tmpParent = os.TempDir()
+	}
+	if cfg.threads < 1 {
+		cfg.threads = 1
+	}
+	if cfg.cloneRetries < 1 {
+		cfg.cloneRetries = 1
+	}
+	if cfg.maxListItems < 0 {
+		cfg.maxListItems = 0
+	}
+	if cfg.maxListBytes < 0 {
+		cfg.maxListBytes = 0
+	}
+	if cfg.allowDecrease {
+		cfg.neverWorse = false
+	}
+
+	cfg.from = parseDateMaybe(fromArg)
+	cfg.to = parseDateMaybe(toArg)
+
+	return cfg
+}
+
+// ---- CSV handling ----
+
+type csvTable struct {
+	header []string
+	rows   [][]string
+	idx    map[string]int // lower(header) -> index
+}
+
+func isHeaderRow(rec []string) bool {
+	for _, v := range rec {
+		vv := strings.ToLower(strings.TrimSpace(v))
+		if vv == "repo" {
+			return true
+		}
+	}
+	return false
+}
+
+func readCSV(path string) (csvTable, error) {
+	f, err := os.Open(path)
+	if err != nil {
+		return csvTable{}, err
+	}
+	defer func() { _ = f.Close() }()
+
+	r := csv.NewReader(f)
+	r.FieldsPerRecord = -1
+	r.ReuseRecord = false
+
+	first, err := r.Read()
+	if err != nil {
+		return csvTable{}, err
+	}
+	// Strip UTF-8 BOM if present.
+	if len(first) > 0 {
+		first[0] = strings.TrimPrefix(first[0], "\ufeff")
+	}
+
+	header := []string{}
+	rows := [][]string{}
+	if isHeaderRow(first) {
+		header = first
+	} else {
+		header = append([]string{}, expectedHeader...)
+		rows = append(rows, first)
+	}
+
+	for {
+		rec, err := r.Read()
+		if err == io.EOF {
+			break
+		}
+		if err != nil {
+			return csvTable{}, err
+		}
+		// Skip completely empty lines.
+		empty := true
+		for _, c := range rec {
+			if strings.TrimSpace(c) != "" {
+				empty = false
+				break
+			}
+		}
+		if empty {
+			continue
+		}
+		rows = append(rows, rec)
+	}
+
+	idx := make(map[string]int, len(header))
+	for i, h := range header {
+		idx[strings.ToLower(strings.TrimSpace(h))] = i
+	}
+
+	return csvTable{header: header, rows: rows, idx: idx}, nil
+}
+
+func writeCSV(path string, t csvTable) error {
+	f, err := os.Create(path)
+	if err != nil {
+		return err
+	}
+	defer func() { _ = f.Close() }()
+
+	w := csv.NewWriter(f)
+	// Always write header row.
+	if err := w.Write(t.header); err != nil {
+		return err
+	}
+	for _, row := range t.rows {
+		if err := w.Write(row); err != nil {
+			return err
+		}
+	}
+	w.Flush()
+	return w.Error()
+}
+
+func colIndex(t csvTable, name string) (int, error) {
+	i, ok := t.idx[strings.ToLower(strings.TrimSpace(name))]
+	if !ok {
+		return -1, fmt.Errorf("missing required column %q", name)
+	}
+	return i, nil
+}
+
+// ---- Contributors ----
+
 type contributorSet struct {
-	emails map[string]string    // email -> display name (may be empty)
-	names  map[string]string    // lower(name) -> original name
-	mu     sync.Mutex          // protects both maps
-	seen   map[string]struct{} // emails fast-path
+	emails map[string]string // email -> best display name (may be empty)
+	names  map[string]string // lower(name) -> original display name
+	seen   map[string]struct{}
 }
 
 func newContributorSet() *contributorSet {
@@ -87,7 +330,7 @@ func normalizeEmail(email string) string {
 	email = strings.Trim(email, "<>")
 	email = strings.TrimSpace(email)
 	email = strings.ToLower(email)
-	// Basic sanity: require '@' and no spaces.
+	// Basic sanity: require '@' and no whitespace.
 	if email == "" || !strings.Contains(email, "@") || strings.ContainsAny(email, " \t\n\r") {
 		return ""
 	}
@@ -112,9 +355,6 @@ func (cs *contributorSet) add(name, email string) {
 	nameN := normalizeName(name)
 	nameKey := strings.ToLower(nameN)
 
-	cs.mu.Lock()
-	defer cs.mu.Unlock()
-
 	if _, ok := cs.seen[emailN]; !ok {
 		cs.seen[emailN] = struct{}{}
 		cs.emails[emailN] = nameN
@@ -130,8 +370,6 @@ func (cs *contributorSet) add(name, email string) {
 }
 
 func (cs *contributorSet) emailsSorted() []string {
-	cs.mu.Lock()
-	defer cs.mu.Unlock()
 	out := make([]string, 0, len(cs.emails))
 	for e := range cs.emails {
 		out = append(out, e)
@@ -141,8 +379,6 @@ func (cs *contributorSet) emailsSorted() []string {
 }
 
 func (cs *contributorSet) namesSorted() []string {
-	cs.mu.Lock()
-	defer cs.mu.Unlock()
 	out := make([]string, 0, len(cs.names))
 	for _, n := range cs.names {
 		out = append(out, n)
@@ -151,614 +387,38 @@ func (cs *contributorSet) namesSorted() []string {
 	return out
 }
 
-// repoStats is the per-repo enrichment result.
-type repoStats struct {
-	RepoRequested string
-	RepoResolved  string
-	AuthorsEmails []string
-	AuthorsNames  []string
-	AuthorsCount  int
-	Err           error
-}
-
-type options struct {
-	inPath       string
-	outPath      string
-	fromDate     string // git-friendly YYYY-MM-DD
-	toDate       string // git-friendly YYYY-MM-DD (treated as exclusive day boundary when passed as YYYY-MM-DD)
-	threads      int
-	tmpBase      string
-	keepTmp      bool
-	gitExec      string
-	cloneTimeout time.Duration
-	logTimeout   time.Duration
-	maxListBytes int
-	quiet        bool
-	debug        bool
-}
-
-func parseDateArg(s string) (string, error) {
-	s = strings.TrimSpace(s)
-	if s == "" {
-		return "", nil
-	}
-	// Accept YYYYMMDD.
-	if len(s) == 8 && strings.IndexFunc(s, func(r rune) bool { return r < '0' || r > '9' }) == -1 {
-		y := s[0:4]
-		m := s[4:6]
-		d := s[6:8]
-		return fmt.Sprintf("%s-%s-%s", y, m, d), nil
-	}
-	// Accept YYYY-MM-DD.
-	if len(s) == 10 {
-		parts := strings.Split(s, "-")
-		if len(parts) == 3 && len(parts[0]) == 4 && len(parts[1]) == 2 && len(parts[2]) == 2 {
-			return s, nil
-		}
-	}
-	return "", fmt.Errorf("unsupported date format %q (use YYYYMMDD or YYYY-MM-DD)", s)
-}
-
-func isHeaderRow(rec []string) bool {
-	for _, v := range rec {
-		vv := strings.ToLower(strings.TrimSpace(v))
-		if vv == "repo" {
-			return true
-		}
-	}
-	return false
-}
-
-func colIndex(header []string, name string) int {
-	name = strings.ToLower(strings.TrimSpace(name))
-	for i, h := range header {
-		if strings.ToLower(strings.TrimSpace(h)) == name {
-			return i
-		}
-	}
-	return -1
-}
-
-func main() {
-	if err := run(); err != nil {
-		fmt.Fprintf(os.Stderr, "ERROR: %v\n", err)
-		os.Exit(1)
-	}
-}
-
-func run() error {
-	var opt options
-
-	flag.StringVar(&opt.inPath, "in", "", "Input CSV file (BigQuery export)")
-	flag.StringVar(&opt.outPath, "out", "", "Output CSV file (enriched)")
-	var fromArg, toArg string
-	flag.StringVar(&fromArg, "from", "", "Start date (inclusive), YYYYMMDD or YYYY-MM-DD; optional")
-	flag.StringVar(&toArg, "to", "", "End date (exclusive day boundary), YYYYMMDD or YYYY-MM-DD; optional (use same dtto as BigQuery)")
-	flag.IntVar(&opt.threads, "threads", runtime.NumCPU(), "Number of parallel workers (default: NumCPU)")
-	flag.StringVar(&opt.tmpBase, "tmp", "", "Base temp directory (default: OS temp)")
-	flag.BoolVar(&opt.keepTmp, "keep-tmp", false, "Keep cloned repos on disk (debug)")
-	flag.StringVar(&opt.gitExec, "git", gitExecDefault, "Git executable")
-	flag.DurationVar(&opt.cloneTimeout, "clone-timeout", 30*time.Minute, "Per-repo clone timeout")
-	flag.DurationVar(&opt.logTimeout, "log-timeout", 30*time.Minute, "Per-repo git log timeout")
-	flag.IntVar(&opt.maxListBytes, "max-list-bytes", 0, "If >0, replace authors/authors_alt1 with '=N' when the comma-joined list exceeds this many bytes")
-	flag.BoolVar(&opt.quiet, "quiet", false, "Less logging")
-	flag.BoolVar(&opt.debug, "debug", false, "Verbose logging")
-	flag.Parse()
-
-	if opt.inPath == "" || opt.outPath == "" {
-		fmt.Fprintf(os.Stderr, "Usage: %s -in input.csv -out output.csv [-from YYYYMMDD] [-to YYYYMMDD]\n", os.Args[0])
-		flag.PrintDefaults()
-		return errors.New("missing required -in or -out")
-	}
-
-	var err error
-	opt.fromDate, err = parseDateArg(fromArg)
-	if err != nil {
-		return fmt.Errorf("invalid -from: %w", err)
-	}
-	opt.toDate, err = parseDateArg(toArg)
-	if err != nil {
-		return fmt.Errorf("invalid -to: %w", err)
-	}
-
-	header, rows, err := readCSV(opt.inPath)
-	if err != nil {
-		return fmt.Errorf("read input CSV: %w", err)
-	}
-	if len(rows) == 0 {
-		return errors.New("input CSV has no data rows")
-	}
-
-	repoIdx := colIndex(header, "repo")
-	if repoIdx < 0 {
-		return errors.New("input CSV missing 'repo' column")
-	}
-	authIdx := colIndex(header, "authors")
-	authAlt1Idx := colIndex(header, "authors_alt1")
-	authAlt2Idx := colIndex(header, "authors_alt2")
-	if authIdx < 0 || authAlt1Idx < 0 || authAlt2Idx < 0 {
-		return errors.New("input CSV missing one of required columns: authors/authors_alt1/authors_alt2")
-	}
-
-	uniqueRepos := make([]string, 0, 1024)
-	repoSet := make(map[string]struct{})
-	for _, row := range rows {
-		if repoIdx >= len(row) {
-			continue
-		}
-		repo := strings.TrimSpace(row[repoIdx])
-		if repo == "" {
-			continue
-		}
-		if _, ok := repoSet[repo]; ok {
-			continue
-		}
-		repoSet[repo] = struct{}{}
-		uniqueRepos = append(uniqueRepos, repo)
-	}
-	sort.Strings(uniqueRepos)
-
-	if opt.threads < 1 {
-		opt.threads = 1
-	}
-
-	baseTmpDir, err := os.MkdirTemp(opt.tmpBase, "velocity-enrich-")
-	if err != nil {
-		return fmt.Errorf("create temp base dir: %w", err)
-	}
-	if !opt.keepTmp {
-		defer func() { _ = os.RemoveAll(baseTmpDir) }()
-	}
-
-	if !opt.quiet {
-		fmt.Printf("Temp base directory: %s\n", baseTmpDir)
-		fmt.Printf("Distinct repos to process: %d\n", len(uniqueRepos))
-		if opt.fromDate != "" || opt.toDate != "" {
-			fmt.Printf("Commit date filter (git log): from=%q to=%q (committer date)\n", opt.fromDate, opt.toDate)
-		}
-		fmt.Printf("Threads: %d\n", opt.threads)
-	}
-
-	ctx, cancel := context.WithCancel(context.Background())
-	defer cancel()
-	installSignalHandler(cancel)
-
-	results := make(map[string]repoStats, len(uniqueRepos))
-	var resultsMu sync.Mutex
-
-	var processed int64
-	var failures int64
-
-	repoCh := make(chan string)
-	wg := sync.WaitGroup{}
-
-	for i := 0; i < opt.threads; i++ {
-		wg.Add(1)
-		go func(workerID int) {
-			defer wg.Done()
-			for repo := range repoCh {
-				st := processRepo(ctx, repo, baseTmpDir, opt)
-				resultsMu.Lock()
-				results[repo] = st
-				resultsMu.Unlock()
-
-				newN := atomic.AddInt64(&processed, 1)
-				if st.Err != nil {
-					atomic.AddInt64(&failures, 1)
-				}
-
-				if !opt.quiet {
-					if newN%25 == 0 || newN == int64(len(uniqueRepos)) {
-						fmt.Printf("Progress: %d/%d repos processed (failures: %d)\n", newN, len(uniqueRepos), atomic.LoadInt64(&failures))
-					}
-				}
-			}
-		}(i)
-	}
-
-	// Producer.
-	go func() {
-		defer close(repoCh)
-		for _, repo := range uniqueRepos {
-			select {
-			case <-ctx.Done():
-				return
-			case repoCh <- repo:
-			}
-		}
-	}()
-
-	wg.Wait()
-
-	if ctx.Err() != nil {
-		return errors.New("interrupted")
-	}
-
-	// Update rows.
-	updated := 0
-	for i, row := range rows {
-		if repoIdx >= len(row) {
-			continue
-		}
-		repo := strings.TrimSpace(row[repoIdx])
-		st, ok := results[repo]
-		if !ok {
-			continue
-		}
-		if st.Err != nil {
-			if opt.debug {
-				fmt.Fprintf(os.Stderr, "WARN: repo %s: enrichment failed: %v\n", repo, st.Err)
-			}
-			continue
-		}
-
-		authStr := joinOrCount(st.AuthorsEmails, opt.maxListBytes)
-		nameStr := joinOrCount(st.AuthorsNames, opt.maxListBytes)
-		countStr := strconv.Itoa(st.AuthorsCount)
-
-		// Ensure row has enough columns.
-		need := max(authIdx, max(authAlt1Idx, authAlt2Idx)) + 1
-		if len(row) < need {
-			newRow := make([]string, need)
-			copy(newRow, row)
-			row = newRow
-			rows[i] = row
-		}
-
-		row[authIdx] = authStr
-		row[authAlt1Idx] = nameStr
-		row[authAlt2Idx] = countStr
-		updated++
-	}
-
-	if err := writeCSV(opt.outPath, header, rows); err != nil {
-		return fmt.Errorf("write output CSV: %w", err)
-	}
-
-	if !opt.quiet {
-		fmt.Printf("Wrote %s (updated %d/%d rows)\n", opt.outPath, updated, len(rows))
-		if failures > 0 {
-			fmt.Printf("WARNING: %d repos failed to enrich; rows for those repos were left unchanged.\n", failures)
-		}
-	}
-	return nil
-}
-
-func installSignalHandler(cancel func()) {
-	ch := make(chan os.Signal, 2)
-	signal.Notify(ch, syscall.SIGINT, syscall.SIGTERM)
-	go func() {
-		<-ch
-		cancel()
-		// If a second signal arrives, exit immediately.
-		<-ch
-		os.Exit(1)
-	}()
-}
-
-func joinOrCount(items []string, maxBytes int) string {
-	if len(items) == 0 {
-		return ""
-	}
-	joined := strings.Join(items, ",")
-	if maxBytes > 0 && len(joined) > maxBytes {
-		return fmt.Sprintf("=%d", len(items))
-	}
-	return joined
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
-func readCSV(path string) (header []string, rows [][]string, err error) {
-	f, err := os.Open(path)
-	if err != nil {
-		return nil, nil, err
-	}
-	defer func() { _ = f.Close() }()
-
-	r := csv.NewReader(f)
-	r.FieldsPerRecord = -1
-	r.ReuseRecord = false
-
-	first, err := r.Read()
-	if err != nil {
-		return nil, nil, err
-	}
-	// Strip UTF-8 BOM if present.
-	if len(first) > 0 {
-		first[0] = strings.TrimPrefix(first[0], "\ufeff")
-	}
-
-	if isHeaderRow(first) {
-		header = first
-	} else {
-		header = append([]string{}, defaultHeader...)
-		rows = append(rows, first)
-	}
-
-	for {
-		rec, err := r.Read()
-		if err == io.EOF {
-			break
-		}
-		if err != nil {
-			return nil, nil, err
-		}
-		// Skip completely empty lines.
-		empty := true
-		for _, c := range rec {
-			if strings.TrimSpace(c) != "" {
-				empty = false
-				break
-			}
-		}
-		if empty {
-			continue
-		}
-		rows = append(rows, rec)
-	}
-	return header, rows, nil
-}
-
-func writeCSV(path string, header []string, rows [][]string) error {
-	f, err := os.Create(path)
-	if err != nil {
-		return err
-	}
-	defer func() { _ = f.Close() }()
-
-	w := csv.NewWriter(f)
-	// Always write header row (analysis.rb expects it).
-	if err := w.Write(header); err != nil {
-		return err
-	}
-	for _, row := range rows {
-		if err := w.Write(row); err != nil {
-			return err
-		}
-	}
-	w.Flush()
-	return w.Error()
-}
-
-func processRepo(ctx context.Context, repo string, baseTmpDir string, opt options) repoStats {
-	st := repoStats{RepoRequested: repo, RepoResolved: repo}
-
-	workDir, err := os.MkdirTemp(baseTmpDir, "repo-")
-	if err != nil {
-		st.Err = fmt.Errorf("create repo temp dir: %w", err)
-		return st
-	}
-	if !opt.keepTmp {
-		defer func() { _ = os.RemoveAll(workDir) }()
-	}
-	cloneDir := filepath.Join(workDir, "clone")
-
-	resolvedRepo := repo
-	cloneURL := repoToGitHubURL(resolvedRepo)
-
-	cloneCtx, cancel := context.WithTimeout(ctx, opt.cloneTimeout)
-	defer cancel()
-
-	cloneErr := cloneRepo(cloneCtx, opt.gitExec, cloneURL, cloneDir, opt.fromDate, opt.debug)
-	if cloneErr != nil {
-		// If this looks like a GitHub rename/transfer, try resolving redirect.
-		if newRepo, ok := tryResolveGitHubRedirect(repo); ok {
-			resolvedRepo = newRepo
-			st.RepoResolved = resolvedRepo
-			cloneURL = repoToGitHubURL(resolvedRepo)
-			cloneErr = cloneRepo(cloneCtx, opt.gitExec, cloneURL, cloneDir, opt.fromDate, opt.debug)
-		}
-	}
-	if cloneErr != nil {
-		st.Err = fmt.Errorf("clone %s: %w", repo, cloneErr)
-		return st
-	}
-
-	logCtx, cancel2 := context.WithTimeout(ctx, opt.logTimeout)
-	defer cancel2()
-
-	cs := newContributorSet()
-	if err := scanGitLog(logCtx, opt.gitExec, cloneDir, opt.fromDate, opt.toDate, cs, opt.debug); err != nil {
-		st.Err = fmt.Errorf("git log %s: %w", repo, err)
-		return st
-	}
-
-	emails := cs.emailsSorted()
-	names := cs.namesSorted()
-
-	st.AuthorsEmails = emails
-	st.AuthorsNames = names
-	st.AuthorsCount = len(emails)
-	return st
-}
-
-func repoToGitHubURL(repo string) string {
-	repo = strings.TrimSpace(repo)
-	repo = strings.TrimPrefix(repo, "https://github.com/")
-	repo = strings.TrimSuffix(repo, ".git")
-	repo = strings.Trim(repo, "/")
-	return "https://github.com/" + repo + ".git"
-}
-
-func cloneRepo(ctx context.Context, gitExec, url, dir, shallowSince string, debug bool) error {
-	baseEnv := append(os.Environ(), "GIT_TERMINAL_PROMPT=0", "GIT_LFS_SKIP_SMUDGE=1")
-
-	candidates := [][]string{}
-
-	if shallowSince != "" {
-		candidates = append(candidates, []string{"clone", "--filter=blob:none", "--no-checkout", "--shallow-since=" + shallowSince, url, dir})
-		candidates = append(candidates, []string{"clone", "--no-checkout", "--shallow-since=" + shallowSince, url, dir})
-	}
-	candidates = append(candidates, []string{"clone", "--filter=blob:none", "--no-checkout", url, dir})
-	candidates = append(candidates, []string{"clone", "--no-checkout", url, dir})
-	candidates = append(candidates, []string{"clone", url, dir})
-
-	var lastErr error
-	for _, args := range candidates {
-		_ = os.RemoveAll(dir)
-
-		cmd := exec.CommandContext(ctx, gitExec, args...)
-		cmd.Env = baseEnv
-		out, err := cmd.CombinedOutput()
-		if err == nil {
-			if debug {
-				fmt.Printf("clone ok: %s -> %s (args: %v)\n", url, dir, args)
-			}
-			return nil
-		}
-		lastErr = fmt.Errorf("%v: %w: %s", args, err, strings.TrimSpace(string(out)))
-		if debug {
-			fmt.Fprintf(os.Stderr, "clone attempt failed: %v\n", lastErr)
-		}
-		if ctx.Err() != nil {
-			return ctx.Err()
-		}
-	}
-	if lastErr == nil {
-		lastErr = errors.New("unknown clone error")
-	}
-	return lastErr
-}
-
-// scanGitLog runs git log and streams its output to extract contributors.
-//
-// It relies on the same -z + NUL-separated format pattern used by devstats' git_commits.sh.
-func scanGitLog(ctx context.Context, gitExec, repoDir, fromDate, toDate string, cs *contributorSet, debug bool) error {
-	args := []string{"-C", repoDir, "log", "-z", "--all"}
-	if fromDate != "" {
-		args = append(args, "--since="+fromDate)
-	}
-	if toDate != "" {
-		args = append(args, "--until="+toDate)
-	}
-	args = append(args, "--format=%H%x00%an%x00%ae%x00%cn%x00%ce%x00%B")
-
-	cmd := exec.CommandContext(ctx, gitExec, args...)
-	cmd.Env = append(os.Environ(), "GIT_TERMINAL_PROMPT=0")
-
-	stdout, err := cmd.StdoutPipe()
-	if err != nil {
-		return err
-	}
-	stderr, err := cmd.StderrPipe()
-	if err != nil {
-		return err
-	}
-
-	if err := cmd.Start(); err != nil {
-		return err
-	}
-
-	errBuf := &bytes.Buffer{}
-	errDone := make(chan struct{})
-	go func() {
-		defer close(errDone)
-		_, _ = io.Copy(errBuf, stderr)
-	}()
-
-	r := bufio.NewReaderSize(stdout, 1024*1024)
-
-	readField := func() (string, error) {
-		b, err := r.ReadBytes(0)
-		if len(b) > 0 && b[len(b)-1] == 0 {
-			b = b[:len(b)-1]
-		}
-		if err != nil {
-			if errors.Is(err, io.EOF) && len(b) > 0 {
-				return string(b), io.EOF
-			}
-			return string(b), err
-		}
-		return string(b), nil
-	}
-
-	for {
-		sha, err := readField()
-		if err != nil {
-			if errors.Is(err, io.EOF) && sha == "" {
-				break
-			}
-			break
-		}
-		if sha == "" {
-			continue
-		}
-
-		an, err := readField()
-		if err != nil {
-			break
-		}
-		ae, err := readField()
-		if err != nil {
-			break
-		}
-		cn, err := readField()
-		if err != nil {
-			break
-		}
-		ce, err := readField()
-		if err != nil {
-			break
-		}
-		msg, err := readField()
-		if err != nil {
-			if !errors.Is(err, io.EOF) {
-				break
-			}
-		}
-
-		_ = sha // reserved
-		cs.add(an, ae)
-		cs.add(cn, ce)
-		for _, c := range parseTrailerContributors(msg) {
-			cs.add(c.Name, c.Email)
-		}
-
-		if errors.Is(err, io.EOF) {
-			break
-		}
-	}
-
-	waitErr := cmd.Wait()
-	<-errDone
-
-	if waitErr != nil {
-		if ctx.Err() != nil {
-			return ctx.Err()
-		}
-		st := strings.TrimSpace(errBuf.String())
-		if st != "" {
-			return fmt.Errorf("%w: %s", waitErr, st)
-		}
-		return waitErr
-	}
-
-	if debug {
-		st := strings.TrimSpace(errBuf.String())
-		if st != "" {
-			fmt.Fprintf(os.Stderr, "git log stderr (%s): %s\n", repoDir, st)
-		}
-	}
-
-	return nil
-}
+// ---- Trailer parsing ----
 
 type trailerContributor struct {
 	Name  string
 	Email string
 }
 
-// parseTrailerContributors scans a commit message and extracts contributors from
-// trailer-like lines.
+// Trailer line matcher: a conservative "Key: Value" form.
+// Accept underscores and the common unicode en-dash.
+var trailerLineRE = regexp.MustCompile(`^(?P<key>[A-Za-z0-9_\-–]+)\:[ \t]+(?P<value>.+)$`)
+
+// Email regex (heuristic). Used as a fallback when value isn't strictly "Name <email>".
+var emailRE = regexp.MustCompile(`(?i)([A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,})`)
+
+func matchGroups(re *regexp.Regexp, s string) map[string]string {
+	matches := re.FindStringSubmatch(s)
+	if matches == nil {
+		return nil
+	}
+	out := make(map[string]string)
+	for i, name := range re.SubexpNames() {
+		if i != 0 && name != "" {
+			out[name] = matches[i]
+		}
+	}
+	return out
+}
+
+// parseTrailerContributors extracts contributors from trailer-like lines in msg.
 //
-// This deliberately does NOT depend on a fixed allowlist; it extracts all
-// occurrences of "Name <email>" from any line that looks like "Key: Value".
+// It prefers "Name <email>" patterns and supports multiple entries per line.
+// If none are found, it falls back to extracting raw emails from the value.
 func parseTrailerContributors(msg string) []trailerContributor {
 	lines := strings.Split(msg, "\n")
 	out := make([]trailerContributor, 0, 4)
@@ -767,21 +427,30 @@ func parseTrailerContributors(msg string) []trailerContributor {
 		if l == "" {
 			continue
 		}
-		// Quick reject: must contain ':' and '<' and '>' and '@'.
-		if !strings.Contains(l, ":") || !strings.Contains(l, "<") || !strings.Contains(l, ">") || !strings.Contains(l, "@") {
+		m := matchGroups(trailerLineRE, l)
+		if len(m) == 0 {
 			continue
 		}
-		idx := strings.Index(l, ":")
-		if idx <= 0 {
-			continue
-		}
-		value := strings.TrimSpace(l[idx+1:])
+		value := strings.TrimSpace(m["value"])
 		if value == "" {
 			continue
 		}
 
-		for _, c := range extractAllNameEmail(value) {
-			out = append(out, c)
+		// First try: one or more "Name <email>" patterns.
+		pairs := extractAllNameEmail(value)
+		if len(pairs) > 0 {
+			out = append(out, pairs...)
+			continue
+		}
+
+		// Fallback: extract any emails and emit entries with empty names.
+		matches := emailRE.FindAllStringSubmatch(value, -1)
+		for _, mm := range matches {
+			if len(mm) < 2 {
+				continue
+			}
+			em := mm[1]
+			out = append(out, trailerContributor{Name: "", Email: em})
 		}
 	}
 	return out
@@ -824,67 +493,760 @@ func extractAllNameEmail(s string) []trailerContributor {
 	return out
 }
 
-// tryResolveGitHubRedirect attempts to resolve github.com/<owner>/<repo> redirects
-// (renames / transfers) without requiring authentication.
-//
-// It returns (newRepo, true) on a plausible redirect, or ("", false) otherwise.
-func tryResolveGitHubRedirect(repo string) (string, bool) {
+// ---- Repo processing ----
+
+type repoStats struct {
+	repoInput    string
+	repoResolved string
+	emails       []string
+	names        []string
+	emailCount   int
+	err          error
+}
+
+func sanitizeRepoDirName(repo string) string {
+	clean := strings.ToLower(strings.TrimSpace(repo))
+	clean = strings.ReplaceAll(clean, "/", "_")
+	clean = strings.ReplaceAll(clean, "\\", "_")
+	clean = strings.ReplaceAll(clean, " ", "_")
+	// Keep filenames reasonably short to avoid path length issues on some systems.
+	if len(clean) > 80 {
+		clean = clean[:80]
+	}
+
+	sum := sha1.Sum([]byte(repo))
+	h := fmt.Sprintf("%x", sum[:])
+	if len(h) > 10 {
+		h = h[:10]
+	}
+	if clean == "" {
+		clean = "repo"
+	}
+	return fmt.Sprintf("%s-%s", clean, h)
+}
+
+func isTransientGitFailure(out string) bool {
+	s := strings.ToLower(out)
+	transient := []string{
+		"connection timed out",
+		"connection reset",
+		"could not resolve host",
+		"failed to connect",
+		"proxy error",
+		"tls",
+		"http2",
+		"the requested url returned error: 5", // 5xx
+		"the requested url returned error: 429",
+		"rpc failed",
+		"remote end hung up",
+		"early eof",
+		"network is unreachable",
+	}
+	for _, sub := range transient {
+		if strings.Contains(s, sub) {
+			return true
+		}
+	}
+	return false
+}
+
+func resetDir(dst string) error {
+	_ = os.RemoveAll(dst)
+	return os.MkdirAll(dst, 0o755)
+}
+
+func runCmd(ctx context.Context, env []string, name string, args ...string) (string, error) {
+	cmd := exec.CommandContext(ctx, name, args...)
+	cmd.Env = append(os.Environ(), env...)
+	out, err := cmd.CombinedOutput()
+	return string(out), err
+}
+
+func normalizeGitHubRepo(repo string) (string, bool) {
 	repo = strings.TrimSpace(repo)
 	if repo == "" {
 		return "", false
 	}
-
-	parts := strings.Split(strings.Trim(repo, "/"), "/")
+	// If input is a URL, parse it.
+	if strings.Contains(repo, "://") {
+		u, err := url.Parse(repo)
+		if err != nil {
+			return "", false
+		}
+		if !strings.EqualFold(u.Hostname(), "github.com") {
+			return "", false
+		}
+		parts := strings.Split(strings.Trim(u.Path, "/"), "/")
+		if len(parts) < 2 {
+			return "", false
+		}
+		owner := parts[0]
+		r := strings.TrimSuffix(parts[1], ".git")
+		if owner == "" || r == "" {
+			return "", false
+		}
+		return owner + "/" + r, true
+	}
+	// Strip common github prefixes.
+	repo = strings.TrimPrefix(repo, "https://github.com/")
+	repo = strings.TrimPrefix(repo, "http://github.com/")
+	repo = strings.TrimPrefix(repo, "github.com/")
+	repo = strings.Trim(repo, "/")
+	repo = strings.TrimSuffix(repo, ".git")
+	parts := strings.Split(repo, "/")
+	// If the user provided a host/path style without a scheme (for example
+	// "gitlab.com/group/repo"), don't misinterpret that as a GitHub org/repo.
+	if len(parts) >= 3 && strings.Contains(parts[0], ".") && !strings.EqualFold(parts[0], "github.com") {
+		return "", false
+	}
 	if len(parts) < 2 {
 		return "", false
 	}
-
-	u := "https://github.com/" + parts[0] + "/" + parts[1]
-	client := &http.Client{
-		Timeout: 10 * time.Second,
-		CheckRedirect: func(req *http.Request, via []*http.Request) error {
-			return http.ErrUseLastResponse
-		},
-	}
-	req, err := http.NewRequest("HEAD", u, nil)
-	if err != nil {
+	owner := parts[0]
+	r := parts[1]
+	if owner == "" || r == "" {
 		return "", false
 	}
-	req.Header.Set("User-Agent", "velocity-enrich-authors")
+	return owner + "/" + r, true
+}
+
+func cloneURLFromRepo(repo string) string {
+	repo = strings.TrimSpace(repo)
+	if repo == "" {
+		return ""
+	}
+	// If already a URL or SSH form, keep as-is.
+	if strings.Contains(repo, "://") || strings.HasPrefix(repo, "git@") {
+		return repo
+	}
+	// Handle host/path style without scheme (e.g. "gitlab.com/group/repo" or
+	// "github.com/org/repo").
+	if strings.Contains(repo, "/") {
+		parts := strings.Split(strings.Trim(repo, "/"), "/")
+		if len(parts) >= 3 && strings.Contains(parts[0], ".") {
+			// Treat as https://<host>/<path>.
+			u := "https://" + strings.TrimSuffix(strings.Trim(repo, "/"), ".git")
+			return u + ".git"
+		}
+	}
+
+	// If looks like github.com/org/repo without scheme.
+	if strings.HasPrefix(repo, "github.com/") {
+		repo = strings.TrimPrefix(repo, "github.com/")
+	}
+
+	// Default: treat as GitHub org/repo.
+	repo = strings.TrimPrefix(repo, "https://github.com/")
+	repo = strings.TrimSuffix(repo, ".git")
+	repo = strings.Trim(repo, "/")
+	if repo == "" {
+		return ""
+	}
+	return "https://github.com/" + repo + ".git"
+}
+
+// resolveGitHubRepo tries to detect a GitHub rename/transfer by following redirects on
+// https://github.com/<org>/<repo>.
+func resolveGitHubRepo(repo string, timeout time.Duration) (string, bool, error) {
+	orgRepo, ok := normalizeGitHubRepo(repo)
+	if !ok {
+		return "", false, nil
+	}
+
+	u := "https://github.com/" + orgRepo
+	client := &http.Client{Timeout: timeout}
+	req, err := http.NewRequest("GET", u, nil)
+	if err != nil {
+		return "", false, err
+	}
+	req.Header.Set("User-Agent", userAgent)
 	resp, err := client.Do(req)
 	if err != nil {
-		return "", false
+		return "", false, err
 	}
 	defer func() { _ = resp.Body.Close() }()
+	_, _ = io.Copy(io.Discard, resp.Body)
 
-	if resp.StatusCode < 300 || resp.StatusCode >= 400 {
-		return "", false
-	}
-	loc := resp.Header.Get("Location")
-	if loc == "" {
-		return "", false
+	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+		return "", false, fmt.Errorf("status %d", resp.StatusCode)
 	}
 
-	locURL, err := url.Parse(loc)
+	finalPath := strings.Trim(resp.Request.URL.Path, "/")
+	parts := strings.Split(finalPath, "/")
+	if len(parts) < 2 {
+		return orgRepo, false, nil
+	}
+	newRepo := parts[0] + "/" + parts[1]
+	if !strings.EqualFold(newRepo, orgRepo) {
+		return newRepo, true, nil
+	}
+	return orgRepo, false, nil
+}
+
+func gitCloneOnce(ctx context.Context, cfg config, url, dst string, useFilter, useShallow bool, shallowSince string) (string, error) {
+	// Use -c http.followRedirects=true to help git follow GitHub renames/moves (when possible).
+	args := []string{"-c", "http.followRedirects=true", "clone", "--bare"}
+	if useFilter {
+		args = append(args, "--filter=blob:none")
+	}
+	if useShallow && shallowSince != "" {
+		// Shallow options imply --single-branch unless overridden; disable that to keep
+		// all branches available for `git log --all`.
+		args = append(args, "--no-single-branch")
+		args = append(args, "--shallow-since="+shallowSince)
+	}
+	args = append(args, url, dst)
+
+	env := []string{
+		"GIT_TERMINAL_PROMPT=0",
+		"GIT_ASKPASS=true",
+		"GIT_LFS_SKIP_SMUDGE=1",
+	}
+	out, err := runCmd(ctx, env, cfg.gitBinary, args...)
 	if err != nil {
-		return "", false
+		return out, fmt.Errorf("git clone failed: %w; output: %s", err, strings.TrimSpace(out))
 	}
-	if !locURL.IsAbs() {
-		base, _ := url.Parse("https://github.com")
-		locURL = base.ResolveReference(locURL)
-	}
-	if !strings.EqualFold(locURL.Hostname(), "github.com") {
-		return "", false
+	return out, nil
+}
+
+func cloneRepo(ctx context.Context, cfg config, repo string, dst string) (resolvedRepo string, usedURL string, err error) {
+	type variant struct {
+		repo         string
+		url          string
+		useFilter    bool
+		useShallow   bool
+		shallowSince string
 	}
 
-	pathParts := strings.Split(strings.Trim(locURL.Path, "/"), "/")
-	if len(pathParts) < 2 {
-		return "", false
+	baseRepo := strings.TrimSpace(repo)
+	baseURL := cloneURLFromRepo(baseRepo)
+	if baseURL == "" {
+		return "", "", errors.New("empty clone url")
 	}
-	newRepo := pathParts[0] + "/" + pathParts[1]
-	if strings.EqualFold(newRepo, parts[0]+"/"+parts[1]) {
-		return "", false
+
+	shallowSince := cfg.from
+
+	buildVariants := func(repoStr, urlStr string) []variant {
+		vs := []variant{}
+		if shallowSince != "" {
+			vs = append(vs,
+				variant{repo: repoStr, url: urlStr, useFilter: true, useShallow: true, shallowSince: shallowSince},
+				variant{repo: repoStr, url: urlStr, useFilter: false, useShallow: true, shallowSince: shallowSince},
+			)
+		}
+		vs = append(vs,
+			variant{repo: repoStr, url: urlStr, useFilter: true, useShallow: false},
+			variant{repo: repoStr, url: urlStr, useFilter: false, useShallow: false},
+		)
+		return vs
 	}
-	return newRepo, true
+
+	tryVariants := func(vs []variant) (string, string, error) {
+		var lastErr error
+		var lastOut string
+		for _, v := range vs {
+			for attempt := 1; attempt <= cfg.cloneRetries; attempt++ {
+				if err := resetDir(dst); err != nil {
+					return "", "", fmt.Errorf("cannot reset clone dir %s: %w", dst, err)
+				}
+
+				cloneCtx, cancel := context.WithTimeout(ctx, cfg.cloneTimeout)
+				out, cerr := gitCloneOnce(cloneCtx, cfg, v.url, dst, v.useFilter, v.useShallow, v.shallowSince)
+				cancel()
+
+				if cerr == nil {
+					if cfg.debug {
+						fmt.Printf("clone ok: %s -> %s (filter=%v shallow=%v repo=%s)\n", v.url, dst, v.useFilter, v.useShallow, v.repo)
+					}
+					return v.repo, v.url, nil
+				}
+				lastErr = cerr
+				lastOut = out
+
+				if ctx.Err() != nil {
+					return "", "", ctx.Err()
+				}
+				if !isTransientGitFailure(out) {
+					break
+				}
+				time.Sleep(time.Duration(attempt) * 2 * time.Second)
+			}
+		}
+		if lastErr == nil {
+			lastErr = errors.New("clone failed")
+		}
+		return "", "", fmt.Errorf("all clone attempts failed for %s (last output: %s): %w", repo, strings.TrimSpace(lastOut), lastErr)
+	}
+
+	// 1) Try the repo as-given.
+	baseErr := error(nil)
+	if r, u, err := tryVariants(buildVariants(baseRepo, baseURL)); err == nil {
+		return r, u, nil
+	} else {
+		baseErr = err
+		if !cfg.detectRenames {
+			return baseRepo, baseURL, baseErr
+		}
+	}
+
+	// 2) On failure, try to detect GitHub rename/transfer and retry.
+	if newRepo, changed, rerr := resolveGitHubRepo(baseRepo, 20*time.Second); rerr == nil && changed {
+		newURL := cloneURLFromRepo(newRepo)
+		if newURL != "" {
+			if r, u, err := tryVariants(buildVariants(newRepo, newURL)); err == nil {
+				return r, u, nil
+			}
+		}
+	}
+
+	// If we got here, return the base error.
+	if baseErr == nil {
+		baseErr = errors.New("clone failed")
+	}
+	return baseRepo, baseURL, baseErr
+}
+
+func gitFetchAllBranches(ctx context.Context, cfg config, repoDir string) error {
+	args := []string{"-C", repoDir, "fetch", "--prune", "origin", "+refs/heads/*:refs/heads/*"}
+	env := []string{"GIT_TERMINAL_PROMPT=0"}
+	out, err := runCmd(ctx, env, cfg.gitBinary, args...)
+	if err != nil {
+		return fmt.Errorf("git fetch all branches failed: %w; output: %s", err, strings.TrimSpace(out))
+	}
+	return nil
+}
+
+func gitLogContributors(ctx context.Context, cfg config, repoDir string) (*contributorSet, error) {
+	// Record delimiter is double NUL.
+	// Fields: sha, author_name, author_email, committer_name, committer_email, message.
+	format := "%H%x00%an%x00%ae%x00%cn%x00%ce%x00%B%x00%x00"
+	args := []string{"-C", repoDir, "log", "--all", "--no-color", "--pretty=format:" + format}
+	if cfg.from != "" {
+		args = append(args, "--since="+cfg.from)
+	}
+	if cfg.to != "" {
+		args = append(args, "--until="+cfg.to)
+	}
+
+	cmd := exec.CommandContext(ctx, cfg.gitBinary, args...)
+	cmd.Env = append(os.Environ(), "GIT_TERMINAL_PROMPT=0")
+	stdout, err := cmd.StdoutPipe()
+	if err != nil {
+		return nil, err
+	}
+	stderr, err := cmd.StderrPipe()
+	if err != nil {
+		return nil, err
+	}
+	if err := cmd.Start(); err != nil {
+		return nil, err
+	}
+
+	// Capture stderr concurrently.
+	var stderrBuf bytes.Buffer
+	var stderrWG sync.WaitGroup
+	stderrWG.Add(1)
+	go func() {
+		defer stderrWG.Done()
+		_, _ = io.Copy(&stderrBuf, stderr)
+	}()
+
+	cs := newContributorSet()
+	delim := []byte{0, 0}
+	buf := make([]byte, 128*1024)
+	pending := make([]byte, 0, 256*1024)
+
+	handleRecord := func(rec []byte) {
+		if len(rec) == 0 {
+			return
+		}
+		parts := bytes.Split(rec, []byte{0})
+		if len(parts) < 6 {
+			return
+		}
+		an := string(parts[1])
+		ae := string(parts[2])
+		cn := string(parts[3])
+		ce := string(parts[4])
+		msg := string(parts[5])
+
+		cs.add(an, ae)
+		cs.add(cn, ce)
+		for _, c := range parseTrailerContributors(msg) {
+			cs.add(c.Name, c.Email)
+		}
+	}
+
+	for {
+		n, rerr := stdout.Read(buf)
+		if n > 0 {
+			pending = append(pending, buf[:n]...)
+			for {
+				idx := bytes.Index(pending, delim)
+				if idx < 0 {
+					break
+				}
+				rec := pending[:idx]
+				handleRecord(rec)
+				pending = pending[idx+len(delim):]
+			}
+		}
+		if rerr == io.EOF {
+			break
+		}
+		if rerr != nil {
+			_ = cmd.Process.Kill()
+			stderrWG.Wait()
+			return nil, fmt.Errorf("reading git log stdout: %w (stderr: %s)", rerr, strings.TrimSpace(stderrBuf.String()))
+		}
+	}
+	if len(pending) > 0 {
+		handleRecord(pending)
+	}
+
+	err = cmd.Wait()
+	stderrWG.Wait()
+	if err != nil {
+		if ctx.Err() != nil {
+			return nil, ctx.Err()
+		}
+		return nil, fmt.Errorf("git log failed: %w (stderr: %s)", err, strings.TrimSpace(stderrBuf.String()))
+	}
+	return cs, nil
+}
+
+func computeRepoStats(ctx context.Context, cfg config, tmpRoot string, repo string) repoStats {
+	st := repoStats{repoInput: repo, repoResolved: repo}
+
+	repoDir := filepath.Join(tmpRoot, sanitizeRepoDirName(repo))
+	if !cfg.keepTmp {
+		defer func() { _ = os.RemoveAll(repoDir) }()
+	}
+
+	if err := resetDir(repoDir); err != nil {
+		st.err = fmt.Errorf("cannot create repo dir %s: %w", repoDir, err)
+		return st
+	}
+
+	repoCtx := ctx
+	var cancel context.CancelFunc
+	if cfg.repoTimeout > 0 {
+		repoCtx, cancel = context.WithTimeout(ctx, cfg.repoTimeout)
+		defer cancel()
+	}
+
+	resolvedRepo, usedURL, err := cloneRepo(repoCtx, cfg, repo, repoDir)
+	if err != nil {
+		st.err = err
+		return st
+	}
+	st.repoResolved = resolvedRepo
+	if cfg.debug {
+		fmt.Printf("cloned %s -> %s (%s)\n", repo, repoDir, usedURL)
+	}
+
+	if cfg.fetchAllBranches {
+		if err := gitFetchAllBranches(repoCtx, cfg, repoDir); err != nil {
+			st.err = err
+			return st
+		}
+	}
+
+	logCtx := repoCtx
+	var cancelLog context.CancelFunc
+	if cfg.logTimeout > 0 {
+		logCtx, cancelLog = context.WithTimeout(repoCtx, cfg.logTimeout)
+		defer cancelLog()
+	}
+
+	cs, err := gitLogContributors(logCtx, cfg, repoDir)
+	if err != nil {
+		st.err = err
+		return st
+	}
+
+	emails := cs.emailsSorted()
+	names := cs.namesSorted()
+
+	st.emails = emails
+	st.names = names
+	st.emailCount = len(emails)
+	return st
+}
+
+// ---- Row update helpers ----
+
+func parseIntStrict(s string) (int, bool) {
+	s = strings.TrimSpace(s)
+	if s == "" {
+		return 0, false
+	}
+	n, err := strconv.Atoi(s)
+	if err != nil || n < 0 {
+		return 0, false
+	}
+	return n, true
+}
+
+func parseCountField(s string) (int, bool) {
+	s = strings.TrimSpace(s)
+	if s == "" {
+		return 0, false
+	}
+	if strings.HasPrefix(s, "=") {
+		return parseIntStrict(strings.TrimPrefix(s, "="))
+	}
+	return parseIntStrict(s)
+}
+
+func countListField(field string) (int, bool) {
+	field = strings.TrimSpace(field)
+	if field == "" {
+		return 0, true
+	}
+	if strings.HasPrefix(field, "=") {
+		return parseIntStrict(strings.TrimPrefix(field, "="))
+	}
+	parts := strings.Split(field, ",")
+	seen := make(map[string]struct{}, len(parts))
+	for _, p := range parts {
+		p = strings.TrimSpace(p)
+		if p == "" {
+			continue
+		}
+		seen[p] = struct{}{}
+	}
+	return len(seen), true
+}
+
+func formatListOrCount(items []string, maxItems, maxBytes int) string {
+	if len(items) == 0 {
+		return ""
+	}
+	if maxItems > 0 && len(items) > maxItems {
+		return fmt.Sprintf("=%d", len(items))
+	}
+	joined := strings.Join(items, ",")
+	if maxBytes > 0 && len(joined) > maxBytes {
+		return fmt.Sprintf("=%d", len(items))
+	}
+	return joined
+}
+
+// ---- Signal handling ----
+
+func installSignalHandler(cancel func()) {
+	ch := make(chan os.Signal, 2)
+	signal.Notify(ch, syscall.SIGINT, syscall.SIGTERM)
+	go func() {
+		<-ch
+		cancel()
+		<-ch
+		os.Exit(1)
+	}()
+}
+
+// ---- Main ----
+
+func main() {
+	cfg := parseFlags()
+
+	input, err := readCSV(cfg.inPath)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "error reading CSV: %v\n", err)
+		os.Exit(1)
+	}
+	if len(input.rows) == 0 {
+		fmt.Fprintf(os.Stderr, "error: input CSV has no data rows\n")
+		os.Exit(1)
+	}
+
+	repoIdx, err := colIndex(input, "repo")
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "error: %v\n", err)
+		os.Exit(1)
+	}
+	authIdx, err := colIndex(input, "authors")
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "error: %v\n", err)
+		os.Exit(1)
+	}
+	auth1Idx, err := colIndex(input, "authors_alt1")
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "error: %v\n", err)
+		os.Exit(1)
+	}
+	auth2Idx, err := colIndex(input, "authors_alt2")
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "error: %v\n", err)
+		os.Exit(1)
+	}
+
+	// Collect distinct repos.
+	repoSet := make(map[string]struct{})
+	repos := make([]string, 0, len(input.rows))
+	for _, row := range input.rows {
+		if repoIdx >= len(row) {
+			continue
+		}
+		repo := strings.TrimSpace(row[repoIdx])
+		if repo == "" {
+			continue
+		}
+		if _, ok := repoSet[repo]; ok {
+			continue
+		}
+		repoSet[repo] = struct{}{}
+		repos = append(repos, repo)
+	}
+	sort.Strings(repos)
+
+	// Prepare temp root for clones.
+	tmpRoot, err := os.MkdirTemp(cfg.tmpParent, "velocity-enrich-")
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "error creating temp root under %s: %v\n", cfg.tmpParent, err)
+		os.Exit(1)
+	}
+	if !cfg.keepTmp {
+		defer func() { _ = os.RemoveAll(tmpRoot) }()
+	}
+
+	if !cfg.quiet {
+		fmt.Printf("enrich_authors: input=%s output=%s repos=%d threads=%d tmpRoot=%s\n", cfg.inPath, cfg.outPath, len(repos), cfg.threads, tmpRoot)
+		if cfg.from != "" || cfg.to != "" {
+			fmt.Printf("date filter: since=%q until=%q (git log)\n", cfg.from, cfg.to)
+		}
+		fmt.Printf("clone: retries=%d detect-renames=%v fetch-all-branches=%v\n", cfg.cloneRetries, cfg.detectRenames, cfg.fetchAllBranches)
+		if cfg.neverWorse {
+			fmt.Printf("update policy: never-worse enabled (use -allow-decrease to override)\n")
+		}
+	}
+
+	ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
+	installSignalHandler(cancel)
+
+	// Worker pool.
+	jobs := make(chan string)
+	resultsCh := make(chan repoStats)
+
+	var doneCount int64
+	var wg sync.WaitGroup
+	wg.Add(cfg.threads)
+	for w := 0; w < cfg.threads; w++ {
+		workerID := w
+		go func() {
+			defer wg.Done()
+			for repo := range jobs {
+				st := computeRepoStats(ctx, cfg, tmpRoot, repo)
+				resultsCh <- st
+
+				c := atomic.AddInt64(&doneCount, 1)
+				if !cfg.quiet && (c%25 == 0 || c == int64(len(repos))) {
+					fmt.Printf("progress: %d/%d repos processed\n", c, len(repos))
+				}
+				if cfg.debug && st.err != nil {
+					fmt.Printf("worker %d: repo %s failed: %v\n", workerID, repo, st.err)
+				}
+			}
+		}()
+	}
+
+	go func() {
+		defer close(jobs)
+		for _, repo := range repos {
+			select {
+			case <-ctx.Done():
+				return
+			case jobs <- repo:
+			}
+		}
+	}()
+
+	go func() {
+		wg.Wait()
+		close(resultsCh)
+	}()
+
+	resMap := make(map[string]repoStats, len(repos))
+	for st := range resultsCh {
+		resMap[st.repoInput] = st
+	}
+
+	if ctx.Err() != nil {
+		fmt.Fprintf(os.Stderr, "interrupted\n")
+		os.Exit(1)
+	}
+
+	// Update rows.
+	updated := 0
+	skippedNeverWorse := 0
+	failed := 0
+
+	for i, row := range input.rows {
+		if repoIdx >= len(row) {
+			continue
+		}
+		repo := strings.TrimSpace(row[repoIdx])
+		if repo == "" {
+			continue
+		}
+		st, ok := resMap[repo]
+		if !ok {
+			continue
+		}
+		if st.err != nil {
+			failed++
+			continue
+		}
+
+		// Determine original author count (authors_alt2 preferred, else authors field).
+		origCount := 0
+		if auth2Idx < len(row) {
+			if v, ok := parseCountField(row[auth2Idx]); ok {
+				origCount = v
+			}
+		}
+		if origCount == 0 && authIdx < len(row) {
+			if v, ok := countListField(row[authIdx]); ok {
+				origCount = v
+			}
+		}
+
+		if cfg.neverWorse && origCount > 0 && st.emailCount < origCount {
+			skippedNeverWorse++
+			continue
+		}
+
+		// Ensure row has enough columns.
+		maxIdx := authIdx
+		if auth1Idx > maxIdx {
+			maxIdx = auth1Idx
+		}
+		if auth2Idx > maxIdx {
+			maxIdx = auth2Idx
+		}
+		for len(row) <= maxIdx {
+			row = append(row, "")
+		}
+
+		row[auth2Idx] = strconv.Itoa(st.emailCount)
+		row[authIdx] = formatListOrCount(st.emails, cfg.maxListItems, cfg.maxListBytes)
+		row[auth1Idx] = formatListOrCount(st.names, cfg.maxListItems, cfg.maxListBytes)
+		input.rows[i] = row
+		updated++
+	}
+
+	if !cfg.quiet {
+		fmt.Printf("enrich_authors: updated=%d skipped(never-worse)=%d failed(fallback to original)=%d\n", updated, skippedNeverWorse, failed)
+	}
+
+	if err := writeCSV(cfg.outPath, input); err != nil {
+		fmt.Fprintf(os.Stderr, "error writing output CSV: %v\n", err)
+		os.Exit(1)
+	}
+	if !cfg.quiet {
+		fmt.Printf("enrich_authors: wrote %s\n", cfg.outPath)
+	}
 }
 
