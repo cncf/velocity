@@ -1,13 +1,12 @@
 package main
 
-// enrich_authors.go
-//
 // A velocity (cncf/velocity) enrichment utility.
 //
 // It post-processes BigQuery CSV exports and replaces the following columns:
 //   - authors       : comma-separated list of unique contributor emails
 //   - authors_alt1  : comma-separated list of unique contributor names (best-effort)
 //   - authors_alt2  : count of unique contributor emails
+//   - commits       : count of commits found by `git log --all` (within optional date range)
 //
 // Contributors are extracted from local git history by temporarily cloning each repo and
 // scanning commits across ALL refs (git log --all), within an optional date range.
@@ -24,6 +23,7 @@ package main
 //   * Robust log parsing: streamed parsing (no full git log buffering).
 //   * Safe CSV update: on per-repo failure, leaves rows unchanged; optional "never worse"
 //     mode prevents replacing a row if the computed author count is lower than the original.
+//     For commits, "never worse" prevents updating the commits field to a lower value.
 //
 // Intended to be compatible with velocity's analysis.rb which expects a header row.
 
@@ -312,9 +312,10 @@ func colIndex(t csvTable, name string) (int, error) {
 // ---- Contributors ----
 
 type contributorSet struct {
-	emails map[string]string // email -> best display name (may be empty)
-	names  map[string]string // lower(name) -> original display name
-	seen   map[string]struct{}
+	emails      map[string]string // email -> best display name (may be empty)
+	names       map[string]string // lower(name) -> original display name
+	seen        map[string]struct{}
+	commitCount int // number of commits processed by git lo
 }
 
 func newContributorSet() *contributorSet {
@@ -501,6 +502,7 @@ type repoStats struct {
 	emails       []string
 	names        []string
 	emailCount   int
+	commitCount  int
 	err          error
 }
 
@@ -864,6 +866,7 @@ func gitLogContributors(ctx context.Context, cfg config, repoDir string) (*contr
 		if len(parts) < 6 {
 			return
 		}
+		cs.commitCount++
 		an := string(parts[1])
 		ae := string(parts[2])
 		cn := string(parts[3])
@@ -971,6 +974,7 @@ func computeRepoStats(ctx context.Context, cfg config, tmpRoot string, repo stri
 	st.emails = emails
 	st.names = names
 	st.emailCount = len(emails)
+	st.commitCount = cs.commitCount
 	return st
 }
 
@@ -1080,6 +1084,14 @@ func main() {
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error: %v\n", err)
 		os.Exit(1)
+	}
+
+	// commits column is optional (older CSVs may omit it).
+	commitsIdx := -1
+	if ci, err := colIndex(input, "commits"); err == nil {
+		commitsIdx = ci
+	} else if !cfg.quiet {
+		fmt.Printf("warning: %v (commits column will not be updated)\n", err)
 	}
 
 	// Collect distinct repos.
@@ -1218,6 +1230,14 @@ func main() {
 			continue
 		}
 
+		// Determine original commits count (if column present).
+		origCommits := 0
+		if commitsIdx >= 0 && commitsIdx < len(row) {
+			if v, ok := parseCountField(row[commitsIdx]); ok {
+				origCommits = v
+			}
+		}
+
 		// Ensure row has enough columns.
 		maxIdx := authIdx
 		if auth1Idx > maxIdx {
@@ -1226,6 +1246,9 @@ func main() {
 		if auth2Idx > maxIdx {
 			maxIdx = auth2Idx
 		}
+		if commitsIdx > maxIdx {
+			maxIdx = commitsIdx
+		}
 		for len(row) <= maxIdx {
 			row = append(row, "")
 		}
@@ -1233,6 +1256,14 @@ func main() {
 		row[auth2Idx] = strconv.Itoa(st.emailCount)
 		row[authIdx] = formatListOrCount(st.emails, cfg.maxListItems, cfg.maxListBytes)
 		row[auth1Idx] = formatListOrCount(st.names, cfg.maxListItems, cfg.maxListBytes)
+
+		// Update commits, but (by default) never decrease it.
+		if commitsIdx >= 0 {
+			if !(cfg.neverWorse && origCommits > 0 && st.commitCount < origCommits) {
+				row[commitsIdx] = strconv.Itoa(st.commitCount)
+			}
+		}
+
 		input.rows[i] = row
 		updated++
 	}
@@ -1249,4 +1280,3 @@ func main() {
 		fmt.Printf("enrich_authors: wrote %s\n", cfg.outPath)
 	}
 }
-

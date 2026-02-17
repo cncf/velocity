@@ -1,0 +1,1260 @@
+org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes
+pytorch,pytorch/pytorch,738,322,181,97,38,28,"Aaron Orenstein,Animesh Jain,Bin Bao,Bob Ren,CaoE,Claude,Deng, Daisy,Facebook GitHub Bot,Guilherme Leobas,Janani Sriram,Ke Wen,Masaki Kozuki,Miroslaw Oksiucik,Nikita Shulga,Pian Pawakapan,PyTorch MergeBot,Sam Larsen,Shangdi Yu,Shuai Yang,Su Tong,Sumanth Gopisetty,Wei (Will) Feng,Wei Feng,Yidi Wu,Yu, Guangye,Zhang, Jianyi,arkadip-maitra,drisspg,pytorchbot","2453524+malfet@users.noreply.github.com,amaitra@redhat.com,anijain@umich.edu,aorenste@meta.com,binbao@meta.com,bobren@meta.com,daisy.deng@intel.com,drisspguessous@gmail.com,e.cao@intel.com,facebook-github-bot@users.noreply.github.com,gleobas@quansight.com,guangye.yu@intel.com,jananisriram@meta.com,jianyi.zhang@intel.com,kwen@nvidia.com,miroslaw.oksiucik@intel.com,mkozuki@nvidia.com,noreply@anthropic.com,pianpwk@meta.com,pytorchbot@pytorch.com,pytorchmergebot@users.noreply.github.com,shangdiy@meta.com,shuaiyang@meta.com,slarsen@meta.com,sumanth.gopisetty109@gmail.com,tong.su@intel.com,weif@meta.com,yidi@meta.com",197
+zephyrproject-rtos,zephyrproject-rtos/zephyr,383,312,33,43,19,25,"Adam Kondraciuk,Carles Cufí,Chris Friedt,Fabrice DJIATSA,Fin Maaß,Guðni Már Gilbert,Henrik Brix Andersen,Holt Sun,James Bennion-Pedley,James Walmsley,Jamie McCrae,Johan Hedberg,Jérôme Pouiller,Liu Gavin (CSS ICW ENG WFS SW WFSW 1,Liu Gavin (CSS ICW ENG WFS SW WFSW 1),Martin Hoff,Neil Chen,Pete Johanson,Pieter De Gendt,Ren Chen,Robert Lubos,Robert Robinson,Sudan Landge,Svitlana Drozd,TOKITA Hiroshi,Tim Lin","adam.kondraciuk@nordicsemi.no,carles.cufi@nordicsemi.no,cfriedt@tenstorrent.com,cheng.chen_1@nxp.com,f.maass@vogl-electronic.com,fabrice.djiatsa-ext@st.com,gavin.liu@infineon.com,gudni.m.g@gmail.com,henrik@brixandersen.dk,holt.sun@nxp.com,james@bojit.org,james@fullfat-fs.co.uk,jamie.mccrae@nordicsemi.no,jerome.pouiller@silabs.com,johan.hedberg@gmail.com,martin.hoff@silabs.com,pete.johanson@analog.com,pieter.degendt@basalte.be,ren.chen@ite.com.tw,robert.lubos@nordicsemi.no,robert.robinson@nordicsemi.no,sudan.landge@arm.com,svitlana_drozd@epam.com,tim2.lin@ite.corp-partner.google.com,tokita.hiroshi@gmail.com",19
+kubestellar,kubestellar/console,226,18,60,69,96,5,"Andrew Anderson,Andy Anderson,Claude Opus 4.5,Copilot,GitHub,clubanderson,copilot-swe-agent[bot,copilot-swe-agent[bot]","198982749+copilot@users.noreply.github.com,407614+clubanderson@users.noreply.github.com,andy@clubanderson.com,noreply@anthropic.com,noreply@github.com",52
+backstage,backstage/community-plugins,186,6,2,0,1,0,,,177
+kubernetes,kubernetes/enhancements,186,175,9,1,0,1,Yongrui Lin,yongrlin@outlook.com,2
+cilium,cilium/cilium,154,100,15,31,13,13,"André Martins,Casey Callendrello,Cilium Imagebot,Hadrien Patte,Jacques I Massa,Jacques Massa,Julian Wiedmann,Kevin Vu,Maciej Kwiek,Sebastian Wicki,Timo Beckers,andy176631,cilium-renovate[bot,cilium-renovate[bot]","134692979+cilium-renovate[bot]@users.noreply.github.com,aanm@users.noreply.github.com,andy17663@gmail.com,cdc@isovalent.com,hadrien.patte@datadoghq.com,jac.massa0908@gmail.com,julianwiedmann@users.noreply.github.com,jwi@isovalent.com,maciej@isovalent.com,noreply@cilium.io,sebastian@isovalent.com,ti-mo@users.noreply.github.com,vietcgi@gmail.com",26
+pytorch,pytorch/rl,138,0,1,12,0,2,"Vincent Moens,github-actions[bot]","github-actions[bot]@users.noreply.github.com,vincentmoens@gmail.com",137
+ortelius,ortelius/ms-dep-pkg-r,134,0,51,4,62,1,Steve Taylor,steve@deployhub.com,21
+kubernetes,kubernetes/kubernetes,131,110,9,1,8,1,张可10140699,zhang.ke106@zte.com.cn,4
+pytorch,pytorch/executorch,130,43,22,15,7,14,"Erik Lundell,Gasoonjia,GitHub,Martin Lindström,Oscar Andersson,Per Åstrand,PyTorch Bot,Tom Allsop,pytorchbot","33344797+martinlsm@users.noreply.github.com,72802373+tom-arm@users.noreply.github.com,87121123+oscarandersson8218@users.noreply.github.com,erik.lundell@arm.com,gasoonjia@icloud.com,martin.lindstroem@arm.com,noreply@github.com,oscar.andersson@arm.com,per.astrand@arm.com,per@users.noreply.github.com,pytorchbot@pytorch.com,pytorchbot@users.noreply.github.com,soumith+bot@pytorch.org,tom.allsop@arm.com",58
+kubernetes,kubernetes/website,119,101,12,11,0,5,"Ajay Sundar Karuppasamy,Eason1118,GitHub,Kubernetes Prow Robot,xin.li","1084430062@qq.com,20407524+k8s-ci-robot@users.noreply.github.com,ajaysundar@google.com,noreply@github.com,xin.li@daocloud.io",6
+kubevirt,kubevirt/kubevirt,115,106,5,3,0,3,"Alex Kalenyuk,GitHub,kubevirt-bot","akalenyu@redhat.com,kubevirtbot@redhat.com,noreply@github.com",4
+ceph,ceph/ceph,112,86,19,9,0,12,"Afreen Misbah,Alex Ainscow,Anthony D'Atri,Bill Scales,GitHub,John Agombar,John Mulligan,Kefu Chai,Mark Kogan,Radoslaw Zarzynski,Shraddha Agrawal","156185648+aainscow@users.noreply.github.com,afreen@ibm.com,agombar@uk.ibm.com,anthonyeleven@users.noreply.github.com,bill_scales@uk.ibm.com,jmulligan@redhat.com,k.chai@proxmox.com,mkogan@ibm.com,mkogan@redhat.com,noreply@github.com,rzarzyns@redhat.com,shraddha.agrawal000@gmail.com",7
+spdx,spdx/spdx-spec,109,0,0,169,0,4,"GitHub,ci-bot,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,ci-bot@spdx.dev,noreply@github.com,support@github.com",109
+kubernetes-sigs,kubernetes-sigs/headlamp,102,71,10,3,15,5,"Devin Buhl,GitHub,René Dudfield,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,onedr0p@users.noreply.github.com,renedudfield@microsoft.com,support@github.com",6
+backstage,backstage/backstage,92,29,7,12,8,4,"Johan Persson,Naycon,Rugvip,copilot-swe-agent[bot],nojaf","198982749+copilot@users.noreply.github.com,4984472+rugvip@users.noreply.github.com,florian.verdonck@outlook.com,johanopersson@gmail.com",48
+open-telemetry,open-telemetry/opentelemetry-collector-contrib,90,46,15,4,22,8,"Andrzej Stencel,Arve Knudsen,Christos Markou,GitHub,Michalis Katsoulis,Paulo Dias,Sadit Wongprayon","101176694+moosatae@users.noreply.github.com,44772900+paulojmdias@users.noreply.github.com,andrzej.stencel@elastic.co,arve.knudsen@gmail.com,chrismarkou92@gmail.com,michaelkatsoulis88@gmail.com,noreply@github.com,paulodias.gm@gmail.com",7
+riscv,riscv/riscv-unified-db,82,4,6,35,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",72
+nodejs,nodejs/node,78,43,20,37,7,48,"Aditi Singh,Amol Yadav,Anna Henningsen,Antoine du Hamel,Aviv Keller,Bart Louwers,Benjamin Gruenbaum,Beth Griggs,Chemi Atlow,Chengzhong Wu,Claudio Wunder,Colin Ihrig,Daniel Lemire,Edy Silva,Ethan Arrowood,Filip Skokan,GitHub,Guilherme Araújo,Gürgün Dayıoğlu,Jacob Smith,Jake Yuesong Li,Jithil P Ponnan,Jordan Harband,Joyee Cheung,Luigi Pinca,Marco Ippolito,Matteo Collina,Matthew Aitken,Mattias Buelens,Mert Can Altin,Michaël Zasso,Moshe Atlow,Nikita Skovoroda,Node.js GitHub Bot,Pietro Marchini,Rafael Gonzaga,René,Richard Lau,Robert Nagy,Ruben Bridgewater,Stewart X Addison,Taejin Kim,Ulises Gascón,Yagiz Nizipli,Zeyu ""Alex"" Yang,wantaek,Сковорода Никита Андреевич","60560836+kimtaejin3@users.noreply.github.com,6487691+sxa@users.noreply.github.com,aditisingh1400@gmail.com,amyssnipet@yahoo.com,anna@addaleax.net,arauujogui@gmail.com,bart@emeel.net,benjamingr@gmail.com,bethanyngriggs@gmail.com,bgriggs@redhat.com,chalkerx@gmail.com,chemi@atlow.co.il,cjihrig@gmail.com,contact.9a5d6388@renegade334.me.uk,cwunder@gnome.org,daniel@lemire.me,duhamelantoine1995@gmail.com,edigleyssonsilva@gmail.com,ethan@arrowood.dev,github-bot@iojs.org,hey@gurgun.day,himself65@outlook.com,jacob@frende.me,jake.yuesong@gmail.com,jithil@outlook.com,joyeec9h3@gmail.com,legendecas@gmail.com,ljharb@gmail.com,luigipinca@gmail.com,maitken033380023@gmail.com,marcoippolito54@gmail.com,matteo.collina@gmail.com,mattias@buelens.com,me@aviv.sh,mertgold60@gmail.com,moshe@atlow.co.il,noreply@github.com,panva.ip@gmail.com,pietro.marchini94@gmail.com,rafael.nunu@hotmail.com,richard.lau@ibm.com,ronagy@icloud.com,ruben.bridgewater@datadoghq.com,sxa@redhat.com,targos@protonmail.com,ulisesgascongonzalez@gmail.com,wantaekchoi@gmail.com,yagiz@nizipli.com",8
+kubernetes-sigs,kubernetes-sigs/kueue,70,55,7,9,1,7,"GitHub,Irving Mondragón,Michał Woźniak,k8s-infra-cherrypick-robot,vladikkuzn","51460778+vladikkuzn@users.noreply.github.com,90416843+k8s-infra-cherrypick-robot@users.noreply.github.com,irvingmg@users.noreply.github.com,michalwozniak@google.com,mimowo@users.noreply.github.com,noreply@github.com,vladikkuzn1@gmail.com",7
+keycloak,keycloak/keycloak,65,33,5,7,22,7,"GitHub,Marek Posolda,Martin Bartoš,Simon Vacek,Stian Thorgersen,rmartinc,stianst,Šimon Vacek","86605314+vaceksimon@users.noreply.github.com,mabartos@redhat.com,mposolda@gmail.com,noreply@github.com,rmartinc@redhat.com,simonvacky@email.cz,stianst@gmail.com",5
+open-telemetry,open-telemetry/otel-arrow,64,37,1,11,1,1,github-action-benchmark,github@users.noreply.github.com,25
+argoproj,argoproj/argo-cd,63,35,5,3,17,5,"GitHub,dependabot[bot,dependabot[bot],github-actions[bot,github-actions[bot],reggie-k","19544836+reggie-k@users.noreply.github.com,41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",6
+envoyproxy,envoyproxy/envoy,63,32,15,8,8,9,"GitHub,Rohit Agrawal,Ryan Northey,copilot-swe-agent[bot],dependency-envoy[bot,dependency-envoy[bot],phlax,tyxia","148525496+dependency-envoy[bot]@users.noreply.github.com,198982749+copilot@users.noreply.github.com,454682+phlax@users.noreply.github.com,72890320+tyxia@users.noreply.github.com,noreply@github.com,phlax@users.noreply.github.com,rohit.agrawal@databricks.com,ryan@synca.io,tyxia@google.com",8
+HolmesGPT,HolmesGPT/holmesgpt,63,10,3,22,0,3,"Claude,GitHub,Natan Yellin","aantn@users.noreply.github.com,noreply@anthropic.com,noreply@github.com",50
+cartography-cncf,cartography-cncf/cartography,56,13,7,1,10,4,"Claude Opus 4.5,GitHub,Jeremy Chapeau","113923302+jychp@users.noreply.github.com,jeremy@subimage.io,noreply@anthropic.com,noreply@github.com",26
+podman-desktop,podman-desktop/podman-desktop,55,17,3,23,14,10,"Evzen Gasta,Evžen Gasta,Florent BENOIT,GitHub,Jiri Dostal,axel7083,dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,42176370+axel7083@users.noreply.github.com,46690189+gastoner@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,evzen.ml@seznam.cz,fbenoit@redhat.com,jdostal@redhat.com,jiridostal@hotmail.com,noreply@github.com,support@github.com",21
+argoproj,argoproj/argo-workflows,52,13,2,6,0,4,"Alan Clucas,GitHub,coderabbitai[bot,renovate[bot,renovate[bot]","136622811+coderabbitai[bot]@users.noreply.github.com,29139614+renovate[bot]@users.noreply.github.com,alan@clucas.org,noreply@github.com",37
+meshery,meshery/meshery,51,41,3,12,3,10,"DharunMR,GitHub,Khaled Sayed,KhaledSayed04,Lee Calcote,Matthieu Evrin,dependabot[bot,dependabot[bot],l5io,leecalcote,lekaf974","49699333+dependabot[bot]@users.noreply.github.com,6630779+lekaf974@users.noreply.github.com,ci@meshery.io,khaledsa15me@gmail.com,lee.calcote@layer5.io,leecalcote@users.noreply.github.com,lekaf974@users.noreply.github.com,maddharun56@gmail.com,noreply@github.com,support@github.com",4
+jaegertracing,jaegertracing/jaeger,50,37,8,5,2,8,"Copilot,GitHub,Mahad Zaryab,Mend Renovate,No jae gun,Yashika,Yashika0724,copilot-swe-agent[bot,yurishkuro","198982749+copilot@users.noreply.github.com,32046070+njg7194@users.noreply.github.com,3523016+yurishkuro@users.noreply.github.com,43658574+mahadzaryab1@users.noreply.github.com,bot@renovateapp.com,mahadzaryab1@gmail.com,noreply@github.com,ssyashika1311@gmail.com",3
+drasi-project,drasi-project/drasi-core,50,41,2,0,5,0,,,2
+volcano-sh,volcano-sh/kthena,48,42,4,7,2,3,"WHOIM1205,YaoZengzeng,zhoujinyu","2319109590@qq.com,rathourprateek8@gmail.com,yaozengzeng@huawei.com",0
+grpc,grpc/grpc,47,6,2,10,8,5,"Copybara-Service,Niraj Nepal,Pranjali-2501,Tanvi Jagtap,Tanvi Jagtap - Google LLC","139093547+tanvi-jagtap@users.noreply.github.com,copybara-worker@google.com,nnepal@google.com,pranjalisaxena@google.com,tjagtap@google.com",31
+prometheus,prometheus/alertmanager,45,14,2,18,18,5,"Ben Kochie,GitHub,Solomon Jacobs,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,solomonjacobs@protonmail.com,superq@gmail.com,support@github.com",11
+finos,finos/git-proxy,43,12,1,0,1,0,,,29
+kubevirt,kubevirt/ci-health,42,0,0,57,0,1,KubeVirt Bot,kubevirtbot@redhat.com,42
+opentofu,opentofu/registry,41,0,1,53,3,4,"GitHub,OpenTofu Automation,OpenTofu Core Development Team,github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,core@opentofu.org,no-reply@opentofu.org,noreply@github.com",37
+hyperledger,hyperledger/besu,41,16,8,2,14,3,"GitHub,Sally MacFarlane,daniellehrner","daniel.lehrner@consensys.net,macfarla.github@gmail.com,noreply@github.com",3
+WasmEdge,WasmEdge/WasmEdge,40,31,3,0,6,0,,,0
+containers,containers/podman,40,33,1,1,6,1,Danish Prakash,contact@danishpraka.sh,0
+jenkinsci,jenkinsci/jenkins,39,24,4,5,1,6,"Dhanush Raja A,GitHub,Mark Waite,Tim Jacomb,dhanush-raja-a,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,dhanushrajaa@dhanushs-macbook-air.local,dhanushrajafour@gmail.com,mark.earl.waite@gmail.com,noreply@github.com,timjacomb1@gmail.com",10
+pytorch,pytorch/helion,39,5,3,3,1,4,"GitHub,Oguz Ulgen,Will Feng,Yinuo Liu","noreply@github.com,oulgen7@gmail.com,yfeng.us@gmail.com,yinuol@nvidia.com",30
+kubeovn,kubeovn/kube-ovn,37,21,5,17,3,10,"GitHub,Jules Skrill,Mengxin Liu,changluyi,clyi,github-actions[bot,github-actions[bot],jskrill,oilbeater,zbb88888,zhangzujian,张祖建","1189736+oilbeater@users.noreply.github.com,41898282+github-actions[bot]@users.noreply.github.com,47097611+changluyi@users.noreply.github.com,clyi@alauda.io,jmdxjsjgcxy@gmail.com,julesskrill@gmail.com,liumengxinfly@gmail.com,noreply@github.com,oilbeater@users.noreply.github.com,zhangzujian.7@gmail.com",8
+kgateway-dev,kgateway-dev/kgateway,37,28,1,1,7,1,Yuval Kohavi,yuval.kohavi@gmail.com,1
+open-telemetry,open-telemetry/weaver,36,8,1,8,0,3,"GitHub,Jeremy Blythe,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,jeremyblythe@gmail.com,noreply@github.com",27
+jaegertracing,jaegertracing/jaeger-ui,36,33,3,0,0,0,,,0
+open-telemetry,open-telemetry/opentelemetry.io,35,16,5,7,4,9,"Damien Mathieu,GitHub,MUSKAN NISHAD,Michael Yao,Patrice Chalin,Vitor Vasconcellos,otelbot,otelbot-docs[bot],otelbot[bot],windsonsea","197425009+otelbot@users.noreply.github.com,197425009+otelbot[bot]@users.noreply.github.com,231964151+otelbot-docs[bot]@users.noreply.github.com,42@dmathieu.com,chalin@users.noreply.github.com,haifeng.yao@daocloud.io,mkumari40432@gmail.com,noreply@github.com,vitor.vasconcellos@mercadolivre.com",10
+cncf,cncf/gitdm,34,8,11,11,0,5,"Eduard Tichy,GitHub,Lukasz Gryglicki,etichy,woodpeqr,Łukasz Gryglicki","e.tichy@centrum.cz,eduard.tichy@solarwinds.com,lgryglicki@cncf.io,noreply@github.com,vojta.vojacek@solarwinds.com",15
+envoyproxy,envoyproxy/gateway,34,18,5,4,8,6,"GitHub,Junnygram,Karol Szwaj,Olaleye,jaffar,jaffar keikei,zirain","90139191+junnygram@users.noreply.github.com,junnexclusive@gmail.com,karol.szwaj@gmail.com,keikei.jaffar@mail.utoronto.ca,noreply@github.com,zirain2009@gmail.com",3
+kubernetes,kubernetes/ingress-nginx,34,12,7,0,0,0,,,15
+kubernetes-sigs,kubernetes-sigs/gateway-api-inference-extension,33,28,1,0,2,0,,,2
+external-secrets,external-secrets/external-secrets,33,9,4,13,2,8,"Gergely Brautigam,Gergely Bräutigam,GitHub,Gustavo Fernandes de Carvalho,Jean-Philippe Evrard,dependabot[bot,dependabot[bot],eso-service-account-app[bot]","17139678+gusfcarvalho@users.noreply.github.com,182850+skarlso@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,eso-service-account-app[bot]@users.noreply.github.com,jean-philippe.evrard+rochepub@external.roche.com,noreply@github.com,skarlso777@gmail.com,support@github.com",18
+rook,rook/rook,33,24,2,1,2,1,Satoru Takeuchi,satoru.takeuchi@gmail.com,5
+fluxcd,fluxcd/flux2,33,12,5,0,0,0,,,16
+kubernetes,kubernetes/autoscaler,33,30,2,0,1,0,,,0
+project-zot,project-zot/zot,32,16,3,8,6,6,"Andrei Aaron,GitHub,Matheus Pimenta,Ramkumar Chinchani,copilot-swe-agent[bot],rchincha","198982749+copilot@users.noreply.github.com,45800463+rchincha@users.noreply.github.com,andreifdaaron@gmail.com,matheuscscp@gmail.com,noreply@github.com,rchincha.dev@gmail.com",7
+prometheus,prometheus/prometheus,32,16,4,13,1,6,"Arve Knudsen,Bartlomiej Plotka,GitHub,György Krajcsovits,Julien,Julien Pivotto,Owen Williams,bwplotka","291750+roidelapluie@users.noreply.github.com,arve.knudsen@gmail.com,bwplotka@gmail.com,gyorgy.krajcsovits@grafana.com,noreply@github.com,owen.williams@grafana.com",11
+karmada-io,karmada-io/karmada,32,22,5,12,1,6,"GitHub,dependabot[bot,dependabot[bot],karmada-bot,rohan-019,zhzhuang-zju","49699333+dependabot[bot]@users.noreply.github.com,76678816+karmada-bot@users.noreply.github.com,m17799853869@163.com,noreply@github.com,rohan18126@gmail.com,support@github.com",4
+pytorch,pytorch/ao,31,13,3,0,0,0,,,15
+open-telemetry,open-telemetry/opentelemetry-specification,31,28,2,0,0,0,,,1
+open-policy-agent,open-policy-agent/opa,31,16,5,9,1,8,"Anders Eknert,GitHub,Jaydip Gabani,Stephan Renatus,anderseknert,dependabot[bot,dependabot[bot],srenatus","49699333+dependabot[bot]@users.noreply.github.com,anders.eknert@apple.com,anderseknert@users.noreply.github.com,gabanijaydip@gmail.com,noreply@github.com,s_renatus@apple.com,srenatus@users.noreply.github.com,support@github.com",9
+kubewarden,kubewarden/sbomscanner,30,11,2,9,0,4,"Fabrizio Sestito,GitHub,dependabot[bot],renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,fabrizio.sestito@suse.com,noreply@github.com",17
+kubernetes-sigs,kubernetes-sigs/gateway-api,29,26,2,0,0,0,,,1
+kubernetes,kubernetes/kops,28,11,7,7,2,4,"Ciprian Hacman,GitHub,Kubernetes Prow Robot,justinsb","20407524+k8s-ci-robot@users.noreply.github.com,ciprian@hakman.dev,justinsb@google.com,noreply@github.com",8
+kubernetes-sigs,kubernetes-sigs/cluster-api,28,11,6,7,0,4,"GitHub,Kubernetes Prow Robot,Stefan Bueringer,fabriziopandini","20407524+k8s-ci-robot@users.noreply.github.com,buringerst@vmware.com,fpandini@vmware.com,noreply@github.com",11
+hyperledger-labs,hyperledger-labs/splice,28,3,6,4,3,7,"DA Automation,GitHub,Jagath Weerasinghe,Moritz Kiefer,Viktor-Kalashnykov-da,canton-network-da,tudor-da","jagath.weerasinghe@digitalasset.com,moritz.kiefer@purelyfunctional.org,noreply@github.com,splice-maintainers@digitalasset.com,team-canton-network@digitalasset.com,tudor.voicu@digitalasset.com,viktor.kalashnykov@digitalasset.com",16
+longhorn,longhorn/longhorn,27,10,1,1,15,1,Derek Su,derek.su@suse.com,1
+kubewarden,kubewarden/kubewarden-controller,27,8,6,12,0,6,"Flavio Castelli,GitHub,José Guilherme Vanz,Víctor Cuadrado Juan,renovate[bot]","2196685+viccuad@users.noreply.github.com,29139614+renovate[bot]@users.noreply.github.com,fcastelli@suse.com,jguilhermevanz@suse.com,noreply@github.com,vcuadradojuan@suse.de",13
+pytorch,pytorch/torchtitan,26,13,6,6,1,7,"GitHub,Jiani Wang,Jie Fu (傅杰),Walker,akashveramd,pytorchbot","1579664489@qq.com,akash.verma3@amd.com,fujie_email@sina.com,jianiw@meta.com,jiefu@tencent.com,noreply@github.com,pytorchbot@pytorch.com",6
+cilium,cilium/cilium.io,26,11,5,1,7,3,"GitHub,Saksham Jain","113931310+reach2saksham@users.noreply.github.com,noreply@github.com,reach2saksham2004@gmail.com",3
+Samsung,Samsung/TizenRT,25,19,2,4,0,4,"eunwoo-nam,eunwoo.nam,seokhun-eom,sunghan-chang","115206864+ewoodev@users.noreply.github.com,eunwoo.nam@samsung.com,seokhun.eom@samsung.com,sh924.chang@samsung.com",4
+konveyor,konveyor/tackle2-ui,25,3,2,1,11,2,"GitHub,Shveta Sachdeva","noreply@github.com,sshveta@redhat.com",9
+nodejs,nodejs/nodejs.org,25,15,3,6,2,8,"Ahmet ULKU,Brian Muenzenmeyer,Dario Piotrowicz,GitHub,Guilherme Araújo,NAVEEN K,Richie McColl,The Shawn","82698897+shayan0v0n@users.noreply.github.com,96921013+ahhmettulku@users.noreply.github.com,arauujogui@gmail.com,brian.muenzenmeyer@gmail.com,dario@cloudflare.com,naveenkkn03@gmail.com,noreply@github.com,richie.mccoll@hotmail.co.uk",5
+open-telemetry,open-telemetry/opentelemetry-ebpf-instrumentation,24,20,1,6,0,5,"Eduard Tichy,GitHub,otelbot,otelbot[bot],renovate[bot,renovate[bot]","17002066+etichy@users.noreply.github.com,197425009+otelbot@users.noreply.github.com,197425009+otelbot[bot]@users.noreply.github.com,29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",3
+kubernetes-sigs,kubernetes-sigs/kro,23,14,0,0,9,0,,,0
+cozystack,cozystack/cozystack,23,7,7,12,2,10,"Andrei Kvapil,GitHub,IvanHunters,Kirill Ilin,Matthieu ROBIN,Timofei Larkin,cozystack-bot,gemini-code-assist[bot,github-actions[bot],nbykov0","166552198+nbykov0@users.noreply.github.com,176961590+gemini-code-assist[bot]@users.noreply.github.com,217169706+cozystack-bot@users.noreply.github.com,github-actions[bot]@users.noreply.github.com,info@matthieurobin.com,kvapss@gmail.com,lllamnyp@gmail.com,noreply@github.com,stitch14@yandex.ru,xorokhotnikov@gmail.com",7
+kubernetes-sigs,kubernetes-sigs/cloud-provider-azure,23,14,2,2,0,3,"GitHub,Qi Ni,k8s-infra-cherrypick-robot","90416843+k8s-infra-cherrypick-robot@users.noreply.github.com,noreply@github.com,pomelonicky@gmail.com",7
+kyverno,kyverno/kyverno,23,11,5,9,0,7,"Charles-Edouard Brétéché,GitHub,Jim Bugwadia,dependabot[bot,dependabot[bot],eddycharly,kyverno-bot","104836976+kyverno-bot@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,charles.edouard@nirmata.com,eddycharly@users.noreply.github.com,jim@nirmata.com,noreply@github.com,support@github.com",7
+cert-manager,cert-manager/cert-manager,23,19,1,2,0,3,"Ashley Davis,GitHub,cert-manager-prow[bot]","167124277+cert-manager-prow[bot]@users.noreply.github.com,ashley.davis@cyberark.com,noreply@github.com",3
+kubernetes-sigs,kubernetes-sigs/kubespray,22,17,3,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+zowe,zowe/docs-site,22,9,3,4,0,2,"Andrew Jandacek,GitHub","andrew.jandacek@broadcom.com,noreply@github.com",10
+kumahq,kumahq/kuma,22,6,3,14,0,6,"Bart Smykla,GitHub,Krzysztof Słonka,Marcin Skalski,renovate[bot,renovate[bot],slonka","29139614+renovate[bot]@users.noreply.github.com,bartek@smykla.com,marcin.skalski@konghq.com,noreply@github.com,skalskimarcin33@gmail.com,slonka@users.noreply.github.com",13
+kubeflow,kubeflow/website,22,16,2,6,1,8,"Akash Jaiswal,Christian Heusel,GitHub,Harshit Nayan,Matteo Mortari,Milos Grubjesic,Sridhar Pillai,milosjava,sridhar1030","77533416+sridhar1030@users.noreply.github.com,akashjaiswal3846@gmail.com,christian@heusel.eu,harshitacademia@gmail.com,matteo.mortari@gmail.com,milosjava@gmail.com,noreply@github.com,sridharpillai75@gmail.com",3
+goharbor,goharbor/harbor,21,10,3,2,4,6,"Aloui-Ikram,GitHub,Ikram ALOUI,dependabot[bot,dependabot[bot],stonezdj(Daojun Zhang)","109230617+aloui-ikram@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,ikram@container-registry.com,noreply@github.com,stonezdj@gmail.com,support@github.com",4
+onnx,onnx/onnx,21,5,2,10,0,4,"Andreas Fehlner,GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,fehlner@arcor.de,noreply@github.com,support@github.com",14
+nodejs,nodejs/test-runner,21,20,0,0,0,0,,,1
+fossology,fossology/fossology,21,15,3,1,3,1,SagarKhatri649,138390171+sagarkhatri649@users.noreply.github.com,0
+knative-extensions,knative-extensions/educational-game,20,12,1,0,6,0,,,1
+kubernetes-sigs,kubernetes-sigs/kernel-module-management,20,20,0,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/kubebuilder,20,15,1,0,2,0,,,2
+open-cluster-management-io,open-cluster-management-io/open-cluster-management-io.github.io,20,11,4,8,0,7,"Chandrasekhar Malladi,Claude Sonnet 4.5,GitHub,Jian Qiu,Mike Ng,chandrasekharmalladi,openshift-merge-bot[bot]","chandrasekhar.malladi@sony.com,chandrasekharmalladi7@outlook.com,jqiu@redhat.com,ming@redhat.com,noreply@anthropic.com,noreply@github.com,openshift-merge-bot[bot]@users.noreply.github.com",5
+headlamp-k8s,headlamp-k8s/plugins,20,14,4,0,2,0,,,0
+riscv,riscv/sail-riscv,20,16,0,1,2,2,"GitHub,tongjiacheng","127417636+challenger1024@users.noreply.github.com,noreply@github.com",2
+nodejs,nodejs/jenkins-alerts,20,0,0,23,0,1,github-actions[bot],github-actions[bot]@users.noreply.github.com,20
+meshery-extensions,meshery-extensions/kanvas-site,20,6,1,0,9,0,,,4
+kubernetes-sigs,kubernetes-sigs/container-object-storage-interface,19,17,0,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+open-telemetry,open-telemetry/opentelemetry-rust-contrib,19,7,0,7,0,4,"GitHub,Utkarsh Umesan Pillai,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,66651184+utpilla@users.noreply.github.com,noreply@github.com,support@github.com",12
+PX4,PX4/PX4-Autopilot,19,8,5,3,0,4,"Crowdin Bot,GitHub,Julian Oes,PX4 Build Bot","bot@px4.io,julian@oes.ch,noreply@github.com,support+bot@crowdin.com",6
+prometheus-community,prometheus-community/helm-charts,19,9,3,5,0,7,"Aldi Jayadi,Firas Mosbehi,GitHub,aldi.j,firas_mosbehi,monotek,zeritti","34116297+alja9@users.noreply.github.com,94706567+firasmosbehi@users.noreply.github.com,aldi.jayadi222@gmail.com,firas.mosbehi@insat.ucar.tn,monotek@users.noreply.github.com,noreply@github.com,zeritti@users.noreply.github.com",7
+istio,istio/istio,19,11,3,3,0,3,"GitHub,Istio Automation,Keith Mattix II","istio-testing-bot@google.com,keithmattix@microsoft.com,noreply@github.com",5
+jenkinsci,jenkinsci/gradle-convention-plugin,19,0,0,34,0,3,"Aarav Mahajan,GitHub,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,aaravmahajan2003@gmail.com,noreply@github.com",19
+submariner-io,submariner-io/subctl,18,6,5,8,0,5,"Stephen Kitt,Tom Pantelis,dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,steve@sk2.org,support@github.com,tompantelis@gmail.com",7
+openebs,openebs/dynamic-localpv-provisioner,18,6,1,0,0,0,,,11
+spinframework,spinframework/runtime-class-manager,18,14,0,3,3,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+ovn-kubernetes,ovn-kubernetes/ovn-kubernetes,18,13,1,0,2,0,,,2
+kubernetes,kubernetes/minikube,18,5,5,10,1,3,"GitHub,Medya Ghazizadeh,minikube-bot","medyagh@users.noreply.github.com,minikube-bot@google.com,noreply@github.com",7
+submariner-io,submariner-io/submariner-operator,18,3,11,8,0,5,"Daniel Farrell,Thomas Pantelis,dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,dfarrell@redhat.com,support@github.com,tompantelis@gmail.com",4
+submariner-io,submariner-io/submariner,18,3,8,7,0,3,"dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,support@github.com",7
+cloudnative-pg,cloudnative-pg/cloudnative-pg,18,3,2,22,1,10,"Armando Ruocco,GitHub,Jaime Silvela,Jonathan Gonzalez V.,Marco Nenciarini,Niccolò Fei,Peggie,github-actions[bot,public-cloud-k8s-versions-check","41898282+github-actions[bot]@users.noreply.github.com,armando.ruocco@enterprisedb.com,info@cloudnative-pg.io,jaime.silvela@enterprisedb.com,jaime.silvela@mailfence.com,jonathan.gonzalez@enterprisedb.com,marco.nenciarini@enterprisedb.com,niccolo.fei@enterprisedb.com,noreply@github.com,public-cloud-k8s-versions-check@users.noreply.github.com",12
+metal3-io,metal3-io/baremetal-operator,17,9,0,4,1,4,"GitHub,dependabot[bot,dependabot[bot],metal3-io-bot","49699333+dependabot[bot]@users.noreply.github.com,55852648+metal3-io-bot@users.noreply.github.com,noreply@github.com,support@github.com",7
+kcp-dev,kcp-dev/kcp,17,11,1,7,2,4,"GitHub,Mangirdas Judeikis,kcp CI Bot,kcp-ci-bot","134318005+kcp-ci-bot@users.noreply.github.com,mangirdas@judeikis.lt,no-reply@kcp.io,noreply@github.com",3
+o3de,o3de/3p-package-source,17,4,5,6,2,2,"GitHub,Steve Pham","82231385+spham-amzn@users.noreply.github.com,noreply@github.com",6
+finos,finos/architecture-as-code,17,11,1,12,1,6,"GitHub,Mark Scott,Matthew Bain,github-actions[bot],renovate[bot],rocketstack-matt","29139614+renovate[bot]@users.noreply.github.com,66839492+rocketstack-matt@users.noreply.github.com,github-actions[bot]@users.noreply.github.com,markscot@morganstanley.com,matt@rocketstack.co,noreply@github.com",4
+kedacore,kedacore/keda,17,10,5,7,1,7,"GitHub,Jonas-Taha El Sesiy,Jorge Turrado,Jorge Turrado Ferrero,Zbynek Roubalik,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,github@elsesiy.com,info+code@elsesiy.com,jorge_turrado@hotmail.es,noreply@github.com,support@github.com,zroubalik@gmail.com",1
+nodejs,nodejs/userland-migrations,17,14,0,4,0,2,"Augustin Mauroy,Jacob Smith","3012099+jakobjingleheimer@users.noreply.github.com,97875033+augustinmauroy@users.noreply.github.com",3
+open-telemetry,open-telemetry/semantic-conventions,17,12,2,1,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",3
+crossplane,crossplane/crossplane,17,6,5,0,0,0,,,6
+nats-io,nats-io/nats-server,16,6,3,1,0,1,Waldemar Quevedo,wally@nats.io,7
+kubernetes,kubernetes/test-infra,16,7,4,1,0,2,"GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com",5
+grpc,grpc/grpc-go,16,3,8,1,4,2,"Arjan Singh Bal,GitHub","46515553+arjan-bal@users.noreply.github.com,noreply@github.com",1
+nodejs,nodejs/undici,16,5,2,8,3,7,"GitHub,Julien Roncaglia,Khafra,Matteo Collina,dependabot[bot,dependabot[bot],github-actions[bot,github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,fox@vbfox.net,hello@matteocollina.com,maitken033380023@gmail.com,noreply@github.com,support@github.com",6
+etcd-io,etcd-io/etcd,16,14,1,2,0,2,"GitHub,Marek Siarkowicz","noreply@github.com,siarkowicz@google.com",1
+kubernetes-sigs,kubernetes-sigs/multi-network-api,16,16,0,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/vsphere-csi-driver,16,15,0,0,0,0,,,1
+riscv,riscv/riscv-high-assurance-cryptography,16,0,0,19,1,1,mocenigo,roberto.avanzi@gmail.com,15
+cedar-policy,cedar-policy/cedar-spec,16,11,2,0,2,0,,,1
+kubestellar,kubestellar/kubestellar,16,15,1,2,0,3,"GitHub,Mike Spreitzer,kubestellar-prow[bot]","208851060+kubestellar-prow[bot]@users.noreply.github.com,mspreitz@us.ibm.com,noreply@github.com",0
+jenkinsci,jenkinsci/matlab-plugin,15,14,0,1,0,1,adutt-mw,adutt@mathworks.com,1
+runatlantis,runatlantis/atlantis,15,4,0,2,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",11
+kubeflow,kubeflow/pipelines,15,13,1,1,0,3,"GitHub,Surya Sameer Datta Vaddadi","137607947+sameerdattav@users.noreply.github.com,f20220373@goa.bits-pilani.ac.in,noreply@github.com",1
+kubernetes-sigs,kubernetes-sigs/krew-index,15,6,0,6,0,2,"GitHub,krew-release-bot","krewpluginreleasebot@gmail.com,noreply@github.com",9
+envoyproxy,envoyproxy/ai-gateway,15,12,0,1,1,3,"Adrian Cole,GitHub","64215+codefromthecrypt@users.noreply.github.com,adrian@tetrate.io,noreply@github.com",2
+backstage,backstage/actions,15,6,1,12,0,1,Patrik Oldsberg,poldsberg@gmail.com,8
+operator-framework,operator-framework/operator-controller,15,10,3,1,0,3,"GitHub,Per Goncalves da Silva","noreply@github.com,pegoncal@redhat.com,perdasilva@redhat.com",2
+finos,finos/vuu,15,1,5,7,0,5,"FINOS Admin,GitHub,Michael Stonestreet,heswell,stonesmi","8273759+stonesmi@users.noreply.github.com,infra@finos.org,noreply@github.com,steve@heswell.com,stonesmi@users.noreply.github.com",9
+pytorch,pytorch/test-infra,15,2,2,7,0,1,Pytorch Test Infra,test-infra@pytorch.org,11
+antrea-io,antrea-io/antrea,15,10,1,0,1,0,,,3
+open-telemetry,open-telemetry/opentelemetry-ecosystem-explorer,15,2,1,6,8,5,"GitHub,Jay DeLuca,otelbot,otelbot[bot],renovate[bot,renovate[bot]","197425009+otelbot@users.noreply.github.com,197425009+otelbot[bot]@users.noreply.github.com,29139614+renovate[bot]@users.noreply.github.com,jaydeluca4@gmail.com,noreply@github.com",4
+open-telemetry,open-telemetry/opentelemetry-go-contrib,14,4,3,2,1,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",6
+knative,knative/func,14,8,3,3,0,5,"David Fridrich,GitHub,Knative Automation,Knative Prow Robot,github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,automation+prow-robot@knative.team,automation@knative.team,fridrich.david19@gmail.com,noreply@github.com",3
+youki-dev,youki-dev/youki,14,11,2,0,0,0,,,1
+schemahero,schemahero/schemahero,14,1,5,0,0,0,,,8
+finos,finos/common-domain-model,14,9,1,0,4,0,,,0
+hyperledger-labs,hyperledger-labs/splice-wallet-kernel,14,6,4,3,0,4,"GitHub,Marc Juchli,Pawel Stepien,pawelstepien-da","120378272+mjuchli-da@users.noreply.github.com,marc.juchli@digitalasset.com,noreply@github.com,pawel.stepien@digitalasset.com",4
+perses,perses/perses-operator,14,7,2,3,3,2,"GitHub,Jayapriya Pai","janantha@redhat.com,noreply@github.com",2
+kubeflow,kubeflow/notebooks,14,5,1,0,8,0,,,0
+mavlink,mavlink/qgroundcontrol,14,6,1,1,4,2,Holden Ramsey,"68555040+htramsey@users.noreply.github.com,htramsey98@gmail.com",3
+layer5io,layer5io/layer5,14,8,1,8,0,8,"GitHub,Raunak Madan,Saurabh Singh,dependabot[bot,dependabot[bot],hudazaan,l5io,saurabhraghuvanshii","143412156+codexraunak@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,ci@layer5.io,l5io@users.noreply.github.com,naazhuda2000@gmail.com,noreply@github.com,saurabhsraghuvanshi@gmail.com,support@github.com",5
+vitessio,vitessio/vitess,14,6,0,4,0,6,"Arthur Schreiber,GitHub,Mohamed Hamza,dependabot[bot,dependabot[bot],vitess-bot[bot,vitess-bot[bot]","108069721+vitess-bot[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,arthur@planetscale.com,mhamza@fastmail.com,noreply@github.com,support@github.com",8
+kubeflow,kubeflow/sdk,14,12,2,0,0,0,,,0
+kube-burner,kube-burner/kube-burner,14,7,3,0,3,0,,,1
+perses,perses/perses,14,12,0,1,1,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+podman-desktop,podman-desktop/extension-podman-quadlet,14,6,1,7,5,7,"Florent BENOIT,GitHub,axel7083,dependabot[bot,dependabot[bot],mergify[bot]","37929162+mergify[bot]@users.noreply.github.com,42176370+axel7083@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,fbenoit@redhat.com,noreply@github.com,runner@runnervmkj6or.5j2jo0nuqkhuzhctjlm4uo4bda.gx.internal.cloudapp.net,support@github.com",2
+finos,finos/fluxnova-bpm-platform,14,5,1,0,0,0,,,8
+p4lang,p4lang/gsoc,13,9,3,0,1,0,,,0
+lf-edge,lf-edge/eve,13,9,3,0,0,0,,,1
+nodejs,nodejs/nbytes,13,9,1,0,0,0,,,3
+k8sgpt-ai,k8sgpt-ai/k8sgpt-operator,13,0,1,1,0,4,"Alex Jones,Deep Sea Cat,GitHub,huojiabin","1235925+alexsjones@users.noreply.github.com,59075180+deepseacat@users.noreply.github.com,huojiabin@didachuxing.com,noreply@github.com",12
+cedar-policy,cedar-policy/cedar,13,7,1,0,2,0,,,3
+kubeflow,kubeflow/kale,13,8,2,1,3,2,"Eder Ignatowicz,GitHub","ignatowicz@gmail.com,noreply@github.com",0
+inspektor-gadget,inspektor-gadget/inspektor-gadget,13,10,0,6,0,6,"Burak Ok,Francis Laniel,GitHub,Matthias Bertschy,dependabot[bot,dependabot[bot],eiffel-fl","113581185+burak-ok@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,flaniel@linux.microsoft.com,matthias.bertschy@gmail.com,noreply@github.com,support@github.com",3
+metal3-io,metal3-io/ip-address-manager,12,7,0,7,0,4,"GitHub,dependabot[bot,dependabot[bot],metal3-io-bot","49699333+dependabot[bot]@users.noreply.github.com,55852648+metal3-io-bot@users.noreply.github.com,noreply@github.com,support@github.com",5
+pipe-cd,pipe-cd/pipecd,12,6,4,5,0,8,"Eeshaan Sawant,GitHub,Khanh Tran,Mohammed Firdous,Rahul Shendre,khanhtc1202,rahulshendre","100678386+eeshaansa@users.noreply.github.com,124298708+mohammedfirdouss@users.noreply.github.com,144231863+rahulshendre@users.noreply.github.com,32532742+khanhtc1202@users.noreply.github.com,khanhtc1202@gmail.com,mohammedfirdousaraoye@gmail.com,noreply@github.com,rahulshendre789@gmail.com",2
+open-telemetry,open-telemetry/opentelemetry-collector,12,9,1,0,1,0,,,1
+tikv,tikv/pd,12,10,2,0,0,0,,,0
+riscv,riscv/riscv-isa-manual,12,6,3,1,0,2,"Bill Traynor,GitHub","noreply@github.com,wmat@riscv.org",3
+kubeflow,kubeflow/model-registry,12,7,2,1,0,2,"Adysen Rothman,GitHub","85646824+adysenrothman@users.noreply.github.com,noreply@github.com",3
+open-telemetry,open-telemetry/opentelemetry-injector,12,5,4,2,1,1,Michele,michele.mancioppi@dash0.com,2
+dragonflyoss,dragonflyoss/client,12,3,2,2,0,4,"Copilot,Gaius,GitHub,copilot-swe-agent[bot,gaius-qi","15955374+gaius-qi@users.noreply.github.com,198982749+copilot@users.noreply.github.com,gaius.qi@gmail.com,noreply@github.com",7
+opendaylight,opendaylight/yangtools,12,0,0,16,0,2,Robert Varga,"nite@hq.sk,robert.varga@pantheon.tech",12
+AcademySoftwareFoundation,AcademySoftwareFoundation/OpenImageIO,12,4,4,3,0,2,"GitHub,Larry Gritz","lg@larrygritz.com,noreply@github.com",4
+submariner-io,submariner-io/submariner-charts,12,3,7,7,0,3,"dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,support@github.com",2
+nats-io,nats-io/nats.c,12,9,2,0,0,0,,,1
+armadaproject,armadaproject/armada,12,9,2,0,0,0,,,1
+submariner-io,submariner-io/lighthouse,12,3,5,0,0,0,,,4
+ceph,ceph/ceph-csi,12,8,1,2,0,3,"Niels de Vos,Niraj Yadav,mergify[bot]","37929162+mergify[bot]@users.noreply.github.com,ndevos@ibm.com,niryadav@redhat.com",3
+serverlessworkflow,serverlessworkflow/sdk-java,12,4,0,3,0,4,"Francisco Javier Tirado Sarti,GitHub,GitHub Action,fjtirado","65240126+fjtirado@users.noreply.github.com,action@github.com,ftirados@redhat.com,noreply@github.com",8
+kubernetes,kubernetes/sig-release,12,10,1,0,0,0,,,1
+bootc-dev,bootc-dev/bcvk,12,10,0,0,0,0,,,2
+open-telemetry,open-telemetry/opentelemetry-kotlin,12,5,1,5,0,4,"GitHub,Jamie Lynch,jason plumb,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,75337021+breedx-splk@users.noreply.github.com,fractalwrench@gmail.com,noreply@github.com",6
+kagent-dev,kagent-dev/kagent,12,8,0,0,1,0,,,3
+cloudfoundry,cloudfoundry/relint-ci-pools,11,0,0,12,0,2,"Jochen Ehret,git","git@localhost,jochen.ehret@sap.com",11
+podman-desktop,podman-desktop/podman-desktop-catalog,11,5,0,14,0,7,"Florent BENOIT,GitHub,Philippe Martin,axel7083,dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,42176370+axel7083@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,fbenoit@redhat.com,noreply@github.com,phmartin@redhat.com,support@github.com",6
+krkn-chaos,krkn-chaos/krkn,11,5,1,0,2,0,,,3
+riscv,riscv/riscv-fast-interrupt,11,3,0,0,8,0,,,0
+argoproj,argoproj/argo-helm,11,4,1,1,1,2,"GitHub,argoproj-renovate[bot,argoproj-renovate[bot]","161757507+argoproj-renovate[bot]@users.noreply.github.com,noreply@github.com",5
+cloudfoundry,cloudfoundry/app-autoscaler,11,0,0,5,0,3,"Alan Moran,GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,bonzofenix@gmail.com,noreply@github.com",11
+jenkinsci,jenkinsci/pipeline-maven-plugin,11,1,1,2,0,3,"Benoit Guerin,GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,800956+bguerin@users.noreply.github.com,noreply@github.com",9
+letsencrypt,letsencrypt/boulder,11,4,0,0,1,0,,,6
+containerd,containerd/containerd,11,10,1,0,0,0,,,0
+cloudfoundry,cloudfoundry/csb-brokerpak-aws,11,5,1,0,0,0,,,5
+bank-vaults,bank-vaults/vault-operator,11,4,0,0,0,0,,,7
+kyverno,kyverno/website,11,7,2,4,1,7,"Charles-Edouard Brétéché,Garv verma,GitHub,Jim Bugwadia,Luc Chmielowski,aerosouund","aerosound161@gmail.com,charles.edouard@nirmata.com,garvverma09@gmail.com,jim@nirmata.com,luc.chmielowski@nirmata.com,lucchmielowski@users.noreply.github.com,noreply@github.com",1
+kubernetes-sigs,kubernetes-sigs/agent-sandbox,11,8,2,0,1,0,,,0
+cozystack,cozystack/website,11,3,0,0,1,0,,,7
+knative,knative/serving,10,9,0,0,0,0,,,1
+k8gb-io,k8gb-io/k8gb,10,3,1,2,0,3,"Farhan Ahmed,GitHub,itsfarhan,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,itsmefarhan09@gmail.com,noreply@github.com",6
+cri-o,cri-o/cri-o,10,4,2,4,1,3,"GitHub,Kubernetes Release Robot,openshift-merge-bot[bot]","148852131+openshift-merge-bot[bot]@users.noreply.github.com,k8s-release-robot@users.noreply.github.com,noreply@github.com",3
+oras-project,oras-project/oras,10,3,0,4,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",7
+open-telemetry,open-telemetry/opentelemetry-ruby-contrib,10,6,3,1,0,2,"GitHub,James Thompson","noreply@github.com,thompson.tomo@outlook.com",1
+strimzi,strimzi/strimzi-kafka-operator,10,7,2,3,0,5,"GitHub,Lukas Kral,Lukáš Král,PaulRMellor,prmellor","47596553+paulrmellor@users.noreply.github.com,53821852+im-konge@users.noreply.github.com,lukywill16@gmail.com,noreply@github.com,pmellor@redhat.com",1
+zowe,zowe/zowe-pli-language-support,10,3,1,7,2,5,"GitHub,Markus Rudolph,msujew,ssmifi","mark.sujew@typefox.io,markus.rudolph@typefox.io,msujew@users.noreply.github.com,noreply@github.com,ssmifi@users.noreply.github.com",4
+confidential-containers,confidential-containers/cloud-api-adaptor,10,7,0,3,0,3,"Steve Horsman,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,steven@uk.ibm.com,support@github.com",3
+inspektor-gadget,inspektor-gadget/ig-benchmarks,10,0,0,10,0,1,github-action-benchmark,github@users.noreply.github.com,10
+tinkerbell,tinkerbell/tinkerbell.org,10,1,7,25,0,4,"GitHub,Jacob Weinstock,mergify[bot]","37929162+mergify[bot]@users.noreply.github.com,jacobweinstock@users.noreply.github.com,jakobweinstock@gmail.com,noreply@github.com",2
+nodejs,nodejs/ncrypto,10,2,1,0,0,0,,,7
+submariner-io,submariner-io/admiral,10,3,0,7,0,3,"dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,support@github.com",7
+open-telemetry,open-telemetry/opentelemetry-js,10,9,1,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/image-builder,10,5,4,0,0,0,,,1
+prometheus,prometheus/client_java,10,0,0,3,0,3,"GitHub,github-actions[bot],renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,github-actions[bot]@users.noreply.github.com,noreply@github.com",10
+falcosecurity,falcosecurity/falco-operator,10,6,0,0,0,0,,,4
+cilium,cilium/tetragon,10,7,1,1,0,1,"cilium-renovate[bot,cilium-renovate[bot]",134692979+cilium-renovate[bot]@users.noreply.github.com,2
+konveyor,konveyor/editor-extensions,10,3,1,3,2,1,hhpatel14,hitpatel@redhat.com,4
+kairos-io,kairos-io/hadron,10,4,0,1,0,1,Itxaka,itxaka@kairos.io,6
+cloudnative-pg,cloudnative-pg/postgres-extensions-containers,10,5,0,0,0,0,,,5
+open-telemetry,open-telemetry/opentelemetry-ebpf-profiler,10,9,0,1,0,3,"Florian Lehner,GitHub","florian.lehner@elastic.co,florianl@users.noreply.github.com,noreply@github.com",1
+oras-project,oras-project/oras-dotnet,10,3,1,0,5,0,,,1
+cncf,cncf/devstats,9,2,1,8,1,2,"GitHub,Lukasz Gryglicki,Łukasz Gryglicki","lgryglicki@cncf.io,noreply@github.com",5
+grpc-ecosystem,grpc-ecosystem/grpc-gateway,9,0,0,0,1,0,,,8
+kubernetes-sigs,kubernetes-sigs/node-readiness-controller,9,5,2,1,0,2,"GitHub,ajaysundar.k","ajaysundar.k@gmail.com,noreply@github.com",2
+dapr,dapr/java-sdk,9,1,3,8,1,8,"Artur Ciocanu,Dapr Bot,GitHub,Javier Aliaga,Paul Lindner,artur-ciocanu,salaboy","56698301+dapr-bot@users.noreply.github.com,artur.ciocanu@gmail.com,daprweb@microsoft.com,javier@diagrid.io,lindner@inuus.com,noreply@github.com,plindner@metropolis.io,salaboy@gmail.com",4
+jenkinsci,jenkinsci/opentelemetry-plugin,9,2,5,0,2,0,,,0
+kubernetes-client,kubernetes-client/java,9,5,0,4,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",4
+sigstore,sigstore/protobuf-specs,9,3,1,2,0,5,"Bob Callaway,GitHub,dependabot[bot,dependabot[bot],github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,bcallaway@google.com,noreply@github.com,support@github.com",5
+dapr,dapr/dapr,9,7,0,0,0,0,,,2
+submariner-io,submariner-io/cloud-prepare,9,3,0,1,0,1,"Thomas Pantelis,Tom Pantelis",tompantelis@gmail.com,6
+kairos-io,kairos-io/kairos,9,3,0,0,3,0,,,3
+radius-project,radius-project/radius,9,4,0,0,5,0,,,0
+opencost,opencost/opencost,9,7,1,0,0,0,,,1
+perses,perses/plugins,9,2,1,0,0,0,,,6
+cilium,cilium/proxy,9,2,0,1,0,2,Tam Mach,"sayboras@yahoo.com,tam.mach@cilium.io",7
+kubewarden,kubewarden/helm-charts,9,2,2,3,0,4,"Flavio Castelli,GitHub,José Guilherme Vanz,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,fcastelli@suse.com,jguilhermevanz@suse.com,noreply@github.com",5
+volcano-sh,volcano-sh/agentcube,9,6,2,2,1,3,"GitHub,Tiger Xu / Zhonghu Xu,Volcano Bot","49986348+volcano-sh-bot@users.noreply.github.com,noreply@github.com,xuzhonghu@huawei.com",0
+hyperlight-dev,hyperlight-dev/hyperlight,9,6,1,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+jenkinsci,jenkinsci/mcp-server-plugin,9,4,2,2,2,2,"GongYi,Olivier Lamy","olamy@apache.org,topikachu@163.com",1
+zowe,zowe/api-layer,9,2,1,7,0,7,"GitHub,Hrishikesh Nalawade,Pablo Carle,Pavel Jareš,Renovate Bot,hrishikesh-nalawade","167364362+hrishikesh-nalawade@users.noreply.github.com,58428711+pavel-jares-bcm@users.noreply.github.com,hrishikesh.nalawade.17@gmail.com,noreply@github.com,pablocarle@users.noreply.github.com,pavel.jares@broadcom.com,renovate@whitesourcesoftware.com",6
+zowe,zowe/cics-for-zowe-client,9,4,0,0,0,0,,,5
+hyperledger-labs,hyperledger-labs/fabric-token-sdk,9,0,1,1,1,2,"Akram Bitar,AkramBitar","71856290+akrambitar@users.noreply.github.com,akram@il.ibm.com",7
+kubernetes,kubernetes/k8s.io,9,2,4,3,0,3,"Agustina Barbetta,GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,agustina.barbetta@gmail.com,noreply@github.com",3
+open-telemetry,open-telemetry/community,9,4,0,1,3,3,"Austin Parker,Claude Opus 4.5,GitHub","austin@ap2.io,noreply@anthropic.com,noreply@github.com",2
+spiffe,spiffe/spire,9,4,1,4,0,3,"Agustín Martínez Fayó,GitHub,Sorin Dumitru","amartinezfayo@gmail.com,noreply@github.com,sorin@returnze.ro",4
+open-telemetry,open-telemetry/opentelemetry-js-contrib,9,2,1,0,0,0,,,6
+open-telemetry,open-telemetry/opentelemetry-operator,9,1,0,7,0,5,"Benedikt Bongartz,GitHub,Jina Jain,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,bongartz@klimlive.de,jjain@splunk.com,noreply@github.com,support@github.com",8
+opentofu,opentofu/opentofu,9,6,0,0,0,0,,,3
+confidential-containers,confidential-containers/trustee,9,9,0,0,0,0,,,0
+kubestellar,kubestellar/docs,9,4,0,0,5,0,,,0
+kubefleet-dev,kubefleet-dev/kubefleet,9,4,1,5,0,5,"GitHub,dependabot[bot],michaelawyu,ryanzhang-oss","49699333+dependabot[bot]@users.noreply.github.com,chenyu1@microsoft.com,dependabot[bot]@users.noreply.github.com,noreply@github.com,ryanzhang-oss@users.noreply.github.com",4
+kubeedge,kubeedge/ianvs,9,4,0,0,5,0,,,0
+longhorn,longhorn/website,8,8,0,1,0,1,Derek Su,derek.su@suse.com,0
+kubernetes,kubernetes/community,8,5,2,2,0,3,"GitHub,Joaquim Rocha,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,me@joaquimrocha.com,noreply@github.com",1
+kubernetes,kubernetes/cloud-provider-gcp,8,6,1,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+kubernetes-sigs,kubernetes-sigs/aws-load-balancer-controller,8,6,0,0,2,0,,,0
+chaoss,chaoss/wg-ai-alignment,8,1,1,0,1,0,,,5
+meshery,meshery/qa,8,0,0,10,1,4,"l5io,leecalcote,lekaf974,meshery-ci","47201130+l5io@users.noreply.github.com,6630779+lekaf974@users.noreply.github.com,7570704+leecalcote@users.noreply.github.com,ci@meshery.io",7
+urunc-dev,urunc-dev/urunc,8,3,0,0,5,0,,,0
+finos,finos/legend-shared,8,2,1,0,0,0,,,5
+falcosecurity,falcosecurity/libs,8,8,0,0,0,0,,,0
+oscal-compass,oscal-compass/compliance-trestle,8,3,1,0,1,0,,,3
+zephyrproject-rtos,zephyrproject-rtos/ArduinoCore-zephyr,8,6,2,0,0,0,,,0
+volcano-sh,volcano-sh/volcano,8,6,1,1,0,2,"GitHub,Volcano Bot","49986348+volcano-sh-bot@users.noreply.github.com,noreply@github.com",1
+envoyproxy,envoyproxy/toolshed,8,0,1,2,0,5,"GitHub,Ryan Northey,phlax","libcircllhist@0.3.2.envoy,noreply@github.com,phlax@users.noreply.github.com,ryan@synca.io,tcmalloc@0.0.0-20241022-5da4a88.envoy",7
+kubeflow,kubeflow/mpi-operator,8,4,1,0,0,0,,,3
+kubeflow,kubeflow/trainer,8,6,1,0,0,0,,,1
+zowe,zowe/zowe-explorer-vscode,8,2,1,6,0,1,Jace Roell,jace.roell@hotmail.com,5
+submariner-io,submariner-io/shipyard,8,3,2,6,0,4,"Thomas Pantelis,dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,support@github.com,tompantelis@gmail.com",3
+project-dalec,project-dalec/dalec,8,7,0,0,0,0,,,1
+perses,perses/shared,8,4,2,2,0,3,"Augustin Husson,GitHub","augustin.husson@amadeus.com,husson.augustin@gmail.com,noreply@github.com",2
+projectcapsule,projectcapsule/capsule,8,4,0,0,0,0,,,4
+envoyproxy,envoyproxy/envoy-website,8,0,0,5,0,1,update-envoy[bot],135279899+update-envoy[bot]@users.noreply.github.com,8
+kubernetes-sigs,kubernetes-sigs/external-dns,8,6,1,0,0,0,,,1
+bank-vaults,bank-vaults/secrets-webhook,8,3,0,6,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",5
+kumahq,kumahq/ci-tools,8,0,0,0,0,0,,,8
+kumahq,kumahq/kuma-gui,8,4,0,0,0,0,,,4
+open-telemetry,open-telemetry/opentelemetry-python-contrib,8,5,2,0,1,0,,,0
+open-telemetry,open-telemetry/opentelemetry-proto,8,7,0,0,0,0,,,1
+jenkinsci,jenkinsci/configuration-as-code-plugin,8,7,1,1,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",0
+k0sproject,k0sproject/k0s,8,1,1,3,1,3,"GitHub,Jussi Nummelin,Tom Wieczorek","jnummelin@users.noreply.github.com,noreply@github.com,twieczorek@mirantis.com",5
+openebs,openebs/website,8,8,0,0,0,0,,,0
+pytorch,pytorch/vision,8,2,2,2,1,3,"GitHub,Roy Hvaara,pytorchbot","noreply@github.com,pytorchbot@pytorch.com,roy@lightyear.no",3
+pytorch,pytorch/tutorials,8,1,1,0,1,0,,,5
+open-telemetry,open-telemetry/opentelemetry-erlang-contrib,8,1,1,1,0,2,"GitHub,Yordis Prieto","noreply@github.com,yordis.prieto@gmail.com",6
+containerd,containerd/nerdctl,7,4,3,0,0,0,,,0
+krkn-chaos,krkn-chaos/krkn-ai,7,2,3,0,1,0,,,1
+jenkinsci,jenkinsci/pipeline-graph-view-plugin,7,1,1,4,0,3,"GitHub,Jan Faracik,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,43062514+janfaracik@users.noreply.github.com,noreply@github.com",5
+argoproj-labs,argoproj-labs/gitops-promoter,7,1,2,0,1,0,,,3
+o3de,o3de/o3de,7,3,3,6,0,3,"GitHub,Mike Chang,amzn-changml","amzn-changml@users.noreply.github.com,changml@amazon.com,noreply@github.com",1
+runmedev,runmedev/vscode-runme,7,0,2,5,0,4,"GitHub,Sebastian (Tiedtke) Huckleberry,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,sebastiantiedtke@gmail.com,support@github.com",5
+dragonflyoss,dragonflyoss/api,7,3,3,2,0,2,"Gaius,GitHub","gaius.qi@gmail.com,noreply@github.com",1
+nodejs,nodejs/merve,7,1,0,0,0,0,,,6
+external-secrets,external-secrets/bitwarden-sdk-server,7,1,4,4,0,3,"Gergely Brautigam,Gergely Bräutigam,GitHub","182850+skarlso@users.noreply.github.com,noreply@github.com,skarlso777@gmail.com",2
+tektoncd,tektoncd/pipeline,7,3,0,6,0,6,"Claude Opus 4.5,Vincent Demeester,dependabot[bot,dependabot[bot],tekton-robot","48335577+tekton-robot@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@anthropic.com,support@github.com,vdemeest@redhat.com,vincent@sbr.pm",4
+open-telemetry,open-telemetry/opamp-go,7,2,2,0,1,0,,,2
+mavlink,mavlink/mavlink-devguide,7,0,1,0,0,0,,,6
+kubernetes-sigs,kubernetes-sigs/cluster-api-provider-azure,7,3,2,2,1,4,"Damiano Donati,GitHub,Jon Huhn,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,damiano.donati@gmail.com,nojnhuh@users.noreply.github.com,noreply@github.com",1
+confidential-containers,confidential-containers/guest-components,7,4,0,3,0,4,"Mikko Ylinen,Xynnn_,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,mikko.ylinen@intel.com,support@github.com,xynnn@linux.alibaba.com",3
+prometheus,prometheus/blackbox_exporter,7,7,0,0,0,0,,,0
+meshery,meshery/meshery.io,7,3,2,8,0,8,"GitHub,Raunak Madan,Saurabh Singh,Sourya07,Souryavardhan singh,copilot-swe-agent[bot],l5io,leecalcote","143412156+codexraunak@users.noreply.github.com,144201791+sourya07@users.noreply.github.com,198982749+copilot@users.noreply.github.com,ci@meshery.io,leecalcote@users.noreply.github.com,noreply@github.com,saurabhsraghuvanshi@gmail.com,singhsourya137@gmail.com",2
+jenkinsci,jenkinsci/blueocean-plugin,7,0,0,0,0,0,,,7
+cloudfoundry,cloudfoundry/tps,7,1,0,0,0,0,,,6
+connectrpc,connectrpc/examples-es,7,0,0,0,0,0,,,7
+kubeflow,kubeflow/spark-operator,7,4,1,0,2,0,,,0
+kubeflow,kubeflow/manifests,7,6,0,1,0,2,"Alexandre Gomez,GitHub","gomez.a.corneille@gmail.com,noreply@github.com",1
+crossplane-contrib,crossplane-contrib/function-auto-ready,7,2,1,0,0,0,,,4
+finos,finos/SymphonyElectron,7,1,0,1,0,2,"GitHub,Kiran Niranjan","kiran.niranjan@symphony.com,noreply@github.com",6
+kubernetes-sigs,kubernetes-sigs/cluster-api-provider-aws,7,6,0,0,0,0,,,1
+AcademySoftwareFoundation,AcademySoftwareFoundation/OpenColorIO,7,4,1,0,0,0,,,2
+riscv,riscv/riscv-cheri,7,5,1,0,0,0,,,1
+cloudfoundry,cloudfoundry/multiapps-controller,7,0,4,5,0,2,"Ivan Dimitrov,IvanBorislavovDimitrov","32311354+ivanborislavovdimitrov@users.noreply.github.com,starstrucks1997@gmail.com",3
+cncf,cncf/communitygroups,7,5,0,0,2,0,,,0
+spiffe,spiffe/tornjak,7,3,0,0,0,0,,,4
+spinnaker,spinnaker/spinnaker,7,3,0,0,0,0,,,4
+kubernetes-sigs,kubernetes-sigs/cluster-api-provider-ibmcloud,7,7,0,0,0,0,,,0
+open-telemetry,open-telemetry/opentelemetry-rust,7,4,0,5,0,5,"Cijo Thomas,GitHub,Utkarsh Umesan Pillai,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,66651184+utpilla@users.noreply.github.com,cijo.thomas@gmail.com,noreply@github.com,support@github.com",3
+cloudnative-pg,cloudnative-pg/plugin-barman-cloud,7,3,0,4,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",4
+cert-manager,cert-manager/webhook-cert-lib,7,3,1,4,0,3,"GitHub,Tim Ramlot,cert-manager-prow[bot]","167124277+cert-manager-prow[bot]@users.noreply.github.com,42113979+inteon@users.noreply.github.com,noreply@github.com",3
+metal3-io,metal3-io/community,7,7,0,0,0,0,,,0
+werf,werf/nelm,7,3,1,2,0,3,"GitHub,Ilya Drey,Polina Sizintseva","157472+drey@users.noreply.github.com,noreply@github.com,polina.sizintseva@flant.com",3
+onnx,onnx/optimizer,6,2,0,3,0,5,"Andreas Fehlner,GitHub,Takeshi Watanabe,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,fehlner@arcor.de,noreply@github.com,support@github.com,take-cheeze@users.noreply.github.com",4
+cadence-workflow,cadence-workflow/cadence,6,4,1,1,0,3,"Gaziza Yestemirova,GitHub","132356583+gazi-yestemirova@users.noreply.github.com,gaziza@uber.com,noreply@github.com",1
+kubevirt,kubevirt/project-infra,6,5,1,0,0,0,,,0
+tikv,tikv/tikv,6,2,2,0,2,0,,,0
+fluent,fluent/fluentd,6,4,2,1,0,2,"GitHub,Kentaro Hayashi","hayashi@clear-code.com,noreply@github.com",0
+kubescape,kubescape/node-agent,6,4,0,0,0,0,,,2
+spinnaker,spinnaker/spinnaker.io,6,4,1,0,0,0,,,1
+cncf,cncf/landscape,6,1,1,0,0,0,,,4
+strimzi,strimzi/strimzi-kafka-bridge,6,5,1,1,0,2,"GitHub,Paolo Patierno","noreply@github.com,ppatierno@live.com",0
+nodejs,nodejs/amaro,6,1,0,6,0,4,"Marco Ippolito,Node.js GitHub Bot,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,github-bot@iojs.org,marcoippolito54@gmail.com,support@github.com",5
+ceph,ceph/ceph-ci,6,0,0,68,0,21,"Aashish Sharma,Afreen Misbah,Anthony D'Atri,Avan Thakkar,Callum James,GitHub,Ilya Dryomov,John Mulligan,Kautilya Tripathi,Kefu Chai,Kyr Shatskyy,Leonid Chernin,Mark Kogan,N Balachandran,Shraddha Agrawal,Shubha Jain,Sridhar Seshasayee,Xuehan Xu,Zhang Song,skanta","66050535+aasharma14@users.noreply.github.com,afreen@ibm.com,anthonyeleven@users.noreply.github.com,athakkar@redhat.com,callum.james@ibm.com,idryomov@gmail.com,jmulligan@redhat.com,k.chai@proxmox.com,kautilya.tripathi@ibm.com,kyrylo.shatskyy@clyso.com,leonidc@il.ibm.com,mkogan@ibm.com,mkogan@redhat.com,nithya.balachandran@ibm.com,noreply@github.com,shraddha.agrawal000@gmail.com,shubha.jain1@ibm.com,skanta@redhat.com,sseshasa@redhat.com,xuxuehan@qianxin.com,zhangsong02@qianxin.com",6
+operator-framework,operator-framework/java-operator-sdk,6,3,0,2,1,4,"Attila Mészáros,Chris Laprun,GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,a_meszaros@apple.com,metacosm@gmail.com,noreply@github.com",2
+open-telemetry,open-telemetry/opentelemetry-android,6,0,3,2,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",3
+p4lang,p4lang/tutorials,6,2,2,1,0,3,"GitHub,Vineet Goel,Vineet1101","161903003+vineet1101@users.noreply.github.com,noreply@github.com,vineetgoel692@gmail.com",2
+cloudfoundry,cloudfoundry/cf-acceptance-tests,6,1,0,0,0,0,,,5
+cncf,cncf/staff,6,0,0,0,6,0,,,0
+open-telemetry,open-telemetry/opentelemetry-browser,6,1,0,4,0,2,"GitHub,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",5
+openkruise,openkruise/kruise,6,6,0,0,0,0,,,0
+koordinator-sh,koordinator-sh/koordinator,6,5,0,1,0,3,"Frame,GitHub,saintube,shenxin","noreply@github.com,rougang.hrg@alibaba-inc.com,saintube@foxmail.com",1
+crossplane-contrib,crossplane-contrib/function-patch-and-transform,6,1,0,0,0,0,,,5
+dapr,dapr/docs,6,2,4,0,0,0,,,0
+nodejs,nodejs/docker-node,6,5,1,1,0,1,Mike McCready,66998419+mikemcc399@users.noreply.github.com,0
+open-feature,open-feature/go-sdk,6,2,0,1,1,1,Roman Dmytrenko,rdmytrenko@gmail.com,3
+pytorch,pytorch/TensorRT,6,2,1,1,0,1,pytorchbot,pytorchbot@pytorch.com,3
+containerd,containerd/nydus-snapshotter,6,3,3,0,0,0,,,0
+devfile,devfile/devworkspace-operator,6,6,0,0,0,0,,,0
+karmada-io,karmada-io/dashboard,6,1,0,10,0,4,"GitHub,dependabot[bot,dependabot[bot],karmada-bot","49699333+dependabot[bot]@users.noreply.github.com,76678816+karmada-bot@users.noreply.github.com,noreply@github.com,support@github.com",5
+open-telemetry,open-telemetry/opentelemetry-java-instrumentation,6,2,1,1,0,1,otelbot,197425009+otelbot@users.noreply.github.com,3
+cloudfoundry,cloudfoundry/cc-uploader,6,3,0,0,0,0,,,3
+wasmCloud,wasmCloud/wasmcloud.com,6,5,0,0,0,0,,,1
+AcademySoftwareFoundation,AcademySoftwareFoundation/dna,6,2,0,0,4,0,,,0
+buildpacks-community,buildpacks-community/kpack-cli,6,3,2,0,0,0,,,1
+crossplane-contrib,crossplane-contrib/function-extra-resources,6,1,0,0,0,0,,,5
+hyperledger,hyperledger/firefly-evmconnect,6,5,0,0,0,0,,,1
+kserve,kserve/kserve,6,2,1,0,2,0,,,1
+graphql,graphql/graphql.github.io,6,0,0,0,0,0,,,6
+kubernetes-sigs,kubernetes-sigs/provider-aws-test-infra,6,1,2,0,0,0,,,3
+mavlink,mavlink/MAVSDK,6,2,2,1,1,2,"GitHub,Julian Oes","julian@oes.ch,noreply@github.com",1
+open-policy-agent,open-policy-agent/swift-opa,6,5,1,0,0,0,,,0
+open-telemetry,open-telemetry/opentelemetry-dotnet-instrumentation,6,6,0,0,0,0,,,0
+bank-vaults,bank-vaults/vault-secrets-webhook,6,2,0,6,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",4
+open-telemetry,open-telemetry/opentelemetry-php-contrib,6,0,0,0,0,0,,,6
+ovn-kubernetes,ovn-kubernetes/ovn-kubernetes-mcp,6,6,0,0,0,0,,,0
+AcademySoftwareFoundation,AcademySoftwareFoundation/rawtoaces,6,4,2,2,0,2,"Anton Dukhovnikov,GitHub","antond@wetafx.co.nz,noreply@github.com",0
+sigstore,sigstore/sigstore-conformance,6,3,1,0,0,0,,,2
+fluxcd,fluxcd/helm-controller,6,0,1,1,2,2,"GitHub,Matheus Pimenta","matheuscscp@gmail.com,noreply@github.com",3
+konveyor,konveyor/release-tools,6,0,1,3,0,1,github-actions[bot],github-actions[bot]@users.noreply.github.com,5
+kedacore,kedacore/http-add-on,6,4,2,0,0,0,,,0
+finos,finos/fdc3-dotnet,6,0,0,13,0,4,"Brian Ingenito,GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,brian.ingenito@morganstanley.com,noreply@github.com,support@github.com",6
+open-policy-agent,open-policy-agent/regal,6,3,2,0,0,0,,,1
+k3s-io,k3s-io/k3s,6,5,0,2,1,1,github-actions[bot],41898282+github-actions[bot]@users.noreply.github.com,0
+podman-desktop,podman-desktop/extension-apple-container,6,2,0,4,0,3,"Florent BENOIT,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,fbenoit@redhat.com,support@github.com",4
+oras-project,oras-project/oras-java,6,3,0,7,0,4,"GitHub,Valentin Delaye,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,jonesbusy@users.noreply.github.com,noreply@github.com,support@github.com",3
+fluxcd,fluxcd/website,6,2,2,3,0,4,"GitHub,Matheus Pimenta,dholbach,github-actions[bot,github-actions[bot]","1346979+dholbach@users.noreply.github.com,41898282+github-actions[bot]@users.noreply.github.com,matheuscscp@gmail.com,noreply@github.com",2
+kubestellar,kubestellar/ui,6,2,2,2,0,5,"GitHub,Gulshan,Rishi Mondal,dependabot[bot,dependabot[bot],gulshank0","49699333+dependabot[bot]@users.noreply.github.com,gulshanbahadur002@gmail.com,mavrickrishi@gmail.com,noreply@github.com,support@github.com",2
+jenkinsci,jenkinsci/analysis-model,6,0,0,3,0,1,Ulli Hafner,ullrich.hafner@gmail.com,6
+bank-vaults,bank-vaults/secret-sync,6,3,0,5,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",3
+kubewarden,kubewarden/policies,5,0,0,5,0,3,"GitHub,Víctor Cuadrado Juan,renovate[bot,renovate[bot]","2196685+viccuad@users.noreply.github.com,29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",5
+werf,werf/werf,5,0,2,1,0,3,"GitHub,Ilya Drey","157472+drey@users.noreply.github.com,ilya.drey@flant.com,noreply@github.com",3
+podman-desktop,podman-desktop/extension-kind,5,4,0,0,0,0,,,1
+cloudnative-pg,cloudnative-pg/postgres-containers,5,0,0,1,0,1,CloudNativePG Automated Updates,noreply@cnpg.com,5
+graphql,graphql/graphql-spec,5,5,0,0,0,0,,,0
+kubernetes-csi,kubernetes-csi/csi-driver-nfs,5,1,0,8,0,5,"GitHub,Kubernetes Prow Robot,andyzhangx,copilot-swe-agent[bot]","198982749+copilot@users.noreply.github.com,20407524+k8s-ci-robot@users.noreply.github.com,4178417+andyzhangx@users.noreply.github.com,noreply@github.com,xiazhang@microsoft.com",4
+cloudfoundry,cloudfoundry/bosh,5,4,0,2,0,4,"GitHub,Ivaylo Ivanov,Ned Petrov","71276794+neddp@users.noreply.github.com,ivaylogi98@gmail.com,nedd.petrov@gmail.com,noreply@github.com",1
+cncf,cncf/open-community-groups,5,0,0,0,0,0,,,5
+prometheus-community,prometheus-community/postgres_exporter,5,2,1,0,1,0,,,1
+longhorn,longhorn/longhorn-tests,5,2,0,0,0,0,,,3
+jaegertracing,jaegertracing/helm-charts,5,0,2,0,0,0,,,3
+cloudfoundry,cloudfoundry/cloud_controller_ng,5,2,1,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+cdk8s-team,cdk8s-team/cdk8s-plus,5,0,0,6,0,2,"GitHub,cdk8s-automation","81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",5
+inspektor-gadget,inspektor-gadget/headlamp-plugin,5,5,0,1,0,2,"GitHub,ashu8912","aghildiyal@microsoft.com,noreply@github.com",0
+cloudfoundry,cloudfoundry/cf-deployment,5,1,0,8,0,2,"ARD WG Bot,Jochen Ehret","app-deployments@cloudfoundry.org,jochen.ehret@sap.com",4
+spinframework,spinframework/spin,5,5,0,0,0,0,,,0
+kubernetes,kubernetes/perf-tests,5,3,1,0,0,0,,,1
+cilium,cilium/little-vm-helper-images,5,1,0,2,0,3,"GH action,Julian Wiedmann,auto-committer-lvh[bot]","213433462+auto-committer-lvh[bot]@users.noreply.github.com,ghabot@does.not.exist.cilium.org,julianwiedmann@users.noreply.github.com",4
+cloudfoundry,cloudfoundry/runtime-ci-pools,5,0,0,4,0,1,git,git@localhost,5
+kubernetes-sigs,kubernetes-sigs/gcp-filestore-csi-driver,5,2,1,2,0,2,"GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com",2
+PX4,PX4/NuttX,5,0,0,31,0,15,"Adwait Godbole,Bartosz,Bartosz Wawrzynek,Donny(董九柱),Jerry Ma,Xiang Xiao,cqb,fangpeina,fangxinyong,hujun5,ouyangxiangzhen,shichunma,simbit18,wangmingrong1,zhanghongyu","101105604+simbit18@users.noreply.github.com,70748590+donny9@users.noreply.github.com,adwaitngodbole@gmail.com,bartol2205@gmail.com,bartosz.wawrzynek@glamox.com,cqb@sideways.engineering,fangpeina@xiaomi.com,fangxinyong@xiaomi.com,hujun5@xiaomi.com,masc2008@gmail.com,ouyangxiangzhen@xiaomi.com,shichunma@bestechnic.com,wangmingrong1@xiaomi.com,xiaoxiang781216@gmail.com,zhanghongyu@xiaomi.com",5
+hyperledger,hyperledger/fabric,5,2,2,3,0,2,"Fedor Partanskiy,GitHub,pfi79","fredprtnsk@gmail.com,noreply@github.com",1
+mavlink,mavlink/rust-mavlink,5,1,1,4,0,7,"GitHub,Onur Özkan,Patrick José Pereira,dependabot[bot,dependabot[bot],github-actions[bot],patrickelectric","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,patrickelectric@gmail.com,patrickelectric@users.noreply.github.com,support@github.com,work@onurozkan.dev",3
+backstage,backstage/demo,5,0,1,1,0,2,"GitHub,Mihai Tabara","mihait@spotify.com,noreply@github.com",4
+containers,containers/buildah,5,2,0,0,0,0,,,3
+istio,istio/release-builder,5,2,1,0,0,0,,,2
+mavlink,mavlink/MAVSDK-Python,5,0,3,3,0,3,"GitHub,Jonas Vautherin,Julian Oes","dev@jonas.vautherin.ch,julian@oes.ch,noreply@github.com",2
+longhorn,longhorn/longhorn-manager,5,0,2,6,0,2,"mergify[bot],renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,37929162+mergify[bot]@users.noreply.github.com",3
+shipwright-io,shipwright-io/community,5,2,0,0,3,0,,,0
+kubescape,kubescape/kubescape,5,1,1,1,0,2,"GitHub,Matthias Bertschy","matthias.bertschy@gmail.com,noreply@github.com",3
+cloudfoundry,cloudfoundry/capi-release,5,0,0,3,0,2,"ari-wg-gitbot,dependabot[bot","49699333+dependabot[bot]@users.noreply.github.com,app-runtime-interfaces@cloudfoundry.org",5
+odpi,odpi/egeria-python,5,0,3,4,0,2,"Dan Wolfson,GitHub","dan.wolfson@pdr-associates.com,noreply@github.com",2
+kubernetes-sigs,kubernetes-sigs/jobset,5,2,0,0,0,0,,,3
+lf-energy,lf-energy/foundation,5,1,2,2,0,1,John Mertic,jmertic@linuxfoundation.org,2
+kubernetes-sigs,kubernetes-sigs/karpenter,5,1,1,0,2,0,,,1
+konveyor,konveyor/analyzer-lsp,5,1,0,0,4,0,,,0
+kubeflow,kubeflow/community,5,4,1,0,0,0,,,0
+k8up-io,k8up-io/k8up,5,0,0,0,0,0,,,5
+jenkinsci,jenkinsci/resources-ai-chatbot-plugin,5,1,0,3,3,4,"Bervianto Leo Pratama,GitHub,HeyBoY-ops,Manisharma Sugurthi","abhi9835003292@gmail.com,bervianto.leo@gmail.com,noreply@github.com,sugurthimanisharma@gmail.com",1
+kubernetes,kubernetes/release,5,4,0,2,0,3,"GitHub,Kubernetes Prow Robot,Sascha Grunert","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com,sgrunert@redhat.com",1
+zowe,zowe/zowe-native-proto,5,0,1,0,1,0,,,3
+krkn-chaos,krkn-chaos/krkn-lib,5,0,1,0,0,0,,,4
+nats-io,nats-io/nats.java,5,2,0,0,0,0,,,3
+bank-vaults,bank-vaults/vault-secrets-reloader,5,2,0,6,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",3
+knative,knative/docs,5,2,2,1,0,3,"David Fridrich,GitHub","49119790+gauron99@users.noreply.github.com,fridrich.david19@gmail.com,noreply@github.com",1
+konveyor,konveyor/rulesets,5,0,0,0,5,0,,,0
+Project-HAMi,Project-HAMi/HAMi,5,4,0,1,1,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+crossplane,crossplane/docs,5,5,0,3,0,2,"Christopher Haar,GitHub","christopher.haar@upbound.io,noreply@github.com",0
+fluent,fluent/fluent-bit,5,2,1,0,2,0,,,0
+lf-edge,lf-edge/ekuiper,5,2,1,4,0,3,"GitHub,Jiyong Huang,Song Gao,Yisaer,ngjaying","disxiaofei@163.com,huangjy@emqx.io,noreply@github.com",2
+kubescape,kubescape/operator,5,0,3,1,0,2,"GitHub,Jonathan Green","jonathang@armosec.io,noreply@github.com",2
+jenkinsci,jenkinsci/job-dsl-plugin,5,2,0,5,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",3
+cloudfoundry,cloudfoundry/multiapps-cli-plugin,5,2,2,2,0,2,"GitHub,Velizar Kalapov,vkalapov","87693906+vkalapov@users.noreply.github.com,noreply@github.com",1
+open-cluster-management-io,open-cluster-management-io/managed-serviceaccount,5,3,0,3,0,5,"GitHub,Jian Zhu,Morven Cao,dependabot[bot,dependabot[bot],zhujian","49699333+dependabot[bot]@users.noreply.github.com,jiazhu@redhat.com,lcao@redhat.com,noreply@github.com,support@github.com",2
+jenkinsci,jenkinsci/bom,5,0,0,3,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",5
+finos,finos/traderX,5,0,0,0,0,0,,,5
+longhorn,longhorn/backing-image-manager,5,0,0,5,0,2,"mergify[bot],renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,37929162+mergify[bot]@users.noreply.github.com",5
+open-telemetry,open-telemetry/opentelemetry-php-instrumentation,5,0,0,0,0,0,,,5
+konveyor,konveyor/koncur,5,0,0,0,0,0,,,5
+kubescape,kubescape/helm-charts,5,2,1,1,0,2,"GitHub,Yakir Oren","noreply@github.com,yakiroren@gmail.com",2
+kubernetes-sigs,kubernetes-sigs/cve-feed-osv,5,0,0,0,0,0,,,5
+Project-HAMi,Project-HAMi/ascend-device-plugin,5,5,0,0,0,0,,,0
+open-telemetry,open-telemetry/opentelemetry-configuration,5,2,0,0,0,0,,,3
+cloudfoundry,cloudfoundry/diego-release,5,0,4,0,0,0,,,1
+argoproj-labs,argoproj-labs/argocd-agent,5,3,2,2,0,5,"Chetan Banavikalmutt,Drew Bailey,GitHub,Mike Ng","chetanrns1997@gmail.com,drew.bailey@airbnb.com,drewbailey5@gmail.com,ming@redhat.com,noreply@github.com",0
+chaoss,chaoss/augur,5,3,1,0,1,0,,,0
+metal3-io,metal3-io/utility-images,4,4,0,1,0,1,Lennart Jern,lennart.jern@est.tech,0
+cloudfoundry,cloudfoundry/terraform-provider-cloudfoundry,4,4,0,3,0,3,"ANUGRAHG,GitHub,Vipin Menon","anugrah.gupta@sap.com,noreply@github.com,vipinvkmenon@users.noreply.github.com",0
+keycloak,keycloak/keycloak-benchmark,4,1,0,4,1,1,github-actions[bot],41898282+github-actions[bot]@users.noreply.github.com,2
+jenkinsci,jenkinsci/customizable-header-plugin,4,1,0,0,1,0,,,2
+microcks,microcks/microcks-testcontainers-dotnet-demo,4,1,1,1,0,3,"Sebastien DEGODEZ,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,sebastien.degodez@gmail.com,support@github.com",2
+connectrpc,connectrpc/connect-kotlin,4,1,0,1,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",3
+finos,finos/.github,4,0,2,2,0,3,"GitHub,Rob Moffat,github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,noreply@github.com,rob.moffat@finos.org",2
+spidernet-io,spidernet-io/spiderpool,4,1,0,0,0,0,,,3
+cncf,cncf/maintainer-d,4,1,0,0,2,0,,,1
+cloudfoundry,cloudfoundry/k8s-garden-client,4,0,2,1,0,2,Pavel Busko,"busko.pavel@gmail.com,pavel.busko@sap.com",2
+finos,finos/devops-automation,4,1,0,0,3,0,,,0
+zowe,zowe/zowe-cli,4,1,0,0,2,0,,,1
+oxia-db,oxia-db/oxia,4,0,4,1,0,1,mattisonchao,mattisonchao@gmail.com,0
+finos,finos/regular-table,4,0,0,3,0,2,"Andrew Stein,GitHub","noreply@github.com,steinlink@gmail.com",4
+fluid-cloudnative,fluid-cloudnative/fluid,4,2,1,3,0,7,"GitHub,Syspretor,dependabot[bot,dependabot[bot],yuvraj Kolkar,玖宇","144676738+yuvraj-kolkar17@users.noreply.github.com,32930733+syspretor@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,guotongyu.gty@alibaba-inc.com,kolkaryuvraj2@gmail.com,noreply@github.com,support@github.com",1
+kubewarden,kubewarden/policy-sdk-js,4,0,0,3,0,3,"Flavio Castelli,GitHub,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,fcastelli@suse.com,noreply@github.com",4
+nodejs,nodejs/web-team,4,4,0,0,0,0,,,0
+containerd,containerd/runwasi,4,0,0,5,0,1,github-action-benchmark,github@users.noreply.github.com,4
+kubernetes-sigs,kubernetes-sigs/dra-example-driver,4,4,0,0,0,0,,,0
+keycloak,keycloak/keycloak-web,4,0,1,0,3,0,,,0
+jenkinsci,jenkinsci/git-plugin,4,3,1,0,0,0,,,0
+cloud-custodian,cloud-custodian/cloud-custodian,4,2,0,0,2,0,,,0
+open-telemetry,open-telemetry/opentelemetry-go,4,3,0,0,0,0,,,1
+prometheus,prometheus/client_ruby,4,0,1,1,0,1,Chris Sinjakli,chris@sinjakli.co.uk,3
+layer5io,layer5io/docs,4,0,0,2,0,4,"Discuss bot,SAHU-01,l5io,leecalcote","ci@layer5.io,discussions@meshery.io,leecalcote@users.noreply.github.com,sahu-01@users.noreply.github.com",4
+piraeusdatastore,piraeusdatastore/piraeus-operator,4,2,0,0,2,0,,,0
+kubevirt,kubevirt/csi-driver,4,4,0,0,0,0,,,0
+open-feature,open-feature/dotnet-sdk-contrib,4,1,1,0,0,0,,,2
+bootc-dev,bootc-dev/bootc,4,1,0,0,1,0,,,2
+kagent-dev,kagent-dev/website,4,1,3,0,0,0,,,0
+crossplane,crossplane/provider-template,4,0,0,0,0,0,,,4
+crossplane-contrib,crossplane-contrib/provider-terraform,4,0,0,0,0,0,,,4
+kairos-io,kairos-io/kairos-factory-action,4,0,0,0,0,0,,,4
+helm,helm/helm-www,4,1,1,0,1,0,,,1
+cloudnative-pg,cloudnative-pg/governance,4,1,0,0,0,0,,,3
+kubernetes-sigs,kubernetes-sigs/prometheus-adapter,4,4,0,0,0,0,,,0
+cozystack,cozystack/talm,4,3,0,0,0,0,,,1
+kubernetes-csi,kubernetes-csi/external-attacher,4,2,0,2,0,4,"GitHub,Kubernetes Prow Robot,dependabot[bot,dependabot[bot]","20407524+k8s-ci-robot@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+goharbor,goharbor/website,4,4,0,0,0,0,,,0
+containernetworking,containernetworking/plugins,4,3,1,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+kairos-io,kairos-io/kairos-init,4,2,0,0,0,0,,,2
+kairos-io,kairos-io/kairos-operator,4,0,0,0,0,0,,,4
+bank-vaults,bank-vaults/vault-helm-chart,4,2,0,3,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",2
+kubevirt,kubevirt/hyperconverged-cluster-operator,4,1,0,2,0,4,"GitHub,HCO Bump Bot,Nahshon Unna Tsameret,hco-bot,nunnatsa","60659093+nunnatsa@users.noreply.github.com,71450783+hco-bot@users.noreply.github.com,noreply@github.com,nunnatsa@redhat.com",3
+istio,istio/proxy,4,0,1,1,0,2,"GitHub,Istio Automation","istio-testing-bot@google.com,noreply@github.com",3
+finos,finos/fluxnova-docs-theme,4,0,0,0,0,0,,,4
+open-telemetry,open-telemetry/opentelemetry-php,4,0,0,0,0,0,,,4
+kumahq,kumahq/kuma-counter-demo,4,0,0,0,0,0,,,4
+kedacore,kedacore/charts,4,3,0,3,0,6,"GitHub,Marco Lecheler,Zbynek Roubalik,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,marco.lecheler@mercedes-benz.com,marco@task.media,noreply@github.com,support@github.com,zroubalik@gmail.com",1
+krkn-chaos,krkn-chaos/krkn-operator,4,0,0,1,0,1,Tullio Sebastiani,tsebasti@redhat.com,4
+openkruise,openkruise/agents,4,3,1,3,0,6,"GitHub,PersistentJZH,dependabot[bot,dependabot[bot],荻升","48715243+persistentjzh@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,63136897+ongdisheng@users.noreply.github.com,noreply@github.com,support@github.com,zhihao.kan17@gmail.com",0
+podman-desktop,podman-desktop/extension-kubernetes-dashboard,4,2,0,2,0,3,"Florent BENOIT,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,fbenoit@redhat.com,support@github.com",2
+opencontainers,opencontainers/runc,4,3,1,0,0,0,,,0
+sigstore,sigstore/fulcio,4,0,0,2,0,4,"GitHub,Hayden,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,8418760+hayden-io@users.noreply.github.com,noreply@github.com,support@github.com",4
+kaito-project,kaito-project/kaito,4,1,1,1,0,2,"GitHub,rambohe,rambohe-ch","noreply@github.com,rambohe.ch@gmail.com",2
+jenkinsci,jenkinsci/mysql-api-plugin,4,0,3,7,0,2,"GitHub,Valentin Delaye","jonesbusy@users.noreply.github.com,noreply@github.com",1
+nodejs,nodejs/doc-kit,4,4,0,0,0,0,,,0
+graphql,graphql/graphql-js,4,1,2,3,0,2,"GitHub,Yaacov Rydzinski","noreply@github.com,yaacovcr@gmail.com",1
+openyurtio,openyurtio/openyurt,4,2,1,0,1,0,,,0
+riscv,riscv/meta-riscv,4,1,1,2,1,2,"Khem Raj,Marcel Ziswiler","marcel@ziswiler.com,raj.khem@gmail.com",1
+kubernetes-sigs,kubernetes-sigs/contributor-playground,4,0,4,0,0,0,,,0
+cortexproject,cortexproject/cortex,4,4,0,2,0,3,"GitHub,SungJin1212,ci","ci@cortexmetrics.io,noreply@github.com,tjdwls1201@gmail.com",0
+kubernetes-sigs,kubernetes-sigs/kindnet,4,3,0,0,1,0,,,0
+konveyor,konveyor/tackle2-seed,4,2,2,2,0,2,"Cherry Picker,GitHub,Jeff Ortel","jortel@redhat.com,noreply@github.com",0
+tektoncd,tektoncd/chains,4,1,1,0,0,0,,,2
+dapr,dapr/dapr-agents,4,2,0,9,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+hyperledger,hyperledger/fabric-x,4,4,0,0,0,0,,,0
+tektoncd,tektoncd/plumbing,4,0,1,0,0,0,,,3
+hyperledger,hyperledger/fabric-x-orderer,4,2,1,0,1,0,,,0
+kcp-dev,kcp-dev/kcp-operator,4,3,1,0,0,0,,,0
+iovisor,iovisor/bcc,4,1,3,1,0,1,"Eunseon Lee,ekyooo",es.lee@lge.com,0
+kubernetes,kubernetes/sig-security,4,4,0,0,0,0,,,0
+magma,magma/magma,4,1,0,0,3,0,,,0
+hyperledger-labs,hyperledger-labs/fabric-builder-k8s,4,1,0,1,0,3,"James Taylor,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,jt-nti@users.noreply.github.com,support@github.com",3
+bank-vaults,bank-vaults/secret-init,4,2,0,4,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",2
+open-telemetry,open-telemetry/opentelemetry-java,4,3,0,6,0,3,"GitHub,github-action-benchmark,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,github@users.noreply.github.com,noreply@github.com",1
+tektoncd,tektoncd/operator,3,0,1,2,0,4,"Jawed khelil,Vincent Demeester,khelil,tekton-bot,tekton-robot","48335577+tekton-robot@users.noreply.github.com,jkhelil@redhat.com,tekton-bot@users.noreply.github.com,vdemeest@redhat.com",2
+cdk8s-team,cdk8s-team/cdk8s-cli,3,0,0,2,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",3
+podman-desktop,podman-desktop/extension-minikube,3,1,0,0,0,0,,,2
+piraeusdatastore,piraeusdatastore/piraeus,3,2,0,0,1,0,,,0
+zephyrproject-rtos,zephyrproject-rtos/Kconfiglib,3,0,2,2,0,2,"Benjamin Cabé,Torsten Rasmussen,Torsten Tejlmand Rasmussen","benjamin@zephyrproject.org,torsten.rasmussen@nordicsemi.no",1
+zephyrproject-rtos,zephyrproject-rtos/hal_realtek,3,2,1,0,0,0,,,0
+cert-manager,cert-manager/approver-policy,3,2,0,1,1,2,"GitHub,cert-manager-prow[bot]","167124277+cert-manager-prow[bot]@users.noreply.github.com,noreply@github.com",0
+podman-desktop,podman-desktop/extension-postgresql,3,0,0,3,0,3,"Simon Rey,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,51708585+simonrey1@users.noreply.github.com,support@github.com",3
+strimzi,strimzi/strimzi-mqtt-bridge,3,3,0,0,0,0,,,0
+openfga,openfga/dotnet-sdk,3,2,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+argoproj,argoproj/argoproj-deployments,3,0,0,3,0,1,CI,ci@argoproj.com,3
+kubernetes,kubernetes/registry.k8s.io,3,3,0,1,0,2,"GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com",0
+sigstore,sigstore/sigstore,3,1,2,0,0,0,,,0
+todogroup,todogroup/governance,3,0,0,0,3,0,,,0
+ceph,ceph/csi-charts,3,0,0,4,0,1,ceph-csi-bot,ceph-csi-bot@ceph.io,3
+helm,helm/helm,3,2,0,0,1,0,,,0
+etcd-io,etcd-io/protodoc,3,1,1,0,0,0,,,1
+jenkinsci,jenkinsci/support-core-plugin,3,2,0,0,0,0,,,1
+cncf,cncf/people,3,0,1,2,0,3,"Christophe Sauthier,GitHub,Riaan Kleinhans","csauthier@linuxfoundation.org,noreply@github.com,riaankleinhans@gmail.com",2
+pytorch,pytorch/FBGEMM,3,2,0,1,0,1,pytorchbot,pytorchbot@pytorch.com,1
+finos,finos/cdm-object-builder,3,0,0,1,0,2,"GitHub,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",3
+kubernetes-sigs,kubernetes-sigs/kind,3,3,0,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/cluster-api-provider-openstack,3,1,1,1,0,2,"GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com",1
+kairos-io,kairos-io/community-bundles,3,0,0,0,0,0,,,3
+kubernetes-sigs,kubernetes-sigs/ibm-powervs-block-csi-driver,3,1,0,0,0,0,,,2
+sodafoundation,sodafoundation/contexture,3,1,2,3,0,3,"GitHub,Rohith Vaidyanathan,sushanth","noreply@github.com,rohithvaidya@gmail.com,sushanth.github@gmail.com",0
+bootc-dev,bootc-dev/infra,3,0,0,0,0,0,,,3
+kubernetes-sigs,kubernetes-sigs/inference-perf,3,1,0,0,2,0,,,0
+AcademySoftwareFoundation,AcademySoftwareFoundation/tac,3,0,1,0,0,0,,,2
+AcademySoftwareFoundation,AcademySoftwareFoundation/OpenCue,3,2,1,0,0,0,,,0
+open-telemetry,open-telemetry/opentelemetry-swift,3,0,1,0,0,0,,,2
+kairos-io,kairos-io/helm-charts,3,0,0,0,0,0,,,3
+jenkinsci,jenkinsci/jellydoc-maven-plugin,3,1,0,0,0,0,,,2
+jenkinsci,jenkinsci/maven-hpi-plugin,3,1,0,0,0,0,,,2
+etcd-io,etcd-io/etcd-operator,3,3,0,1,0,2,"Benjamin Wang,GitHub","benjamin.ahrtr@gmail.com,noreply@github.com",0
+submariner-io,submariner-io/submariner-website,3,2,0,1,0,3,"Thomas Pantelis,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,support@github.com,tompantelis@gmail.com",1
+backstage,backstage/community,3,1,0,0,0,0,,,2
+kubernetes-sigs,kubernetes-sigs/signalhound,3,1,0,3,0,4,"GitHub,Kubernetes Prow Robot,dependabot[bot,dependabot[bot]","20407524+k8s-ci-robot@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+openkruise,openkruise/openkruise.io,3,1,0,3,0,5,"GitHub,PersistentJZH,Zhen Zhang,gh-actions,守辰","48715243+persistentjzh@users.noreply.github.com,actions@github.com,noreply@github.com,shouchen.zz@alibaba-inc.com,zhihao.kan17@gmail.com",2
+cloudfoundry,cloudfoundry/cli,3,1,0,0,0,0,,,2
+hyperledger,hyperledger/fabric-x-committer,3,0,2,0,1,0,,,0
+p4lang,p4lang/p4-dpdk-target,3,3,0,0,0,0,,,0
+linkerd,linkerd/website,3,3,0,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/testgrid,3,2,1,0,0,0,,,0
+unikraft,unikraft/unikraft,3,3,0,0,0,0,,,0
+cloudfoundry,cloudfoundry/guardian,3,0,2,0,0,0,,,1
+ceph,ceph/ceph-cm-ansible,3,1,2,0,0,0,,,0
+ortelius,ortelius/pdvd-backend,3,0,0,0,0,0,,,3
+cloudfoundry,cloudfoundry/bosh-aws-cpi-release,3,0,0,4,0,2,"CI Bot,Ned Petrov","bots@cloudfoundry.org,nedd.petrov@gmail.com",3
+sigstore,sigstore/root-signing,3,0,0,1,0,1,tuf-on-ci,41898282+github-actions[bot]@users.noreply.github.com,3
+jenkinsci,jenkinsci/kubernetes-ephemeral-container-plugin,3,0,2,0,0,0,,,1
+screwdriver-cd,screwdriver-cd/functional-restrict-pr,3,0,0,0,0,0,,,3
+layer5io,layer5io/sistent,3,2,0,3,0,3,"DANIEL KATOTO,GitHub,Kishore B","85435355+kishore08-07@users.noreply.github.com,katotodan@gmail.com,noreply@github.com",1
+open-telemetry,open-telemetry/opentelemetry-go-build-tools,3,2,0,0,0,0,,,1
+oras-project,oras-project/oras-py,3,3,0,0,0,0,,,0
+kairos-io,kairos-io/kairos-docs,3,0,0,0,0,0,,,3
+backstage,backstage/mkdocs-techdocs-core,3,1,1,0,0,0,,,1
+crossplane-contrib,crossplane-contrib/function-go-templating,3,1,0,0,0,0,,,2
+open-telemetry,open-telemetry/opentelemetry-dotnet,3,0,0,0,3,0,,,0
+jenkinsci,jenkinsci/credentials-plugin,3,1,1,0,1,0,,,0
+kubernetes-sigs,kubernetes-sigs/cluster-api-operator,3,0,0,0,0,0,,,3
+jenkinsci,jenkinsci/reverse-proxy-auth-plugin,3,0,0,0,0,0,,,3
+confidential-containers,confidential-containers/confidentialcontainers.org,3,3,0,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/apisnoop,3,1,1,2,0,3,"GitHub,Kubernetes Prow Robot,github-actions[bot]","20407524+k8s-ci-robot@users.noreply.github.com,github-actions[bot]@users.noreply.github.com,noreply@github.com",1
+prometheus-community,prometheus-community/pgbouncer_exporter,3,0,0,0,0,0,,,3
+prometheus,prometheus/exporter-toolkit,3,0,0,7,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",3
+Serverless-Devs,Serverless-Devs/agentrun-sdk-nodejs,3,0,1,3,0,2,"GitHub,OhYee","noreply@github.com,oyohyee@oyohyee.com",2
+open-telemetry,open-telemetry/opentelemetry-cpp,3,0,0,4,0,3,"Andy Aylward,GitHub,github-action-benchmark","andy@eggsample.net,github@users.noreply.github.com,noreply@github.com",3
+cloudfoundry,cloudfoundry/bosh-io-releases-index,3,0,0,0,0,0,,,3
+open-telemetry,open-telemetry/semantic-conventions-java,3,1,0,0,0,0,,,2
+runmedev,runmedev/runme,3,1,1,1,0,2,"GitHub,Sebastian (Tiedtke) Huckleberry","noreply@github.com,sebastiantiedtke@gmail.com",1
+microcks,microcks/microcks,3,0,0,0,3,0,,,0
+theupdateframework,theupdateframework/go-tuf,3,3,0,0,0,0,,,0
+crossplane-contrib,crossplane-contrib/provider-keycloak,3,0,0,1,0,2,"GitHub,Julian Wachter (né Löffler)","julian@corewire.de,noreply@github.com",3
+metal3-io,metal3-io/metal3-io.github.io,3,1,0,1,0,2,"GitHub,metal3-io-bot","55852648+metal3-io-bot@users.noreply.github.com,noreply@github.com",2
+cloudfoundry,cloudfoundry/bosh-cli,3,2,0,0,0,0,,,1
+falcosecurity,falcosecurity/falco,3,2,0,0,0,0,,,1
+kube-rs,kube-rs/kube,3,3,0,1,0,2,"GitHub,tottoto","noreply@github.com,tottotodev@gmail.com",0
+sigstore,sigstore/root-signing-staging,3,0,0,1,0,1,tuf-on-ci,41898282+github-actions[bot]@users.noreply.github.com,3
+open-cluster-management-io,open-cluster-management-io/addon-framework,3,0,3,1,0,3,"Claude Sonnet 4.5,GitHub,Jian Zhu,zhujian","jiazhu@redhat.com,noreply@anthropic.com,noreply@github.com",0
+litmuschaos,litmuschaos/litmus,3,1,1,0,1,0,,,0
+meshery,meshery/meshsync,3,1,0,0,0,0,,,2
+submariner-io,submariner-io/releases,3,1,1,1,0,3,"dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,support@github.com",1
+cert-manager,cert-manager/istio-csr,3,0,0,0,0,0,,,3
+k0sproject,k0sproject/k0smotron,3,3,0,0,0,0,,,0
+metal3-io,metal3-io/ironic-image,3,0,0,0,0,0,,,3
+spidernet-io,spidernet-io/rocktemplate,3,0,0,0,3,0,,,0
+cncf,cncf/xds,3,3,0,0,0,0,,,0
+open-telemetry,open-telemetry/opentelemetry-go-instrumentation,3,2,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/grootfs,3,0,1,0,0,0,,,2
+projectcapsule,projectcapsule/capsule-proxy,3,0,0,0,0,0,,,3
+AcademySoftwareFoundation,AcademySoftwareFoundation/OpenRV,3,2,1,0,0,0,,,0
+buildpacks-community,buildpacks-community/kpack,3,1,0,0,0,0,,,2
+cncf,cncf/foundation,3,1,1,0,0,0,,,1
+Kuadrant,Kuadrant/kuadrant-operator,3,3,0,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/cluster-api-addon-provider-helm,3,0,0,2,0,4,"GitHub,Kubernetes Prow Robot,dependabot[bot,dependabot[bot]","20407524+k8s-ci-robot@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",3
+graphql,graphql/community-wg,3,2,0,0,1,0,,,0
+flatcar,flatcar/mantle,3,1,0,7,0,4,"GitHub,James Le Cuirot,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,jlecuirot@microsoft.com,noreply@github.com,support@github.com",2
+kedacore,kedacore/keda-docs,3,0,1,2,0,4,"GitHub,Jonas-Taha El Sesiy,Zbynek Roubalik","github@elsesiy.com,info+code@elsesiy.com,noreply@github.com,zroubalik@gmail.com",2
+kubernetes,kubernetes/cloud-provider-openstack,3,2,1,0,0,0,,,0
+openfga,openfga/java-sdk,3,1,0,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+sigstore,sigstore/sigstore-probers,3,3,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+kubernetes-sigs,kubernetes-sigs/kustomize,3,2,1,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/cluster-api-provider-gcp,3,3,0,0,0,0,,,0
+antrea-io,antrea-io/antrea-ui,3,0,0,3,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",3
+finos,finos/fluxnova-feel-scala,3,0,0,0,0,0,,,3
+coreinfrastructure,coreinfrastructure/best-practices-badge,3,0,2,5,0,3,"Claude Opus 4.5,David A. Wheeler,GitHub","dwheeler@dwheeler.com,noreply@anthropic.com,noreply@github.com",1
+metallb,metallb/metallb-operator,3,0,0,0,0,0,,,3
+jenkinsci,jenkinsci/buildtriggerbadge-plugin,3,0,1,0,1,0,,,1
+kitops-ml,kitops-ml/kitops,3,3,0,0,0,0,,,0
+crossplane-contrib,crossplane-contrib/function-environment-configs,3,0,1,0,0,0,,,2
+kubeflow,kubeflow/katib,3,1,0,0,2,0,,,0
+open-policy-agent,open-policy-agent/opa-control-plane,3,0,0,0,0,0,,,3
+bank-vaults,bank-vaults/vault-env,3,1,0,5,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",2
+kubewarden,kubewarden/kubewarden-end-to-end-tests,3,1,0,3,0,5,"Flavio Castelli,GitHub,Víctor Cuadrado Juan,dependabot[bot,dependabot[bot]","2196685+viccuad@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,fcastelli@suse.com,noreply@github.com,support@github.com",2
+openembedded,openembedded/meta-openembedded,3,0,0,24,0,8,"Anuj Mittal,Gyorgy Sarvari,Khem Raj,Liu Yiding,Markus Volk,Peter Marko,Trevor Gamblin,Yoann Congal","anuj.mittal@oss.qualcomm.com,f_l_k@t-online.de,liuyd.fnst@fujitsu.com,peter.marko@siemens.com,raj.khem@gmail.com,skandigraun@gmail.com,tgamblin@baylibre.com,yoann.congal@smile.fr",3
+openebs,openebs/lvm-localpv,3,0,1,3,0,4,"Abhilash Shetty,Phillip Schichtel,abhilashshetty04","95069770+abhilashshetty04@users.noreply.github.com,abhilash.shetty@datacore.com,abhilashshetty04@users.noreply.github.com,phillip@schich.tel",2
+cloudnative-pg,cloudnative-pg/artifacts,3,0,0,5,0,2,"CloudNativePG Automated Updates,Marco Nenciarini,resulting in 444KB+ JSON that%0Aexceeds bash argument list limits.%0A%0ASetting BUILDX_METADATA_PROVENANCE=disabled excludes provenance from the%0Ametadata file while keeping attestations attached to images in the%0Aregistry.%0A%0ASigned-off-by: Marco Nenciarini","marco.nenciarini@enterprisedb.com,noreply@cnpg.com",3
+openfga,openfga/openfga,3,1,1,0,0,0,,,1
+cilium,cilium/ebpf,3,0,1,4,1,5,"Hugh,Ron Federman,Timo Beckers,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,huecodes@users.noreply.github.com,ron@odigos.io,support@github.com,ti-mo@users.noreply.github.com",1
+oras-project,oras-project/oras-go,3,1,1,1,0,2,"GitHub,Xiaoxuan Wang","noreply@github.com,wangxiaoxuan119@gmail.com",1
+kubernetes-sigs,kubernetes-sigs/multicluster-runtime,3,0,2,2,0,3,"GitHub,Kubernetes Prow Robot,Marvin Beckers","20407524+k8s-ci-robot@users.noreply.github.com,mail@embik.me,noreply@github.com",1
+litmuschaos,litmuschaos/test-tools,2,0,1,1,0,1,snyk-bot,snyk-bot@snyk.io,1
+dragonflyoss,dragonflyoss/d7y.io,2,2,0,0,0,0,,,0
+prometheus,prometheus/common,2,0,0,3,0,4,"GitHub,PrometheusBot,dependabot[bot,dependabot[bot],prombot","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,prometheus-team@googlegroups.com,support@github.com",2
+spdx,spdx/license-list-XML,2,1,1,0,0,0,,,0
+piraeusdatastore,piraeusdatastore/linstor-csi,2,2,0,1,0,2,"Moritz Tanner,Roland Kammerer","dev.rck@gmail.com,moritz.wanzenboeck@linbit.com",0
+etcd-io,etcd-io/raft,2,0,1,2,0,2,"Benjamin Wang,GitHub","benjamin.ahrtr@gmail.com,noreply@github.com",1
+openfga,openfga/helm-charts,2,1,0,1,0,2,"Anurag Bandyopadhyay,GitHub","angbpy@gmail.com,noreply@github.com",1
+lf-energy,lf-energy/tac,2,0,1,0,0,0,,,1
+falcosecurity,falcosecurity/evolution,2,0,0,0,0,0,,,2
+AcademySoftwareFoundation,AcademySoftwareFoundation/foundation,2,0,1,0,0,0,,,1
+AcademySoftwareFoundation,AcademySoftwareFoundation/OpenShadingLanguage,2,0,0,6,0,5,"Alexandru Biscoveanu,GitHub,Larry Gritz,Silvia,silvialpz","74107990+silvialpz@users.noreply.github.com,alex.biscoveanu.gfx@gmail.com,hello@silvialopez.me,lg@larrygritz.com,noreply@github.com",2
+cdk8s-team,cdk8s-team/cdk8s-ack-image-resizer,2,0,0,1,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",2
+kubevirt,kubevirt/containerized-data-importer,2,2,0,0,0,0,,,0
+jenkinsci,jenkinsci/docker,2,0,0,1,2,2,"GitHub,GitHub Actions,github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,noreply@github.com",0
+cadence-workflow,cadence-workflow/cadence-web,2,1,1,0,0,0,,,0
+cloudnative-pg,cloudnative-pg/cnpg-playground,2,1,1,1,0,3,"Daniel Chambre,GitHub,smiyc","36233521+smiyc@users.noreply.github.com,noreply@github.com,smiyc@pm.me",0
+microcks,microcks/community,2,0,0,8,0,2,"GitHub,Yacine Kheddache","noreply@github.com,yacine@microcks.io",2
+kubernetes-sigs,kubernetes-sigs/secrets-store-csi-driver,2,2,0,0,0,0,,,0
+OpenFunction,OpenFunction/openfunction.dev,2,1,0,1,0,2,"GitHub,Ihor Sychevskyi","arhell333@gmail.com,noreply@github.com",1
+keptn,keptn/lifecycle-toolkit,2,0,0,3,0,1,GitHub Action,action@github.com,2
+onnx,onnx/onnx-tensorrt,2,1,1,0,0,0,,,0
+goharbor,goharbor/harbor-helm,2,1,1,1,0,1,copilot-swe-agent[bot],198982749+copilot@users.noreply.github.com,0
+kubevirt,kubevirt/enhancements,2,2,0,0,0,0,,,0
+p4lang,p4lang/p4c,2,1,1,0,0,0,,,0
+finos,finos/FDC3-Sail,2,2,0,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/hydrophone,2,2,0,0,0,0,,,0
+operator-framework,operator-framework/operator-lifecycle-manager,2,1,0,0,0,0,,,1
+longhorn,longhorn/longhorn-instance-manager,2,0,0,3,0,2,"mergify[bot],renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,37929162+mergify[bot]@users.noreply.github.com",2
+kubevirt,kubevirt/kubevirt-migration-controller,2,1,0,0,0,0,,,1
+jenkinsci,jenkinsci/jenkins-test-harness,2,1,0,0,0,0,,,1
+jenkinsci,jenkinsci/badge-plugin,2,1,0,1,0,2,"GitHub,strangelookingnerd","49242855+strangelookingnerd@users.noreply.github.com,noreply@github.com",1
+jenkinsci,jenkinsci/msbuild-plugin,2,2,0,2,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",0
+nodejs,nodejs/release-cloudflare-worker,2,2,0,0,0,0,,,0
+open-feature,open-feature/flagd,2,2,0,0,0,0,,,0
+chaosblade-io,chaosblade-io/chaosblade,2,0,1,1,0,3,"GitHub,snyk-bot,xcaspar","changjun.xcj@alibaba-inc.com,noreply@github.com,snyk-bot@snyk.io",1
+open-cluster-management-io,open-cluster-management-io/helm-charts,2,0,0,4,0,1,ocm-bot,ocm-bot@users.noreply.github.com,2
+open-telemetry,open-telemetry/opentelemetry-dotnet-contrib,2,2,0,0,0,0,,,0
+pyro-ppl,pyro-ppl/numpyro,2,1,0,0,1,0,,,0
+finos,finos/jupyterlab_templates,2,0,1,1,0,2,"GitHub,Tim Paine","3105306+timkpaine@users.noreply.github.com,noreply@github.com",1
+nats-io,nats-io/nats-kafka,2,1,1,0,0,0,,,0
+open-telemetry,open-telemetry/changelog.opentelemetry.io,2,0,0,0,0,0,,,2
+dragonflyoss,dragonflyoss/dragonfly,2,0,0,0,2,0,,,0
+karmada-io,karmada-io/website,2,2,0,0,0,0,,,0
+open-telemetry,open-telemetry/opentelemetry-go-compile-instrumentation,2,1,0,1,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+AcademySoftwareFoundation,AcademySoftwareFoundation/openexr,2,0,1,1,0,2,"GitHub,John Mertic","jmertic@linuxfoundation.org,noreply@github.com",1
+meshery,meshery/meshery-operator,2,1,0,1,0,2,"GitHub,n2h9","13541181+n2h9@users.noreply.github.com,noreply@github.com",1
+lf-energy,lf-energy/lfenergy-landscape,2,0,2,1,0,2,"GitHub,John Mertic","jmertic@linuxfoundation.org,noreply@github.com",0
+drasi-project,drasi-project/drasi-platform,2,1,1,0,0,0,,,0
+jenkinsci,jenkinsci/ec2-fleet-plugin,2,1,1,0,0,0,,,0
+k3s-io,k3s-io/scans,2,0,0,0,0,0,,,2
+argoproj,argoproj/argo-rollouts,2,0,0,0,2,0,,,0
+containerd,containerd/nri,2,2,0,0,0,0,,,0
+cert-manager,cert-manager/helm-tool,2,0,0,0,0,0,,,2
+keylime,keylime/keylime,2,1,0,0,0,0,,,1
+bfenetworks,bfenetworks/bfe,2,0,1,0,0,0,,,1
+thanos-io,thanos-io/promql-engine,2,0,1,0,0,0,,,1
+paralus,paralus/website,2,0,0,1,0,1,snyk-bot,snyk-bot@snyk.io,2
+openmainframeproject,openmainframeproject/foundation,2,0,0,1,0,1,John Mertic,jmertic@linuxfoundation.org,2
+kubernetes-sigs,kubernetes-sigs/aws-efs-csi-driver,2,1,1,0,0,0,,,0
+open-telemetry,open-telemetry/opentelemetry-demo,2,2,0,0,0,0,,,0
+envoyproxy,envoyproxy/nighthawk,2,1,0,0,0,0,,,1
+open-telemetry,open-telemetry/opentelemetry-go-vanityurls,2,0,0,0,0,0,,,2
+open-telemetry,open-telemetry/sig-security,2,1,0,0,0,0,,,1
+falcosecurity,falcosecurity/k8s-metacollector,2,1,1,0,0,0,,,0
+jenkinsci,jenkinsci/attachments-from-jira-issues-misc,2,0,2,0,0,0,,,0
+kgateway-dev,kgateway-dev/kgateway.dev,2,2,0,0,0,0,,,0
+Serverless-Devs,Serverless-Devs/Serverless-Devs,2,0,1,0,0,0,,,1
+kubeflow,kubeflow/pipelines-components,2,0,1,0,0,0,,,1
+lima-vm,lima-vm/lima,2,1,0,0,1,0,,,0
+spinframework,spinframework/spin-operator,2,1,1,0,0,0,,,0
+ceph,ceph/ceph-nvmeof,2,1,1,0,0,0,,,0
+cloudfoundry,cloudfoundry/storage-cli,2,1,0,6,0,1,"Johannes Haass,johha",johannes.haass@sap.com,1
+falcosecurity,falcosecurity/falco-website,2,0,0,0,2,0,,,0
+containers,containers/skopeo,2,1,0,0,0,0,,,1
+grpc,grpc/grpc-swift-nio-transport,2,1,0,1,0,2,"GitHub,Gus Cairo","gus.cairo@apple.com,noreply@github.com",1
+konveyor,konveyor/kai,2,1,0,0,1,0,,,0
+kubernetes-sigs,kubernetes-sigs/cluster-api-provider-vsphere,2,0,1,1,0,2,"GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com",1
+ovn-org,ovn-org/ovn,2,0,0,7,0,3,"Ales Musil,Dumitru Ceara,Lorenzo Bianconi","amusil@redhat.com,dceara@redhat.com,lorenzo.bianconi@redhat.com",2
+cloudfoundry,cloudfoundry/bosh-deployment,2,0,0,0,0,0,,,2
+knative-extensions,knative-extensions/kn-plugin-event,2,1,0,1,0,2,"GitHub,Knative Automation","automation@knative.team,noreply@github.com",1
+Kuadrant,Kuadrant/architecture,2,2,0,0,0,0,,,0
+zephyrproject-rtos,zephyrproject-rtos/hal_stm32,2,2,0,0,0,0,,,0
+goharbor,goharbor/terraform-provider-harbor,2,1,0,0,0,0,,,1
+dapr,dapr/dotnet-sdk,2,1,0,0,0,0,,,1
+konveyor,konveyor/operator,2,1,0,0,0,0,,,1
+cdk8s-team,cdk8s-team/cdk8s-cdktf-resolver,2,0,0,2,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",2
+openfga,openfga/openfga.dev,2,0,0,0,0,0,,,2
+open-feature,open-feature/java-sdk,2,1,0,2,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+cert-manager,cert-manager/website,2,0,0,0,0,0,,,2
+dragonflyoss,dragonflyoss/vortex-protocol,2,0,0,0,0,0,,,2
+Kuadrant,Kuadrant/testsuite,2,1,1,1,0,2,"GitHub,Tomas Repel","noreply@github.com,trepel@redhat.com",0
+project-copacetic,project-copacetic/copacetic,2,1,0,3,0,6,"Copilot,GitHub,Robbie Cronin,copilot-swe-agent[bot,dependabot[bot,dependabot[bot],sozercan","198982749+copilot@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,852750+sozercan@users.noreply.github.com,noreply@github.com,robert.owen.cronin@gmail.com,support@github.com",1
+jenkinsci,jenkinsci/teamconcert-plugin,2,0,0,2,0,1,Sunita Hansdah,sunita.hansdah@ibm.com,2
+cloudfoundry,cloudfoundry/loggregator-tools,2,0,0,9,0,4,"GitHub,dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+kubernetes-sigs,kubernetes-sigs/controller-runtime,2,1,0,2,0,4,"GitHub,Stefan Büringer,jose.vazquez,josvaz,k8s-infra-cherrypick-robot","4662360+sbueringer@users.noreply.github.com,90416843+k8s-infra-cherrypick-robot@users.noreply.github.com,jose.vazquez@mongodb.com,noreply@github.com",1
+Project-HAMi,Project-HAMi/community,2,1,0,0,1,0,,,0
+podman-desktop,podman-desktop/extension-bootc,2,1,0,3,0,3,"Florent BENOIT,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,fbenoit@redhat.com,support@github.com",1
+kanisterio,kanisterio/kanister,2,1,1,2,0,4,"GitHub,Prasad Ghangal,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,prasad.ghangal@gmail.com,support@github.com",0
+jenkinsci,jenkinsci/jobcacher-oras-storage-plugin,2,1,0,0,0,0,,,1
+cilium,cilium/little-vm-helper,2,1,0,1,0,2,"Kornilios Kourtis,Maciej Kwiek","kkourt@users.noreply.github.com,mkwiek@cisco.com",1
+fluxcd,fluxcd/stats,2,0,0,7,0,1,GitHub Action,action@github.com,2
+thanos-io,thanos-io/thanos,2,1,0,1,0,2,"Adam Jasinski,Michael Hoffmann","adam.jasinski@vinted.com,mhoffmann@cloudflare.com",1
+kubernetes-sigs,kubernetes-sigs/alibaba-cloud-csi-driver,2,1,0,0,0,0,,,1
+metal3-io,metal3-io/cluster-api-provider-metal3,2,2,0,2,0,3,"GitHub,metal3-io-bot,smoshiur1237","55852648+metal3-io-bot@users.noreply.github.com,moshiur.rahman@est.tech,noreply@github.com",0
+metallb,metallb/frr-k8s,2,1,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+sigstore,sigstore/helm-charts,2,1,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+screwdriver-cd,screwdriver-cd/ui,2,1,1,0,0,0,,,0
+finos,finos/waltz,2,0,1,2,0,3,"GitHub,Shreyans Jain,jainkhu","khushi-d.jain@db.com,noreply@github.com,shreyans.jain@db.com",1
+falcosecurity,falcosecurity/plugins,2,2,0,0,0,0,,,0
+kubernetes,kubernetes/kubectl,2,2,0,0,0,0,,,0
+onnx,onnx/onnx-mlir,2,2,0,0,0,0,,,0
+jenkinsci,jenkinsci/bitbucket-plugin,2,0,0,0,0,0,,,2
+jenkinsci,jenkinsci/prometheus-plugin,2,0,0,0,1,0,,,1
+openmainframeproject,openmainframeproject/tac,2,0,1,0,0,0,,,1
+rook,rook/rook.github.io,2,0,0,0,0,0,,,2
+argoproj-labs,argoproj-labs/terraform-provider-argocd,2,0,0,0,0,0,,,2
+crossplane-contrib,crossplane-contrib/provider-upjet-azure,2,0,0,0,0,0,,,2
+odpi,odpi/egeria,2,0,0,0,0,0,,,2
+operator-framework,operator-framework/olm-docs,2,2,0,0,0,0,,,0
+tikv,tikv/jemallocator,2,1,0,0,1,0,,,0
+WasmEdge,WasmEdge/docs,2,0,1,0,1,0,,,0
+connectrpc,connectrpc/connect-python,2,1,1,2,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",0
+ovn-org,ovn-org/ovn-website,2,0,0,4,0,1,github-actions,github-actions@github.com,2
+tikv,tikv/client-go,2,2,0,1,0,2,"Chao Wang,GitHub","cclcwangchao@hotmail.com,noreply@github.com",0
+goharbor,goharbor/harbor-cli,2,2,0,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/cloud-provider-kind,2,0,0,1,0,2,"GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com",2
+lf-edge,lf-edge/eve-libs,2,1,1,0,0,0,,,0
+werf,werf/website,2,0,1,0,0,0,,,1
+opencost,opencost/opencost-ui,2,2,0,3,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+kubevirt,kubevirt/sig-release,2,0,0,1,0,1,kubevirt-bot,kubevirtbot@redhat.com,2
+submariner-io,submariner-io/submariner-bot,2,1,0,1,0,3,"Thomas Pantelis,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,support@github.com,tompantelis@gmail.com",1
+tinkerbell,tinkerbell/hook,2,2,0,0,0,0,,,0
+jenkinsci,jenkinsci/central-repository-pom,2,0,0,0,0,0,,,2
+jenkinsci,jenkinsci/ionicons-api-plugin,2,0,0,0,0,0,,,2
+cloudfoundry,cloudfoundry/app-runtime-interfaces-infrastructure,2,0,0,0,0,0,,,2
+pytorch,pytorch/docs,2,0,0,1,0,1,pytorchbot,soumith+bot@pytorch.org,2
+radius-project,radius-project/.github,2,0,1,0,0,0,,,1
+cloudfoundry,cloudfoundry/bosh-agent,2,0,2,1,0,1,Ned Petrov,nedd.petrov@gmail.com,0
+nats-io,nats-io/k8s,2,1,0,0,0,0,,,1
+open-telemetry,open-telemetry/opentelemetry-network,2,0,0,0,0,0,,,2
+crossplane-contrib,crossplane-contrib/function-dummy,2,0,0,0,0,0,,,2
+crossplane-contrib,crossplane-contrib/provider-upjet-aws,2,0,0,0,0,0,,,2
+open-telemetry,open-telemetry/opamp-spec,2,0,0,0,0,0,,,2
+kairos-io,kairos-io/provider-kairos,2,0,0,0,0,0,,,2
+open-telemetry,open-telemetry/opentelemetry-helm-charts,2,2,0,0,0,0,,,0
+jenkinsci,jenkinsci/console-column-plugin,2,0,0,2,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",2
+cloudevents,cloudevents/sdk-javascript,2,0,1,1,0,1,snyk-bot,snyk-bot@snyk.io,1
+nats-io,nats-io/nats.py,2,1,1,0,0,0,,,0
+prometheus-community,prometheus-community/pro-bing,2,1,0,0,0,0,,,1
+tikv,tikv/client-c,2,1,0,1,0,2,"GitHub,Liqi Geng,gengliqi","gengliqiii@gmail.com,noreply@github.com",1
+openembedded,openembedded/openembedded-core,2,0,0,0,0,0,,,2
+cloudfoundry,cloudfoundry/nats-release,2,0,0,0,0,0,,,2
+nodejs,nodejs/node-addon-api,2,1,0,0,0,0,,,1
+wasmCloud,wasmCloud/wash,2,0,0,0,0,0,,,2
+keycloak,keycloak/keycloak-js,2,1,0,0,0,0,,,1
+kubernetes-sigs,kubernetes-sigs/wg-ai-gateway,2,2,0,0,0,0,,,0
+inspektor-gadget,inspektor-gadget/ig-test-reports,2,0,0,4,0,1,github-actions[bot],github-actions[bot]@users.noreply.github.com,2
+spinframework,spinframework/spinkube-docs,2,1,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/stemcells-alicloud-index,2,0,0,2,0,1,CI Bot,ci@localhost,2
+riscv,riscv/sig-functional-safety-whitepaper,2,1,1,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+PX4,PX4/PX4-Metadata-Translations,2,0,0,1,0,2,"PX4BuildBot,bkueng","bkueng@users.noreply.github.com,bot@px4.io",2
+kubevirt,kubevirt/cluster-network-addons-operator,2,2,0,0,0,0,,,0
+argoproj-labs,argoproj-labs/gitops-promoter-helm,2,1,1,0,0,0,,,0
+cdk8s-team,cdk8s-team/cdk8s-core,2,0,0,2,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",2
+jenkinsci,jenkinsci/elastic-axis-plugin,2,0,0,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",2
+jenkinsci,jenkinsci/timestamper-plugin,2,1,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+kubernetes-sigs,kubernetes-sigs/dranet,2,1,0,2,1,1,Masaharu Kanda,kanlkan.naklnak@gmail.com,0
+prometheus-community,prometheus-community/elasticsearch_exporter,2,1,1,6,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+kubernetes-sigs,kubernetes-sigs/ingress2gateway,2,2,0,0,0,0,,,0
+jenkinsci,jenkinsci/license-maven-plugin,2,1,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/silk-release,2,0,0,0,0,0,,,2
+kairos-io,kairos-io/packages.kairos.io,2,0,0,0,0,0,,,2
+finos,finos/legend-studio,2,2,0,2,0,4,"GitHub,dependabot[bot,dependabot[bot],github-actions[bot,github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+artifacthub,artifacthub/hub,2,0,0,0,1,0,,,1
+kubernetes,kubernetes/kube-state-metrics,2,0,1,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+prometheus-community,prometheus-community/smartctl_exporter,2,1,1,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+kubernetes-sigs,kubernetes-sigs/gcp-compute-persistent-disk-csi-driver,2,1,0,0,0,0,,,1
+open-feature,open-feature/python-sdk-contrib,2,1,1,0,0,0,,,0
+jenkinsci,jenkinsci/conditional-buildstep-plugin,2,1,0,1,0,2,"Bruno Verachten,GitHub","gounthar@gmail.com,noreply@github.com",1
+kubearmor,kubearmor/KubeArmor,2,1,1,0,0,0,,,0
+p4lang,p4lang/p4mlir-incubator,2,2,0,0,0,0,,,0
+open-telemetry,open-telemetry/build-tools,2,2,0,0,0,0,,,0
+open-telemetry,open-telemetry/govanityurls,2,0,0,0,0,0,,,2
+parallaxsecond,parallaxsecond/rust-cryptoki,2,2,0,0,0,0,,,0
+cadence-workflow,cadence-workflow/starlark-worker,2,1,1,0,0,0,,,0
+jenkinsci,jenkinsci/additional-metrics-plugin,2,0,0,0,0,0,,,2
+open-feature,open-feature/cli,2,2,0,0,0,0,,,0
+armadaproject,armadaproject/armada-spark,2,1,0,0,0,0,,,1
+finos,finos/legend-engine,2,0,1,0,0,0,,,1
+finos,finos/morphir-scala,2,0,0,0,0,0,,,2
+hyperledger,hyperledger/governance,2,0,1,0,0,0,,,1
+jenkinsci,jenkinsci/azure-vm-agents-plugin,2,0,0,1,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",2
+tektoncd,tektoncd/community,2,1,0,0,0,0,,,1
+finos,finos/open-source-readiness,2,1,0,0,1,0,,,0
+finos,finos/opengris-scaler,2,2,0,0,0,0,,,0
+knative-extensions,knative-extensions/eventing-kafka-broker,2,1,0,1,0,2,"GitHub,Matthias Wessendorf","mwessend@redhat.com,noreply@github.com",1
+bank-vaults,bank-vaults/vault-sdk,2,1,0,2,0,2,"GitHub,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com",1
+cilium,cilium/image-tools,2,1,1,0,0,0,,,0
+kube-logging,kube-logging/log-generator,2,0,1,1,0,2,"Bence Csati,GitHub","113284287+csatib02@users.noreply.github.com,noreply@github.com",1
+falcosecurity,falcosecurity/dbg-go,2,1,0,1,0,3,"dependabot[bot,dependabot[bot],poiana","49699333+dependabot[bot]@users.noreply.github.com,51138685+poiana@users.noreply.github.com,support@github.com",1
+getsops,getsops/sops,2,0,0,3,0,4,"Felix Fontein,GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,felix@fontein.de,noreply@github.com,support@github.com",2
+tektoncd,tektoncd/hub,2,1,0,0,0,0,,,1
+openebs,openebs/openebs-e2e,2,2,0,0,0,0,,,0
+kubernetes,kubernetes/contributor-site,2,2,0,0,0,0,,,0
+RConsortium,RConsortium/rconsortium_website,2,1,0,4,0,1,Ben Straub,ben.x.straub@gsk.com,1
+jenkinsci,jenkinsci/gradle-plugin,2,0,0,2,0,3,"GitHub,Guy Brand,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,guy@gradle.com,noreply@github.com",2
+AcademySoftwareFoundation,AcademySoftwareFoundation/xstudio,2,0,1,0,1,0,,,0
+operator-framework,operator-framework/operator-marketplace,2,2,0,0,0,0,,,0
+crossplane-contrib,crossplane-contrib/function-status-transformer,2,0,0,0,0,0,,,2
+sigstore,sigstore/rekor,2,0,0,0,0,0,,,2
+open-cluster-management-io,open-cluster-management-io/ocm,2,1,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+openvswitch,openvswitch/ovs,2,0,0,2,0,2,"Eelco Chaudron,Ilya Maximets","echaudro@redhat.com,i.maximets@ovn.org",2
+openebs,openebs/openebs,2,0,0,2,0,1,openebs-ci,openebs-ci@users.noreply.github.com,2
+crossplane-contrib,crossplane-contrib/provider-pagerduty,2,0,0,0,0,0,,,2
+open-telemetry,open-telemetry/opentelemetry-lambda,2,0,0,0,0,0,,,2
+kubescape,kubescape/workflows,2,0,0,6,0,3,"BorisV,GitHub,bvolovat","114912597+bvolovat@users.noreply.github.com,borisv@armosec.io,noreply@github.com",2
+cloudfoundry,cloudfoundry/blackbox,2,0,0,0,0,0,,,2
+crossplane-contrib,crossplane-contrib/provider-helm,2,2,0,0,0,0,,,0
+podman-desktop,podman-desktop/e2e,2,0,1,1,0,2,"Daniel Villanueva,GitHub","davillan@redhat.com,noreply@github.com",1
+kubevirt,kubevirt/virt-template,2,0,0,0,0,0,,,2
+jenkinsci,jenkinsci/bmc-change-manager-imstm-plugin,1,0,0,1,0,2,"GitHub,Marit Cohen","93242861+mcohen11@users.noreply.github.com,noreply@github.com",1
+kubeovn,kubeovn/docs,1,0,0,2,0,2,"Mengxin Liu,ci-bot","ci-bot@example.com,liumengxinfly@gmail.com",1
+jenkinsci,jenkinsci/flyway-api-plugin,1,0,0,0,0,0,,,1
+tikv,tikv/client-rust,1,1,0,0,0,0,,,0
+theupdateframework,theupdateframework/tuf-conformance,1,0,0,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+cilium,cilium/scaffolding,1,0,0,2,0,3,"Marco Iorio,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,bot@renovateapp.com,giorio94@gmail.com",1
+kubeedge,kubeedge/community,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/script-security-plugin,1,1,0,0,0,0,,,0
+ceph,ceph/go-ceph,1,1,0,0,0,0,,,0
+kube-logging,kube-logging/logging-operator,1,0,0,0,0,0,,,1
+kubernetes-sigs,kubernetes-sigs/kube-api-linter,1,1,0,0,0,0,,,0
+kubeedge,kubeedge/kubeedge,1,1,0,0,0,0,,,0
+kubeedge,kubeedge/website,1,0,0,0,1,0,,,0
+Project-HAMi,Project-HAMi/volcano-vgpu-device-plugin,1,0,0,0,1,0,,,0
+pipe-cd,pipe-cd/piped-plugin-sdk-go,1,0,0,2,0,1,pipecd-bot,62555040+pipecd-bot@users.noreply.github.com,1
+radius-project,radius-project/docs,1,0,0,0,0,0,,,1
+nodejs,nodejs/node-v8,1,0,0,9,0,26,"Aditi Singh,Amol Yadav,Anna Henningsen,Antoine du Hamel,Beth Griggs,Chengzhong Wu,Colin Ihrig,GitHub,Gürgün Dayıoğlu,Jordan Harband,Joyee Cheung,Luigi Pinca,Marco Ippolito,Matteo Collina,Mattias Buelens,Michaël Zasso,Nikita Skovoroda,Node.js GitHub Bot,Pietro Marchini,Rafael Gonzaga,Richard Lau,Robert Nagy,Stewart X Addison,Ulises Gascón,Yagiz Nizipli,Сковорода Никита Андреевич","aditisingh1400@gmail.com,amyssnipet@yahoo.com,anna@addaleax.net,bethanyngriggs@gmail.com,bgriggs@redhat.com,chalkerx@gmail.com,cjihrig@gmail.com,duhamelantoine1995@gmail.com,github-bot@iojs.org,hey@gurgun.day,joyeec9h3@gmail.com,legendecas@gmail.com,ljharb@gmail.com,luigipinca@gmail.com,marcoippolito54@gmail.com,matteo.collina@gmail.com,mattias@buelens.com,noreply@github.com,pietro.marchini94@gmail.com,rafael.nunu@hotmail.com,richard.lau@ibm.com,ronagy@icloud.com,sxa@redhat.com,targos@protonmail.com,ulisesgascongonzalez@gmail.com,yagiz@nizipli.com",1
+kubernetes-sigs,kubernetes-sigs/dra-driver-cpu,1,1,0,1,0,2,"GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com",0
+cloudfoundry,cloudfoundry/stack-auditor,1,0,0,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+sigstore,sigstore/rekor-tiles,1,0,1,0,0,0,,,0
+kairos-io,kairos-io/kairos-agent,1,0,0,0,0,0,,,1
+koordinator-sh,koordinator-sh/community,1,0,0,0,1,0,,,0
+jenkinsci,jenkinsci/appknox-scanner-plugin,1,0,0,2,0,2,"GitHub,ginilpg","ginil.pg@gmail.com,noreply@github.com",1
+bfenetworks,bfenetworks/service-controller,1,0,0,1,0,2,"GitHub,yunxiye","noreply@github.com,yunxiye@gmail.com",1
+cdk8s-team,cdk8s-team/cdk8s-awscdk-resolver,1,0,0,2,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",1
+prometheus,prometheus/proposals,1,1,0,0,0,0,,,0
+microcks,microcks/microcks-aspire,1,1,0,1,0,3,"Sebastien DEGODEZ,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,sebastien.degodez@gmail.com,support@github.com",0
+AthenZ,AthenZ/k8s-athenz-sia,1,0,1,0,0,0,,,0
+tektoncd,tektoncd/triggers,1,1,0,0,0,0,,,0
+in-toto,in-toto/friends,1,0,0,0,0,0,,,1
+istio,istio/istio.io,1,1,0,0,0,0,,,0
+zowe,zowe/zowe-install-packaging,1,0,0,1,0,2,"GitHub,RamkrishnaRocket1","noreply@github.com,rdakwa@rocketsoftware.com",1
+devfile,devfile/cloud-dev-images,1,0,0,0,0,0,,,1
+Kuadrant,Kuadrant/mcp-gateway,1,1,0,0,0,0,,,0
+cloudevents,cloudevents/sdk-go,1,0,1,1,0,2,"Doug Davis,GitHub","duglin@users.noreply.github.com,noreply@github.com",0
+mavlink,mavlink/mavlink,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/csp-plugin,1,0,1,0,0,0,,,0
+cloudfoundry,cloudfoundry/nodejs-buildpack,1,1,0,0,0,0,,,0
+RConsortium,RConsortium/RMedicine_website,1,0,1,1,0,1,Francisco Cardozo,foc9@miami.edu,0
+krkn-chaos,krkn-chaos/website,1,0,1,1,0,2,"Aryan Patel,GitHub","aryan.patel7291@gmail.com,noreply@github.com",0
+knative-extensions,knative-extensions/backstage-plugins,1,0,0,1,0,2,"GitHub,Knative Automation","automation@knative.team,noreply@github.com",1
+modelpack,modelpack/modctl,1,1,0,0,0,0,,,0
+coredns,coredns/coredns,1,0,0,0,0,0,,,1
+cloudnative-pg,cloudnative-pg/community-operators,1,0,0,1,0,1,sxd,sxd@users.noreply.github.com,1
+open-cluster-management-io,open-cluster-management-io/addon-contrib,1,0,0,1,0,3,"Claude Opus 4.5,GitHub,Meng Yan","myan@redhat.com,noreply@anthropic.com,noreply@github.com",1
+wasmCloud,wasmCloud/wasmCloud,1,0,0,3,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+finos,finos/rune-python-generator,1,0,0,0,0,0,,,1
+PX4,PX4/NuttX-apps,1,0,0,6,0,6,"Donny(董九柱),Xiang Xiao,anjiahao,hujun5,wangxingxing,zhaoxingyu1","70748590+donny9@users.noreply.github.com,anjiahao@xiaomi.com,hujun5@xiaomi.com,wangxingxing@xiaomi.com,xiaoxiang781216@gmail.com,zhaoxingyu1@xiaomi.com",1
+chaos-mesh,chaos-mesh/chaos-mesh,1,1,0,1,0,2,"GitHub,Zhiqiang ZHOU","im@strrl.dev,noreply@github.com",0
+distribution,distribution/distribution,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/core-changelog-generator,1,0,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+kubernetes-sigs,kubernetes-sigs/bom,1,0,0,0,0,0,,,1
+werf,werf/3p-helm,1,0,1,0,0,0,,,0
+k0sproject,k0sproject/image-builder,1,0,1,0,0,0,,,0
+cncf,cncf/clomonitor,1,0,0,11,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+unikraft,unikraft/loupe,1,0,0,3,0,1,GitHub Action,action@github.com,1
+jenkinsci,jenkinsci/sonar-gerrit-plugin,1,0,0,3,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+finos,finos/fluxnova-release-parent,1,0,0,0,0,0,,,1
+fluxcd,fluxcd/image-reflector-controller,1,0,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+open-telemetry,open-telemetry/opentelemetry-python,1,0,1,0,0,0,,,0
+k0sproject,k0sproject/k0sctl,1,0,0,1,1,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+jenkinsci,jenkinsci/dashboard-view-plugin,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/dontpanic,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/garden-integration-tests,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/garden-runc-release,1,0,0,0,0,0,,,1
+solo-io,solo-io/gloo,1,0,1,0,0,0,,,0
+unikraft,unikraft/gsoc,1,0,0,0,0,0,,,1
+oauth2-proxy,oauth2-proxy/oauth2-proxy,1,1,0,0,0,0,,,0
+radius-project,radius-project/resource-types-contrib,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/schedule-build-plugin,1,0,0,0,0,0,,,1
+chaoss,chaoss/unsdg-formsite,1,0,1,0,0,0,,,0
+containerd,containerd/go-dmverity,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/azure-keyvault-plugin,1,0,0,1,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+jenkinsci,jenkinsci/archetypes,1,0,0,2,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+kubernetes-sigs,kubernetes-sigs/e2e-framework,1,0,1,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/kubetest2,1,0,1,0,0,0,,,0
+spinframework,spinframework/spin-rust-sdk,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/catppuccin-theme-plugin,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/extra-tool-installers-plugin,1,0,0,0,0,0,,,1
+envoyproxy,envoyproxy/ratelimit,1,0,1,4,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+ortelius,ortelius/.github,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/routing-release,1,0,0,0,0,0,,,1
+kubernetes-csi,kubernetes-csi/external-provisioner,1,0,0,0,0,0,,,1
+podman-desktop,podman-desktop/extension-kreate,1,0,0,1,0,3,"Florent BENOIT,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,fbenoit@redhat.com,support@github.com",1
+jenkinsci,jenkinsci/hello-world-maven-builder,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/custom-folder-icon-plugin,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/build-history-metrics-plugin,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/joda-time-api-plugin,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/existingvolumebroker,1,0,0,0,0,0,,,1
+megaease,megaease/.github,1,0,0,0,0,0,,,1
+crossplane-contrib,crossplane-contrib/function-sequencer,1,0,0,0,0,0,,,1
+sustainable-computing-io,sustainable-computing-io/community-operators-prod,1,0,0,1,0,1,husky-parul,husky-parul@users.noreply.github.com,1
+k8sgpt-ai,k8sgpt-ai/k8sgpt,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/design-library-plugin,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/s3-jobcacher-storage-plugin,1,0,0,0,0,0,,,1
+shipwright-io,shipwright-io/build,1,1,0,0,0,0,,,0
+keycloak,keycloak/keycloak.github.io,1,0,0,0,0,0,,,1
+keycloak,keycloak/dashboard,1,0,0,1,0,1,github-actions[bot],41898282+github-actions[bot]@users.noreply.github.com,1
+cloudfoundry,cloudfoundry/community,1,1,0,0,0,0,,,0
+todogroup,todogroup/ospology,1,1,0,0,0,0,,,0
+cilium,cilium/linux,1,0,0,0,0,0,,,1
+argoproj-labs,argoproj-labs/argocd-operator,1,0,1,0,0,0,,,0
+jenkinsci,jenkinsci/github-checks-plugin,1,0,0,1,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+cloudfoundry,cloudfoundry/wg-app-platform-runtime-ci,1,0,0,0,0,0,,,1
+microcks,microcks/microcks-testcontainers-java,1,1,0,0,0,0,,,0
+crossplane,crossplane/crossplane-tools,1,0,0,0,0,0,,,1
+open-telemetry,open-telemetry/sig-contributor-experience,1,0,0,0,0,0,,,1
+nodejs,nodejs/snap,1,0,0,1,0,1,GitHub Actions,noreply@github.com,1
+strimzi,strimzi/strimzi.github.io,1,0,0,2,0,1,Strimzi CI,ci@strimzi.io,1
+connectrpc,connectrpc/connectrpc.com,1,0,0,0,0,0,,,1
+connectrpc,connectrpc/connect-es,1,0,0,0,0,0,,,1
+cadence-workflow,cadence-workflow/cadence-go-client,1,0,0,0,1,0,,,0
+chaoss,chaoss/wg-un-sdg,1,0,0,0,1,0,,,0
+cloudfoundry,cloudfoundry/smb-volume-release,1,0,0,3,0,1,App Platform Runtime Working Group CI Bot,tas-runtime.pdl+tas-runtime-bot@broadcom.com,1
+flatcar,flatcar/scripts,1,0,0,448,0,1,Flatcar Buildbot,buildbot@flatcar-linux.org,1
+ortelius,ortelius/ortelius,1,0,1,0,0,0,,,0
+spiffe,spiffe/spiffe.io,1,0,1,0,0,0,,,0
+dapr,dapr/components-contrib,1,0,1,0,0,0,,,0
+finos,finos/morphir-go,1,0,0,0,0,0,,,1
+kairos-io,kairos-io/provider-canonical,1,0,0,0,0,0,,,1
+nodejs,nodejs/Release,1,1,0,0,0,0,,,0
+riscv,riscv/riscv-aia,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/.github,1,0,0,0,0,0,,,1
+pytorch,pytorch/cppdocs,1,0,0,1,0,1,pytorchbot,soumith+bot@pytorch.org,1
+cloudfoundry,cloudfoundry/loggregator-agent-release,1,0,0,1,0,1,CF Logging And Metrics CI Bot,cf-logging-metrics@cloudfoundry.org,1
+cloudfoundry,cloudfoundry/statsd-injector-release,1,0,0,1,0,1,CF Logging And Metrics CI Bot,cf-logging-metrics@cloudfoundry.org,1
+kubernetes,kubernetes/org,1,0,1,0,0,0,,,0
+kubevirt,kubevirt/containerdisks,1,1,0,0,0,0,,,0
+sigstore,sigstore/sigstore-a2a,1,0,0,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+jenkinsci,jenkinsci/compact-columns-plugin,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/service-metrics-release,1,0,0,1,0,1,CF Logging And Metrics CI Bot,cf-logging-metrics@cloudfoundry.org,1
+nodejs,nodejs/admin,1,1,0,0,0,0,,,0
+o3de,o3de/o3de-extras,1,0,1,0,0,0,,,0
+cloudfoundry,cloudfoundry/syslog-release,1,0,0,0,0,0,,,1
+finos,finos/FDC3,1,1,0,0,0,0,,,0
+knative,knative/operator,1,0,0,0,0,0,,,1
+etcd-io,etcd-io/auger,1,0,0,0,0,0,,,1
+open-telemetry,open-telemetry/opentelemetry-java-contrib,1,1,0,0,0,0,,,0
+dapr,dapr/go-sdk,1,1,0,0,0,0,,,0
+konveyor,konveyor/kantra,1,1,0,0,0,0,,,0
+backstage,backstage/docs-ui,1,0,0,1,0,1,Github BUI Docs workflow,noreply@backstage.io,1
+cedar-policy,cedar-policy/cedar-examples,1,0,0,0,0,0,,,1
+project-dalec,project-dalec/dalec-vscode-extension,1,1,0,0,0,0,,,0
+kube-logging,kube-logging/custom-runner,1,1,0,1,0,2,"Bence Csati,GitHub","113284287+csatib02@users.noreply.github.com,noreply@github.com",0
+strimzi,strimzi/proposals,1,1,0,0,0,0,,,0
+cdk8s-team,cdk8s-team/cdk8s-core-go,1,0,0,1,0,1,cdk8s-automation,cdk8s-team@amazon.com,1
+cloudfoundry,cloudfoundry/csb-brokerpak-gcp,1,0,0,1,0,2,"GitHub,georgidimdimitrov","georgi-dim.dimitrov@broadcom.com,noreply@github.com",1
+crossplane-contrib,crossplane-contrib/provider-gitlab,1,0,0,0,0,0,,,1
+helm,helm/community,1,1,0,0,0,0,,,0
+kcp-dev,kcp-dev/krew-index,1,0,0,3,0,1,goreleaserbot,bot@goreleaser.com,1
+longhorn,longhorn/charts,1,0,1,0,0,0,,,0
+opentofu,opentofu/terraform-provider-aws,1,0,0,6,0,1,Tarun teja,tarunteja@taruns-macbook-pro.local,1
+jenkinsci,jenkinsci/allure-plugin,1,0,0,0,1,0,,,0
+zephyrproject-rtos,zephyrproject-rtos/hal_nordic,1,0,1,0,0,0,,,0
+kubernetes-client,kubernetes-client/python,1,1,0,0,0,0,,,0
+finos,finos/legend,1,0,0,0,0,0,,,1
+sigstore,sigstore/sigstore-java,1,0,0,0,0,0,,,1
+radius-project,radius-project/design-notes,1,1,0,0,0,0,,,0
+open-feature,open-feature/open-feature-operator,1,0,0,0,0,0,,,1
+kcl-lang,kcl-lang/krm-kcl,1,0,0,0,0,0,,,1
+nodejs,nodejs/import-in-the-middle,1,1,0,1,0,2,"GitHub,Node.js GitHub Bot","github-bot@iojs.org,noreply@github.com",0
+cilium,cilium/design-cfps,1,1,0,0,0,0,,,0
+onap,onap/aai-resources,1,0,0,1,0,2,"Fiete Ostkamp,Gerrit Code Review","fiete.ostkamp@telekom.de,gerrit@onap.org",1
+jenkinsci,jenkinsci/quay-tag-parameter-plugin,1,0,0,2,0,2,"Claude Sonnet 4.5,Mohit","noreply@anthropic.com,salvimohit08@gmail.com",1
+kubernetes-sigs,kubernetes-sigs/kjob,1,1,0,0,0,0,,,0
+riscv,riscv/riscv-worlds,1,1,0,0,0,0,,,0
+onap,onap/aai-babel,1,0,0,0,0,0,,,1
+pipe-cd,pipe-cd/examples,1,0,0,2,0,1,pipecd-bot,62555040+pipecd-bot@users.noreply.github.com,1
+inclavare-containers,inclavare-containers/guest-components,1,0,0,5,0,2,"Jia Zhang,Weidong Sun","sunweidong@linux.alibaba.com,zhang.jia@linux.alibaba.com",1
+openfga,openfga/language,1,1,0,0,0,0,,,0
+kube-logging,kube-logging/telemetry-controller,1,0,0,0,0,0,,,1
+sigstore,sigstore/policy-controller,1,0,0,0,0,0,,,1
+kubernetes-sigs,kubernetes-sigs/zeitgeist,1,0,0,1,0,2,"GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com",1
+opencord,opencord/voltha-openonu-adapter-go,1,0,0,0,0,0,,,1
+paralus,paralus/paralus,1,1,0,0,0,0,,,0
+nodejs,nodejs/node-addon-examples,1,0,0,0,0,0,,,1
+cert-manager,cert-manager/makefile-modules,1,0,0,2,0,4,"GitHub,Renovate Bot,cert-manager-prow[bot],renovate[bot]","167124277+cert-manager-prow[bot]@users.noreply.github.com,29139614+renovate[bot]@users.noreply.github.com,noreply@github.com,renovate-bot@users.noreply.github.com",1
+sustainable-computing-io,sustainable-computing-io/kepler-operator,1,1,0,0,0,0,,,0
+riscv,riscv/riscv-crypto,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/explain-error-plugin,1,0,0,1,0,1,shenxianpeng,xianpeng.shen@gmail.com,1
+ceph,ceph/ceph-devstack,1,1,0,0,0,0,,,0
+cloudfoundry,cloudfoundry/blobstore_url_signer,1,1,0,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+cloudfoundry,cloudfoundry/bbs,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/multiapps,1,1,0,0,0,0,,,0
+graphql,graphql/graphql-wg,1,0,1,0,0,0,,,0
+open-policy-agent,open-policy-agent/gatekeeper-library,1,0,0,0,1,0,,,0
+open-policy-agent,open-policy-agent/gatekeeper,1,0,0,0,1,0,,,0
+kubernetes-sigs,kubernetes-sigs/aws-iam-authenticator,1,1,0,0,0,0,,,0
+crossplane,crossplane/function-template-python,1,0,0,0,0,0,,,1
+ortelius,ortelius/ms-validate-user,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/xshell-plugin,1,0,0,0,0,0,,,1
+kubernetes-csi,kubernetes-csi/csi-driver-smb,1,1,0,2,0,2,"Andy Zhang,GitHub,andyzhangx","noreply@github.com,xiazhang@microsoft.com",0
+layer5io,layer5io/slack,1,0,0,1,0,2,"GitHub,Raunak Madan","143412156+codexraunak@users.noreply.github.com,noreply@github.com",1
+Project-HAMi,Project-HAMi/HAMi-WebUI,1,0,1,0,0,0,,,0
+jenkinsci,jenkinsci/unleash-plugin,1,1,0,1,0,3,"Markus Hoffrogge,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,mhoffrogge@gmail.com,support@github.com",0
+hyperledger-labs,hyperledger-labs/fablo,1,0,0,0,1,0,,,0
+kubevirt,kubevirt/kubevirtci,1,1,0,1,0,2,"GitHub,Orel Misan","noreply@github.com,omisan@redhat.com",0
+AcademySoftwareFoundation,AcademySoftwareFoundation/aswf-landscape,1,0,0,0,0,0,,,1
+xen-project,xen-project/xen,1,0,0,12,0,8,"Andrew Cooper,Daniel P. Smith,Jan Beulich,Jason Andryuk,Jiqian Chen,Oleksii Kurochko,Roger Pau Monne,Roger Pau Monné,Stewart Hildebrand","andrew.cooper3@citrix.com,dpsmith@apertussolutions.com,jason.andryuk@amd.com,jbeulich@suse.com,jiqian.chen@amd.com,oleksii.kurochko@gmail.com,roger.pau@citrix.com,stewart.hildebrand@amd.com",1
+ortelius,ortelius/ms-compitem-crud,1,0,0,0,0,0,,,1
+cubefs,cubefs/cubefs,1,1,0,0,0,0,,,0
+envoyproxy,envoyproxy/go-control-plane,1,0,0,1,0,1,"update-envoy[bot,update-envoy[bot]",135279899+update-envoy[bot]@users.noreply.github.com,1
+lf-energy,lf-energy/artwork,1,0,0,2,0,4,"GitHub,John Mertic,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,jmertic@linuxfoundation.org,noreply@github.com,support@github.com",1
+score-spec,score-spec/score-implementation-sample,1,0,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+fluxcd,fluxcd/source-controller,1,0,0,0,0,0,,,1
+kserve,kserve/website,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/emoji-symbols-api-plugin,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/cctray-xml-plugin,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/file-operations-plugin,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/postgresql-fingerprint-storage-plugin,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/volume-mount-options,1,0,0,0,0,0,,,1
+kubernetes-sigs,kubernetes-sigs/prow,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/bitwarden-credentials-provider-plugin,1,0,0,0,1,0,,,0
+shipwright-io,shipwright-io/cli,1,1,0,0,0,0,,,0
+kubestellar,kubestellar/homebrew-tap,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/peass-ci-plugin,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/windows-tools-release,1,0,0,0,0,0,,,1
+mavlink,mavlink/MAVSDK-Proto,1,0,1,0,0,0,,,0
+riscv,riscv/riscv-debug-spec,1,1,0,0,0,0,,,0
+iovisor,iovisor/ubpf,1,0,0,0,0,0,,,1
+redhat-chaos,redhat-chaos/prow-scripts,1,0,0,0,0,0,,,1
+microcks,microcks/microcks-testcontainers-java-spring-demo,1,0,0,0,0,0,,,1
+cncf,cncf/mentoring,1,1,0,0,0,0,,,0
+finos,finos/fluxnova-website,1,0,0,0,0,0,,,1
+ortelius,ortelius/ortelius-cli,1,0,0,0,0,0,,,1
+ortelius,ortelius/ortelius.io,1,0,0,0,0,0,,,1
+open-telemetry,open-telemetry/sig-project-infra,1,0,0,0,0,0,,,1
+crossplane-contrib,crossplane-contrib/provider-kubernetes,1,1,0,0,0,0,,,0
+vscode-kubernetes-tools,vscode-kubernetes-tools/vscode-kubernetes-tools,1,1,0,0,0,0,,,0
+prometheus,prometheus/node_exporter,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/checks-api-plugin,1,0,0,0,0,0,,,1
+open-cluster-management-io,open-cluster-management-io/clusteradm,1,1,0,0,0,0,,,0
+project-dalec,project-dalec/dalec-docker-desktop-extension,1,1,0,0,0,0,,,0
+score-spec,score-spec/score-compose,1,1,0,0,0,0,,,0
+zephyrproject-rtos,zephyrproject-rtos/hostap,1,1,0,0,0,0,,,0
+kagent-dev,kagent-dev/kmcp,1,1,0,0,0,0,,,0
+kubearmor,kubearmor/kubearmor-client,1,0,0,0,0,0,,,1
+prometheus-community,prometheus-community/windows_exporter,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/docker-plugin,1,1,0,0,0,0,,,0
+kubevirt,kubevirt/application-aware-quota,1,1,0,0,0,0,,,0
+konveyor,konveyor/tackle2-hub,1,1,0,0,0,0,,,0
+cdk8s-team,cdk8s-team/cdk8s-aws-cdk,1,0,0,2,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",1
+cdk8s-team,cdk8s-team/cdk8s-grafana,1,0,0,2,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",1
+flatcar,flatcar/Flatcar,1,1,0,0,0,0,,,0
+kumahq,kumahq/go-control-plane,1,0,0,1,0,1,"update-envoy[bot,update-envoy[bot]",135279899+update-envoy[bot]@users.noreply.github.com,1
+serverlessworkflow,serverlessworkflow/specification,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/hpe-application-automation-tools-plugin,1,1,0,0,0,0,,,0
+operator-framework,operator-framework/josdk-spring-boot-starter,1,0,0,1,0,2,"Chris,GitHub","noreply@github.com,udo2000@freenet.de",1
+jenkinsci,jenkinsci/kubernetes-operator,1,0,0,0,1,0,,,0
+nats-io,nats-io/nats.net,1,1,0,0,0,0,,,0
+kubernetes,kubernetes/klog,1,1,0,0,0,0,,,0
+kubevirt,kubevirt/kubevirt-tekton-tasks,1,0,0,0,0,0,,,1
+sustainable-computing-io,sustainable-computing-io/kepler,1,1,0,0,0,0,,,0
+kubernetes-sigs,kubernetes-sigs/kwok,1,0,0,0,1,0,,,0
+knative-extensions,knative-extensions/knobots,1,0,0,0,0,0,,,1
+cdk8s-team,cdk8s-team/cdk8s-image,1,0,0,2,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",1
+open-feature,open-feature/flagd-testbed,1,1,0,0,0,0,,,0
+open-feature,open-feature/python-sdk,1,1,0,0,0,0,,,0
+cdk8s-team,cdk8s-team/cdk8s-plus-go,1,0,0,3,0,1,cdk8s-automation,cdk8s-team@amazon.com,1
+cdk8s-team,cdk8s-team/cdk8s-redis-go,1,0,0,1,0,1,cdk8s-automation,cdk8s-team@amazon.com,1
+perses,perses/common,1,0,0,2,0,5,"Gabriel Bernal,GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,gabrielbernalp@gmail.com,gbernal@redhat.com,noreply@github.com,support@github.com",1
+todogroup,todogroup/presentations,1,0,1,5,0,3,"Ana Jimenez Santamaria,GitHub","anajsana@users.noreply.github.com,anitajs95@gmail.com,noreply@github.com",0
+cilium,cilium/cilium-cli,1,1,0,0,0,0,,,0
+kubeflow,kubeflow/internal-acls,1,0,1,0,0,0,,,0
+kumahq,kumahq/kuma-website,1,0,0,0,0,0,,,1
+open-feature,open-feature/elixir-sdk-contrib,1,0,0,0,0,0,,,1
+openfga,openfga/community,1,0,1,0,0,0,,,0
+openfga,openfga/rfcs,1,1,0,0,0,0,,,0
+inspektor-gadget,inspektor-gadget/charts,1,1,0,1,0,2,"GitHub,Qasim Sarfraz","noreply@github.com,qasimsarfraz@microsoft.com",0
+openebs,openebs/linux-utils,1,1,0,1,0,1,Niladri Halder,niladri.halder26@gmail.com,0
+jenkinsci,jenkinsci/bitbucket-webhooks-plugin,1,0,0,1,0,2,"Christoph Straßer,GitHub","christoph.strasser78@gmail.com,noreply@github.com",1
+cilium,cilium/certgen,1,1,0,2,0,2,"Marco Iorio,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,giorio94@gmail.com",0
+cri-o,cri-o/ocicni,1,1,0,2,0,4,"GitHub,dependabot[bot,dependabot[bot],openshift-merge-bot[bot]","148852131+openshift-merge-bot[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+jenkinsci,jenkinsci/agent-maintenance-plugin,1,1,0,0,0,0,,,0
+cncf,cncf/automation,1,0,0,0,1,0,,,0
+inspektor-gadget,inspektor-gadget/website,1,0,0,0,0,0,,,1
+podman-desktop,podman-desktop/extension-kubernetes-contexts,1,1,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+containerd,containerd/overlaybd,1,0,0,0,0,0,,,1
+nodejs,nodejs/TSC,1,1,0,0,0,0,,,0
+kubeflow,kubeflow/testing,1,0,1,0,0,0,,,0
+volcano-sh,volcano-sh/website,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/platformlabeler-plugin,1,1,0,0,0,0,,,0
+fluxcd,fluxcd/source-watcher,1,0,0,0,0,0,,,1
+OAI,OAI/tools.openapis.org,1,1,0,1,0,1,Tooling Builder,tooling@openapis.org,0
+fluxcd,fluxcd/image-automation-controller,1,0,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+microcks,microcks/community-operators-1,1,0,0,1,0,1,lbroudoux,lbroudoux@users.noreply.github.com,1
+knative-extensions,knative-extensions/eventing-istio,1,0,0,2,0,2,"GitHub,Knative Automation","automation@knative.team,noreply@github.com",1
+screwdriver-cd,screwdriver-cd/screwdriver,1,0,0,0,1,0,,,0
+istio,istio/ztunnel,1,0,0,0,1,0,,,0
+kmesh-net,kmesh-net/orion,1,0,0,0,0,0,,,1
+open-feature,open-feature/spec,1,0,0,3,0,1,GitHub Action,action@github.com,1
+pytorch,pytorch/audio,1,0,0,1,0,1,pytorchbot,pytorchbot@pytorch.com,1
+cloudfoundry,cloudfoundry/brokerapi,1,0,0,2,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+jenkinsci,jenkinsci/dark-theme-plugin,1,0,0,2,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+jenkinsci,jenkinsci/plugin-pom,1,0,0,2,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+openkruise,openkruise/rollouts,1,1,0,0,0,0,,,0
+prometheus,prometheus/jmx_exporter,1,0,0,1,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+jenkinsci,jenkinsci/jcaptcha-plugin,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/cf-volume-services-acceptance-tests,1,0,0,0,0,0,,,1
+argoproj,argoproj/argo-schema-generator,1,0,0,0,0,0,,,1
+finos,finos/pylegend,1,0,0,0,0,0,,,1
+kubernetes-sigs,kubernetes-sigs/metrics-server,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/log-parser-plugin,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/pipeline-lib-oras-plugin,1,0,0,0,0,0,,,1
+open-telemetry,open-telemetry/.github,1,0,0,0,0,0,,,1
+OAI,OAI/conference,1,0,0,0,0,0,,,1
+kube-logging,kube-logging/fluentd-images,1,0,0,0,0,0,,,1
+crossplane,crossplane/function-sdk-go,1,0,0,0,0,0,,,1
+falcosecurity,falcosecurity/falco-actions,1,1,0,0,0,0,,,0
+kairos-io,kairos-io/go-nodepair,1,0,0,0,0,0,,,1
+open-telemetry,open-telemetry/opentelemetry-ruby,1,1,0,0,0,0,,,0
+cloudfoundry,cloudfoundry/bosh-backup-and-restore,1,0,0,1,0,1,CI Bot,bots@cloudfoundry.org,1
+cloudfoundry,cloudfoundry/public-buildpacks-ci-robots,1,0,0,2,0,2,"CF Buildpacks Team CI Server,git","cf-buildpacks-eng@pivotal.io,git@localhost",1
+backstage,backstage/charts,1,1,0,0,0,0,,,0
+nodejs,nodejs/build,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/report-diff-plugin,1,0,0,0,0,0,,,1
+wasmCloud,wasmCloud/typescript,1,0,0,0,0,0,,,1
+cdk8s-team,cdk8s-team/cdk8s-awscdk-resolver-go,1,0,0,1,0,1,cdk8s-automation,cdk8s-team@amazon.com,1
+fossology,fossology/Nirjas,1,0,0,0,1,0,,,0
+kubevela,kubevela/kubevela.github.io,1,0,1,0,0,0,,,0
+opentofu,opentofu/terraform-provider-corner,1,0,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+jenkinsci,jenkinsci/webhook-secret-credentials-provider-plugin,1,0,0,0,0,0,,,1
+nats-io,nats-io/prometheus-nats-exporter,1,1,0,0,0,0,,,0
+cert-manager,cert-manager/example-approver-policy-plugin,1,0,0,0,0,0,,,1
+open-telemetry,open-telemetry/opentelemetry-java-examples,1,0,0,0,0,0,,,1
+kubernetes-sigs,kubernetes-sigs/controller-tools,1,0,0,1,0,2,"GitHub,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,noreply@github.com",1
+prometheus-community,prometheus-community/fortigate_exporter,1,0,0,0,1,0,,,0
+cdk8s-team,cdk8s-team/cdk8s-redis,1,0,0,2,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",1
+unikraft,unikraft/kraftkit,1,1,0,1,0,2,"Cezar Craciunoiu,GitHub","cezar.craciunoiu@unikraft.io,noreply@github.com",0
+open-feature,open-feature/openfeature.dev,1,0,0,0,0,0,,,1
+microcks,microcks/.github,1,1,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+cilium,cilium/json-mock,1,0,0,2,0,3,"Julian Wiedmann,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,julianwiedmann@users.noreply.github.com,support@github.com",1
+kaito-project,kaito-project/aikit,1,0,0,2,1,4,"GitHub,dependabot[bot,dependabot[bot],github-actions[bot]","41898282+github-actions[bot]@users.noreply.github.com,49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+meshery,meshery/slack,1,0,1,1,0,2,"GitHub,Lee Calcote","leecalcote@gmail.com,noreply@github.com",0
+keycloak,keycloak/keycloak-nodejs-connect,1,1,0,0,0,0,,,0
+finos,finos/finos-parent-pom,1,0,0,1,0,2,"GitHub,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+projectcontour,projectcontour/contour,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/plugin-installation-manager-tool,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/goshims,1,0,0,0,0,0,,,1
+cloudfoundry,cloudfoundry/cf-networking-helpers,1,0,0,0,0,0,,,1
+AthenZ,AthenZ/athenz,1,0,0,0,0,0,,,1
+ortelius,ortelius/ms-textfile-crud,1,0,0,0,0,0,,,1
+project-zot,project-zot/zui,1,0,1,0,0,0,,,0
+finos,finos/software-project-blueprint,1,0,0,0,0,0,,,1
+ortelius,ortelius/ms-dep-pkg-cud,1,0,0,0,0,0,,,1
+argoproj-labs,argoproj-labs/argocd-image-updater,1,1,0,0,0,0,,,0
+cloudfoundry,cloudfoundry/dockerdriver,1,1,0,0,0,0,,,0
+graphql,graphql/gaps,1,1,0,0,0,0,,,0
+pytorch,pytorch/pytorch-integration-testing,1,0,1,0,0,0,,,0
+linkerd,linkerd/linkerd2,1,1,0,0,0,0,,,0
+cdk8s-team,cdk8s-team/cdk8s-validation-plugin-example,1,0,0,1,0,3,"GitHub,cdk8s-automation,github-actions[bot","41898282+github-actions[bot]@users.noreply.github.com,81352262+cdk8s-automation@users.noreply.github.com,noreply@github.com",1
+jenkinsci,jenkinsci/beer-plugin,1,0,0,0,0,0,,,1
+etcd-io,etcd-io/gofail,1,0,0,1,0,2,"Benjamin Wang,GitHub","benjamin.ahrtr@gmail.com,noreply@github.com",1
+kubernetes-sigs,kubernetes-sigs/azuredisk-csi-driver,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/acceptance-test-harness,1,0,0,0,0,0,,,1
+open-telemetry,open-telemetry/opentelemetry-proto-java,1,0,0,0,0,0,,,1
+open-telemetry,open-telemetry/sig-developer-experience,1,1,0,0,0,0,,,0
+argoproj-labs,argoproj-labs/rollout-extension,1,1,0,0,0,0,,,0
+nats-io,nats-io/natscli,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/azure-storage-plugin,1,0,0,0,0,0,,,1
+dapr,dapr/test-infra,1,0,1,0,0,0,,,0
+modelpack,modelpack/model-spec,1,0,0,0,1,0,,,0
+karmada-io,karmada-io/community,1,1,0,0,0,0,,,0
+falcosecurity,falcosecurity/falcosidekick,1,0,0,0,0,0,,,1
+SlimPlanet,SlimPlanet/SlimFaas,1,0,0,1,0,1,Guillaume Chervet,guillaume.chervet@gmail.com,1
+PX4,PX4/PX4-GPSDrivers,1,1,0,0,0,0,,,0
+cncf,cncf/k8s-conformance,1,0,1,0,0,0,,,0
+kube-burner,kube-burner/kube-burner-ocp,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/git-client-plugin,1,1,0,0,0,0,,,0
+jenkinsci,jenkinsci/azure-sdk-plugin,1,0,0,1,0,2,"GitHub,renovate[bot,renovate[bot]","29139614+renovate[bot]@users.noreply.github.com,noreply@github.com",1
+kubernetes-sigs,kubernetes-sigs/descheduler,1,1,0,2,0,3,"GitHub,Jan Chaloupka,Kubernetes Prow Robot","20407524+k8s-ci-robot@users.noreply.github.com,jchaloup@redhat.com,noreply@github.com",0
+jenkinsci,jenkinsci/helm-charts,1,0,0,1,0,2,"GitHub,jenkins-dependency-updater[bot,jenkins-dependency-updater[bot]","81680575+jenkins-dependency-updater[bot]@users.noreply.github.com,noreply@github.com",1
+kubeflow,kubeflow/kubeflow,1,1,0,0,0,0,,,0
+Kuadrant,Kuadrant/limitador,1,1,0,0,0,0,,,0
+kubernetes-client,kubernetes-client/javascript,1,1,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+jenkinsci,jenkinsci/parameter-separator-plugin,1,0,0,0,0,0,,,1
+yoctoproject,yoctoproject/vscode-bitbake,1,0,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",1
+argoproj,argoproj/argo-events,1,0,0,0,1,0,,,0
+open-telemetry,open-telemetry/opentelemetry-proto-go,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/lib-fips-bundle-test,1,0,0,0,0,0,,,1
+finos,finos/fluxnova-modeler,1,1,0,0,0,0,,,0
+fluxcd,fluxcd/notification-controller,1,0,0,0,0,0,,,1
+crossplane-contrib,crossplane-contrib/provider-upjet-azuread,1,0,0,0,0,0,,,1
+containers,containers/aardvark-dns,1,0,0,1,0,2,"GitHub,Paul Holzinger","noreply@github.com,pholzing@redhat.com",1
+sigstore,sigstore/rekor-monitor,1,0,0,0,0,0,,,1
+knative,knative/eventing,1,1,0,0,0,0,,,0
+cncf,cncf/tab,1,1,0,0,0,0,,,0
+openfga,openfga/js-sdk,1,0,0,0,0,0,,,1
+meshery,meshery/meshkit,1,0,1,0,0,0,,,0
+jenkinsci,jenkinsci/oidc-provider-plugin,1,0,1,0,0,0,,,0
+RConsortium,RConsortium/Risk_website,1,0,0,0,0,0,,,1
+longhorn,longhorn/longhorn-ui,1,0,0,0,0,0,,,1
+kserve,kserve/models-web-app,1,1,0,0,0,0,,,0
+kubernetes,kubernetes/utils,1,1,0,0,0,0,,,0
+kcp-dev,kcp-dev/init-agent,1,0,0,0,0,0,,,1
+jenkinsci,jenkinsci/oss-symbols-api-plugin,1,0,1,1,0,2,"GitHub,Valentin Delaye","jonesbusy@users.noreply.github.com,noreply@github.com",0
+cert-manager,cert-manager/sample-external-issuer,1,0,0,0,0,0,,,1
+k3s-io,k3s-io/k3s-ansible,1,1,0,0,0,0,,,0
+RConsortium,RConsortium/S7,1,0,0,0,1,0,,,0
+openfga,openfga/python-sdk,1,1,0,1,0,3,"GitHub,dependabot[bot,dependabot[bot]","49699333+dependabot[bot]@users.noreply.github.com,noreply@github.com,support@github.com",0
+jenkinsci,jenkinsci/active-directory-plugin,1,0,0,0,0,0,,,1

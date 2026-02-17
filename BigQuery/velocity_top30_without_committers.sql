@@ -78,7 +78,7 @@ WITH base AS (
     and issues > 0
     and pushes > 0
   ORDER BY
-    pr_openers + issue_openers + commenters + pushers + pushes / 30 DESC
+    (pr_openers + issue_openers + commenters + pushers + ((prs + issues + comments + pushes) / 20)) DESC
   LIMIT
     200000
 )
@@ -97,4 +97,4 @@ SELECT
 FROM
   agg
 ORDER BY
-  pr_openers + issue_openers + commenters + pushers + pushes / 30 DESC
+  (pr_openers + issue_openers + commenters + pushers + ((prs + issues + comments + pushes) / 20)) DESC
