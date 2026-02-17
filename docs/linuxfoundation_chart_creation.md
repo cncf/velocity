@@ -20,6 +20,12 @@ Run the query for a year, for example: `[DBG=1] ./run_bq_templated.sh lf 2025010
 
 It will generate a file for example: `data/data_lf_projects_20250101_20260101.csv`.
 
+Since October 7th 2025 GHA no longer have PushEvents commits data, so we need to reconstruct this using `git log` on cloned repos to get commits contributors count, do this via:
+```
+./tools/enrich_authors/enrich_authors -in data/data_lf_projects_20250101_20260101.csv -out data/data_lf_projects_20250101_20260101.enriched.csv -from 2025-01-01 -to 2026-01-01
+mv data/data_lf_projects_20250101_20260101.enriched.csv data/data_lf_projects_20250101_20260101.csv
+```
+
 ### Add CNCF projects
 
 You may miss CSV header, add `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` if needed.
@@ -84,7 +90,7 @@ Processed 7152 csets from 365 developers
 - Comments would be 2 * commits = 14304
 - Activity = sum of all others (comments, commits, issues, prs)
 - Create a file based on `data/data_agl_projects_20250101_20260101.csv` and apply proper data values
-- Run `ruby merger.rb data/data_lf_projects_20250101_20260101.csv data/data_agl_projects_20250101_20260101.csv`.
+- Run `ruby merger.rb data/data_lf_projects_20250101_20260101.cenriched.sv data/data_agl_projects_20250101_20260101.csv`.
 
 
 ### Run analysis
