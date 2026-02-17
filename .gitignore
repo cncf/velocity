@@ -72,3 +72,5 @@ skip
 wget-log
 wget-log.*
 tools/enrich_authors/enrich_authors
+tools/enrich_authors2/enrich_authors2
+*.secret
