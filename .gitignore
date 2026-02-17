@@ -71,3 +71,4 @@ top*.err
 skip
 wget-log
 wget-log.*
+tools/enrich_authors/enrich_authors

@@ -26,9 +26,14 @@ Optional:
 - The above two commands (not needed) can also run from within a helm devstats reports pod, shange `shells/` path to `velocity/` and run - again this is not needed.
 - Those steps are possible only from DevStats kubernetes node or if you have DevStats installed locally. Normally this is not needed and should be skipped.
 
+Since October 7th 2025 GHA no longer have PushEvents commits data, so we need to reconstruct this using `git log` on cloned repos to get commits contributors count, do this via:
+```
+./tools/enrich_authors/enrich_authors -in data/data_cncf_projects_20250101_20260101.csv -out data/data_cncf_projects_20250101_20260101.enriched.csv -since 2025-01-01 -until 2026-01-01 -update-authors-alt2 -workers "$(nproc)"
+```
+
 Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` in this case):
 ```
-[SKIP_TOKENS=''] FORKS_FILE=forks.json ruby analysis.rb data/data_cncf_projects_20250101_20260101.csv projects/projects_cncf_20250101_20260101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+[SKIP_TOKENS=''] FORKS_FILE=forks.json ruby analysis.rb data/data_cncf_projects_20250101_20260101.enriched.csv projects/projects_cncf_20250101_20260101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Some projects are defined as regexps inside one or more orgs - BQ query tracks their orgs and config specifies which repos go to which project. You need to remove remaining repos for those orgs from the report.
