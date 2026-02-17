@@ -32,6 +32,7 @@ import (
 	"context"
 	"crypto/sha1"
 	"encoding/csv"
+	"encoding/json"
 	"errors"
 	"flag"
 	"fmt"
@@ -85,6 +86,8 @@ type config struct {
 
 	tmpParent string
 	keepTmp   bool
+
+	forksPath string // optional forks JSON (repo -> bool). If true, repo is a fork and will be skipped/removed.
 
 	gitBinary string
 
@@ -145,6 +148,8 @@ func parseFlags() config {
 	flag.StringVar(&cfg.tmpParent, "tmp", "", "Base temp directory (default: OS temp dir)")
 	flag.StringVar(&cfg.tmpParent, "tmpdir", "", "Alias for -tmp")
 	flag.BoolVar(&cfg.keepTmp, "keep-tmp", false, "Keep cloned repos on disk (debug)")
+
+	flag.StringVar(&cfg.forksPath, "forks", "", "Optional forks JSON file (map repo->bool). If set, repos with value true are treated as forks and are NOT processed and are removed from the output CSV")
 
 	flag.StringVar(&cfg.gitBinary, "git", gitExecDefault, "Git executable")
 
@@ -611,6 +616,50 @@ func normalizeGitHubRepo(repo string) (string, bool) {
 		return "", false
 	}
 	return owner + "/" + r, true
+}
+
+// normalizeForkKey converts various repo spellings into a stable lowercase "org/repo" key
+// suitable for lookups in the forks map.
+func normalizeForkKey(repo string) string {
+	repo = strings.TrimSpace(repo)
+	if repo == "" {
+		return ""
+	}
+	if r, ok := normalizeGitHubRepo(repo); ok {
+		return strings.ToLower(r)
+	}
+	// Fallback for common non-URL spellings.
+	repo = strings.TrimPrefix(repo, "github.com/")
+	repo = strings.TrimPrefix(repo, "www.github.com/")
+	repo = strings.TrimPrefix(repo, "https://github.com/")
+	repo = strings.TrimPrefix(repo, "http://github.com/")
+	repo = strings.TrimSuffix(repo, ".git")
+	repo = strings.Trim(repo, "/")
+	parts := strings.Split(repo, "/")
+	if len(parts) >= 2 {
+		return strings.ToLower(parts[0] + "/" + parts[1])
+	}
+	return strings.ToLower(repo)
+}
+
+func readForksFile(path string) (map[string]bool, error) {
+	b, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+	raw := make(map[string]bool)
+	if err := json.Unmarshal(b, &raw); err != nil {
+		return nil, err
+	}
+	out := make(map[string]bool, len(raw))
+	for k, v := range raw {
+		nk := normalizeForkKey(k)
+		if nk == "" {
+			continue
+		}
+		out[nk] = v
+	}
+	return out, nil
 }
 
 func cloneURLFromRepo(repo string) string {
@@ -1094,6 +1143,43 @@ func main() {
 		commitsIdx = ci
 	} else if !cfg.quiet {
 		fmt.Printf("warning: %v (commits column will not be updated)\n", err)
+	}
+
+	// Optional: filter out fork repos (remove rows and do not process them).
+	var forks map[string]bool
+	if strings.TrimSpace(cfg.forksPath) != "" {
+		fm, ferr := readForksFile(cfg.forksPath)
+		if ferr != nil {
+			fmt.Fprintf(os.Stderr, "error reading forks file %s: %v\n", cfg.forksPath, ferr)
+			os.Exit(1)
+		}
+		forks = fm
+
+		filtered := make([][]string, 0, len(input.rows))
+		skippedRows := 0
+		skippedRepos := make(map[string]struct{})
+		for _, row := range input.rows {
+			if repoIdx >= len(row) {
+				filtered = append(filtered, row)
+				continue
+			}
+			repo := strings.TrimSpace(row[repoIdx])
+			key := normalizeForkKey(repo)
+			if key != "" && forks[key] {
+				skippedRows++
+				skippedRepos[key] = struct{}{}
+				continue
+			}
+			filtered = append(filtered, row)
+		}
+		input.rows = filtered
+		if !cfg.quiet {
+			fmt.Printf("forks: loaded=%d skippedRows=%d skippedRepos=%d (%s)\n", len(forks), skippedRows, len(skippedRepos), cfg.forksPath)
+		}
+		if len(input.rows) == 0 {
+			fmt.Fprintf(os.Stderr, "error: all rows were filtered out by -forks\n")
+			os.Exit(1)
+		}
 	}
 
 	// Collect distinct repos (and original counts for progress / never-worse preview).

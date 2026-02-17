@@ -38,7 +38,7 @@ It will generate a file for example: `data/data_top30_without_committers_project
 
 Since October 7th 2025 GHA no longer have PushEvents commits data, so we need to reconstruct this using `git log` on cloned repos to get commits contributors count, do this via:
 ```
-./tools/enrich_authors/enrich_authors -in data/data_top30_without_committers_projects_20250101_20260101.csv -out data/data_top30_without_committers_projects_20250101_20260101.enriched.csv -from 2025-01-01 -to 2026-01-01
+./tools/enrich_authors/enrich_authors -in data/data_top30_without_committers_projects_20250101_20260101.csv -out data/data_top30_without_committers_projects_20250101_20260101.enriched.csv -from 2025-01-01 -to 2026-01-01 -forks all_forks.json
 mv data/data_top30_without_committers_projects_20250101_20260101.enriched.csv data/data_top30_without_committers_projects_20250101_20260101.csv
 ```
 
