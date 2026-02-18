@@ -45,6 +45,7 @@ cp data/data_top30_without_committers_projects_20250101_20260101.enriched.csv da
 
 Run `analysis.rb` with
 ```
+export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 [SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_without_committers_projects_20250101_20260101.csv projects/projects_top30_without_committers_20250101_20260101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
 
@@ -81,6 +82,7 @@ cp data/unlimited_output_202207_202407.csv data/unlimited.csv
 ```
 - So we have main data (step 1) ready for the new chart. Now we need to get data for all non-standard projects. You can try our analysis tool without any special projects by running:
 ```
+export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 [SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 - It is possible that there will be some new projects that are unknown. Ranks can change during this step, so there can be manual changes needed to mappings in `map/` directory: `hints.csv`, `defmaps.csv` and `urls.csv`. Possibly also in `skip.csv` (if there are new projects that should be skipped)
@@ -93,6 +95,7 @@ Project #50 (org, 353) Automattic (Automattic) (...) have no URL defined
 
 In case you got lost, run these in the velocity root folder:
 `cp data/unlimited_output_202207_202407.csv data/unlimited.csv`
+export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 `[SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv`
 
 - Let's see which top authors projects for those non-found projects are: `rauth[res[res.map { |i| i[0] }.index('Automattic')][0]]`

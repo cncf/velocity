@@ -98,6 +98,7 @@ Processed 7152 csets from 365 developers
 
 Run `analysis.rb` with
 ```
+export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 [SKIP_TOKENS=''] FORKS_FILE=lf_forks.json ruby analysis.rb data/data_lf_projects_20250101_20260101.csv projects/projects_lf_20250101_20260101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 

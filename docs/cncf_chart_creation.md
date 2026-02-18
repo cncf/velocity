@@ -35,6 +35,7 @@ cp data/data_cncf_projects_20250101_20260101.enriched.csv data/data_cncf_project
 
 Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` in this case):
 ```
+export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 [SKIP_TOKENS=''] FORKS_FILE=forks.json ruby analysis.rb data/data_cncf_projects_20250101_20260101.csv projects/projects_cncf_20250101_20260101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
@@ -74,7 +75,7 @@ Update the main [README](https://github.com/cncf/velocity#current-reports), set 
 
 ### CNCF Projects split by Kubernetes VS rest
 
-To compare CNCF K8s data vs non-k8s data do `ruby analysis.rb data/data_cncf_projects_20250101_20260101.csv projects/projects_cncf_k8s_non_k8s_20250101_20260101.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
+To compare CNCF K8s data vs non-k8s data do `export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'; ruby analysis.rb data/data_cncf_projects_20250101_20260101.csv projects/projects_cncf_k8s_non_k8s_20250101_20260101.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
 
 For this case, a new set of map files was created:
 - `map/k8s_vs_rest_defmaps.csv` - list of orgs found in query
@@ -86,5 +87,6 @@ Lists of orgs/repos in the map files should contain all values used in any perio
 It should be noted that historically, as CNCF grows, new projects are added. To get data for 2016, a query similar to that in `BigQuery/query_cncf_4p_201511_201610.sql` should be run and the following year would be span by `BigQuery/query_cncf_projects_201611_201710.sql`.
 To prepare an analysis, a command similar to this should be run:
 ```
+export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 ruby analysis.rb data/data_cncf_projects_201611_201710.csv projects/projects_cncf_k8s_vs_rest_201611_201710.csv map/k8s_vs_rest_hints.csv map/k8s_vs_rest_urls.csv map/k8s_vs_rest_defmaps.csv map/skip.csv map/ranges_unlimited.csv
 ```
