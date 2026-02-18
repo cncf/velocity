@@ -52,6 +52,7 @@ import (
 	"sync/atomic"
 	"syscall"
 	"time"
+	"unicode/utf8"
 )
 
 const (
@@ -340,6 +341,9 @@ func normalizeEmail(email string) string {
 	if email == "" || !strings.Contains(email, "@") || strings.ContainsAny(email, " \t\n\r") {
 		return ""
 	}
+	if !utf8.ValidString(email) {
+		email = strings.ToValidUTF8(email, "")
+	}
 	return email
 }
 
@@ -349,6 +353,9 @@ func normalizeName(name string) string {
 	name = strings.TrimSpace(name)
 	if name == "" {
 		return ""
+	}
+	if !utf8.ValidString(name) {
+		name = strings.ToValidUTF8(name, "")
 	}
 	return name
 }
