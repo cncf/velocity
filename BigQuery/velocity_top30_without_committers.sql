@@ -81,27 +81,27 @@ WITH base AS (
 ), scored AS (
   SELECT
     *,
-    (pr_openers + issue_openers + commenters + pushers + ((prs + issues + comments + pushes) / 20)) AS score
+    (pr_openers + issue_openers + commenters + pushers + ((prs + issues + comments + pushes) / 11)) AS score
   FROM
     agg
 ), candidates_raw AS (
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY score DESC LIMIT 100000)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY score DESC LIMIT 111111)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pr_openers DESC LIMIT 100000)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pr_openers DESC LIMIT 111111)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY issue_openers DESC LIMIT 100000)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY issue_openers DESC LIMIT 111111)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY commenters DESC LIMIT 100000)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY commenters DESC LIMIT 111111)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pushers DESC LIMIT 100000)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pushers DESC LIMIT 111111)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY prs DESC LIMIT 100000)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY prs DESC LIMIT 111111)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY issues DESC LIMIT 100000)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY issues DESC LIMIT 111111)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY comments DESC LIMIT 100000)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY comments DESC LIMIT 111111)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pushes DESC LIMIT 100000)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pushes DESC LIMIT 111111)
 ), candidates AS (
   SELECT DISTINCT org, repo
   FROM candidates_raw
