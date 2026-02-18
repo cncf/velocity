@@ -30,7 +30,7 @@ Since October 7th 2025 GHA no longer have PushEvents commits data, so we need to
 ```
 ./tools/enrich_authors/enrich_authors -in data/data_cncf_projects_20250101_20260101.csv -out data/data_cncf_projects_20250101_20260101.enriched.csv -from 2025-01-01 -to 2026-01-01 -forks forks.json
 cp data/data_cncf_projects_20250101_20260101.csv data/data_cncf_projects_20250101_20260101.raw.csv
-mv data/data_cncf_projects_20250101_20260101.enriched.csv data/data_cncf_projects_20250101_20260101.csv
+cp data/data_cncf_projects_20250101_20260101.enriched.csv data/data_cncf_projects_20250101_20260101.csv
 ```
 
 Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` in this case):
