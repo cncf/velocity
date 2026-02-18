@@ -1,4 +1,6 @@
 #standardSQL
+-- typical commits/commit authors ration in 254k repos: authors(sum)=4483902 commits(sum)=84078359 -> 18.75
+-- typical repo clone failure rate in 254k repos=254248 failed=9528 -> 3.75%
 WITH base AS (
   SELECT
     id,
@@ -81,7 +83,7 @@ WITH base AS (
 ), scored AS (
   SELECT
     *,
-    (pr_openers + issue_openers + commenters + pushers + ((prs + issues + comments + pushes) / 11)) AS score
+    (pr_openers + issue_openers + commenters + pushers + ((prs + issues + comments + pushes) / 19)) AS score
   FROM
     agg
 ), candidates_raw AS (
