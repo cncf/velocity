@@ -50,7 +50,7 @@ vitessio,vitess+website+vitess-releaser+arewefastyet+vt+enhancements+vitess-bot,
 kaito-project,kaito+aikit+headlamp-kaito+keda-kaito-scaler+kaito-pr-agent+autoindexer+kaito-kubectl-plugin+kaito-cookbook+kaito-rag-api,6084,2856,928,3238,329,138,1971,KAITO,github.com/kaito-project/kaito
 spiffe,spike+helm-charts-hardened+spiffe-helper+spire-controller-manager+spiffe+spike-sdk-go+tornjak+java-spiffe+spiffe.io+spire-examples+spiffe-csi+go-spiffe+spire-server-attestor-tpm+bootc+spire-tutorials+spire-ha-agent+spire-plugin-sdk+aws-spiffe-workload-helper+spire-api-sdk+club-zero+k8s-spiffe-workload-jwt-exec-auth+k8s-spiffe-workload-auth-config+spire-credentialcomposer-cel+spiffe-step-ssh+vsecm-sdk-rust+go-peertracker,5412,2331,1079,2485,253,138,1749,Spiffe,spiffe.io
 flatcar,scripts+Flatcar+nebraska+sysext-bakery+flatcar-website+mantle+ue-rs+bootengine+flatcar-app-minecraft+init+flatcar-build-scripts+reports+socials+flatcar-demos+update_engine+coreos-cloudinit+flatcar-app-jitsi+cluster-api-bootstrap-provider-kubeadm-ignition+terraform-gcp-flatcar+update-ssh-keys+flatcar-cloud-image-uploader+flatcar-linux-update-operator+seismograph+.github+flatcar-terraform+lerobot+torcx+baselayout+locksmith+sysroot-wrappers+garm-provider-linode+flatcar-dev-util+toolbox+nebraska-update-agent+flatcar-release-mirror+mayday+nss-altfiles+updateservicectl+azure-marketplace-ingestion-api+flatcar-packer-qemu+container-linux-config-transpiler+flog+flatcar-automation+ignition+flatcar-ipxe-scripts+flatcar-mastodon+fleetlock+flatcar-template-project+flatcar-tutorial,6539,2846,845,9291,429,135,2419,Flatcar,flatcar.org
-opentofu,registry+opentofu+registry-ui+tofu-ls+vscode-opentofu+opentofu-schema+opentofu.org+libregistry+opentofu-ls+tofu-exec+org+setup-opentofu+scripts+get.opentofu.org+opentofu-mcp-server+tofudl+manifesto+opentofu-performance-testing+provider-client+terraform-provider-lua+vscode-opentofu-backup+terraform-provider-go+tofutestutils,28044,7508,1732,25767,2145,127,16659,OpenTofu,opentofu.org
+opentofu,registry+opentofu+registry-ui+tofu-ls+vscode-opentofu+opentofu-schema+opentofu.org+libregistry+opentofu-ls+tofu-exec+org+setup-opentofu+scripts+get.opentofu.org+opentofu-mcp-server+tofudl+manifesto+opentofu-performance-testing+provider-client+terraform-provider-lua+vscode-opentofu-backup+terraform-provider-go+tofutestutils,28044,7508,1732,46799,2145,127,16659,OpenTofu,opentofu.org
 karmada-io,karmada+website+dashboard+community+multicluster-cloud-provider+api+playground,11165,9379,778,2013,332,126,676,Karmada,Karmada.io
 strimzi,strimzi-kafka-operator+proposals+strimzi.github.io+strimzi-kafka-bridge+kafka-access-operator+metrics-reporter+test-container+strimzi-kafka-oauth+drain-cleaner+test-clients+test-container-images+strimzi-mqtt-bridge+awesome-strimzi+kafka-kubernetes-config-provider+governance+client-examples,13406,10466,1180,1793,474,126,1286,Strimzi,strimzi.io
 confidential-containers,trustee+cloud-api-adaptor+guest-components+operator+confidentialcontainers.org+confidential-containers+td-shim+trustee-operator+charts+kbs-types+enclave-cc+.github+simple-kbs+confidential-containers.github.io,9598,6987,1336,2080,347,125,928,Confidential Containers,github.com/confidential-containers
@@ -160,14 +160,14 @@ bank-vaults,bank-vaults+secrets-webhook+vault-operator+vault-secrets-webhook+sec
 bpfman,bpfman+bpfman-operator+meeting-notes,1521,913,183,1091,113,31,312,bpfman,bpfman.io
 urunc-dev+nubificus,urunc+urunc+unikernel-build+urunc-external-merge+monitors-build+urunc-fork-test+urunc-release-test+urunc-pre-release+urunc-test+artwork+urunc-test-fork+urunc-tst+foundation,1991,516,176,1571,110,30,1189,urunc,urunc.io
 chaosblade-io,chaosblade+chaosblade-exec-jvm+chaosblade-exec-os+chaosblade-operator+chaosblade-box+chaosblade-website+chaosblade-exec-middleware+chaosblade-exec-cri+chaosblade-exec-cplus+chaosblade-spec-go+chaosblade-box-fe+chaosblade-exec-cloud+chaosblade-space-exploration+chaosblade-box-agent+chaosblade-help-doc+charts,816,255,182,450,168,30,211,ChaosBlade,github.com/chaosblade-io
-bfenetworks,bfe+service-controller+bwi+bfe-mock-waf,78,19,30,109,5,30,24,BFE,bfe-networks.net
+bfenetworks,bfe+service-controller+bwi+bfe-mock-waf,78,19,30,117,5,30,24,BFE,bfe-networks.net
 containernetworking,plugins+cni+cni.dev+meeting-notes,405,248,77,99,29,29,51,CNI,github.com/containernetworking
-spinkube,runtime-class-manager+containerd-shim-spin+documentation+spin-trigger-mqtt+spin-operator+governance+.github,290,123,78,725,6,28,83,SpinKube,spinkube.dev
+spinkube,runtime-class-manager+containerd-shim-spin+documentation+spin-trigger-mqtt+spin-operator+governance+.github,290,123,78,1151,6,28,83,SpinKube,spinkube.dev
 networkservicemesh,deployments-k8s+integration-k8s-kind+integration-tests+cmd-forwarder-vpp+sdk+cmd-forwarder-sriov+cmd-nse-vlan-vpp+cmd-forwarder-ovs+sdk-vpp+cmd-nse-vl3-vpp+sdk-k8s+cmd-nsmgr+api+cmd-nsc-vpp+cmd-nse-icmp-responder-vpp+cmd-registry-memory+cmd-nsmgr-proxy+cmd-nse-simple-vl3-docker+.github+cmd-nsc-init+cmd-nsc-simple-docker+cmd-nse-supplier-k8s+cmd-nsc+sdk-sriov+cmd-nse-l7-proxy+sdk-kernel+cmd-nse-firewall-vpp+cmd-registry-k8s+cmd-nse-icmp-responder+cmd-registry-proxy-dns+cmd-lb-vl3-vpp+sdk-ovs+cmd-nse-remote-vlan+cmd-admission-webhook-k8s+cmd-exclude-prefixes-k8s+site+cmd-cluster-info-k8s+cmd-map-ip-k8s+cmd-ipam-vl3+cmd-csi-driver+cmd-nse-vfio+cmd-dashboard-backend+integration-k8s-gke+fanout+cmd-template+cmd-dashboard-ui+cmd-ipam-one-point,5274,487,590,5299,31,27,4166,Network Service Mesh,networkservicemesh.io
-ratify-project,ratify+ratify-verifier-go+ratify-go+ratify-cli+ratify-web+ratify-containerd+.github,2438,1423,422,700,70,27,523,Ratify,ratify.dev
+ratify-project,ratify+ratify-verifier-go+ratify-go+ratify-cli+ratify-web+ratify-containerd+.github,2438,1423,422,709,70,27,523,Ratify,ratify.dev
 spidernet-io,spiderpool+rocktemplate+egressgateway+spiderdoctor+charts+bmc+deployCilium+e2eframework+cilium-chaining+mock-ai-topology,3244,1018,746,763,1019,26,461,Spiderpool,spidernet-io.github.io/spiderpool/
 runmedev+stateful,vscode-runme+runme+runme+web+docs.runme.dev+runmejs+docs.runme.dev+runmejs+website+runme-foyle-ai+runme-web-extension,1351,283,269,1441,64,26,735,Runme Notebooks,runme.dev
-emissary-ingress,emissary+emissary-ingress.dev,400,185,121,191,34,26,60,Emissary-ingress,getambassador.io
+emissary-ingress,emissary+emissary-ingress.dev,400,185,121,255,34,26,60,Emissary-ingress,getambassador.io
 easegress-io+megaease,easegress+easeprobe+.github+easevoice-trainer+easevoice-trainer-portal+easeagent+easegress-portal+megacloud-mcp+megacloud-mcp-client+megacloud-chat+Remembering-Haoel+easeagent-spring-petclinic+easeagent-spring-boot-demo-3.5.3+easemesh,888,184,209,1750,18,26,477,easegress,megaease.com/easegress/
 drasi-project,drasi-platform+docs+drasi-core+drasi-server,2587,1543,453,722,67,25,524,Drasi,drasi.io
 schemahero,schemahero+schemahero-docs+schemahero-helm,462,125,96,222,12,25,229,SchemaHero,schemahero.io
@@ -189,7 +189,7 @@ getporter,porter+packages+aws-plugins+azure-plugins+az-mixin+terraform-mixin+kub
 service-mesh-performance+layer5io,service-mesh-performance+advanced-istio-service-mesh-workshop+service-mesh-labs+istio-service-mesh-workshop+linkerd-service-mesh-workshop,62,16,27,47,5,18,14,Service Mesh Performance,smp-spec.io
 virtual-kubelet,virtual-kubelet+azure-aci+tensile-kube+alibabacloud-eci,260,109,55,107,10,17,86,Virtual Kubelet,virtual-kubelet.io
 xregistry,spec+codegen+server+xrproxy+xregistry.github.io+viewer,2383,1449,149,1460,287,16,498,xRegistry,xregistry.io
-inclavare-containers,TNG+eventlog-rs+rats-rs+Confidential-AI+rats-tls+measurement_tools+tdx-qgsd-multiplexer+openanolis-attestation+tng-envoy,666,313,94,434,9,16,250,Inclavare Containers,inclavare-containers.io
+inclavare-containers,TNG+eventlog-rs+rats-rs+Confidential-AI+rats-tls+measurement_tools+tdx-qgsd-multiplexer+openanolis-attestation+tng-envoy,666,313,94,647,9,16,250,Inclavare Containers,inclavare-containers.io
 project-stacker,stacker+c3+project-stacker.github.io,332,159,52,177,8,16,113,Stacker,stackerbuild.io
 vscode-kubernetes-tools,vscode-kubernetes-tools+vscode-kubernetes-tools-api,1005,508,199,276,71,15,227,VS Code Kubernetes Tools,github.com/vscode-kubernetes-tools/vscode-kubernetes-tools
 kubereboot,kured+website+charts+.github,675,286,174,335,51,15,164,Kured,github.com/weaveworks/kured
@@ -202,7 +202,7 @@ sermant-io,Sermant+Sermant-website+Sermant-examples+first-plugin,912,615,136,192
 devspace-sh,devspace,356,133,67,92,99,12,57,DevSpace,loft.sh
 kubeclipper,kubeclipper+kubeclipper.github.io+console,174,43,56,66,30,12,45,Kubeclipper,kubeclipper.io
 clusternet,clusternet+website+charts+apis,124,30,47,77,12,11,35,Clusternet,clusternet.io
-composefs+containers,composefs+composefs,139,91,28,74,6,11,14,composefs,github.com/containers/composefs
+composefs+containers,composefs+composefs,139,91,28,317,6,11,14,composefs,github.com/containers/composefs
 aeraki-mesh,aeraki+meta-protocol-proxy+api+website,112,32,27,55,7,11,46,Aeraki Mesh,aeraki.net
 kuberhealthy,kuberhealthy+crds+ssh-check+minio-test+go+bash+rust+python,630,44,224,586,5,10,357,Kuberhealthy,github.com/Comcast/kuberhealthy
 eraser-dev,eraser,140,62,15,70,11,10,52,Eraser,azure.github.io/eraser
@@ -219,7 +219,7 @@ v6d-io,v6d,89,46,10,16,15,6,18,Vineyard,v6d.io
 openelb,openelb,34,20,5,11,3,5,6,OpenELB,openelb.github.io
 merbridge,merbridge+website,14,1,5,9,1,5,7,Merbridge,merbridge.io
 devstream-io,devstream,11,2,3,17,2,5,4,DevStream,devstream.io
-hexa-org,policy-opa+policy-mapper+policy-orchestrator,53,9,17,36,12,4,15,Hexa Policy Orchestrator,hexaorchestration.org
+hexa-org,policy-opa+policy-mapper+policy-orchestrator,53,9,17,37,12,4,15,Hexa Policy Orchestrator,hexaorchestration.org
 cni-genie,CNI-Genie,12,3,4,5,2,4,3,CNI-Genie,cni-genie.io
 carina-io,carina,17,5,4,8,3,3,5,Carina,opencarina.com
 xline-kv,Xline,15,8,2,3,5,3,0,Xline,xline.cloud
