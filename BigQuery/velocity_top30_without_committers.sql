@@ -87,23 +87,23 @@ WITH base AS (
   FROM
     agg
 ), candidates_raw AS (
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY score DESC LIMIT 111111)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY score DESC LIMIT 222222)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pr_openers DESC LIMIT 111111)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pr_openers DESC LIMIT 222222)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY issue_openers DESC LIMIT 111111)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY issue_openers DESC LIMIT 222222)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY commenters DESC LIMIT 111111)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY commenters DESC LIMIT 222222)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pushers DESC LIMIT 111111)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pushers DESC LIMIT 222222)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY prs DESC LIMIT 111111)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY prs DESC LIMIT 222222)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY issues DESC LIMIT 111111)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY issues DESC LIMIT 222222)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY comments DESC LIMIT 111111)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY comments DESC LIMIT 222222)
   UNION ALL
-  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pushes DESC LIMIT 111111)
+  SELECT org, repo FROM (SELECT org, repo FROM scored ORDER BY pushes DESC LIMIT 222222)
 ), candidates AS (
   SELECT DISTINCT org, repo
   FROM candidates_raw

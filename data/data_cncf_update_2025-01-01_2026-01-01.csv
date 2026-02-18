@@ -1,229 +1,232 @@
 project,key,value
-Kubernetes,commits,33527
-Prometheus,commits,2881
-Fluentd,commits,3888
-Linkerd,commits,466
-gRPC,commits,4363
+Kubernetes,commits,33833
+Prometheus,commits,2117
+Fluentd,commits,3865
+Linkerd,commits,461
+gRPC,commits,4357
 CoreDNS,commits,64
-containerd,commits,4097
+containerd,commits,4104
 CNI,commits,61
-Envoy,commits,1268
-Jaeger,commits,179
+Envoy,commits,938
+Jaeger,commits,83
 Notary,commits,161
-TUF,commits,195
+TUF,commits,196
 Rook,commits,1241
-Vitess,commits,287
-NATS,commits,4416
-OPA,commits,1674
-Spiffe,commits,1119
+Vitess,commits,221
+NATS,commits,4279
+OPA,commits,1619
+Spiffe,commits,1110
 Spire,commits,154
 CloudEvents,commits,84
-Telepresence,commits,828
-Helm,commits,1175
-Harbor,commits,162
-etcd,commits,1561
+Telepresence,commits,747
+Helm,commits,1195
+Harbor,commits,159
+etcd,commits,1562
 TiKV,commits,17
 Cortex,commits,511
-Buildpacks,commits,396
-Falco,commits,186
-Dragonfly,commits,380
-Virtual Kubelet,commits,56
-KubeEdge,commits,629
-CRI-O,commits,590
+Buildpacks,commits,361
+Falco,commits,183
+Dragonfly,commits,379
+Virtual Kubelet,commits,32
+KubeEdge,commits,634
+CRI-O,commits,594
 Network Service Mesh,commits,1638
-OpenTelemetry,commits,4057
-Thanos,commits,497
-Flux,commits,4383
-in-toto,commits,292
+OpenTelemetry,commits,3857
+Thanos,commits,492
+Flux,commits,4382
+in-toto,commits,289
 Strimzi,commits,722
-KubeVirt,commits,4076
-Longhorn,commits,4225
-CubeFS,commits,3145
+KubeVirt,commits,4090
+Longhorn,commits,4204
+CubeFS,commits,3208
 KEDA,commits,24
-Argo,commits,2189
-Volcano,commits,1396
+Argo,commits,2186
+Volcano,commits,1389
 Kudo,commits,40
 Cloud Custodian,commits,20
 Dex,commits,54
 LitmusChaos,commits,270
 Artifact Hub,commits,11
-Kuma,commits,296
-PARSEC,commits,291
+Kuma,commits,244
+PARSEC,commits,304
 BFE,commits,117
-Crossplane,commits,3638
+Crossplane,commits,3682
 Contour,commits,36
-Operator Framework,commits,235
-Chaos Mesh,commits,97
-Serverless Workflow,commits,340
+Operator Framework,commits,234
+Chaos Mesh,commits,87
+Serverless Workflow,commits,337
 K3s,commits,1837
-Backstage,commits,7661
+Backstage,commits,7484
 Tremor,commits,49
-Metal³,commits,1684
+Metal³,commits,1691
 Porter,commits,578
 OpenYurt,commits,109
 Keylime,commits,415
-SchemaHero,commits,159
+SchemaHero,commits,62
 Cloud Development Kit for Kubernetes,commits,358
-cert-manager,commits,1648
+cert-manager,commits,1653
 OpenKruise,commits,176
 Tinkerbell,commits,967
-Kyverno,commits,801
+Kyverno,commits,782
 OpenGitOps,commits,46
-Piraeus-Datastore,commits,402
-Athenz,commits,120
-Kube-OVN,commits,971
-Distribution,commits,65
-Kuberhealthy,commits,603
+Piraeus-Datastore,commits,288
+Athenz,commits,118
+Kube-OVN,commits,958
+Distribution,commits,66
+Kuberhealthy,commits,410
 K8GB,commits,1145
 Trickster,commits,67
 Emissary-ingress,commits,255
-WasmEdge Runtime,commits,676
-ChaosBlade,commits,330
-Vineyard,commits,18
-Antrea,commits,398
-Fluid,commits,184
-Submariner,commits,2381
+WasmEdge Runtime,commits,674
+ChaosBlade,commits,331
+Vineyard,commits,6
+Antrea,commits,396
+Fluid,commits,186
+Submariner,commits,2351
 Pixie,commits,141
-Meshery,commits,12701
+Meshery,commits,12718
 KubeVela,commits,147
-kube-vip,commits,256
-ORAS,commits,265
-wasmCloud,commits,1672
+kube-vip,commits,257
+ORAS,commits,239
+wasmCloud,commits,1677
 Akri,commits,33
 MetalLB,commits,245
 Karmada,commits,922
 Inclavare Containers,commits,647
-Cilium,commits,15806
-Dapr,commits,2047
-Open Cluster Management,commits,258
+Cilium,commits,15697
+Dapr,commits,1928
+Open Cluster Management,commits,134
 VS Code Kubernetes Tools,commits,7
 KubeArmor,commits,380
-K8up,commits,52
+K8up,commits,53
 kube-rs,commits,341
-Devfile,commits,272
-Knative,commits,415
-Confidential Containers,commits,1585
+Devfile,commits,271
+Knative,commits,412
+Confidential Containers,commits,1583
 OpenFunction,commits,1
 Clusterpedia,commits,75
-OpenCost,commits,597
+OpenCost,commits,599
 Aeraki Mesh,commits,26
-OpenFeature,commits,2235
-kubewarden,commits,5718
+OpenFeature,commits,2179
+kubewarden,commits,6603
 Hexa Policy Orchestrator,commits,37
-Konveyor,commits,3303
-Armada,commits,499
-External Secrets Operator,commits,547
-Serverless Devs,commits,189
-ContainerSSH,commits,109
-OpenFGA,commits,1955
-Kured,commits,88
-Carvel,commits,208
-Lima,commits,739
-Istio,commits,84
+Konveyor,commits,3182
+Armada,commits,491
+External Secrets Operator,commits,561
+Serverless Devs,commits,193
+ContainerSSH,commits,60
+OpenFGA,commits,1876
+Kured,commits,65
+Carvel,commits,211
+Lima,commits,741
+Istio,commits,278
 DevSpace,commits,38
-Capsule,commits,703
+Capsule,commits,819
 zot,commits,117
 Paralus,commits,12
-Carina,commits,7
+Carina,commits,5
 ko,commits,27
-OPCR,commits,33
-werf,commits,3609
-Kubescape,commits,2193
-Inspektor Gadget,commits,3760
+OPCR,commits,15
+werf,commits,3927
+Kubescape,commits,2183
+Inspektor Gadget,commits,1470
 Clusternet,commits,22
-Keycloak,commits,1714
+Keycloak,commits,1713
 SOPS,commits,147
-Headlamp,commits,3086
+Headlamp,commits,3058
 SlimToolkit,commits,1
-Kepler,commits,1848
+Kepler,commits,1291
 PipeCD,commits,271
 Eraser,commits,21
 Hwameistor,commits,116
-kpt,commits,126
-Microcks,commits,902
+kpt,commits,124
+Microcks,commits,903
 Kubeclipper,commits,22
-Kubeflow,commits,372
-Copacetic,commits,68
-Logging Operator,commits,479
-Kanister,commits,160
-kcp,commits,2090
+Kubeflow,commits,363
+Copacetic,commits,71
+Logging Operator,commits,477
+Kanister,commits,153
+kcp,commits,2079
 KCL,commits,358
 kube-burner,commits,70
 Kuasar,commits,61
-KrknChaos,commits,876
-Kubestellar,commits,1797
+KrknChaos,commits,865
+Kubestellar,commits,1780
 easegress,commits,1261
-Spiderpool,commits,246
-K8sGPT,commits,167
+Spiderpool,commits,245
+K8sGPT,commits,135
 Kubeslice,commits,235
 Connect,commits,48
-Kairos,commits,1365
+Kairos,commits,1313
 Kubean,commits,446
 Koordinator,commits,82
-Radius,commits,903
-Bank-Vaults,commits,199
+Radius,commits,838
+Bank-Vaults,commits,196
 Atlantis,commits,182
 Stacker,commits,119
-TrestleGRC,commits,592
-Kuadrant,commits,3583
+TrestleGRC,commits,583
+Kuadrant,commits,3581
 openGemini,commits,45
-Score,commits,275
+Score,commits,273
 bpfman,commits,394
-LoxiLB,commits,341
-Cartography,commits,342
-Perses,commits,1023
-Ratify,commits,715
-HAMi,commits,485
-Shipwright,commits,197
-Flatcar,commits,7087
-KusionStack,commits,564
-Youki,commits,105
-KAITO,commits,1018
-OpenEBS,commits,3032
+LoxiLB,commits,343
+Cartography,commits,201
+Perses,commits,995
+Ratify,commits,709
+HAMi,commits,488
+Shipwright,commits,263
+Flatcar,commits,7050
+KusionStack,commits,506
+Youki,commits,104
+KAITO,commits,1062
+OpenEBS,commits,2985
 Sermant,commits,103
 Kmesh,commits,989
-OVN-Kubernetes,commits,2726
-Tokenetes,commits,98
+OVN-Kubernetes,commits,2732
+Tokenetes,commits,66
 Spin,commits,1193
 SpinKube,commits,1151
 SlimFaaS,commits,1160
 container2wasm,commits,68
-k0s,commits,1947
-Runme Notebooks,commits,467
-CloudNativePG,commits,2704
-KubeFleet,commits,512
-Podman Desktop,commits,4605
-Podman Container Tools,commits,3001
-bootc,commits,1261
-composefs,commits,23
-Drasi,commits,646
-Interlink,commits,483
-CozyStack,commits,1870
-kgateway,commits,1517
+k0s,commits,1951
+Runme Notebooks,commits,468
+CloudNativePG,commits,2680
+KubeFleet,commits,511
+Podman Desktop,commits,4604
+Podman Container Tools,commits,3049
+bootc,commits,1255
+composefs,commits,317
+Drasi,commits,620
+Interlink,commits,482
+CozyStack,commits,2783
+kgateway,commits,1456
 KitOps,commits,250
-Hyperlight,commits,466
-OpenTofu,commits,46760
-Cadence,commits,1608
-kagent,commits,1429
+Hyperlight,commits,403
+OpenTofu,commits,46799
+Cadence,commits,1601
+kagent,commits,1419
 urunc,commits,304
-xRegistry,commits,1468
-ModelPack,commits,117
+xRegistry,commits,1169
+ModelPack,commits,116
 KServe,commits,67
 OAuth2-Proxy,commits,141
-Oxia,commits,462
-HolmesGPT,commits,843
-Cedar Policy,commits,555
-Dalec,commits,709
-GraphQL JavaScript,commits,569
+Oxia,commits,290
+HolmesGPT,commits,821
+Cedar Policy,commits,529
+Dalec,commits,557
+OpenChoreo,commits,2826
+CoHDI,commits,177
+KubeElasti,commits,428
+GraphQL JavaScript,commits,270
 GraphQL IDE,commits,151
 Express GraphQL,commits,1
-GraphQL Spec,commits,230
-Spinnaker,commits,57
-Tekton,commits,291
-Jenkins,commits,15537
-Jenkins X,commits,3532
+GraphQL Spec,commits,160
+Spinnaker,commits,56
+Tekton,commits,662
+Jenkins,commits,15515
+Jenkins X,commits,3455
 CDEvents,commits,38
-Ortelius,commits,1511
+Ortelius,commits,1508
 Pyrsia,commits,1
 Screwdriver CD,commits,31
-Shipwright,commits,197
+Shipwright,commits,199
