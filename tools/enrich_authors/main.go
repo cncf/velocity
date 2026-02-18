@@ -1320,7 +1320,7 @@ func main() {
 				}
 				// Always output failures
 				// if cfg.debug && st.err != nil {
-				if st.err != nil {
+				if st.err != nil && (cfg.debug || !st.cloneFailed) {
 					fmt.Printf("worker %d: repo %s failed: %v\n", workerID, repo, st.err)
 				}
 			}
