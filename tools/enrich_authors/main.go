@@ -1518,7 +1518,7 @@ func rowHasAnyAuthors(row []string, authIdx, auth1Idx, auth2Idx, identsIdx int) 
 	if v := get(auth1Idx); v != "" && v != "0" {
 		return true
 	}
-	if v := get(identsIdx); v != "" && v != "0" {
+	if v := get(identsIdx); v != "" && v != "0" && v != "-" {
 		return true
 	}
 
@@ -1679,8 +1679,10 @@ func main() {
 
 	// Optional output column: author_idents (unique Name<email> pairs).
 	identsIdx := -1
+	identsInInput := false
 	if ii, err := colIndex(input, "author_idents"); err == nil {
 		identsIdx = ii
+		identsInInput = true
 	} else {
 		input.header = append(input.header, "author_idents")
 		identsIdx = len(input.header) - 1
@@ -1922,6 +1924,15 @@ func main() {
 		}
 		if st.err != nil {
 			failed++
+			// Input had no author_idents column => in "copy row from input" cases,
+			// mark idents as unavailable.
+			if !identsInInput && identsIdx >= 0 {
+				for len(row) <= identsIdx {
+					row = append(row, "")
+				}
+				row[identsIdx] = "-"
+				input.rows[i] = row
+			}
 			continue
 		}
 
@@ -1952,6 +1963,15 @@ func main() {
 
 		if cfg.neverWorse && !truncatedList && origCount > 0 && st.emailCount < origCount {
 			skippedNeverWorse++
+			// Input had no author_idents column => in "copy row from input" cases,
+			// mark idents as unavailable.
+			if !identsInInput && identsIdx >= 0 {
+				for len(row) <= identsIdx {
+					row = append(row, "")
+				}
+				row[identsIdx] = "-"
+				input.rows[i] = row
+			}
 			continue
 		}
 
