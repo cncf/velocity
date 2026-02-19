@@ -359,6 +359,55 @@ func collapseSpaces(s string) string {
 	return strings.Join(parts, " ")
 }
 
+// looksLikeVersionToken returns true for strings like:
+//
+//	"4.17", "4.17+", "v1.2.3", "V6.14+"
+//
+// These frequently appear in trailers like "# 4.17+" and are not contributor names.
+func looksLikeVersionToken(s string) bool {
+	s = strings.TrimSpace(s)
+	if s == "" {
+		return false
+	}
+	// Version tokens are single "words".
+	for _, r := range s {
+		if unicode.IsSpace(r) {
+			return false
+		}
+	}
+	// Optional leading v/V.
+	if len(s) > 0 && (s[0] == 'v' || s[0] == 'V') {
+		s = s[1:]
+	}
+	// Optional trailing '+'.
+	s = strings.TrimSuffix(s, "+")
+	if s == "" {
+		return false
+	}
+	// Require at least one dot to avoid dropping short usernames like "v1".
+	if !strings.Contains(s, ".") {
+		return false
+	}
+	if strings.HasPrefix(s, ".") || strings.HasSuffix(s, ".") {
+		return false
+	}
+	parts := strings.Split(s, ".")
+	if len(parts) < 2 {
+		return false
+	}
+	for _, p := range parts {
+		if p == "" {
+			return false
+		}
+		for _, r := range p {
+			if r < '0' || r > '9' {
+				return false
+			}
+		}
+	}
+	return true
+}
+
 // stripNameTrash replaces common "separator/garbage" characters with spaces.
 // This serves two purposes:
 //  1. better dedup (ignore punctuation used as separators),
@@ -674,6 +723,9 @@ func normalizeName(name string) string {
 	name = stripNameTrash(name)
 	name = collapseSpaces(name)
 	if name == "" {
+		return ""
+	}
+	if looksLikeVersionToken(name) {
 		return ""
 	}
 	return name
@@ -1425,6 +1477,32 @@ func parseCountField(s string) (int, bool) {
 	return parseIntStrict(s)
 }
 
+func singleListItem(field string) (string, bool) {
+	field = strings.TrimSpace(field)
+	if field == "" {
+		return "", false
+	}
+	// Truncation tokens ("=N") are not expandable.
+	if strings.HasPrefix(field, "=") {
+		return "", false
+	}
+	var item string
+	for _, p := range strings.Split(field, ",") {
+		p = strings.TrimSpace(p)
+		if p == "" {
+			continue
+		}
+		if item != "" {
+			return "", false
+		}
+		item = p
+	}
+	if item == "" {
+		return "", false
+	}
+	return item, true
+}
+
 func rowHasAnyAuthors(row []string, authIdx, auth1Idx, auth2Idx, identsIdx int) bool {
 	get := func(idx int) string {
 		if idx >= 0 && idx < len(row) {
@@ -1929,6 +2007,51 @@ func main() {
 			row = append(row, "")
 		}
 		input.rows[i] = row
+	}
+
+	// If author_idents is empty but we have exactly one author name and one author email,
+	// we can safely synthesize the single Name<email> entry without needing git history.
+	//
+	// This fixes the common case where a row was not updated (never-worse / repo failure)
+	// and the input CSV doesn't include author_idents.
+	if identsIdx >= 0 {
+		synth := 0
+		for i, row := range input.rows {
+			if identsIdx >= len(row) || authIdx >= len(row) || auth1Idx >= len(row) {
+				continue
+			}
+			if strings.TrimSpace(row[identsIdx]) != "" {
+				continue
+			}
+			nameRaw, okN := singleListItem(row[auth1Idx])
+			emailRaw, okE := singleListItem(row[authIdx])
+			if !okN || !okE {
+				continue
+			}
+
+			email := normalizeEmail(emailRaw)
+			if email == "" {
+				continue
+			}
+			safeName := normalizeName(nameRaw)
+			safeName = strings.ReplaceAll(safeName, "<", " ")
+			safeName = strings.ReplaceAll(safeName, ">", " ")
+			safeName = strings.ReplaceAll(safeName, ",", " ")
+			safeName = collapseSpaces(safeName)
+			if safeName == "" {
+				continue
+			}
+			// Emails should already be normalized to not contain these; keep it hard-safe.
+			if strings.ContainsAny(email, ",<>") {
+				continue
+			}
+			row[identsIdx] = safeName + "<" + email + ">"
+			input.rows[i] = row
+			synth++
+		}
+		if !cfg.quiet && synth > 0 {
+			fmt.Printf("enrich_authors: synthesized author_idents for %d rows (single name+email)\n", synth)
+		}
 	}
 
 	// By default, drop rows that have no authors at all (all author-related columns empty/0).
