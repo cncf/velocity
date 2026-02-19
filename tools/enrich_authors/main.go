@@ -2034,13 +2034,14 @@ func main() {
 	//
 	// This fixes the common case where a row was not updated (never-worse / repo failure)
 	// and the input CSV doesn't include author_idents.
-	if identsIdx >= 0 {
+	if identsIdx >= 0 && !identsInInput {
 		synth := 0
 		for i, row := range input.rows {
 			if identsIdx >= len(row) || authIdx >= len(row) || auth1Idx >= len(row) {
 				continue
 			}
-			if strings.TrimSpace(row[identsIdx]) != "" {
+			cur := strings.TrimSpace(row[identsIdx])
+			if cur != "" && cur != "-" {
 				continue
 			}
 			nameRaw, okN := singleListItem(row[auth1Idx])
