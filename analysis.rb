@@ -359,6 +359,9 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     next if is_comment row
     h = row.to_h
 
+    # Optional enrichment column; do not aggregate it in analysis (can explode memory/size).
+    h.delete('author_idents')
+
     # skip repos & orgs
     repo = h['repo']
     unless forks

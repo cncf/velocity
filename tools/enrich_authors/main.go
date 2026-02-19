@@ -71,6 +71,7 @@ var expectedHeader = []string{
 	"authors_alt2",
 	"authors_alt1",
 	"authors",
+	"author_idents",
 	"pushes",
 }
 
@@ -106,6 +107,8 @@ type config struct {
 
 	neverWorse    bool
 	allowDecrease bool
+
+	overwriteTruncated bool
 
 	quiet bool
 	debug bool
@@ -163,11 +166,13 @@ func parseFlags() config {
 	flag.BoolVar(&cfg.detectRenames, "detect-renames", true, "On clone failure, try to detect GitHub renames via HTTPS redirects")
 	flag.BoolVar(&cfg.fetchAllBranches, "fetch-all-branches", true, "After clone, explicitly fetch all heads (+refs/heads/*:refs/heads/*)")
 
-	flag.IntVar(&cfg.maxListItems, "max-list-items", 2000, "If contributor list has more than this many items, write '=N' instead of full list (0 disables)")
+	flag.IntVar(&cfg.maxListItems, "max-list-items", 0, "If contributor list has more than this many items, write '=N' instead of full list (0 disables)")
 	flag.IntVar(&cfg.maxListBytes, "max-list-bytes", 0, "If comma-joined list exceeds this many bytes, write '=N' instead of full list (0 disables)")
 
 	flag.BoolVar(&cfg.neverWorse, "never-worse", true, "Do not replace a row if computed author count is lower than the original")
 	flag.BoolVar(&cfg.allowDecrease, "allow-decrease", false, "Override -never-worse and allow replacing rows even if computed author count is lower")
+
+	flag.BoolVar(&cfg.overwriteTruncated, "overwrite-truncated", true, "If a list field is truncated to '=N', allow overwriting it with the full list on a subsequent run (for example, after adjusting max-list-items or max-list-bytes)")
 
 	flag.BoolVar(&cfg.quiet, "quiet", false, "Less logging")
 	flag.BoolVar(&cfg.debug, "debug", false, "Verbose logging")
@@ -295,11 +300,19 @@ func writeCSV(path string, t csvTable) error {
 
 	w := csv.NewWriter(f)
 	// Always write header row.
-	if err := w.Write(t.header); err != nil {
+	hdr := make([]string, len(t.header))
+	for i := range t.header {
+		hdr[i] = sanitizeUTF8Cell(t.header[i])
+	}
+	if err := w.Write(hdr); err != nil {
 		return err
 	}
 	for _, row := range t.rows {
-		if err := w.Write(row); err != nil {
+		outRow := make([]string, len(row))
+		for i := range row {
+			outRow[i] = sanitizeUTF8Cell(row[i])
+		}
+		if err := w.Write(outRow); err != nil {
 			return err
 		}
 	}
@@ -320,14 +333,16 @@ func colIndex(t csvTable, name string) (int, error) {
 type contributorSet struct {
 	emails      map[string]string // email -> best display name (may be empty)
 	names       map[string]string // lower(name) -> original display name
+	idents      map[string]string // lower(name)\x00email -> "Name;email" (unique name+email pairs)
 	seen        map[string]struct{}
-	commitCount int // number of commits processed by git lo
+	commitCount int // number of commits processed by git log
 }
 
 func newContributorSet() *contributorSet {
 	return &contributorSet{
 		emails: make(map[string]string),
 		names:  make(map[string]string),
+		idents: make(map[string]string),
 		seen:   make(map[string]struct{}),
 	}
 }
@@ -378,6 +393,15 @@ func (cs *contributorSet) add(name, email string) {
 	if nameN != "" {
 		if _, ok := cs.names[nameKey]; !ok {
 			cs.names[nameKey] = nameN
+			// Track unique "Name;email" pairs (author_idents column).
+			// - list separator is "," so remove commas from the name
+			// - pair separator is ";" so remove semicolons from the name
+			identKey := nameKey + "\x00" + emailN
+			if _, ok := cs.idents[identKey]; !ok {
+				safeName := strings.ReplaceAll(nameN, ",", " ")
+				safeName = strings.ReplaceAll(safeName, ";", " ")
+				cs.idents[identKey] = safeName + ";" + emailN
+			}
 		}
 	}
 }
@@ -395,6 +419,15 @@ func (cs *contributorSet) namesSorted() []string {
 	out := make([]string, 0, len(cs.names))
 	for _, n := range cs.names {
 		out = append(out, n)
+	}
+	sort.Strings(out)
+	return out
+}
+
+func (cs *contributorSet) identsSorted() []string {
+	out := make([]string, 0, len(cs.idents))
+	for _, v := range cs.idents {
+		out = append(out, v)
 	}
 	sort.Strings(out)
 	return out
@@ -513,6 +546,7 @@ type repoStats struct {
 	repoResolved string
 	emails       []string
 	names        []string
+	idents       []string
 	emailCount   int
 	commitCount  int
 	cloneFailed  bool
@@ -1028,9 +1062,11 @@ func computeRepoStats(ctx context.Context, cfg config, tmpRoot string, repo stri
 
 	emails := cs.emailsSorted()
 	names := cs.namesSorted()
+	idents := cs.identsSorted()
 
 	st.emails = emails
 	st.names = names
+	st.idents = idents
 	st.emailCount = len(emails)
 	st.commitCount = cs.commitCount
 	return st
@@ -1095,6 +1131,18 @@ func formatListOrCount(items []string, maxItems, maxBytes int) string {
 	return joined
 }
 
+func sanitizeUTF8Cell(s string) string {
+	if s == "" {
+		return s
+	}
+	// Ruby CSV + UTF-8 readers are unhappy with embedded NULs and invalid sequences.
+	s = strings.ReplaceAll(s, "\x00", "")
+	if !utf8.ValidString(s) {
+		s = strings.ToValidUTF8(s, "\uFFFD")
+	}
+	return s
+}
+
 // ---- Signal handling ----
 
 func installSignalHandler(cancel func()) {
@@ -1142,6 +1190,16 @@ func main() {
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error: %v\n", err)
 		os.Exit(1)
+	}
+
+	// Optional output column: author_idents (unique Name;email pairs).
+	identsIdx := -1
+	if ii, err := colIndex(input, "author_idents"); err == nil {
+		identsIdx = ii
+	} else {
+		input.header = append(input.header, "author_idents")
+		identsIdx = len(input.header) - 1
+		input.idx["author_idents"] = identsIdx
 	}
 
 	// commits column is optional (older CSVs may omit it).
@@ -1395,7 +1453,19 @@ func main() {
 			}
 		}
 
-		if cfg.neverWorse && origCount > 0 && st.emailCount < origCount {
+		// If the input row was BigQuery-truncated (=N), always replace it with the
+		// real expanded list even if never-worse is enabled.
+		truncatedList := false
+		if cfg.overwriteTruncated {
+			if authIdx < len(row) && strings.HasPrefix(strings.TrimSpace(row[authIdx]), "=") {
+				truncatedList = true
+			}
+			if auth1Idx < len(row) && strings.HasPrefix(strings.TrimSpace(row[auth1Idx]), "=") {
+				truncatedList = true
+			}
+		}
+
+		if cfg.neverWorse && !truncatedList && origCount > 0 && st.emailCount < origCount {
 			skippedNeverWorse++
 			continue
 		}
@@ -1416,6 +1486,9 @@ func main() {
 		if auth2Idx > maxIdx {
 			maxIdx = auth2Idx
 		}
+		if identsIdx > maxIdx {
+			maxIdx = identsIdx
+		}
 		if commitsIdx > maxIdx {
 			maxIdx = commitsIdx
 		}
@@ -1426,6 +1499,7 @@ func main() {
 		row[auth2Idx] = strconv.Itoa(st.emailCount)
 		row[authIdx] = formatListOrCount(st.emails, cfg.maxListItems, cfg.maxListBytes)
 		row[auth1Idx] = formatListOrCount(st.names, cfg.maxListItems, cfg.maxListBytes)
+		row[identsIdx] = formatListOrCount(st.idents, cfg.maxListItems, cfg.maxListBytes)
 
 		// Update commits, but (by default) never decrease it.
 		if commitsIdx >= 0 {
@@ -1441,6 +1515,44 @@ func main() {
 	if !cfg.quiet {
 		fmt.Printf("enrich_authors: updated=%d skipped(never-worse)=%d failed(fallback to original)=%d\n", updated, skippedNeverWorse, failed)
 	}
+
+	// Ensure all rows have at least header width (especially after appending author_idents).
+	for i, row := range input.rows {
+		for len(row) < len(input.header) {
+			row = append(row, "")
+		}
+		input.rows[i] = row
+	}
+
+	// Sort output by number of authors (desc), then by repo (asc) for stability.
+	rowAuthorsCount := func(row []string) int {
+		if auth2Idx >= 0 && auth2Idx < len(row) {
+			if v, ok := parseCountField(row[auth2Idx]); ok {
+				return v
+			}
+		}
+		if authIdx >= 0 && authIdx < len(row) {
+			if v, ok := countListField(row[authIdx]); ok {
+				return v
+			}
+		}
+		return 0
+	}
+	sort.SliceStable(input.rows, func(i, j int) bool {
+		ai := rowAuthorsCount(input.rows[i])
+		aj := rowAuthorsCount(input.rows[j])
+		if ai != aj {
+			return ai > aj
+		}
+		ri, rj := "", ""
+		if repoIdx >= 0 && repoIdx < len(input.rows[i]) {
+			ri = input.rows[i][repoIdx]
+		}
+		if repoIdx >= 0 && repoIdx < len(input.rows[j]) {
+			rj = input.rows[j][repoIdx]
+		}
+		return strings.ToLower(ri) < strings.ToLower(rj)
+	})
 
 	if err := writeCSV(cfg.outPath, input); err != nil {
 		fmt.Fprintf(os.Stderr, "error writing output CSV: %v\n", err)
