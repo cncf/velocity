@@ -17,6 +17,7 @@ ApacheFriends,XAMPP
 Ar1i/PokemonGo-Bot,PokemonGoF
 AthenZ,Athenz
 AusDTO,Digital Transformation Office
+BrowserWorks,Waterfox
 Cardano-NFTs,CNFT.IO
 CartoDB,CARTO
 ChromeDevTools,Chromium
@@ -432,6 +433,7 @@ magma,Magma
 mantidproject,Mantid
 mapbox,Mapbox
 mapsme,MAPS.ME
+matter-labs,zkSync
 mattermost,Mattermost
 mavlink,MAVLink
 megaease,easegress
@@ -454,6 +456,7 @@ mozilla,Mozilla
 mozilla-services,Mozilla Services
 msm8974-mainline,MSM8974 Mainline
 mui-org,Material-UI
+mullvad,Mullvad
 nats-io,NATS
 nbd168,nbd168 wireless
 networkservicemesh,Network Service Mesh
@@ -470,6 +473,7 @@ oauth2-proxy,OAuth2-Proxy
 odoo,Odoo
 odpi,ODPi
 onap,ONAP
+oneapi-src,Intel oneAPI
 onnx,Open Neural Network Exchange
 opcr-io,OPCR
 open-cluster-management-io,Open Cluster Management
@@ -535,6 +539,7 @@ p4lang,P4 Language
 parallaxsecond,PARSEC
 paralus,Paralus
 perses,Perses
+pgsql-jp,PostgreSQL JPUG
 pingcap,PingCAP
 pipe-cd,PipeCD
 piraeusdatastore,Piraeus-Datastore
@@ -555,7 +560,7 @@ prometheus-community,Prometheus
 pyro-ppl,Pyro
 pyrsia,Pyrsia
 pytorch,pytorch
-qemu-bsd-user,qemu-bsd-user
+qemu-bsd-user,QEMU
 qmk,QMK
 qualcomm,Qualcomm
 qualcomm-linux,Qualcomm Linux
