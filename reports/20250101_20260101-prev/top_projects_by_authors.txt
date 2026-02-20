@@ -1,0 +1,101 @@
+Top projects by authors:
+1) Firebase (firebase.google.com) authors: 5265
+2) Linux (kernel.org) authors: 4939
+3) NixOS (nixos.org) authors: 3566
+4) React (facebook.com) authors: 2822
+5) Kubernetes (kubernetes.io) authors: 2752
+6) Hugging Face (huggingface.co) authors: 2689
+7) LLVM (llvm.org) authors: 2545
+8) Datadog (datadog.com) authors: 2436
+9) pytorch (pytorch.org) authors: 2174
+10) AMD ROCm (rocm.docs.amd.com) authors: 2056
+11) Arm Toolchain (github.com/arm/arm-toolchain) authors: 2036
+12) Grafana Labs (grafana.com) authors: 1865
+13) Home Assistant (home-assistant.io) authors: 1800
+14) dotnet (microsoft.com/net) authors: 1726
+15) ODOO Community Association (odoo-community.org) authors: 1638
+16) Rust (rust-lang.org) authors: 1616
+17) OpenTelemetry (opentelemetry.io) authors: 1493
+18) Model Context Protocol (github.com/modelcontextprotocol) authors: 1451
+19) vLLM (github.com/vllm-project) authors: 1402
+20) DefiLlama (defillama.com) authors: 1395
+21) LangChain (langchain.com) authors: 1334
+22) Homebrew (brew.sh) authors: 1286
+23) VS Code (code.visualstudio.com) authors: 1209
+24) OpenShift (openshift.com) authors: 1117
+25) Zephyr (www.zephyrproject.org) authors: 1115
+26) Flathub (flathub.org) authors: 1100
+27) Azure REST API (github.com/Azure/azure-rest-api-specs) authors: 1054
+28) Ascender (ctrliq.com) authors: 985
+29) Ethereum (ethereum.org) authors: 985
+30) Zed (zed.dev) authors: 972
+31) Vercel (vercel.com) authors: 935
+32) Sentry (sentry.io) authors: 931
+33) Odoo (odoo.com) authors: 928
+34) Jellyfin (jellyfin.org) authors: 928
+35) Lang Genius (github.com/langgenius) authors: 919
+36) Caseflow (va.gov) authors: 888
+37) Shopify (shopify.com) authors: 881
+38) analogdevicesinc authors: 863
+39) jlord/patchwork authors: 858
+40) rdkcentral authors: 830
+41) python (www.python.org) authors: 827
+42) Raycast (raycast.com) authors: 826
+43) NuschtOS authors: 799
+44) Xilinx authors: 794
+45) Raspberry Pi Linux (github.com/raspberrypi/linux) authors: 790
+46) ClickHouse (clickhouse.com) authors: 766
+47) nf-core authors: 751
+48) cloudflare authors: 750
+49) tenstorrent authors: 742
+50) Ansible (ansible.com) authors: 733
+51) OpenAI (openai.com) authors: 725
+52) mouredev/hello-git authors: 716
+53) Matrixx-Devices authors: 713
+54) Google APIs (googleapis.github.io) authors: 712
+55) OpenSearch Project (opensearch.org) authors: 697
+56) leanprover-community authors: 693
+57) Azure SDKs (azure.microsoft.com) authors: 688
+58) Godot Engine (godotengine.org) authors: 686
+59) sgl-project authors: 685
+60) deepin-community authors: 684
+61) Spring (spring.io/projects) authors: 684
+62) bcgov authors: 683
+63) Prometheus (prometheus.io) authors: 679
+64) bioconda (bioconda.github.io) authors: 678
+65) ydb-platform authors: 671
+66) NVIDIA authors: 668
+67) Alibaba (alibaba.com) authors: 664
+68) Argo (argoproj.github.io) authors: 648
+69) web-platform-tests authors: 647
+70) Reqrefusion/FreeCAD-Documentation-Project authors: 645
+71) intel authors: 639
+72) New Relic (opensource.newrelic.com) authors: 633
+73) punkpeye/awesome-mcp-servers authors: 627
+74) Apache Beam (beam.apache.org) authors: 622
+75) TensorFlow (tensorflow.org) authors: 612
+76) Symfony (symfony.com) authors: 608
+77) TanStack authors: 601
+78) Endless-Station authors: 600
+79) R (github.com/r-lib) authors: 598
+80) duckduckgo authors: 595
+81) RedRoverSchool authors: 589
+82) prgrms-web-devcourse-final-project authors: 583
+83) elizaOS authors: 581
+84) BerriAI authors: 580
+85) espressif authors: 580
+86) PrismLauncher authors: 561
+87) COSMOS (cosmos.network) authors: 558
+88) PaddlePaddle (paddlepaddle.org) authors: 558
+89) supabase authors: 556
+90) Bazel (bazel.build) authors: 551
+91) qualcomm-linux authors: 548
+92) Laravel (laravel.com) authors: 548
+93) ethereum-optimism authors: 548
+94) OWASP authors: 547
+95) DefinitelyTyped (definitelytyped.org) authors: 542
+96) Nextcloud (nextcloud.com) authors: 540
+97) Tencent authors: 534
+98) facebookincubator authors: 533
+99) hacs authors: 529
+100) Node.js (nodejs.org) authors: 527

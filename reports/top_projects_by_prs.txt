@@ -1,101 +1,101 @@
 Top projects by prs:
 1) Homebrew (brew.sh) prs: 133928
-2) NixOS (nixos.org) prs: 110545
-3) MetaMask prs: 80633
+2) NixOS (nixos.org) prs: 110573
+3) MetaMask prs: 80628
 4) Linux (kernel.org) prs: 72469
 5) LLVM (llvm.org) prs: 62914
-6) dotnet (microsoft.com/net) prs: 54831
+6) dotnet (microsoft.com/net) prs: 54828
 7) pytorch (pytorch.org) prs: 54544
 8) Odoo (odoo.com) prs: 50381
-9) Sentry (sentry.io) prs: 47925
-10) Datadog (datadog.com) prs: 47783
-11) Grafana Labs (grafana.com) prs: 46781
-12) Rust (rust-lang.org) prs: 38873
-13) Home Assistant (home-assistant.io) prs: 33922
-14) OpenTelemetry (opentelemetry.io) prs: 33166
-15) VS Code (code.visualstudio.com) prs: 32959
-16) Google APIs (googleapis.github.io) prs: 32172
-17) JuliaRegistries prs: 30587
-18) OpenShift (openshift.com) prs: 29995
-19) Kubernetes (kubernetes.io) prs: 29303
-20) Nextcloud (nextcloud.com) prs: 28889
-21) airbytehq prs: 27775
-22) tenstorrent prs: 26776
-23) Flathub (flathub.org) prs: 25866
-24) Hugging Face (huggingface.co) prs: 25703
+9) Datadog (datadog.com) prs: 47759
+10) Grafana Labs (grafana.com) prs: 46842
+11) Sentry (sentry.io) prs: 46812
+12) Rust (rust-lang.org) prs: 38346
+13) Home Assistant (home-assistant.io) prs: 33919
+14) OpenTelemetry (opentelemetry.io) prs: 33165
+15) VS Code (code.visualstudio.com) prs: 32948
+16) Google APIs (googleapis.github.io) prs: 32186
+17) JuliaRegistries prs: 30586
+18) Kubernetes (kubernetes.io) prs: 29284
+19) Nextcloud (nextcloud.com) prs: 28892
+20) airbytehq prs: 27669
+21) OpenShift (openshift.com) prs: 27578
+22) tenstorrent prs: 26821
+23) Flathub (flathub.org) prs: 26011
+24) Hugging Face (huggingface.co) prs: 25737
 25) mochilang prs: 24373
-26) AMD ROCm (rocm.docs.amd.com) prs: 23529
-27) OpenSearch Project (opensearch.org) prs: 23098
-28) bcgov prs: 22693
-29) vLLM (github.com/vllm-project) prs: 22371
-30) TencentBlueKing prs: 21700
-31) PostHog prs: 21614
-32) PaddlePaddle (paddlepaddle.org) prs: 19743
-33) python (www.python.org) prs: 19709
-34) ydb-platform prs: 19584
-35) LangChain (langchain.com) prs: 19162
-36) Caseflow (va.gov) prs: 19117
-37) Azure SDKs (azure.microsoft.com) prs: 19058
-38) Vercel (vercel.com) prs: 18589
+26) AMD ROCm (rocm.docs.amd.com) prs: 23656
+27) OpenSearch Project (opensearch.org) prs: 23094
+28) vLLM (github.com/vllm-project) prs: 22955
+29) bcgov prs: 22644
+30) PostHog prs: 21745
+31) TencentBlueKing prs: 21676
+32) PaddlePaddle (paddlepaddle.org) prs: 19739
+33) python (python.org) prs: 19709
+34) ydb-platform prs: 19582
+35) LangChain (langchain.com) prs: 19130
+36) Caseflow (va.gov) prs: 19115
+37) Azure SDKs (azure.microsoft.com) prs: 19059
+38) Vercel (vercel.com) prs: 18872
 39) apache/doris prs: 17977
-40) camunda prs: 17777
-41) Zephyr (www.zephyrproject.org) prs: 17670
-42) Ansible (ansible.com) prs: 17548
+40) camunda prs: 17845
+41) Zephyr (zephyrproject.org) prs: 17679
+42) Ansible (ansible.com) prs: 17575
 43) metabase prs: 17456
-44) 100-hours-a-week prs: 17428
+44) 100-hours-a-week prs: 17438
 45) Zed (zed.dev) prs: 17048
-46) React (facebook.com) prs: 16977
-47) dfinity prs: 16952
-48) terraform-ibm-modules prs: 16616
-49) rancher prs: 16383
-50) swiftlang prs: 16329
-51) ClickHouse (clickhouse.com) prs: 15614
-52) rdkcentral prs: 15192
-53) Automattic prs: 14867
-54) starkware-libs prs: 14805
-55) sonic-net prs: 14492
-56) frappe prs: 14370
-57) prgrms-web-devcourse-final-project prs: 13931
+46) dfinity prs: 16984
+47) React (facebook.com) prs: 16720
+48) terraform-ibm-modules prs: 16599
+49) rancher prs: 16381
+50) swiftlang prs: 16333
+51) ClickHouse (clickhouse.com) prs: 15646
+52) prgrms-web-devcourse-final-project prs: 15426
+53) rdkcentral prs: 15195
+54) Automattic prs: 15047
+55) starkware-libs prs: 14805
+56) sonic-net prs: 14492
+57) frappe prs: 14370
 58) wolfi-dev prs: 13607
-59) woocommerce prs: 13474
-60) Ethereum (ethereum.org) prs: 13235
+59) woocommerce prs: 13472
+60) Ethereum (ethereum.org) prs: 13240
 61) Cockroach Labs (cockroachlabs.com) prs: 13102
-62) scylladb prs: 13093
-63) stacksjs prs: 13048
+62) stacksjs prs: 13044
+63) scylladb prs: 13007
 64) DefiLlama (defillama.com) prs: 12994
-65) space-wizards prs: 12779
-66) brotherlogic/temp prs: 12707
-67) apache/airflow prs: 12410
-68) equinor prs: 12318
-69) Flutter (flutter.io) prs: 12296
-70) leanprover-community prs: 12054
-71) cloudflare prs: 12053
-72) astral-sh prs: 12019
+65) space-wizards prs: 12776
+66) apache/airflow prs: 12410
+67) equinor prs: 12294
+68) Flutter (flutter.io) prs: 12248
+69) mate-academy prs: 12204
+70) cloudflare prs: 12103
+71) leanprover-community prs: 12051
+72) astral-sh prs: 12013
 73) koii-network prs: 11957
-74) Altinn prs: 11908
+74) Altinn prs: 11904
 75) bioconda (bioconda.github.io) prs: 11875
-76) Godot Engine (godotengine.org) prs: 11873
-77) sgl-project prs: 11851
-78) web-infra-dev prs: 11834
-79) pulumi prs: 11670
-80) gravitational prs: 11569
-81) tscircuit prs: 11557
+76) Godot Engine (godotengine.org) prs: 11866
+77) sgl-project prs: 11865
+78) web-infra-dev prs: 11848
+79) tscircuit prs: 11655
+80) prgrms-be-devcourse prs: 11606
+81) gravitational prs: 11569
 82) truecharts prs: 11549
-83) Lang Genius (github.com/langgenius) prs: 11201
-84) WP Calypso (developer.wordpress.com/calypso) prs: 11164
-85) supabase prs: 10951
-86) woowacourse-teams prs: 10910
-87) openvinotoolkit prs: 10903
-88) ray-project prs: 10861
-89) prgrms-be-devcourse prs: 10823
-90) New Relic (opensource.newrelic.com) prs: 10745
-91) trueforge-org prs: 10670
-92) sul-dlss prs: 10664
-93) Kernel360 prs: 10619
+83) pulumi prs: 11526
+84) Lang Genius (github.com/langgenius) prs: 11213
+85) WP Calypso (developer.wordpress.com/calypso) prs: 11164
+86) supabase prs: 10964
+87) woowacourse-teams prs: 10910
+88) openvinotoolkit prs: 10900
+89) ray-project prs: 10861
+90) mP1 prs: 10753
+91) New Relic (opensource.newrelic.com) prs: 10741
+92) trueforge-org prs: 10727
+93) sul-dlss prs: 10713
 94) bitwarden prs: 10592
-95) ODOO Community Association (odoo-community.org) prs: 10589
-96) StarRocks prs: 10583
-97) Expensify prs: 10379
-98) Brave Software (brave.com) prs: 10373
-99) Netcracker prs: 10263
-100) ethereum-optimism prs: 10243
+95) StarRocks prs: 10583
+96) ODOO Community Association (odoo-community.org) prs: 10581
+97) Kernel360 prs: 10424
+98) Expensify prs: 10379
+99) Brave Software (brave.com) prs: 10366
+100) WSO2 (wso2.github.io) prs: 10287

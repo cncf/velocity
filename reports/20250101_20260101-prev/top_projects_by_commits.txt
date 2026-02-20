@@ -1,0 +1,101 @@
+Top projects by commits:
+1) regro commits: 1377498
+2) qabilm/C commits: 568760
+3) farhan7reza7/hosters commits: 232626
+4) Datadog (datadog.com) commits: 195792
+5) FlashUSDTSenderSoftware commits: 182216
+6) Homebrew (brew.sh) commits: 173929
+7) indmdev/Free-Telegram-Store-Bot commits: 159859
+8) keyper-labs commits: 153002
+9) icelaterdc/icelaterdc commits: 144143
+10) MetaMask commits: 133623
+11) Grafana Labs (grafana.com) commits: 124391
+12) pytorch (pytorch.org) commits: 123917
+13) NixOS (nixos.org) commits: 121407
+14) factiverse commits: 120637
+15) Nextcloud (nextcloud.com) commits: 115721
+16) pkgforge-go commits: 115092
+17) alire-project commits: 114705
+18) tenstorrent commits: 110451
+19) leanprover-community commits: 108724
+20) Google APIs (googleapis.github.io) commits: 102586
+21) Odoo (odoo.com) commits: 99775
+22) dotnet (microsoft.com/net) commits: 97705
+23) Sentry (sentry.io) commits: 97086
+24) openedx commits: 96097
+25) camunda commits: 87966
+26) goeun-oh/Verilog-verification-automation-tool commits: 79379
+27) bcgov commits: 78606
+28) LLVM (llvm.org) commits: 75424
+29) tscircuit commits: 74220
+30) Linux (kernel.org) commits: 72148
+31) SteamAutoCracks commits: 70545
+32) mahsanet commits: 69628
+33) mthcht/awesome-lists commits: 68469
+34) Certegy-Payment-Solutions commits: 67692
+35) cloudflare commits: 63601
+36) PostHog commits: 62931
+37) sigstore-conformance commits: 62875
+38) React (facebook.com) commits: 62173
+39) AMD ROCm (rocm.docs.amd.com) commits: 61887
+40) openfoodfacts commits: 59736
+41) OpenShift (openshift.com) commits: 59259
+42) Caseflow (va.gov) commits: 58951
+43) dfinity commits: 58684
+44) lindnjoe/Sovoron_klipper commits: 55015
+45) airbytehq commits: 54075
+46) Kubernetes (kubernetes.io) commits: 53495
+47) nocodb commits: 52324
+48) woocommerce commits: 52145
+49) elfhosted commits: 51475
+50) Arm Toolchain (github.com/arm/arm-toolchain) commits: 51094
+51) cargo-bins commits: 50582
+52) iobroker-bot-orga commits: 50339
+53) reearth commits: 50301
+54) Rust (rust-lang.org) commits: 49046
+55) ODOO Community Association (odoo-community.org) commits: 48976
+56) OpenTofu (opentofu.org) commits: 46760
+57) Hugging Face (huggingface.co) commits: 45612
+58) zemn-me commits: 45193
+59) pulumi commits: 44645
+60) braze-inc commits: 44639
+61) abdelillahbel/syscall-overflow-research commits: 44472
+62) 100-hours-a-week commits: 44416
+63) Vercel (vercel.com) commits: 44228
+64) smartcontractkit commits: 43786
+65) metabase commits: 42814
+66) ClickHouse (clickhouse.com) commits: 42351
+67) cocopuff2u/MOFA commits: 42264
+68) AdguardTeam commits: 41812
+69) wolfi-dev commits: 41478
+70) prgrms-web-devcourse-final-project commits: 40891
+71) VS Code (code.visualstudio.com) commits: 39831
+72) input-output-hk commits: 38925
+73) Automattic commits: 38460
+74) confluentinc commits: 38370
+75) OpenTelemetry (opentelemetry.io) commits: 37959
+76) zanfranceschi/rinha-de-backend-2025 commits: 37810
+77) ucsb-cs156-s25 commits: 37784
+78) duckduckgo commits: 37783
+79) MystenLabs commits: 37555
+80) Altinn commits: 37426
+81) JohnSnowLabs commits: 37237
+82) IntersectMBO commits: 36776
+83) Government Digital Service (gds.blog.gov.uk) commits: 36105
+84) LedgerHQ commits: 35764
+85) starkware-libs commits: 35704
+86) Expensify commits: 35198
+87) woowacourse-teams commits: 34956
+88) AztecProtocol commits: 34604
+89) it-at-m commits: 34325
+90) 9renpoto/upptime commits: 33980
+91) terraform-ibm-modules commits: 33807
+92) konflux-ci commits: 33732
+93) trezor commits: 33402
+94) ymyuuu/IPDB commits: 33247
+95) ethereum-optimism commits: 33197
+96) prgrms-be-devcourse commits: 32468
+97) CliMA commits: 32325
+98) Brave Software (brave.com) commits: 32311
+99) caliwyr/Software commits: 31999
+100) easylist commits: 31952

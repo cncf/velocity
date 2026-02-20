@@ -2,100 +2,100 @@ Top projects by issues:
 1) mypdns issues: 118942
 2) Linux (kernel.org) issues: 72469
 3) strobes-test issues: 56937
-4) VS Code (code.visualstudio.com) issues: 55917
-5) Caseflow (va.gov) issues: 49668
-6) dotnet (microsoft.com/net) issues: 42752
+4) VS Code (code.visualstudio.com) issues: 55910
+5) Caseflow (va.gov) issues: 49666
+6) dotnet (microsoft.com/net) issues: 45269
 7) Certegy-Payment-Solutions issues: 26590
-8) bcgov issues: 24758
-9) AdguardTeam issues: 24754
+8) bcgov issues: 24909
+9) AdguardTeam issues: 24764
 10) Expensify issues: 22415
 11) HycuOrg1 issues: 21726
-12) tenstorrent issues: 21018
+12) tenstorrent issues: 21148
 13) iptv-org issues: 20813
-14) dmarx/papers-feed issues: 20082
+14) dmarx issues: 20253
 15) LLVM (llvm.org) issues: 18844
-16) Spring (spring.io/projects) issues: 18195
-17) Home Assistant (home-assistant.io) issues: 18183
-18) Flutter (flutter.io) issues: 18120
-19) safe-global issues: 18024
-20) Rust (rust-lang.org) issues: 17571
-21) Cockroach Labs (cockroachlabs.com) issues: 17432
-22) gbif issues: 17028
-23) Kas-tle/java2bedrock.sh issues: 17025
-24) pytorch (pytorch.org) issues: 16688
-25) MetaMask issues: 16174
-26) Lang Genius (github.com/langgenius) issues: 15723
-27) Zed (zed.dev) issues: 15181
-28) AndreiGavriliu/homelab issues: 14538
-29) Grafana Labs (grafana.com) issues: 14417
-30) Sentry (sentry.io) issues: 13943
-31) OpenTelemetry (opentelemetry.io) issues: 13543
-32) Brave Software (brave.com) issues: 13419
-33) Nextcloud (nextcloud.com) issues: 13249
-34) Sjj1024/PakePlus issues: 13246
-35) anthropics issues: 13228
-36) mo9a7i/time_now issues: 13022
-37) RROrg issues: 13001
-38) 100-hours-a-week issues: 12477
-39) NixOS (nixos.org) issues: 12245
-40) Helm (helm.sh) issues: 11870
-41) FDio issues: 11733
-42) 9renpoto/upptime issues: 11603
-43) python (www.python.org) issues: 11508
-44) Hugging Face (huggingface.co) issues: 11350
-45) Kubernetes (kubernetes.io) issues: 11294
-46) Striketing/STR-UTM issues: 11269
-47) WSO2 (wso2.github.io) issues: 11120
-48) React (facebook.com) issues: 11094
-49) camunda issues: 11069
-50) vLLM (github.com/vllm-project) issues: 11013
-51) rancher issues: 10821
+16) gc-lover issues: 18534
+17) Spring (spring.io/projects) issues: 18188
+18) Home Assistant (home-assistant.io) issues: 18182
+19) Flutter (flutter.io) issues: 18123
+20) safe-global issues: 17960
+21) Rust (rust-lang.org) issues: 17519
+22) Cockroach Labs (cockroachlabs.com) issues: 17432
+23) gbif issues: 17027
+24) Kas-tle issues: 17025
+25) pytorch (pytorch.org) issues: 16688
+26) MetaMask issues: 16172
+27) Lang Genius (github.com/langgenius) issues: 15728
+28) Zed (zed.dev) issues: 15181
+29) AndreiGavriliu issues: 14538
+30) Grafana Labs (grafana.com) issues: 14434
+31) OpenTelemetry (opentelemetry.io) issues: 13542
+32) Brave Software (brave.com) issues: 13418
+33) Sentry (sentry.io) issues: 13336
+34) anthropics issues: 13328
+35) Sjj1024 issues: 13262
+36) Nextcloud (nextcloud.com) issues: 13250
+37) mo9a7i issues: 13022
+38) RROrg issues: 13001
+39) 100-hours-a-week issues: 12523
+40) NixOS (nixos.org) issues: 12258
+41) Helm (helm.sh) issues: 11869
+42) FDio issues: 11733
+43) 9renpoto issues: 11603
+44) python (python.org) issues: 11508
+45) Hugging Face (huggingface.co) issues: 11370
+46) camunda issues: 11336
+47) vLLM (github.com/vllm-project) issues: 11312
+48) Kubernetes (kubernetes.io) issues: 11278
+49) Striketing issues: 11269
+50) WSO2 (wso2.github.io) issues: 11130
+51) rancher issues: 10846
 52) ray-project issues: 10735
-53) Google APIs (googleapis.github.io) issues: 10602
-54) astral-sh issues: 10246
-55) google-gemini issues: 10135
-56) CherryHQ issues: 9883
-57) wazuh issues: 9599
-58) Godot Engine (godotengine.org) issues: 9562
-59) cityofaustin issues: 9534
-60) pusimgit/upptime issues: 9331
-61) woowacourse-teams issues: 9259
-62) fleetdm issues: 9114
-63) virtual-labs issues: 9039
-64) euro-cordex issues: 8991
-65) prgrms-web-devcourse-final-project issues: 8978
-66) Altinn issues: 8973
-67) Go (golang.org) issues: 8961
-68) OpenAI (openai.com) issues: 8922
-69) AzharRizkiZ/Zulma-Status issues: 8846
-70) lobner/status issues: 8792
-71) OpenSearch Project (opensearch.org) issues: 8584
-72) woocommerce issues: 8394
-73) oven-sh issues: 8392
-74) zen-browser issues: 8334
-75) Vercel (vercel.com) issues: 8227
-76) frappe issues: 8220
-77) hiero-ledger issues: 8207
-78) ClickHouse (clickhouse.com) issues: 8147
-79) prgrms-be-devcourse issues: 8073
-80) COS301-SE-2025 issues: 8030
-81) ror-community issues: 7927
-82) ydb-platform issues: 7903
-83) ValveSoftware issues: 7670
-84) espressif issues: 7655
-85) Kernel360 issues: 7635
-86) LangChain (langchain.com) issues: 7634
+53) React (facebook.com) issues: 10691
+54) Google APIs (googleapis.github.io) issues: 10619
+55) prgrms-web-devcourse-final-project issues: 10580
+56) astral-sh issues: 10244
+57) google-gemini issues: 10136
+58) CherryHQ issues: 9883
+59) wazuh issues: 9599
+60) Godot Engine (godotengine.org) issues: 9557
+61) cityofaustin issues: 9534
+62) Steake issues: 9349
+63) pusimgit issues: 9331
+64) woowacourse-teams issues: 9265
+65) prgrms-be-devcourse issues: 9224
+66) fleetdm issues: 9114
+67) virtual-labs issues: 9034
+68) OpenAI (openai.com) issues: 9021
+69) euro-cordex issues: 8991
+70) Altinn issues: 8972
+71) Go (golang.org) issues: 8961
+72) AzharRizkiZ issues: 8846
+73) lobner issues: 8792
+74) OpenSearch Project (opensearch.org) issues: 8583
+75) woocommerce issues: 8393
+76) oven-sh issues: 8392
+77) Vercel (vercel.com) issues: 8333
+78) zen-browser issues: 8333
+79) frappe issues: 8220
+80) hiero-ledger issues: 8212
+81) ClickHouse (clickhouse.com) issues: 8174
+82) ValveSoftware issues: 8097
+83) SOPT-all issues: 8041
+84) COS301-SE-2025 issues: 8030
+85) ror-community issues: 7927
+86) ydb-platform issues: 7902
 87) bounswe issues: 7614
-88) BSData issues: 7427
-89) OpenTermsArchive issues: 7411
-90) PowerToys (github.com/microsoft/PowerToys) issues: 7410
-91) FreeCAD issues: 7383
-92) epam issues: 7375
-93) SOPT-all issues: 6955
-94) pulumi issues: 6950
-95) DaoCloud issues: 6891
-96) Dart (dartlang.org) issues: 6777
-97) WordPress (wordpress.org) issues: 6740
-98) BrianCLong/summit issues: 6723
-99) shopware issues: 6620
-100) mastra-ai issues: 6611
+88) OpenTermsArchive issues: 7600
+89) LangChain (langchain.com) issues: 7566
+90) rjwalters issues: 7542
+91) BSData issues: 7501
+92) Kernel360 issues: 7491
+93) PowerToys (github.com/microsoft/PowerToys) issues: 7410
+94) FreeCAD issues: 7382
+95) epam issues: 7374
+96) BrianCLong issues: 6962
+97) pulumi issues: 6905
+98) DaoCloud issues: 6890
+99) Dart (dartlang.org) issues: 6772
+100) WordPress (wordpress.org) issues: 6730

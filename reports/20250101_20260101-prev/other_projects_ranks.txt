@@ -1,0 +1,171 @@
+Apache Beam:
+	#561 by activity (24326)
+	#74 by authors (622)
+	#444 by comments (12669)
+	#1007 by commits (6843)
+	#1077 by issues (1204)
+	#678 by prs (3123)
+	#738 by pushes (7330)
+
+Apache CarbonData:
+	#192971 by activity (56)
+	#208319 by authors (2)
+	#81900 by comments (34)
+	#313608 by commits (4)
+	#164326 by issues (7)
+	#168453 by prs (10)
+	#296330 by pushes (5)
+
+Apache CloudStack:
+	#662 by activity (21639)
+	#2395 by authors (71)
+	#268 by comments (18287)
+	#8182 by commits (1213)
+	#1573 by issues (889)
+	#1895 by prs (1456)
+	#7825 by pushes (1007)
+
+Apache Ignite:
+	#4825 by activity (3909)
+	#5136 by authors (39)
+	#2741 by comments (2604)
+	#28638 by commits (387)
+	#34680 by issues (58)
+	#3661 by prs (818)
+	#19787 by pushes (429)
+
+Apache Lucene/Solr:
+	#20721 by activity (907)
+	#54531 by authors (6)
+	#9403 by comments (640)
+	#131893 by commits (62)
+	#20977 by issues (97)
+	#29860 by prs (108)
+	#112434 by pushes (62)
+
+Apache Mesos:
+	#36027 by activity (507)
+	#20960 by authors (13)
+	#22808 by comments (212)
+	#49385 by commits (223)
+	#200893 by issues (4)
+	#41200 by prs (76)
+	#40040 by pushes (215)
+
+Apache OpenWhisk:
+	#119539 by activity (123)
+	#61877 by authors (6)
+	#48472 by comments (76)
+	#294107 by commits (6)
+	#73898 by issues (24)
+	#150410 by prs (12)
+	#247246 by pushes (11)
+
+Apache Storm:
+	#620 by activity (22745)
+	#84876 by authors (5)
+	#261 by comments (18677)
+	#54002 by commits (202)
+	#230 by issues (3776)
+	#26149 by prs (125)
+	#51025 by pushes (167)
+
+Apache Traffic Server:
+	#4452 by activity (4259)
+	#7848 by authors (28)
+	#2802 by comments (2560)
+	#20404 by commits (535)
+	#10135 by issues (188)
+	#2976 by prs (981)
+	#15851 by pushes (530)
+
+Chromium:
+	#1246 by activity (13313)
+	#850 by authors (153)
+	#1160 by comments (5960)
+	#2499 by commits (3372)
+	#708 by issues (1645)
+	#1041 by prs (2280)
+	#1943 by pushes (3428)
+
+Cloud Foundry:
+	#413 by activity (30359)
+	#169 by authors (401)
+	#559 by comments (10494)
+	#320 by commits (15785)
+	#921 by issues (1343)
+	#353 by prs (4737)
+	#339 by pushes (13785)
+
+FreeBSD:
+	#2300 by activity (7957)
+	#1023 by authors (133)
+	#3479 by comments (2011)
+	#2466 by commits (3403)
+	#2801 by issues (559)
+	#1419 by prs (1832)
+	#1850 by pushes (3555)
+
+Homebrew:
+	#11 by activity (330810)
+	#22 by authors (1286)
+	#29 by comments (86183)
+	#6 by commits (173929)
+	#969 by issues (1301)
+	#1 by prs (133928)
+	#13 by pushes (109398)
+
+LibreOffice:
+	#60652 by activity (289)
+	#15186 by authors (17)
+	#39068 by comments (103)
+	#95248 by commits (101)
+	#40581 by issues (49)
+	#71585 by prs (39)
+	#80085 by pushes (98)
+
+Linux:
+	#2 by activity (566799)
+	#2 by authors (4939)
+	#1 by comments (494651)
+	#30 by commits (72148)
+	#2 by issues (72469)
+	#4 by prs (72469)
+	#11769 by pushes (698)
+
+OpenStack Korean:
+	#36169 by activity (505)
+	#25098 by authors (11)
+	#16645 by comments (317)
+	#83097 by commits (121)
+	#54461 by issues (35)
+	#46742 by prs (66)
+	#87829 by pushes (87)
+
+OpenStack Web:
+	#13715 by activity (1385)
+	#54678 by authors (6)
+	#12636 by comments (447)
+	#11006 by commits (938)
+	#158634 by issues (7)
+	#21857 by prs (150)
+	#10424 by pushes (781)
+
+WebKit:
+	#8007 by activity (2363)
+	#8886 by authors (26)
+	#4142 by comments (1670)
+	#37026 by commits (300)
+	#9152 by issues (206)
+	#10986 by prs (295)
+	#44589 by pushes (192)
+
+openSUSE SaltStack:
+	#59736 by activity (294)
+	#16736 by authors (15)
+	#34959 by comments (120)
+	#54638 by commits (199)
+	#250463 by issues (2)
+	#54471 by prs (55)
+	#69383 by pushes (117)
+
