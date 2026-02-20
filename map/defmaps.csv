@@ -9,6 +9,7 @@ aws,=SKIP
 google,=SKIP
 openSUSE,=SKIP
 w3c,=SKIP
+AFLplusplus,AFL++
 AcademySoftwareFoundation,ASWF
 Adlik,Adlik
 Angel-ML,Angel
@@ -44,8 +45,10 @@ GoogleChrome,Chromium
 HolmesGPT,HolmesGPT
 IBM-Bluemix,IBM Bluemix
 IO Visor Project,IO Visor
+IntelLabs,Intel Labs
 KSP-CKAN,CKAN
 KiFoundation,Ki Foundation
+KomiMoe,Hikari
 Kuadrant,Kuadrant
 KubeStellar,Kubestellar
 KusionStack,KusionStack
@@ -57,6 +60,8 @@ MarlinFirmware,Marlin
 MarquezProject,Project Marquez
 MobileChromeApps,Chromium
 MotionPictureSoftwareFoundation,ASWF Common
+MotorolaMobilityLLC,Motorola Mobility Kernel
+NuschtOS,NuschtOS
 OAI,Open API
 OCA,ODOO Community Association
 ObelusFamily,Anythink Market
@@ -80,7 +85,10 @@ Particular,NServiceBus
 Project-HAMi,HAMi
 RConsortium,RConsortium
 ROCm,AMD ROCm
+RVCK-Project,RVCK Project
+RazeLighter777,RazeLighter777
 ResurrectionRemix,Resurrection Remix
+SELinuxProject,SELinux
 Serverless-Devs,Serverless Devs
 ServerlessTool,Serverless Devs
 SlimPlanet,SlimFaaS
@@ -102,6 +110,7 @@ akka,Akka
 alibaba,Alibaba
 alphagov,Government Digital Service
 ampproject,AMP
+analogdevicesinc,Analog Devices
 ansible,Ansible
 ansible-collections,Ansible
 ant-design,Ant Design
@@ -124,10 +133,12 @@ awsdocs,Amazon Docs
 backstage,Backstage
 bank-vaults,Bank-Vaults
 bazelbuild,Bazel
+beagleboard,BeagleBoard
 betaflight,Betaflight
 bfenetworks,BFE
 boostorg,Boost
 bootc-dev,bootc
+boundarydevices,Boundary Devices
 bpfd-dev,bpfman
 bpfman,bpfman
 brave,Brave Software
@@ -138,6 +149,7 @@ buildpacks,Buildpacks
 buildpacks-community,Buildpacks
 c3os-io,Kairos
 c4cs,Computing for Computer Scientists
+cachix,Cachix
 cadence-workflow,Cadence
 cakephp,CakePHP
 carina-io,Carina
@@ -182,6 +194,7 @@ cockroachdb,Cockroach Labs
 codeaurora-unofficial,Code Aurora
 codecombat,CodeCombat
 composefs,composefs
+compulab-yokneam,CompuLab
 concourse,Concourse
 conda-forge,conda-forge
 confidential-containers,Confidential Containers
@@ -205,6 +218,7 @@ curiefense,Curiefense
 danos,DANOS
 dapr,Dapr
 dart-lang,Dart
+deepin-community,Deepin Community
 denoland,Deno
 department-of-veterans-affairs,Caseflow
 devfile,Devfile
@@ -227,6 +241,7 @@ eclipse,Eclipse
 elastic,Elasticsearch
 elasticsearch,Elasticsearch
 elsys,ELSYS
+embeddedTS,embeddedTS
 emberjs,Ember.js
 emissary-ingress,Emissary-ingress
 envoyproxy,Envoy
@@ -251,6 +266,7 @@ fluxcd,Flux
 fnproject,Oracle Fn
 foniod,Foniod
 fossology,FOSSology
+frank-w,BPI Router Linux
 freebsd,FreeBSD
 freebsd-build-toolkit,FreeBSD
 freebsd-docker,FreeBSD
@@ -294,6 +310,7 @@ influxdata,InfluxData
 influxdb,InfluxDB
 ingraind,Foniod
 inspektor-gadget,Inspektor Gadget
+intel-staging,Intel Staging
 interlink-hq,Interlink
 iotivity,IoTivity
 iovisor,IO Visor
@@ -301,9 +318,11 @@ iron-io,Iron.io
 istio,Istio
 istio-ecosystem,Istio
 jaegertracing,Jaeger
+jeandle,Jeandle
 jellyfin,Jellyfin
 jenkins-x,Jenkins X
 jenkinsci,Jenkins
+jmontleon,Linux Bianbu
 joomla,Joomla
 jsdelivr,jsDelivr
 k0sproject,k0s
@@ -333,8 +352,10 @@ knative,Knative
 knative-extensions,Knative
 knative-sandbox,Knative
 ko-build,ko
+kolyma-labs,Kolyma Labs
 konveyor,Konveyor
 koordinator-sh,Koordinator
+koverstreet,bcachefs
 kptdev,kpt
 krator-rs,Krator
 krkn-chaos,KrknChaos
@@ -393,12 +414,15 @@ lf-edge,LF Edge
 lf-energy,LF Energy
 lfai,LF AI
 lfph,LF Public Health
+libre-computer-project,Libre Computer
 lima-vm,Lima
 linkedin,LinkedIn
 linkerd,Linkerd
 linux-sunxi,Linux sunxi
+linux-surface,Linux Surface
 litmuschaos,LitmusChaos
 llvm,LLVM
+llvm-mos,LLVM-MOS
 loft-sh,DevSpace
 longhorn,Longhorn
 loxilb-io,LoxiLB
@@ -420,6 +444,7 @@ mesosphere,Apache Mesos
 metal3-io,Metal³
 metallb,MetalLB
 meteor,Meteor
+microchip-ung,Microchip Linux
 microcks,Microcks
 mininet,Mininet
 mitodl,MIT Office of Digital Learning
@@ -427,8 +452,10 @@ modelcontextprotocol,Model Context Protocol
 modelpack,ModelPack
 mozilla,Mozilla
 mozilla-services,Mozilla Services
+msm8974-mainline,MSM8974 Mainline
 mui-org,Material-UI
 nats-io,NATS
+nbd168,nbd168 wireless
 networkservicemesh,Network Service Mesh
 neveragaindottech,neveragain.tech
 newrelic,New Relic
@@ -528,7 +555,10 @@ prometheus-community,Prometheus
 pyro-ppl,Pyro
 pyrsia,Pyrsia
 pytorch,pytorch
+qemu-bsd-user,qemu-bsd-user
 qmk,QMK
+qualcomm,Qualcomm
+qualcomm-linux,Qualcomm Linux
 r-lib,R
 rackt,React
 radius-project,Radius
@@ -544,12 +574,15 @@ rerpc,Connect
 rethinkdb,RethinkDB
 riff,Pivotal Riff
 riscv,RISC-V
+rockchip-linux,Rockchip Linux
 rook,Rook
+rubikpi-ai,Rubik Pi
 run-llama,LlamaIndex
 runatlantis,Atlantis
 runmedev,Runme Notebooks
 rust-lang,Rust
 rust-lang-nursery,Rust
+ruyisdk,RuyiSDK
 sakaiproject,Sakai
 saltstack,SaltStack
 schemahero,SchemaHero
@@ -617,6 +650,7 @@ uber,Uber Open Source
 unikraft,Unikraft
 urunc-dev,urunc
 v6d-io,Vineyard
+varigit,Variscite
 vercel,Vercel
 vfx-rs,ASWF Working Group for Rust Bindings
 vgstation-coders,vgstation13
@@ -636,11 +670,13 @@ waxosuit,wasmCloud
 wayfair-tremor,Tremor
 werf,werf
 wireapp,Wire Swiss GmbH
+wirenboard,Wiren Board
 withastro,Astro
 wix,WiX
 wordpress-mobile,WordPress-mobile
 wso2,WSO2
 xbmc,Team Kodi
+xemu-project,xemu
 xen-project,Xen
 xline-kv,Xline
 xregistry,xRegistry

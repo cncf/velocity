@@ -10,7 +10,15 @@ project,url
 A11y,onosproject.org
 ACE,microsoft.github.io/ace
 ACE Mod,acemod.com
-AGL,www.automotivelinux.org
+ADI HDL,wiki.analog.com/resources/fpga/docs/hdl
+ADI Linux,wiki.analog.com/resources/tools-software/linux-software
+ADI MSDK,analog.com/en/design-center/software-and-drivers/maxim-micros/maxim-sdk.html
+ADI Scopy,wiki.analog.com/resources/tools-software/linux-software/scopy
+ADI libiio,wiki.analog.com/resources/tools-software/linux-software/libiio
+ADI no-OS,wiki.analog.com/resources/no-os
+ADI pyadi-iio,wiki.analog.com/resources/tools-software/linux-software/pyadi-iio
+AFL++,aflplus.plus
+AGL,automotivelinux.org
 AI,github.com/microsoft/AI
 AIF360,github.com/IBM/AIF360
 AIX360,github.com/IBM/AIX360
@@ -58,6 +66,7 @@ Alibaba,alibaba.com
 Alluxio,github.com/Alluxio
 Amazon Docs,aws.amazon.com
 Amazon Web Services,aws.amazon.com
+Analog Devices,analog.com
 Anbox Cloud,anbox-cloud.io
 Angel,github.com/Angel-ML
 Angular,angular.io
@@ -72,7 +81,7 @@ Ansys PyAnsys,docs.pyansys.com
 Ansys SCADE,developer.ansys.com/scade
 Ant Design,ant.design
 Antrea,antrea.io
-Anythink Market,www.anythink.market
+Anythink Market,anythink.market
 Apache (other),apache.org
 Apache Ambari,ambari.apache.org
 Apache Beam,beam.apache.org
@@ -131,11 +140,13 @@ Azure-Kinect-Sensor-SDK,github.com/microsoft/Azure-Kinect-Sensor-SDK
 AzureTipsAndTricks,github.com/microsoft/AzureTipsAndTricks
 BFE,bfe-networks.net
 BOSH,bosh.io
+BPI Router Linux,banana-pi.org
 Backstage,backstage.io
 Bank-Vaults,bank-vaults.dev
 BashOnWindows,microsoft.com/en-us/commandline/wsl
 Baystation12,baystation12.net
 Bazel,bazel.build
+BeagleBoard,beagleboard.org
 Betaflight,github.com/betaflight/betaflight/releases
 Big Data Analytic Toolkit,intel.github.io/BDTK
 BizCharts,github.com/alibaba/BizCharts
@@ -143,6 +154,7 @@ Blockly,developers.google.com/blockly
 Bond,github.com/Microsoft/bond
 Boost,boost.org
 BotFramework-Composer,github.com/microsoft/BotFramework-Composer
+Boundary Devices,boundarydevices.com
 Brackets,brackets.io
 Brave Software,brave.com
 Brigade,brigade.sh
@@ -158,7 +170,7 @@ CDF,cd.foundation
 CHAOSS,chaoss.community
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
-CNCF,www.cncf.io
+CNCF,cncf.io
 CNFT.IO,cnft.io
 CNI,github.com/containernetworking
 CNI-Genie,cni-genie.io
@@ -166,6 +178,7 @@ CORD,opencord.org
 COSMOS,cosmos.network
 CRI-O,cri-o.io
 CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
+Cachix,cachix.org
 Cadence,cadenceworkflow.io
 Caffe,github.com/Microsoft/caffe
 CakePHP,cakephp.org
@@ -204,7 +217,7 @@ Chromium,google.com/chrome
 Chromium Blink,chromium.org/blink
 CicadaPlayer,github.com/alibaba/CicadaPlayer
 Cilium,cilium.io
-Civil Infrastructure Platform,www.cip-project.org
+Civil Infrastructure Platform,cip-project.org
 ClickHouse,clickhouse.com
 Closure Library,code.google.com/closure/library
 Cloud Custodian,cloudcustodian.io
@@ -221,9 +234,10 @@ CoHDI,github.com/CoHDI
 Cockroach Labs,cockroachlabs.com
 Cocos2d-js,cocos2d-x.org
 Cocos2d-x,cocos2d-x.org
-Code Aurora,www.codeaurora.org
+Code Aurora,codeaurora.org
 CodeCombat,codecombat.com
 CodePush,codepush.tools
+CompuLab,compulab.com
 ComputerVision,github.com/microsoft/ComputerVision
 Computing for Computer Scientists,c4cs.github.io
 Concourse,concourse-ci.org
@@ -234,7 +248,7 @@ Consumer Financial Protection Bureau,cfpb.github.io
 ContainerSSH,containerssh.io
 Contour,projectcontour.io
 Copacetic,project-copacetic.github.io/copacetic
-Core Infrastructure,www.coreinfrastructure.org
+Core Infrastructure,coreinfrastructure.org
 CoreDNS,coredns.io
 CoreOS,coreos.com
 Corsica,corsica.mozilla.io
@@ -257,6 +271,7 @@ Dapr,dapr.io
 Dart,dartlang.org
 Datadog,datadog.com
 DeepSpeech,github.com/mozilla/DeepSpeech
+Deepin Community,deepin.org
 DefiLlama,defillama.com
 DefinitelyTyped,definitelytyped.org
 Deno,deno.land
@@ -271,7 +286,7 @@ Distribution,github.com/distribution
 Docker,mobyproject.org
 Dragonfly,d7y.io/en-us
 Drasi,drasi.io
-Dronecode,www.dronecode.org
+Dronecode,dronecode.org
 DuckDuckGo,duckduckhack.com
 DuckDuckHack,duckduckhack.com
 Dymension,dymension.xyz
@@ -296,7 +311,7 @@ ElectionGuard,electionguard.vote
 Ember.js,emberjs.com
 Emissary-ingress,getambassador.io
 Encrypted Media Extensions,w3c.github.io/encrypted-media
-Envoy,www.envoyproxy.io
+Envoy,envoyproxy.io
 Enzyme,airbnb.io/enzyme
 Eraser,azure.github.io/eraser
 Error Prone,errorprone.info
@@ -312,7 +327,7 @@ FHIR,github.com/IBM/FHIR
 FINOS,finos.org
 FINOS Symphony,finosfoundation.atlassian.net/wiki/spaces/SYM/overview
 FOSSology,fossology.org
-FabEdge,www.fabedge.io
+FabEdge,fabedge.io
 Facebook Container,github.com/mozilla/contain-facebook
 Falco,falco.org
 Federalist,federalist.18f.gov
@@ -393,6 +408,7 @@ Headlamp,headlamp.dev
 Helm,helm.sh
 Heron,heronstreaming.io
 Hexa Policy Orchestrator,hexaorchestration.org
+Hikari,komi.moe
 HippieStationCode,github.com/HippieStationCode/HippieStation13
 HolmesGPT,holmesgpt.dev
 Home Assistant,home-assistant.io
@@ -423,7 +439,7 @@ IBM watsonx,ibm.com/watsonx
 IBM-Z-zOS,github.com/IBM/IBM-Z-zOS
 ICE,ice.work
 IIS,learn.microsoft.com/iis
-IO Visor,www.iovisor.org
+IO Visor,iovisor.org
 Inclavare Containers,inclavare-containers.io
 Inferno,infernojs.org
 InfluxDB,influxdata.com
@@ -436,20 +452,23 @@ Intel HAXM,github.com/intel/haxm
 Intel HWC2,github.com/intel/IA-Hardware-Composer
 Intel Iot,github.com/intel/intel-iot-refkit
 Intel LLVM,llvm.org
+Intel Labs,labs.intel.com
 Intel Media Driver,github.com/intel/media-driver
 Intel NEMU,github.com/intel/nemu
 Intel Neural Compressor,github.com/intel/neural-compressor
 Intel Open Source Technology Center,01.org
+Intel Staging,github.com/intel-staging
 Intel TPM,github.com/tpm2-software/tpm2-tools
 Intel Web Machine Learning,github.com/intel/webml-polyfill
 Interlink,interwin.eu
-IoTivity,www.iotivity.org
+IoTivity,iotivity.org
 Ionic,ionicframework.com
 Iron.io,iron.io
 Istio,istio.io
 JS Foundation,js.foundation
 Jaeger,jaeger.readthedocs.io/en/latest
 JanusGraph,janusgraph.org
+Jeandle,github.com/jeandle
 Jellyfin,jellyfin.org
 Jenkins,jenkins.io
 Jenkins X,jenkins-x.io
@@ -474,11 +493,12 @@ Keybase,keybase.io
 Keycloak,keycloak.org
 Keylime,keylime.dev
 Ki Foundation,foundation.ki
-Kinetic Open Storage,www.openkinetic.org
+Kinetic Open Storage,openkinetic.org
 Kiota,learn.microsoft.com/openapi/kiota
 KitOps,kitops.ml
 Kmesh,kmesh.net
 Knative,knative.dev
+Kolyma Labs,github.com/kolyma-labs/instances
 Konveyor,konveyor.io
 Koordinator,koordinator.sh
 Krator,docs.rs/krator
@@ -515,6 +535,7 @@ LF Edge,lfedge.org
 LF Energy,lfenergy.org
 LF Public Health,lfph.io
 LLVM,llvm.org
+LLVM-MOS,llvm-mos.org
 LXD,canonical.com/lxd
 Landscape,landscape.canonical.com
 Lang Genius,github.com/langgenius
@@ -522,12 +543,16 @@ LangChain,langchain.com
 Laravel,laravel.com
 League of Extraordinary Packages,thephpleague.com
 Let's Encrypt,letsencrypt.org
+LibAFL,libafl.github.io
+Libre Computer,libre.computer
 Lima,github.com/lima-vm/lima
 Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
 Linkerd,linkerd.io
 Linux,kernel.org
+Linux Bianbu,github.com/jmontleon/linux-bianbu
 Linux Standard Base,linuxbase.org
+Linux Surface,linux-surface.com
 Linux sunxi,linux-sunxi.org
 Liquid,liquidmarkup.org
 LitmusChaos,litmuschaos.io
@@ -554,9 +579,10 @@ MLOps,github.com/microsoft/MLOps
 MLOpsPython,github.com/microsoft/MLOpsPython
 MMdnn,github.com/microsoft/MMdnn
 MNN,github.com/alibaba/MNN
+MSM8974 Mainline,github.com/msm8974-mainline/linux
 Magento,magento.com/home
 Magma,magmacore.org
-Maker.js,http://microsoft.github.io/maker.js
+Maker.js,microsoft.github.io/maker.js
 Malmö,github.com/Microsoft/malmo
 ManageIQ,manageiq.org
 Mantid,mantidproject.org
@@ -574,6 +600,7 @@ Metal³,metal3.io
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
 MicroK8s,microk8s.io
+Microchip Linux,microchip.com/en-us/tools-resources/linux-and-open-source-software
 Microcks,microcks.io
 Microsoft (other),microsoft.com
 Microsoft API,github.com/Microsoft/api-guidelines
@@ -613,6 +640,7 @@ Mininet,mininet.org
 MixedRealityToolkit-Unity,github.com/microsoft/MixedRealityToolkit-Unity
 Model Context Protocol,github.com/modelcontextprotocol
 ModelPack,github.com/CloudNativeAI/model-spec
+Motorola Mobility Kernel,opensource.motorola.com
 MozDef,github.com/mozilla/MozDef
 Mozilla,mozilla.org
 Mozilla Common Voice,voice.mozilla.org
@@ -647,11 +675,12 @@ Node.js,nodejs.org
 Nomad,nomadproject.io
 Notary,github.com/notaryproject
 Nunjucks,mozilla.github.io/nunjucks
+NuschtOS,github.com/NuschtOS
 Nylas,nylas.com
 O-RAN,orna-osc.org
 O3DE,o3de.org
 OAuth2-Proxy,oauth2-proxy.dev
-OCI,www.opencontainers.org
+OCI,opencontainers.org
 ODOO Community Association,odoo-community.org
 ODPi,odpi.org
 ONAP,onap.org
@@ -659,21 +688,21 @@ ONOS,onosproject.org
 OPA,openpolicyagent.org
 OPAM,opam.ocaml.org
 OPCR,openpolicyregistry.io
-OPNFV,www.opnfv.org
+OPNFV,opnfv.org
 ORAS,oras.land
 OVN-Kubernetes,ovn-kubernetes.io
 Odoo,odoo.com
 Office Developer,dev.office.com
 Omex,github.com/microsoft/Omex
-Open API,www.openapis.org
+Open API,openapis.org
 Open Build Service,openbuildservice.org
 Open Cluster Management,open-cluster-management.io
-Open Mainframe,www.openmainframeproject.org
+Open Mainframe,openmainframeproject.org
 Open Management Infrastructure,github.com/Microsoft/omi
-Open Network Automation Platform,www.onap.org
+Open Network Automation Platform,onap.org
 Open Networking Laboratory,opennetworking.org
 Open Neural Network Exchange,onnx.ai
-Open Security Controller,www.opensecuritycontroller.org
+Open Security Controller,opensecuritycontroller.org
 Open Service Mesh,openservicemesh.io
 Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
@@ -684,7 +713,7 @@ OpenAI Triton backend for Intel GPUs,github.com/intel/intel-xpu-backend-for-trit
 OpenBMP,gitter.im/openbmp
 OpenChoreo,openchoreo.dev
 OpenCost,kubecost.com
-OpenDaylight,www.opendaylight.org
+OpenDaylight,opendaylight.org
 OpenEBS,openebs.io
 OpenELB,openelb.github.io
 OpenFGA,openfga.dev
@@ -696,10 +725,10 @@ OpenGrok,oracle.github.io/opengrok
 OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
 OpenKruise,openkruise.io
-OpenMAMA,www.openmama.org
+OpenMAMA,openmama.org
 OpenMetrics,openmetrics.io
 OpenRCT2,openrct2.website
-OpenSDS,www.opensds.io
+OpenSDS,opensds.io
 OpenSSL,openssl.org
 OpenSearch Project,opensearch.org
 OpenShift,openshift.com
@@ -734,7 +763,7 @@ OpenStack Stackalytics,openstack.org
 OpenStack Swift,openstack.org
 OpenStack Tools,openstack.org
 OpenStack Web,openstack.org
-OpenSwitch,www.openswitch.net
+OpenSwitch,openswitch.net
 OpenTelemetry,opentelemetry.io
 OpenTimelineIO,opentimeline.io
 OpenTofu,opentofu.org
@@ -790,7 +819,7 @@ Porter,porter.sh
 Positron,github.com/mozilla/positron
 PouchContainer,pouchcontainer.io
 Power BI,powerbi.microsoft.com
-Power Platform,https://powerplatform.microsoft.com
+Power Platform,powerplatform.microsoft.com
 PowerApps-Samples,github.com/microsoft/PowerApps-Samples
 PowerPlatformConnectors,github.com/microsoft/PowerPlatformConnectors
 PowerShell,microsoft.com/powershell
@@ -808,6 +837,8 @@ Pyrsia,pyrsia.io
 QMK,qmk.fm
 QMK Firmware,qmk.fm
 Qiskit,qiskit.org
+Qualcomm,qualcomm.com/developer
+Qualcomm Linux,qualcomm.com/developer
 Quantum,github.com/microsoft/Quantum
 QuantumKatas,github.com/microsoft/QuantumKatas
 QuantumLibraries,github.com/microsoft/QuantumLibraries
@@ -816,6 +847,7 @@ RConsortium,r-consortium.org
 RDF4J,rdf4j.org
 REASON,facebook.github.io/reason
 RISC-V,riscv.org
+RVCK Project,github.com/RVCK-Project
 Radius,radapp.io
 Rapid7,rapid7.com
 Raspberry Pi Camera,raspberrypi.com/documentation/computers/camera
@@ -829,6 +861,7 @@ Raspberry Pi Pico Tools,raspberrypi.com/documentation/microcontrollers
 Ratify,ratify.dev
 Rax,rax.js.org
 Raycast,raycast.com
+RazeLighter777,github.com/RazeLighter777
 React,facebook.com
 React-Native-Onyx,github.com/Expensify/react-native-onyx
 ReactXP,microsoft.github.io/reactxp
@@ -839,14 +872,17 @@ Recognizers-Text,github.com/microsoft/Recognizers-Text
 Record and Replay Framework,rr-project.org
 RedisShake,github.com/alibaba/RedisShake
 Resurrection Remix,plus.google.com/communities/109352646351468373340
-RethinkDB,www.rethinkdb.com
+RethinkDB,rethinkdb.com
 RobotLocomotion,drake.mit.edu
+Rockchip Linux,opensource.rock-chips.com
 RocketChat,rocket.chat
 RocksDB,rocksdb.org
 Rook,rook.io
+Rubik Pi,github.com/rubikpi-ai
 Ruby on Rails,rubyonrails.org
 Runme Notebooks,runme.dev
 Rust,rust-lang.org
+RuyiSDK,ruyisdk.org
 SAP ABAP,help.sap.com/docs/abap
 SAP AI SDK,developers.sap.com/topics/artificial-intelligence.html
 SAP BTP,btp.sap.com
@@ -863,8 +899,9 @@ SAP Machine,sapmachine.io
 SAP Open Source Portal,sap.github.io
 SAP UI5,ui5.sap.com
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
+SELinux,selinuxproject.org
 SMI,smi-spec.io
-SNAS.io,www.snas.io
+SNAS.io,snas.io
 SODA Foundation,sodafoundation.io
 SOPS,github.com/mozilla/sops
 SPDX,spdx.dev
@@ -963,7 +1000,7 @@ Thrifty,github.com/Microsoft/thrifty
 TiKV,tikv.org
 Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
 Tinkerbell,tinkerbell.org
-Tizen,www.tizen.org
+Tizen,tizen.org
 TokenPocket Lab,tokenpocket.pro
 Tokenetes,tokenetes.io
 Toxiproxy,toxiproxy.io
@@ -999,6 +1036,7 @@ VMware vSphere,vmware.github.io/vic
 VS Code,code.visualstudio.com
 VS Code Kubernetes Tools,github.com/vscode-kubernetes-tools/vscode-kubernetes-tools
 Vagrant,vagrantup.com
+Variscite,variscite.com
 Vault,vaultproject.io
 Vercel,vercel.com
 Vineyard,v6d.io
@@ -1039,6 +1077,7 @@ Windows Diagnostics,learn.microsoft.com/windows-hardware/drivers/debugger
 Windows-Machine-Learning,github.com/microsoft/Windows-Machine-Learning
 Windows-iotcore-samples,github.com/microsoft/Windows-iotcore-samples
 Wire Swiss GmbH,wire.com
+Wiren Board,wirenboard.com
 WordPress,wordpress.org
 WordPress-mobile,make.wordpress.org/mobile
 XAMPP,apachefriends.org
@@ -1057,7 +1096,7 @@ ZJS,github.com/intel/zephyr.js
 Zalando,tech.zalando.com
 Zed,zed.dev
 Zend Framework,framework.zend.com
-Zephyr,www.zephyrproject.org
+Zephyr,zephyrproject.org
 Zowe,zowe.org
 Zuri Chat,zuri.chat
 Zypper,en.opensuse.org/Portal:Zypper
@@ -1094,6 +1133,7 @@ azure-pipelines-yaml,github.com/microsoft/azure-pipelines-yaml
 azure-spring-boot,github.com/microsoft/azure-spring-boot
 azuredatastudio,github.com/microsoft/azuredatastudio
 azuredevopslabs,github.com/microsoft/azuredevopslabs
+bcachefs,bcachefs.org
 bedrock,mozilla.org
 benchmark,github.com/google/benchmark
 bert-stack-overflow,github.com/microsoft/bert-stack-overflow
@@ -1157,6 +1197,7 @@ druid,github.com/alibaba/druid
 easegress,megaease.com/easegress/
 easyexcel,github.com/alibaba/easyexcel
 electron,electronjs.org
+embeddedTS,embeddedts.com
 envoyproxy,github.com/envoyproxy
 eslint,eslint.org
 etcd,coreos.com/etcd
@@ -1178,7 +1219,7 @@ fossasia,fossasia.org
 gRPC,grpc.io
 git,github.com/microsoft/git
 go-sdk-core,github.com/IBM/go-sdk-core
-gocd,www.gocd.org
+gocd,gocd.org
 google-gson,github.com/google/gson
 grcov,github.com/mozilla/grcov
 hacktoberfest17,hacktoberfest.digitalocean.com/eventkit
@@ -1241,6 +1282,7 @@ multi-account-containers,github.com/mozilla/multi-account-containers
 multicloud-operators-subscription,github.com/IBM/multicloud-operators-subscription
 multus-cni,github.com/intel/multus-cni
 navcontainerhelper,github.com/microsoft/navcontainerhelper
+nbd168 wireless,github.com/nbd168/wireless
 neveragain.tech,neveragain.tech
 nicedoc.io,github.com/IBM/nicedoc.io
 nlp,github.com/microsoft/nlp
@@ -1277,11 +1319,12 @@ pxt-adafruit,github.com/microsoft/pxt-adafruit
 pxt-arcade,github.com/microsoft/pxt-arcade
 pxt-maker,github.com/microsoft/pxt-maker
 pyright,github.com/microsoft/pyright
-python,www.python.org
+python,python.org
 python-flask-app,github.com/IBM/python-flask-app
 python-language-server,github.com/microsoft/python-language-server
 python-sdk-core,github.com/IBM/python-sdk-core
 pytorch,pytorch.org
+qemu-bsd-user,github.com/qemu-bsd-user/qemu-bsd-user
 qsharp-compiler,github.com/microsoft/qsharp-compiler
 qsharp-runtime,github.com/microsoft/qsharp-runtime
 react-native,github.com/microsoft/react-native
@@ -1347,6 +1390,7 @@ workload-collocation-agent,github.com/intel/workload-collocation-agent
 worldofbalance,github.com/worldofbalance
 x-deeplearning,github.com/alibaba/x-deeplearning
 xRegistry,xregistry.io
+xemu,xemu.app
 xlang,github.com/microsoft/xlang
 yarn,yarnpkg.com
 zot,zotregistry.io

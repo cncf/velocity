@@ -18,6 +18,8 @@ repo,project
 18F/tock,tock
 18F/web-design-standards,US Web Design Standards
 3scale-labs/authorino,Kuadrant
+AFLplusplus/LibAFL,LibAFL
+AFLplusplus/qemu-libafl-bridge,LibAFL
 AbsaOSS/k8gb,K8GB
 AbsaOSS/ohmyglb,K8GB
 AcademySoftwareFoundation/ColorInterop,ASWF OpenColorIO
@@ -768,6 +770,13 @@ alibaba/uform,uform
 alibaba/v6d,Vineyard
 alibaba/weex-ui,weex-ui
 alibaba/x-deeplearning,x-deeplearning
+analogdevicesinc/hdl,ADI HDL
+analogdevicesinc/libiio,ADI libiio
+analogdevicesinc/linux,ADI Linux
+analogdevicesinc/msdk,ADI MSDK
+analogdevicesinc/no-OS,ADI no-OS
+analogdevicesinc/pyadi-iio,ADI pyadi-iio
+analogdevicesinc/scopy,ADI Scopy
 angular-fullstack/generator-angular-fullstack,Angular
 angular-ui/bootstrap,Angular
 angular-ui/ng-grid,Angular
