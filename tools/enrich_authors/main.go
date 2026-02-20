@@ -37,6 +37,7 @@ import (
 	"flag"
 	"fmt"
 	"io"
+	"mime"
 	"net/http"
 	"net/url"
 	"os"
@@ -720,6 +721,13 @@ func normalizeName(name string) string {
 	name = strings.TrimSpace(name)
 	name = strings.Trim(name, "\"'")
 	name = strings.TrimSpace(name)
+	// Decode RFC 2047 encoded-words that can appear in patch-style metadata
+	// e.g. "=?UTF-8?Q?Finn_B=C3=B6ger?=".
+	if strings.Contains(name, "=?") && strings.Contains(name, "?=") {
+		if dec, err := (&mime.WordDecoder{}).DecodeHeader(name); err == nil {
+			name = dec
+		}
+	}
 	name = stripNameTrash(name)
 	name = collapseSpaces(name)
 	if name == "" {
@@ -1454,6 +1462,26 @@ func computeRepoStats(ctx context.Context, cfg config, tmpRoot string, repo stri
 
 // ---- Row update helpers ----
 
+// parseCountToken parses a truncation token of the form "=123".
+// It returns (n,true) only for strictly numeric tokens; other strings starting with '='
+// (e.g. RFC 2047 "=?UTF-8?...?=") are NOT treated as truncation tokens.
+func parseCountToken(s string) (int, bool) {
+	s = strings.TrimSpace(s)
+	if len(s) < 2 || s[0] != '=' {
+		return 0, false
+	}
+	for i := 1; i < len(s); i++ {
+		if s[i] < '0' || s[i] > '9' {
+			return 0, false
+		}
+	}
+	n, err := strconv.Atoi(s[1:])
+	if err != nil || n < 0 {
+		return 0, false
+	}
+	return n, true
+}
+
 func parseIntStrict(s string) (int, bool) {
 	s = strings.TrimSpace(s)
 	if s == "" {
@@ -1471,8 +1499,8 @@ func parseCountField(s string) (int, bool) {
 	if s == "" {
 		return 0, false
 	}
-	if strings.HasPrefix(s, "=") {
-		return parseIntStrict(strings.TrimPrefix(s, "="))
+	if n, ok := parseCountToken(s); ok {
+		return n, true
 	}
 	return parseIntStrict(s)
 }
@@ -1483,7 +1511,7 @@ func singleListItem(field string) (string, bool) {
 		return "", false
 	}
 	// Truncation tokens ("=N") are not expandable.
-	if strings.HasPrefix(field, "=") {
+	if _, ok := parseCountToken(field); ok {
 		return "", false
 	}
 	var item string
@@ -1538,8 +1566,8 @@ func countListField(field string) (int, bool) {
 	if field == "" {
 		return 0, true
 	}
-	if strings.HasPrefix(field, "=") {
-		return parseIntStrict(strings.TrimPrefix(field, "="))
+	if n, ok := parseCountToken(field); ok {
+		return n, true
 	}
 	parts := strings.Split(field, ",")
 	seen := make(map[string]struct{}, len(parts))
@@ -1953,11 +1981,15 @@ func main() {
 		// real expanded list even if never-worse is enabled.
 		truncatedList := false
 		if cfg.overwriteTruncated {
-			if authIdx < len(row) && strings.HasPrefix(strings.TrimSpace(row[authIdx]), "=") {
-				truncatedList = true
+			if authIdx < len(row) {
+				if _, ok := parseCountToken(row[authIdx]); ok {
+					truncatedList = true
+				}
 			}
-			if auth1Idx < len(row) && strings.HasPrefix(strings.TrimSpace(row[auth1Idx]), "=") {
-				truncatedList = true
+			if auth1Idx < len(row) {
+				if _, ok := parseCountToken(row[auth1Idx]); ok {
+					truncatedList = true
+				}
 			}
 		}
 
