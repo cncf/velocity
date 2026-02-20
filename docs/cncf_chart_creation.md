@@ -60,7 +60,7 @@ If you have all CNCF projects databases locally, you can use old local approach 
 
 You can consider removing `CNCF` project as it is not a real `CNCF` project but internal CNCF foundation orgs analysis entry.
 
-Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/116ZU_ltVkJip7G073ocULHxKhy4F1OgWjNjtZ1IPBWk/edit?usp=sharing).
+Make a copy of the [google sheet](https://docs.google.com/spreadsheets/d/1-NNsw5AH9SFLld6Vu76CSIhgSi0GB-0GuQFFYfrw6_g/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell H1.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
