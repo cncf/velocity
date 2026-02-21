@@ -351,6 +351,170 @@ func newContributorSet() *contributorSet {
 	}
 }
 
+// ---- Bot filtering ----
+//
+// Filter bots out of:
+//   - authors (emails)
+//   - authors_alt1 (names)
+//   - author_idents (Name<email> pairs)
+//   - authors_alt2 (unique contributor emails count)
+//
+// For commit counting (cs.commitCount), we ONLY use author/committer to decide if a commit is a bot commit.
+// We do NOT use trailer contributors for bot-commit classification.
+//
+// Matching is patterned after velocity BigQuery / DevStats style filters (LIKE with '%' wildcards).
+var botExact = map[string]struct{}{
+	// Very common GitHub service identities
+	"github":                    {},
+	"web-flow":                  {},
+	"github-actions":            {},
+	"github action":             {},
+	"github actions":            {},
+	"noreply@github.com":        {},
+	"support@github.com":        {},
+	"action@github.com":         {},
+	"actions@github.com":        {},
+	"github-actions@github.com": {},
+}
+
+var botLike = []string{
+	// Generic bot/robot patterns
+	"%[bot]%",
+	"%[robot]%",
+	"%-bot",
+	"%-robot",
+	"bot-%",
+	"robot-%",
+	"%-bot-%",
+
+	// CI / automation patterns (from BigQuery/DevStats-style rules)
+	"k8s-%",
+	"%-jenkins",
+	"jenkins-%",
+	"travis%bot",
+	"%-gerrit",
+	"%cibot",
+	"%-ci%bot",
+	"%-ci",
+	"%-testing",
+
+	// Common automation tools / services seen in commit identities
+	"%dependabot%",
+	"%renovate%",
+	"%github-actions%",
+	"%codecov%",
+	"%coveralls%",
+	"%imgbot%",
+	"%goreleaser%",
+	"%snyk%",
+	"%semantic-release%",
+	"%claassistant%",
+	"%clabot%",
+	"%cla-bot%",
+
+	// GitHub Copilot account(s) often appear without "[bot]" in email (e.g. "123+copilot@users.noreply...")
+	"%+copilot@",
+	"%copilot%",
+}
+
+func sqlLikeMatch(pattern, s string) bool {
+	p := strings.ToLower(strings.TrimSpace(pattern))
+	v := strings.ToLower(strings.TrimSpace(s))
+	if p == "" || v == "" {
+		return false
+	}
+	if !strings.Contains(p, "%") {
+		return v == p
+	}
+
+	parts := strings.Split(p, "%")
+	anchoredStart := !strings.HasPrefix(p, "%")
+	anchoredEnd := !strings.HasSuffix(p, "%")
+
+	pos := 0
+	startIdx := 0
+	if anchoredStart {
+		first := parts[0]
+		if first != "" && !strings.HasPrefix(v, first) {
+			return false
+		}
+		pos = len(first)
+		startIdx = 1
+	}
+
+	for i := startIdx; i < len(parts); i++ {
+		part := parts[i]
+		if part == "" {
+			continue
+		}
+		j := strings.Index(v[pos:], part)
+		if j < 0 {
+			return false
+		}
+		pos += j + len(part)
+	}
+
+	if anchoredEnd {
+		last := ""
+		for i := len(parts) - 1; i >= 0; i-- {
+			if parts[i] != "" {
+				last = parts[i]
+				break
+			}
+		}
+		if last != "" && !strings.HasSuffix(v, last) {
+			return false
+		}
+	}
+	return true
+}
+
+func isBotIdentity(name, email string) bool {
+	clean := func(s string) string {
+		s = strings.TrimSpace(s)
+		s = strings.Trim(s, "<>")
+		s = strings.TrimSpace(s)
+		return strings.ToLower(s)
+	}
+
+	n := clean(name)
+	e := clean(email)
+
+	cands := make([]string, 0, 8)
+	if n != "" {
+		cands = append(cands, n)
+	}
+	if e != "" {
+		cands = append(cands, e)
+		if at := strings.IndexByte(e, '@'); at > 0 {
+			local := e[:at]
+			dom := e[at+1:]
+			if local != "" {
+				cands = append(cands, local)
+				// GitHub noreply emails are often "12345+login@users.noreply.github.com"
+				if plus := strings.IndexByte(local, '+'); plus >= 0 && plus+1 < len(local) {
+					cands = append(cands, local[plus+1:])
+				}
+			}
+			if dom != "" {
+				cands = append(cands, dom)
+			}
+		}
+	}
+
+	for _, c := range cands {
+		if _, ok := botExact[c]; ok {
+			return true
+		}
+		for _, pat := range botLike {
+			if sqlLikeMatch(pat, c) {
+				return true
+			}
+		}
+	}
+	return false
+}
+
 func collapseSpaces(s string) string {
 	// strings.Fields splits on all Unicode whitespace and collapses runs.
 	parts := strings.Fields(s)
@@ -740,6 +904,9 @@ func normalizeName(name string) string {
 }
 
 func (cs *contributorSet) add(name, email string) {
+	if isBotIdentity(name, email) {
+		return
+	}
 	emailOut := normalizeEmail(email)
 	if emailOut == "" {
 		return
@@ -1345,12 +1512,16 @@ func gitLogContributors(ctx context.Context, cfg config, repoDir string) (*contr
 		if len(parts) < 6 {
 			return
 		}
-		cs.commitCount++
 		an := string(parts[1])
 		ae := string(parts[2])
 		cn := string(parts[3])
 		ce := string(parts[4])
 		msg := string(parts[5])
+		// Commit classification: ignore trailer contributors; check only author/committer.
+		// Conservative choice: drop bot-authored commits; committer-only bot (e.g. GitHub/web UI) is not enough.
+		if !isBotIdentity(an, ae) {
+			cs.commitCount++
+		}
 
 		cs.add(an, ae)
 		cs.add(cn, ce)
