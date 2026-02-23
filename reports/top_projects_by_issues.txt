@@ -2,9 +2,9 @@ Top projects by issues:
 1) mypdns issues: 118942
 2) Linux (kernel.org) issues: 72469
 3) strobes-test issues: 56937
-4) VS Code (code.visualstudio.com) issues: 55910
+4) VS Code (code.visualstudio.com) issues: 55005
 5) Caseflow (va.gov) issues: 49666
-6) dotnet (microsoft.com/net) issues: 45269
+6) dotnet (microsoft.com/net) issues: 41879
 7) Certegy-Payment-Solutions issues: 26590
 8) bcgov issues: 24909
 9) AdguardTeam issues: 24764
@@ -16,7 +16,7 @@ Top projects by issues:
 15) LLVM (llvm.org) issues: 18844
 16) gc-lover issues: 18534
 17) Spring (spring.io/projects) issues: 18188
-18) Home Assistant (home-assistant.io) issues: 18182
+18) Home Assistant (home-assistant.io) issues: 18179
 19) Flutter (flutter.io) issues: 18123
 20) safe-global issues: 17960
 21) Rust (rust-lang.org) issues: 17519
@@ -28,7 +28,7 @@ Top projects by issues:
 27) Lang Genius (github.com/langgenius) issues: 15728
 28) Zed (zed.dev) issues: 15181
 29) AndreiGavriliu issues: 14538
-30) Grafana Labs (grafana.com) issues: 14434
+30) Grafana Labs (grafana.com) issues: 14433
 31) OpenTelemetry (opentelemetry.io) issues: 13542
 32) Brave Software (brave.com) issues: 13418
 33) Sentry (sentry.io) issues: 13336
@@ -46,13 +46,13 @@ Top projects by issues:
 45) Hugging Face (huggingface.co) issues: 11370
 46) camunda issues: 11336
 47) vLLM (github.com/vllm-project) issues: 11312
-48) Kubernetes (kubernetes.io) issues: 11278
+48) Kubernetes (kubernetes.io) issues: 11276
 49) Striketing issues: 11269
 50) WSO2 (wso2.github.io) issues: 11130
 51) rancher issues: 10846
 52) ray-project issues: 10735
 53) React (facebook.com) issues: 10691
-54) Google APIs (googleapis.github.io) issues: 10619
+54) Google APIs (googleapis.github.io) issues: 10617
 55) prgrms-web-devcourse-final-project issues: 10580
 56) astral-sh issues: 10244
 57) google-gemini issues: 10136
@@ -68,8 +68,8 @@ Top projects by issues:
 67) virtual-labs issues: 9034
 68) OpenAI (openai.com) issues: 9021
 69) euro-cordex issues: 8991
-70) Altinn issues: 8972
-71) Go (golang.org) issues: 8961
+70) Go (golang.org) issues: 8961
+71) Altinn issues: 8859
 72) AzharRizkiZ issues: 8846
 73) lobner issues: 8792
 74) OpenSearch Project (opensearch.org) issues: 8583
@@ -92,8 +92,8 @@ Top projects by issues:
 91) BSData issues: 7501
 92) Kernel360 issues: 7491
 93) PowerToys (github.com/microsoft/PowerToys) issues: 7410
-94) FreeCAD issues: 7382
-95) epam issues: 7374
+94) epam issues: 7374
+95) FreeCAD issues: 7334
 96) BrianCLong issues: 6962
 97) pulumi issues: 6905
 98) DaoCloud issues: 6890

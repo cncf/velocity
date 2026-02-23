@@ -1,29 +1,29 @@
 Top projects by comments:
 1) Linux (kernel.org) comments: 494651
 2) LLVM (llvm.org) comments: 349604
-3) dotnet (microsoft.com/net) comments: 327041
-4) Kubernetes (kubernetes.io) comments: 294003
+3) dotnet (microsoft.com/net) comments: 325400
+4) Kubernetes (kubernetes.io) comments: 293999
 5) NixOS (nixos.org) comments: 255373
 6) pytorch (pytorch.org) comments: 204164
 7) Rust (rust-lang.org) comments: 194917
 8) MetaMask comments: 176337
 9) Odoo (odoo.com) comments: 174800
 10) OpenShift (openshift.com) comments: 169295
-11) Home Assistant (home-assistant.io) comments: 166750
+11) Home Assistant (home-assistant.io) comments: 166722
 12) Expensify comments: 165206
 13) Datadog (datadog.com) comments: 159291
 14) tenstorrent comments: 141178
 15) OpenTelemetry (opentelemetry.io) comments: 141128
 16) Zephyr (zephyrproject.org) comments: 137321
-17) VS Code (code.visualstudio.com) comments: 134401
+17) VS Code (code.visualstudio.com) comments: 132534
 18) vLLM (github.com/vllm-project) comments: 130638
 19) Hugging Face (huggingface.co) comments: 125890
-20) Grafana Labs (grafana.com) comments: 123149
+20) Grafana Labs (grafana.com) comments: 123133
 21) Sentry (sentry.io) comments: 121697
 22) OpenSearch Project (opensearch.org) comments: 110849
 23) Caseflow (va.gov) comments: 101924
-24) Flathub (flathub.org) comments: 92563
-25) Google APIs (googleapis.github.io) comments: 91199
+24) Flathub (flathub.org) comments: 92457
+25) Google APIs (googleapis.github.io) comments: 90747
 26) python (python.org) comments: 89192
 27) Cockroach Labs (cockroachlabs.com) comments: 88685
 28) leanprover-community comments: 87391
@@ -59,7 +59,7 @@ Top projects by comments:
 58) Ansible (ansible.com) comments: 48507
 59) NVIDIA CUDA (developer.nvidia.com/cuda-toolkit) comments: 47904
 60) space-wizards comments: 47151
-61) Automattic comments: 45168
+61) Automattic comments: 45099
 62) redpanda-data comments: 44616
 63) hiero-ledger comments: 44555
 64) ClickHouse (clickhouse.com) comments: 43771
@@ -73,7 +73,7 @@ Top projects by comments:
 72) PennyLaneAI comments: 41612
 73) woowacourse-teams comments: 41442
 74) CMS Offline Software (cms-sw.github.io) comments: 41219
-75) sgl-project comments: 41128
+75) SGLang (sglang.io) comments: 41128
 76) starkware-libs comments: 40708
 77) Cilium (cilium.io) comments: 40455
 78) WordPress (wordpress.org) comments: 39862
@@ -90,7 +90,7 @@ Top projects by comments:
 89) openedx comments: 34671
 90) mui comments: 34670
 91) LangChain (langchain.com) comments: 34429
-92) paritytech comments: 34400
+92) paritytech comments: 34388
 93) Mattermost (mattermost.org) comments: 34257
 94) software-mansion comments: 34215
 95) n8n-io comments: 33976
@@ -98,4 +98,4 @@ Top projects by comments:
 97) Go (golang.org) comments: 33637
 98) nf-core comments: 33539
 99) valkey-io comments: 33254
-100) FreeCAD comments: 33169
+100) FreeCAD comments: 32773

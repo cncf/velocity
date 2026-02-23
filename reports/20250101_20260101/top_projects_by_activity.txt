@@ -1,21 +1,21 @@
 Top projects by activity:
 1) Linux (kernel.org) activity: 566799
 2) LLVM (llvm.org) activity: 497805
-3) dotnet (microsoft.com/net) activity: 490674
+3) dotnet (microsoft.com/net) activity: 485624
 4) pytorch (pytorch.org) activity: 432721
 5) NixOS (nixos.org) activity: 420814
 6) MetaMask activity: 401540
-7) Kubernetes (kubernetes.io) activity: 368785
+7) Kubernetes (kubernetes.io) activity: 368778
 8) Datadog (datadog.com) activity: 334021
 9) Odoo (odoo.com) activity: 332400
 10) tenstorrent activity: 281735
-11) Grafana Labs (grafana.com) activity: 271283
+11) Grafana Labs (grafana.com) activity: 271250
 12) Sentry (sentry.io) activity: 266462
 13) Homebrew (brew.sh) activity: 266159
 14) Rust (rust-lang.org) activity: 265966
 15) indmdev activity: 259339
-16) VS Code (code.visualstudio.com) activity: 257322
-17) Home Assistant (home-assistant.io) activity: 245245
+16) VS Code (code.visualstudio.com) activity: 254520
+17) Home Assistant (home-assistant.io) activity: 245164
 18) farhan7reza7 activity: 233578
 19) Caseflow (va.gov) activity: 229933
 20) OpenTelemetry (opentelemetry.io) activity: 228171
@@ -24,13 +24,13 @@ Top projects by activity:
 23) Hugging Face (huggingface.co) activity: 201224
 24) Nextcloud (nextcloud.com) activity: 182033
 25) vLLM (github.com/vllm-project) activity: 180915
-26) Google APIs (googleapis.github.io) activity: 172739
+26) Google APIs (googleapis.github.io) activity: 172275
 27) Zephyr (zephyrproject.org) activity: 168537
 28) AMD ROCm (rocm.docs.amd.com) activity: 168448
 29) bcgov activity: 156225
 30) OpenSearch Project (opensearch.org) activity: 155458
-31) Flathub (flathub.org) activity: 136935
-32) PostHog activity: 136922
+31) PostHog activity: 136922
+32) Flathub (flathub.org) activity: 136807
 33) leanprover-community activity: 131130
 34) python (python.org) activity: 130265
 35) camunda activity: 126456
@@ -42,60 +42,60 @@ Top projects by activity:
 41) woocommerce activity: 107943
 42) Flutter (flutter.io) activity: 106734
 43) SteamAutoCracks activity: 104479
-44) airbytehq activity: 103883
-45) scylladb activity: 102553
-46) dfinity activity: 100936
-47) ydb-platform activity: 100736
-48) ray-project activity: 100502
-49) astral-sh activity: 98928
-50) swiftlang activity: 98762
-51) Godot Engine (godotengine.org) activity: 98427
-52) sonic-net activity: 97252
-53) Brave Software (brave.com) activity: 95416
-54) Automattic activity: 93864
-55) TensorRT-LLM (nvidia.github.io/TensorRT-LLM) activity: 92521
-56) metabase activity: 92384
-57) starkware-libs activity: 92323
-58) apache/doris activity: 90529
-59) WP Calypso (developer.wordpress.com/calypso) activity: 89616
-60) ClickHouse (clickhouse.com) activity: 86675
-61) Zed (zed.dev) activity: 86071
-62) mahsanet activity: 84954
-63) hiero-ledger activity: 84748
-64) Ansible (ansible.com) activity: 84742
-65) LangChain (langchain.com) activity: 84530
-66) rancher activity: 83379
-67) bitwarden activity: 81657
-68) woowacourse-teams activity: 81058
-69) apache/airflow activity: 80744
-70) cloudflare activity: 79511
-71) AdguardTeam activity: 78550
-72) React (facebook.com) activity: 78336
-73) Ethereum (ethereum.org) activity: 76480
-74) ODOO Community Association (odoo-community.org) activity: 75596
-75) PaddlePaddle (paddlepaddle.org) activity: 75449
-76) n8n-io activity: 74728
-77) ethereum-optimism activity: 73254
-78) Altinn activity: 73242
-79) sgl-project activity: 71893
-80) AztecProtocol activity: 71381
-81) PingCAP (github.com/pingcap) activity: 71293
-82) PennyLaneAI activity: 70660
-83) software-mansion activity: 69017
-84) Lang Genius (github.com/langgenius) activity: 68969
-85) fleetdm activity: 68818
-86) openvinotoolkit activity: 68801
-87) Node.js (nodejs.org) activity: 68425
-88) space-wizards activity: 68300
-89) prgrms-web-devcourse-final-project activity: 68287
-90) rapidsai activity: 67756
-91) WordPress (wordpress.org) activity: 67623
-92) gravitational activity: 67217
-93) rdkcentral activity: 67083
-94) NVIDIA CUDA (developer.nvidia.com/cuda-toolkit) activity: 66086
-95) redpanda-data activity: 65135
-96) smartcontractkit activity: 64449
-97) Cilium (cilium.io) activity: 64374
-98) 100-hours-a-week activity: 64284
-99) equinor activity: 64241
-100) juspay activity: 63880
+44) scylladb activity: 102553
+45) dfinity activity: 100936
+46) ydb-platform activity: 100736
+47) ray-project activity: 100502
+48) astral-sh activity: 98928
+49) swiftlang activity: 98762
+50) Godot Engine (godotengine.org) activity: 98427
+51) sonic-net activity: 97252
+52) Brave Software (brave.com) activity: 95416
+53) Automattic activity: 93649
+54) TensorRT-LLM (nvidia.github.io/TensorRT-LLM) activity: 92521
+55) metabase activity: 92384
+56) starkware-libs activity: 92323
+57) apache/doris activity: 90529
+58) WP Calypso (developer.wordpress.com/calypso) activity: 89616
+59) ClickHouse (clickhouse.com) activity: 86675
+60) Zed (zed.dev) activity: 86071
+61) mahsanet activity: 84954
+62) hiero-ledger activity: 84748
+63) Ansible (ansible.com) activity: 84742
+64) LangChain (langchain.com) activity: 84530
+65) rancher activity: 83379
+66) bitwarden activity: 81657
+67) woowacourse-teams activity: 81058
+68) apache/airflow activity: 80744
+69) cloudflare activity: 79511
+70) AdguardTeam activity: 78550
+71) React (facebook.com) activity: 78336
+72) Ethereum (ethereum.org) activity: 76480
+73) ODOO Community Association (odoo-community.org) activity: 75596
+74) PaddlePaddle (paddlepaddle.org) activity: 75449
+75) n8n-io activity: 74728
+76) ethereum-optimism activity: 73254
+77) Altinn activity: 73075
+78) SGLang (sglang.io) activity: 71893
+79) PingCAP (github.com/pingcap) activity: 71293
+80) PennyLaneAI activity: 70660
+81) AztecProtocol activity: 70233
+82) software-mansion activity: 69017
+83) Lang Genius (github.com/langgenius) activity: 68969
+84) fleetdm activity: 68818
+85) openvinotoolkit activity: 68801
+86) Node.js (nodejs.org) activity: 68425
+87) space-wizards activity: 68300
+88) prgrms-web-devcourse-final-project activity: 68287
+89) rapidsai activity: 67756
+90) WordPress (wordpress.org) activity: 67623
+91) gravitational activity: 67217
+92) rdkcentral activity: 67083
+93) NVIDIA CUDA (developer.nvidia.com/cuda-toolkit) activity: 66086
+94) redpanda-data activity: 65135
+95) smartcontractkit activity: 64449
+96) Cilium (cilium.io) activity: 64374
+97) 100-hours-a-week activity: 64284
+98) equinor activity: 64241
+99) juspay activity: 63880
+100) TencentBlueKing activity: 63774

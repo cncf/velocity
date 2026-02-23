@@ -1,101 +1,101 @@
 Top projects by authors:
-1) Linux (kernel.org) authors: 68896
-2) RVCK Project (github.com/RVCK-Project) authors: 9431
-3) RuyiSDK (ruyisdk.org) authors: 7746
-4) QEMU (qemu.org) authors: 6406
-5) LibAFL (libafl.github.io) authors: 6348
-6) xemu (xemu.app) authors: 6291
-7) NixOS (nixos.org) authors: 5279
-8) NuschtOS (github.com/NuschtOS) authors: 4972
-9) Cachix (cachix.org) authors: 4913
-10) Kubernetes (kubernetes.io) authors: 4123
-11) Cilium (cilium.io) authors: 3975
-12) Hugging Face (huggingface.co) authors: 3751
-13) React (facebook.com) authors: 3440
-14) LLVM (llvm.org) authors: 3407
-15) vLLM (github.com/vllm-project) authors: 3407
-16) AMD ROCm (rocm.docs.amd.com) authors: 3258
-17) Qualcomm (qualcomm.com/developer) authors: 3077
-18) Arm Toolchain (github.com/arm/arm-toolchain) authors: 3000
-19) Hikari (komi.moe) authors: 2990
-20) LLVM-MOS (llvm-mos.org) authors: 2988
-21) Jeandle (github.com/jeandle) authors: 2983
-22) Home Assistant (home-assistant.io) authors: 2927
-23) Datadog (datadog.com) authors: 2777
-24) pytorch (pytorch.org) authors: 2728
-25) zkSync (zksync.io) authors: 2529
-26) dotnet (microsoft.com/net) authors: 2468
-27) DefiLlama (defillama.com) authors: 2446
-28) Grafana Labs (grafana.com) authors: 2434
-29) Intel oneAPI (oneapi.io) authors: 2426
-30) ODOO Community Association (odoo-community.org) authors: 2388
-31) Rust (rust-lang.org) authors: 2129
-32) Model Context Protocol (github.com/modelcontextprotocol) authors: 2122
-33) FreeBSD (freebsd.org) authors: 2111
-34) OpenTelemetry (opentelemetry.io) authors: 2111
-35) OpenCilk (opencilk.org) authors: 2099
-36) PostgreSQL JPUG (postgresql.jp) authors: 2043
-37) ApsaraDB (alibabacloud.com/product/polardb) authors: 2039
-38) orioledb (orioledb.com) authors: 2034
-39) Xilinx (xilinx.com) authors: 2033
-40) barebox (barebox.org) authors: 2028
-41) crdroidandroid (crdroid.net) authors: 1956
-42) LangChain (langchain.com) authors: 1946
-43) SAP (github.com/SAP) authors: 1865
-44) IvorySQL (ivorysql.org) authors: 1856
-45) Homebrew (brew.sh) authors: 1812
-46) Mullvad (mullvad.net) authors: 1740
-47) Waterfox (waterfox.com) authors: 1729
-48) VS Code (code.visualstudio.com) authors: 1697
-49) Zed (zed.dev) authors: 1679
-50) Zephyr (zephyrproject.org) authors: 1553
-51) BPI Router Linux (banana-pi.org) authors: 1510
-52) sgl-project authors: 1509
-53) Vercel (vercel.com) authors: 1468
-54) unifreq authors: 1460
-55) AsahiLinux authors: 1448
-56) Raycast (raycast.com) authors: 1422
-57) Lang Genius (github.com/langgenius) authors: 1421
-58) 25ji-Telegram-de authors: 1405
-59) Azure REST API (github.com/Azure/azure-rest-api-specs) authors: 1390
-60) ferrocene authors: 1331
-61) OpenWrt (openwrt.org) authors: 1306
-62) NVIDIA authors: 1291
-63) Ethereum (ethereum.org) authors: 1288
-64) python (python.org) authors: 1283
-65) Flathub (flathub.org) authors: 1276
-66) immich-app authors: 1260
-67) CHERIoT-Platform authors: 1241
-68) OpenSearch Project (opensearch.org) authors: 1241
-69) Jellyfin (jellyfin.org) authors: 1228
-70) Alibaba (alibaba.com) authors: 1224
-71) inference-sim authors: 1213
-72) Azure SDKs (azure.microsoft.com) authors: 1195
-73) cloudflare authors: 1181
-74) web-platform-tests authors: 1173
-75) Sentry (sentry.io) authors: 1173
-76) OpenAI (openai.com) authors: 1150
-77) Ansible (ansible.com) authors: 1142
-78) Odoo (odoo.com) authors: 1135
-79) jlord authors: 1130
-80) punkpeye authors: 1125
-81) rdkcentral authors: 1120
-82) Prometheus (prometheus.io) authors: 1118
-83) OpenShift (openshift.com) authors: 1102
-84) Shopify (shopify.com) authors: 1097
-85) HabanaAI authors: 1083
-86) ClickHouse (clickhouse.com) authors: 1069
-87) WordPress (wordpress.org) authors: 1067
-88) NVIDIA-NeMo authors: 1060
-89) Spring (spring.io/projects) authors: 1060
-90) Argo (argoproj.github.io) authors: 1054
-91) Godot Engine (godotengine.org) authors: 1028
-92) ethereum-optimism authors: 1023
-93) mozilla-l10n authors: 1019
-94) Google APIs (googleapis.github.io) authors: 1018
-95) facebookincubator authors: 1017
-96) Apache Beam (beam.apache.org) authors: 1008
-97) Caseflow (va.gov) authors: 1005
-98) Goob-Station authors: 996
-99) Teslemetry authors: 985
-100) volcengine authors: 977
+1) Linux (kernel.org) authors: 68899
+2) RVCK Project (github.com/RVCK-Project) authors: 9428
+3) QEMU (qemu.org) authors: 6417
+4) LibAFL (libafl.github.io) authors: 6343
+5) xemu (xemu.app) authors: 6296
+6) NixOS (nixos.org) authors: 5182
+7) NuschtOS (github.com/NuschtOS) authors: 4888
+8) Cachix (cachix.org) authors: 4829
+9) Kubernetes (kubernetes.io) authors: 4195
+10) Cilium (cilium.io) authors: 3961
+11) Hugging Face (huggingface.co) authors: 3738
+12) React (facebook.com) authors: 3407
+13) vLLM (github.com/vllm-project) authors: 3383
+14) LLVM (llvm.org) authors: 3379
+15) AMD ROCm (rocm.docs.amd.com) authors: 3230
+16) Qualcomm (qualcomm.com/developer) authors: 3054
+17) Arm Toolchain (github.com/arm/arm-toolchain) authors: 2976
+18) Hikari (komi.moe) authors: 2966
+19) Jeandle (github.com/jeandle) authors: 2965
+20) Home Assistant (home-assistant.io) authors: 2854
+21) pytorch (pytorch.org) authors: 2733
+22) Datadog (datadog.com) authors: 2711
+23) zkSync (zksync.io) authors: 2505
+24) DefiLlama (defillama.com) authors: 2437
+25) dotnet (microsoft.com/net) authors: 2426
+26) Intel oneAPI (oneapi.io) authors: 2411
+27) ODOO Community Association (odoo-community.org) authors: 2377
+28) Grafana Labs (grafana.com) authors: 2361
+29) FreeBSD (freebsd.org) authors: 2101
+30) Model Context Protocol (github.com/modelcontextprotocol) authors: 2095
+31) OpenCilk (opencilk.org) authors: 2087
+32) Rust (rust-lang.org) authors: 2086
+33) OpenTelemetry (opentelemetry.io) authors: 2083
+34) PostgreSQL JPUG (postgresql.jp) authors: 2040
+35) ApsaraDB (alibabacloud.com/product/polardb) authors: 2036
+36) orioledb (orioledb.com) authors: 2031
+37) barebox (barebox.org) authors: 2028
+38) Xilinx (xilinx.com) authors: 2026
+39) crdroidandroid (crdroid.net) authors: 1953
+40) LangChain (langchain.com) authors: 1913
+41) IvorySQL (ivorysql.org) authors: 1853
+42) SAP (github.com/SAP) authors: 1844
+43) Homebrew (brew.sh) authors: 1776
+44) Mullvad (mullvad.net) authors: 1731
+45) Waterfox (waterfox.com) authors: 1720
+46) VS Code (code.visualstudio.com) authors: 1667
+47) Zed (zed.dev) authors: 1652
+48) Zephyr (zephyrproject.org) authors: 1545
+49) BPI Router Linux (banana-pi.org) authors: 1508
+50) SGLang (sglang.io) authors: 1494
+51) Flippy OpenWrt (github.com/unifreq/openwrt_packit) authors: 1459
+52) AsahiLinux authors: 1442
+53) Vercel (vercel.com) authors: 1436
+54) 25ji-Telegram-de authors: 1403
+55) Lang Genius (github.com/langgenius) authors: 1403
+56) Raycast (raycast.com) authors: 1393
+57) Azure REST API (github.com/Azure/azure-rest-api-specs) authors: 1376
+58) ferrocene authors: 1305
+59) OpenWrt (openwrt.org) authors: 1284
+60) NVIDIA authors: 1276
+61) Ethereum (ethereum.org) authors: 1266
+62) python (python.org) authors: 1254
+63) Flathub (flathub.org) authors: 1249
+64) immich-app authors: 1243
+65) OpenSearch Project (opensearch.org) authors: 1221
+66) CHERIoT-Platform authors: 1217
+67) Alibaba (alibaba.com) authors: 1210
+68) Jellyfin (jellyfin.org) authors: 1208
+69) inference-sim authors: 1202
+70) Azure SDKs (azure.microsoft.com) authors: 1182
+71) web-platform-tests authors: 1158
+72) cloudflare authors: 1146
+73) Odoo (odoo.com) authors: 1131
+74) jlord authors: 1130
+75) OpenAI (openai.com) authors: 1130
+76) punkpeye authors: 1117
+77) Sentry (sentry.io) authors: 1114
+78) rdkcentral authors: 1109
+79) Prometheus (prometheus.io) authors: 1108
+80) Ansible (ansible.com) authors: 1106
+81) OpenShift (openshift.com) authors: 1079
+82) HabanaAI authors: 1075
+83) Shopify (shopify.com) authors: 1071
+84) WordPress (wordpress.org) authors: 1053
+85) Spring (spring.io/projects) authors: 1047
+86) ClickHouse (clickhouse.com) authors: 1042
+87) Argo (argoproj.github.io) authors: 1041
+88) NVIDIA-NeMo authors: 1040
+89) Godot Engine (godotengine.org) authors: 1021
+90) mozilla-l10n authors: 1013
+91) facebookincubator authors: 1006
+92) ethereum-optimism authors: 1004
+93) Apache Beam (beam.apache.org) authors: 1001
+94) Caseflow (va.gov) authors: 987
+95) Goob-Station authors: 982
+96) Google APIs (googleapis.github.io) authors: 978
+97) volcengine authors: 970
+98) Android-Artisan authors: 964
+99) 99degree authors: 961
+100) Teslemetry authors: 960
