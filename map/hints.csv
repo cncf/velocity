@@ -1013,15 +1013,15 @@ aws/aws-sdk-ruby,AWS SDKs
 aws/aws-sdk-ruby-record,AWS SDKs
 awslabs/aws-sam-cli,AWS SAM
 awslabs/aws-sam-local,AWS SAM
-awslabs/cdk8s,Cloud Development Kit for Kubernetes
+awslabs/cdk8s,cdk8s
 awslabs/serverless-application-model,AWS SAM
 baidu/bfe,BFE
 banzaicloud/bank-vaults,Bank-Vaults
 banzaicloud/logging-operator,Logging Operator
 banzaicloud/vault-dogsbody,Bank-Vaults
 brunopulis/awesome-a11y,A11y
-bufbuild/connect-go,Connect
-bufbuild/rerpc,Connect
+bufbuild/connect-go,Connect RPC
+bufbuild/rerpc,Connect RPC
 callemall/material-ui,Material-UI
 canonical/alertmanager-k8s-operator,Canonical Observability
 canonical/anbox-cloud.io,Anbox Cloud
@@ -1121,8 +1121,8 @@ clastix/capsule-proxy,Capsule
 clastix/ckd-capsule-app,Capsule
 clastix/clastix/capsule-lens-extension,Capsule
 clastix/flux2-capsule-multi-tenancy,Capsule
-cloud-bulldozer/kraken,KrknChaos
-cloud-bulldozer/krkn,KrknChaos
+cloud-bulldozer/kraken,krkn
+cloud-bulldozer/krkn,krkn
 cloud-bulldozer/kube-burner,kube-burner
 cloud-bulldozer/rosa-burner,kube-burner
 cloudimmunity/docker-slim,SlimToolkit
@@ -2785,8 +2785,8 @@ opensecuritycontroller/sdn-controller-nsc-plugin,Open Security Controller
 opensecuritycontroller/sdn-controller-nsfc-plugin,Open Security Controller
 opensecuritycontroller/security-mgr-api,Open Security Controller
 opensecuritycontroller/security-mgr-sample-plugin,Open Security Controller
-openshift/kraken,KrknChaos
-openshift/krkn,KrknChaos
+openshift/kraken,krkn
+openshift/krkn,krkn
 openstack-charmers/charm-glance-simplestreams-sync,OpenStack Glance
 openstack-charmers/charm-interface-keystone,OpenStack Keystone
 openstack-charmers/charm-interface-keystone-domain-backend,OpenStack Keystone
@@ -3269,7 +3269,7 @@ redhat-developer/buildv2,Shipwright
 redhat-developer/buildv2-operator,Shipwright
 redhat-et/bpfd,bpfman
 redsift/ingraind,Foniod
-rerpc/rerpc,Connect
+rerpc/rerpc,Connect RPC
 rethinkdb/aspnet-signalr-chat,RethinkDB
 rethinkdb/docs,RethinkDB
 rethinkdb/elasticsearch-river-rethinkdb,RethinkDB

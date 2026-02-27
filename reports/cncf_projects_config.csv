@@ -15,7 +15,7 @@ Rook
 Vitess
 OCI
 NATS
-OPA
+Open Policy Agent
 Spiffe
 Spire
 CloudEvents
@@ -62,13 +62,13 @@ Serverless Workflow
 K3s
 Backstage
 Tremor
-Metal³
+metal3-io
 Porter
 OpenYurt
 Open Service Mesh
 Keylime
 SchemaHero
-Cloud Development Kit for Kubernetes
+cdk8s
 cert-manager
 OpenKruise
 Tinkerbell
@@ -115,7 +115,7 @@ OpenCost
 Aeraki Mesh
 OpenFeature
 kubewarden
-Hexa Policy Orchestrator
+Hexa
 Konveyor
 Armada
 External Secrets Operator
@@ -149,20 +149,20 @@ kpt
 Microcks
 Kubeclipper
 Kubeflow
-Copacetic
+Copa
 Logging Operator
 Kanister
 kcp
 KCL
 kube-burner
 Kuasar
-KrknChaos
+krkn
 Kubestellar
 easegress
 Spiderpool
 K8sGPT
 Kubeslice
-Connect
+Connect RPC
 Kairos
 Kubean
 Koordinator

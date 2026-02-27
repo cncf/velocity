@@ -222,7 +222,7 @@ Civil Infrastructure Platform,cip-project.org
 ClickHouse,clickhouse.com
 Closure Library,code.google.com/closure/library
 Cloud Custodian,cloudcustodian.io
-Cloud Development Kit for Kubernetes,cdk8s.io
+cdk8s,cdk8s.io
 Cloud Foundry,cloudfoundry.org
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud Hypervisor,github.com/cloud-hypervisor/cloud-hypervisor
@@ -243,12 +243,12 @@ ComputerVision,github.com/microsoft/ComputerVision
 Computing for Computer Scientists,c4cs.github.io
 Concourse,concourse-ci.org
 Confidential Containers,github.com/confidential-containers
-Connect,connectrpc.com
+Connect RPC,connectrpc.com
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
 ContainerSSH,containerssh.io
 Contour,projectcontour.io
-Copacetic,project-copacetic.github.io/copacetic
+Copa,project-copacetic.github.io/copacetic
 Core Infrastructure,coreinfrastructure.org
 CoreDNS,coredns.io
 CoreOS,coreos.com
@@ -409,7 +409,7 @@ Hashicorp Packer,packer.io
 Headlamp,headlamp.dev
 Helm,helm.sh
 Heron,heronstreaming.io
-Hexa Policy Orchestrator,hexaorchestration.org
+Hexa,hexaorchestration.org
 Hikari,komi.moe
 HippieStationCode,github.com/HippieStationCode/HippieStation13
 HolmesGPT,holmesgpt.dev
@@ -506,7 +506,7 @@ Kolyma Labs,github.com/kolyma-labs/instances
 Konveyor,konveyor.io
 Koordinator,koordinator.sh
 Krator,docs.rs/krator
-KrknChaos,github.com/redhat-chaos/krknChaos
+krkn,github.com/redhat-chaos/krknChaos
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 Krustlet,krustlet.dev
@@ -600,7 +600,7 @@ Merbridge,merbridge.io
 Meshery,layer5.io/meshery
 Mesosphere,mesosphere.com
 MetalLB,metallb.org
-Metal³,metal3.io
+metal3-io,metal3.io
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
 MicroK8s,microk8s.io
@@ -690,7 +690,7 @@ ODOO Community Association,odoo-community.org
 ODPi,odpi.org
 ONAP,onap.org
 ONOS,onosproject.org
-OPA,openpolicyagent.org
+Open Policy Agent,openpolicyagent.org
 OPAM,opam.ocaml.org
 OPCR,openpolicyregistry.io
 OPNFV,opnfv.org

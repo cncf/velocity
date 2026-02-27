@@ -159,13 +159,13 @@ carvel-dev,Carvel
 caskroom,Homebrew
 cdevents,CDEvents
 cdfoundation,CDF
-cdk8s-team,Cloud Development Kit for Kubernetes
+cdk8s-team,cdk8s
 cedar-policy,Cedar Policy
 celestiamobile,Celestia
 ceph,Ceph
 cert-manager,cert-manager
 cfpb,Consumer Financial Protection Bureau
-chaos-kubox,KrknChaos
+chaos-kubox,krkn
 chaos-mesh,Chaos Mesh
 chaosblade-io,ChaosBlade
 chaoss,CHAOSS
@@ -199,7 +199,7 @@ compulab-yokneam,CompuLab
 concourse,Concourse
 conda-forge,conda-forge
 confidential-containers,Confidential Containers
-connectrpc,Connect
+connectrpc,Connect RPC
 container2wasm,container2wasm
 containernetworking,CNI
 coredns,CoreDNS
@@ -297,7 +297,7 @@ guardian,The Guardian
 headlamp-k8s,Headlamp
 headlight-k8s,Headlamp
 helm,Helm
-hexa-org,Hexa Policy Orchestrator
+hexa-org,Hexa
 home-assistant,Home Assistant
 horovod,Horovod
 huggingface,Hugging Face
@@ -359,7 +359,7 @@ koordinator-sh,Koordinator
 koverstreet,bcachefs
 kptdev,kpt
 krator-rs,Krator
-krkn-chaos,KrknChaos
+krkn-chaos,krkn
 kruiseio,OpenKruise
 krustlet,Krustlet
 kserve,KServe
@@ -443,7 +443,7 @@ meshery,Meshery
 meshery-extensions,Meshery
 mesos,Apache Mesos
 mesosphere,Apache Mesos
-metal3-io,Metal³
+metal3-io,metal3-io
 metallb,MetalLB
 meteor,Meteor
 microchip-ung,Microchip Linux
@@ -480,7 +480,7 @@ open-cluster-management-io,Open Cluster Management
 open-faas,OpenFaaS
 open-feature,OpenFeature
 open-gitops,OpenGitOps
-open-policy-agent,OPA
+open-policy-agent,Open Policy Agent
 open-telemetry,OpenTelemetry
 openGemini,openGemini
 openai,OpenAI
@@ -548,7 +548,7 @@ pixie-io,Pixie
 podman-desktop,Podman Desktop
 pravega,Pravega
 project-akri,Akri
-project-copacetic,Copacetic
+project-copacetic,Copa
 project-dalec,Dalec
 project-stacker,Stacker
 project-zot,zot
@@ -574,8 +574,8 @@ raycast,Raycast
 react-native-community,React
 reactivefoundation,Reactive Foundation
 reactjs,React
-redhat-chaos,KrknChaos
-rerpc,Connect
+redhat-chaos,krkn
+rerpc,Connect RPC
 rethinkdb,RethinkDB
 riff,Pivotal Riff
 riscv,RISC-V
