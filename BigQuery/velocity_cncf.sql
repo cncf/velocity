@@ -143,7 +143,7 @@ where
       'containers/conmon', 'containers/podman-py', 'containers/bootc', 'containers/composefs',
       'interTwin-eu/interLink', 'interTwin-eu/vk-test-set', 'interTwin-eu/interlink-jhub',
       'interTwin-eu/interlink-slurm-plugin', 'interTwin-eu/interlink-docker-plugin',
-      'interTwin-eu/interlink-helm-chart', 'interTwin-eu/interlink-monitoring-stack',
+      'interTwin-eu/interlink-helm-chart', 'interTwin-eu/interlink-monitoring-stack', 'NVIDIA/KAI-Scheduler',
       'interTwin-eu/interlink-htcondor-plugin', 'interTwin-eu/interlink-kueue-plugin',
       'interTwin-eu/interlink-arc-plugin', 'interTwin-eu/interlink-unicore-plugin', 'aenix-io/etcd-operator',
       'aenix-io/talm', 'aenix-io/talos-bootstrap', 'aeniz-io/cozystack', 'aenix-io/kubernetes-in-kubernetes',
