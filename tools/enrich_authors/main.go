@@ -939,8 +939,61 @@ func normalizeName(name string) string {
 	return name
 }
 
-func (cs *contributorSet) add(name, email string) {
+func isNonHumanOrGroupIdentity(name, email string) bool {
 	if isBotIdentity(name, email) {
+		return true
+	}
+
+	e := strings.ToLower(strings.TrimSpace(email))
+	n := strings.ToLower(strings.TrimSpace(name))
+	if e == "" {
+		return false
+	}
+
+	at := strings.LastIndexByte(e, '@')
+	if at <= 0 || at >= len(e)-1 {
+		return true
+	}
+	local := e[:at]
+	domain := e[at+1:]
+
+	// High-confidence bot/service identities.
+	botLocals := []string{
+		"syzbot", "syzkaller", "lkp", "patchwork-notify",
+	}
+	for _, v := range botLocals {
+		if local == v || strings.HasPrefix(local, v+"+") || strings.Contains(local, v) || strings.Contains(n, v) {
+			return true
+		}
+	}
+
+	if strings.HasSuffix(n, " bot") || strings.HasSuffix(n, " robot") ||
+		strings.Contains(n, " bot ") || strings.Contains(n, " robot ") {
+		return true
+	}
+
+	// High-confidence mailing-list / group domains.
+	if domain == "vger.kernel.org" ||
+		strings.HasSuffix(domain, ".googlegroups.com") || domain == "googlegroups.com" ||
+		strings.HasSuffix(domain, ".groups.io") || domain == "groups.io" ||
+		strings.HasPrefix(domain, "lists.") || strings.Contains(domain, ".lists.") {
+		return true
+	}
+
+	// List-like locals on otherwise known list domains.
+	if strings.HasPrefix(local, "linux-") ||
+		strings.HasSuffix(local, "-devel") ||
+		local == "stable" || local == "netdev" || local == "bpf" || local == "lkml" {
+		if domain == "vger.kernel.org" || strings.HasPrefix(domain, "lists.") || strings.Contains(domain, ".lists.") || domain == "googlegroups.com" || strings.HasSuffix(domain, ".googlegroups.com") {
+			return true
+		}
+	}
+
+	return false
+}
+
+func (cs *contributorSet) add(name, email string) {
+	if isNonHumanOrGroupIdentity(name, email) {
 		return
 	}
 	emailOut := normalizeEmail(email)
@@ -2020,7 +2073,7 @@ func gitLogContributors(ctx context.Context, cfg config, repoDir string) (*contr
 		msg := string(parts[5])
 		// Commit classification: ignore trailer contributors; check only author/committer.
 		// Conservative choice: drop bot-authored commits; committer-only bot (e.g. GitHub/web UI) is not enough.
-		if !isBotIdentity(an, ae) {
+		if !isNonHumanOrGroupIdentity(an, ae) {
 			cs.commitCount++
 		}
 
