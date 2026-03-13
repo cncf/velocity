@@ -222,7 +222,6 @@ Civil Infrastructure Platform,cip-project.org
 ClickHouse,clickhouse.com
 Closure Library,code.google.com/closure/library
 Cloud Custodian,cloudcustodian.io
-cdk8s,cdk8s.io
 Cloud Foundry,cloudfoundry.org
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
 Cloud Hypervisor,github.com/cloud-hypervisor/cloud-hypervisor
@@ -507,7 +506,6 @@ Kolyma Labs,github.com/kolyma-labs/instances
 Konveyor,konveyor.io
 Koordinator,koordinator.sh
 Krator,docs.rs/krator
-krkn,github.com/redhat-chaos/krknChaos
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 Krustlet,krustlet.dev
@@ -601,7 +599,6 @@ Merbridge,merbridge.io
 Meshery,layer5.io/meshery
 Mesosphere,mesosphere.com
 MetalLB,metallb.org
-metal3-io,metal3.io
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
 MicroK8s,microk8s.io
@@ -691,7 +688,6 @@ ODOO Community Association,odoo-community.org
 ODPi,odpi.org
 ONAP,onap.org
 ONOS,onosproject.org
-Open Policy Agent,openpolicyagent.org
 OPAM,opam.ocaml.org
 OPCR,openpolicyregistry.io
 OPNFV,opnfv.org
@@ -708,6 +704,7 @@ Open Management Infrastructure,github.com/Microsoft/omi
 Open Network Automation Platform,onap.org
 Open Networking Laboratory,opennetworking.org
 Open Neural Network Exchange,onnx.ai
+Open Policy Agent,openpolicyagent.org
 Open Security Controller,opensecuritycontroller.org
 Open Service Mesh,openservicemesh.io
 Open Source Guides,opensource.guide
@@ -1169,6 +1166,7 @@ cAdvisor,github.com/google/cadvisor
 calculator,github.com/microsoft/calculator
 canal,github.com/alibaba/canal
 carbon-addons-iot-react,github.com/IBM/carbon-addons-iot-react
+cdk8s,cdk8s.io
 cert-manager,cert-manager.io
 certificate-transparency,certificate-transparency.org
 cf-java-client-sap,github.com/SAP/cf-java-client-sap
@@ -1271,6 +1269,7 @@ kitsune,github.com/mozilla/kitsune
 kiwi,github.com/alibaba/kiwi
 ko,ko.build
 kpt,kpt.dev
+krkn,github.com/redhat-chaos/krknChaos
 kube-burner,cloud-bulldozer.github.io/kube-burner/
 kube-rs,docs.rs/kube
 kube-vip,kube-vip.io
@@ -1286,6 +1285,7 @@ linux-intel-lts,github.com/intel/linux-intel-lts
 lkp-tests,github.com/intel/lkp-tests
 luigi,github.com/SAP/luigi
 lyft,github.com/lyft/envoy
+metal3-io,metal3.io
 mi-prometheus,github.com/IBM/mi-prometheus
 micro-bit,microbit.co.uk/blocks/editor
 microsoft-ui-xaml,github.com/microsoft/microsoft-ui-xaml

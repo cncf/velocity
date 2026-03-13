@@ -49,7 +49,6 @@ def add_linux(fout, fdata, rfrom, rto)
   end
 
   linux = data[[rfrom, rto]]
-  binding.pry
   linux_authors = linux['authors'].to_i
   # simulate N distinct authors as returned from BigQuery
   # linux['authors'] = linux['authors'].times.map { |i| i }.join(',')
