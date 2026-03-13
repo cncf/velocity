@@ -94,7 +94,7 @@ def add_linux(fout, fdata, rfrom, rto)
   linux_row = {
     'org' => 'torvalds',
     'repo' => 'torvalds/linux',
-    'comments' => linux['new_emails'],
+    'comments' => linux['emails'],
     'prs' => linux['new_emails'],
     'issues' => linux['new_emails'],
     'pushes' => linux['pushes'],
@@ -115,7 +115,7 @@ def add_linux(fout, fdata, rfrom, rto)
     end
   end
 
-  linux_row['activity'] = linux_row['commits'].to_i + 3 * linux['new_emails'] + linux['pushes'].to_i
+  linux_row['activity'] = linux_row['commits'].to_i + linux['emails'] + linux['pushes'].to_i
 
   CSV.open(fout, 'w', headers: ks) do |csv|
     csv << ks
