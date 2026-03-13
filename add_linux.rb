@@ -2,7 +2,32 @@ require 'csv'
 require 'pry'
 require './comment'
 
+def env_flag?(name)
+  ENV[name].to_s.strip != ''
+end
+
+def summarize_value(v)
+  return v if v.nil?
+  s = v.to_s
+  if s.start_with?('=') && s[1..].to_i.to_s == s[1..]
+    return s[1..].to_i
+  end
+  if s.include?(',')
+    return s.split(',').reject(&:empty?).count
+  end
+  s
+end
+
+def linux_row?(h)
+  org = (h['org'] || '').strip
+  repo = (h['repo'] || '').strip
+  repo == 'torvalds/linux' || (org == 'torvalds' && repo == 'linux')
+end
+
+
 def add_linux(fout, fdata, rfrom, rto)
+  overwrite = env_flag?('OVERWRITE')
+  skip_commits = env_flag?('SKIP_COMMITS')
 
   # org,repo,from,to,changesets,additions,removals,authors,emails
   data = {}
@@ -12,7 +37,8 @@ def add_linux(fout, fdata, rfrom, rto)
     from = h['from'].strip
     to = h['to'].strip
     h.each do |k, v|
-      h[k] = v.to_i if v.to_i.to_s ==v 
+      next if v.nil?
+      h[k] = v.to_i if v.to_i.to_s == v
     end
     data[[from, to]] = h
   end
@@ -23,17 +49,21 @@ def add_linux(fout, fdata, rfrom, rto)
   end
 
   linux = data[[rfrom, rto]]
+  binding.pry
+  linux_authors = linux['authors'].to_i
   # simulate N distinct authors as returned from BigQuery
   # linux['authors'] = linux['authors'].times.map { |i| i }.join(',')
-  linux['authors'] = "=#{linux['authors']}"
+  linux['authors'] = "=#{linux_authors}"
   linux['authors_alt1'] = linux['authors']
-  linux['authors_alt2'] = linux['authors'].split(',').uniq.count
+  # linux['authors_alt2'] = linux['authors'].split(',').uniq.count
+  linux['authors_alt2'] = linux_authors
 
   # fout
   # ks = %w(org repo activity comments prs commits issues authors_alt2 authors_alt1 authors pushes)
   ks = %w(org repo activity comments prs commits issues pushes authors_alt2 authors_alt1 authors author_idents)
   checked = false
   rows = []
+  existing_linux = nil
   CSV.foreach(fout, headers: true) do |row|
     next if is_comment row
     h = row.to_h
@@ -44,14 +74,19 @@ def add_linux(fout, fdata, rfrom, rto)
       checked = true
     end
 
-    if h['org'] == 'torvalds' && h['repo'] == 'torvalds/linux'
+    if linux_row?(h)
       nh = {}
       h.each do |k, v|
-        v = v.split(',').count if ['authors', 'authors_alt1'].include?(k)
-        nh[k] = v
+        nh[k] = summarize_value(v)
       end
-      puts "CSV file already contains linux: #{nh}"
-      return
+      if overwrite
+        puts "CSV file already contains linux, overwriting: #{nh}"
+        existing_linux = h
+        next
+      else
+        puts "CSV file already contains linux: #{nh}"
+        return
+      end
     end
 
     rows << h
@@ -60,19 +95,30 @@ def add_linux(fout, fdata, rfrom, rto)
   linux_row = {
     'org' => 'torvalds',
     'repo' => 'torvalds/linux',
-    'activity' => linux['changesets'] + linux['emails'],
     'comments' => linux['emails'],
     'prs' => linux['new_emails'],
-    'commits' => linux['changesets'],
     'issues' => linux['new_emails'],
     'pushes' => linux['pushes'],
+    'commits' => linux['changesets'],
     'authors_alt2' => linux['authors_alt2'],
     'authors_alt1' => linux['authors_alt1'],
     'authors' => linux['authors'],
-    'authors_idents' => '-'
+    'author_idents' => '-'
   }
 
-  CSV.open(fout, "w", headers: ks) do |csv|
+  if skip_commits
+    if existing_linux.nil?
+      puts 'SKIP_COMMITS=1 requested but no existing linux row found, using linux CSV commits/authors values'
+    else
+      %w(commits authors_alt2 authors_alt1 authors author_idents).each do |k|
+        linux_row[k] = existing_linux[k]
+      end
+    end
+  end
+
+  linux_row['activity'] = linux_row['commits'].to_i + linux['emails']
+
+  CSV.open(fout, 'w', headers: ks) do |csv|
     csv << ks
     csv << linux_row
     rows.each do |row|
@@ -82,15 +128,14 @@ def add_linux(fout, fdata, rfrom, rto)
 
   nh = {}
   linux_row.each do |k, v|
-    v = v.split(',').count if ['authors', 'authors_alt1'].include?(k)
-    nh[k] = v
+    nh[k] = summarize_value(v)
   end
   puts "Added Linux: #{nh}"
 
 end
 
 if ARGV.size < 4
-  puts "Missing arguments: datafile.csv linuxdata.csv period_from period_to"
+  puts 'Missing arguments: datafile.csv linuxdata.csv period_from period_to'
   exit(1)
 end
 

@@ -14,7 +14,7 @@ cp data/data_linux_and_zephyr_projects_20250101_20260101.enriched.csv data/data_
 
 Run `` ./lkml_analysis.rb 2025-01-01 2026-01-01 `` from `cncf/velocity` to get number of LKML emails (all) and new threads. This takes hours to complete. Update `data/data_linux.csv` with this data.
 
-Run this: `` OVERWRITE=1 SKIP_COMMITS=1 ruby add_linux.rb data/data_linux_and_zephyr_projects_20250101_20260101.csv data/data_linux.csv 2025-01-01 2026-01-01`.
+Run this: `` OVERWRITE=1 SKIP_COMMITS=1 ruby add_linux.rb data/data_linux_and_zephyr_projects_20250101_20260101.csv data/data_linux.csv 2025-01-01 2026-01-01 `` to add LKML data to the main data file.
 
 Run `analysis.rb` with:
 ```
@@ -25,4 +25,4 @@ export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1x4ptBeaIY85xo41kkD3iV8AicVY92fKG10zuOXTabXA/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A300.
-File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data
+File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data.

@@ -36,6 +36,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"html"
 	"io"
 	"mime"
 	"net/http"
@@ -874,6 +875,19 @@ func normalizeEmail(email string) string {
 	if !utf8.ValidString(email) {
 		email = strings.ToValidUTF8(email, "")
 	}
+	// Be stricter than the raw separator checks above: reject mailto:, URLs, HTML-ish
+	// fragments, and other syntactically invalid addresses that can leak from malformed
+	// trailer/link lines.
+	if !strictEmailRE.MatchString(email) {
+		return ""
+	}
+	if strings.Contains(email, "..") {
+		return ""
+	}
+	domain := email[at+1:]
+	if strings.HasPrefix(domain, ".") || strings.HasSuffix(domain, ".") || strings.HasPrefix(domain, "-") || strings.HasSuffix(domain, "-") {
+		return ""
+	}
 	return email
 }
 
@@ -999,7 +1013,382 @@ type trailerContributor struct {
 var trailerLineRE = regexp.MustCompile(`^(?P<key>[A-Za-z0-9_\-–]+)\:[ \t]+(?P<value>.+)$`)
 
 // Email regex (heuristic). Used as a fallback when value isn't strictly "Name <email>".
-var emailRE = regexp.MustCompile(`(?i)([A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,})`)
+// var emailRE = regexp.MustCompile(`(?i)([A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,})`)
+// Keep email validation stricter than the generic parser to avoid counting
+// malformed mailto:/URL/message-id fragments as contributor identities.
+var strictEmailRE = regexp.MustCompile(`(?i)^[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}$`)
+
+// Allow the same broad set of contributor-related trailers as DevStats
+// (trailers.go), but only after normalizing keys. Non-contributor trailers such
+// as Link:, Message-ID:, References:, Fixes:, Bug:, Closes:, etc. are ignored.
+var trailerAllowedKeys = func() map[string]struct{} {
+	const raw = `
+about-fscking-timed-by
+accked-by
+aced-by
+ack
+ack-by
+ackde-by
+acked
+acked-and-reviewed
+acked-and-reviewed-by
+acked-and-tested-by
+acked-b
+acked-by
+acked-by-stale-maintainer
+acked-by-with-comments
+acked-by-without-testing
+acked-for-mfd-by
+acked-for-now-by
+acked-off-by
+acked-the-net-bits-by
+acked-the-tulip-bit-by
+acked-with-apologies-by
+acked_by
+ackedby
+ackeded-by
+acknowledged-by
+acted-by
+actually-written-by
+additional-author
+all-the-fault-of
+also-analyzed-by
+also-fixed-by
+also-posted-by
+also-reported-and-tested-by
+also-reported-by
+also-spotted-by
+also-suggested-by
+also-written-by
+analysed-by
+analyzed-by
+aoled-by
+apology-from
+appreciated-by
+approved
+approved-by
+architected-by
+assisted-by
+badly-reviewed-by 
+based-in-part-on-patch-by
+based-on
+based-on-a-patch-by
+based-on-code-by
+based-on-code-from
+based-on-comments-by
+based-on-idea-by
+based-on-original-patch-by
+based-on-patch-by
+based-on-patch-from
+based-on-patches-by
+based-on-similar-patches-by
+based-on-suggestion-from
+based-on-text-by
+based-on-the-original-screenplay-by
+based-on-the-true-story-by
+based-on-work-by
+based-on-work-from
+belatedly-acked-by
+bisected-and-acked-by
+bisected-and-analyzed-by
+bisected-and-reported-by
+bisected-and-tested-by
+bisected-by
+bisected-reported-and-tested-by
+bitten-by-and-tested-by
+bitterly-acked-by
+blame-taken-by
+bonus-points-awarded-by
+boot-tested-by
+brainstormed-with
+broken-by
+bug-actually-spotted-by
+bug-fixed-by
+bug-found-by
+bug-identified-by
+bug-reported-by
+bug-spotted-by
+build-fixes-from
+build-tested-by
+build-testing-by
+catched-by-and-rightfully-ranted-at-by
+caught-by
+cause-discovered-by
+cautiously-acked-by
+cc
+celebrated-by
+changelog-cribbed-from
+changelog-heavily-inspired-by
+chucked-on-by
+cked-by
+cleaned-up-by
+cleanups-from
+co-author
+co-authored
+co-authored-by
+co-debugged-by
+co-developed-by
+co-developed-with
+committed
+committed-by
+compile-tested-by
+compiled-by
+compiled-tested-by
+complained-about-by
+conceptually-acked-by
+confirmed-by
+confirms-rustys-story-ends-the-same-by
+contributors
+credit
+credit-to
+credits-by
+csigned-off-by
+cut-and-paste-bug-by
+debuged-by
+debugged-and-acked-by
+debugged-and-analyzed-by
+debugged-and-tested-by
+debugged-by
+deciphered-by
+decoded-by
+delightedly-acked-by
+demanded-by
+derived-from-code-by
+designed-by
+diagnoised-by
+diagnosed-and-reported-by
+diagnosed-by
+discovered-and-analyzed-by
+discovered-by
+discussed-with
+earlier-version-tested-by
+embarrassingly-acked-by
+emphatically-acked-by
+encouraged-by
+enthusiastically-acked-by
+enthusiastically-supported-by
+evaluated-by
+eventually-typed-in-by
+eviewed-by
+explained-by
+fairly-blamed-by
+fine-by-me
+finished-by
+fix-creation-mandated-by
+fix-proposed-by
+fix-suggested-by
+fixed-by
+fixes-from
+forwarded-by
+found-by
+found-ok-by
+from
+grudgingly-acked-by
+grumpily-reviewed-by
+guess-its-ok-by
+hella-acked-by
+helped-by
+helped-out-by
+hinted-by
+historical-research-by
+humbly-acked-by
+i-dont-see-any-problems-with-it
+idea-by
+idea-from
+identified-by
+improved-by
+improvements-by
+includes-changes-by
+initial-analysis-by
+initial-author
+initial-fix-by
+initial-patch-by
+initial-work-by
+inspired-by
+inspired-by-patch-from
+intermittently-reported-by
+investigated-by
+lightly-tested-by
+liked-by
+list-usage-fixed-by
+looked-over-by
+looks-good-to
+looks-great-to
+looks-ok-by
+looks-okay-to
+looks-reasonable-to
+makes-sense-to
+makes-sparse-happy
+maybe-reported-by
+mentored-by
+modified-and-reviewed-by
+modified-by
+more-or-less-tested-by
+most-definitely-acked-by
+mostly-acked-by
+much-requested-by
+nacked-by
+naked-by
+narrowed-down-by
+niced-by
+no-objection-from-me-by
+no-problems-with
+not-nacked-by
+noted-by
+noticed-and-acked-by
+noticed-by
+okay-ished-by
+oked-to-go-through-tracing-tree-by
+once-upon-a-time-reviewed-by
+original-author
+original-by
+original-from
+original-idea-and-signed-off-by
+original-idea-by
+original-patch-acked-by
+original-patch-by
+original-signed-off-by
+original-version-by
+originalauthor
+originally-by
+originally-from
+originally-suggested-by
+originally-written-by
+origionally-authored-by
+origionally-signed-off-by
+partially-reviewed-by
+partially-tested-by
+partly-suggested-by
+patch-by
+patch-fixed-up-by
+patch-from
+patch-inspired-by
+patch-originally-by
+patch-updated-by
+patiently-pointed-out-by
+pattern-pointed-out-by
+performance-tested-by
+pinpointed-by
+pointed-at-by
+pointed-out-and-tested-by
+proposed-by
+pushed-by
+ranted-by
+re-reported-by
+reasoning-sounds-sane-to
+recalls-having-tested-once-upon-a-time-by
+received-from
+recommended-by
+reivewed-by
+reluctantly-acked-by
+repored-and-bisected-by
+reporetd-by
+reporeted-and-tested-by
+report-by
+reportded-by
+reported
+reported--and-debugged-by
+reported-acked-and-tested-by
+reported-analyzed-and-tested-by
+reported-and-acked-by
+reported-and-bisected-and-tested-by
+reported-and-bisected-by
+reported-and-reviewed-and-tested-by
+reported-and-root-caused-by
+reported-and-suggested-by
+reported-and-test-by
+reported-and-tested-by
+reported-any-tested-by
+reported-bisected-and-tested-by
+reported-bisected-and-tested-by-the-invaluable
+reported-bisected-tested-by
+reported-bistected-and-tested-by
+reported-by
+reported-by-and-tested-by
+reported-by-tested-by
+reported-by-with-patch
+reported-debuged-tested-acked-by
+reported-off-by
+reported-requested-and-tested-by
+reported-reviewed-and-acked-by
+reported-tested-and-acked-by
+reported-tested-and-bisected-by
+reported-tested-and-fixed-by
+reported-tested-by
+reported_by
+reportedy-and-tested-by
+reproduced-by
+requested-and-acked-by
+requested-and-tested-by
+requested-by
+researched-with
+reveiewed-by
+review-by
+reviewd-by
+reviewed
+reviewed-and-tested-by
+reviewed-and-wanted-by
+reviewed-by
+reviewed-off-by
+reviewed–by
+reviewer
+reviewws-by
+root-cause-analysis-by
+root-cause-found-by
+seconded-by
+seems-ok
+seems-reasonable-to
+sefltests-acked-by
+sent-by
+serial-parts-acked-by
+siged-off-by
+sighed-off-by
+signed
+signed-by
+signed-off
+signed-off-by
+singend-off-by
+slightly-grumpily-acked-by
+smoke-tested-by
+some-suggestions-by
+spotted-by
+submitted-by
+suggested-and-acked-by
+suggested-and-reviewed-by
+suggested-and-tested-by
+suggested-by
+tested
+tested-and-acked-by
+tested-and-bugfixed-by
+tested-and-reported-by
+tested-by
+tested-off
+thanks-to
+to
+tracked-by
+tracked-down-by
+was-acked-by
+weak-reviewed-by
+workflow-found-ok-by
+written-by
+`
+	out := make(map[string]struct{}, 384)
+	for _, line := range strings.Split(raw, "\n") {
+		key := normalizeTrailerKey(line)
+		if key == "" {
+			continue
+		}
+		out[key] = struct{}{}
+	}
+	return out
+}()
+
+var trailerMailtoAnchorRE = regexp.MustCompile(`(?is)<a\b[^>]*\bhref\s*=\s*["']mailto:([^"'>\s]+)[^>]*>.*?</a>`)
+var trailerMailtoRE = regexp.MustCompile(`(?i)mailto:([A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,})`)
+var trailerAnchorTagRE = regexp.MustCompile(`(?is)</?a\b[^>]*>`)
+var trailerLTBeforeAngleRE = regexp.MustCompile(`(?i)\blt\s*<`)
+var trailerGTAfterAngleRE = regexp.MustCompile(`(?i)>\s*gt\b`)
+var trailerNameEmailRE = regexp.MustCompile(`(?i)([^<>\r\n,;]+?)\s*<\s*([A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,})\s*>`)
 
 func matchGroups(re *regexp.Regexp, s string) map[string]string {
 	matches := re.FindStringSubmatch(s)
@@ -1015,10 +1404,68 @@ func matchGroups(re *regexp.Regexp, s string) map[string]string {
 	return out
 }
 
-// parseTrailerContributors extracts contributors from trailer-like lines in msg.
-//
-// It prefers "Name <email>" patterns and supports multiple entries per line.
-// If none are found, it falls back to extracting raw emails from the value.
+func normalizeTrailerKey(key string) string {
+	key = strings.TrimSpace(key)
+	key = strings.ToLower(key)
+	key = strings.ReplaceAll(key, "–", "-")
+	return key
+}
+
+func cleanupTrailerValue(value string) string {
+	value = strings.TrimSpace(strings.TrimRight(value, "\r"))
+	if value == "" {
+		return ""
+	}
+	value = html.UnescapeString(value)
+	value = trailerMailtoAnchorRE.ReplaceAllString(value, "<$1>")
+	value = trailerMailtoRE.ReplaceAllString(value, "$1")
+	value = trailerAnchorTagRE.ReplaceAllString(value, "")
+	value = trailerLTBeforeAngleRE.ReplaceAllString(value, "<")
+	value = trailerGTAfterAngleRE.ReplaceAllString(value, ">")
+	value = collapseSpaces(value)
+	return value
+}
+
+func stripRepeatedEmailSuffix(name, email string) string {
+	name = strings.TrimSpace(name)
+	email = strings.TrimSpace(email)
+	if name == "" || email == "" {
+		return name
+	}
+	lName := strings.ToLower(name)
+	lEmail := strings.ToLower(email)
+	if strings.HasSuffix(lName, lEmail) && len(name) >= len(email) {
+		name = strings.TrimSpace(name[:len(name)-len(email)])
+	}
+	return name
+}
+
+func trimNestedTrailerPrefix(name string) string {
+	name = strings.TrimSpace(name)
+	if name == "" {
+		return ""
+	}
+	if idx := strings.LastIndex(name, ":"); idx >= 0 {
+		maybeKey := normalizeTrailerKey(name[:idx])
+		if _, ok := trailerAllowedKeys[maybeKey]; ok {
+			name = strings.TrimSpace(name[idx+1:])
+		}
+	}
+	return name
+}
+
+func normalizeTrailerContributorName(name, email string) string {
+	name = html.UnescapeString(name)
+	name = stripRepeatedEmailSuffix(name, email)
+	name = trimNestedTrailerPrefix(name)
+	name = strings.TrimSpace(name)
+	name = strings.Trim(name, "\t \"'()")
+	if strings.EqualFold(name, "lt") || strings.EqualFold(name, "gt") {
+		return ""
+	}
+	return collapseSpaces(name)
+}
+
 func parseTrailerContributors(msg string) []trailerContributor {
 	lines := strings.Split(msg, "\n")
 	out := make([]trailerContributor, 0, 4)
@@ -1031,65 +1478,74 @@ func parseTrailerContributors(msg string) []trailerContributor {
 		if len(m) == 0 {
 			continue
 		}
-		value := strings.TrimSpace(m["value"])
+		key := normalizeTrailerKey(m["key"])
+		if _, ok := trailerAllowedKeys[key]; !ok {
+			continue
+		}
+		value := cleanupTrailerValue(m["value"])
 		if value == "" {
 			continue
 		}
 
-		// First try: one or more "Name <email>" patterns.
 		pairs := extractAllNameEmail(value)
 		if len(pairs) > 0 {
 			out = append(out, pairs...)
 			continue
 		}
-
-		// Fallback: extract any emails and emit entries with empty names.
-		matches := emailRE.FindAllStringSubmatch(value, -1)
-		for _, mm := range matches {
-			if len(mm) < 2 {
-				continue
-			}
-			em := mm[1]
-			out = append(out, trailerContributor{Name: "", Email: em})
+		// Allow bare email values only when the entire trailer value is a simple
+		// email list (for example, "Cc: a@example.com, b@example.com"). Anything
+		// more complex is ignored rather than guessed at.
+		if emails := extractBareTrailerEmails(value); len(emails) > 0 {
+			out = append(out, emails...)
 		}
 	}
 	return out
 }
 
+func extractBareTrailerEmails(value string) []trailerContributor {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return nil
+	}
+	if strings.Contains(value, "http://") || strings.Contains(value, "https://") || strings.Contains(strings.ToLower(value), "href=") {
+		return nil
+	}
+	value = strings.ReplaceAll(value, ";", ",")
+	parts := strings.Split(value, ",")
+	out := make([]trailerContributor, 0, len(parts))
+	for _, part := range parts {
+		part = strings.TrimSpace(part)
+		if part == "" {
+			continue
+		}
+		part = strings.Trim(part, "\t \"'()<>")
+		email := normalizeEmail(part)
+		if email == "" {
+			return nil
+		}
+		out = append(out, trailerContributor{Name: "", Email: email})
+	}
+	if len(out) == 0 {
+		return nil
+	}
+	return out
+}
+
 // extractAllNameEmail extracts all occurrences of Name <email> from a string.
-// It is tolerant to multiple entries on the same line.
+// It is tolerant to multiple entries on a single line.
 func extractAllNameEmail(s string) []trailerContributor {
-	out := []trailerContributor{}
-	for {
-		lt := strings.Index(s, "<")
-		if lt < 0 {
-			break
+	matches := trailerNameEmailRE.FindAllStringSubmatch(s, -1)
+	out := make([]trailerContributor, 0, len(matches))
+	for _, mm := range matches {
+		if len(mm) < 3 {
+			continue
 		}
-		gt := strings.Index(s[lt+1:], ">")
-		if gt < 0 {
-			break
+		email := normalizeEmail(mm[2])
+		if email == "" {
+			continue
 		}
-		gt = lt + 1 + gt
-
-		email := strings.TrimSpace(s[lt+1 : gt])
-
-		prefix := strings.TrimSpace(s[:lt])
-		if comma := strings.LastIndex(prefix, ","); comma >= 0 {
-			prefix = strings.TrimSpace(prefix[comma+1:])
-		}
-		name := strings.TrimSpace(prefix)
-		// Keep square brackets, they are common in bot names (github-actions[bot]).
-		name = strings.Trim(name, "\t \"'()")
-		email = strings.Trim(email, "\t \"'()")
-
-		if normalizeEmail(email) != "" {
-			out = append(out, trailerContributor{Name: name, Email: email})
-		}
-
-		if gt+1 >= len(s) {
-			break
-		}
-		s = s[gt+1:]
+		name := normalizeTrailerContributorName(mm[1], email)
+		out = append(out, trailerContributor{Name: name, Email: email})
 	}
 	return out
 }
