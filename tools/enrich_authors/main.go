@@ -978,7 +978,7 @@ func hasAnyIdentityToken(s string, wants ...string) bool {
 }
 
 var sharedMailboxLocalRE = regexp.MustCompile(`(^|[-_+.])(list|lists|group|groups|maintainer|maintainers|review|reviewers|feedback|announce|announcements|notify|notification|notifications|bugzilla|bugs|service|daemon)($|[-_+.])`)
-var groupLikeDisplayNameRE = regexp.MustCompile(`\b(mailing list|review list|feedback list|group|groups|maintainers?|developers?|development|service|daemon|automation)\b`)
+var groupLikeDisplayNameRE = regexp.MustCompile(`\b(mailing list|review list|feedback list|group|groups|maintainers?|developers?|development|service|daemon|automation|testing|continuous integration|test infrastructure)\b`)
 
 func isSharedMailboxLocal(local string) bool {
 	local = strings.ToLower(strings.TrimSpace(local))
@@ -1000,8 +1000,8 @@ func isGroupLikeDisplayName(name string) bool {
 	if groupLikeDisplayNameRE.MatchString(name) {
 		return true
 	}
-	// "team" is useful, but only as a standalone token to avoid overmatching names/emails like "steam".
-	return hasIdentityToken(name, "team") || hasIdentityToken(name, "list") || hasIdentityToken(name, "lists")
+	// Token checks avoid overmatching names/emails like "steam" while still removing explicit CI/list identities.
+	return hasIdentityToken(name, "team") || hasIdentityToken(name, "list") || hasIdentityToken(name, "lists") || hasIdentityToken(name, "ci")
 }
 
 func isNonHumanOrGroupIdentity(name, email string) bool {
