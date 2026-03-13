@@ -63,7 +63,7 @@ def add_linux(fout, fdata, rfrom, rto)
   checked = false
   rows = []
   existing_linux = nil
-  CSV.foreach(fout, headers: true) do |row|
+  CSV.foreach(fout, headers: true, liberal_parsing: true) do |row|
     next if is_comment row
     h = row.to_h
     if !checked && h.keys != ks

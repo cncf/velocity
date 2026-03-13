@@ -1,3 +1,3 @@
 org,repo,activity,comments,prs,commits,issues,pushes,authors,project,url
-torvalds,linux,578628,494651,72469,83977,72469,698,9199,Linux,kernel.org
-zephyrproject-rtos,zephyr+zephyr-testing+openocd+sdk-ng+docker-image+reqmgmt+action-zephyr-setup+west+zephyr-lang-rust+Kconfiglib+net-tools+infrastructure+pr-dashboard+zscilib+hal_afbr+test_results+docker-scancode+windows-curses,166503,135287,17679,45921,5147,8390,1548,Zephyr,zephyrproject.org
+torvalds,linux,578647,494651,72469,83996,72469,698,8374,Linux,kernel.org
+zephyrproject-rtos,zephyr+zephyr-testing+openocd+sdk-ng+docker-image+action-zephyr-setup+reqmgmt+west+zephyr-lang-rust+Kconfiglib+net-tools+infrastructure+pr-dashboard+zscilib+hal_afbr+test_results+docker-scancode+windows-curses,166503,135287,17679,45921,5147,8390,1544,Zephyr,zephyrproject.org

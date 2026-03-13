@@ -5,6 +5,22 @@ require './comment'
 
 $g_added = 0
 $g_forks_file = 'forks.json'
+
+
+def emails_from_author_idents(val)
+  return [] if val.nil?
+  s = val.to_s.strip
+  return [] if s == '' || s == '-'
+  items = s.split(',')
+  emails = []
+  items.each do |item|
+    m = item.match(/<([^<>\s,]+@[^<>\s,]+)>/)
+    emails << m[1].downcase if m
+  end
+  emails.uniq.sort
+end
+
+
 def is_fork?(gcs, hint, fork_data, repo, i, n)
   dbg = ENV.key? 'DBG'
   if fork_data.key?(repo)
@@ -359,7 +375,13 @@ def analysis(fin, fout, fhint, furls, fdefmaps, fskip, franges)
     next if is_comment row
     h = row.to_h
 
-    # Optional enrichment column; do not aggregate it in analysis (can explode memory/size).
+    author_idents = h['author_idents']
+    if author_idents && author_idents.strip != '' && author_idents.strip != '-'
+      if h['authors'].nil? || h['authors'].strip == '' || h['authors'].strip[0] == '='
+        reconstructed = emails_from_author_idents(author_idents)
+        h['authors'] = reconstructed.join(',') if reconstructed.length > 0
+      end
+    end
     h.delete('author_idents')
 
     # skip repos & orgs

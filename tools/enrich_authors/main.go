@@ -114,9 +114,20 @@ type config struct {
 	overwriteTruncated bool // If a list field is truncated to '=N', allow overwriting it with the full list
 
 	allowNoAuthorsRepos bool // If false (default), drop output rows where all author columns are empty/0
+	includeEmailOnly    bool // If true, authors/authors_alt2 also include emails not present in author_idents
 
 	quiet bool
 	debug bool
+}
+
+func envFlag(name string) bool {
+	v := strings.TrimSpace(strings.ToLower(os.Getenv(name)))
+	switch v {
+	case "", "0", "false", "no", "off":
+		return false
+	default:
+		return true
+	}
 }
 
 func parseDateMaybe(s string) string {
@@ -180,6 +191,7 @@ func parseFlags() config {
 	flag.BoolVar(&cfg.overwriteTruncated, "overwrite-truncated", true, "If a list field is truncated to '=N', allow overwriting it with the full list on a subsequent run (for example, after adjusting max-list-items or max-list-bytes)")
 
 	flag.BoolVar(&cfg.allowNoAuthorsRepos, "allow-no-authors-repos", false, "Keep rows where all author fields are empty/0 (authors_alt2=0 and authors/authors_alt1/author_idents empty). Default is to drop such rows from output.")
+	flag.BoolVar(&cfg.includeEmailOnly, "include-email-only", envFlag("INCLUDE_EMAIL_ONLY") || envFlag("INCLUDE_UNNAMED_EMAILS"), "Include contributor emails that do not participate in any Name<email> identity. Default is false, so authors/authors_alt2 are based on unique emails present in author_idents only. Env aliases: INCLUDE_EMAIL_ONLY=1 or INCLUDE_UNNAMED_EMAILS=1")
 
 	flag.BoolVar(&cfg.quiet, "quiet", false, "Less logging")
 	flag.BoolVar(&cfg.debug, "debug", false, "Verbose logging")
@@ -369,8 +381,13 @@ var botExact = map[string]struct{}{
 	"github":                    {},
 	"web-flow":                  {},
 	"github-actions":            {},
+	"github-copilot":            {},
+	"github-copilot[bot]":       {},
 	"github action":             {},
 	"github actions":            {},
+	"copilot":                   {},
+	"claude":                    {},
+	"codex":                     {},
 	"noreply@github.com":        {},
 	"support@github.com":        {},
 	"action@github.com":         {},
@@ -412,6 +429,11 @@ var botLike = []string{
 	"%claassistant%",
 	"%clabot%",
 	"%cla-bot%",
+	"%github-copilot%",
+	"%+claude@",
+	"%+codex@",
+	"%claude[bot]%",
+	"%codex[bot]%",
 
 	// GitHub Copilot account(s) often appear without "[bot]" in email (e.g. "123+copilot@users.noreply...")
 	"%+copilot@",
@@ -957,6 +979,29 @@ func (cs *contributorSet) emailsSorted() []string {
 	out := make([]string, 0, len(cs.emails))
 	for _, e := range cs.emails {
 		out = append(out, e)
+	}
+	sort.Strings(out)
+	return out
+}
+
+func (cs *contributorSet) identEmailsSorted() []string {
+	seen := make(map[string]struct{}, len(cs.idents))
+	out := make([]string, 0, len(cs.idents))
+	for k := range cs.idents {
+		parts := strings.SplitN(k, "\x00", 2)
+		if len(parts) != 2 {
+			continue
+		}
+		ek := parts[1]
+		if _, ok := seen[ek]; ok {
+			continue
+		}
+		seen[ek] = struct{}{}
+		email := cs.emails[ek]
+		if email == "" || strings.ContainsAny(email, ",<>") {
+			continue
+		}
+		out = append(out, email)
 	}
 	sort.Strings(out)
 	return out
@@ -2075,7 +2120,10 @@ func computeRepoStats(ctx context.Context, cfg config, tmpRoot string, repo stri
 		return st
 	}
 
-	emails := cs.emailsSorted()
+	emails := cs.identEmailsSorted()
+	if cfg.includeEmailOnly {
+		emails = cs.emailsSorted()
+	}
 	names := cs.namesSorted()
 	idents := cs.identsSorted()
 
@@ -2455,6 +2503,11 @@ func main() {
 			fmt.Printf("date filter: since=%q until=%q (git log)\n", cfg.from, cfg.to)
 		}
 		fmt.Printf("clone: retries=%d detect-renames=%v fetch-all-branches=%v\n", cfg.cloneRetries, cfg.detectRenames, cfg.fetchAllBranches)
+		if cfg.includeEmailOnly {
+			fmt.Printf("email mode: include unnamed contributor emails in authors/authors_alt2\n")
+		} else {
+			fmt.Printf("email mode: named identities only (authors/authors_alt2 derived from author_idents emails)\n")
+		}
 		if cfg.neverWorse {
 			fmt.Printf("update policy: never-worse enabled (use -allow-decrease to override)\n")
 		}
