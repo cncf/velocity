@@ -1,6 +1,6 @@
 #!/bin/bash
-# SKIP_BQ=1 SKIP_ENRICH=1 SKIP_LKML=1 SKIP_ADD=1 SKIP_ANALYSIS=1 ./linux_and_zephyr_2025.sh
-# SKIP_BQ=1 SKIP_LKML=1 ./linux_and_zephyr_2025.sh (for quick regenerate when you already have BigQuery and LKML data that won't change anymore)
+# SKIP_BQ=1 SKIP_ENRICH=1 SKIP_LKML=1 SKIP_ADD=1 SKIP_ANALYSIS=1 ./shells/linux_and_zephyr_2025.sh
+# SKIP_BQ=1 SKIP_LKML=1 ./shells/linux_and_zephyr_2025.sh (for quick regenerate when you already have BigQuery and LKML data that won't change anymore)
 if [ -z "${SKIP_BQ}" ]
 then
   DBG=1 ./run_bq_templated.sh linux_and_zephyr 20250101 20260101 && \
