@@ -939,6 +939,71 @@ func normalizeName(name string) string {
 	return name
 }
 
+func splitIdentityTokens(s string) []string {
+	s = strings.ToLower(strings.TrimSpace(s))
+	if s == "" {
+		return nil
+	}
+	return strings.FieldsFunc(s, func(r rune) bool {
+		return (r < 'a' || r > 'z') && (r < '0' || r > '9')
+	})
+}
+
+func hasIdentityToken(s string, want string) bool {
+	for _, tok := range splitIdentityTokens(s) {
+		if tok == want {
+			return true
+		}
+	}
+	return false
+}
+
+func hasAnyIdentityToken(s string, wants ...string) bool {
+	if s == "" || len(wants) == 0 {
+		return false
+	}
+	wantSet := make(map[string]struct{}, len(wants))
+	for _, w := range wants {
+		w = strings.ToLower(strings.TrimSpace(w))
+		if w != "" {
+			wantSet[w] = struct{}{}
+		}
+	}
+	for _, tok := range splitIdentityTokens(s) {
+		if _, ok := wantSet[tok]; ok {
+			return true
+		}
+	}
+	return false
+}
+
+var sharedMailboxLocalRE = regexp.MustCompile(`(^|[-_+.])(list|lists|group|groups|maintainer|maintainers|review|reviewers|feedback|announce|announcements|notify|notification|notifications|bugzilla|bugs|service|daemon)($|[-_+.])`)
+var groupLikeDisplayNameRE = regexp.MustCompile(`\b(mailing list|review list|feedback list|group|groups|maintainers?|developers?|development|service|daemon|automation)\b`)
+
+func isSharedMailboxLocal(local string) bool {
+	local = strings.ToLower(strings.TrimSpace(local))
+	if local == "" {
+		return false
+	}
+	switch local {
+	case "list", "lists", "group", "groups", "maintainer", "maintainers", "review", "reviewers", "feedback", "announce", "announcements", "notify", "notification", "notifications", "bugzilla", "bugs", "service", "daemon":
+		return true
+	}
+	return sharedMailboxLocalRE.MatchString(local)
+}
+
+func isGroupLikeDisplayName(name string) bool {
+	name = strings.ToLower(strings.TrimSpace(name))
+	if name == "" {
+		return false
+	}
+	if groupLikeDisplayNameRE.MatchString(name) {
+		return true
+	}
+	// "team" is useful, but only as a standalone token to avoid overmatching names/emails like "steam".
+	return hasIdentityToken(name, "team") || hasIdentityToken(name, "list") || hasIdentityToken(name, "lists")
+}
+
 func isNonHumanOrGroupIdentity(name, email string) bool {
 	if isBotIdentity(name, email) {
 		return true
@@ -957,22 +1022,14 @@ func isNonHumanOrGroupIdentity(name, email string) bool {
 	local := e[:at]
 	domain := e[at+1:]
 
-	// High-confidence bot/service identities.
-	botLocals := []string{
-		"syzbot", "syzkaller", "lkp", "patchwork-notify",
-	}
-	for _, v := range botLocals {
-		if local == v || strings.HasPrefix(local, v+"+") || strings.Contains(local, v) || strings.Contains(n, v) {
-			return true
-		}
-	}
-
-	if strings.HasSuffix(n, " bot") || strings.HasSuffix(n, " robot") ||
-		strings.Contains(n, " bot ") || strings.Contains(n, " robot ") {
+	// High-confidence bot / AI / service identities. Match on tokens rather than
+	// raw substrings to avoid false positives in ordinary human names/email locals.
+	if hasAnyIdentityToken(local, "bot", "robot", "syzbot", "syzkaller", "lkp", "patchwork", "kernelci", "copilot", "claude", "codex", "chatgpt", "gemini") ||
+		hasAnyIdentityToken(n, "bot", "robot", "syzbot", "syzkaller", "lkp", "patchwork", "kernelci", "copilot", "claude", "codex", "chatgpt", "gemini") {
 		return true
 	}
 
-	// High-confidence mailing-list / group domains.
+	// High-confidence mailing-list / discussion-group domains.
 	if domain == "vger.kernel.org" ||
 		strings.HasSuffix(domain, ".googlegroups.com") || domain == "googlegroups.com" ||
 		strings.HasSuffix(domain, ".groups.io") || domain == "groups.io" ||
@@ -980,13 +1037,18 @@ func isNonHumanOrGroupIdentity(name, email string) bool {
 		return true
 	}
 
-	// List-like locals on otherwise known list domains.
+	// List-like locals on known list domains.
 	if strings.HasPrefix(local, "linux-") ||
 		strings.HasSuffix(local, "-devel") ||
 		local == "stable" || local == "netdev" || local == "bpf" || local == "lkml" {
-		if domain == "vger.kernel.org" || strings.HasPrefix(domain, "lists.") || strings.Contains(domain, ".lists.") || domain == "googlegroups.com" || strings.HasSuffix(domain, ".googlegroups.com") {
+		if domain == "vger.kernel.org" || strings.HasPrefix(domain, "lists.") || strings.Contains(domain, ".lists.") || domain == "googlegroups.com" || strings.HasSuffix(domain, ".googlegroups.com") || domain == "groups.io" || strings.HasSuffix(domain, ".groups.io") {
 			return true
 		}
+	}
+
+	// Shared mailbox patterns that are generic across projects.
+	if isSharedMailboxLocal(local) || isGroupLikeDisplayName(n) {
+		return true
 	}
 
 	return false
@@ -1481,6 +1543,18 @@ written-by
 	return out
 }()
 
+// Even when a trailer key is present in DevStats' broad allowlist, some keys are
+// mostly routing / notification metadata rather than evidence of contribution.
+// Dropping them reduces shared mailboxes, mailing lists and other non-human identities.
+var trailerRejectedKeys = map[string]struct{}{
+	"cc": {},
+	"to": {},
+	"from": {},
+	"received-from": {},
+	"sent-by": {},
+	"forwarded-by": {},
+}
+
 var trailerMailtoAnchorRE = regexp.MustCompile(`(?is)<a\b[^>]*\bhref\s*=\s*["']mailto:([^"'>\s]+)[^>]*>.*?</a>`)
 var trailerMailtoRE = regexp.MustCompile(`(?i)mailto:([A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,})`)
 var trailerAnchorTagRE = regexp.MustCompile(`(?is)</?a\b[^>]*>`)
@@ -1578,6 +1652,9 @@ func parseTrailerContributors(msg string) []trailerContributor {
 		}
 		key := normalizeTrailerKey(m["key"])
 		if _, ok := trailerAllowedKeys[key]; !ok {
+			continue
+		}
+		if _, rejected := trailerRejectedKeys[key]; rejected {
 			continue
 		}
 		value := cleanupTrailerValue(m["value"])
