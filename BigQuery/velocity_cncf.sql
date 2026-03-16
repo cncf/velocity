@@ -77,7 +77,7 @@ where
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'HolmesGPT',
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
-      'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem'
+      'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem', 'agones-dev'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -151,7 +151,9 @@ where
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
       'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc',
       'streamnative/oxia', 'Azure/dalec', 'robusta-dev/holmesgpt', 'robusta-dev/homebrew-holmesgpt',
-      'robusta-dev/holmesgpt-community-toolsets', 'truefoundry/KubeElasti', 'truefoundry/elasti'
+      'robusta-dev/holmesgpt-community-toolsets', 'truefoundry/KubeElasti', 'truefoundry/elasti',
+      'googleforgames/agones', 'googleforgames/agones-site', 'googleforgames/agones-community',
+      'googleforgames/space-agon', 'googleforgames/global-multiplayer-demo', 'GoogleCloudPlatform/agones'
     )
   )
   and repo.name not in (

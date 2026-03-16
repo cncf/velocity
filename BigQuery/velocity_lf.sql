@@ -37,7 +37,7 @@ WHERE
       'rethinkdb','SNAS','spdx','todogroup','xen-project','zephyrproject-rtos', 'containerd', 'rkt', 'yoctoproject',
       'kubernetes-helm', 'kubernetes-client', 'kubernetes-incubator', 'coredns', 'grpc-ecosystem', 'cubefs',
       'containernetworking', 'crosscloudci', 'cloudevents', 'openeventing', 'envoyproxy', 'jaegertracing',
-      'theupdateframework', 'rook', 'vitessio', 'telepresenceio', 'helm', 'goharbor', 'kubernetes-csi',
+      'theupdateframework', 'rook', 'vitessio', 'telepresenceio', 'helm', 'goharbor', 'kubernetes-csi', 'agones-dev',
       'nats-io', 'open-policy-agent', 'spiffe',  'etcd-io', 'tikv', 'cortexproject', 'buildpack', 'falcosecurity',
       'OpenObservability', 'dragonflyoss', 'virtual-kubelet', 'Virtual-Kubelet', 'kubeedge', 'brigadecore',
       'kubernetes-sig-testing', 'kubernetes-providers', 'kubernetes-addons', 'kubernetes-test', 'jenkins-x',
@@ -159,7 +159,9 @@ WHERE
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
       'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc',
       'streamnative/oxia', 'Azure/dalec', 'robusta-dev/holmesgpt', 'robusta-dev/homebrew-holmesgpt',
-      'robusta-dev/holmesgpt-community-toolsets', 'truefoundry/KubeElasti', 'truefoundry/elasti'
+      'robusta-dev/holmesgpt-community-toolsets', 'truefoundry/KubeElasti', 'truefoundry/elasti',
+      'googleforgames/agones', 'googleforgames/agones-site', 'googleforgames/agones-community',
+      'googleforgames/space-agon', 'googleforgames/global-multiplayer-demo', 'GoogleCloudPlatform/agones'
     )
   )
   and repo.name not in (

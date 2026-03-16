@@ -4,6 +4,7 @@ name,project
 Azure,=SKIP
 GoogleCloudPlatform,=SKIP
 Microsoft,=SKIP
+agones-dev,Agones
 apache,=SKIP
 aws,=SKIP
 google,=SKIP

@@ -121,6 +121,7 @@ Expensify/Expensify.cash,Expensify.cash
 Expensify/react-native-onyx,React-Native-Onyx
 G-Research/armada,Armada
 GoogleChrome/lighthouse,Chromium
+GoogleCloudPlatform/agones,Agones
 GoogleCloudPlatform/DataflowJavaSDK,Google Cloud SDKs
 GoogleCloudPlatform/DataflowPythonSDK,Google Cloud SDKs
 GoogleCloudPlatform/dotnet-docs-samples,Google Cloud Docs
@@ -1462,6 +1463,11 @@ google/trillian,Trillian
 google/xi-editor,Google Xi Editor
 google/yapf,YAPF
 googleapis/toolkit,Google API
+googleforgames/agones,Agones
+googleforgames/agones-site,Agones
+googleforgames/agones-community,Agones
+googleforgames/space-agon,Agones
+googleforgames/global-multiplayer-demo,Agones
 googlei18n/libphonenumber,Google i18n
 grpc-ecosystem/grpc-opentracing,gRPC
 hacktoberfest17/programming,hacktoberfest17
