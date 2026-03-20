@@ -77,7 +77,7 @@ where
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'HolmesGPT',
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
-      'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem', 'agones-dev'
+      'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem', 'agones-dev', 'kai-scheduler'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
