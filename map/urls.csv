@@ -659,6 +659,7 @@ Mullvad,mullvad.net
 Multiplatform Paging,github.com/cashapp/multiplatform-paging
 NATS,nats.io
 NI Linux,github.com/ni/linux
+NMstate,nmstate.io
 NServiceBus,particular.net/nservicebus
 NVIDIA CUDA,developer.nvidia.com/cuda-toolkit
 NVIDIA DALI,docs.nvidia.com/deeplearning/dali
@@ -721,6 +722,7 @@ OpenCost,kubecost.com
 OpenDaylight,opendaylight.org
 OpenEBS,openebs.io
 OpenELB,openelb.github.io
+OpenEverest,openeverest.io
 OpenFGA,openfga.dev
 OpenFaaS,openfaas.com
 OpenFeature,openfeature.dev
@@ -1047,6 +1049,7 @@ VS Code Kubernetes Tools,github.com/vscode-kubernetes-tools/vscode-kubernetes-to
 Vagrant,vagrantup.com
 Variscite,variscite.com
 Vault,vaultproject.io
+Velero,velero.io
 Vercel,vercel.com
 Vineyard,v6d.io
 Virtual Kubelet,virtual-kubelet.io

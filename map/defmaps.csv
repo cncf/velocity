@@ -465,6 +465,7 @@ networkservicemesh,Network Service Mesh
 neveragaindottech,neveragain.tech
 newrelic,New Relic
 nextcloud,Nextcloud
+nmstate,NMstate
 nocalhost,Nocalhost
 nodejs,Node.js
 notaryproject,Notary
@@ -497,6 +498,7 @@ openebs,OpenEBS
 openelb,OpenELB
 openembedded,Yocto
 openeventing,CloudEvents
+openeverest,OpenEverest
 openfaas,OpenFaaS
 openfeatureflags,OpenFeature
 openfga,OpenFGA
@@ -660,6 +662,7 @@ unikraft,Unikraft
 urunc-dev,urunc
 v6d-io,Vineyard
 varigit,Variscite
+velero-io,Velero
 vercel,Vercel
 vfx-rs,ASWF Working Group for Rust Bindings
 vgstation-coders,vgstation13

@@ -22,7 +22,7 @@ SELECT
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.email'), '"', ''), '(null)') AS author_email,
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') AS author_name,
   JSON_EXTRACT(payload, '$.commits[0].sha') as sha
-FROM 
+FROM
   (SELECT * from
     TABLE_DATE_RANGE([githubarchive:day.],TIMESTAMP('{{dtfrom}}'),TIMESTAMP('{{dtto}}'))
   )
@@ -84,7 +84,8 @@ WHERE
       'hyperlight-dev', 'cozystack', 'kitops-ml', 'SlimPlanet', 'spinframework', 'container2wasm', 'modelpack',
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'opentofu', 'kai-scheduler',
       'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI',
-      'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem'
+      'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem',
+      'velero-io', 'openeverest', 'nmstate'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -161,7 +162,11 @@ WHERE
       'streamnative/oxia', 'Azure/dalec', 'robusta-dev/holmesgpt', 'robusta-dev/homebrew-holmesgpt',
       'robusta-dev/holmesgpt-community-toolsets', 'truefoundry/KubeElasti', 'truefoundry/elasti',
       'googleforgames/agones', 'googleforgames/agones-site', 'googleforgames/agones-community',
-      'googleforgames/space-agon', 'googleforgames/global-multiplayer-demo', 'GoogleCloudPlatform/agones'
+      'googleforgames/space-agon', 'googleforgames/global-multiplayer-demo', 'GoogleCloudPlatform/agones',
+      'vmware-tanzu/velero', 'vmware-tanzu/velero-plugin-example', 'vmware-tanzu/velero-plugin-for-aws',
+      'vmware-tanzu/velero-plugin-for-gcp', 'vmware-tanzu/velero-plugin-for-microsoft-azure',
+      'vmware-tanzu/velero-plugin-for-vsphere', 'vmware-tanzu/velero-plugin-for-csi',
+      'vmware-tanzu/velero-csi-plugin', 'percona/everest'
     )
   )
   and repo.name not in (
