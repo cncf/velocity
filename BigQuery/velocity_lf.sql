@@ -85,7 +85,7 @@ WHERE
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'opentofu', 'kai-scheduler',
       'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI',
       'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem',
-      'velero-io', 'openeverest', 'nmstate'
+      'velero-io', 'openeverest', 'nmstate', 'higress-group'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -166,7 +166,7 @@ WHERE
       'vmware-tanzu/velero', 'vmware-tanzu/velero-plugin-example', 'vmware-tanzu/velero-plugin-for-aws',
       'vmware-tanzu/velero-plugin-for-gcp', 'vmware-tanzu/velero-plugin-for-microsoft-azure',
       'vmware-tanzu/velero-plugin-for-vsphere', 'vmware-tanzu/velero-plugin-for-csi',
-      'vmware-tanzu/velero-csi-plugin', 'percona/everest'
+      'vmware-tanzu/velero-csi-plugin', 'percona/everest', 'alibaba/higress'
     )
   )
   and repo.name not in (

@@ -78,7 +78,7 @@ where
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
       'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem', 'agones-dev', 'kai-scheduler', 'velero-io',
-      'openeverest', 'nmstate'
+      'openeverest', 'nmstate', 'higress-group'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -158,7 +158,7 @@ where
       'vmware-tanzu/velero', 'vmware-tanzu/velero-plugin-example', 'vmware-tanzu/velero-plugin-for-aws',
       'vmware-tanzu/velero-plugin-for-gcp', 'vmware-tanzu/velero-plugin-for-microsoft-azure',
       'vmware-tanzu/velero-plugin-for-vsphere', 'vmware-tanzu/velero-plugin-for-csi',
-      'vmware-tanzu/velero-csi-plugin', 'percona/everest'
+      'vmware-tanzu/velero-csi-plugin', 'percona/everest', 'alibaba/higress'
     )
   )
   and repo.name not in (
