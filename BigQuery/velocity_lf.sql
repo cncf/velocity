@@ -85,7 +85,7 @@ WHERE
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'opentofu', 'kai-scheduler',
       'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI',
       'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem',
-      'velero-io', 'openeverest', 'nmstate', 'higress-group'
+      'velero-io', 'openeverest', 'nmstate', 'higress-group', 'llm-d'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
