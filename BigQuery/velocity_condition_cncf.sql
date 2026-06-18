@@ -27,7 +27,7 @@
       'meshery', 'knative', 'knative-sandbox', 'FabEdge', 'confidential-containers', 'OpenFunction',
       'clusterpedia-io', 'aeraki-mesh', 'aeraki-framewoirk', 'opencurve', 'open-feature', 'krkn-chaos',
       'openfeatureflags', 'kubewarden', 'chimera-kube', 'devstream-io', 'kubedl-io', 'kubevela',
-      'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib', 'Serverless-Devs',
+      'konveyor', 'external-secrets', 'krustlet', 'crossplane-contrib', 'Serverless-Devs',
       'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio', 'kserve',
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'tellerops',
       'project-zot', 'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb',

@@ -35,7 +35,7 @@
       'symphonyoss', 'sigstore', 'vscode-kubernetes-tools', 'devfile', 'meshery', 'knative', 'knative-sandbox',
       'FabEdge', 'confidential-containers', 'OpenFunction', 'clusterpedia-io', 'aeraki-mesh', 'krkn-chaos',
       'aeraki-framewoirk', 'opencurve', 'open-feature', 'openfeatureflags', 'kubewarden', 'chimera-kube',
-      'devstream-io', 'kubedl-io', 'kubevela', 'hexa-org', 'konveyor', 'external-secrets', 'krustlet', 'openembedded',
+      'devstream-io', 'kubedl-io', 'kubevela', 'konveyor', 'external-secrets', 'krustlet', 'openembedded',
       'Serverless-Devs', 'ServerlessTool', 'ContainerSSH', 'openfga', 'lima-vm', 'k14s', 'kubereboot', 'istio',
       'inclavare-containers', 'notaryproject', 'merbridge', 'devspace-cloud', 'covexo', 'project-zot', 'oauth2-proxy',
       'paralus', 'carina-io', 'ko-build', 'opcr-io', 'werf', 'kubescape', 'openelb', 'tektoncd-catalog', 'opencost',
