@@ -367,6 +367,7 @@ kruiseio,OpenKruise
 krustlet,Krustlet
 kserve,KServe
 kuasar-io,Kuasar
+kube-bind,kbind
 kube-burner,kube-burner
 kube-logging,Logging Operator
 kube-rs,kube-rs

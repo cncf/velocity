@@ -1268,6 +1268,7 @@ jvm-sandbox,github.com/alibaba/jvm-sandbox
 k0s,k0sproject.io
 k8dash,skooner.io
 kagent,kagent.dev
+kbind,kube-bind.io
 kcp,kcp.io
 kgateway,kgateway.dev
 kitsune,github.com/mozilla/kitsune

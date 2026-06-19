@@ -48,7 +48,7 @@
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'HolmesGPT',
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
-      'thanos-community'
+      'velero-io', 'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -122,7 +122,11 @@
       'jozu-ai/kitops', 'aenix-io/cozystack-gitops-example', 'jozu-ai/gh-kit-setup', 'jozu-ai/daggerverse',
       'jozu-ai/pykitops', 'solo-io/gloo', 'kubernetes-purgatory/headlamp', 'nubificus/urunc',
       'streamnative/oxia', 'Azure/dalec', 'robusta-dev/holmesgpt', 'robusta-dev/homebrew-holmesgpt',
-      'robusta-dev/holmesgpt-community-toolsets'
+      'robusta-dev/holmesgpt-community-toolsets', 'vmware-tanzu/velero', 'vmware-tanzu/velero-plugin-example',
+      'vmware-tanzu/velero-plugin-for-aws', 'vmware-tanzu/velero-plugin-for-gcp',
+      'vmware-tanzu/velero-plugin-for-microsoft-azure', 'vmware-tanzu/velero-plugin-for-vsphere',
+      'vmware-tanzu/velero-plugin-for-csi', 'vmware-tanzu/velero-csi-plugin', 'percona/everest',
+      'alibaba/higress', 'Apicurio/apicurio-registry'
     )
   )
   and repo.name not in (
