@@ -16,9 +16,9 @@ Go to this [CNCF page](https://www.cncf.io/projects/) to find a list of current 
 
 For every project, find a github repo and add it to a [query](BigQuery/velocity_cncf.sql) appropriately - either as an org or a single repo or both. If a project does not have a GitHub repo or only lists a mirror, skip it for now but later add manually.
 
-Run the query for a year, for example: `[DBG=1] ./run_bq_templated.sh cncf 20250101 20260101`.
+Run the query for a year, for example: `[DBG=1] ./run_bq_templated.sh cncf 20250701 20260701`.
 
-It will generate a file for example: `data/data_cncf_projects_20250101_20260101.csv`.
+It will generate a file for example: `data/data_cncf_projects_20250701_20260701.csv`.
 
 Optional:
 - You can optionally compare commits counts from BigQuery to git commits counts via: `PG_PASS=... ./shells/get_git_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
@@ -28,20 +28,20 @@ Optional:
 
 Since October 7th 2025 GHA no longer have PushEvents commits data, so we need to reconstruct this using `git log` on cloned repos to get commits contributors count, do this via:
 ```
-./tools/enrich_authors/enrich_authors -in data/data_cncf_projects_20250101_20260101.csv -out data/data_cncf_projects_20250101_20260101.enriched.csv -from 2025-01-01 -to 2026-01-01 -forks forks.json
-cp data/data_cncf_projects_20250101_20260101.csv data/data_cncf_projects_20250101_20260101.raw.csv
-cp data/data_cncf_projects_20250101_20260101.enriched.csv data/data_cncf_projects_20250101_20260101.csv
+./tools/enrich_authors/enrich_authors -in data/data_cncf_projects_20250701_20260701.csv -out data/data_cncf_projects_20250701_20260701.enriched.csv -from 2025-07-01 -to 2026-07-01 -forks forks.json
+cp data/data_cncf_projects_20250701_20260701.csv data/data_cncf_projects_20250701_20260701.raw.csv
+cp data/data_cncf_projects_20250701_20260701.enriched.csv data/data_cncf_projects_20250701_20260701.csv
 ```
 
 Run `analysis.rb` with (you may lack CSV header, use `org,repo,activity,comments,prs,commits,issues,authors_alt2,authors_alt1,authors,pushes` in this case):
 ```
 export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
-[SKIP_TOKENS=''] FORKS_FILE=forks.json ruby analysis.rb data/data_cncf_projects_20250101_20260101.csv projects/projects_cncf_20250101_20260101.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
+[SKIP_TOKENS=''] FORKS_FILE=forks.json ruby analysis.rb data/data_cncf_projects_20250701_20260701.csv projects/projects_cncf_20250701_20260701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 ```
 
 Some projects are defined as regexps inside one or more orgs - BQ query tracks their orgs and config specifies which repos go to which project. You need to remove remaining repos for those orgs from the report.
 
-Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_cncf_20250101_20260101.csv` file. Also check for last column being empty `/,""`, `/oam-dev\|layer5io\|pixie-labs`.
+Currently manually check for `oam-dev`, `layer5io` and `pixie-labs` in `projects/projects_cncf_20250701_20260701.csv` file. Also check for last column being empty `/,""`, `/oam-dev\|layer5io\|pixie-labs`.
 
 Update forks files used for LF and Top30 generation: `./merge_forks.rb lf_forks.json forks.json ; ./merge_forks.rb all_forks.json forks.json`.
 
@@ -49,14 +49,14 @@ Now update commits counts to use git instead of BigQuery data: (remember to upda
 
 - If updated forks JSON(s) then generate devstats-reports docker image: `DOCKER_USER=lukaszgryglicki SKIP_TEST=1 SKIP_PROD=1 SKIP_FULL=1 SKIP_MIN=1 SKIP_GRAFANA=1 SKIP_TESTS=1 SKIP_PATRONI=1 SKIP_STATIC=1 SKIP_API=1 ./images/build_images.sh`.
 - Create reporting pod: `helm install devstats-prod-reports ./devstats-helm --set skipSecrets=1,skipPVs=1,skipBackupsPV=1,skipVacuum=1,skipBackups=1,skipBootstrap=1,skipProvisions=1,skipCrons=1,skipAffiliations=1,skipGrafanas=1,skipServices=1,skipPostgres=1,skipIngress=1,skipStatic=1,skipAPI=1,skipNamespaces=1,reportsPod=1,namespace='devstats-prod'`.
-- Shell into reports pod: `../devstats-k8s-lf/util/pod_shell.sh devstats-reports` and run: `./velocity/update_cncf_projects_commits.sh 2025-01-01 2026-01-01 &>> /update.log &`, `tail -f /update.log`. This takes hours to complete.
-- Download update: `wget https://devstats.cncf.io/backups/data_cncf_update_2025-01-01_2026-01-01.csv`. `mv data_cncf_update_2025-01-01_2026-01-01.csv data/`. The server can also be `devstats.cncf.io` instead of `teststats.cncf.io`.
+- Shell into reports pod: `../devstats-k8s-lf/util/pod_shell.sh devstats-reports` and run: `./velocity/update_cncf_projects_commits.sh 2025-07-01 2026-07-01 &>> /update.log &`, `tail -f /update.log`. This takes hours to complete.
+- Download update: `wget https://devstats.cncf.io/backups/data_cncf_update_2025-07-01_2026-07-01.csv`. `mv data_cncf_update_2025-07-01_2026-07-01.csv data/`. The server can also be `devstats.cncf.io` instead of `teststats.cncf.io`.
 - Delete no more needed reporting pod: `helm delete devstats-prod-reports`.
-- `ruby update_projects.rb projects/projects_cncf_20250101_20260101.csv data/data_cncf_update_2025-01-01_2026-01-01.csv -1`.
+- `ruby update_projects.rb projects/projects_cncf_20250701_20260701.csv data/data_cncf_update_2025-07-01_2026-07-01.csv -1`.
 
 If you have all CNCF projects databases locally, you can use old local approach to get commits count updates:
 
-- `PG_PASS=... ./update_cncf_projects_commits.rb 2025-01-01 2026-01-01`.
+- `PG_PASS=... ./update_cncf_projects_commits.rb 2025-07-01 2026-07-01`.
 
 You can consider removing `CNCF` project as it is not a real `CNCF` project but internal CNCF foundation orgs analysis entry.
 
@@ -75,7 +75,7 @@ Update the main [README](https://github.com/cncf/velocity#current-reports), set 
 
 ### CNCF Projects split by Kubernetes VS rest
 
-To compare CNCF K8s data vs non-k8s data do `export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'; ruby analysis.rb data/data_cncf_projects_20250101_20260101.csv projects/projects_cncf_k8s_non_k8s_20250101_20260101.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
+To compare CNCF K8s data vs non-k8s data do `export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'; ruby analysis.rb data/data_cncf_projects_20250701_20260701.csv projects/projects_cncf_k8s_non_k8s_20250701_20260701.csv map/hints_k8s_non_k8s.csv map/urls_k8s_non_k8s.csv map/defmaps_k8s_non_k8s.csv map/skip.csv map/ranges_sane.csv`.
 
 For this case, a new set of map files was created:
 - `map/k8s_vs_rest_defmaps.csv` - list of orgs found in query
