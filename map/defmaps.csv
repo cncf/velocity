@@ -4,7 +4,6 @@ name,project
 Azure,=SKIP
 GoogleCloudPlatform,=SKIP
 Microsoft,=SKIP
-agones-dev,Agones
 apache,=SKIP
 aws,=SKIP
 google,=SKIP
@@ -108,6 +107,7 @@ acemod,ACE Mod
 acumos,Acumos
 aeraki-framework,Aeraki Mesh
 aeraki-mesh,Aeraki Mesh
+agones-dev,Agones
 akka,Akka
 alibaba,Alibaba
 alphagov,Government Digital Service

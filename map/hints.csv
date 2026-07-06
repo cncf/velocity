@@ -121,9 +121,9 @@ Expensify/Expensify.cash,Expensify.cash
 Expensify/react-native-onyx,React-Native-Onyx
 G-Research/armada,Armada
 GoogleChrome/lighthouse,Chromium
-GoogleCloudPlatform/agones,Agones
 GoogleCloudPlatform/DataflowJavaSDK,Google Cloud SDKs
 GoogleCloudPlatform/DataflowPythonSDK,Google Cloud SDKs
+GoogleCloudPlatform/agones,Agones
 GoogleCloudPlatform/dotnet-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/gcloud-common,Google Cloud SDKs
 GoogleCloudPlatform/gcloud-dotnet,Google Cloud SDKs
@@ -1465,10 +1465,10 @@ google/xi-editor,Google Xi Editor
 google/yapf,YAPF
 googleapis/toolkit,Google API
 googleforgames/agones,Agones
-googleforgames/agones-site,Agones
 googleforgames/agones-community,Agones
-googleforgames/space-agon,Agones
+googleforgames/agones-site,Agones
 googleforgames/global-multiplayer-demo,Agones
+googleforgames/space-agon,Agones
 googlei18n/libphonenumber,Google i18n
 grpc-ecosystem/grpc-opentracing,gRPC
 hacktoberfest17/programming,hacktoberfest17
@@ -3385,13 +3385,13 @@ vmware-tanzu/carvel-secretgen-controller,Carvel
 vmware-tanzu/carvel-vendir,Carvel
 vmware-tanzu/carvel-ytt,Carvel
 vmware-tanzu/velero,Velero
+vmware-tanzu/velero-csi-plugin,Velero
 vmware-tanzu/velero-plugin-example,Velero
 vmware-tanzu/velero-plugin-for-aws,Velero
+vmware-tanzu/velero-plugin-for-csi,Velero
 vmware-tanzu/velero-plugin-for-gcp,Velero
 vmware-tanzu/velero-plugin-for-microsoft-azure,Velero
 vmware-tanzu/velero-plugin-for-vsphere,Velero
-vmware-tanzu/velero-plugin-for-csi,Velero
-vmware-tanzu/velero-csi-plugin,Velero
 vmware/docker-volume-vsphere,VMware vSphere
 vmware/govmomi,VMware SDKs
 vmware/harbor,Harbor
