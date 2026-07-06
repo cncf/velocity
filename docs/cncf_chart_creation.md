@@ -23,7 +23,7 @@ It will generate a file for example: `data/data_cncf_projects_20250701_20260701.
 Optional:
 - You can optionally compare commits counts from BigQuery to git commits counts via: `PG_PASS=... ./shells/get_git_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
 - You can optionally compare commits counts from BigQuery to DevStats commits counts via: `PG_PASS=... ./shells/get_devstats_commits_count.sh proj_db YYYY-MM-DD YYYY-MM-DD`.
-- The above two commands (not needed) can also run from within a helm devstats reports pod, shange `shells/` path to `velocity/` and run - again this is not needed.
+- The above two commands (not needed) can also run from within a helm devstats reports pod, change `shells/` path to `velocity/` and run - again this is not needed.
 - Those steps are possible only from DevStats kubernetes node or if you have DevStats installed locally. Normally this is not needed and should be skipped.
 
 Since October 7th 2025 GHA no longer have PushEvents commits data, so we need to reconstruct this using `git log` on cloned repos to get commits contributors count, do this via:
