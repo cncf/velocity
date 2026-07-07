@@ -9,7 +9,7 @@
 `analysis.rb` can be used to create data for a Cloud Native Computing Foundation projects bubble chart such as this one
 ![sample chart](./linuxfoundation_chart_example.png?raw=true "CNCF projects")
 
-The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1jeuWn6ILx6-qgcNVJtkzdbA8x6Jf0axZyxQa_6JEQfo/edit?usp=sharing).
+The chart itself can be generated in a [google sheet](https://docs.google.com/spreadsheets/d/1U-xcXsGSrMkHg8WhmSpYOzQCqr7gwOK3Yz1lF5agYIM/edit?usp=sharing).
 
 ### Chart data
 Go to this [LF page](https://www.linuxfoundation.org/projects/) to find a list of current projects.
@@ -130,7 +130,7 @@ Yocto,issues,1865
 
 # Final chart
 
-Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1jeuWn6ILx6-qgcNVJtkzdbA8x6Jf0axZyxQa_6JEQfo/edit?usp=sharing).
+Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1U-xcXsGSrMkHg8WhmSpYOzQCqr7gwOK3Yz1lF5agYIM/edit?usp=sharing).
 
 Put results of the analysis into a file and import the data in the 'Data' sheet in cell A300.
 File -> Import -> Upload -> in the Import location section, select the radio button called 'Replace data at selected cell', click Import data

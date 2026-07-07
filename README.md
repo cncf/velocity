@@ -11,6 +11,7 @@
 
 7/1/2025 - 7/1/2026:
 - [CNCF Projects Velocity](https://docs.google.com/spreadsheets/d/1cpKOWrpDyOVvBnZ5pQWRDpgFzU75dbJKK6jtVZ6xfB4/edit?usp=sharing).
+- [Linux Foundation Projects Velocity](https://docs.google.com/spreadsheets/d/1U-xcXsGSrMkHg8WhmSpYOzQCqr7gwOK3Yz1lF5agYIM/edit?usp=sharing).
 
 
 ## Past reports
