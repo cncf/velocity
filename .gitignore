@@ -75,3 +75,7 @@ tools/enrich_authors/enrich_authors
 tools/enrich_authors2/enrich_authors2
 *.secret
 src*.txt
+/1
+/2
+enrich_authors.linux
+/tmp
