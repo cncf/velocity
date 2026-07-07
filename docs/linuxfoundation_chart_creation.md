@@ -41,8 +41,8 @@ Try running this from the velocity project's root folder:
 - A message will be shown: `Data range not found in data/data_linux.csv: 2025-07-01 - 2026-07-01`. That means you need to add a new data range for Linux in file: `data/data_linux.csv`
 - Add a row for the time period in `data/data_linux.csv`: `torvalds,torvalds/linux,2025-07-01,2026-07-01,0,0,0,0,0,0,0,0`
 	- Get `cncf/gitdm` with `git clone https://github.com/cncf/gitdm.git`
-	- Get or update local linux kernel repo with `cd ~/dev/linux && git checkout master && git reset --hard && git pull`. An alternative to it (if you don't have the linux repo cloned) is: `cd ~/dev/`, `git clone https://github.com/torvalds/linux.git`.
-	- Go to `cncf/gitdm/src/`, `cd ~/dev/cncf/gitdm/src` and run: `./linux_range.sh 2025-07-01 2026-07-01`
+	- Get or update local linux kernel repo with `cd ~/dev/torvalds/linux && git checkout master && git reset --hard && git pull`. An alternative to it (if you don't have the linux repo cloned) is: `cd ~/dev/torvalds`, `git clone https://github.com/torvalds/linux.git`.
+	- Go to `cncf/gitdm/src/`, `cd ~/dev/cncf/gitdm/src` and run: `./linux_range.sh 2025-07-01 2026-07-01` (this needs python2 installation - for example inside bhyve vm).
 	- While in `cncf/gitdm/src/` directory, view: `vim linux_stats/range_2025-07-01_2026-07-01.txt`:
 	```
 	Processed 64482 csets from 3803 developers
