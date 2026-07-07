@@ -55,7 +55,7 @@ Try running this from the velocity project's root folder:
 	torvalds,torvalds/linux,2025-07-01,2026-07-01,64482,3790914,1522111,3803,0,0,0,0
 	```
 - Create reports pod: `helm install devstats-test-reports ./devstats-helm --set skipSecrets=1,skipPVs=1,skipBackupsPV=1,skipVacuum=1,skipBackups=1,skipBootstrap=1,skipProvisions=1,skipCrons=1,skipAffiliations=1,skipGrafanas=1,skipServices=1,skipPostgres=1,skipIngress=1,skipStatic=1,skipAPI=1,skipNamespaces=1,reportsPod=1,projectsOverride='+cncf\,+opencontainers\,+zephyr\,+linux\,+rkt\,+sam\,+azf\,+riff\,+fn\,+openwhisk\,+openfaas\,+cii\,+prestodb\,+godotengine\,+opentracing'`
-- Shell into reports pod: `../devstats-k8s-lf/util/pod_shell.sh devstats-reports` and run: `./velocity/linux_commits.sh 2025-07-01 2026-07-01` that will give values for number of pushes and commits. This is not needed but recommended. Otherwise put `0,0` for commits and pushes. Changesets are used to calculate output commits.
+- Shell into reports pod: `kubectl exec -itn devstats-test devstats-reports -- /bin/bash` and run: `./velocity/linux_commits.sh 2025-07-01 2026-07-01` that will give values for number of pushes and commits. This is not needed but recommended. Otherwise put `0,0` for commits and pushes. Changesets are used to calculate output commits.
 - Delete reporting pod: `helm delete devstats-test-reports`.
 - Run `./lkml_analysis.rb 2025-07-01 2026-07-01` from `cncf/velocity` to get number of LKML emails (all) and new threads. This takes hours to complete.
 
