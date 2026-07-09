@@ -52,6 +52,7 @@ export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 
 Or because it can take many hours due to forks detection on 1st run: replace `binding.pry` in `analysis.rb` with `# binding.pry` (later revert this) and:
 ```
+export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 FORKS_FILE=all_forks.json nohup ruby analysis.rb data/data_top30_without_committers_projects_20250701_20260701.csv projects/projects_top30_without_committers_20250701_20260701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv 1>analysis.log 2>analysis.err < /dev/null &
 tail -f analysis.???
 ```

@@ -13,11 +13,14 @@ echo "Restoring BigQuery output"
 cp data/data_top30_without_committers_projects_20250701_20260701.csv data/unlimited.csv
 echo "Adding Linux kernel data"
 ruby add_linux.rb data/unlimited.csv data/data_linux.csv 2025-07-01 2026-07-01
+echo "Adding/Updating LF Projects"
+ruby merger.rb data/unlimited.csv data/data_lf_projects_20250701_20260701.csv
 echo "Adding/Updating CNCF Projects"
 ruby merger.rb data/unlimited.csv data/data_cncf_projects_20250701_20260701.csv
 echo "Analysis"
 export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 # was map/ranges_unlimited.csv
+# FORKS_FILE=all_forks.json nohup ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv 1>analysis.log 2>analysis.err < /dev/null &
 FORKS_FILE=all_forks.json ruby analysis.rb data/unlimited.csv projects/unlimited_both.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_sane.csv
 echo "Prioritizing LF projects data"
 PROJFMT=1 ruby update_projects.rb projects/unlimited_both.csv ./projects/projects_lf_20250701_20260701.csv -1
