@@ -36,7 +36,7 @@ Or run the query for a specified year, for example (outdated/needs checks of upd
 
 It will generate a file for example: `data/data_top30_without_committers_projects_20250701_20260701.csv` or `data/data_top30_2025.csv`.
 
-Since October 7th 2025 GHA no longer have PushEvents commits data, so we need to reconstruct this using `git log` on cloned repos to get commits contributors count, do this via:
+Since October 7th 2025 GHA no longer have PushEvents commits data, so we need to reconstruct this using `git log` on cloned repos to get commits contributors count, do this via (it takes 2-3 days and processes about 400k-500k repos):
 ```
 nohup ./tools/enrich_authors/enrich_authors -in data/data_top30_without_committers_projects_20250701_20260701.csv -out data/data_top30_without_committers_projects_20250701_20260701.enriched.csv -from 2025-07-01 -to 2026-07-01 -forks all_forks.json -tmp ./tmp -threads 6 1>1 2>2 < /dev/null &
 tail -f ?
@@ -48,6 +48,12 @@ Run `analysis.rb` with
 ```
 export RUBYOPT='-EASCII-8BIT:ASCII-8BIT'
 [SKIP_TOKENS=''] FORKS_FILE=all_forks.json ruby analysis.rb data/data_top30_without_committers_projects_20250701_20260701.csv projects/projects_top30_without_committers_20250701_20260701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv
+```
+
+Or because it can take many hours due to forks detection on 1st run: replace `binding.pry` in `analysis.rb` with `# binding.pry` (later revert this) and:
+```
+FORKS_FILE=all_forks.json nohup ruby analysis.rb data/data_top30_without_committers_projects_20250701_20260701.csv projects/projects_top30_without_committers_20250701_20260701.csv map/hints.csv map/urls.csv map/defmaps.csv map/skip.csv map/ranges_unlimited.csv 1>analysis.log 2>analysis.err < /dev/null &
+tail -f analysis.???
 ```
 
 Make a copy of the [google doc](https://docs.google.com/spreadsheets/d/1oxcyhMpwekdrqB3ly6bk4l4AQncWbXOYKLhjxSqhoUs/edit?usp=sharing).
