@@ -107,6 +107,7 @@ Azure/kaito,KAITO
 Azure/sonic-py-swsssdk,Azure SDKs
 Azure/vscode-kubernetes-tools,VS Code Kubernetes Tools
 BuoyantIO/linkerd,Linkerd
+Clawdi-AI/openclaw,OpenClaw
 Comcast/kuberhealthy,Kuberhealthy
 Comcast/trickster,Trickster
 Dronecode/Dronecode-Website-Issues,Dronecode
@@ -473,27 +474,73 @@ MicrosoftDocs/visualstudio-docs,MicrosoftDocs
 MicrosoftDocs/windows-uwp,MicrosoftDocs
 MicrosoftDocs/windowsserverdocs,MicrosoftDocs
 MicrosoftDocs/winrt-api,MicrosoftDocs
+NVIDIA/3DObjectReconstruction,NVIDIA CUDA
+NVIDIA/AMGX,NVIDIA CUDA
 NVIDIA/CUDALibrarySamples,NVIDIA CUDA
 NVIDIA/CoMD-CUDA,NVIDIA CUDA
 NVIDIA/DALI,NVIDIA DALI
 NVIDIA/DL4AGX,NVIDIA CUDA
 NVIDIA/Fuser,nvFuser
+NVIDIA/G-Assist,NVIDIA CUDA
 NVIDIA/GMAT,NVIDIA CUDA
+NVIDIA/GR00T-Dreams,NVIDIA Isaac
 NVIDIA/HMM_sample_code,NVIDIA CUDA
+NVIDIA/ISV-NCP-Validation-Suite,NVIDIA CUDA
+NVIDIA/Isaac-GR00T,NVIDIA Isaac
+NVIDIA/IsaacTeleop,NVIDIA Isaac
 NVIDIA/KAI-Scheduler,KAI-Scheduler
 NVIDIA/MatX,NVIDIA CUDA
+NVIDIA/Megatron-Energon,NVIDIA NeMo
 NVIDIA/MinkowskiEngine,NVIDIA CUDA
+NVIDIA/Model-Optimizer,TensorRT
+NVIDIA/NVSentinel,NVIDIA CUDA
+NVIDIA/NVTX,NVIDIA CUDA
 NVIDIA/NeMo,NVIDIA NeMo
+NVIDIA/NeMo-Agent-Toolkit,NVIDIA NeMo
+NVIDIA/NeMo-Agent-Toolkit-UI,NVIDIA NeMo
+NVIDIA/NeMo-Flow,NVIDIA NeMo
+NVIDIA/NeMo-Relay,NVIDIA NeMo
+NVIDIA/NeMo-Retriever,NVIDIA NeMo
+NVIDIA/NemoClaw,NemoClaw
+NVIDIA/OSMO,NVIDIA OSMO
+NVIDIA/OWL,NVIDIA CUDA
+NVIDIA/OpenShell,NVIDIA OpenShell
+NVIDIA/OpenShell-Community,NVIDIA OpenShell
 NVIDIA/PRBench,NVIDIA CUDA
+NVIDIA/Q2RTX,NVIDIA CUDA
+NVIDIA/SkillSpector,NVIDIA CUDA
 NVIDIA/TensorRT,TensorRT
+NVIDIA/TensorRT-Edge-LLM,TensorRT
 NVIDIA/TensorRT-Incubator,TensorRT
 NVIDIA/TensorRT-LLM,TensorRT-LLM
+NVIDIA/TensorRT-RTX,TensorRT
+NVIDIA/TileGym,NVIDIA CUDA
+NVIDIA/TorchFort,NVIDIA CUDA
 NVIDIA/TransformerEngine,NVIDIA CUDA
+NVIDIA/Trustworthy-AI,NVIDIA CUDA
+NVIDIA/VisRTX,NVIDIA CUDA
+NVIDIA/aerial-cuda-accelerated-ran,NVIDIA CUDA
+NVIDIA/aerial-framework,NVIDIA CUDA
+NVIDIA/aicr,NVIDIA CUDA
+NVIDIA/ais-k8s,NVIDIA CUDA
 NVIDIA/apt-packaging-cuda-keyring,NVIDIA CUDA
+NVIDIA/attestation-sdk,NVIDIA CUDA
+NVIDIA/audio-flamingo,NVIDIA Audio Flamingo
+NVIDIA/bare-metal-manager-core,NVIDIA CUDA
+NVIDIA/bare-metal-manager-rest,NVIDIA CUDA
+NVIDIA/barney,NVIDIA CUDA
 NVIDIA/cccl,NVIDIA CUDA
 NVIDIA/clara-ia,NVIDIA CUDA
+NVIDIA/cloud-native-stack,NVIDIA CUDA
 NVIDIA/cnmem,NVIDIA CUDA
+NVIDIA/context-aware-rag,NVIDIA CUDA
+NVIDIA/cosmos,NVIDIA Cosmos
+NVIDIA/cuBQL,NVIDIA CUDA
+NVIDIA/cuCascade,NVIDIA CUDA
 NVIDIA/cuCollections,NVIDIA CUDA
+NVIDIA/cuDecomp,NVIDIA CUDA
+NVIDIA/cuEmbed,NVIDIA CUDA
+NVIDIA/cuEquivariance,NVIDIA CUDA
 NVIDIA/cuQuantum,NVIDIA CUDA
 NVIDIA/cub,NVIDIA CUDA
 NVIDIA/cuda-checkpoint,NVIDIA CUDA
@@ -504,26 +551,102 @@ NVIDIA/cuda-python,NVIDIA CUDA
 NVIDIA/cuda-quantum,NVIDIA CUDA
 NVIDIA/cuda-repo-management,NVIDIA CUDA
 NVIDIA/cuda-samples,NVIDIA CUDA
+NVIDIA/cudaqx,NVIDIA CUDA
+NVIDIA/cudf-spark,NVIDIA Spark Rapids
+NVIDIA/cudnn-frontend,NVIDIA CUDA
+NVIDIA/cuopt,NVIDIA cuOpt
+NVIDIA/cuopt-examples,NVIDIA cuOpt
+NVIDIA/cutile-python,NVIDIA CUDA
 NVIDIA/cutlass,NVIDIA CUDA
+NVIDIA/daqiri,NVIDIA CUDA
+NVIDIA/deepeeRT,NVIDIA CUDA
+NVIDIA/deepops,NVIDIA CUDA
+NVIDIA/dgxc-benchmarking,NVIDIA CUDA
+NVIDIA/dsx-github-actions,NVIDIA CUDA
+NVIDIA/edk2-nvidia,NVIDIA CUDA
+NVIDIA/egl-wayland2,NVIDIA CUDA
+NVIDIA/egl-x11,NVIDIA CUDA
+NVIDIA/enroot,NVIDIA CUDA
+NVIDIA/farm,NVIDIA CUDA
+NVIDIA/flashdreams,NVIDIA FlashDreams
+NVIDIA/garak,garak
+NVIDIA/gdrcopy,NVIDIA CUDA
+NVIDIA/gds-nvidia-fs,NVIDIA CUDA
+NVIDIA/go-dcgm,NVIDIA CUDA
+NVIDIA/go-nvml,NVIDIA CUDA
 NVIDIA/gpu-operator,NVIDIA CUDA
 NVIDIA/grcuda,NVIDIA CUDA
+NVIDIA/grove,NVIDIA CUDA
+NVIDIA/ib-traffic-monitor,NVIDIA CUDA
+NVIDIA/infra-controller,NVIDIA CUDA
+NVIDIA/infra-controller-core,NVIDIA CUDA
+NVIDIA/infra-controller-rest,NVIDIA CUDA
+NVIDIA/jetson-gpio,NVIDIA CUDA
 NVIDIA/jitify,NVIDIA CUDA
+NVIDIA/k8s-cc-manager,NVIDIA CUDA
+NVIDIA/k8s-dra-driver-gpu,NVIDIA CUDA
+NVIDIA/k8s-driver-manager,NVIDIA CUDA
+NVIDIA/k8s-kata-manager,NVIDIA CUDA
+NVIDIA/k8s-test-infra,NVIDIA CUDA
+NVIDIA/kubevirt-gpu-device-plugin,NVIDIA CUDA
 NVIDIA/libcudacxx,NVIDIA CUDA
+NVIDIA/libnvidia-container,NVIDIA CUDA
+NVIDIA/logits-processor-zoo,NVIDIA CUDA
+NVIDIA/makani,NVIDIA Makani
 NVIDIA/mcmc-bnn-example,NVIDIA CUDA
+NVIDIA/multi-storage-client,NVIDIA CUDA
+NVIDIA/ncore,NVIDIA Isaac
+NVIDIA/ncx-infra-controller-core,NVIDIA CUDA
+NVIDIA/ncx-infra-controller-rest,NVIDIA CUDA
+NVIDIA/nodewright,NVIDIA CUDA
+NVIDIA/nsight-python,NVIDIA CUDA
 NVIDIA/nsight-vscode-edition,NVIDIA CUDA
 NVIDIA/numba-cuda,NVIDIA CUDA
+NVIDIA/numba-cuda-mlir,NVIDIA CUDA
 NVIDIA/numbast,NVIDIA CUDA
+NVIDIA/nv-redfish,NVIDIA CUDA
+NVIDIA/nv-rms-client,NVIDIA CUDA
 NVIDIA/nvImageCodec,NVIDIA CUDA
 NVIDIA/nvaitc-toolkit,NVIDIA CUDA
+NVIDIA/nvalchemi-toolkit,NVIDIA CUDA
+NVIDIA/nvalchemi-toolkit-ops,NVIDIA CUDA
 NVIDIA/nvbench,NVIDIA CUDA
+NVIDIA/nvcf,NVIDIA CUDA
+NVIDIA/nvidia-dlfw-inspect,NVIDIA CUDA
 NVIDIA/nvidia-docker,NVIDIA CUDA
+NVIDIA/nvidia-resiliency-ext,NVIDIA CUDA
+NVIDIA/nvkind,NVIDIA CUDA
+NVIDIA/nvmath-python,NVIDIA CUDA
+NVIDIA/nvrc,NVIDIA CUDA
+NVIDIA/nvshmem,NVIDIA CUDA
 NVIDIA/otk-demand-loading,NVIDIA CUDA
 NVIDIA/otk-omm-baking,NVIDIA CUDA
 NVIDIA/otk-shader-util,NVIDIA CUDA
+NVIDIA/personaplex,NVIDIA NeMo
+NVIDIA/physicsnemo,NVIDIA PhysicsNeMo
+NVIDIA/physicsnemo-cfd,NVIDIA PhysicsNeMo
+NVIDIA/physicsnemo-curator,NVIDIA PhysicsNeMo
+NVIDIA/physicsnemo-sym,NVIDIA PhysicsNeMo
+NVIDIA/pyxis,NVIDIA CUDA
+NVIDIA/recsys-examples,NVIDIA CUDA
+NVIDIA/sandbox-device-plugin,NVIDIA CUDA
+NVIDIA/skills,NVIDIA CUDA
+NVIDIA/skyhook,NVIDIA CUDA
+NVIDIA/skyhook-packages,NVIDIA CUDA
 NVIDIA/spark-rapids,NVIDIA Spark Rapids
+NVIDIA/spark-rapids-benchmarks,NVIDIA Spark Rapids
+NVIDIA/spark-rapids-common,NVIDIA Spark Rapids
+NVIDIA/sphinx-llm,NVIDIA CUDA
+NVIDIA/srt-slurm,NVIDIA CUDA
+NVIDIA/tao_pytorch_backend,NVIDIA CUDA
 NVIDIA/tensorrt-laboratory,NVIDIA CUDA
 NVIDIA/thrust,NVIDIA CUDA
+NVIDIA/tilus,NVIDIA CUDA
+NVIDIA/topograph,NVIDIA CUDA
 NVIDIA/torch-cutorch,NVIDIA CUDA
+NVIDIA/torch-harmonics,NVIDIA CUDA
+NVIDIA/vagrant-swift-all-in-one,NVIDIA CUDA
+NVIDIA/yum-packaging-precompiled-kmod,NVIDIA CUDA
 OAI/Gluecon-Workshop,Open API
 OAI/OpenAPI-Specification,Open API
 OAI/OpenAPI-Style-Guide,Open API
@@ -696,6 +819,7 @@ academysoftwarefoundation/tac,ASWF Common
 academysoftwarefoundation/wg-ci,ASWF CI Working Group
 academysoftwarefoundation/wg-review-approval,ASWF Open Review Initiative
 academysoftwarefoundation/xstudio,ASWF Open Review Initiative
+access-softek/llvm-project,LLVM
 accuknox/KubeArmor,KubeArmor
 adobe/react-spectrum,Adobe React Spectrum
 adobe/react-spectrum-charts,Adobe React Spectrum
@@ -795,6 +919,11 @@ angular/material,Angular
 angular/material2,Angular
 angular/protractor,Protractor
 angular/tsickle,Angular
+anomalyco/models.dev,OpenCode
+anomalyco/opencode,OpenCode
+anomalyco/opentui,OpenCode
+anomalyco/sst,SST
+anomalyco/v2,SST
 ansys/DevRelDocs,Ansys PyAnsys
 ansys/ansys-api-edb,Ansys AEDT
 ansys/ansys-api-speos,Ansys AEDT
@@ -945,6 +1074,7 @@ apacheignite/drools-ignite,Apache Ignite
 apacheignite/yardstick-ignite,Apache Ignite
 apacheignite/zeppelin-demo,Apache Ignite
 apcera/nats,NATS
+aphrodite-engine/aphrodite-engine,Aphrodite Engine
 appc/cni,CNI
 apple/llvm-project,LLVM
 apple/swift,Swift
@@ -1015,9 +1145,11 @@ aws/aws-sdk-php-symfony,AWS SDKs
 aws/aws-sdk-php-zf2,AWS SDKs
 aws/aws-sdk-ruby,AWS SDKs
 aws/aws-sdk-ruby-record,AWS SDKs
+awslabs/aws-lambda-rust-runtime,AWS SDKs
 awslabs/aws-sam-cli,AWS SAM
 awslabs/aws-sam-local,AWS SAM
 awslabs/cdk8s,cdk8s
+awslabs/mcp,AWS MCP Servers
 awslabs/serverless-application-model,AWS SAM
 baidu/bfe,BFE
 banzaicloud/bank-vaults,Bank-Vaults
@@ -1303,6 +1435,7 @@ ctrliq/kernel-src-tree,Ascender
 ctrliq/kernel-src-tree-tools,Ascender
 ctrliq/pika,Ascender
 d3athrow/vgstation13,vgstation13
+daixiang0/gci,gci
 danderson/metallb,MetalLB
 datawire/ambassador,Emissary-ingress
 datawire/telepresence,Telepresence
@@ -1403,9 +1536,14 @@ fpco/stackage,Hackage
 fusor/mig-operator,Konveyor
 github.com/tpm2-software/tpm2-tools,Intel TPM
 github/VisualStudio,GitHub Extension for Visual Studio
+github/awesome-copilot,GitHub Copilot
 github/backup-utils,GitHub Enterprise Backup Utilities
 github/choosealicense.com,Choosealicense.com
+github/codeql,CodeQL
+github/copilot-sdk,GitHub Copilot
+github/gh-aw,GitHub Copilot
 github/git-lfs,Git Large File Storage
+github/github-mcp-server,GitHub MCP Server
 github/government.github.com,GitHub and Government
 github/hub,GitHub
 github/hubot,Hubot
@@ -1413,10 +1551,13 @@ github/linguist,Linguist
 github/markup,GitHub Markup
 github/open-source-guide,Open Source Guides
 github/open-source-survey,Open Source Survey
+github/spec-kit,Spec Kit
 github/training-kit,GitHub Training Kit
+github/vitess-gh,Vitess
 gitlab/GitLab,GitLab
 gitlabhq/gitlabhq,GitLab
 golang/go,Go
+gonka-ai/vllm,vLLM
 google/EarlGrey,EarlGrey
 google/ExoPlayer,Google ExoPlayer
 google/WebFundamentals,Google WebFundamentals
@@ -1702,6 +1843,7 @@ kubernetes/test-infra,Kubernetes
 kubesphere/openelb,OpenELB
 kubesphere/porter,OpenELB
 kubesphere/porterlb,OpenELB
+l3ocifer/quirm-hermes-agent,Nous Research
 layer5io/advanced-istio-service-mesh-workshop,Service Mesh Performance
 layer5io/istio-service-mesh-workshop,Service Mesh Performance
 layer5io/linkerd-service-mesh-workshop,Service Mesh Performance
@@ -1732,8 +1874,11 @@ layer5io/service-mesh-labs,Service Mesh Performance
 layer5io/service-mesh-performance,Service Mesh Performance
 layer5io/service-mesh-performance-specification,Service Mesh Performance
 ligato/networkservicemesh,Network Service Mesh
+linuxhsj/openclaw-zero-token,OpenClaw
+llvm-z80/llvm-z80,LLVM
 lyft/cartography,Cartography
 lyft/envoy,Envoy
+m1heng/clawdbot-feishu,OpenClaw
 maestrosdk/frameworks,Kudo
 maestrosdk/maestro,Kudo
 mamedev/mame,MAME
@@ -1742,9 +1887,18 @@ merico-dev/OpenStream,DevStream
 merico-dev/stream,DevStream
 microsoft/25-days-of-serverless,25-days-of-serverless
 microsoft/AI,AI
+microsoft/AI-Engineering-Coach,VS Code
+microsoft/AI-in-One-Dashboard,Power BI
 microsoft/AL,Dynamics NAV
+microsoft/AL-Go-Actions,Microsoft (other)
 microsoft/ALAppExtensions,ALAppExtensions
 microsoft/AdaptiveCards,AdaptiveCards
+microsoft/Agent365-Python-AI-First,Microsoft Agent 365
+microsoft/Agent365-devTools,Microsoft Agent 365
+microsoft/Agent365-dotnet,Microsoft Agent 365
+microsoft/Agent365-nodejs,Microsoft Agent 365
+microsoft/Agent365-python,Microsoft Agent 365
+microsoft/AgentSchema,Microsoft (other)
 microsoft/Agents-M365Copilot,GitHub Copilot
 microsoft/Agents-for-js,Azure AI
 microsoft/Agents-for-python,Azure AI
@@ -1763,6 +1917,7 @@ microsoft/AzDevOpsDemoGenerator,Azure DevOps
 microsoft/Azure-Kinect-Sensor-SDK,Azure-Kinect-Sensor-SDK
 microsoft/AzureArcSCVMMTSG,Azure Arc
 microsoft/AzureBot,Azure
+microsoft/AzureKeyVaultManagedHSMEngine,Azure
 microsoft/AzureLocal-Network-Switch-Validation,Azure Arc
 microsoft/AzureStack_Network_Switch_Config_Generator,Azure Arc
 microsoft/AzureStorageExplorer,Azure Storage
@@ -1777,12 +1932,14 @@ microsoft/BotFramework-Emulator,Microsoft BotBuilder
 microsoft/BotFramework-WebChat,Microsoft BotBuilder
 microsoft/BuildXL,BuildXL
 microsoft/BusinessPlatformApps,Microsoft BusinessPlatformApps
+microsoft/BusyBox,Microsoft (other)
 microsoft/CCF,CCF
 microsoft/CNTK,Microsoft Cognitive Toolkit
 microsoft/CameraTraps,CameraTraps
 microsoft/Chakra-Samples,Microsoft Chakra
 microsoft/ChakraCore,Microsoft Chakra
 microsoft/ChakraCore-wiki,Microsoft Chakra
+microsoft/CmdPalAzureExtension,Microsoft (other)
 microsoft/CodeContracts,dotnet
 microsoft/Cognitive-Documentation,Microsoft Cognitive Toolkit
 microsoft/Cognitive-Face-Windows,Microsoft Cognitive Toolkit
@@ -1791,6 +1948,9 @@ microsoft/CommandLine-Documentation,Microsoft docs
 microsoft/ComputerVision,ComputerVision
 microsoft/DLWorkspace,DLWorkspace
 microsoft/DSCEA,PowerShell
+microsoft/DataFactory.MCP,Microsoft Fabric
+microsoft/Dataverse-skills,Power Platform
+microsoft/DebugMCP,VS Code
 microsoft/DesktopBridgeToUWP-Samples,Microsoft docs
 microsoft/DirectX-Graphics-Samples,DirectX
 microsoft/DirectX-Specs,DirectX-Specs
@@ -1798,14 +1958,18 @@ microsoft/DirectXShaderCompiler,DirectX
 microsoft/Docker-PowerShell,PowerShell
 microsoft/Docker.DotNet,dotnet
 microsoft/DxCapsViewer,Windows Diagnostics
+microsoft/DynamicTelemetry,Microsoft (other)
 microsoft/Dynamics-AX-Integration,Microsoft (other)
 microsoft/EMDocs,Microsoft docs
+microsoft/Earth-Copilot,Microsoft (other)
 microsoft/EasyRepro,EasyRepro
 microsoft/EdgeML,EdgeML
 microsoft/EntraSuite-Training,Microsoft Security
+microsoft/EvalsforAgentsInterop,Microsoft (other)
 microsoft/Excel-Labs,Power Platform
 microsoft/FASTER,FASTER
 microsoft/FFmpegInterop,Microsoft (other)
+microsoft/FeatureManagement-Go,Microsoft (other)
 microsoft/FluidFramework,FluidFramework
 microsoft/GSL,Microsoft GSL
 microsoft/GalaxyExplorer,Microsoft HoloToolkit
@@ -1824,10 +1988,13 @@ microsoft/IIS.ServiceMonitor,Windows Diagnostics
 microsoft/InsiderDevTourDemos19,InsiderDevTourDemos19
 microsoft/IntuneDocs,Microsoft Intune
 microsoft/LightGBM,Microsoft DMTK
+microsoft/LocalizedStringKit,Microsoft (other)
 microsoft/MIEngine,VS Code
 microsoft/MLOps,MLOps
 microsoft/MLOpsPython,MLOpsPython
+microsoft/MMCTAgent,Microsoft (other)
 microsoft/MMdnn,MMdnn
+microsoft/ManagedEsent,Microsoft (other)
 microsoft/Microsoft-Defender-for-Identity,Microsoft Security
 microsoft/Microsoft-Fabric-tools-workload,Microsoft Fabric
 microsoft/Microsoft.AzureStack.Util.ConvertNetwork,Azure Arc
@@ -1840,6 +2007,7 @@ microsoft/ODBC-Specification,Microsoft ODBC
 microsoft/OMS-Agent-for-Linux,Microsoft OMS
 microsoft/Office-Online-Test-Tools-and-Documentation,Microsoft docs
 microsoft/Omex,Omex
+microsoft/PAX,Microsoft (other)
 microsoft/PSDocs-vscode,VS Code
 microsoft/PSRule-vscode,VS Code
 microsoft/PSRule.Rules.CAF,Power Platform
@@ -1855,6 +2023,7 @@ microsoft/PowerBI-JavaScript,Power BI
 microsoft/PowerBI-visuals,Power BI
 microsoft/PowerBI-visuals-docs,Power BI
 microsoft/PowerBI-visuals-tools,Power BI
+microsoft/PowerPlatform-DataverseClient-Python,Power Platform
 microsoft/PowerPlatform-EnterprisePolicies,Power Platform
 microsoft/PowerPlatformConnectors,PowerPlatformConnectors
 microsoft/PowerShell-DSC-for-Linux,DSC
@@ -1862,6 +2031,8 @@ microsoft/PowerStig,PowerStig
 microsoft/PowerToys,PowerToys
 microsoft/ProcDump-for-Linux,Windows Diagnostics
 microsoft/ProcMon-for-Linux,Windows Diagnostics
+microsoft/PromptKit,PromptKit
+microsoft/PyRIT,Microsoft Security
 microsoft/Pyjion,Pyjion
 microsoft/Quantum,Quantum
 microsoft/QuantumKatas,QuantumKatas
@@ -1874,9 +2045,11 @@ microsoft/SDN,SDN
 microsoft/SPTAG,SPTAG
 microsoft/STL,STL
 microsoft/Sentinel,Microsoft Security
+microsoft/SwiftStreamingMarkdown,Microsoft (other)
 microsoft/Sysinternals-jcd,Sysinternals
 microsoft/SysinternalsEBPF,Sysinternals
 microsoft/SysmonForLinux,Windows Diagnostics
+microsoft/TEE-Attestation-Verification,Microsoft Security
 microsoft/TSJS-lib-generator,Microsoft (other)
 microsoft/TailwindTraders-Website,TailwindTraders-Website
 microsoft/Terminal,Terminal
@@ -1897,6 +2070,8 @@ microsoft/VoTT,VoTT
 microsoft/WPF-Samples,WPF-Samples
 microsoft/WSL,WSL
 microsoft/WebTemplateStudio,WebTemplateStudio
+microsoft/Webwright,Microsoft (other)
+microsoft/WinAppCli,Windows App CLI
 microsoft/WinAppDriver,VS Code
 microsoft/WinDbg-Feedback,Windows Diagnostics
 microsoft/WinObjC,Microsoft Objective-C for Windows
@@ -1905,18 +2080,25 @@ microsoft/Windows-Machine-Learning,Windows-Machine-Learning
 microsoft/Windows-driver-samples,Microsoft docs
 microsoft/Windows-iotcore-samples,Windows-iotcore-samples
 microsoft/Windows-universal-samples,Microsoft docs
+microsoft/WindowsDeveloperConfig,Microsoft (other)
 microsoft/WindowsDevicePortalWrapper,Microsoft UWP
 microsoft/WindowsProtocolTestSuites,Microsoft (other)
 microsoft/Xaml-Controls-Gallery,Xaml-Controls-Gallery
 microsoft/XamlBehaviors,Microsoft UWP
 microsoft/Yams,YAMS
+microsoft/a11y-llm-eval,Microsoft (other)
 microsoft/accessibility-insights-service,accessibility-insights-service
 microsoft/accessibility-insights-web,accessibility-insights-web
 microsoft/accessibility-insights-windows,accessibility-insights-windows
 microsoft/ace,ACE
+microsoft/agent-governance-toolkit,Agent Governance Toolkit
+microsoft/agent-host-protocol,Microsoft (other)
+microsoft/agent-skills,Microsoft (other)
+microsoft/agentrc,Microsoft (other)
 microsoft/ai-agent-evals,Azure AI
 microsoft/ai-agents-for-beginners,Azure AI
 microsoft/ai-edu,ai-edu
+microsoft/ai-foundry-for-vscode,Azure AI
 microsoft/ailab,ailab
 microsoft/aitour-Essential-Prompting-for-GitHub-Copilot-in-VS-Code,GitHub Copilot
 microsoft/aitour-copilot-studio-agents-and-experiences,GitHub Copilot
@@ -1927,8 +2109,14 @@ microsoft/aitour26-WRK532-building-agentic-solutions-with-copilot-studio,GitHub 
 microsoft/aitour26-WRK541-real-world-code-migration-with-github-copilot-agent-mode,GitHub Copilot
 microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry,Microsoft Fabric
 microsoft/aksworkshop,aksworkshop
+microsoft/amplifier-app-cli,Microsoft Amplifier
+microsoft/amplifier-distro,Microsoft Amplifier
+microsoft/amplifier-docs,Microsoft Amplifier
+microsoft/amplifier-module-provider-gemini,Microsoft Amplifier
 microsoft/angular-react,angular-react
 microsoft/api-guidelines,Microsoft API
+microsoft/apm,Agent Package Manager
+microsoft/apm-action,Agent Package Manager
 microsoft/app-store-vsts-extension,VS Code
 microsoft/appcenter,appcenter
 microsoft/appcenter-cli,appcenter-cli
@@ -1939,13 +2127,21 @@ microsoft/appcenter-sdk-dotnet,appcenter-sdk-dotnet
 microsoft/appcenter-sdk-react-native,appcenter-sdk-react-native
 microsoft/appcenter-sdk-unity,appcenter-sdk-unity
 microsoft/arc-switch,Azure Arc
+microsoft/arcana.cpp,Microsoft (other)
+microsoft/aspire,dotnet
+microsoft/aspire-skills,dotnet
+microsoft/aspire.dev,dotnet
 microsoft/aspnet-api-versioning,dotnet
+microsoft/aspnetcore-ja-handbook,Microsoft docs
 microsoft/axe-pipelines-samples,axe-pipelines-samples
 microsoft/axe-windows,axe-windows
+microsoft/azure-container-apps,Azure
+microsoft/azure-databases-aspire,dotnet
 microsoft/azure-databricks-operator,azure-databricks-operator
 microsoft/azure-devops-extension-sdk,Azure DevOps
 microsoft/azure-devops-mcp,Azure DevOps
 microsoft/azure-iot-developer-kit,azure-iot-developer-kit
+microsoft/azure-linux-dev-tools,Azure
 microsoft/azure-linux-image-tools,Azure
 microsoft/azure-pipelines-agent,azure-pipelines-agent
 microsoft/azure-pipelines-coveragepublisher,Azure DevOps
@@ -1956,11 +2152,14 @@ microsoft/azure-pipelines-tasks,azure-pipelines-tasks
 microsoft/azure-pipelines-vscode,VS Code
 microsoft/azure-pipelines-yaml,azure-pipelines-yaml
 microsoft/azure-quantum-tgp,Azure Quantum
+microsoft/azure-skills,Microsoft (other)
 microsoft/azure-spring-boot,azure-spring-boot
 microsoft/azuredatastudio,azuredatastudio
 microsoft/azuredevopslabs,azuredevopslabs
+microsoft/b2c-to-meeid-migration-tool,Microsoft (other)
 microsoft/bedrock,Microsoft Bedrock
 microsoft/bert-stack-overflow,bert-stack-overflow
+microsoft/bf-tree,Microsoft (other)
 microsoft/bond,Bond
 microsoft/botbuilder-dotnet,botbuilder-dotnet
 microsoft/botbuilder-js,botbuilder-js
@@ -1969,6 +2168,8 @@ microsoft/botbuilder-tools,botbuilder-tools
 microsoft/botframework-cli,botframework-cli
 microsoft/botframework-sdk,botframework-sdk
 microsoft/botframework-solutions,botframework-solutions
+microsoft/botframework-webchat-adapter-azure-communication-chat,Microsoft BotBuilder
+microsoft/brainsmith,Microsoft (other)
 microsoft/busiotools,busiotools
 microsoft/caffe,Caffe
 microsoft/calculator,calculator
@@ -1976,26 +2177,36 @@ microsoft/checkedc,Checked C
 microsoft/checkedc-clang,Checked C
 microsoft/checkedc-llvm-test-suite,Checked C
 microsoft/clrmd,VS Code
+microsoft/cmd-call-graph,Microsoft (other)
 microsoft/cobalt,cobalt
 microsoft/code-push,CodePush
 microsoft/code-with-engineering-playbook,code-with-engineering-playbook
 microsoft/cognitive-services-speech-sdk-js,cognitive-services-speech-sdk-js
 microsoft/computerscience,computerscience
+microsoft/conductor,Microsoft (other)
+microsoft/copilot-for-eclipse,GitHub Copilot
 microsoft/copilot-intellij-feedback,GitHub Copilot
 microsoft/copilot-studio-mcp,GitHub Copilot
 microsoft/cordova-plugin-code-push,CodePush
 microsoft/cordova-simulate,Microsoft (other)
+microsoft/coreutils,Microsoft (other)
 microsoft/cpprestsdk,VS Code
 microsoft/cppwinrt,VS Code
+microsoft/d365cc-fde,Power Platform
 microsoft/data-accelerator,data-accelerator
+microsoft/dbt-scope,Microsoft (other)
+microsoft/dcp,dotnet
 microsoft/devops-project-samples,devops-project-samples
+microsoft/docfind,Microsoft (other)
 microsoft/documentdb,Azure Cosmos DB
 microsoft/documentdb-kubernetes-operator,Azure Cosmos DB
 microsoft/dotnet,dotnet
 microsoft/dotnet-apiport,dotnet
+microsoft/duroxide,Microsoft (other)
 microsoft/edge-diagnostics-adapter,Microsoft Edge
 microsoft/electionguard-rust,ElectionGuard
 microsoft/entra-apps-identifier-uri-protection,Microsoft Security
+microsoft/entrabot,Microsoft Security
 microsoft/fabric-cicd,Microsoft Fabric
 microsoft/fabric-cli,Microsoft Fabric
 microsoft/fabric-extensibility-toolkit,Microsoft Fabric
@@ -2003,21 +2214,26 @@ microsoft/fabric-rti-mcp,Microsoft Fabric
 microsoft/fabric-sdk-go,Microsoft Fabric
 microsoft/fabric-toolbox,Microsoft Fabric
 microsoft/fabric_data_agent_client,Microsoft Fabric
+microsoft/fara,Microsoft (other)
 microsoft/fast-dna,fast-dna
 microsoft/fastlane-plugin-appcenter,fastlane-plugin-appcenter
 microsoft/fhir-server,fhir-server
 microsoft/fluent-ui-react,fluent-ui-react
 microsoft/fluentui,Fluent UI
+microsoft/foundry-toolkit,Azure AI
 microsoft/genaiops-azureaisdk-template,Azure AI
 microsoft/genaiops-promptflow-template,Azure AI
 microsoft/generator-docker,VS Code
 microsoft/ghcrawler,Microsoft (other)
+microsoft/ghqr,Microsoft (other)
 microsoft/git,git
+microsoft/github-copilot-appmod,GitHub Copilot
 microsoft/github-copilot-vibe-coding-workshop,GitHub Copilot
 microsoft/go-winio,Microsoft (other)
 microsoft/google-play-vsts-extension,VS Code
 microsoft/hcsshim,Microsoft (other)
 microsoft/homebrew-sysinternalstap,Sysinternals
+microsoft/hve-core,HVE Core
 microsoft/ignite-learning-paths,ignite-learning-paths
 microsoft/ignite-learning-paths-training-aiml,ignite-learning-paths-training-aiml
 microsoft/ignite-learning-paths-training-apps,ignite-learning-paths-training-apps
@@ -2028,35 +2244,51 @@ microsoft/ignite25-LAB533-develop-scalable-data-solutions-with-sql-database-in-m
 microsoft/ignite25-LAB564-architect-a-goal-driven-ai-agent-with-copilot-studio,GitHub Copilot
 microsoft/iis-docker,IIS
 microsoft/immersive-reader-sdk,immersive-reader-sdk
+microsoft/inflatelib,Microsoft (other)
+microsoft/intelligent-terminal,terminal
 microsoft/interpret,interpret
+microsoft/intune-my-macs,Microsoft Intune
 microsoft/just,just
+microsoft/kalypso-observability-hub,Microsoft (other)
+microsoft/kanagawa,Microsoft (other)
 microsoft/kiota-authentication-azure-go,Kiota
 microsoft/kiota-dart,Kiota
 microsoft/kiota-php,Kiota
+microsoft/kiota-serialization-form-go,Kiota
 microsoft/kiota-serialization-json-ruby,Kiota
+microsoft/kiota-serialization-text-go,Kiota
 microsoft/landcover,landcover
 microsoft/language-server-protocol,language-server-protocol
 microsoft/libHttpClient,libHttpClient
+microsoft/litebox,LiteBox
 microsoft/llvm,LLVM
 microsoft/maker.js,Maker.js
 microsoft/malmo,Malmö
+microsoft/mapi-rs,Microsoft (other)
 microsoft/mastering-github-copilot-for-dotnet-csharp-developers,GitHub Copilot
 microsoft/mattercenter,Microsoft Office
+microsoft/microsoft-foundry-for-vscode,Azure AI
 microsoft/microsoft-ui-xaml,microsoft-ui-xaml
 microsoft/microsoft-ui-xaml-specs,microsoft-ui-xaml-specs
 microsoft/mimalloc,mimalloc
 microsoft/mobile-center-sdk-react-native,React
+microsoft/modernize-cli,GitHub Copilot
 microsoft/monaco-editor,monaco-editor
 microsoft/msbuild,VS Code
 microsoft/msphpsql,SQL Server
 microsoft/mssql-docker,SQL Server
 microsoft/mssql-jdbc,SQL Server
+microsoft/mssql-rs,SQL Server
+microsoft/multi-agent-marketplace,Microsoft (other)
 microsoft/mwt-ds,Microsoft Decision Service
+microsoft/mxc,Microsoft (other)
 microsoft/navcontainerhelper,navcontainerhelper
 microsoft/nlp,nlp
 microsoft/nlp-recipes,nlp-recipes
 microsoft/nni,nni
+microsoft/node-windows-mutex,Microsoft (other)
 microsoft/nodejstools,VS Code
+microsoft/ntttcp,Microsoft (other)
 microsoft/ntttcp-for-linux,Sysinternals
 microsoft/o365-moodle,Microsoft Office
 microsoft/omi,Open Management Infrastructure
@@ -2064,10 +2296,16 @@ microsoft/omnichannel-amsclient,Power Platform
 microsoft/omnichannel-sdk,Power Platform
 microsoft/onnxruntime,onnxruntime
 microsoft/openenclave,openenclave
+microsoft/opentelemetry-distro-dotnet,Microsoft Application Insights
+microsoft/opentelemetry-distro-javascript,Microsoft Application Insights
+microsoft/opentelemetry-distro-python,Microsoft Application Insights
 microsoft/pai,pai
 microsoft/peek,Azure
 microsoft/perfview,PerfView
+microsoft/pg_durable,Microsoft (other)
+microsoft/physical-ai-toolchain,Physical AI Toolchain
 microsoft/playwright,playwright
+microsoft/playwright-cli,playwright
 microsoft/playwright-dotnet,VS Code
 microsoft/playwright-java,playwright
 microsoft/playwright-mcp,playwright
@@ -2078,8 +2316,10 @@ microsoft/playwright.dev,playwright
 microsoft/power-fx-enhanced-connector,Power Platform
 microsoft/power-pages-samples,Power Platform
 microsoft/power-platform-resources,Power Platform
+microsoft/power-platform-skills,Power Platform
 microsoft/powerbi-desktop-samples,Power Platform
 microsoft/powerbi-powershell,powerbi-powershell
+microsoft/powerbi-visuals-dotplot,Power BI
 microsoft/powerbi-visuals-pulsechart,Power Platform
 microsoft/powercat,Power Platform
 microsoft/powerplatform-vscode,VS Code
@@ -2096,6 +2336,8 @@ microsoft/pxt-microbit-electron,micro-bit
 microsoft/pyright,pyright
 microsoft/python-language-server,python-language-server
 microsoft/qdk,Azure Quantum
+microsoft/qdk-chemistry,Azure Quantum
+microsoft/qdk-ec,Azure Quantum
 microsoft/qiskit-qir,Qiskit
 microsoft/qsharp-compiler,qsharp-compiler
 microsoft/qsharp-runtime,qsharp-runtime
@@ -2104,19 +2346,31 @@ microsoft/react-native-code-push,CodePush
 microsoft/react-native-windows,Microsoft (other)
 microsoft/reactxp,ReactXP
 microsoft/recommenders,recommenders
+microsoft/rs-deviceid,Microsoft (other)
 microsoft/rushstack,rushstack
 microsoft/sarif-sdk,dotnet
 microsoft/sarif-vscode-extension,VS Code
 microsoft/satcheljs,Satchel
 microsoft/service-fabric-scripts-and-templates,Service Fabric
+microsoft/side-channel-fuzzer,Microsoft (other)
+microsoft/skala,Microsoft (other)
+microsoft/skills,Microsoft (other)
+microsoft/skills-for-copilot-studio,Power Platform
+microsoft/skills-for-fabric,Microsoft Fabric
+microsoft/slack-plus-teams,Microsoft (other)
+microsoft/snocat,Microsoft (other)
 microsoft/spfx-react-webchat,Microsoft Teams
 microsoft/spring-cloud-azure,spring-cloud-azure
 microsoft/spring-data-cosmosdb,spring-data-cosmosdb
 microsoft/sql-server-samples,SQL Server
 microsoft/sqltoolsservice,sqltoolsservice
+microsoft/sre-agent,Azure
+microsoft/stackfuture,Microsoft (other)
+microsoft/superuserimpact,Microsoft (other)
 microsoft/team-explorer-everywhere,Microsoft (other)
 microsoft/teams-agent-accelerator-libs-py,Microsoft Teams
 microsoft/teams-agent-accelerator-templates,Microsoft Teams
+microsoft/teams-sdk,Microsoft Teams
 microsoft/teams.net,Microsoft Teams
 microsoft/teams.py,Microsoft Teams
 microsoft/teams.ts,Microsoft Teams
@@ -2125,14 +2379,18 @@ microsoft/terraform-provider-azuredevops,terraform-provider-azuredevops
 microsoft/terraform-provider-msgraph,Microsoft Graph
 microsoft/testfx,VS Code
 microsoft/tfs-cli,VS Code
+microsoft/tgrep,Microsoft (other)
 microsoft/thrifty,Thrifty
 microsoft/tigertoolbox,SQL Server
+microsoft/tokenweave,Microsoft (other)
 microsoft/tolerant-php-parser,Microsoft (other)
 microsoft/tsiclient,tsiclient
 microsoft/tslib,TypeScript
 microsoft/tslint-microsoft-contrib,TSLint
+microsoft/tui-test,Microsoft (other)
 microsoft/types-publisher,Microsoft (other)
 microsoft/typescript-go,TypeScript
+microsoft/uefi_debug_tools,Microsoft (other)
 microsoft/unified-data-foundation-with-fabric-solution-accelerator,Microsoft Fabric
 microsoft/vcpkg,VS Code
 microsoft/verona,verona
@@ -2164,9 +2422,11 @@ microsoft/vscode-azuretools,vscode-azuretools
 microsoft/vscode-azurevirtualmachines,VS Code
 microsoft/vscode-bisect,VS Code
 microsoft/vscode-black-formatter,VS Code
+microsoft/vscode-chat-customizations-evaluation,VS Code
 microsoft/vscode-chrome-debug-core,VS Code
 microsoft/vscode-cmake-tools,vscode-cmake-tools
 microsoft/vscode-codicons,VS Code
+microsoft/vscode-common-python-lsp,VS Code
 microsoft/vscode-containers,VS Code
 microsoft/vscode-copilot-chat,GitHub Copilot
 microsoft/vscode-copilotstudio,VS Code
@@ -2175,6 +2435,7 @@ microsoft/vscode-cosmosdb,vscode-cosmosdb
 microsoft/vscode-cpptools,vscode-cpptools
 microsoft/vscode-css-languageservice,VS Code
 microsoft/vscode-dapr,VS Code
+microsoft/vscode-debug-value-editor,VS Code
 microsoft/vscode-debugadapter-node,VS Code
 microsoft/vscode-dev-containers,vscode-dev-containers
 microsoft/vscode-deviceid,VS Code
@@ -2250,6 +2511,7 @@ microsoft/vscode-tips-and-tricks,VS Code
 microsoft/vscode-tmdl,VS Code
 microsoft/vscode-tools-for-ai,VS Code
 microsoft/vscode-ts-customized-language-service,VS Code
+microsoft/vscode-ts-file-path-support,VS Code
 microsoft/vscode-tye,VS Code
 microsoft/vscode-typescript-next,VS Code
 microsoft/vscode-vsce,vscode-vsce
@@ -2270,12 +2532,18 @@ microsoft/vsts-tasks,VS Code
 microsoft/vsts-team-calendar,VS Code
 microsoft/vsts-vscode,VS Code
 microsoft/vswhere,VS Code
+microsoft/waza,Waza
 microsoft/web-build-tools,VS Code
+microsoft/webui,Microsoft (other)
 microsoft/wil,wil
+microsoft/winappCli,Windows App CLI
 microsoft/windows-dev-center-vsts-extension,VS Code
 microsoft/windows-driver-docs,Microsoft docs
 microsoft/windows-itpro-docs,Microsoft docs
+microsoft/winml-cli,WinML CLI
 microsoft/winsdkfb,VS Code
+microsoft/work-iq,Microsoft (other)
+microsoft/work-iq-mcp,Microsoft (other)
 microsoft/xlang,xlang
 microsoft/xunit-performance,dotnet
 miekg/coredns,CoreDNS
@@ -3274,6 +3542,7 @@ realm/realm-cocoa,Realm
 realm/realm-dotnet,Realm
 realm/realm-java,Realm
 realm/realm-js,Realm
+red-hat-data-services/vllm-cpu,vLLM
 redhat-developer/build,Shipwright
 redhat-developer/buildv2,Shipwright
 redhat-developer/buildv2-operator,Shipwright
@@ -3317,6 +3586,12 @@ spdx/tools-go,SPDX
 spdx/tools-python,SPDX
 spiffe/spire,Spire
 spotify/backstage,Backstage
+sst/console,SST
+sst/models.dev,OpenCode
+sst/opencode,OpenCode
+sst/opentui,OpenCode
+sst/sst,SST
+sst/v2,SST
 stateful/Runme-CDEs,Runme Notebooks
 stateful/docs.runme.dev,Runme Notebooks
 stateful/mkdocs-runme-plugin,Runme Notebooks
@@ -3331,7 +3606,10 @@ stateful/runme.dev,Runme Notebooks
 stateful/runmejs,Runme Notebooks
 stateful/terramate-runme-example,Runme Notebooks
 stefanprodan/caddy-builder,OpenFaaS
+steipete/Peekaboo,OpenClaw
+steipete/clawdis,OpenClaw
 streamnative/oxia,Oxia
+sx-aurora-dev/llvm-project,LLVM
 tensorflow/models,TensorFlow
 tensorflow/tensorflow,TensorFlow
 texturegroup/texture,Texture
@@ -3375,6 +3653,7 @@ twitter/scrooge,Scrooge
 uber/cadence,Cadence
 uber/jaeger,Jaeger
 utam0k/youki,Youki
+vintagepc/MINI404,MINI404
 vmware-tanzu/antrea,Antrea
 vmware-tanzu/carvel,Carvel
 vmware-tanzu/carvel-imgpkg,Carvel

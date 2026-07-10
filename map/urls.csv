@@ -45,6 +45,8 @@ ASWF OpenVDB,openvdb.org
 ASWF RAW to ACES Utility,github.com/AcademySoftwareFoundation/rawtoaces
 ASWF Rez,rez.readthedocs.io
 ASWF Working Group for Rust Bindings,github.com/vfx-rs
+AWS Labs,github.com/awslabs
+AWS MCP Servers,awslabs.github.io/mcp
 AWS SAM,aws.amazon.com/serverless/sam
 AWS SDKs,aws.amazon.com
 AZF,azure.microsoft.com
@@ -57,6 +59,8 @@ Addons-Server,addons.mozilla.org
 Adlik,adlik.ai
 Adobe React Spectrum,react-spectrum.adobe.com
 Aeraki Mesh,aeraki.net
+Agent Governance Toolkit,github.com/microsoft/agent-governance-toolkit
+Agent Package Manager,github.com/microsoft/apm
 Agones,agones.dev
 AirSim,github.com/Microsoft/AirSim
 Airflow,airflow.incubator.apache.org
@@ -109,6 +113,7 @@ Apache Thrift,thrift.apache.org
 Apache Traffic Server,trafficserver.apache.org
 Apache Trafodion,git.apache.org/incubator-trafodion.git
 Apache Zeppelin,zeppelin.apache.org
+Aphrodite Engine,github.com/aphrodite-engine/aphrodite-engine
 Apicurio Registry,apicur.io/registry
 Apollo GraphQL,apollographql.com
 Apple LLVM,llvm.org
@@ -221,6 +226,7 @@ Chromium Blink,chromium.org/blink
 CicadaPlayer,github.com/alibaba/CicadaPlayer
 Cilium,cilium.io
 Civil Infrastructure Platform,cip-project.org
+Clawdi,clawdi.ai
 ClickHouse,clickhouse.com
 Closure Library,code.google.com/closure/library
 Cloud Custodian,cloudcustodian.io
@@ -239,6 +245,7 @@ Cocos2d-x,cocos2d-x.org
 Code Aurora,codeaurora.org
 CodeCombat,codecombat.com
 CodePush,codepush.tools
+CodeQL,codeql.github.com
 CompuLab,compulab.com
 ComputerVision,github.com/microsoft/ComputerVision
 Computing for Computer Scientists,c4cs.github.io
@@ -364,13 +371,16 @@ GitHub,github.com
 GitHub Copilot,github.com/features/copilot
 GitHub Enterprise Backup Utilities,enterprise.github.com
 GitHub Extension for Visual Studio,visualstudio.github.com
+GitHub MCP Server,github.com/github/github-mcp-server
 GitHub Markup,github.com/github/markup
 GitHub Training Kit,services.github.com/on-demand
 GitHub and Government,government.github.com
 GitLab,gitlab.com
 GitOps WG,tag-app-delivery.cncf.io
+Glama,glama.ai
 Go,golang.org
 Godot Engine,godotengine.org
+Gonka,gonka.ai
 Google (other),google.com
 Google API,developers.google.com/apis-explorer
 Google APIs,googleapis.github.io
@@ -403,6 +413,7 @@ Grumpy,github.com/google/grumpy
 Guava,github.com/google/guava
 HAMi,project-hami.io
 HTTPS Everywhere,eff.org/https-everywhere
+HVE Core,github.com/microsoft/hve-core
 Hackage,stackage.org
 Halite,halite.io
 Harbor,goharbor.io
@@ -478,6 +489,7 @@ Jeandle,github.com/jeandle
 Jellyfin,jellyfin.org
 Jenkins,jenkins.io
 Jenkins X,jenkins-x.io
+JetBrains,jetbrains.com
 Joomla,joomla.org
 Juju,juju.is
 Julia,julialang.org
@@ -491,6 +503,7 @@ KCL,kcl-lang.io
 KEDA,keda.sh
 KServe,kserve.github.io/website
 Kairos,kairos.io
+KanaDojo,kanadojo.com
 Kanister,kanister.io
 Karmada,Karmada.io
 Kata Containers,katacontainers.io
@@ -561,6 +574,7 @@ Linux Standard Base,linuxbase.org
 Linux Surface,linux-surface.com
 Linux sunxi,linux-sunxi.org
 Liquid,liquidmarkup.org
+LiteBox,github.com/microsoft/litebox
 LitmusChaos,litmuschaos.io
 LlamaIndex,llamaindex.ai
 Logging Operator,kube-logging.dev
@@ -580,6 +594,7 @@ MAX-ResNet-50,github.com/IBM/MAX-ResNet-50
 MAX-Skeleton,github.com/IBM/MAX-Skeleton
 MAX-Text-Sentiment-Classifier,github.com/IBM/MAX-Text-Sentiment-Classifier
 MELPA,melpa.org
+MINI404,vintagepc.github.io/MINI404
 MIT Office of Digital Learning,odl.mit.edu
 MLOps,github.com/microsoft/MLOps
 MLOpsPython,github.com/microsoft/MLOpsPython
@@ -601,6 +616,7 @@ Mattermost,mattermost.org
 Merbridge,merbridge.io
 Meshery,layer5.io/meshery
 Mesosphere,mesosphere.com
+Meta Research,ai.meta.com
 MetalLB,metallb.org
 Meteor,meteor.com
 Micro-purchase,micropurchase.18f.gov
@@ -609,6 +625,8 @@ Microchip Linux,microchip.com/en-us/tools-resources/linux-and-open-source-softwa
 Microcks,microcks.io
 Microsoft (other),microsoft.com
 Microsoft API,github.com/Microsoft/api-guidelines
+Microsoft Agent 365,microsoft.com/en-us/microsoft-agent-365
+Microsoft Amplifier,github.com/microsoft/amplifier
 Microsoft Application Insights,azure.microsoft.com/en-us/services/application-insights
 Microsoft Bedrock,github.com/microsoft/bedrock
 Microsoft BotBuilder,botframework.com
@@ -663,24 +681,36 @@ NATS,nats.io
 NI Linux,github.com/ni/linux
 NMstate,nmstate.io
 NServiceBus,particular.net/nservicebus
+NVIDIA Audio Flamingo,github.com/NVIDIA/audio-flamingo
 NVIDIA CUDA,developer.nvidia.com/cuda-toolkit
+NVIDIA Cosmos,nvidia.com/en-us/ai/cosmos
 NVIDIA DALI,docs.nvidia.com/deeplearning/dali
+NVIDIA FlashDreams,github.com/NVIDIA/flashdreams
+NVIDIA Isaac,developer.nvidia.com/isaac
+NVIDIA Makani,github.com/NVIDIA/makani
 NVIDIA NeMo,nvidia.github.io/NeMo
+NVIDIA OSMO,developer.nvidia.com/osmo
+NVIDIA OpenShell,github.com/NVIDIA/OpenShell
+NVIDIA PhysicsNeMo,developer.nvidia.com/physicsnemo
 NVIDIA Spark Rapids,nvidia.github.io/spark-rapids
+NVIDIA cuOpt,nvidia.com/en-us/ai-data-science/products/cuopt
 Nacos,nacos.io
 Nakadi,github.com/zalando/nakadi
 NativeScript,nativescript.org
+NemoClaw,github.com/NVIDIA/NemoClaw
 Netflix,netflix.github.io
 Network Service Mesh,networkservicemesh.io
 NeuronBlocks,github.com/microsoft/NeuronBlocks
 New Relic,opensource.newrelic.com
 Next.js,zeit.co/blog/next2
 Nextcloud,nextcloud.com
+Nix Community,nix-community.org
 NixOS,nixos.org
 Nocalhost,nocalhost.dev
 Node.js,nodejs.org
 Nomad,nomadproject.io
 Notary,github.com/notaryproject
+Nous Research,nousresearch.com
 Nunjucks,mozilla.github.io/nunjucks
 NuschtOS,github.com/NuschtOS
 Nylas,nylas.com
@@ -720,6 +750,8 @@ OpenAI Triton backend for Intel GPUs,github.com/intel/intel-xpu-backend-for-trit
 OpenBMP,gitter.im/openbmp
 OpenChoreo,openchoreo.dev
 OpenCilk,opencilk.org
+OpenClaw,openclaw.ai
+OpenCode,opencode.ai
 OpenCost,kubecost.com
 OpenDaylight,opendaylight.org
 OpenEBS,openebs.io
@@ -735,6 +767,7 @@ OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
 OpenKruise,openkruise.io
 OpenMAMA,openmama.org
+OpenMMLab,github.com/open-mmlab
 OpenMetrics,openmetrics.io
 OpenRCT2,openrct2.website
 OpenSDS,opensds.io
@@ -812,6 +845,7 @@ Patroni,github.com/zalando/patroni
 PerfView,channel9.msdn.com/Series/PerfView-Tutorial
 Perses,perses.dev
 Person Finder,google.org/personfinder
+Physical AI Toolchain,github.com/microsoft/physical-ai-toolchain
 PingCAP,github.com/pingcap
 PipeCD,pipecd.dev
 Piraeus-Datastore,piraeus.io
@@ -840,6 +874,7 @@ Project ACRN,projectacrn.org
 Project Marquez,marquezproject.ai
 Project Tofino,mozilla.github.io/tofino
 Prometheus,prometheus.io
+PromptKit,github.com/microsoft/PromptKit
 Protractor,protractortest.org
 Pyjion,github.com/Microsoft/Pyjion
 Pyro,pyro.ai
@@ -921,6 +956,7 @@ SPDX,spdx.dev
 SPTAG,github.com/microsoft/SPTAG
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
 SS13,tgstation13.org
+SST,sst.dev
 STL,github.com/microsoft/STL
 SVG Working Group,github.com/w3c/svgwg
 SageTV,forums.sagetv.com
@@ -959,6 +995,7 @@ Solana,solana.com
 Spartacus,github.com/SAP/spartacus
 Spartakus,sap.github.io
 Spatie,spatie.be/open-source
+Spec Kit,github.com/github/spec-kit
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spiderpool,spidernet-io.github.io/spiderpool/
@@ -972,6 +1009,7 @@ Spotify,spotify.github.io
 Spree,guides.spreecommerce.org
 Spring,spring.io/projects
 Stacker,stackerbuild.io
+StarFive Linux,starfivetech.com
 Strimzi,strimzi.io
 Submariner,submariner.io
 SuperEdge,github.com/superedge
@@ -1026,6 +1064,7 @@ Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
 TrustWallet,trustwallet.com
 Tungsten Fabric,tungsten.io
+Twilio Labs,github.com/twilio-labs
 Twitter,twitter.com
 TypeScript,typescriptlang.org
 TypeScript-Node-Starter,github.com/microsoft/TypeScript-Node-Starter
@@ -1082,12 +1121,15 @@ WSO2,wso2.github.io
 WSO2 Carbon,wso2.com/products/carbon
 WasmEdge Runtime,wasmedge.org
 Waterfox,waterfox.com
+Waza,github.com/microsoft/waza
 Web Authentication WG,w3.org/Webauthn
 Web of Things,w3.org/WoT/IG
 WebKit,webkit.org
 WebLogic Server,oracle.com/middleware/technologies/weblogic.html
 WebTemplateStudio,github.com/microsoft/WebTemplateStudio
 WiX,wixtoolset.org
+WinML CLI,github.com/microsoft/winml-cli
+Windows App CLI,learn.microsoft.com/windows/apps/dev-tools/winapp-cli
 Windows Diagnostics,learn.microsoft.com/windows-hardware/drivers/debugger
 Windows-Machine-Learning,github.com/microsoft/Windows-Machine-Learning
 Windows-iotcore-samples,github.com/microsoft/Windows-iotcore-samples
@@ -1236,6 +1278,8 @@ flutter_boost,github.com/alibaba/flutter_boost
 form-render,github.com/alibaba/form-render
 fossasia,fossasia.org
 gRPC,grpc.io
+garak,garak.ai
+gci,github.com/daixiang0/gci
 git,github.com/microsoft/git
 go-sdk-core,github.com/IBM/go-sdk-core
 gocd,gocd.org
@@ -1366,6 +1410,7 @@ spring-cloud-azure,github.com/microsoft/spring-cloud-azure
 spring-data-cosmosdb,github.com/microsoft/spring-data-cosmosdb
 sqltoolsservice,github.com/microsoft/sqltoolsservice
 sriov-network-device-plugin,github.com/intel/sriov-network-device-plugin
+steipete,steipete.me
 stix-shifter,github.com/IBM/stix-shifter
 styleguides,github.com/SAP/styleguides
 systemd,freedesktop.org/wiki/Software/systemd
@@ -1375,6 +1420,7 @@ tengine,github.com/alibaba/tengine
 terminal,github.com/microsoft/terminal
 terraform-provider-azuredevops,github.com/microsoft/terraform-provider-azuredevops
 thermal_daemon,github.com/intel/thermal_daemon
+thoughtbot,thoughtbot.com
 tock,18f.gsa.gov/2015/05/21/TockingTime
 treeherder,github.com/mozilla/treeherder
 tsiclient,github.com/microsoft/tsiclient
