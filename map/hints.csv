@@ -215,7 +215,6 @@ IBM/dbt-watsonx-spark,IBM watsonx
 IBM/domino-docker,domino-docker
 IBM/dotnet-s390x,IBM Z
 IBM/go-sdk-core,go-sdk-core
-IBM/granite-workshop,IBM watsonx
 IBM/ibm-block-csi-driver,ibm-block-csi-driver
 IBM/ibm-cloud-sdk-common,IBM Cloud
 IBM/ibm-cos-sdk-go,IBM Cloud Object Storage
@@ -236,7 +235,6 @@ IBM/ibmi-mcp-server,IBM i
 IBM/ibmi-oss-docs,IBM i
 IBM/java-sdk-core,IBM Cloud
 IBM/kui,Kui Shell
-IBM/maximo-labs,IBM Maximo
 IBM/mi-prometheus,mi-prometheus
 IBM/multicloud-operators-subscription,multicloud-operators-subscription
 IBM/networking-python-sdk,IBM Cloud
@@ -647,7 +645,6 @@ NVIDIA/torch-cutorch,NVIDIA CUDA
 NVIDIA/torch-harmonics,NVIDIA CUDA
 NVIDIA/vagrant-swift-all-in-one,NVIDIA CUDA
 NVIDIA/yum-packaging-precompiled-kmod,NVIDIA CUDA
-OAI/Gluecon-Workshop,Open API
 OAI/OpenAPI-Specification,Open API
 OAI/OpenAPI-Style-Guide,Open API
 OpenMAMA/OpenMAMA,OpenMAMA
@@ -854,7 +851,6 @@ alexellis/java-afterburn,OpenFaaS
 alexellis/java-openfaas-fast-fork,OpenFaaS
 alexellis/nodejs-afterburn,OpenFaaS
 alexellis/openfaas-cloud,OpenFaaS
-alexellis/openfaas-workshop,OpenFaaS
 alexellis/serverless-faas,OpenFaaS
 alibaba/AliOS-Things,AliOS Things
 alibaba/BizCharts,BizCharts
@@ -1844,9 +1840,6 @@ kubesphere/openelb,OpenELB
 kubesphere/porter,OpenELB
 kubesphere/porterlb,OpenELB
 l3ocifer/quirm-hermes-agent,Nous Research
-layer5io/advanced-istio-service-mesh-workshop,Service Mesh Performance
-layer5io/istio-service-mesh-workshop,Service Mesh Performance
-layer5io/linkerd-service-mesh-workshop,Service Mesh Performance
 layer5io/meshery,Meshery
 layer5io/meshery-adapter-kit,Meshery
 layer5io/meshery-adapter-library,Meshery
@@ -1870,7 +1863,6 @@ layer5io/meshery-traefik-mesh,Meshery
 layer5io/meshery.io,Meshery
 layer5io/mesheryctl-smi-conformance-action,Meshery
 layer5io/service-mesh-benchmark-spec,Service Mesh Performance
-layer5io/service-mesh-labs,Service Mesh Performance
 layer5io/service-mesh-performance,Service Mesh Performance
 layer5io/service-mesh-performance-specification,Service Mesh Performance
 ligato/networkservicemesh,Network Service Mesh
@@ -1973,8 +1965,6 @@ microsoft/FeatureManagement-Go,Microsoft (other)
 microsoft/FluidFramework,FluidFramework
 microsoft/GSL,Microsoft GSL
 microsoft/GalaxyExplorer,Microsoft HoloToolkit
-microsoft/Generative-AI-for-beginners-dotnet,Azure AI
-microsoft/Generative-AI-for-beginners-java,Azure AI
 microsoft/Git-Credential-Manager-for-Mac-and-Linux,Microsoft (other)
 microsoft/Git-Credential-Manager-for-Windows,Microsoft (other)
 microsoft/GlobalSecureAccess,Microsoft Security
@@ -2096,19 +2086,9 @@ microsoft/agent-host-protocol,Microsoft (other)
 microsoft/agent-skills,Microsoft (other)
 microsoft/agentrc,Microsoft (other)
 microsoft/ai-agent-evals,Azure AI
-microsoft/ai-agents-for-beginners,Azure AI
 microsoft/ai-edu,ai-edu
 microsoft/ai-foundry-for-vscode,Azure AI
 microsoft/ailab,ailab
-microsoft/aitour-Essential-Prompting-for-GitHub-Copilot-in-VS-Code,GitHub Copilot
-microsoft/aitour-copilot-studio-agents-and-experiences,GitHub Copilot
-microsoft/aitour26-BRK442-github-copilot-as-an-ai-agent-in-the-developer-workflow,GitHub Copilot
-microsoft/aitour26-BRK447-agentic-use-of-github-copilot-within-visual-studio,GitHub Copilot
-microsoft/aitour26-BRK462-enable-agentic-ai-apps-with-a-unified-data-estate-in-microsoft-fabric,Microsoft Fabric
-microsoft/aitour26-WRK532-building-agentic-solutions-with-copilot-studio,GitHub Copilot
-microsoft/aitour26-WRK541-real-world-code-migration-with-github-copilot-agent-mode,GitHub Copilot
-microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry,Microsoft Fabric
-microsoft/aksworkshop,aksworkshop
 microsoft/amplifier-app-cli,Microsoft Amplifier
 microsoft/amplifier-distro,Microsoft Amplifier
 microsoft/amplifier-docs,Microsoft Amplifier
@@ -2228,7 +2208,6 @@ microsoft/ghcrawler,Microsoft (other)
 microsoft/ghqr,Microsoft (other)
 microsoft/git,git
 microsoft/github-copilot-appmod,GitHub Copilot
-microsoft/github-copilot-vibe-coding-workshop,GitHub Copilot
 microsoft/go-winio,Microsoft (other)
 microsoft/google-play-vsts-extension,VS Code
 microsoft/hcsshim,Microsoft (other)
@@ -2239,9 +2218,6 @@ microsoft/ignite-learning-paths-training-aiml,ignite-learning-paths-training-aim
 microsoft/ignite-learning-paths-training-apps,ignite-learning-paths-training-apps
 microsoft/ignite-learning-paths-training-mod,ignite-learning-paths-training-mod
 microsoft/ignite-learning-paths-training-ops,ignite-learning-paths-training-ops
-microsoft/ignite25-LAB511-build-knowledge-agents-next-level-agentic-rag-with-azure-ai-search,Azure AI
-microsoft/ignite25-LAB533-develop-scalable-data-solutions-with-sql-database-in-microsoft-fabric,Microsoft Fabric
-microsoft/ignite25-LAB564-architect-a-goal-driven-ai-agent-with-copilot-studio,GitHub Copilot
 microsoft/iis-docker,IIS
 microsoft/immersive-reader-sdk,immersive-reader-sdk
 microsoft/inflatelib,Microsoft (other)
