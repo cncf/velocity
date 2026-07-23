@@ -56,7 +56,7 @@
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'opentofu',
       'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI',
       'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'velero-io', 'openeverest', 'nmstate',
-      'higress-group', 'llm-d', 'thanos-community', 'kube-bind'
+      'higress-group', 'llm-d', 'thanos-community', 'kube-bind', 'CurvineIO'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
