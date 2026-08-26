@@ -318,6 +318,7 @@ onnx,Open Neural Network Exchange
 open-faas,OpenFaaS
 open-policy-agent,OPA
 open-telemetry,OpenTelemetry
+open-workflow-specification,Serverless Workflow
 openbmp,OpenBMP
 opencontainers,OCI
 opencord,CORD

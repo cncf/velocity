@@ -505,6 +505,7 @@ open-gitops,OpenGitOps
 open-mmlab,OpenMMLab
 open-policy-agent,Open Policy Agent
 open-telemetry,OpenTelemetry
+open-workflow-specification,Serverless Workflow
 openGemini,openGemini
 openai,OpenAI
 openbmp,OpenBMP
@@ -570,6 +571,7 @@ pipe-cd,PipeCD
 piraeusdatastore,Piraeus-Datastore
 pivotal-cf,Pivotal Cloud Foundry
 pixie-io,Pixie
+podman-container-tools,Podman Container Tools
 podman-desktop,Podman Desktop
 pravega,Pravega
 project-akri,Akri
