@@ -418,6 +418,8 @@ kubernetes-tools,Kubernetes
 kubescape,Kubescape
 kubeslice,Kubeslice
 kubestellar,Kubestellar
+hivecommons,Kubestellar
+hivecommons,Kubestellar
 kubevela,KubeVela
 kubevirt,KubeVirt
 kubewarden,kubewarden

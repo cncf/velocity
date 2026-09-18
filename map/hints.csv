@@ -1443,6 +1443,16 @@ deislabs/porter,Porter
 deislabs/ratify,Ratify
 deislabs/ratify-action,Ratify
 deislabs/ratify-web,Ratify
+notaryproject/ratify,Ratify
+notaryproject/ratify-containerd,Ratify
+notaryproject/ratify-go,Ratify
+notaryproject/ratify-verifier-go,Ratify
+notaryproject/ratify-web,Ratify
+notaryproject/ratify,Ratify
+notaryproject/ratify-containerd,Ratify
+notaryproject/ratify-go,Ratify
+notaryproject/ratify-verifier-go,Ratify
+notaryproject/ratify-web,Ratify
 deislabs/smi-adapter-istio,SMI
 deislabs/smi-metrics,SMI
 deislabs/smi-sdk-go,SMI
