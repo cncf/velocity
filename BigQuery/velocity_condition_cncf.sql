@@ -48,7 +48,8 @@
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'HolmesGPT',
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
-      'velero-io', 'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind'
+      'velero-io', 'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind',
+      'sdcio', 'iptecharch', 'ray-project'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',

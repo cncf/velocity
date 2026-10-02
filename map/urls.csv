@@ -535,6 +535,7 @@ KubeDL,kubedl.io
 KubeEdge,kubeedge.io
 KubeElasti,kubeelasti.dev
 KubeFleet,github.com/Azure/fleet
+KubeRay,docs.ray.io
 KubeVela,kubevela.io
 KubeVirt,kubevirt.io
 Kubean,kubean-io.github.io/kubean/
@@ -947,6 +948,7 @@ SAP Identity & Security,help.sap.com/docs/identity-authentication
 SAP Machine,sapmachine.io
 SAP Open Source Portal,sap.github.io
 SAP UI5,ui5.sap.com
+SDC,docs.sdcio.dev
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
 SELinux,selinuxproject.org
 SGLang,sglang.io

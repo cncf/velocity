@@ -78,7 +78,8 @@ where
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
       'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem', 'agones-dev', 'kai-scheduler', 'velero-io',
-      'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind', 'CurvineIO'
+      'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind', 'CurvineIO',
+      'sdcio', 'iptecharch', 'ray-project'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',

@@ -329,6 +329,7 @@ intel-staging,Intel Staging
 interlink-hq,Interlink
 iotivity,IoTivity
 iovisor,IO Visor
+iptecharch,SDC
 iron-io,Iron.io
 istio,Istio
 istio-ecosystem,Istio
@@ -601,6 +602,7 @@ rails,Ruby on Rails
 rapid7,Rapid7
 ratify-project,Ratify
 raycast,Raycast
+ray-project,KubeRay
 react-native-community,React
 reactivefoundation,Reactive Foundation
 reactjs,React
@@ -623,6 +625,7 @@ saltstack,SaltStack
 schemahero,SchemaHero
 score-spec,Score
 screwdriver-cd,Screwdriver CD
+sdcio,SDC
 sealerio,sealer
 seata,Seata
 sensu,Sensu
