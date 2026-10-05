@@ -426,6 +426,7 @@ Hexa,hexaorchestration.org
 Higress,higress.ai
 Hikari,komi.moe
 HippieStationCode,github.com/HippieStationCode/HippieStation13
+Hive Commons,hivecommons.dev
 HolmesGPT,holmesgpt.dev
 Home Assistant,home-assistant.io
 Homebrew,brew.sh
@@ -494,6 +495,7 @@ JetBrains,jetbrains.com
 Joomla,joomla.org
 Juju,juju.is
 Julia,julialang.org
+K2s,siemens-healthineers.github.io/K2s/
 K3s,k3s.io
 K8GB,github.com/AbsaOSS/k8gb
 K8sGPT,k8sgpt.ai
@@ -693,7 +695,6 @@ NVIDIA Isaac,developer.nvidia.com/isaac
 NVIDIA Makani,github.com/NVIDIA/makani
 NVIDIA NeMo,nvidia.github.io/NeMo
 NVIDIA OSMO,developer.nvidia.com/osmo
-NVIDIA OpenShell,github.com/NVIDIA/OpenShell
 NVIDIA PhysicsNeMo,developer.nvidia.com/physicsnemo
 NVIDIA Spark Rapids,nvidia.github.io/spark-rapids
 NVIDIA cuOpt,nvidia.com/en-us/ai-data-science/products/cuopt
@@ -776,6 +777,7 @@ OpenRCT2,openrct2.website
 OpenSDS,opensds.io
 OpenSSL,openssl.org
 OpenSearch Project,opensearch.org
+OpenShell,docs.nvidia.com/openshell/latest/
 OpenShift,openshift.com
 OpenStack,openstack.org
 OpenStack (other),openstack.org

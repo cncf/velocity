@@ -312,6 +312,7 @@ headlight-k8s,Headlamp
 helm,Helm
 hexa-org,Hexa
 higress-group,Higress
+hivecommons,Hive Commons
 home-assistant,Home Assistant
 horovod,Horovod
 huggingface,Hugging Face
@@ -419,8 +420,6 @@ kubernetes-tools,Kubernetes
 kubescape,Kubescape
 kubeslice,Kubeslice
 kubestellar,Kubestellar
-hivecommons,Kubestellar
-hivecommons,Kubestellar
 kubevela,KubeVela
 kubevirt,KubeVirt
 kubewarden,kubewarden

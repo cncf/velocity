@@ -35,7 +35,7 @@
       'headlamp-k8s', 'slimtoolkit', 'sockerslim', 'sustainable-computing-io', 'pipe-cd', 'xline-kv',
       'hwameistor', 'microcks', 'kubeclipper', 'kubeclipper-labs', 'kubeflow', 'buildpacks-community',
       'eraser-dev', 'knative-extensions', 'project-copacetic', 'kube-logging', 'kanisterio', 'kcp-dev',
-      'kcl-lang', 'projectcapsule', 'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar', 'hivecommons', 'hivecommons',
+      'kcl-lang', 'projectcapsule', 'kube-burner', 'kuasar-io', 'redchat-chaos', 'kubestellar', 'hivecommons',
       'megaease', 'spidernet-io', 'k8sgpt-ai', 'chaos-kubox', 'KubeStellar', 'kptdev', 'redhat-chaos',
       'OpenMetrics', 'openmetrics', 'open-gitops', 'kubeslice', 'connectrpc', 'kairos-io', 'c3os-io',
       'kubean-io', 'koordinator-sh', 'radius-project', 'easegress-io', 'bank-vaults', 'runatlantis',
@@ -129,7 +129,8 @@
       'vmware-tanzu/velero-plugin-for-aws', 'vmware-tanzu/velero-plugin-for-gcp',
       'vmware-tanzu/velero-plugin-for-microsoft-azure', 'vmware-tanzu/velero-plugin-for-vsphere',
       'vmware-tanzu/velero-plugin-for-csi', 'vmware-tanzu/velero-csi-plugin', 'percona/everest',
-      'alibaba/higress', 'Apicurio/apicurio-registry'
+      'alibaba/higress', 'Apicurio/apicurio-registry',
+      'Siemens-Healthineers/K2s', 'NVIDIA/OpenShell', 'NVIDIA/OpenShell-Research', 'NVIDIA/OpenShell-Community'
     )
   )
   and repo.name not in (

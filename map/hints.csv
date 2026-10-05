@@ -502,8 +502,9 @@ NVIDIA/NeMo-Retriever,NVIDIA NeMo
 NVIDIA/NemoClaw,NemoClaw
 NVIDIA/OSMO,NVIDIA OSMO
 NVIDIA/OWL,NVIDIA CUDA
-NVIDIA/OpenShell,NVIDIA OpenShell
-NVIDIA/OpenShell-Community,NVIDIA OpenShell
+NVIDIA/OpenShell,OpenShell
+NVIDIA/OpenShell-Community,OpenShell
+NVIDIA/OpenShell-Research,OpenShell
 NVIDIA/PRBench,NVIDIA CUDA
 NVIDIA/Q2RTX,NVIDIA CUDA
 NVIDIA/SkillSpector,NVIDIA CUDA
@@ -780,6 +781,7 @@ Shopify/shopify_api,Shopify API
 Shopify/shopify_app,Shopify App
 Shopify/themekit,Theme Kit
 Shopify/toxiproxy,Toxiproxy
+Siemens-Healthineers/K2s,K2s
 SpartanRefactoring/Spartanizer,Spontanizer
 SpectralOps/helm-teller,Teller
 SpectralOps/setup-teller-action,Teller
@@ -1849,6 +1851,8 @@ kubernetes/test-infra,Kubernetes
 kubesphere/openelb,OpenELB
 kubesphere/porter,OpenELB
 kubesphere/porterlb,OpenELB
+kubestellar/hive,Hive Commons
+kubestellar/supervised-agent,Hive Commons
 l3ocifer/quirm-hermes-agent,Nous Research
 layer5io/meshery,Meshery
 layer5io/meshery-adapter-kit,Meshery
