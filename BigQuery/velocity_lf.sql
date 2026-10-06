@@ -170,7 +170,18 @@ WHERE
       'vmware-tanzu/velero-plugin-for-gcp', 'vmware-tanzu/velero-plugin-for-microsoft-azure',
       'vmware-tanzu/velero-plugin-for-vsphere', 'vmware-tanzu/velero-plugin-for-csi',
       'vmware-tanzu/velero-csi-plugin', 'percona/everest', 'alibaba/higress', 'Apicurio/apicurio-registry',
-      'Siemens-Healthineers/K2s', 'NVIDIA/OpenShell', 'NVIDIA/OpenShell-Research', 'NVIDIA/OpenShell-Community'
+      'Siemens-Healthineers/K2s', 'NVIDIA/OpenShell', 'NVIDIA/OpenShell-Research', 'NVIDIA/OpenShell-Community',
+      'flant/kubedog', 'flant/lockgate', 'flant/logboek', 'flant/multiwerf', 'flant/shluz', 'flant/sluis', 'flant/trdl',
+      'flant/werf-actions', 'flant/werf-demos', 'GoogleContainerTools/kpt-functions-catalog',
+      'GoogleContainerTools/kpt-functions-sdk', 'GoogleContainerTools/kpt-samples', 'containers/desktop',
+      'containers/podman-desktop', 'containers/podman-desktop-catalog', 'containers/podman-desktop-e2e',
+      'containers/podman-desktop-extension-bootc', 'containers/podman-desktop-extension-kubernetes-dashboard',
+      'containers/podman-desktop-extension-layers-explorer', 'containers/podman-desktop-extension-minikube',
+      'containers/podman-desktop-extension-minimal-template', 'fluent-plugins-nursery/fluent-package-builder',
+      'htgc/fluent-plugin-kafka', 'kazegusuri/fluent-plugin-prometheus', 'kiyoto/fluent-plugin-grok-parser',
+      'okahashi117/fluent-plugin-winevtlog', 'repeatedly/fluent-plugin-kafka', 'repeatedly/fluent-plugin-prometheus',
+      'repeatedly/fluent-plugin-winevtlog', 'heptio/velero-csi-plugin', 'heptio/velero-plugin-example',
+      'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel'
     )
   )
   and repo.name not in (

@@ -158,6 +158,9 @@ GoogleCloudPlatform/nodejs-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/php-docs-samples,Google Cloud Docs
 GoogleCloudPlatform/ruby-docs-samples,Google Cloud Docs
 GoogleContainerTools/kpt,kpt
+GoogleContainerTools/kpt-functions-catalog,kpt
+GoogleContainerTools/kpt-functions-sdk,kpt
+GoogleContainerTools/kpt-samples,kpt
 HaliteChallenge/Halite,Halite
 Huawei-PaaS/CNI-Genie,CNI-Genie
 IBM/AI-IBMi-guide,IBM i
@@ -286,7 +289,23 @@ Kong/kuma-gui,Kuma
 Kong/kuma-website,Kuma
 Kong/kumacut,Kuma
 KusionStack/KCLVM,KCL
+KusionStack/KEP,KCL
+KusionStack/helm-kcl,KCL
+KusionStack/helmfile-kcl,KCL
+KusionStack/intellij-kcl,KCL
 KusionStack/kcl,KCL
+KusionStack/kcl-lang.io,KCL
+KusionStack/kcl-openapi,KCL
+KusionStack/kcl-operator,KCL
+KusionStack/kcl-playground,KCL
+KusionStack/kcl-plugin,KCL
+KusionStack/kclvm-artifact-go,KCL
+KusionStack/kclvm-go,KCL
+KusionStack/kpt-kcl-sdk,KCL
+KusionStack/krm-kcl,KCL
+KusionStack/kubectl-kcl,KCL
+KusionStack/kustomize-kcl,KCL
+KusionStack/vscode-kcl,KCL
 LinuxStandardBase/download-app,Linux Standard Base
 LinuxStandardBase/lanana,Linux Standard Base
 LinuxStandardBase/lsb,Linux Standard Base
@@ -1263,6 +1282,7 @@ cloudimmunity/docker-slim,SlimToolkit
 clux/kube-rs,kube-rs
 clux/kubernetes-rust,kube-rs
 cncf/ambassadors,CNCF
+cncf/apisnoop,Kubernetes
 cncf/artwork,CNCF
 cncf/cla,CNCF
 cncf/cluster,CNCF
@@ -1405,9 +1425,18 @@ containers/buildah,Podman Container Tools
 containers/common,Podman Container Tools
 containers/composefs,composefs
 containers/conmon,Podman Container Tools
+containers/desktop,Podman Desktop
 containers/image,Podman Container Tools
 containers/netavark,Podman Container Tools
 containers/podman,Podman Container Tools
+containers/podman-desktop,Podman Desktop
+containers/podman-desktop-catalog,Podman Desktop
+containers/podman-desktop-e2e,Podman Desktop
+containers/podman-desktop-extension-bootc,Podman Desktop
+containers/podman-desktop-extension-kubernetes-dashboard,Podman Desktop
+containers/podman-desktop-extension-layers-explorer,Podman Desktop
+containers/podman-desktop-extension-minikube,Podman Desktop
+containers/podman-desktop-extension-minimal-template,Podman Desktop
 containers/podman-py,Podman Container Tools
 containers/skopeo,Podman Container Tools
 containers/storage,Podman Container Tools
@@ -1445,16 +1474,6 @@ deislabs/porter,Porter
 deislabs/ratify,Ratify
 deislabs/ratify-action,Ratify
 deislabs/ratify-web,Ratify
-notaryproject/ratify,Ratify
-notaryproject/ratify-containerd,Ratify
-notaryproject/ratify-go,Ratify
-notaryproject/ratify-verifier-go,Ratify
-notaryproject/ratify-web,Ratify
-notaryproject/ratify,Ratify
-notaryproject/ratify-containerd,Ratify
-notaryproject/ratify-go,Ratify
-notaryproject/ratify-verifier-go,Ratify
-notaryproject/ratify-web,Ratify
 deislabs/smi-adapter-istio,SMI
 deislabs/smi-metrics,SMI
 deislabs/smi-sdk-go,SMI
@@ -1536,7 +1555,17 @@ fermyon/spin-trigger-cron,Spin
 fermyon/spin-trigger-sqs,Spin
 flant/dapp,werf
 flant/dapper,werf
+flant/kubedog,werf
+flant/lockgate,werf
+flant/logboek,werf
+flant/multiwerf,werf
+flant/shluz,werf
+flant/sluis,werf
+flant/trdl,werf
 flant/werf,werf
+flant/werf-actions,werf
+flant/werf-demos,werf
+fluent-plugins-nursery/fluent-package-builder,Fluentd
 fluxcd/gitops-working-group,GitOps WG
 fnhub/katacoda-scenarios,Oracle Fn
 fossology/fossology,FOSSology
@@ -1732,7 +1761,10 @@ hashicorp/vault,Vault
 hashicorp/vault-plugin-secrets-terraform,Terraform
 hashicorp/vscode-terraform,Terraform
 heptio/contour,Contour
+heptio/velero-csi-plugin,Velero
+heptio/velero-plugin-example,Velero
 herbrandson/k8dash,Skooner
+htgc/fluent-plugin-kafka,Fluentd
 huaweicloud/JavaMesh,Sermant
 huaweicloud/Sermant,Sermant
 huaweicloud/java-mesh,Sermant
@@ -1814,8 +1846,11 @@ jldec/projectriff.io,Pivotal Riff
 joeythesaint/cgl-specification,Carrier Grade Linux
 jozu-ai/daggerverse,KitOps
 jozu-ai/gh-kit-setup,KitOps
+jozu-ai/homebrew-kitops,KitOps
 jozu-ai/kitops,KitOps
 jozu-ai/pykitops,KitOps
+kazegusuri/fluent-plugin-prometheus,Fluentd
+kcl-lang/crossplane-kcl,Crossplane
 kcp-dev/edge-mc,Kubestellar
 kebe7jun/mebpf,Merbridge
 kebe7jun/mepf,Merbridge
@@ -1824,11 +1859,15 @@ kinvolk/flatcar-scripts,Flatcar
 kinvolk/headlamp,Headlamp
 kinvolk/inspektor-gadget,Inspektor Gadget
 kinvolk/mantle,Flatcar
+kiyoto/fluent-plugin-grok-parser,Fluentd
 knative/build,Tekton
+knative/build-pipeline,Tekton
+krustlet/oci-distribution,ORAS
 ktock/container2wasm,container2wasm
 kubeflow/kfserving,KServe
 kubeflow/kfserving-lts,KServe
 kubernetes-incubator/bootkube,Kubernetes
+kubernetes-incubator/cri-containerd,containerd
 kubernetes-incubator/kargo,Kubernetes
 kubernetes-incubator/kube-aws,Kubernetes
 kubernetes-incubator/service-catalog,Kubernetes
@@ -1851,7 +1890,14 @@ kubernetes/test-infra,Kubernetes
 kubesphere/openelb,OpenELB
 kubesphere/porter,OpenELB
 kubesphere/porterlb,OpenELB
+kubestellar/dibs,Hive Commons
 kubestellar/hive,Hive Commons
+kubestellar/hotshot,Hive Commons
+kubestellar/pluk,Hive Commons
+kubestellar/promptargs,Hive Commons
+kubestellar/promptlibs,Hive Commons
+kubestellar/pub-sub-tmux,Hive Commons
+kubestellar/rationguard,Hive Commons
 kubestellar/supervised-agent,Hive Commons
 l3ocifer/quirm-hermes-agent,Nous Research
 layer5io/meshery,Meshery
@@ -2812,6 +2858,12 @@ mudler/c3os,Kairos
 ni/linux,NI Linux
 nirmata/kyverno,Kyverno
 noironetworks/cilium-net,Cilium
+notaryproject/artwork,TUF
+notaryproject/ratify,Ratify
+notaryproject/ratify-containerd,Ratify
+notaryproject/ratify-go,Ratify
+notaryproject/ratify-verifier-go,Ratify
+notaryproject/ratify-web,Ratify
 nubificus/urunc,urunc
 oam-dev/kubevela,KubeVela
 oam-dev/kubevela-core-api,KubeVela
@@ -2826,6 +2878,7 @@ odpi/security-guide,ODPi
 odpi/self-certification-reports,ODPi
 odpi/sig-reports,ODPi
 odpi/specs,ODPi
+okahashi117/fluent-plugin-winevtlog,Fluentd
 open-switch/,OpenSwitch
 open-switch/SAI,OpenSwitch
 open-switch/flx-docs,OpenSwitch
@@ -3022,7 +3075,10 @@ opendaylight/yang-push,OpenDaylight
 opendaylight/yangide,OpenDaylight
 opendaylight/yangtools,OpenDaylight
 openebs/litmus,LitmusChaos
+openebs/litmus-docs,LitmusChaos
 openebs/test-storage,LitmusChaos
+openebs/test-tools,LitmusChaos
+openebs/test-tools-,LitmusChaos
 openhpc/ohpc,OpenHPC
 openhpc/submissions,OpenHPC
 openmainframeproject/ade,Open Mainframe
@@ -3482,6 +3538,7 @@ pndaproject/pnda-heat-templates,PNDA
 pndaproject/red-pnda,PNDA
 ppatierno/barnabas,Strimzi
 ppatierno/kaas,Strimzi
+projectatomic/skopeo,Podman Container Tools
 projectkudu/AzureFunctions,AZF
 projectkudu/AzureFunctionsPortal,AZF
 projectkudu/WebJobsPortal,AZF
@@ -3538,6 +3595,9 @@ redhat-developer/buildv2,Shipwright
 redhat-developer/buildv2-operator,Shipwright
 redhat-et/bpfd,bpfman
 redsift/ingraind,Foniod
+repeatedly/fluent-plugin-kafka,Fluentd
+repeatedly/fluent-plugin-prometheus,Fluentd
+repeatedly/fluent-plugin-winevtlog,Fluentd
 rerpc/rerpc,Connect RPC
 rethinkdb/aspnet-signalr-chat,RethinkDB
 rethinkdb/docs,RethinkDB
@@ -3595,6 +3655,7 @@ stateful/runme-web-extension,Runme Notebooks
 stateful/runme.dev,Runme Notebooks
 stateful/runmejs,Runme Notebooks
 stateful/terramate-runme-example,Runme Notebooks
+stateful/vscode-runme,Runme Notebooks
 stefanprodan/caddy-builder,OpenFaaS
 steipete/Peekaboo,OpenClaw
 steipete/clawdis,OpenClaw
@@ -3614,6 +3675,7 @@ theupdateframework/specification,TUF
 theupdateframework/taps,TUF
 theupdateframework/theupdateframework.github.io,TUF
 theupdateframework/tuf,TUF
+tinkerbell/crossplane-provider-tinkerbell,Crossplane
 todogroup/awesome-oss-mgmt,TODO group
 todogroup/charter,TODO group
 todogroup/gh-issues,TODO group
@@ -3654,6 +3716,7 @@ vmware-tanzu/carvel-kwt,Carvel
 vmware-tanzu/carvel-secretgen-controller,Carvel
 vmware-tanzu/carvel-vendir,Carvel
 vmware-tanzu/carvel-ytt,Carvel
+vmware-tanzu/homebrew-carvel,Carvel
 vmware-tanzu/velero,Velero
 vmware-tanzu/velero-csi-plugin,Velero
 vmware-tanzu/velero-plugin-example,Velero
