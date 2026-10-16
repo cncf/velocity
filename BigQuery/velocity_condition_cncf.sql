@@ -49,7 +49,8 @@
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
       'velero-io', 'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind',
-      'sdcio', 'iptecharch', 'ray-project'
+      'sdcio', 'iptecharch', 'ray-project',
+      'praxis-proxy', 'ai-runway'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -141,7 +142,9 @@
       'htgc/fluent-plugin-kafka', 'kazegusuri/fluent-plugin-prometheus', 'kiyoto/fluent-plugin-grok-parser',
       'okahashi117/fluent-plugin-winevtlog', 'repeatedly/fluent-plugin-kafka', 'repeatedly/fluent-plugin-prometheus',
       'repeatedly/fluent-plugin-winevtlog', 'heptio/velero-csi-plugin', 'heptio/velero-plugin-example',
-      'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel'
+      'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel',
+      'shaneutt/praxis', 'kaito-project/airunway', 'kaito-project/kubeairunway', 'Azure/kuberunway',
+      'sozercan/kube-foundry'
     )
   )
   and repo.name not in (

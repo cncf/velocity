@@ -86,7 +86,8 @@ WHERE
       'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI',
       'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem',
       'velero-io', 'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind', 'CurvineIO',
-      'sdcio', 'ray-project', 'iptecharch'
+      'sdcio', 'ray-project', 'iptecharch',
+      'praxis-proxy', 'ai-runway'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -181,7 +182,9 @@ WHERE
       'htgc/fluent-plugin-kafka', 'kazegusuri/fluent-plugin-prometheus', 'kiyoto/fluent-plugin-grok-parser',
       'okahashi117/fluent-plugin-winevtlog', 'repeatedly/fluent-plugin-kafka', 'repeatedly/fluent-plugin-prometheus',
       'repeatedly/fluent-plugin-winevtlog', 'heptio/velero-csi-plugin', 'heptio/velero-plugin-example',
-      'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel'
+      'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel',
+      'shaneutt/praxis', 'kaito-project/airunway', 'kaito-project/kubeairunway', 'Azure/kuberunway',
+      'sozercan/kube-foundry'
     )
   )
   and repo.name not in (
@@ -195,6 +198,7 @@ WHERE
   and (
     type = 'PushEvent' or (
       actor.login not like 'k8s-%'
+      AND NOT REGEXP_MATCH(LOWER(actor.login), r'(?s)^(?:alighrobot|amplabjenkins|angular-builds|appveyorbot|architectbot|asfgit|athenabot|atlantisbot|auto|blackduck-serv-builder|blueorangutan|bosh-ci-push-pull|buildhive|cadvisorjenkinsbot|cf-buildpacks-eng|changelogbot|ci|claude|cloudbees-pull-request-builder|clrbuilder|codelingobot|codex|codspeedbot|containersshbuilder|coreosbot|covbot|coveralls|cubic-dev-ai|cvp-ops|damn good b0t|devolutionsbot|devstats-sync|dosu|ericwittbot|fermybot|fluxcdbot|fossabot|gemini-code-assist|getporterbot|gitcoinbot|github-cncf-landscape-notifs|github-harold.pins|gocursor|goodluckbot|googlebot|gopherbot|goreleaserbot|gprasath|grafanabot|greptileai|grpc-kokoro|heptibot|hubot|infraq|intellij-rainbow-brackets|invalid-email-address|iptecharch-builder|issuehuntbot|jenkinsadmin|jfrogbot|jreleaserbot|jsdelivrbot|k3aibot|kaipilotbot|katacontainersbot|kernelprbot|krkn-chaos|kuasar-io-dev|kubescapebot|l5io|letsusegerrit|litmusbot|maxio|megaeasebot|megaeasex|mentatbot|modular-magician|monkeycode-ai|msftclas|msftgits|nsmbot|oai-codex|oceanjxbot|opencontrail-ci-admin|openebs-pro-sa|openfeaturebot|openssl-machine|opentelemetrybot|oss-sentinel-ai|oss-taishan-ai|otcbot|ovsrobot|pckgrbot|persesbot|pikbot|podmanbot|poiana|pouchrobot|projectstacker|prowbot|rancherbot|repobirdbot|rktbot|securitylab-codeanalysis|sizebot|sourcery-ai|spellarbot|spinframeworkbot|spinnakerbot|spinnakerbot2|stacklokbot|startxfr|stateful-wombot|streamnativebot|thelinuxfoundation|thinkbotbot|ti-srebot|titanium-octobot|travisbuddy|tremorbot|twbs-grunt|unownbot|vmwghbot|vsxen|waxobot|weaveworksbot|web-flow|weblate|wingetbot|yahoocla|zephyr-github|zephyrbot|actions.*|claassistant.*|cncf-bot.*|codecov.*|coderabbit.*|copilot.*|dependabot.*|github .*|github-action.*|imgbot.*|jenkins-.*|k8s-.*|mergify.*|qodo-.*|snyk.*|strimzi.*|svc.*|travis.*bot|prom.*bot|promptless.*|.*-bot|.*-robot|.*bot-.*|.*\[.*bot\].*|.*ci.*bot|.*cla.*bot.*|.*autobot|.*buildbot.*|.*copybara.*|.*renovate.*|.*envoy-filter-example.*|.*automat.*|.*agent|.*-ci|.*-gerrit|.*-infra|.*-jenkins|.*-release|.*-service.*|.*-team.*|.*-testing|.* bot|.* ci|.* team|.* releaser|.*machine account.*)$') -- devstats bots
       and actor.login not like '%-bot'
       and actor.login not like '%-robot'
       and actor.login not like 'bot-%'

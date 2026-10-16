@@ -56,7 +56,8 @@
       'runmedev', 'tokenetes', 'bootc-dev', 'composefs', 'kubefleet-dev', 'meshery-extensions', 'opentofu',
       'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI',
       'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'velero-io', 'openeverest', 'nmstate',
-      'higress-group', 'llm-d', 'thanos-community', 'kube-bind', 'CurvineIO', 'kbind-dev', 'sdcio', 'iptecharch', 'ray-project'
+      'higress-group', 'llm-d', 'thanos-community', 'kube-bind', 'CurvineIO', 'kbind-dev', 'sdcio', 'iptecharch', 'ray-project',
+      'praxis-proxy', 'ai-runway'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -149,7 +150,9 @@
       'htgc/fluent-plugin-kafka', 'kazegusuri/fluent-plugin-prometheus', 'kiyoto/fluent-plugin-grok-parser',
       'okahashi117/fluent-plugin-winevtlog', 'repeatedly/fluent-plugin-kafka', 'repeatedly/fluent-plugin-prometheus',
       'repeatedly/fluent-plugin-winevtlog', 'heptio/velero-csi-plugin', 'heptio/velero-plugin-example',
-      'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel'
+      'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel',
+      'shaneutt/praxis', 'kaito-project/airunway', 'kaito-project/kubeairunway', 'Azure/kuberunway',
+      'sozercan/kube-foundry'
     )
   )
   and repo.name not in (

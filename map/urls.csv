@@ -20,6 +20,7 @@ ADI pyadi-iio,wiki.analog.com/resources/tools-software/linux-software/pyadi-iio
 AFL++,aflplus.plus
 AGL,automotivelinux.org
 AI,github.com/microsoft/AI
+AI Runway,ai-runway.github.io/airunway
 AIF360,github.com/IBM/AIF360
 AIX360,github.com/IBM/AIX360
 ALAppExtensions,github.com/microsoft/ALAppExtensions
@@ -875,6 +876,7 @@ PowerShell,microsoft.com/powershell
 PowerStig,github.com/microsoft/PowerStig
 PowerToys,github.com/microsoft/PowerToys
 Pravega,pravega.io
+Praxis,praxis.fast
 Project ACRN,projectacrn.org
 Project Marquez,marquezproject.ai
 Project Tofino,mozilla.github.io/tofino

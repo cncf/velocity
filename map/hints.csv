@@ -104,6 +104,7 @@ Azure/eraser,Eraser
 Azure/fleet,KubeFleet
 Azure/fleet-networking,KubeFleet
 Azure/kaito,KAITO
+Azure/kuberunway,AI Runway
 Azure/sonic-py-swsssdk,Azure SDKs
 Azure/vscode-kubernetes-tools,VS Code Kubernetes Tools
 BuoyantIO/linkerd,Linkerd
@@ -854,6 +855,7 @@ aenix-io/kubernetes-in-kubernetes,CozyStack
 aenix-io/talm,CozyStack
 aenix-io/talos-bootstrap,CozyStack
 aeniz-io/cozystack,CozyStack
+ai-runway/airunway,AI Runway
 airbnb/caravel,Superset
 airbnb/enzyme,Enzyme
 airbnb/lottie-android,Lottie
@@ -1849,6 +1851,8 @@ jozu-ai/gh-kit-setup,KitOps
 jozu-ai/homebrew-kitops,KitOps
 jozu-ai/kitops,KitOps
 jozu-ai/pykitops,KitOps
+kaito-project/airunway,AI Runway
+kaito-project/kubeairunway,AI Runway
 kazegusuri/fluent-plugin-prometheus,Fluentd
 kcl-lang/crossplane-kcl,Crossplane
 kcp-dev/edge-mc,Kubestellar
@@ -3538,6 +3542,7 @@ pndaproject/pnda-heat-templates,PNDA
 pndaproject/red-pnda,PNDA
 ppatierno/barnabas,Strimzi
 ppatierno/kaas,Strimzi
+praxis-proxy/praxis,Praxis
 projectatomic/skopeo,Podman Container Tools
 projectkudu/AzureFunctions,AZF
 projectkudu/AzureFunctionsPortal,AZF
@@ -3618,8 +3623,10 @@ robusta-dev/holmesgpt,HolmesGPT
 robusta-dev/holmesgpt-community-toolsets,HolmesGPT
 robusta-dev/homebrew-holmesgpt,HolmesGPT
 second-state/SSVM,WasmEdge Runtime
+shaneutt/praxis,Praxis
 shizhMSFT/oras,ORAS
 solo-io/gloo,kgateway
+sozercan/kube-foundry,AI Runway
 spdx/license-coverage-grader,SPDX
 spdx/license-list,SPDX
 spdx/license-list-XML,SPDX
