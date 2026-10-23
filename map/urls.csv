@@ -62,6 +62,7 @@ Adobe React Spectrum,react-spectrum.adobe.com
 Aeraki Mesh,aeraki.net
 Agent Governance Toolkit,github.com/microsoft/agent-governance-toolkit
 Agent Package Manager,github.com/microsoft/apm
+Agent Substrate,groups.google.com/g/ate-dev
 Agones,agones.dev
 AirSim,github.com/Microsoft/AirSim
 Airflow,airflow.incubator.apache.org
@@ -775,6 +776,7 @@ OpenMAMA,openmama.org
 OpenMMLab,github.com/open-mmlab
 OpenMetrics,openmetrics.io
 OpenRCT2,openrct2.website
+OpenRL,github.com/gke-labs/open-rl
 OpenSDS,opensds.io
 OpenSSL,openssl.org
 OpenSearch Project,opensearch.org
