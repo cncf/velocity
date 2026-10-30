@@ -57,7 +57,8 @@
       'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev', 'xregistry', 'CloudNativeAI',
       'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'velero-io', 'openeverest', 'nmstate',
       'higress-group', 'llm-d', 'thanos-community', 'kube-bind', 'CurvineIO', 'kbind-dev', 'sdcio',
-      'iptecharch', 'ray-project', 'praxis-proxy', 'ai-runway', 'agent-substrate'
+      'iptecharch', 'ray-project', 'praxis-proxy', 'ai-runway', 'agent-substrate',
+      'agent-substrate-plugins'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -152,7 +153,8 @@
       'repeatedly/fluent-plugin-winevtlog', 'heptio/velero-csi-plugin', 'heptio/velero-plugin-example',
       'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel',
       'shaneutt/praxis', 'kaito-project/airunway', 'kaito-project/kubeairunway', 'Azure/kuberunway',
-      'sozercan/kube-foundry', 'gke-labs/open-rl'
+      'sozercan/kube-foundry', 'gke-labs/open-rl', 'vmware-tanzu/vm-operator', 'google/gvisor',
+      'google/gvisor-website', 'google/gvisor-containerd-shim'
     )
   )
   and repo.name not in (

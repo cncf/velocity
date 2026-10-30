@@ -78,8 +78,9 @@ where
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
       'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem', 'agones-dev', 'kai-scheduler', 'velero-io',
-      'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind', 'CurvineIO',
-      'sdcio', 'iptecharch', 'ray-project', 'praxis-proxy', 'ai-runway', 'agent-substrate'
+      'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind',
+      'CurvineIO', 'sdcio', 'iptecharch', 'ray-project', 'praxis-proxy', 'ai-runway',
+      'agent-substrate', 'agent-substrate-plugins'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -175,7 +176,8 @@ where
       'repeatedly/fluent-plugin-winevtlog', 'heptio/velero-csi-plugin', 'heptio/velero-plugin-example',
       'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel',
       'shaneutt/praxis', 'kaito-project/airunway', 'kaito-project/kubeairunway', 'Azure/kuberunway',
-      'sozercan/kube-foundry', 'gke-labs/open-rl'
+      'sozercan/kube-foundry', 'gke-labs/open-rl', 'vmware-tanzu/vm-operator', 'google/gvisor',
+      'google/gvisor-website', 'google/gvisor-containerd-shim'
     )
   )
   and repo.name not in (

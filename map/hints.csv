@@ -1624,6 +1624,9 @@ google/grumpy,Grumpy
 google/gson,google-gson
 google/guava,Guava
 google/guetzli,Google Perceptual JPEG encoder
+google/gvisor,gVisor
+google/gvisor-containerd-shim,gVisor
+google/gvisor-website,gVisor
 google/ko,ko
 google/kubeflow,Kubeflow
 google/martian,Martian Proxy
@@ -3733,6 +3736,7 @@ vmware-tanzu/velero-plugin-for-csi,Velero
 vmware-tanzu/velero-plugin-for-gcp,Velero
 vmware-tanzu/velero-plugin-for-microsoft-azure,Velero
 vmware-tanzu/velero-plugin-for-vsphere,Velero
+vmware-tanzu/vm-operator,vm-api
 vmware/docker-volume-vsphere,VMware vSphere
 vmware/govmomi,VMware SDKs
 vmware/harbor,Harbor

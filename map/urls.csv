@@ -1287,6 +1287,7 @@ flutter_boost,github.com/alibaba/flutter_boost
 form-render,github.com/alibaba/form-render
 fossasia,fossasia.org
 gRPC,grpc.io
+gVisor,gvisor.dev
 garak,garak.ai
 gci,github.com/daixiang0/gci
 git,github.com/microsoft/git
@@ -1441,6 +1442,7 @@ vLLM,github.com/vllm-project
 verona,github.com/microsoft/verona
 vgstation13,github.com/vgstation-coders/vgstation13
 vision-ai-developer-kit,github.com/microsoft/vision-ai-developer-kit
+vm-api,github.com/vmware-tanzu/vm-operator
 vscode-arduino,github.com/microsoft/vscode-arduino
 vscode-azure-iot-toolkit,github.com/microsoft/vscode-azure-iot-toolkit
 vscode-azuretools,github.com/microsoft/vscode-azuretools
