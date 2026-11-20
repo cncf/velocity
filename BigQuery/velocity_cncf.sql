@@ -79,8 +79,8 @@ where
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
       'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem', 'agones-dev', 'kai-scheduler', 'velero-io',
       'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind',
-      'CurvineIO', 'sdcio', 'iptecharch', 'ray-project', 'praxis-proxy', 'ai-runway',
-      'agent-substrate', 'agent-substrate-plugins'
+      'CurvineIO', 'sdcio', 'iptecharch', 'ray-project', 'kuberay-project', 'praxis-proxy', 'ai-runway',
+      'agent-substrate', 'agent-substrate-plugins', 'k2s-project', 'vm-api', 'openrl-dev', 'gvisor'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',

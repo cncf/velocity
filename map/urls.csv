@@ -497,7 +497,7 @@ JetBrains,jetbrains.com
 Joomla,joomla.org
 Juju,juju.is
 Julia,julialang.org
-K2s,siemens-healthineers.github.io/K2s/
+K2s,k2s-project.github.io/k2s/
 K3s,k3s.io
 K8GB,github.com/AbsaOSS/k8gb
 K8sGPT,k8sgpt.ai
@@ -776,7 +776,7 @@ OpenMAMA,openmama.org
 OpenMMLab,github.com/open-mmlab
 OpenMetrics,openmetrics.io
 OpenRCT2,openrct2.website
-OpenRL,github.com/gke-labs/open-rl
+OpenRL,openrl.dev
 OpenSDS,opensds.io
 OpenSSL,openssl.org
 OpenSearch Project,opensearch.org

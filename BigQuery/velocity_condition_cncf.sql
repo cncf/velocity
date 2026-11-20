@@ -49,8 +49,8 @@
       'opentofu', 'opentffoundation', 'openterraform', 'cadence-workflow', 'kagent-dev', 'urunc-dev',
       'xregistry', 'CloudNativeAI', 'modelpack', 'oauth2-proxy', 'oxia-db', 'cedar-policy', 'project-dalec',
       'velero-io', 'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community',
-      'kube-bind', 'sdcio', 'iptecharch', 'ray-project', 'praxis-proxy', 'ai-runway',
-      'agent-substrate', 'agent-substrate-plugins'
+      'kube-bind', 'sdcio', 'iptecharch', 'ray-project', 'kuberay-project', 'praxis-proxy', 'ai-runway',
+      'agent-substrate', 'agent-substrate-plugins', 'k2s-project', 'vm-api', 'openrl-dev', 'gvisor'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',

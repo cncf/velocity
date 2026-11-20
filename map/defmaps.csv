@@ -310,6 +310,7 @@ graphql,GraphQL
 grpc,gRPC
 grpc-ecosystem,gRPC
 guardian,The Guardian
+gvisor,gVisor
 headlamp-k8s,Headlamp
 headlight-k8s,Headlamp
 helm,Helm
@@ -347,6 +348,7 @@ joomla,Joomla
 jsdelivr,jsDelivr
 k0sproject,k0s
 k14s,Carvel
+k2s-project,K2s
 k3s-io,K3s
 k8gb-io,K8GB
 k8sgateway,kgateway
@@ -400,6 +402,7 @@ kubeedge,KubeEdge
 kubefleet-dev,KubeFleet
 kubeflow,Kubeflow
 kubeovn,Kube-OVN
+kuberay-project,KubeRay
 kubereboot,Kured
 kuberhealthy,Kuberhealthy
 kubernetes,Kubernetes
@@ -534,6 +537,7 @@ openkruise,OpenKruise
 openmainframeproject,Open Mainframe
 openmetrics,OpenMetrics
 opennetworkinglab,Open Networking Laboratory
+openrl-dev,OpenRL
 opensds,OpenSDS
 opensearch-project,OpenSearch Project
 opensecuritycontroller,Open Security Controller
@@ -705,6 +709,7 @@ vgstation-coders,vgstation13
 virtual-kubelet,Virtual Kubelet
 vitessio,Vitess
 vllm-project,vLLM
+vm-api,vm-api
 vmware,VMware
 voidlinux,The Void distribution
 volcano-sh,Volcano
