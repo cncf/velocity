@@ -80,7 +80,8 @@ where
       'openchoreo', 'choreo-idp', 'CoHDI', 'istio-ecosystem', 'agones-dev', 'kai-scheduler', 'velero-io',
       'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community', 'kube-bind',
       'CurvineIO', 'sdcio', 'iptecharch', 'ray-project', 'kuberay-project', 'praxis-proxy', 'ai-runway',
-      'agent-substrate', 'agent-substrate-plugins', 'k2s-project', 'vm-api', 'openrl-dev', 'gvisor'
+      'agent-substrate', 'agent-substrate-plugins', 'k2s-project', 'vm-api', 'openrl-dev', 'gvisor',
+      'caipe-io', 'matrixhub-ai'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',
@@ -177,7 +178,8 @@ where
       'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel',
       'shaneutt/praxis', 'kaito-project/airunway', 'kaito-project/kubeairunway', 'Azure/kuberunway',
       'sozercan/kube-foundry', 'gke-labs/open-rl', 'vmware-tanzu/vm-operator', 'google/gvisor',
-      'google/gvisor-website', 'google/gvisor-containerd-shim'
+      'google/gvisor-website', 'google/gvisor-containerd-shim', 'cnoe-io/caipe-cli',
+      'cnoe-io/agent-chat-cli', 'cnoe-io/ai-platform-engineering'
     )
   )
   and repo.name not in (

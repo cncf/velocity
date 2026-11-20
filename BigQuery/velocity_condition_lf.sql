@@ -58,7 +58,7 @@
       'oxia-db', 'cedar-policy', 'project-dalec', 'interlink-hq', 'velero-io', 'openeverest', 'nmstate',
       'higress-group', 'llm-d', 'thanos-community', 'kube-bind', 'CurvineIO', 'kbind-dev', 'sdcio',
       'iptecharch', 'ray-project', 'kuberay-project', 'praxis-proxy', 'ai-runway', 'agent-substrate',
-      'agent-substrate-plugins', 'k2s-project', 'vm-api', 'openrl-dev', 'gvisor'
+      'agent-substrate-plugins', 'k2s-project', 'vm-api', 'openrl-dev', 'gvisor', 'caipe-io', 'matrixhub-ai'
     )
     OR repo.name IN (
       'joeythesaint/cgl-specification','cncf/cross-cloud', 'deislabs/oras', 'shizhMSFT/oras',
@@ -154,7 +154,8 @@
       'jozu-ai/homebrew-kitops', 'projectatomic/skopeo', 'stateful/vscode-runme', 'vmware-tanzu/homebrew-carvel',
       'shaneutt/praxis', 'kaito-project/airunway', 'kaito-project/kubeairunway', 'Azure/kuberunway',
       'sozercan/kube-foundry', 'gke-labs/open-rl', 'vmware-tanzu/vm-operator', 'google/gvisor',
-      'google/gvisor-website', 'google/gvisor-containerd-shim'
+      'google/gvisor-website', 'google/gvisor-containerd-shim', 'cnoe-io/caipe-cli',
+      'cnoe-io/agent-chat-cli', 'cnoe-io/ai-platform-engineering'
     )
   )
   and repo.name not in (

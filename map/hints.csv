@@ -1310,6 +1310,9 @@ cncf/wg-networking,CNCF
 cncf/wg-serverless,CNCF
 cncf/wg-serverless-workflow,Serverless Workflow
 cncf/wg-storage,CNCF
+cnoe-io/agent-chat-cli,CAIPE
+cnoe-io/ai-platform-engineering,CAIPE
+cnoe-io/caipe-cli,CAIPE
 cocos2d/cocos2d-js,Cocos2d-js
 cocos2d/cocos2d-x,Cocos2d-x
 codeaurora-unofficial/device-qcom-sepolicy,Code Aurora
