@@ -51,7 +51,8 @@
       'velero-io', 'openeverest', 'nmstate', 'higress-group', 'llm-d', 'thanos-community',
       'kube-bind', 'sdcio', 'iptecharch', 'ray-project', 'kuberay-project', 'praxis-proxy', 'ai-runway',
       'agent-substrate', 'agent-substrate-plugins', 'k2s-project', 'vm-api', 'openrl-dev', 'gvisor',
-      'caipe-io', 'matrixhub-ai'
+      'caipe-io', 'matrixhub-ai', 'strimzi-incubator', 'dapr-sandbox', 'konveyor-ecosystem', 'kubeslice-ent',
+      'kairos-community', 'oscal-compass-demos', 'flatcar-hub', 'ai-openshell'
     )
     or repo.name in (
       'docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'cncf/sig-app-delivery',

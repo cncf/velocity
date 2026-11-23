@@ -118,6 +118,7 @@ aeraki-mesh,Aeraki Mesh
 agent-substrate,Agent Substrate
 agent-substrate-plugins,Agent Substrate
 agones-dev,Agones
+ai-openshell,OpenShell
 ai-runway,AI Runway
 akka,Akka
 alibaba,Alibaba
@@ -233,6 +234,7 @@ cubefs,CubeFS
 curiefense,Curiefense
 danos,DANOS
 dapr,Dapr
+dapr-sandbox,Dapr
 dart-lang,Dart
 deepin-community,Deepin Community
 denoland,Deno
@@ -273,6 +275,7 @@ falcosecurity,Falco
 finos,FINOS
 firebase,Firebase
 flatcar,Flatcar
+flatcar-hub,Flatcar
 flatcar-linux,Flatcar
 flathub,Flathub
 fledge-iot,Fledge
@@ -357,6 +360,7 @@ k8sgpt-ai,K8sGPT
 k8up-io,K8up
 kagent-dev,kagent
 kai-scheduler,KAI-Scheduler
+kairos-community,Kairos
 kairos-io,Kairos
 kaito-project,KAITO
 kanisterio,Kanister
@@ -379,6 +383,7 @@ knative-sandbox,Knative
 ko-build,ko
 kolyma-labs,Kolyma Labs
 konveyor,Konveyor
+konveyor-ecosystem,Konveyor
 koordinator-sh,Koordinator
 koverstreet,bcachefs
 kptdev,kpt
@@ -426,6 +431,7 @@ kubernetes-test,Kubernetes
 kubernetes-tools,Kubernetes
 kubescape,Kubescape
 kubeslice,Kubeslice
+kubeslice-ent,Kubeslice
 kubestellar,Kubestellar
 kubevela,KubeVela
 kubevirt,KubeVirt
@@ -567,6 +573,7 @@ operator-framework,Operator Framework
 oras-project,ORAS
 ortelius,Ortelius
 oscal-compass,TrestleGRC
+oscal-compass-demos,TrestleGRC
 osmandapp,Osmand
 ovn-kubernetes,OVN-Kubernetes
 ovn-org,OVN-Kubernetes
@@ -666,6 +673,7 @@ spree,Spree
 spring-projects,Spring
 starfive-tech,StarFive Linux
 strimzi,Strimzi
+strimzi-incubator,Strimzi
 submariner-io,Submariner
 superedge,SuperEdge
 sustainable-computing-io,Kepler
